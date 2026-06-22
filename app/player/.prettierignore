@@ -1,0 +1,4 @@
+# build スクリプトが生成する解決テーブル（整形は JSON.stringify 出力に従う。
+# prettier は短い配列を1行に畳むため再生成のたび差分が出る）。
+data/sprites.json
+data/backgrounds.json

@@ -28,6 +28,24 @@ export const VoiceRef = z.object({
 })
 export type VoiceRef = z.infer<typeof VoiceRef>
 
+// ---- 立ち絵/背景 解決テーブル（build-defs が _SPRSET/_BGSET から生成。resolve* の入力）----
+// _SPRSET.txt の1ブロック。code に body/face の suffix を連結すると素材コードになる
+// （例 code "CH01B_01_02" + body "_003_02" → "CH01B_01_02_003_02"）。
+// body/face のキーは原データ通り先頭 "・" 付きラベル（シーン note と直結するため）。
+export const SprsetEntry = z.object({
+  code: z.string(), // "CH01B_01_02"
+  body: z.record(z.string(), z.string()), // "・私服０２" → "_003_02"
+  face: z.record(z.string(), z.tuple([z.string(), z.number(), z.number()])), // "・にっこり１" → ["_102_01", 342, 84]
+})
+export type SprsetEntry = z.infer<typeof SprsetEntry>
+
+export const SprsetTable = z.record(z.string(), SprsetEntry) // prefixLabel → entry
+export type SprsetTable = z.infer<typeof SprsetTable>
+
+// _BGSET.txt: note ラベル（"#背景・喫茶店（夕）" など）→ [id] コード（"BG20_02_00"）。
+export const BgsetTable = z.record(z.string(), z.string())
+export type BgsetTable = z.infer<typeof BgsetTable>
+
 // ---- ビート（地の文 / セリフ）----
 export const NarrationBeat = z.object({
   kind: z.literal('narration'),
