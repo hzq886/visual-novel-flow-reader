@@ -1,6 +1,7 @@
 node_modules/
 dist/
 .DS_Store
+.playwright-mcp/
 data_extract/CG/md_gra_cg/
 data_extract/CG/md_gra2_cg/
 data_extract/audio/md_cv_audio/
