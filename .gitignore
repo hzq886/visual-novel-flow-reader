@@ -1,0 +1,11 @@
+node_modules/
+dist/
+.DS_Store
+data_extract/CG/md_gra_cg/
+data_extract/CG/md_gra2_cg/
+data_extract/audio/md_cv_audio/
+data_extract/audio/md_se_audio/
+data_extract/audio/md_bgm_audio/
+original_game/
+*.med
+app/player/public/assets/

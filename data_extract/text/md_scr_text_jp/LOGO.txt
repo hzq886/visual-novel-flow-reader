@@ -1,0 +1,7 @@
+[text] d
+[text] 
+[id] SGGG
+[id] LOGO_02
+[id] BRANDTITLE_CALL:BRAND_CALL
+[id] STITLE:TITLE_SETUP
+[id] LOGO

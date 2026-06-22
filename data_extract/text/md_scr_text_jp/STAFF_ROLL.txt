@@ -1,0 +1,50 @@
+[text] (�
+[id] S000
+[id] ;
+[text] 『催眠術４』
+[text] －　キャスト　－
+[text] 古橋綾菜　如月吹
+[text] 古橋涼菜　榛名れん
+[text] 楠木翼　蒼乃むすび
+[text] 望月真琴　綾音まこ
+[text] 楠木楓　一色ヒカル
+[text] 望月早紀　手塚りょうこ
+[text] 助清
+[text] 新月
+[text] 辺銀あでり
+[text] 白井綾乃
+[text] 桜井ゆうき　榎津まお
+[text] 桜井進　中田純
+[text] －　キャラクターデザイン・原画　－
+[text] 吉野恵子
+[text] －　企画・シナリオ　－
+[text] NATORI烏賊
+[text] －　シナリオ協力　－
+[text] 屋島狸
+[text] シャア専用◎
+[text] 杏仁みかん
+[text] －　グラフィック　－
+[text] 鉄の介
+[text] 眞人
+[text] shion
+[text] －　プログラム　－
+[text] マーブルソフト
+[text] －　演出・システム　－
+[text] 雪見酒
+[text] 夢堕丸
+[text] －　SPECIAL THANKS　－
+[text] 松井（CATTLEYA）
+[text] 雪秀（CATTLEYA）
+[text] ピカリ
+[text] －　音楽　－
+[text] 一色由比（Sound TERRA）
+[text] －　音声収録　－
+[id] FEATHERED SOUND STUDIO
+[text] －　監督　－
+[text] NATORI烏賊
+[text] －　販売　－
+[text] 株式会社フォルテック
+[text] －　制作　－
+[text] 筆柿そふと
+[text] (c) 2019 筆柿そふと
+[id] SMAIN:CLEAR_GAME

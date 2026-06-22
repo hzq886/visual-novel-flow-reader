@@ -1,0 +1,3 @@
+[ascii] BG_BLACK
+[ascii] STITLE:TITLE_OPEN_SKIP_MUSIC
+[ascii] EXTRA_TOP

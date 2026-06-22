@@ -1,0 +1,50 @@
+[cn] (�
+[ascii] S000
+[ascii] ;
+[cn] 『催眠术４』
+[cn] －　演员　－
+[cn] 古桥绫菜　如月吹
+[cn] 古桥凉菜　榛名连
+[cn] 楠木翼　苍乃结
+[cn] 望月真琴　绫音真琴
+[cn] 楠木枫　一色光
+[cn] 望月早纪　手冢凉子
+[cn] 助清
+[cn] 新月
+[cn] 边银阿德里
+[cn] 白井绫乃
+[cn] 桜井悠希 榎津真央
+[cn] 桜井进 中田纯
+[jp] －　キャラクターデザイン・原画　－
+[cn] 吉野惠子
+[jp] －　企画・シナリオ　－
+[cn] NATORI乌贼
+[cn] － 剧本协力 －
+[cn] 屋岛狸
+[cn] シャア专用◎
+[cn] 杏仁橘
+[cn] － 图形 －
+[cn] 铁之介
+[cn] 真人
+[ascii] shion
+[cn] － 程序 －
+[ascii] MarbleSoft
+[jp] －　演出・システム　－
+[cn] 雪见酒
+[cn] 梦堕丸
+[cn] － 特别鸣谢 －
+[cn] 松井（CATTLEYA）
+[cn] 雪秀（CATTLEYA）
+[cn] ピカリ
+[cn] － 音乐 －
+[cn] 一色由比（Sound TERRA）
+[cn] － 音频录制 －
+[ascii] FEATHERED SOUND STUDIO
+[cn] － 导演 －
+[cn] NATORI塆懐
+[cn] － 销售 －
+[cn] 株式会社Forteck
+[cn] － 制作 －
+[cn] 笔柿そふと
+[cn] (c) 2019 笔柿そふと
+[ascii] SMAIN:CLEAR_GAME

@@ -1,0 +1,14 @@
+[text] 
+[text] 
+[text] 
+[text] 
+[text] "
+[text] 
+[text] (
+[text] -
+[id] MENU02_N
+[id] CBLMAP_SPECIAL_MENU
+[id] STITLE:TITLE_OPEN_SKIP_MUSIC
+[id] CANCEL
+[id] SPECIAL_TOP
+[id] SPECIAL_TOP

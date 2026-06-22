@@ -1,0 +1,14 @@
+[jp] 
+[jp] 
+[jp] 
+[jp] 
+[jp] "
+[jp] 
+[jp] (
+[jp] -
+[ascii] MENU02_N
+[ascii] CBLMAP_SPECIAL_MENU
+[ascii] STITLE:TITLE_OPEN_SKIP_MUSIC
+[ascii] CANCEL
+[ascii] SPECIAL_TOP
+[ascii] SPECIAL_TOP

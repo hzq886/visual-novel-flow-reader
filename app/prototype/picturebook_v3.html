@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>シネマ字幕リーダー — 実CG版</title>
+<style>
+  :root{ --gold:#e9c07a; --teal:#7fc0bd; --rose:#e58a78; }
+  *{box-sizing:border-box;-webkit-tap-highlight-color:transparent;margin:0;}
+  html,body{height:100%;overflow:hidden;background:#000;}
+  body{font-family:"PingFang SC","Source Han Sans SC",system-ui,sans-serif;
+    display:flex;align-items:center;justify-content:center;user-select:none;color:#fff;}
+  #book{position:relative;width:min(100vw,1100px);height:min(100vh,619px);aspect-ratio:16/9;
+    overflow:hidden;background:#000;box-shadow:0 30px 90px rgba(0,0,0,.7);}
+
+  /* ── CG（全画面・クリーン。差分=A/Bクロスフェード、Ken Burnsで微速ドリフト） ── */
+  #cglayer{position:absolute;inset:0;transition:filter 2.4s ease;}
+  .cg{position:absolute;inset:0;background-size:cover;background-position:center 18%;
+    opacity:0;transition:opacity 1.4s ease;will-change:opacity,transform;}
+  .cg.on{opacity:1;}
+  @keyframes kb{from{transform:scale(1.015)}to{transform:scale(1.11)}}
+  .cg.kb{animation:kb 22s linear forwards;}
+
+  /* ── 映画的フレーミング：上下の極薄バー＋下部だけのグラデ（顔は覆わない） ── */
+  #barTop{position:absolute;top:0;left:0;right:0;height:7%;z-index:6;pointer-events:none;
+    background:linear-gradient(180deg,rgba(0,0,0,.82),rgba(0,0,0,0));}
+  #scrim{position:absolute;left:0;right:0;bottom:0;height:34%;z-index:6;pointer-events:none;
+    background:linear-gradient(0deg,rgba(0,0,0,.74) 0%,rgba(0,0,0,.5) 38%,rgba(0,0,0,0) 100%);}
+  #vig{position:absolute;inset:0;z-index:6;pointer-events:none;box-shadow:inset 0 0 200px 30px rgba(0,0,0,.45);}
+
+  /* ── 字幕（下部・中央寄せ・映画字幕の体裁） ── */
+  #sub{position:absolute;left:0;right:0;bottom:7.5%;z-index:12;text-align:center;
+    padding:0 9%;opacity:0;transform:translateY(10px);transition:opacity .55s ease,transform .55s cubic-bezier(.2,.8,.2,1);}
+  #sub.show{opacity:1;transform:none;}
+  #sub .who{display:inline-block;font-size:clamp(11px,1.4vw,14px);letter-spacing:.34em;
+    margin-bottom:.55em;padding:2px 0;color:var(--gold);font-weight:600;
+    text-shadow:0 2px 8px rgba(0,0,0,.9);}
+  #sub .who::before,#sub .who::after{content:"—";opacity:.5;margin:0 .8em;}
+  #sub .say{font-size:clamp(19px,2.55vw,30px);line-height:1.55;font-weight:600;letter-spacing:.04em;
+    color:#fff;text-shadow:0 2px 10px rgba(0,0,0,.95),0 0 3px rgba(0,0,0,.85);}
+  #sub.narr .say{font-weight:400;color:#f3ead8;font-style:normal;letter-spacing:.1em;
+    font-family:"Songti SC","Noto Serif SC",serif;}
+
+  /* ── HUD（最小） ── */
+  #meta{position:absolute;top:2.2%;right:2.2%;z-index:14;text-align:right;font-size:11px;
+    color:rgba(255,255,255,.7);letter-spacing:.06em;line-height:1.7;text-shadow:0 1px 4px #000;}
+  #meta b{color:var(--gold);font-weight:600;}
+  #voice{display:inline-flex;gap:3px;align-items:flex-end;height:11px;margin-left:5px;}
+  #voice span{width:3px;background:var(--teal);border-radius:2px;height:3px;}
+  #voice.on span{animation:vb .5s infinite ease-in-out;}
+  #voice span:nth-child(2){animation-delay:.1s}#voice span:nth-child(3){animation-delay:.2s}#voice span:nth-child(4){animation-delay:.3s}
+  @keyframes vb{0%,100%{height:3px}50%{height:11px}}
+  #dots{position:absolute;left:50%;transform:translateX(-50%);bottom:2.6%;z-index:14;display:flex;gap:6px;}
+  #dots i{width:6px;height:6px;border-radius:50%;background:rgba(255,255,255,.32);transition:.4s;}
+  #dots i.on{background:var(--gold);transform:scale(1.4);}
+  #hint{position:absolute;right:2.5%;bottom:2.4%;z-index:14;font-size:11px;letter-spacing:.14em;
+    color:rgba(255,255,255,.7);text-shadow:0 1px 4px #000;animation:fd 2.8s infinite;}
+  @keyframes fd{0%,100%{opacity:.45}50%{opacity:.95}}
+
+  /* ── 表紙 ── */
+  #cover{position:absolute;inset:0;z-index:30;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:18px;
+    background-size:cover;background-position:center;cursor:pointer;transition:opacity 1s,visibility 1s;}
+  #cover::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.3),rgba(0,0,0,.62));}
+  #cover.hide{opacity:0;visibility:hidden;}
+  #cover>*{position:relative;z-index:1;}
+  #cover .sub{letter-spacing:.34em;font-size:12px;color:rgba(255,255,255,.85);text-shadow:0 2px 8px #000;}
+  #cover h1{font-family:"Songti SC",serif;font-size:clamp(34px,6vw,58px);letter-spacing:.2em;font-weight:600;text-shadow:0 4px 26px rgba(0,0,0,.8);}
+  #cover .go{font-size:12px;letter-spacing:.3em;background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.5);
+    backdrop-filter:blur(6px);padding:12px 30px;border-radius:30px;}
+</style>
+</head>
+<body>
+<div id="book">
+  <div id="cglayer"><div class="cg" id="cgA"></div><div class="cg" id="cgB"></div></div>
+  <div id="barTop"></div><div id="vig"></div><div id="scrim"></div>
+  <div id="sub"><div class="who"></div><div class="say"></div></div>
+  <div id="meta">CG <b id="m-cg">—</b><br>语音 <b id="m-voice">—</b><span id="voice"><span></span><span></span><span></span><span></span></span></div>
+  <div id="dots"></div><div id="hint">轻触画面 · 继续 ▸</div>
+  <div id="cover"><div class="sub">シネマ字幕リーダー · 実CG</div><h1>三个人的家</h1><div class="go">轻触开始</div></div>
+</div>
+<script>
+const CG=n=>`cg_out/${n}.png`;
+const BEATS=[
+ // ── 001_PRO001A 幼少回想・三人（過去）──
+ {scene:"001_PRO001A",kind:"narration", text:"……回忆起小时候的事情。", cg:"EV003_01", gray:1},
+ {scene:"001_PRO001A",kind:"narration", text:"失去某样东西，是一件可怕的事情。", cg:"EV003_01", gray:1},
+ {scene:"001_PRO001A",kind:"narration", text:"所爱之人，珍视之物，幸福的日常——因为失去它们，留下了一个空洞。", cg:"EV003_01", gray:.55},
+ {scene:"001_PRO001A",kind:"line", who:"古桥绫菜", color:"#e89bb0", text:"没关系的……因为我们在这里……", voice:"AYAN_001_PRO001A_001", cg:"EV003_01", gray:0},
+ {scene:"001_PRO001A",kind:"line", who:"古桥凉菜", color:"#8fa6e0", text:"所以，我们要一起生活！", voice:"SUZU_001_PRO001A_001", cg:"EV003_02", gray:0},
+ {scene:"001_PRO001A",kind:"line", who:"古桥凉菜", color:"#8fa6e0", text:"姐姐，我和和树三个人，绝对不会分开！", voice:"SUZU_001_PRO001A_002", cg:"EV003_02", gray:0},
+ {scene:"001_PRO001A",kind:"narration", text:"温柔，和坚强。这是从小，我对姐姐们怀抱的印象。", cg:"BG02_01_00", gray:0},
+ {scene:"001_PRO001A",kind:"narration", text:"于是，三个人的生活，开始了。", cg:"BG01_01_00", gray:0},
+ // ── 001_PRO001B 幼少回想・楠木翼（過去）──
+ {scene:"001_PRO001B",kind:"narration", text:"……新的住所，也渐渐习惯了。我一个人在公园里玩耍。", cg:"BG01_01_00", gray:.18},
+ {scene:"001_PRO001B",kind:"narration", text:"就是在那时，我认识了同龄的女孩——楠木翼。", cg:"BG01_01_00", gray:.18},
+ // ── 002_AYAN001A 綾菜との日常①・カフェ（現在）──
+ {scene:"002_AYAN001A",kind:"narration", text:"……回家的路上，我决定去绫姐姐工作的咖啡馆。", cg:"BG01_01_00", gray:0},
+ {scene:"002_AYAN001A",kind:"narration", text:"想知道关于那个郡山男人的事，想知道姐姐的真意。", cg:"BG01_01_00", gray:0},
+ {scene:"002_AYAN001A",kind:"line", who:"古桥绫菜", color:"#e89bb0", text:"哟，欢迎回来。和君。", voice:"AYAN_002_AYAN001A_001", cg:"BG02_01_00", gray:0},
+ {scene:"002_AYAN001A",kind:"narration", text:"对其他客人说『欢迎光临』，对我却说『欢迎回来』的绫姐姐。", cg:"BG02_01_00", gray:0},
+ {scene:"002_AYAN001A",kind:"line", who:"古桥绫菜", color:"#e89bb0", text:"已经到关门时间了，要帮你冲杯饮料吗？", voice:"AYAN_002_AYAN001A_002", cg:"BG02_02_00", gray:0},
+ {scene:"002_AYAN001A",kind:"line", who:"古桥和树", color:"#9ad0c8", text:"不用了，我来帮你收拾吧。", voice:"KAZU_002_AYAN001A_001", cg:"BG02_02_00", gray:0},
+];
+
+const cgA=document.getElementById('cgA'),cgB=document.getElementById('cgB'),cgl=document.getElementById('cglayer');
+let front=cgA,back=cgB,curCG=null,kbDir=true;
+function setCG(name){
+  if(name===curCG){return;}
+  curCG=name;
+  back.style.backgroundImage=`url(${CG(name)})`;
+  back.classList.remove('kb');void back.offsetWidth;          // reset KB anim
+  back.style.transformOrigin = kbDir?'30% 35%':'70% 40%'; kbDir=!kbDir;
+  back.classList.add('kb','on'); front.classList.remove('on');
+  [front,back]=[back,front];
+  document.getElementById('m-cg').textContent=name;
+}
+function setGray(g){ cgl.style.filter=`grayscale(${g}) saturate(${1.12-0.12*g}) brightness(${1-0.1*g})`; }
+
+let voiceOK='speechSynthesis' in window;
+function playVoice(b){
+  const v=document.getElementById('voice'),mv=document.getElementById('m-voice');
+  mv.textContent=b.voice||(b.kind==='narration'?'（旁白）':'—');
+  if(!b.text)return; v.classList.add('on');
+  if(voiceOK){try{speechSynthesis.cancel();
+    const u=new SpeechSynthesisUtterance(b.text.replace(/\n/g,'，'));
+    u.lang='zh-CN';u.rate=b.kind==='narration'?.9:1.0;u.pitch=b.kind==='line'?1.1:1;
+    u.onend=()=>v.classList.remove('on');speechSynthesis.speak(u);
+  }catch(e){setTimeout(()=>v.classList.remove('on'),2500);}}
+  else setTimeout(()=>v.classList.remove('on'),2500);
+}
+
+const sub=document.getElementById('sub'),whoEl=sub.querySelector('.who'),sayEl=sub.querySelector('.say');
+const dots=document.getElementById('dots');
+BEATS.forEach((_,i)=>{const d=document.createElement('i');if(i===0)d.classList.add('on');dots.appendChild(d);});
+let idx=-1,busy=false,curScene=null;
+function notifyScene(sc){ if(window.parent!==window && window.parent.onSceneFromPB){try{window.parent.onSceneFromPB(sc);}catch(e){}} }
+function render(i){
+  const b=BEATS[i];
+  if(b.scene!==curScene){curScene=b.scene;notifyScene(curScene);}
+  setCG(b.cg);setGray(b.gray);
+  // 字幕を一旦消してから差し替え（フェード）
+  sub.classList.remove('show');
+  setTimeout(()=>{
+    sub.classList.toggle('narr', b.kind==='narration');
+    if(b.kind==='line'){whoEl.style.display='';whoEl.textContent=b.who;whoEl.style.color=b.color;}
+    else{whoEl.style.display='none';}
+    sayEl.textContent=b.text;
+    sub.classList.add('show');
+  },260);
+  playVoice(b);
+  dots.querySelectorAll('i').forEach((d,k)=>d.classList.toggle('on',k===i));
+}
+function next(){if(busy)return;if(idx>=BEATS.length-1){document.getElementById('hint').textContent='— 終 —';return;}
+  busy=true;idx++;render(idx);setTimeout(()=>busy=false,360);}
+
+const cover=document.getElementById('cover'),book=document.getElementById('book');
+cover.style.backgroundImage=`url(${CG('BG01_01_00')})`;
+['EV003_01','EV003_02','BG02_01_00','BG01_01_00'].forEach(n=>{const im=new Image();im.src=CG(n);});
+cover.onclick=()=>{cover.classList.add('hide');setTimeout(next,650);};
+book.addEventListener('click',()=>{if(cover.classList.contains('hide'))next();});
+// 字幕タップで音声リプレイ
+sub.addEventListener('click',e=>{e.stopPropagation();if(idx>=0)playVoice(BEATS[idx]);});
+document.addEventListener('keydown',e=>{
+  if(e.key==='Tab'){e.preventDefault();if(window.parent!==window&&window.parent.toggleView)window.parent.toggleView();return;}
+  if([' ','Enter','ArrowRight'].includes(e.key)){e.preventDefault();cover.classList.contains('hide')?next():cover.click();}
+});
+
+// ── 親フレーム連携API：ノード図からの手動ジャンプ／現在シーン取得 ──
+window.gotoScene=function(sc){
+  const i=BEATS.findIndex(b=>b.scene===sc);
+  if(i<0)return false;
+  if(!cover.classList.contains('hide'))cover.classList.add('hide');
+  idx=i;busy=false;render(i);
+  document.getElementById('hint').textContent='轻触画面 · 继续 ▸';
+  return true;
+};
+window.getScene=function(){return curScene;};
+</script>
+</body>
+</html>

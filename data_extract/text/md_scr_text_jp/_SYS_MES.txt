@@ -1,0 +1,11 @@
+[id] #RULE_ETC
+[note] CONFIRM_SAVED:セーブしました
+[note] CONFIRM_EXIT:ゲームを終了しますか？
+[note] CONFIRM_KAISO:回想を終了しますか？
+[note] CONFIRM_TITLE:タイトルへ戻りますか？
+[note] CONFIRM_LOAD:ロードしますか？
+[note] CONFIRM_DELETE:削除しますか？
+[note] CONFIRM_OVERCOPY:上書きコピーしますか？
+[note] CONFIRM_OVERSAVE:上書きしますか？
+[text] CONFIRM_CHANGE_NAME:名前を変更しますか？
+[note] CONFIRM_CANTSAVE:通常セーブ不可ページです

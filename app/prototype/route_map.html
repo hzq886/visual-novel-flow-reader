@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>催眠4 — 全ルート・分岐マップ（ノードエディタ）</title>
+<style>
+  :root{
+    --bg:#13161c; --grid:#222834; --panel:#1b202a; --panel2:#222936;
+    --line:#3a4252; --txt:#e7ecf3; --dim:#8b97a8;
+    --common:#7b8696; --ayan:#e07a93; --suzu:#6f93e0; --tuba:#3fb6ad;
+    --mako:#b08ae8; --kaede:#e0a94f; --branch:#e9c07a; --end:#ffd166; --omake:#5d6571;
+  }
+  *{box-sizing:border-box;margin:0;-webkit-tap-highlight-color:transparent;}
+  html,body{height:100%;overflow:hidden;background:var(--bg);color:var(--txt);
+    font-family:"PingFang SC","Source Han Sans SC",system-ui,-apple-system,sans-serif;}
+  /* ── キャンバス（ドットグリッド） ── */
+  #canvas{position:absolute;inset:0;overflow:hidden;cursor:grab;
+    background-color:var(--bg);
+    background-image:radial-gradient(var(--grid) 1.2px,transparent 1.3px);
+    background-size:26px 26px;}
+  #canvas.grab{cursor:grabbing;}
+  #world{position:absolute;top:0;left:0;transform-origin:0 0;width:1px;height:1px;}
+  #edges{position:absolute;top:0;left:0;overflow:visible;pointer-events:none;}
+
+  /* ── ノード ── */
+  .node{position:absolute;width:200px;border-radius:13px;cursor:grab;
+    background:linear-gradient(180deg,var(--panel2),var(--panel));
+    border:1.5px solid var(--nc,#3a4252);
+    box-shadow:0 6px 22px rgba(0,0,0,.45),inset 0 1px 0 rgba(255,255,255,.04);
+    padding:11px 13px 12px;transition:box-shadow .15s,transform .05s,border-color .15s;
+    user-select:none;}
+  .node:hover{box-shadow:0 10px 30px rgba(0,0,0,.6),0 0 0 1px var(--nc),0 0 22px -4px var(--nc);}
+  .node.sel{box-shadow:0 10px 34px rgba(0,0,0,.6),0 0 0 2px var(--nc),0 0 30px -2px var(--nc);}
+  /* 現在ゲーム進行中ノード（ストーリーと同期して縁が発光） */
+  @keyframes liveglow{
+    0%,100%{box-shadow:0 0 0 2.5px #ffd166,0 0 26px 2px rgba(255,209,102,.55),0 8px 26px rgba(0,0,0,.5);}
+    50%{box-shadow:0 0 0 3.5px #ffe6a6,0 0 46px 8px rgba(255,209,102,.9),0 8px 26px rgba(0,0,0,.5);}}
+  .node.live{animation:liveglow 1.5s ease-in-out infinite;border-color:#ffe6a6 !important;z-index:45;}
+  .node.live .ttl{color:#fff3d6;}
+  /* 個別シーン子ノードの発光 */
+  @keyframes kidglow{
+    0%,100%{box-shadow:0 0 0 1.5px #ffd166,0 0 14px 1px rgba(255,209,102,.6);}
+    50%{box-shadow:0 0 0 2px #ffe6a6,0 0 24px 5px rgba(255,209,102,.95);}}
+  .kid.live{animation:kidglow 1.4s ease-in-out infinite;border-color:#ffe6a6 !important;
+    background:linear-gradient(180deg,#33301f,#2a2718) !important;}
+  .kid.live .kl{color:#fff3d6;}
+  .kid.live .kn{box-shadow:0 0 9px rgba(255,209,102,.85);}
+  .node.drag{cursor:grabbing;z-index:50;}
+  .node .hd{display:flex;align-items:center;gap:8px;}
+  .node .ico{width:22px;height:22px;border-radius:7px;flex:0 0 auto;display:grid;place-items:center;
+    font-size:12px;font-weight:700;color:#11141a;background:var(--nc);}
+  .node .ttl{font-size:13.5px;font-weight:700;letter-spacing:.02em;line-height:1.25;}
+  .node .sub{margin-top:6px;font-size:11px;line-height:1.45;color:var(--dim);}
+  .node .cnt{margin-top:8px;display:inline-flex;align-items:center;gap:5px;font-size:10.5px;
+    color:var(--nc);background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.08);
+    padding:2px 8px;border-radius:20px;font-weight:600;}
+  /* ノード種別 */
+  .node.start{border-radius:30px;width:130px;text-align:center;}
+  .node.branch{border-style:dashed;background:linear-gradient(180deg,#2a2618,#221f14);}
+  .node.branch .ico{clip-path:polygon(50% 0,100% 50%,50% 100%,0 50%);border-radius:0;}
+  .node.end{background:linear-gradient(180deg,#2c2716,#241f11);}
+  .node.end .ttl{color:#ffe9a8;}
+  .node.omake{opacity:.82;}
+  /* ポート */
+  .port{position:absolute;width:11px;height:11px;border-radius:50%;top:var(--py,30px);
+    background:#11141a;border:2px solid var(--nc);z-index:2;}
+  .port.in{left:-6px;}
+  .port.out{right:-6px;background:var(--nc);}
+
+  /* ── グループ（展開＝入れ子サブフロー） ── */
+  .node.group{width:470px;padding:0;background:linear-gradient(180deg,#1b2230,#161b24);border-color:#3d4a60;}
+  .node.group .port{top:50%;transform:translateY(-50%);}
+  .ghead{display:flex;align-items:center;gap:9px;padding:12px 13px;border-bottom:1px solid #2a3242;position:relative;}
+  .ghead .ttl{font-size:14px;font-weight:700;}
+  .ghead .gtag{font-size:10.5px;color:var(--dim);margin-left:2px;}
+  .gbody{display:flex;gap:14px;padding:14px;align-items:flex-start;}
+  .subgroup{flex:1;min-width:0;background:rgba(255,255,255,.025);border:1.4px dashed var(--sg,#6f93e0);
+    border-radius:11px;padding:10px 9px 11px;}
+  .sgtitle{font-size:11.5px;font-weight:700;color:var(--sg);margin:1px 2px 10px;line-height:1.35;
+    display:flex;align-items:center;gap:6px;}
+  .sgtitle .badge{background:var(--sg);color:#11141a;border-radius:5px;padding:1px 6px;font-size:11px;}
+  .kids{display:flex;flex-direction:column;gap:7px;}
+  .kid{display:flex;align-items:center;gap:7px;background:linear-gradient(180deg,#222a37,#1d2430);
+    border:1px solid #313b4b;border-left:3px solid var(--sg);border-radius:8px;padding:6px 8px;
+    cursor:pointer;transition:.12s;}
+  .kid:hover{background:#283143;border-color:var(--sg);transform:translateX(2px);}
+  .kid .kn{width:16px;height:16px;border-radius:50%;background:var(--sg);color:#11141a;
+    font-size:9.5px;font-weight:800;display:grid;place-items:center;flex:0 0 auto;}
+  .kid .kc{font-family:ui-monospace,Menlo,monospace;font-size:10px;color:#9fb0c4;
+    background:rgba(255,255,255,.05);padding:1px 5px;border-radius:4px;flex:0 0 auto;}
+  .kid .kl{font-size:11.5px;color:#dde4ee;font-weight:600;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+  .exp{margin:2px 13px 13px;display:block;width:calc(100% - 26px);background:#283142;border:1px solid #38445a;
+    color:#cdd6e3;font-size:11px;font-weight:600;padding:6px;border-radius:8px;cursor:pointer;}
+  .exp:hover{background:#313d52;border-color:var(--nc);color:#fff;}
+  .gx{position:absolute;right:11px;top:50%;transform:translateY(-50%);background:#283142;
+    border:1px solid #38445a;color:#cdd6e3;font-size:11px;font-weight:600;padding:5px 10px;border-radius:7px;cursor:pointer;}
+  .gx:hover{background:#313d52;color:#fff;}
+
+  /* ── エッジ ── */
+  .edge{fill:none;stroke-width:2.4;opacity:.62;transition:opacity .15s,stroke-width .15s;}
+  .edge.hot{opacity:1;stroke-width:3.4;}
+  .elabel{font-size:11px;font-weight:600;fill:#dfe6ef;
+    paint-order:stroke;stroke:#0e1117;stroke-width:4px;stroke-linejoin:round;}
+
+  /* ── HUD ── */
+  #top{position:absolute;top:14px;left:16px;z-index:30;pointer-events:none;}
+  #top h1{font-size:15px;letter-spacing:.04em;font-weight:700;
+    text-shadow:0 2px 10px #000;}
+  #top .s{font-size:11px;color:var(--dim);margin-top:2px;}
+  #legend{position:absolute;top:14px;left:50%;transform:translateX(-50%);z-index:30;
+    display:flex;gap:7px;flex-wrap:wrap;justify-content:center;max-width:62vw;
+    background:rgba(20,24,31,.7);backdrop-filter:blur(7px);border:1px solid #2a313e;
+    padding:7px 11px;border-radius:12px;}
+  #legend span{display:inline-flex;align-items:center;gap:5px;font-size:11px;color:var(--dim);}
+  #legend i{width:11px;height:11px;border-radius:4px;}
+  #ctrl{position:absolute;bottom:16px;left:16px;z-index:30;display:flex;gap:6px;align-items:center;
+    background:rgba(20,24,31,.78);backdrop-filter:blur(7px);border:1px solid #2a313e;
+    padding:6px;border-radius:12px;}
+  #ctrl button{background:#252c39;border:1px solid #333c4b;color:var(--txt);
+    width:32px;height:32px;border-radius:8px;font-size:15px;cursor:pointer;display:grid;place-items:center;}
+  #ctrl button:hover{background:#2e3747;border-color:#465064;}
+  #ctrl button.wide{width:auto;padding:0 12px;font-size:12px;font-weight:600;}
+  #zoom{font-size:11px;color:var(--dim);min-width:42px;text-align:center;}
+
+  /* ── 詳細パネル ── */
+  #panel{position:absolute;top:0;right:0;height:100%;width:330px;z-index:40;
+    background:linear-gradient(180deg,#1a1f29,#161a22);border-left:1px solid #2a313e;
+    box-shadow:-16px 0 40px rgba(0,0,0,.5);transform:translateX(100%);
+    transition:transform .28s cubic-bezier(.2,.8,.2,1);display:flex;flex-direction:column;}
+  #panel.show{transform:none;}
+  #panel .ph{padding:18px 18px 14px;border-bottom:1px solid #262d39;}
+  #panel .pk{display:inline-block;font-size:10.5px;font-weight:700;letter-spacing:.1em;
+    padding:3px 9px;border-radius:6px;color:#11141a;background:var(--pc,#7b8696);}
+  #panel h2{font-size:18px;margin-top:10px;line-height:1.3;}
+  #panel .pdesc{font-size:12.5px;line-height:1.6;color:#c3ccd8;margin-top:9px;}
+  #panel .pbody{padding:14px 18px;overflow:auto;flex:1;}
+  #panel .plab{font-size:11px;color:var(--dim);letter-spacing:.08em;font-weight:600;
+    text-transform:uppercase;margin:4px 0 9px;}
+  #panel .scenes{display:flex;flex-wrap:wrap;gap:6px;}
+  #panel .sc{font-size:10.5px;font-family:ui-monospace,Menlo,monospace;
+    background:#222a36;border:1px solid #2f3947;color:#aeb9c8;padding:3px 7px;border-radius:6px;}
+  #panel .close{position:absolute;top:14px;right:14px;width:28px;height:28px;border-radius:8px;
+    background:#252c39;border:1px solid #333c4b;color:var(--txt);cursor:pointer;font-size:15px;}
+  #hint{position:absolute;bottom:18px;left:50%;transform:translateX(-50%);z-index:25;
+    font-size:11px;color:var(--dim);background:rgba(20,24,31,.6);padding:5px 12px;border-radius:20px;
+    pointer-events:none;animation:fade 3s infinite;}
+  @keyframes fade{0%,100%{opacity:.4}50%{opacity:.85}}
+</style>
+</head>
+<body>
+<div id="canvas">
+  <div id="world">
+    <svg id="edges"></svg>
+    <!-- nodes injected -->
+  </div>
+</div>
+
+<div id="top">
+  <h1>催眠4 — 全ルート・分岐マップ</h1>
+  <div class="s">SMAIN マスターフロー再構成 ｜ ノードをドラッグ・クリックで内包シーン表示</div>
+</div>
+
+<div id="legend"></div>
+
+<div id="ctrl">
+  <button id="zout" title="縮小">−</button>
+  <div id="zoom">100%</div>
+  <button id="zin" title="拡大">＋</button>
+  <button class="wide" id="fit" title="全体表示">全体表示</button>
+  <button class="wide" id="reset" title="配置リセット">配置リセット</button>
+</div>
+
+<div id="hint">ドラッグで移動 · ホイールでズーム · ノードクリックで詳細</div>
+
+<div id="panel">
+  <button class="close" id="pclose">✕</button>
+  <div class="ph">
+    <span class="pk" id="pkind">ARC</span>
+    <h2 id="ptitle">—</h2>
+    <div class="pdesc" id="pdesc"></div>
+  </div>
+  <div class="pbody">
+    <div class="plab">内包シーン <span id="pscnt"></span></div>
+    <div class="scenes" id="pscenes"></div>
+  </div>
+</div>
+
+<script>
+const COL={common:'#7b8696',ayan:'#e07a93',suzu:'#6f93e0',tuba:'#3fb6ad',
+  mako:'#b08ae8',kaede:'#e0a94f',branch:'#e9c07a',end:'#ffd166',omake:'#5d6571'};
+
+// ───────────────────────── ノード定義（x,y=ワールド左上座標） ─────────────────────────
+const N=[
+ // ===== 共通ルート（横スパイン）=====
+ {id:'start',x:40,y:858,w:130,h:54,kind:'start',c:'common',ico:'▶',t:'スタート',
+  d:'ゲーム開始。古橋家・三人暮らしのプロローグへ。',sc:['_START']},
+ {id:'prologue',x:280,y:842,kind:'arc',c:'common',ico:'序',t:'プロローグ',
+  d:'幼少回想「三个人」。両親を失い、姉・綾菜／妹・涼菜と弟・和樹の三人暮らしが始まる。催眠アプリ入手。',
+  sc:['001_PRO001A','001_PRO001B','001_PRO001C','001_PRO001D','001_PRO001E','001_PRO001F','001_PRO001G','001_PRO001H','001_PRO001K',
+      '001_PRO002A','001_PRO002B','001_PRO002B2','001_PRO002B3','001_PRO002C','001_PRO002D','001_PRO002E','001_PRO002F','001_PRO002G'],
+  groups:[
+    {key:'A',tone:'#6f93e0',title:'幼少回想（PRO001）— 過去',kids:[
+      {c:'001_PRO001A',l:'三人（出会い）'},{c:'001_PRO001B',l:'楠木翼'},{c:'001_PRO001C',l:'朋友（友達に）'},
+      {c:'001_PRO001D',l:'家族'},{c:'001_PRO001E',l:'転校生'},{c:'001_PRO001F',l:'勉強会'},
+      {c:'001_PRO001G',l:'催眠術（起源）'},{c:'001_PRO001H',l:'説得'},{c:'001_PRO001K',l:'咖啡店（→現在へ）'}]},
+    {key:'B',tone:'#e0a94f',title:'序章（PRO002）— 現在',kids:[
+      {c:'001_PRO002A',l:'序章・然后'},{c:'001_PRO002B',l:'咖啡店'},{c:'001_PRO002B2',l:'古橋家の朝'},
+      {c:'001_PRO002B3',l:'幼馴染の日々'},{c:'001_PRO002C',l:'初老夫婦'},{c:'001_PRO002D',l:'示好的男'},
+      {c:'001_PRO002E',l:'催眠術'},{c:'001_PRO002F',l:'対峙'},{c:'001_PRO002G',l:'陸上部の翼'},
+      {c:'001_PRO002H',l:'告白された翼'},{c:'001_PRO002I',l:'翼を拒否'},{c:'001_PRO002J',l:'確認のため'}]},
+  ]},
+ {id:'ayan1',x:540,y:842,kind:'arc',c:'ayan',ico:'綾',t:'綾菜との日常 ①',
+  d:'姉・古橋綾菜の働くカフェへ。郡山という男の影、姉の真意を探る。',
+  sc:['002_AYAN001A','002_AYAN001B','001_PRO002H'],
+  groups:[
+    {key:'',tone:'#e07a93',title:'綾菜との日常①（AYAN001 / PRO002H）',kids:[
+      {c:'002_AYAN001A',l:'カフェへ'},{c:'002_AYAN001B',l:'綾菜の本心'},{c:'001_PRO002H',l:'翼を待つ'}]},
+  ]},
+ {id:'tuba_contact',x:820,y:842,kind:'branch',c:'tuba',ico:'◆',t:'翼との接触',
+  d:'幼馴染・楠木翼への催眠導入。ここで「踏み込む(沉溺)」か「撤退(懊悔)」かでルートが分岐し、翼ルート解放フラグが決まる。',
+  sc:['006_TUBA001A','006_TUBA001B','006_TUBA001B2','006_TUBA001BC','006_TUBA001E','006_TUBA001D']},
+ {id:'tuba_firstH',x:820,y:648,kind:'arc',c:'tuba',ico:'翼',t:'翼・初調教（沉溺）',
+  d:'踏み込んだ場合の翼への催眠H。翼ルートのフラグが立つ（共通ルート内の翼初登場H）。',
+  sc:['006_TUBA001C','006_TUBA002A','006_TUBA002B','006_TUBA002BC','006_TUBA002C','006_TUBA002D','006_TUBA002DE','006_TUBA002E','006_TUBA002F','006_TUBA002G']},
+ {id:'ayan2',x:1110,y:842,kind:'arc',c:'ayan',ico:'綾',t:'綾菜との日常 ②',
+  d:'綾菜への接近を続ける。日常パートと朝の風景。',
+  sc:['002_AYAN002A','002_AYAN002B','002_AYAN002BC','002_AYAN002C','002_AYAN002D','010_MAIN001A','001_PRO002I']},
+ {id:'mako_contact',x:1390,y:842,kind:'branch',c:'mako',ico:'◆',t:'真琴との接触',
+  d:'もう一人の幼馴染・望月真琴へ。翼との関係を問い詰める流れ。「踏み込む」か「撤退(愤怒/后悔)」かで真琴ルート解放フラグが決まる。',
+  sc:['005_MAKO001A','005_MAKO001AB','005_MAKO001E']},
+ {id:'mako_firstH',x:1390,y:648,kind:'arc',c:'mako',ico:'真',t:'真琴・初調教（沉溺）',
+  d:'踏み込んだ場合の真琴への催眠H。真琴ルートのフラグが立つ。',
+  sc:['005_MAKO001B','005_MAKO001C','005_MAKO001D','005_MAKO002A','005_MAKO002B','005_MAKO002C']},
+ {id:'ayan3',x:1660,y:842,kind:'arc',c:'ayan',ico:'綾',t:'綾菜との日常 ③',
+  d:'綾菜との関係が深まる。三人の生活の転機。',
+  sc:['002_AYAN003A','002_AYAN003B','002_AYAN003C','002_AYAN004A','002_AYAN004AB','002_AYAN004B','010_MAIN002A','001_PRO002J']},
+ {id:'hub',x:1940,y:838,w:210,kind:'branch',c:'branch',ico:'◆',t:'★ 大分岐（MAIN003A）',
+  d:'共通ルートの結節点。翼・真琴に「踏み込んだ」フラグの組み合わせで進むルートが決まる：両方撤退→姉妹／翼のみ→翼／真琴のみ→真琴／両方→翼＆真琴。',
+  sc:['010_MAIN003A']},
+
+ // ===== 姉妹ルート（上段）=====
+ {id:'sister_life',x:2280,y:300,kind:'arc',c:'ayan',ico:'姉',t:'姉妹ルート・共同生活',
+  d:'翼・真琴を退け、姉妹（綾菜＋涼菜）に専念。二人を並行して催眠で堕としていく長編パート。真琴(017)とのつなぎも含む。',
+  sc:['002_AYAN005A','002_AYAN005B','002_AYAN005C','011_SUBA001A','003_SUZU001A','003_SUZU001B','003_SUZU001C','003_SUZU001CD','003_SUZU001D','003_SUZU001E',
+      '011_SUBA002A','003_SUZU002A','003_SUZU002B','003_SUZU002BC','003_SUZU002C','003_SUZU002D','011_SUBA003A','005_MAKO017A','005_MAKO017B','005_MAKO017C',
+      '003_SUZU003A','003_SUZU003B','003_SUZU003BC','003_SUZU003C','003_SUZU003D','003_SUZU003DE','003_SUZU003E','003_SUZU003F','011_SUBA004A',
+      '002_AYAN006A','002_AYAN006AB','002_AYAN006B','002_AYAN006C','002_AYAN006D','011_SUBA005A',
+      '003_SUZU004A','003_SUZU004B','003_SUZU004C','003_SUZU004CD','003_SUZU004D','003_SUZU004E']},
+ {id:'sister_choose',x:2560,y:360,kind:'branch',c:'branch',ico:'◆',t:'誰を「特別」に選ぶ',
+  d:'姉妹ルートのクライマックス分岐。綾菜を選ぶ／涼菜を選ぶ／二人ともを選ぶ（双子ハーレム）の三分岐。',
+  sc:['002_AYAN007A','002_AYAN007AB','002_AYAN007B','002_AYAN007C','003_SUZU005A','003_SUZU005B','003_SUZU005C','002_AYAN008A']},
+ // 綾菜支線
+ {id:'ayan_route',x:2840,y:120,kind:'arc',c:'ayan',ico:'綾',t:'綾菜・告白ルート',
+  d:'綾菜を選択（SMAIN_AYAN01）。二人きりの関係を深め、最後の願いを告げる場面へ。',
+  sc:['002_AYAN009A','002_AYAN009AB','002_AYAN009B','002_AYAN009C']},
+ {id:'ayan010',x:3110,y:120,kind:'branch',c:'branch',ico:'◆',t:'最後の願い（AYAN010A）',
+  d:'綾菜 END の最終分岐。「关键词を告げる」→ END1 妊娠 ／「拼命に請う」→ END2 聖母。',
+  sc:['002_AYAN010A']},
+ {id:'ayan_end1',x:3390,y:40,kind:'end',c:'end',ico:'★',t:'綾菜 END1：妊娠',
+  d:'NORMAL_END。关键词を告げ、綾菜と結ばれ子を宿す結末。（連貫読み物 綾菜_END1_妊娠_ルート.txt として生成済み）',
+  sc:['002_AYAN010B','002_AYAN011A','002_AYAN011B','002_AYAN012A','002_AYAN012B','→ NORMAL_END']},
+ {id:'ayan_end2',x:3390,y:210,kind:'end',c:'end',ico:'★',t:'綾菜 END2：聖母',
+  d:'拼命に請う分岐（SMAIN_AYAN03）。聖母的に弟を包み込む別エンド。',
+  sc:['002_AYAN010C','002_AYAN011A2','002_AYAN011C','002_AYAN013A','002_AYAN013AB','002_AYAN013B','002_AYAN013C','002_AYAN014A']},
+ // 涼菜支線
+ {id:'suzu_route',x:2840,y:392,kind:'arc',c:'suzu',ico:'涼',t:'涼菜ルート',
+  d:'涼菜を選択（SMAIN_SUZU01）。妹・涼菜と結ばれる支線。',
+  sc:['003_SUZU006A','003_SUZU006B','003_SUZU006BC','003_SUZU006C','003_SUZU007A','003_SUZU007B']},
+ {id:'suzu_end',x:3390,y:392,kind:'end',c:'end',ico:'★',t:'涼菜 END',
+  d:'妹・涼菜との結末。',sc:['→ 涼菜END']},
+ // 双子支線
+ {id:'futa_route',x:2840,y:560,kind:'arc',c:'suzu',ico:'双',t:'双子（綾菜＆涼菜）ルート',
+  d:'「二人とも」を選ぶ姉妹同時ハーレム。三人で享受する暗示。SMAIN_SISTER04 を含む。',
+  sc:['004_FUTA001A','004_FUTA001B','004_FUTA001C','004_FUTA002A','004_FUTA002B','004_FUTA002C','004_FUTA002CD','004_FUTA002D','004_FUTA002E','004_FUTA002F',
+      '004_FUTA003A','004_FUTA003B','004_FUTA003C','004_FUTA003D','004_FUTA003DF','004_FUTA003E','004_FUTA003F','004_FUTA003G',
+      '004_FUTA004A','004_FUTA004B','004_FUTA004C','004_FUTA004D','004_FUTA005A','004_FUTA005B','004_FUTA005C','004_FUTA005D','004_FUTA006A','004_FUTA006B']},
+ {id:'futa_end',x:3390,y:560,kind:'end',c:'end',ico:'★',t:'双子ハーレム END',
+  d:'綾菜・涼菜の二人を同時に手に入れる姉妹ハーレム結末。',sc:['→ 双子END']},
+
+ // ===== 翼ルート（中段）=====
+ {id:'tuba_route',x:2280,y:1060,kind:'arc',c:'tuba',ico:'翼',t:'翼ルート・本編',
+  d:'翼に踏み込んだ場合の本ルート（SMAIN_TUBA01/02）。学園で翼を堕とし、関係を深めていく長編。',
+  sc:['006_TUBA003A','006_TUBA003B','006_TUBA003C','006_TUBA003CD','006_TUBA003D','006_TUBA003E','006_TUBA003F','011_SUBT001A',
+      '006_TUBA004A','006_TUBA004B','006_TUBA004BC','006_TUBA004C','006_TUBA004D','006_TUBA004DE','006_TUBA004E','006_TUBA004F','006_TUBA004G','006_TUBA004H',
+      '011_SUBT002A','006_TUBA005A','006_TUBA005B','006_TUBA005BC','006_TUBA005C','006_TUBA005D','006_TUBA006B','006_TUBA006C']},
+ {id:'kaede',x:2560,y:1230,kind:'arc',c:'kaede',ico:'楓',t:'楠木母娘（楓）',
+  d:'翼の母・楠木楓も催眠下に。「催眠母娘」パート。翼＆楓の母娘丼ルート。',
+  sc:['007_KAED001A','007_KAED001AB','007_KAED001B','007_KAED001C','007_KAED002A','007_KAED002AB','007_KAED002B','007_KAED002C',
+      '007_KAED003A','007_KAED003AC','007_KAED003B','007_KAED003C','007_KAED003D','007_KAED004A','007_KAED004B','007_KAED004C','007_KAED004D',
+      '008_TUBA007A','008_TUBA007AB','008_TUBA007B','008_TUBA008A','008_TUBA008B','008_TUBA008C','008_TUBA009A','008_TUBA009B']},
+ {id:'tuba_climax',x:2840,y:1060,kind:'arc',c:'tuba',ico:'翼',t:'翼ルート・終盤',
+  d:'翼ルート終盤の連続調教。SMAIN_SUBT 挿話を挟みつつクライマックスへ。',
+  sc:['006_TUBA010B','006_TUBA010BC','006_TUBA010C','006_TUBA010D','006_TUBA010E','011_SUBT003A','006_TUBA011A','006_TUBA011B','006_TUBA011C',
+      '011_SUBT004A','006_TUBA012A','006_TUBA012B','006_TUBA012BC','006_TUBA012C','006_TUBA012D',
+      '006_TUBA013A','006_TUBA013B','006_TUBA013C','006_TUBA013D','006_TUBA013E','006_TUBA013F','006_TUBA013G',
+      '006_TUBA014A','006_TUBA014B','006_TUBA014C','006_TUBA014D','006_TUBA015A','006_TUBA015B','006_TUBA015C',
+      '006_TUBA016A','006_TUBA016B','006_TUBA016C','006_TUBA017A','006_TUBA017B','006_TUBA018A','006_TUBA018B']},
+ {id:'tuba_end',x:3390,y:1060,kind:'end',c:'end',ico:'★',t:'翼 TRUE END',
+  d:'TRUE_END。翼（＋母・楓）を完全に手に入れる真ルート結末。',sc:['→ TRUE_END']},
+
+ // ===== 真琴ルート（下段）=====
+ {id:'mako_route',x:2280,y:1400,kind:'arc',c:'mako',ico:'真',t:'真琴ルート・本編',
+  d:'真琴に踏み込んだ場合の本ルート（SMAIN_MAKO01）。望月真琴を堕とす長編パート。',
+  sc:['005_MAKO003A','005_MAKO003B','005_MAKO003C','005_MAKO004A','005_MAKO004B','005_MAKO004C','005_MAKO004D','005_MAKO004E','005_MAKO004F',
+      '005_MAKO013A','005_MAKO013B','005_MAKO013C','005_MAKO014A','005_MAKO014B','005_MAKO015A','005_MAKO015B','005_MAKO016A',
+      '005_MAKO005A','005_MAKO005B','005_MAKO005BC','005_MAKO005C','005_MAKO005D','005_MAKO005E','005_MAKO005F']},
+ {id:'mako_climax',x:2840,y:1400,kind:'arc',c:'mako',ico:'真',t:'真琴ルート・終盤',
+  d:'真琴ルート終盤。連続調教からクライマックスへ。',
+  sc:['005_MAKO006A','005_MAKO006B','005_MAKO006BD','005_MAKO006C','005_MAKO006D','005_MAKO007A','005_MAKO007B','005_MAKO008A','005_MAKO008B','005_MAKO009A',
+      '009_MAKO010A','009_MAKO010AB','009_MAKO010B','005_MAKO011A','005_MAKO011AB','005_MAKO011B','005_MAKO012A','005_MAKO012AB','005_MAKO012B']},
+ {id:'mako_end',x:3390,y:1400,kind:'end',c:'end',ico:'★',t:'真琴 END',
+  d:'望月真琴との結末。',sc:['→ 真琴END']},
+
+ // ===== 翼＆真琴ルート（最下段）=====
+ {id:'tubamako',x:2280,y:1680,kind:'arc',c:'kaede',ico:'双',t:'翼＆真琴ルート（合流）',
+  d:'翼・真琴の両方に踏み込んだ最上位ハーレム（SMAIN_TUBAMAKO01〜06）。楠木家を出て真琴と合流、二人＋母を束ねる。',
+  sc:['012_SUBTM001A','012_SUBTM002A','012_SUBTM004A','012_SUBTM005A','012_SUBTM006A','012_SUBTM007A','012_SUBTM007B','012_SUBTM007C','012_SUBTM008A',
+      '006_TUBA019A','006_TUBA019B','006_TUBA019C','006_TUBA019D','006_TUBA020A']},
+ {id:'tubamako_end',x:3390,y:1680,kind:'end',c:'end',ico:'☆',t:'グランドハーレム END',
+  d:'STAFF_ROLL。翼・真琴（・楓）を束ねる最終ハーレム結末＝事実上のグランドフィナーレ。',sc:['→ STAFF_ROLL']},
+
+ // ===== おまけ（抜きシーン）=====
+ {id:'nuke',x:300,y:1500,kind:'omake',c:'omake',ico:'＋',t:'おまけ（抜きシーン）',
+  d:'本編フロー外の短編Hシーン集（回想／おまけメニューから再生）。SMAIN本流には含まれない。',
+  sc:['009_NUKE001','009_NUKE002','009_NUKE003','009_NUKE004','009_NUKE005','009_NUKE006']},
+];
+
+// ───────────────────────── エッジ定義 ─────────────────────────
+const E=[
+ ['start','prologue'],['prologue','ayan1'],['ayan1','tuba_contact'],
+ ['tuba_contact','tuba_firstH','踏み込む / 沉溺','tuba'],
+ ['tuba_firstH','ayan2','','tuba'],
+ ['tuba_contact','ayan2','撤退 / 懊悔','common'],
+ ['ayan2','mako_contact'],
+ ['mako_contact','mako_firstH','踏み込む / 沉溺','mako'],
+ ['mako_firstH','ayan3','','mako'],
+ ['mako_contact','ayan3','撤退 / 愤怒･后悔','common'],
+ ['ayan3','hub'],
+ // 大分岐 → 4ルート
+ ['hub','sister_life','両方撤退 → 姉妹','ayan'],
+ ['hub','tuba_route','翼のみ堕とす','tuba'],
+ ['hub','mako_route','真琴のみ堕とす','mako'],
+ ['hub','tubamako','翼＆真琴 両方','kaede'],
+ // 姉妹ルート内
+ ['sister_life','sister_choose'],
+ ['sister_choose','ayan_route','綾菜を選ぶ','ayan'],
+ ['sister_choose','suzu_route','涼菜を選ぶ','suzu'],
+ ['sister_choose','futa_route','二人とも','suzu'],
+ ['ayan_route','ayan010'],
+ ['ayan010','ayan_end1','关键词を告げる','end'],
+ ['ayan010','ayan_end2','拼命に請う','end'],
+ ['suzu_route','suzu_end'],
+ ['futa_route','futa_end'],
+ // 翼ルート
+ ['tuba_route','kaede','母・楓も催眠','kaede'],
+ ['kaede','tuba_climax','','tuba'],
+ ['tuba_route','tuba_climax','','tuba'],
+ ['tuba_climax','tuba_end'],
+ // 真琴ルート
+ ['mako_route','mako_climax'],['mako_climax','mako_end'],
+ // 翼真琴ルート
+ ['tubamako','tubamako_end'],
+];
+
+// ───────────────────────── レンダリング ─────────────────────────
+const DEF_H=78;
+const byId={}; N.forEach(n=>{n.w=n.w||200;n.h=n.h||DEF_H;byId[n.id]=n;});
+const world=document.getElementById('world'),svg=document.getElementById('edges'),
+      canvas=document.getElementById('canvas');
+const NS='http://www.w3.org/2000/svg';
+
+// arrowheads（色別マーカー）
+const defs=document.createElementNS(NS,'defs');
+Object.entries(COL).forEach(([k,v])=>{
+  const m=document.createElementNS(NS,'marker');
+  m.setAttribute('id','arr-'+k);m.setAttribute('viewBox','0 0 10 10');
+  m.setAttribute('refX','8.5');m.setAttribute('refY','5');m.setAttribute('markerWidth','7');
+  m.setAttribute('markerHeight','7');m.setAttribute('orient','auto-start-reverse');
+  const p=document.createElementNS(NS,'path');p.setAttribute('d','M0,0 L10,5 L0,10 z');
+  p.setAttribute('fill',v);m.appendChild(p);defs.appendChild(m);
+});
+svg.appendChild(defs);
+
+// ノードDOM生成
+const nodeEls={};
+function buildNodes(){
+  N.forEach(n=>{
+    const el=document.createElement('div');
+    el.dataset.id=n.id;
+    world.appendChild(el);
+    nodeEls[n.id]=el;
+    renderNodeInner(n);
+    placeNode(n);
+  });
+}
+function renderNodeInner(n){
+  const el=nodeEls[n.id];
+  el.className='node '+n.kind;
+  el.style.setProperty('--nc',COL[n.c]);
+  if(n.kind==='group'){el.innerHTML=groupHTML(n);return;}
+  const py=(n.h/2-5)+'px';
+  el.innerHTML=`
+    <div class="port in"  style="--py:${py}"></div>
+    <div class="port out" style="--py:${py}"></div>
+    <div class="hd"><div class="ico">${n.ico}</div><div class="ttl">${n.t}</div></div>
+    ${n.kind==='start'?'':`<div class="sub">${(n.d||'').slice(0,46)}…</div>`}
+    ${n.kind==='start'?'':`<div class="cnt">▦ ${countScenes(n)} シーン</div>`}
+    ${n.groups?`<button class="exp">⊞ 展開して内訳を見る（A/B）</button>`:''}`;
+}
+function groupHTML(n){
+  return `<div class="port in"></div><div class="port out"></div>
+   <div class="ghead"><div class="ico">${n.ico}</div>
+     <div class="ttl">${n.t}<span class="gtag"> ＜2サブセットに展開＞</span></div>
+     <button class="gx">⊟ 折りたたむ</button></div>
+   <div class="gbody">${n.groups.map(g=>`
+     <div class="subgroup" style="--sg:${g.tone}">
+       <div class="sgtitle"><span class="badge">${g.key}</span>${g.title}</div>
+       <div class="kids">${g.kids.map((k,i)=>`
+         <div class="kid" data-code="${k.c}" data-label="${k.l}">
+           <span class="kn">${i+1}</span>
+           <span class="kc">${k.c.replace('001_PRO','')}</span>
+           <span class="kl">${k.l}</span></div>`).join('')}
+       </div></div>`).join('')}
+   </div>`;
+}
+function countScenes(n){return n.sc.filter(s=>!s.startsWith('→')&&!s.startsWith('_')).length;}
+function placeNode(n){const el=nodeEls[n.id];el.style.left=n.x+'px';el.style.top=n.y+'px';
+  el.style.width=n.w+'px';el.style.minHeight=n.h+'px';}
+
+// エッジ描画
+const edgeEls=[];
+function buildEdges(){
+  E.forEach(e=>{
+    const path=document.createElementNS(NS,'path');
+    const col=COL[e[3]||'common'];
+    path.setAttribute('class','edge');path.setAttribute('stroke',col);
+    path.setAttribute('marker-end','url(#arr-'+(e[3]||'common')+')');
+    svg.appendChild(path);
+    let label=null;
+    if(e[2]){
+      label=document.createElementNS(NS,'text');
+      label.setAttribute('class','elabel');label.setAttribute('text-anchor','middle');
+      label.textContent=e[2];svg.appendChild(label);
+    }
+    edgeEls.push({e,path,label,col});
+  });
+}
+function edgePath(a,b){
+  const x1=a.x+a.w, y1=a.y+a.h/2, x2=b.x, y2=b.y+b.h/2;
+  const dx=Math.max(48,Math.abs(x2-x1)*0.45);
+  return {d:`M${x1},${y1} C${x1+dx},${y1} ${x2-dx},${y2} ${x2},${y2}`,
+          mx:(x1+x2)/2,my:(y1+y2)/2};
+}
+function drawEdges(){
+  edgeEls.forEach(({e,path,label})=>{
+    const a=byId[e[0]],b=byId[e[1]];const g=edgePath(a,b);
+    path.setAttribute('d',g.d);
+    if(label){label.setAttribute('x',g.mx);label.setAttribute('y',g.my-4);}
+  });
+}
+
+// ───────────────────────── パン / ズーム ─────────────────────────
+let panX=40,panY=20,zoom=1;
+function applyView(){world.style.transform=`translate(${panX}px,${panY}px) scale(${zoom})`;
+  document.getElementById('zoom').textContent=Math.round(zoom*100)+'%';}
+function zoomAt(cx,cy,factor){
+  const nz=Math.min(2.2,Math.max(0.25,zoom*factor));
+  const wx=(cx-panX)/zoom, wy=(cy-panY)/zoom;
+  panX=cx-wx*nz; panY=cy-wy*nz; zoom=nz; applyView();
+}
+canvas.addEventListener('wheel',ev=>{ev.preventDefault();
+  zoomAt(ev.clientX,ev.clientY, ev.deltaY<0?1.12:1/1.12);},{passive:false});
+
+// パン（空白ドラッグ）＋ ノードドラッグ
+let mode=null,sx,sy,opx,opy,dragNode=null,moved=false,downTarget=null;
+canvas.addEventListener('pointerdown',ev=>{
+  mode=null;
+  if(ev.target.closest('.exp,.gx'))return;          // 展開ボタンはclickで処理
+  const nodeEl=ev.target.closest('.node');
+  if(ev.target.classList.contains('port'))return;
+  moved=false;downTarget=ev.target;
+  if(nodeEl){mode='node';dragNode=byId[nodeEl.dataset.id];
+    sx=ev.clientX;sy=ev.clientY;opx=dragNode.x;opy=dragNode.y;
+    nodeEl.classList.add('drag');
+  }else{mode='pan';sx=ev.clientX;sy=ev.clientY;opx=panX;opy=panY;canvas.classList.add('grab');}
+  canvas.setPointerCapture(ev.pointerId);
+});
+canvas.addEventListener('pointermove',ev=>{
+  if(!mode)return;
+  const dx=ev.clientX-sx,dy=ev.clientY-sy;
+  if(Math.abs(dx)+Math.abs(dy)>3)moved=true;
+  if(mode==='pan'){panX=opx+dx;panY=opy+dy;applyView();}
+  else if(mode==='node'){dragNode.x=opx+dx/zoom;dragNode.y=opy+dy/zoom;
+    placeNode(dragNode);drawEdges();}
+});
+canvas.addEventListener('pointerup',ev=>{
+  if(mode==='node'){nodeEls[dragNode.id].classList.remove('drag');
+    if(!moved){
+      const kid=downTarget&&downTarget.closest('.kid');
+      if(kid)openKidPanel(kid.dataset.code,kid.dataset.label);
+      else openPanel(dragNode);
+    }}
+  else if(mode==='pan'&&!moved)closePanel();
+  mode=null;dragNode=null;canvas.classList.remove('grab');
+});
+// 展開トグル（ボタンclick）= クリックされたノードを対象に
+world.addEventListener('click',ev=>{
+  const b=ev.target.closest('.exp,.gx');
+  if(b){ev.stopPropagation();const el=b.closest('.node');if(el)toggleGroup(el.dataset.id);}
+});
+
+// ───────────────────────── グループ展開／折りたたみ（任意ノード・同時1つ） ─────────────────────────
+const GROUP_W=470;
+let gExpandedId=null,gSaved=null;
+function shiftFrom(baseX,dx,exceptId){
+  N.forEach(n=>{if(n.id!==exceptId&&n.x>baseX){n.x+=dx;placeNode(n);}});
+}
+function expandGroup(id){
+  const n=byId[id],el=nodeEls[id];if(!n.groups)return;
+  gSaved={id,x:n.x,y:n.y,w:n.w,h:n.h,kind:n.kind};
+  const cY=n.y+n.h/2;
+  n.kind='group';n.w=GROUP_W;
+  renderNodeInner(n);
+  el.style.width=GROUP_W+'px';el.style.minHeight='';
+  const h=el.offsetHeight;n.h=h;n.y=cY-h/2;
+  placeNode(n);
+  shiftFrom(gSaved.x,GROUP_W-gSaved.w,id);
+  gExpandedId=id;
+}
+function collapseCurrent(){
+  if(!gExpandedId)return;
+  const n=byId[gExpandedId];
+  shiftFrom(gSaved.x,gSaved.w-GROUP_W,gExpandedId);
+  Object.assign(n,{x:gSaved.x,y:gSaved.y,w:gSaved.w,h:gSaved.h,kind:gSaved.kind});
+  renderNodeInner(n);placeNode(n);
+  gExpandedId=null;gSaved=null;
+}
+function toggleGroup(id){
+  if(gExpandedId===id)collapseCurrent();
+  else{if(gExpandedId)collapseCurrent();expandGroup(id);}
+  drawEdges();fitView();
+}
+
+// 子ノード（個別シーン）詳細
+function openKidPanel(code,label){
+  document.querySelectorAll('.node.sel').forEach(e=>e.classList.remove('sel'));
+  edgeEls.forEach(o=>o.path.classList.remove('hot'));
+  document.getElementById('pkind').textContent='個別シーン';
+  document.getElementById('pkind').style.setProperty('--pc',COL.common);
+  document.getElementById('ptitle').textContent=label;
+  document.getElementById('pdesc').textContent='プロローグ内の単一シーンファイル（md_scr_text/'+code+'.txt）。';
+  document.getElementById('pscnt').textContent='（1）';
+  const box=document.getElementById('pscenes');box.innerHTML='';
+  const c=document.createElement('span');c.className='sc';c.textContent=code;box.appendChild(c);
+  panel.classList.add('show');
+  // 子ノード（個別シーン）を手動選択 → 親へコード通知（Tab復帰でゲーム同期）
+  if(window.parent!==window && window.parent.onNodePick){try{window.parent.onNodePick(code);}catch(e){}}
+}
+
+// ───────────────────────── 詳細パネル ─────────────────────────
+const panel=document.getElementById('panel');
+const KIND={start:'START',arc:'ストーリー',branch:'分岐',end:'エンド',omake:'おまけ',route:'ルート'};
+function openPanel(n){
+  document.querySelectorAll('.node.sel').forEach(e=>e.classList.remove('sel'));
+  nodeEls[n.id].classList.add('sel');
+  document.getElementById('pkind').textContent=KIND[n.kind]||n.kind;
+  document.getElementById('pkind').style.setProperty('--pc',COL[n.c]);
+  document.getElementById('ptitle').textContent=n.t;
+  document.getElementById('pdesc').textContent=n.d||'';
+  document.getElementById('pscnt').textContent='（'+countScenes(n)+'）';
+  const box=document.getElementById('pscenes');box.innerHTML='';
+  n.sc.forEach(s=>{const c=document.createElement('span');c.className='sc';c.textContent=s;
+    if(s.startsWith('→'))c.style.color=COL.end;box.appendChild(c);});
+  panel.classList.add('show');
+  highlightEdges(n.id);
+  // 手動でノードを選んだことを親フレームへ通知（Tab復帰時にゲームを同期）
+  if(window.parent!==window && window.parent.onNodePick){try{window.parent.onNodePick(n.id);}catch(e){}}
+}
+function closePanel(){panel.classList.remove('show');
+  document.querySelectorAll('.node.sel').forEach(e=>e.classList.remove('sel'));
+  edgeEls.forEach(o=>o.path.classList.remove('hot'));}
+document.getElementById('pclose').onclick=closePanel;
+function highlightEdges(id){edgeEls.forEach(o=>{
+  o.path.classList.toggle('hot', o.e[0]===id||o.e[1]===id);});}
+
+// ───────────────────────── ビュー操作 ─────────────────────────
+function fitView(){
+  let minx=1e9,miny=1e9,maxx=-1e9,maxy=-1e9;
+  N.forEach(n=>{minx=Math.min(minx,n.x);miny=Math.min(miny,n.y);
+    maxx=Math.max(maxx,n.x+n.w);maxy=Math.max(maxy,n.y+n.h);});
+  const pad=80,W=innerWidth,H=innerHeight;
+  const zw=W/(maxx-minx+pad*2),zh=H/(maxy-miny+pad*2);
+  zoom=Math.min(1.1,Math.min(zw,zh));
+  panX=(W-(maxx-minx)*zoom)/2-minx*zoom;
+  panY=(H-(maxy-miny)*zoom)/2-miny*zoom+10;
+  applyView();
+}
+const INIT=N.map(n=>({id:n.id,x:n.x,y:n.y}));
+document.getElementById('fit').onclick=fitView;
+document.getElementById('zin').onclick=()=>zoomAt(innerWidth/2,innerHeight/2,1.18);
+document.getElementById('zout').onclick=()=>zoomAt(innerWidth/2,innerHeight/2,1/1.18);
+document.getElementById('reset').onclick=()=>{
+  if(gExpandedId)collapseCurrent();
+  if(typeof clearLive==='function')clearLive();
+  INIT.forEach(p=>{byId[p.id].x=p.x;byId[p.id].y=p.y;placeNode(byId[p.id]);});
+  drawEdges();fitView();closePanel();};
+
+// 凡例
+const LG=[['common','共通'],['ayan','綾菜'],['suzu','涼菜'],['tuba','翼'],
+  ['mako','真琴'],['kaede','楓/合流'],['branch','分岐'],['end','エンド']];
+document.getElementById('legend').innerHTML=LG.map(([k,v])=>
+  `<span><i style="background:${COL[k]}"></i>${v}</span>`).join('');
+
+// ───────────────────────── 親フレーム連携API ─────────────────────────
+// コード→所属アーク特定（groupsのkid優先、なければsc配列）
+function findOwner(code){
+  for(const n of N){if(n.groups){for(const g of n.groups){if(g.kids.some(k=>k.c===code))return n.id;}}}
+  for(const n of N){if(n.sc&&n.sc.includes(code))return n.id;}
+  return null;
+}
+let liveNodeId=null,liveKidEl=null;
+function clearLive(){
+  if(liveNodeId&&nodeEls[liveNodeId])nodeEls[liveNodeId].classList.remove('live');
+  if(liveKidEl)liveKidEl.classList.remove('live');
+  liveNodeId=null;liveKidEl=null;
+}
+// id=ノードidでも 個別シーンコード(001_PRO001A等)でも受ける
+window.highlightNode=function(code){
+  let nodeId=code,kidCode=null;
+  if(!byId[code]){const o=findOwner(code);if(!o)return;nodeId=o;kidCode=code;}
+  const n=byId[nodeId];
+  // 個別シーン & groups持ち → そのアークを自動展開してkidを発光
+  if(kidCode&&n.groups&&gExpandedId!==nodeId){
+    if(gExpandedId)collapseCurrent();
+    expandGroup(nodeId);drawEdges();
+  }
+  clearLive();
+  const el=nodeEls[nodeId];el.classList.add('live');liveNodeId=nodeId;
+  let cx=n.x+n.w/2,cy=n.y+n.h/2;
+  if(kidCode){
+    const k=el.querySelector('.kid[data-code="'+kidCode+'"]');
+    if(k){k.classList.add('live');liveKidEl=k;
+      cx=n.x+k.offsetLeft+k.offsetWidth/2;cy=n.y+k.offsetTop+k.offsetHeight/2;}
+  }
+  panX=innerWidth/2-cx*zoom;panY=innerHeight/2-cy*zoom;applyView();
+};
+window.getLiveNode=function(){return liveKidEl?liveKidEl.dataset.code:liveNodeId;};
+window.selectNode=function(id){const n=byId[id];if(n)openPanel(n);};
+// Tabでストーリー画面へ戻る
+document.addEventListener('keydown',e=>{
+  if(e.key==='Tab'){e.preventDefault();if(window.parent!==window&&window.parent.toggleView)window.parent.toggleView();}
+});
+
+// 初期化
+buildNodes();buildEdges();drawEdges();fitView();
+</script>
+</body>
+</html>

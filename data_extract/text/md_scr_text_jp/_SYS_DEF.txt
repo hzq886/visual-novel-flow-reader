@@ -1,0 +1,2 @@
+[id] #RULE
+[id] SAVELOAD S0

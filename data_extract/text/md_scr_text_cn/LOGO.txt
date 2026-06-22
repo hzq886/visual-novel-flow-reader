@@ -1,0 +1,7 @@
+[cn] d蹼
+[jp] 
+[ascii] SGGG
+[ascii] LOGO_02
+[ascii] BRANDTITLE_CALL:BRAND_CALL
+[ascii] STITLE:TITLE_SETUP
+[ascii] LOGO
