@@ -2,3 +2,4 @@
 # prettier は短い配列を1行に畳むため再生成のたび差分が出る）。
 data/sprites.json
 data/backgrounds.json
+data/scenes/
