@@ -1,0 +1,144 @@
+{
+  "code": "002_AYAN001A",
+  "route": "002",
+  "locale": "jp",
+  "title": "古橋綾菜\\N喫茶店へ",
+  "beats": [
+    {
+      "kind": "narration",
+      "lines": [
+        "……帰宅する途中、僕は綾姉が働く喫茶店に",
+        "向かうことにした。",
+        "あの郡山という男についての、姉さんの真意が",
+        "知りたかったからだ。"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "古橋　綾菜",
+      "voice": {
+        "id": "AYAN_002_AYAN001A_001",
+        "file": null
+      },
+      "lines": [
+        "「あら、お帰りなさい。和くん」"
+      ],
+      "bg": {
+        "label": "#背景・喫茶店（夕）",
+        "file": null
+      },
+      "sprite": {
+        "label": "#綾菜（中）・通常１（夕）・私服０２・にっこり１",
+        "body": null,
+        "face": null
+      }
+    },
+    {
+      "kind": "narration",
+      "lines": [
+        "他のお客さんに対しては『いらっしゃい』だけど、",
+        "僕に対しては『お帰りなさい』と言う綾姉。",
+        "ただの言い方の違いだけど、僕にとっては、",
+        "特別なことだった。"
+      ],
+      "bg": {
+        "label": "#背景・喫茶店（夕）",
+        "file": null
+      },
+      "sprite": {
+        "label": "#綾菜（中）・通常１（夕）・私服０２・にっこり１",
+        "body": null,
+        "face": null
+      }
+    },
+    {
+      "kind": "line",
+      "who": "古橋　綾菜",
+      "voice": {
+        "id": "AYAN_002_AYAN001A_002",
+        "file": null
+      },
+      "lines": [
+        "「もう時間だから、閉めるところだけど、なにか",
+        "飲み物でも淹れる？」"
+      ],
+      "bg": {
+        "label": "#背景・喫茶店（夕）",
+        "file": null
+      },
+      "sprite": {
+        "label": "#綾菜（中）・通常１（夕）・私服０２・通常１",
+        "body": null,
+        "face": null
+      }
+    },
+    {
+      "kind": "line",
+      "who": "古橋　和樹",
+      "lines": [
+        "「ううん、いらない。片付けを手伝うよ」"
+      ],
+      "bg": {
+        "label": "#背景・喫茶店（夕）",
+        "file": null
+      },
+      "sprite": {
+        "label": "#綾菜（中）・通常１（夕）・私服０２・通常１",
+        "body": null,
+        "face": null
+      }
+    },
+    {
+      "kind": "narration",
+      "lines": [
+        "そう言って、掃除用具入れから、モップなどを",
+        "取り出した。"
+      ],
+      "bg": {
+        "label": "#背景・喫茶店（夕）",
+        "file": null
+      },
+      "sprite": {
+        "label": "#綾菜（中）・通常１（夕）・私服０２・通常１",
+        "body": null,
+        "face": null
+      }
+    },
+    {
+      "kind": "line",
+      "who": "古橋　綾菜",
+      "voice": {
+        "id": "AYAN_002_AYAN001A_003",
+        "file": null
+      },
+      "lines": [
+        "「いつも手伝ってくれて、ありがとう。嬉しいわ」"
+      ],
+      "bg": {
+        "label": "#背景・喫茶店（夕）",
+        "file": null
+      },
+      "sprite": {
+        "label": "#綾菜（中）・通常１（夕）・私服０２・にっこり２",
+        "body": null,
+        "face": null
+      }
+    },
+    {
+      "kind": "narration",
+      "lines": [
+        "僕は床を拭いていき、姉さんは食器などを洗う。",
+        "それが終わる頃、僕はさりげなく尋ねた。"
+      ],
+      "bg": {
+        "label": "#背景・喫茶店（夕）",
+        "file": null
+      },
+      "sprite": {
+        "label": "#綾菜（中）・通常１（夕）・私服０２・にっこり２",
+        "body": null,
+        "face": null
+      }
+    }
+  ]
+}
