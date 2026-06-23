@@ -2,6 +2,36 @@
   "generatedFrom": "/Users/hzq/Source/visual-novel-flow-reader/data_extract",
   "entries": [
     {
+      "category": "cg",
+      "file": "cg/BG20_02_00.png",
+      "size": 1590413,
+      "sha256": "20e805f04daa19739e940076ea6a9106ff63cea06f868b6903734b2cd1ded5fd"
+    },
+    {
+      "category": "sprite",
+      "file": "sprite/CH01B_01_02_003_02.png",
+      "size": 323866,
+      "sha256": "e863b1278899767de25fcd1b6a388cc68aef40370eee2ed84065fdcfe07c955f"
+    },
+    {
+      "category": "sprite",
+      "file": "sprite/CH01B_01_02_101_01.png",
+      "size": 42173,
+      "sha256": "276237efec29a28a598cbeebe045f664f5f20dbcfa31b26fa601b62bed0403af"
+    },
+    {
+      "category": "sprite",
+      "file": "sprite/CH01B_01_02_102_01.png",
+      "size": 40638,
+      "sha256": "fa9dc3175cf25f70b7878d72bc3beb2fbfbdb30f68a0c8583ac16b02bcdd79d9"
+    },
+    {
+      "category": "sprite",
+      "file": "sprite/CH01B_01_02_102_02.png",
+      "size": 40641,
+      "sha256": "be3ce554e6db098045c9a015d5811a91561094754ea8a6247d4a45d33157789b"
+    },
+    {
       "category": "voice",
       "file": "voice/ayan_002_ayan001A_001.ogg",
       "size": 30211,
