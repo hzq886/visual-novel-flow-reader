@@ -29,6 +29,20 @@ Vite + TypeScript + React / VN描画=**PixiJS**(WebGL) / ルート図=**React Fl
 | `npm run data:defs` / `data:scenes` / `data:flow` / `data:all` | sprites/backgrounds・scenes・flow を生成                  |
 | `npm run validate`                                             | 未解決参照・flow とシーンの相互照合                       |
 
+## git 運用（GitHub Flow）
+
+`main` は保護ブランチ（**CI 必須・PR 必須**、直 push / force-push / 削除 不可、管理者にも適用）。**直接 push せず必ず PR 経由**でマージする。
+
+1. `git checkout main && git pull`
+2. `git checkout -b hzq886/hu-<N>-<slug>`（Linear issue 単位＝1 issue 1 ブランチ。issue 着手時に状態を In Progress に）
+3. 実装 → ローカルで `typecheck`/`lint`/`format:check`/`test`（CI と同一）を緑に → commit（メッセージ末尾に `Co-Authored-By: Claude`）
+4. `git push -u origin <branch>` → `gh pr create --base main`
+5. **CI 緑を確認**（緑でなければマージ不可）→ `gh pr merge --merge --delete-branch`
+6. Linear issue を Done に更新
+
+- CI = `../../.github/workflows/ci.yml`（PR と `main` への push で typecheck/lint/format:check/test/build、node24）。
+- リポジトリは **public**（同人創作・元ゲーム素材は git 外）。設計判断は ADR、進行は Linear（Team `Hu`）。
+
 ## データ規約
 
 - シーンコード: `NNN_XXX###[suffix]`（例 `002_AYAN001A`）。
