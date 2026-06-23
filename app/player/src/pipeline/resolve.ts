@@ -36,6 +36,23 @@ export type ResolveContext = {
   voiceIndex: Map<string, string>
 }
 
+/**
+ * 解決済み Scene が参照する素材コード/ID を重複なく収集する（fetch-assets のシーン別取得用）。
+ * cg=背景コード（BG…）、sprite=立ち絵 body/face コード（CH…）、voice=ボイスID。
+ */
+export function sceneAssetRefs(scene: Scene): { cg: string[]; sprite: string[]; voice: string[] } {
+  const cg = new Set<string>()
+  const sprite = new Set<string>()
+  const voice = new Set<string>()
+  for (const beat of scene.beats) {
+    if (beat.bg?.file) cg.add(beat.bg.file)
+    if (beat.sprite?.body) sprite.add(beat.sprite.body)
+    if (beat.sprite?.face) sprite.add(beat.sprite.face)
+    if (beat.kind === 'line' && beat.voice?.id) voice.add(beat.voice.id)
+  }
+  return { cg: [...cg], sprite: [...sprite], voice: [...voice] }
+}
+
 /** Scene の全 beat の bg/sprite/voice を解決した新しい Scene を返す。 */
 export function resolveScene(scene: Scene, ctx: ResolveContext): Scene {
   return {

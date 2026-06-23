@@ -4,7 +4,7 @@ import bgJson from '@data/backgrounds.json'
 import manifestJson from '@data/manifest.json'
 import spritesJson from '@data/sprites.json'
 import fixture from '../../../../data_extract/text/md_scr_text_jp/002_AYAN001A.txt?raw'
-import { buildVoiceIndex, resolveScene, resolveVoice } from './resolve'
+import { buildVoiceIndex, resolveScene, resolveVoice, sceneAssetRefs } from './resolve'
 import { parseScene } from './scene'
 import { BgsetTable, Manifest, SprsetTable } from './types'
 
@@ -71,5 +71,21 @@ describe('resolveScene — 002_AYAN001A 全 beat 解決（受入）', () => {
         id: 'AYAN_002_AYAN001A_001',
         file: 'voice/ayan_002_ayan001A_001.ogg',
       })
+  })
+
+  it('sceneAssetRefs が参照素材コードを重複なく収集（fetch-assets 用）', () => {
+    const refs = sceneAssetRefs(scene)
+    expect(refs.cg).toEqual(['BG20_02_00'])
+    expect(refs.sprite.sort()).toEqual([
+      'CH01B_01_02_003_02', // 私服０２（body・全 beat 共通）
+      'CH01B_01_02_101_01', // 通常１
+      'CH01B_01_02_102_01', // にっこり１
+      'CH01B_01_02_102_02', // にっこり２
+    ])
+    expect(refs.voice).toEqual([
+      'AYAN_002_AYAN001A_001',
+      'AYAN_002_AYAN001A_002',
+      'AYAN_002_AYAN001A_003',
+    ])
   })
 })
