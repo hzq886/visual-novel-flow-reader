@@ -1,0 +1,50 @@
+name: CI
+
+# PR と main/sprint-0-scaffold への push で品質ゲートを実行（HU-17）。
+on:
+  push:
+    branches: [main, sprint-0-scaffold]
+  pull_request:
+
+# 同一ブランチで新しい実行が来たら古い実行をキャンセル。
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    name: lint · typecheck · format · test · build
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        # アプリ本体は app/player（リポジトリ直下ではない）。
+        working-directory: app/player
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: app/player/.nvmrc # = 24
+          cache: npm
+          cache-dependency-path: app/player/package-lock.json
+
+      - name: Install
+        run: npm ci
+
+      - name: Typecheck
+        run: npm run typecheck
+
+      - name: Lint
+        run: npm run lint
+
+      - name: Format check
+        run: npm run format:check
+
+      - name: Test
+        run: npm run test
+
+      - name: Build
+        run: npm run build

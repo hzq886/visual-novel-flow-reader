@@ -1,0 +1,23 @@
+{
+  "generatedFrom": "/Users/hzq/Source/visual-novel-flow-reader/data_extract",
+  "entries": [
+    {
+      "category": "voice",
+      "file": "voice/ayan_002_ayan001A_001.ogg",
+      "size": 30211,
+      "sha256": "8a51c8934e7c6d451b1fa65be715c622bb2776231480fb62434250e87702223e"
+    },
+    {
+      "category": "voice",
+      "file": "voice/ayan_002_ayan001A_002.ogg",
+      "size": 52694,
+      "sha256": "1ed9de889b045d894dccc6db444799a2f5b6463fff6f21ecb33eb2379675f4ce"
+    },
+    {
+      "category": "voice",
+      "file": "voice/ayan_002_ayan001A_003.ogg",
+      "size": 43092,
+      "sha256": "197593b177553faa7826958e3f1c8b8174dca393e75f7d2f68e0703efa5f7cd9"
+    }
+  ]
+}
