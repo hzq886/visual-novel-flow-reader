@@ -1,24 +1,28 @@
 /**
  * build-scenes — data_extract/text のシーンファイルに parseScene を適用し、
- * data/scenes/<code>.json を生成する。
+ * bg/sprite/voice を実ファイル参照へ解決して data/scenes/<code>.json を生成する。
  *
  * 使い方:
  *   npm run data:scenes                      # 全シーン（jp）
  *   npm run data:scenes -- --scene 002_AYAN001A
  *   npm run data:scenes -- --locale cn
  *
- * この段階では bg/sprite/voice は label のみ（file=null）。素材実体の解決（resolve* +
- * manifest 照合）は validate/resolve 工程（VN-4）で行う。パース本体は src/pipeline/scene.ts。
+ * 解決には data/sprites.json・data/backgrounds.json（`npm run data:defs`）と
+ * data/manifest.json（`npm run assets:fetch`）が要る。manifest 未収録の voice は file=null
+ * （`npm run validate` が検出）。パース=src/pipeline/scene.ts、解決=src/pipeline/resolve.ts。
  */
+import { existsSync } from 'node:fs'
 import { readdir, readFile, mkdir, writeFile, rm } from 'node:fs/promises'
 import { dirname, join, resolve } from 'node:path'
 import { fileURLToPath } from 'node:url'
 import { parseScene } from '../src/pipeline/scene.ts'
-import type { Locale } from '../src/pipeline/types.ts'
+import { buildVoiceIndex, resolveScene } from '../src/pipeline/resolve.ts'
+import { BgsetTable, Manifest, SprsetTable, type Locale } from '../src/pipeline/types.ts'
 
 const HERE = dirname(fileURLToPath(import.meta.url)) // app/player/scripts
 const APP = resolve(HERE, '..') // app/player
-const SCENES_DIR = join(APP, 'data', 'scenes')
+const DATA_DIR = join(APP, 'data')
+const SCENES_DIR = join(DATA_DIR, 'scenes')
 
 function parseArgs(argv: string[]): { locale: Locale; scene: string | null } {
   let locale: Locale = 'jp'
@@ -28,6 +32,32 @@ function parseArgs(argv: string[]): { locale: Locale; scene: string | null } {
     else if (argv[i] === '--scene') scene = argv[++i] ?? null
   }
   return { locale, scene }
+}
+
+async function readJson(path: string): Promise<unknown> {
+  return JSON.parse(await readFile(path, 'utf8'))
+}
+
+async function loadContext() {
+  const spritesPath = join(DATA_DIR, 'sprites.json')
+  const bgPath = join(DATA_DIR, 'backgrounds.json')
+  if (!existsSync(spritesPath) || !existsSync(bgPath)) {
+    console.error(
+      '✗ sprites.json / backgrounds.json が未生成です。先に `npm run data:defs` を実行してください。',
+    )
+    process.exit(1)
+  }
+  const sprset = SprsetTable.parse(await readJson(spritesPath))
+  const bgset = BgsetTable.parse(await readJson(bgPath))
+
+  const manifestPath = join(DATA_DIR, 'manifest.json')
+  let voiceIndex = new Map<string, string>()
+  if (existsSync(manifestPath)) {
+    voiceIndex = buildVoiceIndex(Manifest.parse(await readJson(manifestPath)))
+  } else {
+    console.warn('  ⚠ manifest.json 無し → voice は未解決（`npm run assets:fetch` 後に再生成）')
+  }
+  return { sprset, bgset, voiceIndex }
 }
 
 async function main() {
@@ -41,6 +71,8 @@ async function main() {
     process.exit(1)
   }
 
+  const ctx = await loadContext()
+
   await rm(SCENES_DIR, { recursive: true, force: true })
   await mkdir(SCENES_DIR, { recursive: true })
 
@@ -49,17 +81,18 @@ async function main() {
   for (const file of targets.sort()) {
     const code = file.replace(/\.txt$/, '')
     const parsed = parseScene(await readFile(join(textDir, file), 'utf8'), { code, locale })
+    const resolved = resolveScene(parsed, ctx)
     await writeFile(
       join(SCENES_DIR, `${code}.json`),
-      JSON.stringify(parsed, null, 2) + '\n',
+      JSON.stringify(resolved, null, 2) + '\n',
       'utf8',
     )
     ok++
-    beatTotal += parsed.beats.length
+    beatTotal += resolved.beats.length
   }
 
   console.log(`[build-scenes] locale=${locale}  source=${textDir}`)
-  console.log(`  ✓ ${ok} シーン → data/scenes/  （計 ${beatTotal} beats）`)
+  console.log(`  ✓ ${ok} シーン → data/scenes/  （計 ${beatTotal} beats、bg/sprite/voice 解決済）`)
 }
 
 main().catch((err) => {
