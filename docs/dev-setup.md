@@ -26,9 +26,10 @@ ASSET_SRC=/abs/path/to/data_extract npm run assets:fetch -- --only bgm
 
 1. Claude Code に Linear MCP サーバーを登録（OAuth）:
    ```bash
-   claude mcp add --transport sse linear https://mcp.linear.app/sse
+   claude mcp add --transport http linear https://mcp.linear.app/mcp
    ```
-   ※ 実行後、ブラウザで Linear の OAuth 認可を行う。`/mcp` で接続状態を確認。
+   ※ **HTTP トランスポート**を使う（SSE の `https://mcp.linear.app/sse` は 404）。
+   ※ 登録後は **Claude Code を再起動** → `/mcp` で OAuth 認可 → `connected` を確認。
 2. Linear 側に **Team**（例: `催眠4 Web`）と **Cycle**（スプリント）を作成。
 3. ラベルを用意: `area:pipeline` `area:engine` `area:flow` `area:infra` `type:adr`。
 4. プラン（`~/.claude/plans/calude-code-first-peppy-ullman.md`）の **VN-1〜VN-12** を issue 化する。
