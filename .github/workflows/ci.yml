@@ -1,9 +1,9 @@
 name: CI
 
-# PR と main/sprint-0-scaffold への push で品質ゲートを実行（HU-17）。
+# PR と main への push で品質ゲートを実行（HU-17）。
 on:
   push:
-    branches: [main, sprint-0-scaffold]
+    branches: [main]
   pull_request:
 
 # 同一ブランチで新しい実行が来たら古い実行をキャンセル。
