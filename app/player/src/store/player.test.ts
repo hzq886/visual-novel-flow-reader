@@ -1,0 +1,109 @@
+import { beforeEach, describe, expect, it } from 'vitest'
+import type { Scene } from '@/pipeline/types'
+import { usePlayer } from './player'
+
+// 最小シーン（3 beat）。types の Beat 判別共用体に沿った地の文ビート。
+const scene: Scene = {
+  code: 'TEST_001',
+  route: 'TEST',
+  locale: 'jp',
+  beats: [
+    { kind: 'narration', lines: ['a'] },
+    { kind: 'narration', lines: ['b'] },
+    { kind: 'narration', lines: ['c'] },
+  ],
+}
+
+// ストアはシングルトン。各テスト前に初期状態へ戻す（actions は安定なので state のみ）。
+beforeEach(() => {
+  usePlayer.setState({ scene: null, index: 0, flags: new Set<string>() })
+})
+
+describe('再生位置 — load / next / prev / goto', () => {
+  it('load でシーンを設定し index を 0 にする', () => {
+    usePlayer.setState({ index: 5 })
+    usePlayer.getState().load(scene)
+    expect(usePlayer.getState().scene).toBe(scene)
+    expect(usePlayer.getState().index).toBe(0)
+  })
+
+  it('next は末尾 beat で頭打ち（length を超えない）', () => {
+    usePlayer.getState().load(scene)
+    const { next } = usePlayer.getState()
+    next()
+    expect(usePlayer.getState().index).toBe(1)
+    next()
+    next() // 末尾(2)で頭打ち
+    expect(usePlayer.getState().index).toBe(2)
+  })
+
+  it('prev は先頭で頭打ち（0 未満にならない）', () => {
+    usePlayer.getState().load(scene)
+    usePlayer.getState().goto(1)
+    usePlayer.getState().prev()
+    expect(usePlayer.getState().index).toBe(0)
+    usePlayer.getState().prev()
+    expect(usePlayer.getState().index).toBe(0)
+  })
+
+  it('goto は範囲内のみ反映し、範囲外は無視', () => {
+    usePlayer.getState().load(scene)
+    usePlayer.getState().goto(2)
+    expect(usePlayer.getState().index).toBe(2)
+    usePlayer.getState().goto(3) // 範囲外（length と同値）
+    expect(usePlayer.getState().index).toBe(2)
+    usePlayer.getState().goto(-1) // 範囲外（負）
+    expect(usePlayer.getState().index).toBe(2)
+  })
+
+  it('シーン未読込なら next/prev/goto は何もしない（例外を投げない）', () => {
+    const { next, prev, goto } = usePlayer.getState()
+    expect(() => {
+      next()
+      prev()
+      goto(1)
+    }).not.toThrow()
+    expect(usePlayer.getState().index).toBe(0)
+  })
+})
+
+describe('ルートフラグ — set / unset / has / reset', () => {
+  it('setFlag で立ち、hasFlag が true を返す', () => {
+    usePlayer.getState().setFlag('ayan_route')
+    expect(usePlayer.getState().hasFlag('ayan_route')).toBe(true)
+    expect(usePlayer.getState().hasFlag('suzu_route')).toBe(false)
+  })
+
+  it('setFlag は不変更新（Set 参照が変わり subscribe が発火しうる）', () => {
+    const before = usePlayer.getState().flags
+    usePlayer.getState().setFlag('f1')
+    const after = usePlayer.getState().flags
+    expect(after).not.toBe(before)
+    expect(before.has('f1')).toBe(false) // 既存 Set は変異させない
+  })
+
+  it('既に立っているフラグの setFlag は no-op（参照を変えない）', () => {
+    usePlayer.getState().setFlag('f1')
+    const ref = usePlayer.getState().flags
+    usePlayer.getState().setFlag('f1')
+    expect(usePlayer.getState().flags).toBe(ref)
+  })
+
+  it('unsetFlag で外れる。未設定の unset は no-op', () => {
+    usePlayer.getState().setFlag('f1')
+    usePlayer.getState().unsetFlag('f1')
+    expect(usePlayer.getState().hasFlag('f1')).toBe(false)
+    const ref = usePlayer.getState().flags
+    usePlayer.getState().unsetFlag('missing')
+    expect(usePlayer.getState().flags).toBe(ref)
+  })
+
+  it('resetFlags で全消去。load はフラグを保持する', () => {
+    usePlayer.getState().setFlag('f1')
+    usePlayer.getState().setFlag('f2')
+    usePlayer.getState().load(scene) // シーン読込でフラグは消えない
+    expect(usePlayer.getState().hasFlag('f1')).toBe(true)
+    usePlayer.getState().resetFlags()
+    expect(usePlayer.getState().flags.size).toBe(0)
+  })
+})
