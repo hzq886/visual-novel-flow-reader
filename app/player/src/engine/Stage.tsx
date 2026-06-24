@@ -8,7 +8,8 @@ import { Application, Container } from 'pixi.js'
 import sceneJson from '@data/scenes/002_AYAN001A.json'
 import { Scene, type Beat } from '@/pipeline/types'
 import { usePlayer } from '@/store/player'
-import { cgUrl, containFit, spriteUrl } from './assets'
+import { AudioManager } from '@/audio/AudioManager'
+import { assetUrl, cgUrl, containFit, spriteUrl } from './assets'
 import { CgLayer } from './layers/CgLayer'
 import { SpriteLayer } from './layers/SpriteLayer'
 import { SubtitleLayer } from './layers/SubtitleLayer'
@@ -51,6 +52,7 @@ export function Stage() {
         const sprite = new SpriteLayer(app.ticker)
         const subtitle = new SubtitleLayer(app.ticker)
         root.addChild(cg, sprite, subtitle)
+        const audio = new AudioManager()
 
         const layout = () => {
           const { scale, x, y } = containFit(app!.screen.width, app!.screen.height)
@@ -73,6 +75,9 @@ export function Stage() {
             sprite.hide()
           }
           subtitle.show(beat)
+          // 字幕と同期して実ボイスを再生（台詞のみ）。地の文では前のボイスを止める。
+          if (beat.kind === 'line' && beat.voice?.file) audio.playVoice(assetUrl(beat.voice.file))
+          else audio.stopVoice()
         }
 
         // ストアを起点に描画（load → beat0、以降は index 変更で再描画）。
@@ -99,6 +104,7 @@ export function Stage() {
 
         cleanup = () => {
           unsub()
+          audio.destroy()
           window.removeEventListener('keydown', onKey)
           app?.canvas.removeEventListener('pointerdown', onClick)
           app?.renderer.off('resize', layout)
