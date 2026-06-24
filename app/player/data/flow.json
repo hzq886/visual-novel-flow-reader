@@ -1,0 +1,1010 @@
+{
+  "nodes": [
+    {
+      "id": "start",
+      "kind": "start",
+      "character": "common",
+      "title": "スタート",
+      "icon": "▶",
+      "description": "ゲーム開始。古橋家・三人暮らしのプロローグへ。",
+      "pos": {
+        "x": 40,
+        "y": 858
+      },
+      "scenes": []
+    },
+    {
+      "id": "prologue",
+      "kind": "arc",
+      "character": "common",
+      "title": "プロローグ",
+      "icon": "序",
+      "description": "幼少回想「三个人」。両親を失い、姉・綾菜／妹・涼菜と弟・和樹の三人暮らしが始まる。催眠アプリ入手。",
+      "pos": {
+        "x": 280,
+        "y": 842
+      },
+      "scenes": [
+        "001_PRO001A",
+        "001_PRO001B",
+        "001_PRO001C",
+        "001_PRO001D",
+        "001_PRO001E",
+        "001_PRO001F",
+        "001_PRO001G",
+        "001_PRO001H",
+        "001_PRO001K",
+        "001_PRO002A",
+        "001_PRO002B",
+        "001_PRO002B2",
+        "001_PRO002B3",
+        "001_PRO002C",
+        "001_PRO002D",
+        "001_PRO002E",
+        "001_PRO002F",
+        "001_PRO002G"
+      ],
+      "groups": [
+        {
+          "key": "A",
+          "tone": "#6f93e0",
+          "title": "幼少回想（PRO001）— 過去",
+          "kids": [
+            {
+              "code": "001_PRO001A",
+              "label": "三人（出会い）"
+            },
+            {
+              "code": "001_PRO001B",
+              "label": "楠木翼"
+            },
+            {
+              "code": "001_PRO001C",
+              "label": "朋友（友達に）"
+            },
+            {
+              "code": "001_PRO001D",
+              "label": "家族"
+            },
+            {
+              "code": "001_PRO001E",
+              "label": "転校生"
+            },
+            {
+              "code": "001_PRO001F",
+              "label": "勉強会"
+            },
+            {
+              "code": "001_PRO001G",
+              "label": "催眠術（起源）"
+            },
+            {
+              "code": "001_PRO001H",
+              "label": "説得"
+            },
+            {
+              "code": "001_PRO001K",
+              "label": "咖啡店（→現在へ）"
+            }
+          ]
+        },
+        {
+          "key": "B",
+          "tone": "#e0a94f",
+          "title": "序章（PRO002）— 現在",
+          "kids": [
+            {
+              "code": "001_PRO002A",
+              "label": "序章・然后"
+            },
+            {
+              "code": "001_PRO002B",
+              "label": "咖啡店"
+            },
+            {
+              "code": "001_PRO002B2",
+              "label": "古橋家の朝"
+            },
+            {
+              "code": "001_PRO002B3",
+              "label": "幼馴染の日々"
+            },
+            {
+              "code": "001_PRO002C",
+              "label": "初老夫婦"
+            },
+            {
+              "code": "001_PRO002D",
+              "label": "示好的男"
+            },
+            {
+              "code": "001_PRO002E",
+              "label": "催眠術"
+            },
+            {
+              "code": "001_PRO002F",
+              "label": "対峙"
+            },
+            {
+              "code": "001_PRO002G",
+              "label": "陸上部の翼"
+            },
+            {
+              "code": "001_PRO002H",
+              "label": "告白された翼"
+            },
+            {
+              "code": "001_PRO002I",
+              "label": "翼を拒否"
+            },
+            {
+              "code": "001_PRO002J",
+              "label": "確認のため"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ayan1",
+      "kind": "arc",
+      "character": "ayan",
+      "title": "綾菜との日常 ①",
+      "icon": "綾",
+      "description": "姉・古橋綾菜の働くカフェへ。郡山という男の影、姉の真意を探る。",
+      "pos": {
+        "x": 540,
+        "y": 842
+      },
+      "scenes": [
+        "002_AYAN001A",
+        "002_AYAN001B",
+        "001_PRO002H"
+      ],
+      "groups": [
+        {
+          "key": "",
+          "tone": "#e07a93",
+          "title": "綾菜との日常①（AYAN001 / PRO002H）",
+          "kids": [
+            {
+              "code": "002_AYAN001A",
+              "label": "カフェへ"
+            },
+            {
+              "code": "002_AYAN001B",
+              "label": "綾菜の本心"
+            },
+            {
+              "code": "001_PRO002H",
+              "label": "翼を待つ"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tuba_contact",
+      "kind": "branch",
+      "character": "tuba",
+      "title": "翼との接触",
+      "icon": "◆",
+      "description": "幼馴染・楠木翼への催眠導入。ここで「踏み込む(沉溺)」か「撤退(懊悔)」かでルートが分岐し、翼ルート解放フラグが決まる。",
+      "pos": {
+        "x": 820,
+        "y": 842
+      },
+      "scenes": [
+        "006_TUBA001A",
+        "006_TUBA001B",
+        "006_TUBA001B2",
+        "006_TUBA001BC",
+        "006_TUBA001E",
+        "006_TUBA001D"
+      ]
+    },
+    {
+      "id": "tuba_firstH",
+      "kind": "arc",
+      "character": "tuba",
+      "title": "翼・初調教（沉溺）",
+      "icon": "翼",
+      "description": "踏み込んだ場合の翼への催眠H。翼ルートのフラグが立つ（共通ルート内の翼初登場H）。",
+      "pos": {
+        "x": 820,
+        "y": 648
+      },
+      "scenes": [
+        "006_TUBA001C",
+        "006_TUBA002A",
+        "006_TUBA002B",
+        "006_TUBA002BC",
+        "006_TUBA002C",
+        "006_TUBA002D",
+        "006_TUBA002DE",
+        "006_TUBA002E",
+        "006_TUBA002F",
+        "006_TUBA002G"
+      ]
+    },
+    {
+      "id": "ayan2",
+      "kind": "arc",
+      "character": "ayan",
+      "title": "綾菜との日常 ②",
+      "icon": "綾",
+      "description": "綾菜への接近を続ける。日常パートと朝の風景。",
+      "pos": {
+        "x": 1110,
+        "y": 842
+      },
+      "scenes": [
+        "002_AYAN002A",
+        "002_AYAN002B",
+        "002_AYAN002BC",
+        "002_AYAN002C",
+        "002_AYAN002D",
+        "010_MAIN001A",
+        "001_PRO002I"
+      ]
+    },
+    {
+      "id": "mako_contact",
+      "kind": "branch",
+      "character": "mako",
+      "title": "真琴との接触",
+      "icon": "◆",
+      "description": "もう一人の幼馴染・望月真琴へ。翼との関係を問い詰める流れ。「踏み込む」か「撤退(愤怒/后悔)」かで真琴ルート解放フラグが決まる。",
+      "pos": {
+        "x": 1390,
+        "y": 842
+      },
+      "scenes": [
+        "005_MAKO001A",
+        "005_MAKO001AB",
+        "005_MAKO001E"
+      ]
+    },
+    {
+      "id": "mako_firstH",
+      "kind": "arc",
+      "character": "mako",
+      "title": "真琴・初調教（沉溺）",
+      "icon": "真",
+      "description": "踏み込んだ場合の真琴への催眠H。真琴ルートのフラグが立つ。",
+      "pos": {
+        "x": 1390,
+        "y": 648
+      },
+      "scenes": [
+        "005_MAKO001B",
+        "005_MAKO001C",
+        "005_MAKO001D",
+        "005_MAKO002A",
+        "005_MAKO002B",
+        "005_MAKO002C"
+      ]
+    },
+    {
+      "id": "ayan3",
+      "kind": "arc",
+      "character": "ayan",
+      "title": "綾菜との日常 ③",
+      "icon": "綾",
+      "description": "綾菜との関係が深まる。三人の生活の転機。",
+      "pos": {
+        "x": 1660,
+        "y": 842
+      },
+      "scenes": [
+        "002_AYAN003A",
+        "002_AYAN003B",
+        "002_AYAN003C",
+        "002_AYAN004A",
+        "002_AYAN004AB",
+        "002_AYAN004B",
+        "010_MAIN002A",
+        "001_PRO002J"
+      ]
+    },
+    {
+      "id": "hub",
+      "kind": "branch",
+      "character": "branch",
+      "title": "★ 大分岐（MAIN003A）",
+      "icon": "◆",
+      "description": "共通ルートの結節点。翼・真琴に「踏み込んだ」フラグの組み合わせで進むルートが決まる：両方撤退→姉妹／翼のみ→翼／真琴のみ→真琴／両方→翼＆真琴。",
+      "pos": {
+        "x": 1940,
+        "y": 838
+      },
+      "scenes": [
+        "010_MAIN003A"
+      ]
+    },
+    {
+      "id": "sister_life",
+      "kind": "arc",
+      "character": "ayan",
+      "title": "姉妹ルート・共同生活",
+      "icon": "姉",
+      "description": "翼・真琴を退け、姉妹（綾菜＋涼菜）に専念。二人を並行して催眠で堕としていく長編パート。真琴(017)とのつなぎも含む。",
+      "pos": {
+        "x": 2280,
+        "y": 300
+      },
+      "scenes": [
+        "002_AYAN005A",
+        "002_AYAN005B",
+        "002_AYAN005C",
+        "011_SUBA001A",
+        "003_SUZU001A",
+        "003_SUZU001B",
+        "003_SUZU001C",
+        "003_SUZU001CD",
+        "003_SUZU001D",
+        "003_SUZU001E",
+        "011_SUBA002A",
+        "003_SUZU002A",
+        "003_SUZU002B",
+        "003_SUZU002BC",
+        "003_SUZU002C",
+        "003_SUZU002D",
+        "011_SUBA003A",
+        "005_MAKO017A",
+        "005_MAKO017B",
+        "005_MAKO017C",
+        "003_SUZU003A",
+        "003_SUZU003B",
+        "003_SUZU003BC",
+        "003_SUZU003C",
+        "003_SUZU003D",
+        "003_SUZU003DE",
+        "003_SUZU003E",
+        "003_SUZU003F",
+        "011_SUBA004A",
+        "002_AYAN006A",
+        "002_AYAN006AB",
+        "002_AYAN006B",
+        "002_AYAN006C",
+        "002_AYAN006D",
+        "011_SUBA005A",
+        "003_SUZU004A",
+        "003_SUZU004B",
+        "003_SUZU004C",
+        "003_SUZU004CD",
+        "003_SUZU004D",
+        "003_SUZU004E"
+      ]
+    },
+    {
+      "id": "sister_choose",
+      "kind": "branch",
+      "character": "branch",
+      "title": "誰を「特別」に選ぶ",
+      "icon": "◆",
+      "description": "姉妹ルートのクライマックス分岐。綾菜を選ぶ／涼菜を選ぶ／二人ともを選ぶ（双子ハーレム）の三分岐。",
+      "pos": {
+        "x": 2560,
+        "y": 360
+      },
+      "scenes": [
+        "002_AYAN007A",
+        "002_AYAN007AB",
+        "002_AYAN007B",
+        "002_AYAN007C",
+        "003_SUZU005A",
+        "003_SUZU005B",
+        "003_SUZU005C",
+        "002_AYAN008A"
+      ]
+    },
+    {
+      "id": "ayan_route",
+      "kind": "arc",
+      "character": "ayan",
+      "title": "綾菜・告白ルート",
+      "icon": "綾",
+      "description": "綾菜を選択（SMAIN_AYAN01）。二人きりの関係を深め、最後の願いを告げる場面へ。",
+      "pos": {
+        "x": 2840,
+        "y": 120
+      },
+      "scenes": [
+        "002_AYAN009A",
+        "002_AYAN009AB",
+        "002_AYAN009B",
+        "002_AYAN009C"
+      ]
+    },
+    {
+      "id": "ayan010",
+      "kind": "branch",
+      "character": "branch",
+      "title": "最後の願い（AYAN010A）",
+      "icon": "◆",
+      "description": "綾菜 END の最終分岐。「关键词を告げる」→ END1 妊娠 ／「拼命に請う」→ END2 聖母。",
+      "pos": {
+        "x": 3110,
+        "y": 120
+      },
+      "scenes": [
+        "002_AYAN010A"
+      ]
+    },
+    {
+      "id": "ayan_end1",
+      "kind": "end",
+      "character": "end",
+      "title": "綾菜 END1：妊娠",
+      "icon": "★",
+      "description": "NORMAL_END。关键词を告げ、綾菜と結ばれ子を宿す結末。（連貫読み物 綾菜_END1_妊娠_ルート.txt として生成済み）",
+      "pos": {
+        "x": 3390,
+        "y": 40
+      },
+      "scenes": [
+        "002_AYAN010B",
+        "002_AYAN011A",
+        "002_AYAN011B",
+        "002_AYAN012A",
+        "002_AYAN012B"
+      ]
+    },
+    {
+      "id": "ayan_end2",
+      "kind": "end",
+      "character": "end",
+      "title": "綾菜 END2：聖母",
+      "icon": "★",
+      "description": "拼命に請う分岐（SMAIN_AYAN03）。聖母的に弟を包み込む別エンド。",
+      "pos": {
+        "x": 3390,
+        "y": 210
+      },
+      "scenes": [
+        "002_AYAN010C",
+        "002_AYAN011A2",
+        "002_AYAN011C",
+        "002_AYAN013A",
+        "002_AYAN013AB",
+        "002_AYAN013B",
+        "002_AYAN013C",
+        "002_AYAN014A"
+      ]
+    },
+    {
+      "id": "suzu_route",
+      "kind": "arc",
+      "character": "suzu",
+      "title": "涼菜ルート",
+      "icon": "涼",
+      "description": "涼菜を選択（SMAIN_SUZU01）。妹・涼菜と結ばれる支線。",
+      "pos": {
+        "x": 2840,
+        "y": 392
+      },
+      "scenes": [
+        "003_SUZU006A",
+        "003_SUZU006B",
+        "003_SUZU006BC",
+        "003_SUZU006C",
+        "003_SUZU007A",
+        "003_SUZU007B"
+      ]
+    },
+    {
+      "id": "suzu_end",
+      "kind": "end",
+      "character": "end",
+      "title": "涼菜 END",
+      "icon": "★",
+      "description": "妹・涼菜との結末。",
+      "pos": {
+        "x": 3390,
+        "y": 392
+      },
+      "scenes": []
+    },
+    {
+      "id": "futa_route",
+      "kind": "arc",
+      "character": "suzu",
+      "title": "双子（綾菜＆涼菜）ルート",
+      "icon": "双",
+      "description": "「二人とも」を選ぶ姉妹同時ハーレム。三人で享受する暗示。SMAIN_SISTER04 を含む。",
+      "pos": {
+        "x": 2840,
+        "y": 560
+      },
+      "scenes": [
+        "004_FUTA001A",
+        "004_FUTA001B",
+        "004_FUTA001C",
+        "004_FUTA002A",
+        "004_FUTA002B",
+        "004_FUTA002C",
+        "004_FUTA002CD",
+        "004_FUTA002D",
+        "004_FUTA002E",
+        "004_FUTA002F",
+        "004_FUTA003A",
+        "004_FUTA003B",
+        "004_FUTA003C",
+        "004_FUTA003D",
+        "004_FUTA003DF",
+        "004_FUTA003E",
+        "004_FUTA003F",
+        "004_FUTA003G",
+        "004_FUTA004A",
+        "004_FUTA004B",
+        "004_FUTA004C",
+        "004_FUTA004D",
+        "004_FUTA005A",
+        "004_FUTA005B",
+        "004_FUTA005C",
+        "004_FUTA005D",
+        "004_FUTA006A",
+        "004_FUTA006B"
+      ]
+    },
+    {
+      "id": "futa_end",
+      "kind": "end",
+      "character": "end",
+      "title": "双子ハーレム END",
+      "icon": "★",
+      "description": "綾菜・涼菜の二人を同時に手に入れる姉妹ハーレム結末。",
+      "pos": {
+        "x": 3390,
+        "y": 560
+      },
+      "scenes": []
+    },
+    {
+      "id": "tuba_route",
+      "kind": "arc",
+      "character": "tuba",
+      "title": "翼ルート・本編",
+      "icon": "翼",
+      "description": "翼に踏み込んだ場合の本ルート（SMAIN_TUBA01/02）。学園で翼を堕とし、関係を深めていく長編。",
+      "pos": {
+        "x": 2280,
+        "y": 1060
+      },
+      "scenes": [
+        "006_TUBA003A",
+        "006_TUBA003B",
+        "006_TUBA003C",
+        "006_TUBA003CD",
+        "006_TUBA003D",
+        "006_TUBA003E",
+        "006_TUBA003F",
+        "011_SUBT001A",
+        "006_TUBA004A",
+        "006_TUBA004B",
+        "006_TUBA004BC",
+        "006_TUBA004C",
+        "006_TUBA004D",
+        "006_TUBA004DE",
+        "006_TUBA004E",
+        "006_TUBA004F",
+        "006_TUBA004G",
+        "006_TUBA004H",
+        "011_SUBT002A",
+        "006_TUBA005A",
+        "006_TUBA005B",
+        "006_TUBA005BC",
+        "006_TUBA005C",
+        "006_TUBA005D",
+        "006_TUBA006B",
+        "006_TUBA006C"
+      ]
+    },
+    {
+      "id": "kaede",
+      "kind": "arc",
+      "character": "kaede",
+      "title": "楠木母娘（楓）",
+      "icon": "楓",
+      "description": "翼の母・楠木楓も催眠下に。「催眠母娘」パート。翼＆楓の母娘丼ルート。",
+      "pos": {
+        "x": 2560,
+        "y": 1230
+      },
+      "scenes": [
+        "007_KAED001A",
+        "007_KAED001AB",
+        "007_KAED001B",
+        "007_KAED001C",
+        "007_KAED002A",
+        "007_KAED002AB",
+        "007_KAED002B",
+        "007_KAED002C",
+        "007_KAED003A",
+        "007_KAED003AC",
+        "007_KAED003B",
+        "007_KAED003C",
+        "007_KAED003D",
+        "007_KAED004A",
+        "007_KAED004B",
+        "007_KAED004C",
+        "007_KAED004D",
+        "008_TUBA007A",
+        "008_TUBA007AB",
+        "008_TUBA007B",
+        "008_TUBA008A",
+        "008_TUBA008B",
+        "008_TUBA008C",
+        "008_TUBA009A",
+        "008_TUBA009B"
+      ]
+    },
+    {
+      "id": "tuba_climax",
+      "kind": "arc",
+      "character": "tuba",
+      "title": "翼ルート・終盤",
+      "icon": "翼",
+      "description": "翼ルート終盤の連続調教。SMAIN_SUBT 挿話を挟みつつクライマックスへ。",
+      "pos": {
+        "x": 2840,
+        "y": 1060
+      },
+      "scenes": [
+        "006_TUBA010B",
+        "006_TUBA010BC",
+        "006_TUBA010C",
+        "006_TUBA010D",
+        "006_TUBA010E",
+        "011_SUBT003A",
+        "006_TUBA011A",
+        "006_TUBA011B",
+        "006_TUBA011C",
+        "011_SUBT004A",
+        "006_TUBA012A",
+        "006_TUBA012B",
+        "006_TUBA012BC",
+        "006_TUBA012C",
+        "006_TUBA012D",
+        "006_TUBA013A",
+        "006_TUBA013B",
+        "006_TUBA013C",
+        "006_TUBA013D",
+        "006_TUBA013E",
+        "006_TUBA013F",
+        "006_TUBA013G",
+        "006_TUBA014A",
+        "006_TUBA014B",
+        "006_TUBA014C",
+        "006_TUBA014D",
+        "006_TUBA015A",
+        "006_TUBA015B",
+        "006_TUBA015C",
+        "006_TUBA016A",
+        "006_TUBA016B",
+        "006_TUBA016C",
+        "006_TUBA017A",
+        "006_TUBA017B",
+        "006_TUBA018A",
+        "006_TUBA018B"
+      ]
+    },
+    {
+      "id": "tuba_end",
+      "kind": "end",
+      "character": "end",
+      "title": "翼 TRUE END",
+      "icon": "★",
+      "description": "TRUE_END。翼（＋母・楓）を完全に手に入れる真ルート結末。",
+      "pos": {
+        "x": 3390,
+        "y": 1060
+      },
+      "scenes": []
+    },
+    {
+      "id": "mako_route",
+      "kind": "arc",
+      "character": "mako",
+      "title": "真琴ルート・本編",
+      "icon": "真",
+      "description": "真琴に踏み込んだ場合の本ルート（SMAIN_MAKO01）。望月真琴を堕とす長編パート。",
+      "pos": {
+        "x": 2280,
+        "y": 1400
+      },
+      "scenes": [
+        "005_MAKO003A",
+        "005_MAKO003B",
+        "005_MAKO003C",
+        "005_MAKO004A",
+        "005_MAKO004B",
+        "005_MAKO004C",
+        "005_MAKO004D",
+        "005_MAKO004E",
+        "005_MAKO004F",
+        "005_MAKO013A",
+        "005_MAKO013B",
+        "005_MAKO013C",
+        "005_MAKO014A",
+        "005_MAKO014B",
+        "005_MAKO015A",
+        "005_MAKO015B",
+        "005_MAKO016A",
+        "005_MAKO005A",
+        "005_MAKO005B",
+        "005_MAKO005BC",
+        "005_MAKO005C",
+        "005_MAKO005D",
+        "005_MAKO005E",
+        "005_MAKO005F"
+      ]
+    },
+    {
+      "id": "mako_climax",
+      "kind": "arc",
+      "character": "mako",
+      "title": "真琴ルート・終盤",
+      "icon": "真",
+      "description": "真琴ルート終盤。連続調教からクライマックスへ。",
+      "pos": {
+        "x": 2840,
+        "y": 1400
+      },
+      "scenes": [
+        "005_MAKO006A",
+        "005_MAKO006B",
+        "005_MAKO006BD",
+        "005_MAKO006C",
+        "005_MAKO006D",
+        "005_MAKO007A",
+        "005_MAKO007B",
+        "005_MAKO008A",
+        "005_MAKO008B",
+        "005_MAKO009A",
+        "009_MAKO010A",
+        "009_MAKO010AB",
+        "009_MAKO010B",
+        "005_MAKO011A",
+        "005_MAKO011AB",
+        "005_MAKO011B",
+        "005_MAKO012A",
+        "005_MAKO012AB",
+        "005_MAKO012B"
+      ]
+    },
+    {
+      "id": "mako_end",
+      "kind": "end",
+      "character": "end",
+      "title": "真琴 END",
+      "icon": "★",
+      "description": "望月真琴との結末。",
+      "pos": {
+        "x": 3390,
+        "y": 1400
+      },
+      "scenes": []
+    },
+    {
+      "id": "tubamako",
+      "kind": "arc",
+      "character": "kaede",
+      "title": "翼＆真琴ルート（合流）",
+      "icon": "双",
+      "description": "翼・真琴の両方に踏み込んだ最上位ハーレム（SMAIN_TUBAMAKO01〜06）。楠木家を出て真琴と合流、二人＋母を束ねる。",
+      "pos": {
+        "x": 2280,
+        "y": 1680
+      },
+      "scenes": [
+        "012_SUBTM001A",
+        "012_SUBTM002A",
+        "012_SUBTM004A",
+        "012_SUBTM005A",
+        "012_SUBTM006A",
+        "012_SUBTM007A",
+        "012_SUBTM007B",
+        "012_SUBTM007C",
+        "012_SUBTM008A",
+        "006_TUBA019A",
+        "006_TUBA019B",
+        "006_TUBA019C",
+        "006_TUBA019D",
+        "006_TUBA020A"
+      ]
+    },
+    {
+      "id": "tubamako_end",
+      "kind": "end",
+      "character": "end",
+      "title": "グランドハーレム END",
+      "icon": "☆",
+      "description": "STAFF_ROLL。翼・真琴（・楓）を束ねる最終ハーレム結末＝事実上のグランドフィナーレ。",
+      "pos": {
+        "x": 3390,
+        "y": 1680
+      },
+      "scenes": []
+    },
+    {
+      "id": "nuke",
+      "kind": "omake",
+      "character": "omake",
+      "title": "おまけ（抜きシーン）",
+      "icon": "＋",
+      "description": "本編フロー外の短編Hシーン集（回想／おまけメニューから再生）。SMAIN本流には含まれない。",
+      "pos": {
+        "x": 300,
+        "y": 1500
+      },
+      "scenes": [
+        "009_NUKE001",
+        "009_NUKE002",
+        "009_NUKE003",
+        "009_NUKE004",
+        "009_NUKE005",
+        "009_NUKE006"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "source": "start",
+      "target": "prologue"
+    },
+    {
+      "source": "prologue",
+      "target": "ayan1"
+    },
+    {
+      "source": "ayan1",
+      "target": "tuba_contact"
+    },
+    {
+      "source": "tuba_contact",
+      "target": "tuba_firstH",
+      "label": "踏み込む / 沉溺",
+      "character": "tuba"
+    },
+    {
+      "source": "tuba_firstH",
+      "target": "ayan2",
+      "character": "tuba"
+    },
+    {
+      "source": "tuba_contact",
+      "target": "ayan2",
+      "label": "撤退 / 懊悔",
+      "character": "common"
+    },
+    {
+      "source": "ayan2",
+      "target": "mako_contact"
+    },
+    {
+      "source": "mako_contact",
+      "target": "mako_firstH",
+      "label": "踏み込む / 沉溺",
+      "character": "mako"
+    },
+    {
+      "source": "mako_firstH",
+      "target": "ayan3",
+      "character": "mako"
+    },
+    {
+      "source": "mako_contact",
+      "target": "ayan3",
+      "label": "撤退 / 愤怒･后悔",
+      "character": "common"
+    },
+    {
+      "source": "ayan3",
+      "target": "hub"
+    },
+    {
+      "source": "hub",
+      "target": "sister_life",
+      "label": "両方撤退 → 姉妹",
+      "character": "ayan"
+    },
+    {
+      "source": "hub",
+      "target": "tuba_route",
+      "label": "翼のみ堕とす",
+      "character": "tuba"
+    },
+    {
+      "source": "hub",
+      "target": "mako_route",
+      "label": "真琴のみ堕とす",
+      "character": "mako"
+    },
+    {
+      "source": "hub",
+      "target": "tubamako",
+      "label": "翼＆真琴 両方",
+      "character": "kaede"
+    },
+    {
+      "source": "sister_life",
+      "target": "sister_choose"
+    },
+    {
+      "source": "sister_choose",
+      "target": "ayan_route",
+      "label": "綾菜を選ぶ",
+      "character": "ayan"
+    },
+    {
+      "source": "sister_choose",
+      "target": "suzu_route",
+      "label": "涼菜を選ぶ",
+      "character": "suzu"
+    },
+    {
+      "source": "sister_choose",
+      "target": "futa_route",
+      "label": "二人とも",
+      "character": "suzu"
+    },
+    {
+      "source": "ayan_route",
+      "target": "ayan010"
+    },
+    {
+      "source": "ayan010",
+      "target": "ayan_end1",
+      "label": "关键词を告げる",
+      "character": "end"
+    },
+    {
+      "source": "ayan010",
+      "target": "ayan_end2",
+      "label": "拼命に請う",
+      "character": "end"
+    },
+    {
+      "source": "suzu_route",
+      "target": "suzu_end"
+    },
+    {
+      "source": "futa_route",
+      "target": "futa_end"
+    },
+    {
+      "source": "tuba_route",
+      "target": "kaede",
+      "label": "母・楓も催眠",
+      "character": "kaede"
+    },
+    {
+      "source": "kaede",
+      "target": "tuba_climax",
+      "character": "tuba"
+    },
+    {
+      "source": "tuba_route",
+      "target": "tuba_climax",
+      "character": "tuba"
+    },
+    {
+      "source": "tuba_climax",
+      "target": "tuba_end"
+    },
+    {
+      "source": "mako_route",
+      "target": "mako_climax"
+    },
+    {
+      "source": "mako_climax",
+      "target": "mako_end"
+    },
+    {
+      "source": "tubamako",
+      "target": "tubamako_end"
+    }
+  ]
+}
