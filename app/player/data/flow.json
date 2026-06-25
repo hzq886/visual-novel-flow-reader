@@ -30,7 +30,7 @@
       "id": "001_PRO001A",
       "kind": "arc",
       "character": "common",
-      "title": "PRO001A‥TUBA001B2",
+      "title": "PRO001A‥TUBA001B",
       "pos": {
         "x": 300,
         "y": 0
@@ -58,8 +58,7 @@
         "002_AYAN001B",
         "001_PRO002H",
         "006_TUBA001A",
-        "006_TUBA001B",
-        "006_TUBA001B2"
+        "006_TUBA001B"
       ],
       "choices": [
         {
@@ -67,11 +66,17 @@
           "options": [
             {
               "jp": "後悔して、すぐに止める",
-              "cn": "立刻后悔，停止下来"
+              "cn": "立刻后悔，停止下来",
+              "flag": "S61/S522=1",
+              "target": "006_TUBA001B2",
+              "targetTitle": "TUBA001B2"
             },
             {
               "jp": "背徳に溺れて、このまま続ける",
-              "cn": "沉溺于背德，继续下去"
+              "cn": "沉溺于背德，继续下去",
+              "flag": "S61/S522=2",
+              "target": "006_TUBA001C",
+              "targetTitle": "TUBA001C"
             }
           ]
         }
@@ -91,16 +96,51 @@
       ]
     },
     {
-      "id": "SMAIN_MIX01",
-      "kind": "branch",
-      "character": "branch",
-      "title": "MIX01",
-      "icon": "◆",
+      "id": "006_TUBA001B2",
+      "kind": "arc",
+      "character": "tuba",
+      "title": "TUBA001B2",
       "pos": {
         "x": 600,
         "y": 0
       },
-      "scenes": []
+      "scenes": [
+        "006_TUBA001B2"
+      ]
+    },
+    {
+      "id": "006_TUBA001C",
+      "kind": "arc",
+      "character": "tuba",
+      "title": "TUBA001C",
+      "pos": {
+        "x": 600,
+        "y": 120
+      },
+      "scenes": [
+        "006_TUBA001C"
+      ],
+      "choices": [
+        {
+          "scene": "006_TUBA001C",
+          "options": [
+            {
+              "jp": "それが絶頂の反応だと分かったとき……。",
+              "cn": "当我意识到这是高潮的反应时……。",
+              "flag": "S62/S523=1",
+              "target": "006_TUBA001E",
+              "targetTitle": "TUBA001E"
+            },
+            {
+              "jp": "まだ我慢をする",
+              "cn": "我还能忍耐",
+              "flag": "S62/S523=2",
+              "target": "006_TUBA002A",
+              "targetTitle": "TUBA002A"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "012_SUBTM002A",
@@ -109,7 +149,7 @@
       "title": "SUBTM002A",
       "pos": {
         "x": 600,
-        "y": 120
+        "y": 240
       },
       "scenes": [
         "012_SUBTM002A"
@@ -122,7 +162,7 @@
       "title": "SUBTM006A",
       "pos": {
         "x": 600,
-        "y": 240
+        "y": 360
       },
       "scenes": [
         "012_SUBTM006A"
@@ -135,7 +175,7 @@
       "title": "MAKO004A‥MAKO013A",
       "pos": {
         "x": 600,
-        "y": 360
+        "y": 480
       },
       "scenes": [
         "005_MAKO004A",
@@ -163,32 +203,30 @@
       ]
     },
     {
-      "id": "006_TUBA001C",
-      "kind": "arc",
-      "character": "tuba",
-      "title": "TUBA001C‥TUBA001E",
+      "id": "SMAIN_MIX01",
+      "kind": "branch",
+      "character": "branch",
+      "title": "MIX01",
+      "icon": "◆",
       "pos": {
         "x": 900,
         "y": 0
       },
+      "scenes": []
+    },
+    {
+      "id": "006_TUBA001E",
+      "kind": "arc",
+      "character": "tuba",
+      "title": "TUBA001E",
+      "pos": {
+        "x": 900,
+        "y": 120
+      },
       "scenes": [
-        "006_TUBA001C",
         "006_TUBA001E"
       ],
       "choices": [
-        {
-          "scene": "006_TUBA001C",
-          "options": [
-            {
-              "jp": "それが絶頂の反応だと分かったとき……。",
-              "cn": "当我意识到这是高潮的反应时……。"
-            },
-            {
-              "jp": "まだ我慢をする",
-              "cn": "我还能忍耐"
-            }
-          ]
-        },
         {
           "scene": "006_TUBA001E",
           "options": [
@@ -205,13 +243,47 @@
       ]
     },
     {
+      "id": "006_TUBA002A",
+      "kind": "arc",
+      "character": "tuba",
+      "title": "TUBA002A",
+      "pos": {
+        "x": 900,
+        "y": 240
+      },
+      "scenes": [
+        "006_TUBA002A"
+      ],
+      "choices": [
+        {
+          "scene": "006_TUBA002A",
+          "options": [
+            {
+              "jp": "このまま続ける",
+              "cn": "就这样继续",
+              "flag": "S63/S524=1",
+              "target": "006_TUBA002B",
+              "targetTitle": "TUBA002B‥TUBA002C"
+            },
+            {
+              "jp": "暗示をかける",
+              "cn": "给暗示",
+              "flag": "S63/S524=2",
+              "target": "006_TUBA002D",
+              "targetTitle": "TUBA002D‥TUBA002E"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "005_MAKO013B",
       "kind": "arc",
       "character": "mako",
       "title": "MAKO013B",
       "pos": {
         "x": 900,
-        "y": 120
+        "y": 360
       },
       "scenes": [
         "005_MAKO013B"
@@ -242,13 +314,41 @@
       "scenes": []
     },
     {
+      "id": "006_TUBA002B",
+      "kind": "arc",
+      "character": "tuba",
+      "title": "TUBA002B‥TUBA002C",
+      "pos": {
+        "x": 1200,
+        "y": 240
+      },
+      "scenes": [
+        "006_TUBA002B",
+        "006_TUBA002C"
+      ]
+    },
+    {
+      "id": "006_TUBA002D",
+      "kind": "arc",
+      "character": "tuba",
+      "title": "TUBA002D‥TUBA002E",
+      "pos": {
+        "x": 1200,
+        "y": 360
+      },
+      "scenes": [
+        "006_TUBA002D",
+        "006_TUBA002E"
+      ]
+    },
+    {
       "id": "005_MAKO013C",
       "kind": "arc",
       "character": "mako",
       "title": "MAKO013C‥MAKO016A",
       "pos": {
         "x": 1200,
-        "y": 240
+        "y": 480
       },
       "scenes": [
         "005_MAKO013C",
@@ -260,13 +360,25 @@
       ]
     },
     {
+      "id": "SMAIN_TUBA03",
+      "kind": "branch",
+      "character": "branch",
+      "title": "TUBA03",
+      "icon": "◆",
+      "pos": {
+        "x": 1500,
+        "y": 0
+      },
+      "scenes": []
+    },
+    {
       "id": "006_TUBA001D",
       "kind": "arc",
       "character": "ayan",
       "title": "TUBA001D‥MAKO001A",
       "pos": {
         "x": 1500,
-        "y": 0
+        "y": 120
       },
       "scenes": [
         "006_TUBA001D",
@@ -284,41 +396,17 @@
           "options": [
             {
               "jp": "人のことは言えない",
-              "cn": "不能说别人的坏话"
+              "cn": "不能说别人的坏话",
+              "flag": "S71/軸2_1=1",
+              "target": "SMAIN_MIX03",
+              "targetTitle": "MIX03"
             },
             {
               "jp": "血が出そうなほど、唇を強く噛む。",
-              "cn": "咬紧嘴唇，几乎要出血了。"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "006_TUBA002A",
-      "kind": "arc",
-      "character": "tuba",
-      "title": "TUBA002A‥TUBA002C",
-      "pos": {
-        "x": 1500,
-        "y": 120
-      },
-      "scenes": [
-        "006_TUBA002A",
-        "006_TUBA002B",
-        "006_TUBA002C"
-      ],
-      "choices": [
-        {
-          "scene": "006_TUBA002A",
-          "options": [
-            {
-              "jp": "このまま続ける",
-              "cn": "就这样继续"
-            },
-            {
-              "jp": "暗示をかける",
-              "cn": "给暗示"
+              "cn": "咬紧嘴唇，几乎要出血了。",
+              "flag": "S71/軸2_1=2",
+              "target": "005_MAKO001B",
+              "targetTitle": "MAKO001B‥MAKO001D"
             }
           ]
         }
@@ -351,18 +439,6 @@
       ]
     },
     {
-      "id": "SMAIN_TUBA03",
-      "kind": "branch",
-      "character": "branch",
-      "title": "TUBA03",
-      "icon": "◆",
-      "pos": {
-        "x": 1800,
-        "y": 0
-      },
-      "scenes": []
-    },
-    {
       "id": "SMAIN_MIX03",
       "kind": "branch",
       "character": "branch",
@@ -370,23 +446,9 @@
       "icon": "◆",
       "pos": {
         "x": 1800,
-        "y": 120
-      },
-      "scenes": []
-    },
-    {
-      "id": "006_TUBA002D",
-      "kind": "arc",
-      "character": "tuba",
-      "title": "TUBA002D‥TUBA002E",
-      "pos": {
-        "x": 2100,
         "y": 0
       },
-      "scenes": [
-        "006_TUBA002D",
-        "006_TUBA002E"
-      ]
+      "scenes": []
     },
     {
       "id": "006_TUBA002F",
@@ -394,7 +456,7 @@
       "character": "tuba",
       "title": "TUBA002F‥TUBA002G",
       "pos": {
-        "x": 2100,
+        "x": 1800,
         "y": 120
       },
       "scenes": [
@@ -408,7 +470,7 @@
       "character": "mako",
       "title": "MAKO001B‥MAKO001D",
       "pos": {
-        "x": 2100,
+        "x": 1800,
         "y": 240
       },
       "scenes": [
@@ -422,11 +484,17 @@
           "options": [
             {
               "jp": "後悔する",
-              "cn": "后悔"
+              "cn": "后悔",
+              "flag": "S72/軸2_2=1",
+              "target": "SMAIN_MIX03",
+              "targetTitle": "MIX03"
             },
             {
               "jp": "まだ足りない",
-              "cn": "还不够"
+              "cn": "还不够",
+              "flag": "S72/軸2_2=2",
+              "target": "005_MAKO002A",
+              "targetTitle": "MAKO002A‥MAKO002C"
             }
           ]
         }
@@ -439,7 +507,7 @@
       "title": "MAKO002A‥MAKO002C",
       "pos": {
         "x": 2100,
-        "y": 360
+        "y": 0
       },
       "scenes": [
         "005_MAKO002A",
@@ -1433,8 +1501,25 @@
   "edges": [
     {
       "source": "001_PRO001A",
-      "target": "SMAIN_MIX01",
-      "character": "common"
+      "target": "006_TUBA001B2",
+      "character": "common",
+      "label": "後悔して、すぐに止める",
+      "condition": {
+        "flags": [
+          "S61/S522=1"
+        ]
+      }
+    },
+    {
+      "source": "001_PRO001A",
+      "target": "006_TUBA001C",
+      "character": "common",
+      "label": "背徳に溺れて、このまま続ける",
+      "condition": {
+        "flags": [
+          "S61/S522=2"
+        ]
+      }
     },
     {
       "source": "002_AYAN005A",
@@ -1478,11 +1563,23 @@
     },
     {
       "source": "005_MAKO001B",
-      "target": "SMAIN_MIX03",
+      "target": "005_MAKO002A",
       "character": "mako",
+      "label": "まだ足りない",
       "condition": {
         "flags": [
-          "S72/軸2_2"
+          "S72/軸2_2=2"
+        ]
+      }
+    },
+    {
+      "source": "005_MAKO001B",
+      "target": "SMAIN_MIX03",
+      "character": "mako",
+      "label": "後悔する",
+      "condition": {
+        "flags": [
+          "S72/軸2_2=1"
         ]
       }
     },
@@ -1552,22 +1649,83 @@
       "character": "mako"
     },
     {
-      "source": "006_TUBA001C",
-      "target": "SMAIN_MIX02",
+      "source": "006_TUBA001B2",
+      "target": "SMAIN_MIX01",
       "character": "tuba"
+    },
+    {
+      "source": "006_TUBA001C",
+      "target": "006_TUBA001E",
+      "character": "tuba",
+      "label": "それが絶頂の反応だと分かったとき……。",
+      "condition": {
+        "flags": [
+          "S62/S523=1"
+        ]
+      }
+    },
+    {
+      "source": "006_TUBA001C",
+      "target": "006_TUBA002A",
+      "character": "tuba",
+      "label": "まだ我慢をする",
+      "condition": {
+        "flags": [
+          "S62/S523=2"
+        ]
+      }
+    },
+    {
+      "source": "006_TUBA001D",
+      "target": "005_MAKO001B",
+      "character": "ayan",
+      "label": "血が出そうなほど、唇を強く噛む。",
+      "condition": {
+        "flags": [
+          "S71/軸2_1=2"
+        ]
+      }
     },
     {
       "source": "006_TUBA001D",
       "target": "SMAIN_MIX03",
       "character": "ayan",
+      "label": "人のことは言えない",
       "condition": {
         "flags": [
-          "S71/軸2_1"
+          "S71/軸2_1=1"
+        ]
+      }
+    },
+    {
+      "source": "006_TUBA001E",
+      "target": "SMAIN_MIX02",
+      "character": "tuba"
+    },
+    {
+      "source": "006_TUBA002A",
+      "target": "006_TUBA002B",
+      "character": "tuba",
+      "label": "このまま続ける",
+      "condition": {
+        "flags": [
+          "S63/S524=1"
         ]
       }
     },
     {
       "source": "006_TUBA002A",
+      "target": "006_TUBA002D",
+      "character": "tuba",
+      "label": "暗示をかける",
+      "condition": {
+        "flags": [
+          "S63/S524=2"
+        ]
+      }
+    },
+    {
+      "source": "006_TUBA002B",
       "target": "SMAIN_TUBA03",
       "character": "tuba"
     },
@@ -1765,24 +1923,8 @@
       "target": "SMAIN_TUBAMAKO01"
     },
     {
-      "source": "SMAIN_MIX01",
-      "target": "006_TUBA001C"
-    },
-    {
       "source": "SMAIN_MIX02",
       "target": "006_TUBA001D"
-    },
-    {
-      "source": "SMAIN_MIX02",
-      "target": "006_TUBA002A"
-    },
-    {
-      "source": "SMAIN_MIX03",
-      "target": "005_MAKO001B"
-    },
-    {
-      "source": "SMAIN_MIX03",
-      "target": "005_MAKO002A"
     },
     {
       "source": "SMAIN_MIX04",
@@ -1831,10 +1973,6 @@
     {
       "source": "SMAIN_TUBA02",
       "target": "SMAIN_MAKO01"
-    },
-    {
-      "source": "SMAIN_TUBA03",
-      "target": "006_TUBA002D"
     },
     {
       "source": "SMAIN_TUBA03",

@@ -1,6 +1,8 @@
 node_modules/
 dist/
 .DS_Store
+__pycache__/
+*.pyc
 .playwright-mcp/
 data_extract/CG/md_gra_cg/
 data_extract/CG/md_gra2_cg/

@@ -56,7 +56,8 @@ Vite + TypeScript + React / VN描画=**PixiJS**(WebGL) / ルート図=**React Fl
 
 - **一次（実装済・HU-15）** = `scripts/extract-flow.py`（`npm run data:flow`）が `SMAIN` バイトコードを逆アセンブルし `data/flow.json` を機械生成（全ルート・全分岐・全エンドの完全グラフ）。形式は [`smain_flow_guide.md`](../../data_extract/text/_tools/smain_flow_guide.md)。`condition.flags` は select id（`SEL_xx`）。原データは git 外のため未配置時はスキップ（committed の flow.json 維持）。
 - **二次（照合・降格）** = `scripts/route-map.data.ts`＋`scripts/build-flow.ts`（`npm run data:flow:routemap`）。`../prototype/route_map.html` の N/E ポート。出力は `data/flow.routemap.json`（git 外・**flow.json は上書きしない**）。`build_ayan_end1.py` と併せ HU-16 の制御構造 diff・ラベル補完用。
-- 選択肢メニュー文言の jp/cn i18n は `FlowNode.choices` に取り込み済（HU-18。選択肢 ID `<scene>_NN_MM` 印で抽出）。JP/CN 制御構造一致は `npm run data:flow:diff`（HU-16）。残: `_DEF` フラグ名解決・`_VIEW` 方式メニュー。
+- 選択肢メニュー文言の jp/cn i18n は `FlowNode.choices` に取り込み済（HU-18 ID 方式／HU-19 `_VIEW` 方式）。JP/CN 制御構造一致は `npm run data:flow:diff`（HU-16）。`condition.flags` の `_DEF` 実フラグ名解決済（HU-20）。
+- **選択肢→分岐先（HU-21・実装済）**: シーン脚本 bytecode のフラグ set opcode を RE し SMAIN の len-8 switch と突合。`FlowChoice.options[*]` に `flag`/`target`/`targetTitle` を付与＋分岐ラベル付きエッジを新設（→ [`smain_flow_guide.md`](../../data_extract/text/_tools/smain_flow_guide.md) §3.8）。hub 合流後の goto 継続先解決は別 issue（full CFG）。
 - **`flow.json` は手編集しない**（生成物。`data:flow` 再生成で上書き）。
 
 ## やってはいけない

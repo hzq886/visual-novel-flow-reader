@@ -92,6 +92,10 @@ export const FlowChoice = z.object({
     z.object({
       jp: z.string(),
       cn: z.string().nullable(), // cn 未抽出は null
+      // ルート分岐（SMAIN len-8 switch）の選択肢のみ付与（HU-21）。非分岐の局所選択肢は持たない。
+      flag: z.string().optional(), // この選択肢が書くフラグ＝値（例 "S71/軸2_1=2"）
+      target: z.string().optional(), // 分岐先ノード id
+      targetTitle: z.string().optional(), // 分岐先ノードの表示タイトル
     }),
   ),
 })

@@ -40,4 +40,11 @@
 
 - 縦串と同時にルート図を提供でき、再生中シーンの連動ハイライトが成立する（受入 HU-13）。
 - HU-15 で `SMAIN` を解読し、**同じ `Flow` スキーマ・同じ `data/flow.json` 出力先**のまま暫定（route_map ポート）から一次（機械抽出）へ中身を差し替えた。描画側 `src/flow`（`flow.ts`/`FlowMap.tsx`）は**実装無改修**（`fitView`＋`MiniMap` で 74 ノードの完全グラフも描画可。テスト `flow.test.ts` のみ機械抽出の不変条件へ更新）。
-- JP/CN 制御構造 diff（HU-16）は両版完全一致を確認。選択肢メニュー文言の jp/cn 取り込み（HU-18 の ID 方式＋HU-19 の `_VIEW` 方式）も完了（`FlowNode.choices`）。`condition.flags` の `_DEF` 実フラグ名解決（HU-20 Part A）も実装済。残るは**各選択肢オプション→分岐先ノードの厳密紐付け**（シーン脚本のフラグ set opcode RE が要る・別 issue）。
+- JP/CN 制御構造 diff（HU-16）は両版完全一致を確認。選択肢メニュー文言の jp/cn 取り込み（HU-18 の ID 方式＋HU-19 の `_VIEW` 方式）も完了（`FlowNode.choices`）。`condition.flags` の `_DEF` 実フラグ名解決（HU-20 Part A）も実装済。
+
+### 選択肢オプション → 分岐先ノードの厳密紐付け（実装済・HU-21）
+
+各シーン脚本 bytecode の**フラグ set opcode を RE** し（シーン脚本も SMAIN と同形式だが `lineno` が非減少で線形パースが要る。`06 00 <slot> f5 eb <val> ff` = `S<slot>:=<val>`）、SMAIN の **len-8 SELECT switch**（`1d … f5 f5 eb 01 ff` ＋ `08` ガードの case-block 列・**case 順＝フラグ値**）と突き合わせて「選択肢 → フラグ＝値 → switch case → 分岐先ノード」を解決した。詳細は [`smain_flow_guide.md`](../../data_extract/text/_tools/smain_flow_guide.md) §3.8。
+
+- **出力形（採択）**: 「オプション付与＋分岐エッジ追加」。`FlowChoice.options[*]` に `flag`/`target`/`targetTitle` を付与（[ADR 0002](0002-data-schema.md)）。さらに `apply_switches()` が **source（メニューシーン）→ 各 case-head** に**選択肢ラベル＋条件フラグ**付きエッジを張り、収縮で source/case-head を境界に残す。これに伴い case 間のレイアウト隣接由来の**誤った線形エッジ**（例 `MIX03→MAKO001B`）を除去する。本作 5 switch（`S61/62/63`・`S71/72`）= **選択肢→分岐先 10・分岐ラベル付きエッジ 10**。`TUBA001C`/`TUBA001E` のような合流畳み込みが分離され、ネスト分岐が可視化される（76 ノード/100 エッジ）。
+- **非ゴール（別 issue 候補）**: hub の合流後 goto（`SMAIN_MIX*` 継続先）の厳密解決＝full CFG。label 表 ↔ hub 名の対応が位置非依存で曖昧なため見送り。誤接続除去の結果 `SMAIN_MIX01`/`MIX03` は合流 sink になる（全ノード到達は維持）。len-7 等値テスト（任意挿入シーン。SUBTM 系等）の紐付けも対象外。
