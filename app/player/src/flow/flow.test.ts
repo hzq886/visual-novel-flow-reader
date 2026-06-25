@@ -53,6 +53,32 @@ describe('findNodeIdByScene — 連動ハイライトの所有者特定', () => 
   })
 })
 
+describe('選択肢メニュー i18n（HU-18）', () => {
+  const menus = flow.nodes.flatMap((n) => n.choices ?? [])
+
+  it('選択肢メニューが flow に載り、各 2 択以上で jp/cn を持つ', () => {
+    expect(menus.length).toBeGreaterThan(0)
+    for (const m of menus) {
+      expect(m.options.length).toBeGreaterThanOrEqual(2)
+      for (const o of m.options) {
+        expect(o.jp.length).toBeGreaterThan(0)
+        expect(typeof o.cn === 'string' || o.cn === null).toBe(true)
+      }
+    }
+  })
+
+  it('002_AYAN010A の選択肢（キーワードを言う / 一生懸命に頼み込む）が jp/cn で載る（受入）', () => {
+    const menu = menus.find((m) => m.scene === '002_AYAN010A')
+    expect(menu).toBeDefined()
+    expect(menu?.options.map((o) => o.jp)).toEqual(['キーワードを言う', '一生懸命に頼み込む'])
+    expect(menu?.options.map((o) => o.cn)).toEqual(['说出关键词', '拼命地请求'])
+  })
+
+  it('選択肢を持つノードの scene にその選択肢シーンが含まれる', () => {
+    for (const n of flow.nodes) for (const c of n.choices ?? []) expect(n.scenes).toContain(c.scene)
+  })
+})
+
 describe('toReactFlow — React Flow 形状への写像', () => {
   const rf = toReactFlow(flow)
 

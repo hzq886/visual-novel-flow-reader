@@ -56,7 +56,7 @@ Vite + TypeScript + React / VN描画=**PixiJS**(WebGL) / ルート図=**React Fl
 
 - **一次（実装済・HU-15）** = `scripts/extract-flow.py`（`npm run data:flow`）が `SMAIN` バイトコードを逆アセンブルし `data/flow.json` を機械生成（全ルート・全分岐・全エンドの完全グラフ）。形式は [`smain_flow_guide.md`](../../data_extract/text/_tools/smain_flow_guide.md)。`condition.flags` は select id（`SEL_xx`）。原データは git 外のため未配置時はスキップ（committed の flow.json 維持）。
 - **二次（照合・降格）** = `scripts/route-map.data.ts`＋`scripts/build-flow.ts`（`npm run data:flow:routemap`）。`../prototype/route_map.html` の N/E ポート。出力は `data/flow.routemap.json`（git 外・**flow.json は上書きしない**）。`build_ayan_end1.py` と併せ HU-16 の制御構造 diff・ラベル補完用。
-- `_DEF` フラグ名解決と選択肢メニュー文言の i18n 取り込みは **HU-16**。
+- 選択肢メニュー文言の jp/cn i18n は `FlowNode.choices` に取り込み済（HU-18。選択肢 ID `<scene>_NN_MM` 印で抽出）。JP/CN 制御構造一致は `npm run data:flow:diff`（HU-16）。残: `_DEF` フラグ名解決・`_VIEW` 方式メニュー。
 - **`flow.json` は手編集しない**（生成物。`data:flow` 再生成で上書き）。
 
 ## やってはいけない

@@ -36,19 +36,33 @@ function nodeStyle(character: string, live: boolean): React.CSSProperties {
     fontSize: 12,
     fontWeight: 700,
     width: 180,
+    whiteSpace: 'pre-line', // 選択肢ラベルの改行（◇…）を表示
+    textAlign: 'center',
     boxShadow: live
       ? '0 0 0 2.5px #ffd166, 0 0 26px 2px rgba(255,209,102,.6)'
       : `0 0 0 1px ${color}33`,
   }
 }
 
+// 選択肢メニュー（HU-18）をノードに可視化: jp オプションを「◇A／B」でラベル末尾に付す。
+const choiceLabelById = new Map(
+  flow.nodes.map((n) => [
+    n.id,
+    (n.choices ?? []).flatMap((c) => c.options.map((o) => o.jp)).join('／'),
+  ]),
+)
+
 function rfNodes(liveId: string | null): Node<NodeData>[] {
-  return base.nodes.map((n) => ({
-    id: n.id,
-    position: n.position,
-    data: { label: n.data.label, character: n.data.character },
-    style: nodeStyle(n.data.character, n.id === liveId),
-  }))
+  return base.nodes.map((n) => {
+    const choices = choiceLabelById.get(n.id)
+    const label = choices ? `${n.data.label}\n◇${choices}` : n.data.label
+    return {
+      id: n.id,
+      position: n.position,
+      data: { label, character: n.data.character },
+      style: nodeStyle(n.data.character, n.id === liveId),
+    }
+  })
 }
 
 const initialEdges: Edge[] = base.edges.map((e) => ({

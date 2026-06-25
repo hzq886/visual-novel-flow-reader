@@ -37,6 +37,7 @@ ROOT = os.path.dirname(os.path.dirname(_APP_PLAYER))
 DEFAULT_SRC = os.path.join(ROOT, "original_game", "saimin4_jp", "md_scr.med")
 DEFAULT_OUT = os.path.join(_APP_PLAYER, "data", "flow.json")
 TEXT_DIR = os.path.join(ROOT, "data_extract", "text", "md_scr_text_jp")
+TEXT_DIR_CN = os.path.join(ROOT, "data_extract", "text", "md_scr_text_cn")
 
 KEY = b"tauromin"  # MED 復号鍵（_VIEW クリブから復元済。text_unpack_guide.md §4）
 
@@ -342,6 +343,50 @@ def char_of_node(g, n):
     return chars.most_common(1)[0][0] if chars else "common"
 
 
+# ───────────────────────── 選択肢メニュー i18n 抽出 ─────────────────────────
+def _scene_menus(txt_path, code, txt_tag, id_tag):
+    """シーン .txt から選択肢を抽出。選択肢 = 直後に `[id] <code>_NN_MM` が続く本文行。
+    返り値: {menu_no: {opt_no: text}}。"""
+    if not os.path.isfile(txt_path):
+        return {}
+    pat = re.compile(r"^\[" + id_tag + r"\] " + re.escape(code) + r"_(\d+)_(\d+)\s*$")
+    lines = open(txt_path, encoding="utf-8").read().split("\n")
+    menus = defaultdict(dict)
+    for i, line in enumerate(lines):
+        m = pat.match(line)
+        if m and i > 0 and lines[i - 1].startswith("[" + txt_tag + "] "):
+            menus[int(m.group(1))][int(m.group(2))] = lines[i - 1].split("] ", 1)[1].strip()
+    return menus
+
+
+def extract_choices():
+    """全シーンの選択肢メニュー（jp/cn）を抽出。各シーン脚本の `<scene>_NN_MM` 選択肢 ID を
+    権威ある印として用いる（ボイス ID `CHAR_...` とは別形式）。誤検出回避のため 2 択以上の
+    メニューのみ採用。返り値: {scene_code: [ {scene, options:[{jp,cn}]} per menu ]}。"""
+    if not os.path.isdir(TEXT_DIR):
+        return {}
+    by_scene = {}
+    for fn in os.listdir(TEXT_DIR):
+        m = re.match(r"^(\d{3}_[A-Z][A-Za-z0-9]*)\.txt$", fn)
+        if not m:
+            continue
+        code = m.group(1)
+        jp = _scene_menus(os.path.join(TEXT_DIR, code + ".txt"), code, "text", "id")
+        cn = _scene_menus(os.path.join(TEXT_DIR_CN, code + ".txt"), code, "cn", "ascii")
+        menus = []
+        for mn in sorted(jp):
+            opts = jp[mn]
+            if len(opts) < 2:  # 単独行は地の文の誤検出 → メニュー扱いしない
+                continue
+            menus.append({
+                "scene": code,
+                "options": [{"jp": opts[o], "cn": cn.get(mn, {}).get(o)} for o in sorted(opts)],
+            })
+        if menus:
+            by_scene[code] = menus
+    return by_scene
+
+
 # ───────────────────────── Flow JSON 出力 ─────────────────────────
 END_TITLE = {"NORMAL_END": "ノーマルEND", "TRUE_END": "トゥルーEND"}
 HUB_ICON = "◆"
@@ -375,7 +420,7 @@ def node_icon(g, nid):
     return {"start": "▶", "branch": "◆", "end": "★", "omake": "🎬"}.get(k)
 
 
-def to_flow(g, start, real_codes):
+def to_flow(g, start, real_codes, choices_by_scene):
     pos = layout(g, start)
     nodes = []
     for nid in sorted(g.kind, key=lambda n: (pos[n][0], pos[n][1])):
@@ -392,6 +437,10 @@ def to_flow(g, start, real_codes):
             node["icon"] = ico
         node["pos"] = {"x": pos[nid][0], "y": pos[nid][1]}
         node["scenes"] = scenes
+        # 内包シーンの選択肢メニュー（シーン順）をノードに付与。
+        node_choices = [menu for c in scenes for menu in choices_by_scene.get(c, [])]
+        if node_choices:
+            node["choices"] = node_choices
         nodes.append(node)
     edges = []
     for u in g.adj:
@@ -509,10 +558,12 @@ def main():
     if os.path.isdir(TEXT_DIR):
         real_codes = {f[:-4] for f in os.listdir(TEXT_DIR) if re.match(r"^\d.*\.txt$", f)}
 
+    choices_by_scene = extract_choices()
+
     g, start = build_graph(events)
     resolve_entries(g, start)
     contract_chains(g, start)
-    flow = to_flow(g, start, real_codes)
+    flow = to_flow(g, start, real_codes, choices_by_scene)
 
     os.makedirs(os.path.dirname(a.out), exist_ok=True)
     with open(a.out, "w", encoding="utf-8") as f:
@@ -523,9 +574,12 @@ def main():
     n_hub = sum(1 for n in flow["nodes"] if n["kind"] == "branch")
     n_end = sum(1 for n in flow["nodes"] if n["kind"] == "end")
     unresolved = sorted({c for n in flow["nodes"] for c in n["scenes"]} - real_codes) if real_codes else []
+    n_menu = sum(len(n.get("choices", [])) for n in flow["nodes"])
+    n_opt = sum(len(c["options"]) for n in flow["nodes"] for c in n.get("choices", []))
     print("[extract-flow] SMAIN -> %s" % os.path.relpath(a.out, ROOT))
     print("  ✓ %d ノード（hub %d / end %d）/ %d エッジ / 実シーン参照 %d 件"
           % (len(flow["nodes"]), n_hub, n_end, len(flow["edges"]), n_scene))
+    print("  ✓ 選択肢メニュー %d 件 / 選択肢 %d 個（jp/cn i18n）" % (n_menu, n_opt))
     if unresolved:
         print("  ⚠ 原テキスト不在のシーン参照: %s" % ", ".join(unresolved))
 

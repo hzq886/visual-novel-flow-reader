@@ -85,6 +85,18 @@ export type Scene = z.infer<typeof Scene>
 export const FlowNodeKind = z.enum(['start', 'arc', 'branch', 'end', 'omake'])
 export type FlowNodeKind = z.infer<typeof FlowNodeKind>
 
+// 選択肢メニュー（シーン脚本の `<scene>_NN_MM` 選択肢ID から抽出。jp/cn i18n）。
+export const FlowChoice = z.object({
+  scene: z.string(), // 選択肢を含むシーンコード
+  options: z.array(
+    z.object({
+      jp: z.string(),
+      cn: z.string().nullable(), // cn 未抽出は null
+    }),
+  ),
+})
+export type FlowChoice = z.infer<typeof FlowChoice>
+
 export const FlowNode = z.object({
   id: z.string(),
   kind: FlowNodeKind,
@@ -94,6 +106,7 @@ export const FlowNode = z.object({
   description: z.string().optional(),
   pos: z.object({ x: z.number(), y: z.number() }).optional(),
   scenes: z.array(z.string()),
+  choices: z.array(FlowChoice).optional(),
   groups: z
     .array(
       z.object({
