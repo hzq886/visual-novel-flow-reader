@@ -74,6 +74,16 @@ describe('選択肢メニュー i18n（HU-18）', () => {
     expect(menu?.options.map((o) => o.cn)).toEqual(['说出关键词', '拼命地请求'])
   })
 
+  it('_VIEW 方式メニュー 006_TUBA001B（後悔/背徳）が jp/cn で載る（HU-19 受入）', () => {
+    const menu = menus.find((m) => m.scene === '006_TUBA001B')
+    expect(menu).toBeDefined()
+    expect(menu?.options.map((o) => o.jp)).toEqual([
+      '後悔して、すぐに止める',
+      '背徳に溺れて、このまま続ける',
+    ])
+    expect(menu?.options.map((o) => o.cn)).toEqual(['立刻后悔，停止下来', '沉溺于背德，继续下去'])
+  })
+
   it('選択肢を持つノードの scene にその選択肢シーンが含まれる', () => {
     for (const n of flow.nodes) for (const c of n.choices ?? []) expect(n.scenes).toContain(c.scene)
   })
