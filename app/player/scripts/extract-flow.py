@@ -24,6 +24,7 @@ SMAIN バイトコードの構造（逆解析結果。詳細は data_extract/tex
   python3 scripts/extract-flow.py [--src <md_scr.med>] [--out <flow.json>] [--disasm]
 """
 import argparse
+import bisect
 import json
 import os
 import re
@@ -125,6 +126,146 @@ class Smain:
         return self.strings[idx_1based - 1]
 
 
+# ───────────────────────── シーン脚本 bytecode（HU-21）─────────────────────────
+# シーン脚本も SMAIN と同じ命令形式 `u16 lineno + u8 len + データ[len]`。ただし lineno は
+# **ソース行番号で非減少**（同 lineno に複数命令あり）＝ SMAIN の「+1 厳密増加」自己同期が
+# 効かない（過去 intractable とされた理由）。len 前置で**線形に**読めば解ける。
+# 詳細・オペコード表は data_extract/text/_tools/smain_flow_guide.md §3.8。
+def _linear_records(payload, limit):
+    """`u16 lineno + u8 len + データ` を limit（= subheader unk1 = レコード列終端）まで線形に。"""
+    records, p = [], 0
+    while p + 3 <= limit:
+        lineno = struct.unpack_from("<H", payload, p)[0]
+        length = payload[p + 2]
+        if p + 3 + length > limit:
+            break
+        records.append((p, lineno, length, payload[p + 3:p + 3 + length]))
+        p += 3 + length
+    return records
+
+
+class SceneScript:
+    """シーン脚本 1 エントリ（復号済み・16B サブヘッダ込み）の records / 文字列表。"""
+
+    def __init__(self, full):
+        a, unk1, c1, c2, d = struct.unpack_from("<IIHHI", full[:0x10], 0)
+        pl = full[0x10:]
+        self.records = _linear_records(pl, unk1)
+        # 文字列表は label 表（c2 個 u16, unk1 から）の直後。1 始まり索引で参照される。
+        raw = pl[unk1 + 2 * c2:]
+        self.strings = []
+        i = 0
+        while i < len(raw):
+            j = raw.find(b"\0", i)
+            if j < 0:
+                j = len(raw)
+            self.strings.append(raw[i:j])
+            i = j + 1
+
+    def s(self, idx_1based):
+        if 1 <= idx_1based <= len(self.strings):
+            return self.strings[idx_1based - 1].decode("cp932", "replace")
+        return ""
+
+
+# select/フラグ op の内側オペコード（SMAIN・シーン共通）。
+OP_SCENE, OP_GOTO, OP_FWD, OP_SELECT = 0x1b, 0x1c, 0x08, 0x1d
+
+
+def smain_switches(sm, events):
+    """SMAIN の len-8 SELECT（`1d 00 <slot> f5 f5 eb 01 ff`）を**真の分岐**として解析する。
+    直後の `08 01 <u16 off>`（off は byte オフセット, データ[2:4]）でガードされる case-block を
+    value 順（1 始まり＝フラグ値）に取り、各 case の dests（scene/hub）と head/tail を event
+    インデックスへ対応づける。返り値 [{slot, sel_pos, src_ev, cases:[{value, head_ev, tail_ev, dests}]}]。"""
+    recs = sm.records
+    pos2i = {p: i for i, (p, _, _, _) in enumerate(recs)}
+    epos = [e["pos"] for e in events]  # event の payload オフセット（昇順）
+
+    def first_ev_in(p0, p1):
+        i = bisect.bisect_left(epos, p0)
+        return i if (i < len(epos) and epos[i] < p1) else None
+
+    def last_ev_in(p0, p1):
+        i = bisect.bisect_left(epos, p1) - 1
+        return i if (i >= 0 and epos[i] >= p0) else None
+
+    out = []
+    for i, (p, l, L, d_) in enumerate(recs):
+        if not (d_ and d_[0] == OP_SELECT and L == 8 and d_[3:6] == b"\xf5\xf5\xeb"):
+            continue
+        si = bisect.bisect_left(epos, p) - 1  # 直前 event = フラグを書いたメニューシーン
+        if si < 0:
+            continue
+        cases, j, v = [], i + 1, 1
+        while j < len(recs) and recs[j][3] and recs[j][3][0] == OP_FWD:
+            off = struct.unpack_from("<H", recs[j][3], 2)[0]
+            endi = pos2i.get(off)
+            if endi is None:
+                break
+            dests = []
+            for k in range(j + 1, endi):
+                dk = recs[k][3]
+                if dk and dk[0] in (OP_SCENE, OP_GOTO):
+                    dests.append(("scene" if dk[0] == OP_SCENE else "hub",
+                                  sm.string(struct.unpack_from("<H", dk, 1)[0])))
+            p0 = recs[j + 1][0] if j + 1 < len(recs) else off
+            he, te = first_ev_in(p0, off), last_ev_in(p0, off)
+            if he is not None:
+                cases.append({"value": v, "head_ev": he, "tail_ev": te, "dests": dests})
+            j = endi
+            if j < len(recs) and recs[j][3] and recs[j][3][0] == 0x1e:
+                j += 1
+            v += 1
+        if cases:
+            out.append({"slot": d_[2], "sel_pos": p, "src_ev": si, "cases": cases})
+    return out
+
+
+def switch_table(switches):
+    """{slot: {value: [(kind, name), …]}}（選択肢オプションの分岐先解決用）。"""
+    return {sw["slot"]: {c["value"]: c["dests"] for c in sw["cases"]} for sw in switches}
+
+
+def scene_choice_flags(src, route_slots, choices_by_scene):
+    """各シーン脚本の `06 00 <slot> f5 eb <val> ff`（通常変数への代入）を選択肢文へ紐付ける。
+    返り値: {scene_code: {option_jp: (slot, value)}}（route_slots に限定）。
+    紐付けは、各 06 set の近傍にある選択肢文（`1c`/`0a` 文字列で flow の既知選択肢に一致）を
+    採る（ID 式メニュー）。近傍に無い `_VIEW` 式は残りを flow の選択肢順で対応づける。"""
+    if not os.path.isfile(src):
+        return {}
+    data = open(src, "rb").read()
+    out = {}
+    for name, size, eo in parse_container(data):
+        if name not in choices_by_scene or not is_real_scene(name):
+            continue
+        opt_texts = [o["jp"] for menu in choices_by_scene[name] for o in menu["options"]]
+        sc = SceneScript(decrypt(data[eo:eo + size]))
+        recs = sc.records
+        sets = [(k, d_[2], d_[5]) for k, (_, _, L, d_) in enumerate(recs)
+                if d_ and d_[0] == 0x06 and L == 7 and d_[1] == 0x00 and d_[2] in route_slots]
+        if not sets:
+            continue
+        mapping, used, unresolved = {}, set(), []
+        for (k, slot, val) in sets:
+            best, bestd = None, 99
+            for j in range(max(0, k - 4), min(len(recs), k + 5)):
+                dj = recs[j][3]
+                if dj and dj[0] in (0x1c, 0x0a) and len(dj) >= 3:
+                    t = sc.s(struct.unpack_from("<H", dj, 1)[0])
+                    if t in opt_texts and t not in used and abs(j - k) < bestd:
+                        best, bestd = t, abs(j - k)
+            if best is not None:
+                mapping[best] = (slot, val)
+                used.add(best)
+            else:
+                unresolved.append((slot, val))
+        for (slot, val), t in zip(unresolved, [o for o in opt_texts if o not in used]):
+            mapping[t] = (slot, val)
+            used.add(t)
+        out[name] = mapping
+    return out
+
+
 # ───────────────────────── _DEF フラグ名解決 ─────────────────────────
 _DEF_CACHE = None
 
@@ -204,6 +345,7 @@ class Graph:
         self.kind = {}     # node_id -> 'start'|'arc'|'branch'|'end'|'omake'
         self.firstpos = {} # node_id -> 最小 payload オフセット（レイアウト順）
         self.adj = defaultdict(dict)  # u -> {v: cond_label_or_None}
+        self.label = {}    # (u, v) -> 分岐エッジの選択肢ラベル（HU-21）
         self.indeg = Counter()
 
     def add_node(self, nid, kind, scene_codes, pos):
@@ -254,6 +396,32 @@ def build_graph(events):
             g.add_edge(prev, nid, ev.get("cond"))
         prev, prev_kind = nid, ev["kind"]
     return g, START
+
+
+def apply_switches(g, events, switches, opt_by_sv):
+    """len-8 SELECT を**真の分岐**へ（HU-21）。source（フラグを書いたメニューシーン）から
+    各 case-head へ条件（フラグ=値）＋選択肢ラベル付きのエッジを張り、case 間のレイアウト隣接に
+    由来する誤った線形エッジ（case_v 末尾 → case_{v+1} 先頭）を除去する。
+    収縮はこれら多分岐 source を境界として残すため、分岐先が 1 ノードに畳まれなくなる。"""
+    for sw in switches:
+        src = events[sw["src_ev"]]["name"]
+        for c in sw["cases"]:
+            head = events[c["head_ev"]]["name"]
+            if src == head:
+                continue
+            flag = "%s=%d" % (resolve_flag(sw["slot"]), c["value"])
+            g.add_edge(src, head, flag)
+            g.adj[src][head] = flag  # 値付き条件で上書き（既存の値無し条件を精緻化）
+            label = opt_by_sv.get((src, sw["slot"], c["value"]))
+            if label:
+                g.label[(src, head)] = label
+        for a, b in zip(sw["cases"], sw["cases"][1:]):
+            ta, hb = events[a["tail_ev"]]["name"], events[b["head_ev"]]["name"]
+            if ta in g.adj and hb in g.adj[ta]:
+                del g.adj[ta][hb]
+                g.indeg[hb] -= 1
+                g.label.pop((ta, hb), None)
+    return g
 
 
 # キャラ → ルート hub の語幹候補（ルート入口を hub へ結ぶための一致キー）。
@@ -307,10 +475,13 @@ def contract_chains(g, start):
             g.scenes[u].extend(g.scenes[v])
             # v の後続を u へ付け替え
             del g.adj[u][v]
+            g.label.pop((u, v), None)
             g.indeg[v] -= 1
             for w, cond in g.adj.get(v, {}).items():
                 g.indeg[w] -= 1  # v からの分を一旦減らし add_edge で復元
                 g.add_edge(u, w, cond)
+                if (v, w) in g.label:  # 分岐ラベルも付け替え（HU-21）
+                    g.label[(u, w)] = g.label.pop((v, w))
             # v を撤去
             g.adj.pop(v, None)
             g.kind.pop(v, None)
@@ -499,8 +670,21 @@ def node_icon(g, nid):
     return {"start": "▶", "branch": "◆", "end": "★", "omake": "🎬"}.get(k)
 
 
-def to_flow(g, start, real_codes, choices_by_scene):
+def _target_node(g, scene2node, dests, owner):
+    """SMAIN switch の case-block（[(kind, name)…]）→ 分岐先ノード id。
+    owner（メニュー所有ノード）と異なる最初のノード（合流で同一畳み込みを避ける）、無ければ末尾。"""
+    nodes = [(name if name in g.kind else scene2node.get(name)) for _, name in dests]
+    nodes = [n for n in nodes if n]
+    for n in nodes:
+        if n != owner:
+            return n
+    return nodes[-1] if nodes else None
+
+
+def to_flow(g, start, real_codes, choices_by_scene, swtable=None, flagmap=None):
+    swtable, flagmap = swtable or {}, flagmap or {}
     pos = layout(g, start)
+    scene2node = {c: n for n in g.kind for c in g.scenes[n]}
     nodes = []
     for nid in sorted(g.kind, key=lambda n: (pos[n][0], pos[n][1])):
         k = g.kind[nid]
@@ -518,6 +702,20 @@ def to_flow(g, start, real_codes, choices_by_scene):
         node["scenes"] = scenes
         # 内包シーンの選択肢メニュー（シーン順）をノードに付与。
         node_choices = [menu for c in scenes for menu in choices_by_scene.get(c, [])]
+        # ルート分岐（len-8 switch）の選択肢に、書き込むフラグ＝値と分岐先ノードを付与（HU-21）。
+        for menu in node_choices:
+            sflags = flagmap.get(menu["scene"], {})
+            for o in menu["options"]:
+                sv = sflags.get(o["jp"])
+                if not sv:
+                    continue
+                slot, val = sv
+                o["flag"] = "%s=%d" % (resolve_flag(slot), val)
+                if slot in swtable:
+                    tnode = _target_node(g, scene2node, swtable[slot].get(val, []), nid)
+                    if tnode:
+                        o["target"] = tnode
+                        o["targetTitle"] = node_title(g, tnode)
         if node_choices:
             node["choices"] = node_choices
         nodes.append(node)
@@ -528,6 +726,9 @@ def to_flow(g, start, real_codes, choices_by_scene):
             uc = char_of_node(g, u)
             if uc not in ("branch", "end", "omake"):
                 e["character"] = uc
+            lab = g.label.get((u, v))
+            if lab:
+                e["label"] = lab
             if cond:
                 e["condition"] = {"flags": [cond]}
             edges.append(e)
@@ -639,10 +840,19 @@ def main():
 
     choices_by_scene = extract_choices()
 
+    # HU-21: len-8 SELECT を真の分岐として解析し、選択肢→フラグ→分岐先を解決する。
+    switches = smain_switches(sm, events)
+    swtable = switch_table(switches)
+    flagmap = scene_choice_flags(a.src, set(swtable), choices_by_scene)
+    # 分岐エッジのラベル解決用に (メニューシーン, slot, value) → 選択肢jp を作る。
+    opt_by_sv = {(scene, slot, val): opt
+                 for scene, m in flagmap.items() for opt, (slot, val) in m.items()}
+
     g, start = build_graph(events)
+    apply_switches(g, events, switches, opt_by_sv)
     resolve_entries(g, start)
     contract_chains(g, start)
-    flow = to_flow(g, start, real_codes, choices_by_scene)
+    flow = to_flow(g, start, real_codes, choices_by_scene, swtable, flagmap)
 
     os.makedirs(os.path.dirname(a.out), exist_ok=True)
     with open(a.out, "w", encoding="utf-8") as f:
@@ -655,10 +865,15 @@ def main():
     unresolved = sorted({c for n in flow["nodes"] for c in n["scenes"]} - real_codes) if real_codes else []
     n_menu = sum(len(n.get("choices", [])) for n in flow["nodes"])
     n_opt = sum(len(c["options"]) for n in flow["nodes"] for c in n.get("choices", []))
+    n_targ = sum(1 for n in flow["nodes"] for c in n.get("choices", [])
+                 for o in c["options"] if o.get("target"))
+    n_lab = sum(1 for e in flow["edges"] if e.get("label"))
     print("[extract-flow] SMAIN -> %s" % os.path.relpath(a.out, ROOT))
     print("  ✓ %d ノード（hub %d / end %d）/ %d エッジ / 実シーン参照 %d 件"
           % (len(flow["nodes"]), n_hub, n_end, len(flow["edges"]), n_scene))
     print("  ✓ 選択肢メニュー %d 件 / 選択肢 %d 個（jp/cn i18n）" % (n_menu, n_opt))
+    print("  ✓ ルート分岐: 選択肢→分岐先 %d 個 / 分岐ラベル付きエッジ %d 本（len-8 switch）"
+          % (n_targ, n_lab))
     if unresolved:
         print("  ⚠ 原テキスト不在のシーン参照: %s" % ", ".join(unresolved))
 

@@ -89,6 +89,48 @@ describe('選択肢メニュー i18n（HU-18）', () => {
   })
 })
 
+describe('選択肢オプション→分岐先ノードの紐付け（HU-21・SMAIN len-8 switch）', () => {
+  const ids = new Set(flow.nodes.map((n) => n.id))
+  const opts = flow.nodes.flatMap((n) => (n.choices ?? []).flatMap((c) => c.options))
+
+  it('ルート分岐の選択肢に flag/target/targetTitle が付き、target は実在ノード', () => {
+    const branchOpts = opts.filter((o) => o.target)
+    expect(branchOpts.length).toBe(10) // 5 つの len-8 switch × 2 択
+    for (const o of branchOpts) {
+      expect(o.flag).toMatch(/^S\d+\/.+=\d+$/) // 例 "S71/軸2_1=2"
+      expect(o.targetTitle).toBeTruthy()
+      expect(ids.has(o.target!)).toBe(true)
+    }
+  })
+
+  it('S71（軸2）分岐: 005_MAKO001A の各選択肢が正しい分岐先へ（受入）', () => {
+    const menu = flow.nodes.flatMap((n) => n.choices ?? []).find((c) => c.scene === '005_MAKO001A')
+    expect(menu).toBeDefined()
+    const by = Object.fromEntries(menu!.options.map((o) => [o.jp, o]))
+    expect(by['人のことは言えない']).toMatchObject({ flag: 'S71/軸2_1=1', target: 'SMAIN_MIX03' })
+    expect(by['血が出そうなほど、唇を強く噛む。']).toMatchObject({
+      flag: 'S71/軸2_1=2',
+      target: '005_MAKO001B',
+    })
+  })
+
+  it('TUBA 内分岐 S62: それが絶頂…→006_TUBA001E / まだ我慢→006_TUBA002A（合流畳み込みを分離）', () => {
+    const menu = flow.nodes.flatMap((n) => n.choices ?? []).find((c) => c.scene === '006_TUBA001C')
+    const by = Object.fromEntries((menu?.options ?? []).map((o) => [o.jp, o.target]))
+    expect(by['それが絶頂の反応だと分かったとき……。']).toBe('006_TUBA001E')
+    expect(by['まだ我慢をする']).toBe('006_TUBA002A')
+  })
+
+  it('分岐先ごとに選択肢ラベル＋条件フラグ付きエッジが張られる', () => {
+    const labeled = flow.edges.filter((e) => e.label && e.condition)
+    expect(labeled.length).toBe(10)
+    // 例: 006_TUBA001D --[血が…]--> 005_MAKO001B（S71=2）
+    const e = labeled.find((x) => x.source === '006_TUBA001D' && x.target === '005_MAKO001B')
+    expect(e?.condition?.flags).toEqual(['S71/軸2_1=2'])
+    expect(e?.label).toBe('血が出そうなほど、唇を強く噛む。')
+  })
+})
+
 describe('toReactFlow — React Flow 形状への写像', () => {
   const rf = toReactFlow(flow)
 
