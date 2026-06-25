@@ -18,6 +18,7 @@
     "data:scenes": "tsx scripts/build-scenes.ts",
     "data:flow": "python3 scripts/extract-flow.py",
     "data:flow:routemap": "tsx scripts/build-flow.ts",
+    "data:flow:diff": "python3 scripts/extract-flow.py --diff",
     "data:all": "npm run data:defs && npm run data:scenes && npm run data:flow",
     "validate": "tsx scripts/validate.ts"
   },
