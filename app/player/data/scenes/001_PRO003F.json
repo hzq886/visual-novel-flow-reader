@@ -1,0 +1,131 @@
+{
+  "code": "001_PRO003F",
+  "route": "001",
+  "locale": "jp",
+  "beats": [
+    {
+      "kind": "line",
+      "who": "楠木　裕司",
+      "voice": {
+        "id": "MOBD_001_PRO003F_001",
+        "file": null
+      },
+      "lines": [
+        "「ごめんごめん！　ありがとう」"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "楠木　裕司",
+      "voice": {
+        "id": "MOBD_001_PRO003F_002",
+        "file": null
+      },
+      "lines": [
+        "「ああ、行ってくる。愛してるよ、楓」"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "楠木　裕司",
+      "voice": {
+        "id": "MOBD_001_PRO003F_003",
+        "file": null
+      },
+      "lines": [
+        "「やあ、おはよう。翼を迎えに来てくれたんだね？」"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "楠木　裕司",
+      "voice": {
+        "id": "MOBD_001_PRO003F_004",
+        "file": null
+      },
+      "lines": [
+        "「それじゃあ私は行くけれど、後はよろしくね」"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "楠木　裕司",
+      "voice": {
+        "id": "MOBD_001_PRO003F_005",
+        "file": null
+      },
+      "lines": [
+        "「いらっしゃい。今日はどうしたんだい」"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "楠木　裕司",
+      "voice": {
+        "id": "MOBD_001_PRO003F_006",
+        "file": null
+      },
+      "lines": [
+        "「そうか、ゆっくりしていっておくれ」"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "楠木　裕司",
+      "voice": {
+        "id": "MOBD_001_PRO003F_007",
+        "file": null
+      },
+      "lines": [
+        "「おや、帰るところかい？　気を付けてね」"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "楠木　裕司",
+      "voice": {
+        "id": "MOBD_001_PRO003F_008",
+        "file": null
+      },
+      "lines": [
+        "「さようなら。また、いつでも来ておくれ」"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "楠木　裕司",
+      "voice": {
+        "id": "MOBD_001_PRO003F_009",
+        "file": null
+      },
+      "lines": [
+        "「うーん、まだ学生だし、少し軽率だったんじゃ",
+        "ないかい？」"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "楠木　裕司",
+      "voice": {
+        "id": "MOBD_001_PRO003F_010",
+        "file": null
+      },
+      "lines": [
+        "「まぁ、いまさら言っても仕方ないか。和樹くん、",
+        "娘を幸せにしてくれよ？」"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "楠木　裕司",
+      "voice": {
+        "id": "MOBD_001_PRO003F_011",
+        "file": null
+      },
+      "lines": [
+        "「いやー、こんなに早く、孫ができるとはなぁー！",
+        "和樹くん、翼を幸せにしてやってくれよ！」"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "code": "001_PRO003C",
+  "route": "001",
+  "locale": "jp",
+  "beats": [
+    {
+      "kind": "line",
+      "who": "望月　真琴",
+      "voice": {
+        "id": "MAKO_001_PRO003C_001",
+        "file": null
+      },
+      "lines": [
+        "「おはよう。今日は生徒会の仕事で早かったの」"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "望月　真琴",
+      "voice": {
+        "id": "MAKO_001_PRO003C_002",
+        "file": null
+      },
+      "lines": [
+        "「陸上部のほう、頑張ってね」"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "望月　真琴",
+      "voice": {
+        "id": "MAKO_001_PRO003C_003",
+        "file": null
+      },
+      "lines": [
+        "「翼は、今日は部活なの？　遅くなりそう？」"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "望月　真琴",
+      "voice": {
+        "id": "MAKO_001_PRO003C_004",
+        "file": null
+      },
+      "lines": [
+        "「今日は、生徒会の仕事で遅くなりそうだわ」"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "望月　真琴",
+      "voice": {
+        "id": "MAKO_001_PRO003C_005",
+        "file": null
+      },
+      "lines": [
+        "「あら、待っていてくれたの？」"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "望月　真琴",
+      "voice": {
+        "id": "MAKO_001_PRO003C_006",
+        "file": null
+      },
+      "lines": [
+        "「お待たせ！　ごめんね、遅くなっちゃった」"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "望月　真琴",
+      "voice": {
+        "id": "MAKO_001_PRO003C_007",
+        "file": null
+      },
+      "lines": [
+        "「じゃあ、一緒に帰りましょうか」"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "望月　真琴",
+      "voice": {
+        "id": "MAKO_001_PRO003C_008",
+        "file": null
+      },
+      "lines": [
+        "「私に相談って、なにかしら？」"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "望月　真琴",
+      "voice": {
+        "id": "MAKO_001_PRO003C_009",
+        "file": null
+      },
+      "lines": [
+        "「ちょっと、先生に呼ばれているから……」"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "望月　真琴",
+      "voice": {
+        "id": "MAKO_001_PRO003C_010",
+        "file": null
+      },
+      "lines": [
+        "「放課後に……わ、分かったわ……」"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "望月　真琴",
+      "voice": {
+        "id": "MAKO_001_PRO003C_011",
+        "file": null
+      },
+      "lines": [
+        "「ま、またなの……！？　ううっ、そんな……」"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "望月　真琴",
+      "voice": {
+        "id": "MAKO_001_PRO003C_012",
+        "file": null
+      },
+      "lines": [
+        "「そうなの……分かったわ……」"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "code": "009_NUKE004",
+  "route": "009",
+  "locale": "jp",
+  "beats": [
+    {
+      "kind": "line",
+      "who": "楠木　翼",
+      "voice": {
+        "id": "TUBA_009_NUKE004_001",
+        "file": null
+      },
+      "lines": [
+        "「あれっ、カズ？　まだ帰ってなかったんだ？",
+        "もしかして、待っててくれたのかな？」"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "楠木　翼",
+      "voice": {
+        "id": "TUBA_009_NUKE004_002",
+        "file": null
+      },
+      "lines": [
+        "「お疲れっ！　玄関まで見送るね」"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "楠木　翼",
+      "voice": {
+        "id": "TUBA_009_NUKE004_003",
+        "file": null
+      },
+      "lines": [
+        "「そう？　それじゃあ、また明日ね！」"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "楠木　翼",
+      "voice": {
+        "id": "TUBA_009_NUKE004_004",
+        "file": null
+      },
+      "lines": [
+        "「あれっ？　なにか忘れ物でもしたの？」"
+      ]
+    },
+    {
+      "kind": "narration",
+      "lines": [
+        "キーワードを言って、催眠状態にする。"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "古橋　和樹",
+      "voice": {
+        "id": "KAZU_009_NUKE004_001",
+        "file": null
+      },
+      "lines": [
+        "「いいですか。あなたは夕食の時間に呼ばれるまで、",
+        "ベッドで横になって休みますよ」"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "楠木　翼",
+      "voice": {
+        "id": "TUBA_009_NUKE004_005",
+        "file": null
+      },
+      "lines": [
+        "「ゆうしょく……よばれるまで、ベッドで……」"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "古橋　和樹",
+      "voice": {
+        "id": "KAZU_009_NUKE004_002",
+        "file": null
+      },
+      "lines": [
+        "「ドアが閉じる音がしたら、いつもの心の状態に",
+        "戻ります。和樹は帰ったと思いますよ……」"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "楠木　翼",
+      "voice": {
+        "id": "TUBA_009_NUKE004_006",
+        "file": null
+      },
+      "lines": [
+        "「あれ？　飲み物はどうしたの？」"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "古橋　和樹",
+      "voice": {
+        "id": "KAZU_009_NUKE004_003",
+        "file": null
+      },
+      "lines": [
+        "「いいですか。和樹は帰宅したので、残りの宿題は",
+        "一人でやろうと考えますよ」"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "楠木　翼",
+      "voice": {
+        "id": "TUBA_009_NUKE004_007",
+        "file": null
+      },
+      "lines": [
+        "「きたく……しゅくだい、ひとりで……」"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "古橋　和樹",
+      "voice": {
+        "id": "KAZU_009_NUKE004_004",
+        "file": null
+      },
+      "lines": [
+        "「また、夕食の時間に呼ばれるまでは部屋にいます。"
+      ]
+    }
+  ]
+}
