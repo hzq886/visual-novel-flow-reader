@@ -1482,7 +1482,7 @@
       "character": "mako",
       "condition": {
         "flags": [
-          "SEL_48"
+          "S72/軸2_2"
         ]
       }
     },
@@ -1562,7 +1562,7 @@
       "character": "ayan",
       "condition": {
         "flags": [
-          "SEL_47"
+          "S71/軸2_1"
         ]
       }
     },
