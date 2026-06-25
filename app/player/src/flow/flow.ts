@@ -1,7 +1,7 @@
 /**
  * flow — ルート図の純ヘルパー（React 非依存・Vitest 対象）。
- * data/flow.json（build-flow が生成）を React Flow 形状へ写像し、再生中シーンコードから
- * 対応ノードを引く（連動ハイライト用）。描画は FlowMap.tsx。
+ * data/flow.json（extract-flow.py が SMAIN から機械生成）を React Flow 形状へ写像し、
+ * 再生中シーンコードから対応ノードを引く（連動ハイライト用）。描画は FlowMap.tsx。
  */
 import type { Flow } from '@/pipeline/types'
 
