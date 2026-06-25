@@ -359,6 +359,43 @@ def _scene_menus(txt_path, code, txt_tag, id_tag):
     return menus
 
 
+# ナレーション文末約物（ここで止めれば選択肢ブロックの先頭境界になる）。
+_NARR_END = ("。", "！", "？", "」", "』", "…", "♪", "．", ".", "、", "）", ")")
+
+
+def _has_cjk(s):
+    return any("぀" <= c <= "鿿" or "㐀" <= c <= "䶿" for c in s)
+
+
+def _view_menu(txt_path, txt_tag, id_tag):
+    """`_VIEW` 方式メニュー（選択肢 ID を持たないもの）の選択肢列を返す。
+    `_VIEW`（メニュー UI）直前の `BG_BLACK` の手前に並ぶ命令文オプションを後方走査で集める。
+    `_VIEW` はほぼ全シーンの末尾マーカーなので、ナレーション末尾（約物）/ タイトル(`\\N`)/
+    ノート(`#`)/ 非 CJK を境界・除外して 2 択以上だけ採る（誤検出回避）。"""
+    if not os.path.isfile(txt_path):
+        return []
+    lines = open(txt_path, encoding="utf-8").read().split("\n")
+    vis = [i for i, l in enumerate(lines) if l.strip() == "[" + id_tag + "] _VIEW"]
+    if not vis:
+        return []
+    v = vis[-1]
+    anchor = v
+    for k in range(v - 1, max(-1, v - 6), -1):
+        if lines[k].strip() == "[" + id_tag + "] BG_BLACK":
+            anchor = k
+            break
+    opts = []
+    k = anchor - 1
+    while k >= 0 and lines[k].startswith("[" + txt_tag + "] ") and len(opts) <= 5:
+        t = lines[k].split("] ", 1)[1].strip()
+        if not t or "\\N" in t or "\\n" in t or t.startswith("#") or t.endswith(_NARR_END) or not _has_cjk(t):
+            break
+        opts.append(t)
+        k -= 1
+    opts.reverse()
+    return opts if len(opts) >= 2 else []
+
+
 def extract_choices():
     """全シーンの選択肢メニュー（jp/cn）を抽出。各シーン脚本の `<scene>_NN_MM` 選択肢 ID を
     権威ある印として用いる（ボイス ID `CHAR_...` とは別形式）。誤検出回避のため 2 択以上の
@@ -371,9 +408,12 @@ def extract_choices():
         if not m:
             continue
         code = m.group(1)
-        jp = _scene_menus(os.path.join(TEXT_DIR, code + ".txt"), code, "text", "id")
-        cn = _scene_menus(os.path.join(TEXT_DIR_CN, code + ".txt"), code, "cn", "ascii")
+        jp_path = os.path.join(TEXT_DIR, code + ".txt")
+        cn_path = os.path.join(TEXT_DIR_CN, code + ".txt")
+        jp = _scene_menus(jp_path, code, "text", "id")
+        cn = _scene_menus(cn_path, code, "cn", "ascii")
         menus = []
+        # (1) 選択肢 ID `<scene>_NN_MM` 方式（HU-18）。
         for mn in sorted(jp):
             opts = jp[mn]
             if len(opts) < 2:  # 単独行は地の文の誤検出 → メニュー扱いしない
@@ -381,6 +421,14 @@ def extract_choices():
             menus.append({
                 "scene": code,
                 "options": [{"jp": opts[o], "cn": cn.get(mn, {}).get(o)} for o in sorted(opts)],
+            })
+        # (2) `_VIEW` 方式（選択肢 ID を持たないメニュー。HU-19）。
+        vjp = _view_menu(jp_path, "text", "id")
+        if vjp:
+            vcn = _view_menu(cn_path, "cn", "ascii")
+            menus.append({
+                "scene": code,
+                "options": [{"jp": t, "cn": vcn[i] if i < len(vcn) else None} for i, t in enumerate(vjp)],
             })
         if menus:
             by_scene[code] = menus
