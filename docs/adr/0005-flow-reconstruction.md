@@ -27,7 +27,7 @@
 - `scripts/extract-flow.py`（`npm run data:flow`）が `md_scr.med` の `SMAIN` 生 blob を逆アセンブルし `data/flow.json` を機械生成する。バイトコード形式の解読結果は [`data_extract/text/_tools/smain_flow_guide.md`](../../data_extract/text/_tools/smain_flow_guide.md)。
   - `SMAIN` は全ルート・全分岐・全エンドを含むマスタースクリプト。命令 `u16 連番 + u8 長さ + データ`、内側 op `0x1b`=シーン呼び出し / `0x1c`=hub goto / `0x1d`=select マーカー。
   - ノード＝ユニーク（シーン / `SMAIN_*` hub / `NORMAL_END`・`TRUE_END`）、エッジ＝隣接イベント連接。in/out 次数 1 の直列ランを**チェーン収縮**して読みやすい完全グラフにする（本作 74 ノード / 103 エッジ、実シーン参照 274）。
-  - `0x1d` の select id を `condition.flags`（`SEL_xx`）に付与。`_DEF` 軸フラグ名への解決は未了。
+  - `0x1d` の select マーカーのフラグスロットを `_DEF` で実フラグ名へ解決し `condition.flags` に付与（HU-20 Part A。例 `S71/軸2_1`）。`_DEF` のルート軸は 軸1〜5（S70-84、分岐数 1/2/3/4/5）。
   - **選択肢メニュー文言の i18n（HU-18/19・実装済）**: 選択肢 ID（`<scene>_NN_MM`、ボイス ID と別形式・HU-18）方式＋`_VIEW` 方式（ID を持たないメニュー・HU-19）で抽出し、`FlowNode.choices`（`{scene, options:[{jp,cn}]}`）に jp/cn 両言語で付与（19 メニュー/38 選択肢、誤検出 0）。詳細は [`smain_flow_guide.md`](../../data_extract/text/_tools/smain_flow_guide.md) §3.6。
 - これにより暫定生成器を置換した。**route_map は照合・ラベル補完の二次に降格**（`build-flow.ts` は `data/flow.routemap.json` を出力、`npm run data:flow:routemap`。アプリが読むのは extract-flow 生成の `flow.json` のみ）。
 - 原データ `md_scr.med` は git 外のため、extract-flow は未配置時は黙ってスキップ（committed の `flow.json` を維持）。
@@ -40,4 +40,4 @@
 
 - 縦串と同時にルート図を提供でき、再生中シーンの連動ハイライトが成立する（受入 HU-13）。
 - HU-15 で `SMAIN` を解読し、**同じ `Flow` スキーマ・同じ `data/flow.json` 出力先**のまま暫定（route_map ポート）から一次（機械抽出）へ中身を差し替えた。描画側 `src/flow`（`flow.ts`/`FlowMap.tsx`）は**実装無改修**（`fitView`＋`MiniMap` で 74 ノードの完全グラフも描画可。テスト `flow.test.ts` のみ機械抽出の不変条件へ更新）。
-- JP/CN 制御構造 diff（HU-16）は両版完全一致を確認。選択肢メニュー文言の jp/cn 取り込み（HU-18 の ID 方式＋HU-19 の `_VIEW` 方式）も完了（`FlowNode.choices`）。残るは `_DEF` フラグ名解決と選択肢→分岐先の厳密紐付け（HU-20）。現状 `condition.flags` は SMAIN ローカルの select id（`SEL_xx`）。
+- JP/CN 制御構造 diff（HU-16）は両版完全一致を確認。選択肢メニュー文言の jp/cn 取り込み（HU-18 の ID 方式＋HU-19 の `_VIEW` 方式）も完了（`FlowNode.choices`）。`condition.flags` の `_DEF` 実フラグ名解決（HU-20 Part A）も実装済。残るは**各選択肢オプション→分岐先ノードの厳密紐付け**（シーン脚本のフラグ set opcode RE が要る・別 issue）。

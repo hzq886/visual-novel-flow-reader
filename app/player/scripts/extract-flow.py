@@ -38,6 +38,7 @@ DEFAULT_SRC = os.path.join(ROOT, "original_game", "saimin4_jp", "md_scr.med")
 DEFAULT_OUT = os.path.join(_APP_PLAYER, "data", "flow.json")
 TEXT_DIR = os.path.join(ROOT, "data_extract", "text", "md_scr_text_jp")
 TEXT_DIR_CN = os.path.join(ROOT, "data_extract", "text", "md_scr_text_cn")
+DEF_PATH = os.path.join(TEXT_DIR, "_DEF.txt")
 
 KEY = b"tauromin"  # MED 復号鍵（_VIEW クリブから復元済。text_unpack_guide.md §4）
 
@@ -124,6 +125,36 @@ class Smain:
         return self.strings[idx_1based - 1]
 
 
+# ───────────────────────── _DEF フラグ名解決 ─────────────────────────
+_DEF_CACHE = None
+
+
+def def_flag_table():
+    """`_DEF.txt` を {スロット変数: 表示名} に。例 {'S71':'#軸2_1','S61':'S522'}。
+    SMAIN のフラグ op（0x06 init / 0x1d select）が参照する**スロット番号**を実フラグ名へ解決する用。"""
+    global _DEF_CACHE
+    if _DEF_CACHE is None:
+        table = {}
+        if os.path.isfile(DEF_PATH):
+            for line in open(DEF_PATH, encoding="utf-8"):
+                m = re.match(r"\[(?:id|text|note)\]\s+(.*?)\s+(S\d+)\s*$", line.rstrip("\n"))
+                if m:
+                    name, slot = m.group(1).strip(), m.group(2)
+                    if name and name != slot:  # 別名のみ採用（S1=S1 等の自明は捨てる）
+                        table.setdefault(slot, name)
+        _DEF_CACHE = table
+    return _DEF_CACHE
+
+
+def resolve_flag(slot):
+    """フラグスロット番号 → 表示名。軸フラグ等は `_DEF` の名前を併記、無ければ `S<slot>`。"""
+    var = "S%d" % slot
+    name = def_flag_table().get(var)
+    if name:
+        return "%s/%s" % (var, name.lstrip("#"))
+    return var
+
+
 # ───────────────────────── イベント列（シーン / hub / END） ─────────────────────────
 HUB_END = {"NORMAL_END", "TRUE_END"}
 
@@ -148,10 +179,10 @@ def extract_events(sm):
         if not args:
             continue
         op = args[0]
-        # 検証済みの select マーカーのみ: `1d 00 <id> f5 f5 eb 01 ff`（len 8）。
-        # id は SMAIN ローカルの選択分岐 id（_DEF 軸フラグへの解決は後続課題）。
+        # 検証済みの select マーカーのみ: `1d 00 <slot> f5 f5 eb 01 ff`（len 8）。
+        # <slot> = フラグスロット番号。_DEF で実フラグ名（軸フラグ等）へ解決する（HU-20）。
         if length == 8 and op == 0x1d and args[3:6] == b"\xf5\xf5\xeb":
-            pending_cond = "SEL_%02X" % args[2]
+            pending_cond = resolve_flag(args[2])
             continue
         if op != 0x1b and op != 0x1c:
             continue
