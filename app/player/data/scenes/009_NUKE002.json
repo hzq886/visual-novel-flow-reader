@@ -1,0 +1,52 @@
+{
+  "code": "009_NUKE002",
+  "route": "009",
+  "locale": "jp",
+  "beats": [
+    {
+      "kind": "line",
+      "who": "望月　真琴",
+      "voice": {
+        "id": "MAKO_009_NUKE002_001",
+        "file": null
+      },
+      "lines": [
+        "「おはよう。ごめんなさい、待たせちゃった？」"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "望月　真琴",
+      "voice": {
+        "id": "MAKO_009_NUKE002_002",
+        "file": null
+      },
+      "lines": [
+        "「だーめ。そろそろ翼は、ノートのとりかたを、",
+        "ちゃんと学んだ方がいいと思うわ」"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "望月　真琴",
+      "voice": {
+        "id": "MAKO_009_NUKE002_003",
+        "file": null
+      },
+      "lines": [
+        "「ううん、私のことは気にしないで、先に帰って」"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "望月　真琴",
+      "voice": {
+        "id": "MAKO_009_NUKE002_004",
+        "file": null
+      },
+      "lines": [
+        "「悪いけれど、私は先に帰るわね。習い事があるし」"
+      ]
+    }
+  ]
+}

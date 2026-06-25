@@ -77,11 +77,18 @@ async function main() {
   await mkdir(SCENES_DIR, { recursive: true })
 
   let ok = 0
+  const skipped: string[] = []
   let beatTotal = 0
   for (const file of targets.sort()) {
     const code = file.replace(/\.txt$/, '')
     const parsed = parseScene(await readFile(join(textDir, file), 'utf8'), { code, locale })
     const resolved = resolveScene(parsed, ctx)
+    // 本文 [text] を持たず [id] 参照のみの複合シーン（例 006_TUBA010BC = 010B+010C を束ねる連結子）は
+    // beats=0 になる。flow は構成アトム（010B/010C）を参照し複合は辿らないため、再生対象外として出力しない。
+    if (resolved.beats.length === 0) {
+      skipped.push(code)
+      continue
+    }
     await writeFile(
       join(SCENES_DIR, `${code}.json`),
       JSON.stringify(resolved, null, 2) + '\n',
@@ -93,6 +100,10 @@ async function main() {
 
   console.log(`[build-scenes] locale=${locale}  source=${textDir}`)
   console.log(`  ✓ ${ok} シーン → data/scenes/  （計 ${beatTotal} beats、bg/sprite/voice 解決済）`)
+  if (skipped.length > 0)
+    console.log(
+      `  ⏭ ${skipped.length} 件スキップ（複合シーン: 本文なし・[id] 参照のみ。flow は構成アトムを参照）`,
+    )
 }
 
 main().catch((err) => {

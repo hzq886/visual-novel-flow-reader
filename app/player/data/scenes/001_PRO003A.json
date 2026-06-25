@@ -1,0 +1,295 @@
+{
+  "code": "001_PRO003A",
+  "route": "001",
+  "locale": "jp",
+  "beats": [
+    {
+      "kind": "line",
+      "who": "古橋　綾菜",
+      "voice": {
+        "id": "AYAN_001_PRO003A_001",
+        "file": null
+      },
+      "lines": [
+        "「おはよう。今朝は早いのね」"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "古橋　綾菜",
+      "voice": {
+        "id": "AYAN_001_PRO003A_002",
+        "file": null
+      },
+      "lines": [
+        "「おはよう。お休みの日なのに、早いのね」"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "古橋　綾菜",
+      "voice": {
+        "id": "AYAN_001_PRO003A_003",
+        "file": null
+      },
+      "lines": [
+        "「あら、眠そうね……大丈夫？」"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "古橋　綾菜",
+      "voice": {
+        "id": "AYAN_001_PRO003A_004",
+        "file": null
+      },
+      "lines": [
+        "「はい、朝食の準備が出来たわ」"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "古橋　綾菜",
+      "voice": {
+        "id": "AYAN_001_PRO003A_005",
+        "file": null
+      },
+      "lines": [
+        "「今日は、スクランブル・エッグにしたみたわ」"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "古橋　綾菜",
+      "voice": {
+        "id": "AYAN_001_PRO003A_006",
+        "file": null
+      },
+      "lines": [
+        "「育ちざかりなんだから、たくさん食べてね」"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "古橋　綾菜",
+      "voice": {
+        "id": "AYAN_001_PRO003A_007",
+        "file": null
+      },
+      "lines": [
+        "「今日は午後からお天気が崩れるみたいよ？",
+        "傘を忘れないで持って行ってね」"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "古橋　綾菜",
+      "voice": {
+        "id": "AYAN_001_PRO003A_008",
+        "file": null
+      },
+      "lines": [
+        "「はい、お弁当。残さず食べてくれると嬉しいわ」"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "古橋　綾菜",
+      "voice": {
+        "id": "AYAN_001_PRO003A_009",
+        "file": null
+      },
+      "lines": [
+        "「いってらっしゃい。事故には気を付けてね」"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "古橋　綾菜",
+      "voice": {
+        "id": "AYAN_001_PRO003A_010",
+        "file": null
+      },
+      "lines": [
+        "「そろそろ、私も出るから……」"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "古橋　綾菜",
+      "voice": {
+        "id": "AYAN_001_PRO003A_011",
+        "file": null
+      },
+      "lines": [
+        "「いらっしゃいませ」"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "古橋　綾菜",
+      "voice": {
+        "id": "AYAN_001_PRO003A_012",
+        "file": null
+      },
+      "lines": [
+        "「ありがとうございました」"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "古橋　綾菜",
+      "voice": {
+        "id": "AYAN_001_PRO003A_013",
+        "file": null
+      },
+      "lines": [
+        "「あら、いらっしゃい。三人揃って来るのは、",
+        "久しぶりね」"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "古橋　綾菜",
+      "voice": {
+        "id": "AYAN_001_PRO003A_014",
+        "file": null
+      },
+      "lines": [
+        "「はーい、ご注文は、お決まりでしょうか？」"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "古橋　綾菜",
+      "voice": {
+        "id": "AYAN_001_PRO003A_015",
+        "file": null
+      },
+      "lines": [
+        "「はい、どうぞ。ゆっくりしていってね」"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "古橋　綾菜",
+      "voice": {
+        "id": "AYAN_001_PRO003A_016",
+        "file": null
+      },
+      "lines": [
+        "「手伝ってくれて、ありがとう」"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "古橋　綾菜",
+      "voice": {
+        "id": "AYAN_001_PRO003A_017",
+        "file": null
+      },
+      "lines": [
+        "「それじゃあ、先に帰っていてね」"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "古橋　綾菜",
+      "voice": {
+        "id": "AYAN_001_PRO003A_018",
+        "file": null
+      },
+      "lines": [
+        "「お帰りなさい。遅かったのね」"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "古橋　綾菜",
+      "voice": {
+        "id": "AYAN_001_PRO003A_019",
+        "file": null
+      },
+      "lines": [
+        "「お帰りなさい。お仕事、お疲れ様」"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "古橋　綾菜",
+      "voice": {
+        "id": "AYAN_001_PRO003A_020",
+        "file": null
+      },
+      "lines": [
+        "「もう、夕食の準備は出来てるわ」"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "古橋　綾菜",
+      "voice": {
+        "id": "AYAN_001_PRO003A_021",
+        "file": null
+      },
+      "lines": [
+        "「ちょっと、作り過ぎちゃったかしら？」"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "古橋　綾菜",
+      "voice": {
+        "id": "AYAN_001_PRO003A_022",
+        "file": null
+      },
+      "lines": [
+        "「ふふっ、そう言ってもらえると、嬉しいわ」"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "古橋　綾菜",
+      "voice": {
+        "id": "AYAN_001_PRO003A_023",
+        "file": null
+      },
+      "lines": [
+        "「いつもありがとう。助かるわ」"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "古橋　綾菜",
+      "voice": {
+        "id": "AYAN_001_PRO003A_024",
+        "file": null
+      },
+      "lines": [
+        "「先にお風呂に入ったら？」"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "古橋　綾菜",
+      "voice": {
+        "id": "AYAN_001_PRO003A_025",
+        "file": null
+      },
+      "lines": [
+        "「洗濯物、カゴに入れておいてね」"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "古橋　綾菜",
+      "voice": {
+        "id": "AYAN_001_PRO003A_026",
+        "file": null
+      },
+      "lines": [
+        "「おやすみなさい。ゆっくり休んでね」"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "code": "009_NUKE006",
+  "route": "009",
+  "locale": "jp",
+  "beats": [
+    {
+      "kind": "line",
+      "who": "古橋　涼菜",
+      "voice": {
+        "id": "SUZU_009_NUKE006_001",
+        "file": null
+      },
+      "lines": [
+        "「和樹、入ってもいい？」"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "古橋　和樹",
+      "voice": {
+        "id": "KAZU_009_NUKE006_001",
+        "file": null
+      },
+      "lines": [
+        "「うん、いいよ」"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "古橋　和樹",
+      "voice": {
+        "id": "KAZU_009_NUKE006_002",
+        "file": null
+      },
+      "lines": [
+        "「どうしたの？」"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "古橋　涼菜",
+      "voice": {
+        "id": "SUZU_009_NUKE006_002",
+        "file": null
+      },
+      "lines": [
+        "「あれから、かなりセックスについて勉強したの。",
+        "それで、あなたで試させてもらおうと思って」"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "古橋　和樹",
+      "voice": {
+        "id": "KAZU_009_NUKE006_003",
+        "file": null
+      },
+      "lines": [
+        "「そ、そうなんだ……」"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "古橋　涼菜",
+      "voice": {
+        "id": "SUZU_009_NUKE006_003",
+        "file": null
+      },
+      "lines": [
+        "「ふふっ、今度はバッチリよ！　初めてのときとは、",
+        "違うってところを見せてあげるわ！」"
+      ]
+    }
+  ]
+}

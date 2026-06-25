@@ -1,9 +1,13 @@
 /**
  * validate — data/scenes/*.json の全 beat で bg.file / sprite.body|face / voice.file の
  * 未解決（null）を集計し、flow.json があれば参照シーンコードが原テキストに実在するか相互照合する。
- * 未解決・不整合があれば exit 1。
  *
- * 使い方: npm run validate [-- --locale cn]
+ * 合否方針（HU-25）: bg/sprite 未解決と flow 不在は**解決規則/データの穴**なので常に失敗。
+ * voice 未解決は **manifest に当該 voice が未収録**（＝素材未同期、HU-26 で解消）であることが大半のため、
+ * 既定では「既知例外」として集計のみ（合否に含めない）。`--strict` 指定時のみ voice 未解決も失敗扱い
+ * （HU-26 で voice を全同期した後の最終確認用）。
+ *
+ * 使い方: npm run validate [-- --locale cn] [-- --strict]
  */
 import { existsSync } from 'node:fs'
 import { readdir, readFile } from 'node:fs/promises'
@@ -17,11 +21,14 @@ const APP = resolve(HERE, '..') // app/player
 const DATA_DIR = join(APP, 'data')
 const SCENES_DIR = join(DATA_DIR, 'scenes')
 
-function parseArgs(argv: string[]): { locale: Locale } {
+function parseArgs(argv: string[]): { locale: Locale; strict: boolean } {
   let locale: Locale = 'jp'
-  for (let i = 0; i < argv.length; i++)
+  let strict = false
+  for (let i = 0; i < argv.length; i++) {
     if (argv[i] === '--locale') locale = (argv[++i] as Locale) ?? 'jp'
-  return { locale }
+    else if (argv[i] === '--strict') strict = true
+  }
+  return { locale, strict }
 }
 
 async function readJson(path: string): Promise<unknown> {
@@ -31,8 +38,9 @@ async function readJson(path: string): Promise<unknown> {
 type Unresolved = { scene: string; beat: number; kind: string; ref: string; label: string }
 
 async function main() {
-  const { locale } = parseArgs(process.argv.slice(2))
+  const { locale, strict } = parseArgs(process.argv.slice(2))
   const problems: Unresolved[] = []
+  let voiceTotal = 0 // voice を持つ line beat の総数（解決率の分母）
 
   if (!existsSync(SCENES_DIR)) {
     console.error('✗ data/scenes/ が無い。先に `npm run data:scenes` を実行してください。')
@@ -67,14 +75,17 @@ async function main() {
           ref: 'face',
           label: beat.sprite.label,
         })
-      if (beat.kind === 'line' && beat.voice && beat.voice.file === null)
-        problems.push({
-          scene: scene.code,
-          beat: i,
-          kind: 'voice',
-          ref: 'file',
-          label: beat.voice.id,
-        })
+      if (beat.kind === 'line' && beat.voice) {
+        voiceTotal++
+        if (beat.voice.file === null)
+          problems.push({
+            scene: scene.code,
+            beat: i,
+            kind: 'voice',
+            ref: 'file',
+            label: beat.voice.id,
+          })
+      }
     })
   }
 
@@ -95,13 +106,35 @@ async function main() {
     flowNote = `flow ${flowCodes.size} シーン参照、原テキスト不在 ${missingFlowScenes.length}`
   }
 
+  // ---- 集計（カテゴリ別）----
+  // bg/sprite は解決規則/データの穴 → 常に hard fail。voice は素材未同期（HU-26）→ 既定は既知例外。
+  const hard = problems.filter((p) => p.kind === 'bg' || p.kind === 'sprite')
+  const voice = problems.filter((p) => p.kind === 'voice')
+  const voiceResolved = voiceTotal - voice.length
+  const voicePct = voiceTotal === 0 ? 100 : (voiceResolved / voiceTotal) * 100
+
   // ---- レポート ----
   console.log(`[validate] locale=${locale}  scenes=${sceneFiles.length}  beats=${beatTotal}`)
-  if (problems.length > 0) {
-    console.error(`\n✗ 未解決参照 ${problems.length} 件:`)
-    for (const p of problems.slice(0, 50))
+  console.log(
+    `  未解決内訳: bg/sprite ${hard.length}  /  voice ${voice.length}` +
+      `（voice 解決 ${voiceResolved}/${voiceTotal} = ${voicePct.toFixed(1)}%）`,
+  )
+
+  if (hard.length > 0) {
+    console.error(`\n✗ bg/sprite 未解決 ${hard.length} 件（解決規則/データの穴）:`)
+    for (const p of hard.slice(0, 50))
       console.error(`  ${p.scene} beat#${p.beat} ${p.kind}.${p.ref}  ← ${p.label}`)
-    if (problems.length > 50) console.error(`  …他 ${problems.length - 50} 件`)
+    if (hard.length > 50) console.error(`  …他 ${hard.length - 50} 件`)
+  }
+  if (voice.length > 0) {
+    const head = strict ? '✗' : '⚠'
+    const note = strict
+      ? '（--strict: 失敗扱い）'
+      : '（既知例外: 素材未同期。HU-26 の assets:fetch で解消）'
+    console.error(`\n${head} voice 未解決 ${voice.length} 件${note}:`)
+    for (const p of voice.slice(0, 10))
+      console.error(`  ${p.scene} beat#${p.beat} voice.file  ← ${p.label}`)
+    if (voice.length > 10) console.error(`  …他 ${voice.length - 10} 件`)
   }
   if (missingFlowScenes.length > 0) {
     console.error(
@@ -110,11 +143,18 @@ async function main() {
   }
   console.log(`  ${flowNote}`)
 
-  if (problems.length > 0 || missingFlowScenes.length > 0) {
+  const failed = hard.length > 0 || missingFlowScenes.length > 0 || (strict && voice.length > 0)
+  if (failed) {
     console.error('\n✗ validate 失敗')
     process.exit(1)
   }
-  console.log('\n✓ validate 緑（未解決参照なし）')
+  if (voice.length > 0) {
+    console.log(
+      `\n✓ validate 緑（bg/sprite/flow 解決済。voice ${voice.length} 件は素材同期待ち＝HU-26）`,
+    )
+  } else {
+    console.log('\n✓ validate 緑（未解決参照なし）')
+  }
 }
 
 main().catch((err) => {

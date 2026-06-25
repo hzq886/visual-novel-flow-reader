@@ -1,0 +1,218 @@
+{
+  "code": "001_PRO003B",
+  "route": "001",
+  "locale": "jp",
+  "beats": [
+    {
+      "kind": "line",
+      "who": "古橋　涼菜",
+      "voice": {
+        "id": "SUZU_001_PRO003B_001",
+        "file": null
+      },
+      "lines": [
+        "「おはよう。少し寝坊しちゃったわ」"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "古橋　涼菜",
+      "voice": {
+        "id": "SUZU_001_PRO003B_002",
+        "file": null
+      },
+      "lines": [
+        "「おはよう。新聞を取ってくるわね」"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "古橋　涼菜",
+      "voice": {
+        "id": "SUZU_001_PRO003B_003",
+        "file": null
+      },
+      "lines": [
+        "「ちゃんと寝たの？　夜ふかしは良くないわよ？」"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "古橋　涼菜",
+      "voice": {
+        "id": "SUZU_001_PRO003B_004",
+        "file": null
+      },
+      "lines": [
+        "「いただきます。姉さんの食事は、いつもバランスが",
+        "良くて助かるわ」"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "古橋　涼菜",
+      "voice": {
+        "id": "SUZU_001_PRO003B_005",
+        "file": null
+      },
+      "lines": [
+        "「これ、すごく美味しいわね」"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "古橋　涼菜",
+      "voice": {
+        "id": "SUZU_001_PRO003B_006",
+        "file": null
+      },
+      "lines": [
+        "「ごめんなさい。ちょっと時間が無いから、",
+        "もう出るわね」"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "古橋　涼菜",
+      "voice": {
+        "id": "SUZU_001_PRO003B_007",
+        "file": null
+      },
+      "lines": [
+        "「ええ、分かったわ。ありがとう」"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "古橋　涼菜",
+      "voice": {
+        "id": "SUZU_001_PRO003B_008",
+        "file": null
+      },
+      "lines": [
+        "「それじゃあ、いってきます」"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "古橋　涼菜",
+      "voice": {
+        "id": "SUZU_001_PRO003B_009",
+        "file": null
+      },
+      "lines": [
+        "「今日は、帰りが遅くなるかもしれないわ」"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "古橋　涼菜",
+      "voice": {
+        "id": "SUZU_001_PRO003B_010",
+        "file": null
+      },
+      "lines": [
+        "「ただいま。今日は早く帰れたわ」"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "古橋　涼菜",
+      "voice": {
+        "id": "SUZU_001_PRO003B_011",
+        "file": null
+      },
+      "lines": [
+        "「ただいま。ちょっと遅くなっちゃったわ」"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "古橋　涼菜",
+      "voice": {
+        "id": "SUZU_001_PRO003B_012",
+        "file": null
+      },
+      "lines": [
+        "「とりあえず、部屋で着替えてくるわね」"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "古橋　涼菜",
+      "voice": {
+        "id": "SUZU_001_PRO003B_013",
+        "file": null
+      },
+      "lines": [
+        "「ありがとう。すぐに着替えてくるわ」"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "古橋　涼菜",
+      "voice": {
+        "id": "SUZU_001_PRO003B_014",
+        "file": null
+      },
+      "lines": [
+        "「いつもながら、姉さんの料理は最高ね」"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "古橋　涼菜",
+      "voice": {
+        "id": "SUZU_001_PRO003B_015",
+        "file": null
+      },
+      "lines": [
+        "「うん、美味しいわ。なかなかのものよ」"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "古橋　涼菜",
+      "voice": {
+        "id": "SUZU_001_PRO003B_016",
+        "file": null
+      },
+      "lines": [
+        "「それじゃあ、お風呂に入るわね」"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "古橋　涼菜",
+      "voice": {
+        "id": "SUZU_001_PRO003B_017",
+        "file": null
+      },
+      "lines": [
+        "「ちょっと部屋で、仕事をするわね」"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "古橋　涼菜",
+      "voice": {
+        "id": "SUZU_001_PRO003B_018",
+        "file": null
+      },
+      "lines": [
+        "「すこし部屋で、休ませてもらうわね」"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "古橋　涼菜",
+      "voice": {
+        "id": "SUZU_001_PRO003B_019",
+        "file": null
+      },
+      "lines": [
+        "「それじゃあ、おやすみなさい」"
+      ]
+    }
+  ]
+}
