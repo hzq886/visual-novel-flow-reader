@@ -419,13 +419,79 @@ def dump_disasm(sm, events):
         print("  %s %s%s" % (tag, ev["name"], cond))
 
 
+# ───────────────────────── SMAIN ロード ─────────────────────────
+def load_smain(src):
+    data = open(src, "rb").read()
+    ents = parse_container(data)
+    name, size, eo = next(e for e in ents if e[0] == "SMAIN")
+    payload = decrypt(data[eo:eo + size])[0x10:]
+    sm = Smain(payload)
+    return sm, extract_events(sm)
+
+
+def sibling_locale_src(src):
+    """saimin4_jp ↔ saimin4_cn のもう一方のパスを返す（--diff の既定相手）。"""
+    if "saimin4_jp" in src:
+        return src.replace("saimin4_jp", "saimin4_cn")
+    if "saimin4_cn" in src:
+        return src.replace("saimin4_cn", "saimin4_jp")
+    return None
+
+
+def diff_structure(src_a, src_b):
+    """2 版の SMAIN 制御構造（レコード数・文字列数・opcode 分布・イベント列）を比較する。
+    str_off 等の非構造的差異は無視。完全一致なら 0、構造差があれば 1 を返す。"""
+    sm_a, ev_a = load_smain(src_a)
+    sm_b, ev_b = load_smain(src_b)
+
+    def sig(sm, ev):
+        op = dict(Counter(args[0] for (_, _, _, args) in sm.records if args).most_common())
+        seq = [(e["kind"], e["name"]) for e in ev]
+        return {"records": len(sm.records), "strings": len(sm.strings), "ops": op, "seq": seq}
+
+    sa, sb = sig(sm_a, ev_a), sig(sm_b, ev_b)
+    print("[extract-flow --diff] 制御構造比較")
+    print("  A: %s" % os.path.relpath(src_a, ROOT))
+    print("  B: %s" % os.path.relpath(src_b, ROOT))
+    diffs = []
+    if sa["records"] != sb["records"]:
+        diffs.append("records %d≠%d" % (sa["records"], sb["records"]))
+    if sa["strings"] != sb["strings"]:
+        diffs.append("strings %d≠%d" % (sa["strings"], sb["strings"]))
+    if sa["ops"] != sb["ops"]:
+        diffs.append("opcode histogram 不一致")
+    if sa["seq"] != sb["seq"]:
+        n = sum(1 for x, y in zip(sa["seq"], sb["seq"]) if x != y) + abs(len(sa["seq"]) - len(sb["seq"]))
+        diffs.append("イベント列 %d 箇所相違" % n)
+        for i, (x, y) in enumerate(zip(sa["seq"], sb["seq"])):
+            if x != y:
+                print("    seq[%d]: %s ≠ %s" % (i, x, y))
+                break
+    print("  records=%d strings=%d ops=%d種 events=%d"
+          % (sa["records"], sa["strings"], len(sa["ops"]), len(sa["seq"])))
+    if diffs:
+        print("  ✗ 構造差: %s" % " / ".join(diffs))
+        return 1
+    print("  ✓ オペコード/ラベル/イベント構造は完全一致（str_off 等の非構造差は無視）")
+    return 0
+
+
 # ───────────────────────── main ─────────────────────────
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--src", default=DEFAULT_SRC)
     ap.add_argument("--out", default=DEFAULT_OUT)
     ap.add_argument("--disasm", action="store_true", help="逆アセンブル列を stdout に出して終了")
+    ap.add_argument("--diff", nargs="?", const="@sibling", metavar="OTHER_MED",
+                    help="--src と OTHER_MED（既定: jp↔cn の対）の制御構造を比較して終了")
     a = ap.parse_args()
+
+    if a.diff is not None:
+        other = sibling_locale_src(a.src) if a.diff == "@sibling" else a.diff
+        if not other or not os.path.isfile(a.src) or not os.path.isfile(other):
+            print("[extract-flow --diff] 原データ未配置のため比較スキップ（jp/cn 両方が要る）")
+            return
+        raise SystemExit(diff_structure(a.src, other))
 
     if not os.path.isfile(a.src):
         # 原データ（md_scr.med）は git 外。未配置なら committed の flow.json を保ったまま黙ってスキップ。
@@ -433,12 +499,7 @@ def main():
         print("[extract-flow] 原データ未配置のためスキップ: %s" % a.src)
         return
 
-    data = open(a.src, "rb").read()
-    ents = parse_container(data)
-    name, size, eo = next(e for e in ents if e[0] == "SMAIN")
-    payload = decrypt(data[eo:eo + size])[0x10:]
-    sm = Smain(payload)
-    events = extract_events(sm)
+    sm, events = load_smain(a.src)
 
     if a.disasm:
         dump_disasm(sm, events)
