@@ -14,7 +14,7 @@ Vite + TypeScript + React / VN描画=**PixiJS**(WebGL) / ルート図=**React Fl
 - `src/audio/` — Howler ラッパ（voice/se/bgm）。
 - `src/store/` — Zustand（再生位置・現在シーン・フラグ）。
 - `scripts/` — ビルドスクリプト（tsx 実行、Node）。
-- `data/` — **生成物**。`scenes/*.json`（build-scenes 経由）/ `flow.json`（build-flow 経由。暫定期の補正は `scripts/route-map.data.ts` へ）/ `sprites.json`・`backgrounds.json` / `manifest.json`。いずれも手編集禁止。
+- `data/` — **生成物**。`scenes/*.json`（build-scenes 経由）/ `flow.json`（extract-flow.py 経由＝SMAIN 機械抽出）/ `sprites.json`・`backgrounds.json` / `manifest.json`。いずれも手編集禁止。`flow.routemap.json`（build-flow 二次出力）は git 外。
 - `public/assets/` — **git 外**。素材実体は `npm run assets:fetch` で配置。
 
 ## コマンド
@@ -52,17 +52,18 @@ Vite + TypeScript + React / VN描画=**PixiJS**(WebGL) / ルート図=**React Fl
 
 ## フロー復元の出典（重要）
 
-分岐（選択肢/JUMP/フラグ）は**原データ `md_scr.med` に存在する**（現行 `extract_text.py` が破棄/誤分類）。`flow.json` は2段構えで復元する（→ [ADR 0005](../../docs/adr/0005-flow-reconstruction.md)）。
+分岐（選択肢/JUMP/フラグ）は**原データ `md_scr.med` に存在する**（旧 `extract_text.py` が破棄/誤分類）。`flow.json` は一次ソースから機械生成する（→ [ADR 0005](../../docs/adr/0005-flow-reconstruction.md)）。
 
-- **暫定（実装済・HU-13）** = `scripts/route-map.data.ts`（`../prototype/route_map.html` の N/E を逐語ポート）→ `scripts/build-flow.ts`（`npm run data:flow`）が `data/flow.json` を生成。`build_ayan_end1.py`(SCENES/KEEP) は照合・ラベル補完の参照。**分岐フラグ（`condition.flags`）は未付与**（ノード `description` に自然文で保持）。
-- **一次（未実装・HU-15）** = `scripts/extract-flow.py` が `SMAIN`＋select オペコードを再抽出し `flow.json` を機械生成、`_DEF` 軸を `condition.flags` に機械表現。完成時に暫定を置換。
-- 補正は **`route-map.data.ts`** に対して行う（`flow.json` は生成物で `data:flow` 再生成のたび上書き）。
+- **一次（実装済・HU-15）** = `scripts/extract-flow.py`（`npm run data:flow`）が `SMAIN` バイトコードを逆アセンブルし `data/flow.json` を機械生成（全ルート・全分岐・全エンドの完全グラフ）。形式は [`smain_flow_guide.md`](../../data_extract/text/_tools/smain_flow_guide.md)。`condition.flags` は select id（`SEL_xx`）。原データは git 外のため未配置時はスキップ（committed の flow.json 維持）。
+- **二次（照合・降格）** = `scripts/route-map.data.ts`＋`scripts/build-flow.ts`（`npm run data:flow:routemap`）。`../prototype/route_map.html` の N/E ポート。出力は `data/flow.routemap.json`（git 外・**flow.json は上書きしない**）。`build_ayan_end1.py` と併せ HU-16 の制御構造 diff・ラベル補完用。
+- `_DEF` フラグ名解決と選択肢メニュー文言の i18n 取り込みは **HU-16**。
+- **`flow.json` は手編集しない**（生成物。`data:flow` 再生成で上書き）。
 
 ## やってはいけない
 
 - CG/音声/`original_game` をコミットしない（`.gitignore` 済、manifest のみ管理）。Git LFS も使わない。
 - `../prototype/` を改変しない（仕様・演出パラメータの参照源）。
-- `data/scenes/*.json`・`data/flow.json` を手編集しない（build-scenes / build-flow 経由。flow の補正は `scripts/route-map.data.ts` へ）。
+- `data/scenes/*.json`・`data/flow.json` を手編集しない（build-scenes / extract-flow 経由で再生成）。
 
 ## ADR を書く条件
 

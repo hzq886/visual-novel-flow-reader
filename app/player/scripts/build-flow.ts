@@ -1,9 +1,13 @@
 /**
  * build-flow — route_map.html の N/E（→ route-map.data.ts に逐語ポート）を Flow スキーマへ
- * 写像して暫定 data/flow.json を生成する（二次ソース）。一次ソース（md_scr.med の
- * SMAIN + select オペコード再抽出）は extract-flow.py（HU-15）で後続。
+ * 写像して data/flow.routemap.json を生成する。
  *
- * 暫定方針:
+ * 【降格】一次ソース extract-flow.py（HU-15・実装済）が SMAIN から data/flow.json を機械生成する
+ * ようになったため、本スクリプトは二次（照合・ラベル補完）に降格。出力先も flow.json を
+ * クロバーしないよう flow.routemap.json に変更（手動比較・HU-16 の制御構造 diff 用）。
+ * アプリが読むのは flow.json（extract-flow 生成）のみ。
+ *
+ * 旧暫定方針（route_map ポートの設計メモ。参照のため残置）:
  *  - ノード/エッジのグラフ構造は route_map の N/E をそのまま採用。
  *  - scenes は実シーンコードのみ採用（"→ …" の結末ラベルや "_START" の擬似入口は除外）。
  *    これにより `npm run validate` の flow↔原テキスト相互照合（全 scenes が .txt 実在か）を満たす。
@@ -74,10 +78,14 @@ async function main() {
   }
 
   const flow = Flow.parse({ nodes, edges }) // スキーマ検証（kind/character の enum 等）
-  await writeFile(join(DATA_DIR, 'flow.json'), JSON.stringify(flow, null, 2) + '\n', 'utf8')
+  await writeFile(
+    join(DATA_DIR, 'flow.routemap.json'),
+    JSON.stringify(flow, null, 2) + '\n',
+    'utf8',
+  )
 
   const sceneCount = new Set(flow.nodes.flatMap((n) => n.scenes)).size
-  console.log(`[build-flow] route_map N/E → data/flow.json`)
+  console.log(`[build-flow] route_map N/E → data/flow.routemap.json（二次・照合用）`)
   console.log(
     `  ✓ ${flow.nodes.length} ノード / ${flow.edges.length} エッジ（実シーン参照 ${sceneCount} 件、暫定・フラグ未付与）`,
   )

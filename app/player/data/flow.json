@@ -6,23 +6,34 @@
       "character": "common",
       "title": "スタート",
       "icon": "▶",
-      "description": "ゲーム開始。古橋家・三人暮らしのプロローグへ。",
       "pos": {
-        "x": 40,
-        "y": 858
+        "x": 0,
+        "y": 0
       },
       "scenes": []
     },
     {
-      "id": "prologue",
+      "id": "005_MAKO003A",
+      "kind": "arc",
+      "character": "mako",
+      "title": "MAKO003A‥MAKO003B",
+      "pos": {
+        "x": 0,
+        "y": 120
+      },
+      "scenes": [
+        "005_MAKO003A",
+        "005_MAKO003B"
+      ]
+    },
+    {
+      "id": "001_PRO001A",
       "kind": "arc",
       "character": "common",
-      "title": "プロローグ",
-      "icon": "序",
-      "description": "幼少回想「三个人」。両親を失い、姉・綾菜／妹・涼菜と弟・和樹の三人暮らしが始まる。催眠アプリ入手。",
+      "title": "PRO001A‥TUBA001B2",
       "pos": {
-        "x": 280,
-        "y": 842
+        "x": 300,
+        "y": 0
       },
       "scenes": [
         "001_PRO001A",
@@ -42,296 +53,606 @@
         "001_PRO002D",
         "001_PRO002E",
         "001_PRO002F",
-        "001_PRO002G"
-      ],
-      "groups": [
-        {
-          "key": "A",
-          "tone": "#6f93e0",
-          "title": "幼少回想（PRO001）— 過去",
-          "kids": [
-            {
-              "code": "001_PRO001A",
-              "label": "三人（出会い）"
-            },
-            {
-              "code": "001_PRO001B",
-              "label": "楠木翼"
-            },
-            {
-              "code": "001_PRO001C",
-              "label": "朋友（友達に）"
-            },
-            {
-              "code": "001_PRO001D",
-              "label": "家族"
-            },
-            {
-              "code": "001_PRO001E",
-              "label": "転校生"
-            },
-            {
-              "code": "001_PRO001F",
-              "label": "勉強会"
-            },
-            {
-              "code": "001_PRO001G",
-              "label": "催眠術（起源）"
-            },
-            {
-              "code": "001_PRO001H",
-              "label": "説得"
-            },
-            {
-              "code": "001_PRO001K",
-              "label": "咖啡店（→現在へ）"
-            }
-          ]
-        },
-        {
-          "key": "B",
-          "tone": "#e0a94f",
-          "title": "序章（PRO002）— 現在",
-          "kids": [
-            {
-              "code": "001_PRO002A",
-              "label": "序章・然后"
-            },
-            {
-              "code": "001_PRO002B",
-              "label": "咖啡店"
-            },
-            {
-              "code": "001_PRO002B2",
-              "label": "古橋家の朝"
-            },
-            {
-              "code": "001_PRO002B3",
-              "label": "幼馴染の日々"
-            },
-            {
-              "code": "001_PRO002C",
-              "label": "初老夫婦"
-            },
-            {
-              "code": "001_PRO002D",
-              "label": "示好的男"
-            },
-            {
-              "code": "001_PRO002E",
-              "label": "催眠術"
-            },
-            {
-              "code": "001_PRO002F",
-              "label": "対峙"
-            },
-            {
-              "code": "001_PRO002G",
-              "label": "陸上部の翼"
-            },
-            {
-              "code": "001_PRO002H",
-              "label": "告白された翼"
-            },
-            {
-              "code": "001_PRO002I",
-              "label": "翼を拒否"
-            },
-            {
-              "code": "001_PRO002J",
-              "label": "確認のため"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "ayan1",
-      "kind": "arc",
-      "character": "ayan",
-      "title": "綾菜との日常 ①",
-      "icon": "綾",
-      "description": "姉・古橋綾菜の働くカフェへ。郡山という男の影、姉の真意を探る。",
-      "pos": {
-        "x": 540,
-        "y": 842
-      },
-      "scenes": [
+        "001_PRO002G",
         "002_AYAN001A",
         "002_AYAN001B",
-        "001_PRO002H"
-      ],
-      "groups": [
-        {
-          "key": "",
-          "tone": "#e07a93",
-          "title": "綾菜との日常①（AYAN001 / PRO002H）",
-          "kids": [
-            {
-              "code": "002_AYAN001A",
-              "label": "カフェへ"
-            },
-            {
-              "code": "002_AYAN001B",
-              "label": "綾菜の本心"
-            },
-            {
-              "code": "001_PRO002H",
-              "label": "翼を待つ"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "tuba_contact",
-      "kind": "branch",
-      "character": "tuba",
-      "title": "翼との接触",
-      "icon": "◆",
-      "description": "幼馴染・楠木翼への催眠導入。ここで「踏み込む(沉溺)」か「撤退(懊悔)」かでルートが分岐し、翼ルート解放フラグが決まる。",
-      "pos": {
-        "x": 820,
-        "y": 842
-      },
-      "scenes": [
+        "001_PRO002H",
         "006_TUBA001A",
         "006_TUBA001B",
-        "006_TUBA001B2",
-        "006_TUBA001BC",
-        "006_TUBA001E",
-        "006_TUBA001D"
+        "006_TUBA001B2"
       ]
     },
     {
-      "id": "tuba_firstH",
+      "id": "005_MAKO003C",
+      "kind": "arc",
+      "character": "mako",
+      "title": "MAKO003C",
+      "pos": {
+        "x": 300,
+        "y": 120
+      },
+      "scenes": [
+        "005_MAKO003C"
+      ]
+    },
+    {
+      "id": "SMAIN_MIX01",
+      "kind": "branch",
+      "character": "branch",
+      "title": "MIX01",
+      "icon": "◆",
+      "pos": {
+        "x": 600,
+        "y": 0
+      },
+      "scenes": []
+    },
+    {
+      "id": "012_SUBTM002A",
       "kind": "arc",
       "character": "tuba",
-      "title": "翼・初調教（沉溺）",
-      "icon": "翼",
-      "description": "踏み込んだ場合の翼への催眠H。翼ルートのフラグが立つ（共通ルート内の翼初登場H）。",
+      "title": "SUBTM002A",
       "pos": {
-        "x": 820,
-        "y": 648
+        "x": 600,
+        "y": 120
+      },
+      "scenes": [
+        "012_SUBTM002A"
+      ]
+    },
+    {
+      "id": "012_SUBTM006A",
+      "kind": "arc",
+      "character": "tuba",
+      "title": "SUBTM006A",
+      "pos": {
+        "x": 600,
+        "y": 240
+      },
+      "scenes": [
+        "012_SUBTM006A"
+      ]
+    },
+    {
+      "id": "005_MAKO004A",
+      "kind": "arc",
+      "character": "mako",
+      "title": "MAKO004A‥MAKO013A",
+      "pos": {
+        "x": 600,
+        "y": 360
+      },
+      "scenes": [
+        "005_MAKO004A",
+        "005_MAKO004B",
+        "005_MAKO004C",
+        "005_MAKO004D",
+        "005_MAKO004E",
+        "005_MAKO004F",
+        "005_MAKO013A"
+      ]
+    },
+    {
+      "id": "006_TUBA001C",
+      "kind": "arc",
+      "character": "tuba",
+      "title": "TUBA001C‥TUBA001E",
+      "pos": {
+        "x": 900,
+        "y": 0
       },
       "scenes": [
         "006_TUBA001C",
+        "006_TUBA001E"
+      ]
+    },
+    {
+      "id": "005_MAKO013B",
+      "kind": "arc",
+      "character": "mako",
+      "title": "MAKO013B",
+      "pos": {
+        "x": 900,
+        "y": 120
+      },
+      "scenes": [
+        "005_MAKO013B"
+      ]
+    },
+    {
+      "id": "SMAIN_MIX02",
+      "kind": "branch",
+      "character": "branch",
+      "title": "MIX02",
+      "icon": "◆",
+      "pos": {
+        "x": 1200,
+        "y": 0
+      },
+      "scenes": []
+    },
+    {
+      "id": "SMAIN_TUBAMAKO05",
+      "kind": "branch",
+      "character": "branch",
+      "title": "TUBAMAKO05",
+      "icon": "◆",
+      "pos": {
+        "x": 1200,
+        "y": 120
+      },
+      "scenes": []
+    },
+    {
+      "id": "005_MAKO013C",
+      "kind": "arc",
+      "character": "mako",
+      "title": "MAKO013C‥MAKO016A",
+      "pos": {
+        "x": 1200,
+        "y": 240
+      },
+      "scenes": [
+        "005_MAKO013C",
+        "005_MAKO014A",
+        "005_MAKO014B",
+        "005_MAKO015A",
+        "005_MAKO015B",
+        "005_MAKO016A"
+      ]
+    },
+    {
+      "id": "006_TUBA001D",
+      "kind": "arc",
+      "character": "ayan",
+      "title": "TUBA001D‥MAKO001A",
+      "pos": {
+        "x": 1500,
+        "y": 0
+      },
+      "scenes": [
+        "006_TUBA001D",
+        "002_AYAN002A",
+        "002_AYAN002B",
+        "002_AYAN002C",
+        "002_AYAN002D",
+        "010_MAIN001A",
+        "001_PRO002I",
+        "005_MAKO001A"
+      ]
+    },
+    {
+      "id": "006_TUBA002A",
+      "kind": "arc",
+      "character": "tuba",
+      "title": "TUBA002A‥TUBA002C",
+      "pos": {
+        "x": 1500,
+        "y": 120
+      },
+      "scenes": [
         "006_TUBA002A",
         "006_TUBA002B",
-        "006_TUBA002BC",
-        "006_TUBA002C",
+        "006_TUBA002C"
+      ]
+    },
+    {
+      "id": "012_SUBTM007B",
+      "kind": "arc",
+      "character": "tuba",
+      "title": "SUBTM007B",
+      "pos": {
+        "x": 1500,
+        "y": 240
+      },
+      "scenes": [
+        "012_SUBTM007B"
+      ]
+    },
+    {
+      "id": "012_SUBTM007C",
+      "kind": "arc",
+      "character": "tuba",
+      "title": "SUBTM007C",
+      "pos": {
+        "x": 1500,
+        "y": 360
+      },
+      "scenes": [
+        "012_SUBTM007C"
+      ]
+    },
+    {
+      "id": "SMAIN_TUBA03",
+      "kind": "branch",
+      "character": "branch",
+      "title": "TUBA03",
+      "icon": "◆",
+      "pos": {
+        "x": 1800,
+        "y": 0
+      },
+      "scenes": []
+    },
+    {
+      "id": "SMAIN_MIX03",
+      "kind": "branch",
+      "character": "branch",
+      "title": "MIX03",
+      "icon": "◆",
+      "pos": {
+        "x": 1800,
+        "y": 120
+      },
+      "scenes": []
+    },
+    {
+      "id": "006_TUBA002D",
+      "kind": "arc",
+      "character": "tuba",
+      "title": "TUBA002D‥TUBA002E",
+      "pos": {
+        "x": 2100,
+        "y": 0
+      },
+      "scenes": [
         "006_TUBA002D",
-        "006_TUBA002DE",
-        "006_TUBA002E",
+        "006_TUBA002E"
+      ]
+    },
+    {
+      "id": "006_TUBA002F",
+      "kind": "arc",
+      "character": "tuba",
+      "title": "TUBA002F‥TUBA002G",
+      "pos": {
+        "x": 2100,
+        "y": 120
+      },
+      "scenes": [
         "006_TUBA002F",
         "006_TUBA002G"
       ]
     },
     {
-      "id": "ayan2",
-      "kind": "arc",
-      "character": "ayan",
-      "title": "綾菜との日常 ②",
-      "icon": "綾",
-      "description": "綾菜への接近を続ける。日常パートと朝の風景。",
-      "pos": {
-        "x": 1110,
-        "y": 842
-      },
-      "scenes": [
-        "002_AYAN002A",
-        "002_AYAN002B",
-        "002_AYAN002BC",
-        "002_AYAN002C",
-        "002_AYAN002D",
-        "010_MAIN001A",
-        "001_PRO002I"
-      ]
-    },
-    {
-      "id": "mako_contact",
-      "kind": "branch",
-      "character": "mako",
-      "title": "真琴との接触",
-      "icon": "◆",
-      "description": "もう一人の幼馴染・望月真琴へ。翼との関係を問い詰める流れ。「踏み込む」か「撤退(愤怒/后悔)」かで真琴ルート解放フラグが決まる。",
-      "pos": {
-        "x": 1390,
-        "y": 842
-      },
-      "scenes": [
-        "005_MAKO001A",
-        "005_MAKO001AB",
-        "005_MAKO001E"
-      ]
-    },
-    {
-      "id": "mako_firstH",
+      "id": "005_MAKO001B",
       "kind": "arc",
       "character": "mako",
-      "title": "真琴・初調教（沉溺）",
-      "icon": "真",
-      "description": "踏み込んだ場合の真琴への催眠H。真琴ルートのフラグが立つ。",
+      "title": "MAKO001B‥MAKO001D",
       "pos": {
-        "x": 1390,
-        "y": 648
+        "x": 2100,
+        "y": 240
       },
       "scenes": [
         "005_MAKO001B",
         "005_MAKO001C",
-        "005_MAKO001D",
+        "005_MAKO001D"
+      ]
+    },
+    {
+      "id": "005_MAKO002A",
+      "kind": "arc",
+      "character": "mako",
+      "title": "MAKO002A‥MAKO002C",
+      "pos": {
+        "x": 2100,
+        "y": 360
+      },
+      "scenes": [
         "005_MAKO002A",
         "005_MAKO002B",
         "005_MAKO002C"
       ]
     },
     {
-      "id": "ayan3",
+      "id": "SMAIN_MIX04",
+      "kind": "branch",
+      "character": "branch",
+      "title": "MIX04",
+      "icon": "◆",
+      "pos": {
+        "x": 2400,
+        "y": 0
+      },
+      "scenes": []
+    },
+    {
+      "id": "005_MAKO001E",
       "kind": "arc",
       "character": "ayan",
-      "title": "綾菜との日常 ③",
-      "icon": "綾",
-      "description": "綾菜との関係が深まる。三人の生活の転機。",
+      "title": "MAKO001E‥MAIN003A",
       "pos": {
-        "x": 1660,
-        "y": 842
+        "x": 2700,
+        "y": 0
       },
       "scenes": [
+        "005_MAKO001E",
+        "010_MAIN002A",
+        "001_PRO002J",
         "002_AYAN003A",
         "002_AYAN003B",
         "002_AYAN003C",
         "002_AYAN004A",
-        "002_AYAN004AB",
         "002_AYAN004B",
-        "010_MAIN002A",
-        "001_PRO002J"
-      ]
-    },
-    {
-      "id": "hub",
-      "kind": "branch",
-      "character": "branch",
-      "title": "★ 大分岐（MAIN003A）",
-      "icon": "◆",
-      "description": "共通ルートの結節点。翼・真琴に「踏み込んだ」フラグの組み合わせで進むルートが決まる：両方撤退→姉妹／翼のみ→翼／真琴のみ→真琴／両方→翼＆真琴。",
-      "pos": {
-        "x": 1940,
-        "y": 838
-      },
-      "scenes": [
         "010_MAIN003A"
       ]
     },
     {
-      "id": "sister_life",
-      "kind": "arc",
-      "character": "ayan",
-      "title": "姉妹ルート・共同生活",
-      "icon": "姉",
-      "description": "翼・真琴を退け、姉妹（綾菜＋涼菜）に専念。二人を並行して催眠で堕としていく長編パート。真琴(017)とのつなぎも含む。",
+      "id": "SMAIN_SISTER01",
+      "kind": "branch",
+      "character": "branch",
+      "title": "SISTER01",
+      "icon": "◆",
       "pos": {
-        "x": 2280,
-        "y": 300
+        "x": 3000,
+        "y": 0
+      },
+      "scenes": []
+    },
+    {
+      "id": "SMAIN_TUBA01",
+      "kind": "branch",
+      "character": "branch",
+      "title": "TUBA01",
+      "icon": "◆",
+      "pos": {
+        "x": 3300,
+        "y": 0
+      },
+      "scenes": []
+    },
+    {
+      "id": "SMAIN_TUBA02",
+      "kind": "branch",
+      "character": "branch",
+      "title": "TUBA02",
+      "icon": "◆",
+      "pos": {
+        "x": 3600,
+        "y": 0
+      },
+      "scenes": []
+    },
+    {
+      "id": "SMAIN_MAKO01",
+      "kind": "branch",
+      "character": "branch",
+      "title": "MAKO01",
+      "icon": "◆",
+      "pos": {
+        "x": 3900,
+        "y": 0
+      },
+      "scenes": []
+    },
+    {
+      "id": "006_TUBA003A",
+      "kind": "arc",
+      "character": "tuba",
+      "title": "TUBA003A‥TUBA003B",
+      "pos": {
+        "x": 3900,
+        "y": 120
+      },
+      "scenes": [
+        "006_TUBA003A",
+        "006_TUBA003B"
+      ]
+    },
+    {
+      "id": "006_TUBA018A",
+      "kind": "arc",
+      "character": "tuba",
+      "title": "TUBA018A‥TUBA018B",
+      "pos": {
+        "x": 3900,
+        "y": 240
+      },
+      "scenes": [
+        "006_TUBA018A",
+        "006_TUBA018B"
+      ]
+    },
+    {
+      "id": "SMAIN_TUBAMAKO01",
+      "kind": "branch",
+      "character": "branch",
+      "title": "TUBAMAKO01",
+      "icon": "◆",
+      "pos": {
+        "x": 4200,
+        "y": 0
+      },
+      "scenes": []
+    },
+    {
+      "id": "TRUE_END",
+      "kind": "end",
+      "character": "end",
+      "title": "トゥルーEND",
+      "icon": "★",
+      "pos": {
+        "x": 4200,
+        "y": 120
+      },
+      "scenes": []
+    },
+    {
+      "id": "006_TUBA003C",
+      "kind": "arc",
+      "character": "tuba",
+      "title": "TUBA003C‥TUBA003E",
+      "pos": {
+        "x": 4200,
+        "y": 240
+      },
+      "scenes": [
+        "006_TUBA003C",
+        "006_TUBA003D",
+        "006_TUBA003E"
+      ]
+    },
+    {
+      "id": "006_TUBA010B",
+      "kind": "arc",
+      "character": "tuba",
+      "title": "TUBA010B‥KAED003D",
+      "pos": {
+        "x": 4200,
+        "y": 360
+      },
+      "scenes": [
+        "006_TUBA010B",
+        "006_TUBA010C",
+        "006_TUBA010D",
+        "006_TUBA010E",
+        "007_KAED003A",
+        "007_KAED003B",
+        "007_KAED003C",
+        "007_KAED003D"
+      ]
+    },
+    {
+      "id": "005_MAKO005A",
+      "kind": "arc",
+      "character": "mako",
+      "title": "MAKO005A‥MAKO008B",
+      "pos": {
+        "x": 4200,
+        "y": 480
+      },
+      "scenes": [
+        "005_MAKO005A",
+        "005_MAKO005B",
+        "005_MAKO005C",
+        "005_MAKO005D",
+        "005_MAKO005E",
+        "005_MAKO006A",
+        "005_MAKO006B",
+        "005_MAKO006C",
+        "005_MAKO006D",
+        "005_MAKO007A",
+        "005_MAKO007B",
+        "005_MAKO008A",
+        "005_MAKO008B"
+      ]
+    },
+    {
+      "id": "005_MAKO005F",
+      "kind": "arc",
+      "character": "mako",
+      "title": "MAKO005F‥MAKO012B",
+      "pos": {
+        "x": 4200,
+        "y": 600
+      },
+      "scenes": [
+        "005_MAKO005F",
+        "005_MAKO009A",
+        "009_MAKO010A",
+        "009_MAKO010B",
+        "005_MAKO011A",
+        "005_MAKO011B",
+        "005_MAKO012A",
+        "005_MAKO012B"
+      ]
+    },
+    {
+      "id": "SMAIN_TUBAMAKO02",
+      "kind": "branch",
+      "character": "branch",
+      "title": "TUBAMAKO02",
+      "icon": "◆",
+      "pos": {
+        "x": 4500,
+        "y": 0
+      },
+      "scenes": []
+    },
+    {
+      "id": "006_TUBA003F",
+      "kind": "arc",
+      "character": "tuba",
+      "title": "TUBA003F‥SUBT001A",
+      "pos": {
+        "x": 4500,
+        "y": 120
+      },
+      "scenes": [
+        "006_TUBA003F",
+        "011_SUBT001A"
+      ]
+    },
+    {
+      "id": "011_SUBT003A",
+      "kind": "arc",
+      "character": "tuba",
+      "title": "SUBT003A",
+      "pos": {
+        "x": 4500,
+        "y": 240
+      },
+      "scenes": [
+        "011_SUBT003A"
+      ]
+    },
+    {
+      "id": "012_SUBTM001A",
+      "kind": "arc",
+      "character": "tuba",
+      "title": "SUBTM001A",
+      "pos": {
+        "x": 4500,
+        "y": 360
+      },
+      "scenes": [
+        "012_SUBTM001A"
+      ]
+    },
+    {
+      "id": "STAFF_ROLL",
+      "kind": "omake",
+      "character": "omake",
+      "title": "スタッフロール",
+      "icon": "🎬",
+      "pos": {
+        "x": 4500,
+        "y": 480
+      },
+      "scenes": []
+    },
+    {
+      "id": "SMAIN_TUBAMAKO06",
+      "kind": "branch",
+      "character": "branch",
+      "title": "TUBAMAKO06",
+      "icon": "◆",
+      "pos": {
+        "x": 4800,
+        "y": 0
+      },
+      "scenes": []
+    },
+    {
+      "id": "SMAIN_TUBAMAKO03",
+      "kind": "branch",
+      "character": "branch",
+      "title": "TUBAMAKO03",
+      "icon": "◆",
+      "pos": {
+        "x": 4800,
+        "y": 120
+      },
+      "scenes": []
+    },
+    {
+      "id": "002_AYAN005A",
+      "kind": "arc",
+      "character": "suzu",
+      "title": "AYAN005A‥SUZU004E",
+      "pos": {
+        "x": 4800,
+        "y": 240
       },
       "scenes": [
         "002_AYAN005A",
@@ -341,13 +662,11 @@
         "003_SUZU001A",
         "003_SUZU001B",
         "003_SUZU001C",
-        "003_SUZU001CD",
         "003_SUZU001D",
         "003_SUZU001E",
         "011_SUBA002A",
         "003_SUZU002A",
         "003_SUZU002B",
-        "003_SUZU002BC",
         "003_SUZU002C",
         "003_SUZU002D",
         "011_SUBA003A",
@@ -356,15 +675,12 @@
         "005_MAKO017C",
         "003_SUZU003A",
         "003_SUZU003B",
-        "003_SUZU003BC",
         "003_SUZU003C",
         "003_SUZU003D",
-        "003_SUZU003DE",
         "003_SUZU003E",
         "003_SUZU003F",
         "011_SUBA004A",
         "002_AYAN006A",
-        "002_AYAN006AB",
         "002_AYAN006B",
         "002_AYAN006C",
         "002_AYAN006D",
@@ -372,25 +688,204 @@
         "003_SUZU004A",
         "003_SUZU004B",
         "003_SUZU004C",
-        "003_SUZU004CD",
         "003_SUZU004D",
         "003_SUZU004E"
       ]
     },
     {
-      "id": "sister_choose",
-      "kind": "branch",
-      "character": "branch",
-      "title": "誰を「特別」に選ぶ",
-      "icon": "◆",
-      "description": "姉妹ルートのクライマックス分岐。綾菜を選ぶ／涼菜を選ぶ／二人ともを選ぶ（双子ハーレム）の三分岐。",
+      "id": "006_TUBA004A",
+      "kind": "arc",
+      "character": "tuba",
+      "title": "TUBA004A‥KAED002C",
       "pos": {
-        "x": 2560,
+        "x": 4800,
         "y": 360
       },
       "scenes": [
+        "006_TUBA004A",
+        "006_TUBA004B",
+        "006_TUBA004C",
+        "006_TUBA004D",
+        "006_TUBA004E",
+        "006_TUBA004F",
+        "006_TUBA004G",
+        "006_TUBA004H",
+        "007_KAED001A",
+        "007_KAED001B",
+        "007_KAED001C",
+        "011_SUBT002A",
+        "006_TUBA005A",
+        "006_TUBA005B",
+        "006_TUBA005C",
+        "006_TUBA005D",
+        "007_KAED002A",
+        "007_KAED002B",
+        "007_KAED002C"
+      ]
+    },
+    {
+      "id": "006_TUBA011A",
+      "kind": "arc",
+      "character": "tuba",
+      "title": "TUBA011A‥TUBA011B",
+      "pos": {
+        "x": 4800,
+        "y": 480
+      },
+      "scenes": [
+        "006_TUBA011A",
+        "006_TUBA011B"
+      ]
+    },
+    {
+      "id": "SMAIN_SISTER02",
+      "kind": "branch",
+      "character": "branch",
+      "title": "SISTER02",
+      "icon": "◆",
+      "pos": {
+        "x": 5100,
+        "y": 0
+      },
+      "scenes": []
+    },
+    {
+      "id": "008_TUBA007A",
+      "kind": "arc",
+      "character": "tuba",
+      "title": "TUBA007A‥TUBA009B",
+      "pos": {
+        "x": 5100,
+        "y": 120
+      },
+      "scenes": [
+        "008_TUBA007A",
+        "008_TUBA007B",
+        "008_TUBA008A",
+        "008_TUBA008B",
+        "008_TUBA008C",
+        "008_TUBA009A",
+        "008_TUBA009B"
+      ]
+    },
+    {
+      "id": "006_TUBA011C",
+      "kind": "arc",
+      "character": "tuba",
+      "title": "TUBA011C‥SUBT004A",
+      "pos": {
+        "x": 5100,
+        "y": 240
+      },
+      "scenes": [
+        "006_TUBA011C",
+        "011_SUBT004A"
+      ]
+    },
+    {
+      "id": "012_SUBTM004A",
+      "kind": "arc",
+      "character": "tuba",
+      "title": "SUBTM004A‥TUBA006C",
+      "pos": {
+        "x": 5100,
+        "y": 360
+      },
+      "scenes": [
+        "012_SUBTM004A",
+        "006_TUBA006B",
+        "006_TUBA006C"
+      ]
+    },
+    {
+      "id": "012_SUBTM005A",
+      "kind": "arc",
+      "character": "tuba",
+      "title": "SUBTM005A",
+      "pos": {
+        "x": 5100,
+        "y": 480
+      },
+      "scenes": [
+        "012_SUBTM005A"
+      ]
+    },
+    {
+      "id": "012_SUBTM007A",
+      "kind": "arc",
+      "character": "tuba",
+      "title": "SUBTM007A",
+      "pos": {
+        "x": 5100,
+        "y": 600
+      },
+      "scenes": [
+        "012_SUBTM007A"
+      ]
+    },
+    {
+      "id": "SMAIN_SISTER03",
+      "kind": "branch",
+      "character": "branch",
+      "title": "SISTER03",
+      "icon": "◆",
+      "pos": {
+        "x": 5400,
+        "y": 0
+      },
+      "scenes": []
+    },
+    {
+      "id": "SMAIN_TUBAMAKO04",
+      "kind": "branch",
+      "character": "branch",
+      "title": "TUBAMAKO04",
+      "icon": "◆",
+      "pos": {
+        "x": 5400,
+        "y": 120
+      },
+      "scenes": []
+    },
+    {
+      "id": "006_TUBA012A",
+      "kind": "arc",
+      "character": "tuba",
+      "title": "TUBA012A‥TUBA014A",
+      "pos": {
+        "x": 5400,
+        "y": 240
+      },
+      "scenes": [
+        "006_TUBA012A",
+        "006_TUBA012B",
+        "006_TUBA012C",
+        "006_TUBA012D",
+        "007_KAED004A",
+        "007_KAED004B",
+        "007_KAED004C",
+        "007_KAED004D",
+        "006_TUBA013A",
+        "006_TUBA013B",
+        "006_TUBA013C",
+        "006_TUBA013D",
+        "006_TUBA013E",
+        "006_TUBA013F",
+        "006_TUBA013G",
+        "006_TUBA014A"
+      ]
+    },
+    {
+      "id": "002_AYAN007A",
+      "kind": "arc",
+      "character": "ayan",
+      "title": "AYAN007A‥AYAN008A",
+      "pos": {
+        "x": 5700,
+        "y": 0
+      },
+      "scenes": [
         "002_AYAN007A",
-        "002_AYAN007AB",
         "002_AYAN007B",
         "002_AYAN007C",
         "003_SUZU005A",
@@ -400,122 +895,135 @@
       ]
     },
     {
-      "id": "ayan_route",
+      "id": "006_TUBA014B",
       "kind": "arc",
-      "character": "ayan",
-      "title": "綾菜・告白ルート",
-      "icon": "綾",
-      "description": "綾菜を選択（SMAIN_AYAN01）。二人きりの関係を深め、最後の願いを告げる場面へ。",
+      "character": "tuba",
+      "title": "TUBA014B‥TUBA014D",
       "pos": {
-        "x": 2840,
+        "x": 5700,
         "y": 120
       },
       "scenes": [
-        "002_AYAN009A",
-        "002_AYAN009AB",
-        "002_AYAN009B",
-        "002_AYAN009C"
+        "006_TUBA014B",
+        "006_TUBA014C",
+        "006_TUBA014D"
       ]
     },
     {
-      "id": "ayan010",
+      "id": "012_SUBTM008A",
+      "kind": "arc",
+      "character": "tuba",
+      "title": "SUBTM008A",
+      "pos": {
+        "x": 5700,
+        "y": 240
+      },
+      "scenes": [
+        "012_SUBTM008A"
+      ]
+    },
+    {
+      "id": "SMAIN_AYAN01",
       "kind": "branch",
       "character": "branch",
-      "title": "最後の願い（AYAN010A）",
+      "title": "AYAN01",
       "icon": "◆",
-      "description": "綾菜 END の最終分岐。「关键词を告げる」→ END1 妊娠 ／「拼命に請う」→ END2 聖母。",
       "pos": {
-        "x": 3110,
+        "x": 6000,
+        "y": 0
+      },
+      "scenes": []
+    },
+    {
+      "id": "006_TUBA015A",
+      "kind": "arc",
+      "character": "tuba",
+      "title": "TUBA015A‥TUBA017B",
+      "pos": {
+        "x": 6000,
         "y": 120
       },
       "scenes": [
+        "006_TUBA015A",
+        "006_TUBA015B",
+        "006_TUBA015C",
+        "006_TUBA016A",
+        "006_TUBA016B",
+        "006_TUBA016C",
+        "006_TUBA017A",
+        "006_TUBA017B"
+      ]
+    },
+    {
+      "id": "006_TUBA019A",
+      "kind": "arc",
+      "character": "tuba",
+      "title": "TUBA019A‥TUBA020A",
+      "pos": {
+        "x": 6000,
+        "y": 240
+      },
+      "scenes": [
+        "006_TUBA019A",
+        "006_TUBA019B",
+        "006_TUBA019C",
+        "006_TUBA019D",
+        "006_TUBA020A"
+      ]
+    },
+    {
+      "id": "SMAIN_SUZU01",
+      "kind": "branch",
+      "character": "branch",
+      "title": "SUZU01",
+      "icon": "◆",
+      "pos": {
+        "x": 6300,
+        "y": 0
+      },
+      "scenes": []
+    },
+    {
+      "id": "002_AYAN009A",
+      "kind": "arc",
+      "character": "ayan",
+      "title": "AYAN009A‥AYAN010A",
+      "pos": {
+        "x": 6600,
+        "y": 0
+      },
+      "scenes": [
+        "002_AYAN009A",
+        "002_AYAN009B",
+        "002_AYAN009C",
         "002_AYAN010A"
       ]
     },
     {
-      "id": "ayan_end1",
-      "kind": "end",
-      "character": "end",
-      "title": "綾菜 END1：妊娠",
-      "icon": "★",
-      "description": "NORMAL_END。关键词を告げ、綾菜と結ばれ子を宿す結末。（連貫読み物 綾菜_END1_妊娠_ルート.txt として生成済み）",
-      "pos": {
-        "x": 3390,
-        "y": 40
-      },
-      "scenes": [
-        "002_AYAN010B",
-        "002_AYAN011A",
-        "002_AYAN011B",
-        "002_AYAN012A",
-        "002_AYAN012B"
-      ]
-    },
-    {
-      "id": "ayan_end2",
-      "kind": "end",
-      "character": "end",
-      "title": "綾菜 END2：聖母",
-      "icon": "★",
-      "description": "拼命に請う分岐（SMAIN_AYAN03）。聖母的に弟を包み込む別エンド。",
-      "pos": {
-        "x": 3390,
-        "y": 210
-      },
-      "scenes": [
-        "002_AYAN010C",
-        "002_AYAN011A2",
-        "002_AYAN011C",
-        "002_AYAN013A",
-        "002_AYAN013AB",
-        "002_AYAN013B",
-        "002_AYAN013C",
-        "002_AYAN014A"
-      ]
-    },
-    {
-      "id": "suzu_route",
+      "id": "003_SUZU006A",
       "kind": "arc",
       "character": "suzu",
-      "title": "涼菜ルート",
-      "icon": "涼",
-      "description": "涼菜を選択（SMAIN_SUZU01）。妹・涼菜と結ばれる支線。",
+      "title": "SUZU006A‥SUZU007B",
       "pos": {
-        "x": 2840,
-        "y": 392
+        "x": 6600,
+        "y": 120
       },
       "scenes": [
         "003_SUZU006A",
         "003_SUZU006B",
-        "003_SUZU006BC",
         "003_SUZU006C",
         "003_SUZU007A",
         "003_SUZU007B"
       ]
     },
     {
-      "id": "suzu_end",
-      "kind": "end",
-      "character": "end",
-      "title": "涼菜 END",
-      "icon": "★",
-      "description": "妹・涼菜との結末。",
-      "pos": {
-        "x": 3390,
-        "y": 392
-      },
-      "scenes": []
-    },
-    {
-      "id": "futa_route",
+      "id": "004_FUTA001A",
       "kind": "arc",
       "character": "suzu",
-      "title": "双子（綾菜＆涼菜）ルート",
-      "icon": "双",
-      "description": "「二人とも」を選ぶ姉妹同時ハーレム。三人で享受する暗示。SMAIN_SISTER04 を含む。",
+      "title": "FUTA001A‥FUTA003C",
       "pos": {
-        "x": 2840,
-        "y": 560
+        "x": 6600,
+        "y": 240
       },
       "scenes": [
         "004_FUTA001A",
@@ -524,15 +1032,61 @@
         "004_FUTA002A",
         "004_FUTA002B",
         "004_FUTA002C",
-        "004_FUTA002CD",
         "004_FUTA002D",
         "004_FUTA002E",
         "004_FUTA002F",
         "004_FUTA003A",
         "004_FUTA003B",
-        "004_FUTA003C",
+        "004_FUTA003C"
+      ]
+    },
+    {
+      "id": "SMAIN_AYAN02",
+      "kind": "branch",
+      "character": "branch",
+      "title": "AYAN02",
+      "icon": "◆",
+      "pos": {
+        "x": 6900,
+        "y": 0
+      },
+      "scenes": []
+    },
+    {
+      "id": "SMAIN_SISTER04",
+      "kind": "branch",
+      "character": "branch",
+      "title": "SISTER04",
+      "icon": "◆",
+      "pos": {
+        "x": 6900,
+        "y": 120
+      },
+      "scenes": []
+    },
+    {
+      "id": "SMAIN_AYAN03",
+      "kind": "branch",
+      "character": "branch",
+      "title": "AYAN03",
+      "icon": "◆",
+      "pos": {
+        "x": 7200,
+        "y": 0
+      },
+      "scenes": []
+    },
+    {
+      "id": "004_FUTA003D",
+      "kind": "arc",
+      "character": "suzu",
+      "title": "FUTA003D‥FUTA006B",
+      "pos": {
+        "x": 7200,
+        "y": 120
+      },
+      "scenes": [
         "004_FUTA003D",
-        "004_FUTA003DF",
         "004_FUTA003E",
         "004_FUTA003F",
         "004_FUTA003G",
@@ -549,462 +1103,512 @@
       ]
     },
     {
-      "id": "futa_end",
+      "id": "002_AYAN010B",
+      "kind": "arc",
+      "character": "ayan",
+      "title": "AYAN010B‥AYAN012B",
+      "pos": {
+        "x": 7500,
+        "y": 0
+      },
+      "scenes": [
+        "002_AYAN010B",
+        "002_AYAN011A",
+        "002_AYAN011B",
+        "002_AYAN012A",
+        "002_AYAN012B"
+      ]
+    },
+    {
+      "id": "002_AYAN010C",
+      "kind": "arc",
+      "character": "ayan",
+      "title": "AYAN010C‥AYAN014A",
+      "pos": {
+        "x": 7500,
+        "y": 120
+      },
+      "scenes": [
+        "002_AYAN010C",
+        "002_AYAN011A2",
+        "002_AYAN011C",
+        "002_AYAN013A",
+        "002_AYAN013B",
+        "002_AYAN013C",
+        "002_AYAN014A"
+      ]
+    },
+    {
+      "id": "NORMAL_END",
       "kind": "end",
       "character": "end",
-      "title": "双子ハーレム END",
+      "title": "ノーマルEND",
       "icon": "★",
-      "description": "綾菜・涼菜の二人を同時に手に入れる姉妹ハーレム結末。",
       "pos": {
-        "x": 3390,
-        "y": 560
+        "x": 7800,
+        "y": 0
       },
       "scenes": []
-    },
-    {
-      "id": "tuba_route",
-      "kind": "arc",
-      "character": "tuba",
-      "title": "翼ルート・本編",
-      "icon": "翼",
-      "description": "翼に踏み込んだ場合の本ルート（SMAIN_TUBA01/02）。学園で翼を堕とし、関係を深めていく長編。",
-      "pos": {
-        "x": 2280,
-        "y": 1060
-      },
-      "scenes": [
-        "006_TUBA003A",
-        "006_TUBA003B",
-        "006_TUBA003C",
-        "006_TUBA003CD",
-        "006_TUBA003D",
-        "006_TUBA003E",
-        "006_TUBA003F",
-        "011_SUBT001A",
-        "006_TUBA004A",
-        "006_TUBA004B",
-        "006_TUBA004BC",
-        "006_TUBA004C",
-        "006_TUBA004D",
-        "006_TUBA004DE",
-        "006_TUBA004E",
-        "006_TUBA004F",
-        "006_TUBA004G",
-        "006_TUBA004H",
-        "011_SUBT002A",
-        "006_TUBA005A",
-        "006_TUBA005B",
-        "006_TUBA005BC",
-        "006_TUBA005C",
-        "006_TUBA005D",
-        "006_TUBA006B",
-        "006_TUBA006C"
-      ]
-    },
-    {
-      "id": "kaede",
-      "kind": "arc",
-      "character": "kaede",
-      "title": "楠木母娘（楓）",
-      "icon": "楓",
-      "description": "翼の母・楠木楓も催眠下に。「催眠母娘」パート。翼＆楓の母娘丼ルート。",
-      "pos": {
-        "x": 2560,
-        "y": 1230
-      },
-      "scenes": [
-        "007_KAED001A",
-        "007_KAED001AB",
-        "007_KAED001B",
-        "007_KAED001C",
-        "007_KAED002A",
-        "007_KAED002AB",
-        "007_KAED002B",
-        "007_KAED002C",
-        "007_KAED003A",
-        "007_KAED003AC",
-        "007_KAED003B",
-        "007_KAED003C",
-        "007_KAED003D",
-        "007_KAED004A",
-        "007_KAED004B",
-        "007_KAED004C",
-        "007_KAED004D",
-        "008_TUBA007A",
-        "008_TUBA007AB",
-        "008_TUBA007B",
-        "008_TUBA008A",
-        "008_TUBA008B",
-        "008_TUBA008C",
-        "008_TUBA009A",
-        "008_TUBA009B"
-      ]
-    },
-    {
-      "id": "tuba_climax",
-      "kind": "arc",
-      "character": "tuba",
-      "title": "翼ルート・終盤",
-      "icon": "翼",
-      "description": "翼ルート終盤の連続調教。SMAIN_SUBT 挿話を挟みつつクライマックスへ。",
-      "pos": {
-        "x": 2840,
-        "y": 1060
-      },
-      "scenes": [
-        "006_TUBA010B",
-        "006_TUBA010BC",
-        "006_TUBA010C",
-        "006_TUBA010D",
-        "006_TUBA010E",
-        "011_SUBT003A",
-        "006_TUBA011A",
-        "006_TUBA011B",
-        "006_TUBA011C",
-        "011_SUBT004A",
-        "006_TUBA012A",
-        "006_TUBA012B",
-        "006_TUBA012BC",
-        "006_TUBA012C",
-        "006_TUBA012D",
-        "006_TUBA013A",
-        "006_TUBA013B",
-        "006_TUBA013C",
-        "006_TUBA013D",
-        "006_TUBA013E",
-        "006_TUBA013F",
-        "006_TUBA013G",
-        "006_TUBA014A",
-        "006_TUBA014B",
-        "006_TUBA014C",
-        "006_TUBA014D",
-        "006_TUBA015A",
-        "006_TUBA015B",
-        "006_TUBA015C",
-        "006_TUBA016A",
-        "006_TUBA016B",
-        "006_TUBA016C",
-        "006_TUBA017A",
-        "006_TUBA017B",
-        "006_TUBA018A",
-        "006_TUBA018B"
-      ]
-    },
-    {
-      "id": "tuba_end",
-      "kind": "end",
-      "character": "end",
-      "title": "翼 TRUE END",
-      "icon": "★",
-      "description": "TRUE_END。翼（＋母・楓）を完全に手に入れる真ルート結末。",
-      "pos": {
-        "x": 3390,
-        "y": 1060
-      },
-      "scenes": []
-    },
-    {
-      "id": "mako_route",
-      "kind": "arc",
-      "character": "mako",
-      "title": "真琴ルート・本編",
-      "icon": "真",
-      "description": "真琴に踏み込んだ場合の本ルート（SMAIN_MAKO01）。望月真琴を堕とす長編パート。",
-      "pos": {
-        "x": 2280,
-        "y": 1400
-      },
-      "scenes": [
-        "005_MAKO003A",
-        "005_MAKO003B",
-        "005_MAKO003C",
-        "005_MAKO004A",
-        "005_MAKO004B",
-        "005_MAKO004C",
-        "005_MAKO004D",
-        "005_MAKO004E",
-        "005_MAKO004F",
-        "005_MAKO013A",
-        "005_MAKO013B",
-        "005_MAKO013C",
-        "005_MAKO014A",
-        "005_MAKO014B",
-        "005_MAKO015A",
-        "005_MAKO015B",
-        "005_MAKO016A",
-        "005_MAKO005A",
-        "005_MAKO005B",
-        "005_MAKO005BC",
-        "005_MAKO005C",
-        "005_MAKO005D",
-        "005_MAKO005E",
-        "005_MAKO005F"
-      ]
-    },
-    {
-      "id": "mako_climax",
-      "kind": "arc",
-      "character": "mako",
-      "title": "真琴ルート・終盤",
-      "icon": "真",
-      "description": "真琴ルート終盤。連続調教からクライマックスへ。",
-      "pos": {
-        "x": 2840,
-        "y": 1400
-      },
-      "scenes": [
-        "005_MAKO006A",
-        "005_MAKO006B",
-        "005_MAKO006BD",
-        "005_MAKO006C",
-        "005_MAKO006D",
-        "005_MAKO007A",
-        "005_MAKO007B",
-        "005_MAKO008A",
-        "005_MAKO008B",
-        "005_MAKO009A",
-        "009_MAKO010A",
-        "009_MAKO010AB",
-        "009_MAKO010B",
-        "005_MAKO011A",
-        "005_MAKO011AB",
-        "005_MAKO011B",
-        "005_MAKO012A",
-        "005_MAKO012AB",
-        "005_MAKO012B"
-      ]
-    },
-    {
-      "id": "mako_end",
-      "kind": "end",
-      "character": "end",
-      "title": "真琴 END",
-      "icon": "★",
-      "description": "望月真琴との結末。",
-      "pos": {
-        "x": 3390,
-        "y": 1400
-      },
-      "scenes": []
-    },
-    {
-      "id": "tubamako",
-      "kind": "arc",
-      "character": "kaede",
-      "title": "翼＆真琴ルート（合流）",
-      "icon": "双",
-      "description": "翼・真琴の両方に踏み込んだ最上位ハーレム（SMAIN_TUBAMAKO01〜06）。楠木家を出て真琴と合流、二人＋母を束ねる。",
-      "pos": {
-        "x": 2280,
-        "y": 1680
-      },
-      "scenes": [
-        "012_SUBTM001A",
-        "012_SUBTM002A",
-        "012_SUBTM004A",
-        "012_SUBTM005A",
-        "012_SUBTM006A",
-        "012_SUBTM007A",
-        "012_SUBTM007B",
-        "012_SUBTM007C",
-        "012_SUBTM008A",
-        "006_TUBA019A",
-        "006_TUBA019B",
-        "006_TUBA019C",
-        "006_TUBA019D",
-        "006_TUBA020A"
-      ]
-    },
-    {
-      "id": "tubamako_end",
-      "kind": "end",
-      "character": "end",
-      "title": "グランドハーレム END",
-      "icon": "☆",
-      "description": "STAFF_ROLL。翼・真琴（・楓）を束ねる最終ハーレム結末＝事実上のグランドフィナーレ。",
-      "pos": {
-        "x": 3390,
-        "y": 1680
-      },
-      "scenes": []
-    },
-    {
-      "id": "nuke",
-      "kind": "omake",
-      "character": "omake",
-      "title": "おまけ（抜きシーン）",
-      "icon": "＋",
-      "description": "本編フロー外の短編Hシーン集（回想／おまけメニューから再生）。SMAIN本流には含まれない。",
-      "pos": {
-        "x": 300,
-        "y": 1500
-      },
-      "scenes": [
-        "009_NUKE001",
-        "009_NUKE002",
-        "009_NUKE003",
-        "009_NUKE004",
-        "009_NUKE005",
-        "009_NUKE006"
-      ]
     }
   ],
   "edges": [
     {
+      "source": "001_PRO001A",
+      "target": "SMAIN_MIX01",
+      "character": "common"
+    },
+    {
+      "source": "002_AYAN005A",
+      "target": "SMAIN_SISTER02",
+      "character": "suzu"
+    },
+    {
+      "source": "002_AYAN007A",
+      "target": "SMAIN_AYAN01",
+      "character": "ayan"
+    },
+    {
+      "source": "002_AYAN009A",
+      "target": "SMAIN_AYAN02",
+      "character": "ayan"
+    },
+    {
+      "source": "002_AYAN010B",
+      "target": "NORMAL_END",
+      "character": "ayan"
+    },
+    {
+      "source": "002_AYAN010C",
+      "target": "NORMAL_END",
+      "character": "ayan"
+    },
+    {
+      "source": "003_SUZU006A",
+      "target": "NORMAL_END",
+      "character": "suzu"
+    },
+    {
+      "source": "004_FUTA001A",
+      "target": "SMAIN_SISTER04",
+      "character": "suzu"
+    },
+    {
+      "source": "004_FUTA003D",
+      "target": "NORMAL_END",
+      "character": "suzu"
+    },
+    {
+      "source": "005_MAKO001B",
+      "target": "SMAIN_MIX03",
+      "character": "mako",
+      "condition": {
+        "flags": [
+          "SEL_48"
+        ]
+      }
+    },
+    {
+      "source": "005_MAKO001E",
+      "target": "SMAIN_SISTER01",
+      "character": "ayan"
+    },
+    {
+      "source": "005_MAKO002A",
+      "target": "SMAIN_MIX04",
+      "character": "mako"
+    },
+    {
+      "source": "005_MAKO003A",
+      "target": "005_MAKO003C",
+      "character": "mako"
+    },
+    {
+      "source": "005_MAKO003A",
+      "target": "SMAIN_TUBAMAKO05",
+      "character": "mako"
+    },
+    {
+      "source": "005_MAKO003C",
+      "target": "005_MAKO004A",
+      "character": "mako"
+    },
+    {
+      "source": "005_MAKO003C",
+      "target": "012_SUBTM002A",
+      "character": "mako"
+    },
+    {
+      "source": "005_MAKO003C",
+      "target": "012_SUBTM006A",
+      "character": "mako"
+    },
+    {
+      "source": "005_MAKO004A",
+      "target": "005_MAKO013B",
+      "character": "mako"
+    },
+    {
+      "source": "005_MAKO005A",
+      "target": "NORMAL_END",
+      "character": "mako"
+    },
+    {
+      "source": "005_MAKO005F",
+      "target": "NORMAL_END",
+      "character": "mako"
+    },
+    {
+      "source": "005_MAKO013B",
+      "target": "005_MAKO013C",
+      "character": "mako"
+    },
+    {
+      "source": "005_MAKO013B",
+      "target": "SMAIN_TUBAMAKO05",
+      "character": "mako"
+    },
+    {
+      "source": "005_MAKO013C",
+      "target": "NORMAL_END",
+      "character": "mako"
+    },
+    {
+      "source": "006_TUBA001C",
+      "target": "SMAIN_MIX02",
+      "character": "tuba"
+    },
+    {
+      "source": "006_TUBA001D",
+      "target": "SMAIN_MIX03",
+      "character": "ayan",
+      "condition": {
+        "flags": [
+          "SEL_47"
+        ]
+      }
+    },
+    {
+      "source": "006_TUBA002A",
+      "target": "SMAIN_TUBA03",
+      "character": "tuba"
+    },
+    {
+      "source": "006_TUBA002D",
+      "target": "SMAIN_TUBA03",
+      "character": "tuba"
+    },
+    {
+      "source": "006_TUBA002F",
+      "target": "SMAIN_MIX02",
+      "character": "tuba"
+    },
+    {
+      "source": "006_TUBA003A",
+      "target": "006_TUBA003C",
+      "character": "tuba"
+    },
+    {
+      "source": "006_TUBA003A",
+      "target": "006_TUBA010B",
+      "character": "tuba"
+    },
+    {
+      "source": "006_TUBA003C",
+      "target": "006_TUBA003F",
+      "character": "tuba"
+    },
+    {
+      "source": "006_TUBA003C",
+      "target": "012_SUBTM001A",
+      "character": "tuba"
+    },
+    {
+      "source": "006_TUBA003F",
+      "target": "006_TUBA004A",
+      "character": "tuba"
+    },
+    {
+      "source": "006_TUBA003F",
+      "target": "SMAIN_TUBAMAKO06",
+      "character": "tuba"
+    },
+    {
+      "source": "006_TUBA004A",
+      "target": "008_TUBA007A",
+      "character": "tuba"
+    },
+    {
+      "source": "006_TUBA004A",
+      "target": "012_SUBTM004A",
+      "character": "tuba"
+    },
+    {
+      "source": "006_TUBA010B",
+      "target": "011_SUBT003A",
+      "character": "tuba"
+    },
+    {
+      "source": "006_TUBA011A",
+      "target": "006_TUBA011C",
+      "character": "tuba"
+    },
+    {
+      "source": "006_TUBA011A",
+      "target": "012_SUBTM007A",
+      "character": "tuba"
+    },
+    {
+      "source": "006_TUBA011C",
+      "target": "006_TUBA012A",
+      "character": "tuba"
+    },
+    {
+      "source": "006_TUBA012A",
+      "target": "006_TUBA014B",
+      "character": "tuba"
+    },
+    {
+      "source": "006_TUBA012A",
+      "target": "012_SUBTM008A",
+      "character": "tuba"
+    },
+    {
+      "source": "006_TUBA014B",
+      "target": "006_TUBA015A",
+      "character": "tuba"
+    },
+    {
+      "source": "006_TUBA014B",
+      "target": "006_TUBA019A",
+      "character": "tuba"
+    },
+    {
+      "source": "006_TUBA015A",
+      "target": "NORMAL_END",
+      "character": "tuba"
+    },
+    {
+      "source": "006_TUBA018A",
+      "target": "TRUE_END",
+      "character": "tuba"
+    },
+    {
+      "source": "006_TUBA019A",
+      "target": "NORMAL_END",
+      "character": "tuba"
+    },
+    {
+      "source": "008_TUBA007A",
+      "target": "NORMAL_END",
+      "character": "tuba"
+    },
+    {
+      "source": "011_SUBT003A",
+      "target": "006_TUBA011A",
+      "character": "tuba"
+    },
+    {
+      "source": "011_SUBT003A",
+      "target": "SMAIN_TUBAMAKO03",
+      "character": "tuba"
+    },
+    {
+      "source": "012_SUBTM001A",
+      "target": "005_MAKO003A",
+      "character": "tuba"
+    },
+    {
+      "source": "012_SUBTM002A",
+      "target": "SMAIN_TUBAMAKO06",
+      "character": "tuba"
+    },
+    {
+      "source": "012_SUBTM004A",
+      "target": "NORMAL_END",
+      "character": "tuba"
+    },
+    {
+      "source": "012_SUBTM005A",
+      "target": "005_MAKO003A",
+      "character": "tuba"
+    },
+    {
+      "source": "012_SUBTM006A",
+      "target": "SMAIN_TUBAMAKO03",
+      "character": "tuba"
+    },
+    {
+      "source": "012_SUBTM007A",
+      "target": "SMAIN_TUBAMAKO04",
+      "character": "tuba"
+    },
+    {
+      "source": "012_SUBTM007B",
+      "target": "005_MAKO013B",
+      "character": "tuba"
+    },
+    {
+      "source": "012_SUBTM007C",
+      "target": "006_TUBA012A",
+      "character": "tuba"
+    },
+    {
+      "source": "012_SUBTM008A",
+      "target": "006_TUBA014B",
+      "character": "tuba"
+    },
+    {
+      "source": "SMAIN_AYAN01",
+      "target": "SMAIN_SUZU01"
+    },
+    {
+      "source": "SMAIN_AYAN02",
+      "target": "SMAIN_AYAN03"
+    },
+    {
+      "source": "SMAIN_AYAN03",
+      "target": "002_AYAN010B"
+    },
+    {
+      "source": "SMAIN_AYAN03",
+      "target": "002_AYAN010C"
+    },
+    {
+      "source": "SMAIN_MAKO01",
+      "target": "005_MAKO005A"
+    },
+    {
+      "source": "SMAIN_MAKO01",
+      "target": "005_MAKO005F"
+    },
+    {
+      "source": "SMAIN_MAKO01",
+      "target": "SMAIN_TUBAMAKO01"
+    },
+    {
+      "source": "SMAIN_MIX01",
+      "target": "006_TUBA001C"
+    },
+    {
+      "source": "SMAIN_MIX02",
+      "target": "006_TUBA001D"
+    },
+    {
+      "source": "SMAIN_MIX02",
+      "target": "006_TUBA002A"
+    },
+    {
+      "source": "SMAIN_MIX03",
+      "target": "005_MAKO001B"
+    },
+    {
+      "source": "SMAIN_MIX03",
+      "target": "005_MAKO002A"
+    },
+    {
+      "source": "SMAIN_MIX04",
+      "target": "005_MAKO001E"
+    },
+    {
+      "source": "SMAIN_SISTER01",
+      "target": "SMAIN_TUBA01"
+    },
+    {
+      "source": "SMAIN_SISTER02",
+      "target": "SMAIN_SISTER03"
+    },
+    {
+      "source": "SMAIN_SISTER03",
+      "target": "002_AYAN007A"
+    },
+    {
+      "source": "SMAIN_SISTER04",
+      "target": "004_FUTA003D"
+    },
+    {
+      "source": "SMAIN_SUZU01",
+      "target": "002_AYAN009A"
+    },
+    {
+      "source": "SMAIN_SUZU01",
+      "target": "003_SUZU006A"
+    },
+    {
+      "source": "SMAIN_SUZU01",
+      "target": "004_FUTA001A"
+    },
+    {
+      "source": "SMAIN_TUBA01",
+      "target": "SMAIN_TUBA02"
+    },
+    {
+      "source": "SMAIN_TUBA02",
+      "target": "006_TUBA003A"
+    },
+    {
+      "source": "SMAIN_TUBA02",
+      "target": "006_TUBA018A"
+    },
+    {
+      "source": "SMAIN_TUBA02",
+      "target": "SMAIN_MAKO01"
+    },
+    {
+      "source": "SMAIN_TUBA03",
+      "target": "006_TUBA002D"
+    },
+    {
+      "source": "SMAIN_TUBA03",
+      "target": "006_TUBA002F"
+    },
+    {
+      "source": "SMAIN_TUBAMAKO01",
+      "target": "SMAIN_TUBAMAKO02"
+    },
+    {
+      "source": "SMAIN_TUBAMAKO02",
+      "target": "002_AYAN005A"
+    },
+    {
+      "source": "SMAIN_TUBAMAKO03",
+      "target": "006_TUBA011A"
+    },
+    {
+      "source": "SMAIN_TUBAMAKO03",
+      "target": "011_SUBT003A"
+    },
+    {
+      "source": "SMAIN_TUBAMAKO03",
+      "target": "012_SUBTM005A"
+    },
+    {
+      "source": "SMAIN_TUBAMAKO04",
+      "target": "005_MAKO003A"
+    },
+    {
+      "source": "SMAIN_TUBAMAKO05",
+      "target": "012_SUBTM007B"
+    },
+    {
+      "source": "SMAIN_TUBAMAKO05",
+      "target": "012_SUBTM007C"
+    },
+    {
+      "source": "SMAIN_TUBAMAKO06",
+      "target": "006_TUBA003F"
+    },
+    {
+      "source": "SMAIN_TUBAMAKO06",
+      "target": "006_TUBA004A"
+    },
+    {
+      "source": "TRUE_END",
+      "target": "STAFF_ROLL"
+    },
+    {
       "source": "start",
-      "target": "prologue"
-    },
-    {
-      "source": "prologue",
-      "target": "ayan1"
-    },
-    {
-      "source": "ayan1",
-      "target": "tuba_contact"
-    },
-    {
-      "source": "tuba_contact",
-      "target": "tuba_firstH",
-      "label": "踏み込む / 沉溺",
-      "character": "tuba"
-    },
-    {
-      "source": "tuba_firstH",
-      "target": "ayan2",
-      "character": "tuba"
-    },
-    {
-      "source": "tuba_contact",
-      "target": "ayan2",
-      "label": "撤退 / 懊悔",
+      "target": "001_PRO001A",
       "character": "common"
-    },
-    {
-      "source": "ayan2",
-      "target": "mako_contact"
-    },
-    {
-      "source": "mako_contact",
-      "target": "mako_firstH",
-      "label": "踏み込む / 沉溺",
-      "character": "mako"
-    },
-    {
-      "source": "mako_firstH",
-      "target": "ayan3",
-      "character": "mako"
-    },
-    {
-      "source": "mako_contact",
-      "target": "ayan3",
-      "label": "撤退 / 愤怒･后悔",
-      "character": "common"
-    },
-    {
-      "source": "ayan3",
-      "target": "hub"
-    },
-    {
-      "source": "hub",
-      "target": "sister_life",
-      "label": "両方撤退 → 姉妹",
-      "character": "ayan"
-    },
-    {
-      "source": "hub",
-      "target": "tuba_route",
-      "label": "翼のみ堕とす",
-      "character": "tuba"
-    },
-    {
-      "source": "hub",
-      "target": "mako_route",
-      "label": "真琴のみ堕とす",
-      "character": "mako"
-    },
-    {
-      "source": "hub",
-      "target": "tubamako",
-      "label": "翼＆真琴 両方",
-      "character": "kaede"
-    },
-    {
-      "source": "sister_life",
-      "target": "sister_choose"
-    },
-    {
-      "source": "sister_choose",
-      "target": "ayan_route",
-      "label": "綾菜を選ぶ",
-      "character": "ayan"
-    },
-    {
-      "source": "sister_choose",
-      "target": "suzu_route",
-      "label": "涼菜を選ぶ",
-      "character": "suzu"
-    },
-    {
-      "source": "sister_choose",
-      "target": "futa_route",
-      "label": "二人とも",
-      "character": "suzu"
-    },
-    {
-      "source": "ayan_route",
-      "target": "ayan010"
-    },
-    {
-      "source": "ayan010",
-      "target": "ayan_end1",
-      "label": "关键词を告げる",
-      "character": "end"
-    },
-    {
-      "source": "ayan010",
-      "target": "ayan_end2",
-      "label": "拼命に請う",
-      "character": "end"
-    },
-    {
-      "source": "suzu_route",
-      "target": "suzu_end"
-    },
-    {
-      "source": "futa_route",
-      "target": "futa_end"
-    },
-    {
-      "source": "tuba_route",
-      "target": "kaede",
-      "label": "母・楓も催眠",
-      "character": "kaede"
-    },
-    {
-      "source": "kaede",
-      "target": "tuba_climax",
-      "character": "tuba"
-    },
-    {
-      "source": "tuba_route",
-      "target": "tuba_climax",
-      "character": "tuba"
-    },
-    {
-      "source": "tuba_climax",
-      "target": "tuba_end"
-    },
-    {
-      "source": "mako_route",
-      "target": "mako_climax"
-    },
-    {
-      "source": "mako_climax",
-      "target": "mako_end"
-    },
-    {
-      "source": "tubamako",
-      "target": "tubamako_end"
     }
   ]
 }

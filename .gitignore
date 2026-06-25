@@ -10,3 +10,5 @@ data_extract/audio/md_bgm_audio/
 original_game/
 *.med
 app/player/public/assets/
+# build-flow（二次・照合用）の出力。アプリが読むのは extract-flow 生成の flow.json のみ
+app/player/data/flow.routemap.json

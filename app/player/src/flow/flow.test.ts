@@ -5,7 +5,7 @@ import { findNodeIdByScene, toReactFlow } from './flow'
 
 const flow = Flow.parse(flowJson)
 
-describe('flow.json — 暫定ルートグラフ（build-flow 生成物）', () => {
+describe('flow.json — SMAIN 機械抽出のルートグラフ（extract-flow.py 生成物）', () => {
   it('Flow スキーマに適合し、ノード/エッジが存在', () => {
     expect(flow.nodes.length).toBeGreaterThan(0)
     expect(flow.edges.length).toBeGreaterThan(0)
@@ -24,15 +24,28 @@ describe('flow.json — 暫定ルートグラフ（build-flow 生成物）', () 
     expect(new Set(ids).size).toBe(ids.length)
   })
 
-  it('scenes に擬似エントリ（→… / _…）が混入しない', () => {
-    for (const n of flow.nodes)
-      for (const s of n.scenes) expect(s.startsWith('→') || s.startsWith('_')).toBe(false)
+  it('scenes に擬似エントリ（→… / _… / hub名）が混入しない（実シーンコードのみ）', () => {
+    for (const n of flow.nodes) for (const s of n.scenes) expect(/^\d{3}_[A-Z]/.test(s)).toBe(true)
+  })
+
+  it('開始/分岐/終端ノードが揃う（start 1・branch 複数・end 複数）', () => {
+    const byKind = (k: string) => flow.nodes.filter((n) => n.kind === k)
+    expect(byKind('start')).toHaveLength(1)
+    expect(byKind('branch').length).toBeGreaterThan(0)
+    expect(byKind('end').length).toBeGreaterThan(0)
+    // 終端 hub は SMAIN の NORMAL_END / TRUE_END に対応
+    const endIds = new Set(byKind('end').map((n) => n.id))
+    expect(endIds.has('NORMAL_END')).toBe(true)
+    expect(endIds.has('TRUE_END')).toBe(true)
   })
 })
 
 describe('findNodeIdByScene — 連動ハイライトの所有者特定', () => {
-  it('002_AYAN001A は ayan1 ノードに属する（受入）', () => {
-    expect(findNodeIdByScene(flow, '002_AYAN001A')).toBe('ayan1')
+  it('002_AYAN001A は実在ノードに属し、その scenes に含まれる（受入）', () => {
+    const id = findNodeIdByScene(flow, '002_AYAN001A')
+    expect(id).not.toBeNull()
+    const owner = flow.nodes.find((n) => n.id === id)
+    expect(owner?.scenes).toContain('002_AYAN001A')
   })
 
   it('未知コードは null', () => {
@@ -46,7 +59,8 @@ describe('toReactFlow — React Flow 形状への写像', () => {
   it('ノード数が一致し position/label を持つ', () => {
     expect(rf.nodes.length).toBe(flow.nodes.length)
     const start = rf.nodes.find((n) => n.id === 'start')
-    expect(start?.position).toEqual({ x: 40, y: 858 })
+    expect(start).toBeDefined()
+    expect(start?.position).toBeDefined()
     expect(start?.data.label).toContain('スタート')
   })
 
@@ -55,8 +69,8 @@ describe('toReactFlow — React Flow 形状への写像', () => {
     expect(new Set(ids).size).toBe(ids.length)
   })
 
-  it('ラベル付きエッジが label を持つ（hub → sister_life）', () => {
-    const e = rf.edges.find((x) => x.source === 'hub' && x.target === 'sister_life')
-    expect(e?.label).toBe('両方撤退 → 姉妹')
+  it('SMAIN の hub 合流が分岐ノードへ向かうエッジとして存在', () => {
+    const toHub = rf.edges.filter((e) => e.target.startsWith('SMAIN_'))
+    expect(toHub.length).toBeGreaterThan(0)
   })
 })
