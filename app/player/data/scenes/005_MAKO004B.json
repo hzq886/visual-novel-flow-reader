@@ -41,7 +41,7 @@
       "who": "望月　真琴",
       "voice": {
         "id": "MAKO_005_MAKO004B_001",
-        "file": null
+        "file": "voice/mako_005_mako004B_001.ogg"
       },
       "lines": [
         "「はい、言われた通りしましたっ……ううっ……」"
@@ -117,7 +117,7 @@
       "who": "望月　真琴",
       "voice": {
         "id": "MAKO_005_MAKO004B_002",
-        "file": null
+        "file": "voice/mako_005_mako004B_002.ogg"
       },
       "lines": [
         "「仕事に行っていることくらい、分かるでしょう？",

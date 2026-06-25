@@ -71,7 +71,7 @@
       "who": "楠木　翼",
       "voice": {
         "id": "TUBA_006_TUBA011C_001",
-        "file": null
+        "file": "voice/tuba_006_tuba011C_001.ogg"
       },
       "lines": [
         "「あっ、うん……そ、そうだねっ……んんっ」"
@@ -116,7 +116,7 @@
       "who": "楠木　翼",
       "voice": {
         "id": "TUBA_006_TUBA011C_002",
-        "file": null
+        "file": "voice/tuba_006_tuba011C_002.ogg"
       },
       "lines": [
         "「はぁっ……んっ、な、なんか……ふぁぁ……」"

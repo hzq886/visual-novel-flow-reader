@@ -16,7 +16,7 @@
       "who": "楠木　翼",
       "voice": {
         "id": "TUBA_006_TUBA013G_001",
-        "file": null
+        "file": "voice/tuba_006_tuba013G_001.ogg"
       },
       "lines": [
         "「お母さん……カズ、そろそろ帰るけど……」"
@@ -100,7 +100,7 @@
       "who": "楠木　翼",
       "voice": {
         "id": "TUBA_006_TUBA013G_002",
-        "file": null
+        "file": "voice/tuba_006_tuba013G_002.ogg"
       },
       "lines": [
         "「ふぇっ！？　うそっ、わ、分かっちゃったの！？」"
@@ -184,7 +184,7 @@
       "who": "楠木　翼",
       "voice": {
         "id": "TUBA_006_TUBA013G_003",
-        "file": null
+        "file": "voice/tuba_006_tuba013G_003.ogg"
       },
       "lines": [
         "「う、うん……セックス……すごかった……」"

@@ -20,7 +20,7 @@
       "who": "古橋　綾菜",
       "voice": {
         "id": "AYAN_002_AYAN005A_001",
-        "file": null
+        "file": "voice/ayan_002_ayan005A_001.ogg"
       },
       "lines": [
         "「終わったら、お風呂に入ってね」"
@@ -84,7 +84,7 @@
       "who": "古橋　綾菜",
       "voice": {
         "id": "AYAN_002_AYAN005A_002",
-        "file": null
+        "file": "voice/ayan_002_ayan005A_002.ogg"
       },
       "lines": [
         "「あっ、和くん……えっと……」"
@@ -147,7 +147,7 @@
       "who": "古橋　綾菜",
       "voice": {
         "id": "AYAN_002_AYAN005A_003",
-        "file": null
+        "file": "voice/ayan_002_ayan005A_003.ogg"
       },
       "lines": [
         "「ううん、なんでもないわ……ちゃんと洗って、",

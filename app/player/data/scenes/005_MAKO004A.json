@@ -66,7 +66,7 @@
       "who": "望月　真琴",
       "voice": {
         "id": "MAKO_005_MAKO004A_001",
-        "file": null
+        "file": "voice/mako_005_mako004A_001.ogg"
       },
       "lines": [
         "「私の家に！？　い、嫌よっ、だいたい、そんなの、",
@@ -150,7 +150,7 @@
       "who": "望月　真琴",
       "voice": {
         "id": "MAKO_005_MAKO004A_002",
-        "file": null
+        "file": "voice/mako_005_mako004A_002.ogg"
       },
       "lines": [
         "「ううっ……見つかってくれたほうが、私の状況を",
@@ -237,7 +237,7 @@
       "who": "望月　真琴",
       "voice": {
         "id": "MAKO_005_MAKO004A_003",
-        "file": null
+        "file": "voice/mako_005_mako004A_003.ogg"
       },
       "lines": [
         "「ま、まさかっ……もしかして、ママにまで……」"

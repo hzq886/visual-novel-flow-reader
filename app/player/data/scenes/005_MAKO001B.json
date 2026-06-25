@@ -23,7 +23,7 @@
       "who": "望月　真琴",
       "voice": {
         "id": "MAKO_005_MAKO001B_001",
-        "file": null
+        "file": "voice/mako_005_mako001B_001.ogg"
       },
       "lines": [
         "「からだ……いうとおりに、うごきます……」"
@@ -42,7 +42,7 @@
       "who": "望月　真琴",
       "voice": {
         "id": "MAKO_005_MAKO001B_002",
-        "file": null
+        "file": "voice/mako_005_mako001B_002.ogg"
       },
       "lines": [
         "「どんなに、いやなことでも……にげることは……」"
@@ -60,7 +60,7 @@
       "who": "望月　真琴",
       "voice": {
         "id": "MAKO_005_MAKO001B_003",
-        "file": null
+        "file": "voice/mako_005_mako001B_003.ogg"
       },
       "lines": [
         "「おおごえ……たすけを、よぶ……できません……」"
@@ -101,7 +101,7 @@
       "who": "望月　真琴",
       "voice": {
         "id": "MAKO_005_MAKO001B_004",
-        "file": null
+        "file": "voice/mako_005_mako001B_004.ogg"
       },
       "lines": [
         "「えっと……あれ？　私、いま、どうなって……」"
@@ -154,7 +154,7 @@
       "who": "望月　真琴",
       "voice": {
         "id": "MAKO_005_MAKO001B_005",
-        "file": null
+        "file": "voice/mako_005_mako001B_005.ogg"
       },
       "lines": [
         "「えっ……ええっ！？　ど、どうして、それを",
@@ -222,7 +222,7 @@
       "who": "望月　真琴",
       "voice": {
         "id": "MAKO_005_MAKO001B_006",
-        "file": null
+        "file": "voice/mako_005_mako001B_006.ogg"
       },
       "lines": [
         "「い、いまの集中力のゲームって、あれがまさか、",
@@ -275,7 +275,7 @@
       "who": "望月　真琴",
       "voice": {
         "id": "MAKO_005_MAKO001B_007",
-        "file": null
+        "file": "voice/mako_005_mako001B_007.ogg"
       },
       "lines": [
         "「翼にも！？　そ、唆したって、私はアドバイスを",
@@ -313,7 +313,7 @@
       "who": "望月　真琴",
       "voice": {
         "id": "MAKO_005_MAKO001B_008",
-        "file": null
+        "file": "voice/mako_005_mako001B_008.ogg"
       },
       "lines": [
         "「ぜ、ぜんぶって……なにを……」"
@@ -368,7 +368,7 @@
       "who": "望月　真琴",
       "voice": {
         "id": "MAKO_005_MAKO001B_009",
-        "file": null
+        "file": "voice/mako_005_mako001B_009.ogg"
       },
       "lines": [
         "「そんなことを、私から訊き出したっていうの！？",
@@ -409,7 +409,7 @@
       "who": "望月　真琴",
       "voice": {
         "id": "MAKO_005_MAKO001B_010",
-        "file": null
+        "file": "voice/mako_005_mako001B_010.ogg"
       },
       "lines": [
         "「翼にも催眠術をかけたって……どうせ、いやらしい",
@@ -461,7 +461,7 @@
       "who": "望月　真琴",
       "voice": {
         "id": "MAKO_005_MAKO001B_011",
-        "file": null
+        "file": "voice/mako_005_mako001B_011.ogg"
       },
       "lines": [
         "「あっ、やっぱり！　彼女に何かしたのね！？」"
@@ -514,7 +514,7 @@
       "who": "望月　真琴",
       "voice": {
         "id": "MAKO_005_MAKO001B_012",
-        "file": null
+        "file": "voice/mako_005_mako001B_012.ogg"
       },
       "lines": [
         "「私は、あなたみたいに、いやらしいコトなんか",
@@ -567,7 +567,7 @@
       "who": "望月　真琴",
       "voice": {
         "id": "MAKO_005_MAKO001B_013",
-        "file": null
+        "file": "voice/mako_005_mako001B_013.ogg"
       },
       "lines": [
         "「その翼のプライバシーを侵害したのは誰よっ！",
@@ -604,7 +604,7 @@
       "who": "望月　真琴",
       "voice": {
         "id": "MAKO_005_MAKO001B_014",
-        "file": null
+        "file": "voice/mako_005_mako001B_014.ogg"
       },
       "lines": [
         "「あーやだやだ！　男っていうのは、これだから！」"
@@ -659,7 +659,7 @@
       "who": "望月　真琴",
       "voice": {
         "id": "MAKO_005_MAKO001B_015",
-        "file": null
+        "file": "voice/mako_005_mako001B_015.ogg"
       },
       "lines": [
         "「このことを知ったら、翼だって幻滅するわよね。",
@@ -712,7 +712,7 @@
       "who": "望月　真琴",
       "voice": {
         "id": "MAKO_005_MAKO001B_016",
-        "file": null
+        "file": "voice/mako_005_mako001B_016.ogg"
       },
       "lines": [
         "「はうっ……あっ、あぁ……はぁぁっ……」"
@@ -765,7 +765,7 @@
       "who": "望月　真琴",
       "voice": {
         "id": "MAKO_005_MAKO001B_017",
-        "file": null
+        "file": "voice/mako_005_mako001B_017.ogg"
       },
       "lines": [
         "「はい……しつもん……なんでも、こたえて……」"

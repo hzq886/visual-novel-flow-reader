@@ -21,7 +21,7 @@
       "who": "楠木　翼",
       "voice": {
         "id": "TUBA_001_PRO001H_001",
-        "file": null
+        "file": "voice/tuba_001_pro001H_001.ogg"
       },
       "lines": [
         "「ボクたちとあそびたいっていう、まことちゃんの",
@@ -67,7 +67,7 @@
       "who": "望月　早紀",
       "voice": {
         "id": "SAKI_001_PRO001H_001",
-        "file": null
+        "file": "voice/saki_001_pro001H_001.ogg"
       },
       "lines": [
         "「真琴が、あなたたちと遊びたいですって？",
@@ -114,7 +114,7 @@
       "who": "楠木　翼",
       "voice": {
         "id": "TUBA_001_PRO001H_002",
-        "file": null
+        "file": "voice/tuba_001_pro001H_002.ogg"
       },
       "lines": [
         "「でも、ならいごととか、じゅくとか、ちょっと",
@@ -139,7 +139,7 @@
       "who": "望月　早紀",
       "voice": {
         "id": "SAKI_001_PRO001H_002",
-        "file": null
+        "file": "voice/saki_001_pro001H_002.ogg"
       },
       "lines": [
         "「知っているかは分からないけれど、ウチは私と",
@@ -187,7 +187,7 @@
       "who": "望月　早紀",
       "voice": {
         "id": "SAKI_001_PRO001H_003",
-        "file": null
+        "file": "voice/saki_001_pro001H_003.ogg"
       },
       "lines": [
         "「だから私は、母親としてだけでなく、父親としても",
@@ -232,7 +232,7 @@
       "who": "望月　早紀",
       "voice": {
         "id": "SAKI_001_PRO001H_004",
-        "file": null
+        "file": "voice/saki_001_pro001H_004.ogg"
       },
       "lines": [
         "「まぁ、こんなことを言っても、子供には分からない",
@@ -299,7 +299,7 @@
       "who": "望月　早紀",
       "voice": {
         "id": "SAKI_001_PRO001H_005",
-        "file": null
+        "file": "voice/saki_001_pro001H_005.ogg"
       },
       "lines": [
         "「えっ！？　それって、ご両親が……？」"
@@ -403,7 +403,7 @@
       "who": "望月　早紀",
       "voice": {
         "id": "SAKI_001_PRO001H_006",
-        "file": null
+        "file": "voice/saki_001_pro001H_006.ogg"
       },
       "lines": [
         "「そうよ、しっかりした大人にしないといけないの」"
@@ -537,7 +537,7 @@
       "who": "望月　早紀",
       "voice": {
         "id": "SAKI_001_PRO001H_007",
-        "file": null
+        "file": "voice/saki_001_pro001H_007.ogg"
       },
       "lines": [
         "「私はっ……ただ娘を、ちゃんと育てようと……」"
@@ -583,7 +583,7 @@
       "who": "望月　早紀",
       "voice": {
         "id": "SAKI_001_PRO001H_008",
-        "file": null
+        "file": "voice/saki_001_pro001H_008.ogg"
       },
       "lines": [
         "「……真琴、怒らないから正直に答えてちょうだい。",
@@ -608,7 +608,7 @@
       "who": "望月　真琴",
       "voice": {
         "id": "MAKO_001_PRO001H_001",
-        "file": null
+        "file": "voice/mako_001_pro001H_001.ogg"
       },
       "lines": [
         "「ママのことは、だいすきですっ……だけど、いつも",
@@ -653,7 +653,7 @@
       "who": "望月　早紀",
       "voice": {
         "id": "SAKI_001_PRO001H_009",
-        "file": null
+        "file": "voice/saki_001_pro001H_009.ogg"
       },
       "lines": [
         "「分かったわ……それじゃあ、ちゃんと自分の言葉で",
@@ -678,7 +678,7 @@
       "who": "望月　真琴",
       "voice": {
         "id": "MAKO_001_PRO001H_002",
-        "file": null
+        "file": "voice/mako_001_pro001H_002.ogg"
       },
       "lines": [
         "「おべんきょうは、ちゃんとしますから、ふたりと",
@@ -723,7 +723,7 @@
       "who": "望月　真琴",
       "voice": {
         "id": "MAKO_001_PRO001H_003",
-        "file": null
+        "file": "voice/mako_001_pro001H_003.ogg"
       },
       "lines": [
         "「あと、すききらいせず、なんでもたべますから、",
@@ -777,7 +777,7 @@
       "who": "楠木　翼",
       "voice": {
         "id": "TUBA_001_PRO001H_003",
-        "file": null
+        "file": "voice/tuba_001_pro001H_003.ogg"
       },
       "lines": [
         "「さくせんどおり、うまくいったねっ！」"
@@ -840,7 +840,7 @@
       "who": "楠木　翼",
       "voice": {
         "id": "TUBA_001_PRO001H_004",
-        "file": null
+        "file": "voice/tuba_001_pro001H_004.ogg"
       },
       "lines": [
         "「カズが、こわがらずに、いろいろかんがえて、",
@@ -885,7 +885,7 @@
       "who": "望月　真琴",
       "voice": {
         "id": "MAKO_001_PRO001H_004",
-        "file": null
+        "file": "voice/mako_001_pro001H_004.ogg"
       },
       "lines": [
         "「ありがとう……かずきくん……」"

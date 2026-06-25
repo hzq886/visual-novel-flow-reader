@@ -15,7 +15,7 @@
       "who": "古橋　綾菜",
       "voice": {
         "id": "AYAN_009_NUKE005_001",
-        "file": null
+        "file": "voice/ayan_009_nuke005_001.ogg"
       },
       "lines": [
         "「あら和くん。もうお店は閉めるところだけど」"
@@ -45,7 +45,7 @@
       "who": "古橋　綾菜",
       "voice": {
         "id": "AYAN_009_NUKE005_002",
-        "file": null
+        "file": "voice/ayan_009_nuke005_002.ogg"
       },
       "lines": [
         "「頼みたいこと？　なにかしら？」"
@@ -74,7 +74,7 @@
       "who": "古橋　綾菜",
       "voice": {
         "id": "AYAN_009_NUKE005_003",
-        "file": null
+        "file": "voice/ayan_009_nuke005_003.ogg"
       },
       "lines": [
         "「ええ、あるわよ。真琴ちゃん、好きだものね。",

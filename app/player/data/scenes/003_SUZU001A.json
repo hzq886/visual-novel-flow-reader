@@ -40,7 +40,7 @@
       "who": "古橋　涼菜",
       "voice": {
         "id": "SUZU_003_SUZU001A_001",
-        "file": null
+        "file": "voice/suzu_003_suzu001A_001.ogg"
       },
       "lines": [
         "「ええ、別に構わないわよ」"
@@ -94,7 +94,7 @@
       "who": "古橋　涼菜",
       "voice": {
         "id": "SUZU_003_SUZU001A_002",
-        "file": null
+        "file": "voice/suzu_003_suzu001A_002.ogg"
       },
       "lines": [
         "「いいわよ？　なんの教科を教えて欲しいの？」"
@@ -159,7 +159,7 @@
       "who": "古橋　涼菜",
       "voice": {
         "id": "SUZU_003_SUZU001A_003",
-        "file": null
+        "file": "voice/suzu_003_suzu001A_003.ogg"
       },
       "lines": [
         "「どれどれ？　見せてちょうだい」"

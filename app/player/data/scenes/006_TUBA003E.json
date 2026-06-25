@@ -83,7 +83,7 @@
       "who": "楠木　翼",
       "voice": {
         "id": "TUBA_006_TUBA003E_001",
-        "file": null
+        "file": "voice/tuba_006_tuba003E_001.ogg"
       },
       "lines": [
         "「きゅうけい……はだかになったり、しません……」"
@@ -148,7 +148,7 @@
       "who": "楠木　翼",
       "voice": {
         "id": "TUBA_006_TUBA003E_002",
-        "file": null
+        "file": "voice/tuba_006_tuba003E_002.ogg"
       },
       "lines": [
         "「おなにーしょうぶ……ふたりだけの、ひみつ……」"

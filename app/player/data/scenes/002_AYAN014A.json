@@ -22,7 +22,7 @@
       "who": "古橋　綾菜",
       "voice": {
         "id": "AYAN_002_AYAN014A_001",
-        "file": null
+        "file": "voice/ayan_002_ayan014A_001.ogg"
       },
       "lines": [
         "「うふふっ、ほら、私たちの赤ちゃんよ。とても",
@@ -50,7 +50,7 @@
       "who": "古橋　綾菜",
       "voice": {
         "id": "AYAN_002_AYAN014A_002",
-        "file": null
+        "file": "voice/ayan_002_ayan014A_002.ogg"
       },
       "lines": [
         "「はーい、お父さんと、お母さんですよ……私たち、",
@@ -76,7 +76,7 @@
       "who": "古橋　涼菜",
       "voice": {
         "id": "SUZU_002_AYAN014A_001",
-        "file": null
+        "file": "voice/suzu_002_ayan014A_001.ogg"
       },
       "lines": [
         "「ふふっ、和樹が産まれたときのことを思い出すわ。",
@@ -184,7 +184,7 @@
       "who": "古橋　綾菜",
       "voice": {
         "id": "AYAN_002_AYAN014A_003",
-        "file": null
+        "file": "voice/ayan_002_ayan014A_003.ogg"
       },
       "lines": [
         "「そうね……二人で誓ったものね。私たちが、",
@@ -212,7 +212,7 @@
       "who": "古橋　涼菜",
       "voice": {
         "id": "SUZU_002_AYAN014A_002",
-        "file": null
+        "file": "voice/suzu_002_ayan014A_002.ogg"
       },
       "lines": [
         "「和樹もパパになったのだから、頑張りなさいね？」"
@@ -249,7 +249,7 @@
       "who": "古橋　綾菜",
       "voice": {
         "id": "AYAN_002_AYAN014A_004",
-        "file": null
+        "file": "voice/ayan_002_ayan014A_004.ogg"
       },
       "lines": [
         "「ええ、分かっているわ……私も、愛してる」"

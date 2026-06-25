@@ -251,7 +251,7 @@
       "who": "古橋　和樹",
       "voice": {
         "id": "TUBA_006_TUBA015A_001",
-        "file": null
+        "file": "voice/tuba_006_tuba015A_001.ogg"
       },
       "lines": [
         "「それにしても……もっと早く、カズと恋人同士に",
@@ -295,7 +295,7 @@
       "who": "古橋　和樹",
       "voice": {
         "id": "TUBA_006_TUBA015A_002",
-        "file": null
+        "file": "voice/tuba_006_tuba015A_002.ogg"
       },
       "lines": [
         "「子供の頃から、一緒にいるのは楽しかったけれど、",
@@ -340,7 +340,7 @@
       "who": "古橋　和樹",
       "voice": {
         "id": "TUBA_006_TUBA015A_003",
-        "file": null
+        "file": "voice/tuba_006_tuba015A_003.ogg"
       },
       "lines": [
         "「こういうのが、オンナの幸せってやつなのかな？",

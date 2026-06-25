@@ -76,7 +76,7 @@
       "who": "楠木　楓",
       "voice": {
         "id": "KAED_008_TUBA007A_001",
-        "file": null
+        "file": "voice/kaed_008_tuba007A_001.ogg"
       },
       "lines": [
         "「あら、やだっ！　どうして私、家の中で服なんて",
@@ -101,7 +101,7 @@
       "who": "楠木　翼",
       "voice": {
         "id": "TUBA_008_TUBA007A_001",
-        "file": null
+        "file": "voice/tuba_008_tuba007A_001.ogg"
       },
       "lines": [
         "「ああっ！？　ボ、ボクも着てたっ！　ごめんっ、",

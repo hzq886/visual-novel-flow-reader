@@ -130,7 +130,7 @@ async function main() {
     const head = strict ? '✗' : '⚠'
     const note = strict
       ? '（--strict: 失敗扱い）'
-      : '（既知例外: 素材未同期。HU-26 の assets:fetch で解消）'
+      : '（既知例外。assets:fetch 未実行＝同期で解消 / 実行済＝欠落素材）'
     console.error(`\n${head} voice 未解決 ${voice.length} 件${note}:`)
     for (const p of voice.slice(0, 10))
       console.error(`  ${p.scene} beat#${p.beat} voice.file  ← ${p.label}`)
@@ -150,7 +150,7 @@ async function main() {
   }
   if (voice.length > 0) {
     console.log(
-      `\n✓ validate 緑（bg/sprite/flow 解決済。voice ${voice.length} 件は素材同期待ち＝HU-26）`,
+      `\n✓ validate 緑（bg/sprite/flow 解決済。voice ${voice.length} 件未解決＝未同期 or 欠落素材。--strict で一覧）`,
     )
   } else {
     console.log('\n✓ validate 緑（未解決参照なし）')

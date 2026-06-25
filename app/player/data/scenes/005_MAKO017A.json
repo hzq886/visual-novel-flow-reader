@@ -80,7 +80,7 @@
       "who": "望月　真琴",
       "voice": {
         "id": "MAKO_005_MAKO017A_001",
-        "file": null
+        "file": "voice/mako_005_mako017A_001.ogg"
       },
       "lines": [
         "「ふーん、珍しいこともあるのね。別にいいけれど。",
@@ -147,7 +147,7 @@
       "who": "望月　真琴",
       "voice": {
         "id": "MAKO_005_MAKO017A_002",
-        "file": null
+        "file": "voice/mako_005_mako017A_002.ogg"
       },
       "lines": [
         "「仕方ないわね。それじゃあ、教えてあげますか。",

@@ -19,7 +19,7 @@
       "who": "楠木　楓",
       "voice": {
         "id": "KAED_001_PRO002B3_001",
-        "file": null
+        "file": "voice/kaed_001_pro002B3_001.ogg"
       },
       "lines": [
         "「はーい、和樹くんかしら？」"
@@ -56,7 +56,7 @@
       "who": "楠木　楓",
       "voice": {
         "id": "KAED_001_PRO002B3_002",
-        "file": null
+        "file": "voice/kaed_001_pro002B3_002.ogg"
       },
       "lines": [
         "「おはよう！　ちょっと待っててね！　すぐに翼が",
@@ -83,7 +83,7 @@
       "who": "楠木　翼",
       "voice": {
         "id": "TUBA_001_PRO002B3_001",
-        "file": null
+        "file": "voice/tuba_001_pro002B3_001.ogg"
       },
       "lines": [
         "「おはようっ！　寝グセついてないかな？」"
@@ -146,7 +146,7 @@
       "who": "楠木　楓",
       "voice": {
         "id": "KAED_001_PRO002B3_003",
-        "file": null
+        "file": "voice/kaed_001_pro002B3_003.ogg"
       },
       "lines": [
         "「翼、お弁当を忘れてるわよ！　ほら、これ！」"
@@ -170,7 +170,7 @@
       "who": "楠木　翼",
       "voice": {
         "id": "TUBA_001_PRO002B3_002",
-        "file": null
+        "file": "voice/tuba_001_pro002B3_002.ogg"
       },
       "lines": [
         "「あっ、いけない！　一番大事なものなのにー！」"
@@ -213,7 +213,7 @@
       "who": "楠木　楓",
       "voice": {
         "id": "KAED_001_PRO002B3_004",
-        "file": null
+        "file": "voice/kaed_001_pro002B3_004.ogg"
       },
       "lines": [
         "「まったく、この子は……和樹くん、翼のこと、",
@@ -284,7 +284,7 @@
       "who": "楠木　翼",
       "voice": {
         "id": "TUBA_001_PRO002B3_003",
-        "file": null
+        "file": "voice/tuba_001_pro002B3_003.ogg"
       },
       "lines": [
         "「おはよう、真琴ちゃん！」"
@@ -402,7 +402,7 @@
       "who": "楠木　翼",
       "voice": {
         "id": "TUBA_001_PRO002B3_004",
-        "file": null
+        "file": "voice/tuba_001_pro002B3_004.ogg"
       },
       "lines": [
         "「真琴ちゃん、教室に着いたら、ノート見せてね」"
@@ -447,7 +447,7 @@
       "who": "楠木　翼",
       "voice": {
         "id": "TUBA_001_PRO002B3_005",
-        "file": null
+        "file": "voice/tuba_001_pro002B3_005.ogg"
       },
       "lines": [
         "「ううっ……それじゃあ、カズに見せてもらうよ！」"
@@ -520,7 +520,7 @@
       "who": "楠木　翼",
       "voice": {
         "id": "TUBA_001_PRO002B3_006",
-        "file": null
+        "file": "voice/tuba_001_pro002B3_006.ogg"
       },
       "lines": [
         "「ボクは部活はお休みの日だよ！　ストレッチとかを",
@@ -689,7 +689,7 @@
       "who": "楠木　翼",
       "voice": {
         "id": "TUBA_001_PRO002B3_007",
-        "file": null
+        "file": "voice/tuba_001_pro002B3_007.ogg"
       },
       "lines": [
         "「生徒会のお仕事、頑張ってね、真琴ちゃん！」"

@@ -90,7 +90,7 @@
       "who": "楠木　翼",
       "voice": {
         "id": "TUBA_006_TUBA013A_001",
-        "file": null
+        "file": "voice/tuba_006_tuba013A_001.ogg"
       },
       "lines": [
         "「おっ、おはようっ……んんっ、はぁっ……はぅっ」"
@@ -155,7 +155,7 @@
       "who": "楠木　翼",
       "voice": {
         "id": "TUBA_006_TUBA013A_002",
-        "file": null
+        "file": "voice/tuba_006_tuba013A_002.ogg"
       },
       "lines": [
         "「んひゃう！？　はぁっ、あっ、くふぅぅっ……！」"
@@ -199,7 +199,7 @@
       "who": "楠木　翼",
       "voice": {
         "id": "TUBA_006_TUBA013A_003",
-        "file": null
+        "file": "voice/tuba_006_tuba013A_003.ogg"
       },
       "lines": [
         "「あっあっ！　くぅぅぅ～っ……んっ、ふぅぅっ！」"
@@ -268,7 +268,7 @@
       "who": "楠木　翼",
       "voice": {
         "id": "TUBA_006_TUBA013A_004",
-        "file": null
+        "file": "voice/tuba_006_tuba013A_004.ogg"
       },
       "lines": [
         "「う、うんっ……あるよっ……部活、あるのっ」"
@@ -331,7 +331,7 @@
       "who": "楠木　翼",
       "voice": {
         "id": "TUBA_006_TUBA013A_005",
-        "file": null
+        "file": "voice/tuba_006_tuba013A_005.ogg"
       },
       "lines": [
         "「分かったよっ……教室で、待ってて……」"

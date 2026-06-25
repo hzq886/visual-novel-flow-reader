@@ -8,7 +8,7 @@
       "who": "古橋　綾菜",
       "voice": {
         "id": "AYAN_009_NUKE001_001",
-        "file": null
+        "file": "voice/ayan_009_nuke001_001.ogg"
       },
       "lines": [
         "「ええ、いいわよ。お冷とおしぼりを持っていくわ」"
@@ -19,7 +19,7 @@
       "who": "古橋　綾菜",
       "voice": {
         "id": "AYAN_009_NUKE001_002",
-        "file": null
+        "file": "voice/ayan_009_nuke001_002.ogg"
       },
       "lines": [
         "「ケーキ代のほうは、サービスしておくわ」"
@@ -30,7 +30,7 @@
       "who": "古橋　綾菜",
       "voice": {
         "id": "AYAN_009_NUKE001_003",
-        "file": null
+        "file": "voice/ayan_009_nuke001_003.ogg"
       },
       "lines": [
         "「まぁ、私たちに家族が増えるのね！　嬉しいわ！」"
@@ -41,7 +41,7 @@
       "who": "古橋　綾菜",
       "voice": {
         "id": "AYAN_009_NUKE001_004",
-        "file": null
+        "file": "voice/ayan_009_nuke001_004.ogg"
       },
       "lines": [
         "「甥っ子かしら、姪っ子かしら？　どちらにしても、",
@@ -53,7 +53,7 @@
       "who": "古橋　涼菜",
       "voice": {
         "id": "SUZU_009_NUKE001_001",
-        "file": null
+        "file": "voice/suzu_009_nuke001_001.ogg"
       },
       "lines": [
         "「あなたが卒業して働くまでは、私が支えるから。",
@@ -65,7 +65,7 @@
       "who": "古橋　涼菜",
       "voice": {
         "id": "SUZU_009_NUKE001_002",
-        "file": null
+        "file": "voice/suzu_009_nuke001_002.ogg"
       },
       "lines": [
         "「パパになるんだから、これから頑張りなさいね。",
@@ -77,7 +77,7 @@
       "who": "古橋　綾菜",
       "voice": {
         "id": "AYAN_009_NUKE001_005",
-        "file": null
+        "file": "voice/ayan_009_nuke001_005.ogg"
       },
       "lines": [
         "「メイドさんが来てくれて、本当に助かるわ」"
@@ -88,7 +88,7 @@
       "who": "古橋　涼菜",
       "voice": {
         "id": "SUZU_009_NUKE001_003",
-        "file": null
+        "file": "voice/suzu_009_nuke001_003.ogg"
       },
       "lines": [
         "「そうね、もっと早く雇えば良かったかも」"
@@ -99,7 +99,7 @@
       "who": "古橋　涼菜",
       "voice": {
         "id": "SUZU_009_NUKE001_004",
-        "file": null
+        "file": "voice/suzu_009_nuke001_004.ogg"
       },
       "lines": [
         "「おはよう。朝食を食べて、早く行きなさい」"
@@ -110,7 +110,7 @@
       "who": "古橋　綾菜",
       "voice": {
         "id": "AYAN_009_NUKE001_006",
-        "file": null
+        "file": "voice/ayan_009_nuke001_006.ogg"
       },
       "lines": [
         "「自分の食器は、ちゃんと洗っていってね」"
@@ -121,7 +121,7 @@
       "who": "古橋　綾菜",
       "voice": {
         "id": "AYAN_009_NUKE001_007",
-        "file": null
+        "file": "voice/ayan_009_nuke001_007.ogg"
       },
       "lines": [
         "「ああ、涼ちゃん。今日は郡山さんとデートだから、",
@@ -133,7 +133,7 @@
       "who": "古橋　涼菜",
       "voice": {
         "id": "SUZU_009_NUKE001_005",
-        "file": null
+        "file": "voice/suzu_009_nuke001_005.ogg"
       },
       "lines": [
         "「あら、そうなの？　それじゃあ外で済ませるわ。",

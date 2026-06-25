@@ -32,7 +32,7 @@
       "who": "望月　早紀",
       "voice": {
         "id": "SAKI_005_MAKO004E_001",
-        "file": null
+        "file": "voice/saki_005_mako004E_001.ogg"
       },
       "lines": [
         "「ちょっと……どうしてあなたが、家にいるの！？」"
@@ -96,7 +96,7 @@
       "who": "望月　早紀",
       "voice": {
         "id": "SAKI_005_MAKO004E_002",
-        "file": null
+        "file": "voice/saki_005_mako004E_002.ogg"
       },
       "lines": [
         "「あなたを信用していないわけじゃないけれど、",
@@ -165,7 +165,7 @@
       "who": "望月　早紀",
       "voice": {
         "id": "SAKI_005_MAKO004E_003",
-        "file": null
+        "file": "voice/saki_005_mako004E_003.ogg"
       },
       "lines": [
         "「うあっ！？　あうっ、はぁぁぁぁっ……はぁっ」"
@@ -209,7 +209,7 @@
       "who": "望月　真琴",
       "voice": {
         "id": "MAKO_005_MAKO004E_001",
-        "file": null
+        "file": "voice/mako_005_mako004E_001.ogg"
       },
       "lines": [
         "「ああっ、ママ……そんな……」"
@@ -288,7 +288,7 @@
       "who": "望月　真琴",
       "voice": {
         "id": "MAKO_005_MAKO004E_002",
-        "file": null
+        "file": "voice/mako_005_mako004E_002.ogg"
       },
       "lines": [
         "「そんな……うぐっ、うっ……」"
@@ -352,7 +352,7 @@
       "who": "望月　早紀",
       "voice": {
         "id": "SAKI_005_MAKO004E_004",
-        "file": null
+        "file": "voice/saki_005_mako004E_004.ogg"
       },
       "lines": [
         "「すること……ぜったいに、はんたいしません……」"
@@ -416,7 +416,7 @@
       "who": "望月　早紀",
       "voice": {
         "id": "SAKI_005_MAKO004E_005",
-        "file": null
+        "file": "voice/saki_005_mako004E_005.ogg"
       },
       "lines": [
         "「どんなことでも……きょうりょくして……」"
@@ -500,7 +500,7 @@
       "who": "望月　早紀",
       "voice": {
         "id": "SAKI_005_MAKO004E_006",
-        "file": null
+        "file": "voice/saki_005_mako004E_006.ogg"
       },
       "lines": [
         "「あっ……えっと、なんだったかしら……」"
@@ -564,7 +564,7 @@
       "who": "望月　早紀",
       "voice": {
         "id": "SAKI_005_MAKO004E_007",
-        "file": null
+        "file": "voice/saki_005_mako004E_007.ogg"
       },
       "lines": [
         "「ビデオカメラは持っているけれど、何に使うの？」"
@@ -627,7 +627,7 @@
       "who": "望月　早紀",
       "voice": {
         "id": "SAKI_005_MAKO004E_008",
-        "file": null
+        "file": "voice/saki_005_mako004E_008.ogg"
       },
       "lines": [
         "「授業で使うのかしら？　別に構わないけれど」"
@@ -723,7 +723,7 @@
       "who": "望月　真琴",
       "voice": {
         "id": "MAKO_005_MAKO004E_003",
-        "file": null
+        "file": "voice/mako_005_mako004E_003.ogg"
       },
       "lines": [
         "「まっ、まさか、ママにまで！？　そんなのダメっ！",

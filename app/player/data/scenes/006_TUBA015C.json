@@ -19,7 +19,7 @@
       "who": "楠木　翼",
       "voice": {
         "id": "TUBA_006_TUBA015C_001",
-        "file": null
+        "file": "voice/tuba_006_tuba015C_001.ogg"
       },
       "lines": [
         "「うふふっ、恋人同士って最高だねっ！　いっぱい、",
@@ -65,7 +65,7 @@
       "who": "楠木　翼",
       "voice": {
         "id": "TUBA_006_TUBA015C_002",
-        "file": null
+        "file": "voice/tuba_006_tuba015C_002.ogg"
       },
       "lines": [
         "「このまま、ずっとずっと、恋人同士でいようね！",

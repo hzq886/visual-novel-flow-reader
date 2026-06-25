@@ -32,7 +32,7 @@
       "who": "古橋　綾菜",
       "voice": {
         "id": "AYAN_001_PRO001A_001",
-        "file": null
+        "file": "voice/ayan_001_pro001A_001.ogg"
       },
       "lines": [
         "「大丈夫よ……私たちが、いるから……」"
@@ -59,7 +59,7 @@
       "who": "古橋　涼菜",
       "voice": {
         "id": "SUZU_001_PRO001A_001",
-        "file": null
+        "file": "voice/suzu_001_pro001A_001.ogg"
       },
       "lines": [
         "「だから、三人で暮らすと言っているんです！」"
@@ -87,7 +87,7 @@
       "who": "古橋　涼菜",
       "voice": {
         "id": "SUZU_001_PRO001A_002",
-        "file": null
+        "file": "voice/suzu_001_pro001A_002.ogg"
       },
       "lines": [
         "「姉さんと、私と、和樹の三人は、絶対に離れ離れに",
@@ -115,7 +115,7 @@
       "who": "親戚の叔母さん",
       "voice": {
         "id": "MOBB_001_PRO001A_001",
-        "file": null
+        "file": "voice/mobb_001_pro001A_001.ogg"
       },
       "lines": [
         "「まったく、なにを馬鹿なことを言ってるのよ！",
@@ -140,7 +140,7 @@
       "who": "古橋　涼菜",
       "voice": {
         "id": "SUZU_001_PRO001A_003",
-        "file": null
+        "file": "voice/suzu_001_pro001A_003.ogg"
       },
       "lines": [
         "「どうして、無理だって決めつけるんです！？」"
@@ -183,7 +183,7 @@
       "who": "古橋　綾菜",
       "voice": {
         "id": "AYAN_001_PRO001A_002",
-        "file": null
+        "file": "voice/ayan_001_pro001A_002.ogg"
       },
       "lines": [
         "「あの、二人とも……あまり大きい声を出さないで」"
@@ -226,7 +226,7 @@
       "who": "親戚の叔母さん",
       "voice": {
         "id": "MOBB_001_PRO001A_002",
-        "file": null
+        "file": "voice/mobb_001_pro001A_002.ogg"
       },
       "lines": [
         "「その子を、まだ学生のあなたたちが、どうやって",
@@ -251,7 +251,7 @@
       "who": "古橋　涼菜",
       "voice": {
         "id": "SUZU_001_PRO001A_004",
-        "file": null
+        "file": "voice/suzu_001_pro001A_004.ogg"
       },
       "lines": [
         "「叔母さんは、子供いないですよね？」"
@@ -295,7 +295,7 @@
       "who": "親戚の叔母さん",
       "voice": {
         "id": "MOBB_001_PRO001A_003",
-        "file": null
+        "file": "voice/mobb_001_pro001A_003.ogg"
       },
       "lines": [
         "「ぐっ……口の減らない子ね！　お金の管理だって、",
@@ -320,7 +320,7 @@
       "who": "古橋　涼菜",
       "voice": {
         "id": "SUZU_001_PRO001A_005",
-        "file": null
+        "file": "voice/suzu_001_pro001A_005.ogg"
       },
       "lines": [
         "「ほら、結局のところ、遺産目当てなんでしょう？」"
@@ -365,7 +365,7 @@
       "who": "親戚の叔母さん",
       "voice": {
         "id": "MOBB_001_PRO001A_004",
-        "file": null
+        "file": "voice/mobb_001_pro001A_004.ogg"
       },
       "lines": [
         "「なっ、なっ、なんですってぇっ！　あんたねぇ！",
@@ -390,7 +390,7 @@
       "who": "古橋　綾菜",
       "voice": {
         "id": "AYAN_001_PRO001A_003",
-        "file": null
+        "file": "voice/ayan_001_pro001A_003.ogg"
       },
       "lines": [
         "「す、涼ちゃん、言いすぎっ……」"
@@ -433,7 +433,7 @@
       "who": "親戚の叔父さん",
       "voice": {
         "id": "MOBA_001_PRO001A_001",
-        "file": null
+        "file": "voice/moba_001_pro001A_001.ogg"
       },
       "lines": [
         "「ま、まぁまぁ、二人とも、落ち着いて……」"
@@ -457,7 +457,7 @@
       "who": "親戚の叔母さん",
       "voice": {
         "id": "MOBB_001_PRO001A_005",
-        "file": null
+        "file": "voice/mobb_001_pro001A_005.ogg"
       },
       "lines": [
         "「いいから、アンタは黙ってて！」"
@@ -503,7 +503,7 @@
       "who": "古橋　涼菜",
       "voice": {
         "id": "SUZU_001_PRO001A_006",
-        "file": null
+        "file": "voice/suzu_001_pro001A_006.ogg"
       },
       "lines": [
         "「色々お金を使われていらっしゃるようですけど、",
@@ -549,7 +549,7 @@
       "who": "親戚の叔母さん",
       "voice": {
         "id": "MOBB_001_PRO001A_006",
-        "file": null
+        "file": "voice/mobb_001_pro001A_006.ogg"
       },
       "lines": [
         "「ぐぐっ……くっ、この生意気な小娘が！　あとで",
@@ -594,7 +594,7 @@
       "who": "親戚の叔父さん",
       "voice": {
         "id": "MOBA_001_PRO001A_002",
-        "file": null
+        "file": "voice/moba_001_pro001A_002.ogg"
       },
       "lines": [
         "「すまないねぇ……ウチのは短気なものだから」"
@@ -639,7 +639,7 @@
       "who": "親戚の叔父さん",
       "voice": {
         "id": "MOBA_001_PRO001A_003",
-        "file": null
+        "file": "voice/moba_001_pro001A_003.ogg"
       },
       "lines": [
         "「でも、本当に、無理はしないようにね。なにか",
@@ -684,7 +684,7 @@
       "who": "古橋　涼菜",
       "voice": {
         "id": "SUZU_001_PRO001A_007",
-        "file": null
+        "file": "voice/suzu_001_pro001A_007.ogg"
       },
       "lines": [
         "「はい、そのときは、お願いすると思います」"
@@ -744,7 +744,7 @@
       "who": "古橋　涼菜",
       "voice": {
         "id": "SUZU_001_PRO001A_008",
-        "file": null
+        "file": "voice/suzu_001_pro001A_008.ogg"
       },
       "lines": [
         "「どうかしら？　なかなか綺麗で良いでしょう？",
@@ -789,7 +789,7 @@
       "who": "古橋　涼菜",
       "voice": {
         "id": "SUZU_001_PRO001A_009",
-        "file": null
+        "file": "voice/suzu_001_pro001A_009.ogg"
       },
       "lines": [
         "「この家で、心機一転、頑張りましょう！」"
@@ -813,7 +813,7 @@
       "who": "古橋　綾菜",
       "voice": {
         "id": "AYAN_001_PRO001A_004",
-        "file": null
+        "file": "voice/ayan_001_pro001A_004.ogg"
       },
       "lines": [
         "「そうね……前の家に住んでいたら、いつまでも、",
@@ -858,7 +858,7 @@
       "who": "古橋　綾菜",
       "voice": {
         "id": "AYAN_001_PRO001A_005",
-        "file": null
+        "file": "voice/ayan_001_pro001A_005.ogg"
       },
       "lines": [
         "「でも、涼ちゃん……本当に私たちだけで、やって",
@@ -883,7 +883,7 @@
       "who": "古橋　涼菜",
       "voice": {
         "id": "SUZU_001_PRO001A_010",
-        "file": null
+        "file": "voice/suzu_001_pro001A_010.ogg"
       },
       "lines": [
         "「三人で、やるべきことを、やればいいだけよ」"
@@ -928,7 +928,7 @@
       "who": "古橋　綾菜",
       "voice": {
         "id": "AYAN_001_PRO001A_006",
-        "file": null
+        "file": "voice/ayan_001_pro001A_006.ogg"
       },
       "lines": [
         "「そうね、三人で……和くん、お姉ちゃんのこと、",
@@ -995,7 +995,7 @@
       "who": "古橋　涼菜",
       "voice": {
         "id": "SUZU_001_PRO001A_011",
-        "file": null
+        "file": "voice/suzu_001_pro001A_011.ogg"
       },
       "lines": [
         "「これから全力で勉強していくわ。私が働きに出て、",
@@ -1040,7 +1040,7 @@
       "who": "古橋　涼菜",
       "voice": {
         "id": "SUZU_001_PRO001A_012",
-        "file": null
+        "file": "voice/suzu_001_pro001A_012.ogg"
       },
       "lines": [
         "「その、家事を押し付けるわけじゃないけれど……」"
@@ -1064,7 +1064,7 @@
       "who": "古橋　綾菜",
       "voice": {
         "id": "AYAN_001_PRO001A_007",
-        "file": null
+        "file": "voice/ayan_001_pro001A_007.ogg"
       },
       "lines": [
         "「ううん、私が家のことをやるから、涼ちゃんは、",

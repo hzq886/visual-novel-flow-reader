@@ -44,7 +44,7 @@
       "who": "楠木　翼",
       "voice": {
         "id": "TUBA_006_TUBA004A_001",
-        "file": null
+        "file": "voice/tuba_006_tuba004A_001.ogg"
       },
       "lines": [
         "「うん、もちろん！　二人で一緒に遊ぼっか！」"
@@ -95,7 +95,7 @@
       "who": "楠木　楓",
       "voice": {
         "id": "KAED_006_TUBA004A_001",
-        "file": null
+        "file": "voice/kaed_006_tuba004A_001.ogg"
       },
       "lines": [
         "「おかえりなさい。和樹くん、いらっしゃい」"
@@ -158,7 +158,7 @@
       "who": "楠木　翼",
       "voice": {
         "id": "TUBA_006_TUBA004A_002",
-        "file": null
+        "file": "voice/tuba_006_tuba004A_002.ogg"
       },
       "lines": [
         "「ただいまっ！　今日は、二人で部屋で遊ぶから！」"
@@ -202,7 +202,7 @@
       "who": "楠木　楓",
       "voice": {
         "id": "KAED_006_TUBA004A_002",
-        "file": null
+        "file": "voice/kaed_006_tuba004A_002.ogg"
       },
       "lines": [
         "「うーん、本当に、子供の頃から変わらないわよね。",
@@ -270,7 +270,7 @@
       "who": "楠木　翼",
       "voice": {
         "id": "TUBA_006_TUBA004A_003",
-        "file": null
+        "file": "voice/tuba_006_tuba004A_003.ogg"
       },
       "lines": [
         "「ふぁっ！？　あっ、はぁぁっ……んんっ……」"
@@ -336,7 +336,7 @@
       "who": "楠木　楓",
       "voice": {
         "id": "KAED_006_TUBA004A_003",
-        "file": null
+        "file": "voice/kaed_006_tuba004A_003.ogg"
       },
       "lines": [
         "「あっ、和樹くん。あとでクッキーでも……」"
@@ -399,7 +399,7 @@
       "who": "楠木　楓",
       "voice": {
         "id": "KAED_006_TUBA004A_004",
-        "file": null
+        "file": "voice/kaed_006_tuba004A_004.ogg"
       },
       "lines": [
         "「んはぁっ！？　あっ、あっ、はぁぁぁっ……」"
@@ -565,7 +565,7 @@
       "who": "楠木　楓",
       "voice": {
         "id": "KAED_006_TUBA004A_005",
-        "file": null
+        "file": "voice/kaed_006_tuba004A_005.ogg"
       },
       "lines": [
         "「ああ、冷蔵庫にオレンジジュースがあるから。",

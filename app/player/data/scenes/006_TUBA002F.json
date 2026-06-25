@@ -30,7 +30,7 @@
       "who": "楠木　翼",
       "voice": {
         "id": "TUBA_006_TUBA002F_001",
-        "file": null
+        "file": "voice/tuba_006_tuba002F_001.ogg"
       },
       "lines": [
         "「しょーつを、はいて……すかーと、もとに……」"
@@ -137,7 +137,7 @@
       "who": "楠木　翼",
       "voice": {
         "id": "TUBA_006_TUBA002F_002",
-        "file": null
+        "file": "voice/tuba_006_tuba002F_002.ogg"
       },
       "lines": [
         "「わすれて、しまいます……きがえ、おわった……」"
@@ -202,7 +202,7 @@
       "who": "楠木　翼",
       "voice": {
         "id": "TUBA_006_TUBA002F_003",
-        "file": null
+        "file": "voice/tuba_006_tuba002F_003.ogg"
       },
       "lines": [
         "「はうっ！？　あっ、あっ、はぁぁぁっ……」"
@@ -288,7 +288,7 @@
       "who": "楠木　翼",
       "voice": {
         "id": "TUBA_006_TUBA002F_004",
-        "file": null
+        "file": "voice/tuba_006_tuba002F_004.ogg"
       },
       "lines": [
         "「あっ……えっと、着替え、終わったよー！」"

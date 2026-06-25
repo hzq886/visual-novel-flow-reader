@@ -20,7 +20,7 @@
       "who": "楠木　楓",
       "voice": {
         "id": "KAED_001_PRO001D_001",
-        "file": null
+        "file": "voice/kaed_001_pro001D_001.ogg"
       },
       "lines": [
         "「はーい、どなたですか？」"
@@ -56,7 +56,7 @@
       "who": "楠木　楓",
       "voice": {
         "id": "KAED_001_PRO001D_002",
-        "file": null
+        "file": "voice/kaed_001_pro001D_002.ogg"
       },
       "lines": [
         "「あっ、いらっしゃい。そのまま入ってー」"
@@ -85,7 +85,7 @@
       "who": "楠木　裕司",
       "voice": {
         "id": "MOBD_001_PRO001D_001",
-        "file": null
+        "file": "voice/mobd_001_pro001D_001.ogg"
       },
       "lines": [
         "「……それで翼は、どうして習っている空手を",
@@ -129,7 +129,7 @@
       "who": "楠木　翼",
       "voice": {
         "id": "TUBA_001_PRO001D_001",
-        "file": null
+        "file": "voice/tuba_001_pro001D_001.ogg"
       },
       "lines": [
         "「えーっと、カズのところのおねえさんが、すごく",
@@ -173,7 +173,7 @@
       "who": "楠木　翼",
       "voice": {
         "id": "TUBA_001_PRO001D_002",
-        "file": null
+        "file": "voice/tuba_001_pro001D_002.ogg"
       },
       "lines": [
         "「からてをしてたら、おとこらしくなるけど、",
@@ -198,7 +198,7 @@
       "who": "楠木　裕司",
       "voice": {
         "id": "MOBD_001_PRO001D_002",
-        "file": null
+        "file": "voice/mobd_001_pro001D_002.ogg"
       },
       "lines": [
         "「うーん、そうだね。そうかもしれないね」"
@@ -241,7 +241,7 @@
       "who": "楠木　楓",
       "voice": {
         "id": "KAED_001_PRO001D_003",
-        "file": null
+        "file": "voice/kaed_001_pro001D_003.ogg"
       },
       "lines": [
         "「和樹くんのお姉さんを見て、女らしくなることを、",
@@ -285,7 +285,7 @@
       "who": "楠木　裕司",
       "voice": {
         "id": "MOBD_001_PRO001D_003",
-        "file": null
+        "file": "voice/mobd_001_pro001D_003.ogg"
       },
       "lines": [
         "「なるほど、飽きたからやめるとかじゃないんだね。",
@@ -310,7 +310,7 @@
       "who": "楠木　翼",
       "voice": {
         "id": "TUBA_001_PRO001D_003",
-        "file": null
+        "file": "voice/tuba_001_pro001D_003.ogg"
       },
       "lines": [
         "「ソンチョーって？」"
@@ -334,7 +334,7 @@
       "who": "楠木　楓",
       "voice": {
         "id": "KAED_001_PRO001D_004",
-        "file": null
+        "file": "voice/kaed_001_pro001D_004.ogg"
       },
       "lines": [
         "「翼の気持ちを大切に思って、その通りにして",
@@ -378,7 +378,7 @@
       "who": "楠木　翼",
       "voice": {
         "id": "TUBA_001_PRO001D_004",
-        "file": null
+        "file": "voice/tuba_001_pro001D_004.ogg"
       },
       "lines": [
         "「あっ、でも、からてをやめたら、わるいやつを",
@@ -403,7 +403,7 @@
       "who": "楠木　裕司",
       "voice": {
         "id": "MOBD_001_PRO001D_004",
-        "file": null
+        "file": "voice/mobd_001_pro001D_004.ogg"
       },
       "lines": [
         "「別に、翼がやっつけなくてもいいんだよ。",
@@ -447,7 +447,7 @@
       "who": "楠木　裕司",
       "voice": {
         "id": "MOBD_001_PRO001D_005",
-        "file": null
+        "file": "voice/mobd_001_pro001D_005.ogg"
       },
       "lines": [
         "「むしろケガでもしたら大変だから、そういう",
@@ -492,7 +492,7 @@
       "who": "楠木　翼",
       "voice": {
         "id": "TUBA_001_PRO001D_005",
-        "file": null
+        "file": "voice/tuba_001_pro001D_005.ogg"
       },
       "lines": [
         "「えーっ、にげるの？」"
@@ -536,7 +536,7 @@
       "who": "楠木　裕司",
       "voice": {
         "id": "MOBD_001_PRO001D_006",
-        "file": null
+        "file": "voice/mobd_001_pro001D_006.ogg"
       },
       "lines": [
         "「そう、走って逃げて、お巡りさんとか、父さんに、",
@@ -561,7 +561,7 @@
       "who": "楠木　翼",
       "voice": {
         "id": "TUBA_001_PRO001D_006",
-        "file": null
+        "file": "voice/tuba_001_pro001D_006.ogg"
       },
       "lines": [
         "「うん！　かけっこは、とくいだよ！　そしたら、",
@@ -607,7 +607,7 @@
       "who": "楠木　楓",
       "voice": {
         "id": "KAED_001_PRO001D_005",
-        "file": null
+        "file": "voice/kaed_001_pro001D_005.ogg"
       },
       "lines": [
         "「さあ、お話も終わったみたいだし、和樹くんと",
@@ -632,7 +632,7 @@
       "who": "楠木　翼",
       "voice": {
         "id": "TUBA_001_PRO001D_007",
-        "file": null
+        "file": "voice/tuba_001_pro001D_007.ogg"
       },
       "lines": [
         "「はーい！　カズ、またせちゃって、ごめんね！」"
@@ -676,7 +676,7 @@
       "who": "楠木　裕司",
       "voice": {
         "id": "MOBD_001_PRO001D_007",
-        "file": null
+        "file": "voice/mobd_001_pro001D_007.ogg"
       },
       "lines": [
         "「和樹くんは、飲み物はどうする？　ジュースか、",

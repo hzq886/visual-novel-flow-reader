@@ -21,7 +21,7 @@
       "who": "望月　真琴",
       "voice": {
         "id": "MAKO_005_MAKO001A_001",
-        "file": null
+        "file": "voice/mako_005_mako001A_001.ogg"
       },
       "lines": [
         "「あっ、和樹……どうしたの？　教室に一人で」"
@@ -105,7 +105,7 @@
       "who": "望月　真琴",
       "voice": {
         "id": "MAKO_005_MAKO001A_002",
-        "file": null
+        "file": "voice/mako_005_mako001A_002.ogg"
       },
       "lines": [
         "「ええ、終わったわ。この時期は、忙しくないから」"
@@ -148,7 +148,7 @@
       "who": "望月　真琴",
       "voice": {
         "id": "MAKO_005_MAKO001A_003",
-        "file": null
+        "file": "voice/mako_005_mako001A_003.ogg"
       },
       "lines": [
         "「えーっと、翼が来るまで、待っているの？」"
@@ -231,7 +231,7 @@
       "who": "望月　真琴",
       "voice": {
         "id": "MAKO_005_MAKO001A_004",
-        "file": null
+        "file": "voice/mako_005_mako001A_004.ogg"
       },
       "lines": [
         "「ううん。特に用事は無いし、私も待つわ」"
@@ -316,7 +316,7 @@
       "who": "望月　真琴",
       "voice": {
         "id": "MAKO_005_MAKO001A_005",
-        "file": null
+        "file": "voice/mako_005_mako001A_005.ogg"
       },
       "lines": [
         "「別にいいけれど……どんなゲーム？」"
@@ -440,7 +440,7 @@
       "who": "望月　真琴",
       "voice": {
         "id": "MAKO_005_MAKO001A_006",
-        "file": null
+        "file": "voice/mako_005_mako001A_006.ogg"
       },
       "lines": [
         "「ふーん、そうなんだ。やってみようかしら」"
@@ -506,7 +506,7 @@
       "who": "望月　真琴",
       "voice": {
         "id": "MAKO_005_MAKO001A_007",
-        "file": null
+        "file": "voice/mako_005_mako001A_007.ogg"
       },
       "lines": [
         "「ううーん……ちょっと遠くて、見辛いわ」"
@@ -570,7 +570,7 @@
       "who": "望月　真琴",
       "voice": {
         "id": "MAKO_005_MAKO001A_008",
-        "file": null
+        "file": "voice/mako_005_mako001A_008.ogg"
       },
       "lines": [
         "「Ｙｏｕ　ｇｏｔ　ｕｐ　ｏｎ……」"
@@ -654,7 +654,7 @@
       "who": "望月　真琴",
       "voice": {
         "id": "MAKO_005_MAKO001A_009",
-        "file": null
+        "file": "voice/mako_005_mako001A_009.ogg"
       },
       "lines": [
         "「そのまま、同じ場所を……分かったわ」"
@@ -719,7 +719,7 @@
       "who": "望月　真琴",
       "voice": {
         "id": "MAKO_005_MAKO001A_010",
-        "file": null
+        "file": "voice/mako_005_mako001A_010.ogg"
       },
       "lines": [
         "「わりと、難しいかも……んんっ……」"
@@ -988,7 +988,7 @@
       "who": "望月　真琴",
       "voice": {
         "id": "MAKO_005_MAKO001A_011",
-        "file": null
+        "file": "voice/mako_005_mako001A_011.ogg"
       },
       "lines": [
         "「かたを、とんとん……こころ、ふかいところ……」"
@@ -1052,7 +1052,7 @@
       "who": "望月　真琴",
       "voice": {
         "id": "MAKO_005_MAKO001A_012",
-        "file": null
+        "file": "voice/mako_005_mako001A_012.ogg"
       },
       "lines": [
         "「とんとん……おちて……ゆっくり……」"
@@ -1118,7 +1118,7 @@
       "who": "望月　真琴",
       "voice": {
         "id": "MAKO_005_MAKO001A_013",
-        "file": null
+        "file": "voice/mako_005_mako001A_013.ogg"
       },
       "lines": [
         "「まじめな、ぽにーてーる……このこころの……」"
@@ -1183,7 +1183,7 @@
       "who": "望月　真琴",
       "voice": {
         "id": "MAKO_005_MAKO001A_014",
-        "file": null
+        "file": "voice/mako_005_mako001A_014.ogg"
       },
       "lines": [
         "「はい、つきあうよう……いいました……」"
@@ -1227,7 +1227,7 @@
       "who": "望月　真琴",
       "voice": {
         "id": "MAKO_005_MAKO001A_015",
-        "file": null
+        "file": "voice/mako_005_mako001A_015.ogg"
       },
       "lines": [
         "「つばさが、ほかのおとこのこと、つきあえば……」"
@@ -1251,7 +1251,7 @@
       "who": "望月　真琴",
       "voice": {
         "id": "MAKO_005_MAKO001A_016",
-        "file": null
+        "file": "voice/mako_005_mako001A_016.ogg"
       },
       "lines": [
         "「だいすきな、かずきと……わたしが、つきあえる",
@@ -1301,7 +1301,7 @@
       "who": "楠木　翼",
       "voice": {
         "id": "TUBA_005_MAKO001A_001",
-        "file": null
+        "file": "voice/tuba_005_mako001A_001.ogg"
       },
       "lines": [
         "「……それで、付き合うとか、よく分からないから、",
@@ -1326,7 +1326,7 @@
       "who": "望月　真琴",
       "voice": {
         "id": "MAKO_005_MAKO001A_017",
-        "file": null
+        "file": "voice/mako_005_mako001A_017.ogg"
       },
       "lines": [
         "「その先輩のことを、翼はどう思ってるの？」"
@@ -1350,7 +1350,7 @@
       "who": "楠木　翼",
       "voice": {
         "id": "TUBA_005_MAKO001A_002",
-        "file": null
+        "file": "voice/tuba_005_mako001A_002.ogg"
       },
       "lines": [
         "「どう思ってるって言われても、どんな人なのか、",
@@ -1375,7 +1375,7 @@
       "who": "望月　真琴",
       "voice": {
         "id": "MAKO_005_MAKO001A_018",
-        "file": null
+        "file": "voice/mako_005_mako001A_018.ogg"
       },
       "lines": [
         "「先輩を見て、いい人そうとか、カッコイイとか、",
@@ -1400,7 +1400,7 @@
       "who": "楠木　翼",
       "voice": {
         "id": "TUBA_005_MAKO001A_003",
-        "file": null
+        "file": "voice/tuba_005_mako001A_003.ogg"
       },
       "lines": [
         "「うーん、いい人っぽかったけど、カッコイイかは、",
@@ -1425,7 +1425,7 @@
       "who": "望月　真琴",
       "voice": {
         "id": "MAKO_005_MAKO001A_019",
-        "file": null
+        "file": "voice/mako_005_mako001A_019.ogg"
       },
       "lines": [
         "「……それなら、とりあえず、付き合ってみれば？」"
@@ -1449,7 +1449,7 @@
       "who": "楠木　翼",
       "voice": {
         "id": "TUBA_005_MAKO001A_004",
-        "file": null
+        "file": "voice/tuba_005_mako001A_004.ogg"
       },
       "lines": [
         "「ええっ！？　付き合うって、その、オッケーして、",
@@ -1474,7 +1474,7 @@
       "who": "望月　真琴",
       "voice": {
         "id": "MAKO_005_MAKO001A_020",
-        "file": null
+        "file": "voice/mako_005_mako001A_020.ogg"
       },
       "lines": [
         "「別に、そんなに大げさに考えることはないわよ。",
@@ -1499,7 +1499,7 @@
       "who": "望月　真琴",
       "voice": {
         "id": "MAKO_005_MAKO001A_021",
-        "file": null
+        "file": "voice/mako_005_mako001A_021.ogg"
       },
       "lines": [
         "「付き合ってみて、もしも嫌な人だって分かったら、",
@@ -1524,7 +1524,7 @@
       "who": "楠木　翼",
       "voice": {
         "id": "TUBA_005_MAKO001A_005",
-        "file": null
+        "file": "voice/tuba_005_mako001A_005.ogg"
       },
       "lines": [
         "「う、うーん……そういうものなのかな……？」"
@@ -1598,7 +1598,7 @@
       "who": "望月　真琴",
       "voice": {
         "id": "MAKO_005_MAKO001A_022",
-        "file": null
+        "file": "voice/mako_005_mako001A_022.ogg"
       },
       "lines": [
         "「きょうしつ、きてから……ぜんぶ、わすれます」"
@@ -1663,7 +1663,7 @@
       "who": "望月　真琴",
       "voice": {
         "id": "MAKO_005_MAKO001A_023",
-        "file": null
+        "file": "voice/mako_005_mako001A_023.ogg"
       },
       "lines": [
         "「ふたりが……なかよくなる……じゃま、しません」"
@@ -1727,7 +1727,7 @@
       "who": "望月　真琴",
       "voice": {
         "id": "MAKO_005_MAKO001A_024",
-        "file": null
+        "file": "voice/mako_005_mako001A_024.ogg"
       },
       "lines": [
         "「こいびと、なったら……おうえん、します」"
@@ -1813,7 +1813,7 @@
       "who": "望月　真琴",
       "voice": {
         "id": "MAKO_005_MAKO001A_025",
-        "file": null
+        "file": "voice/mako_005_mako001A_025.ogg"
       },
       "lines": [
         "「あっ、えっと……教室に一人で、どうしたの？」"
@@ -1858,7 +1858,7 @@
       "who": "望月　真琴",
       "voice": {
         "id": "MAKO_005_MAKO001A_026",
-        "file": null
+        "file": "voice/mako_005_mako001A_026.ogg"
       },
       "lines": [
         "「なんだか、疲れているみたいだけど、大丈夫？」"
@@ -1922,7 +1922,7 @@
       "who": "望月　真琴",
       "voice": {
         "id": "MAKO_005_MAKO001A_027",
-        "file": null
+        "file": "voice/mako_005_mako001A_027.ogg"
       },
       "lines": [
         "「うん、一緒に帰りましょう！」"

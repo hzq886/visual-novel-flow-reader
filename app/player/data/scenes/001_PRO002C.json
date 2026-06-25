@@ -23,7 +23,7 @@
       "who": "楠木　翼",
       "voice": {
         "id": "TUBA_001_PRO002C_001",
-        "file": null
+        "file": "voice/tuba_001_pro002C_001.ogg"
       },
       "lines": [
         "「カズ、どうしたの？　ぼーっとして」"
@@ -60,7 +60,7 @@
       "who": "初老の女性",
       "voice": {
         "id": "MOBF_001_PRO002C_001",
-        "file": null
+        "file": "voice/mobf_001_pro002C_001.ogg"
       },
       "lines": [
         "「お待たせしました、あなた」"
@@ -75,7 +75,7 @@
       "who": "初老の男性",
       "voice": {
         "id": "MOBE_001_PRO002C_001",
-        "file": null
+        "file": "voice/mobe_001_pro002C_001.ogg"
       },
       "lines": [
         "「いや、それほど待っていないよ」"
@@ -100,7 +100,7 @@
       "who": "楠木　翼",
       "voice": {
         "id": "TUBA_001_PRO002C_002",
-        "file": null
+        "file": "voice/tuba_001_pro002C_002.ogg"
       },
       "lines": [
         "「わー……見て……綺麗なひとだね……」"
@@ -128,7 +128,7 @@
       "who": "初老の男性",
       "voice": {
         "id": "MOBE_001_PRO002C_002",
-        "file": null
+        "file": "voice/mobe_001_pro002C_002.ogg"
       },
       "lines": [
         "「寒くはないかい？」"
@@ -143,7 +143,7 @@
       "who": "初老の女性",
       "voice": {
         "id": "MOBF_001_PRO002C_002",
-        "file": null
+        "file": "voice/mobf_001_pro002C_002.ogg"
       },
       "lines": [
         "「いいえ、大丈夫ですわ。あなたこそ平気ですか？」"
@@ -169,7 +169,7 @@
       "who": "初老の女性",
       "voice": {
         "id": "MOBF_001_PRO002C_003",
-        "file": null
+        "file": "voice/mobf_001_pro002C_003.ogg"
       },
       "lines": [
         "「ここを気に入られたみたいですね。とても静かな",
@@ -185,7 +185,7 @@
       "who": "初老の男性",
       "voice": {
         "id": "MOBE_001_PRO002C_003",
-        "file": null
+        "file": "voice/mobe_001_pro002C_003.ogg"
       },
       "lines": [
         "「そうだね。また一緒に、散歩にでも来ようか」"
@@ -214,7 +214,7 @@
       "who": "初老の男性",
       "voice": {
         "id": "MOBE_001_PRO002C_004",
-        "file": null
+        "file": "voice/mobe_001_pro002C_004.ogg"
       },
       "lines": [
         "「さて、そろそろ行こうか」"
@@ -229,7 +229,7 @@
       "who": "初老の女性",
       "voice": {
         "id": "MOBF_001_PRO002C_004",
-        "file": null
+        "file": "voice/mobf_001_pro002C_004.ogg"
       },
       "lines": [
         "「はい、あなた。腕を組んでいただけますか？」"
@@ -284,7 +284,7 @@
       "who": "初老の男性",
       "voice": {
         "id": "MOBE_001_PRO002C_005",
-        "file": null
+        "file": "voice/mobe_001_pro002C_005.ogg"
       },
       "lines": [
         "「ああ、すまないね。ありがとう」"
@@ -299,7 +299,7 @@
       "who": "初老の女性",
       "voice": {
         "id": "MOBF_001_PRO002C_005",
-        "file": null
+        "file": "voice/mobf_001_pro002C_005.ogg"
       },
       "lines": [
         "「ありがとう。とても優しいのね」"

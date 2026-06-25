@@ -45,7 +45,7 @@
       "who": "楠木　翼",
       "voice": {
         "id": "TUBA_006_TUBA002A_001",
-        "file": null
+        "file": "voice/tuba_006_tuba002A_001.ogg"
       },
       "lines": [
         "「はなしたり……さわられたりすると、たのしい」"
@@ -113,7 +113,7 @@
       "who": "楠木　翼",
       "voice": {
         "id": "TUBA_006_TUBA002A_002",
-        "file": null
+        "file": "voice/tuba_006_tuba002A_002.ogg"
       },
       "lines": [
         "「たずねること、たのむこと……おかしいとか、",

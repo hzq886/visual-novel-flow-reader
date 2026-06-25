@@ -36,7 +36,7 @@
       "who": "望月　早紀",
       "voice": {
         "id": "SAKI_005_MAKO005E_001",
-        "file": null
+        "file": "voice/saki_005_mako005E_001.ogg"
       },
       "lines": [
         "「分かったわ。真琴、連れて行ってあげなさい」"
@@ -82,7 +82,7 @@
       "who": "望月　真琴",
       "voice": {
         "id": "MAKO_005_MAKO005E_001",
-        "file": null
+        "file": "voice/mako_005_mako005E_001.ogg"
       },
       "lines": [
         "「マ、ママに……あんなことをするなんて、絶対に、",
@@ -133,7 +133,7 @@
       "who": "望月　真琴",
       "voice": {
         "id": "MAKO_005_MAKO005E_002",
-        "file": null
+        "file": "voice/mako_005_mako005E_002.ogg"
       },
       "lines": [
         "「この変態の最低男っ！　悪魔っ、死んじゃえっ！」"

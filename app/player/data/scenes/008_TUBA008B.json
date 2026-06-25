@@ -329,7 +329,7 @@
       "who": "楠木　裕司",
       "voice": {
         "id": "TUBA_008_TUBA008B_001",
-        "file": null
+        "file": "voice/tuba_008_tuba008B_001.ogg"
       },
       "lines": [
         "「はーい、食べさせてあげるねっ！　まずは、この",
@@ -376,7 +376,7 @@
       "who": "楠木　裕司",
       "voice": {
         "id": "TUBA_008_TUBA008B_002",
-        "file": null
+        "file": "voice/tuba_008_tuba008B_002.ogg"
       },
       "lines": [
         "「はい、おクチで食べさせてあげる！　んんっ……」"
@@ -420,7 +420,7 @@
       "who": "楠木　裕司",
       "voice": {
         "id": "TUBA_008_TUBA008B_003",
-        "file": null
+        "file": "voice/tuba_008_tuba008B_003.ogg"
       },
       "lines": [
         "「んっ、んむぅ……ちゅぅ……んん、んふぅ」"
@@ -464,7 +464,7 @@
       "who": "楠木　裕司",
       "voice": {
         "id": "TUBA_008_TUBA008B_004",
-        "file": null
+        "file": "voice/tuba_008_tuba008B_004.ogg"
       },
       "lines": [
         "「ねぇねぇ、美味しい？　えへへ、これね、ボクが",
@@ -511,7 +511,7 @@
       "who": "楠木　裕司",
       "voice": {
         "id": "TUBA_008_TUBA008B_005",
-        "file": null
+        "file": "voice/tuba_008_tuba008B_005.ogg"
       },
       "lines": [
         "「次は、なにが食べたい？」"
@@ -575,7 +575,7 @@
       "who": "古橋　和樹",
       "voice": {
         "id": "TUBA_008_TUBA008B_006",
-        "file": null
+        "file": "voice/tuba_008_tuba008B_006.ogg"
       },
       "lines": [
         "「あっ　あんっ……ごはん、食べながらイタズラ",
@@ -619,7 +619,7 @@
       "who": "古橋　和樹",
       "voice": {
         "id": "MOBD_008_TUBA008B_001",
-        "file": null
+        "file": "voice/mobd_008_tuba008B_001.ogg"
       },
       "lines": [
         "「ははは、二人は本当に仲がいいねぇ」"
@@ -643,7 +643,7 @@
       "who": "古橋　和樹",
       "voice": {
         "id": "KAED_008_TUBA008B_001",
-        "file": null
+        "file": "voice/kaed_008_tuba008B_001.ogg"
       },
       "lines": [
         "「うふふ……ホントね、妬けちゃうわ」"
@@ -688,7 +688,7 @@
       "who": "古橋　和樹",
       "voice": {
         "id": "TUBA_008_TUBA008B_007",
-        "file": null
+        "file": "voice/tuba_008_tuba008B_007.ogg"
       },
       "lines": [
         "「あふぅ……もう一回、タコさんウィンナーにする？",
@@ -734,7 +734,7 @@
       "who": "古橋　和樹",
       "voice": {
         "id": "MOBD_008_TUBA008B_002",
-        "file": null
+        "file": "voice/mobd_008_tuba008B_002.ogg"
       },
       "lines": [
         "「お茶のおかわりはいるかい？　なにか必要なことが",
@@ -778,7 +778,7 @@
       "who": "古橋　和樹",
       "voice": {
         "id": "KAED_008_TUBA008B_002",
-        "file": null
+        "file": "voice/kaed_008_tuba008B_002.ogg"
       },
       "lines": [
         "「タコさんウィンナーだけじゃなくて、他にも",
@@ -823,7 +823,7 @@
       "who": "古橋　和樹",
       "voice": {
         "id": "MOBD_008_TUBA008B_003",
-        "file": null
+        "file": "voice/mobd_008_tuba008B_003.ogg"
       },
       "lines": [
         "「そうだね。しかし、翼も和樹くんも成長したなぁ。",
@@ -870,7 +870,7 @@
       "who": "古橋　和樹",
       "voice": {
         "id": "TUBA_008_TUBA008B_008",
-        "file": null
+        "file": "voice/tuba_008_tuba008B_008.ogg"
       },
       "lines": [
         "「んっ、次はこれ……んん、あぁっ……んふぁっ」"
@@ -914,7 +914,7 @@
       "who": "古橋　和樹",
       "voice": {
         "id": "TUBA_008_TUBA008B_009",
-        "file": null
+        "file": "voice/tuba_008_tuba008B_009.ogg"
       },
       "lines": [
         "「ん、んむ……ちゅ、ちゅぐ……んん、んぷっ、",
@@ -960,7 +960,7 @@
       "who": "古橋　和樹",
       "voice": {
         "id": "TUBA_008_TUBA008B_010",
-        "file": null
+        "file": "voice/tuba_008_tuba008B_010.ogg"
       },
       "lines": [
         "「ちゅ、んちゅ……ちゅぶ、ちゅる……んぷはぁっ」"
@@ -1024,7 +1024,7 @@
       "who": "古橋　和樹",
       "voice": {
         "id": "TUBA_008_TUBA008B_011",
-        "file": null
+        "file": "voice/tuba_008_tuba008B_011.ogg"
       },
       "lines": [
         "「ふふっ、それはそうだけど、ボクだけじゃないよ？",
@@ -1071,7 +1071,7 @@
       "who": "古橋　和樹",
       "voice": {
         "id": "KAED_008_TUBA008B_003",
-        "file": null
+        "file": "voice/kaed_008_tuba008B_003.ogg"
       },
       "lines": [
         "「あっ、チ×ポの先っぽ、お汁がこぼれちゃいそう！",
@@ -1116,7 +1116,7 @@
       "who": "古橋　和樹",
       "voice": {
         "id": "KAED_008_TUBA008B_004",
-        "file": null
+        "file": "voice/kaed_008_tuba008B_004.ogg"
       },
       "lines": [
         "「あむうっ……ぢゅるっ、ちゅぼ、ちゅうぅ～っ！」"
@@ -1164,7 +1164,7 @@
       "who": "古橋　和樹",
       "voice": {
         "id": "KAED_008_TUBA008B_005",
-        "file": null
+        "file": "voice/kaed_008_tuba008B_005.ogg"
       },
       "lines": [
         "「ぢゅぶぅ……ぢゅぼっ、ぢゅる、んぢゅ～っ！",
@@ -1209,7 +1209,7 @@
       "who": "古橋　和樹",
       "voice": {
         "id": "KAED_008_TUBA008B_006",
-        "file": null
+        "file": "voice/kaed_008_tuba008B_006.ogg"
       },
       "lines": [
         "「んんっ、さっきから、咥えたくて仕方なかったの。",
@@ -1234,7 +1234,7 @@
       "who": "古橋　和樹",
       "voice": {
         "id": "TUBA_008_TUBA008B_012",
-        "file": null
+        "file": "voice/tuba_008_tuba008B_012.ogg"
       },
       "lines": [
         "「あっ、お母さん、ずるーい……んちゅ、ちゅぅ」"
@@ -1258,7 +1258,7 @@
       "who": "古橋　和樹",
       "voice": {
         "id": "KAED_008_TUBA008B_007",
-        "file": null
+        "file": "voice/kaed_008_tuba008B_007.ogg"
       },
       "lines": [
         "「翼はキスして貰ってるでしょ？　はむっ、んんっ、",
@@ -1306,7 +1306,7 @@
       "who": "古橋　和樹",
       "voice": {
         "id": "KAED_008_TUBA008B_007A",
-        "file": null
+        "file": "voice/kaed_008_tuba008B_007a.ogg"
       },
       "lines": [
         "「ぢゅぼっ、ぢゅぼっ、ずぢゅぅっ！　んんんっ！",
@@ -1352,7 +1352,7 @@
       "who": "古橋　和樹",
       "voice": {
         "id": "TUBA_008_TUBA008B_014",
-        "file": null
+        "file": "voice/tuba_008_tuba008B_014.ogg"
       },
       "lines": [
         "「ちゅ、ちゅ……んはぁ……お母さんって、ホントに",
@@ -1377,7 +1377,7 @@
       "who": "古橋　和樹",
       "voice": {
         "id": "KAED_008_TUBA008B_008",
-        "file": null
+        "file": "voice/kaed_008_tuba008B_008.ogg"
       },
       "lines": [
         "「んふぁっ……だって、すっごく美味しいんだもの！",
@@ -1424,7 +1424,7 @@
       "who": "古橋　和樹",
       "voice": {
         "id": "KAED_008_TUBA008B_009",
-        "file": null
+        "file": "voice/kaed_008_tuba008B_009.ogg"
       },
       "lines": [
         "「んぷぅっ……ほらほら、見て！　あなたのチ×ポの",
@@ -1449,7 +1449,7 @@
       "who": "古橋　和樹",
       "voice": {
         "id": "MOBD_008_TUBA008B_004",
-        "file": null
+        "file": "voice/mobd_008_tuba008B_004.ogg"
       },
       "lines": [
         "「ほう、そうなのかぁ！　それはすごいね！」"
@@ -1495,7 +1495,7 @@
       "who": "古橋　和樹",
       "voice": {
         "id": "TUBA_008_TUBA008B_015",
-        "file": null
+        "file": "voice/tuba_008_tuba008B_015.ogg"
       },
       "lines": [
         "「んちゅ、ちゅ、ちゅ……ねぶ、ちゅるぅ……んん、",
@@ -1541,7 +1541,7 @@
       "who": "古橋　和樹",
       "voice": {
         "id": "TUBA_008_TUBA008B_016",
-        "file": null
+        "file": "voice/tuba_008_tuba008B_016.ogg"
       },
       "lines": [
         "「んふぁ……ね、もっと……んん、ちゅぅ……」"
@@ -1585,7 +1585,7 @@
       "who": "古橋　和樹",
       "voice": {
         "id": "TUBA_008_TUBA008B_017",
-        "file": null
+        "file": "voice/tuba_008_tuba008B_017.ogg"
       },
       "lines": [
         "「ちゅぐぅ……んぶ、ちゅぶ……んちゅ、ちゅるぅ」"
@@ -1629,7 +1629,7 @@
       "who": "古橋　和樹",
       "voice": {
         "id": "KAED_008_TUBA008B_010",
-        "file": null
+        "file": "voice/kaed_008_tuba008B_010.ogg"
       },
       "lines": [
         "「ぢゅるっ、んぶっ、ぢゅぶぶ、ぢゅぶぢゅぶっ！",
@@ -1677,7 +1677,7 @@
       "who": "古橋　和樹",
       "voice": {
         "id": "TUBA_008_TUBA008B_018",
-        "file": null
+        "file": "voice/tuba_008_tuba008B_018.ogg"
       },
       "lines": [
         "「んちゅ、ちゅるぅ……ちゅっ、ちゅぅ、んん、",
@@ -1702,7 +1702,7 @@
       "who": "古橋　和樹",
       "voice": {
         "id": "KAED_008_TUBA008B_011",
-        "file": null
+        "file": "voice/kaed_008_tuba008B_011.ogg"
       },
       "lines": [
         "「んぐっ、んぐっ、ぐぶぅ、ぢゅるるっ、んぢゅっ！",
@@ -1747,7 +1747,7 @@
       "who": "古橋　和樹",
       "voice": {
         "id": "MOBD_008_TUBA008B_005",
-        "file": null
+        "file": "voice/mobd_008_tuba008B_005.ogg"
       },
       "lines": [
         "「二人とも一生懸命だね、はははっ」"
@@ -1792,7 +1792,7 @@
       "who": "古橋　和樹",
       "voice": {
         "id": "KAED_008_TUBA008B_012",
-        "file": null
+        "file": "voice/kaed_008_tuba008B_012.ogg"
       },
       "lines": [
         "「ぷはっ！　エッチなお汁も美味しいわ、はむっ！",
@@ -1817,7 +1817,7 @@
       "who": "古橋　和樹",
       "voice": {
         "id": "TUBA_008_TUBA008B_019",
-        "file": null
+        "file": "voice/tuba_008_tuba008B_019.ogg"
       },
       "lines": [
         "「んぷぅ……はぁ、はぁ……涎も美味しい、んむ、",
@@ -1866,7 +1866,7 @@
       "who": "古橋　和樹",
       "voice": {
         "id": "TUBA_008_TUBA008B_020",
-        "file": null
+        "file": "voice/tuba_008_tuba008B_020.ogg"
       },
       "lines": [
         "「ちゅ、ちゅぅ……んぷっ……はぁ、はぁ……んっ！",
@@ -1911,7 +1911,7 @@
       "who": "古橋　和樹",
       "voice": {
         "id": "TUBA_008_TUBA008B_021",
-        "file": null
+        "file": "voice/tuba_008_tuba008B_021.ogg"
       },
       "lines": [
         "「んちゅ、ちゅぅ……んっ、んん、んふぅ……！」"
@@ -1957,7 +1957,7 @@
       "who": "古橋　和樹",
       "voice": {
         "id": "KAED_008_TUBA008B_013",
-        "file": null
+        "file": "voice/kaed_008_tuba008B_013.ogg"
       },
       "lines": [
         "「んぶぅっ！　そろそろ飲ませてもらうわねっ！",
@@ -2002,7 +2002,7 @@
       "who": "古橋　和樹",
       "voice": {
         "id": "KAED_008_TUBA008B_014",
-        "file": null
+        "file": "voice/kaed_008_tuba008B_014.ogg"
       },
       "lines": [
         "「ぐぶっ、ぢゅるるっ、ぢゅぼっ、ぢゅぼぼぼっ！",
@@ -2048,7 +2048,7 @@
       "who": "古橋　和樹",
       "voice": {
         "id": "KAED_008_TUBA008B_015",
-        "file": null
+        "file": "voice/kaed_008_tuba008B_015.ogg"
       },
       "lines": [
         "「ぶふっ！　はぁ、はぁ、いつでも出してねっ……！",
@@ -2073,7 +2073,7 @@
       "who": "古橋　和樹",
       "voice": {
         "id": "TUBA_008_TUBA008B_022",
-        "file": null
+        "file": "voice/tuba_008_tuba008B_022.ogg"
       },
       "lines": [
         "「ちゅ、ちゅぅ……んん、ちゅぶぶ、ちゅるぅ！",
@@ -2120,7 +2120,7 @@
       "who": "古橋　和樹",
       "voice": {
         "id": "TUBA_008_TUBA008B_023",
-        "file": null
+        "file": "voice/tuba_008_tuba008B_023.ogg"
       },
       "lines": [
         "「ああっ、すごいっ……んあぁっ、んむっ！　ちゅ、",
@@ -2164,7 +2164,7 @@
       "who": "古橋　和樹",
       "voice": {
         "id": "KAED_008_TUBA008B_016",
-        "file": null
+        "file": "voice/kaed_008_tuba008B_016.ogg"
       },
       "lines": [
         "「ぢゅるっ、ぢゅぶぶっ！　んぐんぐ、んぶぅっ！",
@@ -2210,7 +2210,7 @@
       "who": "古橋　和樹",
       "voice": {
         "id": "KAED_008_TUBA008B_017",
-        "file": null
+        "file": "voice/kaed_008_tuba008B_017.ogg"
       },
       "lines": [
         "「んぶぅっ！　んんっ、ふぐっ……んっぢゅるる！」"
@@ -2256,7 +2256,7 @@
       "who": "古橋　和樹",
       "voice": {
         "id": "KAED_008_TUBA008B_018",
-        "file": null
+        "file": "voice/kaed_008_tuba008B_018.ogg"
       },
       "lines": [
         "「ぢゅるっ、ぢゅるるるっ！　んぐんぐっ、ごくっ！",
@@ -2301,7 +2301,7 @@
       "who": "古橋　和樹",
       "voice": {
         "id": "KAED_008_TUBA008B_019",
-        "file": null
+        "file": "voice/kaed_008_tuba008B_019.ogg"
       },
       "lines": [
         "「ぶふぅっ！　ふぐぅ！　ぢゅるるっ、ぢゅるんっ！",
@@ -2347,7 +2347,7 @@
       "who": "古橋　和樹",
       "voice": {
         "id": "KAED_008_TUBA008B_020",
-        "file": null
+        "file": "voice/kaed_008_tuba008B_020.ogg"
       },
       "lines": [
         "「んちゅぅぅぅ……ぢゅるる、んぶっ、ぢゅぶっ」"
@@ -2393,7 +2393,7 @@
       "who": "古橋　和樹",
       "voice": {
         "id": "TUBA_008_TUBA008B_024",
-        "file": null
+        "file": "voice/tuba_008_tuba008B_024.ogg"
       },
       "lines": [
         "「んふぅ……ちゅ、ちゅぐ、んぶぅ……んぶ、ちゅ、",
@@ -2439,7 +2439,7 @@
       "who": "古橋　和樹",
       "voice": {
         "id": "KAED_008_TUBA008B_021",
-        "file": null
+        "file": "voice/kaed_008_tuba008B_021.ogg"
       },
       "lines": [
         "「ちゅぅ、ちゅぅ……んく、ごく……ちゅるぅ……",
@@ -2464,7 +2464,7 @@
       "who": "古橋　和樹",
       "voice": {
         "id": "TUBA_008_TUBA008B_025",
-        "file": null
+        "file": "voice/tuba_008_tuba008B_025.ogg"
       },
       "lines": [
         "「んん、んぶ……ちゅる、ちゅるぅ……んちゅ……」"
@@ -2547,7 +2547,7 @@
       "who": "古橋　和樹",
       "voice": {
         "id": "KAED_008_TUBA008B_022",
-        "file": null
+        "file": "voice/kaed_008_tuba008B_022.ogg"
       },
       "lines": [
         "「ふふっ、私こそ、ごちそうさま！　やっぱり若いと",
@@ -2591,7 +2591,7 @@
       "who": "古橋　和樹",
       "voice": {
         "id": "MOBD_008_TUBA008B_006",
-        "file": null
+        "file": "voice/mobd_008_tuba008B_006.ogg"
       },
       "lines": [
         "「へぇ、そんなに違うものなのかい？」"
@@ -2636,7 +2636,7 @@
       "who": "古橋　和樹",
       "voice": {
         "id": "KAED_008_TUBA008B_023",
-        "file": null
+        "file": "voice/kaed_008_tuba008B_023.ogg"
       },
       "lines": [
         "「ええ、あなたの薄い精液とは、ぜんぜん違ってて",
@@ -2681,7 +2681,7 @@
       "who": "古橋　和樹",
       "voice": {
         "id": "KAED_008_TUBA008B_024",
-        "file": null
+        "file": "voice/kaed_008_tuba008B_024.ogg"
       },
       "lines": [
         "「ふふっ、こんなに濃い精液だったら、すぐに妊娠し",

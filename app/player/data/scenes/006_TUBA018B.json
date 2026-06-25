@@ -285,7 +285,7 @@
       "who": "楠木　翼",
       "voice": {
         "id": "TUBA_006_TUBA018B_001",
-        "file": null
+        "file": "voice/tuba_006_tuba018B_001.ogg"
       },
       "lines": [
         "「ねぇ、どうしたの？　大丈夫？　もしかして、",
@@ -330,7 +330,7 @@
       "who": "楠木　翼",
       "voice": {
         "id": "TUBA_006_TUBA018B_002",
-        "file": null
+        "file": "voice/tuba_006_tuba018B_002.ogg"
       },
       "lines": [
         "「雨に濡れちゃうよ？　傘に入って……立てる？」"
@@ -375,7 +375,7 @@
       "who": "楠木　翼",
       "voice": {
         "id": "TUBA_006_TUBA018B_003",
-        "file": null
+        "file": "voice/tuba_006_tuba018B_003.ogg"
       },
       "lines": [
         "「えっと……どこかで、会ったこと、あったっけ？」"
@@ -419,7 +419,7 @@
       "who": "楠木　翼",
       "voice": {
         "id": "TUBA_006_TUBA018B_004",
-        "file": null
+        "file": "voice/tuba_006_tuba018B_004.ogg"
       },
       "lines": [
         "「ボクの名前は、楠木翼だよ。翼って呼んでね！」"

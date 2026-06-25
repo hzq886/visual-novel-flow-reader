@@ -23,7 +23,7 @@
       "who": "楠木　翼",
       "voice": {
         "id": "TUBA_006_TUBA001A_001",
-        "file": null
+        "file": "voice/tuba_006_tuba001A_001.ogg"
       },
       "lines": [
         "「あっ、カズ！　まだ帰ってなかったんだー？」"
@@ -97,7 +97,7 @@
       "who": "楠木　翼",
       "voice": {
         "id": "TUBA_006_TUBA001A_002",
-        "file": null
+        "file": "voice/tuba_006_tuba001A_002.ogg"
       },
       "lines": [
         "「ううん、部活は終わったよ。更衣室が混んでたから",
@@ -161,7 +161,7 @@
       "who": "楠木　翼",
       "voice": {
         "id": "TUBA_006_TUBA001A_003",
-        "file": null
+        "file": "voice/tuba_006_tuba001A_003.ogg"
       },
       "lines": [
         "「大丈夫、大丈夫！　シャツとかスカートを着てから",
@@ -207,7 +207,7 @@
       "who": "楠木　翼",
       "voice": {
         "id": "TUBA_006_TUBA001A_004",
-        "file": null
+        "file": "voice/tuba_006_tuba001A_004.ogg"
       },
       "lines": [
         "「すぐ着替えちゃうから、待ってて！」"
@@ -257,7 +257,7 @@
       "who": "楠木　翼",
       "voice": {
         "id": "TUBA_006_TUBA001A_005",
-        "file": null
+        "file": "voice/tuba_006_tuba001A_005.ogg"
       },
       "lines": [
         "「はーい、お待たせっ！　それじゃあ、帰ろっか？」"
@@ -349,7 +349,7 @@
       "who": "楠木　翼",
       "voice": {
         "id": "TUBA_006_TUBA001A_006",
-        "file": null
+        "file": "voice/tuba_006_tuba001A_006.ogg"
       },
       "lines": [
         "「あっ、そのほうがいいかな？　よく先生からも、",
@@ -393,7 +393,7 @@
       "who": "楠木　翼",
       "voice": {
         "id": "TUBA_006_TUBA001A_007",
-        "file": null
+        "file": "voice/tuba_006_tuba001A_007.ogg"
       },
       "lines": [
         "「やっぱりカズは、色んなことに、よく気が付くね！",
@@ -480,7 +480,7 @@
       "who": "楠木　翼",
       "voice": {
         "id": "TUBA_006_TUBA001A_008",
-        "file": null
+        "file": "voice/tuba_006_tuba001A_008.ogg"
       },
       "lines": [
         "「面白いこと？　どんな？」"
@@ -544,7 +544,7 @@
       "who": "楠木　翼",
       "voice": {
         "id": "TUBA_006_TUBA001A_009",
-        "file": null
+        "file": "voice/tuba_006_tuba001A_009.ogg"
       },
       "lines": [
         "「そうだね、それはちょっと自信あるかな！」"
@@ -649,7 +649,7 @@
       "who": "楠木　翼",
       "voice": {
         "id": "TUBA_006_TUBA001A_010",
-        "file": null
+        "file": "voice/tuba_006_tuba001A_010.ogg"
       },
       "lines": [
         "「うんうん！　やってみたいかもっ！」"
@@ -714,7 +714,7 @@
       "who": "楠木　翼",
       "voice": {
         "id": "TUBA_006_TUBA001A_011",
-        "file": null
+        "file": "voice/tuba_006_tuba001A_011.ogg"
       },
       "lines": [
         "「リラックスして、頭のてっぺんを意識、だねっ」"
@@ -821,7 +821,7 @@
       "who": "楠木　翼",
       "voice": {
         "id": "TUBA_006_TUBA001A_012",
-        "file": null
+        "file": "voice/tuba_006_tuba001A_012.ogg"
       },
       "lines": [
         "「うわー……これ、ちょっと、難しいかも……」"
@@ -928,7 +928,7 @@
       "who": "楠木　翼",
       "voice": {
         "id": "TUBA_006_TUBA001A_013",
-        "file": null
+        "file": "voice/tuba_006_tuba001A_013.ogg"
       },
       "lines": [
         "「う、うん……すうっ、はぁぁぁっ……」"
@@ -1120,7 +1120,7 @@
       "who": "楠木　翼",
       "voice": {
         "id": "TUBA_006_TUBA001A_014",
-        "file": null
+        "file": "voice/tuba_006_tuba001A_014.ogg"
       },
       "lines": [
         "「ながい、かいだん……ゆっくり、おりて……」"
@@ -1225,7 +1225,7 @@
       "who": "楠木　翼",
       "voice": {
         "id": "TUBA_006_TUBA001A_015",
-        "file": null
+        "file": "voice/tuba_006_tuba001A_015.ogg"
       },
       "lines": [
         "「とても、しずかな……このこえ、だけが……」"
@@ -1372,7 +1372,7 @@
       "who": "楠木　翼",
       "voice": {
         "id": "TUBA_006_TUBA001A_016",
-        "file": null
+        "file": "voice/tuba_006_tuba001A_016.ogg"
       },
       "lines": [
         "「そらとぶ、げんきっこ……すぐに、こころが……」"
@@ -1443,7 +1443,7 @@
       "who": "楠木　翼",
       "voice": {
         "id": "TUBA_006_TUBA001A_017",
-        "file": null
+        "file": "voice/tuba_006_tuba001A_017.ogg"
       },
       "lines": [
         "「しつもん……しょうじきに、こたえて……」"
@@ -1508,7 +1508,7 @@
       "who": "楠木　翼",
       "voice": {
         "id": "TUBA_006_TUBA001A_018",
-        "file": null
+        "file": "voice/tuba_006_tuba001A_018.ogg"
       },
       "lines": [
         "「はい、せんぱい……こくはく、されました……」"
@@ -1574,7 +1574,7 @@
       "who": "楠木　翼",
       "voice": {
         "id": "TUBA_006_TUBA001A_019",
-        "file": null
+        "file": "voice/tuba_006_tuba001A_019.ogg"
       },
       "lines": [
         "「へんじ……とりあえず、つきあってみようと……」"
@@ -1641,7 +1641,7 @@
       "who": "楠木　翼",
       "voice": {
         "id": "TUBA_006_TUBA001A_020",
-        "file": null
+        "file": "voice/tuba_006_tuba001A_020.ogg"
       },
       "lines": [
         "「どういうひとか、しらないから……とりあえず、",
@@ -1727,7 +1727,7 @@
       "who": "楠木　翼",
       "voice": {
         "id": "TUBA_006_TUBA001A_021",
-        "file": null
+        "file": "voice/tuba_006_tuba001A_021.ogg"
       },
       "lines": [
         "「いいえ……べつに、すきでは、ないです……」"
@@ -1793,7 +1793,7 @@
       "who": "楠木　翼",
       "voice": {
         "id": "TUBA_006_TUBA001A_022",
-        "file": null
+        "file": "voice/tuba_006_tuba001A_022.ogg"
       },
       "lines": [
         "「まことちゃんに、そうだんしたら……とりあえず、",
@@ -1865,7 +1865,7 @@
       "who": "楠木　翼",
       "voice": {
         "id": "TUBA_006_TUBA001A_023",
-        "file": null
+        "file": "voice/tuba_006_tuba001A_023.ogg"
       },
       "lines": [
         "「すきではない……はっきり、ことわる……」"

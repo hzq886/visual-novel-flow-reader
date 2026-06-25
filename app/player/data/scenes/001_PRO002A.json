@@ -20,7 +20,7 @@
       "who": "楠木　翼",
       "voice": {
         "id": "TUBA_001_PRO002A_001",
-        "file": null
+        "file": "voice/tuba_001_pro002A_001.ogg"
       },
       "lines": [
         "「やっとテスト期間が終わったねっ！　ようやく",
@@ -72,7 +72,7 @@
       "who": "望月　真琴",
       "voice": {
         "id": "MAKO_001_PRO002A_001",
-        "file": null
+        "file": "voice/mako_001_pro002A_001.ogg"
       },
       "lines": [
         "「まだ結果が出ていないんだから、安心するのは",
@@ -117,7 +117,7 @@
       "who": "楠木　翼",
       "voice": {
         "id": "TUBA_001_PRO002A_002",
-        "file": null
+        "file": "voice/tuba_001_pro002A_002.ogg"
       },
       "lines": [
         "「大丈夫、赤点は取らないよ！　カズと真琴ちゃんに",
@@ -184,7 +184,7 @@
       "who": "楠木　翼",
       "voice": {
         "id": "TUBA_001_PRO002A_003",
-        "file": null
+        "file": "voice/tuba_001_pro002A_003.ogg"
       },
       "lines": [
         "「というわけで、綾菜さんのお店に行って、テストの",
@@ -249,7 +249,7 @@
       "who": "楠木　翼",
       "voice": {
         "id": "TUBA_001_PRO002A_004",
-        "file": null
+        "file": "voice/tuba_001_pro002A_004.ogg"
       },
       "lines": [
         "「うん、今日はお休みだよ」"
@@ -318,7 +318,7 @@
       "who": "望月　真琴",
       "voice": {
         "id": "MAKO_001_PRO002A_002",
-        "file": null
+        "file": "voice/mako_001_pro002A_002.ogg"
       },
       "lines": [
         "「私も、生徒会の仕事は無いから、久しぶりに三人で",
@@ -367,7 +367,7 @@
       "who": "望月　真琴",
       "voice": {
         "id": "MAKO_001_PRO002A_003",
-        "file": null
+        "file": "voice/mako_001_pro002A_003.ogg"
       },
       "lines": [
         "「翼が赤点を取ったら、また勉強会をしないとね。",
@@ -413,7 +413,7 @@
       "who": "楠木　翼",
       "voice": {
         "id": "TUBA_001_PRO002A_005",
-        "file": null
+        "file": "voice/tuba_001_pro002A_005.ogg"
       },
       "lines": [
         "「あはは……だ、大丈夫だって……たぶんっ！」"
