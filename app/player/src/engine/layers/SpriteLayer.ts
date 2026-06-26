@@ -14,6 +14,9 @@ export class SpriteLayer extends Container {
   private face = new Sprite()
   private cancelFade?: () => void
   private curKey: string | null = null
+  // 現在割り当て中の body/face テクスチャ URL（解放対象から除外する）。
+  private bodyUrl: string | null = null
+  private faceUrl: string | null = null
   private readonly ticker: Ticker
 
   constructor(ticker: Ticker) {
@@ -36,6 +39,8 @@ export class SpriteLayer extends Container {
     const faceTex: Texture | null = faceUrl ? await Assets.load(faceUrl) : null
     if (this.curKey !== key) return
 
+    this.bodyUrl = bodyUrl
+    this.faceUrl = faceUrl
     this.body.texture = bodyTex
     this.body.position.set(GAME_W / 2, GAME_H) // 下中央
 
@@ -54,6 +59,11 @@ export class SpriteLayer extends Container {
     this.cancelFade = tween(this.ticker, FADE_MS, (t) => {
       this.group.alpha = from + (1 - from) * t
     })
+  }
+
+  /** 現在 body/face に割り当て中のテクスチャ URL（テクスチャ解放の除外集合に使う）。 */
+  inUseUrls(): string[] {
+    return [this.bodyUrl, this.faceUrl].filter((u): u is string => u !== null)
   }
 
   hide(): void {

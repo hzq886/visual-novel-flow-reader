@@ -1,7 +1,9 @@
 /**
- * audio/AudioManager — Howler ラッパ。Sprint 1 縦串では voice（台詞 .ogg）再生を担う。
- * beat 進行に同期して当該ボイスを再生し、beat が変わると前のボイスを止める。
- * （プロトタイプのブラウザ TTS プレースホルダを実 .ogg 再生に置換＝廃止。se/bgm は後続。）
+ * audio/AudioManager — Howler ラッパ。voice（台詞）に加え bgm（ループ・シーン跨ぎ継続）と
+ * se（ワンショット）のチャンネルを持つ。voice は beat に同期、bgm/se は scene/beat のキューに同期する。
+ *
+ * 本クラスは**再生機構**を提供する。どの beat で何を鳴らすか（bgm/se キュー）のデータは
+ * scene JSON 側に必要で、その抽出（bytecode RE）は HU-28 で行う。HU-27 時点では voice のみ実配線。
  *
  * Howler は click/touch でしか AudioContext を解除しない。本アプリはキーボードでも beat を
  * 送れるため、ユーザー操作スタック内で suspended の context を明示 resume してから再生する。
@@ -9,9 +11,21 @@
  */
 import { Howl, Howler } from 'howler'
 
+const BGM_FADE_MS = 800
+
 export class AudioManager {
   private voiceCache = new Map<string, Howl>()
   private current: Howl | null = null
+  private seCache = new Map<string, Howl>()
+  private bgm: Howl | null = null
+  private bgmUrl: string | null = null
+
+  /** AudioContext が suspended なら resume してから cb を実行（ユーザー操作スタック内で呼ぶ）。 */
+  private withContext(cb: () => void): void {
+    const ctx = Howler.ctx
+    if (ctx && ctx.state !== 'running') void ctx.resume().then(cb, cb)
+    else cb()
+  }
 
   /** 台詞ボイスを再生（前のボイスは停止）。同一URLは Howl をキャッシュして再利用。 */
   playVoice(url: string): void {
@@ -27,14 +41,10 @@ export class AudioManager {
     const start = () => {
       if (this.current === target) target.play()
     }
-    const whenReady = () => {
+    this.withContext(() => {
       if (target.state() === 'loaded') start()
       else target.once('load', start)
-    }
-
-    const ctx = Howler.ctx
-    if (ctx && ctx.state !== 'running') void ctx.resume().then(whenReady, whenReady)
-    else whenReady()
+    })
   }
 
   /** 再生中のボイスを停止。 */
@@ -43,10 +53,72 @@ export class AudioManager {
     this.current = null
   }
 
-  /** 全 Howl を解放（Stage アンマウント時）。 */
-  destroy(): void {
+  /**
+   * BGM を再生（ループ）。同一 URL が既に鳴っていれば何もしない（シーンを跨いで継続）。
+   * 別曲なら前の BGM をフェードアウトしつつ新曲をフェードインする。
+   */
+  playBgm(url: string): void {
+    if (url === this.bgmUrl) return
+    const prev = this.bgm
+    if (prev) {
+      prev.fade(prev.volume(), 0, BGM_FADE_MS)
+      prev.once('fade', () => prev.stop())
+    }
+    const howl = new Howl({ src: [url], loop: true, volume: 0 })
+    this.bgm = howl
+    this.bgmUrl = url
+    const start = () => {
+      if (this.bgm !== howl) return
+      howl.play()
+      howl.fade(0, 1, BGM_FADE_MS)
+    }
+    this.withContext(() => {
+      if (howl.state() === 'loaded') start()
+      else howl.once('load', start)
+    })
+  }
+
+  /** BGM を停止（フェードアウト）。 */
+  stopBgm(): void {
+    const prev = this.bgm
+    if (prev) {
+      prev.fade(prev.volume(), 0, BGM_FADE_MS)
+      prev.once('fade', () => prev.stop())
+    }
+    this.bgm = null
+    this.bgmUrl = null
+  }
+
+  /** 効果音をワンショット再生（多重再生可）。同一 URL は Howl をキャッシュ。 */
+  playSe(url: string): void {
+    let howl = this.seCache.get(url)
+    if (!howl) {
+      howl = new Howl({ src: [url], preload: true })
+      this.seCache.set(url, howl)
+    }
+    const target = howl
+    this.withContext(() => {
+      if (target.state() === 'loaded') target.play()
+      else target.once('load', () => target.play())
+    })
+  }
+
+  /** voice キャッシュを解放（シーン離脱時。次シードの voice は都度ロードし直す＝メモリを抱えない）。 */
+  releaseVoices(): void {
     this.stopVoice()
     for (const howl of this.voiceCache.values()) howl.unload()
     this.voiceCache.clear()
+  }
+
+  /** 全 Howl を解放（Stage アンマウント時）。 */
+  destroy(): void {
+    this.stopVoice()
+    this.bgm?.stop()
+    this.bgm = null
+    this.bgmUrl = null
+    for (const howl of this.voiceCache.values()) howl.unload()
+    for (const howl of this.seCache.values()) howl.unload()
+    this.voiceCache.clear()
+    this.seCache.clear()
   }
 }

@@ -16,7 +16,13 @@ const scene: Scene = {
 
 // ストアはシングルトン。各テスト前に初期状態へ戻す（actions は安定なので state のみ）。
 beforeEach(() => {
-  usePlayer.setState({ scene: null, index: 0, flags: new Set<string>() })
+  usePlayer.setState({
+    scene: null,
+    index: 0,
+    flags: new Set<string>(),
+    pendingChoice: null,
+    ended: false,
+  })
 })
 
 describe('再生位置 — load / next / prev / goto', () => {
