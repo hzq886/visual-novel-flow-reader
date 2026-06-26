@@ -28,6 +28,21 @@ export const VoiceRef = z.object({
 })
 export type VoiceRef = z.infer<typeof VoiceRef>
 
+// 効果音参照。code は原データの se コード（例 "8351A"）。file=null は未解決（validate が検出）。
+// se キューはシーン脚本 bytecode の再生命令に由来（→ smain_flow_guide.md §4 / src/pipeline/audio.ts）。
+export const SeRef = z.object({
+  code: z.string(),
+  file: z.string().nullable(),
+})
+export type SeRef = z.infer<typeof SeRef>
+
+// BGM 参照。track は素材名（"M01"〜"M16"）。ルート（character）から curated 割当（audio.ts）。
+export const BgmRef = z.object({
+  track: z.string(),
+  file: z.string().nullable(),
+})
+export type BgmRef = z.infer<typeof BgmRef>
+
 // ---- 立ち絵/背景 解決テーブル（build-defs が _SPRSET/_BGSET から生成。resolve* の入力）----
 // _SPRSET.txt の1ブロック。code に body/face の suffix を連結すると素材コードになる
 // （例 code "CH01B_01_02" + body "_003_02" → "CH01B_01_02_003_02"）。
@@ -52,6 +67,7 @@ export const NarrationBeat = z.object({
   lines: z.array(z.string()),
   bg: BgRef.optional(),
   sprite: SpriteRef.optional(),
+  se: z.array(SeRef).optional(), // この beat で鳴らす効果音（ワンショット、複数可）
 })
 export type NarrationBeat = z.infer<typeof NarrationBeat>
 
@@ -62,6 +78,7 @@ export const LineBeat = z.object({
   lines: z.array(z.string()),
   bg: BgRef.optional(),
   sprite: SpriteRef.optional(),
+  se: z.array(SeRef).optional(), // この beat で鳴らす効果音（ワンショット、複数可）
 })
 export type LineBeat = z.infer<typeof LineBeat>
 
@@ -77,6 +94,9 @@ export const Scene = z.object({
   route: z.string(), // "002"（prefix）。意味付けは flow で解釈
   locale: Locale,
   title: z.string().optional(),
+  // シーンの BGM（ルート＝character から curated 割当）。エンジンがシーン跨ぎで継続し、
+  // 別 track のシーンへ遷移時にクロスフェードする（AudioManager.playBgm）。
+  bgm: BgmRef.optional(),
   beats: z.array(Beat),
 })
 export type Scene = z.infer<typeof Scene>

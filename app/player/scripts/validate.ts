@@ -41,6 +41,10 @@ async function main() {
   const { locale, strict } = parseArgs(process.argv.slice(2))
   const problems: Unresolved[] = []
   let voiceTotal = 0 // voice を持つ line beat の総数（解決率の分母）
+  let seTotal = 0 // se 参照の総数（解決率の分母）
+  // manifest があれば se/bgm の未解決＝参照不整合（不正コード/track）として hard fail 扱い。
+  // 無い環境（素材未配置）では se/bgm は file=null/未付与になるため照合をスキップする。
+  const manifestPresent = existsSync(join(DATA_DIR, 'manifest.json'))
 
   if (!existsSync(SCENES_DIR)) {
     console.error('✗ data/scenes/ が無い。先に `npm run data:scenes` を実行してください。')
@@ -86,7 +90,20 @@ async function main() {
             label: beat.voice.id,
           })
       }
+      for (const s of beat.se ?? []) {
+        seTotal++
+        if (manifestPresent && s.file === null)
+          problems.push({ scene: scene.code, beat: i, kind: 'se', ref: 'file', label: s.code })
+      }
     })
+    if (manifestPresent && scene.bgm && scene.bgm.file === null)
+      problems.push({
+        scene: scene.code,
+        beat: -1,
+        kind: 'bgm',
+        ref: 'file',
+        label: scene.bgm.track,
+      })
   }
 
   // flow ↔ シーンコード 相互照合（flow.json があれば）。
@@ -107,8 +124,13 @@ async function main() {
   }
 
   // ---- 集計（カテゴリ別）----
-  // bg/sprite は解決規則/データの穴 → 常に hard fail。voice は素材未同期（HU-26）→ 既定は既知例外。
-  const hard = problems.filter((p) => p.kind === 'bg' || p.kind === 'sprite')
+  // bg/sprite は解決規則/データの穴 → 常に hard fail。se/bgm も manifest 照合の参照不整合なので
+  // hard fail（manifest 不在環境では上で収集しないため 0）。voice は素材未同期（HU-26）→ 既定は既知例外。
+  const hard = problems.filter(
+    (p) => p.kind === 'bg' || p.kind === 'sprite' || p.kind === 'se' || p.kind === 'bgm',
+  )
+  const se = problems.filter((p) => p.kind === 'se')
+  const bgm = problems.filter((p) => p.kind === 'bgm')
   const voice = problems.filter((p) => p.kind === 'voice')
   const voiceResolved = voiceTotal - voice.length
   const voicePct = voiceTotal === 0 ? 100 : (voiceResolved / voiceTotal) * 100
@@ -116,12 +138,13 @@ async function main() {
   // ---- レポート ----
   console.log(`[validate] locale=${locale}  scenes=${sceneFiles.length}  beats=${beatTotal}`)
   console.log(
-    `  未解決内訳: bg/sprite ${hard.length}  /  voice ${voice.length}` +
+    `  未解決内訳: bg/sprite ${hard.length - se.length - bgm.length}  /  se ${se.length}` +
+      `（参照 ${seTotal}）  /  bgm ${bgm.length}  /  voice ${voice.length}` +
       `（voice 解決 ${voiceResolved}/${voiceTotal} = ${voicePct.toFixed(1)}%）`,
   )
 
   if (hard.length > 0) {
-    console.error(`\n✗ bg/sprite 未解決 ${hard.length} 件（解決規則/データの穴）:`)
+    console.error(`\n✗ bg/sprite/se/bgm 未解決 ${hard.length} 件（解決規則/データ/参照の穴）:`)
     for (const p of hard.slice(0, 50))
       console.error(`  ${p.scene} beat#${p.beat} ${p.kind}.${p.ref}  ← ${p.label}`)
     if (hard.length > 50) console.error(`  …他 ${hard.length - 50} 件`)

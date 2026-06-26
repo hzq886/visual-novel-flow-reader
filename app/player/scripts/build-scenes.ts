@@ -17,6 +17,7 @@ import { dirname, join, resolve } from 'node:path'
 import { fileURLToPath } from 'node:url'
 import { parseScene } from '../src/pipeline/scene.ts'
 import { buildVoiceIndex, resolveScene } from '../src/pipeline/resolve.ts'
+import { buildBgmIndex, buildSeIndex } from '../src/pipeline/audio.ts'
 import { BgsetTable, Manifest, SprsetTable, type Locale } from '../src/pipeline/types.ts'
 
 const HERE = dirname(fileURLToPath(import.meta.url)) // app/player/scripts
@@ -52,12 +53,19 @@ async function loadContext() {
 
   const manifestPath = join(DATA_DIR, 'manifest.json')
   let voiceIndex = new Map<string, string>()
+  let seIndex: Map<string, string> | undefined
+  let bgmIndex: Map<string, string> | undefined
   if (existsSync(manifestPath)) {
-    voiceIndex = buildVoiceIndex(Manifest.parse(await readJson(manifestPath)))
+    const manifest = Manifest.parse(await readJson(manifestPath))
+    voiceIndex = buildVoiceIndex(manifest)
+    seIndex = buildSeIndex(manifest)
+    bgmIndex = buildBgmIndex(manifest)
   } else {
-    console.warn('  ⚠ manifest.json 無し → voice は未解決（`npm run assets:fetch` 後に再生成）')
+    console.warn(
+      '  ⚠ manifest.json 無し → voice は未解決・se/bgm は未付与（`npm run assets:fetch` 後に再生成）',
+    )
   }
-  return { sprset, bgset, voiceIndex }
+  return { sprset, bgset, voiceIndex, seIndex, bgmIndex }
 }
 
 async function main() {

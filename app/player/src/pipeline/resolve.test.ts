@@ -5,11 +5,14 @@ import manifestJson from '@data/manifest.json'
 import spritesJson from '@data/sprites.json'
 import fixture from '../../../../data_extract/text/md_scr_text_jp/002_AYAN001A.txt?raw'
 import { buildVoiceIndex, resolveScene, resolveVoice, sceneAssetRefs } from './resolve'
+import { buildBgmIndex, buildSeIndex } from './audio'
 import { parseScene } from './scene'
 import { BgsetTable, Manifest, SprsetTable } from './types'
 
 const manifest = Manifest.parse(manifestJson)
 const voiceIndex = buildVoiceIndex(manifest)
+const seIndex = buildSeIndex(manifest)
+const bgmIndex = buildBgmIndex(manifest)
 
 describe('resolveVoice — manifest 照合', () => {
   it('大小文字が不確実でも manifest の実ファイル名へ解決（末尾 A は大文字維持）', () => {
@@ -40,6 +43,8 @@ describe('resolveScene — 002_AYAN001A 全 beat 解決（受入）', () => {
     sprset,
     bgset,
     voiceIndex,
+    seIndex,
+    bgmIndex,
   })
 
   it('bg.file / sprite.body / sprite.face が全 beat で非 null', () => {
@@ -71,6 +76,16 @@ describe('resolveScene — 002_AYAN001A 全 beat 解決（受入）', () => {
         id: 'AYAN_002_AYAN001A_001',
         file: 'voice/ayan_002_ayan001A_001.ogg',
       })
+  })
+
+  it('se が実ファイルへ解決され、scene.bgm がルート（ayan→M02）から付与される', () => {
+    // 冒頭 narration の効果音 0001D → se/0001d.ogg（大小文字無視）。
+    expect(scene.beats[0].se).toEqual([{ code: '0001D', file: 'se/0001d.ogg' }])
+    // 002 は綾菜ルート → M02。
+    expect(scene.bgm).toEqual({ track: 'M02', file: 'bgm/M02.ogg' })
+    // 全 se 参照が解決済（参照不整合 0）。
+    for (const beat of scene.beats)
+      for (const s of beat.se ?? []) expect(s.file, s.code).not.toBeNull()
   })
 
   it('sceneAssetRefs が参照素材コードを重複なく収集（fetch-assets 用）', () => {

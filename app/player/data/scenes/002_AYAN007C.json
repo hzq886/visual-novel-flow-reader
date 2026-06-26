@@ -59,5 +59,9 @@
         "file": "EV001_01"
       }
     }
-  ]
+  ],
+  "bgm": {
+    "track": "M02",
+    "file": "bgm/M02.ogg"
+  }
 }

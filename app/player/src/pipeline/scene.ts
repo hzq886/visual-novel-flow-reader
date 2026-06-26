@@ -9,6 +9,7 @@
  *  [note] #綾菜（中）・…・にっこり１  … 立ち絵 sticky 更新（#<キャラ>）
  *  [text] 【古橋綾菜】               … 話者マーカー。直後のセリフ beat に適用（使い切り）
  *  [id]   AYAN_002_AYAN001A_001     … ボイスID（シーンコードを内包）→ 次のセリフ beat へ
+ *  [id]   8351A                     … 効果音コード（4桁+英字）→ 現 beat（無ければ次 beat）へ
  *  [text] 「あら、お帰りなさい。和くん」 … セリフ（「」）。「」のバランスで複数行を 1 beat に集約
  *
  * 話者は `【】` が無い場合、ボイスID接頭辞（AYAN 等）→ 話者名 の学習辞書で継承する
@@ -16,7 +17,8 @@
  * bg/sprite は beat 生成時点の sticky 値をスナップショット（注記は次 beat 以降に効く）。
  * 素材ファイルの実体解決（manifest 照合）は別工程（resolve*）。ここでは label のみ付与。
  */
-import { Scene, type Beat, type BgRef, type Locale, type SpriteRef } from './types'
+import { Scene, type Beat, type BgRef, type Locale, type SeRef, type SpriteRef } from './types'
+import { SE_RE } from './audio'
 
 type Draft = {
   kind: 'narration' | 'line'
@@ -25,6 +27,7 @@ type Draft = {
   lines: string[]
   bg?: BgRef
   sprite?: SpriteRef
+  se?: SeRef[]
 }
 
 function escapeRegExp(s: string): string {
@@ -34,7 +37,8 @@ function escapeRegExp(s: string): string {
 export function parseScene(text: string, opts: { code: string; locale: Locale }): Scene {
   const { code, locale } = opts
   const route = code.split('_')[0] ?? code
-  // ボイスID = <CHAR>_<sceneCode>_<serial>。制御マーカー（BG_BLACK/OFF/0001D/MIX…）は除外。
+  // ボイスID = <CHAR>_<sceneCode>_<serial>。se コード（0001D 等）は別途 se として取り込み、
+  // その他の制御マーカー（BG_BLACK/OFF/MIX…）は無視する。
   const voiceRe = new RegExp(`^[A-Z]+_${escapeRegExp(code)}_\\d+[A-Z]?$`)
 
   const beats: Beat[] = []
@@ -42,6 +46,7 @@ export function parseScene(text: string, opts: { code: string; locale: Locale })
   let cur: Draft | null = null
   let pendingSpeaker: string | null = null
   let pendingVoice: string | null = null
+  let pendingSe: SeRef[] = [] // beat 生成前に現れた se は次 beat へ持ち越す
   let stickyBg: BgRef | undefined
   let stickySprite: SpriteRef | undefined
   let quoteDepth = 0
@@ -52,10 +57,18 @@ export function parseScene(text: string, opts: { code: string; locale: Locale })
     if (cur) beats.push(cur as Beat)
     cur = null
   }
-  const snapshot = (): { bg?: BgRef; sprite?: SpriteRef } => ({
-    ...(stickyBg ? { bg: stickyBg } : {}),
-    ...(stickySprite ? { sprite: stickySprite } : {}),
-  })
+  // beat 生成時のスナップショット: bg/sprite の sticky 値＋持ち越し中の se を取り込む（se は使い切り）。
+  const snapshot = (): { bg?: BgRef; sprite?: SpriteRef; se?: SeRef[] } => {
+    const snap: { bg?: BgRef; sprite?: SpriteRef; se?: SeRef[] } = {
+      ...(stickyBg ? { bg: stickyBg } : {}),
+      ...(stickySprite ? { sprite: stickySprite } : {}),
+    }
+    if (pendingSe.length) {
+      snap.se = pendingSe
+      pendingSe = []
+    }
+    return snap
+  }
 
   for (const rawLine of text.split(/\r?\n/)) {
     const m = /^\[(text|id|note)\]\s?(.*)$/.exec(rawLine)
@@ -72,6 +85,11 @@ export function parseScene(text: string, opts: { code: string; locale: Locale })
 
     if (tag === 'id') {
       if (voiceRe.test(val)) pendingVoice = val
+      // 効果音コード（4桁+英字）。現 beat があればそこへ、無ければ次 beat へ持ち越す。
+      else if (SE_RE.test(val)) {
+        if (cur) (cur.se ??= []).push({ code: val, file: null })
+        else pendingSe.push({ code: val, file: null })
+      }
       continue
     }
 
