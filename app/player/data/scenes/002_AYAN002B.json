@@ -24,7 +24,13 @@
       "bg": {
         "label": "#EV014・切なげ・穿いてる",
         "file": "EV014_01"
-      }
+      },
+      "se": [
+        {
+          "code": "8131A",
+          "file": "se/8131a.ogg"
+        }
+      ]
     },
     {
       "kind": "narration",
@@ -179,7 +185,13 @@
       "bg": {
         "label": "#EV014・目閉じ・穿いてる",
         "file": "EV014_02"
-      }
+      },
+      "se": [
+        {
+          "code": "8131B",
+          "file": "se/8131b.ogg"
+        }
+      ]
     },
     {
       "kind": "narration",
@@ -328,7 +340,13 @@
       "bg": {
         "label": "#EV014・目閉じ・穿いてる",
         "file": "EV014_02"
-      }
+      },
+      "se": [
+        {
+          "code": "8131C",
+          "file": "se/8131c.ogg"
+        }
+      ]
     },
     {
       "kind": "narration",
@@ -607,7 +625,13 @@
       "bg": {
         "label": "#EV014・目閉じ・穿いてる・愛液染み",
         "file": "EV014_03"
-      }
+      },
+      "se": [
+        {
+          "code": "1201B",
+          "file": "se/1201b.ogg"
+        }
+      ]
     },
     {
       "kind": "line",
@@ -622,7 +646,13 @@
       "bg": {
         "label": "#EV014・目閉じ・脱いでる・愛液",
         "file": "EV014_04"
-      }
+      },
+      "se": [
+        {
+          "code": "8321A",
+          "file": "se/8321a.ogg"
+        }
+      ]
     },
     {
       "kind": "narration",
@@ -851,7 +881,13 @@
       "bg": {
         "label": "#EV014・うっとり・脱いでる・愛液",
         "file": "EV014_05"
-      }
+      },
+      "se": [
+        {
+          "code": "8351A",
+          "file": "se/8351a.ogg"
+        }
+      ]
     },
     {
       "kind": "narration",
@@ -927,5 +963,9 @@
         "file": "EV014_06"
       }
     }
-  ]
+  ],
+  "bgm": {
+    "track": "M02",
+    "file": "bgm/M02.ogg"
+  }
 }

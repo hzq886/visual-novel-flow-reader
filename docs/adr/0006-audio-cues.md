@@ -1,0 +1,62 @@
+# ADR 0006: 効果音（se）・BGM のキュー抽出と割当
+
+- ステータス: 採択（2026-06-27）
+- 関連: [0002 データスキーマ](0002-data-schema.md) / [0003 アセットパイプライン](0003-asset-pipeline.md) / [0004 ボイス解決](0004-voice-resolution.md) / [`smain_flow_guide.md` §3.9](../../data_extract/text/_tools/smain_flow_guide.md)
+
+## コンテキスト
+
+HU-27 で全編エンジン化したが、bgm/se の**再生キュー**がシーンデータに無く実際に鳴らせなかった。
+bgm 素材は `M01〜M16`、se は `8351a` 等の汎用名で、原テキスト（`[text]/[id]/[note]`）に bgm 名が
+出ないことから、当初は「音声キューは bytecode 側」と想定して HU-28 を切り出した（[HU-28]）。
+
+bytecode RE（[`smain_flow_guide.md` §3.9](../../data_extract/text/_tools/smain_flow_guide.md)）の結論:
+
+- **se は bytecode に存在し抽出可能**。シーン脚本の `0x6c` が se 再生命令で、se コードは各シーンの
+  文字列表に大文字で並ぶ。同コードは `extract_text.py` の `[id]` マーカーにも現れる（文字列表ダンプ）。
+- **bgm（M01-M16 のトラック選択）は `md_scr.med` に一切エンコードされていない**（全 opcode/SMAIN/
+  定義表/文字列を網羅確認済。`MUSIC:N` はタイトルメニュー専用）。恐らく実行ファイル側にハードコード。
+
+## 決定
+
+### スキーマ（types.ts）
+
+- `SeRef{code, file|null}` を追加。`Beat.se?: SeRef[]`（narration/line とも、1 beat に複数可）。
+- `BgmRef{track, file|null}` を追加。`Scene.bgm?: BgmRef`（シーン単位）。
+- 既存同様 **`file=null` は未解決**を表し `validate` が検出する。
+
+### se の抽出（テキスト `[id]` 経由）
+
+- `parseScene` が `[id]` マーカーのうち se コード（`SE_RE = ^\d{4}[A-Za-z]$`）を beat に取り込む
+  （ボイスID `CHAR_..._NN` や選択肢ID `<scene>_NN_MM`、制御マーカー `BG_BLACK` 等とは別形式）。
+  現 beat があればそこへ、無ければ次 beat へ持ち越す。
+- bytecode（`0x6c`）でなくテキスト `[id]` を採るのは: (a) 文字列表ダンプが 0x6c の 393 件より多い
+  641 件（0x01 経由分を含む）で**より完全**、(b) jp/cn 両テキストに同位置で現れ整列問題が無い、
+  (c) `parseScene`（voice と同流儀）に自然に統合できるため。bytecode RE はどの `[id]` が se かを
+  実証した役割。
+- `resolveScene` が manifest で実ファイルへ解決（se は小文字 `8351a.ogg`、ボイス同様大小文字無視）。
+
+### bgm の割当（ルート＝character ベースの curated 対応）
+
+- bgm はデータに無いため、**シーンコードの character（ルート）→ M01-M16 を `BGM_BY_CHARACTER`
+  （`src/pipeline/audio.ts`）で curated 割当**する。`build-scenes` が `Scene.bgm` を付与。
+- これは抽出値ではなく**編集可能な対応表**。正確な対応（実行ファイル解析や実聴）が判明したら差し替える。
+- エンジン（`AudioManager.playBgm`）は同 track をシーン跨ぎで継続（同 URL は no-op）し、track が変わる
+  遷移でクロスフェードする → 受入「bgm がシーンを跨いで継続・場面/ルート転換で切替」を満たす。
+
+### エンジン配線（Stage.tsx）
+
+- シーン変更で `playBgm(scene.bgm.file)`、各 beat 描画で `playSe(beat.se[*].file)`、終端で `stopBgm`。
+- `AudioManager`（HU-27 実装の bgm/se/voice チャンネル）は変更なし。
+
+### validate
+
+- manifest がある環境では se/bgm の `file=null`（参照不整合）を **hard fail**（bg/sprite と同列）。
+  manifest が無い環境（素材未配置）では se は file=null・bgm 未付与になるため照合をスキップ。
+
+## 帰結
+
+- 主要ルートで bgm がシーンを跨いで継続し、ルート転換でクロスフェードする。se は該当 beat で鳴る。
+- `validate`：se 641 参照・bgm 288 シーンとも未解決 0（manifest 同期済）。
+- BGM の track 対応は暫定（curated）。実聴での補正は `BGM_BY_CHARACTER` の編集で完結し、再ビルド不要の
+  低リスク変更。H シーン等のムード別 bgm 変化（ルート内変動）は未対応＝将来の精緻化余地。
+- BGV（`BGV_*` ループ喘ぎ、VOL_BGCV）は本 ADR のスコープ外（se/bgm のみ）。

@@ -93,7 +93,40 @@ describe('parseScene — 002_AYAN001A (golden)', () => {
     expect(line.voice).toEqual({ id: 'AYAN_002_AYAN001A_001', file: null })
   })
 
+  it('se [id] マーカー（4桁+英字）を beat に取り込む', () => {
+    // 冒頭 narration に効果音 0001D（ボイスIDではないため voice にはならない）。
+    expect(scene.beats[0].se).toEqual([{ code: '0001D', file: null }])
+  })
+
   it('完全スナップショット', () => {
     expect(scene).toMatchSnapshot()
+  })
+})
+
+describe('parseScene — se の beat への割当（pending/current）', () => {
+  const text = [
+    '[id] 0001a', // beat 生成前 → 持ち越して最初の beat へ
+    '[text] 地の文です。',
+    '[text] 【話者】',
+    '[id] 8201B', // 話者マーカーで flush 済 → 持ち越して次のセリフ beat へ
+    '[text] 「セリフだよ」',
+    '[id] 9001A', // セリフ beat が active → その beat へ追加
+    '[text] 続く地の文。',
+  ].join('\n')
+  const s = parseScene(text, { code: '999_TEST001A', locale: 'jp' })
+
+  it('生成前の se は最初の beat へ持ち越す', () => {
+    expect(s.beats[0].kind).toBe('narration')
+    expect(s.beats[0].se).toEqual([{ code: '0001a', file: null }])
+  })
+  it('話者直後の se は次のセリフ beat へ、active 中の se は同 beat へ追加', () => {
+    expect(s.beats[1].kind).toBe('line')
+    expect(s.beats[1].se).toEqual([
+      { code: '8201B', file: null },
+      { code: '9001A', file: null },
+    ])
+  })
+  it('se の無い beat は se を持たない', () => {
+    expect(s.beats[2].se).toBeUndefined()
   })
 })

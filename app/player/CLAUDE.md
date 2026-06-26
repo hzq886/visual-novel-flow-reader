@@ -48,6 +48,8 @@ Vite + TypeScript + React / VN描画=**PixiJS**(WebGL) / ルート図=**React Fl
 - シーンコード: `NNN_XXX###[suffix]`（例 `002_AYAN001A`）。
 - ボイスID: `CHAR_ROUTE_SCENE_serial`（例 `AYAN_002_AYAN001A_001`）→ ファイル名は **manifest を真実の源**に照合（大小文字変換は不確実）。
 - 立ち絵/背景: `[note]` ラベル経由で `_SPRSET.txt`/`_BGSET.txt` から解決（`sprites.json`/`backgrounds.json`）。
+- 効果音(se): `[id]` の se コード（`^\d{4}[A-Za-z]$`、例 `8351A`）を `parseScene` が `Beat.se` に取り込み、manifest で実ファイルへ解決（大小文字無視）。bytecode RE で `0x6c` が se 再生命令と確認（HU-28、[ADR 0006](../../docs/adr/0006-audio-cues.md) / [`smain_flow_guide.md` §3.9](../../data_extract/text/_tools/smain_flow_guide.md)）。
+- BGM: **トラック選択は原データに無い**（網羅確認済）。シーンの character（ルート）→ M01-M16 を `src/pipeline/audio.ts` の `BGM_BY_CHARACTER` で**curated 割当**（編集可。`Scene.bgm`）。エンジンはシーン跨ぎ継続＋track 変化でクロスフェード。
 - 言語: **日本語(jp)主軸**。スキーマは locale 対応、cn は後続スプリントで同パイプラインを流す。
 
 ## フロー復元の出典（重要）

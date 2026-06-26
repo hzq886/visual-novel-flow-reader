@@ -72,5 +72,9 @@
         "file": "EV001_11"
       }
     }
-  ]
+  ],
+  "bgm": {
+    "track": "M03",
+    "file": "bgm/M03.ogg"
+  }
 }

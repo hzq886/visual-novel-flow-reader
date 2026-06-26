@@ -14,7 +14,13 @@
       "bg": {
         "label": "#EV010・虚ろ目ぼんやり",
         "file": "EV010_01"
-      }
+      },
+      "se": [
+        {
+          "code": "9001A",
+          "file": "se/9001a.ogg"
+        }
+      ]
     },
     {
       "kind": "narration",
@@ -451,7 +457,13 @@
       "bg": {
         "label": "#EV011・微笑み・横向き穿いてる・愛液染み",
         "file": "EV011_11"
-      }
+      },
+      "se": [
+        {
+          "code": "1201B",
+          "file": "se/1201b.ogg"
+        }
+      ]
     },
     {
       "kind": "narration",
@@ -1113,5 +1125,9 @@
         "file": "EV011_13"
       }
     }
-  ]
+  ],
+  "bgm": {
+    "track": "M04",
+    "file": "bgm/M04.ogg"
+  }
 }

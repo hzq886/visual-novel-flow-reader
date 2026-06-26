@@ -11,8 +11,9 @@
  * manifest のファイル名を小文字化キーで索引し、ID も小文字化して引く（実体の正規名を返す）。
  * 規則は docs/adr/0004-voice-resolution.md 参照。
  */
+import { bgmTrackForScene, resolveBgm, resolveSe } from './audio'
 import { resolveBg, resolveSprite } from './defs'
-import type { BgsetTable, Manifest, Scene, SprsetTable, VoiceRef } from './types'
+import type { BgsetTable, Manifest, Scene, SeRef, SprsetTable, VoiceRef } from './types'
 
 /** manifest の voice エントリを「小文字 basename（拡張子なし）→ 実パス」で索引。 */
 export function buildVoiceIndex(manifest: Manifest): Map<string, string> {
@@ -34,6 +35,8 @@ export type ResolveContext = {
   sprset: SprsetTable
   bgset: BgsetTable
   voiceIndex: Map<string, string>
+  seIndex?: Map<string, string> // se コード（小文字）→ ファイル。未指定なら se は file=null のまま
+  bgmIndex?: Map<string, string> // bgm track（"M01"）→ ファイル。未指定なら bgm 未付与
 }
 
 /**
@@ -53,10 +56,17 @@ export function sceneAssetRefs(scene: Scene): { cg: string[]; sprite: string[]; 
   return { cg: [...cg], sprite: [...sprite], voice: [...voice] }
 }
 
-/** Scene の全 beat の bg/sprite/voice を解決した新しい Scene を返す。 */
+/** Scene の全 beat の bg/sprite/voice/se と、シーンの bgm を解決した新しい Scene を返す。 */
 export function resolveScene(scene: Scene, ctx: ResolveContext): Scene {
+  // se: seIndex があれば各コードを実ファイルへ解決、無ければ parseScene の値（file=null）のまま。
+  const resolveSeList = (se: SeRef[] | undefined): { se?: SeRef[] } => {
+    if (!se) return {}
+    return { se: ctx.seIndex ? se.map((s) => resolveSe(ctx.seIndex!, s.code)) : se }
+  }
+  const bgm = ctx.bgmIndex ? { bgm: resolveBgm(ctx.bgmIndex, bgmTrackForScene(scene.code)) } : {}
   return {
     ...scene,
+    ...bgm,
     beats: scene.beats.map((beat) => {
       const bg = beat.bg ? resolveBg(ctx.bgset, beat.bg.label) : undefined
       const sprite = beat.sprite ? resolveSprite(ctx.sprset, beat.sprite.label) : undefined
@@ -66,9 +76,15 @@ export function resolveScene(scene: Scene, ctx: ResolveContext): Scene {
           ...(bg ? { bg } : {}),
           ...(sprite ? { sprite } : {}),
           ...(beat.voice ? { voice: resolveVoice(ctx.voiceIndex, beat.voice.id) } : {}),
+          ...resolveSeList(beat.se),
         }
       }
-      return { ...beat, ...(bg ? { bg } : {}), ...(sprite ? { sprite } : {}) }
+      return {
+        ...beat,
+        ...(bg ? { bg } : {}),
+        ...(sprite ? { sprite } : {}),
+        ...resolveSeList(beat.se),
+      }
     }),
   }
 }

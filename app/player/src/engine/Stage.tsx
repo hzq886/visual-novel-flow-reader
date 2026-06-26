@@ -82,6 +82,8 @@ export function Stage() {
           // 字幕と同期して実ボイスを再生（台詞のみ）。地の文では前のボイスを止める。
           if (beat.kind === 'line' && beat.voice?.file) audio.playVoice(assetUrl(beat.voice.file))
           else audio.stopVoice()
+          // この beat の効果音（ワンショット、複数可）を再生。
+          for (const s of beat.se ?? []) if (s.file) audio.playSe(assetUrl(s.file))
         }
 
         // シーン切替時: 旧シーン専用のテクスチャ/ボイスを解放。クロスフェード完了後に、
@@ -89,6 +91,8 @@ export function Stage() {
         // （表示中テクスチャを解放すると addressModeU 例外になるため必ず除外）。
         let prevUrls: string[] = []
         const onSceneChange = (s: Scene) => {
+          // BGM はシーンを跨いで継続（同 track は no-op）、track が変わるシーンでクロスフェード。
+          if (s.bgm?.file) audio.playBgm(assetUrl(s.bgm.file))
           const leaving = prevUrls
           prevUrls = sceneAssetUrls(s)
           audio.releaseVoices()
@@ -104,6 +108,7 @@ export function Stage() {
 
         // ストアを購読して描画（シーン変更＝先頭 beat、index 変更＝該当 beat）。
         const unsub = usePlayer.subscribe((s, prev) => {
+          if (s.ended && !prev.ended) audio.stopBgm() // 終端で BGM を止める
           if (!s.scene) return
           if (s.scene !== prev.scene) {
             onSceneChange(s.scene)

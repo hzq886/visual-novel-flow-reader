@@ -1396,7 +1396,13 @@
       "bg": {
         "label": "#EV033・舌の絡め",
         "file": "EV033_09"
-      }
+      },
+      "se": [
+        {
+          "code": "8351A",
+          "file": "se/8351a.ogg"
+        }
+      ]
     },
     {
       "kind": "narration",
@@ -1495,5 +1501,9 @@
         "file": "EV033_09"
       }
     }
-  ]
+  ],
+  "bgm": {
+    "track": "M04",
+    "file": "bgm/M04.ogg"
+  }
 }
