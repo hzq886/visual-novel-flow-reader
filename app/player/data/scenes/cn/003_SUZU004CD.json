@@ -1,0 +1,20 @@
+{
+  "code": "003_SUZU004CD",
+  "route": "003",
+  "locale": "cn",
+  "beats": [
+    {
+      "kind": "narration",
+      "lines": [
+        "3蹼",
+        "3蹼",
+        "如果忍住第二次射精",
+        "如果第二次也射精了"
+      ]
+    }
+  ],
+  "bgm": {
+    "track": "M03",
+    "file": "bgm/M03.ogg"
+  }
+}

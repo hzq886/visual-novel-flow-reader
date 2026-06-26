@@ -1,0 +1,147 @@
+{
+  "code": "009_NUKE001",
+  "route": "009",
+  "locale": "cn",
+  "beats": [
+    {
+      "kind": "line",
+      "who": "古桥绫菜",
+      "voice": {
+        "id": "AYAN_009_NUKE001_001",
+        "file": "voice/ayan_009_nuke001_001.ogg"
+      },
+      "lines": [
+        "「嗯，好的。我会拿来冷饮和热毛巾的」"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "古桥绫菜",
+      "voice": {
+        "id": "AYAN_009_NUKE001_002",
+        "file": "voice/ayan_009_nuke001_002.ogg"
+      },
+      "lines": [
+        "「蛋糕费用我会免费的」"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "古桥绫菜",
+      "voice": {
+        "id": "AYAN_009_NUKE001_003",
+        "file": "voice/ayan_009_nuke001_003.ogg"
+      },
+      "lines": [
+        "「嘛，我们家庭又增加了一个人！真开心！」"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "古桥绫菜",
+      "voice": {
+        "id": "AYAN_009_NUKE001_004",
+        "file": "voice/ayan_009_nuke001_004.ogg"
+      },
+      "lines": [
+        "「是侄子呢，还是侄女呢？不管哪个，肯定都是可爱的孩子！呵呵」"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "古桥凉菜",
+      "voice": {
+        "id": "SUZU_009_NUKE001_001",
+        "file": "voice/suzu_009_nuke001_001.ogg"
+      },
+      "lines": [
+        "「在你毕业并开始工作之前，我会支持你的。",
+        "经济上的担忧不用担心哦？呵呵」"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "古桥凉菜",
+      "voice": {
+        "id": "SUZU_009_NUKE001_002",
+        "file": "voice/suzu_009_nuke001_002.ogg"
+      },
+      "lines": [
+        "「要当爸爸了，以后要加油哦。",
+        "我们也会支持你的」"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "古桥绫菜",
+      "voice": {
+        "id": "AYAN_009_NUKE001_005",
+        "file": "voice/ayan_009_nuke001_005.ogg"
+      },
+      "lines": [
+        "「有女仆帮忙真是太好了」"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "古桥凉菜",
+      "voice": {
+        "id": "SUZU_009_NUKE001_003",
+        "file": "voice/suzu_009_nuke001_003.ogg"
+      },
+      "lines": [
+        "「是啊，要是早点雇佣就好了」"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "古桥凉菜",
+      "voice": {
+        "id": "SUZU_009_NUKE001_004",
+        "file": "voice/suzu_009_nuke001_004.ogg"
+      },
+      "lines": [
+        "「早上好。吃完早餐，赶紧去吧」"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "古桥绫菜",
+      "voice": {
+        "id": "AYAN_009_NUKE001_006",
+        "file": "voice/ayan_009_nuke001_006.ogg"
+      },
+      "lines": [
+        "「自己的餐具要好好洗哦」"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "古桥绫菜",
+      "voice": {
+        "id": "AYAN_009_NUKE001_007",
+        "file": "voice/ayan_009_nuke001_007.ogg"
+      },
+      "lines": [
+        "「啊，凉酱。今天和郡山先生约会，",
+        "可能会有点……嗯，其实会很晚回来的」"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "古桥凉菜",
+      "voice": {
+        "id": "SUZU_009_NUKE001_005",
+        "file": "voice/suzu_009_nuke001_005.ogg"
+      },
+      "lines": [
+        "「哦，是吗？那就在外面解决吧。",
+        "和树你自己买点吃的吧」"
+      ]
+    }
+  ],
+  "bgm": {
+    "track": "M15",
+    "file": "bgm/M15.ogg"
+  }
+}

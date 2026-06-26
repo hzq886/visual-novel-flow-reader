@@ -1,11 +1,13 @@
 /**
  * build-scenes — data_extract/text のシーンファイルに parseScene を適用し、
- * bg/sprite/voice を実ファイル参照へ解決して data/scenes/<code>.json を生成する。
+ * bg/sprite/voice を実ファイル参照へ解決して data/scenes/<locale>/<code>.json を生成する。
+ * 出力は locale 別ディレクトリに分離（jp/cn を相互に上書きしない）。bg/sprite/voice/se/bgm の
+ * 実体は jp/cn で同一（cn の note は日本語ラベルのまま）なので manifest/defs は jp 用を共用する。
  *
  * 使い方:
- *   npm run data:scenes                      # 全シーン（jp）
+ *   npm run data:scenes                      # 全シーン（jp）→ data/scenes/jp/
  *   npm run data:scenes -- --scene 002_AYAN001A
- *   npm run data:scenes -- --locale cn
+ *   npm run data:scenes -- --locale cn       # → data/scenes/cn/
  *
  * 解決には data/sprites.json・data/backgrounds.json（`npm run data:defs`）と
  * data/manifest.json（`npm run assets:fetch`）が要る。manifest 未収録の voice は file=null
@@ -81,8 +83,10 @@ async function main() {
 
   const ctx = await loadContext()
 
-  await rm(SCENES_DIR, { recursive: true, force: true })
-  await mkdir(SCENES_DIR, { recursive: true })
+  // locale 別ディレクトリのみを作り直す（他ロケールの出力は温存）。
+  const outDir = join(SCENES_DIR, locale)
+  await rm(outDir, { recursive: true, force: true })
+  await mkdir(outDir, { recursive: true })
 
   let ok = 0
   const skipped: string[] = []
@@ -97,17 +101,15 @@ async function main() {
       skipped.push(code)
       continue
     }
-    await writeFile(
-      join(SCENES_DIR, `${code}.json`),
-      JSON.stringify(resolved, null, 2) + '\n',
-      'utf8',
-    )
+    await writeFile(join(outDir, `${code}.json`), JSON.stringify(resolved, null, 2) + '\n', 'utf8')
     ok++
     beatTotal += resolved.beats.length
   }
 
   console.log(`[build-scenes] locale=${locale}  source=${textDir}`)
-  console.log(`  ✓ ${ok} シーン → data/scenes/  （計 ${beatTotal} beats、bg/sprite/voice 解決済）`)
+  console.log(
+    `  ✓ ${ok} シーン → data/scenes/${locale}/  （計 ${beatTotal} beats、bg/sprite/voice 解決済）`,
+  )
   if (skipped.length > 0)
     console.log(
       `  ⏭ ${skipped.length} 件スキップ（複合シーン: 本文なし・[id] 参照のみ。flow は構成アトムを参照）`,

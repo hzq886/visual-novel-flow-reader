@@ -1,5 +1,5 @@
 /**
- * validate — data/scenes/*.json の全 beat で bg.file / sprite.body|face / voice.file の
+ * validate — data/scenes/<locale>/*.json の全 beat で bg.file / sprite.body|face / voice.file の
  * 未解決（null）を集計し、flow.json があれば参照シーンコードが原テキストに実在するか相互照合する。
  *
  * 合否方針（HU-25）: bg/sprite 未解決と flow 不在は**解決規則/データの穴**なので常に失敗。
@@ -46,19 +46,24 @@ async function main() {
   // 無い環境（素材未配置）では se/bgm は file=null/未付与になるため照合をスキップする。
   const manifestPresent = existsSync(join(DATA_DIR, 'manifest.json'))
 
-  if (!existsSync(SCENES_DIR)) {
-    console.error('✗ data/scenes/ が無い。先に `npm run data:scenes` を実行してください。')
+  const sceneDir = join(SCENES_DIR, locale)
+  if (!existsSync(sceneDir)) {
+    console.error(
+      `✗ data/scenes/${locale}/ が無い。先に \`npm run data:scenes${locale === 'jp' ? '' : ' -- --locale ' + locale}\` を実行してください。`,
+    )
     process.exit(1)
   }
-  const sceneFiles = (await readdir(SCENES_DIR)).filter((f) => f.endsWith('.json')).sort()
+  const sceneFiles = (await readdir(sceneDir)).filter((f) => f.endsWith('.json')).sort()
   if (sceneFiles.length === 0) {
-    console.error('✗ data/scenes/ が空。`npm run data:scenes` でシーンを生成してください。')
+    console.error(
+      `✗ data/scenes/${locale}/ が空。\`npm run data:scenes\` でシーンを生成してください。`,
+    )
     process.exit(1)
   }
 
   let beatTotal = 0
   for (const file of sceneFiles) {
-    const scene = Scene.parse(await readJson(join(SCENES_DIR, file)))
+    const scene = Scene.parse(await readJson(join(sceneDir, file)))
     scene.beats.forEach((beat, i) => {
       beatTotal++
       if (beat.bg && beat.bg.file === null)

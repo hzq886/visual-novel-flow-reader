@@ -1,0 +1,133 @@
+{
+  "code": "001_PRO003F",
+  "route": "001",
+  "locale": "cn",
+  "beats": [
+    {
+      "kind": "line",
+      "who": "楠木裕司",
+      "voice": {
+        "id": "MOBD_001_PRO003F_001",
+        "file": "voice/mobd_001_pro003F_001.ogg"
+      },
+      "lines": [
+        "「对不起对不起！谢谢你」"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "楠木裕司",
+      "voice": {
+        "id": "MOBD_001_PRO003F_002",
+        "file": "voice/mobd_001_pro003F_002.ogg"
+      },
+      "lines": [
+        "「啊，我去一下。我爱你，枫」"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "楠木裕司",
+      "voice": {
+        "id": "MOBD_001_PRO003F_003",
+        "file": "voice/mobd_001_pro003F_003.ogg"
+      },
+      "lines": [
+        "「嗨，早上好。你来接翼了吗？」"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "楠木裕司",
+      "voice": {
+        "id": "MOBD_001_PRO003F_004",
+        "file": "voice/mobd_001_pro003F_004.ogg"
+      },
+      "lines": [
+        "「那我走了，以后就拜托了」"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "楠木裕司",
+      "voice": {
+        "id": "MOBD_001_PRO003F_005",
+        "file": "voice/mobd_001_pro003F_005.ogg"
+      },
+      "lines": [
+        "「欢迎。今天有什么事吗」"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "楠木裕司",
+      "voice": {
+        "id": "MOBD_001_PRO003F_006",
+        "file": "voice/mobd_001_pro003F_006.ogg"
+      },
+      "lines": [
+        "「是吗，慢慢走吧」"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "楠木裕司",
+      "voice": {
+        "id": "MOBD_001_PRO003F_007",
+        "file": "voice/mobd_001_pro003F_007.ogg"
+      },
+      "lines": [
+        "「哦，要回去了吗？注意安全哦」"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "楠木裕司",
+      "voice": {
+        "id": "MOBD_001_PRO003F_008",
+        "file": "voice/mobd_001_pro003F_008.ogg"
+      },
+      "lines": [
+        "「再见。随时都可以来」"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "楠木裕司",
+      "voice": {
+        "id": "MOBD_001_PRO003F_009",
+        "file": "voice/mobd_001_pro003F_009.ogg"
+      },
+      "lines": [
+        "「嗯，还是个学生，可能有点冲动呢」"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "楠木裕司",
+      "voice": {
+        "id": "MOBD_001_PRO003F_010",
+        "file": "voice/mobd_001_pro003F_010.ogg"
+      },
+      "lines": [
+        "「嘛，现在说也没用了。和树，好好让女儿幸福啊」"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "楠木裕司",
+      "voice": {
+        "id": "MOBD_001_PRO003F_011",
+        "file": "voice/mobd_001_pro003F_011.ogg"
+      },
+      "lines": [
+        "「哎呀，这么快就有孙子了啊！",
+        "和树，好好让翼幸福啊！」"
+      ]
+    }
+  ],
+  "bgm": {
+    "track": "M01",
+    "file": "bgm/M01.ogg"
+  }
+}

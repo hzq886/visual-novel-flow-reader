@@ -1,6 +1,7 @@
 import { beforeEach, describe, expect, it } from 'vitest'
 import type { Scene } from '@/pipeline/types'
 import { usePlayer } from './player'
+import { loadScene } from '@/engine/sceneLoader'
 
 // 最小シーン（3 beat）。types の Beat 判別共用体に沿った地の文ビート。
 const scene: Scene = {
@@ -19,6 +20,7 @@ beforeEach(() => {
   usePlayer.setState({
     scene: null,
     index: 0,
+    locale: 'jp',
     flags: new Set<string>(),
     pendingChoice: null,
     ended: false,
@@ -111,5 +113,44 @@ describe('ルートフラグ — set / unset / has / reset', () => {
     expect(usePlayer.getState().hasFlag('f1')).toBe(true)
     usePlayer.getState().resetFlags()
     expect(usePlayer.getState().flags.size).toBe(0)
+  })
+})
+
+// setLocale は実生成物（data/scenes/<locale>/）を動的ロードする結合テスト。
+describe('言語切替 — setLocale（jp⇄cn）', () => {
+  it('同一ロケールへの切替は no-op（scene 参照を変えない）', async () => {
+    const jp = await loadScene('002_AYAN001A', 'jp')
+    usePlayer.getState().load(jp)
+    await usePlayer.getState().setLocale('jp')
+    expect(usePlayer.getState().locale).toBe('jp')
+    expect(usePlayer.getState().scene).toBe(jp)
+  })
+
+  it('シーン未読込なら locale だけ更新する', async () => {
+    await usePlayer.getState().setLocale('cn')
+    expect(usePlayer.getState().locale).toBe('cn')
+    expect(usePlayer.getState().scene).toBeNull()
+  })
+
+  it('beats 整合シーンでは再生位置（index）を保ったまま cn 本文へ差し替える', async () => {
+    const jp = await loadScene('002_AYAN001A', 'jp')
+    usePlayer.getState().load(jp)
+    usePlayer.getState().goto(3)
+    await usePlayer.getState().setLocale('cn')
+    const st = usePlayer.getState()
+    expect(st.locale).toBe('cn')
+    expect(st.scene?.locale).toBe('cn')
+    expect(st.index).toBe(3) // 002_AYAN001A は jp/cn で beats 一致 → 位置維持
+  })
+
+  it('cn の方が beats が少ないシーンでは index を末尾へクランプする', async () => {
+    const jp = await loadScene('002_AYAN010B', 'jp') // jp=180 / cn=57 beats
+    usePlayer.getState().load(jp)
+    usePlayer.getState().goto(100)
+    await usePlayer.getState().setLocale('cn')
+    const st = usePlayer.getState()
+    expect(st.locale).toBe('cn')
+    expect(st.index).toBe((st.scene?.beats.length ?? 0) - 1)
+    expect(st.index).toBeLessThan(100)
   })
 })

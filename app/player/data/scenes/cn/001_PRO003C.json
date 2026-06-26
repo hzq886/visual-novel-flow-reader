@@ -1,0 +1,143 @@
+{
+  "code": "001_PRO003C",
+  "route": "001",
+  "locale": "cn",
+  "beats": [
+    {
+      "kind": "line",
+      "who": "望月真琴",
+      "voice": {
+        "id": "MAKO_001_PRO003C_001",
+        "file": "voice/mako_001_pro003C_001.ogg"
+      },
+      "lines": [
+        "「早上好。今天因为学生会的工作所以起得早。」"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "望月真琴",
+      "voice": {
+        "id": "MAKO_001_PRO003C_002",
+        "file": "voice/mako_001_pro003C_002.ogg"
+      },
+      "lines": [
+        "「田径部加油哦。」"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "望月真琴",
+      "voice": {
+        "id": "MAKO_001_PRO003C_003",
+        "file": "voice/mako_001_pro003C_003.ogg"
+      },
+      "lines": [
+        "「翼，你今天有社团活动吗？会晚回来吗？」"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "望月真琴",
+      "voice": {
+        "id": "MAKO_001_PRO003C_004",
+        "file": "voice/mako_001_pro003C_004.ogg"
+      },
+      "lines": [
+        "「今天因为学生会的工作可能会晚回来。」"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "望月真琴",
+      "voice": {
+        "id": "MAKO_001_PRO003C_005",
+        "file": "voice/mako_001_pro003C_005.ogg"
+      },
+      "lines": [
+        "「哎呀，你等着我吗？」"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "望月真琴",
+      "voice": {
+        "id": "MAKO_001_PRO003C_006",
+        "file": "voice/mako_001_pro003C_006.ogg"
+      },
+      "lines": [
+        "「抱歉让你久等了。我晚了。」"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "望月真琴",
+      "voice": {
+        "id": "MAKO_001_PRO003C_007",
+        "file": "voice/mako_001_pro003C_007.ogg"
+      },
+      "lines": [
+        "「那我们一起回去吧。」"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "望月真琴",
+      "voice": {
+        "id": "MAKO_001_PRO003C_008",
+        "file": "voice/mako_001_pro003C_008.ogg"
+      },
+      "lines": [
+        "「你找我有什么事吗？」"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "望月真琴",
+      "voice": {
+        "id": "MAKO_001_PRO003C_009",
+        "file": "voice/mako_001_pro003C_009.ogg"
+      },
+      "lines": [
+        "「稍微有点事要去找老师……」"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "望月真琴",
+      "voice": {
+        "id": "MAKO_001_PRO003C_010",
+        "file": "voice/mako_001_pro003C_010.ogg"
+      },
+      "lines": [
+        "「放学后……嗯，知道了……」"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "望月真琴",
+      "voice": {
+        "id": "MAKO_001_PRO003C_011",
+        "file": "voice/mako_001_pro003C_011.ogg"
+      },
+      "lines": [
+        "「又，又要等吗！？呜呜，怎么……」"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "望月真琴",
+      "voice": {
+        "id": "MAKO_001_PRO003C_012",
+        "file": "voice/mako_001_pro003C_012.ogg"
+      },
+      "lines": [
+        "「是这样啊……知道了……」"
+      ]
+    }
+  ],
+  "bgm": {
+    "track": "M01",
+    "file": "bgm/M01.ogg"
+  }
+}

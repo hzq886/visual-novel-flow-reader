@@ -1,0 +1,298 @@
+{
+  "code": "001_PRO003A",
+  "route": "001",
+  "locale": "cn",
+  "beats": [
+    {
+      "kind": "line",
+      "who": "古桥绫菜",
+      "voice": {
+        "id": "AYAN_001_PRO003A_001",
+        "file": "voice/ayan_001_pro003A_001.ogg"
+      },
+      "lines": [
+        "「早上好。今天早上真早啊」"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "古桥绫菜",
+      "voice": {
+        "id": "AYAN_001_PRO003A_002",
+        "file": "voice/ayan_001_pro003A_002.ogg"
+      },
+      "lines": [
+        "「早上好。明明是休息日，你还这么早」"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "古桥绫菜",
+      "voice": {
+        "id": "AYAN_001_PRO003A_003",
+        "file": "voice/ayan_001_pro003A_003.ogg"
+      },
+      "lines": [
+        "「哎呀，看起来好困啊……没事吧？」"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "古桥绫菜",
+      "voice": {
+        "id": "AYAN_001_PRO003A_004",
+        "file": "voice/ayan_001_pro003A_004.ogg"
+      },
+      "lines": [
+        "「好的，早餐准备好了」"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "古桥绫菜",
+      "voice": {
+        "id": "AYAN_001_PRO003A_005",
+        "file": "voice/ayan_001_pro003A_005.ogg"
+      },
+      "lines": [
+        "「今天我做了炒蛋」"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "古桥绫菜",
+      "voice": {
+        "id": "AYAN_001_PRO003A_006",
+        "file": "voice/ayan_001_pro003A_006.ogg"
+      },
+      "lines": [
+        "「你正处于成长期，要多吃点哦」"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "古桥绫菜",
+      "voice": {
+        "id": "AYAN_001_PRO003A_007",
+        "file": "voice/ayan_001_pro003A_007.ogg"
+      },
+      "lines": [
+        "「听说今天下午天气会变坏？",
+        "别忘了带伞哦」"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "古桥绫菜",
+      "voice": {
+        "id": "AYAN_001_PRO003A_008",
+        "file": "voice/ayan_001_pro003A_008.ogg"
+      },
+      "lines": [
+        "「好的，便当。希望你能吃光」"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "古桥绫菜",
+      "voice": {
+        "id": "AYAN_001_PRO003A_009",
+        "file": "voice/ayan_001_pro003A_009.ogg"
+      },
+      "lines": [
+        "「一路顺风。注意安全哦」"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "古桥绫菜",
+      "voice": {
+        "id": "AYAN_001_PRO003A_010",
+        "file": "voice/ayan_001_pro003A_010.ogg"
+      },
+      "lines": [
+        "「我也差不多要出门了……」"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "古桥绫菜",
+      "voice": {
+        "id": "AYAN_001_PRO003A_011",
+        "file": "voice/ayan_001_pro003A_011.ogg"
+      },
+      "lines": [
+        "「欢迎光临」"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "古桥绫菜",
+      "voice": {
+        "id": "AYAN_001_PRO003A_012",
+        "file": "voice/ayan_001_pro003A_012.ogg"
+      },
+      "lines": [
+        "「谢谢你」"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "古桥绫菜",
+      "voice": {
+        "id": "AYAN_001_PRO003A_013",
+        "file": "voice/ayan_001_pro003A_013.ogg"
+      },
+      "lines": [
+        "「哎呀，欢迎光临。好久不见了呢」"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "古桥绫菜",
+      "voice": {
+        "id": "AYAN_001_PRO003A_014",
+        "file": "voice/ayan_001_pro003A_014.ogg"
+      },
+      "lines": [
+        "「好的，请问您已经决定好要点什么了吗？」"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "古桥绫菜",
+      "voice": {
+        "id": "AYAN_001_PRO003A_015",
+        "file": "voice/ayan_001_pro003A_015.ogg"
+      },
+      "lines": [
+        "「好的，请慢慢享用」"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "古桥绫菜",
+      "voice": {
+        "id": "AYAN_001_PRO003A_016",
+        "file": "voice/ayan_001_pro003A_016.ogg"
+      },
+      "lines": [
+        "「谢谢你帮忙」"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "古桥绫菜",
+      "voice": {
+        "id": "AYAN_001_PRO003A_017",
+        "file": "voice/ayan_001_pro003A_017.ogg"
+      },
+      "lines": [
+        "「那我先回去了」"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "古桥绫菜",
+      "voice": {
+        "id": "AYAN_001_PRO003A_018",
+        "file": "voice/ayan_001_pro003A_018.ogg"
+      },
+      "lines": [
+        "「欢迎回来。你回来得晚了呢」"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "古桥绫菜",
+      "voice": {
+        "id": "AYAN_001_PRO003A_019",
+        "file": "voice/ayan_001_pro003A_019.ogg"
+      },
+      "lines": [
+        "「欢迎回来。工作辛苦了」"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "古桥绫菜",
+      "voice": {
+        "id": "AYAN_001_PRO003A_020",
+        "file": "voice/ayan_001_pro003A_020.ogg"
+      },
+      "lines": [
+        "「晚餐已经准备好了」"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "古桥绫菜",
+      "voice": {
+        "id": "AYAN_001_PRO003A_021",
+        "file": "voice/ayan_001_pro003A_021.ogg"
+      },
+      "lines": [
+        "「可能做得太多了吧？」"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "古桥绫菜",
+      "voice": {
+        "id": "AYAN_001_PRO003A_022",
+        "file": "voice/ayan_001_pro003A_022.ogg"
+      },
+      "lines": [
+        "「嘻嘻，能听到你这么说，我很开心」"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "古桥绫菜",
+      "voice": {
+        "id": "AYAN_001_PRO003A_023",
+        "file": "voice/ayan_001_pro003A_023.ogg"
+      },
+      "lines": [
+        "「谢谢你一直以来的帮助」"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "古桥绫菜",
+      "voice": {
+        "id": "AYAN_001_PRO003A_024",
+        "file": "voice/ayan_001_pro003A_024.ogg"
+      },
+      "lines": [
+        "「你先去洗澡吧？」"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "古桥绫菜",
+      "voice": {
+        "id": "AYAN_001_PRO003A_025",
+        "file": "voice/ayan_001_pro003A_025.ogg"
+      },
+      "lines": [
+        "「把衣服放进篮子里」"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "古桥绫菜",
+      "voice": {
+        "id": "AYAN_001_PRO003A_026",
+        "file": "voice/ayan_001_pro003A_026.ogg"
+      },
+      "lines": [
+        "「晚安，好好休息」"
+      ]
+    }
+  ],
+  "bgm": {
+    "track": "M01",
+    "file": "bgm/M01.ogg"
+  }
+}

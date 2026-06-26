@@ -16,7 +16,7 @@ import {
 } from '@xyflow/react'
 import '@xyflow/react/dist/style.css'
 import flowJson from '@data/flow.json'
-import { Flow } from '@/pipeline/types'
+import { Flow, type Locale } from '@/pipeline/types'
 import { usePlayer } from '@/store/player'
 import { CHARACTER_COLOR, findNodeIdByScene, toReactFlow } from './flow'
 
@@ -44,17 +44,20 @@ function nodeStyle(character: string, live: boolean): React.CSSProperties {
   }
 }
 
-// 選択肢メニュー（HU-18）をノードに可視化: jp オプションを「◇A／B」でラベル末尾に付す。
-const choiceLabelById = new Map(
-  flow.nodes.map((n) => [
-    n.id,
-    (n.choices ?? []).flatMap((c) => c.options.map((o) => o.jp)).join('／'),
-  ]),
-)
+// 選択肢メニュー（HU-18）をノードに可視化: オプションを「◇A／B」でラベル末尾に付す。
+// locale=cn では cn 文言（未抽出は jp）を使う。ノード見出し（n.data.label）は flow.json に cn が
+// 無いため jp のまま（構造ラベル）。
+const choicesById = new Map(flow.nodes.map((n) => [n.id, n.choices ?? []]))
 
-function rfNodes(liveId: string | null): Node<NodeData>[] {
+function choiceLabel(id: string, locale: Locale): string {
+  return (choicesById.get(id) ?? [])
+    .flatMap((c) => c.options.map((o) => (locale === 'cn' ? (o.cn ?? o.jp) : o.jp)))
+    .join('／')
+}
+
+function rfNodes(liveId: string | null, locale: Locale): Node<NodeData>[] {
   return base.nodes.map((n) => {
-    const choices = choiceLabelById.get(n.id)
+    const choices = choiceLabel(n.id, locale)
     const label = choices ? `${n.data.label}\n◇${choices}` : n.data.label
     return {
       id: n.id,
@@ -79,15 +82,16 @@ const initialEdges: Edge[] = base.edges.map((e) => ({
 
 export function FlowMap() {
   const sceneCode = usePlayer((s) => s.scene?.code ?? null)
+  const locale = usePlayer((s) => s.locale)
   const liveId = useMemo(() => (sceneCode ? findNodeIdByScene(flow, sceneCode) : null), [sceneCode])
 
-  const [nodes, setNodes, onNodesChange] = useNodesState<Node<NodeData>>(rfNodes(liveId))
+  const [nodes, setNodes, onNodesChange] = useNodesState<Node<NodeData>>(rfNodes(liveId, locale))
   const [edges, , onEdgesChange] = useEdgesState<Edge>(initialEdges)
 
-  // 再生中シーンが変わったら該当ノードのハイライトを更新。
+  // 再生中シーンの変化／言語切替で、該当ノードのハイライトと選択肢ラベルを更新。
   useEffect(() => {
-    setNodes(rfNodes(liveId))
-  }, [liveId, setNodes])
+    setNodes(rfNodes(liveId, locale))
+  }, [liveId, locale, setNodes])
 
   return (
     <div style={{ width: '100%', height: '100%' }}>

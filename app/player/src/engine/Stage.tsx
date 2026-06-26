@@ -66,7 +66,9 @@ export function Stage() {
         layout()
         app.renderer.on('resize', layout)
 
-        const renderBeat = (beat: Beat) => {
+        // silent=true は言語切替時の再描画（同一 beat を別ロケールで描き直す）。bg/sprite は
+        // 同一 URL なら no-op、字幕だけ差し替わる。再生中の voice/se/bgm は据え置く（鳴り直さない）。
+        const renderBeat = (beat: Beat, opts?: { silent?: boolean }) => {
           if (beat.bg?.file) void cg.show(cgUrl(beat.bg.file))
           cg.setGray(0) // 感情(gray)データは未抽出のため 0
           if (beat.sprite?.body) {
@@ -79,6 +81,7 @@ export function Stage() {
             sprite.hide()
           }
           subtitle.show(beat)
+          if (opts?.silent) return
           // 字幕と同期して実ボイスを再生（台詞のみ）。地の文では前のボイスを止める。
           if (beat.kind === 'line' && beat.voice?.file) audio.playVoice(assetUrl(beat.voice.file))
           else audio.stopVoice()
@@ -111,6 +114,11 @@ export function Stage() {
           if (s.ended && !prev.ended) audio.stopBgm() // 終端で BGM を止める
           if (!s.scene) return
           if (s.scene !== prev.scene) {
+            // 言語切替（同一シーンを別ロケールへ差し替え）= 字幕のみ更新し音声/テクスチャは乱さない。
+            if (prev.scene && s.scene.code === prev.scene.code && s.locale !== prev.locale) {
+              renderBeat(s.scene.beats[s.index], { silent: true })
+              return
+            }
             onSceneChange(s.scene)
             renderBeat(s.scene.beats[s.index])
           } else if (s.index !== prev.index) {
@@ -191,6 +199,7 @@ export function Stage() {
 function ChoiceOverlay() {
   const choices = usePlayer((s) => s.pendingChoice)
   const choose = usePlayer((s) => s.choose)
+  const locale = usePlayer((s) => s.locale)
   if (!choices) return null
   return (
     <div
@@ -223,7 +232,7 @@ function ChoiceOverlay() {
             cursor: 'pointer',
           }}
         >
-          {o.label}
+          {locale === 'cn' ? (o.cn ?? o.label) : o.label}
         </button>
       ))}
     </div>
