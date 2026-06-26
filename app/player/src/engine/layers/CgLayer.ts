@@ -17,6 +17,9 @@ export class CgLayer extends Container {
   private cancelFade?: () => void
   private kbElapsed = 0
   private curUrl: string | null = null
+  // front/back スプライトに現在割り当て中のテクスチャ URL（解放対象から除外する＝表示中を unload しない）。
+  private frontUrl: string | null = null
+  private backUrl: string | null = null
   private readonly ticker: Ticker
 
   constructor(ticker: Ticker) {
@@ -45,6 +48,7 @@ export class CgLayer extends Container {
 
     this.fit(this.back, tex)
     this.back.alpha = 0
+    this.backUrl = url
     this.kbElapsed = 0
 
     this.cancelFade?.()
@@ -59,8 +63,16 @@ export class CgLayer extends Container {
         const tmp = this.front
         this.front = this.back
         this.back = tmp
+        const tmpUrl = this.frontUrl
+        this.frontUrl = this.backUrl
+        this.backUrl = tmpUrl
       },
     )
+  }
+
+  /** 現在 front/back に割り当て中のテクスチャ URL（テクスチャ解放の除外集合に使う）。 */
+  inUseUrls(): string[] {
+    return [this.frontUrl, this.backUrl].filter((u): u is string => u !== null)
   }
 
   private fit(sprite: Sprite, tex: Texture): void {
