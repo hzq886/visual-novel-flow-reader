@@ -25,7 +25,7 @@
       "who": "楠木　翼",
       "voice": {
         "id": "TUBA_006_TUBA019A_001",
-        "file": null
+        "file": "voice/tuba_006_tuba019A_001.ogg"
       },
       "lines": [
         "「お待たせっ！　ごめんね、遅くなっちゃって」"
@@ -69,7 +69,7 @@
       "who": "望月　真琴",
       "voice": {
         "id": "MAKO_006_TUBA019A_001",
-        "file": null
+        "file": "voice/mako_006_tuba019A_001.ogg"
       },
       "lines": [
         "「嘘ばっかり……かなり前から待ってたくせに……」"
@@ -113,7 +113,7 @@
       "who": "楠木　翼",
       "voice": {
         "id": "TUBA_006_TUBA019A_002",
-        "file": null
+        "file": "voice/tuba_006_tuba019A_002.ogg"
       },
       "lines": [
         "「それじゃあ、デートしよっか！　どこに行く？」"
@@ -157,7 +157,7 @@
       "who": "望月　真琴",
       "voice": {
         "id": "MAKO_006_TUBA019A_002",
-        "file": null
+        "file": "voice/mako_006_tuba019A_002.ogg"
       },
       "lines": [
         "「えっ、翼？　あ、あのっ、ちょっと……！？」"
@@ -261,7 +261,7 @@
       "who": "望月　真琴",
       "voice": {
         "id": "MAKO_006_TUBA019A_003",
-        "file": null
+        "file": "voice/mako_006_tuba019A_003.ogg"
       },
       "lines": [
         "「なによ、それ……私は当て馬ってこと？」"
@@ -325,7 +325,7 @@
       "who": "楠木　翼",
       "voice": {
         "id": "TUBA_006_TUBA019A_003",
-        "file": null
+        "file": "voice/tuba_006_tuba019A_003.ogg"
       },
       "lines": [
         "「うーん……できれば、先にお昼にしたいかな。",
@@ -392,7 +392,7 @@
       "who": "楠木　翼",
       "voice": {
         "id": "TUBA_006_TUBA019A_004",
-        "file": null
+        "file": "voice/tuba_006_tuba019A_004.ogg"
       },
       "lines": [
         "「ええーっ、こんなフリフリのスカート、ボクに",
@@ -463,7 +463,7 @@
       "who": "楠木　翼",
       "voice": {
         "id": "TUBA_006_TUBA019A_005",
-        "file": null
+        "file": "voice/tuba_006_tuba019A_005.ogg"
       },
       "lines": [
         "「えーっと、カラオケボックスとか、どうかな？」"
@@ -528,7 +528,7 @@
       "who": "楠木　翼",
       "voice": {
         "id": "TUBA_006_TUBA019A_006",
-        "file": null
+        "file": "voice/tuba_006_tuba019A_006.ogg"
       },
       "lines": [
         "「ううん。そういうわけじゃなくて、とりあえず、",

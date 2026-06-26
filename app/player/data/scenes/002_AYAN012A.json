@@ -31,7 +31,7 @@
       "who": "古橋　綾菜",
       "voice": {
         "id": "AYAN_002_AYAN012A_001",
-        "file": null
+        "file": "voice/ayan_002_ayan012A_001.ogg"
       },
       "lines": [
         "「ねぇ、和くんの赤ちゃん、出来たみたい」"
@@ -77,7 +77,7 @@
       "who": "古橋　涼菜",
       "voice": {
         "id": "SUZU_002_AYAN012A_001",
-        "file": null
+        "file": "voice/suzu_002_ayan012A_001.ogg"
       },
       "lines": [
         "「良かったわね、姉さん。先を越されちゃったわ」"
@@ -121,7 +121,7 @@
       "who": "古橋　涼菜",
       "voice": {
         "id": "SUZU_002_AYAN012A_002",
-        "file": null
+        "file": "voice/suzu_002_ayan012A_002.ogg"
       },
       "lines": [
         "「和樹もパパになるんだから、頑張りなさいね？",
@@ -165,7 +165,7 @@
       "who": "古橋　綾菜",
       "voice": {
         "id": "AYAN_002_AYAN012A_002",
-        "file": null
+        "file": "voice/ayan_002_ayan012A_002.ogg"
       },
       "lines": [
         "「私も頑張って、元気な赤ちゃんを産むわ！」"

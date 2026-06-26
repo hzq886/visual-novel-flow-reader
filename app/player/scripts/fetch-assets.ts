@@ -7,6 +7,10 @@
  *   npm run assets:fetch -- --scene 002_AYAN001A          # voice＋背景CG＋立ち絵をシーン別取得
  *   npm run assets:fetch -- --only bgm                    # カテゴリ全件
  *   npm run assets:fetch -- --only voice --scene 002_AYAN001A
+ *   npm run assets:fetch -- --only cg,sprite,voice,se,bgm # 全カテゴリ全件（全編展開）
+ *
+ * 冪等: 既に同サイズで配置済 & manifest にハッシュ記録済のファイルは copy+sha256 を省略するため、
+ * 再実行は差分のみ処理する（size 一致を同一性の代理に使う。安定ソースからの同期前提）。
  *
  * --scene 別フィルタ: voice はファイル名がシーンコードを含むため部分一致で絞る。背景CG/立ち絵は
  * parseScene→resolve で参照コードを算出して絞る（要 `data:defs` 済の sprites/backgrounds.json）。
@@ -133,6 +137,7 @@ async function main() {
 
   const manifest = await loadManifest()
   let copied = 0
+  let reused = 0
   let skippedNoSceneFilter = 0
 
   for (const category of categories) {
@@ -165,16 +170,35 @@ async function main() {
 
     const destDir = join(PUBLIC_ASSETS, category)
     await mkdir(destDir, { recursive: true })
+    let catCopied = 0
+    let catReused = 0
     for (const name of targets) {
       const src = join(srcDir, name)
       const dest = join(destDir, name)
+      const file = `${category}/${name}`
+      const srcSize = (await stat(src)).size
+      // 冪等化: 既に同サイズで配置済 & manifest にハッシュ記録済なら copy+sha256 を省略する。
+      // ローカルの安定ソースからの同期前提で、size 一致を同一性の代理に使う（再実行を高速化）。
+      const prev = manifest.get(file)
+      if (
+        prev?.sha256 &&
+        prev.size === srcSize &&
+        existsSync(dest) &&
+        (await stat(dest)).size === srcSize
+      ) {
+        catReused++
+        continue
+      }
       await copyFile(src, dest)
       const { size } = await stat(dest)
-      const file = `${category}/${name}`
       manifest.set(file, { category, file, size, sha256: await sha256(dest) })
-      copied++
+      catCopied++
     }
-    console.log(`  (${category}) ${targets.length} ファイル取得`)
+    copied += catCopied
+    reused += catReused
+    console.log(
+      `  (${category}) ${targets.length} 対象  新規/更新 ${catCopied} ・ 再利用 ${catReused}`,
+    )
   }
 
   await mkdir(dirname(MANIFEST_PATH), { recursive: true })
@@ -185,7 +209,9 @@ async function main() {
     'utf8',
   )
 
-  console.log(`\n✓ ${copied} ファイルを public/assets へ同期`)
+  console.log(
+    `\n✓ public/assets へ同期: 新規/更新 ${copied} ・ 再利用 ${reused}（size 一致スキップ）`,
+  )
   console.log(`✓ manifest: ${MANIFEST_PATH}（計 ${entries.length} エントリ）`)
   if (skippedNoSceneFilter > 0) {
     console.log(

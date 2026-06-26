@@ -20,7 +20,7 @@
       "who": "楠木　翼",
       "voice": {
         "id": "TUBA_001_PRO002E_001",
-        "file": null
+        "file": "voice/tuba_001_pro002E_001.ogg"
       },
       "lines": [
         "「どうしたの？　ボーッとしてるみたいだけど」"
@@ -84,7 +84,7 @@
       "who": "楠木　翼",
       "voice": {
         "id": "TUBA_001_PRO002E_002",
-        "file": null
+        "file": "voice/tuba_001_pro002E_002.ogg"
       },
       "lines": [
         "「部活後にミーティングがあって、わりと遅くなると",
@@ -148,7 +148,7 @@
       "who": "楠木　翼",
       "voice": {
         "id": "TUBA_001_PRO002E_003",
-        "file": null
+        "file": "voice/tuba_001_pro002E_003.ogg"
       },
       "lines": [
         "「大丈夫？　お腹でも痛かったりするの？」"
@@ -259,7 +259,7 @@
       "who": "チンピラ",
       "voice": {
         "id": "MOBG_001_PRO002E_001",
-        "file": null
+        "file": "voice/mobg_001_pro002E_001.ogg"
       },
       "lines": [
         "「なんなんだよオメーは！　俺は、ヨウコに会いに",
@@ -303,7 +303,7 @@
       "who": "初老の男性",
       "voice": {
         "id": "MOBE_001_PRO002E_001",
-        "file": null
+        "file": "voice/mobe_001_pro002E_001.ogg"
       },
       "lines": [
         "「ヨウコさんは、いつも暴力を振るうような男には、",
@@ -328,7 +328,7 @@
       "who": "チンピラ",
       "voice": {
         "id": "MOBG_001_PRO002E_002",
-        "file": null
+        "file": "voice/mobg_001_pro002E_002.ogg"
       },
       "lines": [
         "「あぁん！？　なんでオメーが、他人のコトに、",
@@ -373,7 +373,7 @@
       "who": "初老の男性",
       "voice": {
         "id": "MOBE_001_PRO002E_002",
-        "file": null
+        "file": "voice/mobe_001_pro002E_002.ogg"
       },
       "lines": [
         "「私は頼まれたんだよ。なんとかして欲しいとね。",
@@ -398,7 +398,7 @@
       "who": "チンピラ",
       "voice": {
         "id": "MOBG_001_PRO002E_003",
-        "file": null
+        "file": "voice/mobg_001_pro002E_003.ogg"
       },
       "lines": [
         "「ははっ！　オメーみたいな、ひょろいジジイが、",
@@ -443,7 +443,7 @@
       "who": "チンピラ",
       "voice": {
         "id": "MOBG_001_PRO002E_004",
-        "file": null
+        "file": "voice/mobg_001_pro002E_004.ogg"
       },
       "lines": [
         "「まずは、オメーをボコボコにして！　それから、",
@@ -494,7 +494,7 @@
       "who": "初老の男性",
       "voice": {
         "id": "MOBE_001_PRO002E_003",
-        "file": null
+        "file": "voice/mobe_001_pro002E_003.ogg"
       },
       "lines": [
         "「お前の身体は動かない！　腕も足も固まる！」"
@@ -540,7 +540,7 @@
       "who": "チンピラ",
       "voice": {
         "id": "MOBG_001_PRO002E_005",
-        "file": null
+        "file": "voice/mobg_001_pro002E_005.ogg"
       },
       "lines": [
         "「はぐっ……うっ、ううっ……」"
@@ -564,7 +564,7 @@
       "who": "初老の男性",
       "voice": {
         "id": "MOBE_001_PRO002E_004",
-        "file": null
+        "file": "voice/mobe_001_pro002E_004.ogg"
       },
       "lines": [
         "「お前の心は深く沈んでいく。どんどん深いところへ",
@@ -609,7 +609,7 @@
       "who": "初老の男性",
       "voice": {
         "id": "MOBE_001_PRO002E_005",
-        "file": null
+        "file": "voice/mobe_001_pro002E_005.ogg"
       },
       "lines": [
         "「心の中では、この声だけが響いている……この声が",
@@ -653,7 +653,7 @@
       "who": "初老の男性",
       "voice": {
         "id": "MOBE_001_PRO002E_006",
-        "file": null
+        "file": "voice/mobe_001_pro002E_006.ogg"
       },
       "lines": [
         "「いいかね、もうお前はヨウコさんには会わない。",
@@ -678,7 +678,7 @@
       "who": "チンピラ",
       "voice": {
         "id": "MOBG_001_PRO002E_006",
-        "file": null
+        "file": "voice/mobg_001_pro002E_006.ogg"
       },
       "lines": [
         "「ようこ、あわない……ちかづこうとも……」"
@@ -721,7 +721,7 @@
       "who": "初老の男性",
       "voice": {
         "id": "MOBE_001_PRO002E_007",
-        "file": null
+        "file": "voice/mobe_001_pro002E_007.ogg"
       },
       "lines": [
         "「そして、暴力を振るうのが怖くなる。誰のことも、",
@@ -746,7 +746,7 @@
       "who": "チンピラ",
       "voice": {
         "id": "MOBG_001_PRO002E_007",
-        "file": null
+        "file": "voice/mobg_001_pro002E_007.ogg"
       },
       "lines": [
         "「ぼうりょく……こわく……だれのことも……」"
@@ -789,7 +789,7 @@
       "who": "初老の男性",
       "voice": {
         "id": "MOBE_001_PRO002E_008",
-        "file": null
+        "file": "voice/mobe_001_pro002E_008.ogg"
       },
       "lines": [
         "「これから３つ数えたら、心は深いところから戻って、",
@@ -833,7 +833,7 @@
       "who": "初老の男性",
       "voice": {
         "id": "MOBE_001_PRO002E_009",
-        "file": null
+        "file": "voice/mobe_001_pro002E_009.ogg"
       },
       "lines": [
         "「そうしたら、私のことをすべて忘れて、そのまま",
@@ -858,7 +858,7 @@
       "who": "チンピラ",
       "voice": {
         "id": "MOBG_001_PRO002E_008",
-        "file": null
+        "file": "voice/mobg_001_pro002E_008.ogg"
       },
       "lines": [
         "「あんっ！？　んんっ、えっと……帰らねーと……」"
@@ -928,7 +928,7 @@
       "who": "初老の男性",
       "voice": {
         "id": "MOBE_001_PRO002E_010",
-        "file": null
+        "file": "voice/mobe_001_pro002E_010.ogg"
       },
       "lines": [
         "「ああ、この間の男の子かい。こんにちは」"
@@ -992,7 +992,7 @@
       "who": "初老の男性",
       "voice": {
         "id": "MOBE_001_PRO002E_011",
-        "file": null
+        "file": "voice/mobe_001_pro002E_011.ogg"
       },
       "lines": [
         "「古橋君か。私はサクライだ、よろしく」"
@@ -1055,7 +1055,7 @@
       "who": "サクライ",
       "voice": {
         "id": "MOBE_001_PRO002E_012",
-        "file": null
+        "file": "voice/mobe_001_pro002E_012.ogg"
       },
       "lines": [
         "「うん、聞いていたと思うが、あの男は、内縁の妻に",
@@ -1099,7 +1099,7 @@
       "who": "サクライ",
       "voice": {
         "id": "MOBE_001_PRO002E_013",
-        "file": null
+        "file": "voice/mobe_001_pro002E_013.ogg"
       },
       "lines": [
         "「知り合いに、なんとかして欲しいと頼まれたんだ」"
@@ -1165,7 +1165,7 @@
       "who": "サクライ",
       "voice": {
         "id": "MOBE_001_PRO002E_014",
-        "file": null
+        "file": "voice/mobe_001_pro002E_014.ogg"
       },
       "lines": [
         "「ああ、そうだよ。私は、そういうのが得意でね。",
@@ -1294,7 +1294,7 @@
       "who": "サクライ",
       "voice": {
         "id": "MOBE_001_PRO002E_015",
-        "file": null
+        "file": "voice/mobe_001_pro002E_015.ogg"
       },
       "lines": [
         "「悪いことか……何が『悪いこと』なんだろうね？」"
@@ -1357,7 +1357,7 @@
       "who": "サクライ",
       "voice": {
         "id": "MOBE_001_PRO002E_016",
-        "file": null
+        "file": "voice/mobe_001_pro002E_016.ogg"
       },
       "lines": [
         "「例えば刑法に、強要罪や教唆罪という犯罪がある。",
@@ -1401,7 +1401,7 @@
       "who": "サクライ",
       "voice": {
         "id": "MOBE_001_PRO002E_017",
-        "file": null
+        "file": "voice/mobe_001_pro002E_017.ogg"
       },
       "lines": [
         "「さっき私が、催眠術を使ったのを、見ただろう？」"
@@ -1445,7 +1445,7 @@
       "who": "サクライ",
       "voice": {
         "id": "MOBE_001_PRO002E_018",
-        "file": null
+        "file": "voice/mobe_001_pro002E_018.ogg"
       },
       "lines": [
         "「もしもあれが、女性に近づくな、とかではなく、",
@@ -1470,7 +1470,7 @@
       "who": "サクライ",
       "voice": {
         "id": "MOBE_001_PRO002E_019",
-        "file": null
+        "file": "voice/mobe_001_pro002E_019.ogg"
       },
       "lines": [
         "「誰にも見られていない状況で使ったとしたら、",
@@ -1535,7 +1535,7 @@
       "who": "サクライ",
       "voice": {
         "id": "MOBE_001_PRO002E_020",
-        "file": null
+        "file": "voice/mobe_001_pro002E_020.ogg"
       },
       "lines": [
         "「だから『悪いことには使いません』なんて言葉には",
@@ -1587,7 +1587,7 @@
       "who": "サクライ",
       "voice": {
         "id": "MOBE_001_PRO002E_021",
-        "file": null
+        "file": "voice/mobe_001_pro002E_021.ogg"
       },
       "lines": [
         "「それが『悪いこと』かどうかは、君自身が判断して",
@@ -1651,7 +1651,7 @@
       "who": "サクライ",
       "voice": {
         "id": "MOBE_001_PRO002E_022",
-        "file": null
+        "file": "voice/mobe_001_pro002E_022.ogg"
       },
       "lines": [
         "「さっき君は、あの男が暴力を振るおうとしたとき、",
@@ -1696,7 +1696,7 @@
       "who": "サクライ",
       "voice": {
         "id": "MOBE_001_PRO002E_023",
-        "file": null
+        "file": "voice/mobe_001_pro002E_023.ogg"
       },
       "lines": [
         "「君に教えてあげよう。催眠術を……」"

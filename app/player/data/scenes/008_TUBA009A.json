@@ -22,7 +22,7 @@
       "who": "楠木　裕司",
       "voice": {
         "id": "MOBD_008_TUBA009A_001",
-        "file": null
+        "file": "voice/mobd_008_tuba009A_001.ogg"
       },
       "lines": [
         "「いやぁ、子供と孫が、同時に出来るなんてなぁ！",
@@ -70,7 +70,7 @@
       "who": "楠木　裕司",
       "voice": {
         "id": "MOBD_008_TUBA009A_002",
-        "file": null
+        "file": "voice/mobd_008_tuba009A_002.ogg"
       },
       "lines": [
         "「家族も増えるし、これから仕事を増やして、",
@@ -115,7 +115,7 @@
       "who": "楠木　裕司",
       "voice": {
         "id": "MOBD_008_TUBA009A_003",
-        "file": null
+        "file": "voice/mobd_008_tuba009A_003.ogg"
       },
       "lines": [
         "「じゃあ、会社に行ってくるから、楓と翼のことを",

@@ -20,7 +20,7 @@
       "who": "楠木　翼",
       "voice": {
         "id": "TUBA_006_TUBA004G_001",
-        "file": null
+        "file": "voice/tuba_006_tuba004G_001.ogg"
       },
       "lines": [
         "「もしかして、やり過ぎちゃったかな？　大丈夫？」"
@@ -83,7 +83,7 @@
       "who": "楠木　翼",
       "voice": {
         "id": "TUBA_006_TUBA004G_002",
-        "file": null
+        "file": "voice/tuba_006_tuba004G_002.ogg"
       },
       "lines": [
         "「うんうん、その感じ分かるよ！　ぼーっとして、",

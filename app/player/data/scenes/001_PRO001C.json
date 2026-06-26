@@ -24,7 +24,7 @@
       "who": "古橋　綾菜",
       "voice": {
         "id": "AYAN_001_PRO001C_001",
-        "file": null
+        "file": "voice/ayan_001_pro001C_001.ogg"
       },
       "lines": [
         "「あら、お友達！？　姉さんにも紹介してくれる？」"
@@ -48,7 +48,7 @@
       "who": "楠木　翼",
       "voice": {
         "id": "TUBA_001_PRO001C_001",
-        "file": null
+        "file": "voice/tuba_001_pro001C_001.ogg"
       },
       "lines": [
         "「はじめまして！　くすのきつばさです！」"
@@ -92,7 +92,7 @@
       "who": "古橋　綾菜",
       "voice": {
         "id": "AYAN_001_PRO001C_002",
-        "file": null
+        "file": "voice/ayan_001_pro001C_002.ogg"
       },
       "lines": [
         "「はい、初めまして、古橋綾菜です。うふふっ、",
@@ -142,7 +142,7 @@
       "who": "古橋　綾菜",
       "voice": {
         "id": "AYAN_001_PRO001C_003",
-        "file": null
+        "file": "voice/ayan_001_pro001C_003.ogg"
       },
       "lines": [
         "「そうだったの……ちゃんと言って欲しかったな」"
@@ -206,7 +206,7 @@
       "who": "古橋　綾菜",
       "voice": {
         "id": "AYAN_001_PRO001C_004",
-        "file": null
+        "file": "voice/ayan_001_pro001C_004.ogg"
       },
       "lines": [
         "「でもまさか、初めて家に連れてきたお友だちが、",
@@ -252,7 +252,7 @@
       "who": "古橋　綾菜",
       "voice": {
         "id": "AYAN_001_PRO001C_005",
-        "file": null
+        "file": "voice/ayan_001_pro001C_005.ogg"
       },
       "lines": [
         "「つばさちゃん、ケーキがあるんだけど食べる？」"
@@ -276,7 +276,7 @@
       "who": "楠木　翼",
       "voice": {
         "id": "TUBA_001_PRO001C_002",
-        "file": null
+        "file": "voice/tuba_001_pro001C_002.ogg"
       },
       "lines": [
         "「ホントですか！？　いただきますっ！」"
@@ -322,7 +322,7 @@
       "who": "古橋　綾菜",
       "voice": {
         "id": "AYAN_001_PRO001C_006",
-        "file": null
+        "file": "voice/ayan_001_pro001C_006.ogg"
       },
       "lines": [
         "「私は自分の部屋のほうにいるから、何かあれば、",
@@ -368,7 +368,7 @@
       "who": "古橋　綾菜",
       "voice": {
         "id": "AYAN_001_PRO001C_007",
-        "file": null
+        "file": "voice/ayan_001_pro001C_007.ogg"
       },
       "lines": [
         "「それじゃあ、ゆっくりしていってね」"
@@ -392,7 +392,7 @@
       "who": "楠木　翼",
       "voice": {
         "id": "TUBA_001_PRO001C_003",
-        "file": null
+        "file": "voice/tuba_001_pro001C_003.ogg"
       },
       "lines": [
         "「はいっ、ありがとうございますっ！」"
@@ -437,7 +437,7 @@
       "who": "楠木　翼",
       "voice": {
         "id": "TUBA_001_PRO001C_004",
-        "file": null
+        "file": "voice/tuba_001_pro001C_004.ogg"
       },
       "lines": [
         "「うちのお母さんと、よくトランプをするんだけど、",
@@ -484,7 +484,7 @@
       "who": "楠木　翼",
       "voice": {
         "id": "TUBA_001_PRO001C_005",
-        "file": null
+        "file": "voice/tuba_001_pro001C_005.ogg"
       },
       "lines": [
         "「そういえば、カズのお母さんは、おかいもの？」"
@@ -548,7 +548,7 @@
       "who": "楠木　翼",
       "voice": {
         "id": "TUBA_001_PRO001C_006",
-        "file": null
+        "file": "voice/tuba_001_pro001C_006.ogg"
       },
       "lines": [
         "「そ、そうなんだ……えっと、ごめん……」"
@@ -612,7 +612,7 @@
       "who": "楠木　翼",
       "voice": {
         "id": "TUBA_001_PRO001C_007",
-        "file": null
+        "file": "voice/tuba_001_pro001C_007.ogg"
       },
       "lines": [
         "「お姉ちゃんが……ところで、あやなさんって、",
@@ -656,7 +656,7 @@
       "who": "楠木　翼",
       "voice": {
         "id": "TUBA_001_PRO001C_008",
-        "file": null
+        "file": "voice/tuba_001_pro001C_008.ogg"
       },
       "lines": [
         "「うちは、お兄ちゃんも、お姉ちゃんもいないし、",
@@ -703,7 +703,7 @@
       "who": "古橋　涼菜",
       "voice": {
         "id": "SUZU_001_PRO001C_001",
-        "file": null
+        "file": "voice/suzu_001_pro001C_001.ogg"
       },
       "lines": [
         "「ただいま……あら、もしかして和樹のお友だち？」"
@@ -766,7 +766,7 @@
       "who": "古橋　涼菜",
       "voice": {
         "id": "SUZU_001_PRO001C_002",
-        "file": null
+        "file": "voice/suzu_001_pro001C_002.ogg"
       },
       "lines": [
         "「ふーん、和樹も、なかなかやるわね……女の子を",
@@ -811,7 +811,7 @@
       "who": "古橋　涼菜",
       "voice": {
         "id": "SUZU_001_PRO001C_003",
-        "file": null
+        "file": "voice/suzu_001_pro001C_003.ogg"
       },
       "lines": [
         "「和樹の姉の、古橋涼菜です。よろしくね」"
@@ -835,7 +835,7 @@
       "who": "楠木　翼",
       "voice": {
         "id": "TUBA_001_PRO001C_009",
-        "file": null
+        "file": "voice/tuba_001_pro001C_009.ogg"
       },
       "lines": [
         "「はいっ、くすのきつばさです！　はじめまして！」"
@@ -878,7 +878,7 @@
       "who": "古橋　涼菜",
       "voice": {
         "id": "SUZU_001_PRO001C_004",
-        "file": null
+        "file": "voice/suzu_001_pro001C_004.ogg"
       },
       "lines": [
         "「和樹と、仲良くしてやってちょうだいね」"
@@ -902,7 +902,7 @@
       "who": "楠木　翼",
       "voice": {
         "id": "TUBA_001_PRO001C_010",
-        "file": null
+        "file": "voice/tuba_001_pro001C_010.ogg"
       },
       "lines": [
         "「はいっ！　もう、なかよしですから！」"
@@ -947,7 +947,7 @@
       "who": "楠木　翼",
       "voice": {
         "id": "TUBA_001_PRO001C_011",
-        "file": null
+        "file": "voice/tuba_001_pro001C_011.ogg"
       },
       "lines": [
         "「もしかして、あっちのお姉ちゃんが、お父さん？」"

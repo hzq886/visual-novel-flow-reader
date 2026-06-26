@@ -82,7 +82,7 @@
       "who": "楠木　楓",
       "voice": {
         "id": "KAED_007_KAED003D_001",
-        "file": null
+        "file": "voice/kaed_007_kaed003D_001.ogg"
       },
       "lines": [
         "「せいきょういく……ひみつにするべき……」"
@@ -167,7 +167,7 @@
       "who": "楠木　楓",
       "voice": {
         "id": "KAED_007_KAED003D_002",
-        "file": null
+        "file": "voice/kaed_007_kaed003D_002.ogg"
       },
       "lines": [
         "「えーっと……今日のコトは、誰にも言わないでね？",
@@ -251,7 +251,7 @@
       "who": "楠木　楓",
       "voice": {
         "id": "KAED_007_KAED003D_003",
-        "file": null
+        "file": "voice/kaed_007_kaed003D_003.ogg"
       },
       "lines": [
         "「ふふっ……本当に、礼儀正しいわね……」"

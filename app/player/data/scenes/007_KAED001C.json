@@ -82,7 +82,7 @@
       "who": "楠木　楓",
       "voice": {
         "id": "KAED_007_KAED001C_001",
-        "file": null
+        "file": "voice/kaed_007_kaed001C_001.ogg"
       },
       "lines": [
         "「えっちなかいわ、げーむ……わすれます……」"
@@ -147,7 +147,7 @@
       "who": "楠木　楓",
       "voice": {
         "id": "KAED_007_KAED001C_002",
-        "file": null
+        "file": "voice/kaed_007_kaed001C_002.ogg"
       },
       "lines": [
         "「つばさのへや、はいったら……じゃまを、しない」"
@@ -213,7 +213,7 @@
       "who": "楠木　楓",
       "voice": {
         "id": "KAED_007_KAED001C_003",
-        "file": null
+        "file": "voice/kaed_007_kaed001C_003.ogg"
       },
       "lines": [
         "「ふだんぎ……べっどに、よこに……」"

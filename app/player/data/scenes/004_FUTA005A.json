@@ -24,7 +24,7 @@
       "who": "古橋　綾菜",
       "voice": {
         "id": "AYAN_004_FUTA005A_001",
-        "file": null
+        "file": "voice/ayan_004_futa005A_001.ogg"
       },
       "lines": [
         "「ねぇ、私、赤ちゃんが欲しいわ。愛するひとの",
@@ -49,7 +49,7 @@
       "who": "古橋　涼菜",
       "voice": {
         "id": "SUZU_004_FUTA005A_001",
-        "file": null
+        "file": "voice/suzu_004_futa005A_001.ogg"
       },
       "lines": [
         "「それなら、私も妊娠したいわ。あなたの性教育も",

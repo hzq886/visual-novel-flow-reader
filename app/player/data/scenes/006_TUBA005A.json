@@ -40,7 +40,7 @@
       "who": "楠木　翼",
       "voice": {
         "id": "TUBA_006_TUBA005A_001",
-        "file": null
+        "file": "voice/tuba_006_tuba005A_001.ogg"
       },
       "lines": [
         "「もちろん、いいよ！　それじゃあ、部活のほうは、",
@@ -129,7 +129,7 @@
       "who": "楠木　翼",
       "voice": {
         "id": "TUBA_006_TUBA005A_002",
-        "file": null
+        "file": "voice/tuba_006_tuba005A_002.ogg"
       },
       "lines": [
         "「また、ボクの部屋で遊ぶから！」"

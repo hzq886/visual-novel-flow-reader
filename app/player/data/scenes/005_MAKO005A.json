@@ -86,7 +86,7 @@
       "who": "望月　真琴",
       "voice": {
         "id": "MAKO_005_MAKO005A_001",
-        "file": null
+        "file": "voice/mako_005_mako005A_001.ogg"
       },
       "lines": [
         "「くっ……ううっ、はい……一緒に、帰るっ……」"
@@ -135,7 +135,7 @@
       "who": "望月　真琴",
       "voice": {
         "id": "MAKO_005_MAKO005A_002",
-        "file": null
+        "file": "voice/mako_005_mako005A_002.ogg"
       },
       "lines": [
         "「……あれから、いったいママに何をしたの？」"

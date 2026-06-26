@@ -21,7 +21,7 @@
       "who": "郡山　栄一",
       "voice": {
         "id": "MOBC_001_PRO002D_001",
-        "file": null
+        "file": "voice/mobc_001_pro002D_001.ogg"
       },
       "lines": [
         "「いつもギリギリまで、すいません」"
@@ -45,7 +45,7 @@
       "who": "古橋　綾菜",
       "voice": {
         "id": "AYAN_001_PRO002D_001",
-        "file": null
+        "file": "voice/ayan_001_pro002D_001.ogg"
       },
       "lines": [
         "「いえ、ゆっくりくつろいで頂いて、嬉しいですわ」"
@@ -92,7 +92,7 @@
       "who": "郡山　栄一",
       "voice": {
         "id": "MOBC_001_PRO002D_002",
-        "file": null
+        "file": "voice/mobc_001_pro002D_002.ogg"
       },
       "lines": [
         "「綾菜さん、日曜の件、考えておいて下さいね」"
@@ -116,7 +116,7 @@
       "who": "古橋　綾菜",
       "voice": {
         "id": "AYAN_001_PRO002D_002",
-        "file": null
+        "file": "voice/ayan_001_pro002D_002.ogg"
       },
       "lines": [
         "「分かりました。ちゃんと、お返事しますから」"
@@ -159,7 +159,7 @@
       "who": "郡山　栄一",
       "voice": {
         "id": "MOBC_001_PRO002D_003",
-        "file": null
+        "file": "voice/mobc_001_pro002D_003.ogg"
       },
       "lines": [
         "「お願いします！　良い返事を期待してます！」"
@@ -183,7 +183,7 @@
       "who": "古橋　綾菜",
       "voice": {
         "id": "AYAN_001_PRO002D_003",
-        "file": null
+        "file": "voice/ayan_001_pro002D_003.ogg"
       },
       "lines": [
         "「はい、ありがとうございました」"
@@ -249,7 +249,7 @@
       "who": "古橋　綾菜",
       "voice": {
         "id": "AYAN_001_PRO002D_004",
-        "file": null
+        "file": "voice/ayan_001_pro002D_004.ogg"
       },
       "lines": [
         "「あら、お客様に、あいつとか言っちゃダメよ？」"
@@ -294,7 +294,7 @@
       "who": "古橋　綾菜",
       "voice": {
         "id": "AYAN_001_PRO002D_005",
-        "file": null
+        "file": "voice/ayan_001_pro002D_005.ogg"
       },
       "lines": [
         "「でも、悪い人ではないと思うわ。私の仕事の邪魔を",
@@ -378,7 +378,7 @@
       "who": "古橋　綾菜",
       "voice": {
         "id": "AYAN_001_PRO002D_006",
-        "file": null
+        "file": "voice/ayan_001_pro002D_006.ogg"
       },
       "lines": [
         "「そうね、どうしようかしら？　日曜の予定は、",
@@ -474,7 +474,7 @@
       "who": "古橋　涼菜",
       "voice": {
         "id": "SUZU_001_PRO002D_001",
-        "file": null
+        "file": "voice/suzu_001_pro002D_001.ogg"
       },
       "lines": [
         "「姉さんのことを、心配しているのは分かったわ。",
@@ -527,7 +527,7 @@
       "who": "古橋　涼菜",
       "voice": {
         "id": "SUZU_001_PRO002D_002",
-        "file": null
+        "file": "voice/suzu_001_pro002D_002.ogg"
       },
       "lines": [
         "「和樹が心配していたわよ？　姉さんが、しつこい",
@@ -573,7 +573,7 @@
       "who": "古橋　綾菜",
       "voice": {
         "id": "AYAN_001_PRO002D_007",
-        "file": null
+        "file": "voice/ayan_001_pro002D_007.ogg"
       },
       "lines": [
         "「うーん……ちょっと押しは強いけれど、郡山さんは",
@@ -618,7 +618,7 @@
       "who": "古橋　涼菜",
       "voice": {
         "id": "SUZU_001_PRO002D_003",
-        "file": null
+        "file": "voice/suzu_001_pro002D_003.ogg"
       },
       "lines": [
         "「ふーん……それで、どうするの？　その男から、",
@@ -643,7 +643,7 @@
       "who": "古橋　綾菜",
       "voice": {
         "id": "AYAN_001_PRO002D_008",
-        "file": null
+        "file": "voice/ayan_001_pro002D_008.ogg"
       },
       "lines": [
         "「行ってみようと思っているわ。お断りする理由も、",
@@ -689,7 +689,7 @@
       "who": "古橋　涼菜",
       "voice": {
         "id": "SUZU_001_PRO002D_004",
-        "file": null
+        "file": "voice/suzu_001_pro002D_004.ogg"
       },
       "lines": [
         "「姉さんが自分で決めたことなら、反対はしないわ。",
@@ -735,7 +735,7 @@
       "who": "古橋　綾菜",
       "voice": {
         "id": "AYAN_001_PRO002D_009",
-        "file": null
+        "file": "voice/ayan_001_pro002D_009.ogg"
       },
       "lines": [
         "「ええ、分かったわ。ちゃんと話すわね」"
@@ -781,7 +781,7 @@
       "who": "古橋　綾菜",
       "voice": {
         "id": "AYAN_001_PRO002D_010",
-        "file": null
+        "file": "voice/ayan_001_pro002D_010.ogg"
       },
       "lines": [
         "「郡山さんと会うのはお昼だし、遅くはならないわ。",
@@ -834,7 +834,7 @@
       "who": "古橋　綾菜",
       "voice": {
         "id": "AYAN_001_PRO002D_011",
-        "file": null
+        "file": "voice/ayan_001_pro002D_011.ogg"
       },
       "lines": [
         "「ただいま。帰りに、スーパーに寄ってきたわ。",
@@ -889,7 +889,7 @@
       "who": "古橋　涼菜",
       "voice": {
         "id": "SUZU_001_PRO002D_005",
-        "file": null
+        "file": "voice/suzu_001_pro002D_005.ogg"
       },
       "lines": [
         "「それで、どうだったの？　デートのほうは」"
@@ -934,7 +934,7 @@
       "who": "古橋　綾菜",
       "voice": {
         "id": "AYAN_001_PRO002D_012",
-        "file": null
+        "file": "voice/ayan_001_pro002D_012.ogg"
       },
       "lines": [
         "「どうって……二人で新作映画を観て、そのあと、",
@@ -979,7 +979,7 @@
       "who": "古橋　涼菜",
       "voice": {
         "id": "SUZU_001_PRO002D_006",
-        "file": null
+        "file": "voice/suzu_001_pro002D_006.ogg"
       },
       "lines": [
         "「それだけ？　相手は、何かしてこなかったの？」"
@@ -1003,7 +1003,7 @@
       "who": "古橋　綾菜",
       "voice": {
         "id": "AYAN_001_PRO002D_013",
-        "file": null
+        "file": "voice/ayan_001_pro002D_013.ogg"
       },
       "lines": [
         "「べ、別に何もされてないわ。ただ、結婚を前提に",
@@ -1052,7 +1052,7 @@
       "who": "古橋　涼菜",
       "voice": {
         "id": "SUZU_001_PRO002D_007",
-        "file": null
+        "file": "voice/suzu_001_pro002D_007.ogg"
       },
       "lines": [
         "「……それで、どうするつもりなの？」"
@@ -1095,7 +1095,7 @@
       "who": "古橋　綾菜",
       "voice": {
         "id": "AYAN_001_PRO002D_014",
-        "file": null
+        "file": "voice/ayan_001_pro002D_014.ogg"
       },
       "lines": [
         "「付き合ってみようかなって、思ってるわ」"

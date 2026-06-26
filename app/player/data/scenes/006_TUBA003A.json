@@ -40,7 +40,7 @@
       "who": "楠木　翼",
       "voice": {
         "id": "TUBA_006_TUBA003A_001",
-        "file": null
+        "file": "voice/tuba_006_tuba003A_001.ogg"
       },
       "lines": [
         "「うん、いいよ！　教えてもらえれば助かるし！",
@@ -93,7 +93,7 @@
       "who": "楠木　翼",
       "voice": {
         "id": "TUBA_006_TUBA003A_002",
-        "file": null
+        "file": "voice/tuba_006_tuba003A_002.ogg"
       },
       "lines": [
         "「……ちょっと聞きたいんだけど、先日の、帰るのが",
@@ -159,7 +159,7 @@
       "who": "楠木　翼",
       "voice": {
         "id": "TUBA_006_TUBA003A_003",
-        "file": null
+        "file": "voice/tuba_006_tuba003A_003.ogg"
       },
       "lines": [
         "「えっと、なんか……その、濡れてて……」"
@@ -225,7 +225,7 @@
       "who": "楠木　翼",
       "voice": {
         "id": "TUBA_006_TUBA003A_004",
-        "file": null
+        "file": "voice/tuba_006_tuba003A_004.ogg"
       },
       "lines": [
         "「なっ、なんでもないよっ！　忘れていいから！」"

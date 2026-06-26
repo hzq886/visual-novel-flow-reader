@@ -15,7 +15,7 @@
       "who": "楠木　翼",
       "voice": {
         "id": "TUBA_001_PRO002B_001",
-        "file": null
+        "file": "voice/tuba_001_pro002B_001.ogg"
       },
       "lines": [
         "「こんにちは、綾菜さんっ！」"
@@ -39,7 +39,7 @@
       "who": "望月　真琴",
       "voice": {
         "id": "MAKO_001_PRO002B_001",
-        "file": null
+        "file": "voice/mako_001_pro002B_001.ogg"
       },
       "lines": [
         "「こんにちは。相変わらず、素敵なお店ですね」"
@@ -229,7 +229,7 @@
       "who": "楠木　翼",
       "voice": {
         "id": "TUBA_001_PRO002B_002",
-        "file": null
+        "file": "voice/tuba_001_pro002B_002.ogg"
       },
       "lines": [
         "「ボクは、紅茶とイチゴのショートケーキ！」"
@@ -253,7 +253,7 @@
       "who": "望月　真琴",
       "voice": {
         "id": "MAKO_001_PRO002B_002",
-        "file": null
+        "file": "voice/mako_001_pro002B_002.ogg"
       },
       "lines": [
         "「私は、コーヒーとシフォンケーキで」"
@@ -377,7 +377,7 @@
       "who": "望月　真琴",
       "voice": {
         "id": "MAKO_001_PRO002B_003",
-        "file": null
+        "file": "voice/mako_001_pro002B_003.ogg"
       },
       "lines": [
         "「本当に、綾菜さんのシフォンケーキは、最高ね」"
@@ -401,7 +401,7 @@
       "who": "楠木　翼",
       "voice": {
         "id": "TUBA_001_PRO002B_002A",
-        "file": null
+        "file": "voice/tuba_001_pro002B_002a.ogg"
       },
       "lines": [
         "「イチゴショートも、すっごく美味しいよ！」"
@@ -447,7 +447,7 @@
       "who": "楠木　翼",
       "voice": {
         "id": "TUBA_001_PRO002B_003",
-        "file": null
+        "file": "voice/tuba_001_pro002B_003.ogg"
       },
       "lines": [
         "「それにしても、真琴ちゃんは、相変わらず、",
@@ -472,7 +472,7 @@
       "who": "望月　真琴",
       "voice": {
         "id": "MAKO_001_PRO002B_004",
-        "file": null
+        "file": "voice/mako_001_pro002B_004.ogg"
       },
       "lines": [
         "「頭を使うと、糖分が必要になるから……」"
@@ -560,7 +560,7 @@
       "who": "望月　真琴",
       "voice": {
         "id": "MAKO_001_PRO002B_005",
-        "file": null
+        "file": "voice/mako_001_pro002B_005.ogg"
       },
       "lines": [
         "「それはダメです。ちゃんとお支払いしますから。",

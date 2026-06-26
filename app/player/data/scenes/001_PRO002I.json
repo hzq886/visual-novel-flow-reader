@@ -27,7 +27,7 @@
       "who": "楠木　翼",
       "voice": {
         "id": "TUBA_001_PRO002I_001",
-        "file": null
+        "file": "voice/tuba_001_pro002I_001.ogg"
       },
       "lines": [
         "「えっと、この間のお話ですけど……」"
@@ -51,7 +51,7 @@
       "who": "角田　雄大",
       "voice": {
         "id": "MOBH_001_PRO002I_001",
-        "file": null
+        "file": "voice/mobh_001_pro002I_001.ogg"
       },
       "lines": [
         "「か、考えてくれたかい？　返事は、どうかな？」"
@@ -95,7 +95,7 @@
       "who": "楠木　翼",
       "voice": {
         "id": "TUBA_001_PRO002I_002",
-        "file": null
+        "file": "voice/tuba_001_pro002I_002.ogg"
       },
       "lines": [
         "「すいません！　お付き合いは、お断りしますっ！」"
@@ -119,7 +119,7 @@
       "who": "角田　雄大",
       "voice": {
         "id": "MOBH_001_PRO002I_002",
-        "file": null
+        "file": "voice/mobh_001_pro002I_002.ogg"
       },
       "lines": [
         "「ううっ、そ、そうか……ダメか……」"
@@ -164,7 +164,7 @@
       "who": "楠木　翼",
       "voice": {
         "id": "TUBA_001_PRO002I_003",
-        "file": null
+        "file": "voice/tuba_001_pro002I_003.ogg"
       },
       "lines": [
         "「その気もないのに、思わせぶりな態度とかは",
@@ -189,7 +189,7 @@
       "who": "角田　雄大",
       "voice": {
         "id": "MOBH_001_PRO002I_003",
-        "file": null
+        "file": "voice/mobh_001_pro002I_003.ogg"
       },
       "lines": [
         "「分かった……はっきり言ってくれて、ありがとう。",
@@ -234,7 +234,7 @@
       "who": "楠木　翼",
       "voice": {
         "id": "TUBA_001_PRO002I_004",
-        "file": null
+        "file": "voice/tuba_001_pro002I_004.ogg"
       },
       "lines": [
         "「えっと、先輩なら、きっと、もっとステキな人と",
@@ -279,7 +279,7 @@
       "who": "角田　雄大",
       "voice": {
         "id": "MOBH_001_PRO002I_004",
-        "file": null
+        "file": "voice/mobh_001_pro002I_004.ogg"
       },
       "lines": [
         "「ははは……あ、ありがとう……ううっ……」"

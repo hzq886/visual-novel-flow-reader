@@ -28,7 +28,7 @@
       "who": "古橋　涼菜",
       "voice": {
         "id": "SUZU_003_SUZU006A_001",
-        "file": null
+        "file": "voice/suzu_003_suzu006A_001.ogg"
       },
       "lines": [
         "「お願い？　朝から、いったい何かしら？」"
@@ -91,7 +91,7 @@
       "who": "古橋　涼菜",
       "voice": {
         "id": "SUZU_003_SUZU006A_002",
-        "file": null
+        "file": "voice/suzu_003_suzu006A_002.ogg"
       },
       "lines": [
         "「これはまた、ずいぶんとストレートなお願いね。",
@@ -135,7 +135,7 @@
       "who": "古橋　綾菜",
       "voice": {
         "id": "AYAN_003_SUZU006A_001",
-        "file": null
+        "file": "voice/ayan_003_suzu006A_001.ogg"
       },
       "lines": [
         "「あのっ、涼ちゃんじゃなくて、私じゃダメなの？」"
@@ -180,7 +180,7 @@
       "who": "古橋　綾菜",
       "voice": {
         "id": "AYAN_003_SUZU006A_002",
-        "file": null
+        "file": "voice/ayan_003_suzu006A_002.ogg"
       },
       "lines": [
         "「ああ、そうよね。あっちのほうに集中しないと。",
@@ -205,7 +205,7 @@
       "who": "古橋　綾菜",
       "voice": {
         "id": "AYAN_003_SUZU006A_003",
-        "file": null
+        "file": "voice/ayan_003_suzu006A_003.ogg"
       },
       "lines": [
         "「ううっ、そんな……私も普通にしたいのに」"
@@ -249,7 +249,7 @@
       "who": "古橋　綾菜",
       "voice": {
         "id": "AYAN_003_SUZU006A_004",
-        "file": null
+        "file": "voice/ayan_003_suzu006A_004.ogg"
       },
       "lines": [
         "「ううっ、いいなぁ……私もしたいのに……」"
@@ -294,7 +294,7 @@
       "who": "古橋　涼菜",
       "voice": {
         "id": "SUZU_003_SUZU006A_003",
-        "file": null
+        "file": "voice/suzu_003_suzu006A_003.ogg"
       },
       "lines": [
         "「もう出社まであまり時間が無いから、このまま",

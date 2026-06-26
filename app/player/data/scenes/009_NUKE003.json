@@ -8,7 +8,7 @@
       "who": "望月　真琴",
       "voice": {
         "id": "MAKO_009_NUKE003_001",
-        "file": null
+        "file": "voice/mako_009_nuke003_001.ogg"
       },
       "lines": [
         "「あれ……？　やだ、なんで私、アソコが……」"
@@ -37,7 +37,7 @@
       "who": "望月　真琴",
       "voice": {
         "id": "MAKO_009_NUKE003_002",
-        "file": null
+        "file": "voice/mako_009_nuke003_002.ogg"
       },
       "lines": [
         "「う、ううん！　何でもないわ！　帰りましょう！」"
@@ -60,7 +60,7 @@
       "who": "望月　真琴",
       "voice": {
         "id": "MAKO_009_NUKE003_003",
-        "file": null
+        "file": "voice/mako_009_nuke003_003.ogg"
       },
       "lines": [
         "「さいみんじゅつ……だれにも、つたえること……」"
@@ -89,7 +89,7 @@
       "who": "望月　真琴",
       "voice": {
         "id": "MAKO_009_NUKE003_004",
-        "file": null
+        "file": "voice/mako_009_nuke003_004.ogg"
       },
       "lines": [
         "「たすけを……ちゅうい……ふりになるような……」"
@@ -112,7 +112,7 @@
       "who": "望月　真琴",
       "voice": {
         "id": "MAKO_009_NUKE003_005",
-        "file": null
+        "file": "voice/mako_009_nuke003_005.ogg"
       },
       "lines": [
         "「なっ！？　つ、伝えられないって……んんっ……」"

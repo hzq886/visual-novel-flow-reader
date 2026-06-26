@@ -24,7 +24,7 @@
       "who": "楠木　翼",
       "voice": {
         "id": "TUBA_001_PRO001E_001",
-        "file": null
+        "file": "voice/tuba_001_pro001E_001.ogg"
       },
       "lines": [
         "「やったね！　カズと同じクラスだー！」"
@@ -117,7 +117,7 @@
       "who": "望月　真琴",
       "voice": {
         "id": "MAKO_001_PRO001E_001",
-        "file": null
+        "file": "voice/mako_001_pro001E_001.ogg"
       },
       "lines": [
         "「あ、あのぅ……もちづき、まこと……です……」"
@@ -168,7 +168,7 @@
       "who": "楠木　翼",
       "voice": {
         "id": "TUBA_001_PRO001E_002",
-        "file": null
+        "file": "voice/tuba_001_pro001E_002.ogg"
       },
       "lines": [
         "「ねぇねぇ、もちづきさんっ」"
@@ -213,7 +213,7 @@
       "who": "楠木　翼",
       "voice": {
         "id": "TUBA_001_PRO001E_003",
-        "file": null
+        "file": "voice/tuba_001_pro001E_003.ogg"
       },
       "lines": [
         "「もちづきさん？」"
@@ -256,7 +256,7 @@
       "who": "望月　真琴",
       "voice": {
         "id": "MAKO_001_PRO001E_002",
-        "file": null
+        "file": "voice/mako_001_pro001E_002.ogg"
       },
       "lines": [
         "「ご、ごめんなさい……あまり、オトコの子と、",
@@ -281,7 +281,7 @@
       "who": "楠木　翼",
       "voice": {
         "id": "TUBA_001_PRO001E_004",
-        "file": null
+        "file": "voice/tuba_001_pro001E_004.ogg"
       },
       "lines": [
         "「えーっと、ボク、オンナだけど？」"
@@ -324,7 +324,7 @@
       "who": "望月　真琴",
       "voice": {
         "id": "MAKO_001_PRO001E_003",
-        "file": null
+        "file": "voice/mako_001_pro001E_003.ogg"
       },
       "lines": [
         "「ええっ！？　えっ、あの……ごめんなさい……」"
@@ -368,7 +368,7 @@
       "who": "楠木　翼",
       "voice": {
         "id": "TUBA_001_PRO001E_005",
-        "file": null
+        "file": "voice/tuba_001_pro001E_005.ogg"
       },
       "lines": [
         "「ううん、あやまらなくていいよ！　さいしょは",
@@ -393,7 +393,7 @@
       "who": "望月　真琴",
       "voice": {
         "id": "MAKO_001_PRO001E_004",
-        "file": null
+        "file": "voice/mako_001_pro001E_004.ogg"
       },
       "lines": [
         "「カズって……？」"
@@ -459,7 +459,7 @@
       "who": "望月　真琴",
       "voice": {
         "id": "MAKO_001_PRO001E_005",
-        "file": null
+        "file": "voice/mako_001_pro001E_005.ogg"
       },
       "lines": [
         "「うん、よろしく……かずきくん。えっと、そのぅ、",
@@ -484,7 +484,7 @@
       "who": "楠木　翼",
       "voice": {
         "id": "TUBA_001_PRO001E_006",
-        "file": null
+        "file": "voice/tuba_001_pro001E_006.ogg"
       },
       "lines": [
         "「うんうん！　まことちゃんでいいよねっ！」"
@@ -535,7 +535,7 @@
       "who": "楠木　翼",
       "voice": {
         "id": "TUBA_001_PRO001E_007",
-        "file": null
+        "file": "voice/tuba_001_pro001E_007.ogg"
       },
       "lines": [
         "「ウチ、このすぐちかくだから、ちょっとだけ",
@@ -580,7 +580,7 @@
       "who": "望月　真琴",
       "voice": {
         "id": "MAKO_001_PRO001E_006",
-        "file": null
+        "file": "voice/mako_001_pro001E_006.ogg"
       },
       "lines": [
         "「ごめんなさい……ならいごとと、おべんきょうが",
@@ -605,7 +605,7 @@
       "who": "楠木　翼",
       "voice": {
         "id": "TUBA_001_PRO001E_008",
-        "file": null
+        "file": "voice/tuba_001_pro001E_008.ogg"
       },
       "lines": [
         "「そっかあ、じゃあ、またこんど、あそぼうっ！」"
@@ -653,7 +653,7 @@
       "who": "望月　真琴",
       "voice": {
         "id": "MAKO_001_PRO001E_007",
-        "file": null
+        "file": "voice/mako_001_pro001E_007.ogg"
       },
       "lines": [
         "「ごめんなさい……きょうもダメだから……」"
@@ -677,7 +677,7 @@
       "who": "楠木　翼",
       "voice": {
         "id": "TUBA_001_PRO001E_009",
-        "file": null
+        "file": "voice/tuba_001_pro001E_009.ogg"
       },
       "lines": [
         "「よーし！　それなら、まことちゃんのお母さんに、",
@@ -721,7 +721,7 @@
       "who": "望月　真琴",
       "voice": {
         "id": "MAKO_001_PRO001E_008",
-        "file": null
+        "file": "voice/mako_001_pro001E_008.ogg"
       },
       "lines": [
         "「ええっ！？　う、うちのママに！？」"
@@ -745,7 +745,7 @@
       "who": "楠木　翼",
       "voice": {
         "id": "TUBA_001_PRO001E_010",
-        "file": null
+        "file": "voice/tuba_001_pro001E_010.ogg"
       },
       "lines": [
         "「うんっ！　あそばせてくださいって言おうよ！」"
@@ -789,7 +789,7 @@
       "who": "望月　真琴",
       "voice": {
         "id": "MAKO_001_PRO001E_009",
-        "file": null
+        "file": "voice/mako_001_pro001E_009.ogg"
       },
       "lines": [
         "「あの、うちのママ……すごくこわいから、",
@@ -843,7 +843,7 @@
       "who": "望月　早紀",
       "voice": {
         "id": "SAKI_001_PRO001E_001",
-        "file": null
+        "file": "voice/saki_001_pro001E_001.ogg"
       },
       "lines": [
         "「真琴……この子たちは、なんなの？　誰？」"
@@ -886,7 +886,7 @@
       "who": "望月　真琴",
       "voice": {
         "id": "MAKO_001_PRO001E_010",
-        "file": null
+        "file": "voice/mako_001_pro001E_010.ogg"
       },
       "lines": [
         "「そのぅ……クラスのおともだち、です……」"
@@ -930,7 +930,7 @@
       "who": "楠木　翼",
       "voice": {
         "id": "TUBA_001_PRO001E_011",
-        "file": null
+        "file": "voice/tuba_001_pro001E_011.ogg"
       },
       "lines": [
         "「こんにちは！　くすのきつばさですっ！」"
@@ -1013,7 +1013,7 @@
       "who": "望月　早紀",
       "voice": {
         "id": "SAKI_001_PRO001E_002",
-        "file": null
+        "file": "voice/saki_001_pro001E_002.ogg"
       },
       "lines": [
         "「どういうことなの？　男の子なんか友だちにして、",
@@ -1058,7 +1058,7 @@
       "who": "望月　早紀",
       "voice": {
         "id": "SAKI_001_PRO001E_003",
-        "file": null
+        "file": "voice/saki_001_pro001E_003.ogg"
       },
       "lines": [
         "「あなたを、そんな子に育てた覚えはありませんよ」"
@@ -1101,7 +1101,7 @@
       "who": "楠木　翼",
       "voice": {
         "id": "TUBA_001_PRO001E_012",
-        "file": null
+        "file": "voice/tuba_001_pro001E_012.ogg"
       },
       "lines": [
         "「ちょっと！　ボクは、女の子ですけど！？」"
@@ -1125,7 +1125,7 @@
       "who": "望月　早紀",
       "voice": {
         "id": "SAKI_001_PRO001E_004",
-        "file": null
+        "file": "voice/saki_001_pro001E_004.ogg"
       },
       "lines": [
         "「えっ？　あなた、女の子なの？」"
@@ -1168,7 +1168,7 @@
       "who": "楠木　翼",
       "voice": {
         "id": "TUBA_001_PRO001E_013",
-        "file": null
+        "file": "voice/tuba_001_pro001E_013.ogg"
       },
       "lines": [
         "「そうです！　おねがいがあってきましたっ！」"
@@ -1211,7 +1211,7 @@
       "who": "楠木　翼",
       "voice": {
         "id": "TUBA_001_PRO001E_014",
-        "file": null
+        "file": "voice/tuba_001_pro001E_014.ogg"
       },
       "lines": [
         "「まことちゃんとあそびたいので、ならいごととか、",
@@ -1255,7 +1255,7 @@
       "who": "望月　早紀",
       "voice": {
         "id": "SAKI_001_PRO001E_005",
-        "file": null
+        "file": "voice/saki_001_pro001E_005.ogg"
       },
       "lines": [
         "「真琴、習い事をサボりたくて、こんな子たちを",
@@ -1280,7 +1280,7 @@
       "who": "望月　真琴",
       "voice": {
         "id": "MAKO_001_PRO001E_011",
-        "file": null
+        "file": "voice/mako_001_pro001E_011.ogg"
       },
       "lines": [
         "「あの、その……ち、ちがうん、です……」"
@@ -1323,7 +1323,7 @@
       "who": "望月　早紀",
       "voice": {
         "id": "SAKI_001_PRO001E_006",
-        "file": null
+        "file": "voice/saki_001_pro001E_006.ogg"
       },
       "lines": [
         "「この子は、しっかりした、立派な大人にならないと",
@@ -1368,7 +1368,7 @@
       "who": "望月　早紀",
       "voice": {
         "id": "SAKI_001_PRO001E_007",
-        "file": null
+        "file": "voice/saki_001_pro001E_007.ogg"
       },
       "lines": [
         "「それに、あなたたちと遊ばせて、不良にでも",
@@ -1412,7 +1412,7 @@
       "who": "楠木　翼",
       "voice": {
         "id": "TUBA_001_PRO001E_015",
-        "file": null
+        "file": "voice/tuba_001_pro001E_015.ogg"
       },
       "lines": [
         "「なんだよそれっ！　ふりょーって、そーゆー",
@@ -1459,7 +1459,7 @@
       "who": "望月　早紀",
       "voice": {
         "id": "SAKI_001_PRO001E_008",
-        "file": null
+        "file": "voice/saki_001_pro001E_008.ogg"
       },
       "lines": [
         "「ほら！　ウチの真琴が、あなたみたいな、乱暴な",
@@ -1546,7 +1546,7 @@
       "who": "望月　早紀",
       "voice": {
         "id": "SAKI_001_PRO001E_009",
-        "file": null
+        "file": "voice/saki_001_pro001E_009.ogg"
       },
       "lines": [
         "「勉強会？　そんなことをしなくても、ウチの真琴は",
@@ -1612,7 +1612,7 @@
       "who": "望月　早紀",
       "voice": {
         "id": "SAKI_001_PRO001E_010",
-        "file": null
+        "file": "voice/saki_001_pro001E_010.ogg"
       },
       "lines": [
         "「お得って……まるでセールスマンみたいね」"
@@ -1677,7 +1677,7 @@
       "who": "望月　早紀",
       "voice": {
         "id": "SAKI_001_PRO001E_010A",
-        "file": null
+        "file": "voice/saki_001_pro001E_010a.ogg"
       },
       "lines": [
         "「聖香学園って、有名な進学校じゃない。そこで、",
@@ -1764,7 +1764,7 @@
       "who": "望月　早紀",
       "voice": {
         "id": "SAKI_001_PRO001E_011",
-        "file": null
+        "file": "voice/saki_001_pro001E_011.ogg"
       },
       "lines": [
         "「分かったわ。勉強をするというならいいでしょう。",
@@ -1850,7 +1850,7 @@
       "who": "楠木　翼",
       "voice": {
         "id": "TUBA_001_PRO001E_016",
-        "file": null
+        "file": "voice/tuba_001_pro001E_016.ogg"
       },
       "lines": [
         "「やったねっ！　あのお母さんに、オッケーして",
@@ -1916,7 +1916,7 @@
       "who": "楠木　翼",
       "voice": {
         "id": "TUBA_001_PRO001E_017",
-        "file": null
+        "file": "voice/tuba_001_pro001E_017.ogg"
       },
       "lines": [
         "「これで、まことちゃんといっしょにあそべるね！」"

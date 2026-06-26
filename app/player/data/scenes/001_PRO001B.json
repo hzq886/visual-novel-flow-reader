@@ -46,7 +46,7 @@
       "who": "楠木　翼",
       "voice": {
         "id": "TUBA_001_PRO001B_001",
-        "file": null
+        "file": "voice/tuba_001_pro001B_001.ogg"
       },
       "lines": [
         "「どうしたんだ！？　もしかして、おなかとか、",
@@ -130,7 +130,7 @@
       "who": "楠木　翼",
       "voice": {
         "id": "TUBA_001_PRO001B_002",
-        "file": null
+        "file": "voice/tuba_001_pro001B_002.ogg"
       },
       "lines": [
         "「ウチ、すぐそこだからきなよ！　おなかのくすりが",
@@ -175,7 +175,7 @@
       "who": "楠木　翼",
       "voice": {
         "id": "TUBA_001_PRO001B_003",
-        "file": null
+        "file": "voice/tuba_001_pro001B_003.ogg"
       },
       "lines": [
         "「へいきか？　オレがおんぶしようか？」"
@@ -263,7 +263,7 @@
       "who": "楠木　翼",
       "voice": {
         "id": "TUBA_001_PRO001B_004",
-        "file": null
+        "file": "voice/tuba_001_pro001B_004.ogg"
       },
       "lines": [
         "「うんうん、よかった！　おなかいたいのって、",
@@ -307,7 +307,7 @@
       "who": "楠木　楓",
       "voice": {
         "id": "KAED_001_PRO001B_001",
-        "file": null
+        "file": "voice/kaed_001_pro001B_001.ogg"
       },
       "lines": [
         "「無理しないで、ゆっくり休んでいってね」"
@@ -351,7 +351,7 @@
       "who": "楠木　楓",
       "voice": {
         "id": "KAED_001_PRO001B_002",
-        "file": null
+        "file": "voice/kaed_001_pro001B_002.ogg"
       },
       "lines": [
         "「そういえば、まだ名前を言っていなかったわね。",
@@ -376,7 +376,7 @@
       "who": "楠木　翼",
       "voice": {
         "id": "TUBA_001_PRO001B_005",
-        "file": null
+        "file": "voice/tuba_001_pro001B_005.ogg"
       },
       "lines": [
         "「うん！　つばさって、よんでくれよなっ！」"
@@ -458,7 +458,7 @@
       "who": "楠木　楓",
       "voice": {
         "id": "KAED_001_PRO001B_003",
-        "file": null
+        "file": "voice/kaed_001_pro001B_003.ogg"
       },
       "lines": [
         "「礼儀正しいのね。かずきくん、よろしくね！」"
@@ -482,7 +482,7 @@
       "who": "楠木　翼",
       "voice": {
         "id": "TUBA_001_PRO001B_006",
-        "file": null
+        "file": "voice/tuba_001_pro001B_006.ogg"
       },
       "lines": [
         "「かずき……じゃあ、カズって呼んでもいいかな？",
@@ -568,7 +568,7 @@
       "who": "楠木　楓",
       "voice": {
         "id": "KAED_001_PRO001B_004",
-        "file": null
+        "file": "voice/kaed_001_pro001B_004.ogg"
       },
       "lines": [
         "「あっ、翼、そろそろ道場の時間じゃないの？」"
@@ -592,7 +592,7 @@
       "who": "楠木　翼",
       "voice": {
         "id": "TUBA_001_PRO001B_007",
-        "file": null
+        "file": "voice/tuba_001_pro001B_007.ogg"
       },
       "lines": [
         "「ホントだ！　いそいで、きがえてくるっ！」"
@@ -655,7 +655,7 @@
       "who": "楠木　楓",
       "voice": {
         "id": "KAED_001_PRO001B_005",
-        "file": null
+        "file": "voice/kaed_001_pro001B_005.ogg"
       },
       "lines": [
         "「ええ、あの子、いま空手を習ってて……元気なのは",
@@ -702,7 +702,7 @@
       "who": "楠木　翼",
       "voice": {
         "id": "TUBA_001_PRO001B_008",
-        "file": null
+        "file": "voice/tuba_001_pro001B_008.ogg"
       },
       "lines": [
         "「よーし！　じゅんびオッケー！」"
@@ -746,7 +746,7 @@
       "who": "楠木　楓",
       "voice": {
         "id": "KAED_001_PRO001B_006",
-        "file": null
+        "file": "voice/kaed_001_pro001B_006.ogg"
       },
       "lines": [
         "「そうそう、雨が降るみたいだから、傘を持って",
@@ -790,7 +790,7 @@
       "who": "楠木　楓",
       "voice": {
         "id": "KAED_001_PRO001B_007",
-        "file": null
+        "file": "voice/kaed_001_pro001B_007.ogg"
       },
       "lines": [
         "「この子ったら、チャンバラをして壊しちゃって」"
@@ -835,7 +835,7 @@
       "who": "楠木　翼",
       "voice": {
         "id": "TUBA_001_PRO001B_009",
-        "file": null
+        "file": "voice/tuba_001_pro001B_009.ogg"
       },
       "lines": [
         "「ええーっ、オレ、赤いカサなんて、やだよぉ！」"
@@ -881,7 +881,7 @@
       "who": "楠木　翼",
       "voice": {
         "id": "TUBA_001_PRO001B_010",
-        "file": null
+        "file": "voice/tuba_001_pro001B_010.ogg"
       },
       "lines": [
         "「こんなカサもってたら、オンナみたいじゃん！」"
@@ -905,7 +905,7 @@
       "who": "楠木　楓",
       "voice": {
         "id": "KAED_001_PRO001B_008",
-        "file": null
+        "file": "voice/kaed_001_pro001B_008.ogg"
       },
       "lines": [
         "「あのねぇ、あなたは女の子でしょう！」"
@@ -988,7 +988,7 @@
       "who": "楠木　楓",
       "voice": {
         "id": "KAED_001_PRO001B_009",
-        "file": null
+        "file": "voice/kaed_001_pro001B_009.ogg"
       },
       "lines": [
         "「ほーら、男の子と間違われちゃったじゃない？",
@@ -1032,7 +1032,7 @@
       "who": "楠木　翼",
       "voice": {
         "id": "TUBA_001_PRO001B_011",
-        "file": null
+        "file": "voice/tuba_001_pro001B_011.ogg"
       },
       "lines": [
         "「ううっ！　べ、べつに、オレでいいじゃん！」"
@@ -1056,7 +1056,7 @@
       "who": "楠木　楓",
       "voice": {
         "id": "KAED_001_PRO001B_010",
-        "file": null
+        "file": "voice/kaed_001_pro001B_010.ogg"
       },
       "lines": [
         "「ダメよ！　女の子は、オレとか言わないの！」"
@@ -1099,7 +1099,7 @@
       "who": "楠木　翼",
       "voice": {
         "id": "TUBA_001_PRO001B_012",
-        "file": null
+        "file": "voice/tuba_001_pro001B_012.ogg"
       },
       "lines": [
         "「じ、じゃあ、えーっと……ボク、とかで……」"
@@ -1142,7 +1142,7 @@
       "who": "楠木　翼",
       "voice": {
         "id": "TUBA_001_PRO001B_013",
-        "file": null
+        "file": "voice/tuba_001_pro001B_013.ogg"
       },
       "lines": [
         "「もういかないとっ！　カズ、またこんど、",

@@ -8,7 +8,7 @@
       "who": "楠木　翼",
       "voice": {
         "id": "TUBA_009_NUKE004_001",
-        "file": null
+        "file": "voice/tuba_009_nuke004_001.ogg"
       },
       "lines": [
         "「あれっ、カズ？　まだ帰ってなかったんだ？",
@@ -20,7 +20,7 @@
       "who": "楠木　翼",
       "voice": {
         "id": "TUBA_009_NUKE004_002",
-        "file": null
+        "file": "voice/tuba_009_nuke004_002.ogg"
       },
       "lines": [
         "「お疲れっ！　玄関まで見送るね」"
@@ -31,7 +31,7 @@
       "who": "楠木　翼",
       "voice": {
         "id": "TUBA_009_NUKE004_003",
-        "file": null
+        "file": "voice/tuba_009_nuke004_003.ogg"
       },
       "lines": [
         "「そう？　それじゃあ、また明日ね！」"
@@ -42,7 +42,7 @@
       "who": "楠木　翼",
       "voice": {
         "id": "TUBA_009_NUKE004_004",
-        "file": null
+        "file": "voice/tuba_009_nuke004_004.ogg"
       },
       "lines": [
         "「あれっ？　なにか忘れ物でもしたの？」"
@@ -71,7 +71,7 @@
       "who": "楠木　翼",
       "voice": {
         "id": "TUBA_009_NUKE004_005",
-        "file": null
+        "file": "voice/tuba_009_nuke004_005.ogg"
       },
       "lines": [
         "「ゆうしょく……よばれるまで、ベッドで……」"
@@ -94,7 +94,7 @@
       "who": "楠木　翼",
       "voice": {
         "id": "TUBA_009_NUKE004_006",
-        "file": null
+        "file": "voice/tuba_009_nuke004_006.ogg"
       },
       "lines": [
         "「あれ？　飲み物はどうしたの？」"
@@ -117,7 +117,7 @@
       "who": "楠木　翼",
       "voice": {
         "id": "TUBA_009_NUKE004_007",
-        "file": null
+        "file": "voice/tuba_009_nuke004_007.ogg"
       },
       "lines": [
         "「きたく……しゅくだい、ひとりで……」"

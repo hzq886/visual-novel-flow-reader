@@ -8,7 +8,7 @@
       "who": "望月　真琴",
       "voice": {
         "id": "MAKO_009_NUKE002_001",
-        "file": null
+        "file": "voice/mako_009_nuke002_001.ogg"
       },
       "lines": [
         "「おはよう。ごめんなさい、待たせちゃった？」"
@@ -19,7 +19,7 @@
       "who": "望月　真琴",
       "voice": {
         "id": "MAKO_009_NUKE002_002",
-        "file": null
+        "file": "voice/mako_009_nuke002_002.ogg"
       },
       "lines": [
         "「だーめ。そろそろ翼は、ノートのとりかたを、",
@@ -31,7 +31,7 @@
       "who": "望月　真琴",
       "voice": {
         "id": "MAKO_009_NUKE002_003",
-        "file": null
+        "file": "voice/mako_009_nuke002_003.ogg"
       },
       "lines": [
         "「ううん、私のことは気にしないで、先に帰って」"
@@ -42,7 +42,7 @@
       "who": "望月　真琴",
       "voice": {
         "id": "MAKO_009_NUKE002_004",
-        "file": null
+        "file": "voice/mako_009_nuke002_004.ogg"
       },
       "lines": [
         "「悪いけれど、私は先に帰るわね。習い事があるし」"
