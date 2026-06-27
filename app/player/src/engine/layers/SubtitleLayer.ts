@@ -66,7 +66,19 @@ export class SubtitleLayer extends Container {
   // セリフは集約した 1 発話を左揃えで全文表示する（話者名 `【名前】` を上に左揃え）。
   show(beat: Beat, line = 0): void {
     if (beat.kind === 'line') {
-      this.sayText.text = beat.lines.join('\n')
+      // 鉤括弧で始まる発話は継続行を全角 1 字下げ、「の後ろの文字（本文）に揃える（ぶら下げ）。
+      const lines = beat.lines
+      const opensBracket = /^[「『（《【〈“]/.test(lines[0] ?? '')
+      const INDENT = '\u3000' // 全角スペース＝「1 文字分の字下げ
+      this.sayText.text =
+        opensBracket && lines.length > 1
+          ? lines[0] +
+            '\n' +
+            lines
+              .slice(1)
+              .map((l) => INDENT + l)
+              .join('\n')
+          : lines.join('\n')
       this.sayText.style.fontWeight = '600'
       this.sayText.style.align = 'left'
       this.sayText.anchor.set(0, 1)
