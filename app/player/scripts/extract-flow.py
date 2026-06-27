@@ -424,6 +424,112 @@ def apply_switches(g, events, switches, opt_by_sv):
     return g
 
 
+# ───────────────────────── hub 合流後 goto の継続先解決（HU-22）─────────────────────────
+# SMAIN_* hub 名 → ラベル表 index（= その hub のブロック先頭オフセット sm.labels[idx]）。
+# ラベル表は 25 個の昇順バイトオフセットで、レコード列を 25 ブロックに分割する（各ブロック直前に
+# `0x07 <k>` マーカー）。文字列表順の単純 zip では終端 hub に body が誤対応するため、対応は
+# **制御フロー**で確定した: 大分岐（0x2a ジャンプテーブル）が SISTER01/TUBA01/TUBA02/MAKO01/
+# TUBAMAKO01/02 へ分岐する点を起点に、goto と fall-through とシーンコード連続性を辿って各ブロックを
+# 命名し、route-map（二次ソース）の各ルート定義と突き合わせて検証した（bijection・全到達・sink 無し・
+# JP/CN 同一）。L22/L23=STAFF_ROLL（slot10=1/2）, L24=cleanup は端末で hub ではない。詳細は
+# data_extract/text/_tools/smain_flow_guide.md §3.10。
+SMAIN_HUB_LABEL = {
+    "SMAIN_TUBA03": 0, "SMAIN_MIX01": 1, "SMAIN_MIX02": 2, "SMAIN_MIX03": 3, "SMAIN_MIX04": 4,
+    "SMAIN_SISTER01": 5, "SMAIN_SISTER02": 6, "SMAIN_AYAN01": 7, "SMAIN_AYAN02": 8, "SMAIN_AYAN03": 9,
+    "SMAIN_SUZU01": 10, "SMAIN_SISTER03": 11, "SMAIN_SISTER04": 12, "SMAIN_TUBA01": 13, "SMAIN_TUBA02": 14,
+    "SMAIN_MAKO01": 15, "SMAIN_TUBAMAKO01": 16, "SMAIN_TUBAMAKO06": 17, "SMAIN_TUBAMAKO02": 18,
+    "SMAIN_TUBAMAKO03": 19, "SMAIN_TUBAMAKO04": 20, "SMAIN_TUBAMAKO05": 21,
+}
+
+
+def resolve_hub_continuations(g, sm, events):
+    """HU-22: 各 hub（SMAIN_* 合流点）の goto 継続先を**ラベル表**で解決し、レコード隣接由来の
+    近似 out-edge を真の継続先（hub のブロック先頭イベント）へ置換する。これで MIX01/MIX03 の
+    sink が解消し、flow が SMAIN の制御フローグラフ（full CFG）として連結する。"""
+    labels = getattr(sm, "labels", None)
+    if not labels:
+        return
+    n = len(events)
+
+    def first_ev_idx(pos0):
+        """pos >= pos0 の最初のイベント index（= そのオフセットのブロック先頭イベント）。"""
+        return next((i for i, e in enumerate(events) if e["pos"] >= pos0), None)
+
+    # hub -> 継続イベントの node id（ブロック先頭イベント）。/ ブロック先頭 ev_idx -> hub 名。
+    cont, head_hub = {}, {}
+    for hub, k in SMAIN_HUB_LABEL.items():
+        if hub not in g.kind:
+            continue
+        fi = first_ev_idx(labels[k])
+        if fi is not None:
+            cont[hub] = events[fi]["name"]
+            head_hub[fi] = hub
+
+    # (1) goto-run のファンアウト: 連続する hub/end goto は直前 scene から並列分岐（大分岐 dispatch・
+    #     len-7 select の選択肢分岐）。隣接エッジでは先頭 1 本しか張られず後続が孤立するため補う。
+    i = 0
+    while i < n:
+        if events[i]["kind"] in ("hub", "end"):
+            j = i
+            while j < n and events[j]["kind"] in ("hub", "end"):
+                j += 1
+            if i > 0 and events[i - 1]["kind"] in ("scene", "staff"):
+                src = events[i - 1]["name"]
+                for t in range(i, j):
+                    g.add_edge(src, events[t]["name"], events[t].get("cond"))
+            i = j
+        else:
+            i += 1
+
+    # (2) hub の out-edge を全消去し、ラベル表で解決した継続先へ張り直す。
+    for hub in [nid for nid in g.kind if g.kind[nid] == "branch"]:
+        for v in list(g.adj[hub]):
+            g.indeg[v] -= 1
+            g.label.pop((hub, v), None)
+        g.adj[hub] = {}
+        if hub in cont:
+            g.add_edge(hub, cont[hub])
+
+    # (3) fall-through が hub ブロックへ入る所（scene 終端ブロック）は scene→次scene を scene→hub に
+    #     張り替え、合流点 hub を経由させる（例 MIX01 のブロック TUBA001D → MIX02 → AYAN002A）。
+    for i in range(n - 1):
+        if events[i]["kind"] == "scene" and (i + 1) in head_hub:
+            s, f, hub = events[i]["name"], events[i + 1]["name"], head_hub[i + 1]
+            if f in g.adj.get(s, {}):
+                g.indeg[f] -= 1
+                g.label.pop((s, f), None)
+                del g.adj[s][f]
+                g.add_edge(s, hub)
+
+    # (4) ブロック内 len-7 等値テストの「任意挿入シーン」（else ケース先頭。SUBTM 等）は隣接でも
+    #     len-8 switch でも繋がらず孤立する。これを **governing select の直前シーン**（= 真の分岐元）
+    #     へ接続して CFG を連結させる（block 先頭は連続を保つ＝収縮維持）。挿入の choice/flag 紐付けは
+    #     HU-23。再入で既に in-edge を持つシーンは対象外。
+    recs = sm.records
+    pos2ri = {p: i for i, (p, _, _, _) in enumerate(recs)}
+
+    def select_source(ri):
+        """レコード ri から後方走査し、直近の select（0x1d）の直前 scene 名を返す。"""
+        j = ri - 1
+        while j >= 0:
+            dj = recs[j][3]
+            if dj and dj[0] == OP_SELECT:
+                for k in range(j - 1, -1, -1):
+                    dk = recs[k][3]
+                    if dk and dk[0] == OP_SCENE:
+                        return sm.string(struct.unpack_from("<H", dk, 1)[0])
+                return None
+            j -= 1
+        return None
+
+    for e in events:
+        if e["kind"] != "scene" or g.indeg[e["name"]] > 0:
+            continue
+        src = select_source(pos2ri.get(e["pos"], -1))
+        if src and src != e["name"]:
+            g.add_edge(src, e["name"])
+
+
 # キャラ → ルート hub の語幹候補（ルート入口を hub へ結ぶための一致キー）。
 ROUTE_BASES = {
     "ayan": ["AYAN"], "suzu": ["SUZU", "SISTER"], "tuba": ["TUBA"],
@@ -753,8 +859,13 @@ def load_smain(src):
     data = open(src, "rb").read()
     ents = parse_container(data)
     name, size, eo = next(e for e in ents if e[0] == "SMAIN")
-    payload = decrypt(data[eo:eo + size])[0x10:]
+    full = decrypt(data[eo:eo + size])
+    # サブヘッダ: u32 a / u32 unk1 / u16 c1 / u16 c2 / u32 d。unk1=ラベル表開始（=rec_end+1）, c2=ラベル数。
+    _, unk1, _, c2, _ = struct.unpack_from("<IIHHI", full, 0)
+    payload = full[0x10:]
     sm = Smain(payload)
+    # ラベル表（HU-22）: c2 個の u16 = 各 hub ブロックの正規バイトオフセット（昇順・レコード境界）。
+    sm.labels = [struct.unpack_from("<H", payload, unk1 + 2 * k)[0] for k in range(c2)]
     return sm, extract_events(sm)
 
 
@@ -850,6 +961,7 @@ def main():
 
     g, start = build_graph(events)
     apply_switches(g, events, switches, opt_by_sv)
+    resolve_hub_continuations(g, sm, events)  # HU-22: hub 合流後 goto の継続先をラベル表で解決
     resolve_entries(g, start)
     contract_chains(g, start)
     flow = to_flow(g, start, real_codes, choices_by_scene, swtable, flagmap)
@@ -874,6 +986,30 @@ def main():
     print("  ✓ 選択肢メニュー %d 件 / 選択肢 %d 個（jp/cn i18n）" % (n_menu, n_opt))
     print("  ✓ ルート分岐: 選択肢→分岐先 %d 個 / 分岐ラベル付きエッジ %d 本（len-8 switch）"
           % (n_targ, n_lab))
+
+    # HU-22 検証: hub 継続先解決後、合流 hub に sink が無く全ノードが start から到達可能（full CFG）。
+    adj = defaultdict(list)
+    for e in flow["edges"]:
+        adj[e["source"]].append(e["target"])
+    outdeg = Counter()
+    for e in flow["edges"]:
+        outdeg[e["source"]] += 1
+    sinks = [n["id"] for n in flow["nodes"] if n["kind"] == "branch" and outdeg[n["id"]] == 0]
+    seen, stack = set(), ["start"]
+    while stack:
+        u = stack.pop()
+        if u in seen:
+            continue
+        seen.add(u)
+        stack.extend(adj.get(u, ()))
+    unreached = [n["id"] for n in flow["nodes"] if n["id"] not in seen]
+    if sinks:
+        print("  ✗ hub sink（継続先未解決）: %s" % ", ".join(sinks))
+    if unreached:
+        print("  ✗ start から未到達: %s" % ", ".join(unreached))
+    if not sinks and not unreached:
+        print("  ✓ full CFG: 合流 hub の継続先を解決（sink 0）/ 全 %d ノード start から到達"
+              % len(flow["nodes"]))
     if unresolved:
         print("  ⚠ 原テキスト不在のシーン参照: %s" % ", ".join(unresolved))
 
