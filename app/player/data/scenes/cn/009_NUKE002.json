@@ -1,0 +1,55 @@
+{
+  "code": "009_NUKE002",
+  "route": "009",
+  "locale": "cn",
+  "beats": [
+    {
+      "kind": "line",
+      "who": "望月真琴",
+      "voice": {
+        "id": "MAKO_009_NUKE002_001",
+        "file": "voice/mako_009_nuke002_001.ogg"
+      },
+      "lines": [
+        "「早上好。对不起，让你等了？」"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "望月真琴",
+      "voice": {
+        "id": "MAKO_009_NUKE002_002",
+        "file": "voice/mako_009_nuke002_002.ogg"
+      },
+      "lines": [
+        "「不行。翼，我觉得你应该好好学习一下笔记的方法。」"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "望月真琴",
+      "voice": {
+        "id": "MAKO_009_NUKE002_003",
+        "file": "voice/mako_009_nuke002_003.ogg"
+      },
+      "lines": [
+        "「嗯，不用担心我，你先回去吧。」"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "望月真琴",
+      "voice": {
+        "id": "MAKO_009_NUKE002_004",
+        "file": "voice/mako_009_nuke002_004.ogg"
+      },
+      "lines": [
+        "「抱歉，我要先回去了。有课外活动要参加。」"
+      ]
+    }
+  ],
+  "bgm": {
+    "track": "M15",
+    "file": "bgm/M15.ogg"
+  }
+}

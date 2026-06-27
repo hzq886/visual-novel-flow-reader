@@ -1,0 +1,220 @@
+{
+  "code": "001_PRO003B",
+  "route": "001",
+  "locale": "cn",
+  "beats": [
+    {
+      "kind": "line",
+      "who": "古桥凉菜",
+      "voice": {
+        "id": "SUZU_001_PRO003B_001",
+        "file": "voice/suzu_001_pro003B_001.ogg"
+      },
+      "lines": [
+        "「早上好。我有点睡过头了」"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "古桥凉菜",
+      "voice": {
+        "id": "SUZU_001_PRO003B_002",
+        "file": "voice/suzu_001_pro003B_002.ogg"
+      },
+      "lines": [
+        "「早上好。我去拿报纸了」"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "古桥凉菜",
+      "voice": {
+        "id": "SUZU_001_PRO003B_003",
+        "file": "voice/suzu_001_pro003B_003.ogg"
+      },
+      "lines": [
+        "「你有好好睡吗？熬夜可不好哦？」"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "古桥凉菜",
+      "voice": {
+        "id": "SUZU_001_PRO003B_004",
+        "file": "voice/suzu_001_pro003B_004.ogg"
+      },
+      "lines": [
+        "「我开始吃了。姐姐做的饭菜，总是很均衡，真是帮大忙了」"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "古桥凉菜",
+      "voice": {
+        "id": "SUZU_001_PRO003B_005",
+        "file": "voice/suzu_001_pro003B_005.ogg"
+      },
+      "lines": [
+        "「这个真的很好吃」"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "古桥凉菜",
+      "voice": {
+        "id": "SUZU_001_PRO003B_006",
+        "file": "voice/suzu_001_pro003B_006.ogg"
+      },
+      "lines": [
+        "「对不起，我有点赶时间了，我要出门了」"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "古桥凉菜",
+      "voice": {
+        "id": "SUZU_001_PRO003B_007",
+        "file": "voice/suzu_001_pro003B_007.ogg"
+      },
+      "lines": [
+        "「嗯，知道了。谢谢你」"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "古桥凉菜",
+      "voice": {
+        "id": "SUZU_001_PRO003B_008",
+        "file": "voice/suzu_001_pro003B_008.ogg"
+      },
+      "lines": [
+        "「那我走了」"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "古桥凉菜",
+      "voice": {
+        "id": "SUZU_001_PRO003B_009",
+        "file": "voice/suzu_001_pro003B_009.ogg"
+      },
+      "lines": [
+        "「今天可能会晚回来」"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "古桥凉菜",
+      "voice": {
+        "id": "SUZU_001_PRO003B_010",
+        "file": "voice/suzu_001_pro003B_010.ogg"
+      },
+      "lines": [
+        "「我回来了。今天回得挺早的」"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "古桥凉菜",
+      "voice": {
+        "id": "SUZU_001_PRO003B_011",
+        "file": "voice/suzu_001_pro003B_011.ogg"
+      },
+      "lines": [
+        "「我回来了。有点晚了」"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "古桥凉菜",
+      "voice": {
+        "id": "SUZU_001_PRO003B_012",
+        "file": "voice/suzu_001_pro003B_012.ogg"
+      },
+      "lines": [
+        "「总之，我去房间换衣服」"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "古桥凉菜",
+      "voice": {
+        "id": "SUZU_001_PRO003B_013",
+        "file": "voice/suzu_001_pro003B_013.ogg"
+      },
+      "lines": [
+        "「谢谢。我马上去换衣服」"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "古桥凉菜",
+      "voice": {
+        "id": "SUZU_001_PRO003B_014",
+        "file": "voice/suzu_001_pro003B_014.ogg"
+      },
+      "lines": [
+        "「姐姐的料理一如既往地棒极了」"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "古桥凉菜",
+      "voice": {
+        "id": "SUZU_001_PRO003B_015",
+        "file": "voice/suzu_001_pro003B_015.ogg"
+      },
+      "lines": [
+        "「嗯，好吃。真是不错的东西」"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "古桥凉菜",
+      "voice": {
+        "id": "SUZU_001_PRO003B_016",
+        "file": "voice/suzu_001_pro003B_016.ogg"
+      },
+      "lines": [
+        "「那我去洗个澡了」"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "古桥凉菜",
+      "voice": {
+        "id": "SUZU_001_PRO003B_017",
+        "file": "voice/suzu_001_pro003B_017.ogg"
+      },
+      "lines": [
+        "「我要在房间里工作一下」"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "古桥凉菜",
+      "voice": {
+        "id": "SUZU_001_PRO003B_018",
+        "file": "voice/suzu_001_pro003B_018.ogg"
+      },
+      "lines": [
+        "「我要在房间里休息一下」"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "古桥凉菜",
+      "voice": {
+        "id": "SUZU_001_PRO003B_019",
+        "file": "voice/suzu_001_pro003B_019.ogg"
+      },
+      "lines": [
+        "「那我去睡觉了」"
+      ]
+    }
+  ],
+  "bgm": {
+    "track": "M01",
+    "file": "bgm/M01.ogg"
+  }
+}

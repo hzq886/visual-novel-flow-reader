@@ -1,0 +1,131 @@
+{
+  "code": "009_NUKE003",
+  "route": "009",
+  "locale": "cn",
+  "beats": [
+    {
+      "kind": "line",
+      "who": "望月真琴",
+      "voice": {
+        "id": "MAKO_009_NUKE003_001",
+        "file": "voice/mako_009_nuke003_001.ogg"
+      },
+      "lines": [
+        "「那个……？哎呀，为什么我的那里……」"
+      ]
+    },
+    {
+      "kind": "narration",
+      "lines": [
+        "看来注意到下体湿了。",
+        "纠结地，把腿夹得更紧。"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "古桥和树",
+      "voice": {
+        "id": "KAZU_009_NUKE003_001",
+        "file": null
+      },
+      "lines": [
+        "「怎么了？」"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "望月真琴",
+      "voice": {
+        "id": "MAKO_009_NUKE003_002",
+        "file": "voice/mako_009_nuke003_002.ogg"
+      },
+      "lines": [
+        "「嗯，没，没事！我们回去吧！」"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "古桥和树",
+      "voice": {
+        "id": "KAZU_009_NUKE003_002",
+        "file": null
+      },
+      "lines": [
+        "「请问，你是不可以把催眠术的事情告诉任何人的哦」"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "望月真琴",
+      "voice": {
+        "id": "MAKO_009_NUKE003_003",
+        "file": "voice/mako_009_nuke003_003.ogg"
+      },
+      "lines": [
+        "「催眠术……不能告诉任何人……」"
+      ]
+    },
+    {
+      "kind": "narration",
+      "lines": [
+        "我决定用『催眠术』束缚真琴。"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "古桥和树",
+      "voice": {
+        "id": "KAZU_009_NUKE003_003",
+        "file": null
+      },
+      "lines": [
+        "「不能寻求帮助，或者引起注意之类的事情，",
+        "对古桥和树来说都是不利的事情」"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "望月真琴",
+      "voice": {
+        "id": "MAKO_009_NUKE003_004",
+        "file": "voice/mako_009_nuke003_004.ogg"
+      },
+      "lines": [
+        "「求，求救之类的……假装一下……」"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "古桥和树",
+      "voice": {
+        "id": "KAZU_009_NUKE003_004",
+        "file": null
+      },
+      "lines": [
+        "「对了对了。为了确保催眠术的事情不会被传出去」"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "望月真琴",
+      "voice": {
+        "id": "MAKO_009_NUKE003_005",
+        "file": "voice/mako_009_nuke003_005.ogg"
+      },
+      "lines": [
+        "「什，什么！？不，不能传出去……嗯嗯……」"
+      ]
+    },
+    {
+      "kind": "narration",
+      "lines": [
+        "真琴想要说些什么，但结结巴巴地说不出口。",
+        "或许是想要说催眠术的事情吧。"
+      ]
+    }
+  ],
+  "bgm": {
+    "track": "M15",
+    "file": "bgm/M15.ogg"
+  }
+}

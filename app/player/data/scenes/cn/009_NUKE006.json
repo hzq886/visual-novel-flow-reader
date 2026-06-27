@@ -1,0 +1,78 @@
+{
+  "code": "009_NUKE006",
+  "route": "009",
+  "locale": "cn",
+  "beats": [
+    {
+      "kind": "line",
+      "who": "古桥凉菜",
+      "voice": {
+        "id": "SUZU_009_NUKE006_001",
+        "file": "voice/suzu_009_nuke006_001.ogg"
+      },
+      "lines": [
+        "「和树，可以进来吗？」"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "古桥和树",
+      "voice": {
+        "id": "KAZU_009_NUKE006_001",
+        "file": null
+      },
+      "lines": [
+        "「嗯，可以的」"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "古桥和树",
+      "voice": {
+        "id": "KAZU_009_NUKE006_002",
+        "file": null
+      },
+      "lines": [
+        "「怎么了？」"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "古桥凉菜",
+      "voice": {
+        "id": "SUZU_009_NUKE006_002",
+        "file": "voice/suzu_009_nuke006_002.ogg"
+      },
+      "lines": [
+        "「那之后，我对性方面进行了相当多的学习。",
+        "然后，我想让你来试试看」"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "古桥和树",
+      "voice": {
+        "id": "KAZU_009_NUKE006_003",
+        "file": null
+      },
+      "lines": [
+        "「是，是吗……」"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "古桥凉菜",
+      "voice": {
+        "id": "SUZU_009_NUKE006_003",
+        "file": "voice/suzu_009_nuke006_003.ogg"
+      },
+      "lines": [
+        "「呵呵，这次一定会很棒！我会展示给你看与第一次不同的地方！」"
+      ]
+    }
+  ],
+  "bgm": {
+    "track": "M15",
+    "file": "bgm/M15.ogg"
+  }
+}

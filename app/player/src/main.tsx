@@ -10,7 +10,8 @@ import { loadScene } from '@/engine/sceneLoader'
 if (import.meta.env.DEV) {
   const w = window as unknown as Record<string, unknown>
   w.__player = usePlayer
-  w.__jump = async (code: string) => usePlayer.getState().load(await loadScene(code))
+  w.__jump = async (code: string) =>
+    usePlayer.getState().load(await loadScene(code, usePlayer.getState().locale))
 }
 
 createRoot(document.getElementById('root')!).render(

@@ -1,0 +1,112 @@
+{
+  "code": "009_NUKE005",
+  "route": "009",
+  "locale": "cn",
+  "beats": [
+    {
+      "kind": "narration",
+      "lines": [
+        "我决定去绫姐的咖啡店。",
+        "为了做一些『准备』。"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "古桥绫菜",
+      "voice": {
+        "id": "AYAN_009_NUKE005_001",
+        "file": "voice/ayan_009_nuke005_001.ogg"
+      },
+      "lines": [
+        "「哎呀，和树君。虽然咖啡店快要关门了」"
+      ]
+    },
+    {
+      "kind": "narration",
+      "lines": [
+        "因为已经到了关店时间，所以没有客人了。",
+        "我对正在准备关店的绫姐说。"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "古桥和树",
+      "voice": {
+        "id": "KAZU_009_NUKE005_001",
+        "file": null
+      },
+      "lines": [
+        "「嗯，我想帮忙。还有，有点事想拜托你」"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "古桥绫菜",
+      "voice": {
+        "id": "AYAN_009_NUKE005_002",
+        "file": "voice/ayan_009_nuke005_002.ogg"
+      },
+      "lines": [
+        "「想拜托我？有什么事吗？」"
+      ]
+    },
+    {
+      "kind": "narration",
+      "lines": [
+        "姐姐微笑着歪了歪头。"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "古桥和树",
+      "voice": {
+        "id": "KAZU_009_NUKE005_002",
+        "file": null
+      },
+      "lines": [
+        "「你们有戚风蛋糕剩下吗？真琴想要，所以我想给她」"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "古桥绫菜",
+      "voice": {
+        "id": "AYAN_009_NUKE005_003",
+        "file": "voice/ayan_009_nuke005_003.ogg"
+      },
+      "lines": [
+        "「嗯，有的哦。真琴喜欢吃呢。",
+        "如果她能在明天之前吃到的话，没问题的」"
+      ]
+    },
+    {
+      "kind": "narration",
+      "lines": [
+        "突然给蛋糕也是挺奇怪的。",
+        "我考虑了一个合适的理由，解释道。"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "古桥和树",
+      "voice": {
+        "id": "KAZU_009_NUKE005_003",
+        "file": null
+      },
+      "lines": [
+        "「为了借数学笔记，我答应给她戚风蛋糕……」"
+      ]
+    },
+    {
+      "kind": "narration",
+      "lines": [
+        "这样，我就得到了戚风蛋糕。",
+        "还有丰富的枫糖浆……。"
+      ]
+    }
+  ],
+  "bgm": {
+    "track": "M15",
+    "file": "bgm/M15.ogg"
+  }
+}

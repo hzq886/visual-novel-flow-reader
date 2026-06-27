@@ -14,7 +14,7 @@ Vite + TypeScript + React / VN描画=**PixiJS**(WebGL) / ルート図=**React Fl
 - `src/audio/` — Howler ラッパ（voice/se/bgm）。
 - `src/store/` — Zustand（再生位置・現在シーン・フラグ）。
 - `scripts/` — ビルドスクリプト（tsx 実行、Node）。
-- `data/` — **生成物**。`scenes/*.json`（build-scenes 経由）/ `flow.json`（extract-flow.py 経由＝SMAIN 機械抽出）/ `sprites.json`・`backgrounds.json` / `manifest.json`。いずれも手編集禁止。`flow.routemap.json`（build-flow 二次出力）は git 外。
+- `data/` — **生成物**。`scenes/<locale>/*.json`（build-scenes 経由。jp/cn 別ディレクトリ）/ `flow.json`（extract-flow.py 経由＝SMAIN 機械抽出）/ `sprites.json`・`backgrounds.json` / `manifest.json`。いずれも手編集禁止。`flow.routemap.json`（build-flow 二次出力）は git 外。
 - `public/assets/` — **git 外**。素材実体は `npm run assets:fetch` で配置。
 
 ## コマンド
@@ -26,7 +26,8 @@ Vite + TypeScript + React / VN描画=**PixiJS**(WebGL) / ルート図=**React Fl
 | `npm run lint` / `format` / `typecheck`                        | ESLint(`--max-warnings 0`) / Prettier / `tsc -b --noEmit` |
 | `npm run test` / `test:watch`                                  | Vitest                                                    |
 | `npm run assets:fetch -- --scene <code>`                       | 素材を public/assets へ同期＋manifest 生成                |
-| `npm run data:defs` / `data:scenes` / `data:flow` / `data:all` | sprites/backgrounds・scenes・flow を生成                  |
+| `npm run data:defs` / `data:scenes` / `data:flow` / `data:all` | sprites/backgrounds・scenes(jp+cn)・flow を生成           |
+| `npm run data:scenes:cn` / `validate:cn`                       | cn シーン生成 / cn の未解決参照照合                       |
 | `npm run validate`                                             | 未解決参照・flow とシーンの相互照合                       |
 
 ## git 運用（GitHub Flow）
@@ -50,7 +51,7 @@ Vite + TypeScript + React / VN描画=**PixiJS**(WebGL) / ルート図=**React Fl
 - 立ち絵/背景: `[note]` ラベル経由で `_SPRSET.txt`/`_BGSET.txt` から解決（`sprites.json`/`backgrounds.json`）。
 - 効果音(se): `[id]` の se コード（`^\d{4}[A-Za-z]$`、例 `8351A`）を `parseScene` が `Beat.se` に取り込み、manifest で実ファイルへ解決（大小文字無視）。bytecode RE で `0x6c` が se 再生命令と確認（HU-28、[ADR 0006](../../docs/adr/0006-audio-cues.md) / [`smain_flow_guide.md` §3.9](../../data_extract/text/_tools/smain_flow_guide.md)）。
 - BGM: **トラック選択は原データに無い**（網羅確認済）。シーンの character（ルート）→ M01-M16 を `src/pipeline/audio.ts` の `BGM_BY_CHARACTER` で**curated 割当**（編集可。`Scene.bgm`）。エンジンはシーン跨ぎ継続＋track 変化でクロスフェード。
-- 言語: **日本語(jp)主軸**。スキーマは locale 対応、cn は後続スプリントで同パイプラインを流す。
+- 言語: **日本語(jp)主軸**＋**中国語(cn)対応済（HU-29）**。cn ソースは別タグ語彙（`[cn]`/`[ascii]`/`[jp]`）を `parseScene` が正準タグへ正規化。note は日本語ラベルのままなので bg/sprite は jp 定義で解決、voice/se/bgm は jp/cn 同一素材を共用。エンジンは store の `locale` で jp⇄cn をリアルタイム切替（ボタン / `L` キー、再生位置維持はベストエフォート）。詳細は [ADR 0007](../../docs/adr/0007-cn-locale-i18n.md)。
 
 ## フロー復元の出典（重要）
 

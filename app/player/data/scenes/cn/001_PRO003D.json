@@ -1,0 +1,144 @@
+{
+  "code": "001_PRO003D",
+  "route": "001",
+  "locale": "cn",
+  "beats": [
+    {
+      "kind": "line",
+      "who": "楠木翼",
+      "voice": {
+        "id": "TUBA_001_PRO003D_001",
+        "file": "voice/tuba_001_pro003D_001.ogg"
+      },
+      "lines": [
+        "「早上好！今天天气真好呢！」"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "楠木翼",
+      "voice": {
+        "id": "TUBA_001_PRO003D_002",
+        "file": "voice/tuba_001_pro003D_002.ogg"
+      },
+      "lines": [
+        "「早上好！今天好像要带把伞去比较好哦！」"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "楠木翼",
+      "voice": {
+        "id": "TUBA_001_PRO003D_003",
+        "file": "voice/tuba_001_pro003D_003.ogg"
+      },
+      "lines": [
+        "「久等了！不好意思，有点忙乱！」"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "楠木翼",
+      "voice": {
+        "id": "TUBA_001_PRO003D_004",
+        "file": "voice/tuba_001_pro003D_004.ogg"
+      },
+      "lines": [
+        "「久等了。谢谢你总是来接我」"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "楠木翼",
+      "voice": {
+        "id": "TUBA_001_PRO003D_005",
+        "file": "voice/tuba_001_pro003D_005.ogg"
+      },
+      "lines": [
+        "「早上好，真琴酱！」"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "楠木翼",
+      "voice": {
+        "id": "TUBA_001_PRO003D_006",
+        "file": "voice/tuba_001_pro003D_006.ogg"
+      },
+      "lines": [
+        "「啊，是吗……那就没办法了呢。",
+        "不过话说回来，看起来很辛苦呢」"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "楠木翼",
+      "voice": {
+        "id": "TUBA_001_PRO003D_007",
+        "file": "voice/tuba_001_pro003D_007.ogg"
+      },
+      "lines": [
+        "「那我们走吧！」"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "楠木翼",
+      "voice": {
+        "id": "TUBA_001_PRO003D_008",
+        "file": "voice/tuba_001_pro003D_008.ogg"
+      },
+      "lines": [
+        "「怎么了？在想些什么吗？」"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "楠木翼",
+      "voice": {
+        "id": "TUBA_001_PRO003D_009",
+        "file": "voice/tuba_001_pro003D_009.ogg"
+      },
+      "lines": [
+        "「今天我想会晚回来，你先回去可以吗？」"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "楠木翼",
+      "voice": {
+        "id": "TUBA_001_PRO003D_010",
+        "file": "voice/tuba_001_pro003D_010.ogg"
+      },
+      "lines": [
+        "「嗯，那明天见！」"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "楠木翼",
+      "voice": {
+        "id": "TUBA_001_PRO003D_011",
+        "file": "voice/tuba_001_pro003D_011.ogg"
+      },
+      "lines": [
+        "「好的……我一个人回去……」"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "楠木翼",
+      "voice": {
+        "id": "TUBA_001_PRO003D_012",
+        "file": "voice/tuba_001_pro003D_012.ogg"
+      },
+      "lines": [
+        "「是吗。那我就先回去了！」"
+      ]
+    }
+  ],
+  "bgm": {
+    "track": "M01",
+    "file": "bgm/M01.ogg"
+  }
+}

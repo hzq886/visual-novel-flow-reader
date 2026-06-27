@@ -6,17 +6,37 @@
 import { useEffect, useState } from 'react'
 import { Stage } from '@/engine/Stage'
 import { FlowMap } from '@/flow/FlowMap'
+import { usePlayer } from '@/store/player'
 
 type View = 'story' | 'map'
 
+const btnStyle: React.CSSProperties = {
+  position: 'absolute',
+  top: 12,
+  zIndex: 20,
+  background: 'rgba(20,24,31,.78)',
+  border: '1px solid #2a313e',
+  color: '#e7ecf3',
+  font: '12px system-ui, sans-serif',
+  fontWeight: 600,
+  padding: '7px 12px',
+  borderRadius: 9,
+  cursor: 'pointer',
+}
+
 function App() {
   const [view, setView] = useState<View>('story')
+  const locale = usePlayer((s) => s.locale)
+  const setLocale = usePlayer((s) => s.setLocale)
 
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
       if (e.key === 'Tab') {
         e.preventDefault()
         setView((v) => (v === 'story' ? 'map' : 'story'))
+      } else if (e.key.toLowerCase() === 'l') {
+        // L キーで言語トグル（テキスト入力欄が無いビューア専用画面なので素のキーで可）。
+        void usePlayer.getState().setLocale(usePlayer.getState().locale === 'jp' ? 'cn' : 'jp')
       }
     }
     window.addEventListener('keydown', onKey)
@@ -32,21 +52,15 @@ function App() {
         </div>
       )}
       <button
+        onClick={() => void setLocale(locale === 'jp' ? 'cn' : 'jp')}
+        aria-label="言語切替 / 切换语言"
+        style={{ ...btnStyle, right: 132 }}
+      >
+        {locale === 'jp' ? '🌐 日本語 → 中文 (L)' : '🌐 中文 → 日本語 (L)'}
+      </button>
+      <button
         onClick={() => setView((v) => (v === 'story' ? 'map' : 'story'))}
-        style={{
-          position: 'absolute',
-          top: 12,
-          right: 12,
-          zIndex: 20,
-          background: 'rgba(20,24,31,.78)',
-          border: '1px solid #2a313e',
-          color: '#e7ecf3',
-          font: '12px system-ui, sans-serif',
-          fontWeight: 600,
-          padding: '7px 12px',
-          borderRadius: 9,
-          cursor: 'pointer',
-        }}
+        style={{ ...btnStyle, right: 12 }}
       >
         {view === 'story' ? '🗺 ルート図 (Tab)' : '▶ 物語へ (Tab)'}
       </button>

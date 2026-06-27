@@ -1,0 +1,139 @@
+{
+  "code": "009_NUKE004",
+  "route": "009",
+  "locale": "cn",
+  "beats": [
+    {
+      "kind": "line",
+      "who": "楠木翼",
+      "voice": {
+        "id": "TUBA_009_NUKE004_001",
+        "file": "voice/tuba_009_nuke004_001.ogg"
+      },
+      "lines": [
+        "「咦，和树？还没回来吗？",
+        "难道你等着我吗？」"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "楠木翼",
+      "voice": {
+        "id": "TUBA_009_NUKE004_002",
+        "file": "voice/tuba_009_nuke004_002.ogg"
+      },
+      "lines": [
+        "「辛苦了！我送你到门口吧。」"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "楠木翼",
+      "voice": {
+        "id": "TUBA_009_NUKE004_003",
+        "file": "voice/tuba_009_nuke004_003.ogg"
+      },
+      "lines": [
+        "「是吗？那明天见！」"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "楠木翼",
+      "voice": {
+        "id": "TUBA_009_NUKE004_004",
+        "file": "voice/tuba_009_nuke004_004.ogg"
+      },
+      "lines": [
+        "「咦？有什么忘记的东西吗？」"
+      ]
+    },
+    {
+      "kind": "narration",
+      "lines": [
+        "说出关键词，进入催眠状态。"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "古桥和树",
+      "voice": {
+        "id": "KAZU_009_NUKE004_001",
+        "file": null
+      },
+      "lines": [
+        "「可以。你在晚餐时间之前，躺在床上休息一下。」"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "楠木翼",
+      "voice": {
+        "id": "TUBA_009_NUKE004_005",
+        "file": "voice/tuba_009_nuke004_005.ogg"
+      },
+      "lines": [
+        "「晚餐……在被叫到之前，躺在床上……」"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "古桥和树",
+      "voice": {
+        "id": "KAZU_009_NUKE004_002",
+        "file": null
+      },
+      "lines": [
+        "「听到门关上的声音后，就会回到平常的心态。我想和树已经回来了……」"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "楠木翼",
+      "voice": {
+        "id": "TUBA_009_NUKE004_006",
+        "file": "voice/tuba_009_nuke004_006.ogg"
+      },
+      "lines": [
+        "「哎？喝的东西呢？」"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "古桥和树",
+      "voice": {
+        "id": "KAZU_009_NUKE004_003",
+        "file": null
+      },
+      "lines": [
+        "「可以。和树已经回家了，我打算自己完成剩下的作业。」"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "楠木翼",
+      "voice": {
+        "id": "TUBA_009_NUKE004_007",
+        "file": "voice/tuba_009_nuke004_007.ogg"
+      },
+      "lines": [
+        "「回家……作业，一个人完成……」"
+      ]
+    },
+    {
+      "kind": "line",
+      "who": "古桥和树",
+      "voice": {
+        "id": "KAZU_009_NUKE004_004",
+        "file": null
+      },
+      "lines": [
+        "「在晚餐时间之前，我会一直待在房间里。"
+      ]
+    }
+  ],
+  "bgm": {
+    "track": "M15",
+    "file": "bgm/M15.ogg"
+  }
+}

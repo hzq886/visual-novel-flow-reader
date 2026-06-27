@@ -34,6 +34,11 @@ function escapeRegExp(s: string): string {
   return s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
 }
 
+// cn ロケールのソースは別タグ語彙を使う（jp と相互排他）。`[cn]`＝本文／`[ascii]`＝id（voice/se/
+// 制御コードは jp と同一）／`[jp]`＝note（立ち絵・背景ラベルは**日本語のまま**＝jp 定義で解決可能）。
+// 正準タグ（text/id/note）へ正規化して以降の状態機械をロケール非依存に保つ（HU-29）。
+const TAG_ALIAS: Record<string, 'text' | 'id' | 'note'> = { cn: 'text', ascii: 'id', jp: 'note' }
+
 export function parseScene(text: string, opts: { code: string; locale: Locale }): Scene {
   const { code, locale } = opts
   const route = code.split('_')[0] ?? code
@@ -71,9 +76,9 @@ export function parseScene(text: string, opts: { code: string; locale: Locale })
   }
 
   for (const rawLine of text.split(/\r?\n/)) {
-    const m = /^\[(text|id|note)\]\s?(.*)$/.exec(rawLine)
+    const m = /^\[(text|id|note|cn|ascii|jp)\]\s?(.*)$/.exec(rawLine)
     if (!m) continue
-    const tag = m[1]
+    const tag = TAG_ALIAS[m[1]] ?? m[1]
     const val = m[2].replace(/\s+$/, '')
     if (val === '') continue
 

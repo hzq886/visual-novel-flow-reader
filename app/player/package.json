@@ -16,11 +16,13 @@
     "assets:fetch": "tsx scripts/fetch-assets.ts",
     "data:defs": "tsx scripts/build-defs.ts",
     "data:scenes": "tsx scripts/build-scenes.ts",
+    "data:scenes:cn": "tsx scripts/build-scenes.ts --locale cn",
     "data:flow": "python3 scripts/extract-flow.py",
     "data:flow:routemap": "tsx scripts/build-flow.ts",
     "data:flow:diff": "python3 scripts/extract-flow.py --diff",
-    "data:all": "npm run data:defs && npm run data:scenes && npm run data:flow",
-    "validate": "tsx scripts/validate.ts"
+    "data:all": "npm run data:defs && npm run data:scenes && npm run data:scenes:cn && npm run data:flow",
+    "validate": "tsx scripts/validate.ts",
+    "validate:cn": "tsx scripts/validate.ts --locale cn"
   },
   "dependencies": {
     "@xyflow/react": "^12.8.6",
