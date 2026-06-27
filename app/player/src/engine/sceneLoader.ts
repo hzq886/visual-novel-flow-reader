@@ -24,7 +24,8 @@ export function hasScene(code: string, locale: Locale = 'jp'): boolean {
 }
 
 export async function loadScene(code: string, locale: Locale = 'jp'): Promise<Scene> {
-  // 要求 locale に無ければ jp へフォールバック（cn 未収録＝本文の無いシーン。例 002_AYAN004AB）。
+  // 要求 locale に無ければ jp へフォールバック（cn 未訳シーンを jp 本文で再生継続する安全網。
+  // 現状 jp/cn のシーン集合は一致＝発火しないが、将来 cn が不完全な場合の保険として残す）。
   let loader = byKey.get(`${locale}/${code}`)
   if (!loader && locale !== 'jp') {
     if (import.meta.env?.DEV)
