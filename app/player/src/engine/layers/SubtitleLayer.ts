@@ -1,12 +1,13 @@
 /**
  * SubtitleLayer — 字幕。地の文（narration）は画面下部中央、セリフ（line）は左揃えで話者名
  * `【名前】`＋本文を表示する。背景スクリムは置かず、文字自身のアウトライン（stroke）＋ドロップ
- * シャドウで任意背景でも読めるようにする（HU-33）。beat 変更でフェードイン。フォントは UI_FONT に統一。
+ * シャドウで任意背景でも読めるようにする（HU-33）。beat 変更でフェードイン。フォントは locale 別
+ * （show の font 引数で jp/cn を出し分け）。
  */
 import { Container, Text, type Ticker } from 'pixi.js'
 import type { Beat } from '@/pipeline/types'
 import { GAME_H, GAME_W } from '../assets'
-import { GOLD, UI_FONT } from '@/theme'
+import { FONT_JP, GOLD } from '@/theme'
 import { tween } from '../tween'
 
 const FADE_MS = 360
@@ -30,7 +31,7 @@ export class SubtitleLayer extends Container {
     this.whoText = new Text({
       text: '',
       style: {
-        fontFamily: UI_FONT,
+        fontFamily: FONT_JP,
         fontSize: 28,
         fontWeight: '700',
         fill: GOLD,
@@ -44,9 +45,9 @@ export class SubtitleLayer extends Container {
     this.sayText = new Text({
       text: '',
       style: {
-        fontFamily: UI_FONT,
+        fontFamily: FONT_JP,
         fontSize: 34,
-        fontWeight: '500',
+        fontWeight: '400',
         fill: 0xffffff,
         align: 'center',
         wordWrap: true,
@@ -64,7 +65,10 @@ export class SubtitleLayer extends Container {
 
   // line = beat 内の行サブインデックス。地の文は原データの行ごとに 1 行ずつ中央表示し、
   // セリフは集約した 1 発話を左揃えで全文表示する（話者名 `【名前】` を上に左揃え）。
-  show(beat: Beat, line = 0): void {
+  // font = locale 別フォントスタック（jp/cn）。
+  show(beat: Beat, line = 0, font: string = FONT_JP): void {
+    this.sayText.style.fontFamily = font
+    this.whoText.style.fontFamily = font
     if (beat.kind === 'line') {
       // 鉤括弧で始まる発話は継続行を全角 1 字下げ、「の後ろの文字（本文）に揃える（ぶら下げ）。
       const lines = beat.lines
@@ -79,7 +83,7 @@ export class SubtitleLayer extends Container {
               .map((l) => INDENT + l)
               .join('\n')
           : lines.join('\n')
-      this.sayText.style.fontWeight = '600'
+      this.sayText.style.fontWeight = '400'
       this.sayText.style.align = 'left'
       this.sayText.anchor.set(0, 1)
       this.sayText.position.set(LEFT_X, BASE_Y)
@@ -92,7 +96,7 @@ export class SubtitleLayer extends Container {
       }
     } else {
       this.sayText.text = beat.lines[line] ?? beat.lines[beat.lines.length - 1] ?? ''
-      this.sayText.style.fontWeight = '500'
+      this.sayText.style.fontWeight = '400'
       this.sayText.style.align = 'center'
       this.sayText.anchor.set(0.5, 1)
       this.sayText.position.set(GAME_W / 2, BASE_Y)
