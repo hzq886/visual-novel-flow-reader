@@ -131,6 +131,70 @@ describe('parseScene — se の beat への割当（pending/current）', () => {
   })
 })
 
+describe('parseScene — ナレーション途中の背景/立ち絵切替で beat を分割（HU-34）', () => {
+  it('地の文の途中で背景 note が変わると、その行から新 beat（新背景）になる', () => {
+    // 001_PRO001A 相当: モノトーン（回想）→ 通常（現在）の切替がナレーション中に起きる。
+    const text = [
+      '[note] #背景・プロローグＡ',
+      '[text] 冒頭の地の文。',
+      '[note] #EV003・モノトーン',
+      '[text] 両親を失った記憶。',
+      '[text] 恐ろしさに震えていた。',
+      '[note] #EV003・通常',
+      '[text] 姉さんが抱き支えてくれた。',
+    ].join('\n')
+    const s = parseScene(text, { code: '001_PRO001A', locale: 'jp' })
+    const proj = s.beats.map((b) => ({ kind: b.kind, bg: b.bg?.label ?? null, n: b.lines.length }))
+    expect(proj).toEqual([
+      { kind: 'narration', bg: '#背景・プロローグＡ', n: 1 },
+      { kind: 'narration', bg: '#EV003・モノトーン', n: 2 },
+      { kind: 'narration', bg: '#EV003・通常', n: 1 },
+    ])
+  })
+
+  it('地の文の途中で立ち絵 note が変わっても beat を分割する', () => {
+    const text = [
+      '[note] #背景・部屋',
+      '[note] #綾菜・通常',
+      '[text] 地の文Ａ。',
+      '[note] #綾菜・笑顔',
+      '[text] 地の文Ｂ。',
+    ].join('\n')
+    const s = parseScene(text, { code: '999_TEST001A', locale: 'jp' })
+    expect(s.beats.map((b) => ({ sprite: b.sprite?.label ?? null, n: b.lines.length }))).toEqual([
+      { sprite: '#綾菜・通常', n: 1 },
+      { sprite: '#綾菜・笑顔', n: 1 },
+    ])
+  })
+
+  it('同一ラベルの重複 note では分割しない（無駄な beat を作らない）', () => {
+    const text = [
+      '[note] #背景・部屋',
+      '[text] 地の文Ａ。',
+      '[note] #背景・部屋',
+      '[text] 地の文Ｂ。',
+    ].join('\n')
+    const s = parseScene(text, { code: '999_TEST001A', locale: 'jp' })
+    expect(s.beats).toHaveLength(1)
+    expect(s.beats[0].lines).toEqual(['地の文Ａ。', '地の文Ｂ。'])
+  })
+
+  it('note 直後がセリフのとき（従来動作）はナレーションが余計に分割されない', () => {
+    const text = [
+      '[note] #背景・部屋',
+      '[text] 地の文。',
+      '[note] #EV001・通常',
+      '[text] 【話者】',
+      '[text] 「セリフ」',
+    ].join('\n')
+    const s = parseScene(text, { code: '999_TEST001A', locale: 'jp' })
+    expect(s.beats.map((b) => ({ kind: b.kind, bg: b.bg?.label ?? null }))).toEqual([
+      { kind: 'narration', bg: '#背景・部屋' },
+      { kind: 'line', bg: '#EV001・通常' },
+    ])
+  })
+})
+
 describe('parseScene — 制御残骸（PUA/デコード失敗）の除去とタイトルカード復元', () => {
   const PUA = '\uf8f3' // U+F8F3「⬚」= 原データ抽出時のゴミ文字
   it('冒頭のゴミヘッダ（PUA＋単独文字）を捨て、直後のタイトルカードを title にする', () => {

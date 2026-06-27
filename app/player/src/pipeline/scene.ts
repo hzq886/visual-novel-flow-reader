@@ -96,8 +96,21 @@ export function parseScene(text: string, opts: { code: string; locale: Locale })
     if (val !== raw && isJunkResidue(val)) continue
 
     if (tag === 'note') {
-      if (/^#(背景|EV)/.test(val)) stickyBg = { label: val, file: null }
-      else if (val.startsWith('#')) stickySprite = { label: val, body: null, face: null }
+      // bg/sprite が実際に変化する場合、開いているナレーション beat を flush して
+      // 新しい注記を次 beat からスナップショットさせる。これをしないと、ナレーション
+      // 途中の背景/立ち絵切替が「次のセリフ等の flush まで遅延／消失」する（HU-34）。
+      // セリフ（line）beat や引用継続中には触れない（narration のみ・発話の原子性を維持）。
+      if (/^#(背景|EV)/.test(val)) {
+        if (val !== stickyBg?.label) {
+          if (cur?.kind === 'narration') flush()
+          stickyBg = { label: val, file: null }
+        }
+      } else if (val.startsWith('#')) {
+        if (val !== stickySprite?.label) {
+          if (cur?.kind === 'narration') flush()
+          stickySprite = { label: val, body: null, face: null }
+        }
+      }
       continue
     }
 
