@@ -15,11 +15,23 @@ const scene: Scene = {
   ],
 }
 
+// 複数行 narration を含むシーン（行送りの検証用）。beat0 は 3 行、beat1 は 1 行。
+const multiline: Scene = {
+  code: 'TEST_ML',
+  route: 'TEST',
+  locale: 'jp',
+  beats: [
+    { kind: 'narration', lines: ['n1', 'n2', 'n3'] },
+    { kind: 'narration', lines: ['m1'] },
+  ],
+}
+
 // ストアはシングルトン。各テスト前に初期状態へ戻す（actions は安定なので state のみ）。
 beforeEach(() => {
   usePlayer.setState({
     scene: null,
     index: 0,
+    line: 0,
     locale: 'jp',
     flags: new Set<string>(),
     pendingChoice: null,
@@ -72,6 +84,53 @@ describe('再生位置 — load / next / prev / goto', () => {
       goto(1)
     }).not.toThrow()
     expect(usePlayer.getState().index).toBe(0)
+  })
+})
+
+describe('行送り — 複数行 narration の beat 内ページ送り', () => {
+  it('load は line も 0 にする', () => {
+    usePlayer.setState({ index: 5, line: 3 })
+    usePlayer.getState().load(multiline)
+    expect(usePlayer.getState().index).toBe(0)
+    expect(usePlayer.getState().line).toBe(0)
+  })
+
+  it('next は beat 内を 1 行ずつ送り、行末で次 beat（line=0）へ', () => {
+    usePlayer.getState().load(multiline)
+    const { next } = usePlayer.getState()
+    next() // beat0 行1
+    expect(usePlayer.getState()).toMatchObject({ index: 0, line: 1 })
+    next() // beat0 行2（末尾行）
+    expect(usePlayer.getState()).toMatchObject({ index: 0, line: 2 })
+    next() // 行末 → 次 beat へ
+    expect(usePlayer.getState()).toMatchObject({ index: 1, line: 0 })
+    next() // 末尾 beat（1 行）で頭打ち
+    expect(usePlayer.getState()).toMatchObject({ index: 1, line: 0 })
+  })
+
+  it('advance も beat 内を行送りする（beat 末尾までは flow に触れない）', async () => {
+    usePlayer.getState().load(multiline)
+    await usePlayer.getState().advance()
+    expect(usePlayer.getState()).toMatchObject({ index: 0, line: 1 })
+    await usePlayer.getState().advance()
+    expect(usePlayer.getState()).toMatchObject({ index: 0, line: 2 })
+  })
+
+  it('prev は行頭なら前 beat の末尾行へ戻る', () => {
+    usePlayer.getState().load(multiline)
+    usePlayer.getState().goto(1) // 次 beat 先頭（index1, line0）
+    expect(usePlayer.getState()).toMatchObject({ index: 1, line: 0 })
+    usePlayer.getState().prev() // 行頭 → 前 beat の末尾行（line2）
+    expect(usePlayer.getState()).toMatchObject({ index: 0, line: 2 })
+    usePlayer.getState().prev() // 同一 beat 内を 1 行戻す
+    expect(usePlayer.getState()).toMatchObject({ index: 0, line: 1 })
+  })
+
+  it('goto は index 設定時に line を 0 へリセットする', () => {
+    usePlayer.getState().load(multiline)
+    usePlayer.setState({ line: 2 })
+    usePlayer.getState().goto(1)
+    expect(usePlayer.getState()).toMatchObject({ index: 1, line: 0 })
   })
 })
 

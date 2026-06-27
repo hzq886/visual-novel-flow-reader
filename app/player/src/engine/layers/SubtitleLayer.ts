@@ -59,9 +59,13 @@ export class SubtitleLayer extends Container {
     this.alpha = 0
   }
 
-  show(beat: Beat): void {
+  // line = beat 内の行サブインデックス。地の文は原データの行ごとに 1 行ずつ表示し（はみ出し回避）、
+  // セリフは集約した 1 発話を全文表示する。
+  show(beat: Beat, line = 0): void {
     const isLine = beat.kind === 'line'
-    this.sayText.text = beat.lines.join('\n')
+    this.sayText.text = isLine
+      ? beat.lines.join('\n')
+      : (beat.lines[line] ?? beat.lines[beat.lines.length - 1] ?? '')
     this.sayText.style.fontWeight = isLine ? '600' : '400'
     this.sayText.style.fontFamily = isLine
       ? 'system-ui, sans-serif'
