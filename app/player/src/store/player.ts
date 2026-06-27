@@ -13,16 +13,23 @@
  * 蓄積され、シーンを跨いでも保持される（新規プレイは resetFlags）。
  */
 import { create } from 'zustand'
-import { Flow, type Locale, type Scene } from '@/pipeline/types'
+import { Beat, Flow, type Locale, type Scene } from '@/pipeline/types'
 import { FlowNav, type NavOption } from '@/flow/nav'
 import { loadScene } from '@/engine/sceneLoader'
 import flowJson from '@data/flow.json'
 
 const nav = new FlowNav(Flow.parse(flowJson))
 
+// beat 内のページ送り段数。地の文（narration）は原データの行＝原作のメッセージ送り単位ごとに
+// 1 行ずつ表示するため lines.length 段。セリフ（line）は `「」` で集約した 1 発話＝ボイス 1 本に
+// 対応するので分割せず 1 段（lines は join して全文表示）。
+const beatSteps = (beat: Beat): number =>
+  beat.kind === 'narration' ? Math.max(1, beat.lines.length) : 1
+
 type PlayerState = {
   scene: Scene | null
   index: number
+  line: number // 現在 beat 内の行サブインデックス（narration の行送り）
   locale: Locale
   flags: ReadonlySet<string>
   pendingChoice: NavOption[] | null
@@ -44,22 +51,27 @@ type PlayerState = {
 export const usePlayer = create<PlayerState>((set, get) => ({
   scene: null,
   index: 0,
+  line: 0,
   locale: 'jp',
   flags: new Set<string>(),
   pendingChoice: null,
   ended: false,
-  load: (scene) => set({ scene, index: 0, pendingChoice: null, ended: false }),
+  load: (scene) => set({ scene, index: 0, line: 0, pendingChoice: null, ended: false }),
   next: () => {
-    const { scene, index } = get()
-    if (scene && index < scene.beats.length - 1) set({ index: index + 1 })
+    const { scene, index, line } = get()
+    if (!scene) return
+    if (line < beatSteps(scene.beats[index]) - 1) set({ line: line + 1 })
+    else if (index < scene.beats.length - 1) set({ index: index + 1, line: 0 })
   },
   prev: () => {
-    const { index } = get()
-    if (index > 0) set({ index: index - 1 })
+    const { scene, index, line } = get()
+    if (line > 0) set({ line: line - 1 })
+    else if (scene && index > 0)
+      set({ index: index - 1, line: beatSteps(scene.beats[index - 1]) - 1 })
   },
   goto: (i) => {
     const { scene } = get()
-    if (scene && i >= 0 && i < scene.beats.length) set({ index: i })
+    if (scene && i >= 0 && i < scene.beats.length) set({ index: i, line: 0 })
   },
   // flow の開始シーンをロード（エントリ）。
   start: async () => {
@@ -68,16 +80,22 @@ export const usePlayer = create<PlayerState>((set, get) => ({
     set({
       scene: await loadScene(first, get().locale),
       index: 0,
+      line: 0,
       pendingChoice: null,
       ended: false,
     })
   },
-  // beat 末尾でなければ次 beat。末尾なら flow に従って次シーン／選択肢／終端へ。
+  // beat 内に次の行があれば行送り。行末でも beat 末尾でなければ次 beat。
+  // beat も末尾なら flow に従って次シーン／選択肢／終端へ。
   advance: async () => {
-    const { scene, index, pendingChoice, locale } = get()
+    const { scene, index, line, pendingChoice, locale } = get()
     if (pendingChoice || !scene) return // 選択肢提示中は選択待ち
+    if (line < beatSteps(scene.beats[index]) - 1) {
+      set({ line: line + 1 })
+      return
+    }
     if (index < scene.beats.length - 1) {
-      set({ index: index + 1 })
+      set({ index: index + 1, line: 0 })
       return
     }
     const step = nav.advance(scene.code)
@@ -85,6 +103,7 @@ export const usePlayer = create<PlayerState>((set, get) => ({
       set({
         scene: await loadScene(step.code, locale),
         index: 0,
+        line: 0,
         pendingChoice: null,
         ended: false,
       })
@@ -103,6 +122,7 @@ export const usePlayer = create<PlayerState>((set, get) => ({
     set({
       scene: await loadScene(target, get().locale),
       index: 0,
+      line: 0,
       pendingChoice: null,
       ended: false,
     })
@@ -112,7 +132,7 @@ export const usePlayer = create<PlayerState>((set, get) => ({
   // 描画側（ChoiceOverlay）が locale を見て出し分ける＝ここでは再解決不要。
   setLocale: async (locale) => {
     if (locale === get().locale) return
-    const { scene, index } = get()
+    const { scene, index, line } = get()
     if (!scene) {
       set({ locale })
       return
@@ -123,7 +143,14 @@ export const usePlayer = create<PlayerState>((set, get) => ({
       set({ locale })
       return
     }
-    set({ locale, scene: swapped, index: Math.min(index, swapped.beats.length - 1) })
+    // beat 数・行数は jp/cn で異なりうるため index と line を両方クランプ（位置維持はベストエフォート）。
+    const ni = Math.min(index, swapped.beats.length - 1)
+    set({
+      locale,
+      scene: swapped,
+      index: ni,
+      line: Math.min(line, beatSteps(swapped.beats[ni]) - 1),
+    })
   },
   // フラグは不変更新（新しい Set を割り当て）して subscribe を発火させる。
   setFlag: (name) => {

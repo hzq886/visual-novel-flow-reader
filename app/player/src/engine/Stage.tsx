@@ -23,6 +23,7 @@ export function Stage() {
   // HUD / 選択肢は React 側で購読（PIXI の命令的描画とは独立に再レンダ）。
   const scene = usePlayer((s) => s.scene)
   const index = usePlayer((s) => s.index)
+  const line = usePlayer((s) => s.line)
   const ended = usePlayer((s) => s.ended)
 
   useEffect(() => {
@@ -68,7 +69,7 @@ export function Stage() {
 
         // silent=true は言語切替時の再描画（同一 beat を別ロケールで描き直す）。bg/sprite は
         // 同一 URL なら no-op、字幕だけ差し替わる。再生中の voice/se/bgm は据え置く（鳴り直さない）。
-        const renderBeat = (beat: Beat, opts?: { silent?: boolean }) => {
+        const renderBeat = (beat: Beat, line: number, opts?: { silent?: boolean }) => {
           if (beat.bg?.file) void cg.show(cgUrl(beat.bg.file))
           cg.setGray(0) // 感情(gray)データは未抽出のため 0
           if (beat.sprite?.body) {
@@ -80,7 +81,7 @@ export function Stage() {
           } else {
             sprite.hide()
           }
-          subtitle.show(beat)
+          subtitle.show(beat, line)
           if (opts?.silent) return
           // 字幕と同期して実ボイスを再生（台詞のみ）。地の文では前のボイスを止める。
           if (beat.kind === 'line' && beat.voice?.file) audio.playVoice(assetUrl(beat.voice.file))
@@ -116,13 +117,16 @@ export function Stage() {
           if (s.scene !== prev.scene) {
             // 言語切替（同一シーンを別ロケールへ差し替え）= 字幕のみ更新し音声/テクスチャは乱さない。
             if (prev.scene && s.scene.code === prev.scene.code && s.locale !== prev.locale) {
-              renderBeat(s.scene.beats[s.index], { silent: true })
+              renderBeat(s.scene.beats[s.index], s.line, { silent: true })
               return
             }
             onSceneChange(s.scene)
-            renderBeat(s.scene.beats[s.index])
+            renderBeat(s.scene.beats[s.index], s.line)
           } else if (s.index !== prev.index) {
-            renderBeat(s.scene.beats[s.index])
+            renderBeat(s.scene.beats[s.index], s.line)
+          } else if (s.line !== prev.line) {
+            // 同一 beat 内の行送り = 字幕のみ差し替え（bg/sprite/se/voice は据え置く）。
+            subtitle.show(s.scene.beats[s.index], s.line)
           }
         })
 
@@ -130,7 +134,7 @@ export function Stage() {
         const player = usePlayer.getState()
         if (player.scene) {
           onSceneChange(player.scene)
-          renderBeat(player.scene.beats[player.index])
+          renderBeat(player.scene.beats[player.index], player.line)
         } else {
           void player.start()
         }
@@ -170,6 +174,10 @@ export function Stage() {
   }, [])
 
   const total = scene?.beats.length ?? 0
+  // 複数行 narration では beat 内の行進捗も併記（クリックで送れていることが分かるように）。
+  const curBeat = scene?.beats[index]
+  const beatLines = curBeat?.kind === 'narration' ? curBeat.lines.length : 1
+  const lineLabel = beatLines > 1 ? ` （行 ${line + 1}/${beatLines}）` : ''
 
   return (
     <div style={{ position: 'relative', width: '100%', height: '100%' }}>
@@ -189,7 +197,7 @@ export function Stage() {
       >
         {ended
           ? '— 終 —'
-          : `${scene?.code ?? '…'} · ${index + 1} / ${total} · クリック / Space で進む`}
+          : `${scene?.code ?? '…'} · ${index + 1} / ${total}${lineLabel} · クリック / Space で進む`}
       </div>
     </div>
   )
