@@ -3,14 +3,14 @@
  * 2 用途を体裁を揃えて担う:
  *  - opening: シーン冒頭の `scene.title`（最初のページにオーバーレイ。前進でフェードアウト）。
  *  - section: 本文中の場面転換カード（narration 行に `\N` を含むページ。下部字幕の代わりに中央表示）。
- * `\N`(`\n`) は大見出し／小見出しの区切り＝改行。明朝・金の罫線で picturebook の題字体裁に寄せる。
+ * `\N`(`\n`) は大見出し／小見出しの区切り＝改行。ゴシック・金の罫線で題字体裁に寄せる。
+ * フォントは locale 別（show の font 引数で jp/cn を出し分け）。
  */
 import { Container, Graphics, Text, type Ticker } from 'pixi.js'
 import { GAME_H, GAME_W } from '../assets'
+import { FONT_JP, GOLD } from '@/theme'
 import { tween } from '../tween'
 
-const GOLD = 0xe9c07a
-const MINCHO = '"Hiragino Mincho ProN", "Yu Mincho", serif'
 const FADE_MS = 420
 // オーバーレイ（冒頭）は上部（背景CGの題字や立ち絵と干渉しにくい）、場面転換は画面中央に置く。
 const CENTER_Y = { opening: GAME_H * 0.24, section: GAME_H * 0.42 } as const
@@ -32,8 +32,9 @@ export class TitleCardLayer extends Container {
     this.category = new Text({
       text: '',
       style: {
-        fontFamily: MINCHO,
+        fontFamily: FONT_JP,
         fontSize: 30,
+        fontWeight: '400',
         fill: 0xf3ead8,
         align: 'center',
         letterSpacing: 10,
@@ -44,8 +45,9 @@ export class TitleCardLayer extends Container {
     this.title = new Text({
       text: '',
       style: {
-        fontFamily: MINCHO,
+        fontFamily: FONT_JP,
         fontSize: 72,
+        fontWeight: '700',
         fill: 0xffffff,
         align: 'center',
         letterSpacing: 8,
@@ -57,9 +59,11 @@ export class TitleCardLayer extends Container {
     this.alpha = 0
   }
 
-  /** raw = `大見出し\N小見出し`（null/空で隠す）。mode で表示位置を切り替える。 */
-  show(raw: string | null, mode: TitleCardMode = 'section'): void {
+  /** raw = `大見出し\N小見出し`（null/空で隠す）。mode で表示位置、font で locale 別書体を指定。 */
+  show(raw: string | null, mode: TitleCardMode = 'section', font: string = FONT_JP): void {
     if (!raw) return this.hide()
+    this.category.style.fontFamily = font
+    this.title.style.fontFamily = font
     if (raw === this.current && this.alpha > 0) return
     this.current = raw
 

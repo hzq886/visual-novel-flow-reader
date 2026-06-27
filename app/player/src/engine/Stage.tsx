@@ -10,6 +10,7 @@ import { type Beat, type Scene } from '@/pipeline/types'
 import { usePlayer } from '@/store/player'
 import { AudioManager } from '@/audio/AudioManager'
 import { assetUrl, cgUrl, containFit, spriteUrl } from './assets'
+import { fontFor, UI_FONT } from '@/theme'
 import { sceneAssetUrls } from './sceneLoader'
 import { CgLayer } from './layers/CgLayer'
 import { SpriteLayer } from './layers/SpriteLayer'
@@ -79,8 +80,9 @@ export function Stage() {
         //  - それ以外は通常字幕、タイトルカードは隠す。
         const renderText = (scene: Scene, index: number, line: number) => {
           const beat = scene.beats[index]
+          const font = fontFor(scene.locale) // jp/cn で字幕・題字の書体を出し分け
           if (isSectionCard(beat, line)) {
-            titleCard.show(beat.lines[line], 'section')
+            titleCard.show(beat.lines[line], 'section', font)
             subtitle.hide()
           } else {
             // 冒頭の最初のページで scene.title を上部にオーバーレイ。ただし beat0 の背景が
@@ -89,8 +91,8 @@ export function Stage() {
             const bgIsTitleCard = !!beat.bg?.file && /title/i.test(beat.bg.file)
             const opening =
               index === 0 && line === 0 && !bgIsTitleCard ? (scene.title ?? null) : null
-            titleCard.show(opening, 'opening')
-            subtitle.show(beat, line)
+            titleCard.show(opening, 'opening', font)
+            subtitle.show(beat, line, font)
           }
         }
 
@@ -172,6 +174,13 @@ export function Stage() {
           void player.start()
         }
 
+        // 同梱フォント（public/fonts）の読込完了で現在テキストを描き直す。PIXI canvas はフォントの
+        // 遅延ロードを自動反映しない（初回は fallback で焼かれる）ため、ロード後に再描画する。
+        void document.fonts.ready.then(() => {
+          const s = usePlayer.getState()
+          if (!cancelled && s.scene) renderText(s.scene, s.index, s.line)
+        })
+
         // 入力: クリック / キー。advance はシーン跨ぎ（末尾で次シーン／選択肢）。
         const onClick = () => void usePlayer.getState().advance()
         const onKey = (e: KeyboardEvent) => {
@@ -222,7 +231,7 @@ export function Stage() {
           right: 12,
           bottom: 10,
           color: 'rgba(255,255,255,.7)',
-          font: '12px system-ui, sans-serif',
+          font: `12px ${UI_FONT}`,
           letterSpacing: '.12em',
           textShadow: '0 1px 4px #000',
           pointerEvents: 'none',
@@ -267,7 +276,7 @@ function ChoiceOverlay() {
             background: 'rgba(20,24,31,.92)',
             border: '1.5px solid #e0a94f',
             color: '#f4ead2',
-            font: '15px system-ui, sans-serif',
+            font: `15px ${UI_FONT}`,
             fontWeight: 600,
             borderRadius: 10,
             cursor: 'pointer',

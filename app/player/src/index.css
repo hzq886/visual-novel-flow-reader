@@ -1,3 +1,30 @@
+/* 同梱フォント（HU-33）。jp=Zen Kaku Gothic New(OFL) / cn=Alibaba PuHuiTi 3（無償商用）。
+   原データの使用文字だけにサブセット済み（public/fonts、生成手順は docs/ADR 参照）。 */
+@font-face {
+  font-family: 'Zen Kaku Gothic New';
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/zen-kaku-gothic-new-jp-400.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Zen Kaku Gothic New';
+  font-weight: 700;
+  font-display: swap;
+  src: url('/fonts/zen-kaku-gothic-new-jp-700.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Alibaba PuHuiTi 3';
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/alibaba-puhuiti-3-cn-400.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Alibaba PuHuiTi 3';
+  font-weight: 700;
+  font-display: swap;
+  src: url('/fonts/alibaba-puhuiti-3-cn-700.woff2') format('woff2');
+}
+
 :root {
   --sans: system-ui, 'Segoe UI', 'Hiragino Sans', 'Noto Sans JP', Roboto, sans-serif;
   color-scheme: dark;
