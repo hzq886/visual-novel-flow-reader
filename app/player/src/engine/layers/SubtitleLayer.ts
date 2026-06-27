@@ -88,6 +88,16 @@ export class SubtitleLayer extends Container {
     })
   }
 
+  /** 字幕を隠す（場面転換カードのページでは下部字幕の代わりに TitleCardLayer が題字を出す）。 */
+  hide(): void {
+    const from = this.alpha
+    if (from === 0) return
+    this.cancelFade?.()
+    this.cancelFade = tween(this.ticker, FADE_MS, (t) => {
+      this.alpha = from * (1 - t)
+    })
+  }
+
   destroy(): void {
     this.cancelFade?.()
     super.destroy({ children: true })

@@ -1,6 +1,6 @@
 /**
  * Stage — PixiJS 描画ステージ。論理ゲーム空間（1280×720）に CgLayer / SpriteLayer /
- * SubtitleLayer を重ね、画面へ contain フィットする。flow.json の開始シーンから始め、
+ * SubtitleLayer / TitleCardLayer を重ね、画面へ contain フィットする。flow.json の開始シーンから始め、
  * クリック / Space / → で beat を送り、シーン末尾では flow に従って次シーンへ遷移する
  * （選択肢ノードでは選択肢オーバーレイを提示）。離脱シーンのテクスチャ/ボイスは解放する。
  */
@@ -14,6 +14,11 @@ import { sceneAssetUrls } from './sceneLoader'
 import { CgLayer } from './layers/CgLayer'
 import { SpriteLayer } from './layers/SpriteLayer'
 import { SubtitleLayer } from './layers/SubtitleLayer'
+import { TitleCardLayer } from './layers/TitleCardLayer'
+
+// 場面転換カード判定: narration 行に `\N`（大見出し\N小見出し）を含むか。
+const isSectionCard = (beat: Beat, line: number): boolean =>
+  beat.kind === 'narration' && /\\[Nn]/.test(beat.lines[line] ?? '')
 
 // 離脱シーンのテクスチャ解放はクロスフェード（Cg 1.4s）完了後に行う。
 const ASSET_RELEASE_DELAY_MS = 1800
@@ -56,7 +61,8 @@ export function Stage() {
         const cg = new CgLayer(app.ticker)
         const sprite = new SpriteLayer(app.ticker)
         const subtitle = new SubtitleLayer(app.ticker)
-        root.addChild(cg, sprite, subtitle)
+        const titleCard = new TitleCardLayer(app.ticker)
+        root.addChild(cg, sprite, subtitle, titleCard)
         const audio = new AudioManager()
 
         const layout = () => {
@@ -67,9 +73,36 @@ export function Stage() {
         layout()
         app.renderer.on('resize', layout)
 
+        // 字幕とタイトルカードの出し分け（bg/sprite/音声に依らない＝行送りでも呼ぶ）:
+        //  - 場面転換カード（narration 行に \N）= 中央に題字、下部字幕は隠す。
+        //  - シーン冒頭の最初のページ（index0/line0）で scene.title があれば上部にオーバーレイ。
+        //  - それ以外は通常字幕、タイトルカードは隠す。
+        const renderText = (scene: Scene, index: number, line: number) => {
+          const beat = scene.beats[index]
+          if (isSectionCard(beat, line)) {
+            titleCard.show(beat.lines[line], 'section')
+            subtitle.hide()
+          } else {
+            // 冒頭の最初のページで scene.title を上部にオーバーレイ。ただし beat0 の背景が
+            // 題字画像（PRO_TITLE_*/_TITLE01 等、file に "TITLE"）の場合は CG に題字が入っており
+            // 二重表示になるため出さない（題字画像は 4 件のみ。通常背景・背景無しでは出す）。
+            const bgIsTitleCard = !!beat.bg?.file && /title/i.test(beat.bg.file)
+            const opening =
+              index === 0 && line === 0 && !bgIsTitleCard ? (scene.title ?? null) : null
+            titleCard.show(opening, 'opening')
+            subtitle.show(beat, line)
+          }
+        }
+
         // silent=true は言語切替時の再描画（同一 beat を別ロケールで描き直す）。bg/sprite は
         // 同一 URL なら no-op、字幕だけ差し替わる。再生中の voice/se/bgm は据え置く（鳴り直さない）。
-        const renderBeat = (beat: Beat, line: number, opts?: { silent?: boolean }) => {
+        const renderBeat = (
+          scene: Scene,
+          index: number,
+          line: number,
+          opts?: { silent?: boolean },
+        ) => {
+          const beat = scene.beats[index]
           if (beat.bg?.file) void cg.show(cgUrl(beat.bg.file))
           cg.setGray(0) // 感情(gray)データは未抽出のため 0
           if (beat.sprite?.body) {
@@ -81,7 +114,7 @@ export function Stage() {
           } else {
             sprite.hide()
           }
-          subtitle.show(beat, line)
+          renderText(scene, index, line)
           if (opts?.silent) return
           // 字幕と同期して実ボイスを再生（台詞のみ）。地の文では前のボイスを止める。
           if (beat.kind === 'line' && beat.voice?.file) audio.playVoice(assetUrl(beat.voice.file))
@@ -117,16 +150,16 @@ export function Stage() {
           if (s.scene !== prev.scene) {
             // 言語切替（同一シーンを別ロケールへ差し替え）= 字幕のみ更新し音声/テクスチャは乱さない。
             if (prev.scene && s.scene.code === prev.scene.code && s.locale !== prev.locale) {
-              renderBeat(s.scene.beats[s.index], s.line, { silent: true })
+              renderBeat(s.scene, s.index, s.line, { silent: true })
               return
             }
             onSceneChange(s.scene)
-            renderBeat(s.scene.beats[s.index], s.line)
+            renderBeat(s.scene, s.index, s.line)
           } else if (s.index !== prev.index) {
-            renderBeat(s.scene.beats[s.index], s.line)
+            renderBeat(s.scene, s.index, s.line)
           } else if (s.line !== prev.line) {
-            // 同一 beat 内の行送り = 字幕のみ差し替え（bg/sprite/se/voice は据え置く）。
-            subtitle.show(s.scene.beats[s.index], s.line)
+            // 同一 beat 内の行送り = 字幕/タイトルカードのみ差し替え（bg/sprite/se/voice は据え置く）。
+            renderText(s.scene, s.index, s.line)
           }
         })
 
@@ -134,7 +167,7 @@ export function Stage() {
         const player = usePlayer.getState()
         if (player.scene) {
           onSceneChange(player.scene)
-          renderBeat(player.scene.beats[player.index], player.line)
+          renderBeat(player.scene, player.index, player.line)
         } else {
           void player.start()
         }
