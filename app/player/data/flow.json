@@ -13,20 +13,6 @@
       "scenes": []
     },
     {
-      "id": "005_MAKO003A",
-      "kind": "arc",
-      "character": "mako",
-      "title": "MAKO003A‥MAKO003B",
-      "pos": {
-        "x": 0,
-        "y": 120
-      },
-      "scenes": [
-        "005_MAKO003A",
-        "005_MAKO003B"
-      ]
-    },
-    {
       "id": "001_PRO001A",
       "kind": "arc",
       "character": "common",
@@ -83,19 +69,6 @@
       ]
     },
     {
-      "id": "005_MAKO003C",
-      "kind": "arc",
-      "character": "mako",
-      "title": "MAKO003C",
-      "pos": {
-        "x": 300,
-        "y": 120
-      },
-      "scenes": [
-        "005_MAKO003C"
-      ]
-    },
-    {
       "id": "006_TUBA001B2",
       "kind": "arc",
       "character": "tuba",
@@ -137,66 +110,6 @@
               "flag": "S62/S523=2",
               "target": "006_TUBA002A",
               "targetTitle": "TUBA002A"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "012_SUBTM002A",
-      "kind": "arc",
-      "character": "tuba",
-      "title": "SUBTM002A",
-      "pos": {
-        "x": 600,
-        "y": 240
-      },
-      "scenes": [
-        "012_SUBTM002A"
-      ]
-    },
-    {
-      "id": "012_SUBTM006A",
-      "kind": "arc",
-      "character": "tuba",
-      "title": "SUBTM006A",
-      "pos": {
-        "x": 600,
-        "y": 360
-      },
-      "scenes": [
-        "012_SUBTM006A"
-      ]
-    },
-    {
-      "id": "005_MAKO004A",
-      "kind": "arc",
-      "character": "mako",
-      "title": "MAKO004A‥MAKO013A",
-      "pos": {
-        "x": 600,
-        "y": 480
-      },
-      "scenes": [
-        "005_MAKO004A",
-        "005_MAKO004B",
-        "005_MAKO004C",
-        "005_MAKO004D",
-        "005_MAKO004E",
-        "005_MAKO004F",
-        "005_MAKO013A"
-      ],
-      "choices": [
-        {
-          "scene": "005_MAKO004E",
-          "options": [
-            {
-              "jp": "母親には手を出さない",
-              "cn": "不会对母亲出手"
-            },
-            {
-              "jp": "母親にも手を出す",
-              "cn": "也对母亲出手"
             }
           ]
         }
@@ -277,19 +190,6 @@
       ]
     },
     {
-      "id": "005_MAKO013B",
-      "kind": "arc",
-      "character": "mako",
-      "title": "MAKO013B",
-      "pos": {
-        "x": 900,
-        "y": 360
-      },
-      "scenes": [
-        "005_MAKO013B"
-      ]
-    },
-    {
       "id": "SMAIN_MIX02",
       "kind": "branch",
       "character": "branch",
@@ -302,25 +202,13 @@
       "scenes": []
     },
     {
-      "id": "SMAIN_TUBAMAKO05",
-      "kind": "branch",
-      "character": "branch",
-      "title": "TUBAMAKO05",
-      "icon": "◆",
-      "pos": {
-        "x": 1200,
-        "y": 120
-      },
-      "scenes": []
-    },
-    {
       "id": "006_TUBA002B",
       "kind": "arc",
       "character": "tuba",
       "title": "TUBA002B‥TUBA002C",
       "pos": {
         "x": 1200,
-        "y": 240
+        "y": 120
       },
       "scenes": [
         "006_TUBA002B",
@@ -334,7 +222,7 @@
       "title": "TUBA002D‥TUBA002E",
       "pos": {
         "x": 1200,
-        "y": 360
+        "y": 240
       },
       "scenes": [
         "006_TUBA002D",
@@ -342,21 +230,16 @@
       ]
     },
     {
-      "id": "005_MAKO013C",
+      "id": "006_TUBA001D",
       "kind": "arc",
-      "character": "mako",
-      "title": "MAKO013C‥MAKO016A",
+      "character": "tuba",
+      "title": "TUBA001D",
       "pos": {
         "x": 1200,
-        "y": 480
+        "y": 360
       },
       "scenes": [
-        "005_MAKO013C",
-        "005_MAKO014A",
-        "005_MAKO014B",
-        "005_MAKO015A",
-        "005_MAKO015B",
-        "005_MAKO016A"
+        "006_TUBA001D"
       ]
     },
     {
@@ -372,16 +255,15 @@
       "scenes": []
     },
     {
-      "id": "006_TUBA001D",
+      "id": "002_AYAN002A",
       "kind": "arc",
       "character": "ayan",
-      "title": "TUBA001D‥MAKO001A",
+      "title": "AYAN002A‥MAKO001A",
       "pos": {
         "x": 1500,
         "y": 120
       },
       "scenes": [
-        "006_TUBA001D",
         "002_AYAN002A",
         "002_AYAN002B",
         "002_AYAN002C",
@@ -410,32 +292,6 @@
             }
           ]
         }
-      ]
-    },
-    {
-      "id": "012_SUBTM007B",
-      "kind": "arc",
-      "character": "tuba",
-      "title": "SUBTM007B",
-      "pos": {
-        "x": 1500,
-        "y": 240
-      },
-      "scenes": [
-        "012_SUBTM007B"
-      ]
-    },
-    {
-      "id": "012_SUBTM007C",
-      "kind": "arc",
-      "character": "tuba",
-      "title": "SUBTM007C",
-      "pos": {
-        "x": 1500,
-        "y": 360
-      },
-      "scenes": [
-        "012_SUBTM007C"
       ]
     },
     {
@@ -516,6 +372,19 @@
       ]
     },
     {
+      "id": "005_MAKO001E",
+      "kind": "arc",
+      "character": "mako",
+      "title": "MAKO001E",
+      "pos": {
+        "x": 2100,
+        "y": 120
+      },
+      "scenes": [
+        "005_MAKO001E"
+      ]
+    },
+    {
       "id": "SMAIN_MIX04",
       "kind": "branch",
       "character": "branch",
@@ -528,16 +397,15 @@
       "scenes": []
     },
     {
-      "id": "005_MAKO001E",
+      "id": "010_MAIN002A",
       "kind": "arc",
       "character": "ayan",
-      "title": "MAKO001E‥MAIN003A",
+      "title": "MAIN002A‥MAIN003A",
       "pos": {
         "x": 2700,
         "y": 0
       },
       "scenes": [
-        "005_MAKO001E",
         "010_MAIN002A",
         "001_PRO002J",
         "002_AYAN003A",
@@ -567,8 +435,8 @@
       "title": "TUBA01",
       "icon": "◆",
       "pos": {
-        "x": 3300,
-        "y": 0
+        "x": 3000,
+        "y": 120
       },
       "scenes": []
     },
@@ -579,8 +447,8 @@
       "title": "TUBA02",
       "icon": "◆",
       "pos": {
-        "x": 3600,
-        "y": 0
+        "x": 3000,
+        "y": 240
       },
       "scenes": []
     },
@@ -591,38 +459,10 @@
       "title": "MAKO01",
       "icon": "◆",
       "pos": {
-        "x": 3900,
-        "y": 0
+        "x": 3000,
+        "y": 360
       },
       "scenes": []
-    },
-    {
-      "id": "006_TUBA003A",
-      "kind": "arc",
-      "character": "tuba",
-      "title": "TUBA003A‥TUBA003B",
-      "pos": {
-        "x": 3900,
-        "y": 120
-      },
-      "scenes": [
-        "006_TUBA003A",
-        "006_TUBA003B"
-      ]
-    },
-    {
-      "id": "006_TUBA018A",
-      "kind": "arc",
-      "character": "tuba",
-      "title": "TUBA018A‥TUBA018B",
-      "pos": {
-        "x": 3900,
-        "y": 240
-      },
-      "scenes": [
-        "006_TUBA018A",
-        "006_TUBA018B"
-      ]
     },
     {
       "id": "SMAIN_TUBAMAKO01",
@@ -631,132 +471,10 @@
       "title": "TUBAMAKO01",
       "icon": "◆",
       "pos": {
-        "x": 4200,
-        "y": 0
-      },
-      "scenes": []
-    },
-    {
-      "id": "TRUE_END",
-      "kind": "end",
-      "character": "end",
-      "title": "トゥルーEND",
-      "icon": "★",
-      "pos": {
-        "x": 4200,
-        "y": 120
-      },
-      "scenes": []
-    },
-    {
-      "id": "006_TUBA003C",
-      "kind": "arc",
-      "character": "tuba",
-      "title": "TUBA003C‥TUBA003E",
-      "pos": {
-        "x": 4200,
-        "y": 240
-      },
-      "scenes": [
-        "006_TUBA003C",
-        "006_TUBA003D",
-        "006_TUBA003E"
-      ]
-    },
-    {
-      "id": "006_TUBA010B",
-      "kind": "arc",
-      "character": "tuba",
-      "title": "TUBA010B‥KAED003D",
-      "pos": {
-        "x": 4200,
-        "y": 360
-      },
-      "scenes": [
-        "006_TUBA010B",
-        "006_TUBA010C",
-        "006_TUBA010D",
-        "006_TUBA010E",
-        "007_KAED003A",
-        "007_KAED003B",
-        "007_KAED003C",
-        "007_KAED003D"
-      ],
-      "choices": [
-        {
-          "scene": "006_TUBA010E",
-          "options": [
-            {
-              "jp": "楓さんに何もしない",
-              "cn": "不对枫做任何事"
-            },
-            {
-              "jp": "楓さんに手を出す",
-              "cn": "对枫动手"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "005_MAKO005A",
-      "kind": "arc",
-      "character": "mako",
-      "title": "MAKO005A‥MAKO008B",
-      "pos": {
-        "x": 4200,
+        "x": 3000,
         "y": 480
       },
-      "scenes": [
-        "005_MAKO005A",
-        "005_MAKO005B",
-        "005_MAKO005C",
-        "005_MAKO005D",
-        "005_MAKO005E",
-        "005_MAKO006A",
-        "005_MAKO006B",
-        "005_MAKO006C",
-        "005_MAKO006D",
-        "005_MAKO007A",
-        "005_MAKO007B",
-        "005_MAKO008A",
-        "005_MAKO008B"
-      ],
-      "choices": [
-        {
-          "scene": "005_MAKO005E",
-          "options": [
-            {
-              "jp": "無視する",
-              "cn": "选择无视"
-            },
-            {
-              "jp": "さらに真琴を煽る",
-              "cn": "继续挑衅真琴"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "005_MAKO005F",
-      "kind": "arc",
-      "character": "mako",
-      "title": "MAKO005F‥MAKO012B",
-      "pos": {
-        "x": 4200,
-        "y": 600
-      },
-      "scenes": [
-        "005_MAKO005F",
-        "005_MAKO009A",
-        "009_MAKO010A",
-        "009_MAKO010B",
-        "005_MAKO011A",
-        "005_MAKO011B",
-        "005_MAKO012A",
-        "005_MAKO012B"
-      ]
+      "scenes": []
     },
     {
       "id": "SMAIN_TUBAMAKO02",
@@ -765,99 +483,8 @@
       "title": "TUBAMAKO02",
       "icon": "◆",
       "pos": {
-        "x": 4500,
-        "y": 0
-      },
-      "scenes": []
-    },
-    {
-      "id": "006_TUBA003F",
-      "kind": "arc",
-      "character": "tuba",
-      "title": "TUBA003F‥SUBT001A",
-      "pos": {
-        "x": 4500,
-        "y": 120
-      },
-      "scenes": [
-        "006_TUBA003F",
-        "011_SUBT001A"
-      ]
-    },
-    {
-      "id": "011_SUBT003A",
-      "kind": "arc",
-      "character": "tuba",
-      "title": "SUBT003A",
-      "pos": {
-        "x": 4500,
-        "y": 240
-      },
-      "scenes": [
-        "011_SUBT003A"
-      ]
-    },
-    {
-      "id": "012_SUBTM001A",
-      "kind": "arc",
-      "character": "tuba",
-      "title": "SUBTM001A",
-      "pos": {
-        "x": 4500,
-        "y": 360
-      },
-      "scenes": [
-        "012_SUBTM001A"
-      ],
-      "choices": [
-        {
-          "scene": "012_SUBTM001A",
-          "options": [
-            {
-              "jp": "真琴には、手を出さない",
-              "cn": "不对真琴出手"
-            },
-            {
-              "jp": "真琴にも、手を出そう",
-              "cn": "对真琴出手"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "STAFF_ROLL",
-      "kind": "omake",
-      "character": "omake",
-      "title": "スタッフロール",
-      "icon": "🎬",
-      "pos": {
-        "x": 4500,
-        "y": 480
-      },
-      "scenes": []
-    },
-    {
-      "id": "SMAIN_TUBAMAKO06",
-      "kind": "branch",
-      "character": "branch",
-      "title": "TUBAMAKO06",
-      "icon": "◆",
-      "pos": {
-        "x": 4800,
-        "y": 0
-      },
-      "scenes": []
-    },
-    {
-      "id": "SMAIN_TUBAMAKO03",
-      "kind": "branch",
-      "character": "branch",
-      "title": "TUBAMAKO03",
-      "icon": "◆",
-      "pos": {
-        "x": 4800,
-        "y": 120
+        "x": 3000,
+        "y": 600
       },
       "scenes": []
     },
@@ -867,8 +494,8 @@
       "character": "suzu",
       "title": "AYAN005A‥SUZU004E",
       "pos": {
-        "x": 4800,
-        "y": 240
+        "x": 3300,
+        "y": 0
       },
       "scenes": [
         "002_AYAN005A",
@@ -950,13 +577,404 @@
       ]
     },
     {
+      "id": "006_TUBA003A",
+      "kind": "arc",
+      "character": "tuba",
+      "title": "TUBA003A‥TUBA003B",
+      "pos": {
+        "x": 3300,
+        "y": 120
+      },
+      "scenes": [
+        "006_TUBA003A",
+        "006_TUBA003B"
+      ]
+    },
+    {
+      "id": "005_MAKO003A",
+      "kind": "arc",
+      "character": "mako",
+      "title": "MAKO003A‥MAKO003B",
+      "pos": {
+        "x": 3300,
+        "y": 240
+      },
+      "scenes": [
+        "005_MAKO003A",
+        "005_MAKO003B"
+      ]
+    },
+    {
+      "id": "SMAIN_SISTER02",
+      "kind": "branch",
+      "character": "branch",
+      "title": "SISTER02",
+      "icon": "◆",
+      "pos": {
+        "x": 3600,
+        "y": 0
+      },
+      "scenes": []
+    },
+    {
+      "id": "SMAIN_SISTER03",
+      "kind": "branch",
+      "character": "branch",
+      "title": "SISTER03",
+      "icon": "◆",
+      "pos": {
+        "x": 3600,
+        "y": 120
+      },
+      "scenes": []
+    },
+    {
+      "id": "006_TUBA003C",
+      "kind": "arc",
+      "character": "tuba",
+      "title": "TUBA003C‥TUBA003E",
+      "pos": {
+        "x": 3600,
+        "y": 240
+      },
+      "scenes": [
+        "006_TUBA003C",
+        "006_TUBA003D",
+        "006_TUBA003E"
+      ]
+    },
+    {
+      "id": "006_TUBA010B",
+      "kind": "arc",
+      "character": "tuba",
+      "title": "TUBA010B‥TUBA010E",
+      "pos": {
+        "x": 3600,
+        "y": 360
+      },
+      "scenes": [
+        "006_TUBA010B",
+        "006_TUBA010C",
+        "006_TUBA010D",
+        "006_TUBA010E"
+      ],
+      "choices": [
+        {
+          "scene": "006_TUBA010E",
+          "options": [
+            {
+              "jp": "楓さんに何もしない",
+              "cn": "不对枫做任何事"
+            },
+            {
+              "jp": "楓さんに手を出す",
+              "cn": "对枫动手"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "005_MAKO003C",
+      "kind": "arc",
+      "character": "mako",
+      "title": "MAKO003C",
+      "pos": {
+        "x": 3600,
+        "y": 480
+      },
+      "scenes": [
+        "005_MAKO003C"
+      ]
+    },
+    {
+      "id": "002_AYAN007A",
+      "kind": "arc",
+      "character": "ayan",
+      "title": "AYAN007A‥AYAN008A",
+      "pos": {
+        "x": 3900,
+        "y": 0
+      },
+      "scenes": [
+        "002_AYAN007A",
+        "002_AYAN007B",
+        "002_AYAN007C",
+        "003_SUZU005A",
+        "003_SUZU005B",
+        "003_SUZU005C",
+        "002_AYAN008A"
+      ],
+      "choices": [
+        {
+          "scene": "002_AYAN008A",
+          "options": [
+            {
+              "jp": "綾姉は特別な存在だ",
+              "cn": "绫姐姐是特别的存在"
+            },
+            {
+              "jp": "特に贔屓はしない",
+              "cn": "特别偏爱谁也不会"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "004_FUTA001A",
+      "kind": "arc",
+      "character": "suzu",
+      "title": "FUTA001A‥FUTA003A",
+      "pos": {
+        "x": 3900,
+        "y": 120
+      },
+      "scenes": [
+        "004_FUTA001A",
+        "004_FUTA001B",
+        "004_FUTA001C",
+        "004_FUTA002A",
+        "004_FUTA002B",
+        "004_FUTA002C",
+        "004_FUTA002D",
+        "004_FUTA002E",
+        "004_FUTA002F",
+        "004_FUTA003A"
+      ]
+    },
+    {
+      "id": "006_TUBA003F",
+      "kind": "arc",
+      "character": "tuba",
+      "title": "TUBA003F‥SUBT001A",
+      "pos": {
+        "x": 3900,
+        "y": 240
+      },
+      "scenes": [
+        "006_TUBA003F",
+        "011_SUBT001A"
+      ]
+    },
+    {
+      "id": "012_SUBTM001A",
+      "kind": "arc",
+      "character": "tuba",
+      "title": "SUBTM001A",
+      "pos": {
+        "x": 3900,
+        "y": 360
+      },
+      "scenes": [
+        "012_SUBTM001A"
+      ],
+      "choices": [
+        {
+          "scene": "012_SUBTM001A",
+          "options": [
+            {
+              "jp": "真琴には、手を出さない",
+              "cn": "不对真琴出手"
+            },
+            {
+              "jp": "真琴にも、手を出そう",
+              "cn": "对真琴出手"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "012_SUBTM002A",
+      "kind": "arc",
+      "character": "tuba",
+      "title": "SUBTM002A",
+      "pos": {
+        "x": 3900,
+        "y": 480
+      },
+      "scenes": [
+        "012_SUBTM002A"
+      ]
+    },
+    {
+      "id": "012_SUBTM005A",
+      "kind": "arc",
+      "character": "tuba",
+      "title": "SUBTM005A",
+      "pos": {
+        "x": 3900,
+        "y": 600
+      },
+      "scenes": [
+        "012_SUBTM005A"
+      ],
+      "choices": [
+        {
+          "scene": "012_SUBTM005A",
+          "options": [
+            {
+              "jp": "真琴には、手を出さない",
+              "cn": "不对真琴出手"
+            },
+            {
+              "jp": "真琴にも、手を出そう",
+              "cn": "对真琴出手"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "012_SUBTM006A",
+      "kind": "arc",
+      "character": "tuba",
+      "title": "SUBTM006A",
+      "pos": {
+        "x": 3900,
+        "y": 720
+      },
+      "scenes": [
+        "012_SUBTM006A"
+      ]
+    },
+    {
+      "id": "005_MAKO004A",
+      "kind": "arc",
+      "character": "mako",
+      "title": "MAKO004A‥MAKO004F",
+      "pos": {
+        "x": 3900,
+        "y": 840
+      },
+      "scenes": [
+        "005_MAKO004A",
+        "005_MAKO004B",
+        "005_MAKO004C",
+        "005_MAKO004D",
+        "005_MAKO004E",
+        "005_MAKO004F"
+      ],
+      "choices": [
+        {
+          "scene": "005_MAKO004E",
+          "options": [
+            {
+              "jp": "母親には手を出さない",
+              "cn": "不会对母亲出手"
+            },
+            {
+              "jp": "母親にも手を出す",
+              "cn": "也对母亲出手"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "007_KAED003A",
+      "kind": "arc",
+      "character": "kaede",
+      "title": "KAED003A‥SUBT003A",
+      "pos": {
+        "x": 3900,
+        "y": 960
+      },
+      "scenes": [
+        "007_KAED003A",
+        "007_KAED003B",
+        "007_KAED003C",
+        "007_KAED003D",
+        "011_SUBT003A"
+      ]
+    },
+    {
+      "id": "SMAIN_AYAN01",
+      "kind": "branch",
+      "character": "branch",
+      "title": "AYAN01",
+      "icon": "◆",
+      "pos": {
+        "x": 4200,
+        "y": 0
+      },
+      "scenes": []
+    },
+    {
+      "id": "SMAIN_SUZU01",
+      "kind": "branch",
+      "character": "branch",
+      "title": "SUZU01",
+      "icon": "◆",
+      "pos": {
+        "x": 4200,
+        "y": 120
+      },
+      "scenes": []
+    },
+    {
+      "id": "SMAIN_TUBAMAKO06",
+      "kind": "branch",
+      "character": "branch",
+      "title": "TUBAMAKO06",
+      "icon": "◆",
+      "pos": {
+        "x": 4200,
+        "y": 240
+      },
+      "scenes": []
+    },
+    {
+      "id": "SMAIN_TUBAMAKO03",
+      "kind": "branch",
+      "character": "branch",
+      "title": "TUBAMAKO03",
+      "icon": "◆",
+      "pos": {
+        "x": 4200,
+        "y": 360
+      },
+      "scenes": []
+    },
+    {
+      "id": "004_FUTA003B",
+      "kind": "arc",
+      "character": "suzu",
+      "title": "FUTA003B‥FUTA003C",
+      "pos": {
+        "x": 4200,
+        "y": 480
+      },
+      "scenes": [
+        "004_FUTA003B",
+        "004_FUTA003C"
+      ]
+    },
+    {
+      "id": "004_FUTA003D",
+      "kind": "arc",
+      "character": "suzu",
+      "title": "FUTA003D‥FUTA003G",
+      "pos": {
+        "x": 4200,
+        "y": 600
+      },
+      "scenes": [
+        "004_FUTA003D",
+        "004_FUTA003E",
+        "004_FUTA003F",
+        "004_FUTA003G"
+      ]
+    },
+    {
       "id": "006_TUBA004A",
       "kind": "arc",
       "character": "tuba",
       "title": "TUBA004A‥KAED002C",
       "pos": {
-        "x": 4800,
-        "y": 360
+        "x": 4200,
+        "y": 720
       },
       "scenes": [
         "006_TUBA004A",
@@ -986,8 +1004,8 @@
       "character": "tuba",
       "title": "TUBA011A‥TUBA011B",
       "pos": {
-        "x": 4800,
-        "y": 480
+        "x": 4200,
+        "y": 840
       },
       "scenes": [
         "006_TUBA011A",
@@ -995,307 +1013,58 @@
       ]
     },
     {
-      "id": "SMAIN_SISTER02",
-      "kind": "branch",
-      "character": "branch",
-      "title": "SISTER02",
-      "icon": "◆",
-      "pos": {
-        "x": 5100,
-        "y": 0
-      },
-      "scenes": []
-    },
-    {
-      "id": "008_TUBA007A",
+      "id": "005_MAKO013A",
       "kind": "arc",
-      "character": "tuba",
-      "title": "TUBA007A‥TUBA009B",
+      "character": "mako",
+      "title": "MAKO013A",
       "pos": {
-        "x": 5100,
-        "y": 120
+        "x": 4200,
+        "y": 960
       },
       "scenes": [
-        "008_TUBA007A",
-        "008_TUBA007B",
-        "008_TUBA008A",
-        "008_TUBA008B",
-        "008_TUBA008C",
-        "008_TUBA009A",
-        "008_TUBA009B"
+        "005_MAKO013A"
       ]
     },
     {
-      "id": "006_TUBA011C",
+      "id": "005_MAKO005A",
       "kind": "arc",
-      "character": "tuba",
-      "title": "TUBA011C‥SUBT004A",
+      "character": "mako",
+      "title": "MAKO005A‥MAKO005E",
       "pos": {
-        "x": 5100,
-        "y": 240
+        "x": 4200,
+        "y": 1080
       },
       "scenes": [
-        "006_TUBA011C",
-        "011_SUBT004A"
-      ]
-    },
-    {
-      "id": "012_SUBTM004A",
-      "kind": "arc",
-      "character": "tuba",
-      "title": "SUBTM004A‥TUBA006C",
-      "pos": {
-        "x": 5100,
-        "y": 360
-      },
-      "scenes": [
-        "012_SUBTM004A",
-        "006_TUBA006B",
-        "006_TUBA006C"
-      ]
-    },
-    {
-      "id": "012_SUBTM005A",
-      "kind": "arc",
-      "character": "tuba",
-      "title": "SUBTM005A",
-      "pos": {
-        "x": 5100,
-        "y": 480
-      },
-      "scenes": [
-        "012_SUBTM005A"
+        "005_MAKO005A",
+        "005_MAKO005B",
+        "005_MAKO005C",
+        "005_MAKO005D",
+        "005_MAKO005E"
       ],
       "choices": [
         {
-          "scene": "012_SUBTM005A",
+          "scene": "005_MAKO005E",
           "options": [
             {
-              "jp": "真琴には、手を出さない",
-              "cn": "不对真琴出手"
+              "jp": "無視する",
+              "cn": "选择无视"
             },
             {
-              "jp": "真琴にも、手を出そう",
-              "cn": "对真琴出手"
+              "jp": "さらに真琴を煽る",
+              "cn": "继续挑衅真琴"
             }
           ]
         }
       ]
     },
     {
-      "id": "012_SUBTM007A",
-      "kind": "arc",
-      "character": "tuba",
-      "title": "SUBTM007A",
-      "pos": {
-        "x": 5100,
-        "y": 600
-      },
-      "scenes": [
-        "012_SUBTM007A"
-      ],
-      "choices": [
-        {
-          "scene": "012_SUBTM007A",
-          "options": [
-            {
-              "jp": "翼の方に専念しよう",
-              "cn": "专注于翼那边吧"
-            },
-            {
-              "jp": "真琴にも手を出そう",
-              "cn": "对真琴动手吧"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "SMAIN_SISTER03",
+      "id": "SMAIN_SISTER04",
       "kind": "branch",
       "character": "branch",
-      "title": "SISTER03",
+      "title": "SISTER04",
       "icon": "◆",
       "pos": {
-        "x": 5400,
-        "y": 0
-      },
-      "scenes": []
-    },
-    {
-      "id": "SMAIN_TUBAMAKO04",
-      "kind": "branch",
-      "character": "branch",
-      "title": "TUBAMAKO04",
-      "icon": "◆",
-      "pos": {
-        "x": 5400,
-        "y": 120
-      },
-      "scenes": []
-    },
-    {
-      "id": "006_TUBA012A",
-      "kind": "arc",
-      "character": "tuba",
-      "title": "TUBA012A‥TUBA014A",
-      "pos": {
-        "x": 5400,
-        "y": 240
-      },
-      "scenes": [
-        "006_TUBA012A",
-        "006_TUBA012B",
-        "006_TUBA012C",
-        "006_TUBA012D",
-        "007_KAED004A",
-        "007_KAED004B",
-        "007_KAED004C",
-        "007_KAED004D",
-        "006_TUBA013A",
-        "006_TUBA013B",
-        "006_TUBA013C",
-        "006_TUBA013D",
-        "006_TUBA013E",
-        "006_TUBA013F",
-        "006_TUBA013G",
-        "006_TUBA014A"
-      ]
-    },
-    {
-      "id": "002_AYAN007A",
-      "kind": "arc",
-      "character": "ayan",
-      "title": "AYAN007A‥AYAN008A",
-      "pos": {
-        "x": 5700,
-        "y": 0
-      },
-      "scenes": [
-        "002_AYAN007A",
-        "002_AYAN007B",
-        "002_AYAN007C",
-        "003_SUZU005A",
-        "003_SUZU005B",
-        "003_SUZU005C",
-        "002_AYAN008A"
-      ],
-      "choices": [
-        {
-          "scene": "002_AYAN008A",
-          "options": [
-            {
-              "jp": "綾姉は特別な存在だ",
-              "cn": "绫姐姐是特别的存在"
-            },
-            {
-              "jp": "特に贔屓はしない",
-              "cn": "特别偏爱谁也不会"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "006_TUBA014B",
-      "kind": "arc",
-      "character": "tuba",
-      "title": "TUBA014B‥TUBA014D",
-      "pos": {
-        "x": 5700,
-        "y": 120
-      },
-      "scenes": [
-        "006_TUBA014B",
-        "006_TUBA014C",
-        "006_TUBA014D"
-      ]
-    },
-    {
-      "id": "012_SUBTM008A",
-      "kind": "arc",
-      "character": "tuba",
-      "title": "SUBTM008A",
-      "pos": {
-        "x": 5700,
-        "y": 240
-      },
-      "scenes": [
-        "012_SUBTM008A"
-      ]
-    },
-    {
-      "id": "SMAIN_AYAN01",
-      "kind": "branch",
-      "character": "branch",
-      "title": "AYAN01",
-      "icon": "◆",
-      "pos": {
-        "x": 6000,
-        "y": 0
-      },
-      "scenes": []
-    },
-    {
-      "id": "006_TUBA015A",
-      "kind": "arc",
-      "character": "tuba",
-      "title": "TUBA015A‥TUBA017B",
-      "pos": {
-        "x": 6000,
-        "y": 120
-      },
-      "scenes": [
-        "006_TUBA015A",
-        "006_TUBA015B",
-        "006_TUBA015C",
-        "006_TUBA016A",
-        "006_TUBA016B",
-        "006_TUBA016C",
-        "006_TUBA017A",
-        "006_TUBA017B"
-      ],
-      "choices": [
-        {
-          "scene": "006_TUBA016C",
-          "options": [
-            {
-              "jp": "その言葉に、僕は……。",
-              "cn": "听到那句话，我……。"
-            },
-            {
-              "jp": "愕然とする",
-              "cn": "感到震惊"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "006_TUBA019A",
-      "kind": "arc",
-      "character": "tuba",
-      "title": "TUBA019A‥TUBA020A",
-      "pos": {
-        "x": 6000,
-        "y": 240
-      },
-      "scenes": [
-        "006_TUBA019A",
-        "006_TUBA019B",
-        "006_TUBA019C",
-        "006_TUBA019D",
-        "006_TUBA020A"
-      ]
-    },
-    {
-      "id": "SMAIN_SUZU01",
-      "kind": "branch",
-      "character": "branch",
-      "title": "SUZU01",
-      "icon": "◆",
-      "pos": {
-        "x": 6300,
+        "x": 4500,
         "y": 0
       },
       "scenes": []
@@ -1306,8 +1075,8 @@
       "character": "ayan",
       "title": "AYAN009A‥AYAN010A",
       "pos": {
-        "x": 6600,
-        "y": 0
+        "x": 4500,
+        "y": 120
       },
       "scenes": [
         "002_AYAN009A",
@@ -1337,8 +1106,8 @@
       "character": "suzu",
       "title": "SUZU006A‥SUZU007B",
       "pos": {
-        "x": 6600,
-        "y": 120
+        "x": 4500,
+        "y": 240
       },
       "scenes": [
         "003_SUZU006A",
@@ -1364,27 +1133,132 @@
       ]
     },
     {
-      "id": "004_FUTA001A",
+      "id": "008_TUBA007A",
       "kind": "arc",
-      "character": "suzu",
-      "title": "FUTA001A‥FUTA003C",
+      "character": "tuba",
+      "title": "TUBA007A‥TUBA009B",
       "pos": {
-        "x": 6600,
-        "y": 240
+        "x": 4500,
+        "y": 360
       },
       "scenes": [
-        "004_FUTA001A",
-        "004_FUTA001B",
-        "004_FUTA001C",
-        "004_FUTA002A",
-        "004_FUTA002B",
-        "004_FUTA002C",
-        "004_FUTA002D",
-        "004_FUTA002E",
-        "004_FUTA002F",
-        "004_FUTA003A",
-        "004_FUTA003B",
-        "004_FUTA003C"
+        "008_TUBA007A",
+        "008_TUBA007B",
+        "008_TUBA008A",
+        "008_TUBA008B",
+        "008_TUBA008C",
+        "008_TUBA009A",
+        "008_TUBA009B"
+      ]
+    },
+    {
+      "id": "006_TUBA011C",
+      "kind": "arc",
+      "character": "tuba",
+      "title": "TUBA011C‥SUBT004A",
+      "pos": {
+        "x": 4500,
+        "y": 480
+      },
+      "scenes": [
+        "006_TUBA011C",
+        "011_SUBT004A"
+      ]
+    },
+    {
+      "id": "012_SUBTM004A",
+      "kind": "arc",
+      "character": "tuba",
+      "title": "SUBTM004A‥TUBA006C",
+      "pos": {
+        "x": 4500,
+        "y": 600
+      },
+      "scenes": [
+        "012_SUBTM004A",
+        "006_TUBA006B",
+        "006_TUBA006C"
+      ]
+    },
+    {
+      "id": "012_SUBTM007A",
+      "kind": "arc",
+      "character": "tuba",
+      "title": "SUBTM007A",
+      "pos": {
+        "x": 4500,
+        "y": 720
+      },
+      "scenes": [
+        "012_SUBTM007A"
+      ],
+      "choices": [
+        {
+          "scene": "012_SUBTM007A",
+          "options": [
+            {
+              "jp": "翼の方に専念しよう",
+              "cn": "专注于翼那边吧"
+            },
+            {
+              "jp": "真琴にも手を出そう",
+              "cn": "对真琴动手吧"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "005_MAKO013B",
+      "kind": "arc",
+      "character": "mako",
+      "title": "MAKO013B",
+      "pos": {
+        "x": 4500,
+        "y": 840
+      },
+      "scenes": [
+        "005_MAKO013B"
+      ]
+    },
+    {
+      "id": "005_MAKO006A",
+      "kind": "arc",
+      "character": "mako",
+      "title": "MAKO006A‥MAKO008B",
+      "pos": {
+        "x": 4500,
+        "y": 960
+      },
+      "scenes": [
+        "005_MAKO006A",
+        "005_MAKO006B",
+        "005_MAKO006C",
+        "005_MAKO006D",
+        "005_MAKO007A",
+        "005_MAKO007B",
+        "005_MAKO008A",
+        "005_MAKO008B"
+      ]
+    },
+    {
+      "id": "005_MAKO005F",
+      "kind": "arc",
+      "character": "mako",
+      "title": "MAKO005F‥MAKO012B",
+      "pos": {
+        "x": 4500,
+        "y": 1080
+      },
+      "scenes": [
+        "005_MAKO005F",
+        "005_MAKO009A",
+        "009_MAKO010A",
+        "009_MAKO010B",
+        "005_MAKO011A",
+        "005_MAKO011B",
+        "005_MAKO012A",
+        "005_MAKO012B"
       ]
     },
     {
@@ -1394,20 +1268,8 @@
       "title": "AYAN02",
       "icon": "◆",
       "pos": {
-        "x": 6900,
+        "x": 4800,
         "y": 0
-      },
-      "scenes": []
-    },
-    {
-      "id": "SMAIN_SISTER04",
-      "kind": "branch",
-      "character": "branch",
-      "title": "SISTER04",
-      "icon": "◆",
-      "pos": {
-        "x": 6900,
-        "y": 120
       },
       "scenes": []
     },
@@ -1418,25 +1280,45 @@
       "title": "AYAN03",
       "icon": "◆",
       "pos": {
-        "x": 7200,
-        "y": 0
+        "x": 4800,
+        "y": 120
       },
       "scenes": []
     },
     {
-      "id": "004_FUTA003D",
+      "id": "SMAIN_TUBAMAKO04",
+      "kind": "branch",
+      "character": "branch",
+      "title": "TUBAMAKO04",
+      "icon": "◆",
+      "pos": {
+        "x": 4800,
+        "y": 240
+      },
+      "scenes": []
+    },
+    {
+      "id": "SMAIN_TUBAMAKO05",
+      "kind": "branch",
+      "character": "branch",
+      "title": "TUBAMAKO05",
+      "icon": "◆",
+      "pos": {
+        "x": 4800,
+        "y": 360
+      },
+      "scenes": []
+    },
+    {
+      "id": "004_FUTA004A",
       "kind": "arc",
       "character": "suzu",
-      "title": "FUTA003D‥FUTA006B",
+      "title": "FUTA004A‥FUTA006B",
       "pos": {
-        "x": 7200,
-        "y": 120
+        "x": 4800,
+        "y": 480
       },
       "scenes": [
-        "004_FUTA003D",
-        "004_FUTA003E",
-        "004_FUTA003F",
-        "004_FUTA003G",
         "004_FUTA004A",
         "004_FUTA004B",
         "004_FUTA004C",
@@ -1450,12 +1332,71 @@
       ]
     },
     {
+      "id": "006_TUBA012A",
+      "kind": "arc",
+      "character": "tuba",
+      "title": "TUBA012A‥TUBA014A",
+      "pos": {
+        "x": 4800,
+        "y": 600
+      },
+      "scenes": [
+        "006_TUBA012A",
+        "006_TUBA012B",
+        "006_TUBA012C",
+        "006_TUBA012D",
+        "007_KAED004A",
+        "007_KAED004B",
+        "007_KAED004C",
+        "007_KAED004D",
+        "006_TUBA013A",
+        "006_TUBA013B",
+        "006_TUBA013C",
+        "006_TUBA013D",
+        "006_TUBA013E",
+        "006_TUBA013F",
+        "006_TUBA013G",
+        "006_TUBA014A"
+      ]
+    },
+    {
+      "id": "012_SUBTM007B",
+      "kind": "arc",
+      "character": "tuba",
+      "title": "SUBTM007B",
+      "pos": {
+        "x": 4800,
+        "y": 720
+      },
+      "scenes": [
+        "012_SUBTM007B"
+      ]
+    },
+    {
+      "id": "005_MAKO013C",
+      "kind": "arc",
+      "character": "mako",
+      "title": "MAKO013C‥MAKO016A",
+      "pos": {
+        "x": 4800,
+        "y": 840
+      },
+      "scenes": [
+        "005_MAKO013C",
+        "005_MAKO014A",
+        "005_MAKO014B",
+        "005_MAKO015A",
+        "005_MAKO015B",
+        "005_MAKO016A"
+      ]
+    },
+    {
       "id": "002_AYAN010B",
       "kind": "arc",
       "character": "ayan",
       "title": "AYAN010B‥AYAN012B",
       "pos": {
-        "x": 7500,
+        "x": 5100,
         "y": 0
       },
       "scenes": [
@@ -1472,7 +1413,7 @@
       "character": "ayan",
       "title": "AYAN010C‥AYAN014A",
       "pos": {
-        "x": 7500,
+        "x": 5100,
         "y": 120
       },
       "scenes": [
@@ -1486,13 +1427,156 @@
       ]
     },
     {
+      "id": "006_TUBA014B",
+      "kind": "arc",
+      "character": "tuba",
+      "title": "TUBA014B‥TUBA014D",
+      "pos": {
+        "x": 5100,
+        "y": 240
+      },
+      "scenes": [
+        "006_TUBA014B",
+        "006_TUBA014C",
+        "006_TUBA014D"
+      ]
+    },
+    {
+      "id": "012_SUBTM007C",
+      "kind": "arc",
+      "character": "tuba",
+      "title": "SUBTM007C",
+      "pos": {
+        "x": 5100,
+        "y": 360
+      },
+      "scenes": [
+        "012_SUBTM007C"
+      ]
+    },
+    {
+      "id": "012_SUBTM008A",
+      "kind": "arc",
+      "character": "tuba",
+      "title": "SUBTM008A",
+      "pos": {
+        "x": 5100,
+        "y": 480
+      },
+      "scenes": [
+        "012_SUBTM008A"
+      ]
+    },
+    {
       "id": "NORMAL_END",
       "kind": "end",
       "character": "end",
       "title": "ノーマルEND",
       "icon": "★",
       "pos": {
-        "x": 7800,
+        "x": 5400,
+        "y": 0
+      },
+      "scenes": []
+    },
+    {
+      "id": "006_TUBA015A",
+      "kind": "arc",
+      "character": "tuba",
+      "title": "TUBA015A‥TUBA016C",
+      "pos": {
+        "x": 5400,
+        "y": 120
+      },
+      "scenes": [
+        "006_TUBA015A",
+        "006_TUBA015B",
+        "006_TUBA015C",
+        "006_TUBA016A",
+        "006_TUBA016B",
+        "006_TUBA016C"
+      ],
+      "choices": [
+        {
+          "scene": "006_TUBA016C",
+          "options": [
+            {
+              "jp": "その言葉に、僕は……。",
+              "cn": "听到那句话，我……。"
+            },
+            {
+              "jp": "愕然とする",
+              "cn": "感到震惊"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "006_TUBA019A",
+      "kind": "arc",
+      "character": "tuba",
+      "title": "TUBA019A‥TUBA020A",
+      "pos": {
+        "x": 5400,
+        "y": 240
+      },
+      "scenes": [
+        "006_TUBA019A",
+        "006_TUBA019B",
+        "006_TUBA019C",
+        "006_TUBA019D",
+        "006_TUBA020A"
+      ]
+    },
+    {
+      "id": "006_TUBA017A",
+      "kind": "arc",
+      "character": "tuba",
+      "title": "TUBA017A‥TUBA017B",
+      "pos": {
+        "x": 5700,
+        "y": 0
+      },
+      "scenes": [
+        "006_TUBA017A",
+        "006_TUBA017B"
+      ]
+    },
+    {
+      "id": "006_TUBA018A",
+      "kind": "arc",
+      "character": "tuba",
+      "title": "TUBA018A‥TUBA018B",
+      "pos": {
+        "x": 5700,
+        "y": 120
+      },
+      "scenes": [
+        "006_TUBA018A",
+        "006_TUBA018B"
+      ]
+    },
+    {
+      "id": "TRUE_END",
+      "kind": "end",
+      "character": "end",
+      "title": "トゥルーEND",
+      "icon": "★",
+      "pos": {
+        "x": 6000,
+        "y": 0
+      },
+      "scenes": []
+    },
+    {
+      "id": "STAFF_ROLL",
+      "kind": "omake",
+      "character": "omake",
+      "title": "スタッフロール",
+      "icon": "🎬",
+      "pos": {
+        "x": 6300,
         "y": 0
       },
       "scenes": []
@@ -1522,8 +1606,35 @@
       }
     },
     {
+      "source": "002_AYAN002A",
+      "target": "005_MAKO001B",
+      "character": "ayan",
+      "label": "血が出そうなほど、唇を強く噛む。",
+      "condition": {
+        "flags": [
+          "S71/軸2_1=2"
+        ]
+      }
+    },
+    {
+      "source": "002_AYAN002A",
+      "target": "SMAIN_MIX03",
+      "character": "ayan",
+      "label": "人のことは言えない",
+      "condition": {
+        "flags": [
+          "S71/軸2_1=1"
+        ]
+      }
+    },
+    {
       "source": "002_AYAN005A",
       "target": "SMAIN_SISTER02",
+      "character": "suzu"
+    },
+    {
+      "source": "002_AYAN005A",
+      "target": "SMAIN_SISTER03",
       "character": "suzu"
     },
     {
@@ -1532,8 +1643,18 @@
       "character": "ayan"
     },
     {
+      "source": "002_AYAN007A",
+      "target": "SMAIN_SUZU01",
+      "character": "ayan"
+    },
+    {
       "source": "002_AYAN009A",
       "target": "SMAIN_AYAN02",
+      "character": "ayan"
+    },
+    {
+      "source": "002_AYAN009A",
+      "target": "SMAIN_AYAN03",
       "character": "ayan"
     },
     {
@@ -1553,11 +1674,26 @@
     },
     {
       "source": "004_FUTA001A",
+      "target": "004_FUTA003B",
+      "character": "suzu"
+    },
+    {
+      "source": "004_FUTA001A",
+      "target": "004_FUTA003D",
+      "character": "suzu"
+    },
+    {
+      "source": "004_FUTA003B",
       "target": "SMAIN_SISTER04",
       "character": "suzu"
     },
     {
       "source": "004_FUTA003D",
+      "target": "SMAIN_SISTER04",
+      "character": "suzu"
+    },
+    {
+      "source": "004_FUTA004A",
       "target": "NORMAL_END",
       "character": "suzu"
     },
@@ -1585,8 +1721,8 @@
     },
     {
       "source": "005_MAKO001E",
-      "target": "SMAIN_SISTER01",
-      "character": "ayan"
+      "target": "SMAIN_MIX04",
+      "character": "mako"
     },
     {
       "source": "005_MAKO002A",
@@ -1620,17 +1756,37 @@
     },
     {
       "source": "005_MAKO004A",
-      "target": "005_MAKO013B",
+      "target": "005_MAKO005A",
+      "character": "mako"
+    },
+    {
+      "source": "005_MAKO004A",
+      "target": "005_MAKO013A",
       "character": "mako"
     },
     {
       "source": "005_MAKO005A",
-      "target": "NORMAL_END",
+      "target": "005_MAKO005F",
+      "character": "mako"
+    },
+    {
+      "source": "005_MAKO005A",
+      "target": "005_MAKO006A",
       "character": "mako"
     },
     {
       "source": "005_MAKO005F",
       "target": "NORMAL_END",
+      "character": "mako"
+    },
+    {
+      "source": "005_MAKO006A",
+      "target": "NORMAL_END",
+      "character": "mako"
+    },
+    {
+      "source": "005_MAKO013A",
+      "target": "005_MAKO013B",
       "character": "mako"
     },
     {
@@ -1677,25 +1833,8 @@
     },
     {
       "source": "006_TUBA001D",
-      "target": "005_MAKO001B",
-      "character": "ayan",
-      "label": "血が出そうなほど、唇を強く噛む。",
-      "condition": {
-        "flags": [
-          "S71/軸2_1=2"
-        ]
-      }
-    },
-    {
-      "source": "006_TUBA001D",
-      "target": "SMAIN_MIX03",
-      "character": "ayan",
-      "label": "人のことは言えない",
-      "condition": {
-        "flags": [
-          "S71/軸2_1=1"
-        ]
-      }
+      "target": "SMAIN_MIX02",
+      "character": "tuba"
     },
     {
       "source": "006_TUBA001E",
@@ -1781,7 +1920,12 @@
     },
     {
       "source": "006_TUBA010B",
-      "target": "011_SUBT003A",
+      "target": "007_KAED003A",
+      "character": "tuba"
+    },
+    {
+      "source": "006_TUBA010B",
+      "target": "012_SUBTM005A",
       "character": "tuba"
     },
     {
@@ -1821,6 +1965,21 @@
     },
     {
       "source": "006_TUBA015A",
+      "target": "006_TUBA017A",
+      "character": "tuba"
+    },
+    {
+      "source": "006_TUBA015A",
+      "target": "006_TUBA018A",
+      "character": "tuba"
+    },
+    {
+      "source": "006_TUBA017A",
+      "target": "NORMAL_END",
+      "character": "tuba"
+    },
+    {
+      "source": "006_TUBA018A",
       "target": "NORMAL_END",
       "character": "tuba"
     },
@@ -1835,19 +1994,49 @@
       "character": "tuba"
     },
     {
+      "source": "007_KAED003A",
+      "target": "006_TUBA011A",
+      "character": "kaede"
+    },
+    {
+      "source": "007_KAED003A",
+      "target": "SMAIN_TUBAMAKO03",
+      "character": "kaede"
+    },
+    {
       "source": "008_TUBA007A",
       "target": "NORMAL_END",
       "character": "tuba"
     },
     {
-      "source": "011_SUBT003A",
-      "target": "006_TUBA011A",
-      "character": "tuba"
+      "source": "010_MAIN002A",
+      "target": "SMAIN_MAKO01",
+      "character": "ayan"
     },
     {
-      "source": "011_SUBT003A",
-      "target": "SMAIN_TUBAMAKO03",
-      "character": "tuba"
+      "source": "010_MAIN002A",
+      "target": "SMAIN_SISTER01",
+      "character": "ayan"
+    },
+    {
+      "source": "010_MAIN002A",
+      "target": "SMAIN_TUBA01",
+      "character": "ayan"
+    },
+    {
+      "source": "010_MAIN002A",
+      "target": "SMAIN_TUBA02",
+      "character": "ayan"
+    },
+    {
+      "source": "010_MAIN002A",
+      "target": "SMAIN_TUBAMAKO01",
+      "character": "ayan"
+    },
+    {
+      "source": "010_MAIN002A",
+      "target": "SMAIN_TUBAMAKO02",
+      "character": "ayan"
     },
     {
       "source": "012_SUBTM001A",
@@ -1876,6 +2065,11 @@
     },
     {
       "source": "012_SUBTM007A",
+      "target": "012_SUBTM007B",
+      "character": "tuba"
+    },
+    {
+      "source": "012_SUBTM007A",
       "target": "SMAIN_TUBAMAKO04",
       "character": "tuba"
     },
@@ -1886,7 +2080,7 @@
     },
     {
       "source": "012_SUBTM007C",
-      "target": "006_TUBA012A",
+      "target": "SMAIN_TUBAMAKO05",
       "character": "tuba"
     },
     {
@@ -1896,14 +2090,10 @@
     },
     {
       "source": "SMAIN_AYAN01",
-      "target": "SMAIN_SUZU01"
+      "target": "002_AYAN009A"
     },
     {
       "source": "SMAIN_AYAN02",
-      "target": "SMAIN_AYAN03"
-    },
-    {
-      "source": "SMAIN_AYAN03",
       "target": "002_AYAN010B"
     },
     {
@@ -1912,67 +2102,51 @@
     },
     {
       "source": "SMAIN_MAKO01",
-      "target": "005_MAKO005A"
+      "target": "005_MAKO003A"
     },
     {
-      "source": "SMAIN_MAKO01",
-      "target": "005_MAKO005F"
-    },
-    {
-      "source": "SMAIN_MAKO01",
-      "target": "SMAIN_TUBAMAKO01"
-    },
-    {
-      "source": "SMAIN_MIX02",
+      "source": "SMAIN_MIX01",
       "target": "006_TUBA001D"
     },
     {
-      "source": "SMAIN_MIX04",
+      "source": "SMAIN_MIX02",
+      "target": "002_AYAN002A"
+    },
+    {
+      "source": "SMAIN_MIX03",
       "target": "005_MAKO001E"
     },
     {
+      "source": "SMAIN_MIX04",
+      "target": "010_MAIN002A"
+    },
+    {
       "source": "SMAIN_SISTER01",
-      "target": "SMAIN_TUBA01"
+      "target": "002_AYAN005A"
     },
     {
       "source": "SMAIN_SISTER02",
-      "target": "SMAIN_SISTER03"
-    },
-    {
-      "source": "SMAIN_SISTER03",
       "target": "002_AYAN007A"
     },
     {
-      "source": "SMAIN_SISTER04",
-      "target": "004_FUTA003D"
+      "source": "SMAIN_SISTER03",
+      "target": "004_FUTA001A"
     },
     {
-      "source": "SMAIN_SUZU01",
-      "target": "002_AYAN009A"
+      "source": "SMAIN_SISTER04",
+      "target": "004_FUTA004A"
     },
     {
       "source": "SMAIN_SUZU01",
       "target": "003_SUZU006A"
     },
     {
-      "source": "SMAIN_SUZU01",
-      "target": "004_FUTA001A"
-    },
-    {
       "source": "SMAIN_TUBA01",
-      "target": "SMAIN_TUBA02"
-    },
-    {
-      "source": "SMAIN_TUBA02",
       "target": "006_TUBA003A"
     },
     {
       "source": "SMAIN_TUBA02",
-      "target": "006_TUBA018A"
-    },
-    {
-      "source": "SMAIN_TUBA02",
-      "target": "SMAIN_MAKO01"
+      "target": "006_TUBA003A"
     },
     {
       "source": "SMAIN_TUBA03",
@@ -1980,39 +2154,23 @@
     },
     {
       "source": "SMAIN_TUBAMAKO01",
-      "target": "SMAIN_TUBAMAKO02"
+      "target": "006_TUBA003A"
     },
     {
       "source": "SMAIN_TUBAMAKO02",
-      "target": "002_AYAN005A"
+      "target": "006_TUBA003A"
     },
     {
       "source": "SMAIN_TUBAMAKO03",
       "target": "006_TUBA011A"
     },
     {
-      "source": "SMAIN_TUBAMAKO03",
-      "target": "011_SUBT003A"
-    },
-    {
-      "source": "SMAIN_TUBAMAKO03",
-      "target": "012_SUBTM005A"
-    },
-    {
       "source": "SMAIN_TUBAMAKO04",
-      "target": "005_MAKO003A"
-    },
-    {
-      "source": "SMAIN_TUBAMAKO05",
-      "target": "012_SUBTM007B"
-    },
-    {
-      "source": "SMAIN_TUBAMAKO05",
       "target": "012_SUBTM007C"
     },
     {
-      "source": "SMAIN_TUBAMAKO06",
-      "target": "006_TUBA003F"
+      "source": "SMAIN_TUBAMAKO05",
+      "target": "006_TUBA012A"
     },
     {
       "source": "SMAIN_TUBAMAKO06",

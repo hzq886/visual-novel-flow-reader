@@ -124,8 +124,10 @@ describe('選択肢オプション→分岐先ノードの紐付け（HU-21・SM
   it('分岐先ごとに選択肢ラベル＋条件フラグ付きエッジが張られる', () => {
     const labeled = flow.edges.filter((e) => e.label && e.condition)
     expect(labeled.length).toBe(10)
-    // 例: 006_TUBA001D --[血が…]--> 005_MAKO001B（S71=2）
-    const e = labeled.find((x) => x.source === '006_TUBA001D' && x.target === '005_MAKO001B')
+    // 例: 002_AYAN002A(…005_MAKO001A の選択) --[血が…]--> 005_MAKO001B（S71=2）。
+    // HU-22 で MIX01 ブロック(006_TUBA001D)と MIX02 ブロック(002_AYAN002A…)が正しく分離した結果、
+    // 選択肢シーン 005_MAKO001A を含むノードの id は 002_AYAN002A。
+    const e = labeled.find((x) => x.source === '002_AYAN002A' && x.target === '005_MAKO001B')
     expect(e?.condition?.flags).toEqual(['S71/軸2_1=2'])
     expect(e?.label).toBe('血が出そうなほど、唇を強く噛む。')
   })

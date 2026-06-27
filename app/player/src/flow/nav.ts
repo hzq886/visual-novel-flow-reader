@@ -7,8 +7,9 @@
  *  - 分岐点 = ある scene が node.choices の `scene` で、その options に分岐先 `target`（HU-21）が付くもの。
  *    その scene を再生し終えたら選択肢を提示し、選んだ option の target ノードへ遷移する。
  *  - 単一エッジのノード末尾は自動進行。複数エッジ（choices 無し）はエッジ自体を選択肢化。
- *  - start や hub など scenes が空のノードは単一エッジを辿って最初の再生可能シーンへ解決する
- *    （SMAIN_* sink 等、辿り先が無ければ end）。HU-22（hub 合流後の継続）は本モデルの範囲外。
+ *  - start や hub など scenes が空のノードは単一エッジを辿って最初の再生可能シーンへ解決する。
+ *    hub（SMAIN_* 合流点）は HU-22 で継続先（label 表で解決したブロック先頭）への単一エッジを持つので、
+ *    本モデルの entry() がそのまま継続先シーンへ解決する（sink は解消済）。
  */
 import type { Flow, FlowNode } from '@/pipeline/types'
 
