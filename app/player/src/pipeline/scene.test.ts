@@ -130,3 +130,48 @@ describe('parseScene — se の beat への割当（pending/current）', () => {
     expect(s.beats[2].se).toBeUndefined()
   })
 })
+
+describe('parseScene — 制御残骸（PUA/デコード失敗）の除去とタイトルカード復元', () => {
+  const PUA = '\uf8f3' // U+F8F3「⬚」= 原データ抽出時のゴミ文字
+  it('冒頭のゴミヘッダ（PUA＋単独文字）を捨て、直後のタイトルカードを title にする', () => {
+    // 001_PRO001A 相当: "⬚G" が title カード "幼少回想\N三人" の直前に居座る。
+    const text = [
+      `[text] ${PUA}G`,
+      '[text] 幼少回想\\N三人',
+      '[text] ……子供の頃のことを、思い出す。',
+      '[text] 何かを『失う』というのは、恐ろしいことだ。',
+    ].join('\n')
+    const s = parseScene(text, { code: '001_PRO001A', locale: 'jp' })
+    expect(s.title).toBe('幼少回想\\N三人')
+    expect(s.beats).toHaveLength(1)
+    expect(s.beats[0].lines).toEqual([
+      '……子供の頃のことを、思い出す。',
+      '何かを『失う』というのは、恐ろしいことだ。',
+    ])
+  })
+
+  it('連続するゴミヘッダ（複数 PUA・複数行）も全て捨てる', () => {
+    // 001_PRO001K 相当: "⬚⬚E" / "⬚⬚e" の 2 行が title の前にある。
+    const text = [
+      `[text] ${PUA}${PUA}E`,
+      `[text] ${PUA}${PUA}e`,
+      '[text] 幼少回想\\N喫茶店',
+      '[text] 本文。',
+    ].join('\n')
+    const s = parseScene(text, { code: '001_PRO001K', locale: 'jp' })
+    expect(s.title).toBe('幼少回想\\N喫茶店')
+    expect(s.beats[0].lines).toEqual(['本文。'])
+  })
+
+  it('残骸を含んでも本文が残る行は本文として保持（残骸のみ除去）', () => {
+    const text = `[text] ${PUA}本文が続く。`
+    const s = parseScene(text, { code: '999_TEST001A', locale: 'jp' })
+    expect(s.beats[0].lines).toEqual(['本文が続く。'])
+  })
+
+  it('デコード失敗(U+FFFD)のみ・PUA のみの行も捨てる', () => {
+    const text = ['[text] \ufffd', `[text] ${PUA}`, '[text] 本文。'].join('\n')
+    const s = parseScene(text, { code: '999_TEST001A', locale: 'jp' })
+    expect(s.beats[0].lines).toEqual(['本文。'])
+  })
+})

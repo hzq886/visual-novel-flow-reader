@@ -39,6 +39,14 @@ function escapeRegExp(s: string): string {
 // 正準タグ（text/id/note）へ正規化して以降の状態機械をロケール非依存に保つ（HU-29）。
 const TAG_ALIAS: Record<string, 'text' | 'id' | 'note'> = { cn: 'text', ascii: 'id', jp: 'note' }
 
+// 原データ抽出時に混入する制御残骸。jp の一部シーン冒頭に PUA 文字（U+F8F3「⬚」/ U+E456）や
+// デコード失敗（U+FFFD）が、単独のゴミ文字（"G"/"E"/"\\" 等）を伴って [text] 行として現れる
+// （本文ではない）。これらはタイトルカード行（`\\N` 入り）の直前に居座り、タイトル判定
+// （cur===null 前提）も阻害する。cn ソースには出現しない（別抽出経路でクリーン）。
+const JUNK_CHARS = /[\u{e000}-\u{f8ff}\u{fffd}]/gu
+// 残骸除去後に本文として残すか。空 or 単独の半角文字（ASCII / 半角カナ）のみなら本文ではない。
+const isJunkResidue = (s: string): boolean => s === '' || /^[\x20-\x7e\uff61-\uff9f]$/.test(s)
+
 export function parseScene(text: string, opts: { code: string; locale: Locale }): Scene {
   const { code, locale } = opts
   const route = code.split('_')[0] ?? code
@@ -79,8 +87,13 @@ export function parseScene(text: string, opts: { code: string; locale: Locale })
     const m = /^\[(text|id|note|cn|ascii|jp)\]\s?(.*)$/.exec(rawLine)
     if (!m) continue
     const tag = TAG_ALIAS[m[1]] ?? m[1]
-    const val = m[2].replace(/\s+$/, '')
+    const raw = m[2].replace(/\s+$/, '')
+    if (raw === '') continue
+    // 制御残骸（PUA / デコード失敗）を除去。残骸を含む行で除去後が本文を成さない
+    // （空 or 単独の半角文字）なら行ごと捨てる＝シーン冒頭のゴミヘッダを除外する。
+    const val = raw.replace(JUNK_CHARS, '')
     if (val === '') continue
+    if (val !== raw && isJunkResidue(val)) continue
 
     if (tag === 'note') {
       if (/^#(背景|EV)/.test(val)) stickyBg = { label: val, file: null }

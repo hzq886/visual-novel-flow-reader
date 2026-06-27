@@ -27,14 +27,27 @@ const scenes = Object.entries(raws)
 // （例 006_TUBA010BC = 010B+010C を束ねる連結子。flow は構成アトムを参照し複合は辿らない）。
 const hasText = (raw: string) => /\[text\]/.test(raw)
 
+// 本文を「実際に」持つか。[text] が制御残骸（PUA/デコード失敗）＋単独文字だけの行は本文ではなく
+// parseScene が捨てる（HU-31）。例 002_AYAN004AB は junk な [text] のみ＝実質は複合シーン（0 beat）。
+const hasRealText = (raw: string) =>
+  raw.split(/\r?\n/).some((l) => {
+    const m = /^\[text\]\s?(.*)$/.exec(l)
+    if (!m) return false
+    const v = m[1].replace(/[\u{e000}-\u{f8ff}\u{fffd}]/gu, '').trim()
+    return v !== '' && !/^[\x20-\x7e｡-ﾟ]$/.test(v)
+  })
+
 describe('parseScene — 全シーン invariant（全編化の回帰防止）', () => {
   it('コーパス構成: 実シーン数・内容/複合の内訳が一致する', () => {
     const content = scenes.filter((s) => hasText(s.raw))
     const composite = scenes.filter((s) => !hasText(s.raw))
     // 定義/システムファイル（_SPRSET 等）を除いた実シーン数。コーパス変化時はこの数を更新する。
     expect(scenes.length).toBe(319)
-    expect(content.length).toBe(288) // build-scenes が data/scenes/*.json に出力する数
-    expect(composite.length).toBe(31) // 0 beat の連結子（出力対象外）
+    expect(content.length).toBe(288) // [text] を持つシーン（原データ上の素朴な判定）
+    expect(composite.length).toBe(31) // [text] 無し＝0 beat の連結子（出力対象外）
+    // [text] が制御残骸のみのシーン（002_AYAN004AB）は本文ゼロ＝build-scenes は出力しない。
+    // 実際に出力されるのは 287（content 288 − junk のみ 1）。
+    expect(scenes.filter((s) => hasRealText(s.raw)).length).toBe(287)
   })
 
   it('全シーンが parse でき、スキーマ適合・基本不変条件を満たす', () => {
@@ -48,12 +61,12 @@ describe('parseScene — 全シーン invariant（全編化の回帰防止）', 
         if (scene.route.length === 0) failures.push(`${code}: route 空`)
 
         // beats 数と本文有無の対応を検証（スケール時の破綻番兵）:
-        // 内容シーン([text]あり)は必ず beats>0、複合シーン([text]なし)は必ず beats=0。
-        // 逆＝「[text] があるのに 0 beat」は parser 退行なので失敗させる。
-        if (hasText(raw) && scene.beats.length === 0)
-          failures.push(`${code}: [text] があるのに beats 空（parser 退行）`)
-        if (!hasText(raw) && scene.beats.length > 0)
-          failures.push(`${code}: [text] 無しなのに beats あり（複合判定の崩れ）`)
+        // 実本文を持つシーンは必ず beats>0、持たない（複合 or junk のみ）は必ず beats=0。
+        // 逆＝「実本文があるのに 0 beat」は parser 退行なので失敗させる（junk のみは退行ではない）。
+        if (hasRealText(raw) && scene.beats.length === 0)
+          failures.push(`${code}: 実本文があるのに beats 空（parser 退行）`)
+        if (!hasRealText(raw) && scene.beats.length > 0)
+          failures.push(`${code}: 実本文無しなのに beats あり（複合/junk 判定の崩れ）`)
 
         for (const [i, b] of scene.beats.entries()) {
           if (b.kind === 'line' && b.who.trim().length === 0)

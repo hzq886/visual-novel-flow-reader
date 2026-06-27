@@ -2,14 +2,17 @@
   "code": "005_MAKO017B",
   "route": "005",
   "locale": "jp",
+  "title": "望月真琴\\N口を使って",
   "beats": [
     {
       "kind": "narration",
       "lines": [
-        "Y",
-        "望月真琴\\N口を使って",
         "しばらく待っていると、真琴が教室に戻ってきた。"
-      ]
+      ],
+      "bg": {
+        "label": "#背景・教室（夕）",
+        "file": "BG16_02_00"
+      }
     },
     {
       "kind": "line",
