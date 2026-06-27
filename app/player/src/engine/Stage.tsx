@@ -10,6 +10,7 @@ import { type Beat, type Scene } from '@/pipeline/types'
 import { usePlayer } from '@/store/player'
 import { AudioManager } from '@/audio/AudioManager'
 import { assetUrl, cgUrl, containFit, spriteUrl } from './assets'
+import { UI_FONT } from '@/theme'
 import { sceneAssetUrls } from './sceneLoader'
 import { CgLayer } from './layers/CgLayer'
 import { SpriteLayer } from './layers/SpriteLayer'
@@ -222,7 +223,7 @@ export function Stage() {
           right: 12,
           bottom: 10,
           color: 'rgba(255,255,255,.7)',
-          font: '12px system-ui, sans-serif',
+          font: `12px ${UI_FONT}`,
           letterSpacing: '.12em',
           textShadow: '0 1px 4px #000',
           pointerEvents: 'none',
@@ -267,7 +268,7 @@ function ChoiceOverlay() {
             background: 'rgba(20,24,31,.92)',
             border: '1.5px solid #e0a94f',
             color: '#f4ead2',
-            font: '15px system-ui, sans-serif',
+            font: `15px ${UI_FONT}`,
             fontWeight: 600,
             borderRadius: 10,
             cursor: 'pointer',

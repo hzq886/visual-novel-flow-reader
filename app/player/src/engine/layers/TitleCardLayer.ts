@@ -7,10 +7,9 @@
  */
 import { Container, Graphics, Text, type Ticker } from 'pixi.js'
 import { GAME_H, GAME_W } from '../assets'
+import { GOLD, UI_FONT } from '@/theme'
 import { tween } from '../tween'
 
-const GOLD = 0xe9c07a
-const MINCHO = '"Hiragino Mincho ProN", "Yu Mincho", serif'
 const FADE_MS = 420
 // オーバーレイ（冒頭）は上部（背景CGの題字や立ち絵と干渉しにくい）、場面転換は画面中央に置く。
 const CENTER_Y = { opening: GAME_H * 0.24, section: GAME_H * 0.42 } as const
@@ -32,7 +31,7 @@ export class TitleCardLayer extends Container {
     this.category = new Text({
       text: '',
       style: {
-        fontFamily: MINCHO,
+        fontFamily: UI_FONT,
         fontSize: 30,
         fill: 0xf3ead8,
         align: 'center',
@@ -44,7 +43,7 @@ export class TitleCardLayer extends Container {
     this.title = new Text({
       text: '',
       style: {
-        fontFamily: MINCHO,
+        fontFamily: UI_FONT,
         fontSize: 72,
         fill: 0xffffff,
         align: 'center',

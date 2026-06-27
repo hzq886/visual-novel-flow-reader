@@ -7,6 +7,7 @@ import { useEffect, useState } from 'react'
 import { Stage } from '@/engine/Stage'
 import { FlowMap } from '@/flow/FlowMap'
 import { usePlayer } from '@/store/player'
+import { UI_FONT } from '@/theme'
 
 type View = 'story' | 'map'
 
@@ -17,7 +18,7 @@ const btnStyle: React.CSSProperties = {
   background: 'rgba(20,24,31,.78)',
   border: '1px solid #2a313e',
   color: '#e7ecf3',
-  font: '12px system-ui, sans-serif',
+  font: `12px ${UI_FONT}`,
   fontWeight: 600,
   padding: '7px 12px',
   borderRadius: 9,

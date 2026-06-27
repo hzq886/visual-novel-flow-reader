@@ -1,19 +1,23 @@
 /**
- * SubtitleLayer — 字幕。話者（who, 金色）＋本文（say）を下部中央に表示し、beat 変更で
- * フェードイン。地の文は明朝寄り・淡色、セリフは太字・白。下部に可読性のためのスクリム。
- * picturebook_v3.html の字幕体裁を移植。
+ * SubtitleLayer — 字幕。地の文（narration）は画面下部中央、セリフ（line）は左揃えで話者名
+ * `【名前】`＋本文を表示する。背景スクリムは置かず、文字自身のアウトライン（stroke）＋ドロップ
+ * シャドウで任意背景でも読めるようにする（HU-33）。beat 変更でフェードイン。フォントは UI_FONT に統一。
  */
-import { Container, Graphics, Text, type Ticker } from 'pixi.js'
+import { Container, Text, type Ticker } from 'pixi.js'
 import type { Beat } from '@/pipeline/types'
 import { GAME_H, GAME_W } from '../assets'
+import { GOLD, UI_FONT } from '@/theme'
 import { tween } from '../tween'
 
-const GOLD = 0xe9c07a
 const FADE_MS = 360
-const BASE_Y = GAME_H - 56 // 本文ベースライン
+const BASE_Y = GAME_H - 56 // 本文ベースライン（下端）
+const LEFT_X = Math.round(GAME_W * 0.1) // セリフ左揃え時の左マージン
+const WRAP_W = GAME_W * 0.82
+// 任意背景での可読性: 黒アウトライン＋柔らかい影（スクリムの代わり）。
+const STROKE = { color: 0x000000, width: 4 }
+const SHADOW = { color: 0x000000, blur: 5, distance: 2, angle: Math.PI / 2, alpha: 0.6 }
 
 export class SubtitleLayer extends Container {
-  private scrim = new Graphics()
   private whoText: Text
   private sayText: Text
   private cancelFade?: () => void
@@ -22,62 +26,64 @@ export class SubtitleLayer extends Container {
   constructor(ticker: Ticker) {
     super()
     this.ticker = ticker
-    // 下部スクリム（読みやすさ用の暗幕）。
-    this.scrim.rect(0, GAME_H * 0.6, GAME_W, GAME_H * 0.4).fill({ color: 0x000000, alpha: 0.55 })
 
     this.whoText = new Text({
       text: '',
       style: {
-        fontFamily: 'system-ui, sans-serif',
-        fontSize: 22,
-        fontWeight: '600',
-        letterSpacing: 6,
+        fontFamily: UI_FONT,
+        fontSize: 28,
+        fontWeight: '700',
         fill: GOLD,
-        align: 'center',
-        dropShadow: { color: 0x000000, blur: 6, distance: 2, angle: Math.PI / 2, alpha: 0.9 },
+        align: 'left',
+        stroke: STROKE,
+        dropShadow: SHADOW,
       },
     })
-    this.whoText.anchor.set(0.5, 1)
+    this.whoText.anchor.set(0, 1)
 
     this.sayText = new Text({
       text: '',
       style: {
-        fontFamily: 'system-ui, sans-serif',
+        fontFamily: UI_FONT,
         fontSize: 34,
+        fontWeight: '500',
         fill: 0xffffff,
         align: 'center',
         wordWrap: true,
-        wordWrapWidth: GAME_W * 0.82,
+        wordWrapWidth: WRAP_W,
         breakWords: true,
         lineHeight: 50,
-        dropShadow: { color: 0x000000, blur: 8, distance: 2, angle: Math.PI / 2, alpha: 0.95 },
+        stroke: STROKE,
+        dropShadow: SHADOW,
       },
     })
-    this.sayText.anchor.set(0.5, 1)
 
-    this.addChild(this.scrim, this.sayText, this.whoText)
+    this.addChild(this.sayText, this.whoText)
     this.alpha = 0
   }
 
-  // line = beat 内の行サブインデックス。地の文は原データの行ごとに 1 行ずつ表示し（はみ出し回避）、
-  // セリフは集約した 1 発話を全文表示する。
+  // line = beat 内の行サブインデックス。地の文は原データの行ごとに 1 行ずつ中央表示し、
+  // セリフは集約した 1 発話を左揃えで全文表示する（話者名 `【名前】` を上に左揃え）。
   show(beat: Beat, line = 0): void {
-    const isLine = beat.kind === 'line'
-    this.sayText.text = isLine
-      ? beat.lines.join('\n')
-      : (beat.lines[line] ?? beat.lines[beat.lines.length - 1] ?? '')
-    this.sayText.style.fontWeight = isLine ? '600' : '400'
-    this.sayText.style.fontFamily = isLine
-      ? 'system-ui, sans-serif'
-      : '"Hiragino Mincho ProN", "Yu Mincho", serif'
-    this.sayText.style.fill = isLine ? 0xffffff : 0xf3ead8
-    this.sayText.position.set(GAME_W / 2, BASE_Y)
-
-    if (isLine && beat.who) {
-      this.whoText.text = `— ${beat.who} —`
-      this.whoText.visible = true
-      this.whoText.position.set(GAME_W / 2, this.sayText.y - this.sayText.height - 12)
+    if (beat.kind === 'line') {
+      this.sayText.text = beat.lines.join('\n')
+      this.sayText.style.fontWeight = '600'
+      this.sayText.style.align = 'left'
+      this.sayText.anchor.set(0, 1)
+      this.sayText.position.set(LEFT_X, BASE_Y)
+      if (beat.who) {
+        this.whoText.text = `【${beat.who}】`
+        this.whoText.visible = true
+        this.whoText.position.set(LEFT_X, this.sayText.y - this.sayText.height - 8)
+      } else {
+        this.whoText.visible = false
+      }
     } else {
+      this.sayText.text = beat.lines[line] ?? beat.lines[beat.lines.length - 1] ?? ''
+      this.sayText.style.fontWeight = '500'
+      this.sayText.style.align = 'center'
+      this.sayText.anchor.set(0.5, 1)
+      this.sayText.position.set(GAME_W / 2, BASE_Y)
       this.whoText.visible = false
     }
 
