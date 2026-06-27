@@ -566,11 +566,17 @@
           "options": [
             {
               "jp": "このまま続けて、逢瀬を楽しむ",
-              "cn": "就这样继续，享受和她们的秘密"
+              "cn": "就这样继续，享受和她们的秘密",
+              "flag": "S12=0",
+              "target": "SMAIN_SISTER02",
+              "targetTitle": "SISTER02"
             },
             {
               "jp": "もう姉さんたちは、僕のものだ",
-              "cn": "姐姐们已经属于我了"
+              "cn": "姐姐们已经属于我了",
+              "flag": "S12=1",
+              "target": "SMAIN_SISTER03",
+              "targetTitle": "SISTER03"
             }
           ]
         }
@@ -664,11 +670,15 @@
           "options": [
             {
               "jp": "楓さんに何もしない",
-              "cn": "不对枫做任何事"
+              "cn": "不对枫做任何事",
+              "flag": "S16=0"
             },
             {
               "jp": "楓さんに手を出す",
-              "cn": "对枫动手"
+              "cn": "对枫动手",
+              "flag": "S16=1",
+              "inserts": "007_KAED003A",
+              "insertsTitle": "KAED003A‥SUBT003A"
             }
           ]
         }
@@ -711,11 +721,17 @@
           "options": [
             {
               "jp": "綾姉は特別な存在だ",
-              "cn": "绫姐姐是特别的存在"
+              "cn": "绫姐姐是特别的存在",
+              "flag": "S12=1",
+              "target": "SMAIN_AYAN01",
+              "targetTitle": "AYAN01"
             },
             {
               "jp": "特に贔屓はしない",
-              "cn": "特别偏爱谁也不会"
+              "cn": "特别偏爱谁也不会",
+              "flag": "S12=0",
+              "target": "SMAIN_SUZU01",
+              "targetTitle": "SUZU01"
             }
           ]
         }
@@ -775,11 +791,17 @@
           "options": [
             {
               "jp": "真琴には、手を出さない",
-              "cn": "不对真琴出手"
+              "cn": "不对真琴出手",
+              "flag": "S75/軸3_3=2",
+              "inserts": "006_TUBA003F",
+              "insertsTitle": "TUBA003F‥SUBT001A"
             },
             {
               "jp": "真琴にも、手を出そう",
-              "cn": "对真琴出手"
+              "cn": "对真琴出手",
+              "flag": "S75/軸3_3=1",
+              "inserts": "005_MAKO003A",
+              "insertsTitle": "MAKO003A‥MAKO003B"
             }
           ]
         }
@@ -816,11 +838,17 @@
           "options": [
             {
               "jp": "真琴には、手を出さない",
-              "cn": "不对真琴出手"
+              "cn": "不对真琴出手",
+              "flag": "S76/軸4_1=2",
+              "inserts": "007_KAED003A",
+              "insertsTitle": "KAED003A‥SUBT003A"
             },
             {
               "jp": "真琴にも、手を出そう",
-              "cn": "对真琴出手"
+              "cn": "对真琴出手",
+              "flag": "S76/軸4_1=1",
+              "inserts": "005_MAKO003A",
+              "insertsTitle": "MAKO003A‥MAKO003B"
             }
           ]
         }
@@ -862,11 +890,17 @@
           "options": [
             {
               "jp": "母親には手を出さない",
-              "cn": "不会对母亲出手"
+              "cn": "不会对母亲出手",
+              "flag": "S17=0",
+              "inserts": "005_MAKO013A",
+              "insertsTitle": "MAKO013A"
             },
             {
               "jp": "母親にも手を出す",
-              "cn": "也对母亲出手"
+              "cn": "也对母亲出手",
+              "flag": "S17=1",
+              "inserts": "005_MAKO005A",
+              "insertsTitle": "MAKO005A‥MAKO005E"
             }
           ]
         }
@@ -1047,11 +1081,17 @@
           "options": [
             {
               "jp": "無視する",
-              "cn": "选择无视"
+              "cn": "选择无视",
+              "flag": "S74/軸3_2=1",
+              "inserts": "005_MAKO006A",
+              "insertsTitle": "MAKO006A‥MAKO008B"
             },
             {
               "jp": "さらに真琴を煽る",
-              "cn": "继续挑衅真琴"
+              "cn": "继续挑衅真琴",
+              "flag": "S74/軸3_2=2",
+              "inserts": "005_MAKO005F",
+              "insertsTitle": "MAKO005F‥MAKO012B"
             }
           ]
         }
@@ -1090,11 +1130,17 @@
           "options": [
             {
               "jp": "キーワードを言う",
-              "cn": "说出关键词"
+              "cn": "说出关键词",
+              "flag": "S12=1",
+              "target": "SMAIN_AYAN02",
+              "targetTitle": "AYAN02"
             },
             {
               "jp": "一生懸命に頼み込む",
-              "cn": "拼命地请求"
+              "cn": "拼命地请求",
+              "flag": "S12=2",
+              "target": "SMAIN_AYAN03",
+              "targetTitle": "AYAN03"
             }
           ]
         }
@@ -1122,11 +1168,13 @@
           "options": [
             {
               "jp": "このまま射精する",
-              "cn": "就这样射精"
+              "cn": "就这样射精",
+              "flag": "S54=1"
             },
             {
               "jp": "射精を我慢する",
-              "cn": "忍住射精"
+              "cn": "忍住射精",
+              "flag": "S54=2"
             }
           ]
         }
@@ -1198,11 +1246,15 @@
           "options": [
             {
               "jp": "翼の方に専念しよう",
-              "cn": "专注于翼那边吧"
+              "cn": "专注于翼那边吧",
+              "flag": "S77/軸4_2=2",
+              "target": "SMAIN_TUBAMAKO04",
+              "targetTitle": "TUBAMAKO04"
             },
             {
               "jp": "真琴にも手を出そう",
-              "cn": "对真琴动手吧"
+              "cn": "对真琴动手吧",
+              "flag": "S77/軸4_2=1"
             }
           ]
         }
@@ -1502,11 +1554,17 @@
           "options": [
             {
               "jp": "その言葉に、僕は……。",
-              "cn": "听到那句话，我……。"
+              "cn": "听到那句话，我……。",
+              "flag": "S66=1",
+              "inserts": "006_TUBA017A",
+              "insertsTitle": "TUBA017A‥TUBA017B"
             },
             {
               "jp": "愕然とする",
-              "cn": "感到震惊"
+              "cn": "感到震惊",
+              "flag": "S66=2",
+              "inserts": "006_TUBA018A",
+              "insertsTitle": "TUBA018A‥TUBA018B"
             }
           ]
         }

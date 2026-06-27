@@ -226,6 +226,68 @@ def switch_table(switches):
     return {sw["slot"]: {c["value"]: c["dests"] for c in sw["cases"]} for sw in switches}
 
 
+def smain_len7_tests(sm):
+    """SMAIN の len-7 等値テスト（`1d 00 <slot> f5 eb <val> ff` ＝ `if S<slot>==<val>`）を解析する。
+    直後に `08 01 <u16 off>`（byte オフセット）でガードされた **TRUE ブロック**が並び、`1e` 区切りの後に
+    もう 1 本の `08` ガードで **ELSE ブロック**が続く（無い場合もある）。len-8 switch と違い分岐先が END へ
+    抜けず**後で合流する＝任意挿入**（hub goto のみの TRUE ブロックは恒久分岐）。同一スロットが脚本内で
+    scratch 的に再利用される（S12/S16）ため、テストは位置（pos）込みで返し、書き込みシーンと位置認識で対応づける。
+    返り値: [{ri, pos, slot, testval, true:[(kind,name)…], false:[(kind,name)…]}]（pos 昇順）。"""
+    recs = sm.records
+    pos2ri = {p: i for i, (p, _, _, _) in enumerate(recs)}
+
+    def block(j):
+        """recs[j] が `08 01 <off>` なら [j+1, off) の scene/hub dests と終端 ri を返す。"""
+        d = recs[j][3] if 0 <= j < len(recs) else None
+        if not (d and d[0] == OP_FWD and len(d) >= 4):
+            return None, None
+        endi = pos2ri.get(struct.unpack_from("<H", d, 2)[0])
+        if endi is None:
+            return None, None
+        dests = [("scene" if recs[k][3][0] == OP_SCENE else "hub",
+                  sm.string(struct.unpack_from("<H", recs[k][3], 1)[0]))
+                 for k in range(j + 1, endi) if recs[k][3] and recs[k][3][0] in (OP_SCENE, OP_GOTO)]
+        return dests, endi
+
+    out = []
+    for i, (p, _, L, d) in enumerate(recs):
+        if not (d and d[0] == OP_SELECT and L == 7 and d[1] == 0x00 and d[3:5] == b"\xf5\xeb" and d[6] == 0xff):
+            continue
+        td, endi = block(i + 1)
+        fd = None
+        if endi is not None:
+            j = endi + 1 if (endi < len(recs) and recs[endi][3] and recs[endi][3][0] == 0x1e) else endi
+            fd, _ = block(j)
+        out.append({"ri": i, "pos": p, "slot": d[2], "testval": d[5], "true": td or [], "false": fd or []})
+    return out
+
+
+def scene_choice_inserts(flagmap, len7_tests, events):
+    """各 (書き込みシーン, 選択肢) → 条件付き挿入ブロックの先頭 dest を**位置認識**で解決する（HU-23）。
+    選択肢が書く値 `val` を読む len-7 テストは、その書き込みシーンの SMAIN イベント位置**直後で最も近い**
+    同スロットのテスト（scratch 再利用 S12/S16 の弁別）。`val==testval` なら TRUE、それ以外は ELSE ブロックを採り、
+    その先頭 dest（scene/hub）を返す。返り値: {scene: {option_jp: (kind, head_name)}}（空ブロックは除外）。"""
+    by_slot = defaultdict(list)
+    for t in len7_tests:
+        by_slot[t["slot"]].append(t)
+    scene_pos = {}
+    for e in events:
+        if e["kind"] == "scene":
+            scene_pos.setdefault(e["name"], e["pos"])
+    out = {}
+    for scene, m in flagmap.items():
+        sp = scene_pos.get(scene)
+        for opt, (slot, val) in m.items():
+            if slot not in by_slot:
+                continue
+            after = [t for t in by_slot[slot] if sp is None or t["pos"] > sp]
+            t = min(after or by_slot[slot], key=lambda t: t["pos"])
+            dests = t["true"] if val == t["testval"] else t["false"]
+            if dests:
+                out.setdefault(scene, {})[opt] = dests[0]  # 先頭 dest = ブロック先頭
+    return out
+
+
 def scene_choice_flags(src, route_slots, choices_by_scene):
     """各シーン脚本の `06 00 <slot> f5 eb <val> ff`（通常変数への代入）を選択肢文へ紐付ける。
     返り値: {scene_code: {option_jp: (slot, value)}}（route_slots に限定）。
@@ -787,8 +849,8 @@ def _target_node(g, scene2node, dests, owner):
     return nodes[-1] if nodes else None
 
 
-def to_flow(g, start, real_codes, choices_by_scene, swtable=None, flagmap=None):
-    swtable, flagmap = swtable or {}, flagmap or {}
+def to_flow(g, start, real_codes, choices_by_scene, swtable=None, flagmap=None, insertmap=None):
+    swtable, flagmap, insertmap = swtable or {}, flagmap or {}, insertmap or {}
     pos = layout(g, start)
     scene2node = {c: n for n in g.kind for c in g.scenes[n]}
     nodes = []
@@ -809,8 +871,10 @@ def to_flow(g, start, real_codes, choices_by_scene, swtable=None, flagmap=None):
         # 内包シーンの選択肢メニュー（シーン順）をノードに付与。
         node_choices = [menu for c in scenes for menu in choices_by_scene.get(c, [])]
         # ルート分岐（len-8 switch）の選択肢に、書き込むフラグ＝値と分岐先ノードを付与（HU-21）。
+        # len-7 等値テストの選択肢には条件付き挿入ブロック先頭を付与（HU-23）。
         for menu in node_choices:
             sflags = flagmap.get(menu["scene"], {})
+            sinserts = insertmap.get(menu["scene"], {})
             for o in menu["options"]:
                 sv = sflags.get(o["jp"])
                 if not sv:
@@ -822,6 +886,19 @@ def to_flow(g, start, real_codes, choices_by_scene, swtable=None, flagmap=None):
                     if tnode:
                         o["target"] = tnode
                         o["targetTitle"] = node_title(g, tnode)
+                    continue
+                # len-7 等値テスト: ブロック先頭が hub-goto なら恒久分岐（target）、scene なら任意挿入（inserts）。
+                ins = sinserts.get(o["jp"])
+                if ins:
+                    kind, name = ins
+                    inode = name if name in g.kind else scene2node.get(name)
+                    if inode and inode != nid:
+                        if kind == "hub":
+                            o["target"] = inode
+                            o["targetTitle"] = node_title(g, inode)
+                        else:
+                            o["inserts"] = inode
+                            o["insertsTitle"] = node_title(g, inode)
         if node_choices:
             node["choices"] = node_choices
         nodes.append(node)
@@ -954,7 +1031,12 @@ def main():
     # HU-21: len-8 SELECT を真の分岐として解析し、選択肢→フラグ→分岐先を解決する。
     switches = smain_switches(sm, events)
     swtable = switch_table(switches)
-    flagmap = scene_choice_flags(a.src, set(swtable), choices_by_scene)
+    # HU-23: len-7 等値テストのスロットも対象に含め、選択肢が書くフラグを抽出する。
+    len7_tests = smain_len7_tests(sm)
+    len7_slots = {t["slot"] for t in len7_tests}
+    flagmap = scene_choice_flags(a.src, set(swtable) | len7_slots, choices_by_scene)
+    # HU-23: 選択肢 → 条件付き挿入ブロック（位置認識で書き込みシーン↔テストを対応づけ）。
+    insertmap = scene_choice_inserts(flagmap, len7_tests, events)
     # 分岐エッジのラベル解決用に (メニューシーン, slot, value) → 選択肢jp を作る。
     opt_by_sv = {(scene, slot, val): opt
                  for scene, m in flagmap.items() for opt, (slot, val) in m.items()}
@@ -964,7 +1046,7 @@ def main():
     resolve_hub_continuations(g, sm, events)  # HU-22: hub 合流後 goto の継続先をラベル表で解決
     resolve_entries(g, start)
     contract_chains(g, start)
-    flow = to_flow(g, start, real_codes, choices_by_scene, swtable, flagmap)
+    flow = to_flow(g, start, real_codes, choices_by_scene, swtable, flagmap, insertmap)
 
     os.makedirs(os.path.dirname(a.out), exist_ok=True)
     with open(a.out, "w", encoding="utf-8") as f:
@@ -979,6 +1061,8 @@ def main():
     n_opt = sum(len(c["options"]) for n in flow["nodes"] for c in n.get("choices", []))
     n_targ = sum(1 for n in flow["nodes"] for c in n.get("choices", [])
                  for o in c["options"] if o.get("target"))
+    n_ins = sum(1 for n in flow["nodes"] for c in n.get("choices", [])
+                for o in c["options"] if o.get("inserts"))
     n_lab = sum(1 for e in flow["edges"] if e.get("label"))
     print("[extract-flow] SMAIN -> %s" % os.path.relpath(a.out, ROOT))
     print("  ✓ %d ノード（hub %d / end %d）/ %d エッジ / 実シーン参照 %d 件"
@@ -986,6 +1070,7 @@ def main():
     print("  ✓ 選択肢メニュー %d 件 / 選択肢 %d 個（jp/cn i18n）" % (n_menu, n_opt))
     print("  ✓ ルート分岐: 選択肢→分岐先 %d 個 / 分岐ラベル付きエッジ %d 本（len-8 switch）"
           % (n_targ, n_lab))
+    print("  ✓ 任意挿入: 選択肢→挿入ブロック %d 個（len-7 等値テスト, HU-23）" % n_ins)
 
     # HU-22 検証: hub 継続先解決後、合流 hub に sink が無く全ノードが start から到達可能（full CFG）。
     adj = defaultdict(list)
