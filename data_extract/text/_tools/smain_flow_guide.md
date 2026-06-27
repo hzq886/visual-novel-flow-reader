@@ -180,7 +180,43 @@ S12/S13 を 0/1 で書く非分岐の演出選択肢）。
 注意・限界:
 - シーン内ラベル `MIX01`/`MIX02` は画像トランジションのローカル印で分岐先ではない（誤用注意）。
 - hub の合流後 goto（`SMAIN_MIX*` の継続先）は **HU-22 で解決済**（§3.10）。`SMAIN_MIX01`/`MIX03` の
-  sink は解消。len-7 等値テストの「任意挿入シーン」の choice 紐付けは HU-23（本ツールは CFG 連結のみ）。
+  sink は解消。len-7 等値テストの「任意挿入シーン」の choice 紐付けは **HU-23 で解決済**（§3.8.1）。
+
+### 3.8.1 len-7 等値テストの任意挿入シーン紐付け（HU-23・実装済）
+
+主要ルート分岐（§3.8 の len-8 switch・5 個）とは別に、SMAIN には **len-7 等値テスト**
+`1d 00 <slot> f5 eb <val> ff`（＝ `if S<slot>==<val>`）が 27 個ある。構造:
+
+```
+1d 00 <slot> f5 eb <testval> ff   if S<slot> == <testval>
+08 01 <u16 off_true>              ガード: 偽なら off_true へ前方 skip
+  … TRUE ブロック（1b=scene / 1c=hub-goto）…
+09 …                             back-ptr（無視）
+1e                               区切り（＝ELSE 開始。無い場合あり）
+08 01 <u16 off_false>            ガード
+  … ELSE ブロック …
+09 …
+```
+
+これらは len-8 switch（END へ抜ける**恒久分岐**）と違い、TRUE/ELSE ブロックの再生後に**後で合流する＝任意挿入**。
+トリガ選択肢を選ぶと挿入ブロックが再生され、選ばなければ素通り（or 別ブロック）して合流する。
+
+**位置認識の紐付け**: 同一スロットが脚本内で scratch 的に**再利用される**（`S12` は AYAN008A/AYAN010A/SUZU004E、
+`S16` は楓サブアーク全域）。よって `slot→value` の大域表では曖昧（同値が別位置で別ブロックを指す）になる。
+各**書き込みシーン**（`06 00 <slot> f5 eb <val> ff` を持つ選択肢シーン）の SMAIN イベント位置の**直後で最も近い**
+同スロット len-7 テストを採り、`val==testval` なら TRUE、それ以外は ELSE ブロックの**先頭 dest** を挿入先とする。
+
+**flow 表現**（`smain_len7_tests()` / `scene_choice_inserts()` / `to_flow()`）: 各選択肢オプションに `flag` を付け、
+ブロック先頭 dest の種別で出力先を分ける——
+- 先頭が **scene**（`1b`）→ 任意挿入 `options[*].inserts`（＋`insertsTitle`）。再生後に合流する。
+- 先頭が **hub-goto**（`1c`、別ルートへの恒久分岐＝`S12`→AYAN01/SUZU01 等）→ `target`（len-8 と同義）。
+- ブロックが空（素通り）→ `flag` のみ。
+- len-8 switch スロットは既存 `target` を優先（`S71` は len-8 分岐＋len-7 の MAKO017 挿入を兼ねるが二重付与は避ける）。
+
+挿入ブロックの **CFG 連結**自体は HU-22（§3.10 手順 4）で済んでおり、本節は**選択肢 → 挿入ブロックのメタ紐付け**を担う
+（再生エンジン nav の挿入再生＝合流復帰は別途・本節の対象外）。出力例: SUBTM001A「真琴にも手を出そう」(S75=1)
+→ `inserts`=005_MAKO003A、MAKO005E「無視する」(S74=1) → `inserts`=005_MAKO006A、AYAN008A「綾姉は特別な存在だ」(S12=1)
+→ `target`=SMAIN_AYAN01。
 
 ---
 

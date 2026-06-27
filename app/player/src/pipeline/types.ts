@@ -112,10 +112,14 @@ export const FlowChoice = z.object({
     z.object({
       jp: z.string(),
       cn: z.string().nullable(), // cn 未抽出は null
-      // ルート分岐（SMAIN len-8 switch）の選択肢のみ付与（HU-21）。非分岐の局所選択肢は持たない。
+      // ルート分岐（SMAIN len-8 switch）/ len-7 等値テストの選択肢のみ付与。非分岐の局所選択肢は持たない。
       flag: z.string().optional(), // この選択肢が書くフラグ＝値（例 "S71/軸2_1=2"）
-      target: z.string().optional(), // 分岐先ノード id
+      target: z.string().optional(), // 恒久分岐先ノード id（len-8 switch、または len-7 の hub-goto 分岐。HU-21/23）
       targetTitle: z.string().optional(), // 分岐先ノードの表示タイトル
+      // len-7 等値テスト（`if S<slot>==<val>`）で条件付き挿入されるシーン/ブロックの先頭ノード id（HU-23）。
+      // target（恒久分岐）と区別: insertion は再生後に合流する＝恒久的な道筋分岐ではない。
+      inserts: z.string().optional(),
+      insertsTitle: z.string().optional(), // 挿入ブロック先頭ノードの表示タイトル
     }),
   ),
 })
