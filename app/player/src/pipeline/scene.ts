@@ -39,6 +39,10 @@ function escapeRegExp(s: string): string {
 // 正準タグ（text/id/note）へ正規化して以降の状態機械をロケール非依存に保つ（HU-29）。
 const TAG_ALIAS: Record<string, 'text' | 'id' | 'note'> = { cn: 'text', ascii: 'id', jp: 'note' }
 
+// [id] BG_BLACK（黒一色背景の表示制御）に割り当てる背景ラベル。backgrounds.json / _BGSET.txt で
+// #背景・黒一色 → BG_BLACK に解決される（[note] 直書きの既存シーンとラベルを統一）。
+const BLACK_BG_LABEL = '#背景・黒一色'
+
 // 原データ抽出時に混入する制御残骸。jp の一部シーン冒頭に PUA 文字（U+F8F3「⬚」/ U+E456）や
 // デコード失敗（U+FFFD）が、単独のゴミ文字（"G"/"E"/"\\" 等）を伴って [text] 行として現れる
 // （本文ではない）。これらはタイトルカード行（`\\N` 入り）の直前に居座り、タイトル判定
@@ -82,6 +86,20 @@ export function parseScene(text: string, opts: { code: string; locale: Locale })
     }
     return snap
   }
+  // bg/sprite が実際に変化する場合のみ、開いているナレーション beat を flush して
+  // 新しい注記を次 beat からスナップショットさせる。これをしないと、ナレーション
+  // 途中の背景/立ち絵切替が「次のセリフ等の flush まで遅延／消失」する（HU-34）。
+  // セリフ（line）beat や引用継続中には触れない（narration のみ・発話の原子性を維持）。
+  const setBg = (label: string) => {
+    if (label === stickyBg?.label) return
+    if (cur?.kind === 'narration') flush()
+    stickyBg = { label, file: null }
+  }
+  const setSprite = (label: string) => {
+    if (label === stickySprite?.label) return
+    if (cur?.kind === 'narration') flush()
+    stickySprite = { label, body: null, face: null }
+  }
 
   for (const rawLine of text.split(/\r?\n/)) {
     const m = /^\[(text|id|note|cn|ascii|jp)\]\s?(.*)$/.exec(rawLine)
@@ -96,26 +114,16 @@ export function parseScene(text: string, opts: { code: string; locale: Locale })
     if (val !== raw && isJunkResidue(val)) continue
 
     if (tag === 'note') {
-      // bg/sprite が実際に変化する場合、開いているナレーション beat を flush して
-      // 新しい注記を次 beat からスナップショットさせる。これをしないと、ナレーション
-      // 途中の背景/立ち絵切替が「次のセリフ等の flush まで遅延／消失」する（HU-34）。
-      // セリフ（line）beat や引用継続中には触れない（narration のみ・発話の原子性を維持）。
-      if (/^#(背景|EV)/.test(val)) {
-        if (val !== stickyBg?.label) {
-          if (cur?.kind === 'narration') flush()
-          stickyBg = { label: val, file: null }
-        }
-      } else if (val.startsWith('#')) {
-        if (val !== stickySprite?.label) {
-          if (cur?.kind === 'narration') flush()
-          stickySprite = { label: val, body: null, face: null }
-        }
-      }
+      if (/^#(背景|EV)/.test(val)) setBg(val)
+      else if (val.startsWith('#')) setSprite(val)
       continue
     }
 
     if (tag === 'id') {
       if (voiceRe.test(val)) pendingVoice = val
+      // [id] BG_BLACK = 黒一色背景の表示制御（BG_BLACK.png は実アセット）。背景切替として
+      // 扱い、ラベル #背景・黒一色 経由で解決させる。無視すると直前 CG が残る（HU-35）。
+      else if (val === 'BG_BLACK') setBg(BLACK_BG_LABEL)
       // 効果音コード（4桁+英字）。現 beat があればそこへ、無ければ次 beat へ持ち越す。
       else if (SE_RE.test(val)) {
         if (cur) (cur.se ??= []).push({ code: val, file: null })
