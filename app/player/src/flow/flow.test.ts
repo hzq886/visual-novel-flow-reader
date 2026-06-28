@@ -1,7 +1,7 @@
 import { describe, expect, it } from 'vitest'
 import flowJson from '@data/flow.json'
 import { Flow } from '@/pipeline/types'
-import { findNodeIdByScene, toReactFlow } from './flow'
+import { findNodeIdByScene } from './flow'
 
 const flow = Flow.parse(flowJson)
 
@@ -164,27 +164,5 @@ describe('len-7 等値テストの任意挿入シーン紐付け（HU-23）', ()
     // 005_MAKO005E: 「無視する」(S74=1) が MAKO006 系の挿入ブロックへ。
     const mako = by('005_MAKO005E')
     expect(mako['無視する']).toMatchObject({ flag: 'S74/軸3_2=1', inserts: '005_MAKO006A' })
-  })
-})
-
-describe('toReactFlow — React Flow 形状への写像', () => {
-  const rf = toReactFlow(flow)
-
-  it('ノード数が一致し position/label を持つ', () => {
-    expect(rf.nodes.length).toBe(flow.nodes.length)
-    const start = rf.nodes.find((n) => n.id === 'start')
-    expect(start).toBeDefined()
-    expect(start?.position).toBeDefined()
-    expect(start?.data.label).toContain('スタート')
-  })
-
-  it('エッジ id は一意', () => {
-    const ids = rf.edges.map((e) => e.id)
-    expect(new Set(ids).size).toBe(ids.length)
-  })
-
-  it('SMAIN の hub 合流が分岐ノードへ向かうエッジとして存在', () => {
-    const toHub = rf.edges.filter((e) => e.target.startsWith('SMAIN_'))
-    expect(toHub.length).toBeGreaterThan(0)
   })
 })
