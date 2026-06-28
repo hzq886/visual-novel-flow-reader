@@ -647,6 +647,10 @@
           235,
           150
         ]
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H001A",
+        "file": "voice/BGV_mako_h001a.ogg"
       }
     },
     {
@@ -680,6 +684,10 @@
           235,
           150
         ]
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H001A",
+        "file": "voice/BGV_mako_h001a.ogg"
       }
     },
     {
@@ -705,6 +713,10 @@
           235,
           150
         ]
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H001A",
+        "file": "voice/BGV_mako_h001a.ogg"
       }
     },
     {
@@ -729,6 +741,10 @@
           235,
           150
         ]
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H001A",
+        "file": "voice/BGV_mako_h001a.ogg"
       }
     },
     {
@@ -754,6 +770,10 @@
           235,
           150
         ]
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H001A",
+        "file": "voice/BGV_mako_h001a.ogg"
       }
     },
     {
@@ -782,6 +802,10 @@
           235,
           150
         ]
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H001A",
+        "file": "voice/BGV_mako_h001a.ogg"
       }
     },
     {
@@ -807,6 +831,10 @@
           235,
           150
         ]
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H001A",
+        "file": "voice/BGV_mako_h001a.ogg"
       }
     },
     {
@@ -830,6 +858,10 @@
           235,
           150
         ]
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H001A",
+        "file": "voice/BGV_mako_h001a.ogg"
       }
     },
     {
@@ -861,7 +893,11 @@
           "code": "1411A",
           "file": "se/1411a.ogg"
         }
-      ]
+      ],
+      "bgv": {
+        "id": "BGV_MAKO_H001A",
+        "file": "voice/BGV_mako_h001a.ogg"
+      }
     },
     {
       "kind": "line",
@@ -877,6 +913,10 @@
       "bg": {
         "label": "#EV026・慌て焦り・半透明",
         "file": "EV026_05"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H001A",
+        "file": "voice/BGV_mako_h001a.ogg"
       }
     },
     {
@@ -888,6 +928,10 @@
       "bg": {
         "label": "#EV026・慌て焦り・半透明",
         "file": "EV026_05"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H001A",
+        "file": "voice/BGV_mako_h001a.ogg"
       }
     },
     {
@@ -904,6 +948,10 @@
       "bg": {
         "label": "#EV026・慌て焦り・半透明",
         "file": "EV026_05"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H001A",
+        "file": "voice/BGV_mako_h001a.ogg"
       }
     },
     {
@@ -915,6 +963,10 @@
       "bg": {
         "label": "#EV026・慌て焦り・半透明",
         "file": "EV026_05"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H001A",
+        "file": "voice/BGV_mako_h001a.ogg"
       }
     },
     {
@@ -931,6 +983,10 @@
       "bg": {
         "label": "#EV026・目閉じ没頭・半透明・愛液",
         "file": "EV026_06"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H002A",
+        "file": "voice/BGV_mako_h002a.ogg"
       }
     },
     {
@@ -953,7 +1009,11 @@
           "code": "8112C",
           "file": "se/8112c.ogg"
         }
-      ]
+      ],
+      "bgv": {
+        "id": "BGV_MAKO_H002A",
+        "file": "voice/BGV_mako_h002a.ogg"
+      }
     },
     {
       "kind": "line",
@@ -969,6 +1029,10 @@
       "bg": {
         "label": "#EV026・軽くアヘ・半透明・愛液",
         "file": "EV026_07"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H003A",
+        "file": "voice/BGV_mako_h003a.ogg"
       }
     },
     {
@@ -982,6 +1046,10 @@
       "bg": {
         "label": "#EV026・軽くアヘ・半透明・愛液",
         "file": "EV026_07"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H003A",
+        "file": "voice/BGV_mako_h003a.ogg"
       }
     },
     {
@@ -998,6 +1066,10 @@
       "bg": {
         "label": "#EV026・軽くアヘ・半透明・愛液",
         "file": "EV026_07"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H003A",
+        "file": "voice/BGV_mako_h003a.ogg"
       }
     },
     {
@@ -1015,6 +1087,10 @@
       "bg": {
         "label": "#EV026・軽くアヘ・半透明・愛液",
         "file": "EV026_07"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H003A",
+        "file": "voice/BGV_mako_h003a.ogg"
       }
     },
     {
@@ -1031,6 +1107,10 @@
       "bg": {
         "label": "#EV026・軽くアヘ・半透明・愛液",
         "file": "EV026_07"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H003A",
+        "file": "voice/BGV_mako_h003a.ogg"
       }
     },
     {
@@ -1044,6 +1124,10 @@
       "bg": {
         "label": "#EV026・軽くアヘ・半透明・愛液",
         "file": "EV026_07"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H003A",
+        "file": "voice/BGV_mako_h003a.ogg"
       }
     },
     {
@@ -1060,6 +1144,10 @@
       "bg": {
         "label": "#EV026・軽くアヘ・半透明・愛液",
         "file": "EV026_07"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H003A",
+        "file": "voice/BGV_mako_h003a.ogg"
       }
     },
     {
@@ -1072,6 +1160,10 @@
       "bg": {
         "label": "#EV026・軽くアヘ・半透明・愛液",
         "file": "EV026_07"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H003A",
+        "file": "voice/BGV_mako_h003a.ogg"
       }
     },
     {
@@ -1087,6 +1179,10 @@
       "bg": {
         "label": "#EV026・軽くアヘ・半透明・愛液",
         "file": "EV026_07"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H003A",
+        "file": "voice/BGV_mako_h003a.ogg"
       }
     },
     {
@@ -1099,6 +1195,10 @@
       "bg": {
         "label": "#EV026・軽くアヘ・半透明・愛液",
         "file": "EV026_07"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H003A",
+        "file": "voice/BGV_mako_h003a.ogg"
       }
     },
     {
@@ -1115,6 +1215,10 @@
       "bg": {
         "label": "#EV026・軽くアヘ・半透明・愛液",
         "file": "EV026_07"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H003A",
+        "file": "voice/BGV_mako_h003a.ogg"
       }
     },
     {
@@ -1126,6 +1230,10 @@
       "bg": {
         "label": "#EV026・軽くアヘ・半透明・愛液",
         "file": "EV026_07"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H003A",
+        "file": "voice/BGV_mako_h003a.ogg"
       }
     },
     {
@@ -1141,6 +1249,10 @@
       "bg": {
         "label": "#EV026・軽くアヘ・半透明・愛液",
         "file": "EV026_07"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H003A",
+        "file": "voice/BGV_mako_h003a.ogg"
       }
     },
     {
@@ -1152,6 +1264,10 @@
       "bg": {
         "label": "#EV026・軽くアヘ・半透明・愛液",
         "file": "EV026_07"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H003A",
+        "file": "voice/BGV_mako_h003a.ogg"
       }
     },
     {
@@ -1174,7 +1290,11 @@
           "code": "8351A",
           "file": "se/8351a.ogg"
         }
-      ]
+      ],
+      "bgv": {
+        "id": "BGV_MAKO_H003A",
+        "file": "voice/BGV_mako_h003a.ogg"
+      }
     },
     {
       "kind": "narration",
@@ -1185,6 +1305,10 @@
       "bg": {
         "label": "#EV026・軽くアヘ・半透明・潮吹き",
         "file": "EV026_08"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H003A",
+        "file": "voice/BGV_mako_h003a.ogg"
       }
     },
     {
@@ -1201,6 +1325,10 @@
       "bg": {
         "label": "#EV026・軽くアヘ・半透明・潮吹き",
         "file": "EV026_08"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H003A",
+        "file": "voice/BGV_mako_h003a.ogg"
       }
     },
     {
@@ -1213,6 +1341,10 @@
       "bg": {
         "label": "#EV026・軽くアヘ・半透明・潮吹き",
         "file": "EV026_08"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H003A",
+        "file": "voice/BGV_mako_h003a.ogg"
       }
     },
     {
@@ -1228,6 +1360,10 @@
       "bg": {
         "label": "#EV026・軽くアヘ・半透明・愛液2",
         "file": "EV026_09"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H003A",
+        "file": "voice/BGV_mako_h003a.ogg"
       }
     },
     {
@@ -1240,6 +1376,10 @@
       "bg": {
         "label": "#EV026・軽くアヘ・半透明・愛液2",
         "file": "EV026_09"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H003A",
+        "file": "voice/BGV_mako_h003a.ogg"
       }
     },
     {
@@ -1255,6 +1395,10 @@
       "bg": {
         "label": "#EV026・軽くアヘ・半透明・愛液2",
         "file": "EV026_09"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H003A",
+        "file": "voice/BGV_mako_h003a.ogg"
       }
     },
     {
@@ -1272,6 +1416,10 @@
       "bg": {
         "label": "#EV026・軽くアヘ・半透明・愛液2",
         "file": "EV026_09"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H003A",
+        "file": "voice/BGV_mako_h003a.ogg"
       }
     }
   ],

@@ -132,6 +132,10 @@
           238,
           135
         ]
+      },
+      "bgv": {
+        "id": "BGV_MAKO_F001A",
+        "file": "voice/BGV_mako_f001a.ogg"
       }
     },
     {
@@ -157,6 +161,10 @@
           238,
           135
         ]
+      },
+      "bgv": {
+        "id": "BGV_MAKO_F001A",
+        "file": "voice/BGV_mako_f001a.ogg"
       }
     },
     {
@@ -177,6 +185,10 @@
           238,
           135
         ]
+      },
+      "bgv": {
+        "id": "BGV_MAKO_F001A",
+        "file": "voice/BGV_mako_f001a.ogg"
       }
     },
     {
@@ -202,6 +214,10 @@
           238,
           135
         ]
+      },
+      "bgv": {
+        "id": "BGV_MAKO_F001A",
+        "file": "voice/BGV_mako_f001a.ogg"
       }
     },
     {
@@ -221,6 +237,10 @@
           238,
           135
         ]
+      },
+      "bgv": {
+        "id": "BGV_MAKO_F001A",
+        "file": "voice/BGV_mako_f001a.ogg"
       }
     },
     {
@@ -246,6 +266,10 @@
           238,
           135
         ]
+      },
+      "bgv": {
+        "id": "BGV_MAKO_F001A",
+        "file": "voice/BGV_mako_f001a.ogg"
       }
     },
     {
@@ -265,6 +289,10 @@
           238,
           135
         ]
+      },
+      "bgv": {
+        "id": "BGV_MAKO_F001A",
+        "file": "voice/BGV_mako_f001a.ogg"
       }
     },
     {
@@ -285,6 +313,10 @@
           238,
           135
         ]
+      },
+      "bgv": {
+        "id": "BGV_MAKO_F001A",
+        "file": "voice/BGV_mako_f001a.ogg"
       }
     },
     {
@@ -310,6 +342,10 @@
           238,
           135
         ]
+      },
+      "bgv": {
+        "id": "BGV_MAKO_F001A",
+        "file": "voice/BGV_mako_f001a.ogg"
       }
     },
     {
@@ -330,6 +366,10 @@
           238,
           135
         ]
+      },
+      "bgv": {
+        "id": "BGV_MAKO_F001A",
+        "file": "voice/BGV_mako_f001a.ogg"
       }
     },
     {
@@ -355,6 +395,10 @@
           238,
           135
         ]
+      },
+      "bgv": {
+        "id": "BGV_MAKO_F001A",
+        "file": "voice/BGV_mako_f001a.ogg"
       }
     },
     {
@@ -375,6 +419,10 @@
           238,
           135
         ]
+      },
+      "bgv": {
+        "id": "BGV_MAKO_F001A",
+        "file": "voice/BGV_mako_f001a.ogg"
       }
     },
     {
@@ -400,6 +448,10 @@
           238,
           135
         ]
+      },
+      "bgv": {
+        "id": "BGV_MAKO_F001A",
+        "file": "voice/BGV_mako_f001a.ogg"
       }
     },
     {
@@ -421,6 +473,10 @@
           238,
           135
         ]
+      },
+      "bgv": {
+        "id": "BGV_MAKO_F001A",
+        "file": "voice/BGV_mako_f001a.ogg"
       }
     },
     {
@@ -445,6 +501,10 @@
           238,
           135
         ]
+      },
+      "bgv": {
+        "id": "BGV_MAKO_F001A",
+        "file": "voice/BGV_mako_f001a.ogg"
       }
     },
     {
@@ -466,6 +526,10 @@
           238,
           135
         ]
+      },
+      "bgv": {
+        "id": "BGV_MAKO_F001A",
+        "file": "voice/BGV_mako_f001a.ogg"
       }
     },
     {
@@ -491,6 +555,10 @@
           238,
           135
         ]
+      },
+      "bgv": {
+        "id": "BGV_MAKO_F001A",
+        "file": "voice/BGV_mako_f001a.ogg"
       }
     },
     {
@@ -511,6 +579,10 @@
           238,
           135
         ]
+      },
+      "bgv": {
+        "id": "BGV_MAKO_F001A",
+        "file": "voice/BGV_mako_f001a.ogg"
       }
     },
     {
@@ -527,7 +599,11 @@
           "code": "8001A",
           "file": "se/8001a.ogg"
         }
-      ]
+      ],
+      "bgv": {
+        "id": "BGV_MAKO_F001A",
+        "file": "voice/BGV_mako_f001a.ogg"
+      }
     },
     {
       "kind": "line",
@@ -543,6 +619,10 @@
       "bg": {
         "label": "#EV075・目閉じ喘ぎ・嫌がり・浅く挿入・愛液",
         "file": "EV075_02"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -555,6 +635,10 @@
       "bg": {
         "label": "#EV075・目閉じ喘ぎ・嫌がり・浅く挿入・愛液",
         "file": "EV075_02"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -571,6 +655,10 @@
       "bg": {
         "label": "#EV075・目閉じ喘ぎ・嫌がり・浅く挿入・愛液",
         "file": "EV075_02"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -585,6 +673,10 @@
       "bg": {
         "label": "#EV075・目閉じ喘ぎ・嫌がり・浅く挿入・愛液",
         "file": "EV075_02"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -601,6 +693,10 @@
       "bg": {
         "label": "#EV075・目閉じ喘ぎ・嫌がり・浅く挿入・愛液",
         "file": "EV075_02"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -613,6 +709,10 @@
       "bg": {
         "label": "#EV075・目閉じ喘ぎ・嫌がり・浅く挿入・愛液",
         "file": "EV075_02"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -629,6 +729,10 @@
       "bg": {
         "label": "#EV075・目閉じ喘ぎ・嫌がり・浅く挿入・愛液",
         "file": "EV075_02"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -640,6 +744,10 @@
       "bg": {
         "label": "#EV075・目閉じ喘ぎ・嫌がり・浅く挿入・愛液",
         "file": "EV075_02"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -656,6 +764,10 @@
       "bg": {
         "label": "#EV075・目閉じ喘ぎ・嫌がり・浅く挿入・愛液",
         "file": "EV075_02"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -675,7 +787,11 @@
           "code": "8101A",
           "file": "se/8101a.ogg"
         }
-      ]
+      ],
+      "bgv": {
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
+      }
     },
     {
       "kind": "line",
@@ -687,6 +803,10 @@
       "bg": {
         "label": "#EV075・目閉じ喘ぎ・嫌がり・浅く挿入・愛液",
         "file": "EV075_02"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -702,6 +822,10 @@
       "bg": {
         "label": "#EV075・目閉じ喘ぎ・泣きそう・浅く挿入・愛液",
         "file": "EV075_03"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -715,6 +839,10 @@
       "bg": {
         "label": "#EV075・目閉じ喘ぎ・泣きそう・浅く挿入・愛液",
         "file": "EV075_03"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -731,6 +859,10 @@
       "bg": {
         "label": "#EV075・うっとり蕩け・泣きそう・深く挿入・愛液",
         "file": "EV075_04"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -743,6 +875,10 @@
       "bg": {
         "label": "#EV075・うっとり蕩け・泣きそう・深く挿入・愛液",
         "file": "EV075_04"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -758,6 +894,10 @@
       "bg": {
         "label": "#EV075・うっとり蕩け・泣きそう・深く挿入・愛液",
         "file": "EV075_04"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -770,6 +910,10 @@
       "bg": {
         "label": "#EV075・うっとり蕩け・泣きそう・深く挿入・愛液",
         "file": "EV075_04"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -786,6 +930,10 @@
       "bg": {
         "label": "#EV075・うっとり蕩け・泣きそう・深く挿入・愛液",
         "file": "EV075_04"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -798,6 +946,10 @@
       "bg": {
         "label": "#EV075・うっとり蕩け・泣きそう・深く挿入・愛液",
         "file": "EV075_04"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -814,6 +966,10 @@
       "bg": {
         "label": "#EV075・軽くアヘ・泣きそう・深く挿入・愛液",
         "file": "EV075_05"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -826,6 +982,10 @@
       "bg": {
         "label": "#EV075・軽くアヘ・泣きそう・深く挿入・愛液",
         "file": "EV075_05"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -842,6 +1002,10 @@
       "bg": {
         "label": "#EV075・軽くアヘ・泣きそう・深く挿入・愛液",
         "file": "EV075_05"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -854,6 +1018,10 @@
       "bg": {
         "label": "#EV075・軽くアヘ・泣きそう・深く挿入・愛液",
         "file": "EV075_05"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -869,6 +1037,10 @@
       "bg": {
         "label": "#EV075・軽くアヘ・泣きそう・深く挿入・愛液",
         "file": "EV075_05"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -883,6 +1055,10 @@
       "bg": {
         "label": "#EV075・軽くアヘ・泣きそう・深く挿入・愛液",
         "file": "EV075_05"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -898,6 +1074,10 @@
       "bg": {
         "label": "#EV075・軽くアヘ・泣きそう・深く挿入・愛液",
         "file": "EV075_05"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -911,6 +1091,10 @@
       "bg": {
         "label": "#EV075・軽くアヘ・泣きそう・深く挿入・愛液",
         "file": "EV075_05"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -922,6 +1106,10 @@
       "bg": {
         "label": "#EV075・軽くアヘ・泣きそう・深く挿入・愛液",
         "file": "EV075_05"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -937,6 +1125,10 @@
       "bg": {
         "label": "#EV075・軽くアヘ・泣きそう・深く挿入・愛液",
         "file": "EV075_05"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -949,6 +1141,10 @@
       "bg": {
         "label": "#EV075・軽くアヘ・泣きそう・深く挿入・愛液",
         "file": "EV075_05"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -965,6 +1161,10 @@
       "bg": {
         "label": "#EV075・軽くアヘ・泣きそう・深く挿入・愛液",
         "file": "EV075_05"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -977,6 +1177,10 @@
       "bg": {
         "label": "#EV075・軽くアヘ・泣きそう・深く挿入・愛液",
         "file": "EV075_05"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -993,6 +1197,10 @@
       "bg": {
         "label": "#EV075・軽くアヘ・泣きそう・深く挿入・愛液",
         "file": "EV075_05"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -1011,7 +1219,11 @@
           "code": "8201B",
           "file": "se/8201b.ogg"
         }
-      ]
+      ],
+      "bgv": {
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
+      }
     },
     {
       "kind": "narration",
@@ -1021,6 +1233,10 @@
       "bg": {
         "label": "#EV075・軽くアヘ・泣きそう・深く挿入・精液",
         "file": "EV075_06"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -1036,6 +1252,10 @@
       "bg": {
         "label": "#EV075・軽くアヘ・泣きそう・深く挿入・精液",
         "file": "EV075_06"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -1047,6 +1267,10 @@
       "bg": {
         "label": "#EV075・軽くアヘ・泣きそう・深く挿入・精液",
         "file": "EV075_06"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -1069,7 +1293,11 @@
           "code": "8351A",
           "file": "se/8351a.ogg"
         }
-      ]
+      ],
+      "bgv": {
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
+      }
     },
     {
       "kind": "narration",
@@ -1080,6 +1308,10 @@
       "bg": {
         "label": "#EV075・軽くアヘ・泣きそう・深く挿入・精液",
         "file": "EV075_06"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -1102,7 +1334,11 @@
           "code": "8011B",
           "file": "se/8011b.ogg"
         }
-      ]
+      ],
+      "bgv": {
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
+      }
     },
     {
       "kind": "narration",
@@ -1114,6 +1350,10 @@
       "bg": {
         "label": "#EV075・軽くアヘ・泣きそう・深く挿入・精液",
         "file": "EV075_06"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -1130,6 +1370,10 @@
       "bg": {
         "label": "#EV075・軽くアヘ・泣きそう・深く挿入・精液",
         "file": "EV075_06"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -1141,6 +1385,10 @@
       "bg": {
         "label": "#EV075・軽くアヘ・泣きそう・深く挿入・精液",
         "file": "EV075_06"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -1157,6 +1405,10 @@
       "bg": {
         "label": "#EV075・軽くアヘ・泣きそう・深く挿入・精液",
         "file": "EV075_06"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -1173,6 +1425,10 @@
       "bg": {
         "label": "#EV075・軽くアヘ・泣きそう・深く挿入・精液",
         "file": "EV075_06"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H003A",
+        "file": "voice/BGV_tuba_h003a.ogg"
       }
     },
     {
@@ -1185,6 +1441,10 @@
       "bg": {
         "label": "#EV075・軽くアヘ・泣きそう・深く挿入・精液",
         "file": "EV075_06"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H003A",
+        "file": "voice/BGV_tuba_h003a.ogg"
       }
     },
     {
@@ -1201,6 +1461,10 @@
       "bg": {
         "label": "#EV075・軽くアヘ・泣きそう・深く挿入・精液",
         "file": "EV075_06"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H003A",
+        "file": "voice/BGV_tuba_h003a.ogg"
       }
     },
     {
@@ -1213,6 +1477,10 @@
       "bg": {
         "label": "#EV075・軽くアヘ・泣きそう・深く挿入・精液",
         "file": "EV075_06"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H003A",
+        "file": "voice/BGV_tuba_h003a.ogg"
       }
     },
     {
@@ -1224,6 +1492,10 @@
       "bg": {
         "label": "#EV075・軽くアヘ・泣きそう・深く挿入・精液",
         "file": "EV075_06"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H003A",
+        "file": "voice/BGV_tuba_h003a.ogg"
       }
     },
     {
@@ -1234,6 +1506,10 @@
       "bg": {
         "label": "#EV075・軽くアヘ・泣きそう・深く挿入・精液",
         "file": "EV075_06"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H003A",
+        "file": "voice/BGV_tuba_h003a.ogg"
       }
     },
     {
@@ -1249,6 +1525,10 @@
       "bg": {
         "label": "#EV075・軽くアヘ・泣きそう・深く挿入・精液",
         "file": "EV075_06"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H003A",
+        "file": "voice/BGV_tuba_h003a.ogg"
       }
     },
     {
@@ -1263,6 +1543,10 @@
       "bg": {
         "label": "#EV075・軽くアヘ・泣きそう・深く挿入・精液",
         "file": "EV075_06"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H003A",
+        "file": "voice/BGV_tuba_h003a.ogg"
       }
     }
   ],

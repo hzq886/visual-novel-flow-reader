@@ -34,6 +34,14 @@ describe('resolveVoice — manifest 照合', () => {
   it('manifest 未収録は file=null', () => {
     expect(resolveVoice(voiceIndex, 'ZZZZ_999_NONE001A_001').file).toBeNull()
   })
+
+  it('背景ボイス（BGV_*）も同じ索引で解決される（HU-37）', () => {
+    // 実体は voice/BGV_ayan_f001a.ogg（BGV 接頭辞は大文字維持・残りは小文字）。
+    expect(resolveVoice(voiceIndex, 'BGV_AYAN_F001A')).toEqual({
+      id: 'BGV_AYAN_F001A',
+      file: 'voice/BGV_ayan_f001a.ogg',
+    })
+  })
 })
 
 describe('resolveScene — 002_AYAN001A 全 beat 解決（受入）', () => {

@@ -53,10 +53,26 @@ bytecode RE（[`smain_flow_guide.md` §3.9](../../data_extract/text/_tools/smain
 - manifest がある環境では se/bgm の `file=null`（参照不整合）を **hard fail**（bg/sprite と同列）。
   manifest が無い環境（素材未配置）では se は file=null・bgm 未付与になるため照合をスキップ。
 
+### 背景ボイス（BGV ループ）— HU-37 で追加
+
+- シーン脚本の `[id] BGV_<CHAR>_<H|F>nnn[A|B]`（例 `BGV_AYAN_H001A`）= 背景ボイス（喘ぎ等の
+  **ループ音声**）。`voice/BGV_*.ogg` は manifest 実在（voice カテゴリ）。
+- **semantics（RE 結果）**: 単一ループチャンネル。新しい BGV が現在のループを置換し、**停止マーカーは
+  原データに存在しない**（H001→H003 と強度が上がり、OFF を跨いでも継続）。よってシーン局所で、
+  次の BGV まで／シーン離脱まで持続する。
+- **データ**: `bg`/`sprite` と同じ **sticky** モデル。`parseScene` が `stickyBgv` を beat に
+  snapshot し、変化時に narration を flush（HU-34）して正しい行から鳴らす。解決は voice と同じ
+  `resolveVoice`（id→manifest 実ファイル。大小文字規則は [ADR 0004](0004-voice-resolution.md)）。
+  スキーマは `Beat.bgv?: VoiceRef`。
+- **エンジン**: `AudioManager` に第4チャンネル `playBgv`/`stopBgv`（`loop:true`・別URLで切替・
+  同URL no-op）。`Stage` は各 beat で `beat.bgv.file` を `playBgv`、シーン離脱（`releaseVoices`）と
+  終端で `stopBgv`。BGV はシーンを跨がない（bgm のみ跨ぐ）。
+
 ## 帰結
 
 - 主要ルートで bgm がシーンを跨いで継続し、ルート転換でクロスフェードする。se は該当 beat で鳴る。
 - `validate`：se 641 参照・bgm 288 シーンとも未解決 0（manifest 同期済）。
 - BGM の track 対応は暫定（curated）。実聴での補正は `BGM_BY_CHARACTER` の編集で完結し、再ビルド不要の
   低リスク変更。H シーン等のムード別 bgm 変化（ルート内変動）は未対応＝将来の精緻化余地。
-- BGV（`BGV_*` ループ喘ぎ、VOL_BGCV）は本 ADR のスコープ外（se/bgm のみ）。
+- BGV（`BGV_*` ループ喘ぎ）は **HU-37 で対応**（上記「背景ボイス」節）。45 種が解決（未解決 0）。
+  音量個別制御（`VOL_SET:`/VOL_BGCV 等）は将来課題（HU-40）。

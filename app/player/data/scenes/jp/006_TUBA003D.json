@@ -915,6 +915,10 @@
           315,
           83
         ]
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -935,6 +939,10 @@
           315,
           83
         ]
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -960,6 +968,10 @@
           315,
           83
         ]
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -983,6 +995,10 @@
           315,
           83
         ]
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -1008,6 +1024,10 @@
           315,
           83
         ]
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -1029,6 +1049,10 @@
           315,
           83
         ]
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -1054,6 +1078,10 @@
           315,
           83
         ]
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -1078,6 +1106,10 @@
           315,
           83
         ]
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -1103,6 +1135,10 @@
           315,
           83
         ]
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -1124,6 +1160,10 @@
           315,
           83
         ]
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -1149,6 +1189,10 @@
           315,
           83
         ]
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -1170,6 +1214,10 @@
           315,
           83
         ]
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -1192,6 +1240,10 @@
           315,
           83
         ]
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -1217,6 +1269,10 @@
           315,
           83
         ]
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -1237,6 +1293,10 @@
           315,
           83
         ]
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -1258,6 +1318,10 @@
           315,
           83
         ]
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -1283,6 +1347,10 @@
           315,
           83
         ]
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -1306,6 +1374,10 @@
           315,
           83
         ]
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -1330,6 +1402,10 @@
           315,
           83
         ]
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -1355,6 +1431,10 @@
           315,
           83
         ]
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -1380,6 +1460,10 @@
           315,
           83
         ]
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -1404,6 +1488,10 @@
           315,
           83
         ]
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -1435,7 +1523,11 @@
           "code": "8131B",
           "file": "se/8131b.ogg"
         }
-      ]
+      ],
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
+      }
     },
     {
       "kind": "narration",
@@ -1454,6 +1546,10 @@
           315,
           83
         ]
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -1479,6 +1575,10 @@
           315,
           83
         ]
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -1503,6 +1603,10 @@
           315,
           83
         ]
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -1528,6 +1632,10 @@
           315,
           83
         ]
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -1555,6 +1663,10 @@
           315,
           83
         ]
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -1580,6 +1692,10 @@
           315,
           83
         ]
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -1605,6 +1721,10 @@
           315,
           83
         ]
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -1630,6 +1750,10 @@
           315,
           83
         ]
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -1656,6 +1780,10 @@
           315,
           83
         ]
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -1681,6 +1809,10 @@
           315,
           83
         ]
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -1703,6 +1835,10 @@
           315,
           83
         ]
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -1728,6 +1864,10 @@
           315,
           83
         ]
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -1754,7 +1894,11 @@
           "code": "8361A",
           "file": "se/8361a.ogg"
         }
-      ]
+      ],
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
+      }
     },
     {
       "kind": "line",
@@ -1779,6 +1923,10 @@
           315,
           83
         ]
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -1801,6 +1949,10 @@
           315,
           83
         ]
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -1826,6 +1978,10 @@
           315,
           83
         ]
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -1849,6 +2005,10 @@
           315,
           83
         ]
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -1874,6 +2034,10 @@
           315,
           83
         ]
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -1895,6 +2059,10 @@
           315,
           83
         ]
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -1920,6 +2088,10 @@
           315,
           83
         ]
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -1945,6 +2117,10 @@
           315,
           83
         ]
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -1970,6 +2146,10 @@
           315,
           83
         ]
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -1997,6 +2177,10 @@
           315,
           83
         ]
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -2022,6 +2206,10 @@
           315,
           83
         ]
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -2043,6 +2231,10 @@
           315,
           83
         ]
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -2068,6 +2260,10 @@
           315,
           83
         ]
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -2087,6 +2283,10 @@
           315,
           83
         ]
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -2112,6 +2312,10 @@
           315,
           83
         ]
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -2132,6 +2336,10 @@
           315,
           83
         ]
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -2157,6 +2365,10 @@
           315,
           83
         ]
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -2180,6 +2392,10 @@
           315,
           83
         ]
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -2205,6 +2421,10 @@
           315,
           83
         ]
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -2236,7 +2456,11 @@
           "code": "8361B",
           "file": "se/8361b.ogg"
         }
-      ]
+      ],
+      "bgv": {
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
+      }
     },
     {
       "kind": "line",
@@ -2261,6 +2485,10 @@
           315,
           83
         ]
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -2288,7 +2516,11 @@
           "code": "8351A",
           "file": "se/8351a.ogg"
         }
-      ]
+      ],
+      "bgv": {
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
+      }
     },
     {
       "kind": "line",
@@ -2313,6 +2545,10 @@
           315,
           83
         ]
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -2338,6 +2574,10 @@
           315,
           83
         ]
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -2363,6 +2603,10 @@
           315,
           83
         ]
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -2388,6 +2632,10 @@
           315,
           83
         ]
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -2413,6 +2661,10 @@
           315,
           83
         ]
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -2435,6 +2687,10 @@
           315,
           83
         ]
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -2460,6 +2716,10 @@
           315,
           83
         ]
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -2479,6 +2739,10 @@
           315,
           83
         ]
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -2504,6 +2768,10 @@
           315,
           83
         ]
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -2530,7 +2798,11 @@
           "code": "8321C",
           "file": "se/8321c.ogg"
         }
-      ]
+      ],
+      "bgv": {
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
+      }
     },
     {
       "kind": "line",
@@ -2555,6 +2827,10 @@
           315,
           83
         ]
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -2577,6 +2853,10 @@
           315,
           83
         ]
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -2602,6 +2882,10 @@
           315,
           83
         ]
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -2623,6 +2907,10 @@
           315,
           83
         ]
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -2648,6 +2936,10 @@
           315,
           83
         ]
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -2673,6 +2965,10 @@
           315,
           83
         ]
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -2698,6 +2994,10 @@
           315,
           83
         ]
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -2728,7 +3028,11 @@
           "code": "8201B",
           "file": "se/8201b.ogg"
         }
-      ]
+      ],
+      "bgv": {
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
+      }
     },
     {
       "kind": "narration",
@@ -2749,6 +3053,10 @@
           315,
           83
         ]
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -2774,6 +3082,10 @@
           315,
           83
         ]
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -2797,6 +3109,10 @@
           315,
           83
         ]
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -2822,6 +3138,10 @@
           315,
           83
         ]
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -2845,6 +3165,10 @@
           315,
           83
         ]
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -2870,6 +3194,10 @@
           315,
           83
         ]
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -2894,6 +3222,10 @@
           315,
           83
         ]
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -2919,6 +3251,10 @@
           315,
           83
         ]
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -2941,6 +3277,10 @@
           315,
           83
         ]
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -2966,6 +3306,10 @@
           315,
           83
         ]
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -2989,6 +3333,10 @@
           315,
           83
         ]
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     }
   ],

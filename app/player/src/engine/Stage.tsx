@@ -123,6 +123,8 @@ export function Stage() {
           else audio.stopVoice()
           // この beat の効果音（ワンショット、複数可）を再生。
           for (const s of beat.se ?? []) if (s.file) audio.playSe(assetUrl(s.file))
+          // 背景ボイス（ループ）。sticky で各 beat に載るので、同一 URL は no-op・変化時に切替。
+          if (beat.bgv?.file) audio.playBgv(assetUrl(beat.bgv.file))
         }
 
         // シーン切替時: 旧シーン専用のテクスチャ/ボイスを解放。クロスフェード完了後に、
@@ -147,7 +149,10 @@ export function Stage() {
 
         // ストアを購読して描画（シーン変更＝先頭 beat、index 変更＝該当 beat）。
         const unsub = usePlayer.subscribe((s, prev) => {
-          if (s.ended && !prev.ended) audio.stopBgm() // 終端で BGM を止める
+          if (s.ended && !prev.ended) {
+            audio.stopBgm() // 終端で BGM を止める
+            audio.stopBgv() // 背景ボイスも止める
+          }
           if (!s.scene) return
           if (s.scene !== prev.scene) {
             // 言語切替（同一シーンを別ロケールへ差し替え）= 字幕のみ更新し音声/テクスチャは乱さない。

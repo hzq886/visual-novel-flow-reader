@@ -1364,6 +1364,10 @@
           426,
           73
         ]
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H001A",
+        "file": "voice/BGV_ayan_h001a.ogg"
       }
     },
     {
@@ -1385,6 +1389,10 @@
           426,
           73
         ]
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H001A",
+        "file": "voice/BGV_ayan_h001a.ogg"
       }
     },
     {
@@ -1410,6 +1418,10 @@
           426,
           73
         ]
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H001A",
+        "file": "voice/BGV_ayan_h001a.ogg"
       }
     },
     {
@@ -1431,6 +1443,10 @@
           426,
           73
         ]
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H001A",
+        "file": "voice/BGV_ayan_h001a.ogg"
       }
     },
     {
@@ -1456,6 +1472,10 @@
           426,
           73
         ]
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H001A",
+        "file": "voice/BGV_ayan_h001a.ogg"
       }
     },
     {
@@ -1479,6 +1499,10 @@
           426,
           73
         ]
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H001A",
+        "file": "voice/BGV_ayan_h001a.ogg"
       }
     },
     {
@@ -1499,6 +1523,10 @@
           426,
           73
         ]
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H001A",
+        "file": "voice/BGV_ayan_h001a.ogg"
       }
     },
     {
@@ -1530,7 +1558,11 @@
           "code": "8001B",
           "file": "se/8001b.ogg"
         }
-      ]
+      ],
+      "bgv": {
+        "id": "BGV_AYAN_H001A",
+        "file": "voice/BGV_ayan_h001a.ogg"
+      }
     },
     {
       "kind": "narration",
@@ -1550,6 +1582,10 @@
           426,
           73
         ]
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H001A",
+        "file": "voice/BGV_ayan_h001a.ogg"
       }
     },
     {
@@ -1575,6 +1611,10 @@
           426,
           73
         ]
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H001A",
+        "file": "voice/BGV_ayan_h001a.ogg"
       }
     },
     {
@@ -1599,6 +1639,10 @@
           426,
           73
         ]
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H001A",
+        "file": "voice/BGV_ayan_h001a.ogg"
       }
     },
     {
@@ -1623,6 +1667,10 @@
           426,
           73
         ]
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H001A",
+        "file": "voice/BGV_ayan_h001a.ogg"
       }
     },
     {
@@ -1643,6 +1691,10 @@
           426,
           73
         ]
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H001A",
+        "file": "voice/BGV_ayan_h001a.ogg"
       }
     },
     {
@@ -1663,6 +1715,10 @@
           426,
           73
         ]
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H001A",
+        "file": "voice/BGV_ayan_h001a.ogg"
       }
     },
     {
@@ -1688,6 +1744,10 @@
           426,
           73
         ]
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H001A",
+        "file": "voice/BGV_ayan_h001a.ogg"
       }
     },
     {
@@ -1716,7 +1776,11 @@
           "code": "8021A",
           "file": "se/8021a.ogg"
         }
-      ]
+      ],
+      "bgv": {
+        "id": "BGV_AYAN_H001A",
+        "file": "voice/BGV_ayan_h001a.ogg"
+      }
     },
     {
       "kind": "line",
@@ -1731,6 +1795,10 @@
       "bg": {
         "label": "#EV045・驚愕・裸・尻穴開き",
         "file": "EV045_26"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H001A",
+        "file": "voice/BGV_ayan_h001a.ogg"
       }
     },
     {
@@ -1743,6 +1811,10 @@
       "bg": {
         "label": "#EV045・驚愕・裸・尻穴開き",
         "file": "EV045_26"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H001A",
+        "file": "voice/BGV_ayan_h001a.ogg"
       }
     },
     {
@@ -1758,6 +1830,10 @@
       "bg": {
         "label": "#EV045・驚愕・裸・尻穴開き",
         "file": "EV045_26"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H001A",
+        "file": "voice/BGV_ayan_h001a.ogg"
       }
     },
     {
@@ -1770,6 +1846,10 @@
       "bg": {
         "label": "#EV045・驚愕・裸・尻穴開き",
         "file": "EV045_26"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H001A",
+        "file": "voice/BGV_ayan_h001a.ogg"
       }
     },
     {
@@ -1781,6 +1861,10 @@
       "bg": {
         "label": "#EV045・驚愕・裸・尻穴開き",
         "file": "EV045_26"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H001A",
+        "file": "voice/BGV_ayan_h001a.ogg"
       }
     },
     {
@@ -1797,6 +1881,10 @@
       "bg": {
         "label": "#EV045・驚愕・裸・尻穴開き",
         "file": "EV045_26"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H001A",
+        "file": "voice/BGV_ayan_h001a.ogg"
       }
     },
     {
@@ -1811,6 +1899,10 @@
       "bg": {
         "label": "#EV045・驚愕・裸・尻穴開き",
         "file": "EV045_26"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H001A",
+        "file": "voice/BGV_ayan_h001a.ogg"
       }
     },
     {
@@ -1822,6 +1914,10 @@
       "bg": {
         "label": "#EV045・戸惑い・裸・尻穴開き",
         "file": "EV045_27"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H001A",
+        "file": "voice/BGV_ayan_h001a.ogg"
       }
     },
     {
@@ -1838,6 +1934,10 @@
       "bg": {
         "label": "#EV045・戸惑い・裸・尻穴開き",
         "file": "EV045_27"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H001A",
+        "file": "voice/BGV_ayan_h001a.ogg"
       }
     },
     {
@@ -1850,6 +1950,10 @@
       "bg": {
         "label": "#EV045・戸惑い・裸・尻穴開き",
         "file": "EV045_27"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H001A",
+        "file": "voice/BGV_ayan_h001a.ogg"
       }
     },
     {
@@ -1861,6 +1965,10 @@
       "bg": {
         "label": "#EV045・戸惑い・裸・尻穴開き",
         "file": "EV045_27"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H001A",
+        "file": "voice/BGV_ayan_h001a.ogg"
       }
     },
     {
@@ -1877,6 +1985,10 @@
       "bg": {
         "label": "#EV045・戸惑い・裸・尻穴開き",
         "file": "EV045_27"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H001A",
+        "file": "voice/BGV_ayan_h001a.ogg"
       }
     },
     {
@@ -1888,6 +2000,10 @@
       "bg": {
         "label": "#EV045・戸惑い・裸・尻穴開き",
         "file": "EV045_27"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H001A",
+        "file": "voice/BGV_ayan_h001a.ogg"
       }
     },
     {
@@ -1899,6 +2015,10 @@
       "bg": {
         "label": "#EV045・戸惑い・裸・尻穴開き",
         "file": "EV045_27"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H001A",
+        "file": "voice/BGV_ayan_h001a.ogg"
       }
     },
     {
@@ -1914,6 +2034,10 @@
       "bg": {
         "label": "#EV045・戸惑い・裸・尻穴開き",
         "file": "EV045_27"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H001A",
+        "file": "voice/BGV_ayan_h001a.ogg"
       }
     },
     {
@@ -1926,6 +2050,10 @@
       "bg": {
         "label": "#EV045・戸惑い・裸・尻穴開き",
         "file": "EV045_27"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H001A",
+        "file": "voice/BGV_ayan_h001a.ogg"
       }
     },
     {
@@ -1942,6 +2070,10 @@
       "bg": {
         "label": "#EV045・苦しげ・裸・バイブ浅く挿入",
         "file": "EV045_28"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H001A",
+        "file": "voice/BGV_ayan_h001a.ogg"
       }
     },
     {
@@ -1953,6 +2085,10 @@
       "bg": {
         "label": "#EV045・苦しげ・裸・バイブ浅く挿入",
         "file": "EV045_28"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H001A",
+        "file": "voice/BGV_ayan_h001a.ogg"
       }
     },
     {
@@ -1969,6 +2105,10 @@
       "bg": {
         "label": "#EV045・苦しげ・裸・バイブ浅く挿入",
         "file": "EV045_28"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H001A",
+        "file": "voice/BGV_ayan_h001a.ogg"
       }
     },
     {
@@ -1983,6 +2123,10 @@
       "bg": {
         "label": "#EV045・苦しげ・裸・バイブ浅く挿入",
         "file": "EV045_28"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H001A",
+        "file": "voice/BGV_ayan_h001a.ogg"
       }
     },
     {
@@ -1999,6 +2143,10 @@
       "bg": {
         "label": "#EV045・苦しげ・裸・バイブ浅く挿入",
         "file": "EV045_28"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H001A",
+        "file": "voice/BGV_ayan_h001a.ogg"
       }
     },
     {
@@ -2013,6 +2161,10 @@
       "bg": {
         "label": "#EV045・苦しげ・裸・バイブ浅く挿入",
         "file": "EV045_28"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H001A",
+        "file": "voice/BGV_ayan_h001a.ogg"
       }
     },
     {
@@ -2024,6 +2176,10 @@
       "bg": {
         "label": "#EV045・苦しげ・裸・バイブ深く挿入",
         "file": "EV045_29"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H001A",
+        "file": "voice/BGV_ayan_h001a.ogg"
       }
     },
     {
@@ -2040,6 +2196,10 @@
       "bg": {
         "label": "#EV045・苦しげ・裸・バイブ深く挿入",
         "file": "EV045_29"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H001A",
+        "file": "voice/BGV_ayan_h001a.ogg"
       }
     },
     {
@@ -2060,7 +2220,11 @@
           "code": "8501A",
           "file": "se/8501a.ogg"
         }
-      ]
+      ],
+      "bgv": {
+        "id": "BGV_AYAN_H001A",
+        "file": "voice/BGV_ayan_h001a.ogg"
+      }
     },
     {
       "kind": "line",
@@ -2075,6 +2239,10 @@
       "bg": {
         "label": "#EV045・驚愕・裸・バイブ深く挿入・愛液",
         "file": "EV045_30"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H001A",
+        "file": "voice/BGV_ayan_h001a.ogg"
       }
     },
     {
@@ -2087,6 +2255,10 @@
       "bg": {
         "label": "#EV045・驚愕・裸・バイブ深く挿入・愛液",
         "file": "EV045_30"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H001A",
+        "file": "voice/BGV_ayan_h001a.ogg"
       }
     },
     {
@@ -2103,6 +2275,10 @@
       "bg": {
         "label": "#EV045・驚愕・裸・バイブ深く挿入・愛液",
         "file": "EV045_30"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H001A",
+        "file": "voice/BGV_ayan_h001a.ogg"
       }
     },
     {
@@ -2113,6 +2289,10 @@
       "bg": {
         "label": "#EV045・驚愕・裸・バイブ深く挿入・愛液",
         "file": "EV045_30"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H001A",
+        "file": "voice/BGV_ayan_h001a.ogg"
       }
     },
     {
@@ -2129,6 +2309,10 @@
       "bg": {
         "label": "#EV045・驚愕・裸・バイブ深く挿入・愛液",
         "file": "EV045_30"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H001A",
+        "file": "voice/BGV_ayan_h001a.ogg"
       }
     },
     {
@@ -2149,7 +2333,11 @@
           "code": "8112A",
           "file": "se/8112a.ogg"
         }
-      ]
+      ],
+      "bgv": {
+        "id": "BGV_AYAN_H001A",
+        "file": "voice/BGV_ayan_h001a.ogg"
+      }
     },
     {
       "kind": "line",
@@ -2165,6 +2353,10 @@
       "bg": {
         "label": "#EV045・驚愕・裸・バイブ深く挿入・愛液",
         "file": "EV045_30"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H003A",
+        "file": "voice/BGV_ayan_h003a.ogg"
       }
     },
     {
@@ -2178,6 +2370,10 @@
       "bg": {
         "label": "#EV045・驚愕・裸・バイブ深く挿入・愛液",
         "file": "EV045_30"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H003A",
+        "file": "voice/BGV_ayan_h003a.ogg"
       }
     },
     {
@@ -2194,6 +2390,10 @@
       "bg": {
         "label": "#EV045・驚愕・裸・バイブ深く挿入・愛液",
         "file": "EV045_30"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H003A",
+        "file": "voice/BGV_ayan_h003a.ogg"
       }
     },
     {
@@ -2206,6 +2406,10 @@
       "bg": {
         "label": "#EV045・驚愕・裸・バイブ深く挿入・愛液",
         "file": "EV045_30"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H003A",
+        "file": "voice/BGV_ayan_h003a.ogg"
       }
     },
     {
@@ -2217,6 +2421,10 @@
       "bg": {
         "label": "#EV045・驚愕・裸・バイブ深く挿入・愛液",
         "file": "EV045_30"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H003A",
+        "file": "voice/BGV_ayan_h003a.ogg"
       }
     },
     {
@@ -2233,6 +2441,10 @@
       "bg": {
         "label": "#EV045・驚愕・裸・バイブ深く挿入・愛液",
         "file": "EV045_30"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H003A",
+        "file": "voice/BGV_ayan_h003a.ogg"
       }
     },
     {
@@ -2245,6 +2457,10 @@
       "bg": {
         "label": "#EV045・驚愕・裸・バイブ深く挿入・愛液",
         "file": "EV045_30"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H003A",
+        "file": "voice/BGV_ayan_h003a.ogg"
       }
     },
     {
@@ -2261,6 +2477,10 @@
       "bg": {
         "label": "#EV045・驚愕・裸・バイブ深く挿入・愛液",
         "file": "EV045_30"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H003A",
+        "file": "voice/BGV_ayan_h003a.ogg"
       }
     },
     {
@@ -2273,6 +2493,10 @@
       "bg": {
         "label": "#EV045・驚愕・裸・バイブ深く挿入・愛液",
         "file": "EV045_30"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H003A",
+        "file": "voice/BGV_ayan_h003a.ogg"
       }
     },
     {
@@ -2284,6 +2508,10 @@
       "bg": {
         "label": "#EV045・驚愕・裸・バイブ深く挿入・愛液",
         "file": "EV045_30"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H003A",
+        "file": "voice/BGV_ayan_h003a.ogg"
       }
     },
     {
@@ -2301,7 +2529,11 @@
           "code": "8112C",
           "file": "se/8112c.ogg"
         }
-      ]
+      ],
+      "bgv": {
+        "id": "BGV_AYAN_H003A",
+        "file": "voice/BGV_ayan_h003a.ogg"
+      }
     },
     {
       "kind": "line",
@@ -2317,6 +2549,10 @@
       "bg": {
         "label": "#EV045・驚愕・裸・バイブ深く挿入・愛液",
         "file": "EV045_30"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H003A",
+        "file": "voice/BGV_ayan_h003a.ogg"
       }
     },
     {
@@ -2331,6 +2567,10 @@
       "bg": {
         "label": "#EV045・驚愕・裸・バイブ深く挿入・愛液",
         "file": "EV045_30"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H003A",
+        "file": "voice/BGV_ayan_h003a.ogg"
       }
     },
     {
@@ -2347,6 +2587,10 @@
       "bg": {
         "label": "#EV045・驚愕・裸・バイブ深く挿入・愛液",
         "file": "EV045_30"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H003A",
+        "file": "voice/BGV_ayan_h003a.ogg"
       }
     },
     {
@@ -2360,6 +2604,10 @@
       "bg": {
         "label": "#EV045・驚愕・裸・バイブ深く挿入・愛液",
         "file": "EV045_30"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H003A",
+        "file": "voice/BGV_ayan_h003a.ogg"
       }
     },
     {
@@ -2376,6 +2624,10 @@
       "bg": {
         "label": "#EV045・戸惑い・裸・尻穴開き・愛液",
         "file": "EV045_31"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H003A",
+        "file": "voice/BGV_ayan_h003a.ogg"
       }
     },
     {
@@ -2392,6 +2644,10 @@
       "bg": {
         "label": "#EV045・戸惑い・裸・尻穴開き・愛液",
         "file": "EV045_31"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H003A",
+        "file": "voice/BGV_ayan_h003a.ogg"
       }
     },
     {
@@ -2403,6 +2659,10 @@
       "bg": {
         "label": "#EV045・戸惑い・裸・尻穴開き・愛液",
         "file": "EV045_31"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H003A",
+        "file": "voice/BGV_ayan_h003a.ogg"
       }
     },
     {
@@ -2413,6 +2673,10 @@
       "bg": {
         "label": "#EV045・戸惑い・裸・尻穴開き・愛液",
         "file": "EV045_31"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H003A",
+        "file": "voice/BGV_ayan_h003a.ogg"
       }
     },
     {
@@ -2429,6 +2693,10 @@
       "bg": {
         "label": "#EV045・戸惑い・裸・尻穴開き・愛液",
         "file": "EV045_31"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H003A",
+        "file": "voice/BGV_ayan_h003a.ogg"
       }
     },
     {
@@ -2443,6 +2711,10 @@
       "bg": {
         "label": "#EV045・戸惑い・裸・尻穴開き・愛液",
         "file": "EV045_31"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H003A",
+        "file": "voice/BGV_ayan_h003a.ogg"
       }
     },
     {
@@ -2454,6 +2726,10 @@
       "bg": {
         "label": "#EV045・戸惑い・裸・尻穴開き・愛液",
         "file": "EV045_31"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H003A",
+        "file": "voice/BGV_ayan_h003a.ogg"
       }
     },
     {
@@ -2470,6 +2746,10 @@
       "bg": {
         "label": "#EV045・戸惑い・裸・尻穴開き・愛液",
         "file": "EV045_31"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H003A",
+        "file": "voice/BGV_ayan_h003a.ogg"
       }
     },
     {
@@ -2480,6 +2760,10 @@
       "bg": {
         "label": "#EV045・戸惑い・裸・尻穴開き・愛液",
         "file": "EV045_31"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H003A",
+        "file": "voice/BGV_ayan_h003a.ogg"
       }
     },
     {
@@ -2492,6 +2776,10 @@
       "bg": {
         "label": "#EV045・戸惑い・裸・尻穴開き・愛液",
         "file": "EV045_31"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H003A",
+        "file": "voice/BGV_ayan_h003a.ogg"
       }
     },
     {
@@ -2505,6 +2793,10 @@
       "bg": {
         "label": "#EV045・戸惑い・裸・尻穴開き・愛液",
         "file": "EV045_31"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H003A",
+        "file": "voice/BGV_ayan_h003a.ogg"
       }
     },
     {
@@ -2521,6 +2813,10 @@
       "bg": {
         "label": "#EV045・戸惑い・裸・尻穴開き・愛液",
         "file": "EV045_31"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H003A",
+        "file": "voice/BGV_ayan_h003a.ogg"
       }
     },
     {
@@ -2532,6 +2828,10 @@
       "bg": {
         "label": "#EV045・戸惑い・裸・尻穴開き・愛液",
         "file": "EV045_31"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H003A",
+        "file": "voice/BGV_ayan_h003a.ogg"
       }
     },
     {
@@ -2544,6 +2844,10 @@
       "bg": {
         "label": "#EV045・戸惑い・裸・尻穴開き・愛液",
         "file": "EV045_31"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H003A",
+        "file": "voice/BGV_ayan_h003a.ogg"
       }
     },
     {
@@ -2560,6 +2864,10 @@
       "bg": {
         "label": "#EV045・戸惑い・裸・尻穴開き・愛液",
         "file": "EV045_31"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H003A",
+        "file": "voice/BGV_ayan_h003a.ogg"
       }
     },
     {
@@ -2571,6 +2879,10 @@
       "bg": {
         "label": "#EV045・戸惑い・裸・尻穴開き・愛液",
         "file": "EV045_31"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H003A",
+        "file": "voice/BGV_ayan_h003a.ogg"
       }
     },
     {
@@ -2587,6 +2899,10 @@
       "bg": {
         "label": "#EV045・驚愕・裸・ストッパー先端挿入・愛液",
         "file": "EV045_32"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H003A",
+        "file": "voice/BGV_ayan_h003a.ogg"
       }
     },
     {
@@ -2598,6 +2914,10 @@
       "bg": {
         "label": "#EV045・驚愕・裸・ストッパー先端挿入・愛液",
         "file": "EV045_32"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H003A",
+        "file": "voice/BGV_ayan_h003a.ogg"
       }
     },
     {
@@ -2614,6 +2934,10 @@
       "bg": {
         "label": "#EV045・驚愕・裸・ストッパー先端挿入・愛液",
         "file": "EV045_32"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H003A",
+        "file": "voice/BGV_ayan_h003a.ogg"
       }
     },
     {
@@ -2625,6 +2949,10 @@
       "bg": {
         "label": "#EV045・驚愕・裸・ストッパー先端挿入・愛液",
         "file": "EV045_32"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H003A",
+        "file": "voice/BGV_ayan_h003a.ogg"
       }
     },
     {
@@ -2641,6 +2969,10 @@
       "bg": {
         "label": "#EV045・驚愕・裸・ストッパー先端挿入・愛液",
         "file": "EV045_32"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H003A",
+        "file": "voice/BGV_ayan_h003a.ogg"
       }
     },
     {
@@ -2652,6 +2984,10 @@
       "bg": {
         "label": "#EV045・驚愕・裸・ストッパー先端挿入・愛液",
         "file": "EV045_32"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H003A",
+        "file": "voice/BGV_ayan_h003a.ogg"
       }
     },
     {
@@ -2668,6 +3004,10 @@
       "bg": {
         "label": "#EV045・驚愕・裸・ストッパー先端挿入・愛液",
         "file": "EV045_32"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H003A",
+        "file": "voice/BGV_ayan_h003a.ogg"
       }
     },
     {
@@ -2679,6 +3019,10 @@
       "bg": {
         "label": "#EV045・驚愕・裸・ストッパー先端挿入・愛液",
         "file": "EV045_32"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H003A",
+        "file": "voice/BGV_ayan_h003a.ogg"
       }
     },
     {
@@ -2690,6 +3034,10 @@
       "bg": {
         "label": "#EV045・微笑み・裸・ストッパー挿入・愛液",
         "file": "EV045_33"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H003A",
+        "file": "voice/BGV_ayan_h003a.ogg"
       }
     },
     {
@@ -2705,6 +3053,10 @@
       "bg": {
         "label": "#EV045・微笑み・裸・ストッパー挿入・愛液",
         "file": "EV045_33"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H003A",
+        "file": "voice/BGV_ayan_h003a.ogg"
       }
     },
     {
@@ -2716,6 +3068,10 @@
       "bg": {
         "label": "#EV045・微笑み・裸・ストッパー挿入・愛液",
         "file": "EV045_33"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H003A",
+        "file": "voice/BGV_ayan_h003a.ogg"
       }
     },
     {
@@ -2732,6 +3088,10 @@
       "bg": {
         "label": "#EV045・微笑み・裸・ストッパー挿入・愛液",
         "file": "EV045_33"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H003A",
+        "file": "voice/BGV_ayan_h003a.ogg"
       }
     },
     {
@@ -2743,6 +3103,10 @@
       "bg": {
         "label": "#EV045・微笑み・裸・ストッパー挿入・愛液",
         "file": "EV045_33"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H003A",
+        "file": "voice/BGV_ayan_h003a.ogg"
       }
     },
     {
@@ -2754,6 +3118,10 @@
       "bg": {
         "label": "#EV045・微笑み・裸・ストッパー挿入・愛液",
         "file": "EV045_33"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H003A",
+        "file": "voice/BGV_ayan_h003a.ogg"
       }
     },
     {
@@ -2769,6 +3137,10 @@
       "bg": {
         "label": "#EV045・微笑み・裸・ストッパー挿入・愛液",
         "file": "EV045_33"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H003A",
+        "file": "voice/BGV_ayan_h003a.ogg"
       }
     },
     {
@@ -2782,6 +3154,10 @@
       "bg": {
         "label": "#EV045・微笑み・裸・ストッパー挿入・愛液",
         "file": "EV045_33"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H003A",
+        "file": "voice/BGV_ayan_h003a.ogg"
       }
     }
   ],

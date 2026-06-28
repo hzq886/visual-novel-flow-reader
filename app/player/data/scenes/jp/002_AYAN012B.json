@@ -639,6 +639,10 @@
           431,
           78
         ]
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H001A",
+        "file": "voice/BGV_ayan_h001a.ogg"
       }
     },
     {
@@ -661,6 +665,10 @@
           431,
           78
         ]
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H001A",
+        "file": "voice/BGV_ayan_h001a.ogg"
       }
     },
     {
@@ -686,6 +694,10 @@
           431,
           78
         ]
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H001A",
+        "file": "voice/BGV_ayan_h001a.ogg"
       }
     },
     {
@@ -707,6 +719,10 @@
           431,
           78
         ]
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H001A",
+        "file": "voice/BGV_ayan_h001a.ogg"
       }
     },
     {
@@ -732,6 +748,10 @@
           431,
           78
         ]
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H001A",
+        "file": "voice/BGV_ayan_h001a.ogg"
       }
     },
     {
@@ -754,6 +774,10 @@
           431,
           78
         ]
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H001A",
+        "file": "voice/BGV_ayan_h001a.ogg"
       }
     },
     {
@@ -779,6 +803,10 @@
           431,
           78
         ]
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H001A",
+        "file": "voice/BGV_ayan_h001a.ogg"
       }
     },
     {
@@ -799,6 +827,10 @@
           431,
           78
         ]
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H001A",
+        "file": "voice/BGV_ayan_h001a.ogg"
       }
     },
     {
@@ -824,6 +856,10 @@
           431,
           78
         ]
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H001A",
+        "file": "voice/BGV_ayan_h001a.ogg"
       }
     },
     {
@@ -845,6 +881,10 @@
           431,
           78
         ]
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H001A",
+        "file": "voice/BGV_ayan_h001a.ogg"
       }
     },
     {
@@ -869,6 +909,10 @@
           431,
           78
         ]
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H001A",
+        "file": "voice/BGV_ayan_h001a.ogg"
       }
     },
     {
@@ -890,6 +934,10 @@
           431,
           78
         ]
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H001A",
+        "file": "voice/BGV_ayan_h001a.ogg"
       }
     },
     {
@@ -915,6 +963,10 @@
           431,
           78
         ]
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H001A",
+        "file": "voice/BGV_ayan_h001a.ogg"
       }
     },
     {
@@ -934,6 +986,10 @@
           431,
           78
         ]
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H001A",
+        "file": "voice/BGV_ayan_h001a.ogg"
       }
     },
     {
@@ -954,6 +1010,10 @@
           431,
           78
         ]
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H001A",
+        "file": "voice/BGV_ayan_h001a.ogg"
       }
     },
     {
@@ -973,6 +1033,10 @@
           431,
           78
         ]
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H001A",
+        "file": "voice/BGV_ayan_h001a.ogg"
       }
     },
     {
@@ -998,6 +1062,10 @@
           431,
           78
         ]
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H001A",
+        "file": "voice/BGV_ayan_h001a.ogg"
       }
     },
     {
@@ -1021,6 +1089,10 @@
           431,
           78
         ]
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H001A",
+        "file": "voice/BGV_ayan_h001a.ogg"
       }
     },
     {
@@ -1052,7 +1124,11 @@
           "code": "8111B",
           "file": "se/8111b.ogg"
         }
-      ]
+      ],
+      "bgv": {
+        "id": "BGV_AYAN_H001A",
+        "file": "voice/BGV_ayan_h001a.ogg"
+      }
     },
     {
       "kind": "narration",
@@ -1072,6 +1148,10 @@
           431,
           78
         ]
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H001A",
+        "file": "voice/BGV_ayan_h001a.ogg"
       }
     },
     {
@@ -1097,6 +1177,10 @@
           431,
           78
         ]
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H002A",
+        "file": "voice/BGV_ayan_h002a.ogg"
       }
     },
     {
@@ -1116,6 +1200,10 @@
           431,
           78
         ]
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H002A",
+        "file": "voice/BGV_ayan_h002a.ogg"
       }
     },
     {
@@ -1141,6 +1229,10 @@
           431,
           78
         ]
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H002A",
+        "file": "voice/BGV_ayan_h002a.ogg"
       }
     },
     {
@@ -1164,6 +1256,10 @@
           431,
           78
         ]
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H002A",
+        "file": "voice/BGV_ayan_h002a.ogg"
       }
     },
     {
@@ -1189,6 +1285,10 @@
           431,
           78
         ]
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H002A",
+        "file": "voice/BGV_ayan_h002a.ogg"
       }
     },
     {
@@ -1210,6 +1310,10 @@
           431,
           78
         ]
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H002A",
+        "file": "voice/BGV_ayan_h002a.ogg"
       }
     },
     {
@@ -1235,6 +1339,10 @@
           431,
           78
         ]
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H002A",
+        "file": "voice/BGV_ayan_h002a.ogg"
       }
     },
     {
@@ -1254,6 +1362,10 @@
           431,
           78
         ]
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H002A",
+        "file": "voice/BGV_ayan_h002a.ogg"
       }
     },
     {
@@ -1274,6 +1386,10 @@
           431,
           78
         ]
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H002A",
+        "file": "voice/BGV_ayan_h002a.ogg"
       }
     },
     {
@@ -1299,6 +1415,10 @@
           431,
           78
         ]
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H002A",
+        "file": "voice/BGV_ayan_h002a.ogg"
       }
     },
     {
@@ -1330,7 +1450,11 @@
           "code": "8101C",
           "file": "se/8101c.ogg"
         }
-      ]
+      ],
+      "bgv": {
+        "id": "BGV_AYAN_H002A",
+        "file": "voice/BGV_ayan_h002a.ogg"
+      }
     },
     {
       "kind": "line",
@@ -1345,6 +1469,10 @@
       "bg": {
         "label": "#EV067・アヘ顔",
         "file": "EV067_03"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H002A",
+        "file": "voice/BGV_ayan_h002a.ogg"
       }
     },
     {
@@ -1358,6 +1486,10 @@
       "bg": {
         "label": "#EV067・アヘ顔",
         "file": "EV067_03"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H002A",
+        "file": "voice/BGV_ayan_h002a.ogg"
       }
     },
     {
@@ -1374,6 +1506,10 @@
       "bg": {
         "label": "#EV067・アヘ顔",
         "file": "EV067_03"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H003A",
+        "file": "voice/BGV_ayan_h003a.ogg"
       }
     },
     {
@@ -1387,6 +1523,10 @@
       "bg": {
         "label": "#EV067・アヘ顔",
         "file": "EV067_03"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H003A",
+        "file": "voice/BGV_ayan_h003a.ogg"
       }
     },
     {
@@ -1403,6 +1543,10 @@
       "bg": {
         "label": "#EV067・アヘ顔",
         "file": "EV067_03"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H003A",
+        "file": "voice/BGV_ayan_h003a.ogg"
       }
     },
     {
@@ -1416,6 +1560,10 @@
       "bg": {
         "label": "#EV067・アヘ顔",
         "file": "EV067_03"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H003A",
+        "file": "voice/BGV_ayan_h003a.ogg"
       }
     },
     {
@@ -1432,6 +1580,10 @@
       "bg": {
         "label": "#EV067・アヘ顔",
         "file": "EV067_03"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H003A",
+        "file": "voice/BGV_ayan_h003a.ogg"
       }
     },
     {
@@ -1445,6 +1597,10 @@
       "bg": {
         "label": "#EV067・アヘ顔",
         "file": "EV067_03"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H003A",
+        "file": "voice/BGV_ayan_h003a.ogg"
       }
     },
     {
@@ -1461,6 +1617,10 @@
       "bg": {
         "label": "#EV067・アヘ顔",
         "file": "EV067_03"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H003A",
+        "file": "voice/BGV_ayan_h003a.ogg"
       }
     },
     {
@@ -1474,6 +1634,10 @@
       "bg": {
         "label": "#EV067・アヘ顔",
         "file": "EV067_03"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H003A",
+        "file": "voice/BGV_ayan_h003a.ogg"
       }
     },
     {
@@ -1490,6 +1654,10 @@
       "bg": {
         "label": "#EV067・アヘ顔",
         "file": "EV067_03"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H003A",
+        "file": "voice/BGV_ayan_h003a.ogg"
       }
     },
     {
@@ -1503,6 +1671,10 @@
       "bg": {
         "label": "#EV067・アヘ顔",
         "file": "EV067_03"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H003A",
+        "file": "voice/BGV_ayan_h003a.ogg"
       }
     },
     {
@@ -1519,6 +1691,10 @@
       "bg": {
         "label": "#EV067・アヘ顔",
         "file": "EV067_03"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H003A",
+        "file": "voice/BGV_ayan_h003a.ogg"
       }
     },
     {
@@ -1530,6 +1706,10 @@
       "bg": {
         "label": "#EV067・アヘ顔",
         "file": "EV067_03"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H003A",
+        "file": "voice/BGV_ayan_h003a.ogg"
       }
     },
     {
@@ -1540,6 +1720,10 @@
       "bg": {
         "label": "#EV067・アヘ顔",
         "file": "EV067_03"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H003A",
+        "file": "voice/BGV_ayan_h003a.ogg"
       }
     },
     {
@@ -1556,6 +1740,10 @@
       "bg": {
         "label": "#EV067・アヘ顔",
         "file": "EV067_03"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H003A",
+        "file": "voice/BGV_ayan_h003a.ogg"
       }
     },
     {
@@ -1568,6 +1756,10 @@
       "bg": {
         "label": "#EV067・アヘ顔",
         "file": "EV067_03"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H003A",
+        "file": "voice/BGV_ayan_h003a.ogg"
       }
     },
     {
@@ -1584,6 +1776,10 @@
       "bg": {
         "label": "#EV067・アヘ顔",
         "file": "EV067_03"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H003A",
+        "file": "voice/BGV_ayan_h003a.ogg"
       }
     },
     {
@@ -1595,6 +1791,10 @@
       "bg": {
         "label": "#EV067・アヘ顔",
         "file": "EV067_03"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H003A",
+        "file": "voice/BGV_ayan_h003a.ogg"
       }
     },
     {
@@ -1611,6 +1811,10 @@
       "bg": {
         "label": "#EV067・アヘ顔",
         "file": "EV067_03"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H003A",
+        "file": "voice/BGV_ayan_h003a.ogg"
       }
     },
     {
@@ -1627,7 +1831,11 @@
           "code": "8201B",
           "file": "se/8201b.ogg"
         }
-      ]
+      ],
+      "bgv": {
+        "id": "BGV_AYAN_H003A",
+        "file": "voice/BGV_ayan_h003a.ogg"
+      }
     },
     {
       "kind": "narration",
@@ -1637,6 +1845,10 @@
       "bg": {
         "label": "#EV067・アヘ顔・精液",
         "file": "EV067_04"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H003A",
+        "file": "voice/BGV_ayan_h003a.ogg"
       }
     },
     {
@@ -1653,6 +1865,10 @@
       "bg": {
         "label": "#EV067・アヘ顔・精液",
         "file": "EV067_04"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H003A",
+        "file": "voice/BGV_ayan_h003a.ogg"
       }
     },
     {
@@ -1668,6 +1884,10 @@
       "bg": {
         "label": "#EV067・アヘ顔・精液",
         "file": "EV067_04"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H003A",
+        "file": "voice/BGV_ayan_h003a.ogg"
       }
     },
     {
@@ -1690,7 +1910,11 @@
           "code": "8351A",
           "file": "se/8351a.ogg"
         }
-      ]
+      ],
+      "bgv": {
+        "id": "BGV_AYAN_H003A",
+        "file": "voice/BGV_ayan_h003a.ogg"
+      }
     },
     {
       "kind": "narration",
@@ -1704,6 +1928,10 @@
       "bg": {
         "label": "#EV067・アヘ顔・精液",
         "file": "EV067_04"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H003A",
+        "file": "voice/BGV_ayan_h003a.ogg"
       }
     },
     {
@@ -1719,6 +1947,10 @@
       "bg": {
         "label": "#EV067・アヘ顔・精液",
         "file": "EV067_04"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H003A",
+        "file": "voice/BGV_ayan_h003a.ogg"
       }
     },
     {
@@ -1732,6 +1964,10 @@
       "bg": {
         "label": "#EV067・アヘ顔・精液",
         "file": "EV067_04"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H003A",
+        "file": "voice/BGV_ayan_h003a.ogg"
       }
     },
     {
@@ -1747,6 +1983,10 @@
       "bg": {
         "label": "#EV067・アヘ顔・精液",
         "file": "EV067_04"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H003A",
+        "file": "voice/BGV_ayan_h003a.ogg"
       }
     },
     {
@@ -1758,6 +1998,10 @@
       "bg": {
         "label": "#EV067・アヘ顔・精液",
         "file": "EV067_04"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H003A",
+        "file": "voice/BGV_ayan_h003a.ogg"
       }
     },
     {
@@ -1774,6 +2018,10 @@
       "bg": {
         "label": "#EV067・微笑み・精液",
         "file": "EV067_05"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H003A",
+        "file": "voice/BGV_ayan_h003a.ogg"
       }
     },
     {
@@ -1784,6 +2032,10 @@
       "bg": {
         "label": "#EV067・微笑み・精液",
         "file": "EV067_05"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H003A",
+        "file": "voice/BGV_ayan_h003a.ogg"
       }
     },
     {
@@ -1795,6 +2047,10 @@
       "bg": {
         "label": "#EV067・微笑み・精液",
         "file": "EV067_05"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H003A",
+        "file": "voice/BGV_ayan_h003a.ogg"
       }
     },
     {
@@ -1807,6 +2063,10 @@
       "bg": {
         "label": "#EV067・微笑み・精液",
         "file": "EV067_05"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H003A",
+        "file": "voice/BGV_ayan_h003a.ogg"
       }
     },
     {
@@ -1823,6 +2083,10 @@
       "bg": {
         "label": "#EV067・微笑み・精液",
         "file": "EV067_05"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H003A",
+        "file": "voice/BGV_ayan_h003a.ogg"
       }
     },
     {
@@ -1834,6 +2098,10 @@
       "bg": {
         "label": "#EV067・微笑み・精液",
         "file": "EV067_05"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H003A",
+        "file": "voice/BGV_ayan_h003a.ogg"
       }
     },
     {
@@ -1845,6 +2113,10 @@
       "bg": {
         "label": "#EV067・微笑み・精液",
         "file": "EV067_05"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H003A",
+        "file": "voice/BGV_ayan_h003a.ogg"
       }
     },
     {
@@ -1861,6 +2133,10 @@
       "bg": {
         "label": "#EV067・微笑み・精液",
         "file": "EV067_05"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H003A",
+        "file": "voice/BGV_ayan_h003a.ogg"
       }
     },
     {
@@ -1874,6 +2150,10 @@
       "bg": {
         "label": "#EV067・微笑み・精液",
         "file": "EV067_05"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H003A",
+        "file": "voice/BGV_ayan_h003a.ogg"
       }
     },
     {
@@ -1889,6 +2169,10 @@
       "bg": {
         "label": "#EV067・微笑み・精液",
         "file": "EV067_05"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H003A",
+        "file": "voice/BGV_ayan_h003a.ogg"
       }
     },
     {
@@ -1900,6 +2184,10 @@
       "bg": {
         "label": "#EV067・微笑み・精液",
         "file": "EV067_05"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H003A",
+        "file": "voice/BGV_ayan_h003a.ogg"
       }
     },
     {
@@ -1914,6 +2202,10 @@
       "bg": {
         "label": "#EV067・微笑み・精液",
         "file": "EV067_05"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H003A",
+        "file": "voice/BGV_ayan_h003a.ogg"
       }
     }
   ],

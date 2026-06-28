@@ -958,6 +958,10 @@
           235,
           150
         ]
+      },
+      "bgv": {
+        "id": "BGV_MAKO_F001A",
+        "file": "voice/BGV_mako_f001a.ogg"
       }
     },
     {
@@ -979,6 +983,10 @@
           235,
           150
         ]
+      },
+      "bgv": {
+        "id": "BGV_MAKO_F001A",
+        "file": "voice/BGV_mako_f001a.ogg"
       }
     },
     {
@@ -1003,6 +1011,10 @@
           235,
           150
         ]
+      },
+      "bgv": {
+        "id": "BGV_MAKO_F001A",
+        "file": "voice/BGV_mako_f001a.ogg"
       }
     },
     {
@@ -1025,6 +1037,10 @@
           235,
           150
         ]
+      },
+      "bgv": {
+        "id": "BGV_MAKO_F001A",
+        "file": "voice/BGV_mako_f001a.ogg"
       }
     },
     {
@@ -1050,6 +1066,10 @@
           235,
           150
         ]
+      },
+      "bgv": {
+        "id": "BGV_MAKO_F001A",
+        "file": "voice/BGV_mako_f001a.ogg"
       }
     },
     {
@@ -1070,6 +1090,10 @@
           235,
           150
         ]
+      },
+      "bgv": {
+        "id": "BGV_MAKO_F001A",
+        "file": "voice/BGV_mako_f001a.ogg"
       }
     },
     {
@@ -1095,6 +1119,10 @@
           235,
           150
         ]
+      },
+      "bgv": {
+        "id": "BGV_MAKO_F001A",
+        "file": "voice/BGV_mako_f001a.ogg"
       }
     },
     {
@@ -1117,6 +1145,10 @@
           235,
           150
         ]
+      },
+      "bgv": {
+        "id": "BGV_MAKO_F001A",
+        "file": "voice/BGV_mako_f001a.ogg"
       }
     },
     {
@@ -1132,6 +1164,10 @@
       "bg": {
         "label": "#EV027・目閉じ没頭・押し付けキス・密着・通常",
         "file": "EV027_03"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_F001A",
+        "file": "voice/BGV_mako_f001a.ogg"
       }
     },
     {
@@ -1144,6 +1180,10 @@
       "bg": {
         "label": "#EV027・目閉じ没頭・押し付けキス・密着・通常",
         "file": "EV027_03"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_F001A",
+        "file": "voice/BGV_mako_f001a.ogg"
       }
     },
     {
@@ -1160,6 +1200,10 @@
       "bg": {
         "label": "#EV027・目見開き・舌先触れ・少し離れ・通常",
         "file": "EV027_04"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_F001A",
+        "file": "voice/BGV_mako_f001a.ogg"
       }
     },
     {
@@ -1173,6 +1217,10 @@
       "bg": {
         "label": "#EV027・目見開き・舌先触れ・少し離れ・通常",
         "file": "EV027_04"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_F001A",
+        "file": "voice/BGV_mako_f001a.ogg"
       }
     },
     {
@@ -1188,6 +1236,10 @@
       "bg": {
         "label": "#EV027・目見開き・舌先触れ・少し離れ・通常",
         "file": "EV027_04"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_F001A",
+        "file": "voice/BGV_mako_f001a.ogg"
       }
     },
     {
@@ -1200,6 +1252,10 @@
       "bg": {
         "label": "#EV027・目見開き・舌先触れ・少し離れ・通常",
         "file": "EV027_04"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_F001A",
+        "file": "voice/BGV_mako_f001a.ogg"
       }
     },
     {
@@ -1216,6 +1272,10 @@
       "bg": {
         "label": "#EV027・目見開き・舌先触れ・少し離れ・通常",
         "file": "EV027_04"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_F001A",
+        "file": "voice/BGV_mako_f001a.ogg"
       }
     },
     {
@@ -1230,6 +1290,10 @@
       "bg": {
         "label": "#EV027・目見開き・舌先触れ・少し離れ・通常",
         "file": "EV027_04"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_F001A",
+        "file": "voice/BGV_mako_f001a.ogg"
       }
     },
     {
@@ -1246,6 +1310,10 @@
       "bg": {
         "label": "#EV027・目見開き・舌先触れ・少し離れ・通常",
         "file": "EV027_04"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_F001A",
+        "file": "voice/BGV_mako_f001a.ogg"
       }
     },
     {
@@ -1258,6 +1326,10 @@
       "bg": {
         "label": "#EV027・目見開き・舌先触れ・少し離れ・通常",
         "file": "EV027_04"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_F001A",
+        "file": "voice/BGV_mako_f001a.ogg"
       }
     },
     {
@@ -1274,6 +1346,10 @@
       "bg": {
         "label": "#EV027・目見開き・舌先触れ・少し離れ・通常",
         "file": "EV027_04"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_F001A",
+        "file": "voice/BGV_mako_f001a.ogg"
       }
     },
     {
@@ -1287,6 +1363,10 @@
       "bg": {
         "label": "#EV027・目見開き・舌先触れ・少し離れ・通常",
         "file": "EV027_04"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_F001A",
+        "file": "voice/BGV_mako_f001a.ogg"
       }
     },
     {
@@ -1303,6 +1383,10 @@
       "bg": {
         "label": "#EV027・うっとり蕩け・舌絡め・密着・通常",
         "file": "EV027_05"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_F002A",
+        "file": "voice/BGV_mako_f002a.ogg"
       }
     },
     {
@@ -1315,6 +1399,10 @@
       "bg": {
         "label": "#EV027・うっとり蕩け・舌絡め・密着・通常",
         "file": "EV027_05"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_F002A",
+        "file": "voice/BGV_mako_f002a.ogg"
       }
     },
     {
@@ -1331,6 +1419,10 @@
       "bg": {
         "label": "#EV027・うっとり蕩け・舌絡め・密着・通常",
         "file": "EV027_05"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_F002A",
+        "file": "voice/BGV_mako_f002a.ogg"
       }
     },
     {
@@ -1343,6 +1435,10 @@
       "bg": {
         "label": "#EV027・うっとり蕩け・舌絡め・密着・通常",
         "file": "EV027_05"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_F002A",
+        "file": "voice/BGV_mako_f002a.ogg"
       }
     },
     {
@@ -1359,6 +1455,10 @@
       "bg": {
         "label": "#EV027・うっとり蕩け・舌絡め・密着・通常",
         "file": "EV027_05"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_F002A",
+        "file": "voice/BGV_mako_f002a.ogg"
       }
     },
     {
@@ -1372,6 +1472,10 @@
       "bg": {
         "label": "#EV027・うっとり蕩け・舌絡め・密着・通常",
         "file": "EV027_05"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_F002A",
+        "file": "voice/BGV_mako_f002a.ogg"
       }
     },
     {
@@ -1388,6 +1492,10 @@
       "bg": {
         "label": "#EV027・うっとり蕩け・舌絡め・密着・通常",
         "file": "EV027_05"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_F002A",
+        "file": "voice/BGV_mako_f002a.ogg"
       }
     },
     {
@@ -1400,6 +1508,10 @@
       "bg": {
         "label": "#EV027・うっとり蕩け・舌絡め・密着・通常",
         "file": "EV027_05"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_F002A",
+        "file": "voice/BGV_mako_f002a.ogg"
       }
     },
     {
@@ -1416,6 +1528,10 @@
       "bg": {
         "label": "#EV027・うっとり蕩け・舌絡め・密着・通常",
         "file": "EV027_05"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_F002A",
+        "file": "voice/BGV_mako_f002a.ogg"
       }
     },
     {
@@ -1429,6 +1545,10 @@
       "bg": {
         "label": "#EV027・うっとり蕩け・舌絡め・密着・通常",
         "file": "EV027_05"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_F002A",
+        "file": "voice/BGV_mako_f002a.ogg"
       }
     },
     {
@@ -1445,6 +1565,10 @@
       "bg": {
         "label": "#EV027・うっとり蕩け・舌絡め・密着・通常",
         "file": "EV027_05"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_F002A",
+        "file": "voice/BGV_mako_f002a.ogg"
       }
     },
     {
@@ -1457,6 +1581,10 @@
       "bg": {
         "label": "#EV027・うっとり蕩け・舌絡め・密着・通常",
         "file": "EV027_05"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_F002A",
+        "file": "voice/BGV_mako_f002a.ogg"
       }
     },
     {
@@ -1473,6 +1601,10 @@
       "bg": {
         "label": "#EV027・うっとり蕩け・舌絡め・密着・通常",
         "file": "EV027_05"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_F002A",
+        "file": "voice/BGV_mako_f002a.ogg"
       }
     },
     {
@@ -1488,6 +1620,10 @@
       "bg": {
         "label": "#EV027・うっとり蕩け・舌絡め・密着・通常",
         "file": "EV027_05"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_F002A",
+        "file": "voice/BGV_mako_f002a.ogg"
       }
     },
     {
@@ -1503,6 +1639,10 @@
       "bg": {
         "label": "#EV027・うっとり蕩け・舌絡め・密着・通常",
         "file": "EV027_05"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_F002A",
+        "file": "voice/BGV_mako_f002a.ogg"
       }
     },
     {
@@ -1517,6 +1657,10 @@
       "bg": {
         "label": "#EV027・うっとり蕩け・舌絡め・密着・通常",
         "file": "EV027_05"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_F002A",
+        "file": "voice/BGV_mako_f002a.ogg"
       }
     },
     {
@@ -1532,6 +1676,10 @@
       "bg": {
         "label": "#EV027・うっとり蕩け・蕩け口・少し離れ・通常",
         "file": "EV027_06"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_F002A",
+        "file": "voice/BGV_mako_f002a.ogg"
       }
     },
     {
@@ -1545,6 +1693,10 @@
       "bg": {
         "label": "#EV027・うっとり蕩け・蕩け口・少し離れ・通常",
         "file": "EV027_06"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_F002A",
+        "file": "voice/BGV_mako_f002a.ogg"
       }
     },
     {
@@ -1561,6 +1713,10 @@
       "bg": {
         "label": "#EV027・目閉じ没頭・激しく吸いつき・密着・目閉じ",
         "file": "EV027_07"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_F002A",
+        "file": "voice/BGV_mako_f002a.ogg"
       }
     },
     {
@@ -1573,6 +1729,10 @@
       "bg": {
         "label": "#EV027・目閉じ没頭・激しく吸いつき・密着・目閉じ",
         "file": "EV027_07"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_F002A",
+        "file": "voice/BGV_mako_f002a.ogg"
       }
     },
     {
@@ -1589,6 +1749,10 @@
       "bg": {
         "label": "#EV027・目閉じ没頭・激しく吸いつき・密着・目閉じ",
         "file": "EV027_07"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_F002A",
+        "file": "voice/BGV_mako_f002a.ogg"
       }
     },
     {
@@ -1601,6 +1765,10 @@
       "bg": {
         "label": "#EV027・目閉じ没頭・激しく吸いつき・密着・目閉じ",
         "file": "EV027_07"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_F002A",
+        "file": "voice/BGV_mako_f002a.ogg"
       }
     },
     {
@@ -1616,6 +1784,10 @@
       "bg": {
         "label": "#EV027・目閉じ没頭・激しく吸いつき・密着・目閉じ",
         "file": "EV027_07"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_F002A",
+        "file": "voice/BGV_mako_f002a.ogg"
       }
     },
     {
@@ -1631,6 +1803,10 @@
       "bg": {
         "label": "#EV027・目閉じ没頭・激しく吸いつき・密着・目閉じ",
         "file": "EV027_07"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_F002A",
+        "file": "voice/BGV_mako_f002a.ogg"
       }
     },
     {
@@ -1647,6 +1823,10 @@
       "bg": {
         "label": "#EV027・目閉じ没頭・激しく吸いつき・密着・目閉じ",
         "file": "EV027_07"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_F002A",
+        "file": "voice/BGV_mako_f002a.ogg"
       }
     },
     {
@@ -1660,6 +1840,10 @@
       "bg": {
         "label": "#EV027・目閉じ没頭・激しく吸いつき・密着・目閉じ",
         "file": "EV027_07"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_F002A",
+        "file": "voice/BGV_mako_f002a.ogg"
       }
     },
     {
@@ -1676,6 +1860,10 @@
       "bg": {
         "label": "#EV027・目閉じ没頭・激しく吸いつき・密着・目閉じ",
         "file": "EV027_07"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_F002A",
+        "file": "voice/BGV_mako_f002a.ogg"
       }
     },
     {
@@ -1689,6 +1877,10 @@
       "bg": {
         "label": "#EV027・目閉じ没頭・激しく吸いつき・密着・目閉じ",
         "file": "EV027_07"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_F002A",
+        "file": "voice/BGV_mako_f002a.ogg"
       }
     },
     {
@@ -1704,6 +1896,10 @@
       "bg": {
         "label": "#EV027・目閉じ没頭・激しく吸いつき・密着・目閉じ",
         "file": "EV027_07"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_F002A",
+        "file": "voice/BGV_mako_f002a.ogg"
       }
     },
     {
@@ -1716,6 +1912,10 @@
       "bg": {
         "label": "#EV027・目閉じ没頭・激しく吸いつき・密着・目閉じ",
         "file": "EV027_07"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_F002A",
+        "file": "voice/BGV_mako_f002a.ogg"
       }
     },
     {
@@ -1732,6 +1932,10 @@
       "bg": {
         "label": "#EV027・うっとり蕩け・激しく吸いつき・密着・目閉じ",
         "file": "EV027_08"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_F002A",
+        "file": "voice/BGV_mako_f002a.ogg"
       }
     },
     {
@@ -1744,6 +1948,10 @@
       "bg": {
         "label": "#EV027・うっとり蕩け・激しく吸いつき・密着・目閉じ",
         "file": "EV027_08"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_F002A",
+        "file": "voice/BGV_mako_f002a.ogg"
       }
     },
     {
@@ -1759,6 +1967,10 @@
       "bg": {
         "label": "#EV027・うっとり蕩け・激しく吸いつき・密着・目閉じ",
         "file": "EV027_08"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_F002A",
+        "file": "voice/BGV_mako_f002a.ogg"
       }
     },
     {
@@ -1771,6 +1983,10 @@
       "bg": {
         "label": "#EV027・うっとり蕩け・激しく吸いつき・密着・目閉じ",
         "file": "EV027_08"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_F002A",
+        "file": "voice/BGV_mako_f002a.ogg"
       }
     },
     {
@@ -1787,6 +2003,10 @@
       "bg": {
         "label": "#EV027・うっとり蕩け・激しく吸いつき・密着・目閉じ",
         "file": "EV027_08"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_F002A",
+        "file": "voice/BGV_mako_f002a.ogg"
       }
     },
     {
@@ -1800,6 +2020,10 @@
       "bg": {
         "label": "#EV027・うっとり蕩け・激しく吸いつき・密着・目閉じ",
         "file": "EV027_08"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_F002A",
+        "file": "voice/BGV_mako_f002a.ogg"
       }
     },
     {
@@ -1816,6 +2040,10 @@
       "bg": {
         "label": "#EV027・うっとり蕩け・激しく吸いつき・密着・目閉じ",
         "file": "EV027_08"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_F002A",
+        "file": "voice/BGV_mako_f002a.ogg"
       }
     },
     {
@@ -1828,6 +2056,10 @@
       "bg": {
         "label": "#EV027・うっとり蕩け・激しく吸いつき・密着・目閉じ",
         "file": "EV027_08"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_F002A",
+        "file": "voice/BGV_mako_f002a.ogg"
       }
     },
     {
@@ -1850,7 +2082,11 @@
           "code": "8201B",
           "file": "se/8201b.ogg"
         }
-      ]
+      ],
+      "bgv": {
+        "id": "BGV_MAKO_F002A",
+        "file": "voice/BGV_mako_f002a.ogg"
+      }
     },
     {
       "kind": "narration",
@@ -1862,6 +2098,10 @@
       "bg": {
         "label": "#EV027・うっとり蕩け・激しく吸いつき・密着・目閉じ",
         "file": "EV027_08"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_F002A",
+        "file": "voice/BGV_mako_f002a.ogg"
       }
     },
     {
@@ -1878,6 +2118,10 @@
       "bg": {
         "label": "#EV027・うっとり蕩け・激しく吸いつき・密着・目閉じ",
         "file": "EV027_08"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_F002A",
+        "file": "voice/BGV_mako_f002a.ogg"
       }
     },
     {
@@ -1890,6 +2134,10 @@
       "bg": {
         "label": "#EV027・軽くアヘ・激しく吸いつき・密着・目閉じ",
         "file": "EV027_09"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_F002A",
+        "file": "voice/BGV_mako_f002a.ogg"
       }
     },
     {
@@ -1906,6 +2154,10 @@
       "bg": {
         "label": "#EV027・軽くアヘ・激しく吸いつき・密着・目閉じ",
         "file": "EV027_09"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_F002A",
+        "file": "voice/BGV_mako_f002a.ogg"
       }
     },
     {
@@ -1917,6 +2169,10 @@
       "bg": {
         "label": "#EV027・軽くアヘ・激しく吸いつき・密着・目閉じ",
         "file": "EV027_09"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_F002A",
+        "file": "voice/BGV_mako_f002a.ogg"
       }
     },
     {
@@ -1932,6 +2188,10 @@
       "bg": {
         "label": "#EV027・軽くアヘ・激しく吸いつき・密着・目閉じ",
         "file": "EV027_09"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_F002A",
+        "file": "voice/BGV_mako_f002a.ogg"
       }
     },
     {
@@ -1944,6 +2204,10 @@
       "bg": {
         "label": "#EV027・軽くアヘ・激しく吸いつき・密着・目閉じ",
         "file": "EV027_09"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_F002A",
+        "file": "voice/BGV_mako_f002a.ogg"
       }
     },
     {
@@ -1960,6 +2224,10 @@
       "bg": {
         "label": "#EV027・軽くアヘ・激しく吸いつき・密着・目閉じ",
         "file": "EV027_09"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_F002A",
+        "file": "voice/BGV_mako_f002a.ogg"
       }
     },
     {
@@ -1971,6 +2239,10 @@
       "bg": {
         "label": "#EV027・軽くアヘ・激しく吸いつき・密着・目閉じ",
         "file": "EV027_09"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_F002A",
+        "file": "voice/BGV_mako_f002a.ogg"
       }
     },
     {
@@ -1986,6 +2258,10 @@
       "bg": {
         "label": "#EV027・軽くアヘ・激しく吸いつき・密着・目閉じ",
         "file": "EV027_09"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_F002A",
+        "file": "voice/BGV_mako_f002a.ogg"
       }
     },
     {
@@ -1997,6 +2273,10 @@
       "bg": {
         "label": "#EV027・軽くアヘ・激しく吸いつき・密着・目閉じ",
         "file": "EV027_09"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_F002A",
+        "file": "voice/BGV_mako_f002a.ogg"
       }
     },
     {
@@ -2012,6 +2292,10 @@
       "bg": {
         "label": "#EV027・軽くアヘ・激しく吸いつき・密着・目閉じ",
         "file": "EV027_09"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_F002A",
+        "file": "voice/BGV_mako_f002a.ogg"
       }
     },
     {
@@ -2023,6 +2307,10 @@
       "bg": {
         "label": "#EV027・軽くアヘ・激しく吸いつき・密着・目閉じ",
         "file": "EV027_09"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_F002A",
+        "file": "voice/BGV_mako_f002a.ogg"
       }
     },
     {
@@ -2038,6 +2326,10 @@
       "bg": {
         "label": "#EV027・軽くアヘ・激しく吸いつき・密着・目閉じ",
         "file": "EV027_09"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_F002A",
+        "file": "voice/BGV_mako_f002a.ogg"
       }
     },
     {
@@ -2051,6 +2343,10 @@
       "bg": {
         "label": "#EV027・軽くアヘ・激しく吸いつき・密着・目閉じ",
         "file": "EV027_09"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_F002A",
+        "file": "voice/BGV_mako_f002a.ogg"
       }
     },
     {
@@ -2066,6 +2362,10 @@
       "bg": {
         "label": "#EV027・軽くアヘ・激しく吸いつき・密着・目閉じ",
         "file": "EV027_09"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_F002A",
+        "file": "voice/BGV_mako_f002a.ogg"
       }
     },
     {
@@ -2077,6 +2377,10 @@
       "bg": {
         "label": "#EV027・軽くアヘ・激しく吸いつき・密着・目閉じ",
         "file": "EV027_09"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_F002A",
+        "file": "voice/BGV_mako_f002a.ogg"
       }
     },
     {
@@ -2088,6 +2392,10 @@
       "bg": {
         "label": "#EV027・うっとり蕩け・舌先触れ2・少し離れ・通常",
         "file": "EV027_10"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_F002A",
+        "file": "voice/BGV_mako_f002a.ogg"
       }
     },
     {
@@ -2104,6 +2412,10 @@
       "bg": {
         "label": "#EV027・うっとり蕩け・舌先触れ2・少し離れ・通常",
         "file": "EV027_10"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_F002A",
+        "file": "voice/BGV_mako_f002a.ogg"
       }
     },
     {
@@ -2117,6 +2429,10 @@
       "bg": {
         "label": "#EV027・うっとり蕩け・舌先触れ2・少し離れ・通常",
         "file": "EV027_10"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_F002A",
+        "file": "voice/BGV_mako_f002a.ogg"
       }
     },
     {
@@ -2133,6 +2449,10 @@
       "bg": {
         "label": "#EV027・うっとり蕩け・舌先触れ2・少し離れ・通常",
         "file": "EV027_10"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_F002A",
+        "file": "voice/BGV_mako_f002a.ogg"
       }
     },
     {
@@ -2143,6 +2463,10 @@
       "bg": {
         "label": "#EV027・うっとり蕩け・舌先触れ2・少し離れ・通常",
         "file": "EV027_10"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_F002A",
+        "file": "voice/BGV_mako_f002a.ogg"
       }
     }
   ],

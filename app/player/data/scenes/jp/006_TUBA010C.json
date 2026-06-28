@@ -31,6 +31,10 @@
       "bg": {
         "label": "#EV054・虚ろ目眉寄せ・クリ摘まみ・制服・愛液2",
         "file": "EV054_06"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -48,7 +52,11 @@
           "code": "8311B",
           "file": "se/8311b.ogg"
         }
-      ]
+      ],
+      "bgv": {
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
+      }
     },
     {
       "kind": "line",
@@ -64,6 +72,10 @@
       "bg": {
         "label": "#EV054・虚ろ目眉寄せ・クリ摘まみ・制服・愛液2",
         "file": "EV054_06"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -76,6 +88,10 @@
       "bg": {
         "label": "#EV054・虚ろ目眉寄せ・クリ摘まみ・制服・愛液2",
         "file": "EV054_06"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -92,6 +108,10 @@
       "bg": {
         "label": "#EV054・虚ろ目眉寄せ・クリ摘まみ・制服・愛液2",
         "file": "EV054_06"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -104,6 +124,10 @@
       "bg": {
         "label": "#EV054・虚ろ目眉寄せ・クリ摘まみ・制服・愛液2",
         "file": "EV054_06"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -119,6 +143,10 @@
       "bg": {
         "label": "#EV054・虚ろ目眉寄せ・クリ摘まみ・制服・愛液2",
         "file": "EV054_06"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -131,6 +159,10 @@
       "bg": {
         "label": "#EV054・虚ろ目眉寄せ・クリ摘まみ・制服・愛液2",
         "file": "EV054_06"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -147,6 +179,10 @@
       "bg": {
         "label": "#EV054・虚ろ目眉寄せ・クリ摘まみ・制服・愛液2",
         "file": "EV054_06"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -159,6 +195,10 @@
       "bg": {
         "label": "#EV054・虚ろ目眉寄せ・クリ摘まみ・制服・愛液2",
         "file": "EV054_06"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -174,6 +214,10 @@
       "bg": {
         "label": "#EV054・虚ろ目眉寄せ・クリ摘まみ・制服・愛液2",
         "file": "EV054_06"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -188,6 +232,10 @@
       "bg": {
         "label": "#EV054・虚ろ目眉寄せ・クリ摘まみ・制服・愛液2",
         "file": "EV054_06"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -204,6 +252,10 @@
       "bg": {
         "label": "#EV054・虚ろ目蕩け顔・クリ摘まみ・制服・愛液2",
         "file": "EV054_07"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -217,6 +269,10 @@
       "bg": {
         "label": "#EV054・虚ろ目蕩け顔・クリ摘まみ・制服・愛液2",
         "file": "EV054_07"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -233,6 +289,10 @@
       "bg": {
         "label": "#EV054・虚ろ目蕩け顔・クリ摘まみ・制服・愛液2",
         "file": "EV054_07"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -248,6 +308,10 @@
       "bg": {
         "label": "#EV054・虚ろ目蕩け顔・クリ摘まみ・制服・愛液2",
         "file": "EV054_07"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -264,6 +328,10 @@
       "bg": {
         "label": "#EV054・虚ろ目蕩け顔・クリ摘まみ・制服・愛液2",
         "file": "EV054_07"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -277,6 +345,10 @@
       "bg": {
         "label": "#EV054・虚ろ目蕩け顔・クリ摘まみ・制服・愛液2",
         "file": "EV054_07"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -292,6 +364,10 @@
       "bg": {
         "label": "#EV054・虚ろ目蕩け顔・クリ摘まみ・制服・愛液2",
         "file": "EV054_07"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -304,6 +380,10 @@
       "bg": {
         "label": "#EV054・虚ろ目蕩け顔・クリ摘まみ・制服・愛液2",
         "file": "EV054_07"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -320,6 +400,10 @@
       "bg": {
         "label": "#EV054・虚ろ目蕩け顔・クリ摘まみ・制服・愛液2",
         "file": "EV054_07"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -332,6 +416,10 @@
       "bg": {
         "label": "#EV054・虚ろ目蕩け顔・クリ摘まみ・制服・愛液2",
         "file": "EV054_07"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -348,6 +436,10 @@
       "bg": {
         "label": "#EV054・虚ろ目蕩け顔・クリ摘まみ・制服・愛液2",
         "file": "EV054_07"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -369,7 +461,11 @@
           "code": "8001A",
           "file": "se/8001a.ogg"
         }
-      ]
+      ],
+      "bgv": {
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
+      }
     },
     {
       "kind": "line",
@@ -384,6 +480,10 @@
       "bg": {
         "label": "#EV054・虚ろ目眉寄せ・指を尻穴挿入・制服・愛液2",
         "file": "EV054_08"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -395,6 +495,10 @@
       "bg": {
         "label": "#EV054・虚ろ目眉寄せ・指を尻穴挿入・制服・愛液2",
         "file": "EV054_08"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -411,6 +515,10 @@
       "bg": {
         "label": "#EV054・虚ろ目眉寄せ・指を尻穴挿入・制服・愛液2",
         "file": "EV054_08"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -423,6 +531,10 @@
       "bg": {
         "label": "#EV054・虚ろ目眉寄せ・指を尻穴挿入・制服・愛液2",
         "file": "EV054_08"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -435,6 +547,10 @@
       "bg": {
         "label": "#EV054・虚ろ目眉寄せ・指を尻穴挿入・制服・愛液2",
         "file": "EV054_08"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -451,6 +567,10 @@
       "bg": {
         "label": "#EV054・虚ろ目眉寄せ・指を尻穴挿入・制服・愛液2",
         "file": "EV054_08"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -468,7 +588,11 @@
           "code": "8001B",
           "file": "se/8001b.ogg"
         }
-      ]
+      ],
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
+      }
     },
     {
       "kind": "line",
@@ -484,6 +608,10 @@
       "bg": {
         "label": "#EV054・虚ろ目眉寄せ・指を尻穴挿入・制服・愛液2",
         "file": "EV054_08"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -496,6 +624,10 @@
       "bg": {
         "label": "#EV054・虚ろ目眉寄せ・指を尻穴挿入・制服・愛液2",
         "file": "EV054_08"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -512,6 +644,10 @@
       "bg": {
         "label": "#EV054・虚ろ目眉寄せ・指を尻穴挿入・制服・愛液2",
         "file": "EV054_08"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -531,7 +667,11 @@
           "code": "8021A",
           "file": "se/8021a.ogg"
         }
-      ]
+      ],
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
+      }
     },
     {
       "kind": "line",
@@ -546,6 +686,10 @@
       "bg": {
         "label": "#EV054・虚ろ目蕩け顔・指を尻穴挿入・制服・愛液2",
         "file": "EV054_09"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -559,6 +703,10 @@
       "bg": {
         "label": "#EV054・虚ろ目蕩け顔・指を尻穴挿入・制服・愛液2",
         "file": "EV054_09"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -575,6 +723,10 @@
       "bg": {
         "label": "#EV054・虚ろ目蕩け顔・指を尻穴挿入・制服・愛液2",
         "file": "EV054_09"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -587,6 +739,10 @@
       "bg": {
         "label": "#EV054・虚ろ目蕩け顔・指を尻穴挿入・制服・愛液2",
         "file": "EV054_09"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -602,6 +758,10 @@
       "bg": {
         "label": "#EV054・虚ろ目蕩け顔・指を尻穴挿入・制服・愛液2",
         "file": "EV054_09"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -614,6 +774,10 @@
       "bg": {
         "label": "#EV054・虚ろ目蕩け顔・指を尻穴挿入・制服・愛液2",
         "file": "EV054_09"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -630,6 +794,10 @@
       "bg": {
         "label": "#EV054・虚ろ目蕩け顔・指を尻穴挿入・制服・愛液2",
         "file": "EV054_09"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -642,6 +810,10 @@
       "bg": {
         "label": "#EV054・虚ろ目蕩け顔・指を尻穴挿入・制服・愛液2",
         "file": "EV054_09"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -658,6 +830,10 @@
       "bg": {
         "label": "#EV054・虚ろ目蕩け顔・指を尻穴挿入・制服・愛液2",
         "file": "EV054_09"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -673,6 +849,10 @@
       "bg": {
         "label": "#EV054・虚ろ目蕩け顔・指を尻穴挿入・制服・愛液2",
         "file": "EV054_09"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -689,6 +869,10 @@
       "bg": {
         "label": "#EV054・虚ろ目蕩け顔・指を尻穴挿入・制服・愛液2",
         "file": "EV054_09"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -707,7 +891,11 @@
           "code": "8361A",
           "file": "se/8361a.ogg"
         }
-      ]
+      ],
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
+      }
     },
     {
       "kind": "line",
@@ -723,6 +911,10 @@
       "bg": {
         "label": "#EV054・虚ろ目蕩け顔・指を尻穴挿入・制服・愛液2",
         "file": "EV054_09"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -736,6 +928,10 @@
       "bg": {
         "label": "#EV054・虚ろ目蕩け顔・指を尻穴挿入・制服・愛液2",
         "file": "EV054_09"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -752,6 +948,10 @@
       "bg": {
         "label": "#EV054・虚ろ目蕩け顔・指を尻穴挿入・制服・愛液2",
         "file": "EV054_09"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -765,6 +965,10 @@
       "bg": {
         "label": "#EV054・虚ろ目蕩け顔・指を尻穴挿入・制服・愛液2",
         "file": "EV054_09"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -781,6 +985,10 @@
       "bg": {
         "label": "#EV054・虚ろ目蕩け顔・指を尻穴挿入・制服・愛液2",
         "file": "EV054_09"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -800,7 +1008,11 @@
           "code": "8131B",
           "file": "se/8131b.ogg"
         }
-      ]
+      ],
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
+      }
     },
     {
       "kind": "line",
@@ -816,6 +1028,10 @@
       "bg": {
         "label": "#EV054・虚ろ目蕩け顔・指を尻穴挿入・制服・愛液2",
         "file": "EV054_09"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -828,6 +1044,10 @@
       "bg": {
         "label": "#EV054・虚ろ目蕩け顔・指を尻穴挿入・制服・愛液2",
         "file": "EV054_09"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -844,6 +1064,10 @@
       "bg": {
         "label": "#EV054・虚ろ目蕩け顔・指を尻穴挿入・制服・愛液2",
         "file": "EV054_09"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -857,6 +1081,10 @@
       "bg": {
         "label": "#EV054・虚ろ目蕩け顔・指を尻穴挿入・制服・愛液2",
         "file": "EV054_09"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -873,6 +1101,10 @@
       "bg": {
         "label": "#EV054・虚ろ目蕩け顔・指を尻穴挿入・制服・愛液2",
         "file": "EV054_09"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -885,6 +1117,10 @@
       "bg": {
         "label": "#EV054・虚ろ目蕩け顔・指を尻穴挿入・制服・愛液2",
         "file": "EV054_09"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -901,6 +1137,10 @@
       "bg": {
         "label": "#EV054・虚ろ目蕩け顔・指を尻穴挿入・制服・愛液2",
         "file": "EV054_09"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -913,6 +1153,10 @@
       "bg": {
         "label": "#EV054・虚ろ目蕩け顔・指を尻穴挿入・制服・愛液2",
         "file": "EV054_09"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -929,6 +1173,10 @@
       "bg": {
         "label": "#EV054・虚ろ目蕩け顔・指を尻穴挿入・制服・愛液2",
         "file": "EV054_09"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -941,6 +1189,10 @@
       "bg": {
         "label": "#EV054・虚ろ目蕩け顔・指を尻穴挿入・制服・愛液2",
         "file": "EV054_09"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -957,6 +1209,10 @@
       "bg": {
         "label": "#EV054・虚ろ目蕩け顔・指を尻穴挿入・制服・愛液2",
         "file": "EV054_09"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -969,6 +1225,10 @@
       "bg": {
         "label": "#EV054・虚ろ目蕩け顔・指を尻穴挿入・制服・愛液2",
         "file": "EV054_09"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -991,7 +1251,11 @@
           "code": "8351A",
           "file": "se/8351a.ogg"
         }
-      ]
+      ],
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
+      }
     },
     {
       "kind": "narration",
@@ -1005,6 +1269,10 @@
       "bg": {
         "label": "#EV054・虚ろ目蕩け顔・指を尻穴挿入・制服・潮吹き2",
         "file": "EV054_10"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -1021,6 +1289,10 @@
       "bg": {
         "label": "#EV054・虚ろ目蕩け顔・指を尻穴挿入・制服・潮吹き2",
         "file": "EV054_10"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -1036,6 +1308,10 @@
       "bg": {
         "label": "#EV054・虚ろ目蕩け顔・指を尻穴挿入・制服・潮吹き2",
         "file": "EV054_10"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -1052,6 +1328,10 @@
       "bg": {
         "label": "#EV054・虚ろ目蕩け顔・指を尻穴挿入・制服・潮吹き2",
         "file": "EV054_10"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -1063,6 +1343,10 @@
       "bg": {
         "label": "#EV054・虚ろ目蕩け顔・指を尻穴挿入・制服・潮吹き2",
         "file": "EV054_10"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -1079,6 +1363,10 @@
       "bg": {
         "label": "#EV054・虚ろ目蕩け顔・指を尻穴挿入・制服・潮吹き2",
         "file": "EV054_10"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -1092,6 +1380,10 @@
       "bg": {
         "label": "#EV054・虚ろ目蕩け顔・指を尻穴挿入・制服・潮吹き2",
         "file": "EV054_10"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -1108,6 +1400,10 @@
       "bg": {
         "label": "#EV054・虚ろ目蕩け顔・指を尻穴挿入・制服・潮吹き2",
         "file": "EV054_10"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -1122,6 +1418,10 @@
       "bg": {
         "label": "#EV054・虚ろ目蕩け顔・指を尻穴挿入・制服・潮吹き2",
         "file": "EV054_10"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -1137,6 +1437,10 @@
       "bg": {
         "label": "#EV054・虚ろ目蕩け顔・指を尻穴挿入・制服・潮吹き2",
         "file": "EV054_10"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -1149,6 +1453,10 @@
       "bg": {
         "label": "#EV054・虚ろ目蕩け顔・指を尻穴挿入・制服・潮吹き2",
         "file": "EV054_10"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -1165,6 +1473,10 @@
       "bg": {
         "label": "#EV054・虚ろ目蕩け顔・指を尻穴挿入・制服・潮吹き2",
         "file": "EV054_10"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -1176,6 +1488,10 @@
       "bg": {
         "label": "#EV054・虚ろ目蕩け顔・指を尻穴挿入・制服・潮吹き2",
         "file": "EV054_10"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -1192,6 +1508,10 @@
       "bg": {
         "label": "#EV054・虚ろ目蕩け顔・指を尻穴挿入・制服・潮吹き2",
         "file": "EV054_10"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -1204,6 +1524,10 @@
       "bg": {
         "label": "#EV054・虚ろ目蕩け顔・指を尻穴挿入・制服・潮吹き2",
         "file": "EV054_10"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -1220,6 +1544,10 @@
       "bg": {
         "label": "#EV054・虚ろ目蕩け顔・指を尻穴挿入・制服・潮吹き2",
         "file": "EV054_10"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -1232,6 +1560,10 @@
       "bg": {
         "label": "#EV054・虚ろ目蕩け顔・指を尻穴挿入・制服・潮吹き2",
         "file": "EV054_10"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -1248,6 +1580,10 @@
       "bg": {
         "label": "#EV054・虚ろ目蕩け顔・指を尻穴挿入・制服・潮吹き2",
         "file": "EV054_10"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -1261,6 +1597,10 @@
       "bg": {
         "label": "#EV054・虚ろ目蕩け顔・指を尻穴挿入・制服・潮吹き2",
         "file": "EV054_10"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -1277,6 +1617,10 @@
       "bg": {
         "label": "#EV054・虚ろ目蕩け顔・指を尻穴挿入・制服・潮吹き2",
         "file": "EV054_10"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -1290,6 +1634,10 @@
       "bg": {
         "label": "#EV054・虚ろ目蕩け顔・指を尻穴挿入・制服・潮吹き2",
         "file": "EV054_10"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -1311,7 +1659,11 @@
           "code": "8361B",
           "file": "se/8361b.ogg"
         }
-      ]
+      ],
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
+      }
     },
     {
       "kind": "narration",
@@ -1331,7 +1683,11 @@
           "code": "8131C",
           "file": "se/8131c.ogg"
         }
-      ]
+      ],
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
+      }
     },
     {
       "kind": "line",
@@ -1347,6 +1703,10 @@
       "bg": {
         "label": "#EV054・のけぞり絶頂・指を尻穴挿入・制服・潮吹き2",
         "file": "EV054_11"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -1359,6 +1719,10 @@
       "bg": {
         "label": "#EV054・のけぞり絶頂・指を尻穴挿入・制服・潮吹き2",
         "file": "EV054_11"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -1375,6 +1739,10 @@
       "bg": {
         "label": "#EV054・のけぞり絶頂・指を尻穴挿入・制服・潮吹き2",
         "file": "EV054_11"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -1390,6 +1758,10 @@
       "bg": {
         "label": "#EV054・のけぞり絶頂・指を尻穴挿入・制服・潮吹き2",
         "file": "EV054_11"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -1405,6 +1777,10 @@
       "bg": {
         "label": "#EV054・虚ろ目蕩け顔・指を尻穴挿入・制服・愛液3",
         "file": "EV054_12"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -1418,6 +1794,10 @@
       "bg": {
         "label": "#EV054・虚ろ目蕩け顔・指を尻穴挿入・制服・愛液3",
         "file": "EV054_12"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -1433,6 +1813,10 @@
       "bg": {
         "label": "#EV054・虚ろ目蕩け顔・指を尻穴挿入・制服・愛液3",
         "file": "EV054_12"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -1447,6 +1831,10 @@
       "bg": {
         "label": "#EV054・虚ろ目蕩け顔・指を尻穴挿入・制服・愛液3",
         "file": "EV054_12"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -1459,6 +1847,10 @@
       "bg": {
         "label": "#EV054・虚ろ目蕩け顔・指を尻穴挿入・制服・愛液3",
         "file": "EV054_12"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -1474,6 +1866,10 @@
       "bg": {
         "label": "#EV054・虚ろ目蕩け顔・指を尻穴挿入・制服・愛液3",
         "file": "EV054_12"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -1484,6 +1880,10 @@
       "bg": {
         "label": "#EV054・虚ろ目蕩け顔・指を尻穴挿入・制服・愛液3",
         "file": "EV054_12"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -1498,6 +1898,10 @@
       "bg": {
         "label": "#背景・黒一色",
         "file": "BG_BLACK"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     }
   ],

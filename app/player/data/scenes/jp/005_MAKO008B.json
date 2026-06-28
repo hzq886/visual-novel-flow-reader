@@ -819,6 +819,10 @@
           265,
           60
         ]
+      },
+      "bgv": {
+        "id": "BGV_SAKI_H002A",
+        "file": "voice/BGV_saki_h002a.ogg"
       }
     },
     {
@@ -844,6 +848,10 @@
           265,
           60
         ]
+      },
+      "bgv": {
+        "id": "BGV_SAKI_H002A",
+        "file": "voice/BGV_saki_h002a.ogg"
       }
     },
     {
@@ -864,6 +872,10 @@
           265,
           60
         ]
+      },
+      "bgv": {
+        "id": "BGV_SAKI_H002A",
+        "file": "voice/BGV_saki_h002a.ogg"
       }
     },
     {
@@ -889,6 +901,10 @@
           265,
           60
         ]
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H002A",
+        "file": "voice/BGV_mako_h002a.ogg"
       }
     },
     {
@@ -913,6 +929,10 @@
           265,
           60
         ]
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H002A",
+        "file": "voice/BGV_mako_h002a.ogg"
       }
     },
     {
@@ -931,7 +951,11 @@
           "code": "8101A",
           "file": "se/8101a.ogg"
         }
-      ]
+      ],
+      "bgv": {
+        "id": "BGV_MAKO_H002A",
+        "file": "voice/BGV_mako_h002a.ogg"
+      }
     },
     {
       "kind": "line",
@@ -947,6 +971,10 @@
       "bg": {
         "label": "#EV053・驚き・喘ぎ・深く入れ・愛液",
         "file": "EV053_03"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H002A",
+        "file": "voice/BGV_mako_h002a.ogg"
       }
     },
     {
@@ -961,6 +989,10 @@
       "bg": {
         "label": "#EV053・驚き・喘ぎ・深く入れ・愛液",
         "file": "EV053_03"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H002A",
+        "file": "voice/BGV_mako_h002a.ogg"
       }
     },
     {
@@ -977,6 +1009,10 @@
       "bg": {
         "label": "#EV053・驚き・喘ぎ・深く入れ・愛液",
         "file": "EV053_03"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H002A",
+        "file": "voice/BGV_mako_h002a.ogg"
       }
     },
     {
@@ -993,6 +1029,10 @@
       "bg": {
         "label": "#EV053・驚き・喘ぎ・深く入れ・愛液",
         "file": "EV053_03"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H002A",
+        "file": "voice/BGV_mako_h002a.ogg"
       }
     },
     {
@@ -1005,6 +1045,10 @@
       "bg": {
         "label": "#EV053・驚き・喘ぎ・深く入れ・愛液",
         "file": "EV053_03"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H002A",
+        "file": "voice/BGV_mako_h002a.ogg"
       }
     },
     {
@@ -1021,6 +1065,10 @@
       "bg": {
         "label": "#EV053・驚き・喘ぎ・深く入れ・愛液",
         "file": "EV053_03"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H002A",
+        "file": "voice/BGV_mako_h002a.ogg"
       }
     },
     {
@@ -1035,6 +1083,10 @@
       "bg": {
         "label": "#EV053・驚き・喘ぎ・深く入れ・愛液",
         "file": "EV053_03"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H002A",
+        "file": "voice/BGV_mako_h002a.ogg"
       }
     },
     {
@@ -1051,6 +1103,10 @@
       "bg": {
         "label": "#EV053・驚き・喘ぎ・深く入れ・愛液",
         "file": "EV053_03"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H002A",
+        "file": "voice/BGV_mako_h002a.ogg"
       }
     },
     {
@@ -1066,6 +1122,10 @@
       "bg": {
         "label": "#EV053・驚き・喘ぎ・深く入れ・愛液",
         "file": "EV053_03"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H002A",
+        "file": "voice/BGV_mako_h002a.ogg"
       }
     },
     {
@@ -1082,6 +1142,10 @@
       "bg": {
         "label": "#EV053・喘ぎ・真面目2・浅く入れ・愛液",
         "file": "EV053_04"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_H001A",
+        "file": "voice/BGV_saki_h001a.ogg"
       }
     },
     {
@@ -1095,6 +1159,10 @@
       "bg": {
         "label": "#EV053・喘ぎ・真面目2・浅く入れ・愛液",
         "file": "EV053_04"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_H001A",
+        "file": "voice/BGV_saki_h001a.ogg"
       }
     },
     {
@@ -1111,6 +1179,10 @@
       "bg": {
         "label": "#EV053・喘ぎ・真面目2・浅く入れ・愛液",
         "file": "EV053_04"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_H001A",
+        "file": "voice/BGV_saki_h001a.ogg"
       }
     },
     {
@@ -1127,6 +1199,10 @@
       "bg": {
         "label": "#EV053・喘ぎ・真面目2・浅く入れ・愛液",
         "file": "EV053_04"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_H001A",
+        "file": "voice/BGV_saki_h001a.ogg"
       }
     },
     {
@@ -1140,6 +1216,10 @@
       "bg": {
         "label": "#EV053・喘ぎ・真面目2・浅く入れ・愛液",
         "file": "EV053_04"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_H001A",
+        "file": "voice/BGV_saki_h001a.ogg"
       }
     },
     {
@@ -1156,6 +1236,10 @@
       "bg": {
         "label": "#EV053・喘ぎ・真面目2・浅く入れ・愛液",
         "file": "EV053_04"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_H001A",
+        "file": "voice/BGV_saki_h001a.ogg"
       }
     },
     {
@@ -1172,6 +1256,10 @@
       "bg": {
         "label": "#EV053・喘ぎ・真面目2・浅く入れ・愛液",
         "file": "EV053_04"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_H001A",
+        "file": "voice/BGV_saki_h001a.ogg"
       }
     },
     {
@@ -1185,6 +1273,10 @@
       "bg": {
         "label": "#EV053・喘ぎ・真面目2・浅く入れ・愛液",
         "file": "EV053_04"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_H001A",
+        "file": "voice/BGV_saki_h001a.ogg"
       }
     },
     {
@@ -1201,6 +1293,10 @@
       "bg": {
         "label": "#EV053・喘ぎ・真面目2・浅く入れ・愛液",
         "file": "EV053_04"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_H001A",
+        "file": "voice/BGV_saki_h001a.ogg"
       }
     },
     {
@@ -1217,6 +1313,10 @@
       "bg": {
         "label": "#EV053・喘ぎ・真面目2・浅く入れ・愛液",
         "file": "EV053_04"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_H001A",
+        "file": "voice/BGV_saki_h001a.ogg"
       }
     },
     {
@@ -1233,6 +1333,10 @@
       "bg": {
         "label": "#EV053・喘ぎ・真面目2・浅く入れ・愛液",
         "file": "EV053_04"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_H001A",
+        "file": "voice/BGV_saki_h001a.ogg"
       }
     },
     {
@@ -1249,6 +1353,10 @@
       "bg": {
         "label": "#EV053・喘ぎ・真面目2・浅く入れ・愛液",
         "file": "EV053_04"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_H001A",
+        "file": "voice/BGV_saki_h001a.ogg"
       }
     },
     {
@@ -1259,6 +1367,10 @@
       "bg": {
         "label": "#EV053・喘ぎ・真面目2・浅く入れ・愛液",
         "file": "EV053_04"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_H001A",
+        "file": "voice/BGV_saki_h001a.ogg"
       }
     },
     {
@@ -1275,6 +1387,10 @@
       "bg": {
         "label": "#EV053・喘ぎ・真面目2・浅く入れ・愛液",
         "file": "EV053_04"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_H001A",
+        "file": "voice/BGV_saki_h001a.ogg"
       }
     },
     {
@@ -1287,6 +1403,10 @@
       "bg": {
         "label": "#EV053・喘ぎ・真面目2・浅く入れ・愛液",
         "file": "EV053_04"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_H001A",
+        "file": "voice/BGV_saki_h001a.ogg"
       }
     },
     {
@@ -1303,6 +1423,10 @@
       "bg": {
         "label": "#EV053・喘ぎ・真面目2・浅く入れ・愛液",
         "file": "EV053_04"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_H001A",
+        "file": "voice/BGV_saki_h001a.ogg"
       }
     },
     {
@@ -1319,6 +1443,10 @@
       "bg": {
         "label": "#EV053・喘ぎ・真面目2・浅く入れ・愛液",
         "file": "EV053_04"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_H001A",
+        "file": "voice/BGV_saki_h001a.ogg"
       }
     },
     {
@@ -1338,7 +1466,11 @@
           "code": "8021A",
           "file": "se/8021a.ogg"
         }
-      ]
+      ],
+      "bgv": {
+        "id": "BGV_SAKI_H001A",
+        "file": "voice/BGV_saki_h001a.ogg"
+      }
     },
     {
       "kind": "line",
@@ -1354,6 +1486,10 @@
       "bg": {
         "label": "#EV053・喘ぎ・喘ぎ・深く入れ・愛液",
         "file": "EV053_05"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_H001A",
+        "file": "voice/BGV_saki_h001a.ogg"
       }
     },
     {
@@ -1364,6 +1500,10 @@
       "bg": {
         "label": "#EV053・喘ぎ・喘ぎ・深く入れ・愛液",
         "file": "EV053_05"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_H001A",
+        "file": "voice/BGV_saki_h001a.ogg"
       }
     },
     {
@@ -1380,6 +1520,10 @@
       "bg": {
         "label": "#EV053・喘ぎ・喘ぎ・深く入れ・愛液",
         "file": "EV053_05"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_H001A",
+        "file": "voice/BGV_saki_h001a.ogg"
       }
     },
     {
@@ -1392,6 +1536,10 @@
       "bg": {
         "label": "#EV053・喘ぎ・喘ぎ・深く入れ・愛液",
         "file": "EV053_05"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_H001A",
+        "file": "voice/BGV_saki_h001a.ogg"
       }
     },
     {
@@ -1410,7 +1558,11 @@
           "code": "8011A",
           "file": "se/8011a.ogg"
         }
-      ]
+      ],
+      "bgv": {
+        "id": "BGV_SAKI_H001A",
+        "file": "voice/BGV_saki_h001a.ogg"
+      }
     },
     {
       "kind": "narration",
@@ -1422,6 +1574,10 @@
       "bg": {
         "label": "#EV053・喘ぎ・喘ぎ・深く入れ・愛液",
         "file": "EV053_05"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_H001A",
+        "file": "voice/BGV_saki_h001a.ogg"
       }
     },
     {
@@ -1438,6 +1594,10 @@
       "bg": {
         "label": "#EV053・喘ぎ・喘ぎ・深く入れ・愛液",
         "file": "EV053_05"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_H001A",
+        "file": "voice/BGV_saki_h001a.ogg"
       }
     },
     {
@@ -1449,6 +1609,10 @@
       "bg": {
         "label": "#EV053・喘ぎ・喘ぎ・深く入れ・愛液",
         "file": "EV053_05"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_H001A",
+        "file": "voice/BGV_saki_h001a.ogg"
       }
     },
     {
@@ -1465,6 +1629,10 @@
       "bg": {
         "label": "#EV053・喘ぎ・喘ぎ・深く入れ・愛液",
         "file": "EV053_05"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H001A",
+        "file": "voice/BGV_mako_h001a.ogg"
       }
     },
     {
@@ -1478,6 +1646,10 @@
       "bg": {
         "label": "#EV053・喘ぎ・喘ぎ・深く入れ・愛液",
         "file": "EV053_05"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H001A",
+        "file": "voice/BGV_mako_h001a.ogg"
       }
     },
     {
@@ -1494,6 +1666,10 @@
       "bg": {
         "label": "#EV053・喘ぎ・喘ぎ・深く入れ・愛液",
         "file": "EV053_05"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H001A",
+        "file": "voice/BGV_mako_h001a.ogg"
       }
     },
     {
@@ -1510,6 +1686,10 @@
       "bg": {
         "label": "#EV053・喘ぎ・喘ぎ・深く入れ・愛液",
         "file": "EV053_05"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H001A",
+        "file": "voice/BGV_mako_h001a.ogg"
       }
     },
     {
@@ -1523,6 +1703,10 @@
       "bg": {
         "label": "#EV053・喘ぎ・喘ぎ・深く入れ・愛液",
         "file": "EV053_05"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H001A",
+        "file": "voice/BGV_mako_h001a.ogg"
       }
     },
     {
@@ -1539,6 +1723,10 @@
       "bg": {
         "label": "#EV053・喘ぎ・喘ぎ・深く入れ・愛液",
         "file": "EV053_05"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H001A",
+        "file": "voice/BGV_mako_h001a.ogg"
       }
     },
     {
@@ -1550,6 +1738,10 @@
       "bg": {
         "label": "#EV053・喘ぎ・喘ぎ・深く入れ・愛液",
         "file": "EV053_05"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H001A",
+        "file": "voice/BGV_mako_h001a.ogg"
       }
     },
     {
@@ -1566,6 +1758,10 @@
       "bg": {
         "label": "#EV053・喘ぎ・喘ぎ・深く入れ・愛液",
         "file": "EV053_05"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H001A",
+        "file": "voice/BGV_mako_h001a.ogg"
       }
     },
     {
@@ -1578,6 +1774,10 @@
       "bg": {
         "label": "#EV053・喘ぎ・喘ぎ・深く入れ・愛液",
         "file": "EV053_05"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H001A",
+        "file": "voice/BGV_mako_h001a.ogg"
       }
     },
     {
@@ -1594,6 +1794,10 @@
       "bg": {
         "label": "#EV053・アヘ蕩け・アヘ顔・深く入れ・愛液",
         "file": "EV053_06"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H001A",
+        "file": "voice/BGV_mako_h001a.ogg"
       }
     },
     {
@@ -1610,6 +1814,10 @@
       "bg": {
         "label": "#EV053・アヘ蕩け・アヘ顔・深く入れ・愛液",
         "file": "EV053_06"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H001A",
+        "file": "voice/BGV_mako_h001a.ogg"
       }
     },
     {
@@ -1624,6 +1832,10 @@
       "bg": {
         "label": "#EV053・アヘ蕩け・アヘ顔・深く入れ・愛液",
         "file": "EV053_06"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H001A",
+        "file": "voice/BGV_mako_h001a.ogg"
       }
     },
     {
@@ -1640,6 +1852,10 @@
       "bg": {
         "label": "#EV053・アヘ蕩け・アヘ顔・深く入れ・愛液",
         "file": "EV053_06"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H001A",
+        "file": "voice/BGV_mako_h001a.ogg"
       }
     },
     {
@@ -1652,6 +1868,10 @@
       "bg": {
         "label": "#EV053・アヘ蕩け・アヘ顔・深く入れ・愛液",
         "file": "EV053_06"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H001A",
+        "file": "voice/BGV_mako_h001a.ogg"
       }
     },
     {
@@ -1668,6 +1888,10 @@
       "bg": {
         "label": "#EV053・アヘ蕩け・アヘ顔・深く入れ・愛液",
         "file": "EV053_06"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H001A",
+        "file": "voice/BGV_mako_h001a.ogg"
       }
     },
     {
@@ -1681,6 +1905,10 @@
       "bg": {
         "label": "#EV053・アヘ蕩け・アヘ顔・深く入れ・愛液",
         "file": "EV053_06"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H001A",
+        "file": "voice/BGV_mako_h001a.ogg"
       }
     },
     {
@@ -1697,6 +1925,10 @@
       "bg": {
         "label": "#EV053・アヘ蕩け・アヘ顔・浅く入れ・愛液",
         "file": "EV053_07"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H001A",
+        "file": "voice/BGV_mako_h001a.ogg"
       }
     },
     {
@@ -1713,6 +1945,10 @@
       "bg": {
         "label": "#EV053・アヘ蕩け・アヘ顔・浅く入れ・愛液",
         "file": "EV053_07"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H001A",
+        "file": "voice/BGV_mako_h001a.ogg"
       }
     },
     {
@@ -1726,6 +1962,10 @@
       "bg": {
         "label": "#EV053・アヘ蕩け・アヘ顔・浅く入れ・愛液",
         "file": "EV053_07"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H001A",
+        "file": "voice/BGV_mako_h001a.ogg"
       }
     },
     {
@@ -1742,6 +1982,10 @@
       "bg": {
         "label": "#EV053・アヘ蕩け・アヘ顔・浅く入れ・愛液",
         "file": "EV053_07"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H001A",
+        "file": "voice/BGV_mako_h001a.ogg"
       }
     },
     {
@@ -1758,6 +2002,10 @@
       "bg": {
         "label": "#EV053・アヘ蕩け・アヘ顔・浅く入れ・愛液",
         "file": "EV053_07"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H001A",
+        "file": "voice/BGV_mako_h001a.ogg"
       }
     },
     {
@@ -1769,6 +2017,10 @@
       "bg": {
         "label": "#EV053・アヘ蕩け・アヘ顔・浅く入れ・愛液",
         "file": "EV053_07"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H001A",
+        "file": "voice/BGV_mako_h001a.ogg"
       }
     },
     {
@@ -1785,6 +2037,10 @@
       "bg": {
         "label": "#EV053・アヘ蕩け・アヘ顔・浅く入れ・愛液",
         "file": "EV053_07"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_H003A",
+        "file": "voice/BGV_saki_h003a.ogg"
       }
     },
     {
@@ -1807,7 +2063,11 @@
           "code": "8351A",
           "file": "se/8351a.ogg"
         }
-      ]
+      ],
+      "bgv": {
+        "id": "BGV_SAKI_H003A",
+        "file": "voice/BGV_saki_h003a.ogg"
+      }
     },
     {
       "kind": "narration",
@@ -1821,6 +2081,10 @@
       "bg": {
         "label": "#EV053・アヘ蕩け・アヘ顔・深く入れ・愛液2",
         "file": "EV053_08"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_H003A",
+        "file": "voice/BGV_saki_h003a.ogg"
       }
     },
     {
@@ -1837,6 +2101,10 @@
       "bg": {
         "label": "#EV053・アヘ蕩け・アヘ顔・深く入れ・愛液2",
         "file": "EV053_08"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_H003A",
+        "file": "voice/BGV_saki_h003a.ogg"
       }
     },
     {
@@ -1853,6 +2121,10 @@
       "bg": {
         "label": "#EV053・アヘ蕩け・アヘ顔・深く入れ・愛液2",
         "file": "EV053_08"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_H003A",
+        "file": "voice/BGV_saki_h003a.ogg"
       }
     },
     {
@@ -1865,6 +2137,10 @@
       "bg": {
         "label": "#EV053・アヘ蕩け・アヘ顔・深く入れ・愛液2",
         "file": "EV053_08"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_H003A",
+        "file": "voice/BGV_saki_h003a.ogg"
       }
     },
     {
@@ -1881,6 +2157,10 @@
       "bg": {
         "label": "#EV053・アヘ蕩け・アヘ顔・深く入れ・愛液2",
         "file": "EV053_08"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_H003A",
+        "file": "voice/BGV_saki_h003a.ogg"
       }
     },
     {
@@ -1897,6 +2177,10 @@
       "bg": {
         "label": "#EV053・アヘ蕩け・アヘ顔・深く入れ・愛液2",
         "file": "EV053_08"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_H003A",
+        "file": "voice/BGV_saki_h003a.ogg"
       }
     },
     {
@@ -1910,6 +2194,10 @@
       "bg": {
         "label": "#EV053・アヘ蕩け・アヘ顔・深く入れ・愛液2",
         "file": "EV053_08"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_H003A",
+        "file": "voice/BGV_saki_h003a.ogg"
       }
     },
     {
@@ -1926,6 +2214,10 @@
       "bg": {
         "label": "#EV053・アヘ蕩け・アヘ顔・浅く入れ・愛液2",
         "file": "EV053_09"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_H003A",
+        "file": "voice/BGV_saki_h003a.ogg"
       }
     },
     {
@@ -1940,6 +2232,10 @@
       "bg": {
         "label": "#EV053・アヘ蕩け・アヘ顔・浅く入れ・愛液2",
         "file": "EV053_09"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_H003A",
+        "file": "voice/BGV_saki_h003a.ogg"
       }
     },
     {
@@ -1956,6 +2252,10 @@
       "bg": {
         "label": "#EV053・アヘ蕩け・アヘ顔・浅く入れ・愛液2",
         "file": "EV053_09"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_H003A",
+        "file": "voice/BGV_saki_h003a.ogg"
       }
     },
     {
@@ -1971,6 +2271,10 @@
       "bg": {
         "label": "#EV053・アヘ蕩け・アヘ顔・浅く入れ・愛液2",
         "file": "EV053_09"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_H003A",
+        "file": "voice/BGV_saki_h003a.ogg"
       }
     },
     {
@@ -1987,6 +2291,10 @@
       "bg": {
         "label": "#EV053・アヘ蕩け・アヘ顔・浅く入れ・愛液2",
         "file": "EV053_09"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_H003A",
+        "file": "voice/BGV_saki_h003a.ogg"
       }
     },
     {
@@ -2006,7 +2314,11 @@
           "code": "8011B",
           "file": "se/8011b.ogg"
         }
-      ]
+      ],
+      "bgv": {
+        "id": "BGV_SAKI_H003A",
+        "file": "voice/BGV_saki_h003a.ogg"
+      }
     },
     {
       "kind": "line",
@@ -2022,6 +2334,10 @@
       "bg": {
         "label": "#EV053・アヘ蕩け・イキ過ぎ・深く入れ・愛液2",
         "file": "EV053_10"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_H003A",
+        "file": "voice/BGV_saki_h003a.ogg"
       }
     },
     {
@@ -2038,6 +2354,10 @@
       "bg": {
         "label": "#EV053・アヘ蕩け・イキ過ぎ・深く入れ・愛液2",
         "file": "EV053_10"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_H003A",
+        "file": "voice/BGV_saki_h003a.ogg"
       }
     },
     {
@@ -2049,6 +2369,10 @@
       "bg": {
         "label": "#EV053・アヘ蕩け・イキ過ぎ・深く入れ・愛液2",
         "file": "EV053_10"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_H003A",
+        "file": "voice/BGV_saki_h003a.ogg"
       }
     },
     {
@@ -2065,6 +2389,10 @@
       "bg": {
         "label": "#EV053・アヘ蕩け・イキ過ぎ・深く入れ・愛液2",
         "file": "EV053_10"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_H003A",
+        "file": "voice/BGV_saki_h003a.ogg"
       }
     },
     {
@@ -2078,6 +2406,10 @@
       "bg": {
         "label": "#EV053・アヘ蕩け・イキ過ぎ・深く入れ・愛液2",
         "file": "EV053_10"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_H003A",
+        "file": "voice/BGV_saki_h003a.ogg"
       }
     },
     {
@@ -2094,6 +2426,10 @@
       "bg": {
         "label": "#EV053・アヘ蕩け・イキ過ぎ・深く入れ・愛液2",
         "file": "EV053_10"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_H003A",
+        "file": "voice/BGV_saki_h003a.ogg"
       }
     },
     {
@@ -2107,6 +2443,10 @@
       "bg": {
         "label": "#EV053・アヘ蕩け・イキ過ぎ・深く入れ・愛液2",
         "file": "EV053_10"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_H003A",
+        "file": "voice/BGV_saki_h003a.ogg"
       }
     },
     {
@@ -2123,6 +2463,10 @@
       "bg": {
         "label": "#EV053・アヘ蕩け・イキ過ぎ・深く入れ・愛液2",
         "file": "EV053_10"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_H003A",
+        "file": "voice/BGV_saki_h003a.ogg"
       }
     },
     {
@@ -2139,6 +2483,10 @@
       "bg": {
         "label": "#EV053・アヘ蕩け・イキ過ぎ・深く入れ・愛液2",
         "file": "EV053_10"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_H003A",
+        "file": "voice/BGV_saki_h003a.ogg"
       }
     },
     {
@@ -2155,7 +2503,11 @@
           "code": "8201B",
           "file": "se/8201b.ogg"
         }
-      ]
+      ],
+      "bgv": {
+        "id": "BGV_SAKI_H003A",
+        "file": "voice/BGV_saki_h003a.ogg"
+      }
     },
     {
       "kind": "narration",
@@ -2166,6 +2518,10 @@
       "bg": {
         "label": "#EV053・アヘ蕩け・アヘ顔・深く入れ・射精",
         "file": "EV053_11"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_H003A",
+        "file": "voice/BGV_saki_h003a.ogg"
       }
     },
     {
@@ -2182,6 +2538,10 @@
       "bg": {
         "label": "#EV053・アヘ蕩け・アヘ顔・深く入れ・射精",
         "file": "EV053_11"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_H003A",
+        "file": "voice/BGV_saki_h003a.ogg"
       }
     },
     {
@@ -2194,6 +2554,10 @@
       "bg": {
         "label": "#EV053・アヘ蕩け・アヘ顔・深く入れ・射精",
         "file": "EV053_11"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_H003A",
+        "file": "voice/BGV_saki_h003a.ogg"
       }
     },
     {
@@ -2210,6 +2574,10 @@
       "bg": {
         "label": "#EV053・アヘ蕩け・アヘ顔・深く入れ・射精",
         "file": "EV053_11"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_H003A",
+        "file": "voice/BGV_saki_h003a.ogg"
       }
     },
     {
@@ -2223,6 +2591,10 @@
       "bg": {
         "label": "#EV053・アヘ蕩け・アヘ顔・深く入れ・射精",
         "file": "EV053_11"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_H003A",
+        "file": "voice/BGV_saki_h003a.ogg"
       }
     },
     {
@@ -2239,6 +2611,10 @@
       "bg": {
         "label": "#EV053・アヘ蕩け・アヘ顔・深く入れ・射精",
         "file": "EV053_11"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_H003A",
+        "file": "voice/BGV_saki_h003a.ogg"
       }
     },
     {
@@ -2251,6 +2627,10 @@
       "bg": {
         "label": "#EV053・アヘ蕩け・アヘ顔・深く入れ・射精",
         "file": "EV053_11"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_H003A",
+        "file": "voice/BGV_saki_h003a.ogg"
       }
     },
     {
@@ -2267,6 +2647,10 @@
       "bg": {
         "label": "#EV053・喘ぎ2・アヘ顔・深く入れ・精液たれ",
         "file": "EV053_12"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_H003A",
+        "file": "voice/BGV_saki_h003a.ogg"
       }
     },
     {
@@ -2279,6 +2663,10 @@
       "bg": {
         "label": "#EV053・喘ぎ2・アヘ顔・深く入れ・精液たれ",
         "file": "EV053_12"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_H003A",
+        "file": "voice/BGV_saki_h003a.ogg"
       }
     },
     {
@@ -2294,6 +2682,10 @@
       "bg": {
         "label": "#EV053・喘ぎ2・アヘ顔・深く入れ・精液たれ",
         "file": "EV053_12"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_H003A",
+        "file": "voice/BGV_saki_h003a.ogg"
       }
     },
     {
@@ -2305,6 +2697,10 @@
       "bg": {
         "label": "#EV053・喘ぎ2・アヘ顔・深く入れ・精液たれ",
         "file": "EV053_12"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_H003A",
+        "file": "voice/BGV_saki_h003a.ogg"
       }
     },
     {
@@ -2321,6 +2717,10 @@
       "bg": {
         "label": "#EV053・喘ぎ2・アヘ顔・深く入れ・精液たれ",
         "file": "EV053_12"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_H003A",
+        "file": "voice/BGV_saki_h003a.ogg"
       }
     },
     {
@@ -2333,6 +2733,10 @@
       "bg": {
         "label": "#EV053・喘ぎ2・アヘ顔・深く入れ・精液たれ",
         "file": "EV053_12"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_H003A",
+        "file": "voice/BGV_saki_h003a.ogg"
       }
     },
     {
@@ -2349,6 +2753,10 @@
       "bg": {
         "label": "#EV053・喘ぎ2・アヘ顔・深く入れ・精液たれ",
         "file": "EV053_12"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_H003A",
+        "file": "voice/BGV_saki_h003a.ogg"
       }
     },
     {
@@ -2367,6 +2775,10 @@
       "bg": {
         "label": "#EV053・喘ぎ2・アヘ顔・深く入れ・精液たれ",
         "file": "EV053_12"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_H003A",
+        "file": "voice/BGV_saki_h003a.ogg"
       }
     }
   ],
