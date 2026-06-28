@@ -159,7 +159,14 @@ export function parseScene(text: string, opts: { code: string; locale: Locale })
     //    （`_MANPU`/`_DEF`/`EFFECT`）専用で、build-scenes は `/^[0-9]/` のシーンのみ parse するため
     //    そもそも本関数には到達しない（→ smain_flow_guide.md §3.11 台帳）。
     if (tag === 'id') {
-      if (voiceRe.test(val)) pendingVoice = val
+      // 新しいボイスID = 新発話の確定的境界。直前のセリフが未クローズ「」でも quoteDepth を 0 に
+      // 戻す（`【speaker】` と同じ役割）。これをしないと、原データに閉じ「」」が欠けた箇所で
+      // quoteDepth が 0 に戻らず以降の行を無制限に吸収する（HU-42）。正規の複数行セリフは
+      // voice-id を跨がないため正常系では既に 0＝no-op。flush は後続の dialogue/narration 分岐が担う。
+      if (voiceRe.test(val)) {
+        pendingVoice = val
+        quoteDepth = 0
+      }
       // [id] BG_BLACK = 黒一色背景の表示制御（BG_BLACK.png は実アセット）。背景切替として
       // 扱い、ラベル #背景・黒一色 経由で解決させる。無視すると直前 CG が残る（HU-35）。
       else if (val === 'BG_BLACK') setBg(BLACK_BG_LABEL)
