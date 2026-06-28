@@ -1,8 +1,8 @@
 /**
- * FlowMap — React Flow（@xyflow/react）でルート分岐図を描画する。data/flow.json を読み、
- * カテゴリ別配色（category.ts の9分類）のノード／ラベル付きエッジ＋凡例（Legend）を表示。
- * 再生中シーン（usePlayer.scene）が属するノードを金枠でハイライトし、ストーリー進行と
- * 連動させる（prototype の highlightNode 相当）。
+ * FlowMap — React Flow（@xyflow/react）でルート分岐図を描画する。
+ * data/flow.json（arc 単位 CFG）を scenegraph で **1シーン=1ノード** に展開し、dagre で自動レイアウト、
+ * カテゴリ別配色（category.ts の9分類）の SceneNode／ラベル付きエッジ＋凡例（Legend）を表示する。
+ * 再生中シーン（usePlayer.scene）のノードを金枠でハイライトしてストーリー進行と連動させる。
  */
 import { useEffect, useMemo } from 'react'
 import {
@@ -17,84 +17,76 @@ import {
 } from '@xyflow/react'
 import '@xyflow/react/dist/style.css'
 import flowJson from '@data/flow.json'
-import { Flow, type Locale } from '@/pipeline/types'
+import sceneIndexJson from '@data/scene-index.json'
+import { Flow, SceneIndex } from '@/pipeline/types'
 import { usePlayer } from '@/store/player'
-import { findNodeIdByScene, toReactFlow } from './flow'
 import { CATEGORY_COLOR, type Category } from './category'
 import { Legend } from './Legend'
+import { SceneNode, type SceneNodeData } from './SceneNode'
+import { SCENE_SIZE, HUB_SIZE } from './nodeSize'
+import { buildSceneGraph, type SceneGraph, type SceneGraphNode } from './scenegraph'
+import { layoutGraph } from './layout'
 
 const flow = Flow.parse(flowJson)
-const base = toReactFlow(flow)
+const sceneIndex = SceneIndex.parse(sceneIndexJson)
 
-type NodeData = { label: string; category: Category }
+// 構造（ノード集合・エッジ）は locale 不変なので、レイアウトは一度だけ計算して使い回す。
+const baseGraph = buildSceneGraph(flow, sceneIndex, 'jp')
+const positions = layoutGraph(baseGraph, (n: SceneGraphNode) =>
+  n.kind === 'scene' ? SCENE_SIZE : HUB_SIZE,
+)
 
-function nodeStyle(category: Category, live: boolean): React.CSSProperties {
-  const color = CATEGORY_COLOR[category] ?? CATEGORY_COLOR.common
-  return {
-    background: 'linear-gradient(180deg,#222936,#1b202a)',
-    color: live ? '#fff3d6' : '#e7ecf3',
-    border: `1.5px solid ${live ? '#ffe6a6' : color}`,
-    borderRadius: 12,
-    padding: '8px 12px',
-    fontSize: 12,
-    fontWeight: 700,
-    width: 180,
-    whiteSpace: 'pre-line', // 選択肢ラベルの改行（◇…）を表示
-    textAlign: 'center',
-    boxShadow: live
-      ? '0 0 0 2.5px #ffd166, 0 0 26px 2px rgba(255,209,102,.6)'
-      : `0 0 0 1px ${color}33`,
-  }
+// nodeTypes はモジュールレベルで安定参照にする（毎レンダー再生成すると React Flow が警告）。
+const nodeTypes = { flowNode: SceneNode }
+
+function rfNodes(graph: SceneGraph, liveCode: string | null): Node<SceneNodeData>[] {
+  return graph.nodes.map((n) => ({
+    id: n.id,
+    type: 'flowNode',
+    position: positions.get(n.id) ?? { x: 0, y: 0 },
+    draggable: false,
+    data: {
+      kind: n.kind,
+      category: n.category,
+      seq: n.seq,
+      shortCode: n.shortCode,
+      title: n.title,
+      live: n.id === liveCode,
+    },
+  }))
 }
 
-// 選択肢メニュー（HU-18）をノードに可視化: オプションを「◇A／B」でラベル末尾に付す。
-// locale=cn では cn 文言（未抽出は jp）を使う。ノード見出し（n.data.label）は flow.json に cn が
-// 無いため jp のまま（構造ラベル）。
-const choicesById = new Map(flow.nodes.map((n) => [n.id, n.choices ?? []]))
-
-function choiceLabel(id: string, locale: Locale): string {
-  return (choicesById.get(id) ?? [])
-    .flatMap((c) => c.options.map((o) => (locale === 'cn' ? (o.cn ?? o.jp) : o.jp)))
-    .join('／')
+function rfEdges(graph: SceneGraph): Edge[] {
+  return graph.edges.map((e) => ({
+    id: e.id,
+    source: e.source,
+    target: e.target,
+    ...(e.label ? { label: e.label } : {}),
+    style: { stroke: '#3a4252', strokeWidth: 1.8 },
+    labelStyle: { fill: '#dfe6ef', fontSize: 11, fontWeight: 600 },
+    labelBgStyle: { fill: '#0e1117' },
+    labelBgPadding: [5, 3] as [number, number],
+    labelBgBorderRadius: 4,
+  }))
 }
-
-function rfNodes(liveId: string | null, locale: Locale): Node<NodeData>[] {
-  return base.nodes.map((n) => {
-    const choices = choiceLabel(n.id, locale)
-    const label = choices ? `${n.data.label}\n◇${choices}` : n.data.label
-    return {
-      id: n.id,
-      position: n.position,
-      data: { label, category: n.data.category },
-      style: nodeStyle(n.data.category, n.id === liveId),
-    }
-  })
-}
-
-const initialEdges: Edge[] = base.edges.map((e) => ({
-  id: e.id,
-  source: e.source,
-  target: e.target,
-  label: e.label,
-  style: { stroke: '#3a4252', strokeWidth: 2 },
-  labelStyle: { fill: '#dfe6ef', fontSize: 11, fontWeight: 600 },
-  labelBgStyle: { fill: '#0e1117' },
-  labelBgPadding: [5, 3],
-  labelBgBorderRadius: 4,
-}))
 
 export function FlowMap() {
   const sceneCode = usePlayer((s) => s.scene?.code ?? null)
   const locale = usePlayer((s) => s.locale)
-  const liveId = useMemo(() => (sceneCode ? findNodeIdByScene(flow, sceneCode) : null), [sceneCode])
 
-  const [nodes, setNodes, onNodesChange] = useNodesState<Node<NodeData>>(rfNodes(liveId, locale))
-  const [edges, , onEdgesChange] = useEdgesState<Edge>(initialEdges)
+  // 見出しは locale 依存（ノード/エッジ構造は不変）。
+  const graph = useMemo(() => buildSceneGraph(flow, sceneIndex, locale), [locale])
 
-  // 再生中シーンの変化／言語切替で、該当ノードのハイライトと選択肢ラベルを更新。
+  const [nodes, setNodes, onNodesChange] = useNodesState<Node<SceneNodeData>>(
+    rfNodes(graph, sceneCode),
+  )
+  const [edges, setEdges, onEdgesChange] = useEdgesState<Edge>(rfEdges(graph))
+
+  // 再生中シーンの変化／言語切替で、ノード（ハイライト・見出し）とエッジ（ラベル）を更新。
   useEffect(() => {
-    setNodes(rfNodes(liveId, locale))
-  }, [liveId, locale, setNodes])
+    setNodes(rfNodes(graph, sceneCode))
+    setEdges(rfEdges(graph))
+  }, [graph, sceneCode, setNodes, setEdges])
 
   return (
     <div style={{ width: '100%', height: '100%', position: 'relative' }}>
@@ -113,10 +105,11 @@ export function FlowMap() {
       <ReactFlow
         nodes={nodes}
         edges={edges}
+        nodeTypes={nodeTypes}
         onNodesChange={onNodesChange}
         onEdgesChange={onEdgesChange}
         nodesDraggable={false}
-        minZoom={0.2}
+        minZoom={0.03}
         fitView
         proOptions={{ hideAttribution: true }}
         style={{ background: '#13161c' }}
@@ -125,7 +118,9 @@ export function FlowMap() {
         <MiniMap
           pannable
           zoomable
-          nodeColor={(n) => CATEGORY_COLOR[(n.data as NodeData).category] ?? CATEGORY_COLOR.common}
+          nodeColor={(n) =>
+            CATEGORY_COLOR[(n.data as SceneNodeData).category as Category] ?? CATEGORY_COLOR.common
+          }
           maskColor="rgba(19,22,28,.7)"
         />
         <Controls />

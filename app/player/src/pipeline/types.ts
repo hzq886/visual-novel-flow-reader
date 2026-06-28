@@ -105,6 +105,11 @@ export const Scene = z.object({
 })
 export type Scene = z.infer<typeof Scene>
 
+// シーン見出し索引（build-scene-index が生成）。シーンコード → 生 title（locale 別、`\N` 区切り）。
+// フロー図のシーンノード見出し（ひと言概要）専用の軽量索引（beats を含めない）。
+export const SceneIndex = z.record(z.string(), z.object({ jp: z.string(), cn: z.string() }))
+export type SceneIndex = z.infer<typeof SceneIndex>
+
 // ---- フロー（ルート分岐グラフ）----
 export const FlowNodeKind = z.enum(['start', 'arc', 'branch', 'end', 'omake'])
 export type FlowNodeKind = z.infer<typeof FlowNodeKind>
