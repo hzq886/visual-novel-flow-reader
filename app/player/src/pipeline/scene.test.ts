@@ -360,6 +360,41 @@ describe('parseScene — [id] EFFECT:FLASHn を画面フラッシュとして反
   })
 })
 
+describe('parseScene — メタ系 [id] マーカーは無視（HU-40 仕分けの回帰ガード）', () => {
+  it('_VIEW / _START / 後続 CG コード / コロン命令は beat の bg/sprite/se/bgv/flash を変えない', () => {
+    const text = [
+      '[note] #背景・部屋',
+      '[text] 本文。',
+      '[id] _VIEW', // CG ギャラリー登録メタ
+      '[id] 002_ayan004B_01_02', // _VIEW 後続のギャラリー CG コード
+      '[id] _START', // 複合シーン開始印
+      '[id] GRA:BG_RED', // 演出マクロ表専用（本来本編には来ないが来ても無害）
+      '[id] MUSIC:3', // 同上
+      '[text] 続く本文。',
+    ].join('\n')
+    const s = parseScene(text, { code: '002_AYAN004B', locale: 'jp' })
+    // 全行が同一 narration beat に集約され、bg は #背景・部屋 のまま。余計な beat/参照は生まれない。
+    expect(s.beats).toHaveLength(1)
+    const b = s.beats[0]
+    expect(b.kind).toBe('narration')
+    expect(b.bg?.label).toBe('#背景・部屋')
+    expect(b.lines).toEqual(['本文。', '続く本文。'])
+    expect(b.sprite).toBeUndefined()
+    expect(b.se).toBeUndefined()
+    expect(b.bgv).toBeUndefined()
+    expect(b.flash).toBeUndefined()
+  })
+
+  it('MIX01 は無視（既定クロスフェードで表現）＝ bg を設定しない', () => {
+    const s = parseScene('[note] #背景・部屋\n[text] Ａ。\n[id] MIX01\n[text] Ｂ。', {
+      code: '002_AYAN004B',
+      locale: 'jp',
+    })
+    expect(s.beats).toHaveLength(1)
+    expect(s.beats[0].bg?.label).toBe('#背景・部屋')
+  })
+})
+
 describe('parseScene — 制御残骸（PUA/デコード失敗）の除去とタイトルカード復元', () => {
   const PUA = '\uf8f3' // U+F8F3「⬚」= 原データ抽出時のゴミ文字
   it('冒頭のゴミヘッダ（PUA＋単独文字）を捨て、直後のタイトルカードを title にする', () => {
