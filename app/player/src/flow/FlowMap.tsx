@@ -1,7 +1,8 @@
 /**
  * FlowMap — React Flow（@xyflow/react）でルート分岐図を描画する。data/flow.json を読み、
- * キャラ別配色のノード／ラベル付きエッジを表示。再生中シーン（usePlayer.scene）が属する
- * ノードを金枠でハイライトし、ストーリー進行と連動させる（prototype の highlightNode 相当）。
+ * カテゴリ別配色（category.ts の9分類）のノード／ラベル付きエッジ＋凡例（Legend）を表示。
+ * 再生中シーン（usePlayer.scene）が属するノードを金枠でハイライトし、ストーリー進行と
+ * 連動させる（prototype の highlightNode 相当）。
  */
 import { useEffect, useMemo } from 'react'
 import {
@@ -18,15 +19,17 @@ import '@xyflow/react/dist/style.css'
 import flowJson from '@data/flow.json'
 import { Flow, type Locale } from '@/pipeline/types'
 import { usePlayer } from '@/store/player'
-import { CHARACTER_COLOR, findNodeIdByScene, toReactFlow } from './flow'
+import { findNodeIdByScene, toReactFlow } from './flow'
+import { CATEGORY_COLOR, type Category } from './category'
+import { Legend } from './Legend'
 
 const flow = Flow.parse(flowJson)
 const base = toReactFlow(flow)
 
-type NodeData = { label: string; character: string }
+type NodeData = { label: string; category: Category }
 
-function nodeStyle(character: string, live: boolean): React.CSSProperties {
-  const color = CHARACTER_COLOR[character] ?? CHARACTER_COLOR.common
+function nodeStyle(category: Category, live: boolean): React.CSSProperties {
+  const color = CATEGORY_COLOR[category] ?? CATEGORY_COLOR.common
   return {
     background: 'linear-gradient(180deg,#222936,#1b202a)',
     color: live ? '#fff3d6' : '#e7ecf3',
@@ -62,8 +65,8 @@ function rfNodes(liveId: string | null, locale: Locale): Node<NodeData>[] {
     return {
       id: n.id,
       position: n.position,
-      data: { label, character: n.data.character },
-      style: nodeStyle(n.data.character, n.id === liveId),
+      data: { label, category: n.data.category },
+      style: nodeStyle(n.data.category, n.id === liveId),
     }
   })
 }
@@ -94,7 +97,19 @@ export function FlowMap() {
   }, [liveId, locale, setNodes])
 
   return (
-    <div style={{ width: '100%', height: '100%' }}>
+    <div style={{ width: '100%', height: '100%', position: 'relative' }}>
+      <div
+        style={{
+          position: 'absolute',
+          top: 14,
+          left: '50%',
+          transform: 'translateX(-50%)',
+          zIndex: 5,
+          maxWidth: 'calc(100% - 28px)',
+        }}
+      >
+        <Legend />
+      </div>
       <ReactFlow
         nodes={nodes}
         edges={edges}
@@ -110,9 +125,7 @@ export function FlowMap() {
         <MiniMap
           pannable
           zoomable
-          nodeColor={(n) =>
-            CHARACTER_COLOR[(n.data as NodeData).character] ?? CHARACTER_COLOR.common
-          }
+          nodeColor={(n) => CATEGORY_COLOR[(n.data as NodeData).category] ?? CATEGORY_COLOR.common}
           maskColor="rgba(19,22,28,.7)"
         />
         <Controls />

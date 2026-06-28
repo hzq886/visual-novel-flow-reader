@@ -4,19 +4,7 @@
  * 再生中シーンコードから対応ノードを引く（連動ハイライト用）。描画は FlowMap.tsx。
  */
 import type { Flow } from '@/pipeline/types'
-
-/** キャラ/種別 → 色。route_map.html の COL を移植。 */
-export const CHARACTER_COLOR: Record<string, string> = {
-  common: '#7b8696',
-  ayan: '#e07a93',
-  suzu: '#6f93e0',
-  tuba: '#3fb6ad',
-  mako: '#b08ae8',
-  kaede: '#e0a94f',
-  branch: '#e9c07a',
-  end: '#ffd166',
-  omake: '#5d6571',
-}
+import { categoryOfNode, type Category } from './category'
 
 /**
  * シーンコードを内包するノードの id を返す（連動ハイライトの所有者特定）。
@@ -32,7 +20,7 @@ export function findNodeIdByScene(flow: Flow, code: string): string | null {
 export interface RfNode {
   id: string
   position: { x: number; y: number }
-  data: { label: string; character: string; kind: string }
+  data: { label: string; category: Category; kind: string }
 }
 
 export interface RfEdge {
@@ -49,7 +37,7 @@ export function toReactFlow(flow: Flow): { nodes: RfNode[]; edges: RfEdge[] } {
     position: { x: n.pos?.x ?? 0, y: n.pos?.y ?? 0 },
     data: {
       label: n.icon ? `${n.icon} ${n.title}` : n.title,
-      character: n.character,
+      category: categoryOfNode(n),
       kind: n.kind,
     },
   }))
