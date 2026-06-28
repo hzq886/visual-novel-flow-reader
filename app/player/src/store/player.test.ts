@@ -203,13 +203,18 @@ describe('言語切替 — setLocale（jp⇄cn）', () => {
   })
 
   it('cn の方が beats が少ないシーンでは index を末尾へクランプする', async () => {
-    const jp = await loadScene('002_AYAN010B', 'jp') // jp=180 / cn=57 beats
+    // 002_AYAN007B は cn 訳が jp より僅かに短い（jp=149 / cn=147）。jp の末尾に居る状態で cn へ
+    // 切替えると、cn に存在しない index は cn 末尾へクランプされる。件数はハードコードせず動的に検証。
+    const jp = await loadScene('002_AYAN007B', 'jp')
     usePlayer.getState().load(jp)
-    usePlayer.getState().goto(100)
+    const jpLast = jp.beats.length - 1
+    usePlayer.getState().goto(jpLast)
     await usePlayer.getState().setLocale('cn')
     const st = usePlayer.getState()
     expect(st.locale).toBe('cn')
-    expect(st.index).toBe((st.scene?.beats.length ?? 0) - 1)
-    expect(st.index).toBeLessThan(100)
+    const cnLen = st.scene?.beats.length ?? 0
+    expect(cnLen).toBeLessThan(jp.beats.length) // cn は jp より短い（クランプ前提）
+    expect(st.index).toBe(cnLen - 1) // cn 末尾へクランプ
+    expect(st.index).toBeLessThan(jpLast)
   })
 })
