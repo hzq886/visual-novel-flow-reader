@@ -116,8 +116,17 @@ export function resolveSprite(table: SprsetTable, note: string): SpriteRef {
   return ref
 }
 
+// `#` を持たない bare CG コード（例 ITEM_03_01）= [id] 直書きで指定される CG。
+// _BGSET ラベルを介さず id がそのまま CG ファイルコードになる（HU-41）。
+const DIRECT_CG_CODE = /^[A-Z0-9_]+$/
+
 /** シーンの背景 note（"#背景・喫茶店（夕）"）を BgRef へ解決。 */
 export function resolveBg(table: BgsetTable, note: string): BgRef {
   const label = note.trim()
-  return { label, file: table[label] ?? null }
+  if (label in table) return { label, file: table[label] }
+  // bgset 未登録でも、`#` の無い bare CG コードはそのまま file として通す（[id] 直書きの
+  // ITEM_* など。将来 GRA: の直 CG 指定にも適用可能）。`#` 付き note の未解決は従来通り
+  // file=null（validate が検出）。
+  if (DIRECT_CG_CODE.test(label)) return { label, file: label }
+  return { label, file: null }
 }
