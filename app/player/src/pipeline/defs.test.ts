@@ -40,6 +40,15 @@ describe('parseSprset', () => {
     const table = parseSprset(SPRSET)
     expect(table['透明'].face['・']).toEqual(['_101_01', 0, 0])
   })
+
+  it('[id] PARTS:/PARTS2: は無視され、エントリは code/body/face のみ（HU-39）', () => {
+    // 本作はパーツ層を定義しない（_SPRSET の PARTS は常に空のブロック終端）。
+    const table = parseSprset(SPRSET)
+    expect(Object.keys(table['綾菜（中）・通常１（夕）']).sort()).toEqual(['body', 'code', 'face'])
+    // PARTS 行が誤って prefix 等として取り込まれていない。
+    expect(table['PARTS']).toBeUndefined()
+    expect(table['PARTS2']).toBeUndefined()
+  })
 })
 
 describe('parseBgset', () => {
