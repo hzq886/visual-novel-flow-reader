@@ -80,4 +80,11 @@ describe('resolution (acceptance)', () => {
     ).toEqual({ label: '存在しない・通常１（夕）・私服０２・にっこり１', body: null, face: null })
     expect(resolveBg(parseBgset(BGSET), '#背景・存在しない').file).toBeNull()
   })
+
+  it('bgset 未登録でも bare CG コード（ITEM_*）はそのまま file として通す（HU-41）', () => {
+    const table = parseBgset(BGSET)
+    expect(resolveBg(table, 'ITEM_03_01')).toEqual({ label: 'ITEM_03_01', file: 'ITEM_03_01' })
+    // `#` 付き note は従来通り未解決（null）＝ validate が検出できる。
+    expect(resolveBg(table, '#背景・存在しない').file).toBeNull()
+  })
 })

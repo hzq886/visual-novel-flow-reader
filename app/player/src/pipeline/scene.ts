@@ -133,6 +133,10 @@ export function parseScene(text: string, opts: { code: string; locale: Locale })
       else if (val === 'BG_BLACK') setBg(BLACK_BG_LABEL)
       // [id] OFF = 立ち絵オフ。無視すると直前の立ち絵が残り続ける（HU-36）。
       else if (val === 'OFF') clearSprite()
+      // [id] ITEM_xx_yy = アイテムCG（全画面クローズアップ）。_BGSET ラベルを介さず id が
+      // そのまま CG ファイルコード。背景切替として扱う（resolveBg の直CGフォールバックで解決）。
+      // 無視すると直前 CG が残る（HU-41）。
+      else if (/^ITEM_\d+_\d+$/.test(val)) setBg(val)
       // 効果音コード（4桁+英字）。現 beat があればそこへ、無ければ次 beat へ持ち越す。
       else if (SE_RE.test(val)) {
         if (cur) (cur.se ??= []).push({ code: val, file: null })

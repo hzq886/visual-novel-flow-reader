@@ -277,6 +277,31 @@ describe('parseScene — [id] OFF で立ち絵をオフにする（HU-36）', ()
   })
 })
 
+describe('parseScene — [id] ITEM_* をアイテムCG（背景）として反映（HU-41）', () => {
+  it('[id] ITEM_xx_yy で bg ラベルが当該 CG コードになる', () => {
+    // 001_PRO001B 相当: ITEM の直後に説明の地の文が続く。
+    const text = [
+      '[note] #背景・部屋',
+      '[text] 直前の地の文。',
+      '[id] ITEM_03_01',
+      '[text] そうして渡そうとしたのは、赤い傘だった。',
+    ].join('\n')
+    const s = parseScene(text, { code: '001_PRO001B', locale: 'jp' })
+    expect(s.beats.map((b) => ({ bg: b.bg?.label ?? null, n: b.lines.length }))).toEqual([
+      { bg: '#背景・部屋', n: 1 },
+      { bg: 'ITEM_03_01', n: 1 }, // アイテムCGへ切替（次 bg まで持続）
+    ])
+  })
+
+  it('ITEM コードはパース時 file=null（解決は resolveBg のフォールバックが担う）', () => {
+    const s = parseScene('[id] ITEM_11_02\n[text] 壁の器具。', {
+      code: '005_MAKO013C',
+      locale: 'jp',
+    })
+    expect(s.beats[0].bg).toEqual({ label: 'ITEM_11_02', file: null })
+  })
+})
+
 describe('parseScene — 制御残骸（PUA/デコード失敗）の除去とタイトルカード復元', () => {
   const PUA = '\uf8f3' // U+F8F3「⬚」= 原データ抽出時のゴミ文字
   it('冒頭のゴミヘッダ（PUA＋単独文字）を捨て、直後のタイトルカードを title にする', () => {
