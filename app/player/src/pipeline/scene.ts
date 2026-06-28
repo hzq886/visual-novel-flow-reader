@@ -100,6 +100,13 @@ export function parseScene(text: string, opts: { code: string; locale: Locale })
     if (cur?.kind === 'narration') flush()
     stickySprite = { label, body: null, face: null }
   }
+  // 立ち絵オフ（[id] OFF）。sticky を消すと以降の beat は sprite 無し＝エンジンが自動で
+  // 立ち絵を隠す（Stage は beat.sprite が無ければ sprite.hide()）。bg には触れない（HU-36）。
+  const clearSprite = () => {
+    if (stickySprite === undefined) return
+    if (cur?.kind === 'narration') flush()
+    stickySprite = undefined
+  }
 
   for (const rawLine of text.split(/\r?\n/)) {
     const m = /^\[(text|id|note|cn|ascii|jp)\]\s?(.*)$/.exec(rawLine)
@@ -124,6 +131,8 @@ export function parseScene(text: string, opts: { code: string; locale: Locale })
       // [id] BG_BLACK = 黒一色背景の表示制御（BG_BLACK.png は実アセット）。背景切替として
       // 扱い、ラベル #背景・黒一色 経由で解決させる。無視すると直前 CG が残る（HU-35）。
       else if (val === 'BG_BLACK') setBg(BLACK_BG_LABEL)
+      // [id] OFF = 立ち絵オフ。無視すると直前の立ち絵が残り続ける（HU-36）。
+      else if (val === 'OFF') clearSprite()
       // 効果音コード（4桁+英字）。現 beat があればそこへ、無ければ次 beat へ持ち越す。
       else if (SE_RE.test(val)) {
         if (cur) (cur.se ??= []).push({ code: val, file: null })

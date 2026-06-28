@@ -234,6 +234,49 @@ describe('parseScene — [id] BG_BLACK を黒一色背景として反映（HU-35
   })
 })
 
+describe('parseScene — [id] OFF で立ち絵をオフにする（HU-36）', () => {
+  it('OFF 以降の narration beat は sprite が無くなる（bg は維持）', () => {
+    const text = [
+      '[note] #背景・部屋',
+      '[note] #綾菜・通常',
+      '[text] 立ち絵ありの地の文。',
+      '[id] OFF',
+      '[text] 立ち絵オフの地の文。',
+    ].join('\n')
+    const s = parseScene(text, { code: '999_TEST001A', locale: 'jp' })
+    expect(
+      s.beats.map((b) => ({ bg: b.bg?.label ?? null, sprite: b.sprite?.label ?? null })),
+    ).toEqual([
+      { bg: '#背景・部屋', sprite: '#綾菜・通常' },
+      { bg: '#背景・部屋', sprite: null }, // OFF で立ち絵オフ・bg は維持
+    ])
+  })
+
+  it('OFF 後に新しい立ち絵 note が来れば再設定される', () => {
+    const text = [
+      '[note] #綾菜・通常',
+      '[text] Ａ。',
+      '[id] OFF',
+      '[text] Ｂ。',
+      '[note] #涼菜・通常',
+      '[text] Ｃ。',
+    ].join('\n')
+    const s = parseScene(text, { code: '999_TEST001A', locale: 'jp' })
+    expect(s.beats.map((b) => b.sprite?.label ?? null)).toEqual([
+      '#綾菜・通常',
+      null,
+      '#涼菜・通常',
+    ])
+  })
+
+  it('立ち絵が無い状態の OFF は余計な beat 分割をしない（no-op）', () => {
+    const text = ['[note] #背景・部屋', '[text] Ａ。', '[id] OFF', '[text] Ｂ。'].join('\n')
+    const s = parseScene(text, { code: '999_TEST001A', locale: 'jp' })
+    expect(s.beats).toHaveLength(1)
+    expect(s.beats[0].lines).toEqual(['Ａ。', 'Ｂ。'])
+  })
+})
+
 describe('parseScene — 制御残骸（PUA/デコード失敗）の除去とタイトルカード復元', () => {
   const PUA = '\uf8f3' // U+F8F3「⬚」= 原データ抽出時のゴミ文字
   it('冒頭のゴミヘッダ（PUA＋単独文字）を捨て、直後のタイトルカードを title にする', () => {
