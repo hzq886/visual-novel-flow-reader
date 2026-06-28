@@ -19,6 +19,9 @@ export class AudioManager {
   private seCache = new Map<string, Howl>()
   private bgm: Howl | null = null
   private bgmUrl: string | null = null
+  private bgvCache = new Map<string, Howl>()
+  private bgv: Howl | null = null
+  private bgvUrl: string | null = null
 
   /** AudioContext が suspended なら resume してから cb を実行（ユーザー操作スタック内で呼ぶ）。 */
   private withContext(cb: () => void): void {
@@ -89,6 +92,37 @@ export class AudioManager {
     this.bgmUrl = null
   }
 
+  /**
+   * 背景ボイス（喘ぎ等のループ音声）を再生。単一チャンネルで、別 URL なら前を停止して切替、
+   * 同一 URL なら継続（no-op）。シーン内で次の BGV まで持続し、シーン離脱で停止する（HU-37）。
+   */
+  playBgv(url: string): void {
+    if (url === this.bgvUrl) return
+    this.bgv?.stop()
+    let howl = this.bgvCache.get(url)
+    if (!howl) {
+      howl = new Howl({ src: [url], loop: true, preload: true })
+      this.bgvCache.set(url, howl)
+    }
+    this.bgv = howl
+    this.bgvUrl = url
+    const target = howl
+    const start = () => {
+      if (this.bgv === target) target.play()
+    }
+    this.withContext(() => {
+      if (target.state() === 'loaded') start()
+      else target.once('load', start)
+    })
+  }
+
+  /** 背景ボイスを停止（シーン離脱・終端）。 */
+  stopBgv(): void {
+    this.bgv?.stop()
+    this.bgv = null
+    this.bgvUrl = null
+  }
+
   /** 効果音をワンショット再生（多重再生可）。同一 URL は Howl をキャッシュ。 */
   playSe(url: string): void {
     let howl = this.seCache.get(url)
@@ -103,9 +137,13 @@ export class AudioManager {
     })
   }
 
-  /** voice キャッシュを解放（シーン離脱時。次シードの voice は都度ロードし直す＝メモリを抱えない）。 */
+  /**
+   * voice キャッシュを解放（シーン離脱時。次シーンの voice は都度ロードし直す＝メモリを抱えない）。
+   * 背景ボイス（BGV）はシーン局所なのでここで停止する（ループはシーンを跨がない）。
+   */
   releaseVoices(): void {
     this.stopVoice()
+    this.stopBgv()
     for (const howl of this.voiceCache.values()) howl.unload()
     this.voiceCache.clear()
   }
@@ -113,12 +151,15 @@ export class AudioManager {
   /** 全 Howl を解放（Stage アンマウント時）。 */
   destroy(): void {
     this.stopVoice()
+    this.stopBgv()
     this.bgm?.stop()
     this.bgm = null
     this.bgmUrl = null
     for (const howl of this.voiceCache.values()) howl.unload()
     for (const howl of this.seCache.values()) howl.unload()
+    for (const howl of this.bgvCache.values()) howl.unload()
     this.voiceCache.clear()
     this.seCache.clear()
+    this.bgvCache.clear()
   }
 }

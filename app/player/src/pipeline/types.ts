@@ -68,6 +68,7 @@ export const NarrationBeat = z.object({
   bg: BgRef.optional(),
   sprite: SpriteRef.optional(),
   se: z.array(SeRef).optional(), // この beat で鳴らす効果音（ワンショット、複数可）
+  bgv: VoiceRef.optional(), // 背景ボイス（ループ）。bg/sprite 同様 sticky で持続（HU-37）
 })
 export type NarrationBeat = z.infer<typeof NarrationBeat>
 
@@ -79,6 +80,7 @@ export const LineBeat = z.object({
   bg: BgRef.optional(),
   sprite: SpriteRef.optional(),
   se: z.array(SeRef).optional(), // この beat で鳴らす効果音（ワンショット、複数可）
+  bgv: VoiceRef.optional(), // 背景ボイス（ループ）。bg/sprite 同様 sticky で持続（HU-37）
 })
 export type LineBeat = z.infer<typeof LineBeat>
 

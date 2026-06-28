@@ -21,7 +21,11 @@
       "lines": [
         "「んちゅ、ちゅ……んちゅ、ちゅく……んんっ、",
         "ちゅく、んちゅ……ちゅる……ちゅぷ」"
-      ]
+      ],
+      "bgv": {
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
+      }
     },
     {
       "kind": "narration",
@@ -29,7 +33,11 @@
         "唇を更に密着させると、強めに吸い付いた。",
         "いやらしい水音と共に、口いっぱいに翼の味が",
         "広がっていく。"
-      ]
+      ],
+      "bgv": {
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
+      }
     },
     {
       "kind": "line",
@@ -40,7 +48,11 @@
       },
       "lines": [
         "「ちゅ……んちゅ、ちゅく……ふぁ、んちゅ、んっ」"
-      ]
+      ],
+      "bgv": {
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
+      }
     },
     {
       "kind": "narration",
@@ -52,7 +64,11 @@
         "じっとりとしたキスは気持ちよくて、心地いい。",
         "だけど、昂った身体では、少し物足りないとも",
         "感じてしまう。"
-      ]
+      ],
+      "bgv": {
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
+      }
     },
     {
       "kind": "line",
@@ -63,7 +79,11 @@
       },
       "lines": [
         "「ちゅく、んふぁ……ちゅ、んんっ……ふはぁ……」"
-      ]
+      ],
+      "bgv": {
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
+      }
     },
     {
       "kind": "narration",
@@ -86,6 +106,10 @@
       "bg": {
         "label": "#EV010・虚ろ目うっとり・通常",
         "file": "EV010_05"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -97,6 +121,10 @@
       "bg": {
         "label": "#EV010・虚ろ目うっとり・通常",
         "file": "EV010_05"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -110,6 +138,10 @@
       "bg": {
         "label": "#EV010・虚ろ目うっとり・通常",
         "file": "EV010_05"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -125,6 +157,10 @@
       "bg": {
         "label": "#EV010・虚ろ目眉寄せ・通常・胸揉み",
         "file": "EV010_06"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -142,6 +178,10 @@
       "bg": {
         "label": "#EV010・虚ろ目眉寄せ・通常・胸揉み",
         "file": "EV010_06"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -158,6 +198,10 @@
       "bg": {
         "label": "#EV010・虚ろ目眉寄せ2・キス・胸揉み",
         "file": "EV010_07"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -172,6 +216,10 @@
       "bg": {
         "label": "#EV010・虚ろ目眉寄せ2・キス・胸揉み",
         "file": "EV010_07"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -187,6 +235,10 @@
       "bg": {
         "label": "#EV010・虚ろ目眉寄せ2・キス・胸揉み",
         "file": "EV010_07"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -205,6 +257,10 @@
       "bg": {
         "label": "#EV010・虚ろ目眉寄せ2・キス・胸揉み",
         "file": "EV010_07"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -221,6 +277,10 @@
       "bg": {
         "label": "#EV010・虚ろ目眉寄せ2・キス・胸揉み",
         "file": "EV010_07"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -239,6 +299,10 @@
       "bg": {
         "label": "#EV010・虚ろ目眉寄せ2・キス・胸揉み",
         "file": "EV010_07"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -254,6 +318,10 @@
       "bg": {
         "label": "#EV010・虚ろ目眉寄せ2・キス・胸揉み",
         "file": "EV010_07"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -272,6 +340,10 @@
       "bg": {
         "label": "#EV010・虚ろ目眉寄せ2・キス・胸揉み",
         "file": "EV010_07"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -287,6 +359,10 @@
       "bg": {
         "label": "#EV010・虚ろ目眉寄せ2・舌差し入れ・胸揉み",
         "file": "EV010_08"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -302,6 +378,10 @@
       "bg": {
         "label": "#EV010・虚ろ目眉寄せ2・舌差し入れ・胸揉み",
         "file": "EV010_08"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -318,6 +398,10 @@
       "bg": {
         "label": "#EV010・虚ろ目眉寄せ2・舌差し入れ・胸揉み",
         "file": "EV010_08"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -331,6 +415,10 @@
       "bg": {
         "label": "#EV010・虚ろ目眉寄せ2・舌差し入れ・胸揉み",
         "file": "EV010_08"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -343,6 +431,10 @@
       "bg": {
         "label": "#EV010・虚ろ目ぼんやり・通常・胸揉み",
         "file": "EV010_09"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -359,6 +451,10 @@
       "bg": {
         "label": "#EV010・虚ろ目ぼんやり・通常・胸揉み",
         "file": "EV010_09"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -369,6 +465,10 @@
       "bg": {
         "label": "#EV010・虚ろ目ぼんやり・通常・胸揉み",
         "file": "EV010_09"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -381,6 +481,10 @@
       "bg": {
         "label": "#EV010・虚ろ目ぼんやり・通常・胸揉み",
         "file": "EV010_09"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -397,6 +501,10 @@
       "bg": {
         "label": "#EV010・虚ろ目ぼんやり・通常・胸揉み",
         "file": "EV010_09"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -410,6 +518,10 @@
       "bg": {
         "label": "#EV010・虚ろ目ぼんやり・通常・胸揉み",
         "file": "EV010_09"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -426,6 +538,10 @@
       "bg": {
         "label": "#EV010・虚ろ目ぼんやり2・舌絡め・胸揉み",
         "file": "EV010_10"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -444,6 +560,10 @@
       "bg": {
         "label": "#EV010・虚ろ目ぼんやり2・舌絡め・胸揉み",
         "file": "EV010_10"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -459,6 +579,10 @@
       "bg": {
         "label": "#EV010・虚ろ目ぼんやり2・舌絡め・胸揉み",
         "file": "EV010_10"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -474,6 +598,10 @@
       "bg": {
         "label": "#EV010・虚ろ目ぼんやり2・舌絡め・胸揉み",
         "file": "EV010_10"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -489,6 +617,10 @@
       "bg": {
         "label": "#EV010・虚ろ目ぼんやり2・舌絡め・胸揉み",
         "file": "EV010_10"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -504,6 +636,10 @@
       "bg": {
         "label": "#EV010・虚ろ目ぼんやり2・舌絡め・胸揉み",
         "file": "EV010_10"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -520,6 +656,10 @@
       "bg": {
         "label": "#EV010・虚ろ目ぼんやり2・舌絡め・胸揉み",
         "file": "EV010_10"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -538,6 +678,10 @@
       "bg": {
         "label": "#EV010・虚ろ目ぼんやり2・舌絡め・胸揉み",
         "file": "EV010_10"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -553,6 +697,10 @@
       "bg": {
         "label": "#EV010・虚ろ目ぼんやり2・舌絡め・胸揉み",
         "file": "EV010_10"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -565,6 +713,10 @@
       "bg": {
         "label": "#EV010・虚ろ目ぼんやり2・舌絡め・胸揉み",
         "file": "EV010_10"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -580,6 +732,10 @@
       "bg": {
         "label": "#EV010・虚ろ目ぼんやり2・舌絡め・胸揉み",
         "file": "EV010_10"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -595,6 +751,10 @@
       "bg": {
         "label": "#EV010・虚ろ目ぼんやり2・舌絡め・胸揉み",
         "file": "EV010_10"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -611,6 +771,10 @@
       "bg": {
         "label": "#EV010・虚ろ目ぼんやり2・舌絡め・胸揉み",
         "file": "EV010_10"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -627,6 +791,10 @@
       "bg": {
         "label": "#EV010・虚ろ目ぼんやり2・舌絡め・胸揉み",
         "file": "EV010_10"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -643,6 +811,10 @@
       "bg": {
         "label": "#EV010・虚ろ目ぼんやり2・舌絡め・胸揉み",
         "file": "EV010_10"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -655,6 +827,10 @@
       "bg": {
         "label": "#EV010・虚ろ目ぼんやり2・舌絡め・胸揉み",
         "file": "EV010_10"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -671,6 +847,10 @@
       "bg": {
         "label": "#EV010・虚ろ目眉寄せ3・舌絡め・胸揉み",
         "file": "EV010_11"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -686,6 +866,10 @@
       "bg": {
         "label": "#EV010・虚ろ目眉寄せ3・舌絡め・胸揉み",
         "file": "EV010_11"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -702,6 +886,10 @@
       "bg": {
         "label": "#EV010・虚ろ目眉寄せ3・舌絡め・胸揉み",
         "file": "EV010_11"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -714,6 +902,10 @@
       "bg": {
         "label": "#EV010・虚ろ目眉寄せ3・舌絡め・胸揉み",
         "file": "EV010_11"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -730,6 +922,10 @@
       "bg": {
         "label": "#EV010・虚ろ目眉寄せ3・舌絡め・胸揉み",
         "file": "EV010_11"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -747,6 +943,10 @@
       "bg": {
         "label": "#EV010・虚ろ目眉寄せ3・舌絡め・胸揉み",
         "file": "EV010_11"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -763,6 +963,10 @@
       "bg": {
         "label": "#EV010・虚ろ目眉寄せ3・舌絡め・胸揉み",
         "file": "EV010_11"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -774,6 +978,10 @@
       "bg": {
         "label": "#EV010・虚ろ目眉寄せ3・舌絡め・胸揉み",
         "file": "EV010_11"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -790,6 +998,10 @@
       "bg": {
         "label": "#EV010・虚ろ目眉寄せ3・舌絡め・胸揉み",
         "file": "EV010_11"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -804,6 +1016,10 @@
       "bg": {
         "label": "#EV010・虚ろ目眉寄せ3・舌絡め・胸揉み",
         "file": "EV010_11"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -820,6 +1036,10 @@
       "bg": {
         "label": "#EV010・虚ろ目眉寄せ3・舌絡め・胸揉み",
         "file": "EV010_11"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -832,6 +1052,10 @@
       "bg": {
         "label": "#EV010・虚ろ目眉寄せ3・舌絡め・胸揉み",
         "file": "EV010_11"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -848,6 +1072,10 @@
       "bg": {
         "label": "#EV010・虚ろ目うっとり2・舌絡め・胸揉み",
         "file": "EV010_12"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -861,6 +1089,10 @@
       "bg": {
         "label": "#EV010・虚ろ目うっとり2・舌絡め・胸揉み",
         "file": "EV010_12"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -877,6 +1109,10 @@
       "bg": {
         "label": "#EV010・虚ろ目うっとり2・舌絡め・胸揉み",
         "file": "EV010_12"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -891,6 +1127,10 @@
       "bg": {
         "label": "#EV010・虚ろ目うっとり2・舌絡め・胸揉み",
         "file": "EV010_12"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -906,6 +1146,10 @@
       "bg": {
         "label": "#EV010・虚ろ目うっとり2・舌絡め・胸揉み",
         "file": "EV010_12"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -918,6 +1162,10 @@
       "bg": {
         "label": "#EV010・虚ろ目うっとり2・舌絡め・胸揉み",
         "file": "EV010_12"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -934,6 +1182,10 @@
       "bg": {
         "label": "#EV010・虚ろ目うっとり2・舌絡め・胸揉み",
         "file": "EV010_12"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -950,6 +1202,10 @@
       "bg": {
         "label": "#EV010・虚ろ目うっとり2・舌絡め・胸揉み",
         "file": "EV010_12"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -965,6 +1221,10 @@
       "bg": {
         "label": "#EV010・虚ろ目うっとり2・舌絡め・胸揉み",
         "file": "EV010_12"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -980,6 +1240,10 @@
       "bg": {
         "label": "#EV010・虚ろ目うっとり2・舌絡め・胸揉み",
         "file": "EV010_12"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -996,6 +1260,10 @@
       "bg": {
         "label": "#EV010・虚ろ目うっとり2・舌絡め・胸揉み",
         "file": "EV010_12"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -1014,6 +1282,10 @@
       "bg": {
         "label": "#EV010・虚ろ目うっとり2・舌絡め・胸揉み",
         "file": "EV010_12"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -1030,6 +1302,10 @@
       "bg": {
         "label": "#EV010・虚ろ目うっとり2・舌絡め・胸揉み",
         "file": "EV010_12"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -1043,6 +1319,10 @@
       "bg": {
         "label": "#EV010・虚ろ目うっとり2・舌絡め・胸揉み",
         "file": "EV010_12"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -1059,6 +1339,10 @@
       "bg": {
         "label": "#EV010・虚ろ目うっとり2・舌絡め・胸揉み",
         "file": "EV010_12"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -1070,6 +1354,10 @@
       "bg": {
         "label": "#EV010・虚ろ目うっとり2・舌絡め・胸揉み",
         "file": "EV010_12"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -1086,6 +1374,10 @@
       "bg": {
         "label": "#EV010・虚ろ目うっとり2・舌絡め・胸揉み",
         "file": "EV010_12"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -1108,7 +1400,11 @@
           "code": "8201B",
           "file": "se/8201b.ogg"
         }
-      ]
+      ],
+      "bgv": {
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
+      }
     },
     {
       "kind": "line",
@@ -1123,6 +1419,10 @@
       "bg": {
         "label": "#EV010・虚ろ目うっとり2・舌絡め・胸揉み",
         "file": "EV010_12"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -1138,6 +1438,10 @@
       "bg": {
         "label": "#EV010・虚ろ目うっとり2・舌絡め・胸揉み",
         "file": "EV010_12"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -1154,6 +1458,10 @@
       "bg": {
         "label": "#EV010・虚ろ目うっとり2・舌絡め・胸揉み",
         "file": "EV010_12"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -1166,6 +1474,10 @@
       "bg": {
         "label": "#EV010・虚ろ目うっとり2・舌絡め・胸揉み",
         "file": "EV010_12"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -1181,6 +1493,10 @@
       "bg": {
         "label": "#EV010・虚ろ目うっとり2・舌絡め・胸揉み",
         "file": "EV010_12"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -1197,6 +1513,10 @@
       "bg": {
         "label": "#EV010・虚ろ目うっとり2・舌絡め・胸揉み",
         "file": "EV010_12"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -1212,6 +1532,10 @@
       "bg": {
         "label": "#EV010・虚ろ目うっとり2・舌絡め・胸揉み",
         "file": "EV010_12"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -1225,6 +1549,10 @@
       "bg": {
         "label": "#EV010・虚ろ目うっとり2・舌絡め・胸揉み",
         "file": "EV010_12"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -1235,6 +1563,10 @@
       "bg": {
         "label": "#背景・黒一色",
         "file": "BG_BLACK"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -1259,6 +1591,10 @@
           319,
           102
         ]
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -1279,6 +1615,10 @@
           319,
           102
         ]
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -1299,6 +1639,10 @@
           319,
           102
         ]
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -1320,6 +1664,10 @@
           319,
           102
         ]
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -1341,6 +1689,10 @@
           319,
           102
         ]
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -1361,6 +1713,10 @@
           319,
           102
         ]
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -1382,6 +1738,10 @@
           319,
           102
         ]
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -1402,6 +1762,10 @@
           319,
           102
         ]
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -1422,6 +1786,10 @@
           319,
           102
         ]
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -1449,7 +1817,11 @@
           "code": "9001A",
           "file": "se/9001a.ogg"
         }
-      ]
+      ],
+      "bgv": {
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
+      }
     },
     {
       "kind": "narration",
@@ -1468,6 +1840,10 @@
           319,
           102
         ]
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -1488,6 +1864,10 @@
           331,
           70
         ]
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -1508,6 +1888,10 @@
           331,
           70
         ]
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -1535,6 +1919,10 @@
           331,
           70
         ]
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     }
   ],

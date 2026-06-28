@@ -478,6 +478,10 @@
           238,
           135
         ]
+      },
+      "bgv": {
+        "id": "BGV_SAKI_F001A",
+        "file": "voice/BGV_saki_f001a.ogg"
       }
     },
     {
@@ -497,6 +501,10 @@
           238,
           135
         ]
+      },
+      "bgv": {
+        "id": "BGV_SAKI_F001A",
+        "file": "voice/BGV_saki_f001a.ogg"
       }
     },
     {
@@ -512,6 +520,10 @@
       "bg": {
         "label": "#EV080・うっとり舌出し・眉寄せ舌出し・唾液",
         "file": "EV080_02"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_F001A",
+        "file": "voice/BGV_mako_f001a.ogg"
       }
     },
     {
@@ -524,6 +536,10 @@
       "bg": {
         "label": "#EV080・うっとり舌出し・眉寄せ舌出し・唾液",
         "file": "EV080_02"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_F001A",
+        "file": "voice/BGV_mako_f001a.ogg"
       }
     },
     {
@@ -540,6 +556,10 @@
       "bg": {
         "label": "#EV080・うっとり舌出し・眉寄せ舌出し・唾液",
         "file": "EV080_02"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_F001A",
+        "file": "voice/BGV_mako_f001a.ogg"
       }
     },
     {
@@ -556,6 +576,10 @@
       "bg": {
         "label": "#EV080・うっとり舌出し・眉寄せ舌出し・唾液",
         "file": "EV080_02"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_F001A",
+        "file": "voice/BGV_mako_f001a.ogg"
       }
     },
     {
@@ -568,6 +592,10 @@
       "bg": {
         "label": "#EV080・うっとり舌出し・眉寄せ舌出し・唾液",
         "file": "EV080_02"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_F001A",
+        "file": "voice/BGV_mako_f001a.ogg"
       }
     },
     {
@@ -584,6 +612,10 @@
       "bg": {
         "label": "#EV080・うっとり舌出し・眉寄せ舌出し・唾液",
         "file": "EV080_02"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_F001A",
+        "file": "voice/BGV_mako_f001a.ogg"
       }
     },
     {
@@ -595,6 +627,10 @@
       "bg": {
         "label": "#EV080・うっとり舌出し・眉寄せ舌出し・唾液",
         "file": "EV080_02"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_F001A",
+        "file": "voice/BGV_mako_f001a.ogg"
       }
     },
     {
@@ -611,6 +647,10 @@
       "bg": {
         "label": "#EV080・うっとり舌出し・眉寄せ舌出し・唾液",
         "file": "EV080_02"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_F001A",
+        "file": "voice/BGV_mako_f001a.ogg"
       }
     },
     {
@@ -622,6 +662,10 @@
       "bg": {
         "label": "#EV080・うっとり舌出し・眉寄せ舌出し・唾液",
         "file": "EV080_02"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_F001A",
+        "file": "voice/BGV_mako_f001a.ogg"
       }
     },
     {
@@ -638,6 +682,10 @@
       "bg": {
         "label": "#EV080・うっとり舌出し・眉寄せ舌出し・唾液",
         "file": "EV080_02"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_F001A",
+        "file": "voice/BGV_mako_f001a.ogg"
       }
     },
     {
@@ -654,6 +702,10 @@
       "bg": {
         "label": "#EV080・うっとり舌出し・眉寄せ舌出し・唾液",
         "file": "EV080_02"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_F001A",
+        "file": "voice/BGV_mako_f001a.ogg"
       }
     },
     {
@@ -666,6 +718,10 @@
       "bg": {
         "label": "#EV080・うっとり舌出し・眉寄せ舌出し・唾液",
         "file": "EV080_02"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_F001A",
+        "file": "voice/BGV_mako_f001a.ogg"
       }
     },
     {
@@ -682,6 +738,10 @@
       "bg": {
         "label": "#EV080・うっとり舌出し・眉寄せ舌出し・唾液",
         "file": "EV080_02"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_F001A",
+        "file": "voice/BGV_mako_f001a.ogg"
       }
     },
     {
@@ -697,6 +757,10 @@
       "bg": {
         "label": "#EV080・うっとり舌出し・眉寄せ舌出し・唾液",
         "file": "EV080_02"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_F001A",
+        "file": "voice/BGV_mako_f001a.ogg"
       }
     },
     {
@@ -709,6 +773,10 @@
       "bg": {
         "label": "#EV080・うっとり舌出し・眉寄せ舌出し・唾液",
         "file": "EV080_02"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_F001A",
+        "file": "voice/BGV_mako_f001a.ogg"
       }
     },
     {
@@ -724,6 +792,10 @@
       "bg": {
         "label": "#EV080・うっとり・眉寄せ舌出し・唾液",
         "file": "EV080_03"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_F001A",
+        "file": "voice/BGV_mako_f001a.ogg"
       }
     },
     {
@@ -734,6 +806,10 @@
       "bg": {
         "label": "#EV080・うっとり・眉寄せ舌出し・唾液",
         "file": "EV080_03"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_F001A",
+        "file": "voice/BGV_mako_f001a.ogg"
       }
     },
     {
@@ -745,6 +821,10 @@
       "bg": {
         "label": "#EV080・うっとり・眉寄せ舌出し・唾液",
         "file": "EV080_03"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_F001A",
+        "file": "voice/BGV_mako_f001a.ogg"
       }
     },
     {
@@ -761,6 +841,10 @@
       "bg": {
         "label": "#EV080・うっとり・眉寄せ舌出し・唾液",
         "file": "EV080_03"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_F001A",
+        "file": "voice/BGV_mako_f001a.ogg"
       }
     },
     {
@@ -772,6 +856,10 @@
       "bg": {
         "label": "#EV080・うっとり・眉寄せ舌出し・唾液",
         "file": "EV080_03"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_F001A",
+        "file": "voice/BGV_mako_f001a.ogg"
       }
     },
     {
@@ -787,6 +875,10 @@
       "bg": {
         "label": "#EV080・うっとり・眉寄せ舌出し・唾液",
         "file": "EV080_03"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_F001A",
+        "file": "voice/BGV_mako_f001a.ogg"
       }
     },
     {
@@ -799,6 +891,10 @@
       "bg": {
         "label": "#EV080・うっとり・眉寄せ舌出し・唾液",
         "file": "EV080_03"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_F001A",
+        "file": "voice/BGV_mako_f001a.ogg"
       }
     },
     {
@@ -815,6 +911,10 @@
       "bg": {
         "label": "#EV080・うっとり・眉寄せ舌出し・唾液",
         "file": "EV080_03"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_F001A",
+        "file": "voice/BGV_mako_f001a.ogg"
       }
     },
     {
@@ -825,6 +925,10 @@
       "bg": {
         "label": "#EV080・うっとり・眉寄せ舌出し・唾液",
         "file": "EV080_03"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_F001A",
+        "file": "voice/BGV_mako_f001a.ogg"
       }
     },
     {
@@ -841,6 +945,10 @@
       "bg": {
         "label": "#EV080・うっとり・眉寄せ舌出し・唾液",
         "file": "EV080_03"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_F001A",
+        "file": "voice/BGV_mako_f001a.ogg"
       }
     },
     {
@@ -852,6 +960,10 @@
       "bg": {
         "label": "#EV080・うっとり・眉寄せ舌出し・唾液",
         "file": "EV080_03"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_F001A",
+        "file": "voice/BGV_mako_f001a.ogg"
       }
     },
     {
@@ -868,6 +980,10 @@
       "bg": {
         "label": "#EV080・うっとり・眉寄せ舌出し・唾液",
         "file": "EV080_03"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_F001A",
+        "file": "voice/BGV_mako_f001a.ogg"
       }
     },
     {
@@ -880,6 +996,10 @@
       "bg": {
         "label": "#EV080・うっとり・眉寄せ舌出し・唾液",
         "file": "EV080_03"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_F001A",
+        "file": "voice/BGV_mako_f001a.ogg"
       }
     },
     {
@@ -896,6 +1016,10 @@
       "bg": {
         "label": "#EV080・うっとり・眉寄せ舌出し・唾液",
         "file": "EV080_03"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_F001A",
+        "file": "voice/BGV_mako_f001a.ogg"
       }
     },
     {
@@ -910,6 +1034,10 @@
       "bg": {
         "label": "#EV080・うっとり・眉寄せ舌出し・唾液",
         "file": "EV080_03"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_F001A",
+        "file": "voice/BGV_mako_f001a.ogg"
       }
     },
     {
@@ -926,6 +1054,10 @@
       "bg": {
         "label": "#EV080・うっとり・眉寄せ舌出し・唾液",
         "file": "EV080_03"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_F001A",
+        "file": "voice/BGV_mako_f001a.ogg"
       }
     },
     {
@@ -942,6 +1074,10 @@
       "bg": {
         "label": "#EV080・うっとり・眉寄せ舌出し・唾液",
         "file": "EV080_03"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_F001A",
+        "file": "voice/BGV_mako_f001a.ogg"
       }
     },
     {
@@ -954,6 +1090,10 @@
       "bg": {
         "label": "#EV080・うっとり・眉寄せ舌出し・唾液",
         "file": "EV080_03"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_F001A",
+        "file": "voice/BGV_mako_f001a.ogg"
       }
     },
     {
@@ -970,6 +1110,10 @@
       "bg": {
         "label": "#EV080・うっとり・眉寄せ舌出し・唾液",
         "file": "EV080_03"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_F001A",
+        "file": "voice/BGV_mako_f001a.ogg"
       }
     },
     {
@@ -985,6 +1129,10 @@
       "bg": {
         "label": "#EV080・うっとり・眉寄せ舌出し・唾液",
         "file": "EV080_03"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_F001A",
+        "file": "voice/BGV_mako_f001a.ogg"
       }
     },
     {
@@ -999,6 +1147,10 @@
       "bg": {
         "label": "#EV080・うっとり・眉寄せ舌出し・唾液",
         "file": "EV080_03"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_F001A",
+        "file": "voice/BGV_mako_f001a.ogg"
       }
     },
     {
@@ -1014,6 +1166,10 @@
       "bg": {
         "label": "#EV080・うっとり・眉寄せ舌出し・唾液",
         "file": "EV080_03"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_F001A",
+        "file": "voice/BGV_mako_f001a.ogg"
       }
     },
     {
@@ -1026,6 +1182,10 @@
       "bg": {
         "label": "#EV080・うっとり・眉寄せ舌出し・唾液",
         "file": "EV080_03"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_F001A",
+        "file": "voice/BGV_mako_f001a.ogg"
       }
     },
     {
@@ -1041,6 +1201,10 @@
       "bg": {
         "label": "#EV080・うっとり・眉寄せ舌出し・唾液",
         "file": "EV080_03"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_F001A",
+        "file": "voice/BGV_mako_f001a.ogg"
       }
     },
     {
@@ -1052,6 +1216,10 @@
       "bg": {
         "label": "#EV080・うっとり・眉寄せ舌出し・唾液",
         "file": "EV080_03"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_F001A",
+        "file": "voice/BGV_mako_f001a.ogg"
       }
     },
     {
@@ -1067,6 +1235,10 @@
       "bg": {
         "label": "#EV080・うっとり・眉寄せ舌出し・唾液",
         "file": "EV080_03"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_F001A",
+        "file": "voice/BGV_mako_f001a.ogg"
       }
     },
     {
@@ -1077,6 +1249,10 @@
       "bg": {
         "label": "#EV080・うっとり・眉寄せ舌出し・唾液",
         "file": "EV080_03"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_F001A",
+        "file": "voice/BGV_mako_f001a.ogg"
       }
     },
     {
@@ -1093,6 +1269,10 @@
       "bg": {
         "label": "#EV080・うっとり・眉寄せ舌出し・唾液",
         "file": "EV080_03"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_F001A",
+        "file": "voice/BGV_mako_f001a.ogg"
       }
     },
     {
@@ -1104,6 +1284,10 @@
       "bg": {
         "label": "#EV080・うっとり・眉寄せ舌出し・唾液",
         "file": "EV080_03"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_F001A",
+        "file": "voice/BGV_mako_f001a.ogg"
       }
     },
     {
@@ -1120,6 +1304,10 @@
       "bg": {
         "label": "#EV080・うっとり・眉寄せ舌出し・唾液",
         "file": "EV080_03"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_F001A",
+        "file": "voice/BGV_mako_f001a.ogg"
       }
     },
     {
@@ -1130,6 +1318,10 @@
       "bg": {
         "label": "#EV080・うっとり・眉寄せ舌出し・唾液",
         "file": "EV080_03"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_F001A",
+        "file": "voice/BGV_mako_f001a.ogg"
       }
     },
     {
@@ -1145,6 +1337,10 @@
       "bg": {
         "label": "#EV080・咥え舐め・切なげ舌出し・唾液",
         "file": "EV080_04"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_F002A",
+        "file": "voice/BGV_saki_f002a.ogg"
       }
     },
     {
@@ -1156,6 +1352,10 @@
       "bg": {
         "label": "#EV080・咥え舐め・切なげ舌出し・唾液",
         "file": "EV080_04"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_F002A",
+        "file": "voice/BGV_saki_f002a.ogg"
       }
     },
     {
@@ -1172,6 +1372,10 @@
       "bg": {
         "label": "#EV080・咥え舐め・切なげ舌出し・唾液",
         "file": "EV080_04"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_F002A",
+        "file": "voice/BGV_saki_f002a.ogg"
       }
     },
     {
@@ -1183,6 +1387,10 @@
       "bg": {
         "label": "#EV080・咥え舐め・切なげ舌出し・唾液",
         "file": "EV080_04"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_F002A",
+        "file": "voice/BGV_saki_f002a.ogg"
       }
     },
     {
@@ -1199,6 +1407,10 @@
       "bg": {
         "label": "#EV080・咥え舐め・切なげ舌出し・唾液",
         "file": "EV080_04"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_F002A",
+        "file": "voice/BGV_saki_f002a.ogg"
       }
     },
     {
@@ -1211,6 +1423,10 @@
       "bg": {
         "label": "#EV080・咥え舐め・切なげ舌出し・唾液",
         "file": "EV080_04"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_F002A",
+        "file": "voice/BGV_saki_f002a.ogg"
       }
     },
     {
@@ -1226,6 +1442,10 @@
       "bg": {
         "label": "#EV080・咥え舐め・切なげ舌出し・唾液",
         "file": "EV080_04"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_F002A",
+        "file": "voice/BGV_saki_f002a.ogg"
       }
     },
     {
@@ -1238,6 +1458,10 @@
       "bg": {
         "label": "#EV080・咥え舐め・切なげ舌出し・唾液",
         "file": "EV080_04"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_F002A",
+        "file": "voice/BGV_saki_f002a.ogg"
       }
     },
     {
@@ -1254,6 +1478,10 @@
       "bg": {
         "label": "#EV080・咥え舐め・切なげ舌出し・唾液",
         "file": "EV080_04"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_F002A",
+        "file": "voice/BGV_saki_f002a.ogg"
       }
     },
     {
@@ -1266,6 +1494,10 @@
       "bg": {
         "label": "#EV080・咥え舐め・切なげ舌出し・唾液",
         "file": "EV080_04"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_F002A",
+        "file": "voice/BGV_saki_f002a.ogg"
       }
     },
     {
@@ -1281,6 +1513,10 @@
       "bg": {
         "label": "#EV080・咥え舐め・切なげ舌出し・唾液",
         "file": "EV080_04"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_F002A",
+        "file": "voice/BGV_saki_f002a.ogg"
       }
     },
     {
@@ -1293,6 +1529,10 @@
       "bg": {
         "label": "#EV080・咥え舐め・切なげ舌出し・唾液",
         "file": "EV080_04"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_F002A",
+        "file": "voice/BGV_saki_f002a.ogg"
       }
     },
     {
@@ -1308,6 +1548,10 @@
       "bg": {
         "label": "#EV080・吸い付き咥え・切なげ舌出し・唾液",
         "file": "EV080_05"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_F002A",
+        "file": "voice/BGV_saki_f002a.ogg"
       }
     },
     {
@@ -1318,6 +1562,10 @@
       "bg": {
         "label": "#EV080・吸い付き咥え・切なげ舌出し・唾液",
         "file": "EV080_05"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_F002A",
+        "file": "voice/BGV_saki_f002a.ogg"
       }
     },
     {
@@ -1334,6 +1582,10 @@
       "bg": {
         "label": "#EV080・吸い付き咥え・切なげ舌出し・唾液",
         "file": "EV080_05"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_F002A",
+        "file": "voice/BGV_saki_f002a.ogg"
       }
     },
     {
@@ -1345,6 +1597,10 @@
       "bg": {
         "label": "#EV080・吸い付き咥え・切なげ舌出し・唾液",
         "file": "EV080_05"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_F002A",
+        "file": "voice/BGV_saki_f002a.ogg"
       }
     },
     {
@@ -1360,6 +1616,10 @@
       "bg": {
         "label": "#EV080・吸い付き咥え・切なげ舌出し・唾液",
         "file": "EV080_05"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_F002A",
+        "file": "voice/BGV_saki_f002a.ogg"
       }
     },
     {
@@ -1371,6 +1631,10 @@
       "bg": {
         "label": "#EV080・吸い付き咥え・切なげ舌出し・唾液",
         "file": "EV080_05"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_F002A",
+        "file": "voice/BGV_saki_f002a.ogg"
       }
     },
     {
@@ -1387,6 +1651,10 @@
       "bg": {
         "label": "#EV080・吸い付き咥え・切なげ舌出し・唾液",
         "file": "EV080_05"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_F002A",
+        "file": "voice/BGV_saki_f002a.ogg"
       }
     },
     {
@@ -1403,6 +1671,10 @@
       "bg": {
         "label": "#EV080・吸い付き咥え・切なげ舌出し・唾液",
         "file": "EV080_05"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_F002A",
+        "file": "voice/BGV_saki_f002a.ogg"
       }
     },
     {
@@ -1414,6 +1686,10 @@
       "bg": {
         "label": "#EV080・吸い付き咥え・切なげ舌出し・唾液",
         "file": "EV080_05"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_F002A",
+        "file": "voice/BGV_saki_f002a.ogg"
       }
     },
     {
@@ -1429,6 +1705,10 @@
       "bg": {
         "label": "#EV080・吸い付き咥え・切なげ舌出し・唾液",
         "file": "EV080_05"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_F002A",
+        "file": "voice/BGV_saki_f002a.ogg"
       }
     },
     {
@@ -1441,6 +1721,10 @@
       "bg": {
         "label": "#EV080・吸い付き咥え・切なげ舌出し・唾液",
         "file": "EV080_05"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_F002A",
+        "file": "voice/BGV_saki_f002a.ogg"
       }
     },
     {
@@ -1457,6 +1741,10 @@
       "bg": {
         "label": "#EV080・吸い付き咥え・切なげ舌出し・唾液",
         "file": "EV080_05"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_F002A",
+        "file": "voice/BGV_saki_f002a.ogg"
       }
     },
     {
@@ -1468,6 +1756,10 @@
       "bg": {
         "label": "#EV080・吸い付き咥え・切なげ舌出し・唾液",
         "file": "EV080_05"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_F002A",
+        "file": "voice/BGV_saki_f002a.ogg"
       }
     },
     {
@@ -1484,6 +1776,10 @@
       "bg": {
         "label": "#EV080・吸い付き咥え・切なげ舌出し・唾液",
         "file": "EV080_05"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_F002A",
+        "file": "voice/BGV_saki_f002a.ogg"
       }
     },
     {
@@ -1494,6 +1790,10 @@
       "bg": {
         "label": "#EV080・吸い付き咥え・切なげ舌出し・唾液",
         "file": "EV080_05"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_F002A",
+        "file": "voice/BGV_saki_f002a.ogg"
       }
     },
     {
@@ -1510,6 +1810,10 @@
       "bg": {
         "label": "#EV080・眉寄せ舌出し・うっとり咥え舐め・唾液",
         "file": "EV080_06"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_F002A",
+        "file": "voice/BGV_mako_f002a.ogg"
       }
     },
     {
@@ -1522,6 +1826,10 @@
       "bg": {
         "label": "#EV080・眉寄せ舌出し・うっとり咥え舐め・唾液",
         "file": "EV080_06"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_F002A",
+        "file": "voice/BGV_mako_f002a.ogg"
       }
     },
     {
@@ -1538,6 +1846,10 @@
       "bg": {
         "label": "#EV080・眉寄せ舌出し・うっとり咥え舐め・唾液",
         "file": "EV080_06"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_F002A",
+        "file": "voice/BGV_mako_f002a.ogg"
       }
     },
     {
@@ -1553,6 +1865,10 @@
       "bg": {
         "label": "#EV080・眉寄せ舌出し・うっとり咥え舐め・唾液",
         "file": "EV080_06"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_F002A",
+        "file": "voice/BGV_mako_f002a.ogg"
       }
     },
     {
@@ -1569,6 +1885,10 @@
       "bg": {
         "label": "#EV080・眉寄せ舌出し・うっとり咥え舐め・唾液",
         "file": "EV080_06"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_F002A",
+        "file": "voice/BGV_mako_f002a.ogg"
       }
     },
     {
@@ -1579,6 +1899,10 @@
       "bg": {
         "label": "#EV080・眉寄せ舌出し・うっとり咥え舐め・唾液",
         "file": "EV080_06"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_F002A",
+        "file": "voice/BGV_mako_f002a.ogg"
       }
     },
     {
@@ -1595,6 +1919,10 @@
       "bg": {
         "label": "#EV080・眉寄せ舌出し・うっとり咥え舐め・唾液",
         "file": "EV080_06"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_F002A",
+        "file": "voice/BGV_mako_f002a.ogg"
       }
     },
     {
@@ -1611,6 +1939,10 @@
       "bg": {
         "label": "#EV080・眉寄せ舌出し・うっとり咥え舐め・唾液",
         "file": "EV080_06"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_F002A",
+        "file": "voice/BGV_mako_f002a.ogg"
       }
     },
     {
@@ -1623,6 +1955,10 @@
       "bg": {
         "label": "#EV080・眉寄せ舌出し・うっとり咥え舐め・唾液",
         "file": "EV080_06"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_F002A",
+        "file": "voice/BGV_mako_f002a.ogg"
       }
     },
     {
@@ -1638,6 +1974,10 @@
       "bg": {
         "label": "#EV080・眉寄せ舌出し・うっとり咥え舐め・唾液",
         "file": "EV080_06"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_F002A",
+        "file": "voice/BGV_mako_f002a.ogg"
       }
     },
     {
@@ -1650,6 +1990,10 @@
       "bg": {
         "label": "#EV080・眉寄せ舌出し・うっとり咥え舐め・唾液",
         "file": "EV080_06"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_F002A",
+        "file": "voice/BGV_mako_f002a.ogg"
       }
     },
     {
@@ -1666,6 +2010,10 @@
       "bg": {
         "label": "#EV080・眉寄せ舌出し・うっとり咥え舐め・唾液",
         "file": "EV080_06"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_F002A",
+        "file": "voice/BGV_mako_f002a.ogg"
       }
     },
     {
@@ -1677,6 +2025,10 @@
       "bg": {
         "label": "#EV080・眉寄せ舌出し・うっとり咥え舐め・唾液",
         "file": "EV080_06"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_F002A",
+        "file": "voice/BGV_mako_f002a.ogg"
       }
     },
     {
@@ -1692,6 +2044,10 @@
       "bg": {
         "label": "#EV080・眉寄せ舌出し・うっとり咥え舐め・唾液",
         "file": "EV080_06"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_F002A",
+        "file": "voice/BGV_mako_f002a.ogg"
       }
     },
     {
@@ -1703,6 +2059,10 @@
       "bg": {
         "label": "#EV080・眉寄せ舌出し・うっとり咥え舐め・唾液",
         "file": "EV080_06"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_F002A",
+        "file": "voice/BGV_mako_f002a.ogg"
       }
     },
     {
@@ -1719,6 +2079,10 @@
       "bg": {
         "label": "#EV080・眉寄せ舌出し・うっとり咥え舐め・唾液",
         "file": "EV080_06"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_F002A",
+        "file": "voice/BGV_mako_f002a.ogg"
       }
     },
     {
@@ -1734,6 +2098,10 @@
       "bg": {
         "label": "#EV080・眉寄せ舌出し・うっとり咥え舐め・唾液",
         "file": "EV080_06"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_F002A",
+        "file": "voice/BGV_mako_f002a.ogg"
       }
     },
     {
@@ -1746,6 +2114,10 @@
       "bg": {
         "label": "#EV080・眉寄せ舌出し・うっとり咥え舐め・唾液",
         "file": "EV080_06"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_F002A",
+        "file": "voice/BGV_mako_f002a.ogg"
       }
     },
     {
@@ -1762,6 +2134,10 @@
       "bg": {
         "label": "#EV080・眉寄せ舌出し・うっとり咥え舐め・唾液",
         "file": "EV080_06"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_F002A",
+        "file": "voice/BGV_mako_f002a.ogg"
       }
     },
     {
@@ -1774,6 +2150,10 @@
       "bg": {
         "label": "#EV080・眉寄せ舌出し・うっとり咥え舐め・唾液",
         "file": "EV080_06"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_F002A",
+        "file": "voice/BGV_mako_f002a.ogg"
       }
     },
     {
@@ -1789,6 +2169,10 @@
       "bg": {
         "label": "#EV080・眉寄せ舌出し・うっとり咥え舐め・唾液",
         "file": "EV080_06"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_F002A",
+        "file": "voice/BGV_mako_f002a.ogg"
       }
     },
     {
@@ -1805,6 +2189,10 @@
       "bg": {
         "label": "#EV080・眉寄せ舌出し・吸い付き咥え・唾液",
         "file": "EV080_07"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_F003A",
+        "file": "voice/BGV_mako_f003a.ogg"
       }
     },
     {
@@ -1816,6 +2204,10 @@
       "bg": {
         "label": "#EV080・眉寄せ舌出し・吸い付き咥え・唾液",
         "file": "EV080_07"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_F003A",
+        "file": "voice/BGV_mako_f003a.ogg"
       }
     },
     {
@@ -1831,6 +2223,10 @@
       "bg": {
         "label": "#EV080・眉寄せ舌出し・吸い付き咥え・唾液",
         "file": "EV080_07"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_F003A",
+        "file": "voice/BGV_mako_f003a.ogg"
       }
     },
     {
@@ -1847,6 +2243,10 @@
       "bg": {
         "label": "#EV080・眉寄せ舌出し・吸い付き咥え・唾液",
         "file": "EV080_07"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_F003A",
+        "file": "voice/BGV_mako_f003a.ogg"
       }
     },
     {
@@ -1858,6 +2258,10 @@
       "bg": {
         "label": "#EV080・眉寄せ舌出し・吸い付き咥え・唾液",
         "file": "EV080_07"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_F003A",
+        "file": "voice/BGV_mako_f003a.ogg"
       }
     },
     {
@@ -1869,6 +2273,10 @@
       "bg": {
         "label": "#EV080・眉寄せ舌出し・吸い付き咥え・唾液",
         "file": "EV080_07"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_F003A",
+        "file": "voice/BGV_mako_f003a.ogg"
       }
     },
     {
@@ -1884,6 +2292,10 @@
       "bg": {
         "label": "#EV080・眉寄せ舌出し・吸い付き咥え・唾液",
         "file": "EV080_07"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_F003A",
+        "file": "voice/BGV_mako_f003a.ogg"
       }
     },
     {
@@ -1894,6 +2306,10 @@
       "bg": {
         "label": "#EV080・眉寄せ舌出し・吸い付き咥え・唾液",
         "file": "EV080_07"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_F003A",
+        "file": "voice/BGV_mako_f003a.ogg"
       }
     },
     {
@@ -1910,6 +2326,10 @@
       "bg": {
         "label": "#EV080・眉寄せ舌出し・吸い付き咥え・唾液",
         "file": "EV080_07"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_F003A",
+        "file": "voice/BGV_saki_f003a.ogg"
       }
     },
     {
@@ -1921,6 +2341,10 @@
       "bg": {
         "label": "#EV080・眉寄せ舌出し・吸い付き咥え・唾液",
         "file": "EV080_07"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_F003A",
+        "file": "voice/BGV_saki_f003a.ogg"
       }
     },
     {
@@ -1937,6 +2361,10 @@
       "bg": {
         "label": "#EV080・眉寄せ舌出し・吸い付き咥え・唾液",
         "file": "EV080_07"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_F003A",
+        "file": "voice/BGV_saki_f003a.ogg"
       }
     },
     {
@@ -1949,6 +2377,10 @@
       "bg": {
         "label": "#EV080・眉寄せ舌出し・吸い付き咥え・唾液",
         "file": "EV080_07"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_F003A",
+        "file": "voice/BGV_saki_f003a.ogg"
       }
     },
     {
@@ -1965,6 +2397,10 @@
       "bg": {
         "label": "#EV080・眉寄せ舌出し・吸い付き咥え・唾液",
         "file": "EV080_07"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_F003A",
+        "file": "voice/BGV_saki_f003a.ogg"
       }
     },
     {
@@ -1980,6 +2416,10 @@
       "bg": {
         "label": "#EV080・眉寄せ舌出し・吸い付き咥え・唾液",
         "file": "EV080_07"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_F003A",
+        "file": "voice/BGV_saki_f003a.ogg"
       }
     },
     {
@@ -1996,6 +2436,10 @@
       "bg": {
         "label": "#EV080・眉寄せ舌出し・吸い付き咥え・唾液",
         "file": "EV080_07"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_F003A",
+        "file": "voice/BGV_saki_f003a.ogg"
       }
     },
     {
@@ -2009,6 +2453,10 @@
       "bg": {
         "label": "#EV080・眉寄せ舌出し・吸い付き咥え・唾液",
         "file": "EV080_07"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_F003A",
+        "file": "voice/BGV_saki_f003a.ogg"
       }
     },
     {
@@ -2025,6 +2473,10 @@
       "bg": {
         "label": "#EV080・眉寄せ舌出し・吸い付き咥え・唾液",
         "file": "EV080_07"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_F003A",
+        "file": "voice/BGV_saki_f003a.ogg"
       }
     },
     {
@@ -2038,6 +2490,10 @@
       "bg": {
         "label": "#EV080・眉寄せ舌出し・吸い付き咥え・唾液",
         "file": "EV080_07"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_F003A",
+        "file": "voice/BGV_saki_f003a.ogg"
       }
     },
     {
@@ -2054,6 +2510,10 @@
       "bg": {
         "label": "#EV080・眉寄せ舌出し・吸い付き咥え・唾液",
         "file": "EV080_07"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_F003A",
+        "file": "voice/BGV_saki_f003a.ogg"
       }
     },
     {
@@ -2065,6 +2525,10 @@
       "bg": {
         "label": "#EV080・眉寄せ舌出し・吸い付き咥え・唾液",
         "file": "EV080_07"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_F003A",
+        "file": "voice/BGV_saki_f003a.ogg"
       }
     },
     {
@@ -2081,6 +2545,10 @@
       "bg": {
         "label": "#EV080・眉寄せ舌出し・吸い付き咥え・唾液",
         "file": "EV080_07"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_F003A",
+        "file": "voice/BGV_saki_f003a.ogg"
       }
     },
     {
@@ -2093,6 +2561,10 @@
       "bg": {
         "label": "#EV080・眉寄せ舌出し・吸い付き咥え・唾液",
         "file": "EV080_07"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_F003A",
+        "file": "voice/BGV_saki_f003a.ogg"
       }
     },
     {
@@ -2109,6 +2581,10 @@
       "bg": {
         "label": "#EV080・眉寄せ舌出し・吸い付き咥え・唾液",
         "file": "EV080_07"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_F003A",
+        "file": "voice/BGV_saki_f003a.ogg"
       }
     },
     {
@@ -2121,6 +2597,10 @@
       "bg": {
         "label": "#EV080・眉寄せ舌出し・吸い付き咥え・唾液",
         "file": "EV080_07"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_F003A",
+        "file": "voice/BGV_saki_f003a.ogg"
       }
     },
     {
@@ -2137,6 +2617,10 @@
       "bg": {
         "label": "#EV080・眉寄せ舌出し・吸い付き咥え・唾液",
         "file": "EV080_07"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_F003A",
+        "file": "voice/BGV_saki_f003a.ogg"
       }
     },
     {
@@ -2148,6 +2632,10 @@
       "bg": {
         "label": "#EV080・眉寄せ舌出し・吸い付き咥え・唾液",
         "file": "EV080_07"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_F003A",
+        "file": "voice/BGV_saki_f003a.ogg"
       }
     },
     {
@@ -2164,6 +2652,10 @@
       "bg": {
         "label": "#EV080・眉寄せ舌出し・吸い付き咥え・唾液",
         "file": "EV080_07"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_F003A",
+        "file": "voice/BGV_saki_f003a.ogg"
       }
     },
     {
@@ -2176,6 +2668,10 @@
       "bg": {
         "label": "#EV080・眉寄せ舌出し・吸い付き咥え・唾液",
         "file": "EV080_07"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_F003A",
+        "file": "voice/BGV_saki_f003a.ogg"
       }
     },
     {
@@ -2192,6 +2688,10 @@
       "bg": {
         "label": "#EV080・眉寄せ舌出し・吸い付き咥え・唾液",
         "file": "EV080_07"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_F003A",
+        "file": "voice/BGV_saki_f003a.ogg"
       }
     },
     {
@@ -2208,6 +2708,10 @@
       "bg": {
         "label": "#EV080・眉寄せ舌出し・吸い付き咥え・唾液",
         "file": "EV080_07"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_F003A",
+        "file": "voice/BGV_saki_f003a.ogg"
       }
     },
     {
@@ -2219,6 +2723,10 @@
       "bg": {
         "label": "#EV080・眉寄せ舌出し・吸い付き咥え・唾液",
         "file": "EV080_07"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_F003A",
+        "file": "voice/BGV_saki_f003a.ogg"
       }
     },
     {
@@ -2230,6 +2738,10 @@
       "bg": {
         "label": "#EV080・眉寄せ舌出し・吸い付き咥え・唾液",
         "file": "EV080_07"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_F003A",
+        "file": "voice/BGV_saki_f003a.ogg"
       }
     },
     {
@@ -2240,6 +2752,10 @@
       "bg": {
         "label": "#EV080・眉寄せ舌出し・吸い付き咥え・唾液",
         "file": "EV080_07"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_F003A",
+        "file": "voice/BGV_saki_f003a.ogg"
       }
     },
     {
@@ -2256,6 +2772,10 @@
       "bg": {
         "label": "#EV080・眉寄せ舌出し・吸い付き咥え・唾液",
         "file": "EV080_07"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_F003A",
+        "file": "voice/BGV_saki_f003a.ogg"
       }
     },
     {
@@ -2272,7 +2792,11 @@
           "code": "8201B",
           "file": "se/8201b.ogg"
         }
-      ]
+      ],
+      "bgv": {
+        "id": "BGV_SAKI_F003A",
+        "file": "voice/BGV_saki_f003a.ogg"
+      }
     },
     {
       "kind": "narration",
@@ -2284,6 +2808,10 @@
       "bg": {
         "label": "#EV080・吸い付き咥え・切なげ舌出し・精液",
         "file": "EV080_08"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_F003A",
+        "file": "voice/BGV_saki_f003a.ogg"
       }
     },
     {
@@ -2300,6 +2828,10 @@
       "bg": {
         "label": "#EV080・吸い付き咥え・切なげ舌出し・精液",
         "file": "EV080_08"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_F003A",
+        "file": "voice/BGV_saki_f003a.ogg"
       }
     },
     {
@@ -2311,6 +2843,10 @@
       "bg": {
         "label": "#EV080・吸い付き咥え・切なげ舌出し・精液",
         "file": "EV080_08"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_F003A",
+        "file": "voice/BGV_saki_f003a.ogg"
       }
     },
     {
@@ -2327,6 +2863,10 @@
       "bg": {
         "label": "#EV080・吸い付き咥え・切なげ舌出し・精液",
         "file": "EV080_08"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_F003A",
+        "file": "voice/BGV_saki_f003a.ogg"
       }
     },
     {
@@ -2338,6 +2878,10 @@
       "bg": {
         "label": "#EV080・吸い付き咥え・切なげ舌出し・精液",
         "file": "EV080_08"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_F003A",
+        "file": "voice/BGV_saki_f003a.ogg"
       }
     },
     {
@@ -2354,6 +2898,10 @@
       "bg": {
         "label": "#EV080・吸い付き咥え・切なげ舌出し・精液",
         "file": "EV080_08"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_F003A",
+        "file": "voice/BGV_saki_f003a.ogg"
       }
     },
     {
@@ -2365,6 +2913,10 @@
       "bg": {
         "label": "#EV080・吸い付き咥え・切なげ舌出し・精液",
         "file": "EV080_08"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_F003A",
+        "file": "voice/BGV_saki_f003a.ogg"
       }
     },
     {
@@ -2380,6 +2932,10 @@
       "bg": {
         "label": "#EV080・吸い付き咥え・切なげ舌出し・精液",
         "file": "EV080_08"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_F003A",
+        "file": "voice/BGV_saki_f003a.ogg"
       }
     },
     {
@@ -2391,6 +2947,10 @@
       "bg": {
         "label": "#EV080・吸い付き咥え・切なげ舌出し・精液",
         "file": "EV080_08"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_F003A",
+        "file": "voice/BGV_saki_f003a.ogg"
       }
     },
     {
@@ -2406,6 +2966,10 @@
       "bg": {
         "label": "#EV080・吸い付き咥え・切なげ舌出し・精液",
         "file": "EV080_08"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_F003A",
+        "file": "voice/BGV_saki_f003a.ogg"
       }
     },
     {
@@ -2420,6 +2984,10 @@
       "bg": {
         "label": "#EV080・吸い付き咥え・切なげ舌出し・精液",
         "file": "EV080_08"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_F003A",
+        "file": "voice/BGV_saki_f003a.ogg"
       }
     },
     {
@@ -2435,6 +3003,10 @@
       "bg": {
         "label": "#EV080・うっとり舌出し・切なげ舌出し・精液2",
         "file": "EV080_09"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_F003A",
+        "file": "voice/BGV_saki_f003a.ogg"
       }
     },
     {
@@ -2446,6 +3018,10 @@
       "bg": {
         "label": "#EV080・うっとり舌出し・切なげ舌出し・精液2",
         "file": "EV080_09"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_F003A",
+        "file": "voice/BGV_saki_f003a.ogg"
       }
     },
     {
@@ -2462,6 +3038,10 @@
       "bg": {
         "label": "#EV080・うっとり舌出し・切なげ舌出し・精液2",
         "file": "EV080_09"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_F003A",
+        "file": "voice/BGV_saki_f003a.ogg"
       }
     },
     {
@@ -2472,6 +3052,10 @@
       "bg": {
         "label": "#EV080・うっとり舌出し・切なげ舌出し・精液2",
         "file": "EV080_09"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_F003A",
+        "file": "voice/BGV_saki_f003a.ogg"
       }
     },
     {
@@ -2488,6 +3072,10 @@
       "bg": {
         "label": "#EV080・うっとり舌出し・切なげ舌出し・精液2",
         "file": "EV080_09"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_F003A",
+        "file": "voice/BGV_saki_f003a.ogg"
       }
     },
     {
@@ -2499,6 +3087,10 @@
       "bg": {
         "label": "#EV080・うっとり舌出し・切なげ舌出し・精液2",
         "file": "EV080_09"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_F003A",
+        "file": "voice/BGV_saki_f003a.ogg"
       }
     },
     {
@@ -2514,6 +3106,10 @@
       "bg": {
         "label": "#EV080・うっとり舌出し・切なげ舌出し・精液2",
         "file": "EV080_09"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_F003A",
+        "file": "voice/BGV_saki_f003a.ogg"
       }
     },
     {
@@ -2530,6 +3126,10 @@
       "bg": {
         "label": "#EV080・うっとり舌出し・切なげ舌出し・精液2",
         "file": "EV080_09"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_F003A",
+        "file": "voice/BGV_saki_f003a.ogg"
       }
     },
     {
@@ -2542,6 +3142,10 @@
       "bg": {
         "label": "#EV080・うっとり舌出し・切なげ舌出し・精液2",
         "file": "EV080_09"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_F003A",
+        "file": "voice/BGV_saki_f003a.ogg"
       }
     },
     {
@@ -2558,6 +3162,10 @@
       "bg": {
         "label": "#EV080・うっとり舌出し・切なげ舌出し・精液2",
         "file": "EV080_09"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_F003A",
+        "file": "voice/BGV_saki_f003a.ogg"
       }
     },
     {
@@ -2570,6 +3178,10 @@
       "bg": {
         "label": "#EV080・うっとり舌出し・切なげ舌出し・精液2",
         "file": "EV080_09"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_F003A",
+        "file": "voice/BGV_saki_f003a.ogg"
       }
     },
     {
@@ -2586,6 +3198,10 @@
       "bg": {
         "label": "#EV080・うっとり舌出し・切なげ舌出し・精液2",
         "file": "EV080_09"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_F003A",
+        "file": "voice/BGV_saki_f003a.ogg"
       }
     },
     {
@@ -2599,6 +3215,10 @@
       "bg": {
         "label": "#EV080・うっとり舌出し・切なげ舌出し・精液2",
         "file": "EV080_09"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_F003A",
+        "file": "voice/BGV_saki_f003a.ogg"
       }
     },
     {
@@ -2615,6 +3235,10 @@
       "bg": {
         "label": "#EV080・うっとり舌出し・切なげ舌出し・精液2",
         "file": "EV080_09"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_F003A",
+        "file": "voice/BGV_saki_f003a.ogg"
       }
     },
     {
@@ -2631,6 +3255,10 @@
       "bg": {
         "label": "#EV080・うっとり舌出し・切なげ舌出し・精液2",
         "file": "EV080_09"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_F003A",
+        "file": "voice/BGV_saki_f003a.ogg"
       }
     },
     {
@@ -2643,6 +3271,10 @@
       "bg": {
         "label": "#EV080・うっとり舌出し・切なげ舌出し・精液2",
         "file": "EV080_09"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_F003A",
+        "file": "voice/BGV_saki_f003a.ogg"
       }
     },
     {
@@ -2659,6 +3291,10 @@
       "bg": {
         "label": "#EV080・うっとり舌出し・切なげ舌出し・精液2",
         "file": "EV080_09"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_F003A",
+        "file": "voice/BGV_saki_f003a.ogg"
       }
     },
     {
@@ -2669,6 +3305,10 @@
       "bg": {
         "label": "#EV080・うっとり舌出し・切なげ舌出し・精液2",
         "file": "EV080_09"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_F003A",
+        "file": "voice/BGV_saki_f003a.ogg"
       }
     },
     {
@@ -2685,6 +3325,10 @@
       "bg": {
         "label": "#EV080・うっとり舌出し・切なげ舌出し・精液2",
         "file": "EV080_09"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_F003A",
+        "file": "voice/BGV_saki_f003a.ogg"
       }
     },
     {
@@ -2697,6 +3341,10 @@
       "bg": {
         "label": "#EV080・うっとり舌出し2・うっとり咥え舐め・精液2",
         "file": "EV080_10"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_F003A",
+        "file": "voice/BGV_saki_f003a.ogg"
       }
     },
     {
@@ -2713,6 +3361,10 @@
       "bg": {
         "label": "#EV080・うっとり舌出し2・うっとり咥え舐め・精液2",
         "file": "EV080_10"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_F003A",
+        "file": "voice/BGV_saki_f003a.ogg"
       }
     },
     {
@@ -2725,6 +3377,10 @@
       "bg": {
         "label": "#EV080・うっとり舌出し2・うっとり咥え舐め・精液2",
         "file": "EV080_10"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_F003A",
+        "file": "voice/BGV_saki_f003a.ogg"
       }
     },
     {
@@ -2740,6 +3396,10 @@
       "bg": {
         "label": "#EV080・うっとり舌出し2・うっとり咥え舐め・精液2",
         "file": "EV080_10"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_F003A",
+        "file": "voice/BGV_saki_f003a.ogg"
       }
     },
     {
@@ -2752,6 +3412,10 @@
       "bg": {
         "label": "#EV080・うっとり舌出し2・うっとり咥え舐め・精液2",
         "file": "EV080_10"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_F003A",
+        "file": "voice/BGV_saki_f003a.ogg"
       }
     },
     {
@@ -2768,6 +3432,10 @@
       "bg": {
         "label": "#EV080・うっとり舌出し2・うっとり咥え舐め・精液2",
         "file": "EV080_10"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_F003A",
+        "file": "voice/BGV_saki_f003a.ogg"
       }
     },
     {
@@ -2780,6 +3448,10 @@
       "bg": {
         "label": "#EV080・うっとり舌出し2・うっとり咥え舐め・精液2",
         "file": "EV080_10"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_F003A",
+        "file": "voice/BGV_saki_f003a.ogg"
       }
     },
     {
@@ -2796,6 +3468,10 @@
       "bg": {
         "label": "#EV080・うっとり舌出し2・うっとり咥え舐め・精液2",
         "file": "EV080_10"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_F003A",
+        "file": "voice/BGV_saki_f003a.ogg"
       }
     },
     {
@@ -2811,6 +3487,10 @@
       "bg": {
         "label": "#EV080・うっとり舌出し2・うっとり咥え舐め・精液2",
         "file": "EV080_10"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_F003A",
+        "file": "voice/BGV_saki_f003a.ogg"
       }
     },
     {
@@ -2827,6 +3507,10 @@
       "bg": {
         "label": "#EV080・うっとり舌出し2・うっとり咥え舐め・精液2",
         "file": "EV080_10"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_F003A",
+        "file": "voice/BGV_saki_f003a.ogg"
       }
     },
     {
@@ -2837,6 +3521,10 @@
       "bg": {
         "label": "#EV080・うっとり舌出し2・うっとり咥え舐め・精液2",
         "file": "EV080_10"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_F003A",
+        "file": "voice/BGV_saki_f003a.ogg"
       }
     },
     {
@@ -2852,6 +3540,10 @@
       "bg": {
         "label": "#EV080・うっとり舌出し2・うっとり咥え舐め・精液2",
         "file": "EV080_10"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_F003A",
+        "file": "voice/BGV_saki_f003a.ogg"
       }
     },
     {
@@ -2862,6 +3554,10 @@
       "bg": {
         "label": "#EV080・うっとり舌出し2・うっとり咥え舐め・精液2",
         "file": "EV080_10"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_F003A",
+        "file": "voice/BGV_saki_f003a.ogg"
       }
     },
     {
@@ -2878,6 +3574,10 @@
       "bg": {
         "label": "#EV080・うっとり舌出し2・うっとり咥え舐め・精液2",
         "file": "EV080_10"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_F003A",
+        "file": "voice/BGV_saki_f003a.ogg"
       }
     },
     {
@@ -2890,6 +3590,10 @@
       "bg": {
         "label": "#EV080・うっとり舌出し2・うっとり咥え舐め・精液2",
         "file": "EV080_10"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_F003A",
+        "file": "voice/BGV_saki_f003a.ogg"
       }
     },
     {
@@ -2906,6 +3610,10 @@
       "bg": {
         "label": "#EV080・うっとり舌出し2・うっとり咥え舐め・精液2",
         "file": "EV080_10"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_F003A",
+        "file": "voice/BGV_saki_f003a.ogg"
       }
     },
     {
@@ -2917,6 +3625,10 @@
       "bg": {
         "label": "#EV080・うっとり舌出し2・うっとり咥え舐め・精液2",
         "file": "EV080_10"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_F003A",
+        "file": "voice/BGV_saki_f003a.ogg"
       }
     },
     {
@@ -2933,6 +3645,10 @@
       "bg": {
         "label": "#EV080・うっとり舌出し2・うっとり咥え舐め・精液2",
         "file": "EV080_10"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_F003A",
+        "file": "voice/BGV_saki_f003a.ogg"
       }
     },
     {
@@ -2946,6 +3662,10 @@
       "bg": {
         "label": "#EV080・うっとり舌出し2・うっとり咥え舐め・精液2",
         "file": "EV080_10"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_F003A",
+        "file": "voice/BGV_saki_f003a.ogg"
       }
     },
     {
@@ -2961,6 +3681,10 @@
       "bg": {
         "label": "#EV080・うっとり舌出し2・うっとり咥え舐め・精液2",
         "file": "EV080_10"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_F003A",
+        "file": "voice/BGV_saki_f003a.ogg"
       }
     },
     {
@@ -2973,6 +3697,10 @@
       "bg": {
         "label": "#EV080・うっとり舌出し2・うっとり咥え舐め・精液2",
         "file": "EV080_10"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_F003A",
+        "file": "voice/BGV_saki_f003a.ogg"
       }
     },
     {
@@ -2989,6 +3717,10 @@
       "bg": {
         "label": "#EV080・うっとり舌出し2・吸い付き咥え・精液2",
         "file": "EV080_11"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_F003A",
+        "file": "voice/BGV_saki_f003a.ogg"
       }
     },
     {
@@ -3001,6 +3733,10 @@
       "bg": {
         "label": "#EV080・うっとり舌出し2・吸い付き咥え・精液2",
         "file": "EV080_11"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_F003A",
+        "file": "voice/BGV_saki_f003a.ogg"
       }
     },
     {
@@ -3016,6 +3752,10 @@
       "bg": {
         "label": "#EV080・うっとり舌出し2・吸い付き咥え・精液2",
         "file": "EV080_11"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_F003A",
+        "file": "voice/BGV_saki_f003a.ogg"
       }
     },
     {
@@ -3032,6 +3772,10 @@
       "bg": {
         "label": "#EV080・うっとり舌出し2・吸い付き咥え・精液2",
         "file": "EV080_11"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_F003A",
+        "file": "voice/BGV_saki_f003a.ogg"
       }
     },
     {
@@ -3043,6 +3787,10 @@
       "bg": {
         "label": "#EV080・うっとり舌出し2・吸い付き咥え・精液2",
         "file": "EV080_11"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_F003A",
+        "file": "voice/BGV_saki_f003a.ogg"
       }
     },
     {
@@ -3059,6 +3807,10 @@
       "bg": {
         "label": "#EV080・うっとり舌出し2・吸い付き咥え・精液2",
         "file": "EV080_11"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_F003A",
+        "file": "voice/BGV_saki_f003a.ogg"
       }
     },
     {
@@ -3072,6 +3824,10 @@
       "bg": {
         "label": "#EV080・うっとり舌出し2・吸い付き咥え・精液2",
         "file": "EV080_11"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_F003A",
+        "file": "voice/BGV_saki_f003a.ogg"
       }
     },
     {
@@ -3088,6 +3844,10 @@
       "bg": {
         "label": "#EV080・うっとり舌出し2・吸い付き咥え・精液2",
         "file": "EV080_11"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_F003A",
+        "file": "voice/BGV_saki_f003a.ogg"
       }
     },
     {
@@ -3100,6 +3860,10 @@
       "bg": {
         "label": "#EV080・うっとり舌出し2・吸い付き咥え・精液2",
         "file": "EV080_11"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_F003A",
+        "file": "voice/BGV_saki_f003a.ogg"
       }
     },
     {
@@ -3116,6 +3880,10 @@
       "bg": {
         "label": "#EV080・うっとり舌出し2・吸い付き咥え・精液2",
         "file": "EV080_11"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_F003A",
+        "file": "voice/BGV_saki_f003a.ogg"
       }
     },
     {
@@ -3127,6 +3895,10 @@
       "bg": {
         "label": "#EV080・うっとり舌出し2・吸い付き咥え・精液2",
         "file": "EV080_11"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_F003A",
+        "file": "voice/BGV_saki_f003a.ogg"
       }
     },
     {
@@ -3143,6 +3915,10 @@
       "bg": {
         "label": "#EV080・うっとり舌出し2・吸い付き咥え・精液2",
         "file": "EV080_11"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_F003A",
+        "file": "voice/BGV_saki_f003a.ogg"
       }
     },
     {
@@ -3154,6 +3930,10 @@
       "bg": {
         "label": "#EV080・うっとり舌出し2・吸い付き咥え・精液2",
         "file": "EV080_11"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_F003A",
+        "file": "voice/BGV_saki_f003a.ogg"
       }
     },
     {
@@ -3170,6 +3950,10 @@
       "bg": {
         "label": "#EV080・うっとり舌出し2・吸い付き咥え・精液2",
         "file": "EV080_11"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_F003A",
+        "file": "voice/BGV_saki_f003a.ogg"
       }
     },
     {
@@ -3181,6 +3965,10 @@
       "bg": {
         "label": "#EV080・うっとり舌出し2・吸い付き咥え・精液2",
         "file": "EV080_11"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_F003A",
+        "file": "voice/BGV_saki_f003a.ogg"
       }
     },
     {
@@ -3197,6 +3985,10 @@
       "bg": {
         "label": "#EV080・うっとり舌出し2・吸い付き咥え・精液2",
         "file": "EV080_11"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_F003A",
+        "file": "voice/BGV_saki_f003a.ogg"
       }
     },
     {
@@ -3207,6 +3999,10 @@
       "bg": {
         "label": "#EV080・うっとり舌出し2・吸い付き咥え・精液2",
         "file": "EV080_11"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_F003A",
+        "file": "voice/BGV_saki_f003a.ogg"
       }
     },
     {
@@ -3223,6 +4019,10 @@
       "bg": {
         "label": "#EV080・うっとり舌出し2・吸い付き咥え・精液2",
         "file": "EV080_11"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_F003A",
+        "file": "voice/BGV_saki_f003a.ogg"
       }
     },
     {
@@ -3233,6 +4033,10 @@
       "bg": {
         "label": "#EV080・うっとり舌出し2・吸い付き咥え・精液2",
         "file": "EV080_11"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_F003A",
+        "file": "voice/BGV_saki_f003a.ogg"
       }
     },
     {
@@ -3243,6 +4047,10 @@
       "bg": {
         "label": "#EV080・うっとり舌出し2・吸い付き咥え・精液",
         "file": "EV080_12"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_F003A",
+        "file": "voice/BGV_saki_f003a.ogg"
       }
     },
     {
@@ -3259,6 +4067,10 @@
       "bg": {
         "label": "#EV080・うっとり舌出し2・吸い付き咥え・精液",
         "file": "EV080_12"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_F003A",
+        "file": "voice/BGV_saki_f003a.ogg"
       }
     },
     {
@@ -3270,6 +4082,10 @@
       "bg": {
         "label": "#EV080・うっとり舌出し2・吸い付き咥え・精液",
         "file": "EV080_12"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_F003A",
+        "file": "voice/BGV_saki_f003a.ogg"
       }
     },
     {
@@ -3292,7 +4108,11 @@
           "code": "8351A",
           "file": "se/8351a.ogg"
         }
-      ]
+      ],
+      "bgv": {
+        "id": "BGV_SAKI_F003A",
+        "file": "voice/BGV_saki_f003a.ogg"
+      }
     },
     {
       "kind": "narration",
@@ -3304,6 +4124,10 @@
       "bg": {
         "label": "#EV080・うっとり舌出し2・吸い付き咥え・精液",
         "file": "EV080_12"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_F003A",
+        "file": "voice/BGV_saki_f003a.ogg"
       }
     },
     {
@@ -3319,6 +4143,10 @@
       "bg": {
         "label": "#EV080・うっとり舌出し2・吸い付き咥え・精液",
         "file": "EV080_12"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_F003A",
+        "file": "voice/BGV_saki_f003a.ogg"
       }
     },
     {
@@ -3330,6 +4158,10 @@
       "bg": {
         "label": "#EV080・うっとり舌出し2・吸い付き咥え・精液",
         "file": "EV080_12"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_F003A",
+        "file": "voice/BGV_saki_f003a.ogg"
       }
     },
     {
@@ -3345,6 +4177,10 @@
       "bg": {
         "label": "#EV080・うっとり舌出し2・吸い付き咥え・精液",
         "file": "EV080_12"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_F003A",
+        "file": "voice/BGV_saki_f003a.ogg"
       }
     },
     {
@@ -3356,6 +4192,10 @@
       "bg": {
         "label": "#EV080・うっとり舌出し2・吸い付き咥え・精液",
         "file": "EV080_12"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_F003A",
+        "file": "voice/BGV_saki_f003a.ogg"
       }
     },
     {
@@ -3372,6 +4212,10 @@
       "bg": {
         "label": "#EV080・うっとり舌出し2・吸い付き咥え・精液",
         "file": "EV080_12"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_F003A",
+        "file": "voice/BGV_saki_f003a.ogg"
       }
     },
     {
@@ -3383,6 +4227,10 @@
       "bg": {
         "label": "#EV080・うっとり舌出し2・吸い付き咥え・精液",
         "file": "EV080_12"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_F003A",
+        "file": "voice/BGV_saki_f003a.ogg"
       }
     },
     {
@@ -3399,6 +4247,10 @@
       "bg": {
         "label": "#EV080・うっとり舌出し2・吸い付き咥え・精液",
         "file": "EV080_12"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_F003A",
+        "file": "voice/BGV_saki_f003a.ogg"
       }
     },
     {
@@ -3411,6 +4263,10 @@
       "bg": {
         "label": "#EV080・うっとり舌出し2・吸い付き咥え・精液",
         "file": "EV080_12"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_F003A",
+        "file": "voice/BGV_saki_f003a.ogg"
       }
     },
     {
@@ -3427,6 +4283,10 @@
       "bg": {
         "label": "#EV080・うっとり舌出し2・吸い付き咥え・精液",
         "file": "EV080_12"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_F003A",
+        "file": "voice/BGV_saki_f003a.ogg"
       }
     },
     {
@@ -3441,6 +4301,10 @@
       "bg": {
         "label": "#EV080・うっとり舌出し2・吸い付き咥え・精液",
         "file": "EV080_12"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_F003A",
+        "file": "voice/BGV_saki_f003a.ogg"
       }
     },
     {
@@ -3457,6 +4321,10 @@
       "bg": {
         "label": "#EV080・うっとり舌出し・うっとり舌出し・精液2",
         "file": "EV080_13"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_F003A",
+        "file": "voice/BGV_saki_f003a.ogg"
       }
     },
     {
@@ -3472,6 +4340,10 @@
       "bg": {
         "label": "#EV080・うっとり舌出し・うっとり舌出し・精液2",
         "file": "EV080_13"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_F003A",
+        "file": "voice/BGV_saki_f003a.ogg"
       }
     },
     {
@@ -3485,6 +4357,10 @@
       "bg": {
         "label": "#EV080・うっとり舌出し・うっとり舌出し・精液2",
         "file": "EV080_13"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_F003A",
+        "file": "voice/BGV_saki_f003a.ogg"
       }
     },
     {
@@ -3501,6 +4377,10 @@
       "bg": {
         "label": "#EV080・うっとり舌出し・うっとり舌出し・精液2",
         "file": "EV080_13"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_F003A",
+        "file": "voice/BGV_saki_f003a.ogg"
       }
     },
     {
@@ -3517,6 +4397,10 @@
       "bg": {
         "label": "#EV080・うっとり舌出し・うっとり舌出し・精液2",
         "file": "EV080_13"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_F003A",
+        "file": "voice/BGV_saki_f003a.ogg"
       }
     },
     {
@@ -3531,6 +4415,10 @@
       "bg": {
         "label": "#EV080・うっとり舌出し・うっとり舌出し・精液2",
         "file": "EV080_13"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_F003A",
+        "file": "voice/BGV_saki_f003a.ogg"
       }
     },
     {
@@ -3546,6 +4434,10 @@
       "bg": {
         "label": "#EV080・うっとり舌出し・うっとり舌出し・精液2",
         "file": "EV080_13"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_F003A",
+        "file": "voice/BGV_saki_f003a.ogg"
       }
     },
     {
@@ -3561,6 +4453,10 @@
       "bg": {
         "label": "#EV080・うっとり舌出し・うっとり舌出し・精液2",
         "file": "EV080_13"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_F003A",
+        "file": "voice/BGV_saki_f003a.ogg"
       }
     },
     {
@@ -3572,6 +4468,10 @@
       "bg": {
         "label": "#EV080・うっとり舌出し・うっとり舌出し・精液2",
         "file": "EV080_13"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_F003A",
+        "file": "voice/BGV_saki_f003a.ogg"
       }
     },
     {
@@ -3583,6 +4483,10 @@
       "bg": {
         "label": "#EV080・うっとり舌出し・うっとり舌出し・精液2",
         "file": "EV080_13"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_F003A",
+        "file": "voice/BGV_saki_f003a.ogg"
       }
     },
     {
@@ -3598,6 +4502,10 @@
       "bg": {
         "label": "#EV080・うっとり舌出し・うっとり舌出し・精液2",
         "file": "EV080_13"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_F003A",
+        "file": "voice/BGV_saki_f003a.ogg"
       }
     },
     {
@@ -3608,6 +4516,10 @@
       "bg": {
         "label": "#EV080・うっとり舌出し・うっとり舌出し・精液2",
         "file": "EV080_13"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_F003A",
+        "file": "voice/BGV_saki_f003a.ogg"
       }
     },
     {
@@ -3623,6 +4535,10 @@
       "bg": {
         "label": "#EV080・うっとり舌出し・うっとり舌出し・精液2",
         "file": "EV080_13"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_F003A",
+        "file": "voice/BGV_saki_f003a.ogg"
       }
     },
     {
@@ -3641,6 +4557,10 @@
       "bg": {
         "label": "#EV080・うっとり舌出し・うっとり舌出し・精液2",
         "file": "EV080_13"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_F003A",
+        "file": "voice/BGV_saki_f003a.ogg"
       }
     }
   ],

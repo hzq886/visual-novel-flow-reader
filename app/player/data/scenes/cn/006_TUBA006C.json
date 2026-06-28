@@ -701,6 +701,10 @@
           227,
           80
         ]
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -722,6 +726,10 @@
           227,
           80
         ]
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -738,6 +746,10 @@
       "bg": {
         "label": "#EV072・微笑み・エロ下着",
         "file": "EV072_01"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -752,6 +764,10 @@
       "bg": {
         "label": "#EV072・微笑み・エロ下着",
         "file": "EV072_01"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -767,6 +783,10 @@
       "bg": {
         "label": "#EV072・微笑み・エロ下着",
         "file": "EV072_01"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -778,6 +798,10 @@
       "bg": {
         "label": "#EV072・微笑み・エロ下着",
         "file": "EV072_01"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -789,6 +813,10 @@
       "bg": {
         "label": "#EV072・微笑み・エロ下着",
         "file": "EV072_01"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -805,6 +833,10 @@
       "bg": {
         "label": "#EV072・微笑み・エロ下着",
         "file": "EV072_01"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -816,6 +848,10 @@
       "bg": {
         "label": "#EV072・微笑み・エロ下着",
         "file": "EV072_01"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -832,6 +868,10 @@
       "bg": {
         "label": "#EV072・微笑み・エロ下着",
         "file": "EV072_01"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -844,6 +884,10 @@
       "bg": {
         "label": "#EV072・微笑み・エロ下着",
         "file": "EV072_01"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -859,6 +903,10 @@
       "bg": {
         "label": "#EV072・微笑み・エロ下着",
         "file": "EV072_01"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -871,6 +919,10 @@
       "bg": {
         "label": "#EV072・微笑み・エロ下着",
         "file": "EV072_01"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -886,6 +938,10 @@
       "bg": {
         "label": "#EV072・微笑み・エロ下着",
         "file": "EV072_01"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -898,6 +954,10 @@
       "bg": {
         "label": "#EV072・微笑み・エロ下着",
         "file": "EV072_01"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -913,6 +973,10 @@
       "bg": {
         "label": "#EV072・微笑み・エロ下着",
         "file": "EV072_01"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -923,6 +987,10 @@
       "bg": {
         "label": "#EV072・微笑み・エロ下着",
         "file": "EV072_01"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -938,6 +1006,10 @@
       "bg": {
         "label": "#EV072・微笑み・エロ下着",
         "file": "EV072_01"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -956,7 +1028,11 @@
           "code": "8311A",
           "file": "se/8311a.ogg"
         }
-      ]
+      ],
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
+      }
     },
     {
       "kind": "line",
@@ -971,6 +1047,10 @@
       "bg": {
         "label": "#EV072・微笑み・エロ下着",
         "file": "EV072_01"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -988,7 +1068,11 @@
           "code": "8321A",
           "file": "se/8321a.ogg"
         }
-      ]
+      ],
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
+      }
     },
     {
       "kind": "line",
@@ -1003,6 +1087,10 @@
       "bg": {
         "label": "#EV072・微笑み・エロ下着",
         "file": "EV072_01"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -1017,6 +1105,10 @@
       "bg": {
         "label": "#EV072・微笑み・エロ下着",
         "file": "EV072_01"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -1038,7 +1130,11 @@
           "code": "8101A",
           "file": "se/8101a.ogg"
         }
-      ]
+      ],
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
+      }
     },
     {
       "kind": "narration",
@@ -1049,6 +1145,10 @@
       "bg": {
         "label": "#EV072・目閉じ喘ぎ・エロ下着",
         "file": "EV072_02"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -1064,6 +1164,10 @@
       "bg": {
         "label": "#EV072・目閉じ喘ぎ・エロ下着",
         "file": "EV072_02"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -1076,6 +1180,10 @@
       "bg": {
         "label": "#EV072・目閉じ喘ぎ・エロ下着",
         "file": "EV072_02"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -1092,6 +1200,10 @@
       "bg": {
         "label": "#EV072・目閉じ喘ぎ・エロ下着",
         "file": "EV072_02"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -1104,6 +1216,10 @@
       "bg": {
         "label": "#EV072・目閉じ喘ぎ・エロ下着",
         "file": "EV072_02"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -1120,6 +1236,10 @@
       "bg": {
         "label": "#EV072・目閉じ喘ぎ・エロ下着",
         "file": "EV072_02"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -1131,6 +1251,10 @@
       "bg": {
         "label": "#EV072・目閉じ喘ぎ・エロ下着",
         "file": "EV072_02"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -1147,6 +1271,10 @@
       "bg": {
         "label": "#EV072・目閉じ喘ぎ・エロ下着",
         "file": "EV072_02"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -1159,6 +1287,10 @@
       "bg": {
         "label": "#EV072・目閉じ喘ぎ・エロ下着",
         "file": "EV072_02"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -1175,6 +1307,10 @@
       "bg": {
         "label": "#EV072・目閉じ喘ぎ・エロ下着",
         "file": "EV072_02"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -1187,6 +1323,10 @@
       "bg": {
         "label": "#EV072・目閉じ喘ぎ・エロ下着",
         "file": "EV072_02"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -1203,6 +1343,10 @@
       "bg": {
         "label": "#EV072・微笑み2・エロ下着・愛液",
         "file": "EV072_03"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -1216,6 +1360,10 @@
       "bg": {
         "label": "#EV072・微笑み2・エロ下着・愛液",
         "file": "EV072_03"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -1232,6 +1380,10 @@
       "bg": {
         "label": "#EV072・微笑み2・エロ下着・愛液",
         "file": "EV072_03"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -1245,6 +1397,10 @@
       "bg": {
         "label": "#EV072・微笑み2・エロ下着・愛液",
         "file": "EV072_03"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -1260,6 +1416,10 @@
       "bg": {
         "label": "#EV072・微笑み2・エロ下着・愛液",
         "file": "EV072_03"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -1273,6 +1433,10 @@
       "bg": {
         "label": "#EV072・微笑み2・エロ下着・愛液",
         "file": "EV072_03"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -1288,6 +1452,10 @@
       "bg": {
         "label": "#EV072・うっとり蕩け・エロ下着・愛液",
         "file": "EV072_04"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -1300,6 +1468,10 @@
       "bg": {
         "label": "#EV072・うっとり蕩け・エロ下着・愛液",
         "file": "EV072_04"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -1315,6 +1487,10 @@
       "bg": {
         "label": "#EV072・うっとり蕩け・エロ下着・愛液",
         "file": "EV072_04"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -1326,6 +1502,10 @@
       "bg": {
         "label": "#EV072・うっとり蕩け・エロ下着・愛液",
         "file": "EV072_04"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -1342,6 +1522,10 @@
       "bg": {
         "label": "#EV072・うっとり蕩け・エロ下着・愛液",
         "file": "EV072_04"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -1355,6 +1539,10 @@
       "bg": {
         "label": "#EV072・うっとり蕩け・エロ下着・愛液",
         "file": "EV072_04"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -1371,6 +1559,10 @@
       "bg": {
         "label": "#EV072・うっとり蕩け・エロ下着・愛液",
         "file": "EV072_04"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -1386,6 +1578,10 @@
       "bg": {
         "label": "#EV072・うっとり蕩け・エロ下着・愛液",
         "file": "EV072_04"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -1402,6 +1598,10 @@
       "bg": {
         "label": "#EV072・うっとり蕩け・エロ下着・愛液",
         "file": "EV072_04"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -1414,6 +1614,10 @@
       "bg": {
         "label": "#EV072・うっとり蕩け・エロ下着・愛液",
         "file": "EV072_04"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -1430,6 +1634,10 @@
       "bg": {
         "label": "#EV072・うっとり蕩け・エロ下着・愛液",
         "file": "EV072_04"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -1440,6 +1648,10 @@
       "bg": {
         "label": "#EV072・うっとり蕩け・エロ下着・愛液",
         "file": "EV072_04"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -1462,7 +1674,11 @@
           "code": "8331A",
           "file": "se/8331a.ogg"
         }
-      ]
+      ],
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
+      }
     },
     {
       "kind": "narration",
@@ -1475,6 +1691,10 @@
       "bg": {
         "label": "#EV072・うっとり蕩け・エロ下着・愛液",
         "file": "EV072_04"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -1491,6 +1711,10 @@
       "bg": {
         "label": "#EV072・軽くアヘ・エロ下着・愛液",
         "file": "EV072_05"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -1503,6 +1727,10 @@
       "bg": {
         "label": "#EV072・軽くアヘ・エロ下着・愛液",
         "file": "EV072_05"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -1519,6 +1747,10 @@
       "bg": {
         "label": "#EV072・軽くアヘ・エロ下着・愛液",
         "file": "EV072_05"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -1532,6 +1764,10 @@
       "bg": {
         "label": "#EV072・軽くアヘ・エロ下着・愛液",
         "file": "EV072_05"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -1548,6 +1784,10 @@
       "bg": {
         "label": "#EV072・軽くアヘ・エロ下着・愛液",
         "file": "EV072_05"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -1560,6 +1800,10 @@
       "bg": {
         "label": "#EV072・軽くアヘ・エロ下着・愛液",
         "file": "EV072_05"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -1576,6 +1820,10 @@
       "bg": {
         "label": "#EV072・軽くアヘ・エロ下着・愛液",
         "file": "EV072_05"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -1587,6 +1835,10 @@
       "bg": {
         "label": "#EV072・軽くアヘ・エロ下着・愛液",
         "file": "EV072_05"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -1603,6 +1855,10 @@
       "bg": {
         "label": "#EV072・軽くアヘ・エロ下着・愛液",
         "file": "EV072_05"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -1619,7 +1875,11 @@
           "code": "8201B",
           "file": "se/8201b.ogg"
         }
-      ]
+      ],
+      "bgv": {
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
+      }
     },
     {
       "kind": "narration",
@@ -1629,6 +1889,10 @@
       "bg": {
         "label": "#EV072・軽くアヘ・エロ下着・精液",
         "file": "EV072_06"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -1645,6 +1909,10 @@
       "bg": {
         "label": "#EV072・軽くアヘ・エロ下着・精液",
         "file": "EV072_06"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -1657,6 +1925,10 @@
       "bg": {
         "label": "#EV072・軽くアヘ・エロ下着・精液",
         "file": "EV072_06"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -1673,6 +1945,10 @@
       "bg": {
         "label": "#EV072・軽くアヘ・エロ下着・精液",
         "file": "EV072_06"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -1684,6 +1960,10 @@
       "bg": {
         "label": "#EV072・軽くアヘ・エロ下着・精液",
         "file": "EV072_06"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -1700,6 +1980,10 @@
       "bg": {
         "label": "#EV072・軽くアヘ・エロ下着・精液",
         "file": "EV072_06"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -1712,6 +1996,10 @@
       "bg": {
         "label": "#EV072・軽くアヘ・エロ下着・精液",
         "file": "EV072_06"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -1727,6 +2015,10 @@
       "bg": {
         "label": "#EV072・軽くアヘ・エロ下着・精液",
         "file": "EV072_06"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -1739,6 +2031,10 @@
       "bg": {
         "label": "#EV072・軽くアヘ・エロ下着・精液",
         "file": "EV072_06"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -1754,6 +2050,10 @@
       "bg": {
         "label": "#EV072・軽くアヘ・エロ下着・精液",
         "file": "EV072_06"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -1767,6 +2067,10 @@
       "bg": {
         "label": "#EV072・軽くアヘ・エロ下着・精液",
         "file": "EV072_06"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -1783,6 +2087,10 @@
       "bg": {
         "label": "#EV072・うっとり蕩け2・エロ下着・精液",
         "file": "EV072_07"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -1793,6 +2101,10 @@
       "bg": {
         "label": "#EV072・うっとり蕩け2・エロ下着・精液",
         "file": "EV072_07"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -1808,6 +2120,10 @@
       "bg": {
         "label": "#EV072・うっとり蕩け2・エロ下着・精液",
         "file": "EV072_07"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -1818,6 +2134,10 @@
       "bg": {
         "label": "#EV072・うっとり蕩け2・エロ下着・精液",
         "file": "EV072_07"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -1834,6 +2154,10 @@
       "bg": {
         "label": "#EV072・うっとり蕩け2・エロ下着・精液",
         "file": "EV072_07"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -1845,6 +2169,10 @@
       "bg": {
         "label": "#EV072・うっとり蕩け2・エロ下着・精液",
         "file": "EV072_07"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -1860,6 +2188,10 @@
       "bg": {
         "label": "#EV072・うっとり蕩け2・エロ下着・精液",
         "file": "EV072_07"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -1873,6 +2205,10 @@
       "bg": {
         "label": "#EV072・うっとり蕩け2・エロ下着・精液",
         "file": "EV072_07"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     }
   ],

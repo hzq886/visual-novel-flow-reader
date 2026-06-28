@@ -28,6 +28,7 @@ type Draft = {
   bg?: BgRef
   sprite?: SpriteRef
   se?: SeRef[]
+  bgv?: { id: string; file: null }
 }
 
 function escapeRegExp(s: string): string {
@@ -54,8 +55,8 @@ const isJunkResidue = (s: string): boolean => s === '' || /^[\x20-\x7e\uff61-\uf
 export function parseScene(text: string, opts: { code: string; locale: Locale }): Scene {
   const { code, locale } = opts
   const route = code.split('_')[0] ?? code
-  // ボイスID = <CHAR>_<sceneCode>_<serial>。se コード（0001D 等）は別途 se として取り込み、
-  // その他の制御マーカー（BG_BLACK/OFF/MIX…）は無視する。
+  // ボイスID = <CHAR>_<sceneCode>_<serial>。se コード（0001D 等）は se、BG_BLACK/ITEM_* は背景、
+  // OFF は立ち絵オフ、BGV_* は背景ボイスとして取り込む。その他の制御マーカー（MIX/EFFECT 等）は無視。
   const voiceRe = new RegExp(`^[A-Z]+_${escapeRegExp(code)}_\\d+[A-Z]?$`)
 
   const beats: Beat[] = []
@@ -66,6 +67,7 @@ export function parseScene(text: string, opts: { code: string; locale: Locale })
   let pendingSe: SeRef[] = [] // beat 生成前に現れた se は次 beat へ持ち越す
   let stickyBg: BgRef | undefined
   let stickySprite: SpriteRef | undefined
+  let stickyBgv: { id: string; file: null } | undefined
   let quoteDepth = 0
   let lastWho: string | null = null
   const voiceMap = new Map<string, string>() // ボイスID接頭辞 → 話者名
@@ -74,12 +76,20 @@ export function parseScene(text: string, opts: { code: string; locale: Locale })
     if (cur) beats.push(cur as Beat)
     cur = null
   }
-  // beat 生成時のスナップショット: bg/sprite の sticky 値＋持ち越し中の se を取り込む（se は使い切り）。
-  const snapshot = (): { bg?: BgRef; sprite?: SpriteRef; se?: SeRef[] } => {
-    const snap: { bg?: BgRef; sprite?: SpriteRef; se?: SeRef[] } = {
-      ...(stickyBg ? { bg: stickyBg } : {}),
-      ...(stickySprite ? { sprite: stickySprite } : {}),
-    }
+  // beat 生成時のスナップショット: bg/sprite/bgv の sticky 値＋持ち越し中の se を取り込む
+  // （se は使い切り）。bgv（背景ボイス）は bg/sprite 同様、次の BGV まで持続するループ音声。
+  const snapshot = (): {
+    bg?: BgRef
+    sprite?: SpriteRef
+    se?: SeRef[]
+    bgv?: { id: string; file: null }
+  } => {
+    const snap: { bg?: BgRef; sprite?: SpriteRef; se?: SeRef[]; bgv?: { id: string; file: null } } =
+      {
+        ...(stickyBg ? { bg: stickyBg } : {}),
+        ...(stickySprite ? { sprite: stickySprite } : {}),
+        ...(stickyBgv ? { bgv: stickyBgv } : {}),
+      }
     if (pendingSe.length) {
       snap.se = pendingSe
       pendingSe = []
@@ -106,6 +116,14 @@ export function parseScene(text: string, opts: { code: string; locale: Locale })
     if (stickySprite === undefined) return
     if (cur?.kind === 'narration') flush()
     stickySprite = undefined
+  }
+  // 背景ボイス（[id] BGV_<CHAR>_<...>）。単一ループチャンネルで、次の BGV までシーン内で持続
+  // （停止マーカーは原データに無い＝離脱時にエンジンが停止）。bg/sprite 同様、変化時に narration
+  // を flush して正しい行から鳴らす（HU-37）。id がそのまま voice ファイルコード（resolveVoice で解決）。
+  const setBgv = (id: string) => {
+    if (id === stickyBgv?.id) return
+    if (cur?.kind === 'narration') flush()
+    stickyBgv = { id, file: null }
   }
 
   for (const rawLine of text.split(/\r?\n/)) {
@@ -137,6 +155,8 @@ export function parseScene(text: string, opts: { code: string; locale: Locale })
       // そのまま CG ファイルコード。背景切替として扱う（resolveBg の直CGフォールバックで解決）。
       // 無視すると直前 CG が残る（HU-41）。
       else if (/^ITEM_\d+_\d+$/.test(val)) setBg(val)
+      // [id] BGV_<CHAR>_<...> = 背景ボイス（喘ぎ等のループ）。sticky に保持し次 BGV まで持続（HU-37）。
+      else if (/^BGV_/.test(val)) setBgv(val)
       // 効果音コード（4桁+英字）。現 beat があればそこへ、無ければ次 beat へ持ち越す。
       else if (SE_RE.test(val)) {
         if (cur) (cur.se ??= []).push({ code: val, file: null })

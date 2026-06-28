@@ -1107,6 +1107,10 @@
           227,
           80
         ]
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H001A",
+        "file": "voice/BGV_ayan_h001a.ogg"
       }
     },
     {
@@ -1128,6 +1132,10 @@
           227,
           80
         ]
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H001A",
+        "file": "voice/BGV_ayan_h001a.ogg"
       }
     },
     {
@@ -1153,6 +1161,10 @@
           227,
           80
         ]
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H001A",
+        "file": "voice/BGV_ayan_h001a.ogg"
       }
     },
     {
@@ -1174,6 +1186,10 @@
           227,
           80
         ]
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H001A",
+        "file": "voice/BGV_ayan_h001a.ogg"
       }
     },
     {
@@ -1198,6 +1214,10 @@
           227,
           80
         ]
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H001A",
+        "file": "voice/BGV_ayan_h001a.ogg"
       }
     },
     {
@@ -1217,6 +1237,10 @@
           227,
           80
         ]
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H001A",
+        "file": "voice/BGV_ayan_h001a.ogg"
       }
     },
     {
@@ -1232,6 +1256,10 @@
       "bg": {
         "label": "#EV059・眉寄せ・真面目・綾菜割れ目なぞり",
         "file": "EV059_02"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H001A",
+        "file": "voice/BGV_ayan_h001a.ogg"
       }
     },
     {
@@ -1244,6 +1272,10 @@
       "bg": {
         "label": "#EV059・眉寄せ・真面目・綾菜割れ目なぞり",
         "file": "EV059_02"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H001A",
+        "file": "voice/BGV_ayan_h001a.ogg"
       }
     },
     {
@@ -1260,6 +1292,10 @@
       "bg": {
         "label": "#EV059・眉寄せ・真面目・綾菜割れ目なぞり",
         "file": "EV059_02"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H001A",
+        "file": "voice/BGV_ayan_h001a.ogg"
       }
     },
     {
@@ -1275,6 +1311,10 @@
       "bg": {
         "label": "#EV059・眉寄せ・真面目・綾菜割れ目なぞり",
         "file": "EV059_02"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H001A",
+        "file": "voice/BGV_ayan_h001a.ogg"
       }
     },
     {
@@ -1285,6 +1325,10 @@
       "bg": {
         "label": "#EV059・眉寄せ・真面目・綾菜割れ目なぞり",
         "file": "EV059_02"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H001A",
+        "file": "voice/BGV_ayan_h001a.ogg"
       }
     },
     {
@@ -1300,6 +1344,10 @@
       "bg": {
         "label": "#EV059・眉寄せ・真面目・綾菜割れ目なぞり",
         "file": "EV059_02"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H001A",
+        "file": "voice/BGV_ayan_h001a.ogg"
       }
     },
     {
@@ -1312,6 +1360,10 @@
       "bg": {
         "label": "#EV059・眉寄せ・真面目・綾菜割れ目なぞり",
         "file": "EV059_02"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H001A",
+        "file": "voice/BGV_ayan_h001a.ogg"
       }
     },
     {
@@ -1327,6 +1379,10 @@
       "bg": {
         "label": "#EV059・眉寄せ・真面目・綾菜割れ目なぞり",
         "file": "EV059_02"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H001A",
+        "file": "voice/BGV_ayan_h001a.ogg"
       }
     },
     {
@@ -1347,7 +1403,11 @@
           "code": "8311A",
           "file": "se/8311a.ogg"
         }
-      ]
+      ],
+      "bgv": {
+        "id": "BGV_AYAN_H001A",
+        "file": "voice/BGV_ayan_h001a.ogg"
+      }
     },
     {
       "kind": "line",
@@ -1362,6 +1422,10 @@
       "bg": {
         "label": "#EV059・うっとり・真面目・綾菜クリなぞり",
         "file": "EV059_03"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H001A",
+        "file": "voice/BGV_ayan_h001a.ogg"
       }
     },
     {
@@ -1375,6 +1439,10 @@
       "bg": {
         "label": "#EV059・うっとり・真面目・綾菜クリなぞり",
         "file": "EV059_03"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H001A",
+        "file": "voice/BGV_ayan_h001a.ogg"
       }
     },
     {
@@ -1391,6 +1459,10 @@
       "bg": {
         "label": "#EV059・うっとり・真面目・綾菜クリなぞり",
         "file": "EV059_03"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H001A",
+        "file": "voice/BGV_ayan_h001a.ogg"
       }
     },
     {
@@ -1404,6 +1476,10 @@
       "bg": {
         "label": "#EV059・うっとり・真面目・綾菜クリなぞり",
         "file": "EV059_03"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H001A",
+        "file": "voice/BGV_ayan_h001a.ogg"
       }
     },
     {
@@ -1419,6 +1495,10 @@
       "bg": {
         "label": "#EV059・うっとり・真面目・綾菜クリなぞり",
         "file": "EV059_03"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H001A",
+        "file": "voice/BGV_ayan_h001a.ogg"
       }
     },
     {
@@ -1430,6 +1510,10 @@
       "bg": {
         "label": "#EV059・うっとり・真面目・綾菜クリなぞり",
         "file": "EV059_03"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H001A",
+        "file": "voice/BGV_ayan_h001a.ogg"
       }
     },
     {
@@ -1441,6 +1525,10 @@
       "bg": {
         "label": "#EV059・うっとり・真面目・綾菜クリなぞり",
         "file": "EV059_03"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H001A",
+        "file": "voice/BGV_ayan_h001a.ogg"
       }
     },
     {
@@ -1456,6 +1544,10 @@
       "bg": {
         "label": "#EV059・うっとり・真面目・綾菜クリなぞり",
         "file": "EV059_03"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H001A",
+        "file": "voice/BGV_ayan_h001a.ogg"
       }
     },
     {
@@ -1468,6 +1560,10 @@
       "bg": {
         "label": "#EV059・うっとり・真面目・綾菜クリなぞり",
         "file": "EV059_03"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H001A",
+        "file": "voice/BGV_ayan_h001a.ogg"
       }
     },
     {
@@ -1483,6 +1579,10 @@
       "bg": {
         "label": "#EV059・うっとり・真面目・綾菜クリなぞり",
         "file": "EV059_03"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H001A",
+        "file": "voice/BGV_ayan_h001a.ogg"
       }
     },
     {
@@ -1495,6 +1595,10 @@
       "bg": {
         "label": "#EV059・うっとり・真面目・綾菜クリなぞり",
         "file": "EV059_03"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H001A",
+        "file": "voice/BGV_ayan_h001a.ogg"
       }
     },
     {
@@ -1510,6 +1614,10 @@
       "bg": {
         "label": "#EV059・うっとり・真面目・綾菜クリ広げ・パンツ染み",
         "file": "EV059_04"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H001A",
+        "file": "voice/BGV_ayan_h001a.ogg"
       }
     },
     {
@@ -1523,6 +1631,10 @@
       "bg": {
         "label": "#EV059・うっとり・真面目・綾菜クリ広げ・パンツ染み",
         "file": "EV059_04"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H001A",
+        "file": "voice/BGV_ayan_h001a.ogg"
       }
     },
     {
@@ -1544,7 +1656,11 @@
           "code": "8311B",
           "file": "se/8311b.ogg"
         }
-      ]
+      ],
+      "bgv": {
+        "id": "BGV_AYAN_H001A",
+        "file": "voice/BGV_ayan_h001a.ogg"
+      }
     },
     {
       "kind": "narration",
@@ -1555,6 +1671,10 @@
       "bg": {
         "label": "#EV059・うっとり・真面目・綾菜クリ広げ・パンツ染み",
         "file": "EV059_04"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H001A",
+        "file": "voice/BGV_ayan_h001a.ogg"
       }
     },
     {
@@ -1571,6 +1691,10 @@
       "bg": {
         "label": "#EV059・うっとり・うっとり・綾菜クリなぞり2・パンツ染み",
         "file": "EV059_05"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H002A",
+        "file": "voice/BGV_ayan_h002a.ogg"
       }
     },
     {
@@ -1582,6 +1706,10 @@
       "bg": {
         "label": "#EV059・うっとり・うっとり・綾菜クリなぞり2・パンツ染み",
         "file": "EV059_05"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H002A",
+        "file": "voice/BGV_ayan_h002a.ogg"
       }
     },
     {
@@ -1598,6 +1726,10 @@
       "bg": {
         "label": "#EV059・うっとり・うっとり・綾菜クリなぞり2・パンツ染み",
         "file": "EV059_05"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H002A",
+        "file": "voice/BGV_ayan_h002a.ogg"
       }
     },
     {
@@ -1610,6 +1742,10 @@
       "bg": {
         "label": "#EV059・うっとり・うっとり・綾菜クリなぞり2・パンツ染み",
         "file": "EV059_05"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H002A",
+        "file": "voice/BGV_ayan_h002a.ogg"
       }
     },
     {
@@ -1625,6 +1761,10 @@
       "bg": {
         "label": "#EV059・うっとり・うっとり・綾菜クリなぞり2・パンツ染み",
         "file": "EV059_05"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H002A",
+        "file": "voice/BGV_ayan_h002a.ogg"
       }
     },
     {
@@ -1637,6 +1777,10 @@
       "bg": {
         "label": "#EV059・うっとり・うっとり・綾菜クリなぞり2・パンツ染み",
         "file": "EV059_05"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H002A",
+        "file": "voice/BGV_ayan_h002a.ogg"
       }
     },
     {
@@ -1652,6 +1796,10 @@
       "bg": {
         "label": "#EV059・うっとり・うっとり・綾菜クリなぞり2・パンツ染み",
         "file": "EV059_05"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H002A",
+        "file": "voice/BGV_ayan_h002a.ogg"
       }
     },
     {
@@ -1663,6 +1811,10 @@
       "bg": {
         "label": "#EV059・うっとり・うっとり・綾菜クリなぞり2・パンツ染み",
         "file": "EV059_05"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H002A",
+        "file": "voice/BGV_ayan_h002a.ogg"
       }
     },
     {
@@ -1678,6 +1830,10 @@
       "bg": {
         "label": "#EV059・うっとり・うっとり・綾菜クリなぞり2・パンツ染み",
         "file": "EV059_05"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H002A",
+        "file": "voice/BGV_ayan_h002a.ogg"
       }
     },
     {
@@ -1690,6 +1846,10 @@
       "bg": {
         "label": "#EV059・うっとり・うっとり・綾菜クリなぞり2・パンツ染み",
         "file": "EV059_05"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H002A",
+        "file": "voice/BGV_ayan_h002a.ogg"
       }
     },
     {
@@ -1706,6 +1866,10 @@
       "bg": {
         "label": "#EV059・うっとり・うっとり・綾菜クリなぞり2・パンツ染み",
         "file": "EV059_05"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H002A",
+        "file": "voice/BGV_ayan_h002a.ogg"
       }
     },
     {
@@ -1718,6 +1882,10 @@
       "bg": {
         "label": "#EV059・軽くアヘ・うっとり・綾菜クリ摘まみ・パンツ染み",
         "file": "EV059_06"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H002A",
+        "file": "voice/BGV_ayan_h002a.ogg"
       }
     },
     {
@@ -1733,6 +1901,10 @@
       "bg": {
         "label": "#EV059・軽くアヘ・うっとり・綾菜クリ摘まみ・パンツ染み",
         "file": "EV059_06"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H002A",
+        "file": "voice/BGV_ayan_h002a.ogg"
       }
     },
     {
@@ -1745,6 +1917,10 @@
       "bg": {
         "label": "#EV059・軽くアヘ・うっとり・綾菜クリ摘まみ・パンツ染み",
         "file": "EV059_06"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H002A",
+        "file": "voice/BGV_ayan_h002a.ogg"
       }
     },
     {
@@ -1760,6 +1936,10 @@
       "bg": {
         "label": "#EV059・軽くアヘ・うっとり・綾菜クリ摘まみ・パンツ染み",
         "file": "EV059_06"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H002A",
+        "file": "voice/BGV_ayan_h002a.ogg"
       }
     },
     {
@@ -1771,6 +1951,10 @@
       "bg": {
         "label": "#EV059・軽くアヘ・うっとり・綾菜クリ摘まみ・パンツ染み",
         "file": "EV059_06"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H002A",
+        "file": "voice/BGV_ayan_h002a.ogg"
       }
     },
     {
@@ -1792,7 +1976,11 @@
           "code": "8351A",
           "file": "se/8351a.ogg"
         }
-      ]
+      ],
+      "bgv": {
+        "id": "BGV_AYAN_H002A",
+        "file": "voice/BGV_ayan_h002a.ogg"
+      }
     },
     {
       "kind": "narration",
@@ -1805,6 +1993,10 @@
       "bg": {
         "label": "#EV059・軽くアヘ・うっとり・綾菜クリ摘まみ・パンツ染み2",
         "file": "EV059_07"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H002A",
+        "file": "voice/BGV_ayan_h002a.ogg"
       }
     },
     {
@@ -1820,6 +2012,10 @@
       "bg": {
         "label": "#EV059・軽くアヘ・うっとり・綾菜クリ摘まみ・パンツ染み2",
         "file": "EV059_07"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H002A",
+        "file": "voice/BGV_ayan_h002a.ogg"
       }
     },
     {
@@ -1832,6 +2028,10 @@
       "bg": {
         "label": "#EV059・軽くアヘ・うっとり・綾菜クリ摘まみ・パンツ染み2",
         "file": "EV059_07"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H002A",
+        "file": "voice/BGV_ayan_h002a.ogg"
       }
     },
     {
@@ -1847,6 +2047,10 @@
       "bg": {
         "label": "#EV059・軽くアヘ・うっとり・綾菜クリ摘まみ・パンツ染み2",
         "file": "EV059_07"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H002A",
+        "file": "voice/BGV_ayan_h002a.ogg"
       }
     },
     {
@@ -1858,6 +2062,10 @@
       "bg": {
         "label": "#EV059・軽くアヘ・うっとり・綾菜クリ摘まみ・パンツ染み2",
         "file": "EV059_07"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H002A",
+        "file": "voice/BGV_ayan_h002a.ogg"
       }
     },
     {
@@ -1870,6 +2078,10 @@
       "bg": {
         "label": "#EV059・軽くアヘ・うっとり・綾菜クリ摘まみ・パンツ染み2",
         "file": "EV059_07"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H002A",
+        "file": "voice/BGV_ayan_h002a.ogg"
       }
     },
     {
@@ -1885,6 +2097,10 @@
       "bg": {
         "label": "#EV059・軽くアヘ・うっとり・綾菜クリ摘まみ・パンツ染み2",
         "file": "EV059_07"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H002A",
+        "file": "voice/BGV_ayan_h002a.ogg"
       }
     },
     {
@@ -1898,6 +2114,10 @@
       "bg": {
         "label": "#EV059・軽くアヘ・うっとり・綾菜クリ摘まみ・パンツ染み2",
         "file": "EV059_07"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H002A",
+        "file": "voice/BGV_ayan_h002a.ogg"
       }
     },
     {
@@ -1913,6 +2133,10 @@
       "bg": {
         "label": "#EV059・軽くアヘ・うっとり・綾菜クリ摘まみ・パンツ染み2",
         "file": "EV059_07"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H002A",
+        "file": "voice/BGV_ayan_h002a.ogg"
       }
     },
     {
@@ -1924,6 +2148,10 @@
       "bg": {
         "label": "#EV059・軽くアヘ・うっとり・綾菜クリ摘まみ・パンツ染み2",
         "file": "EV059_07"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H002A",
+        "file": "voice/BGV_ayan_h002a.ogg"
       }
     },
     {
@@ -1939,6 +2167,10 @@
       "bg": {
         "label": "#EV059・軽くアヘ・うっとり・綾菜クリ摘まみ・パンツ染み2",
         "file": "EV059_07"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H003A",
+        "file": "voice/BGV_ayan_h003a.ogg"
       }
     },
     {
@@ -1952,6 +2184,10 @@
       "bg": {
         "label": "#EV059・軽くアヘ・うっとり・綾菜クリ摘まみ・パンツ染み2",
         "file": "EV059_07"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H003A",
+        "file": "voice/BGV_ayan_h003a.ogg"
       }
     },
     {
@@ -1968,6 +2204,10 @@
       "bg": {
         "label": "#EV059・軽くアヘ・うっとり・綾菜クリ摘まみ・パンツ染み2",
         "file": "EV059_07"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H003A",
+        "file": "voice/BGV_ayan_h003a.ogg"
       }
     },
     {
@@ -1980,6 +2220,10 @@
       "bg": {
         "label": "#EV059・軽くアヘ・うっとり・綾菜クリ摘まみ・パンツ染み2",
         "file": "EV059_07"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H003A",
+        "file": "voice/BGV_ayan_h003a.ogg"
       }
     },
     {
@@ -1996,6 +2240,10 @@
       "bg": {
         "label": "#EV059・軽くアヘ・うっとり・綾菜クリ摘まみ・パンツ染み2",
         "file": "EV059_07"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H003A",
+        "file": "voice/BGV_ayan_h003a.ogg"
       }
     },
     {
@@ -2011,6 +2259,10 @@
       "bg": {
         "label": "#EV059・軽くアヘ・うっとり・綾菜クリ摘まみ・パンツ染み2",
         "file": "EV059_07"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H003A",
+        "file": "voice/BGV_ayan_h003a.ogg"
       }
     },
     {
@@ -2027,6 +2279,10 @@
       "bg": {
         "label": "#EV059・軽くアヘ・うっとり・綾菜クリ摘まみ・パンツ染み2",
         "file": "EV059_07"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H003A",
+        "file": "voice/BGV_ayan_h003a.ogg"
       }
     },
     {
@@ -2038,6 +2294,10 @@
       "bg": {
         "label": "#EV059・軽くアヘ・うっとり・綾菜クリ摘まみ・パンツ染み2",
         "file": "EV059_07"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H003A",
+        "file": "voice/BGV_ayan_h003a.ogg"
       }
     },
     {
@@ -2054,6 +2314,10 @@
       "bg": {
         "label": "#EV059・軽くアヘ・うっとり・綾菜クリ摘まみ・パンツ染み2",
         "file": "EV059_07"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H003A",
+        "file": "voice/BGV_ayan_h003a.ogg"
       }
     },
     {
@@ -2066,6 +2330,10 @@
       "bg": {
         "label": "#EV059・軽くアヘ・うっとり・綾菜クリ摘まみ・パンツ染み2",
         "file": "EV059_07"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H003A",
+        "file": "voice/BGV_ayan_h003a.ogg"
       }
     },
     {
@@ -2082,6 +2350,10 @@
       "bg": {
         "label": "#EV059・軽くアヘ・うっとり・綾菜クリ摘まみ・パンツ染み2",
         "file": "EV059_07"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H003A",
+        "file": "voice/BGV_ayan_h003a.ogg"
       }
     },
     {
@@ -2094,6 +2366,10 @@
       "bg": {
         "label": "#EV059・軽くアヘ・うっとり・綾菜クリ摘まみ・パンツ染み2",
         "file": "EV059_07"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H003A",
+        "file": "voice/BGV_ayan_h003a.ogg"
       }
     },
     {
@@ -2116,7 +2392,11 @@
           "code": "8361B",
           "file": "se/8361b.ogg"
         }
-      ]
+      ],
+      "bgv": {
+        "id": "BGV_AYAN_H003A",
+        "file": "voice/BGV_ayan_h003a.ogg"
+      }
     },
     {
       "kind": "narration",
@@ -2128,6 +2408,10 @@
       "bg": {
         "label": "#EV059・軽くアヘ・うっとり・綾菜クリ摘まみ・パンツ染み3",
         "file": "EV059_08"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H003A",
+        "file": "voice/BGV_ayan_h003a.ogg"
       }
     },
     {
@@ -2144,6 +2428,10 @@
       "bg": {
         "label": "#EV059・軽くアヘ・うっとり・綾菜クリ摘まみ・パンツ染み3",
         "file": "EV059_08"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H003A",
+        "file": "voice/BGV_ayan_h003a.ogg"
       }
     },
     {
@@ -2163,7 +2451,11 @@
           "code": "8331B",
           "file": "se/8331b.ogg"
         }
-      ]
+      ],
+      "bgv": {
+        "id": "BGV_AYAN_H003A",
+        "file": "voice/BGV_ayan_h003a.ogg"
+      }
     },
     {
       "kind": "narration",
@@ -2174,6 +2466,10 @@
       "bg": {
         "label": "#EV059・軽くアヘ・真面目・綾菜クリなぞり・パンツ染み3",
         "file": "EV059_09"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H003A",
+        "file": "voice/BGV_ayan_h003a.ogg"
       }
     },
     {
@@ -2190,6 +2486,10 @@
       "bg": {
         "label": "#EV059・軽くアヘ・真面目・綾菜クリなぞり・パンツ染み3",
         "file": "EV059_09"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H003A",
+        "file": "voice/BGV_ayan_h003a.ogg"
       }
     },
     {
@@ -2202,6 +2502,10 @@
       "bg": {
         "label": "#EV059・軽くアヘ・真面目・綾菜クリなぞり・パンツ染み3",
         "file": "EV059_09"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H003A",
+        "file": "voice/BGV_ayan_h003a.ogg"
       }
     },
     {
@@ -2218,6 +2522,10 @@
       "bg": {
         "label": "#EV059・軽くアヘ・真面目・綾菜クリなぞり・パンツ染み3",
         "file": "EV059_09"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H003A",
+        "file": "voice/BGV_ayan_h003a.ogg"
       }
     },
     {
@@ -2230,6 +2538,10 @@
       "bg": {
         "label": "#EV059・軽くアヘ・真面目・綾菜クリなぞり・パンツ染み3",
         "file": "EV059_09"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H003A",
+        "file": "voice/BGV_ayan_h003a.ogg"
       }
     },
     {
@@ -2245,6 +2557,10 @@
       "bg": {
         "label": "#EV059・軽くアヘ・真面目・綾菜クリなぞり・パンツ染み3",
         "file": "EV059_09"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H003A",
+        "file": "voice/BGV_ayan_h003a.ogg"
       }
     },
     {
@@ -2256,6 +2572,10 @@
       "bg": {
         "label": "#EV059・軽くアヘ・真面目・綾菜クリなぞり・パンツ染み3",
         "file": "EV059_09"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H003A",
+        "file": "voice/BGV_ayan_h003a.ogg"
       }
     },
     {
@@ -2272,6 +2592,10 @@
       "bg": {
         "label": "#EV059・軽くアヘ・真面目・綾菜クリなぞり・パンツ染み3",
         "file": "EV059_09"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H003A",
+        "file": "voice/BGV_ayan_h003a.ogg"
       }
     },
     {
@@ -2282,6 +2606,10 @@
       "bg": {
         "label": "#EV059・軽くアヘ・真面目・綾菜クリなぞり・パンツ染み3",
         "file": "EV059_09"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H003A",
+        "file": "voice/BGV_ayan_h003a.ogg"
       }
     },
     {
@@ -2293,6 +2621,10 @@
       "bg": {
         "label": "#EV059・軽くアヘ・真面目・綾菜クリなぞり・パンツ染み3",
         "file": "EV059_09"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H003A",
+        "file": "voice/BGV_ayan_h003a.ogg"
       }
     },
     {
@@ -2306,6 +2638,10 @@
       "bg": {
         "label": "#EV059・軽くアヘ・真面目・綾菜クリなぞり・パンツ染み3",
         "file": "EV059_09"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H003A",
+        "file": "voice/BGV_ayan_h003a.ogg"
       }
     },
     {
@@ -2322,6 +2658,10 @@
       "bg": {
         "label": "#EV059・軽くアヘ・真面目・綾菜クリなぞり・パンツ染み3",
         "file": "EV059_09"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H003A",
+        "file": "voice/BGV_ayan_h003a.ogg"
       }
     },
     {
@@ -2334,6 +2674,10 @@
       "bg": {
         "label": "#EV059・軽くアヘ・真面目・綾菜クリなぞり・パンツ染み3",
         "file": "EV059_09"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H003A",
+        "file": "voice/BGV_ayan_h003a.ogg"
       }
     },
     {
@@ -2349,6 +2693,10 @@
       "bg": {
         "label": "#EV059・うっとり・真面目・なし・パンツ染み3",
         "file": "EV059_10"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H003A",
+        "file": "voice/BGV_ayan_h003a.ogg"
       }
     },
     {
@@ -2361,6 +2709,10 @@
       "bg": {
         "label": "#EV059・うっとり・真面目・なし・パンツ染み3",
         "file": "EV059_10"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H003A",
+        "file": "voice/BGV_ayan_h003a.ogg"
       }
     },
     {
@@ -2376,6 +2728,10 @@
       "bg": {
         "label": "#EV059・うっとり・真面目・なし・パンツ染み3",
         "file": "EV059_10"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H003A",
+        "file": "voice/BGV_ayan_h003a.ogg"
       }
     },
     {
@@ -2389,6 +2745,10 @@
       "bg": {
         "label": "#EV059・うっとり・真面目・なし・パンツ染み3",
         "file": "EV059_10"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H003A",
+        "file": "voice/BGV_ayan_h003a.ogg"
       }
     },
     {
@@ -2404,6 +2764,10 @@
       "bg": {
         "label": "#EV059・うっとり・驚き・涼菜割れ目なぞり・パンツ染み3",
         "file": "EV059_11"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H003A",
+        "file": "voice/BGV_ayan_h003a.ogg"
       }
     },
     {
@@ -2415,6 +2779,10 @@
       "bg": {
         "label": "#EV059・うっとり・驚き・涼菜割れ目なぞり・パンツ染み3",
         "file": "EV059_11"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H003A",
+        "file": "voice/BGV_ayan_h003a.ogg"
       }
     },
     {
@@ -2426,6 +2794,10 @@
       "bg": {
         "label": "#EV059・うっとり・驚き・涼菜割れ目なぞり・パンツ染み3",
         "file": "EV059_11"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H003A",
+        "file": "voice/BGV_ayan_h003a.ogg"
       }
     },
     {
@@ -2441,6 +2813,10 @@
       "bg": {
         "label": "#EV059・うっとり・驚き・涼菜割れ目なぞり・パンツ染み3",
         "file": "EV059_11"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H003A",
+        "file": "voice/BGV_ayan_h003a.ogg"
       }
     },
     {
@@ -2454,6 +2830,10 @@
       "bg": {
         "label": "#EV059・うっとり・驚き・涼菜割れ目なぞり・パンツ染み3",
         "file": "EV059_11"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H003A",
+        "file": "voice/BGV_ayan_h003a.ogg"
       }
     },
     {
@@ -2470,6 +2850,10 @@
       "bg": {
         "label": "#EV059・うっとり・驚き・涼菜割れ目なぞり・パンツ染み3",
         "file": "EV059_11"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H003A",
+        "file": "voice/BGV_ayan_h003a.ogg"
       }
     },
     {
@@ -2482,6 +2866,10 @@
       "bg": {
         "label": "#EV059・うっとり・驚き・涼菜割れ目なぞり・パンツ染み3",
         "file": "EV059_11"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H003A",
+        "file": "voice/BGV_ayan_h003a.ogg"
       }
     },
     {
@@ -2497,6 +2885,10 @@
       "bg": {
         "label": "#EV059・うっとり・目閉じ・涼菜割れ目なぞり・パンツ染み3",
         "file": "EV059_12"
+      },
+      "bgv": {
+        "id": "BGV_SUZU_H001A",
+        "file": "voice/BGV_suzu_h001a.ogg"
       }
     },
     {
@@ -2510,6 +2902,10 @@
       "bg": {
         "label": "#EV059・うっとり・目閉じ・涼菜割れ目なぞり・パンツ染み3",
         "file": "EV059_12"
+      },
+      "bgv": {
+        "id": "BGV_SUZU_H001A",
+        "file": "voice/BGV_suzu_h001a.ogg"
       }
     },
     {
@@ -2526,6 +2922,10 @@
       "bg": {
         "label": "#EV059・うっとり・目閉じ・涼菜割れ目なぞり・パンツ染み3",
         "file": "EV059_12"
+      },
+      "bgv": {
+        "id": "BGV_SUZU_H001A",
+        "file": "voice/BGV_suzu_h001a.ogg"
       }
     },
     {
@@ -2537,6 +2937,10 @@
       "bg": {
         "label": "#EV059・うっとり・目閉じ・涼菜割れ目なぞり・パンツ染み3",
         "file": "EV059_12"
+      },
+      "bgv": {
+        "id": "BGV_SUZU_H001A",
+        "file": "voice/BGV_suzu_h001a.ogg"
       }
     },
     {
@@ -2552,6 +2956,10 @@
       "bg": {
         "label": "#EV059・うっとり・目閉じ・涼菜割れ目なぞり・パンツ染み3",
         "file": "EV059_12"
+      },
+      "bgv": {
+        "id": "BGV_SUZU_H001A",
+        "file": "voice/BGV_suzu_h001a.ogg"
       }
     },
     {
@@ -2565,6 +2973,10 @@
       "bg": {
         "label": "#EV059・うっとり・目閉じ・涼菜割れ目なぞり・パンツ染み3",
         "file": "EV059_12"
+      },
+      "bgv": {
+        "id": "BGV_SUZU_H001A",
+        "file": "voice/BGV_suzu_h001a.ogg"
       }
     },
     {
@@ -2580,6 +2992,10 @@
       "bg": {
         "label": "#EV059・うっとり・目閉じ・涼菜割れ目なぞり・パンツ染み3",
         "file": "EV059_12"
+      },
+      "bgv": {
+        "id": "BGV_SUZU_H001A",
+        "file": "voice/BGV_suzu_h001a.ogg"
       }
     },
     {
@@ -2590,6 +3006,10 @@
       "bg": {
         "label": "#EV059・うっとり・目閉じ・涼菜割れ目なぞり・パンツ染み3",
         "file": "EV059_12"
+      },
+      "bgv": {
+        "id": "BGV_SUZU_H001A",
+        "file": "voice/BGV_suzu_h001a.ogg"
       }
     },
     {
@@ -2605,6 +3025,10 @@
       "bg": {
         "label": "#EV059・うっとり・目閉じ・涼菜割れ目なぞり・パンツ染み3",
         "file": "EV059_12"
+      },
+      "bgv": {
+        "id": "BGV_SUZU_H001A",
+        "file": "voice/BGV_suzu_h001a.ogg"
       }
     },
     {
@@ -2616,6 +3040,10 @@
       "bg": {
         "label": "#EV059・うっとり・目閉じ・涼菜割れ目なぞり・パンツ染み3",
         "file": "EV059_12"
+      },
+      "bgv": {
+        "id": "BGV_SUZU_H001A",
+        "file": "voice/BGV_suzu_h001a.ogg"
       }
     },
     {
@@ -2627,6 +3055,10 @@
       "bg": {
         "label": "#EV059・うっとり・目閉じ・涼菜割れ目なぞり・パンツ染み3",
         "file": "EV059_12"
+      },
+      "bgv": {
+        "id": "BGV_SUZU_H001A",
+        "file": "voice/BGV_suzu_h001a.ogg"
       }
     },
     {
@@ -2642,6 +3074,10 @@
       "bg": {
         "label": "#EV059・うっとり・目閉じ・涼菜割れ目なぞり・パンツ染み3",
         "file": "EV059_12"
+      },
+      "bgv": {
+        "id": "BGV_SUZU_H001A",
+        "file": "voice/BGV_suzu_h001a.ogg"
       }
     },
     {
@@ -2655,6 +3091,10 @@
       "bg": {
         "label": "#EV059・うっとり・目閉じ・涼菜割れ目なぞり・パンツ染み3",
         "file": "EV059_12"
+      },
+      "bgv": {
+        "id": "BGV_SUZU_H001A",
+        "file": "voice/BGV_suzu_h001a.ogg"
       }
     },
     {
@@ -2670,6 +3110,10 @@
       "bg": {
         "label": "#EV059・うっとり・目閉じ・涼菜割れ目なぞり・パンツ染み3",
         "file": "EV059_12"
+      },
+      "bgv": {
+        "id": "BGV_SUZU_H001A",
+        "file": "voice/BGV_suzu_h001a.ogg"
       }
     },
     {
@@ -2683,6 +3127,10 @@
       "bg": {
         "label": "#EV059・うっとり・目閉じ・涼菜割れ目なぞり・パンツ染み3",
         "file": "EV059_12"
+      },
+      "bgv": {
+        "id": "BGV_SUZU_H001A",
+        "file": "voice/BGV_suzu_h001a.ogg"
       }
     },
     {
@@ -2698,6 +3146,10 @@
       "bg": {
         "label": "#EV059・うっとり・目閉じ・涼菜割れ目なぞり・パンツ染み3",
         "file": "EV059_12"
+      },
+      "bgv": {
+        "id": "BGV_SUZU_H001A",
+        "file": "voice/BGV_suzu_h001a.ogg"
       }
     },
     {
@@ -2711,6 +3163,10 @@
       "bg": {
         "label": "#EV059・うっとり・目閉じ・涼菜割れ目なぞり・パンツ染み3",
         "file": "EV059_12"
+      },
+      "bgv": {
+        "id": "BGV_SUZU_H001A",
+        "file": "voice/BGV_suzu_h001a.ogg"
       }
     },
     {
@@ -2726,6 +3182,10 @@
       "bg": {
         "label": "#EV059・うっとり・目閉じ・涼菜割れ目なぞり・パンツ染み3",
         "file": "EV059_12"
+      },
+      "bgv": {
+        "id": "BGV_SUZU_H001A",
+        "file": "voice/BGV_suzu_h001a.ogg"
       }
     },
     {
@@ -2740,6 +3200,10 @@
       "bg": {
         "label": "#EV059・うっとり・目閉じ・涼菜割れ目なぞり・パンツ染み3",
         "file": "EV059_12"
+      },
+      "bgv": {
+        "id": "BGV_SUZU_H001A",
+        "file": "voice/BGV_suzu_h001a.ogg"
       }
     },
     {
@@ -2756,6 +3220,10 @@
       "bg": {
         "label": "#EV059・うっとり・目閉じ・涼菜割れ目なぞり・パンツ染み3",
         "file": "EV059_12"
+      },
+      "bgv": {
+        "id": "BGV_SUZU_H001A",
+        "file": "voice/BGV_suzu_h001a.ogg"
       }
     },
     {
@@ -2769,6 +3237,10 @@
       "bg": {
         "label": "#EV059・うっとり・目閉じ・涼菜割れ目なぞり・パンツ染み3",
         "file": "EV059_12"
+      },
+      "bgv": {
+        "id": "BGV_SUZU_H001A",
+        "file": "voice/BGV_suzu_h001a.ogg"
       }
     },
     {
@@ -2784,6 +3256,10 @@
       "bg": {
         "label": "#EV059・うっとり・目閉じ・涼菜割れ目なぞり・パンツ染み3",
         "file": "EV059_12"
+      },
+      "bgv": {
+        "id": "BGV_SUZU_H001A",
+        "file": "voice/BGV_suzu_h001a.ogg"
       }
     },
     {
@@ -2796,6 +3272,10 @@
       "bg": {
         "label": "#EV059・うっとり・目閉じ・涼菜割れ目なぞり・パンツ染み3",
         "file": "EV059_12"
+      },
+      "bgv": {
+        "id": "BGV_SUZU_H001A",
+        "file": "voice/BGV_suzu_h001a.ogg"
       }
     },
     {
@@ -2812,6 +3292,10 @@
       "bg": {
         "label": "#EV059・うっとり・うっとり・涼菜クリなぞり・パンツ染み3",
         "file": "EV059_13"
+      },
+      "bgv": {
+        "id": "BGV_SUZU_H001A",
+        "file": "voice/BGV_suzu_h001a.ogg"
       }
     },
     {
@@ -2824,6 +3308,10 @@
       "bg": {
         "label": "#EV059・うっとり・うっとり・涼菜クリなぞり・パンツ染み3",
         "file": "EV059_13"
+      },
+      "bgv": {
+        "id": "BGV_SUZU_H001A",
+        "file": "voice/BGV_suzu_h001a.ogg"
       }
     },
     {
@@ -2840,6 +3328,10 @@
       "bg": {
         "label": "#EV059・うっとり・うっとり・涼菜クリなぞり・パンツ染み3",
         "file": "EV059_13"
+      },
+      "bgv": {
+        "id": "BGV_SUZU_H002A",
+        "file": "voice/BGV_suzu_h002a.ogg"
       }
     },
     {
@@ -2852,6 +3344,10 @@
       "bg": {
         "label": "#EV059・うっとり・うっとり・涼菜クリなぞり・パンツ染み3",
         "file": "EV059_13"
+      },
+      "bgv": {
+        "id": "BGV_SUZU_H002A",
+        "file": "voice/BGV_suzu_h002a.ogg"
       }
     },
     {
@@ -2867,6 +3363,10 @@
       "bg": {
         "label": "#EV059・うっとり・うっとり・涼菜クリなぞり・パンツ染み3",
         "file": "EV059_13"
+      },
+      "bgv": {
+        "id": "BGV_SUZU_H002A",
+        "file": "voice/BGV_suzu_h002a.ogg"
       }
     },
     {
@@ -2883,6 +3383,10 @@
       "bg": {
         "label": "#EV059・うっとり・うっとり・涼菜クリなぞり・パンツ染み3",
         "file": "EV059_13"
+      },
+      "bgv": {
+        "id": "BGV_SUZU_H002A",
+        "file": "voice/BGV_suzu_h002a.ogg"
       }
     },
     {
@@ -2894,6 +3398,10 @@
       "bg": {
         "label": "#EV059・うっとり・うっとり・涼菜クリなぞり・パンツ染み3",
         "file": "EV059_13"
+      },
+      "bgv": {
+        "id": "BGV_SUZU_H002A",
+        "file": "voice/BGV_suzu_h002a.ogg"
       }
     },
     {
@@ -2909,6 +3417,10 @@
       "bg": {
         "label": "#EV059・うっとり・うっとり・涼菜クリなぞり・パンツ染み3",
         "file": "EV059_13"
+      },
+      "bgv": {
+        "id": "BGV_SUZU_H002A",
+        "file": "voice/BGV_suzu_h002a.ogg"
       }
     },
     {
@@ -2921,6 +3433,10 @@
       "bg": {
         "label": "#EV059・うっとり・うっとり・涼菜クリなぞり・パンツ染み3",
         "file": "EV059_13"
+      },
+      "bgv": {
+        "id": "BGV_SUZU_H002A",
+        "file": "voice/BGV_suzu_h002a.ogg"
       }
     },
     {
@@ -2937,6 +3453,10 @@
       "bg": {
         "label": "#EV059・うっとり・うっとり・涼菜クリなぞり・パンツ染み3",
         "file": "EV059_13"
+      },
+      "bgv": {
+        "id": "BGV_SUZU_H002A",
+        "file": "voice/BGV_suzu_h002a.ogg"
       }
     },
     {
@@ -2950,6 +3470,10 @@
       "bg": {
         "label": "#EV059・うっとり・うっとり・涼菜クリなぞり・パンツ染み3",
         "file": "EV059_13"
+      },
+      "bgv": {
+        "id": "BGV_SUZU_H002A",
+        "file": "voice/BGV_suzu_h002a.ogg"
       }
     },
     {
@@ -2966,6 +3490,10 @@
       "bg": {
         "label": "#EV059・うっとり・うっとり・涼菜クリなぞり・パンツ染み3",
         "file": "EV059_13"
+      },
+      "bgv": {
+        "id": "BGV_SUZU_H002A",
+        "file": "voice/BGV_suzu_h002a.ogg"
       }
     },
     {
@@ -2977,6 +3505,10 @@
       "bg": {
         "label": "#EV059・うっとり・うっとり・涼菜クリなぞり・パンツ染み3",
         "file": "EV059_13"
+      },
+      "bgv": {
+        "id": "BGV_SUZU_H002A",
+        "file": "voice/BGV_suzu_h002a.ogg"
       }
     },
     {
@@ -2993,6 +3525,10 @@
       "bg": {
         "label": "#EV059・うっとり・うっとり・涼菜クリなぞり・パンツ染み3",
         "file": "EV059_13"
+      },
+      "bgv": {
+        "id": "BGV_SUZU_H002A",
+        "file": "voice/BGV_suzu_h002a.ogg"
       }
     },
     {
@@ -3008,6 +3544,10 @@
       "bg": {
         "label": "#EV059・うっとり・うっとり・涼菜クリなぞり・パンツ染み3",
         "file": "EV059_13"
+      },
+      "bgv": {
+        "id": "BGV_SUZU_H002A",
+        "file": "voice/BGV_suzu_h002a.ogg"
       }
     },
     {
@@ -3024,6 +3564,10 @@
       "bg": {
         "label": "#EV059・うっとり・うっとり・涼菜クリなぞり・パンツ染み3・パンツ染み",
         "file": "EV059_14"
+      },
+      "bgv": {
+        "id": "BGV_SUZU_H002A",
+        "file": "voice/BGV_suzu_h002a.ogg"
       }
     },
     {
@@ -3037,6 +3581,10 @@
       "bg": {
         "label": "#EV059・うっとり・うっとり・涼菜クリなぞり・パンツ染み3・パンツ染み",
         "file": "EV059_14"
+      },
+      "bgv": {
+        "id": "BGV_SUZU_H002A",
+        "file": "voice/BGV_suzu_h002a.ogg"
       }
     },
     {
@@ -3052,6 +3600,10 @@
       "bg": {
         "label": "#EV059・うっとり・うっとり・涼菜クリなぞり・パンツ染み3・パンツ染み",
         "file": "EV059_14"
+      },
+      "bgv": {
+        "id": "BGV_SUZU_H002A",
+        "file": "voice/BGV_suzu_h002a.ogg"
       }
     },
     {
@@ -3066,6 +3618,10 @@
       "bg": {
         "label": "#EV059・うっとり・うっとり・涼菜クリなぞり・パンツ染み3・パンツ染み",
         "file": "EV059_14"
+      },
+      "bgv": {
+        "id": "BGV_SUZU_H002A",
+        "file": "voice/BGV_suzu_h002a.ogg"
       }
     },
     {
@@ -3082,6 +3638,10 @@
       "bg": {
         "label": "#EV059・うっとり・軽くアヘ・涼菜クリ摘まみ・パンツ染み3・パンツ染み",
         "file": "EV059_15"
+      },
+      "bgv": {
+        "id": "BGV_SUZU_H003A",
+        "file": "voice/BGV_suzu_h003a.ogg"
       }
     },
     {
@@ -3092,6 +3652,10 @@
       "bg": {
         "label": "#EV059・うっとり・軽くアヘ・涼菜クリ摘まみ・パンツ染み3・パンツ染み",
         "file": "EV059_15"
+      },
+      "bgv": {
+        "id": "BGV_SUZU_H003A",
+        "file": "voice/BGV_suzu_h003a.ogg"
       }
     },
     {
@@ -3107,6 +3671,10 @@
       "bg": {
         "label": "#EV059・うっとり・軽くアヘ・涼菜クリ摘まみ・パンツ染み3・パンツ染み",
         "file": "EV059_15"
+      },
+      "bgv": {
+        "id": "BGV_SUZU_H003A",
+        "file": "voice/BGV_suzu_h003a.ogg"
       }
     },
     {
@@ -3122,6 +3690,10 @@
       "bg": {
         "label": "#EV059・うっとり・軽くアヘ・涼菜クリ摘まみ・パンツ染み3・パンツ染み",
         "file": "EV059_15"
+      },
+      "bgv": {
+        "id": "BGV_SUZU_H003A",
+        "file": "voice/BGV_suzu_h003a.ogg"
       }
     },
     {
@@ -3133,6 +3705,10 @@
       "bg": {
         "label": "#EV059・うっとり・軽くアヘ・涼菜クリ摘まみ・パンツ染み3・パンツ染み",
         "file": "EV059_15"
+      },
+      "bgv": {
+        "id": "BGV_SUZU_H003A",
+        "file": "voice/BGV_suzu_h003a.ogg"
       }
     },
     {
@@ -3148,6 +3724,10 @@
       "bg": {
         "label": "#EV059・うっとり・軽くアヘ・涼菜クリ摘まみ・パンツ染み3・パンツ濡れ",
         "file": "EV059_16"
+      },
+      "bgv": {
+        "id": "BGV_SUZU_H003A",
+        "file": "voice/BGV_suzu_h003a.ogg"
       }
     },
     {
@@ -3160,6 +3740,10 @@
       "bg": {
         "label": "#EV059・うっとり・軽くアヘ・涼菜クリ摘まみ・パンツ染み3・パンツ濡れ",
         "file": "EV059_16"
+      },
+      "bgv": {
+        "id": "BGV_SUZU_H003A",
+        "file": "voice/BGV_suzu_h003a.ogg"
       }
     },
     {
@@ -3175,6 +3759,10 @@
       "bg": {
         "label": "#EV059・うっとり・驚き・涼菜クリ摘まみ・パンツ染み3・パンツ濡れ",
         "file": "EV059_17"
+      },
+      "bgv": {
+        "id": "BGV_SUZU_H003A",
+        "file": "voice/BGV_suzu_h003a.ogg"
       }
     },
     {
@@ -3185,6 +3773,10 @@
       "bg": {
         "label": "#EV059・うっとり・驚き・涼菜クリ摘まみ・パンツ染み3・パンツ濡れ",
         "file": "EV059_17"
+      },
+      "bgv": {
+        "id": "BGV_SUZU_H003A",
+        "file": "voice/BGV_suzu_h003a.ogg"
       }
     },
     {
@@ -3200,6 +3792,10 @@
       "bg": {
         "label": "#EV059・うっとり・驚き・涼菜クリ摘まみ・パンツ染み3・パンツ濡れ",
         "file": "EV059_17"
+      },
+      "bgv": {
+        "id": "BGV_SUZU_H003A",
+        "file": "voice/BGV_suzu_h003a.ogg"
       }
     },
     {
@@ -3210,6 +3806,10 @@
       "bg": {
         "label": "#EV059・うっとり・驚き・涼菜クリ摘まみ・パンツ染み3・パンツ濡れ",
         "file": "EV059_17"
+      },
+      "bgv": {
+        "id": "BGV_SUZU_H003A",
+        "file": "voice/BGV_suzu_h003a.ogg"
       }
     },
     {
@@ -3226,6 +3826,10 @@
       "bg": {
         "label": "#EV059・うっとり・驚き・涼菜クリ摘まみ・パンツ染み3・パンツ濡れ",
         "file": "EV059_17"
+      },
+      "bgv": {
+        "id": "BGV_SUZU_H003A",
+        "file": "voice/BGV_suzu_h003a.ogg"
       }
     },
     {
@@ -3242,6 +3846,10 @@
       "bg": {
         "label": "#EV059・うっとり・驚き・涼菜クリ摘まみ・パンツ染み3・パンツ濡れ",
         "file": "EV059_17"
+      },
+      "bgv": {
+        "id": "BGV_SUZU_H003A",
+        "file": "voice/BGV_suzu_h003a.ogg"
       }
     },
     {
@@ -3253,6 +3861,10 @@
       "bg": {
         "label": "#EV059・うっとり・驚き・涼菜クリ摘まみ・パンツ染み3・パンツ濡れ",
         "file": "EV059_17"
+      },
+      "bgv": {
+        "id": "BGV_SUZU_H003A",
+        "file": "voice/BGV_suzu_h003a.ogg"
       }
     },
     {
@@ -3269,6 +3881,10 @@
       "bg": {
         "label": "#EV059・うっとり・驚き・涼菜クリ摘まみ・パンツ染み3・パンツ濡れ",
         "file": "EV059_17"
+      },
+      "bgv": {
+        "id": "BGV_SUZU_H003A",
+        "file": "voice/BGV_suzu_h003a.ogg"
       }
     },
     {
@@ -3281,6 +3897,10 @@
       "bg": {
         "label": "#EV059・うっとり・驚き・涼菜クリ摘まみ・パンツ染み3・パンツ濡れ",
         "file": "EV059_17"
+      },
+      "bgv": {
+        "id": "BGV_SUZU_H003A",
+        "file": "voice/BGV_suzu_h003a.ogg"
       }
     },
     {
@@ -3297,6 +3917,10 @@
       "bg": {
         "label": "#EV059・うっとり・驚き・涼菜クリ摘まみ・パンツ染み3・パンツ濡れ",
         "file": "EV059_17"
+      },
+      "bgv": {
+        "id": "BGV_SUZU_H003A",
+        "file": "voice/BGV_suzu_h003a.ogg"
       }
     },
     {
@@ -3308,6 +3932,10 @@
       "bg": {
         "label": "#EV059・うっとり・驚き・涼菜クリ摘まみ・パンツ染み3・パンツ濡れ",
         "file": "EV059_17"
+      },
+      "bgv": {
+        "id": "BGV_SUZU_H003A",
+        "file": "voice/BGV_suzu_h003a.ogg"
       }
     },
     {
@@ -3324,6 +3952,10 @@
       "bg": {
         "label": "#EV059・うっとり・驚き・涼菜クリ摘まみ・パンツ染み3・パンツ濡れ",
         "file": "EV059_17"
+      },
+      "bgv": {
+        "id": "BGV_SUZU_H003A",
+        "file": "voice/BGV_suzu_h003a.ogg"
       }
     },
     {
@@ -3337,6 +3969,10 @@
       "bg": {
         "label": "#EV059・うっとり・驚き・涼菜クリ摘まみ・パンツ染み3・パンツ濡れ",
         "file": "EV059_17"
+      },
+      "bgv": {
+        "id": "BGV_SUZU_H003A",
+        "file": "voice/BGV_suzu_h003a.ogg"
       }
     },
     {
@@ -3353,6 +3989,10 @@
       "bg": {
         "label": "#EV059・うっとり・驚き・涼菜クリ摘まみ・パンツ染み3・パンツ濡れ",
         "file": "EV059_17"
+      },
+      "bgv": {
+        "id": "BGV_SUZU_H003A",
+        "file": "voice/BGV_suzu_h003a.ogg"
       }
     },
     {
@@ -3365,6 +4005,10 @@
       "bg": {
         "label": "#EV059・うっとり・驚き・涼菜クリ摘まみ・パンツ染み3・パンツ濡れ",
         "file": "EV059_17"
+      },
+      "bgv": {
+        "id": "BGV_SUZU_H003A",
+        "file": "voice/BGV_suzu_h003a.ogg"
       }
     },
     {
@@ -3381,6 +4025,10 @@
       "bg": {
         "label": "#EV059・うっとり・驚き・涼菜クリ摘まみ・パンツ染み3・パンツ濡れ",
         "file": "EV059_17"
+      },
+      "bgv": {
+        "id": "BGV_SUZU_H003A",
+        "file": "voice/BGV_suzu_h003a.ogg"
       }
     },
     {
@@ -3396,6 +4044,10 @@
       "bg": {
         "label": "#EV059・うっとり・驚き・涼菜クリ摘まみ・パンツ染み3・パンツ濡れ",
         "file": "EV059_17"
+      },
+      "bgv": {
+        "id": "BGV_SUZU_H003A",
+        "file": "voice/BGV_suzu_h003a.ogg"
       }
     },
     {
@@ -3410,6 +4062,10 @@
       "bg": {
         "label": "#EV059・うっとり・驚き・涼菜クリ摘まみ・パンツ染み3・パンツ濡れ",
         "file": "EV059_17"
+      },
+      "bgv": {
+        "id": "BGV_SUZU_H003A",
+        "file": "voice/BGV_suzu_h003a.ogg"
       }
     },
     {
@@ -3426,6 +4082,10 @@
       "bg": {
         "label": "#EV059・うっとり・驚き・涼菜クリ摘まみ・パンツ染み3・パンツ濡れ",
         "file": "EV059_17"
+      },
+      "bgv": {
+        "id": "BGV_SUZU_H003A",
+        "file": "voice/BGV_suzu_h003a.ogg"
       }
     },
     {
@@ -3437,6 +4097,10 @@
       "bg": {
         "label": "#EV059・うっとり・驚き・涼菜クリ摘まみ・パンツ染み3・パンツ濡れ",
         "file": "EV059_17"
+      },
+      "bgv": {
+        "id": "BGV_SUZU_H003A",
+        "file": "voice/BGV_suzu_h003a.ogg"
       }
     },
     {
@@ -3453,6 +4117,10 @@
       "bg": {
         "label": "#EV059・うっとり・驚き・涼菜クリ摘まみ・パンツ染み3・パンツ濡れ",
         "file": "EV059_17"
+      },
+      "bgv": {
+        "id": "BGV_SUZU_H003A",
+        "file": "voice/BGV_suzu_h003a.ogg"
       }
     },
     {
@@ -3464,6 +4132,10 @@
       "bg": {
         "label": "#EV059・うっとり・驚き・涼菜クリ摘まみ・パンツ染み3・パンツ濡れ",
         "file": "EV059_17"
+      },
+      "bgv": {
+        "id": "BGV_SUZU_H003A",
+        "file": "voice/BGV_suzu_h003a.ogg"
       }
     },
     {
@@ -3480,6 +4152,10 @@
       "bg": {
         "label": "#EV059・うっとり・驚き・涼菜クリ摘まみ・パンツ染み3・パンツ濡れ",
         "file": "EV059_17"
+      },
+      "bgv": {
+        "id": "BGV_SUZU_H003A",
+        "file": "voice/BGV_suzu_h003a.ogg"
       }
     },
     {
@@ -3493,6 +4169,10 @@
       "bg": {
         "label": "#EV059・うっとり・驚き・涼菜クリ摘まみ・パンツ染み3・パンツ濡れ",
         "file": "EV059_17"
+      },
+      "bgv": {
+        "id": "BGV_SUZU_H003A",
+        "file": "voice/BGV_suzu_h003a.ogg"
       }
     },
     {
@@ -3509,6 +4189,10 @@
       "bg": {
         "label": "#EV059・うっとり・軽くアヘ・涼菜割れ目なぞり・パンツ染み3・パンツ濡れ",
         "file": "EV059_18"
+      },
+      "bgv": {
+        "id": "BGV_SUZU_H003A",
+        "file": "voice/BGV_suzu_h003a.ogg"
       }
     },
     {
@@ -3522,6 +4206,10 @@
       "bg": {
         "label": "#EV059・うっとり・軽くアヘ・涼菜割れ目なぞり・パンツ染み3・パンツ濡れ",
         "file": "EV059_18"
+      },
+      "bgv": {
+        "id": "BGV_SUZU_H003A",
+        "file": "voice/BGV_suzu_h003a.ogg"
       }
     },
     {
@@ -3537,6 +4225,10 @@
       "bg": {
         "label": "#EV059・うっとり・軽くアヘ・涼菜割れ目なぞり・パンツ染み3・パンツ濡れ",
         "file": "EV059_18"
+      },
+      "bgv": {
+        "id": "BGV_SUZU_H003A",
+        "file": "voice/BGV_suzu_h003a.ogg"
       }
     },
     {
@@ -3549,6 +4241,10 @@
       "bg": {
         "label": "#EV059・うっとり・軽くアヘ・涼菜割れ目なぞり・パンツ染み3・パンツ濡れ",
         "file": "EV059_18"
+      },
+      "bgv": {
+        "id": "BGV_SUZU_H003A",
+        "file": "voice/BGV_suzu_h003a.ogg"
       }
     },
     {
@@ -3565,6 +4261,10 @@
       "bg": {
         "label": "#EV059・うっとり・軽くアヘ・涼菜割れ目なぞり・パンツ染み3・パンツ濡れ",
         "file": "EV059_18"
+      },
+      "bgv": {
+        "id": "BGV_SUZU_H003A",
+        "file": "voice/BGV_suzu_h003a.ogg"
       }
     },
     {
@@ -3576,6 +4276,10 @@
       "bg": {
         "label": "#EV059・うっとり・軽くアヘ・涼菜割れ目なぞり・パンツ染み3・パンツ濡れ",
         "file": "EV059_18"
+      },
+      "bgv": {
+        "id": "BGV_SUZU_H003A",
+        "file": "voice/BGV_suzu_h003a.ogg"
       }
     },
     {
@@ -3592,6 +4296,10 @@
       "bg": {
         "label": "#EV059・うっとり・軽くアヘ・涼菜割れ目なぞり・パンツ染み3・パンツ濡れ",
         "file": "EV059_18"
+      },
+      "bgv": {
+        "id": "BGV_SUZU_H003A",
+        "file": "voice/BGV_suzu_h003a.ogg"
       }
     },
     {
@@ -3604,6 +4312,10 @@
       "bg": {
         "label": "#EV059・うっとり・軽くアヘ・涼菜割れ目なぞり・パンツ染み3・パンツ濡れ",
         "file": "EV059_18"
+      },
+      "bgv": {
+        "id": "BGV_SUZU_H003A",
+        "file": "voice/BGV_suzu_h003a.ogg"
       }
     },
     {
@@ -3619,6 +4331,10 @@
       "bg": {
         "label": "#EV059・うっとり・軽くアヘ・涼菜割れ目なぞり・パンツ染み3・パンツ濡れ",
         "file": "EV059_18"
+      },
+      "bgv": {
+        "id": "BGV_SUZU_H003A",
+        "file": "voice/BGV_suzu_h003a.ogg"
       }
     },
     {
@@ -3634,6 +4350,10 @@
       "bg": {
         "label": "#EV059・うっとり・軽くアヘ・涼菜割れ目なぞり・パンツ染み3・パンツ濡れ",
         "file": "EV059_18"
+      },
+      "bgv": {
+        "id": "BGV_SUZU_H003A",
+        "file": "voice/BGV_suzu_h003a.ogg"
       }
     },
     {
@@ -3646,6 +4366,10 @@
       "bg": {
         "label": "#EV059・うっとり・軽くアヘ・涼菜割れ目なぞり・パンツ染み3・パンツ濡れ",
         "file": "EV059_18"
+      },
+      "bgv": {
+        "id": "BGV_SUZU_H003A",
+        "file": "voice/BGV_suzu_h003a.ogg"
       }
     },
     {
@@ -3657,6 +4381,10 @@
       "bg": {
         "label": "#EV059・うっとり・軽くアヘ・涼菜割れ目なぞり・パンツ染み3・パンツ濡れ",
         "file": "EV059_18"
+      },
+      "bgv": {
+        "id": "BGV_SUZU_H003A",
+        "file": "voice/BGV_suzu_h003a.ogg"
       }
     },
     {
@@ -3672,6 +4400,10 @@
       "bg": {
         "label": "#EV059・うっとり・軽くアヘ・涼菜割れ目なぞり・パンツ染み3・パンツ濡れ",
         "file": "EV059_18"
+      },
+      "bgv": {
+        "id": "BGV_SUZU_H003A",
+        "file": "voice/BGV_suzu_h003a.ogg"
       }
     },
     {
@@ -3682,6 +4414,10 @@
       "bg": {
         "label": "#EV059・うっとり・軽くアヘ・涼菜割れ目なぞり・パンツ染み3・パンツ濡れ",
         "file": "EV059_18"
+      },
+      "bgv": {
+        "id": "BGV_SUZU_H003A",
+        "file": "voice/BGV_suzu_h003a.ogg"
       }
     },
     {
@@ -3698,6 +4434,10 @@
       "bg": {
         "label": "#EV059・うっとり・軽くアヘ・涼菜割れ目なぞり・パンツ染み3・パンツ濡れ",
         "file": "EV059_18"
+      },
+      "bgv": {
+        "id": "BGV_SUZU_H003A",
+        "file": "voice/BGV_suzu_h003a.ogg"
       }
     },
     {
@@ -3708,6 +4448,10 @@
       "bg": {
         "label": "#EV059・うっとり・軽くアヘ・涼菜割れ目なぞり・パンツ染み3・パンツ濡れ",
         "file": "EV059_18"
+      },
+      "bgv": {
+        "id": "BGV_SUZU_H003A",
+        "file": "voice/BGV_suzu_h003a.ogg"
       }
     },
     {
@@ -3725,6 +4469,10 @@
       "bg": {
         "label": "#EV006・にっこり・にっこり・パンツ染み・パンツ濡れ",
         "file": "EV006_03"
+      },
+      "bgv": {
+        "id": "BGV_SUZU_H003A",
+        "file": "voice/BGV_suzu_h003a.ogg"
       }
     },
     {
@@ -3740,6 +4488,10 @@
       "bg": {
         "label": "#EV006・にっこり・にっこり・パンツ染み・パンツ濡れ",
         "file": "EV006_03"
+      },
+      "bgv": {
+        "id": "BGV_SUZU_H003A",
+        "file": "voice/BGV_suzu_h003a.ogg"
       }
     },
     {
@@ -3755,6 +4507,10 @@
       "bg": {
         "label": "#EV006・にっこり・にっこり・パンツ染み・パンツ濡れ",
         "file": "EV006_03"
+      },
+      "bgv": {
+        "id": "BGV_SUZU_H003A",
+        "file": "voice/BGV_suzu_h003a.ogg"
       }
     },
     {
@@ -3768,6 +4524,10 @@
       "bg": {
         "label": "#EV006・にっこり・にっこり・パンツ染み・パンツ濡れ",
         "file": "EV006_03"
+      },
+      "bgv": {
+        "id": "BGV_SUZU_H003A",
+        "file": "voice/BGV_suzu_h003a.ogg"
       }
     },
     {
@@ -3779,6 +4539,10 @@
       "bg": {
         "label": "#EV006・にっこり・にっこり・パンツ染み・パンツ濡れ",
         "file": "EV006_03"
+      },
+      "bgv": {
+        "id": "BGV_SUZU_H003A",
+        "file": "voice/BGV_suzu_h003a.ogg"
       }
     },
     {
@@ -3792,6 +4556,10 @@
       "bg": {
         "label": "#EV006・にっこり・にっこり・パンツ染み・パンツ濡れ",
         "file": "EV006_03"
+      },
+      "bgv": {
+        "id": "BGV_SUZU_H003A",
+        "file": "voice/BGV_suzu_h003a.ogg"
       }
     },
     {
@@ -3808,6 +4576,10 @@
       "bg": {
         "label": "#EV006・困惑・不満・パンツ染み・パンツ濡れ",
         "file": "EV006_04"
+      },
+      "bgv": {
+        "id": "BGV_SUZU_H003A",
+        "file": "voice/BGV_suzu_h003a.ogg"
       }
     },
     {
@@ -3823,6 +4595,10 @@
       "bg": {
         "label": "#EV006・困惑・不満・パンツ染み・パンツ濡れ",
         "file": "EV006_04"
+      },
+      "bgv": {
+        "id": "BGV_SUZU_H003A",
+        "file": "voice/BGV_suzu_h003a.ogg"
       }
     },
     {
@@ -3834,6 +4610,10 @@
       "bg": {
         "label": "#EV006・困惑・不満・パンツ染み・パンツ濡れ",
         "file": "EV006_04"
+      },
+      "bgv": {
+        "id": "BGV_SUZU_H003A",
+        "file": "voice/BGV_suzu_h003a.ogg"
       }
     },
     {
@@ -3850,6 +4630,10 @@
       "bg": {
         "label": "#EV006・困惑・不満・パンツ染み・パンツ濡れ",
         "file": "EV006_04"
+      },
+      "bgv": {
+        "id": "BGV_SUZU_H003A",
+        "file": "voice/BGV_suzu_h003a.ogg"
       }
     },
     {
@@ -3866,6 +4650,10 @@
       "bg": {
         "label": "#EV006・困惑・不満・パンツ染み・パンツ濡れ",
         "file": "EV006_04"
+      },
+      "bgv": {
+        "id": "BGV_SUZU_H003A",
+        "file": "voice/BGV_suzu_h003a.ogg"
       }
     },
     {
@@ -3878,6 +4666,10 @@
       "bg": {
         "label": "#EV006・困惑・不満・パンツ染み・パンツ濡れ",
         "file": "EV006_04"
+      },
+      "bgv": {
+        "id": "BGV_SUZU_H003A",
+        "file": "voice/BGV_suzu_h003a.ogg"
       }
     },
     {
@@ -3889,6 +4681,10 @@
       "bg": {
         "label": "#EV006・困惑・不満・パンツ染み・パンツ濡れ",
         "file": "EV006_04"
+      },
+      "bgv": {
+        "id": "BGV_SUZU_H003A",
+        "file": "voice/BGV_suzu_h003a.ogg"
       }
     },
     {
@@ -3899,6 +4695,10 @@
       "bg": {
         "label": "#EV006・困惑・不満・パンツ染み・パンツ濡れ",
         "file": "EV006_04"
+      },
+      "bgv": {
+        "id": "BGV_SUZU_H003A",
+        "file": "voice/BGV_suzu_h003a.ogg"
       }
     },
     {
@@ -3915,6 +4715,10 @@
       "bg": {
         "label": "#EV006・困惑・不満・パンツ染み・パンツ濡れ",
         "file": "EV006_04"
+      },
+      "bgv": {
+        "id": "BGV_SUZU_H003A",
+        "file": "voice/BGV_suzu_h003a.ogg"
       }
     },
     {
@@ -3930,6 +4734,10 @@
       "bg": {
         "label": "#EV006・困惑・不満・パンツ染み・パンツ濡れ",
         "file": "EV006_04"
+      },
+      "bgv": {
+        "id": "BGV_SUZU_H003A",
+        "file": "voice/BGV_suzu_h003a.ogg"
       }
     },
     {
@@ -3946,7 +4754,11 @@
           "code": "8201B",
           "file": "se/8201b.ogg"
         }
-      ]
+      ],
+      "bgv": {
+        "id": "BGV_SUZU_H003A",
+        "file": "voice/BGV_suzu_h003a.ogg"
+      }
     },
     {
       "kind": "narration",
@@ -3957,6 +4769,10 @@
       "bg": {
         "label": "#EV006・驚き・不満・精液・パンツ濡れ",
         "file": "EV006_05"
+      },
+      "bgv": {
+        "id": "BGV_SUZU_H003A",
+        "file": "voice/BGV_suzu_h003a.ogg"
       }
     },
     {
@@ -3973,6 +4789,10 @@
       "bg": {
         "label": "#EV006・驚き・不満・精液・パンツ濡れ",
         "file": "EV006_05"
+      },
+      "bgv": {
+        "id": "BGV_SUZU_H003A",
+        "file": "voice/BGV_suzu_h003a.ogg"
       }
     },
     {
@@ -3984,6 +4804,10 @@
       "bg": {
         "label": "#EV006・驚き・不満・精液・パンツ濡れ",
         "file": "EV006_05"
+      },
+      "bgv": {
+        "id": "BGV_SUZU_H003A",
+        "file": "voice/BGV_suzu_h003a.ogg"
       }
     },
     {
@@ -3999,6 +4823,10 @@
       "bg": {
         "label": "#EV006・驚き・不満・精液・パンツ濡れ",
         "file": "EV006_05"
+      },
+      "bgv": {
+        "id": "BGV_SUZU_H003A",
+        "file": "voice/BGV_suzu_h003a.ogg"
       }
     },
     {
@@ -4013,6 +4841,10 @@
       "bg": {
         "label": "#EV006・驚き・不満・精液・パンツ濡れ",
         "file": "EV006_05"
+      },
+      "bgv": {
+        "id": "BGV_SUZU_H003A",
+        "file": "voice/BGV_suzu_h003a.ogg"
       }
     },
     {
@@ -4029,6 +4861,10 @@
       "bg": {
         "label": "#EV006・驚き・驚き・精液・精液",
         "file": "EV006_06"
+      },
+      "bgv": {
+        "id": "BGV_SUZU_H003A",
+        "file": "voice/BGV_suzu_h003a.ogg"
       }
     },
     {
@@ -4040,6 +4876,10 @@
       "bg": {
         "label": "#EV006・驚き・驚き・精液・精液",
         "file": "EV006_06"
+      },
+      "bgv": {
+        "id": "BGV_SUZU_H003A",
+        "file": "voice/BGV_suzu_h003a.ogg"
       }
     },
     {
@@ -4055,6 +4895,10 @@
       "bg": {
         "label": "#EV006・驚き・驚き・精液・精液",
         "file": "EV006_06"
+      },
+      "bgv": {
+        "id": "BGV_SUZU_H003A",
+        "file": "voice/BGV_suzu_h003a.ogg"
       }
     },
     {
@@ -4067,6 +4911,10 @@
       "bg": {
         "label": "#EV006・驚き・驚き・精液・精液",
         "file": "EV006_06"
+      },
+      "bgv": {
+        "id": "BGV_SUZU_H003A",
+        "file": "voice/BGV_suzu_h003a.ogg"
       }
     },
     {
@@ -4082,6 +4930,10 @@
       "bg": {
         "label": "#EV006・驚き・驚き・精液・精液",
         "file": "EV006_06"
+      },
+      "bgv": {
+        "id": "BGV_SUZU_H003A",
+        "file": "voice/BGV_suzu_h003a.ogg"
       }
     },
     {
@@ -4098,6 +4950,10 @@
       "bg": {
         "label": "#EV006・驚き・驚き・精液・精液",
         "file": "EV006_06"
+      },
+      "bgv": {
+        "id": "BGV_SUZU_H003A",
+        "file": "voice/BGV_suzu_h003a.ogg"
       }
     },
     {
@@ -4110,6 +4966,10 @@
       "bg": {
         "label": "#EV006・驚き・驚き・精液・精液",
         "file": "EV006_06"
+      },
+      "bgv": {
+        "id": "BGV_SUZU_H003A",
+        "file": "voice/BGV_suzu_h003a.ogg"
       }
     },
     {
@@ -4121,6 +4981,10 @@
       "bg": {
         "label": "#EV006・驚き・驚き・精液・精液",
         "file": "EV006_06"
+      },
+      "bgv": {
+        "id": "BGV_SUZU_H003A",
+        "file": "voice/BGV_suzu_h003a.ogg"
       }
     },
     {
@@ -4131,6 +4995,10 @@
       "bg": {
         "label": "#EV006・驚き・驚き・精液・精液",
         "file": "EV006_06"
+      },
+      "bgv": {
+        "id": "BGV_SUZU_H003A",
+        "file": "voice/BGV_suzu_h003a.ogg"
       }
     },
     {
@@ -4146,6 +5014,10 @@
       "bg": {
         "label": "#EV006・驚き・驚き・精液・精液",
         "file": "EV006_06"
+      },
+      "bgv": {
+        "id": "BGV_SUZU_H003A",
+        "file": "voice/BGV_suzu_h003a.ogg"
       }
     },
     {
@@ -4156,6 +5028,10 @@
       "bg": {
         "label": "#EV006・驚き・驚き・精液・精液",
         "file": "EV006_06"
+      },
+      "bgv": {
+        "id": "BGV_SUZU_H003A",
+        "file": "voice/BGV_suzu_h003a.ogg"
       }
     },
     {
@@ -4171,6 +5047,10 @@
       "bg": {
         "label": "#EV006・驚き・驚き・精液・精液",
         "file": "EV006_06"
+      },
+      "bgv": {
+        "id": "BGV_SUZU_H003A",
+        "file": "voice/BGV_suzu_h003a.ogg"
       }
     },
     {
@@ -4183,6 +5063,10 @@
       "bg": {
         "label": "#EV006・驚き・驚き・精液・精液",
         "file": "EV006_06"
+      },
+      "bgv": {
+        "id": "BGV_SUZU_H003A",
+        "file": "voice/BGV_suzu_h003a.ogg"
       }
     },
     {
@@ -4207,6 +5091,10 @@
           426,
           73
         ]
+      },
+      "bgv": {
+        "id": "BGV_SUZU_H003A",
+        "file": "voice/BGV_suzu_h003a.ogg"
       }
     },
     {
@@ -4229,6 +5117,10 @@
           426,
           73
         ]
+      },
+      "bgv": {
+        "id": "BGV_SUZU_H003A",
+        "file": "voice/BGV_suzu_h003a.ogg"
       }
     },
     {
@@ -4253,6 +5145,10 @@
           426,
           73
         ]
+      },
+      "bgv": {
+        "id": "BGV_SUZU_H003A",
+        "file": "voice/BGV_suzu_h003a.ogg"
       }
     },
     {
@@ -4277,6 +5173,10 @@
           426,
           73
         ]
+      },
+      "bgv": {
+        "id": "BGV_SUZU_H003A",
+        "file": "voice/BGV_suzu_h003a.ogg"
       }
     }
   ],

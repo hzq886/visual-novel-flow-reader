@@ -1072,6 +1072,10 @@
           234,
           70
         ]
+      },
+      "bgv": {
+        "id": "BGV_KAED_F001A",
+        "file": "voice/BGV_kaed_f001a.ogg"
       }
     },
     {
@@ -1092,6 +1096,10 @@
           234,
           70
         ]
+      },
+      "bgv": {
+        "id": "BGV_KAED_F001A",
+        "file": "voice/BGV_kaed_f001a.ogg"
       }
     },
     {
@@ -1116,6 +1124,10 @@
           234,
           70
         ]
+      },
+      "bgv": {
+        "id": "BGV_KAED_F001A",
+        "file": "voice/BGV_kaed_f001a.ogg"
       }
     },
     {
@@ -1135,6 +1147,10 @@
           234,
           70
         ]
+      },
+      "bgv": {
+        "id": "BGV_KAED_F001A",
+        "file": "voice/BGV_kaed_f001a.ogg"
       }
     },
     {
@@ -1159,6 +1175,10 @@
           234,
           70
         ]
+      },
+      "bgv": {
+        "id": "BGV_KAED_F001A",
+        "file": "voice/BGV_kaed_f001a.ogg"
       }
     },
     {
@@ -1179,6 +1199,10 @@
           234,
           70
         ]
+      },
+      "bgv": {
+        "id": "BGV_KAED_F001A",
+        "file": "voice/BGV_kaed_f001a.ogg"
       }
     },
     {
@@ -1209,7 +1233,11 @@
           "code": "8131A",
           "file": "se/8131a.ogg"
         }
-      ]
+      ],
+      "bgv": {
+        "id": "BGV_KAED_F001A",
+        "file": "voice/BGV_kaed_f001a.ogg"
+      }
     },
     {
       "kind": "narration",
@@ -1229,6 +1257,10 @@
           234,
           70
         ]
+      },
+      "bgv": {
+        "id": "BGV_KAED_F001A",
+        "file": "voice/BGV_kaed_f001a.ogg"
       }
     },
     {
@@ -1253,6 +1285,10 @@
           234,
           70
         ]
+      },
+      "bgv": {
+        "id": "BGV_KAED_F001A",
+        "file": "voice/BGV_kaed_f001a.ogg"
       }
     },
     {
@@ -1274,6 +1310,10 @@
           234,
           70
         ]
+      },
+      "bgv": {
+        "id": "BGV_KAED_F001A",
+        "file": "voice/BGV_kaed_f001a.ogg"
       }
     },
     {
@@ -1298,6 +1338,10 @@
           234,
           70
         ]
+      },
+      "bgv": {
+        "id": "BGV_KAED_F001A",
+        "file": "voice/BGV_kaed_f001a.ogg"
       }
     },
     {
@@ -1319,6 +1363,10 @@
           234,
           70
         ]
+      },
+      "bgv": {
+        "id": "BGV_KAED_F001A",
+        "file": "voice/BGV_kaed_f001a.ogg"
       }
     },
     {
@@ -1343,6 +1391,10 @@
           234,
           70
         ]
+      },
+      "bgv": {
+        "id": "BGV_KAED_F001A",
+        "file": "voice/BGV_kaed_f001a.ogg"
       }
     },
     {
@@ -1362,6 +1414,10 @@
           234,
           70
         ]
+      },
+      "bgv": {
+        "id": "BGV_KAED_F001A",
+        "file": "voice/BGV_kaed_f001a.ogg"
       }
     },
     {
@@ -1386,6 +1442,10 @@
           234,
           70
         ]
+      },
+      "bgv": {
+        "id": "BGV_KAED_F001A",
+        "file": "voice/BGV_kaed_f001a.ogg"
       }
     },
     {
@@ -1406,6 +1466,10 @@
           234,
           70
         ]
+      },
+      "bgv": {
+        "id": "BGV_KAED_F001A",
+        "file": "voice/BGV_kaed_f001a.ogg"
       }
     },
     {
@@ -1430,6 +1494,10 @@
           234,
           70
         ]
+      },
+      "bgv": {
+        "id": "BGV_KAED_F001A",
+        "file": "voice/BGV_kaed_f001a.ogg"
       }
     },
     {
@@ -1451,6 +1519,10 @@
           234,
           70
         ]
+      },
+      "bgv": {
+        "id": "BGV_KAED_F001A",
+        "file": "voice/BGV_kaed_f001a.ogg"
       }
     },
     {
@@ -1475,6 +1547,10 @@
           234,
           70
         ]
+      },
+      "bgv": {
+        "id": "BGV_KAED_F001A",
+        "file": "voice/BGV_kaed_f001a.ogg"
       }
     },
     {
@@ -1495,6 +1571,10 @@
           234,
           70
         ]
+      },
+      "bgv": {
+        "id": "BGV_KAED_F001A",
+        "file": "voice/BGV_kaed_f001a.ogg"
       }
     },
     {
@@ -1520,6 +1600,10 @@
           234,
           70
         ]
+      },
+      "bgv": {
+        "id": "BGV_KAED_F001A",
+        "file": "voice/BGV_kaed_f001a.ogg"
       }
     },
     {
@@ -1540,6 +1624,10 @@
           234,
           70
         ]
+      },
+      "bgv": {
+        "id": "BGV_KAED_F001A",
+        "file": "voice/BGV_kaed_f001a.ogg"
       }
     },
     {
@@ -1564,6 +1652,10 @@
           234,
           70
         ]
+      },
+      "bgv": {
+        "id": "BGV_KAED_F001A",
+        "file": "voice/BGV_kaed_f001a.ogg"
       }
     },
     {
@@ -1585,6 +1677,10 @@
           234,
           70
         ]
+      },
+      "bgv": {
+        "id": "BGV_KAED_F001A",
+        "file": "voice/BGV_kaed_f001a.ogg"
       }
     },
     {
@@ -1609,6 +1705,10 @@
           234,
           70
         ]
+      },
+      "bgv": {
+        "id": "BGV_KAED_F001A",
+        "file": "voice/BGV_kaed_f001a.ogg"
       }
     },
     {
@@ -1629,6 +1729,10 @@
           234,
           70
         ]
+      },
+      "bgv": {
+        "id": "BGV_KAED_F001A",
+        "file": "voice/BGV_kaed_f001a.ogg"
       }
     },
     {
@@ -1653,6 +1757,10 @@
           234,
           70
         ]
+      },
+      "bgv": {
+        "id": "BGV_KAED_F001A",
+        "file": "voice/BGV_kaed_f001a.ogg"
       }
     },
     {
@@ -1674,6 +1782,10 @@
           234,
           70
         ]
+      },
+      "bgv": {
+        "id": "BGV_KAED_F001A",
+        "file": "voice/BGV_kaed_f001a.ogg"
       }
     },
     {
@@ -1698,6 +1810,10 @@
           234,
           70
         ]
+      },
+      "bgv": {
+        "id": "BGV_KAED_F001A",
+        "file": "voice/BGV_kaed_f001a.ogg"
       }
     },
     {
@@ -1717,6 +1833,10 @@
           234,
           70
         ]
+      },
+      "bgv": {
+        "id": "BGV_KAED_F001A",
+        "file": "voice/BGV_kaed_f001a.ogg"
       }
     },
     {
@@ -1736,6 +1856,10 @@
           234,
           70
         ]
+      },
+      "bgv": {
+        "id": "BGV_KAED_F001A",
+        "file": "voice/BGV_kaed_f001a.ogg"
       }
     },
     {
@@ -1761,6 +1885,10 @@
           234,
           70
         ]
+      },
+      "bgv": {
+        "id": "BGV_KAED_F002A",
+        "file": "voice/BGV_kaed_f002a.ogg"
       }
     },
     {
@@ -1781,6 +1909,10 @@
           234,
           70
         ]
+      },
+      "bgv": {
+        "id": "BGV_KAED_F002A",
+        "file": "voice/BGV_kaed_f002a.ogg"
       }
     },
     {
@@ -1806,6 +1938,10 @@
           234,
           70
         ]
+      },
+      "bgv": {
+        "id": "BGV_KAED_F002A",
+        "file": "voice/BGV_kaed_f002a.ogg"
       }
     },
     {
@@ -1826,6 +1962,10 @@
           234,
           70
         ]
+      },
+      "bgv": {
+        "id": "BGV_KAED_F002A",
+        "file": "voice/BGV_kaed_f002a.ogg"
       }
     },
     {
@@ -1851,6 +1991,10 @@
           234,
           70
         ]
+      },
+      "bgv": {
+        "id": "BGV_KAED_F002A",
+        "file": "voice/BGV_kaed_f002a.ogg"
       }
     },
     {
@@ -1872,6 +2016,10 @@
           234,
           70
         ]
+      },
+      "bgv": {
+        "id": "BGV_KAED_F002A",
+        "file": "voice/BGV_kaed_f002a.ogg"
       }
     },
     {
@@ -1897,6 +2045,10 @@
           234,
           70
         ]
+      },
+      "bgv": {
+        "id": "BGV_KAED_F002A",
+        "file": "voice/BGV_kaed_f002a.ogg"
       }
     },
     {
@@ -1924,7 +2076,11 @@
           "code": "8131B",
           "file": "se/8131b.ogg"
         }
-      ]
+      ],
+      "bgv": {
+        "id": "BGV_KAED_F002A",
+        "file": "voice/BGV_kaed_f002a.ogg"
+      }
     },
     {
       "kind": "line",
@@ -1949,6 +2105,10 @@
           234,
           70
         ]
+      },
+      "bgv": {
+        "id": "BGV_KAED_F002A",
+        "file": "voice/BGV_kaed_f002a.ogg"
       }
     },
     {
@@ -1969,6 +2129,10 @@
           234,
           70
         ]
+      },
+      "bgv": {
+        "id": "BGV_KAED_F002A",
+        "file": "voice/BGV_kaed_f002a.ogg"
       }
     },
     {
@@ -1994,6 +2158,10 @@
           234,
           70
         ]
+      },
+      "bgv": {
+        "id": "BGV_KAED_F002A",
+        "file": "voice/BGV_kaed_f002a.ogg"
       }
     },
     {
@@ -2014,6 +2182,10 @@
           234,
           70
         ]
+      },
+      "bgv": {
+        "id": "BGV_KAED_F002A",
+        "file": "voice/BGV_kaed_f002a.ogg"
       }
     },
     {
@@ -2039,6 +2211,10 @@
           234,
           70
         ]
+      },
+      "bgv": {
+        "id": "BGV_KAED_F002A",
+        "file": "voice/BGV_kaed_f002a.ogg"
       }
     },
     {
@@ -2058,6 +2234,10 @@
           234,
           70
         ]
+      },
+      "bgv": {
+        "id": "BGV_KAED_F002A",
+        "file": "voice/BGV_kaed_f002a.ogg"
       }
     },
     {
@@ -2082,6 +2262,10 @@
           234,
           70
         ]
+      },
+      "bgv": {
+        "id": "BGV_KAED_F002A",
+        "file": "voice/BGV_kaed_f002a.ogg"
       }
     },
     {
@@ -2104,6 +2288,10 @@
           234,
           70
         ]
+      },
+      "bgv": {
+        "id": "BGV_KAED_F002A",
+        "file": "voice/BGV_kaed_f002a.ogg"
       }
     },
     {
@@ -2134,7 +2322,11 @@
           "code": "8131C",
           "file": "se/8131c.ogg"
         }
-      ]
+      ],
+      "bgv": {
+        "id": "BGV_KAED_F002A",
+        "file": "voice/BGV_kaed_f002a.ogg"
+      }
     },
     {
       "kind": "narration",
@@ -2154,6 +2346,10 @@
           234,
           70
         ]
+      },
+      "bgv": {
+        "id": "BGV_KAED_F002A",
+        "file": "voice/BGV_kaed_f002a.ogg"
       }
     },
     {
@@ -2179,6 +2375,10 @@
           234,
           70
         ]
+      },
+      "bgv": {
+        "id": "BGV_KAED_F003A",
+        "file": "voice/BGV_kaed_f003a.ogg"
       }
     },
     {
@@ -2200,6 +2400,10 @@
           234,
           70
         ]
+      },
+      "bgv": {
+        "id": "BGV_KAED_F003A",
+        "file": "voice/BGV_kaed_f003a.ogg"
       }
     },
     {
@@ -2225,6 +2429,10 @@
           234,
           70
         ]
+      },
+      "bgv": {
+        "id": "BGV_KAED_F003A",
+        "file": "voice/BGV_kaed_f003a.ogg"
       }
     },
     {
@@ -2244,6 +2452,10 @@
           234,
           70
         ]
+      },
+      "bgv": {
+        "id": "BGV_KAED_F003A",
+        "file": "voice/BGV_kaed_f003a.ogg"
       }
     },
     {
@@ -2260,6 +2472,10 @@
       "bg": {
         "label": "#EV031・軽くアヘ舌絡め・愛液・舌絡め",
         "file": "EV031_06"
+      },
+      "bgv": {
+        "id": "BGV_KAED_F003A",
+        "file": "voice/BGV_kaed_f003a.ogg"
       }
     },
     {
@@ -2271,6 +2487,10 @@
       "bg": {
         "label": "#EV031・軽くアヘ舌絡め・愛液・舌絡め",
         "file": "EV031_06"
+      },
+      "bgv": {
+        "id": "BGV_KAED_F003A",
+        "file": "voice/BGV_kaed_f003a.ogg"
       }
     },
     {
@@ -2286,6 +2506,10 @@
       "bg": {
         "label": "#EV031・軽くアヘ舌絡め・愛液・舌絡め",
         "file": "EV031_06"
+      },
+      "bgv": {
+        "id": "BGV_KAED_F003A",
+        "file": "voice/BGV_kaed_f003a.ogg"
       }
     },
     {
@@ -2297,6 +2521,10 @@
       "bg": {
         "label": "#EV031・軽くアヘ舌絡め・愛液・舌絡め",
         "file": "EV031_06"
+      },
+      "bgv": {
+        "id": "BGV_KAED_F003A",
+        "file": "voice/BGV_kaed_f003a.ogg"
       }
     },
     {
@@ -2312,6 +2540,10 @@
       "bg": {
         "label": "#EV031・軽くアヘ舌絡め・愛液・舌絡め",
         "file": "EV031_06"
+      },
+      "bgv": {
+        "id": "BGV_KAED_F003A",
+        "file": "voice/BGV_kaed_f003a.ogg"
       }
     },
     {
@@ -2323,6 +2555,10 @@
       "bg": {
         "label": "#EV031・軽くアヘ舌絡め・愛液・舌絡め",
         "file": "EV031_06"
+      },
+      "bgv": {
+        "id": "BGV_KAED_F003A",
+        "file": "voice/BGV_kaed_f003a.ogg"
       }
     },
     {
@@ -2339,6 +2575,10 @@
       "bg": {
         "label": "#EV031・軽くアヘ舌絡め・愛液・舌絡め",
         "file": "EV031_06"
+      },
+      "bgv": {
+        "id": "BGV_KAED_H002A",
+        "file": "voice/BGV_kaed_h002a.ogg"
       }
     },
     {
@@ -2350,6 +2590,10 @@
       "bg": {
         "label": "#EV031・軽くアヘ舌絡め・愛液・舌絡め",
         "file": "EV031_06"
+      },
+      "bgv": {
+        "id": "BGV_KAED_H002A",
+        "file": "voice/BGV_kaed_h002a.ogg"
       }
     },
     {
@@ -2372,7 +2616,11 @@
           "code": "8351A",
           "file": "se/8351a.ogg"
         }
-      ]
+      ],
+      "bgv": {
+        "id": "BGV_KAED_H002A",
+        "file": "voice/BGV_kaed_h002a.ogg"
+      }
     },
     {
       "kind": "narration",
@@ -2384,6 +2632,10 @@
       "bg": {
         "label": "#EV031・軽くアヘ舌絡め・愛液2・舌絡め",
         "file": "EV031_07"
+      },
+      "bgv": {
+        "id": "BGV_KAED_H002A",
+        "file": "voice/BGV_kaed_h002a.ogg"
       }
     },
     {
@@ -2400,6 +2652,10 @@
       "bg": {
         "label": "#EV031・軽くアヘ舌絡め・愛液2・舌絡め",
         "file": "EV031_07"
+      },
+      "bgv": {
+        "id": "BGV_KAED_H002A",
+        "file": "voice/BGV_kaed_h002a.ogg"
       }
     },
     {
@@ -2411,6 +2667,10 @@
       "bg": {
         "label": "#EV031・軽くアヘ舌絡め・愛液2・舌絡め",
         "file": "EV031_07"
+      },
+      "bgv": {
+        "id": "BGV_KAED_H002A",
+        "file": "voice/BGV_kaed_h002a.ogg"
       }
     },
     {
@@ -2426,6 +2686,10 @@
       "bg": {
         "label": "#EV031・うっとり・愛液2",
         "file": "EV031_08"
+      },
+      "bgv": {
+        "id": "BGV_KAED_H002A",
+        "file": "voice/BGV_kaed_h002a.ogg"
       }
     },
     {
@@ -2438,6 +2702,10 @@
       "bg": {
         "label": "#EV031・うっとり・愛液2",
         "file": "EV031_08"
+      },
+      "bgv": {
+        "id": "BGV_KAED_H002A",
+        "file": "voice/BGV_kaed_h002a.ogg"
       }
     },
     {
@@ -2453,6 +2721,10 @@
       "bg": {
         "label": "#EV031・うっとり・愛液2",
         "file": "EV031_08"
+      },
+      "bgv": {
+        "id": "BGV_KAED_H002A",
+        "file": "voice/BGV_kaed_h002a.ogg"
       }
     },
     {
@@ -2463,6 +2735,10 @@
       "bg": {
         "label": "#EV031・うっとり・愛液2",
         "file": "EV031_08"
+      },
+      "bgv": {
+        "id": "BGV_KAED_H002A",
+        "file": "voice/BGV_kaed_h002a.ogg"
       }
     },
     {
@@ -2478,6 +2754,10 @@
       "bg": {
         "label": "#EV031・うっとり・愛液2",
         "file": "EV031_08"
+      },
+      "bgv": {
+        "id": "BGV_KAED_H002A",
+        "file": "voice/BGV_kaed_h002a.ogg"
       }
     },
     {
@@ -2490,6 +2770,10 @@
       "bg": {
         "label": "#EV031・うっとり・愛液2",
         "file": "EV031_08"
+      },
+      "bgv": {
+        "id": "BGV_KAED_H002A",
+        "file": "voice/BGV_kaed_h002a.ogg"
       }
     }
   ],

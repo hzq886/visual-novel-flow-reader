@@ -453,7 +453,11 @@
           "code": "8131A",
           "file": "se/8131a.ogg"
         }
-      ]
+      ],
+      "bgv": {
+        "id": "BGV_SAKI_H001B",
+        "file": "voice/BGV_saki_h001b.ogg"
+      }
     },
     {
       "kind": "narration",
@@ -474,6 +478,10 @@
           235,
           150
         ]
+      },
+      "bgv": {
+        "id": "BGV_SAKI_H001B",
+        "file": "voice/BGV_saki_h001b.ogg"
       }
     },
     {
@@ -499,6 +507,10 @@
           235,
           150
         ]
+      },
+      "bgv": {
+        "id": "BGV_SAKI_H001B",
+        "file": "voice/BGV_saki_h001b.ogg"
       }
     },
     {
@@ -520,6 +532,10 @@
           235,
           150
         ]
+      },
+      "bgv": {
+        "id": "BGV_SAKI_H001B",
+        "file": "voice/BGV_saki_h001b.ogg"
       }
     },
     {
@@ -545,6 +561,10 @@
           235,
           150
         ]
+      },
+      "bgv": {
+        "id": "BGV_SAKI_H001B",
+        "file": "voice/BGV_saki_h001b.ogg"
       }
     },
     {
@@ -567,6 +587,10 @@
           235,
           150
         ]
+      },
+      "bgv": {
+        "id": "BGV_SAKI_H001B",
+        "file": "voice/BGV_saki_h001b.ogg"
       }
     },
     {
@@ -582,6 +606,10 @@
       "bg": {
         "label": "#EV052・真面目・怒り悔しい・未挿入",
         "file": "EV052_02"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_H001B",
+        "file": "voice/BGV_saki_h001b.ogg"
       }
     },
     {
@@ -597,6 +625,10 @@
       "bg": {
         "label": "#EV052・真面目・怒り悔しい・未挿入",
         "file": "EV052_02"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_H001B",
+        "file": "voice/BGV_saki_h001b.ogg"
       }
     },
     {
@@ -610,6 +642,10 @@
       "bg": {
         "label": "#EV052・真面目・怒り悔しい・未挿入",
         "file": "EV052_02"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_H001B",
+        "file": "voice/BGV_saki_h001b.ogg"
       }
     },
     {
@@ -625,6 +661,10 @@
       "bg": {
         "label": "#EV052・真面目・怒り悔しい・未挿入",
         "file": "EV052_02"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_H001B",
+        "file": "voice/BGV_saki_h001b.ogg"
       }
     },
     {
@@ -641,6 +681,10 @@
       "bg": {
         "label": "#EV052・真面目・怒り悔しい・未挿入",
         "file": "EV052_02"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_H001B",
+        "file": "voice/BGV_saki_h001b.ogg"
       }
     },
     {
@@ -657,6 +701,10 @@
       "bg": {
         "label": "#EV052・真面目・怒り悔しい・未挿入",
         "file": "EV052_02"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_H001B",
+        "file": "voice/BGV_saki_h001b.ogg"
       }
     },
     {
@@ -673,6 +721,10 @@
       "bg": {
         "label": "#EV052・真面目・怒り悔しい・未挿入",
         "file": "EV052_02"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_H001B",
+        "file": "voice/BGV_saki_h001b.ogg"
       }
     },
     {
@@ -685,6 +737,10 @@
       "bg": {
         "label": "#EV052・真面目・怒り悔しい・未挿入",
         "file": "EV052_02"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_H001B",
+        "file": "voice/BGV_saki_h001b.ogg"
       }
     },
     {
@@ -701,6 +757,10 @@
       "bg": {
         "label": "#EV052・うっとり・怒り悔しい・未挿入・愛液",
         "file": "EV052_03"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_H001B",
+        "file": "voice/BGV_saki_h001b.ogg"
       }
     },
     {
@@ -713,6 +773,10 @@
       "bg": {
         "label": "#EV052・うっとり・怒り悔しい・未挿入・愛液",
         "file": "EV052_03"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_H001B",
+        "file": "voice/BGV_saki_h001b.ogg"
       }
     },
     {
@@ -728,6 +792,10 @@
       "bg": {
         "label": "#EV052・うっとり・怒り悔しい・未挿入・愛液",
         "file": "EV052_03"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_H001B",
+        "file": "voice/BGV_saki_h001b.ogg"
       }
     },
     {
@@ -742,6 +810,10 @@
       "bg": {
         "label": "#EV052・うっとり・怒り悔しい・未挿入・愛液",
         "file": "EV052_03"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_H001B",
+        "file": "voice/BGV_saki_h001b.ogg"
       }
     },
     {
@@ -758,6 +830,10 @@
       "bg": {
         "label": "#EV052・うっとり・怒り悔しい・未挿入・愛液",
         "file": "EV052_03"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_H001B",
+        "file": "voice/BGV_saki_h001b.ogg"
       }
     },
     {
@@ -770,6 +846,10 @@
       "bg": {
         "label": "#EV052・うっとり・怒り悔しい・未挿入・愛液",
         "file": "EV052_03"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_H001B",
+        "file": "voice/BGV_saki_h001b.ogg"
       }
     },
     {
@@ -791,7 +871,11 @@
           "code": "8141A",
           "file": "se/8141a.ogg"
         }
-      ]
+      ],
+      "bgv": {
+        "id": "BGV_SAKI_H001B",
+        "file": "voice/BGV_saki_h001b.ogg"
+      }
     },
     {
       "kind": "narration",
@@ -803,6 +887,10 @@
       "bg": {
         "label": "#EV052・うっとり・怒り悔しい・未挿入・愛液",
         "file": "EV052_03"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_H001B",
+        "file": "voice/BGV_saki_h001b.ogg"
       }
     },
     {
@@ -819,6 +907,10 @@
       "bg": {
         "label": "#EV052・うっとり・怒り悔しい・未挿入・愛液",
         "file": "EV052_03"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_H001B",
+        "file": "voice/BGV_saki_h001b.ogg"
       }
     },
     {
@@ -832,6 +924,10 @@
       "bg": {
         "label": "#EV052・うっとり・怒り悔しい・未挿入・愛液",
         "file": "EV052_03"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_H001B",
+        "file": "voice/BGV_saki_h001b.ogg"
       }
     },
     {
@@ -847,6 +943,10 @@
       "bg": {
         "label": "#EV052・うっとり・怒り悔しい・未挿入・愛液",
         "file": "EV052_03"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_H001B",
+        "file": "voice/BGV_saki_h001b.ogg"
       }
     },
     {
@@ -861,6 +961,10 @@
       "bg": {
         "label": "#EV052・うっとり・怒り悔しい・未挿入・愛液",
         "file": "EV052_03"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_H001B",
+        "file": "voice/BGV_saki_h001b.ogg"
       }
     },
     {
@@ -872,6 +976,10 @@
       "bg": {
         "label": "#EV052・うっとり・怒り悔しい・未挿入・愛液",
         "file": "EV052_03"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_H001B",
+        "file": "voice/BGV_saki_h001b.ogg"
       }
     },
     {
@@ -887,6 +995,10 @@
       "bg": {
         "label": "#EV052・うっとり・怒り悔しい・未挿入・愛液",
         "file": "EV052_03"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_H001B",
+        "file": "voice/BGV_saki_h001b.ogg"
       }
     },
     {
@@ -897,6 +1009,10 @@
       "bg": {
         "label": "#EV052・うっとり・怒り悔しい・未挿入・愛液",
         "file": "EV052_03"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_H001B",
+        "file": "voice/BGV_saki_h001b.ogg"
       }
     },
     {
@@ -908,6 +1024,10 @@
       "bg": {
         "label": "#EV052・うっとり・怒り悔しい・未挿入・愛液",
         "file": "EV052_03"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_H001B",
+        "file": "voice/BGV_saki_h001b.ogg"
       }
     },
     {
@@ -924,6 +1044,10 @@
       "bg": {
         "label": "#EV052・うっとり・怒り悔しい・未挿入・愛液",
         "file": "EV052_03"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_H001B",
+        "file": "voice/BGV_saki_h001b.ogg"
       }
     },
     {
@@ -937,6 +1061,10 @@
       "bg": {
         "label": "#EV052・うっとり・怒り悔しい・未挿入・愛液",
         "file": "EV052_03"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_H001B",
+        "file": "voice/BGV_saki_h001b.ogg"
       }
     },
     {
@@ -952,6 +1080,10 @@
       "bg": {
         "label": "#EV052・うっとり・怒り悔しい・未挿入・愛液",
         "file": "EV052_03"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_H001B",
+        "file": "voice/BGV_saki_h001b.ogg"
       }
     },
     {
@@ -962,6 +1094,10 @@
       "bg": {
         "label": "#EV052・うっとり・怒り悔しい・未挿入・愛液",
         "file": "EV052_03"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_H001B",
+        "file": "voice/BGV_saki_h001b.ogg"
       }
     },
     {
@@ -977,6 +1113,10 @@
       "bg": {
         "label": "#EV052・眉寄せ我慢・怒り悔しい・未挿入・愛液",
         "file": "EV052_04"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_H001B",
+        "file": "voice/BGV_saki_h001b.ogg"
       }
     },
     {
@@ -988,6 +1128,10 @@
       "bg": {
         "label": "#EV052・眉寄せ我慢・怒り悔しい・未挿入・愛液",
         "file": "EV052_04"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_H001B",
+        "file": "voice/BGV_saki_h001b.ogg"
       }
     },
     {
@@ -1003,6 +1147,10 @@
       "bg": {
         "label": "#EV052・眉寄せ我慢・怒り悔しい・未挿入・愛液",
         "file": "EV052_04"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_H001B",
+        "file": "voice/BGV_saki_h001b.ogg"
       }
     },
     {
@@ -1015,6 +1163,10 @@
       "bg": {
         "label": "#EV052・眉寄せ我慢・怒り悔しい・未挿入・愛液",
         "file": "EV052_04"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_H001B",
+        "file": "voice/BGV_saki_h001b.ogg"
       }
     },
     {
@@ -1030,6 +1182,10 @@
       "bg": {
         "label": "#EV052・眉寄せ我慢・怒り悔しい・未挿入・愛液",
         "file": "EV052_04"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_H001B",
+        "file": "voice/BGV_saki_h001b.ogg"
       }
     },
     {
@@ -1042,6 +1198,10 @@
       "bg": {
         "label": "#EV052・眉寄せ我慢・怒り悔しい・未挿入・愛液",
         "file": "EV052_04"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_H001B",
+        "file": "voice/BGV_saki_h001b.ogg"
       }
     },
     {
@@ -1057,6 +1217,10 @@
       "bg": {
         "label": "#EV052・眉寄せ我慢・怒り悔しい・未挿入・愛液",
         "file": "EV052_04"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_H001B",
+        "file": "voice/BGV_saki_h001b.ogg"
       }
     },
     {
@@ -1069,6 +1233,10 @@
       "bg": {
         "label": "#EV052・眉寄せ我慢・怒り悔しい・未挿入・愛液",
         "file": "EV052_04"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_H001B",
+        "file": "voice/BGV_saki_h001b.ogg"
       }
     },
     {
@@ -1085,6 +1253,10 @@
       "bg": {
         "label": "#EV052・眉寄せ我慢・怒り悔しい・未挿入・愛液",
         "file": "EV052_04"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_H001B",
+        "file": "voice/BGV_saki_h001b.ogg"
       }
     },
     {
@@ -1096,6 +1268,10 @@
       "bg": {
         "label": "#EV052・眉寄せ我慢・怒り悔しい・未挿入・愛液",
         "file": "EV052_04"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_H001B",
+        "file": "voice/BGV_saki_h001b.ogg"
       }
     },
     {
@@ -1117,7 +1293,11 @@
           "code": "8131C",
           "file": "se/8131c.ogg"
         }
-      ]
+      ],
+      "bgv": {
+        "id": "BGV_SAKI_H001B",
+        "file": "voice/BGV_saki_h001b.ogg"
+      }
     },
     {
       "kind": "narration",
@@ -1130,6 +1310,10 @@
       "bg": {
         "label": "#EV052・眉寄せ我慢・怒り悔しい・未挿入・愛液",
         "file": "EV052_04"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_H001B",
+        "file": "voice/BGV_saki_h001b.ogg"
       }
     },
     {
@@ -1146,6 +1330,10 @@
       "bg": {
         "label": "#EV052・眉寄せ我慢・怒り悔しい・未挿入・愛液",
         "file": "EV052_04"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_H001B",
+        "file": "voice/BGV_saki_h001b.ogg"
       }
     },
     {
@@ -1158,6 +1346,10 @@
       "bg": {
         "label": "#EV052・眉寄せ我慢・怒り悔しい・未挿入・愛液",
         "file": "EV052_04"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_H001B",
+        "file": "voice/BGV_saki_h001b.ogg"
       }
     },
     {
@@ -1174,6 +1366,10 @@
       "bg": {
         "label": "#EV052・眉寄せ我慢・怒り悔しい・未挿入・愛液",
         "file": "EV052_04"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_H001B",
+        "file": "voice/BGV_saki_h001b.ogg"
       }
     },
     {
@@ -1186,6 +1382,10 @@
       "bg": {
         "label": "#EV052・眉寄せ我慢・怒り悔しい・未挿入・愛液",
         "file": "EV052_04"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_H001B",
+        "file": "voice/BGV_saki_h001b.ogg"
       }
     },
     {
@@ -1202,6 +1402,10 @@
       "bg": {
         "label": "#EV052・眉寄せ我慢・怒り悔しい・未挿入・愛液",
         "file": "EV052_04"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_H001B",
+        "file": "voice/BGV_saki_h001b.ogg"
       }
     },
     {
@@ -1212,6 +1416,10 @@
       "bg": {
         "label": "#EV052・眉寄せ我慢・怒り悔しい・未挿入・愛液",
         "file": "EV052_04"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_H001B",
+        "file": "voice/BGV_saki_h001b.ogg"
       }
     },
     {
@@ -1228,6 +1436,10 @@
       "bg": {
         "label": "#EV052・眉寄せ我慢・怒り悔しい・未挿入・愛液",
         "file": "EV052_04"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_H001B",
+        "file": "voice/BGV_saki_h001b.ogg"
       }
     },
     {
@@ -1240,6 +1452,10 @@
       "bg": {
         "label": "#EV052・眉寄せ我慢・怒り悔しい・未挿入・愛液",
         "file": "EV052_04"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_H001B",
+        "file": "voice/BGV_saki_h001b.ogg"
       }
     },
     {
@@ -1256,6 +1472,10 @@
       "bg": {
         "label": "#EV052・眉寄せ我慢・怒り悔しい・未挿入・愛液",
         "file": "EV052_04"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_H001B",
+        "file": "voice/BGV_saki_h001b.ogg"
       }
     },
     {
@@ -1268,6 +1488,10 @@
       "bg": {
         "label": "#EV052・眉寄せ我慢・怒り悔しい・未挿入・愛液",
         "file": "EV052_04"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_H001B",
+        "file": "voice/BGV_saki_h001b.ogg"
       }
     },
     {
@@ -1283,6 +1507,10 @@
       "bg": {
         "label": "#EV052・眉寄せ我慢・怒り悔しい・未挿入・愛液",
         "file": "EV052_04"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_H001B",
+        "file": "voice/BGV_saki_h001b.ogg"
       }
     },
     {
@@ -1298,6 +1526,10 @@
       "bg": {
         "label": "#EV052・眉寄せ我慢・怒り悔しい・未挿入・愛液",
         "file": "EV052_04"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_H001B",
+        "file": "voice/BGV_saki_h001b.ogg"
       }
     },
     {
@@ -1309,6 +1541,10 @@
       "bg": {
         "label": "#EV052・眉寄せ我慢・怒り悔しい・未挿入・愛液",
         "file": "EV052_04"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_H001B",
+        "file": "voice/BGV_saki_h001b.ogg"
       }
     },
     {
@@ -1325,6 +1561,10 @@
       "bg": {
         "label": "#EV052・眉寄せ我慢・怒り悔しい・未挿入・愛液",
         "file": "EV052_04"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_H001B",
+        "file": "voice/BGV_saki_h001b.ogg"
       }
     },
     {
@@ -1338,6 +1578,10 @@
       "bg": {
         "label": "#EV052・眉寄せ我慢・怒り悔しい・未挿入・愛液",
         "file": "EV052_04"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_H001B",
+        "file": "voice/BGV_saki_h001b.ogg"
       }
     },
     {
@@ -1354,6 +1598,10 @@
       "bg": {
         "label": "#EV052・眉寄せ我慢・怒り悔しい・未挿入・愛液",
         "file": "EV052_04"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_H002B",
+        "file": "voice/BGV_saki_h002b.ogg"
       }
     },
     {
@@ -1366,6 +1614,10 @@
       "bg": {
         "label": "#EV052・眉寄せ我慢・怒り悔しい・未挿入・愛液",
         "file": "EV052_04"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_H002B",
+        "file": "voice/BGV_saki_h002b.ogg"
       }
     },
     {
@@ -1381,6 +1633,10 @@
       "bg": {
         "label": "#EV052・眉寄せ我慢・怒り悔しい・未挿入・愛液",
         "file": "EV052_04"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_H002B",
+        "file": "voice/BGV_saki_h002b.ogg"
       }
     },
     {
@@ -1397,6 +1653,10 @@
       "bg": {
         "label": "#EV052・眉寄せ我慢・怒り悔しい・未挿入・愛液",
         "file": "EV052_04"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_H002B",
+        "file": "voice/BGV_saki_h002b.ogg"
       }
     },
     {
@@ -1410,6 +1670,10 @@
       "bg": {
         "label": "#EV052・眉寄せ我慢・怒り悔しい・未挿入・愛液",
         "file": "EV052_04"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_H002B",
+        "file": "voice/BGV_saki_h002b.ogg"
       }
     },
     {
@@ -1426,6 +1690,10 @@
       "bg": {
         "label": "#EV052・眉寄せ我慢・怒り悔しい・未挿入・愛液",
         "file": "EV052_04"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_H002B",
+        "file": "voice/BGV_saki_h002b.ogg"
       }
     },
     {
@@ -1439,6 +1707,10 @@
       "bg": {
         "label": "#EV052・眉寄せ我慢・怒り悔しい・未挿入・愛液",
         "file": "EV052_04"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_H002B",
+        "file": "voice/BGV_saki_h002b.ogg"
       }
     }
   ],

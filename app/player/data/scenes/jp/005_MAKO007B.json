@@ -1015,6 +1015,10 @@
           265,
           60
         ]
+      },
+      "bgv": {
+        "id": "BGV_SAKI_F001A",
+        "file": "voice/BGV_saki_f001a.ogg"
       }
     },
     {
@@ -1035,6 +1039,10 @@
           265,
           60
         ]
+      },
+      "bgv": {
+        "id": "BGV_SAKI_F001A",
+        "file": "voice/BGV_saki_f001a.ogg"
       }
     },
     {
@@ -1060,6 +1068,10 @@
           265,
           60
         ]
+      },
+      "bgv": {
+        "id": "BGV_SAKI_F001A",
+        "file": "voice/BGV_saki_f001a.ogg"
       }
     },
     {
@@ -1085,6 +1097,10 @@
           265,
           60
         ]
+      },
+      "bgv": {
+        "id": "BGV_SAKI_F001A",
+        "file": "voice/BGV_saki_f001a.ogg"
       }
     },
     {
@@ -1106,6 +1122,10 @@
           265,
           60
         ]
+      },
+      "bgv": {
+        "id": "BGV_SAKI_F001A",
+        "file": "voice/BGV_saki_f001a.ogg"
       }
     },
     {
@@ -1131,6 +1151,10 @@
           265,
           60
         ]
+      },
+      "bgv": {
+        "id": "BGV_SAKI_F001A",
+        "file": "voice/BGV_saki_f001a.ogg"
       }
     },
     {
@@ -1156,6 +1180,10 @@
           265,
           60
         ]
+      },
+      "bgv": {
+        "id": "BGV_SAKI_F001A",
+        "file": "voice/BGV_saki_f001a.ogg"
       }
     },
     {
@@ -1180,6 +1208,10 @@
           265,
           60
         ]
+      },
+      "bgv": {
+        "id": "BGV_SAKI_F001A",
+        "file": "voice/BGV_saki_f001a.ogg"
       }
     },
     {
@@ -1205,6 +1237,10 @@
           265,
           60
         ]
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H002A",
+        "file": "voice/BGV_mako_h002a.ogg"
       }
     },
     {
@@ -1228,6 +1264,10 @@
           265,
           60
         ]
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H002A",
+        "file": "voice/BGV_mako_h002a.ogg"
       }
     },
     {
@@ -1244,6 +1284,10 @@
       "bg": {
         "label": "#EV060・泣きそう・目細め舌出し・挿入・足抑え・愛液",
         "file": "EV060_05"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H002A",
+        "file": "voice/BGV_mako_h002a.ogg"
       }
     },
     {
@@ -1256,6 +1300,10 @@
       "bg": {
         "label": "#EV060・泣きそう・目細め舌出し・挿入・足抑え・愛液",
         "file": "EV060_05"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H002A",
+        "file": "voice/BGV_mako_h002a.ogg"
       }
     },
     {
@@ -1272,6 +1320,10 @@
       "bg": {
         "label": "#EV060・泣きそう・目細め舌出し・挿入・足抑え・愛液",
         "file": "EV060_05"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H002A",
+        "file": "voice/BGV_mako_h002a.ogg"
       }
     },
     {
@@ -1288,6 +1340,10 @@
       "bg": {
         "label": "#EV060・泣きそう・目細め舌出し・挿入・足抑え・愛液",
         "file": "EV060_05"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H002A",
+        "file": "voice/BGV_mako_h002a.ogg"
       }
     },
     {
@@ -1300,6 +1356,10 @@
       "bg": {
         "label": "#EV060・泣きそう・目細め舌出し・挿入・足抑え・愛液",
         "file": "EV060_05"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H002A",
+        "file": "voice/BGV_mako_h002a.ogg"
       }
     },
     {
@@ -1316,6 +1376,10 @@
       "bg": {
         "label": "#EV060・泣きそう・目細め舌出し・挿入・足抑え・愛液",
         "file": "EV060_05"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H002A",
+        "file": "voice/BGV_mako_h002a.ogg"
       }
     },
     {
@@ -1334,7 +1398,11 @@
           "code": "8321A",
           "file": "se/8321a.ogg"
         }
-      ]
+      ],
+      "bgv": {
+        "id": "BGV_MAKO_H002A",
+        "file": "voice/BGV_mako_h002a.ogg"
+      }
     },
     {
       "kind": "line",
@@ -1350,6 +1418,10 @@
       "bg": {
         "label": "#EV060・泣きそう・目細め舌出し・挿入・足抑え・愛液",
         "file": "EV060_05"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H002A",
+        "file": "voice/BGV_mako_h002a.ogg"
       }
     },
     {
@@ -1366,6 +1438,10 @@
       "bg": {
         "label": "#EV060・泣きそう・目細め舌出し・挿入・足抑え・愛液",
         "file": "EV060_05"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H002A",
+        "file": "voice/BGV_mako_h002a.ogg"
       }
     },
     {
@@ -1381,6 +1457,10 @@
       "bg": {
         "label": "#EV060・泣きそう・目細め舌出し・挿入・足抑え・愛液",
         "file": "EV060_05"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H002A",
+        "file": "voice/BGV_mako_h002a.ogg"
       }
     },
     {
@@ -1393,6 +1473,10 @@
       "bg": {
         "label": "#EV060・泣きそう・目細め舌出し・挿入・足抑え・愛液",
         "file": "EV060_05"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H002A",
+        "file": "voice/BGV_mako_h002a.ogg"
       }
     },
     {
@@ -1409,6 +1493,10 @@
       "bg": {
         "label": "#EV060・泣きそう・目細め舌出し・挿入・足抑え・愛液",
         "file": "EV060_05"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H002A",
+        "file": "voice/BGV_mako_h002a.ogg"
       }
     },
     {
@@ -1426,7 +1514,11 @@
           "code": "8101A",
           "file": "se/8101a.ogg"
         }
-      ]
+      ],
+      "bgv": {
+        "id": "BGV_MAKO_H002A",
+        "file": "voice/BGV_mako_h002a.ogg"
+      }
     },
     {
       "kind": "line",
@@ -1442,6 +1534,10 @@
       "bg": {
         "label": "#EV060・うっとり蕩け・目細め舌出し・挿入・足抑え・愛液",
         "file": "EV060_06"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H002A",
+        "file": "voice/BGV_mako_h002a.ogg"
       }
     },
     {
@@ -1455,6 +1551,10 @@
       "bg": {
         "label": "#EV060・うっとり蕩け・目細め舌出し・挿入・足抑え・愛液",
         "file": "EV060_06"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H002A",
+        "file": "voice/BGV_mako_h002a.ogg"
       }
     },
     {
@@ -1471,6 +1571,10 @@
       "bg": {
         "label": "#EV060・うっとり蕩け・目細め舌出し・挿入・足抑え・愛液",
         "file": "EV060_06"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H002A",
+        "file": "voice/BGV_mako_h002a.ogg"
       }
     },
     {
@@ -1483,6 +1587,10 @@
       "bg": {
         "label": "#EV060・うっとり蕩け・目細め舌出し・挿入・足抑え・愛液",
         "file": "EV060_06"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H002A",
+        "file": "voice/BGV_mako_h002a.ogg"
       }
     },
     {
@@ -1499,6 +1607,10 @@
       "bg": {
         "label": "#EV060・うっとり蕩け・目細め舌出し・挿入・足抑え・愛液",
         "file": "EV060_06"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H002A",
+        "file": "voice/BGV_mako_h002a.ogg"
       }
     },
     {
@@ -1515,6 +1627,10 @@
       "bg": {
         "label": "#EV060・うっとり蕩け・目細め舌出し・挿入・足抑え・愛液",
         "file": "EV060_06"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H002A",
+        "file": "voice/BGV_mako_h002a.ogg"
       }
     },
     {
@@ -1528,6 +1644,10 @@
       "bg": {
         "label": "#EV060・うっとり蕩け・目細め舌出し・挿入・足抑え・愛液",
         "file": "EV060_06"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H002A",
+        "file": "voice/BGV_mako_h002a.ogg"
       }
     },
     {
@@ -1544,6 +1664,10 @@
       "bg": {
         "label": "#EV060・うっとり蕩け・目細め舌出し・挿入・足抑え・愛液",
         "file": "EV060_06"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H002A",
+        "file": "voice/BGV_mako_h002a.ogg"
       }
     },
     {
@@ -1560,6 +1684,10 @@
       "bg": {
         "label": "#EV060・うっとり蕩け・目細め舌出し・挿入・足抑え・愛液",
         "file": "EV060_06"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H002A",
+        "file": "voice/BGV_mako_h002a.ogg"
       }
     },
     {
@@ -1576,6 +1704,10 @@
       "bg": {
         "label": "#EV060・うっとり蕩け・目細め舌出し・挿入・足抑え・愛液",
         "file": "EV060_06"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H002A",
+        "file": "voice/BGV_mako_h002a.ogg"
       }
     },
     {
@@ -1592,6 +1724,10 @@
       "bg": {
         "label": "#EV060・うっとり蕩け・目細め舌出し・挿入・足抑え・愛液",
         "file": "EV060_06"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H002A",
+        "file": "voice/BGV_mako_h002a.ogg"
       }
     },
     {
@@ -1603,6 +1739,10 @@
       "bg": {
         "label": "#EV060・うっとり蕩け・目細め舌出し・挿入・足抑え・愛液",
         "file": "EV060_06"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H002A",
+        "file": "voice/BGV_mako_h002a.ogg"
       }
     },
     {
@@ -1619,6 +1759,10 @@
       "bg": {
         "label": "#EV060・うっとり蕩け・うっとり・挿入・クリ摘み・愛液",
         "file": "EV060_07"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H002A",
+        "file": "voice/BGV_mako_h002a.ogg"
       }
     },
     {
@@ -1632,6 +1776,10 @@
       "bg": {
         "label": "#EV060・うっとり蕩け・うっとり・挿入・クリ摘み・愛液",
         "file": "EV060_07"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H002A",
+        "file": "voice/BGV_mako_h002a.ogg"
       }
     },
     {
@@ -1648,6 +1796,10 @@
       "bg": {
         "label": "#EV060・うっとり蕩け・うっとり・挿入・クリ摘み・愛液",
         "file": "EV060_07"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H002A",
+        "file": "voice/BGV_mako_h002a.ogg"
       }
     },
     {
@@ -1664,6 +1816,10 @@
       "bg": {
         "label": "#EV060・うっとり蕩け・うっとり・挿入・クリ摘み・愛液",
         "file": "EV060_07"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H002A",
+        "file": "voice/BGV_mako_h002a.ogg"
       }
     },
     {
@@ -1677,6 +1833,10 @@
       "bg": {
         "label": "#EV060・うっとり蕩け・うっとり・挿入・クリ摘み・愛液",
         "file": "EV060_07"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H002A",
+        "file": "voice/BGV_mako_h002a.ogg"
       }
     },
     {
@@ -1693,6 +1853,10 @@
       "bg": {
         "label": "#EV060・うっとり蕩け・うっとり・挿入・クリ摘み・愛液",
         "file": "EV060_07"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H002A",
+        "file": "voice/BGV_mako_h002a.ogg"
       }
     },
     {
@@ -1706,6 +1870,10 @@
       "bg": {
         "label": "#EV060・うっとり蕩け・うっとり・挿入・クリ摘み・愛液",
         "file": "EV060_07"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H002A",
+        "file": "voice/BGV_mako_h002a.ogg"
       }
     },
     {
@@ -1722,6 +1890,10 @@
       "bg": {
         "label": "#EV060・うっとり蕩け・うっとり・挿入・クリ摘み・愛液",
         "file": "EV060_07"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H002A",
+        "file": "voice/BGV_mako_h002a.ogg"
       }
     },
     {
@@ -1735,6 +1907,10 @@
       "bg": {
         "label": "#EV060・うっとり蕩け・うっとり・挿入・クリ摘み・愛液",
         "file": "EV060_07"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H002A",
+        "file": "voice/BGV_mako_h002a.ogg"
       }
     },
     {
@@ -1751,6 +1927,10 @@
       "bg": {
         "label": "#EV060・うっとり蕩け・うっとり・挿入・クリ摘み・愛液",
         "file": "EV060_07"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H002A",
+        "file": "voice/BGV_mako_h002a.ogg"
       }
     },
     {
@@ -1766,6 +1946,10 @@
       "bg": {
         "label": "#EV060・うっとり蕩け・うっとり・挿入・クリ摘み・愛液",
         "file": "EV060_07"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H002A",
+        "file": "voice/BGV_mako_h002a.ogg"
       }
     },
     {
@@ -1782,6 +1966,10 @@
       "bg": {
         "label": "#EV060・うっとり蕩け・うっとり・挿入・クリ摘み・愛液",
         "file": "EV060_07"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H002A",
+        "file": "voice/BGV_mako_h002a.ogg"
       }
     },
     {
@@ -1798,6 +1986,10 @@
       "bg": {
         "label": "#EV060・うっとり蕩け・うっとり・挿入・クリ摘み・愛液",
         "file": "EV060_07"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H002A",
+        "file": "voice/BGV_mako_h002a.ogg"
       }
     },
     {
@@ -1810,6 +2002,10 @@
       "bg": {
         "label": "#EV060・うっとり蕩け・うっとり・挿入・クリ摘み・愛液",
         "file": "EV060_07"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H002A",
+        "file": "voice/BGV_mako_h002a.ogg"
       }
     },
     {
@@ -1826,6 +2022,10 @@
       "bg": {
         "label": "#EV060・うっとり蕩け・うっとり・挿入・クリ摘み・愛液",
         "file": "EV060_07"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H002A",
+        "file": "voice/BGV_mako_h002a.ogg"
       }
     },
     {
@@ -1839,6 +2039,10 @@
       "bg": {
         "label": "#EV060・うっとり蕩け・うっとり・挿入・クリ摘み・愛液",
         "file": "EV060_07"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H002A",
+        "file": "voice/BGV_mako_h002a.ogg"
       }
     },
     {
@@ -1855,6 +2059,10 @@
       "bg": {
         "label": "#EV060・うっとり蕩け・うっとり・挿入・クリ摘み・愛液",
         "file": "EV060_07"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H002A",
+        "file": "voice/BGV_mako_h002a.ogg"
       }
     },
     {
@@ -1871,6 +2079,10 @@
       "bg": {
         "label": "#EV060・うっとり蕩け・うっとり・挿入・クリ摘み・愛液",
         "file": "EV060_07"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H002A",
+        "file": "voice/BGV_mako_h002a.ogg"
       }
     },
     {
@@ -1883,6 +2095,10 @@
       "bg": {
         "label": "#EV060・うっとり蕩け・うっとり・挿入・クリ摘み・愛液",
         "file": "EV060_07"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H002A",
+        "file": "voice/BGV_mako_h002a.ogg"
       }
     },
     {
@@ -1899,6 +2115,10 @@
       "bg": {
         "label": "#EV060・うっとり蕩け・うっとり・挿入・クリ摘み・愛液",
         "file": "EV060_07"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H002A",
+        "file": "voice/BGV_mako_h002a.ogg"
       }
     },
     {
@@ -1915,6 +2135,10 @@
       "bg": {
         "label": "#EV060・うっとり蕩け・うっとり・挿入・クリ摘み・愛液",
         "file": "EV060_07"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H002A",
+        "file": "voice/BGV_mako_h002a.ogg"
       }
     },
     {
@@ -1929,6 +2153,10 @@
       "bg": {
         "label": "#EV060・うっとり蕩け・うっとり・挿入・クリ摘み・愛液",
         "file": "EV060_07"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H002A",
+        "file": "voice/BGV_mako_h002a.ogg"
       }
     },
     {
@@ -1944,6 +2172,10 @@
       "bg": {
         "label": "#EV060・うっとり蕩け・うっとり・挿入・クリ摘み・愛液",
         "file": "EV060_07"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H002A",
+        "file": "voice/BGV_mako_h002a.ogg"
       }
     },
     {
@@ -1954,6 +2186,10 @@
       "bg": {
         "label": "#EV060・うっとり蕩け・うっとり・挿入・クリ摘み・愛液",
         "file": "EV060_07"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H002A",
+        "file": "voice/BGV_mako_h002a.ogg"
       }
     },
     {
@@ -1970,6 +2206,10 @@
       "bg": {
         "label": "#EV060・うっとり蕩け・うっとり・挿入・クリ摘み・愛液",
         "file": "EV060_07"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H002A",
+        "file": "voice/BGV_mako_h002a.ogg"
       }
     },
     {
@@ -1982,6 +2222,10 @@
       "bg": {
         "label": "#EV060・うっとり蕩け・うっとり・挿入・クリ摘み・愛液",
         "file": "EV060_07"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H002A",
+        "file": "voice/BGV_mako_h002a.ogg"
       }
     },
     {
@@ -1998,6 +2242,10 @@
       "bg": {
         "label": "#EV060・うっとり蕩け・うっとり・挿入・クリ摘み・愛液",
         "file": "EV060_07"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H002A",
+        "file": "voice/BGV_mako_h002a.ogg"
       }
     },
     {
@@ -2014,6 +2262,10 @@
       "bg": {
         "label": "#EV060・うっとり蕩け・目細め舌出し・挿入・クリ摘み・愛液",
         "file": "EV060_08"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H002A",
+        "file": "voice/BGV_mako_h002a.ogg"
       }
     },
     {
@@ -2028,6 +2280,10 @@
       "bg": {
         "label": "#EV060・うっとり蕩け・目細め舌出し・挿入・クリ摘み・愛液",
         "file": "EV060_08"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H002A",
+        "file": "voice/BGV_mako_h002a.ogg"
       }
     },
     {
@@ -2044,6 +2300,10 @@
       "bg": {
         "label": "#EV060・うっとり蕩け・目細め舌出し・挿入・クリ摘み・愛液",
         "file": "EV060_08"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H002A",
+        "file": "voice/BGV_mako_h002a.ogg"
       }
     },
     {
@@ -2060,6 +2320,10 @@
       "bg": {
         "label": "#EV060・うっとり蕩け・目細め舌出し・挿入・クリ摘み・愛液",
         "file": "EV060_08"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H002A",
+        "file": "voice/BGV_mako_h002a.ogg"
       }
     },
     {
@@ -2073,6 +2337,10 @@
       "bg": {
         "label": "#EV060・うっとり蕩け・目細め舌出し・挿入・クリ摘み・愛液",
         "file": "EV060_08"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H002A",
+        "file": "voice/BGV_mako_h002a.ogg"
       }
     },
     {
@@ -2089,6 +2357,10 @@
       "bg": {
         "label": "#EV060・うっとり蕩け・目細め舌出し・挿入・クリ摘み・愛液",
         "file": "EV060_08"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H002A",
+        "file": "voice/BGV_mako_h002a.ogg"
       }
     },
     {
@@ -2110,7 +2382,11 @@
           "code": "8101C",
           "file": "se/8101c.ogg"
         }
-      ]
+      ],
+      "bgv": {
+        "id": "BGV_MAKO_H002A",
+        "file": "voice/BGV_mako_h002a.ogg"
+      }
     },
     {
       "kind": "line",
@@ -2126,6 +2402,10 @@
       "bg": {
         "label": "#EV060・アヘ顔・目細め舌出し・挿入・クリ摘み・愛液",
         "file": "EV060_09"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H002A",
+        "file": "voice/BGV_mako_h002a.ogg"
       }
     },
     {
@@ -2140,6 +2420,10 @@
       "bg": {
         "label": "#EV060・アヘ顔・目細め舌出し・挿入・クリ摘み・愛液",
         "file": "EV060_09"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H002A",
+        "file": "voice/BGV_mako_h002a.ogg"
       }
     },
     {
@@ -2156,6 +2440,10 @@
       "bg": {
         "label": "#EV060・アヘ顔・目細め舌出し・挿入・クリ摘み・愛液",
         "file": "EV060_09"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H002A",
+        "file": "voice/BGV_mako_h002a.ogg"
       }
     },
     {
@@ -2168,6 +2456,10 @@
       "bg": {
         "label": "#EV060・アヘ顔・目細め舌出し・挿入・クリ摘み・愛液",
         "file": "EV060_09"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H002A",
+        "file": "voice/BGV_mako_h002a.ogg"
       }
     },
     {
@@ -2184,6 +2476,10 @@
       "bg": {
         "label": "#EV060・アヘ顔・目細め舌出し・挿入・クリ摘み・愛液",
         "file": "EV060_09"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H002A",
+        "file": "voice/BGV_mako_h002a.ogg"
       }
     },
     {
@@ -2200,6 +2496,10 @@
       "bg": {
         "label": "#EV060・アヘ顔・目細め舌出し・挿入・クリ摘み・愛液",
         "file": "EV060_09"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H002A",
+        "file": "voice/BGV_mako_h002a.ogg"
       }
     },
     {
@@ -2215,6 +2515,10 @@
       "bg": {
         "label": "#EV060・アヘ顔・目細め舌出し・挿入・クリ摘み・愛液",
         "file": "EV060_09"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H002A",
+        "file": "voice/BGV_mako_h002a.ogg"
       }
     },
     {
@@ -2231,6 +2535,10 @@
       "bg": {
         "label": "#EV060・アヘ顔・目細め舌出し・挿入・クリ摘み・愛液",
         "file": "EV060_09"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H002A",
+        "file": "voice/BGV_mako_h002a.ogg"
       }
     },
     {
@@ -2245,6 +2553,10 @@
       "bg": {
         "label": "#EV060・アヘ顔・目細め舌出し・挿入・クリ摘み・愛液",
         "file": "EV060_09"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H002A",
+        "file": "voice/BGV_mako_h002a.ogg"
       }
     },
     {
@@ -2261,6 +2573,10 @@
       "bg": {
         "label": "#EV060・アヘ顔・目細め舌出し・挿入・クリ摘み・愛液",
         "file": "EV060_09"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H002A",
+        "file": "voice/BGV_mako_h002a.ogg"
       }
     },
     {
@@ -2277,6 +2593,10 @@
       "bg": {
         "label": "#EV060・アヘ顔・目細め舌出し・挿入・クリ摘み・愛液",
         "file": "EV060_09"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H002A",
+        "file": "voice/BGV_mako_h002a.ogg"
       }
     },
     {
@@ -2293,6 +2613,10 @@
       "bg": {
         "label": "#EV060・アヘ顔・目細め舌出し・挿入・クリ摘み・愛液",
         "file": "EV060_09"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H002A",
+        "file": "voice/BGV_mako_h002a.ogg"
       }
     },
     {
@@ -2303,6 +2627,10 @@
       "bg": {
         "label": "#EV060・アヘ顔・目細め舌出し・挿入・クリ摘み・愛液",
         "file": "EV060_09"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H002A",
+        "file": "voice/BGV_mako_h002a.ogg"
       }
     },
     {
@@ -2319,6 +2647,10 @@
       "bg": {
         "label": "#EV060・アヘ顔・目細め舌出し・挿入・クリ摘み・愛液",
         "file": "EV060_09"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H002A",
+        "file": "voice/BGV_mako_h002a.ogg"
       }
     },
     {
@@ -2335,6 +2667,10 @@
       "bg": {
         "label": "#EV060・アヘ顔・うっとり・挿入・クリ摘み・愛液",
         "file": "EV060_10"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H002A",
+        "file": "voice/BGV_mako_h002a.ogg"
       }
     },
     {
@@ -2347,6 +2683,10 @@
       "bg": {
         "label": "#EV060・アヘ顔・うっとり・挿入・クリ摘み・愛液",
         "file": "EV060_10"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H002A",
+        "file": "voice/BGV_mako_h002a.ogg"
       }
     },
     {
@@ -2363,6 +2703,10 @@
       "bg": {
         "label": "#EV060・アヘ顔・うっとり・挿入・クリ摘み・愛液",
         "file": "EV060_10"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H003A",
+        "file": "voice/BGV_mako_h003a.ogg"
       }
     },
     {
@@ -2374,6 +2718,10 @@
       "bg": {
         "label": "#EV060・アヘ顔・うっとり・挿入・クリ摘み・愛液",
         "file": "EV060_10"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H003A",
+        "file": "voice/BGV_mako_h003a.ogg"
       }
     },
     {
@@ -2390,6 +2738,10 @@
       "bg": {
         "label": "#EV060・アヘ顔・うっとり・挿入・クリ摘み・愛液",
         "file": "EV060_10"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H003A",
+        "file": "voice/BGV_mako_h003a.ogg"
       }
     },
     {
@@ -2406,6 +2758,10 @@
       "bg": {
         "label": "#EV060・アヘ顔・うっとり・挿入・クリ摘み・愛液",
         "file": "EV060_10"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H003A",
+        "file": "voice/BGV_mako_h003a.ogg"
       }
     },
     {
@@ -2418,6 +2774,10 @@
       "bg": {
         "label": "#EV060・アヘ顔・うっとり・挿入・クリ摘み・愛液",
         "file": "EV060_10"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H003A",
+        "file": "voice/BGV_mako_h003a.ogg"
       }
     },
     {
@@ -2434,6 +2794,10 @@
       "bg": {
         "label": "#EV060・アヘ顔・うっとり・挿入・クリ摘み・愛液",
         "file": "EV060_10"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H003A",
+        "file": "voice/BGV_mako_h003a.ogg"
       }
     },
     {
@@ -2450,6 +2814,10 @@
       "bg": {
         "label": "#EV060・アヘ顔・うっとり・挿入・クリ摘み・愛液",
         "file": "EV060_10"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H003A",
+        "file": "voice/BGV_mako_h003a.ogg"
       }
     },
     {
@@ -2463,6 +2831,10 @@
       "bg": {
         "label": "#EV060・アヘ顔・うっとり・挿入・クリ摘み・愛液",
         "file": "EV060_10"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H003A",
+        "file": "voice/BGV_mako_h003a.ogg"
       }
     },
     {
@@ -2479,6 +2851,10 @@
       "bg": {
         "label": "#EV060・アヘ顔・うっとり・挿入・クリ摘み・愛液",
         "file": "EV060_10"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H003A",
+        "file": "voice/BGV_mako_h003a.ogg"
       }
     },
     {
@@ -2490,6 +2866,10 @@
       "bg": {
         "label": "#EV060・アヘ顔・うっとり・挿入・クリ摘み・愛液",
         "file": "EV060_10"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H003A",
+        "file": "voice/BGV_mako_h003a.ogg"
       }
     },
     {
@@ -2512,7 +2892,11 @@
           "code": "8351A",
           "file": "se/8351a.ogg"
         }
-      ]
+      ],
+      "bgv": {
+        "id": "BGV_MAKO_H003A",
+        "file": "voice/BGV_mako_h003a.ogg"
+      }
     },
     {
       "kind": "narration",
@@ -2524,6 +2908,10 @@
       "bg": {
         "label": "#EV060・アヘ顔・うっとり・挿入・クリ摘み・愛液2",
         "file": "EV060_11"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H003A",
+        "file": "voice/BGV_mako_h003a.ogg"
       }
     },
     {
@@ -2540,6 +2928,10 @@
       "bg": {
         "label": "#EV060・アヘ顔・うっとり・挿入・クリ摘み・愛液2",
         "file": "EV060_11"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H003A",
+        "file": "voice/BGV_mako_h003a.ogg"
       }
     },
     {
@@ -2553,6 +2945,10 @@
       "bg": {
         "label": "#EV060・アヘ顔・うっとり・挿入・クリ摘み・愛液2",
         "file": "EV060_11"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H003A",
+        "file": "voice/BGV_mako_h003a.ogg"
       }
     },
     {
@@ -2569,6 +2965,10 @@
       "bg": {
         "label": "#EV060・アヘ顔・うっとり・挿入・クリ摘み・愛液2",
         "file": "EV060_11"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H003A",
+        "file": "voice/BGV_mako_h003a.ogg"
       }
     },
     {
@@ -2580,6 +2980,10 @@
       "bg": {
         "label": "#EV060・アヘ顔・うっとり・挿入・クリ摘み・愛液2",
         "file": "EV060_11"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H003A",
+        "file": "voice/BGV_mako_h003a.ogg"
       }
     },
     {
@@ -2591,6 +2995,10 @@
       "bg": {
         "label": "#EV060・アヘ顔・うっとり・挿入・クリ摘み・愛液2",
         "file": "EV060_11"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H003A",
+        "file": "voice/BGV_mako_h003a.ogg"
       }
     },
     {
@@ -2601,6 +3009,10 @@
       "bg": {
         "label": "#EV060・アヘ顔・うっとり・挿入・クリ摘み・愛液2",
         "file": "EV060_11"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H003A",
+        "file": "voice/BGV_mako_h003a.ogg"
       }
     },
     {
@@ -2617,6 +3029,10 @@
       "bg": {
         "label": "#EV060・アヘ顔・うっとり・挿入・クリ摘み・愛液2",
         "file": "EV060_11"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H003A",
+        "file": "voice/BGV_mako_h003a.ogg"
       }
     },
     {
@@ -2627,6 +3043,10 @@
       "bg": {
         "label": "#EV060・アヘ顔・うっとり・挿入・クリ摘み・愛液2",
         "file": "EV060_11"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H003A",
+        "file": "voice/BGV_mako_h003a.ogg"
       }
     },
     {
@@ -2643,6 +3063,10 @@
       "bg": {
         "label": "#EV060・アヘ顔・うっとり・挿入・クリ摘み・愛液2",
         "file": "EV060_11"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H003A",
+        "file": "voice/BGV_mako_h003a.ogg"
       }
     },
     {
@@ -2655,6 +3079,10 @@
       "bg": {
         "label": "#EV060・アヘ顔・うっとり・挿入・クリ摘み・愛液2",
         "file": "EV060_11"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H003A",
+        "file": "voice/BGV_mako_h003a.ogg"
       }
     },
     {
@@ -2671,6 +3099,10 @@
       "bg": {
         "label": "#EV060・アヘ顔・うっとり・挿入・クリ摘み・愛液2",
         "file": "EV060_11"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H003A",
+        "file": "voice/BGV_mako_h003a.ogg"
       }
     },
     {
@@ -2687,6 +3119,10 @@
       "bg": {
         "label": "#EV060・アヘ顔・うっとり・挿入・クリ摘み・愛液2",
         "file": "EV060_11"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H003A",
+        "file": "voice/BGV_mako_h003a.ogg"
       }
     },
     {
@@ -2709,7 +3145,11 @@
           "code": "8201B",
           "file": "se/8201b.ogg"
         }
-      ]
+      ],
+      "bgv": {
+        "id": "BGV_MAKO_H003A",
+        "file": "voice/BGV_mako_h003a.ogg"
+      }
     },
     {
       "kind": "narration",
@@ -2719,6 +3159,10 @@
       "bg": {
         "label": "#EV060・アヘ顔・うっとり・挿入・クリ摘み・精液",
         "file": "EV060_12"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H003A",
+        "file": "voice/BGV_mako_h003a.ogg"
       }
     },
     {
@@ -2735,6 +3179,10 @@
       "bg": {
         "label": "#EV060・アヘ顔・うっとり・挿入・クリ摘み・精液",
         "file": "EV060_12"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H003A",
+        "file": "voice/BGV_mako_h003a.ogg"
       }
     },
     {
@@ -2746,6 +3194,10 @@
       "bg": {
         "label": "#EV060・アヘ顔・うっとり・挿入・クリ摘み・精液",
         "file": "EV060_12"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H003A",
+        "file": "voice/BGV_mako_h003a.ogg"
       }
     },
     {
@@ -2762,6 +3214,10 @@
       "bg": {
         "label": "#EV060・アヘ顔・うっとり・挿入・クリ摘み・精液",
         "file": "EV060_12"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H003A",
+        "file": "voice/BGV_mako_h003a.ogg"
       }
     },
     {
@@ -2776,6 +3232,10 @@
       "bg": {
         "label": "#EV060・アヘ顔・うっとり・挿入・クリ摘み・精液",
         "file": "EV060_12"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H003A",
+        "file": "voice/BGV_mako_h003a.ogg"
       }
     },
     {
@@ -2792,6 +3252,10 @@
       "bg": {
         "label": "#EV060・アヘ顔・うっとり・挿入・クリ摘み・精液",
         "file": "EV060_12"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H003A",
+        "file": "voice/BGV_mako_h003a.ogg"
       }
     },
     {
@@ -2804,6 +3268,10 @@
       "bg": {
         "label": "#EV060・アヘ顔・うっとり・挿入・クリ摘み・精液",
         "file": "EV060_12"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H003A",
+        "file": "voice/BGV_mako_h003a.ogg"
       }
     },
     {
@@ -2820,6 +3288,10 @@
       "bg": {
         "label": "#EV060・アヘ顔・うっとり・挿入・クリ摘み・精液",
         "file": "EV060_12"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H003A",
+        "file": "voice/BGV_mako_h003a.ogg"
       }
     },
     {
@@ -2833,6 +3305,10 @@
       "bg": {
         "label": "#EV060・アヘ顔・うっとり・挿入・クリ摘み・精液",
         "file": "EV060_12"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H003A",
+        "file": "voice/BGV_mako_h003a.ogg"
       }
     },
     {
@@ -2849,6 +3325,10 @@
       "bg": {
         "label": "#EV060・アヘ顔・うっとり・挿入・クリ摘み・精液",
         "file": "EV060_12"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H003A",
+        "file": "voice/BGV_mako_h003a.ogg"
       }
     },
     {
@@ -2862,6 +3342,10 @@
       "bg": {
         "label": "#EV060・アヘ顔・うっとり・挿入・クリ摘み・精液",
         "file": "EV060_12"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H003A",
+        "file": "voice/BGV_mako_h003a.ogg"
       }
     },
     {
@@ -2878,6 +3362,10 @@
       "bg": {
         "label": "#EV060・アヘ顔・うっとり・挿入・クリ摘み・精液",
         "file": "EV060_12"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H003A",
+        "file": "voice/BGV_mako_h003a.ogg"
       }
     },
     {
@@ -2891,6 +3379,10 @@
       "bg": {
         "label": "#EV060・アヘ顔・うっとり・挿入・クリ摘み・精液",
         "file": "EV060_12"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H003A",
+        "file": "voice/BGV_mako_h003a.ogg"
       }
     },
     {
@@ -2907,6 +3399,10 @@
       "bg": {
         "label": "#EV060・アヘ顔・うっとり・挿入・クリ摘み・精液",
         "file": "EV060_12"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H003A",
+        "file": "voice/BGV_mako_h003a.ogg"
       }
     },
     {
@@ -2919,6 +3415,10 @@
       "bg": {
         "label": "#EV060・アヘ顔・うっとり・挿入・クリ摘み・精液",
         "file": "EV060_12"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H003A",
+        "file": "voice/BGV_mako_h003a.ogg"
       }
     },
     {
@@ -2935,6 +3435,10 @@
       "bg": {
         "label": "#EV060・アヘ顔・真面目2・挿入・クリ摘み・精液",
         "file": "EV060_13"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H003A",
+        "file": "voice/BGV_mako_h003a.ogg"
       }
     },
     {
@@ -2946,6 +3450,10 @@
       "bg": {
         "label": "#EV060・アヘ顔・真面目2・挿入・クリ摘み・精液",
         "file": "EV060_13"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H003A",
+        "file": "voice/BGV_mako_h003a.ogg"
       }
     },
     {
@@ -2962,6 +3470,10 @@
       "bg": {
         "label": "#EV060・アヘ顔・真面目2・挿入・クリ摘み・精液",
         "file": "EV060_13"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H003A",
+        "file": "voice/BGV_mako_h003a.ogg"
       }
     },
     {
@@ -2975,6 +3487,10 @@
       "bg": {
         "label": "#EV060・アヘ顔・真面目2・挿入・クリ摘み・精液",
         "file": "EV060_13"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H003A",
+        "file": "voice/BGV_mako_h003a.ogg"
       }
     },
     {
@@ -2990,6 +3506,10 @@
       "bg": {
         "label": "#EV060・アヘ顔・真面目2・挿入・クリ摘み・精液",
         "file": "EV060_13"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H003A",
+        "file": "voice/BGV_mako_h003a.ogg"
       }
     },
     {
@@ -3006,6 +3526,10 @@
       "bg": {
         "label": "#EV060・アヘ顔・真面目2・挿入・クリ摘み・精液",
         "file": "EV060_13"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H003A",
+        "file": "voice/BGV_mako_h003a.ogg"
       }
     },
     {
@@ -3021,6 +3545,10 @@
       "bg": {
         "label": "#EV060・アヘ顔・真面目2・挿入・クリ摘み・精液",
         "file": "EV060_13"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H003A",
+        "file": "voice/BGV_mako_h003a.ogg"
       }
     },
     {
@@ -3037,6 +3565,10 @@
       "bg": {
         "label": "#EV060・アヘ顔・真面目2・挿入・クリ摘み・精液",
         "file": "EV060_13"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H003A",
+        "file": "voice/BGV_mako_h003a.ogg"
       }
     },
     {
@@ -3048,6 +3580,10 @@
       "bg": {
         "label": "#EV060・アヘ顔・真面目2・挿入・クリ摘み・精液",
         "file": "EV060_13"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H003A",
+        "file": "voice/BGV_mako_h003a.ogg"
       }
     },
     {
@@ -3063,6 +3599,10 @@
       "bg": {
         "label": "#EV060・アヘ顔・真面目2・挿入・クリ摘み・精液",
         "file": "EV060_13"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H003A",
+        "file": "voice/BGV_mako_h003a.ogg"
       }
     },
     {
@@ -3077,6 +3617,10 @@
       "bg": {
         "label": "#EV060・アヘ顔・真面目2・挿入・クリ摘み・精液",
         "file": "EV060_13"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H003A",
+        "file": "voice/BGV_mako_h003a.ogg"
       }
     },
     {
@@ -3093,6 +3637,10 @@
       "bg": {
         "label": "#EV060・アヘ顔・真面目2・挿入・クリ摘み・精液",
         "file": "EV060_13"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H003A",
+        "file": "voice/BGV_mako_h003a.ogg"
       }
     },
     {
@@ -3108,6 +3656,10 @@
       "bg": {
         "label": "#EV060・アヘ顔・真面目2・挿入・クリ摘み・精液",
         "file": "EV060_13"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H003A",
+        "file": "voice/BGV_mako_h003a.ogg"
       }
     },
     {
@@ -3124,6 +3676,10 @@
       "bg": {
         "label": "#EV060・アヘ顔・真面目2・挿入・クリ摘み・精液",
         "file": "EV060_13"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H003A",
+        "file": "voice/BGV_mako_h003a.ogg"
       }
     }
   ],

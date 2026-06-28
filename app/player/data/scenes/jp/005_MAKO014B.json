@@ -702,6 +702,10 @@
           238,
           135
         ]
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H001A",
+        "file": "voice/BGV_mako_h001a.ogg"
       }
     },
     {
@@ -730,6 +734,10 @@
           238,
           135
         ]
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H001A",
+        "file": "voice/BGV_mako_h001a.ogg"
       }
     },
     {
@@ -755,6 +763,10 @@
           238,
           135
         ]
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H001A",
+        "file": "voice/BGV_mako_h001a.ogg"
       }
     },
     {
@@ -778,6 +790,10 @@
           238,
           135
         ]
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H001A",
+        "file": "voice/BGV_mako_h001a.ogg"
       }
     },
     {
@@ -803,6 +819,10 @@
           238,
           135
         ]
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H001A",
+        "file": "voice/BGV_mako_h001a.ogg"
       }
     },
     {
@@ -830,6 +850,10 @@
           238,
           135
         ]
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H001A",
+        "file": "voice/BGV_mako_h001a.ogg"
       }
     },
     {
@@ -846,6 +870,10 @@
       "bg": {
         "label": "#EV025・うっとり蕩け・排尿",
         "file": "EV025_05"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H001A",
+        "file": "voice/BGV_mako_h001a.ogg"
       }
     },
     {
@@ -864,6 +892,10 @@
       "bg": {
         "label": "#EV025・うっとり蕩け・排尿",
         "file": "EV025_05"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H001A",
+        "file": "voice/BGV_mako_h001a.ogg"
       }
     },
     {
@@ -880,6 +912,10 @@
       "bg": {
         "label": "#EV025・うっとり蕩け・排尿",
         "file": "EV025_05"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H001A",
+        "file": "voice/BGV_mako_h001a.ogg"
       }
     },
     {
@@ -895,6 +931,10 @@
       "bg": {
         "label": "#EV025・うっとり蕩け・排尿",
         "file": "EV025_05"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H001A",
+        "file": "voice/BGV_mako_h001a.ogg"
       }
     },
     {
@@ -911,6 +951,10 @@
       "bg": {
         "label": "#EV025・うっとり蕩け・排尿",
         "file": "EV025_05"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H001A",
+        "file": "voice/BGV_mako_h001a.ogg"
       }
     },
     {
@@ -929,7 +973,11 @@
           "code": "8411A",
           "file": "se/8411a.ogg"
         }
-      ]
+      ],
+      "bgv": {
+        "id": "BGV_MAKO_H001A",
+        "file": "voice/BGV_mako_h001a.ogg"
+      }
     },
     {
       "kind": "narration",
@@ -946,6 +994,10 @@
       "bg": {
         "label": "#EV025・恐れおののき・尿たれ",
         "file": "EV025_06"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H001A",
+        "file": "voice/BGV_mako_h001a.ogg"
       }
     },
     {
@@ -962,6 +1014,10 @@
       "bg": {
         "label": "#EV025・恐れおののき・尿たれ",
         "file": "EV025_06"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H001A",
+        "file": "voice/BGV_mako_h001a.ogg"
       }
     },
     {
@@ -979,6 +1035,10 @@
       "bg": {
         "label": "#EV025・恐れおののき・尿たれ",
         "file": "EV025_06"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H001A",
+        "file": "voice/BGV_mako_h001a.ogg"
       }
     },
     {
@@ -995,6 +1055,10 @@
       "bg": {
         "label": "#EV025・我慢・尿たれ",
         "file": "EV025_07"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H001A",
+        "file": "voice/BGV_mako_h001a.ogg"
       }
     },
     {
@@ -1015,6 +1079,10 @@
       "bg": {
         "label": "#EV025・我慢・尿たれ",
         "file": "EV025_07"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H001A",
+        "file": "voice/BGV_mako_h001a.ogg"
       }
     },
     {
@@ -1031,6 +1099,10 @@
       "bg": {
         "label": "#EV025・我慢・尿たれ",
         "file": "EV025_07"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H001A",
+        "file": "voice/BGV_mako_h001a.ogg"
       }
     },
     {
@@ -1043,6 +1115,10 @@
       "bg": {
         "label": "#EV025・我慢・尿たれ",
         "file": "EV025_07"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H001A",
+        "file": "voice/BGV_mako_h001a.ogg"
       }
     },
     {
@@ -1059,6 +1135,10 @@
       "bg": {
         "label": "#EV025・我慢・尿たれ",
         "file": "EV025_07"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H001A",
+        "file": "voice/BGV_mako_h001a.ogg"
       }
     },
     {
@@ -1071,6 +1151,10 @@
       "bg": {
         "label": "#EV025・我慢・尿たれ",
         "file": "EV025_07"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H001A",
+        "file": "voice/BGV_mako_h001a.ogg"
       }
     },
     {
@@ -1087,6 +1171,10 @@
       "bg": {
         "label": "#EV025・絶望・尿たれ",
         "file": "EV025_08"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H001A",
+        "file": "voice/BGV_mako_h001a.ogg"
       }
     },
     {
@@ -1101,6 +1189,10 @@
       "bg": {
         "label": "#EV025・絶望・尿たれ",
         "file": "EV025_08"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H001A",
+        "file": "voice/BGV_mako_h001a.ogg"
       }
     },
     {
@@ -1117,6 +1209,10 @@
       "bg": {
         "label": "#EV025・絶望・尿たれ",
         "file": "EV025_08"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H001A",
+        "file": "voice/BGV_mako_h001a.ogg"
       }
     },
     {
@@ -1129,6 +1225,10 @@
       "bg": {
         "label": "#EV025・絶望・尿たれ",
         "file": "EV025_08"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H001A",
+        "file": "voice/BGV_mako_h001a.ogg"
       }
     },
     {
@@ -1145,6 +1245,10 @@
       "bg": {
         "label": "#EV025・絶望・尿たれ",
         "file": "EV025_08"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H001A",
+        "file": "voice/BGV_mako_h001a.ogg"
       }
     },
     {
@@ -1162,7 +1266,11 @@
           "code": "8431A",
           "file": "se/8431a.ogg"
         }
-      ]
+      ],
+      "bgv": {
+        "id": "BGV_MAKO_H001A",
+        "file": "voice/BGV_mako_h001a.ogg"
+      }
     },
     {
       "kind": "narration",
@@ -1179,6 +1287,10 @@
       "bg": {
         "label": "#EV025・アヘ顔・排便",
         "file": "EV025_09"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H001A",
+        "file": "voice/BGV_mako_h001a.ogg"
       }
     },
     {
@@ -1195,6 +1307,10 @@
       "bg": {
         "label": "#EV025・アヘ顔・排便",
         "file": "EV025_09"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H002A",
+        "file": "voice/BGV_mako_h002a.ogg"
       }
     },
     {
@@ -1208,6 +1324,10 @@
       "bg": {
         "label": "#EV025・アヘ顔・排便",
         "file": "EV025_09"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H002A",
+        "file": "voice/BGV_mako_h002a.ogg"
       }
     },
     {
@@ -1224,6 +1344,10 @@
       "bg": {
         "label": "#EV025・アヘ顔・排便",
         "file": "EV025_09"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H002A",
+        "file": "voice/BGV_mako_h002a.ogg"
       }
     },
     {
@@ -1237,6 +1361,10 @@
       "bg": {
         "label": "#EV025・アヘ顔・排便",
         "file": "EV025_09"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H002A",
+        "file": "voice/BGV_mako_h002a.ogg"
       }
     },
     {
@@ -1253,6 +1381,10 @@
       "bg": {
         "label": "#EV025・アヘ顔・排便",
         "file": "EV025_09"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H002A",
+        "file": "voice/BGV_mako_h002a.ogg"
       }
     },
     {
@@ -1269,6 +1401,10 @@
       "bg": {
         "label": "#EV025・アヘ顔・排便",
         "file": "EV025_09"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H002A",
+        "file": "voice/BGV_mako_h002a.ogg"
       }
     },
     {
@@ -1291,7 +1427,11 @@
           "code": "8351A",
           "file": "se/8351a.ogg"
         }
-      ]
+      ],
+      "bgv": {
+        "id": "BGV_MAKO_H002A",
+        "file": "voice/BGV_mako_h002a.ogg"
+      }
     },
     {
       "kind": "narration",
@@ -1304,6 +1444,10 @@
       "bg": {
         "label": "#EV025・アヘ顔・排便潮吹き",
         "file": "EV025_10"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H002A",
+        "file": "voice/BGV_mako_h002a.ogg"
       }
     },
     {
@@ -1320,6 +1464,10 @@
       "bg": {
         "label": "#EV025・アヘ顔・排便潮吹き",
         "file": "EV025_10"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H002A",
+        "file": "voice/BGV_mako_h002a.ogg"
       }
     },
     {
@@ -1334,6 +1482,10 @@
       "bg": {
         "label": "#EV025・アヘ顔・排便潮吹き",
         "file": "EV025_10"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H002A",
+        "file": "voice/BGV_mako_h002a.ogg"
       }
     },
     {
@@ -1350,6 +1502,10 @@
       "bg": {
         "label": "#EV025・アヘ顔・排便潮吹き",
         "file": "EV025_10"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H002A",
+        "file": "voice/BGV_mako_h002a.ogg"
       }
     },
     {
@@ -1362,6 +1518,10 @@
       "bg": {
         "label": "#EV025・アヘ顔・排便潮吹き",
         "file": "EV025_10"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H002A",
+        "file": "voice/BGV_mako_h002a.ogg"
       }
     },
     {
@@ -1384,7 +1544,11 @@
           "code": "8361B",
           "file": "se/8361b.ogg"
         }
-      ]
+      ],
+      "bgv": {
+        "id": "BGV_MAKO_H002A",
+        "file": "voice/BGV_mako_h002a.ogg"
+      }
     },
     {
       "kind": "narration",
@@ -1399,6 +1563,10 @@
       "bg": {
         "label": "#EV025・アヘ顔・排便潮吹き",
         "file": "EV025_10"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H002A",
+        "file": "voice/BGV_mako_h002a.ogg"
       }
     },
     {
@@ -1415,6 +1583,10 @@
       "bg": {
         "label": "#EV025・アヘ顔・排便潮吹き",
         "file": "EV025_10"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H002A",
+        "file": "voice/BGV_mako_h002a.ogg"
       }
     },
     {
@@ -1430,6 +1602,10 @@
       "bg": {
         "label": "#EV025・アヘ顔・排便潮吹き",
         "file": "EV025_10"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H002A",
+        "file": "voice/BGV_mako_h002a.ogg"
       }
     },
     {
@@ -1446,6 +1622,10 @@
       "bg": {
         "label": "#EV025・アヘ顔・愛液",
         "file": "EV025_11"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H002A",
+        "file": "voice/BGV_mako_h002a.ogg"
       }
     },
     {
@@ -1462,6 +1642,10 @@
       "bg": {
         "label": "#EV025・アヘ顔・愛液",
         "file": "EV025_11"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H002A",
+        "file": "voice/BGV_mako_h002a.ogg"
       }
     }
   ],

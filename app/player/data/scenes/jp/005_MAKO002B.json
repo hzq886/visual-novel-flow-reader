@@ -189,6 +189,10 @@
           235,
           150
         ]
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H001A",
+        "file": "voice/BGV_mako_h001a.ogg"
       }
     },
     {
@@ -218,6 +222,10 @@
           235,
           150
         ]
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H001A",
+        "file": "voice/BGV_mako_h001a.ogg"
       }
     },
     {
@@ -249,7 +257,11 @@
           "code": "8331A",
           "file": "se/8331a.ogg"
         }
-      ]
+      ],
+      "bgv": {
+        "id": "BGV_MAKO_H001A",
+        "file": "voice/BGV_mako_h001a.ogg"
+      }
     },
     {
       "kind": "narration",
@@ -273,6 +285,10 @@
           235,
           150
         ]
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H001A",
+        "file": "voice/BGV_mako_h001a.ogg"
       }
     },
     {
@@ -298,6 +314,10 @@
           235,
           150
         ]
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H001A",
+        "file": "voice/BGV_mako_h001a.ogg"
       }
     },
     {
@@ -330,6 +350,10 @@
           235,
           150
         ]
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H001A",
+        "file": "voice/BGV_mako_h001a.ogg"
       }
     },
     {
@@ -349,7 +373,11 @@
           "code": "8321A",
           "file": "se/8321a.ogg"
         }
-      ]
+      ],
+      "bgv": {
+        "id": "BGV_MAKO_H002A",
+        "file": "voice/BGV_mako_h002a.ogg"
+      }
     },
     {
       "kind": "line",
@@ -371,7 +399,11 @@
           "code": "8311B",
           "file": "se/8311b.ogg"
         }
-      ]
+      ],
+      "bgv": {
+        "id": "BGV_MAKO_H002A",
+        "file": "voice/BGV_mako_h002a.ogg"
+      }
     },
     {
       "kind": "narration",
@@ -383,6 +415,10 @@
       "bg": {
         "label": "#EV076・うっとり蕩け・おろし・愛液",
         "file": "EV076_03"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H002A",
+        "file": "voice/BGV_mako_h002a.ogg"
       }
     },
     {
@@ -399,6 +435,10 @@
       "bg": {
         "label": "#EV076・うっとり蕩け・おろし・愛液",
         "file": "EV076_03"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H002A",
+        "file": "voice/BGV_mako_h002a.ogg"
       }
     },
     {
@@ -412,6 +452,10 @@
       "bg": {
         "label": "#EV076・うっとり蕩け・おろし・愛液",
         "file": "EV076_03"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H002A",
+        "file": "voice/BGV_mako_h002a.ogg"
       }
     },
     {
@@ -427,6 +471,10 @@
       "bg": {
         "label": "#EV076・うっとり蕩け・おろし・愛液",
         "file": "EV076_03"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H002A",
+        "file": "voice/BGV_mako_h002a.ogg"
       }
     },
     {
@@ -443,6 +491,10 @@
       "bg": {
         "label": "#EV076・うっとり蕩け・おろし・愛液",
         "file": "EV076_03"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H002A",
+        "file": "voice/BGV_mako_h002a.ogg"
       }
     },
     {
@@ -459,6 +511,10 @@
       "bg": {
         "label": "#EV076・うっとり蕩け・おろし・愛液",
         "file": "EV076_03"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H002A",
+        "file": "voice/BGV_mako_h002a.ogg"
       }
     },
     {
@@ -477,6 +533,10 @@
       "bg": {
         "label": "#EV076・うっとり蕩け・おろし・愛液",
         "file": "EV076_03"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H002A",
+        "file": "voice/BGV_mako_h002a.ogg"
       }
     },
     {
@@ -493,6 +553,10 @@
       "bg": {
         "label": "#EV076・目閉じ・おろし・愛液",
         "file": "EV076_04"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H002A",
+        "file": "voice/BGV_mako_h002a.ogg"
       }
     },
     {
@@ -506,6 +570,10 @@
       "bg": {
         "label": "#EV076・目閉じ・おろし・愛液",
         "file": "EV076_04"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H002A",
+        "file": "voice/BGV_mako_h002a.ogg"
       }
     },
     {
@@ -522,6 +590,10 @@
       "bg": {
         "label": "#EV076・目閉じ・おろし・愛液",
         "file": "EV076_04"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H002A",
+        "file": "voice/BGV_mako_h002a.ogg"
       }
     },
     {
@@ -534,6 +606,10 @@
       "bg": {
         "label": "#EV076・目閉じ・おろし・愛液",
         "file": "EV076_04"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H002A",
+        "file": "voice/BGV_mako_h002a.ogg"
       }
     },
     {
@@ -550,6 +626,10 @@
       "bg": {
         "label": "#EV076・目閉じ・おろし・愛液",
         "file": "EV076_04"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H002A",
+        "file": "voice/BGV_mako_h002a.ogg"
       }
     },
     {
@@ -563,6 +643,10 @@
       "bg": {
         "label": "#EV076・目閉じ・おろし・愛液",
         "file": "EV076_04"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H002A",
+        "file": "voice/BGV_mako_h002a.ogg"
       }
     },
     {
@@ -579,6 +663,10 @@
       "bg": {
         "label": "#EV076・目閉じ・おろし・愛液",
         "file": "EV076_04"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H002A",
+        "file": "voice/BGV_mako_h002a.ogg"
       }
     },
     {
@@ -593,6 +681,10 @@
       "bg": {
         "label": "#EV076・目閉じ・おろし・愛液",
         "file": "EV076_04"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H002A",
+        "file": "voice/BGV_mako_h002a.ogg"
       }
     },
     {
@@ -609,6 +701,10 @@
       "bg": {
         "label": "#EV076・目閉じ・おろし・愛液",
         "file": "EV076_04"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H002A",
+        "file": "voice/BGV_mako_h002a.ogg"
       }
     },
     {
@@ -623,6 +719,10 @@
       "bg": {
         "label": "#EV076・目閉じ・おろし・愛液",
         "file": "EV076_04"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H002A",
+        "file": "voice/BGV_mako_h002a.ogg"
       }
     },
     {
@@ -639,6 +739,10 @@
       "bg": {
         "label": "#EV076・目閉じ・おろし・愛液",
         "file": "EV076_04"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H002A",
+        "file": "voice/BGV_mako_h002a.ogg"
       }
     },
     {
@@ -651,6 +755,10 @@
       "bg": {
         "label": "#EV076・目閉じ・おろし・愛液",
         "file": "EV076_04"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H002A",
+        "file": "voice/BGV_mako_h002a.ogg"
       }
     },
     {
@@ -667,6 +775,10 @@
       "bg": {
         "label": "#EV076・目閉じ・おろし・愛液",
         "file": "EV076_04"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H002A",
+        "file": "voice/BGV_mako_h002a.ogg"
       }
     },
     {
@@ -685,6 +797,10 @@
       "bg": {
         "label": "#EV076・目閉じ・おろし・愛液",
         "file": "EV076_04"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H002A",
+        "file": "voice/BGV_mako_h002a.ogg"
       }
     },
     {
@@ -701,6 +817,10 @@
       "bg": {
         "label": "#EV076・目閉じ・おろし・愛液",
         "file": "EV076_04"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H002A",
+        "file": "voice/BGV_mako_h002a.ogg"
       }
     },
     {
@@ -722,7 +842,11 @@
           "code": "8321C",
           "file": "se/8321c.ogg"
         }
-      ]
+      ],
+      "bgv": {
+        "id": "BGV_MAKO_H002A",
+        "file": "voice/BGV_mako_h002a.ogg"
+      }
     },
     {
       "kind": "line",
@@ -738,6 +862,10 @@
       "bg": {
         "label": "#EV076・うっとり蕩け・持ち上げ・愛液",
         "file": "EV076_05"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H002A",
+        "file": "voice/BGV_mako_h002a.ogg"
       }
     },
     {
@@ -750,6 +878,10 @@
       "bg": {
         "label": "#EV076・うっとり蕩け・持ち上げ・愛液",
         "file": "EV076_05"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H002A",
+        "file": "voice/BGV_mako_h002a.ogg"
       }
     },
     {
@@ -772,7 +904,11 @@
           "code": "8131B",
           "file": "se/8131b.ogg"
         }
-      ]
+      ],
+      "bgv": {
+        "id": "BGV_MAKO_H002A",
+        "file": "voice/BGV_mako_h002a.ogg"
+      }
     },
     {
       "kind": "narration",
@@ -786,6 +922,10 @@
       "bg": {
         "label": "#EV076・うっとり蕩け・持ち上げ・愛液",
         "file": "EV076_05"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H002A",
+        "file": "voice/BGV_mako_h002a.ogg"
       }
     },
     {
@@ -802,6 +942,10 @@
       "bg": {
         "label": "#EV076・うっとり蕩け・持ち上げ・愛液",
         "file": "EV076_05"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H002A",
+        "file": "voice/BGV_mako_h002a.ogg"
       }
     },
     {
@@ -814,6 +958,10 @@
       "bg": {
         "label": "#EV076・うっとり蕩け・持ち上げ・愛液",
         "file": "EV076_05"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H002A",
+        "file": "voice/BGV_mako_h002a.ogg"
       }
     },
     {
@@ -830,6 +978,10 @@
       "bg": {
         "label": "#EV076・うっとり蕩け・持ち上げ・愛液",
         "file": "EV076_05"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H002A",
+        "file": "voice/BGV_mako_h002a.ogg"
       }
     },
     {
@@ -844,6 +996,10 @@
       "bg": {
         "label": "#EV076・うっとり蕩け・持ち上げ・愛液",
         "file": "EV076_05"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H002A",
+        "file": "voice/BGV_mako_h002a.ogg"
       }
     },
     {
@@ -860,6 +1016,10 @@
       "bg": {
         "label": "#EV076・うっとり蕩け・持ち上げ・愛液",
         "file": "EV076_05"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H002A",
+        "file": "voice/BGV_mako_h002a.ogg"
       }
     },
     {
@@ -874,6 +1034,10 @@
       "bg": {
         "label": "#EV076・うっとり蕩け・持ち上げ・愛液",
         "file": "EV076_05"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H002A",
+        "file": "voice/BGV_mako_h002a.ogg"
       }
     },
     {
@@ -890,6 +1054,10 @@
       "bg": {
         "label": "#EV076・うっとり蕩け・持ち上げ・愛液",
         "file": "EV076_05"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H002A",
+        "file": "voice/BGV_mako_h002a.ogg"
       }
     },
     {
@@ -903,6 +1071,10 @@
       "bg": {
         "label": "#EV076・うっとり蕩け・持ち上げ・愛液",
         "file": "EV076_05"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H002A",
+        "file": "voice/BGV_mako_h002a.ogg"
       }
     },
     {
@@ -925,7 +1097,11 @@
           "code": "8131C",
           "file": "se/8131c.ogg"
         }
-      ]
+      ],
+      "bgv": {
+        "id": "BGV_MAKO_H002A",
+        "file": "voice/BGV_mako_h002a.ogg"
+      }
     },
     {
       "kind": "narration",
@@ -939,6 +1115,10 @@
       "bg": {
         "label": "#EV076・目閉じ・持ち上げ・愛液",
         "file": "EV076_06"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H002A",
+        "file": "voice/BGV_mako_h002a.ogg"
       }
     },
     {
@@ -955,6 +1135,10 @@
       "bg": {
         "label": "#EV076・目閉じ・持ち上げ・愛液",
         "file": "EV076_06"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H002A",
+        "file": "voice/BGV_mako_h002a.ogg"
       }
     },
     {
@@ -968,6 +1152,10 @@
       "bg": {
         "label": "#EV076・目閉じ・持ち上げ・愛液",
         "file": "EV076_06"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H002A",
+        "file": "voice/BGV_mako_h002a.ogg"
       }
     },
     {
@@ -984,6 +1172,10 @@
       "bg": {
         "label": "#EV076・目閉じ・持ち上げ・愛液",
         "file": "EV076_06"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H002A",
+        "file": "voice/BGV_mako_h002a.ogg"
       }
     },
     {
@@ -997,6 +1189,10 @@
       "bg": {
         "label": "#EV076・目閉じ・持ち上げ・愛液",
         "file": "EV076_06"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H002A",
+        "file": "voice/BGV_mako_h002a.ogg"
       }
     },
     {
@@ -1013,6 +1209,10 @@
       "bg": {
         "label": "#EV076・軽くアヘ・持ち上げ・愛液",
         "file": "EV076_07"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H003A",
+        "file": "voice/BGV_mako_h003a.ogg"
       }
     },
     {
@@ -1025,6 +1225,10 @@
       "bg": {
         "label": "#EV076・軽くアヘ・持ち上げ・愛液",
         "file": "EV076_07"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H003A",
+        "file": "voice/BGV_mako_h003a.ogg"
       }
     },
     {
@@ -1041,6 +1245,10 @@
       "bg": {
         "label": "#EV076・軽くアヘ・持ち上げ・愛液",
         "file": "EV076_07"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H003A",
+        "file": "voice/BGV_mako_h003a.ogg"
       }
     },
     {
@@ -1052,6 +1260,10 @@
       "bg": {
         "label": "#EV076・軽くアヘ・持ち上げ・愛液",
         "file": "EV076_07"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H003A",
+        "file": "voice/BGV_mako_h003a.ogg"
       }
     },
     {
@@ -1074,7 +1286,11 @@
           "code": "8361B",
           "file": "se/8361b.ogg"
         }
-      ]
+      ],
+      "bgv": {
+        "id": "BGV_MAKO_H003A",
+        "file": "voice/BGV_mako_h003a.ogg"
+      }
     },
     {
       "kind": "narration",
@@ -1088,6 +1304,10 @@
       "bg": {
         "label": "#EV076・軽くアヘ・持ち上げ・潮吹き",
         "file": "EV076_08"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H003A",
+        "file": "voice/BGV_mako_h003a.ogg"
       }
     },
     {
@@ -1104,6 +1324,10 @@
       "bg": {
         "label": "#EV076・軽くアヘ・持ち上げ・潮吹き",
         "file": "EV076_08"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H003A",
+        "file": "voice/BGV_mako_h003a.ogg"
       }
     },
     {
@@ -1116,6 +1340,10 @@
       "bg": {
         "label": "#EV076・軽くアヘ・持ち上げ・潮吹き",
         "file": "EV076_08"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H003A",
+        "file": "voice/BGV_mako_h003a.ogg"
       }
     },
     {
@@ -1138,7 +1366,11 @@
           "code": "8351A",
           "file": "se/8351a.ogg"
         }
-      ]
+      ],
+      "bgv": {
+        "id": "BGV_MAKO_H003A",
+        "file": "voice/BGV_mako_h003a.ogg"
+      }
     },
     {
       "kind": "narration",
@@ -1150,6 +1382,10 @@
       "bg": {
         "label": "#EV076・軽くアヘ・持ち上げ・潮吹き",
         "file": "EV076_08"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H003A",
+        "file": "voice/BGV_mako_h003a.ogg"
       }
     },
     {
@@ -1166,6 +1402,10 @@
       "bg": {
         "label": "#EV076・軽くアヘ・持ち上げ・潮吹き",
         "file": "EV076_08"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H003A",
+        "file": "voice/BGV_mako_h003a.ogg"
       }
     },
     {
@@ -1179,6 +1419,10 @@
       "bg": {
         "label": "#EV076・軽くアヘ・持ち上げ・潮吹き",
         "file": "EV076_08"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H003A",
+        "file": "voice/BGV_mako_h003a.ogg"
       }
     },
     {
@@ -1195,6 +1439,10 @@
       "bg": {
         "label": "#EV076・軽くアヘ・持ち上げ・潮吹き",
         "file": "EV076_08"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H003A",
+        "file": "voice/BGV_mako_h003a.ogg"
       }
     },
     {
@@ -1211,6 +1459,10 @@
       "bg": {
         "label": "#EV076・軽くアヘ・持ち上げ・潮吹き",
         "file": "EV076_08"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H003A",
+        "file": "voice/BGV_mako_h003a.ogg"
       }
     },
     {
@@ -1227,6 +1479,10 @@
       "bg": {
         "label": "#EV076・軽くアヘ・持ち上げ・潮吹き",
         "file": "EV076_08"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H003A",
+        "file": "voice/BGV_mako_h003a.ogg"
       }
     },
     {
@@ -1239,6 +1495,10 @@
       "bg": {
         "label": "#EV076・軽くアヘ・持ち上げ・潮吹き",
         "file": "EV076_08"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H003A",
+        "file": "voice/BGV_mako_h003a.ogg"
       }
     },
     {
@@ -1255,6 +1515,10 @@
       "bg": {
         "label": "#EV076・軽くアヘ・持ち上げ・潮吹き",
         "file": "EV076_08"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H003A",
+        "file": "voice/BGV_mako_h003a.ogg"
       }
     },
     {
@@ -1270,6 +1534,10 @@
       "bg": {
         "label": "#EV076・軽くアヘ・持ち上げ・潮吹き",
         "file": "EV076_08"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H003A",
+        "file": "voice/BGV_mako_h003a.ogg"
       }
     },
     {
@@ -1286,6 +1554,10 @@
       "bg": {
         "label": "#EV076・軽くアヘ・持ち上げ・潮吹き",
         "file": "EV076_08"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H003A",
+        "file": "voice/BGV_mako_h003a.ogg"
       }
     },
     {
@@ -1298,6 +1570,10 @@
       "bg": {
         "label": "#EV076・軽くアヘ・持ち上げ・潮吹き",
         "file": "EV076_08"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H003A",
+        "file": "voice/BGV_mako_h003a.ogg"
       }
     },
     {
@@ -1314,6 +1590,10 @@
       "bg": {
         "label": "#EV076・軽くアヘ・持ち上げ・潮吹き",
         "file": "EV076_08"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H003A",
+        "file": "voice/BGV_mako_h003a.ogg"
       }
     },
     {
@@ -1327,6 +1607,10 @@
       "bg": {
         "label": "#EV076・軽くアヘ・持ち上げ・潮吹き",
         "file": "EV076_08"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H003A",
+        "file": "voice/BGV_mako_h003a.ogg"
       }
     },
     {
@@ -1343,6 +1627,10 @@
       "bg": {
         "label": "#EV076・軽くアヘ・持ち上げ・潮吹き",
         "file": "EV076_08"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H003A",
+        "file": "voice/BGV_mako_h003a.ogg"
       }
     },
     {
@@ -1354,6 +1642,10 @@
       "bg": {
         "label": "#EV076・軽くアヘ・持ち上げ・潮吹き",
         "file": "EV076_08"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H003A",
+        "file": "voice/BGV_mako_h003a.ogg"
       }
     },
     {
@@ -1369,6 +1661,10 @@
       "bg": {
         "label": "#EV076・軽くアヘ・持ち上げ・潮吹き",
         "file": "EV076_08"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H003A",
+        "file": "voice/BGV_mako_h003a.ogg"
       }
     },
     {
@@ -1380,6 +1676,10 @@
       "bg": {
         "label": "#EV076・軽くアヘ・持ち上げ・潮吹き",
         "file": "EV076_08"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H003A",
+        "file": "voice/BGV_mako_h003a.ogg"
       }
     },
     {
@@ -1396,6 +1696,10 @@
       "bg": {
         "label": "#EV076・軽くアヘ・おろし・愛液2",
         "file": "EV076_09"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H003A",
+        "file": "voice/BGV_mako_h003a.ogg"
       }
     },
     {
@@ -1417,6 +1721,10 @@
       "bg": {
         "label": "#EV076・軽くアヘ・おろし・愛液2",
         "file": "EV076_09"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H003A",
+        "file": "voice/BGV_mako_h003a.ogg"
       }
     },
     {
@@ -1433,6 +1741,10 @@
       "bg": {
         "label": "#EV076・軽くアヘ・持ち上げ・愛液2",
         "file": "EV076_10"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H003A",
+        "file": "voice/BGV_mako_h003a.ogg"
       }
     },
     {
@@ -1444,6 +1756,10 @@
       "bg": {
         "label": "#EV076・軽くアヘ・持ち上げ・愛液2",
         "file": "EV076_10"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H003A",
+        "file": "voice/BGV_mako_h003a.ogg"
       }
     },
     {
@@ -1460,6 +1776,10 @@
       "bg": {
         "label": "#EV076・軽くアヘ・持ち上げ・愛液2",
         "file": "EV076_10"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H003A",
+        "file": "voice/BGV_mako_h003a.ogg"
       }
     },
     {
@@ -1480,6 +1800,10 @@
       "bg": {
         "label": "#EV076・軽くアヘ・持ち上げ・愛液2",
         "file": "EV076_10"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H003A",
+        "file": "voice/BGV_mako_h003a.ogg"
       }
     },
     {
@@ -1496,6 +1820,10 @@
       "bg": {
         "label": "#EV076・目閉じ・持ち上げ・愛液2",
         "file": "EV076_11"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H003A",
+        "file": "voice/BGV_mako_h003a.ogg"
       }
     },
     {
@@ -1509,6 +1837,10 @@
       "bg": {
         "label": "#EV076・目閉じ・持ち上げ・愛液2",
         "file": "EV076_11"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H003A",
+        "file": "voice/BGV_mako_h003a.ogg"
       }
     },
     {
@@ -1525,6 +1857,10 @@
       "bg": {
         "label": "#EV076・目閉じ・持ち上げ・愛液2",
         "file": "EV076_11"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H003A",
+        "file": "voice/BGV_mako_h003a.ogg"
       }
     },
     {
@@ -1538,6 +1874,10 @@
       "bg": {
         "label": "#EV076・目閉じ・持ち上げ・愛液2",
         "file": "EV076_11"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H003A",
+        "file": "voice/BGV_mako_h003a.ogg"
       }
     },
     {
@@ -1554,6 +1894,10 @@
       "bg": {
         "label": "#EV076・目閉じ・持ち上げ・愛液2",
         "file": "EV076_11"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H003A",
+        "file": "voice/BGV_mako_h003a.ogg"
       }
     },
     {
@@ -1567,6 +1911,10 @@
       "bg": {
         "label": "#EV076・目閉じ・持ち上げ・愛液2",
         "file": "EV076_11"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H003A",
+        "file": "voice/BGV_mako_h003a.ogg"
       }
     },
     {
@@ -1583,6 +1931,10 @@
       "bg": {
         "label": "#EV076・目閉じ・持ち上げ・愛液2",
         "file": "EV076_11"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H003A",
+        "file": "voice/BGV_mako_h003a.ogg"
       }
     },
     {
@@ -1594,6 +1946,10 @@
       "bg": {
         "label": "#EV076・目閉じ・持ち上げ・愛液2",
         "file": "EV076_11"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H003A",
+        "file": "voice/BGV_mako_h003a.ogg"
       }
     },
     {
@@ -1610,6 +1966,10 @@
       "bg": {
         "label": "#EV076・目閉じ・持ち上げ・愛液2",
         "file": "EV076_11"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H003A",
+        "file": "voice/BGV_mako_h003a.ogg"
       }
     },
     {
@@ -1621,6 +1981,10 @@
       "bg": {
         "label": "#EV076・軽くアヘ・持ち上げ・潮吹き2",
         "file": "EV076_12"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H003A",
+        "file": "voice/BGV_mako_h003a.ogg"
       }
     },
     {
@@ -1637,6 +2001,10 @@
       "bg": {
         "label": "#EV076・軽くアヘ・持ち上げ・潮吹き2",
         "file": "EV076_12"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H003A",
+        "file": "voice/BGV_mako_h003a.ogg"
       }
     },
     {
@@ -1650,6 +2018,10 @@
       "bg": {
         "label": "#EV076・軽くアヘ・持ち上げ・潮吹き2",
         "file": "EV076_12"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H003A",
+        "file": "voice/BGV_mako_h003a.ogg"
       }
     },
     {
@@ -1666,6 +2038,10 @@
       "bg": {
         "label": "#EV076・軽くアヘ・持ち上げ・潮吹き2",
         "file": "EV076_12"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H003A",
+        "file": "voice/BGV_mako_h003a.ogg"
       }
     },
     {
@@ -1678,6 +2054,10 @@
       "bg": {
         "label": "#EV076・軽くアヘ・持ち上げ・潮吹き2",
         "file": "EV076_12"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H003A",
+        "file": "voice/BGV_mako_h003a.ogg"
       }
     },
     {
@@ -1694,6 +2074,10 @@
       "bg": {
         "label": "#EV076・軽くアヘ・持ち上げ・潮吹き2",
         "file": "EV076_12"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H003A",
+        "file": "voice/BGV_mako_h003a.ogg"
       }
     },
     {
@@ -1706,6 +2090,10 @@
       "bg": {
         "label": "#EV076・軽くアヘ・持ち上げ・潮吹き2",
         "file": "EV076_12"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H003A",
+        "file": "voice/BGV_mako_h003a.ogg"
       }
     },
     {
@@ -1722,6 +2110,10 @@
       "bg": {
         "label": "#EV076・軽くアヘ・持ち上げ・潮吹き2",
         "file": "EV076_12"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H003A",
+        "file": "voice/BGV_mako_h003a.ogg"
       }
     },
     {
@@ -1736,6 +2128,10 @@
       "bg": {
         "label": "#EV076・軽くアヘ・持ち上げ・潮吹き2",
         "file": "EV076_12"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H003A",
+        "file": "voice/BGV_mako_h003a.ogg"
       }
     },
     {
@@ -1752,6 +2148,10 @@
       "bg": {
         "label": "#EV076・軽くアヘ・持ち上げ・潮吹き2",
         "file": "EV076_12"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H003A",
+        "file": "voice/BGV_mako_h003a.ogg"
       }
     },
     {
@@ -1766,6 +2166,10 @@
       "bg": {
         "label": "#EV076・軽くアヘ・持ち上げ・潮吹き2",
         "file": "EV076_12"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H003A",
+        "file": "voice/BGV_mako_h003a.ogg"
       }
     }
   ],

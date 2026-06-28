@@ -55,6 +55,10 @@
       "bg": {
         "label": "#EV055・切なげ見つめ・引き",
         "file": "EV055_01"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -68,6 +72,10 @@
       "bg": {
         "label": "#EV055・切なげ見つめ・引き",
         "file": "EV055_01"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -79,6 +87,10 @@
       "bg": {
         "label": "#EV055・切なげ見つめ・引き",
         "file": "EV055_01"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -95,6 +107,10 @@
       "bg": {
         "label": "#EV055・切なげ見つめ・引き",
         "file": "EV055_01"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -105,6 +121,10 @@
       "bg": {
         "label": "#EV055・切なげ見つめ・引き",
         "file": "EV055_01"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -117,6 +137,10 @@
       "bg": {
         "label": "#EV055・切なげ見つめ・引き",
         "file": "EV055_01"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -127,6 +151,10 @@
       "bg": {
         "label": "#EV055・切なげ見つめ・引き",
         "file": "EV055_01"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -143,6 +171,10 @@
       "bg": {
         "label": "#EV055・切なげ見つめ・引き",
         "file": "EV055_01"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -154,6 +186,10 @@
       "bg": {
         "label": "#EV055・切なげ見つめ・引き",
         "file": "EV055_01"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -170,6 +206,10 @@
       "bg": {
         "label": "#EV055・うっとり・引き",
         "file": "EV055_02"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -182,6 +222,10 @@
       "bg": {
         "label": "#EV055・うっとり・引き",
         "file": "EV055_02"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -197,6 +241,10 @@
       "bg": {
         "label": "#EV055・うっとり・引き",
         "file": "EV055_02"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -211,6 +259,10 @@
       "bg": {
         "label": "#EV055・うっとり・引き",
         "file": "EV055_02"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -226,6 +278,10 @@
       "bg": {
         "label": "#EV055・目閉じキス・アップ",
         "file": "EV055_03"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -239,6 +295,10 @@
       "bg": {
         "label": "#EV055・目閉じキス・アップ",
         "file": "EV055_03"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -254,6 +314,10 @@
       "bg": {
         "label": "#EV055・目閉じキス・アップ",
         "file": "EV055_03"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -266,6 +330,10 @@
       "bg": {
         "label": "#EV055・目閉じキス・アップ",
         "file": "EV055_03"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -282,6 +350,10 @@
       "bg": {
         "label": "#EV055・目閉じキス・アップ",
         "file": "EV055_03"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -298,6 +370,10 @@
       "bg": {
         "label": "#EV055・目閉じキス・アップ",
         "file": "EV055_03"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -314,6 +390,10 @@
       "bg": {
         "label": "#EV055・目閉じキス・アップ",
         "file": "EV055_03"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -327,6 +407,10 @@
       "bg": {
         "label": "#EV055・目閉じキス・アップ",
         "file": "EV055_03"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -338,6 +422,10 @@
       "bg": {
         "label": "#EV055・目閉じキス・アップ",
         "file": "EV055_03"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -354,6 +442,10 @@
       "bg": {
         "label": "#EV055・目閉じキス・アップ",
         "file": "EV055_03"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -365,6 +457,10 @@
       "bg": {
         "label": "#EV055・目閉じキス・アップ",
         "file": "EV055_03"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -380,6 +476,10 @@
       "bg": {
         "label": "#EV055・目閉じキス・アップ",
         "file": "EV055_03"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -392,6 +492,10 @@
       "bg": {
         "label": "#EV055・目閉じキス・アップ",
         "file": "EV055_03"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -408,6 +512,10 @@
       "bg": {
         "label": "#EV055・目閉じキス・アップ",
         "file": "EV055_03"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -420,6 +528,10 @@
       "bg": {
         "label": "#EV055・目閉じキス・アップ",
         "file": "EV055_03"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -436,6 +548,10 @@
       "bg": {
         "label": "#EV055・目閉じキス・アップ",
         "file": "EV055_03"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -448,6 +564,10 @@
       "bg": {
         "label": "#EV055・目閉じキス・アップ",
         "file": "EV055_03"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -463,6 +583,10 @@
       "bg": {
         "label": "#EV055・目閉じキス・アップ",
         "file": "EV055_03"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -473,6 +597,10 @@
       "bg": {
         "label": "#EV055・目閉じキス・アップ",
         "file": "EV055_03"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -489,6 +617,10 @@
       "bg": {
         "label": "#EV055・目閉じキス・アップ",
         "file": "EV055_03"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -500,6 +632,10 @@
       "bg": {
         "label": "#EV055・目閉じキス・アップ",
         "file": "EV055_03"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -511,6 +647,10 @@
       "bg": {
         "label": "#EV055・目閉じキス・アップ",
         "file": "EV055_03"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -527,6 +667,10 @@
       "bg": {
         "label": "#EV055・目閉じキス・アップ",
         "file": "EV055_03"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -538,6 +682,10 @@
       "bg": {
         "label": "#EV055・目閉じキス・アップ",
         "file": "EV055_03"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -549,6 +697,10 @@
       "bg": {
         "label": "#EV055・目閉じキス・アップ",
         "file": "EV055_03"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -565,6 +717,10 @@
       "bg": {
         "label": "#EV055・目閉じキス・アップ",
         "file": "EV055_03"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -576,6 +732,10 @@
       "bg": {
         "label": "#EV055・目閉じキス・アップ",
         "file": "EV055_03"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -591,6 +751,10 @@
       "bg": {
         "label": "#EV055・驚き唇半開き・アップ",
         "file": "EV055_04"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F002A",
+        "file": "voice/BGV_tuba_f002a.ogg"
       }
     },
     {
@@ -603,6 +767,10 @@
       "bg": {
         "label": "#EV055・驚き唇半開き・アップ",
         "file": "EV055_04"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F002A",
+        "file": "voice/BGV_tuba_f002a.ogg"
       }
     },
     {
@@ -619,6 +787,10 @@
       "bg": {
         "label": "#EV055・驚き唇半開き・アップ",
         "file": "EV055_04"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F002A",
+        "file": "voice/BGV_tuba_f002a.ogg"
       }
     },
     {
@@ -630,6 +802,10 @@
       "bg": {
         "label": "#EV055・驚き唇半開き・アップ",
         "file": "EV055_04"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F002A",
+        "file": "voice/BGV_tuba_f002a.ogg"
       }
     },
     {
@@ -645,6 +821,10 @@
       "bg": {
         "label": "#EV055・驚き唇半開き・アップ",
         "file": "EV055_04"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F002A",
+        "file": "voice/BGV_tuba_f002a.ogg"
       }
     },
     {
@@ -658,6 +838,10 @@
       "bg": {
         "label": "#EV055・驚き唇半開き・アップ",
         "file": "EV055_04"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F002A",
+        "file": "voice/BGV_tuba_f002a.ogg"
       }
     },
     {
@@ -673,6 +857,10 @@
       "bg": {
         "label": "#EV055・驚き唇半開き・アップ",
         "file": "EV055_04"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F002A",
+        "file": "voice/BGV_tuba_f002a.ogg"
       }
     },
     {
@@ -685,6 +873,10 @@
       "bg": {
         "label": "#EV055・驚き唇半開き・アップ",
         "file": "EV055_04"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F002A",
+        "file": "voice/BGV_tuba_f002a.ogg"
       }
     },
     {
@@ -701,6 +893,10 @@
       "bg": {
         "label": "#EV055・驚き唇半開き・アップ",
         "file": "EV055_04"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F002A",
+        "file": "voice/BGV_tuba_f002a.ogg"
       }
     },
     {
@@ -713,6 +909,10 @@
       "bg": {
         "label": "#EV055・驚き唇半開き・アップ",
         "file": "EV055_04"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F002A",
+        "file": "voice/BGV_tuba_f002a.ogg"
       }
     },
     {
@@ -729,6 +929,10 @@
       "bg": {
         "label": "#EV055・驚き唇半開き・アップ",
         "file": "EV055_04"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F002A",
+        "file": "voice/BGV_tuba_f002a.ogg"
       }
     },
     {
@@ -741,6 +945,10 @@
       "bg": {
         "label": "#EV055・驚き唇半開き・アップ",
         "file": "EV055_04"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F002A",
+        "file": "voice/BGV_tuba_f002a.ogg"
       }
     },
     {
@@ -753,6 +961,10 @@
       "bg": {
         "label": "#EV055・驚き唇半開き・アップ",
         "file": "EV055_04"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F002A",
+        "file": "voice/BGV_tuba_f002a.ogg"
       }
     },
     {
@@ -769,6 +981,10 @@
       "bg": {
         "label": "#EV055・驚き唇半開き・アップ",
         "file": "EV055_04"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F002A",
+        "file": "voice/BGV_tuba_f002a.ogg"
       }
     },
     {
@@ -781,6 +997,10 @@
       "bg": {
         "label": "#EV055・驚き唇半開き・アップ",
         "file": "EV055_04"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F002A",
+        "file": "voice/BGV_tuba_f002a.ogg"
       }
     },
     {
@@ -796,6 +1016,10 @@
       "bg": {
         "label": "#EV055・蕩け舌絡め・アップ",
         "file": "EV055_05"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F002A",
+        "file": "voice/BGV_tuba_f002a.ogg"
       }
     },
     {
@@ -812,6 +1036,10 @@
       "bg": {
         "label": "#EV055・蕩け舌絡め・アップ",
         "file": "EV055_05"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F002A",
+        "file": "voice/BGV_tuba_f002a.ogg"
       }
     },
     {
@@ -828,6 +1056,10 @@
       "bg": {
         "label": "#EV055・蕩け舌絡め・アップ",
         "file": "EV055_05"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F002A",
+        "file": "voice/BGV_tuba_f002a.ogg"
       }
     },
     {
@@ -839,6 +1071,10 @@
       "bg": {
         "label": "#EV055・蕩け舌絡め・アップ",
         "file": "EV055_05"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F002A",
+        "file": "voice/BGV_tuba_f002a.ogg"
       }
     },
     {
@@ -854,6 +1090,10 @@
       "bg": {
         "label": "#EV055・蕩け舌絡め・アップ",
         "file": "EV055_05"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F002A",
+        "file": "voice/BGV_tuba_f002a.ogg"
       }
     },
     {
@@ -868,6 +1108,10 @@
       "bg": {
         "label": "#EV055・蕩け舌絡め・アップ",
         "file": "EV055_05"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F002A",
+        "file": "voice/BGV_tuba_f002a.ogg"
       }
     },
     {
@@ -884,6 +1128,10 @@
       "bg": {
         "label": "#EV055・蕩け舌絡め・アップ",
         "file": "EV055_05"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F002A",
+        "file": "voice/BGV_tuba_f002a.ogg"
       }
     },
     {
@@ -896,6 +1144,10 @@
       "bg": {
         "label": "#EV055・蕩け舌絡め・アップ",
         "file": "EV055_05"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F002A",
+        "file": "voice/BGV_tuba_f002a.ogg"
       }
     },
     {
@@ -911,6 +1163,10 @@
       "bg": {
         "label": "#EV055・蕩け舌絡め・アップ",
         "file": "EV055_05"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F002A",
+        "file": "voice/BGV_tuba_f002a.ogg"
       }
     },
     {
@@ -922,6 +1178,10 @@
       "bg": {
         "label": "#EV055・蕩け舌絡め・アップ",
         "file": "EV055_05"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F002A",
+        "file": "voice/BGV_tuba_f002a.ogg"
       }
     },
     {
@@ -938,6 +1198,10 @@
       "bg": {
         "label": "#EV055・蕩け舌絡め・アップ",
         "file": "EV055_05"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F002A",
+        "file": "voice/BGV_tuba_f002a.ogg"
       }
     },
     {
@@ -953,6 +1217,10 @@
       "bg": {
         "label": "#EV055・蕩け舌絡め・アップ",
         "file": "EV055_05"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F002A",
+        "file": "voice/BGV_tuba_f002a.ogg"
       }
     },
     {
@@ -969,6 +1237,10 @@
       "bg": {
         "label": "#EV055・蕩け舌絡め・アップ",
         "file": "EV055_05"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F002A",
+        "file": "voice/BGV_tuba_f002a.ogg"
       }
     },
     {
@@ -980,6 +1252,10 @@
       "bg": {
         "label": "#EV055・蕩け舌絡め・アップ",
         "file": "EV055_05"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F002A",
+        "file": "voice/BGV_tuba_f002a.ogg"
       }
     },
     {
@@ -995,6 +1271,10 @@
       "bg": {
         "label": "#EV055・蕩け舌絡め・アップ",
         "file": "EV055_05"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F002A",
+        "file": "voice/BGV_tuba_f002a.ogg"
       }
     },
     {
@@ -1006,6 +1286,10 @@
       "bg": {
         "label": "#EV055・蕩け舌絡め・アップ",
         "file": "EV055_05"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F002A",
+        "file": "voice/BGV_tuba_f002a.ogg"
       }
     },
     {
@@ -1021,6 +1305,10 @@
       "bg": {
         "label": "#EV055・蕩け舌絡め・アップ",
         "file": "EV055_05"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F002A",
+        "file": "voice/BGV_tuba_f002a.ogg"
       }
     },
     {
@@ -1035,6 +1323,10 @@
       "bg": {
         "label": "#EV055・蕩け舌絡め・アップ",
         "file": "EV055_05"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F002A",
+        "file": "voice/BGV_tuba_f002a.ogg"
       }
     }
   ],

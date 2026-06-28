@@ -1817,6 +1817,10 @@
           238,
           76
         ]
+      },
+      "bgv": {
+        "id": "BGV_SUZU_H002A",
+        "file": "voice/BGV_suzu_h002a.ogg"
       }
     },
     {
@@ -1839,6 +1843,10 @@
           238,
           76
         ]
+      },
+      "bgv": {
+        "id": "BGV_SUZU_H002A",
+        "file": "voice/BGV_suzu_h002a.ogg"
       }
     },
     {
@@ -1864,6 +1872,10 @@
           238,
           76
         ]
+      },
+      "bgv": {
+        "id": "BGV_SUZU_H002A",
+        "file": "voice/BGV_suzu_h002a.ogg"
       }
     },
     {
@@ -1886,6 +1898,10 @@
           238,
           76
         ]
+      },
+      "bgv": {
+        "id": "BGV_SUZU_H002A",
+        "file": "voice/BGV_suzu_h002a.ogg"
       }
     },
     {
@@ -1911,6 +1927,10 @@
           238,
           76
         ]
+      },
+      "bgv": {
+        "id": "BGV_SUZU_H002A",
+        "file": "voice/BGV_suzu_h002a.ogg"
       }
     },
     {
@@ -1933,6 +1953,10 @@
           238,
           76
         ]
+      },
+      "bgv": {
+        "id": "BGV_SUZU_H002A",
+        "file": "voice/BGV_suzu_h002a.ogg"
       }
     },
     {
@@ -1958,6 +1982,10 @@
           238,
           76
         ]
+      },
+      "bgv": {
+        "id": "BGV_SUZU_H002A",
+        "file": "voice/BGV_suzu_h002a.ogg"
       }
     },
     {
@@ -1980,6 +2008,10 @@
           238,
           76
         ]
+      },
+      "bgv": {
+        "id": "BGV_SUZU_H002A",
+        "file": "voice/BGV_suzu_h002a.ogg"
       }
     },
     {
@@ -2005,6 +2037,10 @@
           238,
           76
         ]
+      },
+      "bgv": {
+        "id": "BGV_SUZU_H002A",
+        "file": "voice/BGV_suzu_h002a.ogg"
       }
     },
     {
@@ -2030,6 +2066,10 @@
           238,
           76
         ]
+      },
+      "bgv": {
+        "id": "BGV_SUZU_H002A",
+        "file": "voice/BGV_suzu_h002a.ogg"
       }
     },
     {
@@ -2055,6 +2095,10 @@
           238,
           76
         ]
+      },
+      "bgv": {
+        "id": "BGV_SUZU_H002A",
+        "file": "voice/BGV_suzu_h002a.ogg"
       }
     },
     {
@@ -2077,6 +2121,10 @@
           238,
           76
         ]
+      },
+      "bgv": {
+        "id": "BGV_SUZU_H002A",
+        "file": "voice/BGV_suzu_h002a.ogg"
       }
     },
     {
@@ -2102,6 +2150,10 @@
           238,
           76
         ]
+      },
+      "bgv": {
+        "id": "BGV_SUZU_H002A",
+        "file": "voice/BGV_suzu_h002a.ogg"
       }
     },
     {
@@ -2123,6 +2175,10 @@
           238,
           76
         ]
+      },
+      "bgv": {
+        "id": "BGV_SUZU_H002A",
+        "file": "voice/BGV_suzu_h002a.ogg"
       }
     },
     {
@@ -2148,6 +2204,10 @@
           238,
           76
         ]
+      },
+      "bgv": {
+        "id": "BGV_SUZU_H002A",
+        "file": "voice/BGV_suzu_h002a.ogg"
       }
     },
     {
@@ -2168,6 +2228,10 @@
           238,
           76
         ]
+      },
+      "bgv": {
+        "id": "BGV_SUZU_H002A",
+        "file": "voice/BGV_suzu_h002a.ogg"
       }
     },
     {
@@ -2193,6 +2257,10 @@
           238,
           76
         ]
+      },
+      "bgv": {
+        "id": "BGV_SUZU_H002A",
+        "file": "voice/BGV_suzu_h002a.ogg"
       }
     },
     {
@@ -2213,6 +2281,10 @@
           238,
           76
         ]
+      },
+      "bgv": {
+        "id": "BGV_SUZU_H002A",
+        "file": "voice/BGV_suzu_h002a.ogg"
       }
     },
     {
@@ -2244,7 +2316,11 @@
           "code": "8361B",
           "file": "se/8361b.ogg"
         }
-      ]
+      ],
+      "bgv": {
+        "id": "BGV_SUZU_H002A",
+        "file": "voice/BGV_suzu_h002a.ogg"
+      }
     },
     {
       "kind": "narration",
@@ -2259,6 +2335,10 @@
       "bg": {
         "label": "#EV040・目閉じ悶え・下敷き尿・なし・股吹き",
         "file": "EV040_08"
+      },
+      "bgv": {
+        "id": "BGV_SUZU_H002A",
+        "file": "voice/BGV_suzu_h002a.ogg"
       }
     },
     {
@@ -2275,6 +2355,10 @@
       "bg": {
         "label": "#EV040・目閉じ悶え・下敷き尿・なし・股吹き",
         "file": "EV040_08"
+      },
+      "bgv": {
+        "id": "BGV_SUZU_H002A",
+        "file": "voice/BGV_suzu_h002a.ogg"
       }
     },
     {
@@ -2287,6 +2371,10 @@
       "bg": {
         "label": "#EV040・目閉じ悶え・下敷き尿・なし・股吹き",
         "file": "EV040_08"
+      },
+      "bgv": {
+        "id": "BGV_SUZU_H002A",
+        "file": "voice/BGV_suzu_h002a.ogg"
       }
     },
     {
@@ -2302,6 +2390,10 @@
       "bg": {
         "label": "#EV040・目閉じ悶え・下敷き尿・なし・股吹き",
         "file": "EV040_08"
+      },
+      "bgv": {
+        "id": "BGV_SUZU_H002A",
+        "file": "voice/BGV_suzu_h002a.ogg"
       }
     },
     {
@@ -2314,6 +2406,10 @@
       "bg": {
         "label": "#EV040・目閉じ悶え・下敷き尿・なし・股吹き",
         "file": "EV040_08"
+      },
+      "bgv": {
+        "id": "BGV_SUZU_H002A",
+        "file": "voice/BGV_suzu_h002a.ogg"
       }
     },
     {
@@ -2330,6 +2426,10 @@
       "bg": {
         "label": "#EV040・目閉じ悶え・下敷き尿・なし・股吹き",
         "file": "EV040_08"
+      },
+      "bgv": {
+        "id": "BGV_SUZU_H002A",
+        "file": "voice/BGV_suzu_h002a.ogg"
       }
     },
     {
@@ -2344,6 +2444,10 @@
       "bg": {
         "label": "#EV040・目閉じ悶え・下敷き尿・なし・股吹き",
         "file": "EV040_08"
+      },
+      "bgv": {
+        "id": "BGV_SUZU_H002A",
+        "file": "voice/BGV_suzu_h002a.ogg"
       }
     },
     {
@@ -2359,6 +2463,10 @@
       "bg": {
         "label": "#EV040・目閉じ悶え・下敷き尿・なし・股吹き",
         "file": "EV040_08"
+      },
+      "bgv": {
+        "id": "BGV_SUZU_H002A",
+        "file": "voice/BGV_suzu_h002a.ogg"
       }
     },
     {
@@ -2373,6 +2481,10 @@
       "bg": {
         "label": "#EV040・目閉じ悶え・下敷き尿・なし・股吹き",
         "file": "EV040_08"
+      },
+      "bgv": {
+        "id": "BGV_SUZU_H002A",
+        "file": "voice/BGV_suzu_h002a.ogg"
       }
     },
     {
@@ -2389,6 +2501,10 @@
       "bg": {
         "label": "#EV040・うふふっ・下敷き尿・なし・股吹き",
         "file": "EV040_09"
+      },
+      "bgv": {
+        "id": "BGV_SUZU_H002A",
+        "file": "voice/BGV_suzu_h002a.ogg"
       }
     },
     {
@@ -2400,6 +2516,10 @@
       "bg": {
         "label": "#EV040・うふふっ・下敷き尿・なし・股吹き",
         "file": "EV040_09"
+      },
+      "bgv": {
+        "id": "BGV_SUZU_H002A",
+        "file": "voice/BGV_suzu_h002a.ogg"
       }
     },
     {
@@ -2416,6 +2536,10 @@
       "bg": {
         "label": "#EV040・うふふっ・下敷き尿・なし・股吹き",
         "file": "EV040_09"
+      },
+      "bgv": {
+        "id": "BGV_SUZU_H002A",
+        "file": "voice/BGV_suzu_h002a.ogg"
       }
     },
     {
@@ -2426,6 +2550,10 @@
       "bg": {
         "label": "#EV040・うふふっ・下敷き尿・なし・股吹き",
         "file": "EV040_09"
+      },
+      "bgv": {
+        "id": "BGV_SUZU_H002A",
+        "file": "voice/BGV_suzu_h002a.ogg"
       }
     },
     {
@@ -2442,6 +2570,10 @@
       "bg": {
         "label": "#EV040・うふふっ・下敷き尿・なし・股吹き",
         "file": "EV040_09"
+      },
+      "bgv": {
+        "id": "BGV_SUZU_H002A",
+        "file": "voice/BGV_suzu_h002a.ogg"
       }
     },
     {
@@ -2452,6 +2584,10 @@
       "bg": {
         "label": "#EV040・うふふっ・下敷き尿・なし・股吹き",
         "file": "EV040_09"
+      },
+      "bgv": {
+        "id": "BGV_SUZU_H002A",
+        "file": "voice/BGV_suzu_h002a.ogg"
       }
     },
     {
@@ -2468,6 +2604,10 @@
       "bg": {
         "label": "#EV040・うふふっ・下敷き尿・なし・股吹き",
         "file": "EV040_09"
+      },
+      "bgv": {
+        "id": "BGV_SUZU_H002A",
+        "file": "voice/BGV_suzu_h002a.ogg"
       }
     },
     {
@@ -2479,6 +2619,10 @@
       "bg": {
         "label": "#EV040・うふふっ・下敷き尿・なし・股吹き",
         "file": "EV040_09"
+      },
+      "bgv": {
+        "id": "BGV_SUZU_H002A",
+        "file": "voice/BGV_suzu_h002a.ogg"
       }
     },
     {
@@ -2495,6 +2639,10 @@
       "bg": {
         "label": "#EV040・うふふっ・下敷き尿・なし・股吹き",
         "file": "EV040_09"
+      },
+      "bgv": {
+        "id": "BGV_SUZU_H002A",
+        "file": "voice/BGV_suzu_h002a.ogg"
       }
     },
     {
@@ -2506,6 +2654,10 @@
       "bg": {
         "label": "#EV040・うふふっ・下敷き尿・なし・股吹き",
         "file": "EV040_09"
+      },
+      "bgv": {
+        "id": "BGV_SUZU_H002A",
+        "file": "voice/BGV_suzu_h002a.ogg"
       }
     },
     {
@@ -2522,6 +2674,10 @@
       "bg": {
         "label": "#EV040・うふふっ・下敷き尿・なし・股吹き",
         "file": "EV040_09"
+      },
+      "bgv": {
+        "id": "BGV_SUZU_H002A",
+        "file": "voice/BGV_suzu_h002a.ogg"
       }
     },
     {
@@ -2533,6 +2689,10 @@
       "bg": {
         "label": "#EV040・うふふっ・下敷き尿・なし・股吹き",
         "file": "EV040_09"
+      },
+      "bgv": {
+        "id": "BGV_SUZU_H002A",
+        "file": "voice/BGV_suzu_h002a.ogg"
       }
     },
     {
@@ -2549,6 +2709,10 @@
       "bg": {
         "label": "#EV040・うふふっ・下敷き尿・なし・股吹き",
         "file": "EV040_09"
+      },
+      "bgv": {
+        "id": "BGV_SUZU_H002A",
+        "file": "voice/BGV_suzu_h002a.ogg"
       }
     },
     {
@@ -2559,6 +2723,10 @@
       "bg": {
         "label": "#EV040・うふふっ・下敷き尿・なし・股吹き",
         "file": "EV040_09"
+      },
+      "bgv": {
+        "id": "BGV_SUZU_H002A",
+        "file": "voice/BGV_suzu_h002a.ogg"
       }
     },
     {
@@ -2575,6 +2743,10 @@
       "bg": {
         "label": "#EV040・うふふっ・下敷き尿・なし・股吹き",
         "file": "EV040_09"
+      },
+      "bgv": {
+        "id": "BGV_SUZU_H002A",
+        "file": "voice/BGV_suzu_h002a.ogg"
       }
     },
     {
@@ -2587,6 +2759,10 @@
       "bg": {
         "label": "#EV040・うふふっ・下敷き尿・なし・股吹き",
         "file": "EV040_09"
+      },
+      "bgv": {
+        "id": "BGV_SUZU_H002A",
+        "file": "voice/BGV_suzu_h002a.ogg"
       }
     },
     {
@@ -2603,6 +2779,10 @@
       "bg": {
         "label": "#EV040・うふふっ・下敷き尿・なし・股吹き",
         "file": "EV040_09"
+      },
+      "bgv": {
+        "id": "BGV_SUZU_H002A",
+        "file": "voice/BGV_suzu_h002a.ogg"
       }
     },
     {
@@ -2617,6 +2797,10 @@
       "bg": {
         "label": "#EV040・うふふっ・下敷き尿・なし・股吹き",
         "file": "EV040_09"
+      },
+      "bgv": {
+        "id": "BGV_SUZU_H002A",
+        "file": "voice/BGV_suzu_h002a.ogg"
       }
     }
   ],

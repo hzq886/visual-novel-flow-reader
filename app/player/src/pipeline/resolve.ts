@@ -52,6 +52,7 @@ export function sceneAssetRefs(scene: Scene): { cg: string[]; sprite: string[]; 
     if (beat.sprite?.body) sprite.add(beat.sprite.body)
     if (beat.sprite?.face) sprite.add(beat.sprite.face)
     if (beat.kind === 'line' && beat.voice?.id) voice.add(beat.voice.id)
+    if (beat.bgv?.id) voice.add(beat.bgv.id) // 背景ボイスも voice 素材として収集（HU-37）
   }
   return { cg: [...cg], sprite: [...sprite], voice: [...voice] }
 }
@@ -70,6 +71,8 @@ export function resolveScene(scene: Scene, ctx: ResolveContext): Scene {
     beats: scene.beats.map((beat) => {
       const bg = beat.bg ? resolveBg(ctx.bgset, beat.bg.label) : undefined
       const sprite = beat.sprite ? resolveSprite(ctx.sprset, beat.sprite.label) : undefined
+      // 背景ボイス（BGV）は voice と同じく manifest 索引で解決（id→実ファイル）。
+      const bgv = beat.bgv ? { bgv: resolveVoice(ctx.voiceIndex, beat.bgv.id) } : {}
       if (beat.kind === 'line') {
         return {
           ...beat,
@@ -77,6 +80,7 @@ export function resolveScene(scene: Scene, ctx: ResolveContext): Scene {
           ...(sprite ? { sprite } : {}),
           ...(beat.voice ? { voice: resolveVoice(ctx.voiceIndex, beat.voice.id) } : {}),
           ...resolveSeList(beat.se),
+          ...bgv,
         }
       }
       return {
@@ -84,6 +88,7 @@ export function resolveScene(scene: Scene, ctx: ResolveContext): Scene {
         ...(bg ? { bg } : {}),
         ...(sprite ? { sprite } : {}),
         ...resolveSeList(beat.se),
+        ...bgv,
       }
     }),
   }

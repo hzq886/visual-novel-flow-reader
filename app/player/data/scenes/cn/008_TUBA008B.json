@@ -945,6 +945,10 @@
           234,
           70
         ]
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -965,6 +969,10 @@
           234,
           70
         ]
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -989,6 +997,10 @@
           234,
           70
         ]
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -1009,6 +1021,10 @@
           234,
           70
         ]
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -1028,6 +1044,10 @@
           234,
           70
         ]
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -1053,6 +1073,10 @@
           234,
           70
         ]
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -1075,6 +1099,10 @@
           234,
           70
         ]
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -1091,6 +1119,10 @@
       "bg": {
         "label": "#EV077・にっこり・通常・微笑み・微笑み",
         "file": "EV077_04"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -1102,6 +1134,10 @@
       "bg": {
         "label": "#EV077・にっこり・通常・微笑み・微笑み",
         "file": "EV077_04"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -1117,6 +1153,10 @@
       "bg": {
         "label": "#EV077・微笑み・通常・微笑み視線下・微笑み・微笑み咥え",
         "file": "EV077_05"
+      },
+      "bgv": {
+        "id": "BGV_KAED_F001A",
+        "file": "voice/BGV_kaed_f001a.ogg"
       }
     },
     {
@@ -1129,6 +1169,10 @@
       "bg": {
         "label": "#EV077・微笑み・通常・微笑み視線下・微笑み・微笑み咥え",
         "file": "EV077_05"
+      },
+      "bgv": {
+        "id": "BGV_KAED_F001A",
+        "file": "voice/BGV_kaed_f001a.ogg"
       }
     },
     {
@@ -1145,6 +1189,10 @@
       "bg": {
         "label": "#EV077・微笑み・通常・微笑み視線下・微笑み・微笑み咥え",
         "file": "EV077_05"
+      },
+      "bgv": {
+        "id": "BGV_KAED_F001A",
+        "file": "voice/BGV_kaed_f001a.ogg"
       }
     },
     {
@@ -1155,6 +1203,10 @@
       "bg": {
         "label": "#EV077・微笑み・通常・微笑み視線下・微笑み・微笑み咥え",
         "file": "EV077_05"
+      },
+      "bgv": {
+        "id": "BGV_KAED_F001A",
+        "file": "voice/BGV_kaed_f001a.ogg"
       }
     },
     {
@@ -1171,6 +1223,10 @@
       "bg": {
         "label": "#EV077・微笑み・通常・微笑み視線下・微笑み・微笑み咥え",
         "file": "EV077_05"
+      },
+      "bgv": {
+        "id": "BGV_KAED_F001A",
+        "file": "voice/BGV_kaed_f001a.ogg"
       }
     },
     {
@@ -1186,6 +1242,10 @@
       "bg": {
         "label": "#EV077・微笑み・通常・微笑み視線下・微笑み・微笑み咥え",
         "file": "EV077_05"
+      },
+      "bgv": {
+        "id": "BGV_KAED_F001A",
+        "file": "voice/BGV_kaed_f001a.ogg"
       }
     },
     {
@@ -1201,6 +1261,10 @@
       "bg": {
         "label": "#EV077・微笑み・通常・微笑み視線下・微笑み・微笑み咥え",
         "file": "EV077_05"
+      },
+      "bgv": {
+        "id": "BGV_KAED_F001A",
+        "file": "voice/BGV_kaed_f001a.ogg"
       }
     },
     {
@@ -1213,6 +1277,10 @@
       "bg": {
         "label": "#EV077・微笑み・通常・微笑み視線下・微笑み・微笑み咥え",
         "file": "EV077_05"
+      },
+      "bgv": {
+        "id": "BGV_KAED_F001A",
+        "file": "voice/BGV_kaed_f001a.ogg"
       }
     },
     {
@@ -1229,6 +1297,10 @@
       "bg": {
         "label": "#EV077・微笑み・通常・微笑み視線下・微笑み・微笑み咥え",
         "file": "EV077_05"
+      },
+      "bgv": {
+        "id": "BGV_KAED_F001A",
+        "file": "voice/BGV_kaed_f001a.ogg"
       }
     },
     {
@@ -1240,6 +1312,10 @@
       "bg": {
         "label": "#EV077・微笑み・通常・微笑み視線下・微笑み・微笑み咥え",
         "file": "EV077_05"
+      },
+      "bgv": {
+        "id": "BGV_KAED_F001A",
+        "file": "voice/BGV_kaed_f001a.ogg"
       }
     },
     {
@@ -1256,6 +1332,10 @@
       "bg": {
         "label": "#EV077・微笑み・通常・微笑み視線下・微笑み・微笑み咥え",
         "file": "EV077_05"
+      },
+      "bgv": {
+        "id": "BGV_KAED_F001A",
+        "file": "voice/BGV_kaed_f001a.ogg"
       }
     },
     {
@@ -1272,6 +1352,10 @@
       "bg": {
         "label": "#EV077・微笑み・通常・微笑み視線下・微笑み・微笑み咥え",
         "file": "EV077_05"
+      },
+      "bgv": {
+        "id": "BGV_KAED_F001A",
+        "file": "voice/BGV_kaed_f001a.ogg"
       }
     },
     {
@@ -1284,6 +1368,10 @@
       "bg": {
         "label": "#EV077・微笑み・通常・微笑み視線下・微笑み・微笑み咥え",
         "file": "EV077_05"
+      },
+      "bgv": {
+        "id": "BGV_KAED_F001A",
+        "file": "voice/BGV_kaed_f001a.ogg"
       }
     },
     {
@@ -1300,6 +1388,10 @@
       "bg": {
         "label": "#EV077・微笑み・通常・微笑み視線下・微笑み・微笑み咥え",
         "file": "EV077_05"
+      },
+      "bgv": {
+        "id": "BGV_KAED_F001A",
+        "file": "voice/BGV_kaed_f001a.ogg"
       }
     },
     {
@@ -1315,6 +1407,10 @@
       "bg": {
         "label": "#EV077・微笑み・通常・微笑み視線下・微笑み・微笑み咥え",
         "file": "EV077_05"
+      },
+      "bgv": {
+        "id": "BGV_KAED_F001A",
+        "file": "voice/BGV_kaed_f001a.ogg"
       }
     },
     {
@@ -1327,6 +1423,10 @@
       "bg": {
         "label": "#EV077・微笑み・通常・微笑み視線下・微笑み・微笑み咥え",
         "file": "EV077_05"
+      },
+      "bgv": {
+        "id": "BGV_KAED_F001A",
+        "file": "voice/BGV_kaed_f001a.ogg"
       }
     },
     {
@@ -1343,6 +1443,10 @@
       "bg": {
         "label": "#EV077・にっこり・通常・微笑み・微笑み・微笑み咥え",
         "file": "EV077_06"
+      },
+      "bgv": {
+        "id": "BGV_KAED_F001A",
+        "file": "voice/BGV_kaed_f001a.ogg"
       }
     },
     {
@@ -1354,6 +1458,10 @@
       "bg": {
         "label": "#EV077・にっこり・通常・微笑み・微笑み・微笑み咥え",
         "file": "EV077_06"
+      },
+      "bgv": {
+        "id": "BGV_KAED_F001A",
+        "file": "voice/BGV_kaed_f001a.ogg"
       }
     },
     {
@@ -1369,6 +1477,10 @@
       "bg": {
         "label": "#EV077・にっこり・通常・微笑み・微笑み・微笑み咥え",
         "file": "EV077_06"
+      },
+      "bgv": {
+        "id": "BGV_KAED_F001A",
+        "file": "voice/BGV_kaed_f001a.ogg"
       }
     },
     {
@@ -1380,6 +1492,10 @@
       "bg": {
         "label": "#EV077・にっこり・通常・微笑み・微笑み・微笑み咥え",
         "file": "EV077_06"
+      },
+      "bgv": {
+        "id": "BGV_KAED_F001A",
+        "file": "voice/BGV_kaed_f001a.ogg"
       }
     },
     {
@@ -1395,6 +1511,10 @@
       "bg": {
         "label": "#EV077・うっとり・舌出し・うっとり・通常・うっとり咥え",
         "file": "EV077_07"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F002A",
+        "file": "voice/BGV_tuba_f002a.ogg"
       }
     },
     {
@@ -1406,6 +1526,10 @@
       "bg": {
         "label": "#EV077・うっとり・舌出し・うっとり・通常・うっとり咥え",
         "file": "EV077_07"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F002A",
+        "file": "voice/BGV_tuba_f002a.ogg"
       }
     },
     {
@@ -1422,6 +1546,10 @@
       "bg": {
         "label": "#EV077・うっとり・舌出し・うっとり・通常・うっとり咥え",
         "file": "EV077_07"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F002A",
+        "file": "voice/BGV_tuba_f002a.ogg"
       }
     },
     {
@@ -1435,6 +1563,10 @@
       "bg": {
         "label": "#EV077・うっとり・舌出し・うっとり・通常・うっとり咥え",
         "file": "EV077_07"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F002A",
+        "file": "voice/BGV_tuba_f002a.ogg"
       }
     },
     {
@@ -1451,6 +1583,10 @@
       "bg": {
         "label": "#EV077・うっとり・舌出し・うっとり・通常・うっとり咥え",
         "file": "EV077_07"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F002A",
+        "file": "voice/BGV_tuba_f002a.ogg"
       }
     },
     {
@@ -1467,6 +1603,10 @@
       "bg": {
         "label": "#EV077・うっとり・舌出し・うっとり・通常・うっとり咥え",
         "file": "EV077_07"
+      },
+      "bgv": {
+        "id": "BGV_KAED_F002A",
+        "file": "voice/BGV_kaed_f002a.ogg"
       }
     },
     {
@@ -1478,6 +1618,10 @@
       "bg": {
         "label": "#EV077・うっとり・舌出し・うっとり・通常・うっとり咥え",
         "file": "EV077_07"
+      },
+      "bgv": {
+        "id": "BGV_KAED_F002A",
+        "file": "voice/BGV_kaed_f002a.ogg"
       }
     },
     {
@@ -1493,6 +1637,10 @@
       "bg": {
         "label": "#EV077・うっとり・舌出し・うっとり・通常・うっとり咥え",
         "file": "EV077_07"
+      },
+      "bgv": {
+        "id": "BGV_KAED_F002A",
+        "file": "voice/BGV_kaed_f002a.ogg"
       }
     },
     {
@@ -1504,6 +1652,10 @@
       "bg": {
         "label": "#EV077・うっとり・舌出し・うっとり・通常・うっとり咥え",
         "file": "EV077_07"
+      },
+      "bgv": {
+        "id": "BGV_KAED_F002A",
+        "file": "voice/BGV_kaed_f002a.ogg"
       }
     },
     {
@@ -1520,6 +1672,10 @@
       "bg": {
         "label": "#EV077・うっとり・舌出し・うっとり・通常・うっとり咥え",
         "file": "EV077_07"
+      },
+      "bgv": {
+        "id": "BGV_KAED_F002A",
+        "file": "voice/BGV_kaed_f002a.ogg"
       }
     },
     {
@@ -1536,6 +1692,10 @@
       "bg": {
         "label": "#EV077・うっとり・舌出し・うっとり・通常・うっとり咥え",
         "file": "EV077_07"
+      },
+      "bgv": {
+        "id": "BGV_KAED_F002A",
+        "file": "voice/BGV_kaed_f002a.ogg"
       }
     },
     {
@@ -1550,6 +1710,10 @@
       "bg": {
         "label": "#EV077・うっとり・舌出し・うっとり・通常・うっとり咥え",
         "file": "EV077_07"
+      },
+      "bgv": {
+        "id": "BGV_KAED_F002A",
+        "file": "voice/BGV_kaed_f002a.ogg"
       }
     },
     {
@@ -1566,6 +1730,10 @@
       "bg": {
         "label": "#EV077・うっとり・舌出し・うっとり・通常・うっとり咥え",
         "file": "EV077_07"
+      },
+      "bgv": {
+        "id": "BGV_KAED_F002A",
+        "file": "voice/BGV_kaed_f002a.ogg"
       }
     },
     {
@@ -1576,6 +1744,10 @@
       "bg": {
         "label": "#EV077・うっとり・舌出し・うっとり・通常・うっとり咥え",
         "file": "EV077_07"
+      },
+      "bgv": {
+        "id": "BGV_KAED_F002A",
+        "file": "voice/BGV_kaed_f002a.ogg"
       }
     },
     {
@@ -1591,6 +1763,10 @@
       "bg": {
         "label": "#EV077・うっとり・舌出し・うっとり・通常・うっとり咥え",
         "file": "EV077_07"
+      },
+      "bgv": {
+        "id": "BGV_KAED_F002A",
+        "file": "voice/BGV_kaed_f002a.ogg"
       }
     },
     {
@@ -1603,6 +1779,10 @@
       "bg": {
         "label": "#EV077・うっとり・舌出し・うっとり・通常・うっとり咥え",
         "file": "EV077_07"
+      },
+      "bgv": {
+        "id": "BGV_KAED_F002A",
+        "file": "voice/BGV_kaed_f002a.ogg"
       }
     },
     {
@@ -1619,6 +1799,10 @@
       "bg": {
         "label": "#EV077・うっとり・舌出し・うっとり・通常・うっとり咥え",
         "file": "EV077_07"
+      },
+      "bgv": {
+        "id": "BGV_KAED_F002A",
+        "file": "voice/BGV_kaed_f002a.ogg"
       }
     },
     {
@@ -1630,6 +1814,10 @@
       "bg": {
         "label": "#EV077・うっとり・舌出し・うっとり・通常・うっとり咥え",
         "file": "EV077_07"
+      },
+      "bgv": {
+        "id": "BGV_KAED_F002A",
+        "file": "voice/BGV_kaed_f002a.ogg"
       }
     },
     {
@@ -1646,6 +1834,10 @@
       "bg": {
         "label": "#EV077・うっとり・舌出し・うっとり・通常・うっとり咥え",
         "file": "EV077_07"
+      },
+      "bgv": {
+        "id": "BGV_KAED_F003A",
+        "file": "voice/BGV_kaed_f003a.ogg"
       }
     },
     {
@@ -1657,6 +1849,10 @@
       "bg": {
         "label": "#EV077・うっとり・舌出し・うっとり・通常・うっとり咥え",
         "file": "EV077_07"
+      },
+      "bgv": {
+        "id": "BGV_KAED_F003A",
+        "file": "voice/BGV_kaed_f003a.ogg"
       }
     },
     {
@@ -1673,6 +1869,10 @@
       "bg": {
         "label": "#EV077・うっとり・舌出し・うっとり・通常・うっとり咥え",
         "file": "EV077_07"
+      },
+      "bgv": {
+        "id": "BGV_KAED_F003A",
+        "file": "voice/BGV_kaed_f003a.ogg"
       }
     },
     {
@@ -1689,6 +1889,10 @@
       "bg": {
         "label": "#EV077・うっとり・舌出し・うっとり・通常・うっとり咥え",
         "file": "EV077_07"
+      },
+      "bgv": {
+        "id": "BGV_KAED_F003A",
+        "file": "voice/BGV_kaed_f003a.ogg"
       }
     },
     {
@@ -1700,6 +1904,10 @@
       "bg": {
         "label": "#EV077・うっとり・舌出し・うっとり・通常・うっとり咥え",
         "file": "EV077_07"
+      },
+      "bgv": {
+        "id": "BGV_KAED_F003A",
+        "file": "voice/BGV_kaed_f003a.ogg"
       }
     },
     {
@@ -1716,6 +1924,10 @@
       "bg": {
         "label": "#EV077・うっとり・舌出し・うっとり・通常・うっとり咥え",
         "file": "EV077_07"
+      },
+      "bgv": {
+        "id": "BGV_KAED_F003A",
+        "file": "voice/BGV_kaed_f003a.ogg"
       }
     },
     {
@@ -1726,6 +1938,10 @@
       "bg": {
         "label": "#EV077・うっとり・舌出し・うっとり・通常・うっとり咥え",
         "file": "EV077_07"
+      },
+      "bgv": {
+        "id": "BGV_KAED_F003A",
+        "file": "voice/BGV_kaed_f003a.ogg"
       }
     },
     {
@@ -1742,6 +1958,10 @@
       "bg": {
         "label": "#EV077・うっとり・舌出し・うっとり・通常・うっとり咥え",
         "file": "EV077_07"
+      },
+      "bgv": {
+        "id": "BGV_KAED_F003A",
+        "file": "voice/BGV_kaed_f003a.ogg"
       }
     },
     {
@@ -1758,7 +1978,11 @@
           "code": "8201B",
           "file": "se/8201b.ogg"
         }
-      ]
+      ],
+      "bgv": {
+        "id": "BGV_KAED_F003A",
+        "file": "voice/BGV_kaed_f003a.ogg"
+      }
     },
     {
       "kind": "narration",
@@ -1768,6 +1992,10 @@
       "bg": {
         "label": "#EV077・うっとり・舌出し・うっとり・通常・うっとり咥え・精液",
         "file": "EV077_08"
+      },
+      "bgv": {
+        "id": "BGV_KAED_F003A",
+        "file": "voice/BGV_kaed_f003a.ogg"
       }
     },
     {
@@ -1783,6 +2011,10 @@
       "bg": {
         "label": "#EV077・うっとり・舌出し・うっとり・通常・うっとり咥え・精液",
         "file": "EV077_08"
+      },
+      "bgv": {
+        "id": "BGV_KAED_F003A",
+        "file": "voice/BGV_kaed_f003a.ogg"
       }
     },
     {
@@ -1794,6 +2026,10 @@
       "bg": {
         "label": "#EV077・うっとり・舌出し・うっとり・通常・うっとり咥え・精液",
         "file": "EV077_08"
+      },
+      "bgv": {
+        "id": "BGV_KAED_F003A",
+        "file": "voice/BGV_kaed_f003a.ogg"
       }
     },
     {
@@ -1810,6 +2046,10 @@
       "bg": {
         "label": "#EV077・うっとり・舌出し・うっとり・通常・うっとり咥え・精液",
         "file": "EV077_08"
+      },
+      "bgv": {
+        "id": "BGV_KAED_F003A",
+        "file": "voice/BGV_kaed_f003a.ogg"
       }
     },
     {
@@ -1821,6 +2061,10 @@
       "bg": {
         "label": "#EV077・うっとり・舌出し・うっとり・通常・うっとり咥え・精液",
         "file": "EV077_08"
+      },
+      "bgv": {
+        "id": "BGV_KAED_F003A",
+        "file": "voice/BGV_kaed_f003a.ogg"
       }
     },
     {
@@ -1837,6 +2081,10 @@
       "bg": {
         "label": "#EV077・うっとり・舌出し・うっとり・通常・うっとり咥え・精液",
         "file": "EV077_08"
+      },
+      "bgv": {
+        "id": "BGV_KAED_F003A",
+        "file": "voice/BGV_kaed_f003a.ogg"
       }
     },
     {
@@ -1848,6 +2096,10 @@
       "bg": {
         "label": "#EV077・うっとり・舌出し・うっとり・通常・うっとり咥え・精液",
         "file": "EV077_08"
+      },
+      "bgv": {
+        "id": "BGV_KAED_F003A",
+        "file": "voice/BGV_kaed_f003a.ogg"
       }
     },
     {
@@ -1863,6 +2115,10 @@
       "bg": {
         "label": "#EV077・うっとり・舌出し・うっとり・通常・うっとり咥え・精液",
         "file": "EV077_08"
+      },
+      "bgv": {
+        "id": "BGV_KAED_F003A",
+        "file": "voice/BGV_kaed_f003a.ogg"
       }
     },
     {
@@ -1874,6 +2130,10 @@
       "bg": {
         "label": "#EV077・うっとり・舌出し・うっとり・通常・うっとり咥え・精液",
         "file": "EV077_08"
+      },
+      "bgv": {
+        "id": "BGV_KAED_F003A",
+        "file": "voice/BGV_kaed_f003a.ogg"
       }
     },
     {
@@ -1889,6 +2149,10 @@
       "bg": {
         "label": "#EV077・うっとり・舌出し・うっとり・通常・うっとり咥え・精液",
         "file": "EV077_08"
+      },
+      "bgv": {
+        "id": "BGV_KAED_F003A",
+        "file": "voice/BGV_kaed_f003a.ogg"
       }
     },
     {
@@ -1900,6 +2164,10 @@
       "bg": {
         "label": "#EV077・うっとり・舌出し・うっとり・通常・うっとり咥え・精液",
         "file": "EV077_08"
+      },
+      "bgv": {
+        "id": "BGV_KAED_F003A",
+        "file": "voice/BGV_kaed_f003a.ogg"
       }
     },
     {
@@ -1915,6 +2183,10 @@
       "bg": {
         "label": "#EV077・うっとり・舌出し・うっとり・通常・うっとり咥え・精液",
         "file": "EV077_08"
+      },
+      "bgv": {
+        "id": "BGV_KAED_F003A",
+        "file": "voice/BGV_kaed_f003a.ogg"
       }
     },
     {
@@ -1930,6 +2202,10 @@
       "bg": {
         "label": "#EV077・うっとり・舌出し・うっとり・通常・うっとり咥え・精液",
         "file": "EV077_08"
+      },
+      "bgv": {
+        "id": "BGV_KAED_F003A",
+        "file": "voice/BGV_kaed_f003a.ogg"
       }
     },
     {
@@ -1940,6 +2216,10 @@
       "bg": {
         "label": "#EV077・うっとり・舌出し・うっとり・通常・うっとり咥え・精液",
         "file": "EV077_08"
+      },
+      "bgv": {
+        "id": "BGV_KAED_F003A",
+        "file": "voice/BGV_kaed_f003a.ogg"
       }
     },
     {
@@ -1951,6 +2231,10 @@
       "bg": {
         "label": "#EV077・うっとり・舌出し・うっとり・通常・うっとり咥え・精液",
         "file": "EV077_08"
+      },
+      "bgv": {
+        "id": "BGV_KAED_F003A",
+        "file": "voice/BGV_kaed_f003a.ogg"
       }
     },
     {
@@ -1962,6 +2246,10 @@
       "bg": {
         "label": "#EV077・うっとり・舌出し・うっとり・通常・うっとり咥え・精液",
         "file": "EV077_08"
+      },
+      "bgv": {
+        "id": "BGV_KAED_F003A",
+        "file": "voice/BGV_kaed_f003a.ogg"
       }
     },
     {
@@ -1977,6 +2265,10 @@
       "bg": {
         "label": "#EV077・うっとり・舌出し・うっとり・通常・うっとり咥え・精液",
         "file": "EV077_08"
+      },
+      "bgv": {
+        "id": "BGV_KAED_F003A",
+        "file": "voice/BGV_kaed_f003a.ogg"
       }
     },
     {
@@ -1987,6 +2279,10 @@
       "bg": {
         "label": "#EV077・うっとり・舌出し・うっとり・通常・うっとり咥え・精液",
         "file": "EV077_08"
+      },
+      "bgv": {
+        "id": "BGV_KAED_F003A",
+        "file": "voice/BGV_kaed_f003a.ogg"
       }
     },
     {
@@ -2002,6 +2298,10 @@
       "bg": {
         "label": "#EV077・うっとり・舌出し・うっとり・通常・うっとり咥え・精液",
         "file": "EV077_08"
+      },
+      "bgv": {
+        "id": "BGV_KAED_F003A",
+        "file": "voice/BGV_kaed_f003a.ogg"
       }
     },
     {
@@ -2013,6 +2313,10 @@
       "bg": {
         "label": "#EV077・うっとり・舌出し・うっとり・通常・うっとり咥え・精液",
         "file": "EV077_08"
+      },
+      "bgv": {
+        "id": "BGV_KAED_F003A",
+        "file": "voice/BGV_kaed_f003a.ogg"
       }
     },
     {
@@ -2028,6 +2332,10 @@
       "bg": {
         "label": "#EV077・うっとり・舌出し・うっとり・通常・うっとり咥え・精液",
         "file": "EV077_08"
+      },
+      "bgv": {
+        "id": "BGV_KAED_F003A",
+        "file": "voice/BGV_kaed_f003a.ogg"
       }
     },
     {
@@ -2039,6 +2347,10 @@
       "bg": {
         "label": "#EV077・うっとり・舌出し・うっとり・通常・うっとり咥え・精液",
         "file": "EV077_08"
+      },
+      "bgv": {
+        "id": "BGV_KAED_F003A",
+        "file": "voice/BGV_kaed_f003a.ogg"
       }
     },
     {
@@ -2054,6 +2366,10 @@
       "bg": {
         "label": "#EV077・うっとり・舌出し・うっとり・通常・うっとり咥え・精液",
         "file": "EV077_08"
+      },
+      "bgv": {
+        "id": "BGV_KAED_F003A",
+        "file": "voice/BGV_kaed_f003a.ogg"
       }
     },
     {
@@ -2068,6 +2384,10 @@
       "bg": {
         "label": "#EV077・うっとり・舌出し・うっとり・通常・うっとり咥え・精液",
         "file": "EV077_08"
+      },
+      "bgv": {
+        "id": "BGV_KAED_F003A",
+        "file": "voice/BGV_kaed_f003a.ogg"
       }
     }
   ],

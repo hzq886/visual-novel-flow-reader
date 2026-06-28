@@ -326,6 +326,10 @@
           319,
           102
         ]
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -355,7 +359,11 @@
           "code": "1202B",
           "file": "se/1202b.ogg"
         }
-      ]
+      ],
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
+      }
     },
     {
       "kind": "narration",
@@ -367,6 +375,10 @@
       "bg": {
         "label": "#EV023・虚ろ目キス・割れ目擦る・離れ気味",
         "file": "EV023_02"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -378,6 +390,10 @@
       "bg": {
         "label": "#EV023・虚ろ目キス・割れ目擦る・離れ気味",
         "file": "EV023_02"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -389,6 +405,10 @@
       "bg": {
         "label": "#EV023・虚ろ目キス・割れ目擦る・離れ気味",
         "file": "EV023_02"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -400,6 +420,10 @@
       "bg": {
         "label": "#EV023・虚ろ目キス・割れ目擦る・離れ気味",
         "file": "EV023_02"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -412,6 +436,10 @@
       "bg": {
         "label": "#EV023・虚ろ目キス・割れ目擦る・離れ気味",
         "file": "EV023_02"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -423,6 +451,10 @@
       "bg": {
         "label": "#EV023・虚ろ目キス・割れ目擦る・離れ気味",
         "file": "EV023_02"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -434,6 +466,10 @@
       "bg": {
         "label": "#EV023・虚ろ目キス・割れ目擦る・離れ気味",
         "file": "EV023_02"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -445,6 +481,10 @@
       "bg": {
         "label": "#EV023・虚ろ目キス・割れ目擦る・離れ気味",
         "file": "EV023_02"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -456,6 +496,10 @@
       "bg": {
         "label": "#EV023・虚ろ目キス・割れ目擦る・離れ気味",
         "file": "EV023_02"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -466,6 +510,10 @@
       "bg": {
         "label": "#EV023・虚ろ目キス・割れ目擦る・離れ気味",
         "file": "EV023_02"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -481,6 +529,10 @@
       "bg": {
         "label": "#EV023・虚ろ目舌出し舐め・割れ目擦る・離れ気味",
         "file": "EV023_03"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -494,6 +546,10 @@
       "bg": {
         "label": "#EV023・虚ろ目舌出し舐め・割れ目擦る・離れ気味",
         "file": "EV023_03"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -509,6 +565,10 @@
       "bg": {
         "label": "#EV023・虚ろ目舌出し舐め・割れ目擦る・離れ気味",
         "file": "EV023_03"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -522,6 +582,10 @@
       "bg": {
         "label": "#EV023・虚ろ目舌出し舐め・割れ目擦る・離れ気味",
         "file": "EV023_03"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -537,6 +601,10 @@
       "bg": {
         "label": "#EV023・虚ろ目舌出し舐め・割れ目擦る・離れ気味",
         "file": "EV023_03"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -548,6 +616,10 @@
       "bg": {
         "label": "#EV023・虚ろ目舌出し舐め・割れ目擦る・離れ気味",
         "file": "EV023_03"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -563,6 +635,10 @@
       "bg": {
         "label": "#EV023・虚ろ目舌出し舐め・割れ目擦る・離れ気味",
         "file": "EV023_03"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -575,6 +651,10 @@
       "bg": {
         "label": "#EV023・虚ろ目舌出し舐め・割れ目擦る・離れ気味",
         "file": "EV023_03"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -590,6 +670,10 @@
       "bg": {
         "label": "#EV023・虚ろ目舌出し舐め・割れ目擦る・離れ気味",
         "file": "EV023_03"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -603,6 +687,10 @@
       "bg": {
         "label": "#EV023・虚ろ目舌出し舐め・割れ目擦る・離れ気味",
         "file": "EV023_03"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -618,6 +706,10 @@
       "bg": {
         "label": "#EV023・虚ろ目舌出し舐め・割れ目擦る・離れ気味",
         "file": "EV023_03"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -630,6 +722,10 @@
       "bg": {
         "label": "#EV023・虚ろ目舌出し舐め・割れ目擦る・離れ気味",
         "file": "EV023_03"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -646,6 +742,10 @@
       "bg": {
         "label": "#EV023・虚ろ目舌出し舐め・割れ目擦る・離れ気味",
         "file": "EV023_03"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -658,6 +758,10 @@
       "bg": {
         "label": "#EV023・虚ろ目舌出し舐め・割れ目擦る・離れ気味",
         "file": "EV023_03"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -674,6 +778,10 @@
       "bg": {
         "label": "#EV023・虚ろ目舌出し舐め・割れ目擦る・離れ気味",
         "file": "EV023_03"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -685,6 +793,10 @@
       "bg": {
         "label": "#EV023・虚ろ目舌出し舐め・割れ目擦る・離れ気味",
         "file": "EV023_03"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -697,6 +809,10 @@
       "bg": {
         "label": "#EV023・虚ろ目舌出し舐め・割れ目擦る・離れ気味",
         "file": "EV023_03"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -713,6 +829,10 @@
       "bg": {
         "label": "#EV023・虚ろ目舌出し舐め・割れ目擦る・離れ気味",
         "file": "EV023_03"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -723,6 +843,10 @@
       "bg": {
         "label": "#EV023・虚ろ目舌出し舐め・割れ目擦る・離れ気味",
         "file": "EV023_03"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -739,6 +863,10 @@
       "bg": {
         "label": "#EV023・虚ろ目舌出し舐め2・割れ目擦る・離れ気味",
         "file": "EV023_04"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F002A",
+        "file": "voice/BGV_tuba_f002a.ogg"
       }
     },
     {
@@ -752,6 +880,10 @@
       "bg": {
         "label": "#EV023・虚ろ目舌出し舐め2・割れ目擦る・離れ気味",
         "file": "EV023_04"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F002A",
+        "file": "voice/BGV_tuba_f002a.ogg"
       }
     },
     {
@@ -767,6 +899,10 @@
       "bg": {
         "label": "#EV023・虚ろ目舌出し舐め2・割れ目擦る・離れ気味",
         "file": "EV023_04"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F002A",
+        "file": "voice/BGV_tuba_f002a.ogg"
       }
     },
     {
@@ -780,6 +916,10 @@
       "bg": {
         "label": "#EV023・虚ろ目舌出し舐め2・割れ目擦る・離れ気味",
         "file": "EV023_04"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F002A",
+        "file": "voice/BGV_tuba_f002a.ogg"
       }
     },
     {
@@ -796,6 +936,10 @@
       "bg": {
         "label": "#EV023・虚ろ目舌出し舐め2・割れ目擦る・離れ気味",
         "file": "EV023_04"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F002A",
+        "file": "voice/BGV_tuba_f002a.ogg"
       }
     },
     {
@@ -808,6 +952,10 @@
       "bg": {
         "label": "#EV023・虚ろ目舌出し舐め2・割れ目擦る・離れ気味",
         "file": "EV023_04"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F002A",
+        "file": "voice/BGV_tuba_f002a.ogg"
       }
     },
     {
@@ -824,6 +972,10 @@
       "bg": {
         "label": "#EV023・虚ろ目舌出し舐め2・割れ目擦る・離れ気味",
         "file": "EV023_04"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F002A",
+        "file": "voice/BGV_tuba_f002a.ogg"
       }
     },
     {
@@ -836,6 +988,10 @@
       "bg": {
         "label": "#EV023・虚ろ目舌出し舐め2・割れ目擦る・離れ気味",
         "file": "EV023_04"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F002A",
+        "file": "voice/BGV_tuba_f002a.ogg"
       }
     },
     {
@@ -847,6 +1003,10 @@
       "bg": {
         "label": "#EV023・虚ろ目舌出し舐め2・割れ目擦る・離れ気味",
         "file": "EV023_04"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F002A",
+        "file": "voice/BGV_tuba_f002a.ogg"
       }
     },
     {
@@ -862,6 +1022,10 @@
       "bg": {
         "label": "#EV023・虚ろ目舌出し舐め2・割れ目擦る・離れ気味",
         "file": "EV023_04"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F002A",
+        "file": "voice/BGV_tuba_f002a.ogg"
       }
     },
     {
@@ -872,6 +1036,10 @@
       "bg": {
         "label": "#EV023・虚ろ目舌出し舐め2・割れ目擦る・離れ気味",
         "file": "EV023_04"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F002A",
+        "file": "voice/BGV_tuba_f002a.ogg"
       }
     },
     {
@@ -883,6 +1051,10 @@
       "bg": {
         "label": "#EV023・虚ろ目舌出し舐め2・割れ目擦る・離れ気味",
         "file": "EV023_04"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F002A",
+        "file": "voice/BGV_tuba_f002a.ogg"
       }
     },
     {
@@ -893,6 +1065,10 @@
       "bg": {
         "label": "#EV023・虚ろ目舌出し舐め2・割れ目擦る・離れ気味",
         "file": "EV023_04"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F002A",
+        "file": "voice/BGV_tuba_f002a.ogg"
       }
     },
     {
@@ -909,6 +1085,10 @@
       "bg": {
         "label": "#EV023・虚ろ目舌出し舐め2・割れ目擦る・離れ気味",
         "file": "EV023_04"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F002A",
+        "file": "voice/BGV_tuba_f002a.ogg"
       }
     },
     {
@@ -920,6 +1100,10 @@
       "bg": {
         "label": "#EV023・虚ろ目舌出し舐め2・割れ目擦る・離れ気味",
         "file": "EV023_04"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F002A",
+        "file": "voice/BGV_tuba_f002a.ogg"
       }
     },
     {
@@ -936,6 +1120,10 @@
       "bg": {
         "label": "#EV023・虚ろ目舌出し舐め2・割れ目擦る・離れ気味",
         "file": "EV023_04"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F002A",
+        "file": "voice/BGV_tuba_f002a.ogg"
       }
     },
     {
@@ -949,6 +1137,10 @@
       "bg": {
         "label": "#EV023・虚ろ目舌出し舐め2・割れ目擦る・離れ気味",
         "file": "EV023_04"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F002A",
+        "file": "voice/BGV_tuba_f002a.ogg"
       }
     },
     {
@@ -964,6 +1156,10 @@
       "bg": {
         "label": "#EV023・虚ろ目舌出し舐め2・割れ目擦る・離れ気味",
         "file": "EV023_04"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F002A",
+        "file": "voice/BGV_tuba_f002a.ogg"
       }
     },
     {
@@ -976,6 +1172,10 @@
       "bg": {
         "label": "#EV023・虚ろ目舌出し舐め2・割れ目擦る・離れ気味",
         "file": "EV023_04"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F002A",
+        "file": "voice/BGV_tuba_f002a.ogg"
       }
     },
     {
@@ -991,6 +1191,10 @@
       "bg": {
         "label": "#EV023・虚ろ目先端咥え・割れ目擦る・中接近",
         "file": "EV023_05"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F003A",
+        "file": "voice/BGV_tuba_f003a.ogg"
       }
     },
     {
@@ -1005,6 +1209,10 @@
       "bg": {
         "label": "#EV023・虚ろ目先端咥え・割れ目擦る・中接近",
         "file": "EV023_05"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F003A",
+        "file": "voice/BGV_tuba_f003a.ogg"
       }
     },
     {
@@ -1020,6 +1228,10 @@
       "bg": {
         "label": "#EV023・虚ろ目先端咥え・割れ目擦る・中接近",
         "file": "EV023_05"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F003A",
+        "file": "voice/BGV_tuba_f003a.ogg"
       }
     },
     {
@@ -1032,6 +1244,10 @@
       "bg": {
         "label": "#EV023・虚ろ目先端咥え・割れ目擦る・中接近",
         "file": "EV023_05"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F003A",
+        "file": "voice/BGV_tuba_f003a.ogg"
       }
     },
     {
@@ -1047,6 +1263,10 @@
       "bg": {
         "label": "#EV023・虚ろ目先端咥え・割れ目擦る・中接近",
         "file": "EV023_05"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F003A",
+        "file": "voice/BGV_tuba_f003a.ogg"
       }
     },
     {
@@ -1060,6 +1280,10 @@
       "bg": {
         "label": "#EV023・虚ろ目先端咥え・割れ目擦る・中接近",
         "file": "EV023_05"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F003A",
+        "file": "voice/BGV_tuba_f003a.ogg"
       }
     },
     {
@@ -1075,6 +1299,10 @@
       "bg": {
         "label": "#EV023・虚ろ目先端咥え・割れ目擦る・中接近",
         "file": "EV023_05"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F003A",
+        "file": "voice/BGV_tuba_f003a.ogg"
       }
     },
     {
@@ -1087,6 +1315,10 @@
       "bg": {
         "label": "#EV023・虚ろ目先端咥え・割れ目擦る・中接近",
         "file": "EV023_05"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F003A",
+        "file": "voice/BGV_tuba_f003a.ogg"
       }
     },
     {
@@ -1102,6 +1334,10 @@
       "bg": {
         "label": "#EV023・虚ろ目先端咥え・割れ目擦る・中接近",
         "file": "EV023_05"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F003A",
+        "file": "voice/BGV_tuba_f003a.ogg"
       }
     },
     {
@@ -1113,6 +1349,10 @@
       "bg": {
         "label": "#EV023・虚ろ目先端咥え・割れ目擦る・中接近",
         "file": "EV023_05"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F003A",
+        "file": "voice/BGV_tuba_f003a.ogg"
       }
     },
     {
@@ -1124,6 +1364,10 @@
       "bg": {
         "label": "#EV023・虚ろ目先端咥え・割れ目擦る・中接近",
         "file": "EV023_05"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F003A",
+        "file": "voice/BGV_tuba_f003a.ogg"
       }
     },
     {
@@ -1139,6 +1383,10 @@
       "bg": {
         "label": "#EV023・虚ろ目先端咥え・割れ目擦る・中接近",
         "file": "EV023_05"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F003A",
+        "file": "voice/BGV_tuba_f003a.ogg"
       }
     },
     {
@@ -1151,6 +1399,10 @@
       "bg": {
         "label": "#EV023・虚ろ目先端咥え・割れ目擦る・中接近",
         "file": "EV023_05"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F003A",
+        "file": "voice/BGV_tuba_f003a.ogg"
       }
     },
     {
@@ -1162,6 +1414,10 @@
       "bg": {
         "label": "#EV023・虚ろ目先端咥え・割れ目擦る・中接近",
         "file": "EV023_05"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F003A",
+        "file": "voice/BGV_tuba_f003a.ogg"
       }
     },
     {
@@ -1177,6 +1433,10 @@
       "bg": {
         "label": "#EV023・虚ろ目先端咥え・割れ目擦る・中接近",
         "file": "EV023_05"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F003A",
+        "file": "voice/BGV_tuba_f003a.ogg"
       }
     },
     {
@@ -1188,6 +1448,10 @@
       "bg": {
         "label": "#EV023・虚ろ目先端咥え・割れ目擦る・中接近",
         "file": "EV023_05"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F003A",
+        "file": "voice/BGV_tuba_f003a.ogg"
       }
     },
     {
@@ -1203,6 +1467,10 @@
       "bg": {
         "label": "#EV023・虚ろ目舐め転がし・割れ目擦る・中接近・愛液",
         "file": "EV023_06"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F003A",
+        "file": "voice/BGV_tuba_f003a.ogg"
       }
     },
     {
@@ -1214,6 +1482,10 @@
       "bg": {
         "label": "#EV023・虚ろ目舐め転がし・割れ目擦る・中接近・愛液",
         "file": "EV023_06"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F003A",
+        "file": "voice/BGV_tuba_f003a.ogg"
       }
     },
     {
@@ -1230,6 +1502,10 @@
       "bg": {
         "label": "#EV023・虚ろ目舐め転がし・割れ目擦る・中接近・愛液",
         "file": "EV023_06"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F003A",
+        "file": "voice/BGV_tuba_f003a.ogg"
       }
     },
     {
@@ -1242,6 +1518,10 @@
       "bg": {
         "label": "#EV023・虚ろ目舐め転がし・割れ目擦る・中接近・愛液",
         "file": "EV023_06"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F003A",
+        "file": "voice/BGV_tuba_f003a.ogg"
       }
     },
     {
@@ -1257,6 +1537,10 @@
       "bg": {
         "label": "#EV023・虚ろ目舐め転がし・割れ目擦る・中接近・愛液",
         "file": "EV023_06"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F003A",
+        "file": "voice/BGV_tuba_f003a.ogg"
       }
     },
     {
@@ -1269,6 +1553,10 @@
       "bg": {
         "label": "#EV023・虚ろ目舐め転がし・割れ目擦る・中接近・愛液",
         "file": "EV023_06"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F003A",
+        "file": "voice/BGV_tuba_f003a.ogg"
       }
     },
     {
@@ -1284,6 +1572,10 @@
       "bg": {
         "label": "#EV023・虚ろ目舐め転がし・割れ目擦る・中接近・愛液",
         "file": "EV023_06"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F003A",
+        "file": "voice/BGV_tuba_f003a.ogg"
       }
     },
     {
@@ -1295,6 +1587,10 @@
       "bg": {
         "label": "#EV023・虚ろ目舐め転がし・割れ目擦る・中接近・愛液",
         "file": "EV023_06"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F003A",
+        "file": "voice/BGV_tuba_f003a.ogg"
       }
     },
     {
@@ -1311,6 +1607,10 @@
       "bg": {
         "label": "#EV023・虚ろ目舐め転がし・割れ目擦る・中接近・愛液",
         "file": "EV023_06"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F003A",
+        "file": "voice/BGV_tuba_f003a.ogg"
       }
     },
     {
@@ -1329,7 +1629,11 @@
           "code": "8131B",
           "file": "se/8131b.ogg"
         }
-      ]
+      ],
+      "bgv": {
+        "id": "BGV_TUBA_F003A",
+        "file": "voice/BGV_tuba_f003a.ogg"
+      }
     },
     {
       "kind": "line",
@@ -1345,6 +1649,10 @@
       "bg": {
         "label": "#EV023・虚ろ目舐め転がし・割れ目擦る・中接近・愛液",
         "file": "EV023_06"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F003A",
+        "file": "voice/BGV_tuba_f003a.ogg"
       }
     },
     {
@@ -1356,6 +1664,10 @@
       "bg": {
         "label": "#EV023・虚ろ目舐め転がし・割れ目擦る・中接近・愛液",
         "file": "EV023_06"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F003A",
+        "file": "voice/BGV_tuba_f003a.ogg"
       }
     },
     {
@@ -1372,6 +1684,10 @@
       "bg": {
         "label": "#EV023・虚ろ目舐め転がし・割れ目擦る・中接近・愛液",
         "file": "EV023_06"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F003A",
+        "file": "voice/BGV_tuba_f003a.ogg"
       }
     },
     {
@@ -1385,6 +1701,10 @@
       "bg": {
         "label": "#EV023・虚ろ目舐め転がし・割れ目擦る・中接近・愛液",
         "file": "EV023_06"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F003A",
+        "file": "voice/BGV_tuba_f003a.ogg"
       }
     },
     {
@@ -1401,6 +1721,10 @@
       "bg": {
         "label": "#EV023・虚ろ目舐め転がし・割れ目擦る・中接近・愛液",
         "file": "EV023_06"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F003A",
+        "file": "voice/BGV_tuba_f003a.ogg"
       }
     },
     {
@@ -1413,6 +1737,10 @@
       "bg": {
         "label": "#EV023・虚ろ目舐め転がし・割れ目擦る・中接近・愛液",
         "file": "EV023_06"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F003A",
+        "file": "voice/BGV_tuba_f003a.ogg"
       }
     },
     {
@@ -1428,6 +1756,10 @@
       "bg": {
         "label": "#EV023・虚ろ目見開き舌少し出て・割れ目擦る・前方に・愛液",
         "file": "EV023_07"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F003A",
+        "file": "voice/BGV_tuba_f003a.ogg"
       }
     },
     {
@@ -1439,6 +1771,10 @@
       "bg": {
         "label": "#EV023・虚ろ目見開き舌少し出て・割れ目擦る・前方に・愛液",
         "file": "EV023_07"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F003A",
+        "file": "voice/BGV_tuba_f003a.ogg"
       }
     },
     {
@@ -1454,6 +1790,10 @@
       "bg": {
         "label": "#EV023・虚ろ目見開き舌少し出て・割れ目擦る・前方に・愛液",
         "file": "EV023_07"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F003A",
+        "file": "voice/BGV_tuba_f003a.ogg"
       }
     },
     {
@@ -1465,6 +1805,10 @@
       "bg": {
         "label": "#EV023・虚ろ目見開き舌少し出て・割れ目擦る・前方に・愛液",
         "file": "EV023_07"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F003A",
+        "file": "voice/BGV_tuba_f003a.ogg"
       }
     },
     {
@@ -1480,6 +1824,10 @@
       "bg": {
         "label": "#EV023・虚ろ目見開き舌少し出て・割れ目擦る・前方に・愛液",
         "file": "EV023_07"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F003A",
+        "file": "voice/BGV_tuba_f003a.ogg"
       }
     },
     {
@@ -1491,6 +1839,10 @@
       "bg": {
         "label": "#EV023・虚ろ目見開き舌少し出て・割れ目擦る・前方に・愛液",
         "file": "EV023_07"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F003A",
+        "file": "voice/BGV_tuba_f003a.ogg"
       }
     },
     {
@@ -1507,6 +1859,10 @@
       "bg": {
         "label": "#EV023・虚ろ目見開き舌少し出て・割れ目擦る・前方に・愛液",
         "file": "EV023_07"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F003A",
+        "file": "voice/BGV_tuba_f003a.ogg"
       }
     },
     {
@@ -1518,6 +1874,10 @@
       "bg": {
         "label": "#EV023・虚ろ目見開き舌少し出て・割れ目擦る・前方に・愛液",
         "file": "EV023_07"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F003A",
+        "file": "voice/BGV_tuba_f003a.ogg"
       }
     },
     {
@@ -1533,6 +1893,10 @@
       "bg": {
         "label": "#EV023・虚ろ目見開き舌少し出て・割れ目擦る・前方に・愛液",
         "file": "EV023_07"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F003A",
+        "file": "voice/BGV_tuba_f003a.ogg"
       }
     },
     {
@@ -1544,6 +1908,10 @@
       "bg": {
         "label": "#EV023・虚ろ目見開き舌少し出て・割れ目擦る・前方に・愛液",
         "file": "EV023_07"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F003A",
+        "file": "voice/BGV_tuba_f003a.ogg"
       }
     },
     {
@@ -1559,6 +1927,10 @@
       "bg": {
         "label": "#EV023・虚ろ目見開き舌少し出て・割れ目擦る・前方に・愛液",
         "file": "EV023_07"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F003A",
+        "file": "voice/BGV_tuba_f003a.ogg"
       }
     },
     {
@@ -1571,6 +1943,10 @@
       "bg": {
         "label": "#EV023・虚ろ目見開き舌少し出て・割れ目擦る・前方に・愛液",
         "file": "EV023_07"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F003A",
+        "file": "voice/BGV_tuba_f003a.ogg"
       }
     },
     {
@@ -1583,6 +1959,10 @@
       "bg": {
         "label": "#EV023・虚ろ目見開き舌少し出て・割れ目擦る・前方に・愛液",
         "file": "EV023_07"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F003A",
+        "file": "voice/BGV_tuba_f003a.ogg"
       }
     },
     {
@@ -1604,7 +1984,11 @@
           "code": "8131C",
           "file": "se/8131c.ogg"
         }
-      ]
+      ],
+      "bgv": {
+        "id": "BGV_TUBA_F003A",
+        "file": "voice/BGV_tuba_f003a.ogg"
+      }
     },
     {
       "kind": "narration",
@@ -1617,6 +2001,10 @@
       "bg": {
         "label": "#EV023・虚ろ目見開き舌少し出て・クリ摘み・前方に・愛液",
         "file": "EV023_08"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F003A",
+        "file": "voice/BGV_tuba_f003a.ogg"
       }
     },
     {
@@ -1632,6 +2020,10 @@
       "bg": {
         "label": "#EV023・虚ろ目見開き舌少し出て・クリ摘み・前方に・愛液",
         "file": "EV023_08"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F003A",
+        "file": "voice/BGV_tuba_f003a.ogg"
       }
     },
     {
@@ -1643,6 +2035,10 @@
       "bg": {
         "label": "#EV023・虚ろ目見開き舌少し出て・クリ摘み・前方に・愛液",
         "file": "EV023_08"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F003A",
+        "file": "voice/BGV_tuba_f003a.ogg"
       }
     },
     {
@@ -1658,6 +2054,10 @@
       "bg": {
         "label": "#EV023・虚ろ目見開き舌少し出て・クリ摘み・前方に・愛液",
         "file": "EV023_08"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F003A",
+        "file": "voice/BGV_tuba_f003a.ogg"
       }
     },
     {
@@ -1671,6 +2071,10 @@
       "bg": {
         "label": "#EV023・虚ろ目見開き舌少し出て・クリ摘み・前方に・愛液",
         "file": "EV023_08"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F003A",
+        "file": "voice/BGV_tuba_f003a.ogg"
       }
     },
     {
@@ -1686,6 +2090,10 @@
       "bg": {
         "label": "#EV023・虚ろ目見開き舌少し出て・クリ摘み・前方に・愛液",
         "file": "EV023_08"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F003A",
+        "file": "voice/BGV_tuba_f003a.ogg"
       }
     },
     {
@@ -1699,6 +2107,10 @@
       "bg": {
         "label": "#EV023・虚ろ目見開き舌少し出て・クリ摘み・前方に・愛液",
         "file": "EV023_08"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F003A",
+        "file": "voice/BGV_tuba_f003a.ogg"
       }
     },
     {
@@ -1715,6 +2127,10 @@
       "bg": {
         "label": "#EV023・虚ろ目見開き舌少し出て・クリ摘み・前方に・愛液",
         "file": "EV023_08"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F003A",
+        "file": "voice/BGV_tuba_f003a.ogg"
       }
     },
     {
@@ -1726,6 +2142,10 @@
       "bg": {
         "label": "#EV023・虚ろ目見開き舌少し出て・クリ摘み・前方に・愛液",
         "file": "EV023_08"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F003A",
+        "file": "voice/BGV_tuba_f003a.ogg"
       }
     },
     {
@@ -1741,6 +2161,10 @@
       "bg": {
         "label": "#EV023・虚ろ目見開き舌少し出て・クリ摘み・前方に・愛液",
         "file": "EV023_08"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F003A",
+        "file": "voice/BGV_tuba_f003a.ogg"
       }
     },
     {
@@ -1753,6 +2177,10 @@
       "bg": {
         "label": "#EV023・虚ろ目見開き舌少し出て・クリ摘み・前方に・愛液",
         "file": "EV023_08"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F003A",
+        "file": "voice/BGV_tuba_f003a.ogg"
       }
     },
     {
@@ -1768,6 +2196,10 @@
       "bg": {
         "label": "#EV023・虚ろ目見開き舌少し出て・クリ摘み・前方に・愛液",
         "file": "EV023_08"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F003A",
+        "file": "voice/BGV_tuba_f003a.ogg"
       }
     },
     {
@@ -1779,6 +2211,10 @@
       "bg": {
         "label": "#EV023・虚ろ目見開き舌少し出て・クリ摘み・前方に・愛液",
         "file": "EV023_08"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F003A",
+        "file": "voice/BGV_tuba_f003a.ogg"
       }
     },
     {
@@ -1795,6 +2231,10 @@
       "bg": {
         "label": "#EV023・虚ろ目見開き舌少し出て・クリ摘み・前方に・愛液",
         "file": "EV023_08"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F003A",
+        "file": "voice/BGV_tuba_f003a.ogg"
       }
     },
     {
@@ -1809,6 +2249,10 @@
       "bg": {
         "label": "#EV023・虚ろ目見開き舌少し出て・クリ摘み・前方に・愛液",
         "file": "EV023_08"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F003A",
+        "file": "voice/BGV_tuba_f003a.ogg"
       }
     },
     {
@@ -1824,6 +2268,10 @@
       "bg": {
         "label": "#EV023・虚ろ目見開き舌少し出て・クリ摘み・前方に・愛液",
         "file": "EV023_08"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F003A",
+        "file": "voice/BGV_tuba_f003a.ogg"
       }
     },
     {
@@ -1835,6 +2283,10 @@
       "bg": {
         "label": "#EV023・虚ろ目見開き舌少し出て・クリ摘み・前方に・愛液",
         "file": "EV023_08"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F003A",
+        "file": "voice/BGV_tuba_f003a.ogg"
       }
     },
     {
@@ -1851,6 +2303,10 @@
       "bg": {
         "label": "#EV023・虚ろ目見開き舌少し出て・クリ摘み・前方に・愛液",
         "file": "EV023_08"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F003A",
+        "file": "voice/BGV_tuba_f003a.ogg"
       }
     },
     {
@@ -1863,6 +2319,10 @@
       "bg": {
         "label": "#EV023・虚ろ目見開き舌少し出て・クリ摘み・前方に・愛液",
         "file": "EV023_08"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F003A",
+        "file": "voice/BGV_tuba_f003a.ogg"
       }
     },
     {
@@ -1879,6 +2339,10 @@
       "bg": {
         "label": "#EV023・虚ろ目見開き舌少し出て・クリ摘み・前方に・愛液",
         "file": "EV023_08"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F003A",
+        "file": "voice/BGV_tuba_f003a.ogg"
       }
     },
     {
@@ -1891,6 +2355,10 @@
       "bg": {
         "label": "#EV023・虚ろ目見開き舌少し出て・クリ摘み・前方に・愛液",
         "file": "EV023_08"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F003A",
+        "file": "voice/BGV_tuba_f003a.ogg"
       }
     },
     {
@@ -1906,6 +2374,10 @@
       "bg": {
         "label": "#EV023・虚ろ目見開き舌少し出て・クリ摘み・前方に・愛液",
         "file": "EV023_08"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F003A",
+        "file": "voice/BGV_tuba_f003a.ogg"
       }
     },
     {
@@ -1919,6 +2391,10 @@
       "bg": {
         "label": "#EV023・虚ろ目見開き舌少し出て・クリ摘み・前方に・愛液",
         "file": "EV023_08"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F003A",
+        "file": "voice/BGV_tuba_f003a.ogg"
       }
     },
     {
@@ -1930,6 +2406,10 @@
       "bg": {
         "label": "#EV023・虚ろ目見開き舌少し出て・クリ摘み・前方に・愛液",
         "file": "EV023_08"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F003A",
+        "file": "voice/BGV_tuba_f003a.ogg"
       }
     },
     {
@@ -1940,6 +2420,10 @@
       "bg": {
         "label": "#EV023・虚ろ目見開き舌少し出て・クリ摘み・前方に・愛液",
         "file": "EV023_08"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F003A",
+        "file": "voice/BGV_tuba_f003a.ogg"
       }
     },
     {
@@ -1955,6 +2439,10 @@
       "bg": {
         "label": "#EV023・虚ろ目見開き舌少し出て・クリ摘み・前方に・愛液",
         "file": "EV023_08"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F003A",
+        "file": "voice/BGV_tuba_f003a.ogg"
       }
     },
     {
@@ -1966,6 +2454,10 @@
       "bg": {
         "label": "#EV023・虚ろ目見開きひょっとこ・クリ摘み・前方に・愛液",
         "file": "EV023_09"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F003A",
+        "file": "voice/BGV_tuba_f003a.ogg"
       }
     },
     {
@@ -1982,6 +2474,10 @@
       "bg": {
         "label": "#EV023・虚ろ目見開きひょっとこ・クリ摘み・前方に・愛液",
         "file": "EV023_09"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F003A",
+        "file": "voice/BGV_tuba_f003a.ogg"
       }
     },
     {
@@ -1994,6 +2490,10 @@
       "bg": {
         "label": "#EV023・虚ろ目見開きひょっとこ・クリ摘み・前方に・愛液",
         "file": "EV023_09"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F003A",
+        "file": "voice/BGV_tuba_f003a.ogg"
       }
     },
     {
@@ -2009,6 +2509,10 @@
       "bg": {
         "label": "#EV023・虚ろ目見開きひょっとこ・クリ摘み・前方に・愛液",
         "file": "EV023_09"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F003A",
+        "file": "voice/BGV_tuba_f003a.ogg"
       }
     },
     {
@@ -2020,6 +2524,10 @@
       "bg": {
         "label": "#EV023・虚ろ目見開きひょっとこ・クリ摘み・前方に・愛液",
         "file": "EV023_09"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F003A",
+        "file": "voice/BGV_tuba_f003a.ogg"
       }
     },
     {
@@ -2042,7 +2550,11 @@
           "code": "8351A",
           "file": "se/8351a.ogg"
         }
-      ]
+      ],
+      "bgv": {
+        "id": "BGV_TUBA_F003A",
+        "file": "voice/BGV_tuba_f003a.ogg"
+      }
     },
     {
       "kind": "narration",
@@ -2053,6 +2565,10 @@
       "bg": {
         "label": "#EV023・虚ろ目見開きひょっとこ・クリ摘み・前方に・愛液2",
         "file": "EV023_10"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F003A",
+        "file": "voice/BGV_tuba_f003a.ogg"
       }
     },
     {
@@ -2068,6 +2584,10 @@
       "bg": {
         "label": "#EV023・虚ろ目見開きひょっとこ・クリ摘み・前方に・愛液2",
         "file": "EV023_10"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F003A",
+        "file": "voice/BGV_tuba_f003a.ogg"
       }
     },
     {
@@ -2085,7 +2605,11 @@
           "code": "8201B",
           "file": "se/8201b.ogg"
         }
-      ]
+      ],
+      "bgv": {
+        "id": "BGV_TUBA_F003A",
+        "file": "voice/BGV_tuba_f003a.ogg"
+      }
     },
     {
       "kind": "narration",
@@ -2096,6 +2620,10 @@
       "bg": {
         "label": "#EV023・虚ろ目見開きひょっとこ・クリ摘み・前方に・愛液2・精液",
         "file": "EV023_11"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F003A",
+        "file": "voice/BGV_tuba_f003a.ogg"
       }
     },
     {
@@ -2111,6 +2639,10 @@
       "bg": {
         "label": "#EV023・虚ろ目見開きひょっとこ・クリ摘み・前方に・愛液2・精液",
         "file": "EV023_11"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F003A",
+        "file": "voice/BGV_tuba_f003a.ogg"
       }
     },
     {
@@ -2123,6 +2655,10 @@
       "bg": {
         "label": "#EV023・虚ろ目見開きひょっとこ・クリ摘み・前方に・愛液2・精液",
         "file": "EV023_11"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F003A",
+        "file": "voice/BGV_tuba_f003a.ogg"
       }
     },
     {
@@ -2139,6 +2675,10 @@
       "bg": {
         "label": "#EV023・虚ろ目見開きひょっとこ・クリ摘み・前方に・愛液2・精液",
         "file": "EV023_11"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F003A",
+        "file": "voice/BGV_tuba_f003a.ogg"
       }
     },
     {
@@ -2151,6 +2691,10 @@
       "bg": {
         "label": "#EV023・虚ろ目見開きひょっとこ・クリ摘み・前方に・愛液2・精液",
         "file": "EV023_11"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F003A",
+        "file": "voice/BGV_tuba_f003a.ogg"
       }
     },
     {
@@ -2166,6 +2710,10 @@
       "bg": {
         "label": "#EV023・虚ろ目見開きひょっとこ・クリ摘み・前方に・愛液2・精液",
         "file": "EV023_11"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F003A",
+        "file": "voice/BGV_tuba_f003a.ogg"
       }
     },
     {
@@ -2177,6 +2725,10 @@
       "bg": {
         "label": "#EV023・虚ろ目見開きひょっとこ・クリ摘み・前方に・愛液2・精液",
         "file": "EV023_11"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F003A",
+        "file": "voice/BGV_tuba_f003a.ogg"
       }
     },
     {
@@ -2193,6 +2745,10 @@
       "bg": {
         "label": "#EV023・虚ろ目見開きひょっとこ・クリ摘み・前方に・愛液2・精液",
         "file": "EV023_11"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F003A",
+        "file": "voice/BGV_tuba_f003a.ogg"
       }
     },
     {
@@ -2205,6 +2761,10 @@
       "bg": {
         "label": "#EV023・虚ろ目見開きひょっとこ・クリ摘み・前方に・愛液2・精液",
         "file": "EV023_11"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F003A",
+        "file": "voice/BGV_tuba_f003a.ogg"
       }
     },
     {
@@ -2221,6 +2781,10 @@
       "bg": {
         "label": "#EV023・虚ろ目見開きひょっとこ・クリ摘み・前方に・愛液2・精液",
         "file": "EV023_11"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F003A",
+        "file": "voice/BGV_tuba_f003a.ogg"
       }
     },
     {
@@ -2233,6 +2797,10 @@
       "bg": {
         "label": "#EV023・虚ろ目見開きひょっとこ・クリ摘み・前方に・愛液2・精液",
         "file": "EV023_11"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F003A",
+        "file": "voice/BGV_tuba_f003a.ogg"
       }
     },
     {
@@ -2248,6 +2816,10 @@
       "bg": {
         "label": "#EV023・虚ろ目舌出し舐め2・クリ摘み・離れ気味・愛液2・精液",
         "file": "EV023_12"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F003A",
+        "file": "voice/BGV_tuba_f003a.ogg"
       }
     },
     {
@@ -2260,6 +2832,10 @@
       "bg": {
         "label": "#EV023・虚ろ目舌出し舐め2・クリ摘み・離れ気味・愛液2・精液",
         "file": "EV023_12"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F003A",
+        "file": "voice/BGV_tuba_f003a.ogg"
       }
     },
     {
@@ -2276,6 +2852,10 @@
       "bg": {
         "label": "#EV023・虚ろ目舌出し舐め2・クリ摘み・離れ気味・愛液2・精液",
         "file": "EV023_12"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F003A",
+        "file": "voice/BGV_tuba_f003a.ogg"
       }
     },
     {
@@ -2287,6 +2867,10 @@
       "bg": {
         "label": "#EV023・虚ろ目舌出し舐め2・クリ摘み・離れ気味・愛液2・精液",
         "file": "EV023_12"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F003A",
+        "file": "voice/BGV_tuba_f003a.ogg"
       }
     },
     {
@@ -2302,6 +2886,10 @@
       "bg": {
         "label": "#EV023・虚ろ目舌出し舐め2・クリ摘み・離れ気味・愛液2・精液",
         "file": "EV023_12"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F003A",
+        "file": "voice/BGV_tuba_f003a.ogg"
       }
     },
     {
@@ -2313,6 +2901,10 @@
       "bg": {
         "label": "#EV023・虚ろ目舌出し舐め2・クリ摘み・離れ気味・愛液2・精液",
         "file": "EV023_12"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F003A",
+        "file": "voice/BGV_tuba_f003a.ogg"
       }
     },
     {
@@ -2329,6 +2921,10 @@
       "bg": {
         "label": "#EV023・虚ろ目舌出し舐め2・クリ摘み・離れ気味・愛液2・精液",
         "file": "EV023_12"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F003A",
+        "file": "voice/BGV_tuba_f003a.ogg"
       }
     },
     {
@@ -2342,6 +2938,10 @@
       "bg": {
         "label": "#EV023・虚ろ目舌出し舐め2・クリ摘み・離れ気味・愛液2・精液",
         "file": "EV023_12"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F003A",
+        "file": "voice/BGV_tuba_f003a.ogg"
       }
     },
     {
@@ -2357,6 +2957,10 @@
       "bg": {
         "label": "#EV023・虚ろ目舌出し舐め2・クリ摘み・離れ気味・愛液2・精液",
         "file": "EV023_12"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F003A",
+        "file": "voice/BGV_tuba_f003a.ogg"
       }
     },
     {
@@ -2369,6 +2973,10 @@
       "bg": {
         "label": "#EV023・虚ろ目舌出し舐め2・クリ摘み・離れ気味・愛液2・精液",
         "file": "EV023_12"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F003A",
+        "file": "voice/BGV_tuba_f003a.ogg"
       }
     },
     {
@@ -2391,7 +2999,11 @@
           "code": "8361B",
           "file": "se/8361b.ogg"
         }
-      ]
+      ],
+      "bgv": {
+        "id": "BGV_TUBA_F003A",
+        "file": "voice/BGV_tuba_f003a.ogg"
+      }
     },
     {
       "kind": "narration",
@@ -2403,6 +3015,10 @@
       "bg": {
         "label": "#EV023・虚ろ目見開き舌出し舐め・クリ摘み・離れ気味・愛液2・精液",
         "file": "EV023_13"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F003A",
+        "file": "voice/BGV_tuba_f003a.ogg"
       }
     },
     {
@@ -2419,6 +3035,10 @@
       "bg": {
         "label": "#EV023・虚ろ目見開き舌出し舐め・クリ摘み・離れ気味・愛液2・精液",
         "file": "EV023_13"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F003A",
+        "file": "voice/BGV_tuba_f003a.ogg"
       }
     },
     {
@@ -2435,6 +3055,10 @@
       "bg": {
         "label": "#EV023・虚ろ目見開き舌出し舐め・クリ摘み・離れ気味・愛液2・精液",
         "file": "EV023_13"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F003A",
+        "file": "voice/BGV_tuba_f003a.ogg"
       }
     },
     {
@@ -2450,6 +3074,10 @@
       "bg": {
         "label": "#EV023・虚ろ目見開き舌出し舐め・クリ摘み・離れ気味・愛液2・精液",
         "file": "EV023_13"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F003A",
+        "file": "voice/BGV_tuba_f003a.ogg"
       }
     },
     {
@@ -2464,6 +3092,10 @@
       "bg": {
         "label": "#EV023・虚ろ目見開き舌出し舐め・クリ摘み・離れ気味・愛液2・精液",
         "file": "EV023_13"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F003A",
+        "file": "voice/BGV_tuba_f003a.ogg"
       }
     }
   ],

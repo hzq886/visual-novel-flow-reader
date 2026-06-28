@@ -74,6 +74,10 @@
       "bg": {
         "label": "#EV010・虚ろ目ぼんやり・キス",
         "file": "EV010_02"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -86,6 +90,10 @@
       "bg": {
         "label": "#EV010・虚ろ目ぼんやり・キス",
         "file": "EV010_02"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -101,6 +109,10 @@
       "bg": {
         "label": "#EV010・虚ろ目ぼんやり・キス",
         "file": "EV010_02"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -114,6 +126,10 @@
       "bg": {
         "label": "#EV010・虚ろ目ぼんやり・キス",
         "file": "EV010_02"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -129,6 +145,10 @@
       "bg": {
         "label": "#EV010・虚ろ目ぼんやり・キス",
         "file": "EV010_02"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -142,6 +162,10 @@
       "bg": {
         "label": "#EV010・虚ろ目ぼんやり・キス",
         "file": "EV010_02"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -157,6 +181,10 @@
       "bg": {
         "label": "#EV010・虚ろ目ぼんやり・キス",
         "file": "EV010_02"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -170,6 +198,10 @@
       "bg": {
         "label": "#EV010・虚ろ目ぼんやり・キス",
         "file": "EV010_02"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -186,6 +218,10 @@
       "bg": {
         "label": "#EV010・虚ろ目ぼんやり・キス",
         "file": "EV010_02"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -198,6 +234,10 @@
       "bg": {
         "label": "#EV010・虚ろ目ぼんやり・キス",
         "file": "EV010_02"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -214,6 +254,10 @@
       "bg": {
         "label": "#EV010・虚ろ目眉寄せ2・キス",
         "file": "EV010_03"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -225,6 +269,10 @@
       "bg": {
         "label": "#EV010・虚ろ目眉寄せ2・キス",
         "file": "EV010_03"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -240,6 +288,10 @@
       "bg": {
         "label": "#EV010・虚ろ目眉寄せ2・キス",
         "file": "EV010_03"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -252,6 +304,10 @@
       "bg": {
         "label": "#EV010・虚ろ目眉寄せ2・キス",
         "file": "EV010_03"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -263,6 +319,10 @@
       "bg": {
         "label": "#EV010・虚ろ目眉寄せ2・キス",
         "file": "EV010_03"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -278,6 +338,10 @@
       "bg": {
         "label": "#EV010・虚ろ目眉寄せ2・キス",
         "file": "EV010_03"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -290,6 +354,10 @@
       "bg": {
         "label": "#EV010・虚ろ目眉寄せ2・キス",
         "file": "EV010_03"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -301,6 +369,10 @@
       "bg": {
         "label": "#EV010・虚ろ目眉寄せ2・キス",
         "file": "EV010_03"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -316,6 +388,10 @@
       "bg": {
         "label": "#EV010・虚ろ目眉寄せ2・キス",
         "file": "EV010_03"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -329,6 +405,10 @@
       "bg": {
         "label": "#EV010・虚ろ目眉寄せ2・キス",
         "file": "EV010_03"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -345,6 +425,10 @@
       "bg": {
         "label": "#EV010・虚ろ目眉寄せ2・キス",
         "file": "EV010_03"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -357,6 +441,10 @@
       "bg": {
         "label": "#EV010・虚ろ目眉寄せ2・キス",
         "file": "EV010_03"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -372,6 +460,10 @@
       "bg": {
         "label": "#EV010・虚ろ目眉寄せ2・キス",
         "file": "EV010_03"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -383,6 +475,10 @@
       "bg": {
         "label": "#EV010・虚ろ目眉寄せ2・キス",
         "file": "EV010_03"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -399,6 +495,10 @@
       "bg": {
         "label": "#EV010・虚ろ目眉寄せ2・キス",
         "file": "EV010_03"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -411,6 +511,10 @@
       "bg": {
         "label": "#EV010・虚ろ目眉寄せ2・キス",
         "file": "EV010_03"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -426,6 +530,10 @@
       "bg": {
         "label": "#EV010・虚ろ目眉寄せ2・キス",
         "file": "EV010_03"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -439,6 +547,10 @@
       "bg": {
         "label": "#EV010・虚ろ目眉寄せ2・キス",
         "file": "EV010_03"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -455,6 +567,10 @@
       "bg": {
         "label": "#EV010・虚ろ目眉寄せ2・キス",
         "file": "EV010_03"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -467,6 +583,10 @@
       "bg": {
         "label": "#EV010・虚ろ目眉寄せ2・キス",
         "file": "EV010_03"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -482,6 +602,10 @@
       "bg": {
         "label": "#EV010・虚ろ目眉寄せ2・キス",
         "file": "EV010_03"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -493,6 +617,10 @@
       "bg": {
         "label": "#EV010・虚ろ目眉寄せ2・キス",
         "file": "EV010_03"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -509,6 +637,10 @@
       "bg": {
         "label": "#EV010・虚ろ目眉寄せ2・キス",
         "file": "EV010_03"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -521,6 +653,10 @@
       "bg": {
         "label": "#EV010・虚ろ目眉寄せ2・キス",
         "file": "EV010_03"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -536,6 +672,10 @@
       "bg": {
         "label": "#EV010・虚ろ目眉寄せ2・キス",
         "file": "EV010_03"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -547,6 +687,10 @@
       "bg": {
         "label": "#EV010・虚ろ目眉寄せ2・キス",
         "file": "EV010_03"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -563,6 +707,10 @@
       "bg": {
         "label": "#EV010・虚ろ目うっとり・キス",
         "file": "EV010_04"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -574,6 +722,10 @@
       "bg": {
         "label": "#EV010・虚ろ目うっとり・キス",
         "file": "EV010_04"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -613,6 +765,10 @@
       "bg": {
         "label": "#EV010・虚ろ目うっとり・キス",
         "file": "EV010_04"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     }
   ],

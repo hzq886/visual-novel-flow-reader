@@ -74,4 +74,30 @@ describe('AudioManager', () => {
     am.destroy()
     expect(unloadSpy).toHaveBeenCalledTimes(2)
   })
+
+  it('playBgv はループで再生し、別URLで切替・同一URLは no-op（HU-37）', () => {
+    const am = new AudioManager()
+    const V1 = '/assets/voice/BGV_ayan_h001a.ogg'
+    const V2 = '/assets/voice/BGV_ayan_h002a.ogg'
+    am.playBgv(V1)
+    expect(ctorSpy).toHaveBeenCalledWith(expect.objectContaining({ src: [V1], loop: true }))
+    expect(playSpy).toHaveBeenCalledTimes(1)
+    am.playBgv(V1) // 同一 → no-op
+    expect(ctorSpy).toHaveBeenCalledTimes(1)
+    expect(playSpy).toHaveBeenCalledTimes(1)
+    am.playBgv(V2) // 切替 → 前を停止して新規
+    expect(stopSpy).toHaveBeenCalledTimes(1)
+    expect(playSpy).toHaveBeenCalledTimes(2)
+  })
+
+  it('releaseVoices で背景ボイスを停止する（シーン離脱）', () => {
+    const am = new AudioManager()
+    am.playBgv('/assets/voice/BGV_suzu_h001a.ogg')
+    am.releaseVoices()
+    expect(stopSpy).toHaveBeenCalled()
+    // 停止後は同一 URL でも再生され直す（bgvUrl がクリアされている）。
+    playSpy.mockClear()
+    am.playBgv('/assets/voice/BGV_suzu_h001a.ogg')
+    expect(playSpy).toHaveBeenCalledTimes(1)
+  })
 })
