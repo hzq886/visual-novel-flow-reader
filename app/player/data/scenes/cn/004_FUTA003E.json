@@ -32,7 +32,11 @@
       "who": "古桥凉菜",
       "lines": [
         "「嗯啊！？啊，哈啊……呼哈……」"
-      ]
+      ],
+      "bg": {
+        "label": "#背景・黒一色",
+        "file": "BG_BLACK"
+      }
     },
     {
       "kind": "narration",

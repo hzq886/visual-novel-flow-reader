@@ -36,9 +36,10 @@ describe('parseScene — cn ロケール（別タグ語彙の正規化）', () =
     expect(() => Scene.parse(s)).not.toThrow()
     expect(s.locale).toBe('cn')
     expect(s.title).toContain('绫菜') // 中国語タイトル（古桥绫菜\N去咖啡馆）
-    // note は日本語のまま → 背景/立ち絵ラベルが jp と一致する。
-    const withBg = s.beats.find((b) => b.bg)
-    expect(withBg?.bg?.label).toBe('#背景・喫茶店（夕）')
+    // note は日本語のまま → 背景/立ち絵ラベルが jp と一致する（冒頭 beat は [id] BG_BLACK＝
+    // #背景・黒一色 になるため、喫茶店の bg を持つ beat を明示的に探す）。
+    const cafeBg = s.beats.find((b) => b.bg?.label === '#背景・喫茶店（夕）')
+    expect(cafeBg).toBeDefined()
     // 台詞 beat の voice ID は jp と同一（音声は共用）。
     const line = s.beats.find((b) => b.kind === 'line' && b.voice)
     expect(line && line.kind === 'line' ? line.voice?.id : null).toBe('AYAN_002_AYAN001A_001')

@@ -32,8 +32,15 @@ describe('parseScene — 002_AYAN001A (golden)', () => {
 
   it('beats 構造ゴールデン（narration / line・話者・voice・bg/sprite label）', () => {
     expect(skeleton).toEqual([
-      // 冒頭 narration（黒画面・注記前なので bg/sprite 無し）
-      { kind: 'narration', who: undefined, voice: undefined, bg: null, sprite: null, nLines: 4 },
+      // 冒頭 narration（[id] BG_BLACK = 黒一色背景。HU-35 で bg として反映。sprite はまだ無し）
+      {
+        kind: 'narration',
+        who: undefined,
+        voice: undefined,
+        bg: '#背景・黒一色',
+        sprite: null,
+        nLines: 4,
+      },
       // 綾菜（明示話者＋voice）
       {
         kind: 'line',
@@ -192,6 +199,38 @@ describe('parseScene — ナレーション途中の背景/立ち絵切替で be
       { kind: 'narration', bg: '#背景・部屋' },
       { kind: 'line', bg: '#EV001・通常' },
     ])
+  })
+})
+
+describe('parseScene — [id] BG_BLACK を黒一色背景として反映（HU-35）', () => {
+  it('冒頭の [id] BG_BLACK で先頭 narration の bg が #背景・黒一色 になる', () => {
+    const text = ['[id] BG_BLACK', '[text] 黒画面の地の文。'].join('\n')
+    const s = parseScene(text, { code: '999_TEST001A', locale: 'jp' })
+    expect(s.beats[0].bg).toEqual({ label: '#背景・黒一色', file: null })
+  })
+
+  it('ナレーション途中の [id] BG_BLACK は beat を分割して黒画面へ切替', () => {
+    // 004_FUTA005B 相当: CG 表示中 → 黒画面 → 回想 という流れ。
+    const text = [
+      '[note] #EV068・制服',
+      '[text] 制服の地の文。',
+      '[id] BG_BLACK',
+      '[text] 黒画面で回想に入る。',
+    ].join('\n')
+    const s = parseScene(text, { code: '004_FUTA005B', locale: 'jp' })
+    expect(s.beats.map((b) => ({ bg: b.bg?.label ?? null, n: b.lines.length }))).toEqual([
+      { bg: '#EV068・制服', n: 1 },
+      { bg: '#背景・黒一色', n: 1 },
+    ])
+  })
+
+  it('連続する BG_BLACK では分割しない（同一ラベル）', () => {
+    const text = ['[id] BG_BLACK', '[text] 地の文Ａ。', '[id] BG_BLACK', '[text] 地の文Ｂ。'].join(
+      '\n',
+    )
+    const s = parseScene(text, { code: '999_TEST001A', locale: 'jp' })
+    expect(s.beats).toHaveLength(1)
+    expect(s.beats[0].bg).toEqual({ label: '#背景・黒一色', file: null })
   })
 })
 

@@ -4,6 +4,10 @@ exports[`parseScene — 002_AYAN001A (golden) > 完全スナップショット 1
 {
   "beats": [
     {
+      "bg": {
+        "file": null,
+        "label": "#背景・黒一色",
+      },
       "kind": "narration",
       "lines": [
         "……帰宅する途中、僕は綾姉が働く喫茶店に",

@@ -90,7 +90,8 @@ describe('resolveScene — 002_AYAN001A 全 beat 解決（受入）', () => {
 
   it('sceneAssetRefs が参照素材コードを重複なく収集（fetch-assets 用）', () => {
     const refs = sceneAssetRefs(scene)
-    expect(refs.cg).toEqual(['BG20_02_00'])
+    // BG_BLACK = 冒頭 [id] BG_BLACK（HU-35）、BG20_02_00 = 喫茶店（夕）。
+    expect(refs.cg).toEqual(['BG_BLACK', 'BG20_02_00'])
     expect(refs.sprite.sort()).toEqual([
       'CH01B_01_02_003_02', // 私服０２（body・全 beat 共通）
       'CH01B_01_02_101_01', // 通常１
