@@ -25,6 +25,9 @@ export type SceneGraphEdge = {
   source: string
   target: string
   label?: string
+  variant: 'continue' | 'structural' // continue=arc 内連鎖 / structural=flow.json のノード間辺
+  branch: boolean // 選択肢ラベル付きの分岐辺か（Image #4 の意匠対象）
+  category?: Category // 分岐辺の着地先カテゴリ（配色用）
 }
 
 export type SceneGraph = { nodes: SceneGraphNode[]; edges: SceneGraphEdge[] }
@@ -76,7 +79,13 @@ export function buildSceneGraph(flow: Flow, index: SceneIndex, locale: Locale): 
         })
         if (i > 0) {
           const prev = n.scenes[i - 1]
-          edges.push({ id: `c-${prev}-${code}`, source: prev, target: code })
+          edges.push({
+            id: `c-${prev}-${code}`,
+            source: prev,
+            target: code,
+            variant: 'continue',
+            branch: false,
+          })
         }
       })
       if (n.scenes.length) {
@@ -97,8 +106,16 @@ export function buildSceneGraph(flow: Flow, index: SceneIndex, locale: Locale): 
     }
   }
 
+  // 選択肢→分岐先の locale 別ラベル（HU-21 の FlowChoice.options）。key = "<choiceNodeId>-><targetNodeId>"。
+  const choiceLabel = new Map<string, { jp: string; cn: string | null }>()
+  for (const n of flow.nodes)
+    for (const c of n.choices ?? [])
+      for (const o of c.options)
+        if (o.target) choiceLabel.set(`${n.id}->${o.target}`, { jp: o.jp, cn: o.cn })
+
   // 構造エッジ: arc は末尾/先頭シーンへ張り替え、hub/end/omake は自身、start 端点は落とす。
   const nodeIds = new Set(nodes.map((nn) => nn.id))
+  const catById = new Map(nodes.map((nn) => [nn.id, nn.category]))
   const srcOf = (id: string) => lastScene.get(id) ?? id
   const tgtOf = (id: string) => firstScene.get(id) ?? id
   flow.edges.forEach((e, i) => {
@@ -106,11 +123,17 @@ export function buildSceneGraph(flow: Flow, index: SceneIndex, locale: Locale): 
     const source = srcOf(e.source)
     const target = tgtOf(e.target)
     if (source === target || !nodeIds.has(source) || !nodeIds.has(target)) return
+    // 選択肢分岐は locale 別文言を優先（cn 未抽出は jp）。それ以外は flow.json の label（jp）。
+    const opt = choiceLabel.get(`${e.source}->${e.target}`)
+    const label = opt ? (locale === 'cn' ? (opt.cn ?? opt.jp) : opt.jp) : e.label
     edges.push({
       id: `s${i}-${source}-${target}`,
       source,
       target,
-      ...(e.label ? { label: e.label } : {}),
+      ...(label ? { label } : {}),
+      variant: 'structural',
+      branch: !!opt,
+      category: catById.get(target),
     })
   })
 

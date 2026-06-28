@@ -103,4 +103,22 @@ describe('buildSceneGraph — arc CFG → シーン単位グラフ', () => {
     expect(cn.edges.length).toBe(g.edges.length)
     expect(cn.nodes.find((n) => n.id === '002_AYAN001A')!.title).toBe('去咖啡馆')
   })
+
+  it('分岐辺は branch=true＋着地先カテゴリ／連鎖辺は continue で無印（要件③）', () => {
+    const branchEdge = g.edges.find(
+      (e) => e.source === '006_TUBA001B' && e.target === '006_TUBA001C',
+    )!
+    expect(branchEdge.branch).toBe(true)
+    expect(branchEdge.variant).toBe('structural')
+    expect(branchEdge.category).toBe('tuba') // 006_TUBA001C は翼
+    const chain = g.edges.find((e) => e.variant === 'continue')!
+    expect(chain.branch).toBe(false)
+    expect(chain.label).toBeUndefined()
+  })
+
+  it('分岐辺ラベルが locale=cn で中国語に追従（受入）', () => {
+    const cn = buildSceneGraph(flow, index, 'cn')
+    const e = cn.edges.find((x) => x.source === '006_TUBA001B' && x.target === '006_TUBA001C')!
+    expect(e.label).toBe('沉溺于背德，继续下去') // jp「背徳に溺れて、このまま続ける」の cn
+  })
 })
