@@ -151,6 +151,13 @@ export function parseScene(text: string, opts: { code: string; locale: Locale })
       continue
     }
 
+    // [id] マーカー台帳（HU-40 仕分け）。取り込む = 下記の分岐。意図的に無視 = それ以外:
+    //  - `_VIEW` / `_START` と、その後に続く小文字 CG コード（例 002_ayan004B_01_02）
+    //    = CG ギャラリー登録・複合シーン開始のメタ。本編再生の表示には無関係（gallery 機能は別途）。
+    //  - `MIX01/02/03` = 画像トランジションのローカル印 → CgLayer の既定クロスフェードで表現済（HU-38）。
+    //  - `SE:` / `MUSIC:` / `GRA:` / `VOL_SET:` / `THM_SIZE:` / `TYPE:` 等のコロン命令 = 演出マクロ表
+    //    （`_MANPU`/`_DEF`/`EFFECT`）専用で、build-scenes は `/^[0-9]/` のシーンのみ parse するため
+    //    そもそも本関数には到達しない（→ smain_flow_guide.md §3.11 台帳）。
     if (tag === 'id') {
       if (voiceRe.test(val)) pendingVoice = val
       // [id] BG_BLACK = 黒一色背景の表示制御（BG_BLACK.png は実アセット）。背景切替として
