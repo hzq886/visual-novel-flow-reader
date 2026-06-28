@@ -286,7 +286,8 @@
       "bg": {
         "label": "#EV005・眉寄せ目細め・戸惑い・ワシ掴み",
         "file": "EV005_01"
-      }
+      },
+      "flash": 1
     },
     {
       "kind": "line",
@@ -1910,7 +1911,8 @@
       "bgv": {
         "id": "BGV_SUZU_F003A",
         "file": "voice/BGV_suzu_f003a.ogg"
-      }
+      },
+      "flash": 2
     },
     {
       "kind": "line",
@@ -2271,7 +2273,8 @@
       "bgv": {
         "id": "BGV_SUZU_F003A",
         "file": "voice/BGV_suzu_f003a.ogg"
-      }
+      },
+      "flash": 3
     },
     {
       "kind": "narration",

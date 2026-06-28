@@ -14,6 +14,7 @@ import { fontFor, UI_FONT } from '@/theme'
 import { sceneAssetUrls } from './sceneLoader'
 import { CgLayer } from './layers/CgLayer'
 import { SpriteLayer } from './layers/SpriteLayer'
+import { FlashLayer } from './layers/FlashLayer'
 import { SubtitleLayer } from './layers/SubtitleLayer'
 import { TitleCardLayer } from './layers/TitleCardLayer'
 
@@ -61,9 +62,11 @@ export function Stage() {
         app.stage.addChild(root)
         const cg = new CgLayer(app.ticker)
         const sprite = new SpriteLayer(app.ticker)
+        const flash = new FlashLayer(app.ticker)
         const subtitle = new SubtitleLayer(app.ticker)
         const titleCard = new TitleCardLayer(app.ticker)
-        root.addChild(cg, sprite, subtitle, titleCard)
+        // フラッシュは cg/sprite の上・字幕の下（閃光中もセリフを読める）。
+        root.addChild(cg, sprite, flash, subtitle, titleCard)
         const audio = new AudioManager()
 
         const layout = () => {
@@ -125,6 +128,8 @@ export function Stage() {
           for (const s of beat.se ?? []) if (s.file) audio.playSe(assetUrl(s.file))
           // 背景ボイス（ループ）。sticky で各 beat に載るので、同一 URL は no-op・変化時に切替。
           if (beat.bgv?.file) audio.playBgv(assetUrl(beat.bgv.file))
+          // 画面フラッシュ（EFFECT:FLASHn）。インパクト beat で一瞬点灯（ワンショット）。
+          if (beat.flash) flash.flash(beat.flash)
         }
 
         // シーン切替時: 旧シーン専用のテクスチャ/ボイスを解放。クロスフェード完了後に、

@@ -2051,7 +2051,8 @@
       "bgv": {
         "id": "BGV_SUZU_H002A",
         "file": "voice/BGV_suzu_h002a.ogg"
-      }
+      },
+      "flash": 2
     },
     {
       "kind": "narration",
@@ -2065,7 +2066,8 @@
       "bgv": {
         "id": "BGV_SUZU_H002A",
         "file": "voice/BGV_suzu_h002a.ogg"
-      }
+      },
+      "flash": 3
     },
     {
       "kind": "line",

@@ -258,7 +258,8 @@
           238,
           128
         ]
-      }
+      },
+      "flash": 1
     },
     {
       "kind": "line",
@@ -2102,7 +2103,8 @@
       "bgv": {
         "id": "BGV_MAKO_F002A",
         "file": "voice/BGV_mako_f002a.ogg"
-      }
+      },
+      "flash": 3
     },
     {
       "kind": "line",

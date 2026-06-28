@@ -1376,7 +1376,8 @@
       "bgv": {
         "id": "BGV_SUZU_H002B",
         "file": "voice/BGV_suzu_h002b.ogg"
-      }
+      },
+      "flash": 2
     },
     {
       "kind": "line",

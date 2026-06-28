@@ -1345,7 +1345,8 @@
       "bgv": {
         "id": "BGV_MAKO_H003A",
         "file": "voice/BGV_mako_h003a.ogg"
-      }
+      },
+      "flash": 2
     },
     {
       "kind": "line",

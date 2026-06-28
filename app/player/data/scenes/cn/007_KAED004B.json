@@ -2636,7 +2636,8 @@
       "bgv": {
         "id": "BGV_KAED_H002A",
         "file": "voice/BGV_kaed_h002a.ogg"
-      }
+      },
+      "flash": 2
     },
     {
       "kind": "line",

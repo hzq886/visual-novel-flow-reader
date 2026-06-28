@@ -1423,7 +1423,8 @@
       "bgv": {
         "id": "BGV_TUBA_F001A",
         "file": "voice/BGV_tuba_f001a.ogg"
-      }
+      },
+      "flash": 3
     },
     {
       "kind": "narration",
@@ -1844,7 +1845,8 @@
       "bgv": {
         "id": "BGV_TUBA_F001A",
         "file": "voice/BGV_tuba_f001a.ogg"
-      }
+      },
+      "flash": 1
     },
     {
       "kind": "line",

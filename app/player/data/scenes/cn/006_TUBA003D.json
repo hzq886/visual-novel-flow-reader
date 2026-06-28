@@ -176,7 +176,8 @@
       "bg": {
         "label": "#EV024・微笑み・下着姿・割れ目弄り・愛液染み",
         "file": "EV024_05"
-      }
+      },
+      "flash": 1
     },
     {
       "kind": "line",
@@ -2429,7 +2430,8 @@
       "bgv": {
         "id": "BGV_TUBA_H002A",
         "file": "voice/BGV_tuba_h002a.ogg"
-      }
+      },
+      "flash": 2
     },
     {
       "kind": "narration",
@@ -2986,7 +2988,8 @@
       "bgv": {
         "id": "BGV_TUBA_H002A",
         "file": "voice/BGV_tuba_h002a.ogg"
-      }
+      },
+      "flash": 3
     },
     {
       "kind": "line",

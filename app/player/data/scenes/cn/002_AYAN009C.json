@@ -2320,7 +2320,8 @@
       "bgv": {
         "id": "BGV_AYAN_H001A",
         "file": "voice/BGV_ayan_h001a.ogg"
-      }
+      },
+      "flash": 2
     },
     {
       "kind": "line",
@@ -2749,7 +2750,8 @@
       "bgv": {
         "id": "BGV_AYAN_H001A",
         "file": "voice/BGV_ayan_h001a.ogg"
-      }
+      },
+      "flash": 3
     },
     {
       "kind": "line",
