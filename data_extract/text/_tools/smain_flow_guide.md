@@ -312,6 +312,7 @@ curated 割当**とする（`src/pipeline/audio.ts` の `BGM_BY_CHARACTER`、[AD
 | `_VIEW` ＋後続の小文字 CG コード | 本編 | **無視**＝CG ギャラリー登録メタ（再生表示には無関係。album 機能は将来課題） |
 | `_START` | 複合シーン | **無視**＝複合シーン（本文なし→スキップ）の開始印 |
 | `SE:` `MUSIC:` `GRA:` `VOL_SET:` `THM_SIZE:` `TYPE:` | 表のみ | **到達せず**＝`_MANPU`/`_DEF`/`EFFECT` 等の演出マクロ表専用（`GRA:BG_RED`＝めまい赤フラッシュ等）。本編シーンには出現しない |
+| `PARTS:` `PARTS2:` | `_SPRSET` のみ | **到達せず**＝立ち絵定義の追加パーツ層の区切り。本作は**値が常に空**（パーツ未定義）＝立ち絵は body+face で完結（HU-39。`parseSprset` が skip 済） |
 
 → 再生反映が必要な未処理マーカーは **無し**（HU-35〜38/41 で出尽くし）。`GRA:` overlay や CG ギャラリー
 （`_VIEW`）を将来 UI 機能として実装する場合は、それぞれ overlay 基盤（[FlashLayer] と共通）・album

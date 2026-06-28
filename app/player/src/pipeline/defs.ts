@@ -8,6 +8,10 @@
  *    [note] BODY:・私服０２,_003_02                       ← bodyLabel , suffix
  *    [note] FACE:・にっこり１,_102_01,342,84              ← faceLabel , suffix , x , y
  *    [id] PARTS: / [id] PARTS2:                           ← ブロック終端（無視）
+ *
+ * 立ち絵は **body + face の2層**で完結する。`PARTS:`/`PARTS2:` は _SPRSET 書式上の追加パーツ層の
+ * 区切りだが、本作は **値が常に空**（jp 318件すべて空・cn は出現なし）＝パーツを一切定義しない。
+ * 表情差分は FACE 層が担う。よって取り込むべき追加レイヤは無い（HU-39 で RE 確認・台帳化済）。
  *  _BGSET.txt … [note] ラベル → 直後の [id] コードの辞書。
  *    [note] #背景・喫茶店（夕）
  *    [id] BG20_02_00
