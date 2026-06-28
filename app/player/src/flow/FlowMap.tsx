@@ -8,6 +8,7 @@ import { useEffect, useMemo } from 'react'
 import {
   Background,
   Controls,
+  MarkerType,
   MiniMap,
   ReactFlow,
   useEdgesState,
@@ -24,7 +25,12 @@ import { CATEGORY_COLOR, type Category } from './category'
 import { Legend } from './Legend'
 import { SceneNode, type SceneNodeData } from './SceneNode'
 import { SCENE_SIZE, HUB_SIZE } from './nodeSize'
-import { buildSceneGraph, type SceneGraph, type SceneGraphNode } from './scenegraph'
+import {
+  buildSceneGraph,
+  type SceneGraph,
+  type SceneGraphEdge,
+  type SceneGraphNode,
+} from './scenegraph'
 import { layoutGraph } from './layout'
 
 const flow = Flow.parse(flowJson)
@@ -56,18 +62,35 @@ function rfNodes(graph: SceneGraph, liveCode: string | null): Node<SceneNodeData
   }))
 }
 
+// エッジ意匠（Image #4）: 分岐辺＝着地先カテゴリ色で太く・ラベル強調、構造リンク＝中間グレー、
+// arc 内連鎖＝淡いグレー。いずれも曲線（bezier）＋終点矢印で進行方向を示す。
+function edgeStroke(e: SceneGraphEdge): string {
+  if (e.branch) return CATEGORY_COLOR[e.category ?? 'branch'] ?? CATEGORY_COLOR.branch
+  if (e.variant === 'structural') return '#46536b'
+  return '#2b3340'
+}
+
 function rfEdges(graph: SceneGraph): Edge[] {
-  return graph.edges.map((e) => ({
-    id: e.id,
-    source: e.source,
-    target: e.target,
-    ...(e.label ? { label: e.label } : {}),
-    style: { stroke: '#3a4252', strokeWidth: 1.8 },
-    labelStyle: { fill: '#dfe6ef', fontSize: 11, fontWeight: 600 },
-    labelBgStyle: { fill: '#0e1117' },
-    labelBgPadding: [5, 3] as [number, number],
-    labelBgBorderRadius: 4,
-  }))
+  return graph.edges.map((e) => {
+    const stroke = edgeStroke(e)
+    return {
+      id: e.id,
+      source: e.source,
+      target: e.target,
+      ...(e.label ? { label: e.label } : {}),
+      style: { stroke, strokeWidth: e.branch ? 2.4 : e.variant === 'structural' ? 2 : 1.5 },
+      markerEnd: { type: MarkerType.ArrowClosed, color: stroke, width: 15, height: 15 },
+      labelStyle: {
+        fill: e.branch ? '#fdf3df' : '#cfd6e0',
+        fontSize: e.branch ? 12.5 : 11,
+        fontWeight: 700,
+      },
+      labelBgStyle: { fill: 'rgba(12,15,21,.72)', fillOpacity: 0.9 },
+      labelBgPadding: [6, 3] as [number, number],
+      labelBgBorderRadius: 6,
+      zIndex: e.branch ? 10 : 1,
+    }
+  })
 }
 
 export function FlowMap() {
