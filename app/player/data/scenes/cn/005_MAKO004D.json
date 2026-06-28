@@ -1638,7 +1638,8 @@
       "bgv": {
         "id": "BGV_MAKO_H001A",
         "file": "voice/BGV_mako_h001a.ogg"
-      }
+      },
+      "flash": 1
     },
     {
       "kind": "line",
@@ -3481,7 +3482,8 @@
       "bgv": {
         "id": "BGV_MAKO_H003A",
         "file": "voice/BGV_mako_h003a.ogg"
-      }
+      },
+      "flash": 3
     },
     {
       "kind": "line",

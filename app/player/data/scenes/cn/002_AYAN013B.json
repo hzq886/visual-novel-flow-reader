@@ -741,7 +741,8 @@
       "bgv": {
         "id": "BGV_AYAN_H002A",
         "file": "voice/BGV_ayan_h002a.ogg"
-      }
+      },
+      "flash": 2
     },
     {
       "kind": "line",
@@ -1508,7 +1509,8 @@
       "bgv": {
         "id": "BGV_AYAN_H003A",
         "file": "voice/BGV_ayan_h003a.ogg"
-      }
+      },
+      "flash": 3
     },
     {
       "kind": "line",

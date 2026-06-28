@@ -29,6 +29,7 @@ type Draft = {
   sprite?: SpriteRef
   se?: SeRef[]
   bgv?: { id: string; file: null }
+  flash?: number
 }
 
 function escapeRegExp(s: string): string {
@@ -65,6 +66,7 @@ export function parseScene(text: string, opts: { code: string; locale: Locale })
   let pendingSpeaker: string | null = null
   let pendingVoice: string | null = null
   let pendingSe: SeRef[] = [] // beat 生成前に現れた se は次 beat へ持ち越す
+  let pendingFlash: number | undefined // EFFECT:FLASHn は直後の beat（インパクト行）で光らせる
   let stickyBg: BgRef | undefined
   let stickySprite: SpriteRef | undefined
   let stickyBgv: { id: string; file: null } | undefined
@@ -78,21 +80,26 @@ export function parseScene(text: string, opts: { code: string; locale: Locale })
   }
   // beat 生成時のスナップショット: bg/sprite/bgv の sticky 値＋持ち越し中の se を取り込む
   // （se は使い切り）。bgv（背景ボイス）は bg/sprite 同様、次の BGV まで持続するループ音声。
-  const snapshot = (): {
+  type Snap = {
     bg?: BgRef
     sprite?: SpriteRef
     se?: SeRef[]
     bgv?: { id: string; file: null }
-  } => {
-    const snap: { bg?: BgRef; sprite?: SpriteRef; se?: SeRef[]; bgv?: { id: string; file: null } } =
-      {
-        ...(stickyBg ? { bg: stickyBg } : {}),
-        ...(stickySprite ? { sprite: stickySprite } : {}),
-        ...(stickyBgv ? { bgv: stickyBgv } : {}),
-      }
+    flash?: number
+  }
+  const snapshot = (): Snap => {
+    const snap: Snap = {
+      ...(stickyBg ? { bg: stickyBg } : {}),
+      ...(stickySprite ? { sprite: stickySprite } : {}),
+      ...(stickyBgv ? { bgv: stickyBgv } : {}),
+    }
     if (pendingSe.length) {
       snap.se = pendingSe
       pendingSe = []
+    }
+    if (pendingFlash !== undefined) {
+      snap.flash = pendingFlash
+      pendingFlash = undefined
     }
     return snap
   }
@@ -157,6 +164,10 @@ export function parseScene(text: string, opts: { code: string; locale: Locale })
       else if (/^ITEM_\d+_\d+$/.test(val)) setBg(val)
       // [id] BGV_<CHAR>_<...> = 背景ボイス（喘ぎ等のループ）。sticky に保持し次 BGV まで持続（HU-37）。
       else if (/^BGV_/.test(val)) setBgv(val)
+      // [id] EFFECT:FLASHn = 画面フラッシュ（n=1-3 の強度）。インパクト行（直後の beat）で光らせる
+      // ため次 beat へ持ち越す（HU-38）。MIX01/02/03（画像トランジション）は CgLayer の既定
+      // クロスフェードで表現済のため取り込まない。その他 EFFECT:（未使用の FLASH_RED 等）も無視。
+      else if (/^EFFECT:FLASH(\d)$/.test(val)) pendingFlash = Number(/(\d)$/.exec(val)![1])
       // 効果音コード（4桁+英字）。現 beat があればそこへ、無ければ次 beat へ持ち越す。
       else if (SE_RE.test(val)) {
         if (cur) (cur.se ??= []).push({ code: val, file: null })

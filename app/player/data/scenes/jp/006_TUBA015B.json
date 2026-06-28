@@ -2154,7 +2154,8 @@
       "bgv": {
         "id": "BGV_TUBA_H001A",
         "file": "voice/BGV_tuba_h001a.ogg"
-      }
+      },
+      "flash": 3
     },
     {
       "kind": "line",

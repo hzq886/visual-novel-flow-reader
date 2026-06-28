@@ -1650,7 +1650,8 @@
       "bgv": {
         "id": "BGV_AYAN_H002B",
         "file": "voice/BGV_ayan_h002b.ogg"
-      }
+      },
+      "flash": 2
     },
     {
       "kind": "line",

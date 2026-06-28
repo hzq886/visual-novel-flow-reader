@@ -2051,7 +2051,8 @@
       "bgv": {
         "id": "BGV_SAKI_H003B",
         "file": "voice/BGV_saki_h003b.ogg"
-      }
+      },
+      "flash": 3
     },
     {
       "kind": "line",
@@ -2128,7 +2129,8 @@
       "bgv": {
         "id": "BGV_SAKI_H003B",
         "file": "voice/BGV_saki_h003b.ogg"
-      }
+      },
+      "flash": 2
     },
     {
       "kind": "line",

@@ -1275,7 +1275,8 @@
       "bgv": {
         "id": "BGV_AYAN_F001B",
         "file": "voice/BGV_ayan_f001b.ogg"
-      }
+      },
+      "flash": 3
     },
     {
       "kind": "line",

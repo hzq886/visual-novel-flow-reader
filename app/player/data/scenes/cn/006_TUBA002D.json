@@ -30,7 +30,8 @@
       "bg": {
         "label": "#EV010・微笑み",
         "file": "EV010_13"
-      }
+      },
+      "flash": 1
     },
     {
       "kind": "line",

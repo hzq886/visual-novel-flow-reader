@@ -2203,7 +2203,8 @@
       "bgv": {
         "id": "BGV_TUBA_H002A",
         "file": "voice/BGV_tuba_h002a.ogg"
-      }
+      },
+      "flash": 2
     },
     {
       "kind": "line",
@@ -2259,7 +2260,8 @@
       "bgv": {
         "id": "BGV_TUBA_H002A",
         "file": "voice/BGV_tuba_h002a.ogg"
-      }
+      },
+      "flash": 3
     },
     {
       "kind": "line",

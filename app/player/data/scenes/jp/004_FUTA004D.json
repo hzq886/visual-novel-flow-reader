@@ -290,7 +290,8 @@
       "bgv": {
         "id": "BGV_AYAN_F002A",
         "file": "voice/BGV_ayan_f002a.ogg"
-      }
+      },
+      "flash": 3
     },
     {
       "kind": "line",

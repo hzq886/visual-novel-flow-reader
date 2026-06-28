@@ -487,7 +487,8 @@
           238,
           135
         ]
-      }
+      },
+      "flash": 1
     },
     {
       "kind": "narration",
@@ -2042,7 +2043,8 @@
       "bgv": {
         "id": "BGV_SAKI_H003A",
         "file": "voice/BGV_saki_h003a.ogg"
-      }
+      },
+      "flash": 2
     },
     {
       "kind": "line",
@@ -2471,7 +2473,8 @@
       "bgv": {
         "id": "BGV_SAKI_H003A",
         "file": "voice/BGV_saki_h003a.ogg"
-      }
+      },
+      "flash": 3
     },
     {
       "kind": "line",

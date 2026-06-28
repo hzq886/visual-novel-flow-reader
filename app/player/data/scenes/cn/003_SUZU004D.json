@@ -4087,7 +4087,8 @@
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
-      }
+      },
+      "flash": 3
     },
     {
       "kind": "line",

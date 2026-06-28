@@ -1756,7 +1756,8 @@
       "bgv": {
         "id": "BGV_TUBA_F002A",
         "file": "voice/BGV_tuba_f002a.ogg"
-      }
+      },
+      "flash": 2
     },
     {
       "kind": "line",
