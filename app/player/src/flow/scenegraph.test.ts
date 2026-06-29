@@ -55,12 +55,10 @@ describe('buildSceneGraph — arc CFG → シーン単位グラフ', () => {
     expect(end).toMatchObject({ kind: 'end', category: 'end' })
   })
 
-  it('シーンノードに通し番号 seq・短縮コード・概要が付く（hub/end は seq=null）', () => {
+  it('シーンノードはフルコード id と概要を持つ', () => {
     const first = g.nodes.find((n) => n.id === '001_PRO001A')!
-    expect(first.seq).toBe(1)
-    expect(first.shortCode).toBe('001A')
+    expect(first.id).toBe('001_PRO001A') // フル番号はノードの id
     expect(first.title).toBe('三人') // "幼少回想\\N三人" の概要
-    expect(g.nodes.find((n) => n.id === 'SMAIN_MIX01')!.seq).toBeNull()
   })
 
   it('arc 内は連鎖エッジ s_i→s_{i+1} で繋がる（受入: 001_PRO001A の連鎖）', () => {

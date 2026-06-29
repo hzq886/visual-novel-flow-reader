@@ -1,7 +1,8 @@
 /**
- * SceneNode — フロー図のシーンノード（添付 Image #3 の意匠）。
- * 左にカテゴリ色のアクセントバー、通し番号バッジ＋短縮シーンコード＋ひと言概要。
- * hub(分岐) / end(エンド) / omake は seq/コードを持たないコンパクト表示。
+ * SceneNode — フロー図のシーンノード。
+ * 左にカテゴリ色のアクセントバー、フルシーンコードのバッジ＋ひと言概要。
+ * フル番号はノードの id（例 "001_PRO001A"）をそのまま表示する。
+ * hub(分岐) / end(エンド) / omake はコードを持たないコンパクト表示。
  */
 import { Handle, Position, type NodeProps } from '@xyflow/react'
 import { CATEGORY_COLOR, type Category } from './category'
@@ -10,8 +11,6 @@ import { SCENE_SIZE, HUB_SIZE } from './nodeSize'
 export type SceneNodeData = {
   kind: 'scene' | 'branch' | 'end' | 'omake'
   category: Category
-  seq: number | null
-  shortCode: string
   title: string
   live: boolean
 }
@@ -23,7 +22,7 @@ const handleStyle = (color: string): React.CSSProperties => ({
   border: '2px solid #11141b',
 })
 
-export function SceneNode({ data }: NodeProps) {
+export function SceneNode({ id, data }: NodeProps) {
   const d = data as SceneNodeData
   const color = CATEGORY_COLOR[d.category] ?? CATEGORY_COLOR.common
   const isScene = d.kind === 'scene'
@@ -65,24 +64,7 @@ export function SceneNode({ data }: NodeProps) {
             flex: 1,
           }}
         >
-          {/* 通し番号バッジ */}
-          <span
-            style={{
-              flex: '0 0 auto',
-              width: 24,
-              height: 24,
-              borderRadius: '50%',
-              background: color,
-              color: '#11141b',
-              fontSize: 12,
-              fontWeight: 800,
-              display: 'grid',
-              placeItems: 'center',
-            }}
-          >
-            {d.seq}
-          </span>
-          {/* 短縮シーンコード */}
+          {/* フルシーンコード（ノードの id） */}
           <span
             style={{
               flex: '0 0 auto',
@@ -96,7 +78,7 @@ export function SceneNode({ data }: NodeProps) {
               letterSpacing: 0.3,
             }}
           >
-            {d.shortCode}
+            {id}
           </span>
           {/* ひと言概要 */}
           <span
