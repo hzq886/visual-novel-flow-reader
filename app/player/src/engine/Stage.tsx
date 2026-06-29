@@ -231,25 +231,47 @@ export function Stage() {
   const beatLines = curBeat?.kind === 'narration' ? curBeat.lines.length : 1
   const lineLabel = beatLines > 1 ? ` （行 ${line + 1}/${beatLines}）` : ''
 
+  // 原ゲーム解像度 1280×720（16:9）に描画領域を固定し、ウィンドウ内で最大の 16:9 ボックスを
+  // 中央寄せする（余白は背景の黒）。canvas を常にゲーム論理空間と同アスペクトに保つことで、
+  // CgLayer の Ken Burns ズーム等で論理下端(GAME_H)を超えた背景は canvas 端でクリップされ、
+  // GAME_H 下端固定の立ち絵が背景の上に浮かなくなる（非 16:9 ウィンドウでの浮き不具合の修正）。
   return (
-    <div style={{ position: 'relative', width: '100%', height: '100%' }}>
-      <div ref={hostRef} style={{ width: '100%', height: '100%' }} />
-      <ChoiceOverlay />
+    <div
+      style={{
+        position: 'absolute',
+        inset: 0,
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'center',
+        overflow: 'hidden',
+      }}
+    >
       <div
         style={{
-          position: 'absolute',
-          right: 12,
-          bottom: 10,
-          color: 'rgba(255,255,255,.7)',
-          font: `12px ${UI_FONT}`,
-          letterSpacing: '.12em',
-          textShadow: '0 1px 4px #000',
-          pointerEvents: 'none',
+          position: 'relative',
+          aspectRatio: '16 / 9',
+          width: 'min(100%, calc(100vh * 16 / 9))',
+          maxHeight: '100%',
         }}
       >
-        {ended
-          ? '— 終 —'
-          : `${scene?.code ?? '…'} · ${index + 1} / ${total}${lineLabel} · クリック / Space で進む`}
+        <div ref={hostRef} style={{ position: 'absolute', inset: 0 }} />
+        <ChoiceOverlay />
+        <div
+          style={{
+            position: 'absolute',
+            right: 12,
+            bottom: 10,
+            color: 'rgba(255,255,255,.7)',
+            font: `12px ${UI_FONT}`,
+            letterSpacing: '.12em',
+            textShadow: '0 1px 4px #000',
+            pointerEvents: 'none',
+          }}
+        >
+          {ended
+            ? '— 終 —'
+            : `${scene?.code ?? '…'} · ${index + 1} / ${total}${lineLabel} · クリック / Space で進む`}
+        </div>
       </div>
     </div>
   )
