@@ -54,8 +54,6 @@ function rfNodes(graph: SceneGraph, liveCode: string | null): Node<SceneNodeData
     data: {
       kind: n.kind,
       category: n.category,
-      seq: n.seq,
-      shortCode: n.shortCode,
       title: n.title,
       live: n.id === liveCode,
     },

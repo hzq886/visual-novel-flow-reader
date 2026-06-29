@@ -12,11 +12,9 @@ import type { Flow, Locale, SceneIndex } from '@/pipeline/types'
 import { categoryOfNode, categoryOfScene, type Category } from './category'
 
 export type SceneGraphNode = {
-  id: string
+  id: string // 完全シーンコード（例 "001_PRO001A"）。非シーンは hub/end/omake の id
   kind: 'scene' | 'branch' | 'end' | 'omake'
   category: Category
-  seq: number | null // 通し番号（scene のみ。hub/end/omake は null）
-  shortCode: string // 短縮表示コード（例 "001A"）。非シーンは ''
   title: string // ひと言の内容概要（locale 適用）
 }
 
@@ -60,7 +58,6 @@ export function buildSceneGraph(flow: Flow, index: SceneIndex, locale: Locale): 
   const lastScene = new Map<string, string>() // arc id → 末尾シーン
   const dropped = new Set<string>() // ノード化しない（start）
 
-  let seq = 0
   for (const n of flow.nodes) {
     if (n.kind === 'start') {
       dropped.add(n.id)
@@ -73,8 +70,6 @@ export function buildSceneGraph(flow: Flow, index: SceneIndex, locale: Locale): 
           id: code,
           kind: 'scene',
           category: categoryOfScene(code),
-          seq: ++seq,
-          shortCode: short,
           title: sceneSummary(localeTitle(index, code, locale)) || short,
         })
         if (i > 0) {
@@ -99,8 +94,6 @@ export function buildSceneGraph(flow: Flow, index: SceneIndex, locale: Locale): 
         id: n.id,
         kind,
         category: categoryOfNode(n),
-        seq: null,
-        shortCode: '',
         title: n.title,
       })
     }
