@@ -46,6 +46,8 @@ export function SceneNode({ data }: NodeProps) {
         borderRadius: 12,
         boxShadow: shadow,
         overflow: 'hidden',
+        // シーンノードはクリックで物語をそのシーンへスキップできる（HU-46）。
+        cursor: isScene ? 'pointer' : 'default',
       }}
     >
       <Handle type="target" position={Position.Left} style={handleStyle(color)} />

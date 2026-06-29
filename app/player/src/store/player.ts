@@ -41,6 +41,7 @@ type PlayerState = {
   start: () => Promise<void>
   advance: () => Promise<void>
   choose: (target: string | null) => Promise<void>
+  gotoScene: (code: string) => Promise<void>
   setLocale: (locale: Locale) => Promise<void>
   setFlag: (name: string) => void
   unsetFlag: (name: string) => void
@@ -112,6 +113,17 @@ export const usePlayer = create<PlayerState>((set, get) => ({
     } else {
       set({ ended: true })
     }
+  },
+  // 任意シーンの先頭へジャンプ（フロー図のシーンノードクリック等）。choose と同形だが、
+  // 分岐選択ではなく純粋なスキップ。flags はそのまま保持（任意位置からの探索・鑑賞用途）。
+  gotoScene: async (code) => {
+    set({
+      scene: await loadScene(code, get().locale),
+      index: 0,
+      line: 0,
+      pendingChoice: null,
+      ended: false,
+    })
   },
   // 選択肢の分岐先へ遷移（target=null は終端）。
   choose: async (target) => {

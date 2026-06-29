@@ -4,7 +4,7 @@
  * カテゴリ別配色（category.ts の9分類）の SceneNode／ラベル付きエッジ＋凡例（Legend）を表示する。
  * 再生中シーン（usePlayer.scene）のノードを金枠でハイライトしてストーリー進行と連動させる。
  */
-import { useEffect, useMemo } from 'react'
+import { useCallback, useEffect, useMemo } from 'react'
 import {
   Background,
   Controls,
@@ -93,7 +93,7 @@ function rfEdges(graph: SceneGraph): Edge[] {
   })
 }
 
-export function FlowMap() {
+export function FlowMap({ onJump }: { onJump?: () => void } = {}) {
   const sceneCode = usePlayer((s) => s.scene?.code ?? null)
   const locale = usePlayer((s) => s.locale)
 
@@ -110,6 +110,17 @@ export function FlowMap() {
     setNodes(rfNodes(graph, sceneCode))
     setEdges(rfEdges(graph))
   }, [graph, sceneCode, setNodes, setEdges])
+
+  // シーンノードのクリックで物語をそのシーン先頭へスキップし、物語ビューへ戻す（HU-46）。
+  // hub(分岐)/end/omake は再生対象シーンが無いので無視する。
+  const onNodeClick = useCallback(
+    (_e: React.MouseEvent, node: Node<SceneNodeData>) => {
+      if (node.data.kind !== 'scene') return
+      void usePlayer.getState().gotoScene(node.id)
+      onJump?.()
+    },
+    [onJump],
+  )
 
   return (
     <div style={{ width: '100%', height: '100%', position: 'relative' }}>
@@ -131,6 +142,7 @@ export function FlowMap() {
         nodeTypes={nodeTypes}
         onNodesChange={onNodesChange}
         onEdgesChange={onEdgesChange}
+        onNodeClick={onNodeClick}
         nodesDraggable={false}
         minZoom={0.03}
         fitView
