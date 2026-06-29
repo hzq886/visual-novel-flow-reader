@@ -175,6 +175,29 @@ describe('ルートフラグ — set / unset / has / reset', () => {
   })
 })
 
+// gotoScene は実生成物（data/scenes/<locale>/）を動的ロードする結合テスト（フロー図ノードクリック）。
+describe('シーンスキップ — gotoScene（フロー図ノードクリック）', () => {
+  it('指定シーンを先頭から読み込み、index/line/pendingChoice/ended をリセットする', async () => {
+    usePlayer.setState({ index: 5, line: 2, pendingChoice: [], ended: true })
+    await usePlayer.getState().gotoScene('002_AYAN001A')
+    const st = usePlayer.getState()
+    expect(st.scene?.code).toBe('002_AYAN001A')
+    expect(st.index).toBe(0)
+    expect(st.line).toBe(0)
+    expect(st.pendingChoice).toBeNull()
+    expect(st.ended).toBe(false)
+  })
+
+  it('現在 locale でロードし、ルートフラグは保持する（任意位置探索）', async () => {
+    usePlayer.setState({ locale: 'cn' })
+    usePlayer.getState().setFlag('S71/軸2_1=2')
+    await usePlayer.getState().gotoScene('002_AYAN001A')
+    const st = usePlayer.getState()
+    expect(st.scene?.locale).toBe('cn')
+    expect(st.hasFlag('S71/軸2_1=2')).toBe(true)
+  })
+})
+
 // setLocale は実生成物（data/scenes/<locale>/）を動的ロードする結合テスト。
 describe('言語切替 — setLocale（jp⇄cn）', () => {
   it('同一ロケールへの切替は no-op（scene 参照を変えない）', async () => {

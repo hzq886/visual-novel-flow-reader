@@ -49,7 +49,7 @@ function App() {
       <Stage />
       {view === 'map' && (
         <div style={{ position: 'absolute', inset: 0, zIndex: 10 }}>
-          <FlowMap />
+          <FlowMap onJump={() => setView('story')} />
         </div>
       )}
       <button
