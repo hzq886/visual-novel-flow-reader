@@ -47,8 +47,8 @@ const BLACK_BG_LABEL = '#背景・黒一色'
 
 // 原データ抽出時に混入する制御残骸。jp の一部シーン冒頭に PUA 文字（U+F8F3「⬚」/ U+E456）や
 // デコード失敗（U+FFFD）が、単独のゴミ文字（"G"/"E"/"\\" 等）を伴って [text] 行として現れる
-// （本文ではない）。これらはタイトルカード行（`\\N` 入り）の直前に居座り、タイトル判定
-// （cur===null 前提）も阻害する。cn ソースには出現しない（別抽出経路でクリーン）。
+// （本文ではない）。これらはタイトルカード行（`\\N` 入り）の直前に居座るため、捨てないと
+// シーン冒頭に偽の本文 beat を作ってしまう。cn ソースには出現しない（別抽出経路でクリーン）。
 const JUNK_CHARS = /[\u{e000}-\u{f8ff}\u{fffd}]/gu
 // 残骸除去後に本文として残すか。空 or 単独の半角文字（ASCII / 半角カナ）のみなら本文ではない。
 const isJunkResidue = (s: string): boolean => s === '' || /^[\x20-\x7e\uff61-\uff9f]$/.test(s)
@@ -199,8 +199,13 @@ export function parseScene(text: string, opts: { code: string; locale: Locale })
       continue
     }
 
-    if (title === undefined && beats.length === 0 && cur === null && /\\[Nn]/.test(val)) {
-      title = val // タイトルカード（\N は描画側で改行）
+    // タイトルカード（`\N` 入り本文）。通常は冒頭だが、夜→朝のアイキャッチ等で本編 beat の
+    // 後に現れることもある（例 011_SUBT003A は前夜の回想 beat の後に `朝の風景\N…`）。最初の
+    // 1 つを採用し、セクション境界として開いている beat を flush する（冒頭なら no-op）。
+    // `\N` は地の文に出現せず必ずタイトルカード形式なので、最初の出現を拾って安全（HU-49）。
+    if (title === undefined && /\\[Nn]/.test(val)) {
+      flush()
+      title = val // \N は描画側で改行
       continue
     }
 
