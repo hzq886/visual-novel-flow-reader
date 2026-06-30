@@ -2,7 +2,14 @@ import { describe, expect, it } from 'vitest'
 import flowJson from '@data/flow.json'
 import sceneIndexJson from '@data/scene-index.json'
 import { Flow, SceneIndex } from '@/pipeline/types'
-import { buildSceneGraph, sceneSummary, shortSceneCode } from './scenegraph'
+import {
+  buildSceneGraph,
+  groupScenes,
+  sceneSummary,
+  shortSceneCode,
+  type SceneGraph,
+  type SceneGraphNode,
+} from './scenegraph'
 
 const flow = Flow.parse(flowJson)
 const index = SceneIndex.parse(sceneIndexJson)
@@ -118,5 +125,83 @@ describe('buildSceneGraph — arc CFG → シーン単位グラフ', () => {
     const cn = buildSceneGraph(flow, index, 'cn')
     const e = cn.edges.find((x) => x.source === '006_TUBA001B' && x.target === '006_TUBA001C')!
     expect(e.label).toBe('沉溺于背德，继续下去') // jp「背徳に溺れて、このまま続ける」の cn
+  })
+
+  it('題ありシーンに titled=true、題なし継続シーンは false（フォールバック表示）', () => {
+    expect(g.nodes.find((n) => n.id === '006_TUBA001B')!.titled).toBe(true)
+    expect(g.nodes.find((n) => n.id === '006_TUBA001C')!.titled).toBe(false)
+  })
+})
+
+describe('groupScenes — タイトル群（HU-51）', () => {
+  const g = buildSceneGraph(flow, index, 'jp')
+  const groups = groupScenes(g)
+
+  it('虚ろ目キス群: head=006_TUBA001B に題なし継続 001C/001E/002A を取り込み、見出しは head の題', () => {
+    const grp = groups.find((x) => x.headId === '006_TUBA001B')!
+    expect(grp.title).toBe('虚ろ目キス')
+    expect(grp.id).toBe('grp-006_TUBA001B')
+    expect(grp.memberIds[0]).toBe('006_TUBA001B') // head が先頭
+    expect(new Set(grp.memberIds)).toEqual(
+      new Set(['006_TUBA001B', '006_TUBA001C', '006_TUBA001E', '006_TUBA002A']),
+    )
+  })
+
+  it('自前の題を持つ 006_TUBA001B2（キスへの後悔）は群外（メンバーにならない）', () => {
+    for (const grp of groups) expect(grp.memberIds).not.toContain('006_TUBA001B2')
+  })
+
+  it('全メンバーは一意（題なしシーンが複数群に二重所属しない）', () => {
+    const all = groups.flatMap((x) => x.memberIds.slice(1)) // head 以外
+    expect(new Set(all).size).toBe(all.length)
+  })
+
+  it('メンバーを持たない単独 head は群化しない', () => {
+    expect(groups.every((x) => x.memberIds.length >= 2)).toBe(true)
+  })
+
+  // --- 合成グラフでアルゴリズム挙動を検証 ---
+  const node = (id: string, titled: boolean): SceneGraphNode => ({
+    id,
+    kind: 'scene',
+    category: 'common',
+    title: titled ? id : '00',
+    titled,
+  })
+  const hub = (id: string): SceneGraphNode => ({
+    id,
+    kind: 'branch',
+    category: 'branch',
+    title: id,
+  })
+  const edge = (s: string, t: string): SceneGraph['edges'][number] => ({
+    id: `${s}-${t}`,
+    source: s,
+    target: t,
+    variant: 'structural',
+    branch: false,
+  })
+
+  it('別題シーン・hub で停止する（題なしは直前の題 head に属し、hub 越えは取り込まない）', () => {
+    const graph: SceneGraph = {
+      nodes: [node('H', true), node('a', false), node('b', false), hub('HUB'), node('c', false)],
+      edges: [edge('H', 'a'), edge('a', 'b'), edge('b', 'HUB'), edge('HUB', 'c')],
+    }
+    const grp = groupScenes(graph)
+    expect(grp).toHaveLength(1)
+    expect(new Set(grp[0].memberIds)).toEqual(new Set(['H', 'a', 'b']))
+    // hub 越しの c はどの群にも属さない（単独）。
+    expect(grp[0].memberIds).not.toContain('c')
+  })
+
+  it('合流する題なしは最近接 head に属する（距離が近い方が勝つ）', () => {
+    // H1→x→t（距離2）と H2→t（距離1）。t は H2 に属する。
+    const graph: SceneGraph = {
+      nodes: [node('H1', true), node('H2', true), node('x', false), node('t', false)],
+      edges: [edge('H1', 'x'), edge('x', 't'), edge('H2', 't')],
+    }
+    const grp = groupScenes(graph)
+    const owner = grp.find((x) => x.memberIds.includes('t'))!
+    expect(owner.headId).toBe('H2')
   })
 })
