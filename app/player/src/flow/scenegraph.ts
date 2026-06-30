@@ -15,7 +15,20 @@ export type SceneGraphNode = {
   id: string // 完全シーンコード（例 "001_PRO001A"）。非シーンは hub/end/omake の id
   kind: 'scene' | 'branch' | 'end' | 'omake'
   category: Category
-  title: string // ひと言の内容概要（locale 適用）
+  title: string // ひと言の内容概要（locale 適用）。題が無いシーンは短縮コードにフォールバック
+  titled?: boolean // 原作のタイトルカードを持つシーンか（フォールバックでない実題）。grouping の頭判定用
+}
+
+/**
+ * シーンタイトル群（HU-51）。タイトルカードを持つシーン（head）と、そこから連なる**題なし継続
+ * シーン**を1つのコンテナにまとめる単位。原作はカット（暗転/背景・CGリセット）で題を打ち直すため、
+ * 題なしの継続は直前の題シーンの続き＝同じエピソード。head の題をコンテナ見出しにする。
+ */
+export type SceneGroup = {
+  id: string // コンテナノード id（"grp-<headId>"）
+  headId: string // 題を持つ先頭シーン
+  title: string // コンテナ見出し（head の locale 適用題）
+  memberIds: string[] // head を先頭に、取り込んだ題なし継続シーンを含む全メンバー
 }
 
 export type SceneGraphEdge = {
@@ -66,11 +79,13 @@ export function buildSceneGraph(flow: Flow, index: SceneIndex, locale: Locale): 
     if (n.kind === 'arc') {
       n.scenes.forEach((code, i) => {
         const short = shortSceneCode(code)
+        const summary = sceneSummary(localeTitle(index, code, locale))
         nodes.push({
           id: code,
           kind: 'scene',
           category: categoryOfScene(code),
-          title: sceneSummary(localeTitle(index, code, locale)) || short,
+          title: summary || short,
+          titled: !!summary,
         })
         if (i > 0) {
           const prev = n.scenes[i - 1]
@@ -136,4 +151,62 @@ export function buildSceneGraph(flow: Flow, index: SceneIndex, locale: Locale): 
 /** シーンコード → 表示用の通し番号などを引く索引（FlowMap のライブハイライト等）。 */
 export function indexByScene(graph: SceneGraph): Map<string, SceneGraphNode> {
   return new Map(graph.nodes.map((n) => [n.id, n]))
+}
+
+/**
+ * シーングラフ → タイトル群（HU-51）。題を持つシーンを head とし、そこから前方へ辿れる**題なし
+ * 継続シーン**を最近接の head に取り込む。別の題シーン／hub／end／omake で停止（境界）。
+ *
+ * - head から forward BFS。題なし scene 後続のみ取り込み、距離が近い head を優先（同距離は head id 昇順で安定）。
+ * - hub 経由でしか辿れない題なしシーンは合流点扱いでどの群にも属さず単独（呼び出し側でフォールバック表示）。
+ * - メンバー（題なし継続）を1つ以上持つ head のみ群化（単独 head は通常ノードのまま）。
+ * 構造は locale 非依存（題の有無は jp 基準で安定させる前提で呼ぶ）。見出し文字列のみ locale 依存。
+ */
+export function groupScenes(graph: SceneGraph): SceneGroup[] {
+  const byId = new Map(graph.nodes.map((n) => [n.id, n]))
+  const adj = new Map<string, string[]>()
+  for (const e of graph.edges) {
+    const a = adj.get(e.source)
+    if (a) a.push(e.target)
+    else adj.set(e.source, [e.target])
+  }
+  const isTitleless = (id: string): boolean => {
+    const n = byId.get(id)
+    return n?.kind === 'scene' && !n.titled
+  }
+  const heads = graph.nodes.filter((n) => n.kind === 'scene' && n.titled)
+
+  // 題なしシーン id → 最近接 head（{ head, depth }）。
+  const owner = new Map<string, { head: string; depth: number }>()
+  for (const h of heads) {
+    const queue: Array<[string, number]> = [[h.id, 0]]
+    const seen = new Set<string>([h.id])
+    for (let i = 0; i < queue.length; i++) {
+      const [cur, d] = queue[i]
+      for (const nx of adj.get(cur) ?? []) {
+        if (seen.has(nx)) continue
+        seen.add(nx)
+        if (!isTitleless(nx)) continue // 別題シーン・hub・end・omake は境界（取り込まず辿らない）
+        const prev = owner.get(nx)
+        if (!prev || d + 1 < prev.depth || (d + 1 === prev.depth && h.id < prev.head)) {
+          owner.set(nx, { head: h.id, depth: d + 1 })
+        }
+        queue.push([nx, d + 1])
+      }
+    }
+  }
+
+  const membersByHead = new Map<string, string[]>()
+  for (const [scene, { head }] of owner) {
+    const m = membersByHead.get(head)
+    if (m) m.push(scene)
+    else membersByHead.set(head, [scene])
+  }
+  const groups: SceneGroup[] = []
+  for (const h of heads) {
+    const m = membersByHead.get(h.id)
+    if (!m || m.length === 0) continue
+    groups.push({ id: `grp-${h.id}`, headId: h.id, title: h.title, memberIds: [h.id, ...m] })
+  }
+  return groups
 }

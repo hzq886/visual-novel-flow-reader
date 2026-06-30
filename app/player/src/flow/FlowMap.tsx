@@ -24,26 +24,63 @@ import { usePlayer } from '@/store/player'
 import { CATEGORY_COLOR, type Category } from './category'
 import { Legend } from './Legend'
 import { SceneNode, type SceneNodeData } from './SceneNode'
+import { GroupNode, type GroupNodeData } from './GroupNode'
 import { SCENE_SIZE, HUB_SIZE } from './nodeSize'
 import {
   buildSceneGraph,
+  groupScenes,
   type SceneGraph,
   type SceneGraphEdge,
   type SceneGraphNode,
 } from './scenegraph'
-import { layoutGraph } from './layout'
+import { layoutGraph, type GroupBox } from './layout'
 
 const flow = Flow.parse(flowJson)
 const sceneIndex = SceneIndex.parse(sceneIndexJson)
 
-// 構造（ノード集合・エッジ）は locale 不変なので、レイアウトは一度だけ計算して使い回す。
+// 構造（ノード集合・エッジ・グループ）は locale 不変なので、レイアウトは一度だけ計算して使い回す。
+// 見出し文字列のみ locale 依存（描画時に現 locale の題へ差し替える）。
 const baseGraph = buildSceneGraph(flow, sceneIndex, 'jp')
-const positions = layoutGraph(baseGraph, (n: SceneGraphNode) =>
-  n.kind === 'scene' ? SCENE_SIZE : HUB_SIZE,
+const groups = groupScenes(baseGraph)
+const { positions, groupBoxes } = layoutGraph(
+  baseGraph,
+  (n: SceneGraphNode) => (n.kind === 'scene' ? SCENE_SIZE : HUB_SIZE),
+  {},
+  groups,
+)
+// メンバー id → 属する群（コンテナ見出し差し替え・grouped フラグ用）。
+const groupByMember = new Map<string, (typeof groups)[number]>()
+for (const g of groups) for (const m of g.memberIds) groupByMember.set(m, g)
+// 群 head の category（コンテナの配色）。
+const headCategory = new Map(
+  groups.map((g) => [g.id, baseGraph.nodes.find((n) => n.id === g.headId)?.category ?? 'common']),
 )
 
 // nodeTypes はモジュールレベルで安定参照にする（毎レンダー再生成すると React Flow が警告）。
-const nodeTypes = { flowNode: SceneNode }
+const nodeTypes = { flowNode: SceneNode, groupBox: GroupNode }
+
+// コンテナノードは最背面（配列先頭・低 zIndex）に置き、内側のシーンノードがクリックを受ける。
+function rfGroupNodes(graph: SceneGraph): Node<GroupNodeData>[] {
+  const titleById = new Map(graph.nodes.map((n) => [n.id, n.title]))
+  return groupBoxes.map((b: GroupBox) => {
+    const g = groups.find((gg) => gg.id === b.id)!
+    return {
+      id: b.id,
+      type: 'groupBox',
+      position: { x: b.x, y: b.y },
+      width: b.width,
+      height: b.height,
+      draggable: false,
+      selectable: false,
+      zIndex: 0,
+      data: {
+        // 見出しは現 locale の head 題（cn 未抽出時は jp フォールバック済の graph.title）。
+        title: titleById.get(g.headId) ?? g.title,
+        category: headCategory.get(g.id) as Category,
+      },
+    }
+  })
+}
 
 function rfNodes(graph: SceneGraph, liveCode: string | null): Node<SceneNodeData>[] {
   return graph.nodes.map((n) => ({
@@ -51,11 +88,13 @@ function rfNodes(graph: SceneGraph, liveCode: string | null): Node<SceneNodeData
     type: 'flowNode',
     position: positions.get(n.id) ?? { x: 0, y: 0 },
     draggable: false,
+    zIndex: 1,
     data: {
       kind: n.kind,
       category: n.category,
       title: n.title,
       live: n.id === liveCode,
+      grouped: groupByMember.has(n.id),
     },
   }))
 }
@@ -98,22 +137,24 @@ export function FlowMap({ onJump }: { onJump?: () => void } = {}) {
   // 見出しは locale 依存（ノード/エッジ構造は不変）。
   const graph = useMemo(() => buildSceneGraph(flow, sceneIndex, locale), [locale])
 
-  const [nodes, setNodes, onNodesChange] = useNodesState<Node<SceneNodeData>>(
-    rfNodes(graph, sceneCode),
-  )
+  // コンテナ（groupBox）を配列先頭＝最背面に、シーン/hub ノードを前面に重ねる。
+  const [nodes, setNodes, onNodesChange] = useNodesState<Node>([
+    ...rfGroupNodes(graph),
+    ...rfNodes(graph, sceneCode),
+  ])
   const [edges, setEdges, onEdgesChange] = useEdgesState<Edge>(rfEdges(graph))
 
   // 再生中シーンの変化／言語切替で、ノード（ハイライト・見出し）とエッジ（ラベル）を更新。
   useEffect(() => {
-    setNodes(rfNodes(graph, sceneCode))
+    setNodes([...rfGroupNodes(graph), ...rfNodes(graph, sceneCode)])
     setEdges(rfEdges(graph))
   }, [graph, sceneCode, setNodes, setEdges])
 
   // シーンノードのクリックで物語をそのシーン先頭へスキップし、物語ビューへ戻す（HU-46）。
-  // hub(分岐)/end/omake は再生対象シーンが無いので無視する。
+  // hub(分岐)/end/omake・コンテナは再生対象シーンが無いので無視する。
   const onNodeClick = useCallback(
-    (_e: React.MouseEvent, node: Node<SceneNodeData>) => {
-      if (node.data.kind !== 'scene') return
+    (_e: React.MouseEvent, node: Node) => {
+      if ((node.data as SceneNodeData).kind !== 'scene') return
       void usePlayer.getState().gotoScene(node.id)
       onJump?.()
     },
@@ -152,7 +193,10 @@ export function FlowMap({ onJump }: { onJump?: () => void } = {}) {
           pannable
           zoomable
           nodeColor={(n) =>
-            CATEGORY_COLOR[(n.data as SceneNodeData).category as Category] ?? CATEGORY_COLOR.common
+            n.type === 'groupBox'
+              ? 'rgba(255,255,255,.04)'
+              : (CATEGORY_COLOR[(n.data as SceneNodeData).category as Category] ??
+                CATEGORY_COLOR.common)
           }
           maskColor="rgba(19,22,28,.7)"
         />

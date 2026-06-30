@@ -3,10 +3,13 @@
  * React Flow の position は左上原点なので、dagre の中心座標から幅/高さの半分を引く。
  */
 import Dagre from '@dagrejs/dagre'
-import type { SceneGraph, SceneGraphNode } from './scenegraph'
+import type { SceneGraph, SceneGraphNode, SceneGroup } from './scenegraph'
 
 export type NodeSize = { width: number; height: number }
 export type Positions = Map<string, { x: number; y: number }>
+/** グループコンテナの矩形（React Flow の左上原点）。title はコンテナ見出し。 */
+export type GroupBox = { id: string; x: number; y: number; width: number; height: number }
+export type LayoutResult = { positions: Positions; groupBoxes: GroupBox[] }
 
 export type LayoutOptions = {
   rankdir?: 'LR' | 'TB' // ストーリー進行方向（既定 LR＝左→右）
@@ -14,13 +17,21 @@ export type LayoutOptions = {
   ranksep?: number
 }
 
-/** SceneGraph → ノード id ごとの左上座標。size はノード種別ごとの寸法を返す。 */
+// コンテナ上端に見出しラベルを置くための追加余白（dagre のクラスタ既定パディングに上乗せ）。
+export const GROUP_LABEL_PAD = 22
+
+/**
+ * SceneGraph → ノード id ごとの左上座標＋グループコンテナ矩形。groups を渡すと dagre の
+ * compound（クラスタ）でメンバーを近接配置し、クラスタの bbox をコンテナ矩形として返す。
+ * size はノード種別ごとの寸法を返す。
+ */
 export function layoutGraph(
   graph: SceneGraph,
   size: (node: SceneGraphNode) => NodeSize,
   opts: LayoutOptions = {},
-): Positions {
-  const g = new Dagre.graphlib.Graph()
+  groups: SceneGroup[] = [],
+): LayoutResult {
+  const g = new Dagre.graphlib.Graph({ compound: groups.length > 0 })
   g.setGraph({
     rankdir: opts.rankdir ?? 'LR',
     nodesep: opts.nodesep ?? 26,
@@ -36,15 +47,33 @@ export function layoutGraph(
     sizeById.set(n.id, s)
     g.setNode(n.id, { width: s.width, height: s.height })
   }
+  // クラスタノードを宣言し、メンバーを親付けする（compound layout で近接クラスタリング）。
+  for (const grp of groups) {
+    g.setNode(grp.id, {})
+    for (const m of grp.memberIds) if (sizeById.has(m)) g.setParent(m, grp.id)
+  }
   for (const e of graph.edges) g.setEdge(e.source, e.target)
 
   Dagre.layout(g)
 
-  const pos: Positions = new Map()
+  const positions: Positions = new Map()
   for (const n of graph.nodes) {
     const p = g.node(n.id)
     const s = sizeById.get(n.id)!
-    pos.set(n.id, { x: p.x - s.width / 2, y: p.y - s.height / 2 })
+    positions.set(n.id, { x: p.x - s.width / 2, y: p.y - s.height / 2 })
   }
-  return pos
+  const groupBoxes: GroupBox[] = []
+  for (const grp of groups) {
+    const c = g.node(grp.id)
+    if (!c) continue
+    // dagre のクラスタ座標は中心。React Flow 用に左上へ変換し、見出し分だけ上へ広げる。
+    groupBoxes.push({
+      id: grp.id,
+      x: c.x - c.width / 2,
+      y: c.y - c.height / 2 - GROUP_LABEL_PAD,
+      width: c.width,
+      height: c.height + GROUP_LABEL_PAD,
+    })
+  }
+  return { positions, groupBoxes }
 }

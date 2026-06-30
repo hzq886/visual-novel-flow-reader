@@ -13,6 +13,7 @@ export type SceneNodeData = {
   category: Category
   title: string
   live: boolean
+  grouped?: boolean // タイトル群コンテナ内のシーンか。題は見出しに譲り、ノードはコード主体で表示（HU-51）
 }
 
 const handleStyle = (color: string): React.CSSProperties => ({
@@ -80,22 +81,24 @@ export function SceneNode({ id, data }: NodeProps) {
           >
             {id}
           </span>
-          {/* ひと言概要 */}
-          <span
-            style={{
-              flex: 1,
-              minWidth: 0,
-              color: live ? '#fff3d6' : '#e7ecf3',
-              fontSize: 13,
-              fontWeight: 700,
-              overflow: 'hidden',
-              textOverflow: 'ellipsis',
-              whiteSpace: 'nowrap',
-            }}
-            title={d.title}
-          >
-            {d.title}
-          </span>
+          {/* ひと言概要（グループ内は見出しをコンテナに譲るので非表示） */}
+          {!d.grouped && (
+            <span
+              style={{
+                flex: 1,
+                minWidth: 0,
+                color: live ? '#fff3d6' : '#e7ecf3',
+                fontSize: 13,
+                fontWeight: 700,
+                overflow: 'hidden',
+                textOverflow: 'ellipsis',
+                whiteSpace: 'nowrap',
+              }}
+              title={d.title}
+            >
+              {d.title}
+            </span>
+          )}
         </div>
       ) : (
         <div
