@@ -474,4 +474,38 @@ describe('parseScene — 制御残骸（PUA/デコード失敗）の除去とタ
     const s = parseScene(text, { code: '999_TEST001A', locale: 'jp' })
     expect(s.beats[0].lines).toEqual(['本文。'])
   })
+
+  it('本編 beat の後に現れるアイキャッチ・タイトルカードも title にする（HU-49）', () => {
+    // 011_SUBT003A 相当: 前夜の回想（地の文）の後に `朝の風景\N…` のタイトルカードが置かれる。
+    // タイトルカードはセクション境界として開いている beat を flush するので、前後の地の文は
+    // 同一 beat に混ざらない。
+    const text = [
+      '[text] ……夜、僕は自分の部屋で思い出す。',
+      '[text] 激しいオナニーをしていた。',
+      '[text] 朝の風景\\N年頃の男子の性欲',
+      '[text] ……朝になり、僕は目を覚ます。',
+    ].join('\n')
+    const s = parseScene(text, { code: '011_SUBT003A', locale: 'jp' })
+    expect(s.title).toBe('朝の風景\\N年頃の男子の性欲')
+    expect(s.beats).toHaveLength(2)
+    expect(s.beats[0].lines).toEqual([
+      '……夜、僕は自分の部屋で思い出す。',
+      '激しいオナニーをしていた。',
+    ])
+    expect(s.beats[1].lines).toEqual(['……朝になり、僕は目を覚ます。'])
+  })
+
+  it('タイトルカードが複数あっても最初の 1 つだけを採用（先頭優先・HU-49 無回帰）', () => {
+    // 011_SUBT004A 相当: 先頭 `古橋和樹\N次の準備を` と本編後の `朝の風景\N悶々として`。
+    // 後者は title にせず地の文として残す（既存挙動を維持）。
+    const text = [
+      '[text] 古橋和樹\\N次の準備を',
+      '[text] ……翌朝の支度をする。',
+      '[text] 朝の風景\\N悶々として',
+      '[text] ……悶々としてしまう。',
+    ].join('\n')
+    const s = parseScene(text, { code: '011_SUBT004A', locale: 'jp' })
+    expect(s.title).toBe('古橋和樹\\N次の準備を')
+    expect(s.beats.flatMap((b) => b.lines)).toContain('朝の風景\\N悶々として')
+  })
 })
