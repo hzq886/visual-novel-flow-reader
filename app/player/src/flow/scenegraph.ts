@@ -6,7 +6,9 @@
  *  - arc ノードの順序付き `scenes:[s0..sn]` を連鎖 s0→s1→…→sn に展開（各シーンが1ノード）。
  *  - flow.json の構造エッジは arc の末尾/先頭シーンへ張り替える（arc 入辺→先頭、出辺→末尾発）。
  *    選択肢シーンは各 arc 末尾なので、HU-21 が付けたラベル付き分岐エッジが末尾シーン発として残る。
- *  - hub(SMAIN_* / branch) と end / omake はノードとして残置。**start はノード化しない**（要件④）。
+ *  - hub(SMAIN_* / branch) は分岐点ではなく合流/素通り点（全 hub out=1）なので**ノード化せず畳む**
+ *    （HU-55）: 入辺を継続先の実シーンへ張り替え、空の合流ノードを消す。分岐自体は選択肢シーンの
+ *    ラベル付き辺が担う。end / omake は終端マーカーとしてノード残置。**start はノード化しない**（要件④）。
  */
 import type { Flow, Locale, SceneIndex } from '@/pipeline/types'
 import { categoryOfNode, categoryOfScene, type Category } from './category'
@@ -70,6 +72,7 @@ export function buildSceneGraph(flow: Flow, index: SceneIndex, locale: Locale): 
   const firstScene = new Map<string, string>() // arc id → 先頭シーン
   const lastScene = new Map<string, string>() // arc id → 末尾シーン
   const dropped = new Set<string>() // ノード化しない（start）
+  const hubIds = new Set<string>() // 畳む hub(branch)。入辺を継続先へ張り替え、ノード化しない
 
   for (const n of flow.nodes) {
     if (n.kind === 'start') {
@@ -102,15 +105,17 @@ export function buildSceneGraph(flow: Flow, index: SceneIndex, locale: Locale): 
         firstScene.set(n.id, n.scenes[0])
         lastScene.set(n.id, n.scenes[n.scenes.length - 1])
       }
-    } else {
-      // branch(hub) / end / omake はノードとして残置。
-      const kind = n.kind === 'end' ? 'end' : n.kind === 'omake' ? 'omake' : 'branch'
+    } else if (n.kind === 'end' || n.kind === 'omake') {
+      // end / omake は終端マーカーとしてノード残置。
       nodes.push({
         id: n.id,
-        kind,
+        kind: n.kind,
         category: categoryOfNode(n),
         title: n.title,
       })
+    } else {
+      // branch(hub) は畳む（HU-55）。ノード化せず、入辺を継続先の実シーンへ張り替える（下の辺ループ）。
+      hubIds.add(n.id)
     }
   }
 
@@ -126,12 +131,33 @@ export function buildSceneGraph(flow: Flow, index: SceneIndex, locale: Locale): 
   const catById = new Map(nodes.map((nn) => [nn.id, nn.category]))
   const srcOf = (id: string) => lastScene.get(id) ?? id
   const tgtOf = (id: string) => firstScene.get(id) ?? id
+
+  // hub 畳み込み: 各 hub の唯一の out 継続先を辿り、着地先の実シーン（arc 先頭）へ解決する。
+  // hub→hub 連鎖は推移的に辿る（現データには無いが安全側。guard で循環も防ぐ）。
+  const hubOut = new Map<string, string>()
+  for (const e of flow.edges) if (hubIds.has(e.source)) hubOut.set(e.source, e.target)
+  const resolveTarget = (id: string): string => {
+    let cur = id
+    const guard = new Set<string>()
+    while (hubIds.has(cur) && !guard.has(cur)) {
+      guard.add(cur)
+      const nx = hubOut.get(cur)
+      if (nx === undefined) break
+      cur = nx
+    }
+    return tgtOf(cur)
+  }
+
   flow.edges.forEach((e, i) => {
     if (dropped.has(e.source) || dropped.has(e.target)) return
+    // hub の出辺は入辺の張替で代替するので落とす（source が hub のケース）。
+    if (hubIds.has(e.source)) return
     const source = srcOf(e.source)
-    const target = tgtOf(e.target)
+    // 着地先が hub なら畳んで継続先の実シーンへ張り替える。
+    const target = hubIds.has(e.target) ? resolveTarget(e.target) : tgtOf(e.target)
     if (source === target || !nodeIds.has(source) || !nodeIds.has(target)) return
     // 選択肢分岐は locale 別文言を優先（cn 未抽出は jp）。それ以外は flow.json の label（jp）。
+    // choiceLabel は raw id（畳む前の hub 宛）で引くので、継続先へ張り替えてもラベルは移設される。
     const opt = choiceLabel.get(`${e.source}->${e.target}`)
     const label = opt ? (locale === 'cn' ? (opt.cn ?? opt.jp) : opt.jp) : e.label
     edges.push({

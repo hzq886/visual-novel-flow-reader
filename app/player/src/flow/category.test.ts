@@ -42,11 +42,11 @@ describe('categoryOfScene — シーンコード接頭辞 → 表示カテゴリ
 })
 
 describe('categoryOfNode — Flow ノード → 表示カテゴリ', () => {
-  it('hub(branch)/end/start/omake は kind から決まる', () => {
-    expect(categoryOfNode({ kind: 'branch', scenes: [] })).toBe('branch')
+  it('end はエンド／start・omake・branch(hub) は共通（hub は HU-55 で畳んで非描画）', () => {
     expect(categoryOfNode({ kind: 'end', scenes: [] })).toBe('end')
     expect(categoryOfNode({ kind: 'start', scenes: [] })).toBe('common')
     expect(categoryOfNode({ kind: 'omake', scenes: [] })).toBe('common')
+    expect(categoryOfNode({ kind: 'branch', scenes: [] })).toBe('common')
   })
 
   it('arc は内包シーンの多数決カテゴリ（タイは CATEGORY_ORDER 優先で決定的）', () => {
@@ -65,18 +65,17 @@ describe('categoryOfNode — Flow ノード → 表示カテゴリ', () => {
     }
   })
 
-  it('SMAIN_* hub は分岐、NORMAL_END/TRUE_END はエンド（受入）', () => {
+  it('NORMAL_END/TRUE_END はエンド（受入）', () => {
     const byId = (id: string) => flow.nodes.find((n) => n.id === id)!
-    expect(categoryOfNode(byId('SMAIN_MIX01'))).toBe('branch')
     expect(categoryOfNode(byId('NORMAL_END'))).toBe('end')
     expect(categoryOfNode(byId('TRUE_END'))).toBe('end')
   })
 })
 
 describe('配色・凡例テーブルの整合', () => {
-  it('全カテゴリに色と表示名があり、順序が9件で重複なし', () => {
-    expect(CATEGORY_ORDER).toHaveLength(9)
-    expect(new Set(CATEGORY_ORDER).size).toBe(9)
+  it('全カテゴリに色と表示名があり、順序が8件で重複なし', () => {
+    expect(CATEGORY_ORDER).toHaveLength(8)
+    expect(new Set(CATEGORY_ORDER).size).toBe(8)
     for (const c of CATEGORY_ORDER) {
       expect(CATEGORY_COLOR[c]).toMatch(/^#[0-9a-f]{6}$/i)
       expect(CATEGORY_LABEL[c].length).toBeGreaterThan(0)

@@ -5,20 +5,13 @@
  * とは別概念。最大の違い: 双子合流(FUTA)・翼＋真琴合流(SUBTM)を独立カテゴリ `merge`(合流) に分離する
  * （audio.ts ではそれぞれ suzu / tuba レーンに畳む。BGM 挙動は変えない）。
  *
- * 凡例（9カテゴリ）: 共通 / 綾菜 / 涼菜 / 翼 / 真琴 / 楓 / 合流 / 分岐 / エンド。
+ * 凡例（8カテゴリ）: 共通 / 綾菜 / 涼菜 / 翼 / 真琴 / 楓 / 合流 / エンド。
+ * （旧「分岐」カテゴリは hub ノードの配色専用だったが、HU-55 で hub を畳んだため廃止。分岐は
+ *  選択肢シーンのラベル付き辺＝着地先カテゴリ色で表現する。）
  */
 import type { FlowNode } from '@/pipeline/types'
 
-export type Category =
-  | 'common'
-  | 'ayan'
-  | 'suzu'
-  | 'tuba'
-  | 'mako'
-  | 'kaede'
-  | 'merge'
-  | 'branch'
-  | 'end'
+export type Category = 'common' | 'ayan' | 'suzu' | 'tuba' | 'mako' | 'kaede' | 'merge' | 'end'
 
 // シーンコード接頭辞トークン → 表示カテゴリ（実データのルート系統を分析して確定）。
 // PRO/MAIN/NUKE=共通, AYAN/SUBA=綾菜, SUZU=涼菜, TUBA/SUBT=翼, MAKO=真琴, KAED=楓,
@@ -54,19 +47,18 @@ export const CATEGORY_ORDER: Category[] = [
   'mako',
   'kaede',
   'merge',
-  'branch',
   'end',
 ]
 
 /**
- * Flow ノード → 表示カテゴリ。hub=分岐 / end=エンド / start・omake=共通。
+ * Flow ノード → 表示カテゴリ。end=エンド / start・omake・branch(hub)=共通。
  * arc ノードは内包シーンの多数決カテゴリ（タイは CATEGORY_ORDER 優先で決定的）。
  * ※ シーン単位ノード化（HU-44）後は各ノードが単一シーン＝`categoryOfScene` で足りる。
+ *   hub(branch) は HU-55 で畳んで描画しないため配色対象外（呼ばれても共通に落とす）。
  */
 export function categoryOfNode(node: Pick<FlowNode, 'kind' | 'scenes'>): Category {
-  if (node.kind === 'branch') return 'branch'
   if (node.kind === 'end') return 'end'
-  if (node.kind === 'start' || node.kind === 'omake') return 'common'
+  if (node.kind === 'start' || node.kind === 'omake' || node.kind === 'branch') return 'common'
   const counts = new Map<Category, number>()
   for (const code of node.scenes) {
     const c = categoryOfScene(code)
@@ -93,7 +85,6 @@ export const CATEGORY_COLOR: Record<Category, string> = {
   mako: '#b08ae8',
   kaede: '#e0a94f',
   merge: '#6bbf73',
-  branch: '#e9c07a',
   end: '#ffd166',
 }
 
@@ -106,6 +97,5 @@ export const CATEGORY_LABEL: Record<Category, string> = {
   mako: '真琴',
   kaede: '楓',
   merge: '合流',
-  branch: '分岐',
   end: 'エンド',
 }

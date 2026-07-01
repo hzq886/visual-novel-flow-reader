@@ -121,7 +121,8 @@ function rfNodes(graph: SceneGraph, liveCode: string | null): Node<SceneNodeData
 // エッジ意匠（Image #4）: 分岐辺＝着地先カテゴリ色で太く・ラベル強調、構造リンク＝中間グレー、
 // arc 内連鎖＝淡いグレー。いずれも曲線（bezier）＋終点矢印で進行方向を示す。
 function edgeStroke(e: SceneGraphEdge): string {
-  if (e.branch) return CATEGORY_COLOR[e.category ?? 'branch'] ?? CATEGORY_COLOR.branch
+  // 分岐辺は着地先カテゴリ色（HU-45）。category 欠落時は共通色にフォールバック。
+  if (e.branch) return CATEGORY_COLOR[e.category ?? 'common'] ?? CATEGORY_COLOR.common
   if (e.variant === 'structural') return '#46536b'
   return '#2b3340'
 }
