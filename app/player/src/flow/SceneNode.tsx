@@ -6,7 +6,7 @@
  */
 import { Handle, Position, type NodeProps } from '@xyflow/react'
 import { CATEGORY_COLOR, type Category } from './category'
-import { SCENE_SIZE, HUB_SIZE } from './nodeSize'
+import { SCENE_SIZE, HUB_SIZE, END_SIZE } from './nodeSize'
 
 export type SceneNodeData = {
   kind: 'scene' | 'branch' | 'end' | 'omake'
@@ -27,6 +27,7 @@ export function SceneNode({ id, data }: NodeProps) {
   const d = data as SceneNodeData
   const color = CATEGORY_COLOR[d.category] ?? CATEGORY_COLOR.common
   const isScene = d.kind === 'scene'
+  const size = isScene ? SCENE_SIZE : d.kind === 'end' ? END_SIZE : HUB_SIZE
   const live = d.live
 
   const border = live ? '#ffe6a6' : '#2c3443'
@@ -39,8 +40,8 @@ export function SceneNode({ id, data }: NodeProps) {
       style={{
         display: 'flex',
         alignItems: 'stretch',
-        width: isScene ? SCENE_SIZE.width : HUB_SIZE.width,
-        minHeight: isScene ? SCENE_SIZE.height : HUB_SIZE.height,
+        width: size.width,
+        minHeight: size.height,
         background: 'linear-gradient(180deg,#1d2433,#161b26)',
         border: `1px solid ${border}`,
         borderRadius: 12,

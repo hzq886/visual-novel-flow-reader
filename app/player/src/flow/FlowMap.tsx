@@ -26,7 +26,7 @@ import { CATEGORY_COLOR, type Category } from './category'
 import { Legend } from './Legend'
 import { SceneNode, type SceneNodeData } from './SceneNode'
 import { GroupNode, type GroupNodeData } from './GroupNode'
-import { SCENE_SIZE, HUB_SIZE } from './nodeSize'
+import { SCENE_SIZE, HUB_SIZE, END_SIZE } from './nodeSize'
 import {
   buildSceneGraph,
   groupScenes,
@@ -39,16 +39,15 @@ import { layoutGraph, type GroupBox } from './layout'
 const flow = Flow.parse(flowJson)
 const sceneIndex = SceneIndex.parse(sceneIndexJson)
 
+// ノード種別ごとの寸法（scene / end / それ以外）。layout と初期ビュー基点で共有。
+const nodeSizeOf = (n: SceneGraphNode) =>
+  n.kind === 'scene' ? SCENE_SIZE : n.kind === 'end' ? END_SIZE : HUB_SIZE
+
 // 構造（ノード集合・エッジ・グループ）は locale 不変なので、レイアウトは一度だけ計算して使い回す。
 // 見出し文字列のみ locale 依存（描画時に現 locale の題へ差し替える）。
 const baseGraph = buildSceneGraph(flow, sceneIndex, 'jp')
 const groups = groupScenes(baseGraph)
-const { positions, groupBoxes } = layoutGraph(
-  baseGraph,
-  (n: SceneGraphNode) => (n.kind === 'scene' ? SCENE_SIZE : HUB_SIZE),
-  {},
-  groups,
-)
+const { positions, groupBoxes } = layoutGraph(baseGraph, nodeSizeOf, {}, groups)
 // TB レイアウトの初期表示基点（HU-53）: 最上段ノードの中心。ここを画面上部に据え、
 // zoom=1（等倍・可読）で表示 → ユーザは下方向へスクロール（パン）して残りを辿る。
 // 全体 fitView はしない（縮小して全ノードを一望にしない）。
@@ -58,7 +57,7 @@ const startCenterX = (() => {
   for (const n of baseGraph.nodes) {
     const p = positions.get(n.id)
     if (!p) continue
-    const s = n.kind === 'scene' ? SCENE_SIZE : HUB_SIZE
+    const s = nodeSizeOf(n)
     if (p.y < topY) {
       topY = p.y
       cx = p.x + s.width / 2

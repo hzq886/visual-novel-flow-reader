@@ -55,12 +55,13 @@ describe('buildSceneGraph — arc CFG → シーン単位グラフ', () => {
     expect(new Set(sceneNodes.map((n) => n.id)).size).toBe(sceneNodes.length)
   })
 
-  it('hub(branch) は畳まれてノード化されない／end・omake は残置（HU-55）', () => {
+  it('hub は畳まれ、ノーマルENDは分割・スタッフロールは削除（HU-55/56）', () => {
     expect(g.nodes.some((n) => n.id.startsWith('SMAIN_'))).toBe(false)
     expect(g.nodes.some((n) => n.kind === 'branch')).toBe(false)
-    const end = g.nodes.find((n) => n.id === 'NORMAL_END')
-    expect(end).toMatchObject({ kind: 'end', category: 'end' })
-    expect(g.nodes.some((n) => n.kind === 'omake')).toBe(true)
+    expect(g.nodes.some((n) => n.id === 'NORMAL_END')).toBe(false) // 個別エンドへ分割
+    expect(g.nodes.some((n) => n.id === 'STAFF_ROLL')).toBe(false) // 削除
+    expect(g.nodes.some((n) => n.kind === 'omake')).toBe(false)
+    expect(g.nodes.find((n) => n.id === 'TRUE_END')).toMatchObject({ kind: 'end' })
   })
 
   it('シーンノードはフルコード id と概要を持つ', () => {
@@ -114,6 +115,29 @@ describe('buildSceneGraph — arc CFG → シーン単位グラフ', () => {
     for (const code of ['006_TUBA002F', '006_TUBA002G', '005_MAKO001E', '003_SUZU006A']) {
       expect(owned.has(code)).toBe(true)
     }
+  })
+
+  it('ノーマルENDが攻略準拠の12個別エンドノードに分割される（HU-56）', () => {
+    const ends = g.nodes.filter((n) => n.kind === 'end')
+    // 12 分割エンド + TRUE_END = 13。
+    expect(ends.length).toBe(13)
+    const byArc = (arc: string) => g.nodes.find((n) => n.id === `END_${arc}`)
+    expect(byArc('004_FUTA004A')).toMatchObject({
+      kind: 'end',
+      category: 'end',
+      title: '綾菜＆涼菜 END【妊婦になった姉たち】',
+    })
+    expect(byArc('006_TUBA018A')?.title).toBe('翼 END3【喪失】')
+    expect(byArc('012_SUBTM004A')?.title).toBe('翼 END1【ゲームの結果】')
+    // 各ルート末尾から個別エンドへ辺が張られる（綾菜END1: 002_AYAN012B → END_002_AYAN010B）。
+    expect(
+      g.edges.some((e) => e.source === '002_AYAN012B' && e.target === 'END_002_AYAN010B'),
+    ).toBe(true)
+    // 006_TUBA018B は 翼END3 と TRUE_END の双方へ分岐する。
+    expect(
+      g.edges.some((e) => e.source === '006_TUBA018B' && e.target === 'END_006_TUBA018A'),
+    ).toBe(true)
+    expect(g.edges.some((e) => e.target === 'TRUE_END')).toBe(true)
   })
 
   it('全エッジの端点が実在ノードを指す', () => {
