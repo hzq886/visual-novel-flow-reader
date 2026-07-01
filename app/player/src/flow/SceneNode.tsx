@@ -50,8 +50,10 @@ export function SceneNode({ id, data }: NodeProps) {
         cursor: isScene ? 'pointer' : 'default',
       }}
     >
-      {/* 折り返しグリッド（HU-54）: 行内は左→右に流れるので、辺は左から入り右から出る。 */}
-      <Handle type="target" position={Position.Left} style={handleStyle(color)} />
+      {/* ハイブリッド配置（HU-54）: ラン内（一本道の折り返し）は横フロー＝左入り右出し、
+          ラン間（分岐骨格・dagre 扇状）は縦フロー＝上入り下出し。エッジ側で使うハンドルを選ぶ。 */}
+      <Handle id="tl" type="target" position={Position.Left} style={handleStyle(color)} />
+      <Handle id="tt" type="target" position={Position.Top} style={handleStyle(color)} />
       {/* カテゴリ色アクセントバー */}
       <div style={{ width: 5, background: color, flex: '0 0 auto' }} />
 
@@ -118,7 +120,8 @@ export function SceneNode({ id, data }: NodeProps) {
         </div>
       )}
 
-      <Handle type="source" position={Position.Right} style={handleStyle(color)} />
+      <Handle id="sr" type="source" position={Position.Right} style={handleStyle(color)} />
+      <Handle id="sb" type="source" position={Position.Bottom} style={handleStyle(color)} />
     </div>
   )
 }

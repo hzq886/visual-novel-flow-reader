@@ -1,6 +1,14 @@
 import { describe, expect, it } from 'vitest'
 import type { SceneGraph, SceneGraphNode } from './scenegraph'
-import { layoutGraph, layoutWrapped, wrappedGridWidth } from './layout'
+import { computeRuns, layoutGraph, layoutHybrid, layoutWrapped, wrappedGridWidth } from './layout'
+
+const edge = (s: string, t: string): SceneGraph['edges'][number] => ({
+  id: `e-${s}-${t}`,
+  source: s,
+  target: t,
+  variant: 'structural' as const,
+  branch: false,
+})
 
 const scene = (id: string): SceneGraphNode => ({
   id,
@@ -97,5 +105,86 @@ describe('layoutWrapped — 折り返しグリッド（HU-54）', () => {
     expect(wrappedGridWidth(20, 248, 48, 5)).toBe(5 * 248 + 4 * 48)
     // ノード数が perRow 未満なら実ノード数ぶん
     expect(wrappedGridWidth(3, 248, 48, 5)).toBe(3 * 248 + 2 * 48)
+  })
+})
+
+describe('computeRuns — 線形ラン（基本ブロック）分割（HU-54）', () => {
+  it('一本道は 1 ラン', () => {
+    const { runs, runOf } = computeRuns(chain(['a', 'b', 'c', 'd']))
+    expect(runs).toHaveLength(1)
+    expect(runs[0].nodeIds).toEqual(['a', 'b', 'c', 'd'])
+    expect(runOf.get('a')).toBe(runOf.get('d'))
+  })
+
+  it('分岐点でランが切れる（分岐直前までが 1 ラン、各分岐先は別ラン）', () => {
+    // a→b, b→c, b→d（b が分岐）。run: [a,b] / [c] / [d]。
+    const g: SceneGraph = {
+      nodes: ['a', 'b', 'c', 'd'].map(scene),
+      edges: [edge('a', 'b'), edge('b', 'c'), edge('b', 'd')],
+    }
+    const { runOf } = computeRuns(g)
+    expect(runOf.get('a')).toBe(runOf.get('b')) // 分岐直前まで同一ラン
+    expect(runOf.get('c')).not.toBe(runOf.get('b'))
+    expect(runOf.get('d')).not.toBe(runOf.get('b'))
+    expect(runOf.get('c')).not.toBe(runOf.get('d'))
+  })
+
+  it('合流点は新しいランの先頭（indeg>1）', () => {
+    // a→c, b→c（c が合流）。c は単独で別ラン。
+    const g: SceneGraph = {
+      nodes: ['a', 'b', 'c'].map(scene),
+      edges: [edge('a', 'c'), edge('b', 'c')],
+    }
+    const { runOf } = computeRuns(g)
+    expect(runOf.get('c')).not.toBe(runOf.get('a'))
+    expect(runOf.get('c')).not.toBe(runOf.get('b'))
+  })
+
+  it('全ノードがちょうど 1 つのランに属する', () => {
+    const g: SceneGraph = {
+      nodes: ['a', 'b', 'c', 'd', 'e'].map(scene),
+      edges: [edge('a', 'b'), edge('b', 'c'), edge('b', 'd'), edge('c', 'e'), edge('d', 'e')],
+    }
+    const { runs, runOf } = computeRuns(g)
+    const assigned = runs.flatMap((r) => r.nodeIds)
+    expect(new Set(assigned).size).toBe(5)
+    for (const id of ['a', 'b', 'c', 'd', 'e']) expect(runOf.has(id)).toBe(true)
+  })
+})
+
+describe('layoutHybrid — 線形ラン折り返し＋分岐 dagre 扇状（HU-54）', () => {
+  const opts = { perRow: 5, gapX: 48, gapY: 72, cellW: 248, cellH: 58 }
+
+  it('ラン内は折り返しグリッド（6個目で先頭列へ・次行へ）', () => {
+    const g = chain(['n0', 'n1', 'n2', 'n3', 'n4', 'n5'])
+    const { positions } = layoutHybrid(g, size, opts)
+    expect(positions.get('n1')!.x).toBeGreaterThan(positions.get('n0')!.x) // 行内 右
+    expect(positions.get('n4')!.y).toBe(positions.get('n0')!.y) // 同行
+    expect(positions.get('n5')!.x).toBe(positions.get('n0')!.x) // 折り返し先頭列
+    expect(positions.get('n5')!.y).toBeGreaterThan(positions.get('n0')!.y) // 次行
+  })
+
+  it('分岐の子ランは親ランより下（TB 骨格）に扇状配置', () => {
+    // H→a→b（親ラン）、b 分岐 → x（子ラン1）/ y（子ラン2）
+    const g: SceneGraph = {
+      nodes: ['H', 'a', 'b', 'x', 'y'].map(scene),
+      edges: [edge('H', 'a'), edge('a', 'b'), edge('b', 'x'), edge('b', 'y')],
+    }
+    const { positions, runOf } = layoutHybrid(g, size, opts)
+    // 子は親（b）より下
+    expect(positions.get('x')!.y).toBeGreaterThan(positions.get('b')!.y)
+    expect(positions.get('y')!.y).toBeGreaterThan(positions.get('b')!.y)
+    // ラン内（H,a,b）は同一ラン、子は別ラン
+    expect(runOf.get('a')).toBe(runOf.get('b'))
+    expect(runOf.get('x')).not.toBe(runOf.get('b'))
+  })
+
+  it('全ノードに座標が付く', () => {
+    const g: SceneGraph = {
+      nodes: ['a', 'b', 'c', 'd'].map(scene),
+      edges: [edge('a', 'b'), edge('b', 'c'), edge('b', 'd')],
+    }
+    const { positions } = layoutHybrid(g, size, opts)
+    for (const id of ['a', 'b', 'c', 'd']) expect(positions.get(id)).toBeDefined()
   })
 })

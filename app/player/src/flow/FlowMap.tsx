@@ -34,32 +34,45 @@ import {
   type SceneGraphEdge,
   type SceneGraphNode,
 } from './scenegraph'
-import { layoutWrapped, wrappedGridWidth, type NodeSize } from './layout'
+import { layoutHybrid, type NodeSize } from './layout'
 
 const flow = Flow.parse(flowJson)
 const sceneIndex = SceneIndex.parse(sceneIndexJson)
 
-// 構造（ノード順・エッジ・グループ）は locale 不変。折り返しグリッド配置を一度だけ計算して使い回す。
+// 構造（ノード順・エッジ・グループ）は locale 不変。ハイブリッド配置を一度だけ計算して使い回す。
 // 見出し文字列のみ locale 依存（描画時に現 locale の題へ差し替える）。
 const baseGraph = buildSceneGraph(flow, sceneIndex, 'jp')
 const groups = groupScenes(baseGraph)
 
-// 折り返しグリッド（HU-54）: ストーリー順に PER_ROW 個ずつ左→右、行末で次行へ折り返す（image #5）。
+// ハイブリッド配置（HU-54）: 線形ラン＝折り返しグリッド（PER_ROW 個/行）、分岐骨格＝dagre 扇状。
 const PER_ROW = 5
 const GAP_X = 48
 const GAP_Y = 72
 const CELL = SCENE_SIZE // 均一セル（最大ノード幅基準）。hub/end 等は中央寄せで整列。
 const sizeOf = (n: SceneGraphNode): NodeSize => (n.kind === 'scene' ? SCENE_SIZE : HUB_SIZE)
 
-const positions = layoutWrapped(baseGraph, sizeOf, {
+const { positions, runOf } = layoutHybrid(baseGraph, sizeOf, {
   perRow: PER_ROW,
   gapX: GAP_X,
   gapY: GAP_Y,
   cellW: CELL.width,
   cellH: CELL.height,
 })
-// 初期ビュー: グリッド最上行を上部・水平中央へ（HU-53 の非fitView・上端スタート・rAF 定着を流用）。
-const gridWidth = wrappedGridWidth(baseGraph.nodes.length, CELL.width, GAP_X, PER_ROW)
+// 初期ビュー基点: 最上段ノードの中心 x と上端 y（ここを画面上部・水平中央へ据える）。
+const startCenter = (() => {
+  let topY = Infinity
+  let cx = 0
+  for (const n of baseGraph.nodes) {
+    const p = positions.get(n.id)
+    if (!p) continue
+    const s = sizeOf(n)
+    if (p.y < topY) {
+      topY = p.y
+      cx = p.x + s.width / 2
+    }
+  }
+  return { cx, topY: topY === Infinity ? 0 : topY }
+})()
 
 // 題なし継続シーン（HU-51 グループの head 以外メンバー）は、折り返しグリッドではコンテナ枠を持てない
 // ため、head のエピソード題を自セルの見出しに継承表示する（短縮コードの羅列を避ける）。member id → head id。
@@ -103,12 +116,15 @@ function edgeStroke(e: SceneGraphEdge): string {
 function rfEdges(graph: SceneGraph): Edge[] {
   return graph.edges.map((e) => {
     const stroke = edgeStroke(e)
+    // ラン内（一本道の折り返し）は横フロー＝右→左のハンドル、ラン間（分岐骨格・dagre 扇状）は
+    // 縦フロー＝下→上のハンドルに接続（HU-54）。これで折り返しは水平、分岐は綺麗な縦扇状になる。
+    const within = runOf.get(e.source) === runOf.get(e.target)
     return {
       id: e.id,
       source: e.source,
       target: e.target,
-      // 折り返しグリッド（HU-54）: 行内は短い水平線、折り返し接続線・分岐線は行跨ぎになるため
-      // 直交ルーティング（smoothstep）で整える（image #5 の折り返し接続線の見た目）。
+      sourceHandle: within ? 'sr' : 'sb',
+      targetHandle: within ? 'tl' : 'tt',
       type: 'smoothstep',
       ...(e.label ? { label: e.label } : {}),
       style: { stroke, strokeWidth: e.branch ? 2.4 : e.variant === 'structural' ? 2 : 1.5 },
@@ -146,16 +162,16 @@ export function FlowMap({ onJump }: { onJump?: () => void } = {}) {
     setEdges(rfEdges(graph))
   }, [graph, sceneCode, setNodes, setEdges])
 
-  // 初期ビュー: グリッド最上行をコンテナ上部・水平中央へ等倍で据える（HU-54）。以降はユーザが
-  // 下へパン/スクロールして辿る。グリッドは x=0 起点なので、幅 gridWidth をコンテナ実幅の中央へ寄せる
-  // （HU-52 の 16:9 枠内でも正しい）。座標は明示ズーム基準（*INIT_ZOOM）で計算。
+  // 初期ビュー: 最上段ノードをコンテナ上部・水平中央へ等倍で据える（HU-54）。以降はユーザが
+  // 下へパン/スクロールして辿る。水平中央は FlowMap コンテナ実幅基準（HU-52 の 16:9 枠内でも正しい）。
+  // 座標は明示ズーム基準（*INIT_ZOOM）で計算するのでどのタイミングで適用しても中央がずれない。
   const applyInitialView = useCallback((rf: ReactFlowInstance<Node, Edge>) => {
     const INIT_ZOOM = 1 // 等倍・可読サイズ。
-    const topPad = 96 // 上端の見出し（Legend）下に最上行を収める余白。
+    const topPad = 96 // 上端の見出し（Legend）下に最上段ノードを収める余白。
     const width = containerRef.current?.clientWidth ?? window.innerWidth
     rf.setViewport({
-      x: (width - gridWidth * INIT_ZOOM) / 2,
-      y: topPad,
+      x: width / 2 - startCenter.cx * INIT_ZOOM,
+      y: topPad - startCenter.topY * INIT_ZOOM,
       zoom: INIT_ZOOM,
     })
   }, [])

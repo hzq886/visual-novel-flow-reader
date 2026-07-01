@@ -121,3 +121,139 @@ export function wrappedGridWidth(nodeCount: number, cellW: number, gapX = 48, pe
   const cols = Math.min(Math.max(1, perRow), Math.max(1, nodeCount))
   return cols * cellW + (cols - 1) * gapX
 }
+
+// ───────────────────────────────────────────────────────────────────────────
+// ハイブリッド配置（HU-54）: 線形ラン＝折り返しグリッド、分岐骨格＝dagre 扇状。
+// ───────────────────────────────────────────────────────────────────────────
+
+/** 線形ラン（基本ブロック）: 分岐/合流で区切られた一本道の連続ノード列。 */
+export type Run = { id: string; nodeIds: string[] }
+export type RunSegmentation = { runs: Run[]; runOf: Map<string, string> }
+
+/**
+ * SceneGraph を基本ブロック（線形ラン）へ分割する。leader（ラン先頭）= indeg≠1、または唯一の
+ * 先行ノードが分岐（outdeg>1）するノード。leader から outdeg==1 かつ後続 indeg==1 が続く限り連結。
+ * ＝分岐点/合流点で切れる「一本道」の最大列。純関数（Vitest 対象）。
+ */
+export function computeRuns(graph: SceneGraph): RunSegmentation {
+  const outdeg = new Map<string, number>()
+  const indeg = new Map<string, number>()
+  const succ = new Map<string, string[]>()
+  const pred = new Map<string, string[]>()
+  for (const n of graph.nodes) {
+    outdeg.set(n.id, 0)
+    indeg.set(n.id, 0)
+    succ.set(n.id, [])
+    pred.set(n.id, [])
+  }
+  for (const e of graph.edges) {
+    if (!outdeg.has(e.source) || !indeg.has(e.target)) continue
+    outdeg.set(e.source, outdeg.get(e.source)! + 1)
+    indeg.set(e.target, indeg.get(e.target)! + 1)
+    succ.get(e.source)!.push(e.target)
+    pred.get(e.target)!.push(e.source)
+  }
+  const isLeader = (id: string): boolean => {
+    if (indeg.get(id) !== 1) return true // indeg 0（開始）or >1（合流）は必ず先頭
+    return (outdeg.get(pred.get(id)![0]) ?? 0) > 1 // 唯一の先行が分岐するなら先頭
+  }
+  const runOf = new Map<string, string>()
+  const runs: Run[] = []
+  const startRun = (leader: string) => {
+    const nodeIds: string[] = []
+    let cur: string | undefined = leader
+    while (cur && !runOf.has(cur)) {
+      nodeIds.push(cur)
+      runOf.set(cur, `run-${leader}`)
+      if (outdeg.get(cur) === 1) {
+        const s: string = succ.get(cur)![0]
+        if (indeg.get(s) === 1 && !runOf.has(s)) {
+          cur = s
+          continue
+        }
+      }
+      break
+    }
+    runs.push({ id: `run-${leader}`, nodeIds })
+  }
+  for (const n of graph.nodes) if (!runOf.has(n.id) && isLeader(n.id)) startRun(n.id)
+  // 取りこぼし（leader に辿れないサイクル等）は単独ランに（安全網）。
+  for (const n of graph.nodes) if (!runOf.has(n.id)) startRun(n.id)
+  return { runs, runOf }
+}
+
+export type HybridOptions = {
+  perRow?: number // ラン内 折り返し 1 行あたり（既定 5）
+  gapX?: number
+  gapY?: number
+  cellW: number
+  cellH: number
+  ranksep?: number // 骨格 dagre のランク間（縦）間隔
+  nodesep?: number // 骨格 dagre の同ランク内（横）間隔＝分岐の兄弟ラン間
+}
+
+/**
+ * ハイブリッド配置（HU-54）: 線形ランを塊に縮約し骨格を dagre(TB) で扇状レイアウト → 各ランを
+ * その塊の中で row-major 折り返しグリッド（perRow 個/行）に展開する。分岐は dagre の綺麗な扇状、
+ * 一本道は折り返しでコンパクト。返り値の runOf はエッジのハンドル選択（ラン内=横／ラン間=縦）に使う。
+ */
+export function layoutHybrid(
+  graph: SceneGraph,
+  size: (node: SceneGraphNode) => NodeSize,
+  opts: HybridOptions,
+): { positions: Positions; runOf: Map<string, string> } {
+  const perRow = Math.max(1, opts.perRow ?? 5)
+  const gapX = opts.gapX ?? 48
+  const gapY = opts.gapY ?? 68
+  const { cellW, cellH } = opts
+  const { runs, runOf } = computeRuns(graph)
+  const byId = new Map(graph.nodes.map((n) => [n.id, n]))
+
+  const g = new Dagre.graphlib.Graph()
+  g.setGraph({
+    rankdir: 'TB',
+    ranksep: opts.ranksep ?? 130,
+    nodesep: opts.nodesep ?? 80,
+    marginx: 24,
+    marginy: 24,
+  })
+  g.setDefaultEdgeLabel(() => ({}))
+  for (const run of runs) {
+    const len = run.nodeIds.length
+    const cols = Math.min(len, perRow)
+    const rows = Math.ceil(len / perRow)
+    g.setNode(run.id, {
+      width: cols * cellW + (cols - 1) * gapX,
+      height: rows * cellH + (rows - 1) * gapY,
+    })
+  }
+  const seen = new Set<string>()
+  for (const e of graph.edges) {
+    const ru = runOf.get(e.source)
+    const rv = runOf.get(e.target)
+    if (!ru || !rv || ru === rv) continue
+    const key = `${ru}>${rv}`
+    if (seen.has(key)) continue
+    seen.add(key)
+    g.setEdge(ru, rv)
+  }
+  Dagre.layout(g)
+
+  const positions: Positions = new Map()
+  for (const run of runs) {
+    const box = g.node(run.id)
+    if (!box) continue
+    const left = box.x - box.width / 2
+    const top = box.y - box.height / 2
+    run.nodeIds.forEach((id, i) => {
+      const col = i % perRow
+      const row = Math.floor(i / perRow)
+      const s = size(byId.get(id)!)
+      positions.set(id, {
+        x: left + col * (cellW + gapX) + (cellW - s.width) / 2,
+        y: top + row * (cellH + gapY) + (cellH - s.height) / 2,
+      })
+    })
+  }
+  return { positions, runOf }
+}
