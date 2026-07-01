@@ -50,8 +50,8 @@ export function SceneNode({ id, data }: NodeProps) {
         cursor: isScene ? 'pointer' : 'default',
       }}
     >
-      {/* TB レイアウト（HU-53）: 辺は上から入り下から出る。 */}
-      <Handle type="target" position={Position.Top} style={handleStyle(color)} />
+      {/* 折り返しグリッド（HU-54）: 行内は左→右に流れるので、辺は左から入り右から出る。 */}
+      <Handle type="target" position={Position.Left} style={handleStyle(color)} />
       {/* カテゴリ色アクセントバー */}
       <div style={{ width: 5, background: color, flex: '0 0 auto' }} />
 
@@ -82,24 +82,22 @@ export function SceneNode({ id, data }: NodeProps) {
           >
             {id}
           </span>
-          {/* ひと言概要（グループ内は見出しをコンテナに譲るので非表示） */}
-          {!d.grouped && (
-            <span
-              style={{
-                flex: 1,
-                minWidth: 0,
-                color: live ? '#fff3d6' : '#e7ecf3',
-                fontSize: 13,
-                fontWeight: 700,
-                overflow: 'hidden',
-                textOverflow: 'ellipsis',
-                whiteSpace: 'nowrap',
-              }}
-              title={d.title}
-            >
-              {d.title}
-            </span>
-          )}
+          {/* ひと言概要（グループメンバーは head のエピソード題を継承表示・HU-54） */}
+          <span
+            style={{
+              flex: 1,
+              minWidth: 0,
+              color: live ? '#fff3d6' : d.grouped ? '#aeb8c6' : '#e7ecf3',
+              fontSize: 13,
+              fontWeight: 700,
+              overflow: 'hidden',
+              textOverflow: 'ellipsis',
+              whiteSpace: 'nowrap',
+            }}
+            title={d.title}
+          >
+            {d.title}
+          </span>
         </div>
       ) : (
         <div
@@ -120,7 +118,7 @@ export function SceneNode({ id, data }: NodeProps) {
         </div>
       )}
 
-      <Handle type="source" position={Position.Bottom} style={handleStyle(color)} />
+      <Handle type="source" position={Position.Right} style={handleStyle(color)} />
     </div>
   )
 }

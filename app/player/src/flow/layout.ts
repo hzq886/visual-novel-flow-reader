@@ -79,3 +79,45 @@ export function layoutGraph(
   }
   return { positions, groupBoxes }
 }
+
+export type WrapOptions = {
+  perRow?: number // 1 行に並べるノード数（既定 5）
+  gapX?: number // セル間 水平間隔
+  gapY?: number // セル間 垂直間隔（折り返し接続線・分岐線が通る余白）
+  cellW: number // 均一セル幅（最大ノード幅＝SCENE_SIZE.width 想定）
+  cellH: number // 均一セル高
+}
+
+/**
+ * SceneGraph → row-major 折り返しグリッド配置（HU-54）。`graph.nodes` の順（＝flow.json 宣言順
+ * ＝ストーリー順）で左→右に `perRow` 個ずつ並べ、行末で次行先頭へ折り返す（全行 左→右）。
+ * 各ノードは均一セル内で中央寄せ（hub/end など小さいノードも整列して見える）。
+ * 分岐（DAG）はこの線形順の着地先へエッジが張られる（配置は線形・エッジが分岐を表す）。
+ */
+export function layoutWrapped(
+  graph: SceneGraph,
+  size: (node: SceneGraphNode) => NodeSize,
+  opts: WrapOptions,
+): Positions {
+  const perRow = Math.max(1, opts.perRow ?? 5)
+  const gapX = opts.gapX ?? 48
+  const gapY = opts.gapY ?? 68
+  const { cellW, cellH } = opts
+  const positions: Positions = new Map()
+  graph.nodes.forEach((n, i) => {
+    const col = i % perRow
+    const row = Math.floor(i / perRow)
+    const s = size(n)
+    positions.set(n.id, {
+      x: col * (cellW + gapX) + (cellW - s.width) / 2,
+      y: row * (cellH + gapY) + (cellH - s.height) / 2,
+    })
+  })
+  return positions
+}
+
+/** 折り返しグリッド全体の幅（初期ビューの水平中央寄せ用）。 */
+export function wrappedGridWidth(nodeCount: number, cellW: number, gapX = 48, perRow = 5): number {
+  const cols = Math.min(Math.max(1, perRow), Math.max(1, nodeCount))
+  return cols * cellW + (cols - 1) * gapX
+}
