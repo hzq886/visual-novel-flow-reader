@@ -55,11 +55,12 @@ describe('buildSceneGraph — arc CFG → シーン単位グラフ', () => {
     expect(new Set(sceneNodes.map((n) => n.id)).size).toBe(sceneNodes.length)
   })
 
-  it('hub(分岐)/end ノードはノードとして残置し、カテゴリが付く', () => {
-    const mix01 = g.nodes.find((n) => n.id === 'SMAIN_MIX01')
-    expect(mix01).toMatchObject({ kind: 'branch', category: 'branch' })
+  it('hub(branch) は畳まれてノード化されない／end・omake は残置（HU-55）', () => {
+    expect(g.nodes.some((n) => n.id.startsWith('SMAIN_'))).toBe(false)
+    expect(g.nodes.some((n) => n.kind === 'branch')).toBe(false)
     const end = g.nodes.find((n) => n.id === 'NORMAL_END')
     expect(end).toMatchObject({ kind: 'end', category: 'end' })
+    expect(g.nodes.some((n) => n.kind === 'omake')).toBe(true)
   })
 
   it('シーンノードはフルコード id と概要を持つ', () => {
@@ -85,8 +86,34 @@ describe('buildSceneGraph — arc CFG → シーン単位グラフ', () => {
     expect(e2?.label).toBe('背徳に溺れて、このまま続ける')
   })
 
-  it('hub への合流エッジが残る（受入: SMAIN_* を指すエッジが存在）', () => {
-    expect(g.edges.some((e) => e.target.startsWith('SMAIN_'))).toBe(true)
+  it('hub 宛/発のエッジは残らず、合流は継続先の実シーンへ張り替わる（HU-55 受入）', () => {
+    expect(
+      g.edges.some((e) => e.source.startsWith('SMAIN_') || e.target.startsWith('SMAIN_')),
+    ).toBe(false)
+    // TUBA03 合流: 002E 経路・002C 経路がともに実シーン 006_TUBA002F へ直結する。
+    expect(g.edges.some((e) => e.source === '006_TUBA002E' && e.target === '006_TUBA002F')).toBe(
+      true,
+    )
+    expect(g.edges.some((e) => e.source === '006_TUBA002C' && e.target === '006_TUBA002F')).toBe(
+      true,
+    )
+  })
+
+  it('選択肢の分岐ラベルは hub を畳んでも継続先の実シーンへの辺に移設される（HU-55 受入）', () => {
+    // 002_AYAN008A（arc 002_AYAN007A 末尾）の選択肢「特に贔屓はしない」→ 旧 SMAIN_SUZU01 → 003_SUZU006A。
+    const e = g.edges.find((x) => x.source === '002_AYAN008A' && x.target === '003_SUZU006A')!
+    expect(e.label).toBe('特に贔屓はしない')
+    expect(e.branch).toBe(true)
+  })
+
+  it('hub 直後の題なし arc 先頭シーンが単独の裸コードにならず群に吸収される（HU-55 受入）', () => {
+    // 旧 SMAIN_TUBA03 直後の 006_TUBA002F は題なしだが、畳み込みで 002E/002C（題あり）と直結し
+    // タイトル群に吸収される（どの群にも属さない単独状態にならない）。
+    const groups = groupScenes(g)
+    const owned = new Set(groups.flatMap((x) => x.memberIds))
+    for (const code of ['006_TUBA002F', '006_TUBA002G', '005_MAKO001E', '003_SUZU006A']) {
+      expect(owned.has(code)).toBe(true)
+    }
   })
 
   it('全エッジの端点が実在ノードを指す', () => {
@@ -171,7 +198,7 @@ describe('groupScenes — タイトル群（HU-51）', () => {
   const hub = (id: string): SceneGraphNode => ({
     id,
     kind: 'branch',
-    category: 'branch',
+    category: 'common',
     title: id,
   })
   const edge = (s: string, t: string): SceneGraph['edges'][number] => ({
