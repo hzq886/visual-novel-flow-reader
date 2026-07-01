@@ -4,7 +4,7 @@
  * カテゴリ別配色（category.ts の9分類）の SceneNode／ラベル付きエッジ＋凡例（Legend）を表示する。
  * 再生中シーン（usePlayer.scene）のノードを金枠でハイライトしてストーリー進行と連動させる。
  */
-import { useCallback, useEffect, useMemo } from 'react'
+import { useCallback, useEffect, useMemo, useRef } from 'react'
 import {
   Background,
   Controls,
@@ -15,6 +15,7 @@ import {
   useNodesState,
   type Edge,
   type Node,
+  type ReactFlowInstance,
 } from '@xyflow/react'
 import '@xyflow/react/dist/style.css'
 import flowJson from '@data/flow.json'
@@ -48,6 +49,24 @@ const { positions, groupBoxes } = layoutGraph(
   {},
   groups,
 )
+// TB レイアウトの初期表示基点（HU-53）: 最上段ノードの中心。ここを画面上部に据え、
+// zoom=1（等倍・可読）で表示 → ユーザは下方向へスクロール（パン）して残りを辿る。
+// 全体 fitView はしない（縮小して全ノードを一望にしない）。
+const startCenterX = (() => {
+  let topY = Infinity
+  let cx = 0
+  for (const n of baseGraph.nodes) {
+    const p = positions.get(n.id)
+    if (!p) continue
+    const s = n.kind === 'scene' ? SCENE_SIZE : HUB_SIZE
+    if (p.y < topY) {
+      topY = p.y
+      cx = p.x + s.width / 2
+    }
+  }
+  return { cx, topY: topY === Infinity ? 0 : topY }
+})()
+
 // メンバー id → 属する群（コンテナ見出し差し替え・grouped フラグ用）。
 const groupByMember = new Map<string, (typeof groups)[number]>()
 for (const g of groups) for (const m of g.memberIds) groupByMember.set(m, g)
@@ -137,6 +156,10 @@ export function FlowMap({ onJump }: { onJump?: () => void } = {}) {
   // 見出しは locale 依存（ノード/エッジ構造は不変）。
   const graph = useMemo(() => buildSceneGraph(flow, sceneIndex, locale), [locale])
 
+  // FlowMap コンテナの実寸参照。水平中央寄せは window ではなくこの幅基準で計算する
+  // （HU-52 でアプリが 16:9 枠に収まると FlowMap 幅 < window 幅になるため）。
+  const containerRef = useRef<HTMLDivElement>(null)
+
   // コンテナ（groupBox）を配列先頭＝最背面に、シーン/hub ノードを前面に重ねる。
   const [nodes, setNodes, onNodesChange] = useNodesState<Node>([
     ...rfGroupNodes(graph),
@@ -150,6 +173,30 @@ export function FlowMap({ onJump }: { onJump?: () => void } = {}) {
     setEdges(rfEdges(graph))
   }, [graph, sceneCode, setNodes, setEdges])
 
+  // 初期ビュー: 最上段ノードをコンテナ上部・水平中央へ等倍で据える（HU-53）。以降はユーザが
+  // 下へパン/スクロールして辿る。座標は明示ズーム基準（*INIT_ZOOM）で計算するのでどのタイミングで
+  // 適用しても中央がずれない。水平中央は FlowMap コンテナ実幅基準（HU-52 の 16:9 枠内でも正しい）。
+  const applyInitialView = useCallback((rf: ReactFlowInstance<Node, Edge>) => {
+    const INIT_ZOOM = 1 // 等倍・可読サイズ。
+    const topPad = 96 // 上端の見出し（Legend）下に最上段ノードを収める余白。
+    const width = containerRef.current?.clientWidth ?? window.innerWidth
+    rf.setViewport({
+      x: width / 2 - startCenterX.cx * INIT_ZOOM,
+      y: topPad - startCenterX.topY * INIT_ZOOM,
+      zoom: INIT_ZOOM,
+    })
+  }, [])
+
+  // onInit 直後の setViewport は React Flow の初期フィットに上書きされ得るため、描画確定後
+  // （rAF 2 フレーム）に再適用して確実に定着させる。
+  const onInit = useCallback(
+    (rf: ReactFlowInstance<Node, Edge>) => {
+      applyInitialView(rf)
+      requestAnimationFrame(() => requestAnimationFrame(() => applyInitialView(rf)))
+    },
+    [applyInitialView],
+  )
+
   // シーンノードのクリックで物語をそのシーン先頭へスキップし、物語ビューへ戻す（HU-46）。
   // hub(分岐)/end/omake・コンテナは再生対象シーンが無いので無視する。
   const onNodeClick = useCallback(
@@ -162,7 +209,7 @@ export function FlowMap({ onJump }: { onJump?: () => void } = {}) {
   )
 
   return (
-    <div style={{ width: '100%', height: '100%', position: 'relative' }}>
+    <div ref={containerRef} style={{ width: '100%', height: '100%', position: 'relative' }}>
       <div
         style={{
           position: 'absolute',
@@ -182,9 +229,11 @@ export function FlowMap({ onJump }: { onJump?: () => void } = {}) {
         onNodesChange={onNodesChange}
         onEdgesChange={onEdgesChange}
         onNodeClick={onNodeClick}
+        onInit={onInit}
         nodesDraggable={false}
-        minZoom={0.03}
-        fitView
+        minZoom={0.2}
+        maxZoom={1.5}
+        defaultViewport={{ x: 0, y: 0, zoom: 1 }}
         proOptions={{ hideAttribution: true }}
         style={{ background: '#13161c' }}
       >

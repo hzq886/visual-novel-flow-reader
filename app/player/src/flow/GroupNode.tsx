@@ -45,11 +45,11 @@ export function GroupNode({ data }: NodeProps) {
       >
         {d.title}
       </div>
-      {/* React Flow が type 付きノードに要求する最小限のハンドル（非表示・接続なし）。 */}
-      <Handle type="target" position={Position.Left} style={{ opacity: 0 }} isConnectable={false} />
+      {/* React Flow が type 付きノードに要求する最小限のハンドル（非表示・接続なし）。TB では上下。 */}
+      <Handle type="target" position={Position.Top} style={{ opacity: 0 }} isConnectable={false} />
       <Handle
         type="source"
-        position={Position.Right}
+        position={Position.Bottom}
         style={{ opacity: 0 }}
         isConnectable={false}
       />
