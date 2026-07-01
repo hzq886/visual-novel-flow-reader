@@ -173,18 +173,29 @@ export function FlowMap({ onJump }: { onJump?: () => void } = {}) {
     setEdges(rfEdges(graph))
   }, [graph, sceneCode, setNodes, setEdges])
 
-  // マウント時（map ビューを開くたび）に最上段ノードをコンテナ上部・水平中央へ据える（HU-53）。
-  // zoom=1 等倍で最上部から ~5 ノード分が見え、以降はユーザが下へパン/スクロールして辿る。
-  // 水平中央は FlowMap コンテナの実幅基準（HU-52 の 16:9 レターボックス枠内でも正しく中央寄せ）。
-  const onInit = useCallback((rf: ReactFlowInstance<Node, Edge>) => {
+  // 初期ビュー: 最上段ノードをコンテナ上部・水平中央へ等倍で据える（HU-53）。以降はユーザが
+  // 下へパン/スクロールして辿る。座標は明示ズーム基準（*INIT_ZOOM）で計算するのでどのタイミングで
+  // 適用しても中央がずれない。水平中央は FlowMap コンテナ実幅基準（HU-52 の 16:9 枠内でも正しい）。
+  const applyInitialView = useCallback((rf: ReactFlowInstance<Node, Edge>) => {
+    const INIT_ZOOM = 1 // 等倍・可読サイズ。
     const topPad = 96 // 上端の見出し（Legend）下に最上段ノードを収める余白。
     const width = containerRef.current?.clientWidth ?? window.innerWidth
     rf.setViewport({
-      x: width / 2 - startCenterX.cx,
-      y: topPad - startCenterX.topY,
-      zoom: 1,
+      x: width / 2 - startCenterX.cx * INIT_ZOOM,
+      y: topPad - startCenterX.topY * INIT_ZOOM,
+      zoom: INIT_ZOOM,
     })
   }, [])
+
+  // onInit 直後の setViewport は React Flow の初期フィットに上書きされ得るため、描画確定後
+  // （rAF 2 フレーム）に再適用して確実に定着させる。
+  const onInit = useCallback(
+    (rf: ReactFlowInstance<Node, Edge>) => {
+      applyInitialView(rf)
+      requestAnimationFrame(() => requestAnimationFrame(() => applyInitialView(rf)))
+    },
+    [applyInitialView],
+  )
 
   // シーンノードのクリックで物語をそのシーン先頭へスキップし、物語ビューへ戻す（HU-46）。
   // hub(分岐)/end/omake・コンテナは再生対象シーンが無いので無視する。
