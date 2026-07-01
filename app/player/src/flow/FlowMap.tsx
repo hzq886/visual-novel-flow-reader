@@ -15,6 +15,7 @@ import {
   useNodesState,
   type Edge,
   type Node,
+  type ReactFlowInstance,
 } from '@xyflow/react'
 import '@xyflow/react/dist/style.css'
 import flowJson from '@data/flow.json'
@@ -48,6 +49,24 @@ const { positions, groupBoxes } = layoutGraph(
   {},
   groups,
 )
+// TB レイアウトの初期表示基点（HU-53）: 最上段ノードの中心。ここを画面上部に据え、
+// zoom=1（等倍・可読）で表示 → ユーザは下方向へスクロール（パン）して残りを辿る。
+// 全体 fitView はしない（縮小して全ノードを一望にしない）。
+const startCenterX = (() => {
+  let topY = Infinity
+  let cx = 0
+  for (const n of baseGraph.nodes) {
+    const p = positions.get(n.id)
+    if (!p) continue
+    const s = n.kind === 'scene' ? SCENE_SIZE : HUB_SIZE
+    if (p.y < topY) {
+      topY = p.y
+      cx = p.x + s.width / 2
+    }
+  }
+  return { cx, topY: topY === Infinity ? 0 : topY }
+})()
+
 // メンバー id → 属する群（コンテナ見出し差し替え・grouped フラグ用）。
 const groupByMember = new Map<string, (typeof groups)[number]>()
 for (const g of groups) for (const m of g.memberIds) groupByMember.set(m, g)
@@ -150,6 +169,18 @@ export function FlowMap({ onJump }: { onJump?: () => void } = {}) {
     setEdges(rfEdges(graph))
   }, [graph, sceneCode, setNodes, setEdges])
 
+  // マウント時（map ビューを開くたび）に最上段ノードを画面上部・水平中央へ据える（HU-53）。
+  // zoom=1 等倍で最上部から ~5 ノード分が見え、以降はユーザが下へパン/スクロールして辿る。
+  // FlowMap は全画面（inset:0）オーバーレイなので水平中央は window 幅で近似できる。
+  const onInit = useCallback((rf: ReactFlowInstance<Node, Edge>) => {
+    const topPad = 96 // 上端の見出し（Legend）下に最上段ノードを収める余白。
+    rf.setViewport({
+      x: window.innerWidth / 2 - startCenterX.cx,
+      y: topPad - startCenterX.topY,
+      zoom: 1,
+    })
+  }, [])
+
   // シーンノードのクリックで物語をそのシーン先頭へスキップし、物語ビューへ戻す（HU-46）。
   // hub(分岐)/end/omake・コンテナは再生対象シーンが無いので無視する。
   const onNodeClick = useCallback(
@@ -182,9 +213,11 @@ export function FlowMap({ onJump }: { onJump?: () => void } = {}) {
         onNodesChange={onNodesChange}
         onEdgesChange={onEdgesChange}
         onNodeClick={onNodeClick}
+        onInit={onInit}
         nodesDraggable={false}
-        minZoom={0.03}
-        fitView
+        minZoom={0.2}
+        maxZoom={1.5}
+        defaultViewport={{ x: 0, y: 0, zoom: 1 }}
         proOptions={{ hideAttribution: true }}
         style={{ background: '#13161c' }}
       >

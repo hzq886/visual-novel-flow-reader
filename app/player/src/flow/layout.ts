@@ -12,7 +12,7 @@ export type GroupBox = { id: string; x: number; y: number; width: number; height
 export type LayoutResult = { positions: Positions; groupBoxes: GroupBox[] }
 
 export type LayoutOptions = {
-  rankdir?: 'LR' | 'TB' // ストーリー進行方向（既定 LR＝左→右）
+  rankdir?: 'LR' | 'TB' // ストーリー進行方向（既定 TB＝上→下：縦スクロール閲覧・HU-53）
   nodesep?: number
   ranksep?: number
 }
@@ -32,10 +32,12 @@ export function layoutGraph(
   groups: SceneGroup[] = [],
 ): LayoutResult {
   const g = new Dagre.graphlib.Graph({ compound: groups.length > 0 })
+  // 既定は TB（上→下）。縦積みでノードを固定サイズ・可読間隔で並べ、縦スクロールで辿る（HU-53）。
+  // nodesep=同ランク内の水平間隔、ranksep=ランク間（縦方向）の間隔。
   g.setGraph({
-    rankdir: opts.rankdir ?? 'LR',
-    nodesep: opts.nodesep ?? 26,
-    ranksep: opts.ranksep ?? 90,
+    rankdir: opts.rankdir ?? 'TB',
+    nodesep: opts.nodesep ?? 44,
+    ranksep: opts.ranksep ?? 78,
     marginx: 24,
     marginy: 24,
   })

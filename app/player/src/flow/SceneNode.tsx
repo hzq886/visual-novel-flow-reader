@@ -50,7 +50,8 @@ export function SceneNode({ id, data }: NodeProps) {
         cursor: isScene ? 'pointer' : 'default',
       }}
     >
-      <Handle type="target" position={Position.Left} style={handleStyle(color)} />
+      {/* TB レイアウト（HU-53）: 辺は上から入り下から出る。 */}
+      <Handle type="target" position={Position.Top} style={handleStyle(color)} />
       {/* カテゴリ色アクセントバー */}
       <div style={{ width: 5, background: color, flex: '0 0 auto' }} />
 
@@ -119,7 +120,7 @@ export function SceneNode({ id, data }: NodeProps) {
         </div>
       )}
 
-      <Handle type="source" position={Position.Right} style={handleStyle(color)} />
+      <Handle type="source" position={Position.Bottom} style={handleStyle(color)} />
     </div>
   )
 }
