@@ -4,7 +4,7 @@
  * カテゴリ別配色（category.ts の9分類）の SceneNode／ラベル付きエッジ＋凡例（Legend）を表示する。
  * 再生中シーン（usePlayer.scene）のノードを金枠でハイライトしてストーリー進行と連動させる。
  */
-import { useCallback, useEffect, useMemo } from 'react'
+import { useCallback, useEffect, useMemo, useRef } from 'react'
 import {
   Background,
   Controls,
@@ -156,6 +156,10 @@ export function FlowMap({ onJump }: { onJump?: () => void } = {}) {
   // 見出しは locale 依存（ノード/エッジ構造は不変）。
   const graph = useMemo(() => buildSceneGraph(flow, sceneIndex, locale), [locale])
 
+  // FlowMap コンテナの実寸参照。水平中央寄せは window ではなくこの幅基準で計算する
+  // （HU-52 でアプリが 16:9 枠に収まると FlowMap 幅 < window 幅になるため）。
+  const containerRef = useRef<HTMLDivElement>(null)
+
   // コンテナ（groupBox）を配列先頭＝最背面に、シーン/hub ノードを前面に重ねる。
   const [nodes, setNodes, onNodesChange] = useNodesState<Node>([
     ...rfGroupNodes(graph),
@@ -169,13 +173,14 @@ export function FlowMap({ onJump }: { onJump?: () => void } = {}) {
     setEdges(rfEdges(graph))
   }, [graph, sceneCode, setNodes, setEdges])
 
-  // マウント時（map ビューを開くたび）に最上段ノードを画面上部・水平中央へ据える（HU-53）。
+  // マウント時（map ビューを開くたび）に最上段ノードをコンテナ上部・水平中央へ据える（HU-53）。
   // zoom=1 等倍で最上部から ~5 ノード分が見え、以降はユーザが下へパン/スクロールして辿る。
-  // FlowMap は全画面（inset:0）オーバーレイなので水平中央は window 幅で近似できる。
+  // 水平中央は FlowMap コンテナの実幅基準（HU-52 の 16:9 レターボックス枠内でも正しく中央寄せ）。
   const onInit = useCallback((rf: ReactFlowInstance<Node, Edge>) => {
     const topPad = 96 // 上端の見出し（Legend）下に最上段ノードを収める余白。
+    const width = containerRef.current?.clientWidth ?? window.innerWidth
     rf.setViewport({
-      x: window.innerWidth / 2 - startCenterX.cx,
+      x: width / 2 - startCenterX.cx,
       y: topPad - startCenterX.topY,
       zoom: 1,
     })
@@ -193,7 +198,7 @@ export function FlowMap({ onJump }: { onJump?: () => void } = {}) {
   )
 
   return (
-    <div style={{ width: '100%', height: '100%', position: 'relative' }}>
+    <div ref={containerRef} style={{ width: '100%', height: '100%', position: 'relative' }}>
       <div
         style={{
           position: 'absolute',
