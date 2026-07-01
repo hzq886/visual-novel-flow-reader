@@ -41,6 +41,7 @@ Vite + TypeScript + React / VN描画=**PixiJS**(WebGL) / ルート図=**React Fl
 5. **CI 緑を確認**（緑でなければマージ不可）→ `gh pr merge --merge --delete-branch`
 6. Linear issue を Done に更新
 
+- **ワークツリー運用**: 複数 issue を並行で進めるときは issue ごとに **git worktree**（`.claude/worktrees/<name>`）を切って独立作業し、**PR マージ後にワークツリーを削除**する。単一 issue のみのときは worktree を使わず通常のブランチ（手順 2）で作業してよい。
 - CI = `../../.github/workflows/ci.yml`（PR と `main` への push で typecheck/lint/format:check/test/build、node24）。
 - リポジトリは **public**（同人創作・元ゲーム素材は git 外）。設計判断は ADR、進行は Linear（Team `Hu`）。
 
