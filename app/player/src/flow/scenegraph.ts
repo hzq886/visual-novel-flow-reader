@@ -65,6 +65,34 @@ function localeTitle(index: SceneIndex, code: string, locale: Locale): string {
   return locale === 'cn' ? e.cn || e.jp : e.jp
 }
 
+/**
+ * ノーマルEND に合流する各ルート末尾 arc → 原作攻略（誠也の部屋）のエンド名（HU-56）。
+ * flow.json は SMAIN 由来で全エンドを単一の `NORMAL_END` に集約するが、攻略は 12 個の名前付き
+ * エンドを列挙しており、各 `NORMAL_END` 入辺の source arc がちょうど 1 エンドに対応する
+ * （末尾シーンのタイトルが攻略の【内容】と一致することを確認済）。エンド名は攻略由来の
+ * キュレーション情報なので flow.json（生成物）ではなくここで持つ（audio.ts の BGM_BY_CHARACTER と同方針）。
+ * key = flow.json の `NORMAL_END` 入辺の source arc id。
+ */
+const ENDING_BY_ARC: Record<string, string> = {
+  '002_AYAN010B': '綾菜 END1【妊婦のアナル……】',
+  '002_AYAN010C': '綾菜 END2【聖母のような】',
+  '003_SUZU006A': '涼菜 END【赤ちゃんのために】',
+  '004_FUTA004A': '綾菜＆涼菜 END【妊婦になった姉たち】',
+  '005_MAKO013C': '真琴 END【憎まれ続けて】',
+  '005_MAKO006A': '真琴＆早紀 END【望月家の妊婦たち】',
+  '005_MAKO005F': '真琴 END2【崇拝するお嬢様】',
+  '012_SUBTM004A': '翼 END1【ゲームの結果】',
+  '006_TUBA017A': '翼 END2【翼との同居】',
+  '006_TUBA018A': '翼 END3【喪失】',
+  '008_TUBA007A': '翼＆楓 END【楠木家の妊婦たち】',
+  '006_TUBA019A': '翼＆真琴 END【妊婦とメイド】',
+}
+
+/** feeder ごとに分割する flow.json エンドノード id（ノーマルEND）。 */
+const SPLIT_END_ID = 'NORMAL_END'
+/** 描画しない flow.json ノード（HU-56: スタッフロール削除）。 */
+const DELETED_NODE_IDS = new Set<string>(['STAFF_ROLL'])
+
 /** flow.json（arc CFG）＋ scene-index ＋ locale → シーン単位グラフ。 */
 export function buildSceneGraph(flow: Flow, index: SceneIndex, locale: Locale): SceneGraph {
   const nodes: SceneGraphNode[] = []
@@ -76,6 +104,11 @@ export function buildSceneGraph(flow: Flow, index: SceneIndex, locale: Locale): 
 
   for (const n of flow.nodes) {
     if (n.kind === 'start') {
+      dropped.add(n.id)
+      continue
+    }
+    // 削除ノード（スタッフロール・HU-56）: ノード化せず、端点に持つ辺も落とす。
+    if (DELETED_NODE_IDS.has(n.id)) {
       dropped.add(n.id)
       continue
     }
@@ -106,7 +139,9 @@ export function buildSceneGraph(flow: Flow, index: SceneIndex, locale: Locale): 
         lastScene.set(n.id, n.scenes[n.scenes.length - 1])
       }
     } else if (n.kind === 'end' || n.kind === 'omake') {
-      // end / omake は終端マーカーとしてノード残置。
+      // ノーマルEND は feeder ごとに分割する（HU-56）ため、単一ノードとしては作らない（後段で生成）。
+      if (n.id === SPLIT_END_ID) continue
+      // その他の end（TRUE_END）/ omake は終端マーカーとしてノード残置。
       nodes.push({
         id: n.id,
         kind: n.kind,
@@ -126,7 +161,24 @@ export function buildSceneGraph(flow: Flow, index: SceneIndex, locale: Locale): 
       for (const o of c.options)
         if (o.target) choiceLabel.set(`${n.id}->${o.target}`, { jp: o.jp, cn: o.cn })
 
-  // 構造エッジ: arc は末尾/先頭シーンへ張り替え、hub/end/omake は自身、start 端点は落とす。
+  // ノーマルEND を feeder ごとの個別エンドノードへ分割（HU-56）。flow.json の `NORMAL_END` 入辺の
+  // source arc ごとに end ノードを1個作り、攻略由来のエンド名を付ける（id は `END_<arc>`）。
+  // 後段の辺ループが `NORMAL_END` 宛の辺を対応する個別ノードへ張り替える。
+  const endNodeIdByArc = new Map<string, string>() // feeder arc id → 生成した end ノード id
+  for (const e of flow.edges) {
+    if (e.target !== SPLIT_END_ID) continue
+    if (dropped.has(e.source) || hubIds.has(e.source) || endNodeIdByArc.has(e.source)) continue
+    const endId = `END_${e.source}`
+    endNodeIdByArc.set(e.source, endId)
+    nodes.push({
+      id: endId,
+      kind: 'end',
+      category: 'end',
+      title: ENDING_BY_ARC[e.source] ?? 'ノーマルEND',
+    })
+  }
+
+  // 構造エッジ: arc は末尾/先頭シーンへ張り替え、hub は継続先へ畳み、NORMAL_END は個別エンドへ分割。
   const nodeIds = new Set(nodes.map((nn) => nn.id))
   const catById = new Map(nodes.map((nn) => [nn.id, nn.category]))
   const srcOf = (id: string) => lastScene.get(id) ?? id
@@ -153,8 +205,13 @@ export function buildSceneGraph(flow: Flow, index: SceneIndex, locale: Locale): 
     // hub の出辺は入辺の張替で代替するので落とす（source が hub のケース）。
     if (hubIds.has(e.source)) return
     const source = srcOf(e.source)
-    // 着地先が hub なら畳んで継続先の実シーンへ張り替える。
-    const target = hubIds.has(e.target) ? resolveTarget(e.target) : tgtOf(e.target)
+    // 着地先: NORMAL_END は feeder ごとの個別エンドへ、hub は継続先の実シーンへ張り替える。
+    const target =
+      e.target === SPLIT_END_ID
+        ? (endNodeIdByArc.get(e.source) ?? e.target)
+        : hubIds.has(e.target)
+          ? resolveTarget(e.target)
+          : tgtOf(e.target)
     if (source === target || !nodeIds.has(source) || !nodeIds.has(target)) return
     // 選択肢分岐は locale 別文言を優先（cn 未抽出は jp）。それ以外は flow.json の label（jp）。
     // choiceLabel は raw id（畳む前の hub 宛）で引くので、継続先へ張り替えてもラベルは移設される。
