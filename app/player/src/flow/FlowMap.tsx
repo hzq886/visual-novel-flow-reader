@@ -28,13 +28,15 @@ import { SceneNode, type SceneNodeData } from './SceneNode'
 import { GroupNode, type GroupNodeData } from './GroupNode'
 import { SCENE_SIZE, HUB_SIZE, END_SIZE } from './nodeSize'
 import {
+  buildOmakeNodes,
   buildSceneGraph,
   groupScenes,
+  OMAKE_GROUP_TITLE,
   type SceneGraph,
   type SceneGraphEdge,
   type SceneGraphNode,
 } from './scenegraph'
-import { layoutGraph, type GroupBox } from './layout'
+import { layoutGraph, layoutOmakeBox, type GroupBox } from './layout'
 
 const flow = Flow.parse(flowJson)
 const sceneIndex = SceneIndex.parse(sceneIndexJson)
@@ -48,6 +50,11 @@ const nodeSizeOf = (n: SceneGraphNode) =>
 const baseGraph = buildSceneGraph(flow, sceneIndex, 'jp')
 const groups = groupScenes(baseGraph)
 const { positions, groupBoxes } = layoutGraph(baseGraph, nodeSizeOf, {}, groups)
+// おまけ（009_NUKE）枠（HU-57）: 本編と非接続の独立コンテンツを本編 bbox の右隣へ分離配置する。
+// 構造・配置は locale 不変なので一度だけ計算し、共有 positions へ合流（題のみ描画時に locale 適用）。
+// startCenterX は baseGraph.nodes 起点なので初期ビュー基点（HU-53）には影響しない。
+const omakeLayout = layoutOmakeBox(baseGraph, positions, nodeSizeOf, buildOmakeNodes('jp'))
+for (const [id, p] of omakeLayout.positions) positions.set(id, p)
 // TB レイアウトの初期表示基点（HU-53）: 最上段ノードの中心。ここを画面上部に据え、
 // zoom=1（等倍・可読）で表示 → ユーザは下方向へスクロール（パン）して残りを辿る。
 // 全体 fitView はしない（縮小して全ノードを一望にしない）。
@@ -76,6 +83,23 @@ const headCategory = new Map(
 
 // nodeTypes はモジュールレベルで安定参照にする（毎レンダー再生成すると React Flow が警告）。
 const nodeTypes = { flowNode: SceneNode, groupBox: GroupNode }
+
+// おまけ枠のコンテナノード（HU-57）。見出しは固定「おまけ」（Legend 同様 jp のみ）、枠色は中立の共通色
+// （内側ノードが話者ルート色を持つため）。groups 由来ではないので rfGroupNodes とは別に生成する。
+function rfOmakeGroupNode(): Node<GroupNodeData> {
+  const b = omakeLayout.box
+  return {
+    id: b.id,
+    type: 'groupBox',
+    position: { x: b.x, y: b.y },
+    width: b.width,
+    height: b.height,
+    draggable: false,
+    selectable: false,
+    zIndex: 0,
+    data: { title: OMAKE_GROUP_TITLE, category: 'common' },
+  }
+}
 
 // コンテナノードは最背面（配列先頭・低 zIndex）に置き、内側のシーンノードがクリックを受ける。
 function rfGroupNodes(graph: SceneGraph): Node<GroupNodeData>[] {
@@ -155,23 +179,35 @@ export function FlowMap({ onJump }: { onJump?: () => void } = {}) {
 
   // 見出しは locale 依存（ノード/エッジ構造は不変）。
   const graph = useMemo(() => buildSceneGraph(flow, sceneIndex, locale), [locale])
+  // おまけノード（HU-57）。題（話者ベース curated）が locale 依存。エッジなし＝本編と非接続。
+  const omakeGraph = useMemo<SceneGraph>(
+    () => ({ nodes: buildOmakeNodes(locale), edges: [] }),
+    [locale],
+  )
 
   // FlowMap コンテナの実寸参照。水平中央寄せは window ではなくこの幅基準で計算する
   // （HU-52 でアプリが 16:9 枠に収まると FlowMap 幅 < window 幅になるため）。
   const containerRef = useRef<HTMLDivElement>(null)
 
-  // コンテナ（groupBox）を配列先頭＝最背面に、シーン/hub ノードを前面に重ねる。
+  // コンテナ（groupBox）を配列先頭＝最背面に、シーン/hub/おまけノードを前面に重ねる。
   const [nodes, setNodes, onNodesChange] = useNodesState<Node>([
     ...rfGroupNodes(graph),
+    rfOmakeGroupNode(),
     ...rfNodes(graph, sceneCode),
+    ...rfNodes(omakeGraph, sceneCode),
   ])
   const [edges, setEdges, onEdgesChange] = useEdgesState<Edge>(rfEdges(graph))
 
   // 再生中シーンの変化／言語切替で、ノード（ハイライト・見出し）とエッジ（ラベル）を更新。
   useEffect(() => {
-    setNodes([...rfGroupNodes(graph), ...rfNodes(graph, sceneCode)])
+    setNodes([
+      ...rfGroupNodes(graph),
+      rfOmakeGroupNode(),
+      ...rfNodes(graph, sceneCode),
+      ...rfNodes(omakeGraph, sceneCode),
+    ])
     setEdges(rfEdges(graph))
-  }, [graph, sceneCode, setNodes, setEdges])
+  }, [graph, omakeGraph, sceneCode, setNodes, setEdges])
 
   // 初期ビュー: 最上段ノードをコンテナ上部・水平中央へ等倍で据える（HU-53）。以降はユーザが
   // 下へパン/スクロールして辿る。座標は明示ズーム基準（*INIT_ZOOM）で計算するのでどのタイミングで

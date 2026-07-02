@@ -79,3 +79,56 @@ export function layoutGraph(
   }
   return { positions, groupBoxes }
 }
+
+/** おまけ枠（HU-57）の配置定数: 本編 bbox 右端からの間隔／枠内パディング／ノード縦間隔。 */
+export const OMAKE_BOX_ID = 'grp-omake'
+export const OMAKE_GAP_X = 120
+export const OMAKE_BOX_PAD = 18
+export const OMAKE_NODE_GAP = 22
+
+/**
+ * おまけノード列を本編グラフの右隣へ固定配置する（HU-57）。本編と非接続のため dagre に混ぜると
+ * 配置が不定になる（＆初期ビュー基点の計算を乱す）ので、本編レイアウト後に positions の bbox
+ * 右端 + OMAKE_GAP_X へ枠（GroupBox）を置き、内側にノードを縦積みする分離レイアウトにする。
+ * 枠上端は本編最上段に揃える（初期ビュー（HU-53）の右上に見えて発見しやすい位置）。
+ */
+export function layoutOmakeBox(
+  main: SceneGraph,
+  mainPositions: Positions,
+  size: (node: SceneGraphNode) => NodeSize,
+  omakeNodes: SceneGraphNode[],
+): { positions: Positions; box: GroupBox } {
+  let right = 0
+  let top = Infinity
+  for (const n of main.nodes) {
+    const p = mainPositions.get(n.id)
+    if (!p) continue
+    const s = size(n)
+    right = Math.max(right, p.x + s.width)
+    top = Math.min(top, p.y)
+  }
+  if (top === Infinity) top = 0
+
+  const boxX = right + OMAKE_GAP_X
+  const boxY = top
+  const positions: Positions = new Map()
+  let y = boxY + GROUP_LABEL_PAD + OMAKE_BOX_PAD
+  let maxW = 0
+  for (const n of omakeNodes) {
+    const s = size(n)
+    positions.set(n.id, { x: boxX + OMAKE_BOX_PAD, y })
+    y += s.height + OMAKE_NODE_GAP
+    maxW = Math.max(maxW, s.width)
+  }
+  const bottom = (omakeNodes.length ? y - OMAKE_NODE_GAP : y) + OMAKE_BOX_PAD
+  return {
+    positions,
+    box: {
+      id: OMAKE_BOX_ID,
+      x: boxX,
+      y: boxY,
+      width: maxW + OMAKE_BOX_PAD * 2,
+      height: bottom - boxY,
+    },
+  }
+}

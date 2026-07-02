@@ -39,6 +39,11 @@ describe('FlowNav — flow 駆動のシーン遷移', () => {
     expect(nav.advance('ZZZ_NONE001A')).toEqual({ kind: 'end' })
   })
 
+  it('おまけ（009_NUKE）は flow 外＝再生終了で end（単発・連鎖しない。HU-57）', () => {
+    expect(nav.advance('009_NUKE001')).toEqual({ kind: 'end' })
+    expect(nav.advance('009_NUKE006')).toEqual({ kind: 'end' })
+  })
+
   it('全 advance の scene/option.target は実在シーンを指す（到達可能性の番兵）', () => {
     const realScenes = new Set(flow.nodes.flatMap((n) => n.scenes))
     for (const code of realScenes) {

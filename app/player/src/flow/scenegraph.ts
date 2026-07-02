@@ -88,6 +88,36 @@ const ENDING_BY_ARC: Record<string, string> = {
   '006_TUBA019A': '翼＆真琴 END【妊婦とメイド】',
 }
 
+/**
+ * おまけ（009_NUKE）シーン（HU-57）。SMAIN バイトコードから一切参照されない独立コンテンツで、
+ * flow.json（SMAIN 機械抽出 CFG）には現れない。フロー図では本編と接続しない独立枠に表示する。
+ * タイトルカードが無いため題は**話者ベースの curated 題**（jp/cn）、配色は話者のルート色
+ * （綾菜＆涼菜ペアは FUTA と同じ merge）。curated 情報をフロント側で持つのは ENDING_BY_ARC と同方針。
+ */
+export const OMAKE_GROUP_TITLE = 'おまけ'
+export const OMAKE_SCENES: Array<{ code: string; jp: string; cn: string; category: Category }> = [
+  { code: '009_NUKE001', jp: '綾菜＆涼菜', cn: '绫菜＆凉菜', category: 'merge' },
+  { code: '009_NUKE002', jp: '真琴', cn: '真琴', category: 'mako' },
+  { code: '009_NUKE003', jp: '真琴＆和樹', cn: '真琴＆和树', category: 'mako' },
+  { code: '009_NUKE004', jp: '翼＆和樹', cn: '翼＆和树', category: 'tuba' },
+  { code: '009_NUKE005', jp: '綾菜＆和樹', cn: '绫菜＆和树', category: 'ayan' },
+  { code: '009_NUKE006', jp: '涼菜＆和樹', cn: '凉菜＆和树', category: 'suzu' },
+]
+
+/**
+ * おまけシーン → フロー図ノード列（HU-57）。kind='scene' なのでクリック再生（gotoScene）は
+ * 既存機構がそのまま効く。エッジは持たない（本編 CFG と非接続。再生終了は nav が end を返す＝単発）。
+ */
+export function buildOmakeNodes(locale: Locale): SceneGraphNode[] {
+  return OMAKE_SCENES.map((s) => ({
+    id: s.code,
+    kind: 'scene',
+    category: s.category,
+    title: locale === 'cn' ? s.cn : s.jp,
+    titled: true,
+  }))
+}
+
 /** feeder ごとに分割する flow.json エンドノード id（ノーマルEND）。 */
 const SPLIT_END_ID = 'NORMAL_END'
 /** 描画しない flow.json ノード（HU-56: スタッフロール削除）。 */
