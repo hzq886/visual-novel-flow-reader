@@ -1,7 +1,8 @@
-import { beforeEach, describe, expect, it } from 'vitest'
+import { afterEach, beforeEach, describe, expect, it } from 'vitest'
 import type { Scene } from '@/pipeline/types'
 import { usePlayer } from './player'
 import { loadScene } from '@/engine/sceneLoader'
+import { useBookmarks } from './bookmarks'
 
 // 最小シーン（3 beat）。types の Beat 判別共用体に沿った地の文ビート。
 const scene: Scene = {
@@ -239,5 +240,59 @@ describe('言語切替 — setLocale（jp⇄cn）', () => {
     expect(cnLen).toBeLessThan(jp.beats.length) // cn は jp より短い（クランプ前提）
     expect(st.index).toBe(cnLen - 1) // cn 末尾へクランプ
     expect(st.index).toBeLessThan(jpLast)
+  })
+})
+
+describe('ブックマーク連携 — gotoPosition / start 自動ジャンプ（HU-60）', () => {
+  beforeEach(() => useBookmarks.setState({ marks: {}, modalCode: null }))
+  afterEach(() => useBookmarks.setState({ marks: {}, modalCode: null }))
+
+  it('gotoPosition は保存位置（beat/行）へ復帰する', async () => {
+    await usePlayer.getState().gotoPosition('009_NUKE001', 2, 0)
+    const st = usePlayer.getState()
+    expect(st.scene?.code).toBe('009_NUKE001')
+    expect(st.index).toBe(2)
+    expect(st.line).toBe(0)
+    expect(st.ended).toBe(false)
+  })
+
+  it('gotoPosition は範囲外の index/line を現シーンへクランプする（再生成で短縮した場合の保険）', async () => {
+    await usePlayer.getState().gotoPosition('009_NUKE001', 999, 999)
+    const st = usePlayer.getState()
+    expect(st.index).toBe(st.scene!.beats.length - 1)
+    // 末尾 beat の行数の範囲内に収まる。
+    expect(st.line).toBeLessThanOrEqual(
+      st.scene!.beats[st.index].kind === 'narration'
+        ? (st.scene!.beats[st.index] as { lines: string[] }).lines.length - 1
+        : 0,
+    )
+  })
+
+  it('start はブックマーク無しなら flow の開始シーンへ', async () => {
+    await usePlayer.getState().start()
+    expect(usePlayer.getState().scene?.code).toBe('001_PRO001A')
+  })
+
+  it('start は最終保存（savedAt 最新）のブックマークへ自動ジャンプする', async () => {
+    useBookmarks.setState({
+      marks: {
+        '002_AYAN001A': { code: '002_AYAN001A', index: 1, line: 0, savedAt: 100 },
+        '005_MAKO003A': { code: '005_MAKO003A', index: 2, line: 0, savedAt: 200 },
+      },
+      modalCode: null,
+    })
+    await usePlayer.getState().start()
+    const st = usePlayer.getState()
+    expect(st.scene?.code).toBe('005_MAKO003A')
+    expect(st.index).toBe(2)
+  })
+
+  it('ブックマーク先のシーンが存在しなければ開始シーンへフォールバックする', async () => {
+    useBookmarks.setState({
+      marks: { ZZZ_GONE001A: { code: 'ZZZ_GONE001A', index: 0, line: 0, savedAt: 1 } },
+      modalCode: null,
+    })
+    await usePlayer.getState().start()
+    expect(usePlayer.getState().scene?.code).toBe('001_PRO001A')
   })
 })

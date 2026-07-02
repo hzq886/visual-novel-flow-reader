@@ -13,10 +13,12 @@
  * Stage は内部で 16:9 に contain フィットするため、この 16:9 ボックス内では過不足なく
  * ちょうど埋まる（二重レターボックスにならない）。
  */
-import { useEffect, useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import { Stage } from '@/engine/Stage'
 import { FlowMap } from '@/flow/FlowMap'
 import { usePlayer } from '@/store/player'
+import { useBookmarks } from '@/store/bookmarks'
+import { UI_FONT } from '@/theme'
 
 type View = 'story' | 'map'
 
@@ -40,6 +42,9 @@ const boxStyle: React.CSSProperties = {
 function App() {
   // 起動後の初期画面はルート図（HU-58）。物語はノードクリック / Tab で入る。
   const [view, setView] = useState<View>('map')
+  // ブックマーク保存の確認トースト（HU-60。1 キー保存は画面変化が無いため最小限の合図を出す）。
+  const [toast, setToast] = useState<string | null>(null)
+  const toastTimer = useRef<ReturnType<typeof setTimeout> | null>(null)
 
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
@@ -51,10 +56,22 @@ function App() {
         // テキスト入力欄が無いビューア専用画面なので素のキーで可。
         e.preventDefault()
         void usePlayer.getState().setLocale(usePlayer.getState().locale === 'jp' ? 'cn' : 'jp')
+      } else if (e.code === 'Digit1') {
+        // ` の隣の 1 キーで現在位置（シーン・beat・行）をブックマーク保存（HU-60）。
+        // 同一シーンは上書き。保存はトーストで合図する。
+        const { scene, index, line } = usePlayer.getState()
+        if (!scene) return
+        useBookmarks.getState().save(scene.code, index, line)
+        setToast(`🔖 ブックマークを保存しました（${scene.code}）`)
+        if (toastTimer.current) clearTimeout(toastTimer.current)
+        toastTimer.current = setTimeout(() => setToast(null), 1600)
       }
     }
     window.addEventListener('keydown', onKey)
-    return () => window.removeEventListener('keydown', onKey)
+    return () => {
+      window.removeEventListener('keydown', onKey)
+      if (toastTimer.current) clearTimeout(toastTimer.current)
+    }
   }, [])
 
   return (
@@ -64,6 +81,27 @@ function App() {
         {view === 'map' && (
           <div style={{ position: 'absolute', inset: 0, zIndex: 10 }}>
             <FlowMap onJump={() => setView('story')} />
+          </div>
+        )}
+        {toast && (
+          <div
+            style={{
+              position: 'absolute',
+              bottom: 46,
+              left: '50%',
+              transform: 'translateX(-50%)',
+              zIndex: 30,
+              padding: '9px 16px',
+              background: 'rgba(17,21,28,.92)',
+              border: '1px solid #2a313e',
+              borderRadius: 10,
+              color: '#e7ecf3',
+              font: `13px ${UI_FONT}`,
+              fontWeight: 700,
+              pointerEvents: 'none',
+            }}
+          >
+            {toast}
           </div>
         )}
       </div>
