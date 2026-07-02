@@ -50,3 +50,18 @@ describe('sceneLoader — locale 別索引と jp フォールバック', () => {
     await expect(loadScene('002_AYAN004AB', 'cn')).rejects.toThrow(/scene not found/)
   })
 })
+
+describe('おまけ（009_NUKE）の curated 背景注入（HU-57）', () => {
+  it('bg 指定が無い 009_NUKE は先頭 beat に TITLE02 が注入される（jp/cn とも）', async () => {
+    const jp = await loadScene('009_NUKE001', 'jp')
+    expect(jp.beats[0].bg?.file).toBe('TITLE02')
+    const cn = await loadScene('009_NUKE003', 'cn')
+    expect(cn.beats[0].bg?.file).toBe('TITLE02')
+  })
+
+  it('通常シーンの bg は改変しない', async () => {
+    const s = await loadScene('001_PRO001A', 'jp')
+    expect(s.beats[0].bg?.file).toBe('PRO_TITLE_A')
+    expect(s.beats.some((b) => b.bg?.file === 'TITLE02')).toBe(false)
+  })
+})

@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest'
 import type { SceneGraph, SceneGraphNode } from './scenegraph'
-import { layoutGraph } from './layout'
+import { layoutGraph, layoutOmakeBox, OMAKE_BOX_ID } from './layout'
 
 const scene = (id: string): SceneGraphNode => ({
   id,
@@ -54,6 +54,44 @@ describe('layoutGraph — TB（上→下）レイアウト（HU-53）', () => {
     const box = groupBoxes[0]
     for (const id of ['H', 'a', 'b']) {
       const p = positions.get(id)!
+      expect(p.x).toBeGreaterThanOrEqual(box.x)
+      expect(p.y).toBeGreaterThanOrEqual(box.y)
+      expect(p.x + 248).toBeLessThanOrEqual(box.x + box.width)
+      expect(p.y + 58).toBeLessThanOrEqual(box.y + box.height)
+    }
+  })
+})
+
+describe('layoutOmakeBox — おまけ枠の分離配置（HU-57）', () => {
+  const omake = [scene('o1'), scene('o2'), scene('o3')]
+
+  it('枠は本編 bbox の右側・最上段揃いに置かれる', () => {
+    const g = chain(['a', 'b', 'c'])
+    const { positions } = layoutGraph(g, size)
+    const { box } = layoutOmakeBox(g, positions, size, omake)
+    let right = 0
+    let top = Infinity
+    for (const id of ['a', 'b', 'c']) {
+      const p = positions.get(id)!
+      right = Math.max(right, p.x + 248)
+      top = Math.min(top, p.y)
+    }
+    expect(box.id).toBe(OMAKE_BOX_ID)
+    expect(box.x).toBeGreaterThan(right)
+    expect(box.y).toBe(top)
+  })
+
+  it('全おまけノードが枠内に収まり、縦積み（y 単調増加・x 揃い）になる', () => {
+    const g = chain(['a', 'b'])
+    const { positions } = layoutGraph(g, size)
+    const { positions: op, box } = layoutOmakeBox(g, positions, size, omake)
+    let prevY = -Infinity
+    const x0 = op.get('o1')!.x
+    for (const n of omake) {
+      const p = op.get(n.id)!
+      expect(p.x).toBe(x0)
+      expect(p.y).toBeGreaterThan(prevY)
+      prevY = p.y
       expect(p.x).toBeGreaterThanOrEqual(box.x)
       expect(p.y).toBeGreaterThanOrEqual(box.y)
       expect(p.x + 248).toBeLessThanOrEqual(box.x + box.width)

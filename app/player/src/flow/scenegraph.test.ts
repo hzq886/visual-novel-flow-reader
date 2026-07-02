@@ -3,8 +3,10 @@ import flowJson from '@data/flow.json'
 import sceneIndexJson from '@data/scene-index.json'
 import { Flow, SceneIndex } from '@/pipeline/types'
 import {
+  buildOmakeNodes,
   buildSceneGraph,
   groupScenes,
+  OMAKE_SCENES,
   sceneSummary,
   shortSceneCode,
   type SceneGraph,
@@ -254,5 +256,44 @@ describe('groupScenes — タイトル群（HU-51）', () => {
     const grp = groupScenes(graph)
     const owner = grp.find((x) => x.memberIds.includes('t'))!
     expect(owner.headId).toBe('H2')
+  })
+})
+
+describe('buildOmakeNodes — おまけ（009_NUKE）ノード合成（HU-57）', () => {
+  it('6 シーン全てを kind=scene（クリック再生可）で返す', () => {
+    const nodes = buildOmakeNodes('jp')
+    expect(nodes.map((n) => n.id)).toEqual([
+      '009_NUKE001',
+      '009_NUKE002',
+      '009_NUKE003',
+      '009_NUKE004',
+      '009_NUKE005',
+      '009_NUKE006',
+    ])
+    for (const n of nodes) expect(n.kind).toBe('scene')
+  })
+
+  it('おまけシーンは本編 flow.json に現れない（SMAIN 非参照＝独立コンテンツの前提確認）', () => {
+    const mainScenes = new Set(flow.nodes.flatMap((n) => n.scenes))
+    for (const s of OMAKE_SCENES) expect(mainScenes.has(s.code)).toBe(false)
+  })
+
+  it('題は話者ベースの curated 題で locale 依存（jp/cn）', () => {
+    const jp = buildOmakeNodes('jp')
+    const cn = buildOmakeNodes('cn')
+    expect(jp[0].title).toBe('綾菜＆涼菜')
+    expect(cn[0].title).toBe('绫菜＆凉菜')
+    expect(jp[3].title).toBe('翼＆和樹')
+    expect(cn[3].title).toBe('翼＆和树')
+  })
+
+  it('配色は話者のルート色（綾菜＆涼菜ペアは FUTA と同じ merge）', () => {
+    const cat = new Map(buildOmakeNodes('jp').map((n) => [n.id, n.category]))
+    expect(cat.get('009_NUKE001')).toBe('merge')
+    expect(cat.get('009_NUKE002')).toBe('mako')
+    expect(cat.get('009_NUKE003')).toBe('mako')
+    expect(cat.get('009_NUKE004')).toBe('tuba')
+    expect(cat.get('009_NUKE005')).toBe('ayan')
+    expect(cat.get('009_NUKE006')).toBe('suzu')
   })
 })
