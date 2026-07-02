@@ -24,6 +24,7 @@ import flowJson from '@data/flow.json'
 import sceneIndexJson from '@data/scene-index.json'
 import { Flow, SceneIndex } from '@/pipeline/types'
 import { usePlayer } from '@/store/player'
+import { useBookmarks } from '@/store/bookmarks'
 import { CATEGORY_COLOR, type Category } from './category'
 import { Legend } from './Legend'
 import { SceneNode, type SceneNodeData } from './SceneNode'
@@ -126,7 +127,11 @@ function rfGroupNodes(graph: SceneGraph): Node<GroupNodeData>[] {
   })
 }
 
-function rfNodes(graph: SceneGraph, liveCode: string | null): Node<SceneNodeData>[] {
+function rfNodes(
+  graph: SceneGraph,
+  liveCode: string | null,
+  markedIds: ReadonlySet<string>,
+): Node<SceneNodeData>[] {
   return graph.nodes.map((n) => ({
     id: n.id,
     type: 'flowNode',
@@ -139,6 +144,7 @@ function rfNodes(graph: SceneGraph, liveCode: string | null): Node<SceneNodeData
       title: n.title,
       live: n.id === liveCode,
       grouped: groupByMember.has(n.id),
+      bookmarked: markedIds.has(n.id),
     },
   }))
 }
@@ -226,6 +232,81 @@ function ZoomBar() {
   )
 }
 
+// ブックマーク操作モーダル（HU-60）: アイコンのダブルクリックで開く。二択＝保存場所にジャンプ / 削除。
+// 背景クリックで閉じる。ジャンプは保存位置（beat/行）へ復帰し物語ビューへ切り替える。
+const modalBtnStyle: React.CSSProperties = {
+  minWidth: 148,
+  padding: '10px 18px',
+  background: '#232a37',
+  border: '1px solid #38414f',
+  borderRadius: 10,
+  color: '#e7ecf3',
+  fontSize: 14,
+  fontWeight: 700,
+  cursor: 'pointer',
+}
+
+function BookmarkModal({ onJump }: { onJump?: () => void }) {
+  const modalCode = useBookmarks((s) => s.modalCode)
+  const mark = useBookmarks((s) => (s.modalCode ? s.marks[s.modalCode] : undefined))
+  // mark 不在は削除直後など（remove() が modalCode も掃除する）。描画しないだけでよい。
+  if (!modalCode || !mark) return null
+  const jump = () => {
+    void usePlayer.getState().gotoPosition(mark.code, mark.index, mark.line)
+    useBookmarks.getState().closeModal()
+    onJump?.()
+  }
+  return (
+    <div
+      onClick={() => useBookmarks.getState().closeModal()}
+      style={{
+        position: 'absolute',
+        inset: 0,
+        zIndex: 50,
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'center',
+        background: 'rgba(8,10,14,.6)',
+      }}
+    >
+      <div
+        onClick={(e) => e.stopPropagation()}
+        style={{
+          display: 'flex',
+          flexDirection: 'column',
+          gap: 14,
+          padding: '20px 24px',
+          background: 'rgba(17,21,28,.97)',
+          border: '1px solid #2a313e',
+          borderRadius: 14,
+          boxShadow: '0 8px 30px rgba(0,0,0,.5)',
+          minWidth: 320,
+        }}
+      >
+        <div style={{ color: '#e7ecf3', fontSize: 15, fontWeight: 800 }}>
+          🔖 {mark.code} のブックマーク
+        </div>
+        <div style={{ color: '#9aa6b6', fontSize: 12.5 }}>
+          保存位置: {mark.index + 1}
+          {mark.line > 0 ? `（行 ${mark.line + 1}）` : ''} ・{' '}
+          {new Date(mark.savedAt).toLocaleString()}
+        </div>
+        <div style={{ display: 'flex', gap: 10, justifyContent: 'flex-end' }}>
+          <button style={modalBtnStyle} onClick={jump}>
+            保存場所にジャンプ
+          </button>
+          <button
+            style={{ ...modalBtnStyle, color: '#f2b8b8', borderColor: '#5a3a42' }}
+            onClick={() => useBookmarks.getState().remove(mark.code)}
+          >
+            削除
+          </button>
+        </div>
+      </div>
+    </div>
+  )
+}
+
 // エッジ意匠（Image #4）: 分岐辺＝着地先カテゴリ色で太く・ラベル強調、構造リンク＝中間グレー、
 // arc 内連鎖＝淡いグレー。いずれも曲線（bezier）＋終点矢印で進行方向を示す。
 function edgeStroke(e: SceneGraphEdge): string {
@@ -261,6 +342,7 @@ function rfEdges(graph: SceneGraph): Edge[] {
 export function FlowMap({ onJump }: { onJump?: () => void } = {}) {
   const sceneCode = usePlayer((s) => s.scene?.code ?? null)
   const locale = usePlayer((s) => s.locale)
+  const marks = useBookmarks((s) => s.marks)
 
   // 見出しは locale 依存（ノード/エッジ構造は不変）。
   const graph = useMemo(() => buildSceneGraph(flow, sceneIndex, locale), [locale])
@@ -269,6 +351,8 @@ export function FlowMap({ onJump }: { onJump?: () => void } = {}) {
     () => ({ nodes: buildOmakeNodes(locale), edges: [] }),
     [locale],
   )
+  // ブックマーク保存済みシーン集合（HU-60。ノード右のアイコン表示用）。
+  const markedIds = useMemo(() => new Set(Object.keys(marks)), [marks])
 
   // FlowMap コンテナの実寸参照。水平中央寄せは window ではなくこの幅基準で計算する
   // （HU-52 でアプリが 16:9 枠に収まると FlowMap 幅 < window 幅になるため）。
@@ -278,21 +362,22 @@ export function FlowMap({ onJump }: { onJump?: () => void } = {}) {
   const [nodes, setNodes, onNodesChange] = useNodesState<Node>([
     ...rfGroupNodes(graph),
     rfOmakeGroupNode(),
-    ...rfNodes(graph, sceneCode),
-    ...rfNodes(omakeGraph, sceneCode),
+    ...rfNodes(graph, sceneCode, markedIds),
+    ...rfNodes(omakeGraph, sceneCode, markedIds),
   ])
   const [edges, setEdges, onEdgesChange] = useEdgesState<Edge>(rfEdges(graph))
 
-  // 再生中シーンの変化／言語切替で、ノード（ハイライト・見出し）とエッジ（ラベル）を更新。
+  // 再生中シーンの変化／言語切替／ブックマーク増減で、ノード（ハイライト・見出し・アイコン）と
+  // エッジ（ラベル）を更新。
   useEffect(() => {
     setNodes([
       ...rfGroupNodes(graph),
       rfOmakeGroupNode(),
-      ...rfNodes(graph, sceneCode),
-      ...rfNodes(omakeGraph, sceneCode),
+      ...rfNodes(graph, sceneCode, markedIds),
+      ...rfNodes(omakeGraph, sceneCode, markedIds),
     ])
     setEdges(rfEdges(graph))
-  }, [graph, omakeGraph, sceneCode, setNodes, setEdges])
+  }, [graph, omakeGraph, sceneCode, markedIds, setNodes, setEdges])
 
   // 再生中シーンのノードをビューポート中央へ据える（HU-59）。位置が引けなければ false。
   // positions は本編＋おまけ統合済みなので 009_NUKE でも動く。live になるのは scene ノードのみ
@@ -393,6 +478,8 @@ export function FlowMap({ onJump }: { onJump?: () => void } = {}) {
         maxZoom={1.5}
         defaultViewport={{ x: 0, y: 0, zoom: 1 }}
         proOptions={{ hideAttribution: true }}
+        // ブックマークアイコンのダブルクリック（HU-60）が誤ってズームに化けないよう無効化。
+        zoomOnDoubleClick={false}
         style={{ background: '#13161c' }}
       >
         <Background color="#222834" gap={26} />
@@ -412,6 +499,8 @@ export function FlowMap({ onJump }: { onJump?: () => void } = {}) {
         />
         <ZoomBar />
       </ReactFlow>
+      {/* ブックマーク操作モーダル（HU-60）。アイコンのダブルクリックで開く。 */}
+      <BookmarkModal onJump={onJump} />
     </div>
   )
 }

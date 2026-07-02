@@ -16,6 +16,7 @@ import { create } from 'zustand'
 import { Beat, Flow, type Locale, type Scene } from '@/pipeline/types'
 import { FlowNav, type NavOption } from '@/flow/nav'
 import { loadScene } from '@/engine/sceneLoader'
+import { latestBookmark } from './bookmarks'
 import flowJson from '@data/flow.json'
 
 const nav = new FlowNav(Flow.parse(flowJson))
@@ -42,6 +43,7 @@ type PlayerState = {
   advance: () => Promise<void>
   choose: (target: string | null) => Promise<void>
   gotoScene: (code: string) => Promise<void>
+  gotoPosition: (code: string, index: number, line: number) => Promise<void>
   setLocale: (locale: Locale) => Promise<void>
   setFlag: (name: string) => void
   unsetFlag: (name: string) => void
@@ -74,8 +76,19 @@ export const usePlayer = create<PlayerState>((set, get) => ({
     const { scene } = get()
     if (scene && i >= 0 && i < scene.beats.length) set({ index: i, line: 0 })
   },
-  // flow の開始シーンをロード（エントリ）。
+  // エントリ。最終保存のブックマークがあればその位置へ自動ジャンプし（HU-60）、
+  // 無ければ flow の開始シーンをロードする。データ再生成でブックマーク先のシーンが
+  // 消えている場合も開始シーンへフォールバックする。
   start: async () => {
+    const latest = latestBookmark()
+    if (latest) {
+      try {
+        await get().gotoPosition(latest.code, latest.index, latest.line)
+        return
+      } catch {
+        /* シーン消滅など → 通常開始へ */
+      }
+    }
     const first = nav.firstScene()
     if (!first) return
     set({
@@ -124,6 +137,14 @@ export const usePlayer = create<PlayerState>((set, get) => ({
       pendingChoice: null,
       ended: false,
     })
+  },
+  // 保存位置へジャンプ（ブックマーク・HU-60）。データ再生成や locale 差で beat 数が
+  // 変わっている場合に備え、index/line を現シーンの範囲へクランプする。
+  gotoPosition: async (code, index, line) => {
+    const scene = await loadScene(code, get().locale)
+    const i = Math.min(Math.max(0, index), scene.beats.length - 1)
+    const l = Math.min(Math.max(0, line), beatSteps(scene.beats[i]) - 1)
+    set({ scene, index: i, line: l, pendingChoice: null, ended: false })
   },
   // 選択肢の分岐先へ遷移（target=null は終端）。
   choose: async (target) => {
