@@ -30,10 +30,9 @@ export function SceneNode({ id, data }: NodeProps) {
   const size = isScene ? SCENE_SIZE : d.kind === 'end' ? END_SIZE : HUB_SIZE
   const live = d.live
 
-  const border = live ? '#ffe6a6' : '#2c3443'
-  const shadow = live
-    ? '0 0 0 2px #ffd166, 0 0 22px 2px rgba(255,209,102,.55)'
-    : '0 2px 10px rgba(0,0,0,.35)'
+  // 再生中ハイライトは一律金色ではなくカテゴリ色（凡例と同色・HU-58）。
+  const border = live ? color : '#2c3443'
+  const shadow = live ? `0 0 0 2px ${color}, 0 0 22px 2px ${color}8c` : '0 2px 10px rgba(0,0,0,.35)'
 
   return (
     <div
@@ -89,7 +88,7 @@ export function SceneNode({ id, data }: NodeProps) {
               style={{
                 flex: 1,
                 minWidth: 0,
-                color: live ? '#fff3d6' : '#e7ecf3',
+                color: live ? '#ffffff' : '#e7ecf3',
                 fontSize: 13,
                 fontWeight: 700,
                 overflow: 'hidden',
@@ -110,7 +109,7 @@ export function SceneNode({ id, data }: NodeProps) {
             justifyContent: 'center',
             padding: '8px 14px',
             flex: 1,
-            color: live ? '#fff3d6' : '#e7ecf3',
+            color: live ? '#ffffff' : '#e7ecf3',
             fontSize: 12.5,
             fontWeight: 800,
             letterSpacing: 0.4,

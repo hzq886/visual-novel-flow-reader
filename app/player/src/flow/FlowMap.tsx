@@ -7,12 +7,14 @@
 import { useCallback, useEffect, useMemo, useRef } from 'react'
 import {
   Background,
-  Controls,
   MarkerType,
   MiniMap,
+  Panel,
   ReactFlow,
   useEdgesState,
   useNodesState,
+  useReactFlow,
+  useViewport,
   type Edge,
   type Node,
   type ReactFlowInstance,
@@ -139,6 +141,89 @@ function rfNodes(graph: SceneGraph, liveCode: string | null): Node<SceneNodeData
       grouped: groupByMember.has(n.id),
     },
   }))
+}
+
+// ズームバー（HU-58）: React Flow 既定の Controls を置き換えるピル型バー。
+// [−] [現在%] [＋] [全体表示アイコン] の横並び。配置リセットは持たない（機能が無いため）。
+// 全体表示アイコンは旧 Controls の fitview アイコン（@xyflow/react 同梱 SVG）を踏襲。
+const zoomBtnStyle: React.CSSProperties = {
+  width: 34,
+  height: 34,
+  display: 'flex',
+  alignItems: 'center',
+  justifyContent: 'center',
+  background: '#232a37',
+  border: '1px solid #38414f',
+  borderRadius: 10,
+  color: '#e7ecf3',
+  fontSize: 17,
+  fontWeight: 700,
+  lineHeight: 1,
+  cursor: 'pointer',
+  padding: 0,
+}
+
+function FitViewIcon() {
+  return (
+    <svg width={13} height={12} viewBox="0 0 32 30" fill="#e7ecf3" aria-hidden>
+      <path d="M3.692 4.63c0-.53.4-.938.939-.938h5.215V0H4.708C2.13 0 0 2.054 0 4.63v5.216h3.692V4.631zM27.354 0h-5.2v3.692h5.17c.53 0 .984.4.984.939v5.215H32V4.631A4.624 4.624 0 0027.354 0zm.954 24.83c0 .532-.4.94-.939.94h-5.215v3.768h5.215c2.577 0 4.631-2.13 4.631-4.707v-5.139h-3.692v5.139zm-23.677.94a.919.919 0 01-.939-.94v-5.138H0v5.139c0 2.577 2.13 4.707 4.708 4.707h5.138V25.77H4.631z" />
+    </svg>
+  )
+}
+
+function ZoomBar() {
+  const { zoomIn, zoomOut, fitView } = useReactFlow()
+  const { zoom } = useViewport()
+  return (
+    <Panel position="bottom-left">
+      <div
+        style={{
+          display: 'flex',
+          alignItems: 'center',
+          gap: 8,
+          padding: 8,
+          background: 'rgba(17,21,28,.92)',
+          border: '1px solid #2a313e',
+          borderRadius: 14,
+          boxShadow: '0 4px 14px rgba(0,0,0,.35)',
+        }}
+      >
+        <button
+          style={zoomBtnStyle}
+          onClick={() => void zoomOut({ duration: 200 })}
+          aria-label="縮小"
+        >
+          −
+        </button>
+        <span
+          style={{
+            minWidth: 44,
+            textAlign: 'center',
+            color: '#9aa6b6',
+            fontSize: 13,
+            fontWeight: 600,
+            fontVariantNumeric: 'tabular-nums',
+          }}
+        >
+          {Math.round(zoom * 100)}%
+        </span>
+        <button
+          style={zoomBtnStyle}
+          onClick={() => void zoomIn({ duration: 200 })}
+          aria-label="拡大"
+        >
+          ＋
+        </button>
+        <button
+          style={zoomBtnStyle}
+          onClick={() => void fitView({ duration: 300 })}
+          aria-label="全体表示"
+        >
+          <FitViewIcon />
+        </button>
+      </div>
+    </Panel>
+  )
 }
 
 // エッジ意匠（Image #4）: 分岐辺＝着地先カテゴリ色で太く・ラベル強調、構造リンク＝中間グレー、
@@ -274,18 +359,21 @@ export function FlowMap({ onJump }: { onJump?: () => void } = {}) {
         style={{ background: '#13161c' }}
       >
         <Background color="#222834" gap={26} />
+        {/* MiniMap はダーク UI（bgColor＝盤面と同系の暗色・HU-58）。 */}
         <MiniMap
           pannable
           zoomable
+          bgColor="#10141b"
           nodeColor={(n) =>
             n.type === 'groupBox'
-              ? 'rgba(255,255,255,.04)'
+              ? 'rgba(255,255,255,.06)'
               : (CATEGORY_COLOR[(n.data as SceneNodeData).category as Category] ??
                 CATEGORY_COLOR.common)
           }
-          maskColor="rgba(19,22,28,.7)"
+          maskColor="rgba(8,10,14,.65)"
+          style={{ border: '1px solid #2a313e', borderRadius: 8, overflow: 'hidden' }}
         />
-        <Controls />
+        <ZoomBar />
       </ReactFlow>
     </div>
   )

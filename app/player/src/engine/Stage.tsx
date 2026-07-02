@@ -227,9 +227,10 @@ export function Stage() {
 
   const total = scene?.beats.length ?? 0
   // 複数行 narration では beat 内の行進捗も併記（クリックで送れていることが分かるように）。
+  // 形式は `001_PRO001A<全角SP>1/53（3/6）`（HU-58。全角SPは \u3000 エスケープで表記＝irregular-whitespace 回避）。
   const curBeat = scene?.beats[index]
   const beatLines = curBeat?.kind === 'narration' ? curBeat.lines.length : 1
-  const lineLabel = beatLines > 1 ? ` （行 ${line + 1}/${beatLines}）` : ''
+  const lineLabel = beatLines > 1 ? `（${line + 1}/${beatLines}）` : ''
 
   // 原ゲーム解像度 1280×720（16:9）に描画領域を固定し、ウィンドウ内で最大の 16:9 ボックスを
   // 中央寄せする（余白は背景の黒）。canvas を常にゲーム論理空間と同アスペクトに保つことで、
@@ -261,16 +262,17 @@ export function Stage() {
             position: 'absolute',
             right: 12,
             bottom: 10,
-            color: 'rgba(255,255,255,.7)',
+            color: '#fff',
             font: `12px ${UI_FONT}`,
             letterSpacing: '.12em',
-            textShadow: '0 1px 4px #000',
+            // メインセリフ（SubtitleLayer）と同趣旨の黒アウトライン＋ドロップシャドウ。
+            // 明るい背景のシーンでも読めるようにする（HU-58）。
+            textShadow:
+              '-1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000, 0 0 4px #000, 0 2px 5px rgba(0,0,0,.6)',
             pointerEvents: 'none',
           }}
         >
-          {ended
-            ? '— 終 —'
-            : `${scene?.code ?? '…'} · ${index + 1} / ${total}${lineLabel} · クリック / Space で進む`}
+          {ended ? '— 終 —' : `${scene?.code ?? '…'}\u3000${index + 1}/${total}${lineLabel}`}
         </div>
       </div>
     </div>

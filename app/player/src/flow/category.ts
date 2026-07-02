@@ -76,14 +76,14 @@ export function categoryOfNode(node: Pick<FlowNode, 'kind' | 'scenes'>): Categor
   return best
 }
 
-/** カテゴリ → 配色（凡例画像準拠＋合流に独立色 green）。 */
+/** カテゴリ → 配色（凡例画像準拠＋合流に独立色 green。楓は end の金色と紛らわしいため水色・HU-58）。 */
 export const CATEGORY_COLOR: Record<Category, string> = {
   common: '#7b8696',
   ayan: '#e07a93',
   suzu: '#6f93e0',
   tuba: '#3fb6ad',
   mako: '#b08ae8',
-  kaede: '#e0a94f',
+  kaede: '#5bc8f5',
   merge: '#6bbf73',
   end: '#ffd166',
 }
