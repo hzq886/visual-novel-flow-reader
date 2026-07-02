@@ -294,29 +294,66 @@ export function FlowMap({ onJump }: { onJump?: () => void } = {}) {
     setEdges(rfEdges(graph))
   }, [graph, omakeGraph, sceneCode, setNodes, setEdges])
 
-  // 初期ビュー: 最上段ノードをコンテナ上部・水平中央へ等倍で据える（HU-53）。以降はユーザが
-  // 下へパン/スクロールして辿る。座標は明示ズーム基準（*INIT_ZOOM）で計算するのでどのタイミングで
-  // 適用しても中央がずれない。水平中央は FlowMap コンテナ実幅基準（HU-52 の 16:9 枠内でも正しい）。
-  const applyInitialView = useCallback((rf: ReactFlowInstance<Node, Edge>) => {
-    const INIT_ZOOM = 1 // 等倍・可読サイズ。
-    const topPad = 96 // 上端の見出し（Legend）下に最上段ノードを収める余白。
-    const width = containerRef.current?.clientWidth ?? window.innerWidth
+  // 再生中シーンのノードをビューポート中央へ据える（HU-59）。位置が引けなければ false。
+  // positions は本編＋おまけ統合済みなので 009_NUKE でも動く。live になるのは scene ノードのみ
+  // （end/hub は再生対象外）なので寸法は SCENE_SIZE 固定でよい。
+  const centerOnLive = useCallback((rf: ReactFlowInstance<Node, Edge>, code: string): boolean => {
+    const p = positions.get(code)
+    if (!p) return false
+    const ZOOM = 1
+    const el = containerRef.current
+    const width = el?.clientWidth ?? window.innerWidth
+    const height = el?.clientHeight ?? window.innerHeight
     rf.setViewport({
-      x: width / 2 - startCenterX.cx * INIT_ZOOM,
-      y: topPad - startCenterX.topY * INIT_ZOOM,
-      zoom: INIT_ZOOM,
+      x: width / 2 - (p.x + SCENE_SIZE.width / 2) * ZOOM,
+      y: height / 2 - (p.y + SCENE_SIZE.height / 2) * ZOOM,
+      zoom: ZOOM,
     })
+    return true
   }, [])
 
+  // 初期ビュー: 再生中シーンがあればそのノードを中央に（HU-59＝物語から Tab で戻ったケース）。
+  // 未再生なら最上段ノードをコンテナ上部・水平中央へ等倍で据える（HU-53）。以降はユーザが
+  // 下へパン/スクロールして辿る。座標は明示ズーム基準（*INIT_ZOOM）で計算するのでどのタイミングで
+  // 適用しても中央がずれない。水平中央は FlowMap コンテナ実幅基準（HU-52 の 16:9 枠内でも正しい）。
+  const applyInitialView = useCallback(
+    (rf: ReactFlowInstance<Node, Edge>) => {
+      const live = usePlayer.getState().scene?.code ?? null
+      if (live && centerOnLive(rf, live)) return
+      const INIT_ZOOM = 1 // 等倍・可読サイズ。
+      const topPad = 96 // 上端の見出し（Legend）下に最上段ノードを収める余白。
+      const width = containerRef.current?.clientWidth ?? window.innerWidth
+      rf.setViewport({
+        x: width / 2 - startCenterX.cx * INIT_ZOOM,
+        y: topPad - startCenterX.topY * INIT_ZOOM,
+        zoom: INIT_ZOOM,
+      })
+    },
+    [centerOnLive],
+  )
+
   // onInit 直後の setViewport は React Flow の初期フィットに上書きされ得るため、描画確定後
-  // （rAF 2 フレーム）に再適用して確実に定着させる。
+  // （rAF 2 フレーム）に再適用して確実に定着させる。インスタンスは起動直後の中央寄せ直し
+  // （下の effect・HU-59）でも使うため ref に保持する。
+  const rfRef = useRef<ReactFlowInstance<Node, Edge> | null>(null)
   const onInit = useCallback(
     (rf: ReactFlowInstance<Node, Edge>) => {
+      rfRef.current = rf
       applyInitialView(rf)
       requestAnimationFrame(() => requestAnimationFrame(() => applyInitialView(rf)))
     },
     [applyInitialView],
   )
+
+  // 起動直後（初期ビュー＝ルート図・HU-58）は開始シーンのロードが onInit より遅れ得る。
+  // マウント時に未再生だった場合のみ、最初のシーン確定時に一度だけ中央へ寄せ直す
+  // （以降のシーン変化ではユーザのパンを乱さないためビューポートを動かさない）。
+  const liveCentered = useRef<boolean>(usePlayer.getState().scene !== null)
+  useEffect(() => {
+    if (liveCentered.current || !sceneCode || !rfRef.current) return
+    liveCentered.current = true
+    centerOnLive(rfRef.current, sceneCode)
+  }, [sceneCode, centerOnLive])
 
   // シーンノードのクリックで物語をそのシーン先頭へスキップし、物語ビューへ戻す（HU-46）。
   // hub(分岐)/end/omake・コンテナは再生対象シーンが無いので無視する。
