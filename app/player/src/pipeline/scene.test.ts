@@ -277,6 +277,109 @@ describe('parseScene — [id] OFF で立ち絵をオフにする（HU-36）', ()
   })
 })
 
+describe('parseScene — 被せ CG（EV/ITEM/黒一色）のレイヤモデル（HU-63）', () => {
+  it('EV 表示中の beat には sprite を出力しない（下レイヤの立ち絵は隠れる）', () => {
+    // 006_TUBA002B 相当: 立ち絵表示中に EV へ切替 → EV beat に立ち絵が重なっていた不具合。
+    const text = [
+      '[note] #背景・教室（夕）',
+      '[note] #翼・催眠１',
+      '[text] 立ち絵ありの地の文。',
+      '[note] #EV011・横向き',
+      '[text] イベントCGの地の文。',
+    ].join('\n')
+    const s = parseScene(text, { code: '006_TUBA002B', locale: 'jp' })
+    expect(
+      s.beats.map((b) => ({ bg: b.bg?.label ?? null, sprite: b.sprite?.label ?? null })),
+    ).toEqual([
+      { bg: '#背景・教室（夕）', sprite: '#翼・催眠１' },
+      { bg: '#EV011・横向き', sprite: null }, // EV 中は立ち絵を隠す
+    ])
+  })
+
+  it('EV 中の立ち絵 note は被せ CG を閉じ、通常背景＋立ち絵へ復帰する', () => {
+    // 001_PRO002B2 相当: 朝食イベント CG → 日常へ戻り綾菜の立ち絵 note。
+    const text = [
+      '[note] #背景・リビング（昼）',
+      '[text] 朝食前の地の文。',
+      '[note] #EV001・朝食',
+      '[text] 朝食イベントの地の文。',
+      '[note] #綾菜・通常',
+      '[text] 日常へ戻った地の文。',
+    ].join('\n')
+    const s = parseScene(text, { code: '001_PRO002B2', locale: 'jp' })
+    expect(
+      s.beats.map((b) => ({ bg: b.bg?.label ?? null, sprite: b.sprite?.label ?? null })),
+    ).toEqual([
+      { bg: '#背景・リビング（昼）', sprite: null },
+      { bg: '#EV001・朝食', sprite: null },
+      { bg: '#背景・リビング（昼）', sprite: '#綾菜・通常' }, // EV が閉じて下レイヤ復帰
+    ])
+  })
+
+  it('EV → #背景 復帰時、下レイヤの立ち絵 sticky が再表示される（note 再指定なし）', () => {
+    const text = [
+      '[note] #背景・部屋',
+      '[note] #綾菜・通常',
+      '[text] Ａ。',
+      '[note] #EV002・回想',
+      '[text] Ｂ。',
+      '[note] #背景・部屋',
+      '[text] Ｃ。',
+    ].join('\n')
+    const s = parseScene(text, { code: '999_TEST001A', locale: 'jp' })
+    expect(s.beats.map((b) => b.sprite?.label ?? null)).toEqual([
+      '#綾菜・通常',
+      null, // EV 中は隠れる
+      '#綾菜・通常', // 復帰で再表示（sticky 保持）
+    ])
+  })
+
+  it('黒一色（暗転）・ITEM も被せ扱い＝表示中は立ち絵を出さない', () => {
+    const text = [
+      '[note] #背景・部屋',
+      '[note] #綾菜・通常',
+      '[text] Ａ。',
+      '[id] BG_BLACK',
+      '[text] Ｂ。',
+      '[id] ITEM_03_01',
+      '[text] Ｃ。',
+      '[note] #背景・部屋',
+      '[text] Ｄ。',
+    ].join('\n')
+    const s = parseScene(text, { code: '999_TEST001A', locale: 'jp' })
+    expect(
+      s.beats.map((b) => ({ bg: b.bg?.label ?? null, sprite: b.sprite?.label ?? null })),
+    ).toEqual([
+      { bg: '#背景・部屋', sprite: '#綾菜・通常' },
+      { bg: '#背景・黒一色', sprite: null },
+      { bg: 'ITEM_03_01', sprite: null },
+      { bg: '#背景・部屋', sprite: '#綾菜・通常' },
+    ])
+  })
+
+  it('EV 中の [id] OFF は下レイヤの立ち絵を消す（復帰後も出ない・beat 分割なし）', () => {
+    const text = [
+      '[note] #背景・部屋',
+      '[note] #綾菜・通常',
+      '[text] Ａ。',
+      '[note] #EV002・回想',
+      '[text] Ｂ。',
+      '[id] OFF',
+      '[text] Ｃ。',
+      '[note] #背景・部屋',
+      '[text] Ｄ。',
+    ].join('\n')
+    const s = parseScene(text, { code: '999_TEST001A', locale: 'jp' })
+    expect(
+      s.beats.map((b) => ({ bg: b.bg?.label ?? null, sprite: b.sprite?.label ?? null })),
+    ).toEqual([
+      { bg: '#背景・部屋', sprite: '#綾菜・通常' },
+      { bg: '#EV002・回想', sprite: null }, // OFF は見た目不変＝分割なし（Ｂ/Ｃ が同 beat）
+      { bg: '#背景・部屋', sprite: null }, // 復帰しても立ち絵は OFF 済み
+    ])
+  })
+})
+
 describe('parseScene — [id] ITEM_* をアイテムCG（背景）として反映（HU-41）', () => {
   it('[id] ITEM_xx_yy で bg ラベルが当該 CG コードになる', () => {
     // 001_PRO001B 相当: ITEM の直後に説明の地の文が続く。

@@ -5,8 +5,8 @@
  *  [text] 古橋綾菜\N喫茶店へ        … 最初の \N 入り本文＝タイトルカード
  *  [id]   BG_BLACK                 … 制御マーカー（beat に影響させない）
  *  [text] ……帰宅する途中、…        … 地の文（narration）。連続行を 1 beat に集約
- *  [note] #背景・喫茶店（夕）         … 背景 sticky 更新（#背景 / #EV）
- *  [note] #綾菜（中）・…・にっこり１  … 立ち絵 sticky 更新（#<キャラ>）
+ *  [note] #背景・喫茶店（夕）         … 通常背景 sticky 更新（#背景。#EV/黒一色は被せ CG・HU-63）
+ *  [note] #綾菜（中）・…・にっこり１  … 立ち絵 sticky 更新（#<キャラ>。被せ CG 表示中なら閉じて復帰）
  *  [text] 【古橋綾菜】               … 話者マーカー。直後のセリフ beat に適用（使い切り）
  *  [id]   AYAN_002_AYAN001A_001     … ボイスID（シーンコードを内包）→ 次のセリフ beat へ
  *  [id]   8351A                     … 効果音コード（4桁+英字）→ 現 beat（無ければ次 beat）へ
@@ -16,6 +16,12 @@
  * （例: L27 のセリフは直前話者が和樹でも voice=AYAN なので綾菜と解決）。
  * bg/sprite は beat 生成時点の sticky 値をスナップショット（注記は次 beat 以降に効く）。
  * 素材ファイルの実体解決（manifest 照合）は別工程（resolve*）。ここでは label のみ付与。
+ *
+ * レイヤモデル（HU-63）: 原作エンジンは「通常背景＋立ち絵」の下レイヤに、EV（一枚絵）／
+ * ITEM CG／黒一色（暗転）の**被せ CG** が覆い被さる 2 層構造。被せ CG 表示中は立ち絵を
+ * 描かず（下レイヤの sticky は保持）、立ち絵 note か次の `#背景` note が来た時点で被せ CG が
+ * 閉じて下レイヤへ復帰する（EV 中の立ち絵 note 15 件・EV→背景後に立ち絵 note 無し 9 件の
+ * 原テキスト精読で確定）。beat 出力は bg = 被せ CG ?? 通常背景、sprite = 被せ CG 中は無し。
  */
 import { Scene, type Beat, type BgRef, type Locale, type SeRef, type SpriteRef } from './types'
 import { SE_RE } from './audio'
@@ -67,8 +73,9 @@ export function parseScene(text: string, opts: { code: string; locale: Locale })
   let pendingVoice: string | null = null
   let pendingSe: SeRef[] = [] // beat 生成前に現れた se は次 beat へ持ち越す
   let pendingFlash: number | undefined // EFFECT:FLASHn は直後の beat（インパクト行）で光らせる
-  let stickyBg: BgRef | undefined
-  let stickySprite: SpriteRef | undefined
+  let stickyBg: BgRef | undefined // 通常背景（下レイヤ）
+  let stickyOverlay: BgRef | undefined // 被せ CG（EV/ITEM/黒一色。表示中は立ち絵を隠す・HU-63）
+  let stickySprite: SpriteRef | undefined // 立ち絵（下レイヤ。被せ CG 中も保持し復帰時に再表示）
   let stickyBgv: { id: string; file: null } | undefined
   let quoteDepth = 0
   let lastWho: string | null = null
@@ -88,9 +95,12 @@ export function parseScene(text: string, opts: { code: string; locale: Locale })
     flash?: number
   }
   const snapshot = (): Snap => {
+    // 表示状態 = 被せ CG があればそれが bg・立ち絵は隠す。無ければ通常背景＋立ち絵（HU-63）。
+    const bg = stickyOverlay ?? stickyBg
+    const sprite = stickyOverlay ? undefined : stickySprite
     const snap: Snap = {
-      ...(stickyBg ? { bg: stickyBg } : {}),
-      ...(stickySprite ? { sprite: stickySprite } : {}),
+      ...(bg ? { bg } : {}),
+      ...(sprite ? { sprite } : {}),
       ...(stickyBgv ? { bgv: stickyBgv } : {}),
     }
     if (pendingSe.length) {
@@ -103,25 +113,36 @@ export function parseScene(text: string, opts: { code: string; locale: Locale })
     }
     return snap
   }
-  // bg/sprite が実際に変化する場合のみ、開いているナレーション beat を flush して
-  // 新しい注記を次 beat からスナップショットさせる。これをしないと、ナレーション
+  // 表示状態（bg/sprite の見え方）が実際に変化する場合のみ、開いているナレーション beat を
+  // flush して新しい注記を次 beat からスナップショットさせる。これをしないと、ナレーション
   // 途中の背景/立ち絵切替が「次のセリフ等の flush まで遅延／消失」する（HU-34）。
   // セリフ（line）beat や引用継続中には触れない（narration のみ・発話の原子性を維持）。
+  // 通常背景（#背景）。被せ CG が出ていれば閉じて下レイヤへ復帰する（HU-63）。
   const setBg = (label: string) => {
-    if (label === stickyBg?.label) return
+    if (stickyOverlay === undefined && label === stickyBg?.label) return
     if (cur?.kind === 'narration') flush()
+    stickyOverlay = undefined
     stickyBg = { label, file: null }
   }
-  const setSprite = (label: string) => {
-    if (label === stickySprite?.label) return
+  // 被せ CG（#EV / [id] ITEM_* / 黒一色）。下レイヤ（通常背景・立ち絵）はそのまま保持する（HU-63）。
+  const setOverlay = (label: string) => {
+    if (label === stickyOverlay?.label) return
     if (cur?.kind === 'narration') flush()
+    stickyOverlay = { label, file: null }
+  }
+  // 立ち絵 note。被せ CG 表示中に来たら被せ CG を閉じ、通常背景＋立ち絵へ復帰する（HU-63）。
+  const setSprite = (label: string) => {
+    if (stickyOverlay === undefined && label === stickySprite?.label) return
+    if (cur?.kind === 'narration') flush()
+    stickyOverlay = undefined
     stickySprite = { label, body: null, face: null }
   }
   // 立ち絵オフ（[id] OFF）。sticky を消すと以降の beat は sprite 無し＝エンジンが自動で
   // 立ち絵を隠す（Stage は beat.sprite が無ければ sprite.hide()）。bg には触れない（HU-36）。
+  // 被せ CG 表示中は見た目が変わらない（既に隠れている）ため flush しない。
   const clearSprite = () => {
     if (stickySprite === undefined) return
-    if (cur?.kind === 'narration') flush()
+    if (cur?.kind === 'narration' && stickyOverlay === undefined) flush()
     stickySprite = undefined
   }
   // 背景ボイス（[id] BGV_<CHAR>_<...>）。単一ループチャンネルで、次の BGV までシーン内で持続
@@ -146,7 +167,9 @@ export function parseScene(text: string, opts: { code: string; locale: Locale })
     if (val !== raw && isJunkResidue(val)) continue
 
     if (tag === 'note') {
-      if (/^#(背景|EV)/.test(val)) setBg(val)
+      // #EV（一枚絵）と黒一色（note 直書きの暗転）は被せ CG、#背景 は通常背景（下レイヤ・HU-63）。
+      if (/^#EV/.test(val) || val === BLACK_BG_LABEL) setOverlay(val)
+      else if (/^#背景/.test(val)) setBg(val)
       else if (val.startsWith('#')) setSprite(val)
       continue
     }
@@ -167,15 +190,15 @@ export function parseScene(text: string, opts: { code: string; locale: Locale })
         pendingVoice = val
         quoteDepth = 0
       }
-      // [id] BG_BLACK = 黒一色背景の表示制御（BG_BLACK.png は実アセット）。背景切替として
-      // 扱い、ラベル #背景・黒一色 経由で解決させる。無視すると直前 CG が残る（HU-35）。
-      else if (val === 'BG_BLACK') setBg(BLACK_BG_LABEL)
+      // [id] BG_BLACK = 黒一色（暗転）。被せ CG として扱い（HU-63。表示中は立ち絵を隠す）、
+      // ラベル #背景・黒一色 経由で解決させる。無視すると直前 CG が残る（HU-35）。
+      else if (val === 'BG_BLACK') setOverlay(BLACK_BG_LABEL)
       // [id] OFF = 立ち絵オフ。無視すると直前の立ち絵が残り続ける（HU-36）。
       else if (val === 'OFF') clearSprite()
       // [id] ITEM_xx_yy = アイテムCG（全画面クローズアップ）。_BGSET ラベルを介さず id が
-      // そのまま CG ファイルコード。背景切替として扱う（resolveBg の直CGフォールバックで解決）。
-      // 無視すると直前 CG が残る（HU-41）。
-      else if (/^ITEM_\d+_\d+$/.test(val)) setBg(val)
+      // そのまま CG ファイルコード。被せ CG として扱う（resolveBg の直CGフォールバックで解決。
+      // HU-41/HU-63）。無視すると直前 CG が残る。
+      else if (/^ITEM_\d+_\d+$/.test(val)) setOverlay(val)
       // [id] BGV_<CHAR>_<...> = 背景ボイス（喘ぎ等のループ）。sticky に保持し次 BGV まで持続（HU-37）。
       else if (/^BGV_/.test(val)) setBgv(val)
       // [id] EFFECT:FLASHn = 画面フラッシュ（n=1-3 の強度）。インパクト行（直後の beat）で光らせる
