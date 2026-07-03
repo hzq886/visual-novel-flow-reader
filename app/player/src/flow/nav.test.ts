@@ -44,6 +44,22 @@ describe('FlowNav — flow 駆動のシーン遷移', () => {
     expect(nav.advance('009_NUKE006')).toEqual({ kind: 'end' })
   })
 
+  it('文言なしエッジ分岐は解決先が同じものをまとめる（HU-62）', () => {
+    // 006_TUBA018B: NORMAL_END / TRUE_END の 2 エッジ＝どちらも終端 → 選択肢を出さず end。
+    expect(nav.advance('006_TUBA018B')).toEqual({ kind: 'end' })
+    // 011_SUBT001A: 直行と旧 SMAIN_TUBAMAKO06 経由が同一シーンへ解決 → 自動進行。
+    expect(nav.advance('011_SUBT001A')).toEqual({ kind: 'scene', code: '006_TUBA004A' })
+    // 010_MAIN003A: 6 エッジ中 4 本が 006_TUBA003A へ収束 → 実質 3 択に集約される。
+    const step = nav.advance('010_MAIN003A')
+    expect(step.kind).toBe('choice')
+    if (step.kind !== 'choice') return
+    expect(step.options.map((o) => o.target).sort()).toEqual([
+      '002_AYAN005A',
+      '005_MAKO003A',
+      '006_TUBA003A',
+    ])
+  })
+
   it('全 advance の scene/option.target は実在シーンを指す（到達可能性の番兵）', () => {
     const realScenes = new Set(flow.nodes.flatMap((n) => n.scenes))
     for (const code of realScenes) {

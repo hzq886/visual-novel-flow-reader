@@ -83,10 +83,25 @@ const ENDING_BY_ARC: Record<string, string> = {
   '005_MAKO005F': '真琴 END2【崇拝するお嬢様】',
   '012_SUBTM004A': '翼 END1【ゲームの結果】',
   '006_TUBA017A': '翼 END2【翼との同居】',
-  '006_TUBA018A': '翼 END3【喪失】',
+  // 攻略の 翼END3【喪失】（feeder arc 006_TUBA018A）は TRUE_END へ統合（HU-62。TRUE_END_* 参照）。
   '008_TUBA007A': '翼＆楓 END【楠木家の妊婦たち】',
   '006_TUBA019A': '翼＆真琴 END【妊婦とメイド】',
 }
+
+/**
+ * トゥルーEND の curated 題（HU-62）。ゲームデータに題は無く、結末内容（和樹が全員の催眠を
+ * 解いて元に戻し、自分に関する記憶を全員から消すことを『罰』として選ぶ——「さよなら、翼」）
+ * から命名。
+ */
+const TRUE_END_ID = 'TRUE_END'
+const TRUE_END_TITLE = 'トゥルーEND【さよなら、翼】'
+/**
+ * TRUE_END へ統合する NORMAL_END feeder arc（HU-62）。攻略の 翼END3【喪失】は SMAIN 上
+ * S66 switch の case が 018A「後悔と罰」→018B「喪失」を再生して TRUE_END マーカーへ到達する
+ * 同一結末（NORMAL_END 側は switch の else フォールスルーで再生シーンなし）。個別エンドは
+ * 作らず、NORMAL_END 宛の辺を TRUE_END へ張り替えて 1 ノードに統合する。
+ */
+const TRUE_END_MERGED_ARCS = new Set<string>(['006_TUBA018A'])
 
 /**
  * おまけ（009_NUKE）シーン（HU-57）。SMAIN バイトコードから一切参照されない独立コンテンツで、
@@ -172,11 +187,12 @@ export function buildSceneGraph(flow: Flow, index: SceneIndex, locale: Locale): 
       // ノーマルEND は feeder ごとに分割する（HU-56）ため、単一ノードとしては作らない（後段で生成）。
       if (n.id === SPLIT_END_ID) continue
       // その他の end（TRUE_END）/ omake は終端マーカーとしてノード残置。
+      // TRUE_END はゲームデータに題が無いため curated 題を付ける（HU-62）。
       nodes.push({
         id: n.id,
         kind: n.kind,
         category: categoryOfNode(n),
-        title: n.title,
+        title: n.id === TRUE_END_ID ? TRUE_END_TITLE : n.title,
       })
     } else {
       // branch(hub) は畳む（HU-55）。ノード化せず、入辺を継続先の実シーンへ張り替える（下の辺ループ）。
@@ -198,6 +214,11 @@ export function buildSceneGraph(flow: Flow, index: SceneIndex, locale: Locale): 
   for (const e of flow.edges) {
     if (e.target !== SPLIT_END_ID) continue
     if (dropped.has(e.source) || hubIds.has(e.source) || endNodeIdByArc.has(e.source)) continue
+    // TRUE_END と同一結末の feeder は個別エンドを作らず TRUE_END ノードへ統合する（HU-62）。
+    if (TRUE_END_MERGED_ARCS.has(e.source)) {
+      endNodeIdByArc.set(e.source, TRUE_END_ID)
+      continue
+    }
     const endId = `END_${e.source}`
     endNodeIdByArc.set(e.source, endId)
     nodes.push({
@@ -230,6 +251,7 @@ export function buildSceneGraph(flow: Flow, index: SceneIndex, locale: Locale): 
     return tgtOf(cur)
   }
 
+  const seenEdge = new Set<string>() // 張替後に同一になる辺の重複排除（TRUE_END 統合等・HU-62）
   flow.edges.forEach((e, i) => {
     if (dropped.has(e.source) || dropped.has(e.target)) return
     // hub の出辺は入辺の張替で代替するので落とす（source が hub のケース）。
@@ -247,6 +269,9 @@ export function buildSceneGraph(flow: Flow, index: SceneIndex, locale: Locale): 
     // choiceLabel は raw id（畳む前の hub 宛）で引くので、継続先へ張り替えてもラベルは移設される。
     const opt = choiceLabel.get(`${e.source}->${e.target}`)
     const label = opt ? (locale === 'cn' ? (opt.cn ?? opt.jp) : opt.jp) : e.label
+    const key = `${source}|${target}|${label ?? ''}`
+    if (seenEdge.has(key)) return
+    seenEdge.add(key)
     edges.push({
       id: `s${i}-${source}-${target}`,
       source,
