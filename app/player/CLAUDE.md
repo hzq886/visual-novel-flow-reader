@@ -14,21 +14,24 @@ Vite + TypeScript + React / VN描画=**PixiJS**(WebGL) / ルート図=**React Fl
 - `src/audio/` — Howler ラッパ（voice/se/bgm）。
 - `src/store/` — Zustand（再生位置・現在シーン・フラグ）。
 - `scripts/` — ビルドスクリプト（tsx 実行、Node）。
+- `electron/` — Electron main/preload と app:// 配信の純関数（`serve.ts`、Vitest 対象）。方式は [ADR 0008](../../docs/adr/0008-electron-packaging.md)。ビルドは esbuild（`scripts/electron-build.ts`）、パッケージは electron-builder（`electron-builder.yml`、素材2.4GBを extraResources 同梱・**ローカルのみ・CI外**）。
 - `data/` — **生成物**。`scenes/<locale>/*.json`（build-scenes 経由。jp/cn 別ディレクトリ）/ `flow.json`（extract-flow.py 経由＝SMAIN 機械抽出）/ `sprites.json`・`backgrounds.json` / `manifest.json`。いずれも手編集禁止。`flow.routemap.json`（build-flow 二次出力）は git 外。
 - `public/assets/` — **git 外**。素材実体は `npm run assets:fetch` で配置。
 
 ## コマンド
 
-| コマンド                                                       | 用途                                                      |
-| -------------------------------------------------------------- | --------------------------------------------------------- |
-| `npm run dev`                                                  | Vite 開発（http://localhost:5173）                        |
-| `npm run build` / `preview`                                    | 本番ビルド / プレビュー                                   |
-| `npm run lint` / `format` / `typecheck`                        | ESLint(`--max-warnings 0`) / Prettier / `tsc -b --noEmit` |
-| `npm run test` / `test:watch`                                  | Vitest                                                    |
-| `npm run assets:fetch -- --scene <code>`                       | 素材を public/assets へ同期＋manifest 生成                |
-| `npm run data:defs` / `data:scenes` / `data:flow` / `data:all` | sprites/backgrounds・scenes(jp+cn)・flow を生成           |
-| `npm run data:scenes:cn` / `validate:cn`                       | cn シーン生成 / cn の未解決参照照合                       |
-| `npm run validate`                                             | 未解決参照・flow とシーンの相互照合                       |
+| コマンド                                                       | 用途                                                                   |
+| -------------------------------------------------------------- | ---------------------------------------------------------------------- |
+| `npm run dev`                                                  | Vite 開発（http://localhost:5173）                                     |
+| `npm run build` / `preview`                                    | 本番ビルド / プレビュー                                                |
+| `npm run dev:electron`                                         | Electron 開発（Vite dev ＋ Electron 同時起動）                         |
+| `npm run build:electron` / `dist:electron`                     | web＋main/preload ビルド / mac arm64 `.app` 生成（ローカルのみ・CI外） |
+| `npm run lint` / `format` / `typecheck`                        | ESLint(`--max-warnings 0`) / Prettier / `tsc -b --noEmit`              |
+| `npm run test` / `test:watch`                                  | Vitest                                                                 |
+| `npm run assets:fetch -- --scene <code>`                       | 素材を public/assets へ同期＋manifest 生成                             |
+| `npm run data:defs` / `data:scenes` / `data:flow` / `data:all` | sprites/backgrounds・scenes(jp+cn)・flow を生成                        |
+| `npm run data:scenes:cn` / `validate:cn`                       | cn シーン生成 / cn の未解決参照照合                                    |
+| `npm run validate`                                             | 未解決参照・flow とシーンの相互照合                                    |
 
 ## git 運用（GitHub Flow）
 

@@ -15,4 +15,9 @@ export default defineConfig({
     // repo ルート配下（data/ やテキスト原本）を dev サーバから参照できるよう許可
     fs: { allow: ['../..'] },
   },
+  build: {
+    // 既定の 'assets' だと public/assets（ゲーム素材 2.4GB のコピー）とバンドル出力が
+    // dist/assets に同居する。Electron パッケージで素材を除外できるよう出力先を分離（HU-64）。
+    assetsDir: 'static',
+  },
 })

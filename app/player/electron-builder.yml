@@ -1,0 +1,24 @@
+# electron-builder 設定（HU-64）。パッケージングはローカル実行のみ（CI 対象外）。
+# ゲーム素材 2.4GB は asar に入れず extraResources で Resources/assets へ同梱する。
+appId: dev.hzq886.saimin4
+productName: Saimin4
+directories:
+  output: release
+  buildResources: build
+files:
+  - dist/**
+  # dist/assets は vite build が public/assets をコピーしたもの（extraResources と重複するため除外）
+  - '!dist/assets/**'
+  - dist-electron/**
+extraResources:
+  - from: public/assets
+    to: assets
+asar: true
+npmRebuild: false
+mac:
+  target:
+    - target: dir
+      arch:
+        - arm64
+  identity: null # コード署名なし（個人利用・配布はスコープ外）
+  category: public.app-category.games
