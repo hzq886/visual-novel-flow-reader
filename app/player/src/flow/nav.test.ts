@@ -1,10 +1,11 @@
 import { describe, expect, it } from 'vitest'
 import flowJson from '@data/flow.json'
-import { Flow } from '@/pipeline/types'
+import sceneIndexJson from '@data/scene-index.json'
+import { Flow, SceneIndex } from '@/pipeline/types'
 import { FlowNav } from './nav'
 
 const flow = Flow.parse(flowJson)
-const nav = new FlowNav(flow)
+const nav = new FlowNav(flow, SceneIndex.parse(sceneIndexJson))
 
 describe('FlowNav — flow 駆動のシーン遷移', () => {
   it('firstScene は start を辿って実在の開始シーンを返す', () => {
@@ -58,6 +59,38 @@ describe('FlowNav — flow 駆動のシーン遷移', () => {
       '005_MAKO003A',
       '006_TUBA003A',
     ])
+  })
+
+  it('文言なしエッジ分岐のラベルは人間可読になる（HU-61）', () => {
+    // 010_MAIN003A の大分岐は curated ルート名（cn 併記）。
+    const dispatch = nav.advance('010_MAIN003A')
+    if (dispatch.kind !== 'choice') throw new Error('choice expected')
+    const byTarget = new Map(dispatch.options.map((o) => [o.target, o]))
+    expect(byTarget.get('002_AYAN005A')).toMatchObject({ label: '姉妹ルートへ', cn: '姐妹路线' })
+    expect(byTarget.get('005_MAKO003A')).toMatchObject({ label: '真琴ルートへ', cn: '真琴路线' })
+    expect(byTarget.get('006_TUBA003A')).toMatchObject({ label: '翼ルートへ', cn: '翼路线' })
+
+    // それ以外は行き先シーンの題（scene-index。jp/cn 自動対応）。
+    const tuba = nav.advance('006_TUBA003B')
+    if (tuba.kind !== 'choice') throw new Error('choice expected')
+    expect(tuba.options.map((o) => o.label).sort()).toEqual(['下着姿で休憩', '虚ろ目性的開発１'])
+    expect(tuba.options.find((o) => o.target === '006_TUBA003C')?.cn).toBe('穿着内衣休息')
+
+    // 題なしの 012_SUBTM 挿入シーンは汎用ラベル。
+    const ins = nav.advance('006_TUBA003E')
+    if (ins.kind !== 'choice') throw new Error('choice expected')
+    expect(ins.options.find((o) => o.target === '012_SUBTM001A')).toMatchObject({
+      label: '挿入シーン（翼＆真琴）',
+      cn: '插入场景（翼＆真琴）',
+    })
+
+    // 生 ID（SMAIN_* / NNN_XXX）がラベルに露出する分岐が 1 つも残っていない（全 18 箇所の番兵）。
+    const rawLike = (s: string) => /^(SMAIN_|NORMAL_END|TRUE_END|STAFF_ROLL|\d{3}_)/.test(s)
+    for (const code of flow.nodes.flatMap((n) => n.scenes)) {
+      const step = nav.advance(code)
+      if (step.kind !== 'choice') continue
+      for (const o of step.options) expect(rawLike(o.label), `${code} -> ${o.label}`).toBe(false)
+    }
   })
 
   it('全 advance の scene/option.target は実在シーンを指す（到達可能性の番兵）', () => {

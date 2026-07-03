@@ -13,13 +13,15 @@
  * 蓄積され、シーンを跨いでも保持される（新規プレイは resetFlags）。
  */
 import { create } from 'zustand'
-import { Beat, Flow, type Locale, type Scene } from '@/pipeline/types'
+import { Beat, Flow, SceneIndex, type Locale, type Scene } from '@/pipeline/types'
 import { FlowNav, type NavOption } from '@/flow/nav'
 import { loadScene } from '@/engine/sceneLoader'
 import { latestBookmark } from './bookmarks'
 import flowJson from '@data/flow.json'
+import sceneIndexJson from '@data/scene-index.json'
 
-const nav = new FlowNav(Flow.parse(flowJson))
+// scene-index は文言なしエッジ分岐のラベル解決（行き先の題・HU-61）に使う。
+const nav = new FlowNav(Flow.parse(flowJson), SceneIndex.parse(sceneIndexJson))
 
 // beat 内のページ送り段数。地の文（narration）は原データの行＝原作のメッセージ送り単位ごとに
 // 1 行ずつ表示するため lines.length 段。セリフ（line）は `「」` で集約した 1 発話＝ボイス 1 本に
