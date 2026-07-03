@@ -119,27 +119,35 @@ describe('buildSceneGraph — arc CFG → シーン単位グラフ', () => {
     }
   })
 
-  it('ノーマルENDが攻略準拠の12個別エンドノードに分割される（HU-56）', () => {
+  it('ノーマルENDが攻略準拠の個別エンドノードに分割される（HU-56。喪失は TRUE_END へ統合済）', () => {
     const ends = g.nodes.filter((n) => n.kind === 'end')
-    // 12 分割エンド + TRUE_END = 13。
-    expect(ends.length).toBe(13)
+    // 11 分割エンド + TRUE_END（喪失を統合・HU-62）= 12。
+    expect(ends.length).toBe(12)
     const byArc = (arc: string) => g.nodes.find((n) => n.id === `END_${arc}`)
     expect(byArc('004_FUTA004A')).toMatchObject({
       kind: 'end',
       category: 'end',
       title: '綾菜＆涼菜 END【妊婦になった姉たち】',
     })
-    expect(byArc('006_TUBA018A')?.title).toBe('翼 END3【喪失】')
     expect(byArc('012_SUBTM004A')?.title).toBe('翼 END1【ゲームの結果】')
     // 各ルート末尾から個別エンドへ辺が張られる（綾菜END1: 002_AYAN012B → END_002_AYAN010B）。
     expect(
       g.edges.some((e) => e.source === '002_AYAN012B' && e.target === 'END_002_AYAN010B'),
     ).toBe(true)
-    // 006_TUBA018B は 翼END3 と TRUE_END の双方へ分岐する。
-    expect(
-      g.edges.some((e) => e.source === '006_TUBA018B' && e.target === 'END_006_TUBA018A'),
-    ).toBe(true)
-    expect(g.edges.some((e) => e.target === 'TRUE_END')).toBe(true)
+  })
+
+  it('翼END3【喪失】は TRUE_END へ統合され、curated 題が付く（HU-62）', () => {
+    // 個別エンド END_006_TUBA018A は作られない（TRUE_END と同一結末のため統合）。
+    expect(g.nodes.some((n) => n.id === 'END_006_TUBA018A')).toBe(false)
+    // TRUE_END はゲームデータに題が無い → 結末内容からの curated 題。
+    expect(g.nodes.find((n) => n.id === 'TRUE_END')).toMatchObject({
+      kind: 'end',
+      category: 'end',
+      title: 'トゥルーEND【さよなら、翼】',
+    })
+    // 006_TUBA018B → TRUE_END の辺はちょうど 1 本（NORMAL_END 張替分と直行分が重複排除される）。
+    const toTrue = g.edges.filter((e) => e.source === '006_TUBA018B' && e.target === 'TRUE_END')
+    expect(toTrue).toHaveLength(1)
   })
 
   it('全エッジの端点が実在ノードを指す', () => {

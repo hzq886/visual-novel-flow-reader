@@ -99,13 +99,22 @@ export class FlowNav {
         options: opts.map((o) => ({ label: o.jp, cn: o.cn, target: this.entryCode(o.target!) })),
       }
     }
-    return {
-      kind: 'choice',
-      options: outs.map((e) => ({
-        label: e.label ?? e.target,
-        cn: null,
-        target: this.entryCode(e.target),
-      })),
+    // 選択肢文言の無いエッジ分岐は、解決先シーンが同じものをまとめる（SMAIN のフラグ分岐が
+    // 抽出で並列エッジ化されたもの＝ユーザに区別を提示する意味が無い。HU-62）。まとめた結果が
+    // 単一なら選択肢を出さず自動進行し、全て終端（例 006_TUBA018B の NORMAL_END/TRUE_END）なら
+    // end を返す。
+    const byTarget = new Map<string | null, NavOption>()
+    for (const e of outs) {
+      const target = this.entryCode(e.target)
+      if (!byTarget.has(target))
+        byTarget.set(target, { label: e.label ?? e.target, cn: null, target })
     }
+    const options = [...byTarget.values()]
+    if (options.length === 1) {
+      return options[0].target === null
+        ? { kind: 'end' }
+        : { kind: 'scene', code: options[0].target }
+    }
+    return { kind: 'choice', options }
   }
 }
