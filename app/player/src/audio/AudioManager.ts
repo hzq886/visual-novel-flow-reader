@@ -13,6 +13,13 @@ import { Howl, Howler } from 'howler'
 
 const BGM_FADE_MS = 800
 
+// BGM チャンネルのゲイン（HU-68）。狙いは BGM:voice:se = 感覚上 0.5:1:1。
+// 感覚半分 ≒ -10dB（心理音響の経験則）。素材の収録レベルは実測（ffmpeg ebur128）で
+// BGM 全 16 曲平均 -14.3 LUFS / voice 10 サンプル平均 -12.3 LUFS ＝既に約 -2dB 小さいため、
+// アプリで足す分は -8dB → 10^(-8/20) ≈ 0.40。voice/se/BGV は 1.0（収録レベルのまま）。
+// 試聴で印象が合わなければこの定数を微調整する（±2dB ≒ 0.32〜0.5）。
+const BGM_VOLUME = 0.4
+
 export class AudioManager {
   private voiceCache = new Map<string, Howl>()
   private current: Howl | null = null
@@ -73,7 +80,7 @@ export class AudioManager {
     const start = () => {
       if (this.bgm !== howl) return
       howl.play()
-      howl.fade(0, 1, BGM_FADE_MS)
+      howl.fade(0, BGM_VOLUME, BGM_FADE_MS)
     }
     this.withContext(() => {
       if (howl.state() === 'loaded') start()
