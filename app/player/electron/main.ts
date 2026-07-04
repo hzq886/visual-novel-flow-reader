@@ -6,9 +6,10 @@
  *    （file:// では絶対パス /assets/... が壊れるため。Range/MIME は net.fetch に委譲）
  *  - 開発: VITE_DEV_SERVER_URL があれば Vite dev サーバへ接続（scripts/electron-dev.ts が設定）
  */
-import { app, BrowserWindow, Menu, net, protocol, shell } from 'electron'
+import { app, BrowserWindow, ipcMain, Menu, net, protocol, shell } from 'electron'
 import path from 'node:path'
 import { pathToFileURL } from 'node:url'
+import { BOOKMARKS_FILENAME, readBookmarksFile, writeBookmarksFile } from './bookmarks'
 import { APP_HOST, resolveAppRequest } from './serve'
 
 const DEV_SERVER_URL = process.env.VITE_DEV_SERVER_URL
@@ -47,6 +48,25 @@ function registerAppProtocol(): void {
     const headers = new Headers(res.headers)
     headers.set('Access-Control-Allow-Origin', '*')
     return new Response(res.body, { status: res.status, headers })
+  })
+}
+
+function registerBookmarksIpc(): void {
+  const file = path.join(app.getPath('userData'), BOOKMARKS_FILENAME)
+  // 起動時 1 回の同期読み（レンダラの store 初期化が同期のため sendSync 応答）。
+  // null = ファイル無し → レンダラ側が localStorage v1 から移行する（HU-65）。
+  ipcMain.on('bookmarks:read', (event) => {
+    event.returnValue = readBookmarksFile(file)
+  })
+  // 書き込みは片方向（保存のたびに全量置換）。失敗しても再生は継続する。
+  ipcMain.on('bookmarks:write', (_event, marks: unknown) => {
+    try {
+      if (marks && typeof marks === 'object' && !Array.isArray(marks)) {
+        writeBookmarksFile(file, marks as Record<string, unknown>)
+      }
+    } catch (e) {
+      console.error('bookmarks:write failed', e)
+    }
   })
 }
 
@@ -101,6 +121,7 @@ function createWindow(): void {
 
 void app.whenReady().then(() => {
   if (!DEV_SERVER_URL) registerAppProtocol()
+  registerBookmarksIpc()
   buildMenu()
   createWindow()
   app.on('activate', () => {
