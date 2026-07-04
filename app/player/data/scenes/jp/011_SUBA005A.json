@@ -27,6 +27,10 @@
     {
       "kind": "line",
       "who": "望月　真琴",
+      "voice": {
+        "id": "MAKO_001_PRO003C_009",
+        "file": "voice/mako_001_pro003C_009.ogg"
+      },
       "lines": [
         "「ちょっと、先生に呼ばれているから……」"
       ],

@@ -18,6 +18,10 @@
     {
       "kind": "line",
       "who": "古橋　涼菜",
+      "voice": {
+        "id": "SUZU_003_SUZU003A_002",
+        "file": "voice/suzu_003_suzu003A_002.ogg"
+      },
       "lines": [
         "「どうしたの？　何か用事？」"
       ],
@@ -98,7 +102,11 @@
     },
     {
       "kind": "line",
-      "who": "古橋　和樹",
+      "who": "古橋　涼菜",
+      "voice": {
+        "id": "SUZU_003_SUZU002B_006",
+        "file": "voice/suzu_003_suzu002B_006.ogg"
+      },
       "lines": [
         "「んあっ！？　あっ、はぁぁっ……ふはぁ……」"
       ],
@@ -159,7 +167,11 @@
     },
     {
       "kind": "line",
-      "who": "古橋　和樹",
+      "who": "古橋　涼菜",
+      "voice": {
+        "id": "SUZU_003_SUZU003A_003",
+        "file": "voice/suzu_003_suzu003A_003.ogg"
+      },
       "lines": [
         "「いっしょに……おふろ、はいりたい……」"
       ],
@@ -220,7 +232,11 @@
     },
     {
       "kind": "line",
-      "who": "古橋　和樹",
+      "who": "古橋　涼菜",
+      "voice": {
+        "id": "SUZU_003_SUZU003A_004",
+        "file": "voice/suzu_003_suzu003A_004.ogg"
+      },
       "lines": [
         "「かぞく、だから……はずかしく、ありません」"
       ],
@@ -329,7 +345,11 @@
     },
     {
       "kind": "line",
-      "who": "古橋　和樹",
+      "who": "古橋　涼菜",
+      "voice": {
+        "id": "SUZU_003_SUZU003A_005",
+        "file": "voice/suzu_003_suzu003A_005.ogg"
+      },
       "lines": [
         "「ああ、ちょっと待って。私も一緒に入りたいわ」"
       ],
@@ -388,7 +408,11 @@
     },
     {
       "kind": "line",
-      "who": "古橋　和樹",
+      "who": "古橋　涼菜",
+      "voice": {
+        "id": "SUZU_003_SUZU003A_006",
+        "file": "voice/suzu_003_suzu003A_006.ogg"
+      },
       "lines": [
         "「あら、もしかして恥ずかしいの？　家族なんだから",
         "別にどうってことはないでしょう？」"
@@ -477,7 +501,7 @@
     },
     {
       "kind": "line",
-      "who": "古橋　和樹",
+      "who": "古橋　涼菜",
       "voice": {
         "id": "SUZU_003_SUZU003B_001",
         "file": "voice/suzu_003_suzu003B_001.ogg"
@@ -521,7 +545,11 @@
     },
     {
       "kind": "line",
-      "who": "古橋　和樹",
+      "who": "古橋　涼菜",
+      "voice": {
+        "id": "SUZU_003_SUZU002C_001",
+        "file": "voice/suzu_003_suzu002C_001.ogg"
+      },
       "lines": [
         "「うあっ！？　ふぁっ……あっ、あぁぁぁっ……」"
       ],
@@ -582,7 +610,7 @@
     },
     {
       "kind": "line",
-      "who": "古橋　和樹",
+      "who": "古橋　涼菜",
       "voice": {
         "id": "SUZU_003_SUZU003B_002",
         "file": "voice/suzu_003_suzu003B_002.ogg"
@@ -647,7 +675,7 @@
     },
     {
       "kind": "line",
-      "who": "古橋　和樹",
+      "who": "古橋　涼菜",
       "voice": {
         "id": "SUZU_003_SUZU003B_003",
         "file": "voice/suzu_003_suzu003B_003.ogg"
@@ -713,7 +741,7 @@
     },
     {
       "kind": "line",
-      "who": "古橋　和樹",
+      "who": "古橋　涼菜",
       "voice": {
         "id": "SUZU_003_SUZU003B_004",
         "file": "voice/suzu_003_suzu003B_004.ogg"
@@ -779,7 +807,7 @@
     },
     {
       "kind": "line",
-      "who": "古橋　和樹",
+      "who": "古橋　涼菜",
       "voice": {
         "id": "SUZU_003_SUZU003B_005",
         "file": "voice/suzu_003_suzu003B_005.ogg"
@@ -846,7 +874,7 @@
     },
     {
       "kind": "line",
-      "who": "古橋　和樹",
+      "who": "古橋　涼菜",
       "voice": {
         "id": "SUZU_003_SUZU003B_006",
         "file": "voice/suzu_003_suzu003B_006.ogg"
@@ -914,7 +942,7 @@
     },
     {
       "kind": "line",
-      "who": "古橋　和樹",
+      "who": "古橋　涼菜",
       "voice": {
         "id": "SUZU_003_SUZU003B_007",
         "file": "voice/suzu_003_suzu003B_007.ogg"
@@ -982,7 +1010,7 @@
     },
     {
       "kind": "line",
-      "who": "古橋　和樹",
+      "who": "古橋　涼菜",
       "voice": {
         "id": "SUZU_003_SUZU003B_008",
         "file": "voice/suzu_003_suzu003B_008.ogg"
@@ -1087,7 +1115,7 @@
     },
     {
       "kind": "line",
-      "who": "古橋　和樹",
+      "who": "古橋　涼菜",
       "voice": {
         "id": "SUZU_003_SUZU003B_009",
         "file": "voice/suzu_003_suzu003B_009.ogg"
@@ -1145,7 +1173,7 @@
     },
     {
       "kind": "line",
-      "who": "古橋　和樹",
+      "who": "古橋　涼菜",
       "voice": {
         "id": "SUZU_003_SUZU003B_010",
         "file": "voice/suzu_003_suzu003B_010.ogg"
@@ -1236,7 +1264,7 @@
     },
     {
       "kind": "line",
-      "who": "古橋　和樹",
+      "who": "古橋　涼菜",
       "voice": {
         "id": "SUZU_003_SUZU003B_011",
         "file": "voice/suzu_003_suzu003B_011.ogg"
@@ -1299,7 +1327,7 @@
     },
     {
       "kind": "line",
-      "who": "古橋　和樹",
+      "who": "古橋　涼菜",
       "voice": {
         "id": "SUZU_003_SUZU003B_012",
         "file": "voice/suzu_003_suzu003B_012.ogg"
@@ -1363,7 +1391,7 @@
     },
     {
       "kind": "line",
-      "who": "古橋　和樹",
+      "who": "古橋　涼菜",
       "voice": {
         "id": "SUZU_003_SUZU003B_013",
         "file": "voice/suzu_003_suzu003B_013.ogg"
@@ -1453,7 +1481,7 @@
     },
     {
       "kind": "line",
-      "who": "古橋　和樹",
+      "who": "古橋　涼菜",
       "voice": {
         "id": "SUZU_003_SUZU003B_014",
         "file": "voice/suzu_003_suzu003B_014.ogg"
@@ -1484,7 +1512,7 @@
     },
     {
       "kind": "line",
-      "who": "古橋　和樹",
+      "who": "古橋　涼菜",
       "voice": {
         "id": "SUZU_003_SUZU003B_015",
         "file": "voice/suzu_003_suzu003B_015.ogg"
@@ -1524,7 +1552,7 @@
     },
     {
       "kind": "line",
-      "who": "古橋　和樹",
+      "who": "古橋　涼菜",
       "voice": {
         "id": "SUZU_003_SUZU003B_016",
         "file": "voice/suzu_003_suzu003B_016.ogg"
@@ -1556,7 +1584,7 @@
     },
     {
       "kind": "line",
-      "who": "古橋　和樹",
+      "who": "古橋　涼菜",
       "voice": {
         "id": "SUZU_003_SUZU003B_017",
         "file": "voice/suzu_003_suzu003B_017.ogg"
@@ -1585,7 +1613,7 @@
     },
     {
       "kind": "line",
-      "who": "古橋　和樹",
+      "who": "古橋　涼菜",
       "voice": {
         "id": "SUZU_003_SUZU003B_018",
         "file": "voice/suzu_003_suzu003B_018.ogg"
@@ -1621,7 +1649,7 @@
     },
     {
       "kind": "line",
-      "who": "古橋　和樹",
+      "who": "古橋　涼菜",
       "voice": {
         "id": "SUZU_003_SUZU003B_019",
         "file": "voice/suzu_003_suzu003B_019.ogg"
@@ -1658,7 +1686,7 @@
     },
     {
       "kind": "line",
-      "who": "古橋　和樹",
+      "who": "古橋　涼菜",
       "voice": {
         "id": "SUZU_003_SUZU003B_020",
         "file": "voice/suzu_003_suzu003B_020.ogg"
@@ -1696,7 +1724,7 @@
     },
     {
       "kind": "line",
-      "who": "古橋　和樹",
+      "who": "古橋　涼菜",
       "voice": {
         "id": "SUZU_003_SUZU003B_021",
         "file": "voice/suzu_003_suzu003B_021.ogg"
@@ -1733,7 +1761,7 @@
     },
     {
       "kind": "line",
-      "who": "古橋　和樹",
+      "who": "古橋　涼菜",
       "voice": {
         "id": "SUZU_003_SUZU003B_022",
         "file": "voice/suzu_003_suzu003B_022.ogg"
@@ -1771,7 +1799,7 @@
     },
     {
       "kind": "line",
-      "who": "古橋　和樹",
+      "who": "古橋　涼菜",
       "voice": {
         "id": "SUZU_003_SUZU003B_023",
         "file": "voice/suzu_003_suzu003B_023.ogg"
@@ -1811,7 +1839,7 @@
     },
     {
       "kind": "line",
-      "who": "古橋　和樹",
+      "who": "古橋　涼菜",
       "voice": {
         "id": "SUZU_003_SUZU003B_024",
         "file": "voice/suzu_003_suzu003B_024.ogg"
@@ -1848,7 +1876,7 @@
     },
     {
       "kind": "line",
-      "who": "古橋　和樹",
+      "who": "古橋　涼菜",
       "voice": {
         "id": "SUZU_003_SUZU003B_025",
         "file": "voice/suzu_003_suzu003B_025.ogg"
@@ -1884,7 +1912,7 @@
     },
     {
       "kind": "line",
-      "who": "古橋　和樹",
+      "who": "古橋　涼菜",
       "voice": {
         "id": "SUZU_003_SUZU003B_026",
         "file": "voice/suzu_003_suzu003B_026.ogg"
@@ -1924,7 +1952,7 @@
     },
     {
       "kind": "line",
-      "who": "古橋　和樹",
+      "who": "古橋　涼菜",
       "voice": {
         "id": "SUZU_003_SUZU003B_027",
         "file": "voice/suzu_003_suzu003B_027.ogg"
@@ -1960,7 +1988,7 @@
     },
     {
       "kind": "line",
-      "who": "古橋　和樹",
+      "who": "古橋　涼菜",
       "voice": {
         "id": "SUZU_003_SUZU003B_028",
         "file": "voice/suzu_003_suzu003B_028.ogg"
@@ -1995,7 +2023,7 @@
     },
     {
       "kind": "line",
-      "who": "古橋　和樹",
+      "who": "古橋　涼菜",
       "voice": {
         "id": "SUZU_003_SUZU003B_029",
         "file": "voice/suzu_003_suzu003B_029.ogg"
@@ -2043,7 +2071,7 @@
     },
     {
       "kind": "line",
-      "who": "古橋　和樹",
+      "who": "古橋　涼菜",
       "voice": {
         "id": "SUZU_003_SUZU003B_030",
         "file": "voice/suzu_003_suzu003B_030.ogg"
@@ -2109,7 +2137,7 @@
     },
     {
       "kind": "line",
-      "who": "古橋　和樹",
+      "who": "古橋　涼菜",
       "voice": {
         "id": "SUZU_003_SUZU003B_031",
         "file": "voice/suzu_003_suzu003B_031.ogg"
@@ -2158,7 +2186,7 @@
     },
     {
       "kind": "line",
-      "who": "古橋　和樹",
+      "who": "古橋　涼菜",
       "voice": {
         "id": "SUZU_003_SUZU003B_032",
         "file": "voice/suzu_003_suzu003B_032.ogg"
@@ -2191,7 +2219,7 @@
     },
     {
       "kind": "line",
-      "who": "古橋　和樹",
+      "who": "古橋　涼菜",
       "voice": {
         "id": "SUZU_003_SUZU003B_033",
         "file": "voice/suzu_003_suzu003B_033.ogg"
@@ -2253,7 +2281,7 @@
     },
     {
       "kind": "line",
-      "who": "古橋　和樹",
+      "who": "古橋　涼菜",
       "voice": {
         "id": "SUZU_003_SUZU003B_034",
         "file": "voice/suzu_003_suzu003B_034.ogg"
@@ -2302,7 +2330,7 @@
     },
     {
       "kind": "line",
-      "who": "古橋　和樹",
+      "who": "古橋　涼菜",
       "voice": {
         "id": "SUZU_003_SUZU003B_035",
         "file": "voice/suzu_003_suzu003B_035.ogg"
@@ -2369,7 +2397,7 @@
     },
     {
       "kind": "line",
-      "who": "古橋　和樹",
+      "who": "古橋　涼菜",
       "voice": {
         "id": "SUZU_003_SUZU003B_036",
         "file": "voice/suzu_003_suzu003B_036.ogg"
@@ -2405,7 +2433,7 @@
     },
     {
       "kind": "line",
-      "who": "古橋　和樹",
+      "who": "古橋　涼菜",
       "voice": {
         "id": "SUZU_003_SUZU003B_037",
         "file": "voice/suzu_003_suzu003B_037.ogg"

@@ -62,6 +62,10 @@
     {
       "kind": "line",
       "who": "古橋　涼菜",
+      "voice": {
+        "id": "SUZU_001_PRO003B_002B",
+        "file": "voice/suzu_001_pro003B_002B.ogg"
+      },
       "lines": [
         "「おはよう」"
       ],
@@ -123,6 +127,10 @@
     {
       "kind": "line",
       "who": "古橋　綾菜",
+      "voice": {
+        "id": "AYAN_001_PRO003A_004",
+        "file": "voice/ayan_001_pro003A_004.ogg"
+      },
       "lines": [
         "「はい、朝食の準備が出来たわ」"
       ],
@@ -161,7 +169,7 @@
     },
     {
       "kind": "line",
-      "who": "古橋　綾菜",
+      "who": "古橋　和樹",
       "lines": [
         "「あっ……いつも、ありがとう」"
       ],
@@ -200,7 +208,11 @@
     },
     {
       "kind": "line",
-      "who": "古橋　綾菜",
+      "who": "古橋　涼菜",
+      "voice": {
+        "id": "SUZU_001_PRO003B_005",
+        "file": "voice/suzu_001_pro003B_005.ogg"
+      },
       "lines": [
         "「これ、すごく美味しいわね」"
       ],
@@ -212,6 +224,10 @@
     {
       "kind": "line",
       "who": "古橋　綾菜",
+      "voice": {
+        "id": "AYAN_001_PRO003A_022",
+        "file": "voice/ayan_001_pro003A_022.ogg"
+      },
       "lines": [
         "「ふふっ、そう言ってもらえると、嬉しいわ」"
       ],
@@ -320,6 +336,10 @@
     {
       "kind": "line",
       "who": "楠木　楓",
+      "voice": {
+        "id": "KAED_001_PRO003E_001",
+        "file": "voice/kaed_001_pro003E_001.ogg"
+      },
       "lines": [
         "「ちょっと待って！　ハンカチを忘れてるわ」"
       ],
@@ -359,6 +379,10 @@
     {
       "kind": "line",
       "who": "楠木　裕司",
+      "voice": {
+        "id": "MOBD_001_PRO003F_001",
+        "file": "voice/mobd_001_pro003F_001.ogg"
+      },
       "lines": [
         "「ごめんごめん！　ありがとう」"
       ],
@@ -397,7 +421,11 @@
     },
     {
       "kind": "line",
-      "who": "楠木　裕司",
+      "who": "楠木　楓",
+      "voice": {
+        "id": "KAED_001_PRO003E_002",
+        "file": "voice/kaed_001_pro003E_002.ogg"
+      },
       "lines": [
         "「はい、気を付けて行ってきてね」"
       ],
@@ -437,6 +465,10 @@
     {
       "kind": "line",
       "who": "楠木　裕司",
+      "voice": {
+        "id": "MOBD_001_PRO003F_002",
+        "file": "voice/mobd_001_pro003F_002.ogg"
+      },
       "lines": [
         "「ああ、行ってくる。愛してるよ、楓」"
       ],
@@ -456,7 +488,11 @@
     },
     {
       "kind": "line",
-      "who": "楠木　裕司",
+      "who": "楠木　楓",
+      "voice": {
+        "id": "KAED_001_PRO003E_003",
+        "file": "voice/kaed_001_pro003E_003.ogg"
+      },
       "lines": [
         "「ふふっ、私も愛してるわ……んーっ、ちゅっ！」"
       ],
@@ -500,6 +536,10 @@
     {
       "kind": "line",
       "who": "楠木　裕司",
+      "voice": {
+        "id": "MOBD_001_PRO003F_003",
+        "file": "voice/mobd_001_pro003F_003.ogg"
+      },
       "lines": [
         "「やあ、おはよう。翼を迎えに来てくれたんだね？」"
       ],
@@ -519,7 +559,7 @@
     },
     {
       "kind": "line",
-      "who": "楠木　裕司",
+      "who": "古橋　和樹",
       "lines": [
         "「お、おはようございます」"
       ],
@@ -561,6 +601,10 @@
     {
       "kind": "line",
       "who": "楠木　翼",
+      "voice": {
+        "id": "TUBA_001_PRO003D_001",
+        "file": "voice/tuba_001_pro003D_001.ogg"
+      },
       "lines": [
         "「おはよう！　今日もいい天気だねっ！」"
       ],
@@ -580,7 +624,7 @@
     },
     {
       "kind": "line",
-      "who": "楠木　翼",
+      "who": "古橋　和樹",
       "lines": [
         "「お、おはよう！　それじゃあ、いってきます！」"
       ],
@@ -631,7 +675,7 @@
     },
     {
       "kind": "line",
-      "who": "楠木　翼",
+      "who": "古橋　和樹",
       "lines": [
         "「おはようございます」"
       ],

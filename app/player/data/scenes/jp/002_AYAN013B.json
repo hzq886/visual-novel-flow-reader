@@ -13,6 +13,10 @@
     {
       "kind": "line",
       "who": "古橋　綾菜",
+      "voice": {
+        "id": "AYAN_002_AYAN013A_008",
+        "file": "voice/ayan_002_ayan013A_008.ogg"
+      },
       "lines": [
         "「さぁ、椅子を寄せて、こっちのほうに座ってね」"
       ],
@@ -34,6 +38,10 @@
     {
       "kind": "line",
       "who": "古橋　綾菜",
+      "voice": {
+        "id": "AYAN_002_AYAN013A_009",
+        "file": "voice/ayan_002_ayan013A_009.ogg"
+      },
       "lines": [
         "「私が食べさせてあげるから。はーい、あ～んして」"
       ],
@@ -95,7 +103,7 @@
     },
     {
       "kind": "line",
-      "who": "古橋　和樹",
+      "who": "古橋　綾菜",
       "voice": {
         "id": "AYAN_002_AYAN013B_002",
         "file": "voice/ayan_002_ayan013B_002.ogg"
@@ -121,7 +129,7 @@
     },
     {
       "kind": "line",
-      "who": "古橋　和樹",
+      "who": "古橋　綾菜",
       "voice": {
         "id": "AYAN_002_AYAN013B_003",
         "file": "voice/ayan_002_ayan013B_003.ogg"
@@ -148,7 +156,7 @@
     },
     {
       "kind": "line",
-      "who": "古橋　和樹",
+      "who": "古橋　綾菜",
       "voice": {
         "id": "AYAN_002_AYAN013B_004",
         "file": "voice/ayan_002_ayan013B_004.ogg"
@@ -188,7 +196,7 @@
     },
     {
       "kind": "line",
-      "who": "古橋　和樹",
+      "who": "古橋　綾菜",
       "voice": {
         "id": "AYAN_002_AYAN013B_005",
         "file": "voice/ayan_002_ayan013B_005.ogg"
@@ -236,7 +244,7 @@
     },
     {
       "kind": "line",
-      "who": "古橋　和樹",
+      "who": "古橋　綾菜",
       "voice": {
         "id": "AYAN_002_AYAN013B_006",
         "file": "voice/ayan_002_ayan013B_006.ogg"
@@ -266,7 +274,7 @@
     },
     {
       "kind": "line",
-      "who": "古橋　和樹",
+      "who": "古橋　綾菜",
       "voice": {
         "id": "AYAN_002_AYAN013B_007",
         "file": "voice/ayan_002_ayan013B_007.ogg"
@@ -294,7 +302,7 @@
     },
     {
       "kind": "line",
-      "who": "古橋　和樹",
+      "who": "古橋　綾菜",
       "voice": {
         "id": "AYAN_002_AYAN013B_008",
         "file": "voice/ayan_002_ayan013B_008.ogg"
@@ -327,7 +335,7 @@
     },
     {
       "kind": "line",
-      "who": "古橋　和樹",
+      "who": "古橋　綾菜",
       "voice": {
         "id": "AYAN_002_AYAN013B_009",
         "file": "voice/ayan_002_ayan013B_009.ogg"
@@ -392,7 +400,7 @@
     },
     {
       "kind": "line",
-      "who": "古橋　和樹",
+      "who": "古橋　綾菜",
       "voice": {
         "id": "AYAN_002_AYAN013B_010",
         "file": "voice/ayan_002_ayan013B_010.ogg"
@@ -423,7 +431,7 @@
     },
     {
       "kind": "line",
-      "who": "古橋　和樹",
+      "who": "古橋　綾菜",
       "voice": {
         "id": "AYAN_002_AYAN013B_011",
         "file": "voice/ayan_002_ayan013B_011.ogg"
@@ -452,7 +460,7 @@
     },
     {
       "kind": "line",
-      "who": "古橋　和樹",
+      "who": "古橋　綾菜",
       "voice": {
         "id": "AYAN_002_AYAN013B_012",
         "file": "voice/ayan_002_ayan013B_012.ogg"
@@ -481,7 +489,7 @@
     },
     {
       "kind": "line",
-      "who": "古橋　和樹",
+      "who": "古橋　綾菜",
       "voice": {
         "id": "AYAN_002_AYAN013B_013",
         "file": "voice/ayan_002_ayan013B_013.ogg"
@@ -514,7 +522,7 @@
     },
     {
       "kind": "line",
-      "who": "古橋　和樹",
+      "who": "古橋　綾菜",
       "voice": {
         "id": "AYAN_002_AYAN013B_014",
         "file": "voice/ayan_002_ayan013B_014.ogg"
@@ -549,7 +557,7 @@
     },
     {
       "kind": "line",
-      "who": "古橋　和樹",
+      "who": "古橋　綾菜",
       "voice": {
         "id": "AYAN_002_AYAN013B_015",
         "file": "voice/ayan_002_ayan013B_015.ogg"
@@ -587,7 +595,7 @@
     },
     {
       "kind": "line",
-      "who": "古橋　和樹",
+      "who": "古橋　綾菜",
       "voice": {
         "id": "AYAN_002_AYAN013B_016",
         "file": "voice/ayan_002_ayan013B_016.ogg"
@@ -624,7 +632,7 @@
     },
     {
       "kind": "line",
-      "who": "古橋　和樹",
+      "who": "古橋　綾菜",
       "voice": {
         "id": "AYAN_002_AYAN013B_017",
         "file": "voice/ayan_002_ayan013B_017.ogg"
@@ -662,7 +670,7 @@
     },
     {
       "kind": "line",
-      "who": "古橋　和樹",
+      "who": "古橋　綾菜",
       "voice": {
         "id": "AYAN_002_AYAN013B_018",
         "file": "voice/ayan_002_ayan013B_018.ogg"
@@ -698,7 +706,7 @@
     },
     {
       "kind": "line",
-      "who": "古橋　和樹",
+      "who": "古橋　綾菜",
       "voice": {
         "id": "AYAN_002_AYAN013B_019",
         "file": "voice/ayan_002_ayan013B_019.ogg"
@@ -744,7 +752,7 @@
     },
     {
       "kind": "line",
-      "who": "古橋　和樹",
+      "who": "古橋　綾菜",
       "voice": {
         "id": "AYAN_002_AYAN013B_020",
         "file": "voice/ayan_002_ayan013B_020.ogg"
@@ -788,7 +796,7 @@
     },
     {
       "kind": "line",
-      "who": "古橋　和樹",
+      "who": "古橋　綾菜",
       "voice": {
         "id": "AYAN_002_AYAN013B_021",
         "file": "voice/ayan_002_ayan013B_021.ogg"
@@ -823,7 +831,7 @@
     },
     {
       "kind": "line",
-      "who": "古橋　和樹",
+      "who": "古橋　綾菜",
       "voice": {
         "id": "AYAN_002_AYAN013B_022",
         "file": "voice/ayan_002_ayan013B_022.ogg"
@@ -858,7 +866,7 @@
     },
     {
       "kind": "line",
-      "who": "古橋　和樹",
+      "who": "古橋　綾菜",
       "voice": {
         "id": "AYAN_002_AYAN013B_023",
         "file": "voice/ayan_002_ayan013B_023.ogg"
@@ -924,7 +932,7 @@
     },
     {
       "kind": "line",
-      "who": "古橋　和樹",
+      "who": "古橋　綾菜",
       "voice": {
         "id": "AYAN_002_AYAN013B_024",
         "file": "voice/ayan_002_ayan013B_024.ogg"
@@ -961,7 +969,7 @@
     },
     {
       "kind": "line",
-      "who": "古橋　和樹",
+      "who": "古橋　綾菜",
       "voice": {
         "id": "AYAN_002_AYAN013B_025",
         "file": "voice/ayan_002_ayan013B_025.ogg"
@@ -1011,7 +1019,7 @@
     },
     {
       "kind": "line",
-      "who": "古橋　和樹",
+      "who": "古橋　綾菜",
       "voice": {
         "id": "AYAN_002_AYAN013B_026",
         "file": "voice/ayan_002_ayan013B_026.ogg"
@@ -1049,7 +1057,7 @@
     },
     {
       "kind": "line",
-      "who": "古橋　和樹",
+      "who": "古橋　綾菜",
       "voice": {
         "id": "AYAN_002_AYAN013B_027",
         "file": "voice/ayan_002_ayan013B_027.ogg"
@@ -1086,7 +1094,7 @@
     },
     {
       "kind": "line",
-      "who": "古橋　和樹",
+      "who": "古橋　綾菜",
       "voice": {
         "id": "AYAN_002_AYAN013B_028",
         "file": "voice/ayan_002_ayan013B_028.ogg"
@@ -1122,7 +1130,7 @@
     },
     {
       "kind": "line",
-      "who": "古橋　和樹",
+      "who": "古橋　綾菜",
       "voice": {
         "id": "AYAN_002_AYAN013B_029",
         "file": "voice/ayan_002_ayan013B_029.ogg"
@@ -1160,7 +1168,7 @@
     },
     {
       "kind": "line",
-      "who": "古橋　和樹",
+      "who": "古橋　綾菜",
       "voice": {
         "id": "AYAN_002_AYAN013B_030",
         "file": "voice/ayan_002_ayan013B_030.ogg"
@@ -1196,7 +1204,7 @@
     },
     {
       "kind": "line",
-      "who": "古橋　和樹",
+      "who": "古橋　綾菜",
       "voice": {
         "id": "AYAN_002_AYAN013B_031",
         "file": "voice/ayan_002_ayan013B_031.ogg"
@@ -1232,7 +1240,7 @@
     },
     {
       "kind": "line",
-      "who": "古橋　和樹",
+      "who": "古橋　綾菜",
       "voice": {
         "id": "AYAN_002_AYAN013B_032",
         "file": "voice/ayan_002_ayan013B_032.ogg"
@@ -1267,7 +1275,7 @@
     },
     {
       "kind": "line",
-      "who": "古橋　和樹",
+      "who": "古橋　綾菜",
       "voice": {
         "id": "AYAN_002_AYAN013B_033",
         "file": "voice/ayan_002_ayan013B_033.ogg"
@@ -1303,7 +1311,7 @@
     },
     {
       "kind": "line",
-      "who": "古橋　和樹",
+      "who": "古橋　綾菜",
       "voice": {
         "id": "AYAN_002_AYAN013B_034",
         "file": "voice/ayan_002_ayan013B_034.ogg"
@@ -1369,7 +1377,7 @@
     },
     {
       "kind": "line",
-      "who": "古橋　和樹",
+      "who": "古橋　綾菜",
       "voice": {
         "id": "AYAN_002_AYAN013B_035",
         "file": "voice/ayan_002_ayan013B_035.ogg"
@@ -1406,7 +1414,7 @@
     },
     {
       "kind": "line",
-      "who": "古橋　和樹",
+      "who": "古橋　綾菜",
       "voice": {
         "id": "AYAN_002_AYAN013B_036",
         "file": "voice/ayan_002_ayan013B_036.ogg"
@@ -1473,7 +1481,7 @@
     },
     {
       "kind": "line",
-      "who": "古橋　和樹",
+      "who": "古橋　綾菜",
       "voice": {
         "id": "AYAN_002_AYAN013B_037",
         "file": "voice/ayan_002_ayan013B_037.ogg"
@@ -1523,7 +1531,7 @@
     },
     {
       "kind": "line",
-      "who": "古橋　和樹",
+      "who": "古橋　綾菜",
       "voice": {
         "id": "AYAN_002_AYAN013B_038",
         "file": "voice/ayan_002_ayan013B_038.ogg"
@@ -1580,7 +1588,7 @@
     },
     {
       "kind": "line",
-      "who": "古橋　和樹",
+      "who": "古橋　綾菜",
       "voice": {
         "id": "AYAN_002_AYAN013B_039",
         "file": "voice/ayan_002_ayan013B_039.ogg"
@@ -1622,7 +1630,7 @@
     },
     {
       "kind": "line",
-      "who": "古橋　和樹",
+      "who": "古橋　綾菜",
       "voice": {
         "id": "AYAN_002_AYAN013B_040",
         "file": "voice/ayan_002_ayan013B_040.ogg"
@@ -1658,7 +1666,7 @@
     },
     {
       "kind": "line",
-      "who": "古橋　和樹",
+      "who": "古橋　綾菜",
       "voice": {
         "id": "AYAN_002_AYAN013B_041",
         "file": "voice/ayan_002_ayan013B_041.ogg"
@@ -1695,7 +1703,7 @@
     },
     {
       "kind": "line",
-      "who": "古橋　和樹",
+      "who": "古橋　綾菜",
       "voice": {
         "id": "AYAN_002_AYAN013B_042",
         "file": "voice/ayan_002_ayan013B_042.ogg"
@@ -1745,7 +1753,7 @@
     },
     {
       "kind": "line",
-      "who": "古橋　和樹",
+      "who": "古橋　綾菜",
       "voice": {
         "id": "AYAN_002_AYAN013B_043",
         "file": "voice/ayan_002_ayan013B_043.ogg"

@@ -33,6 +33,10 @@
     {
       "kind": "line",
       "who": "楠木裕司",
+      "voice": {
+        "id": "MOBD_001_PRO003F_009",
+        "file": "voice/mobd_001_pro003F_009.ogg"
+      },
       "lines": [
         "「嗯，还是学生的时候，可能有些冲动吧？」"
       ],
@@ -53,6 +57,10 @@
     {
       "kind": "line",
       "who": "楠木枫",
+      "voice": {
+        "id": "KAED_001_PRO003E_018",
+        "file": "voice/kaed_001_pro003E_018.ogg"
+      },
       "lines": [
         "「哎呀，这不是挺好的嘛！我很高兴，欢迎欢迎。",
         "没想到这么快就有孙子了呢。」"
@@ -92,7 +100,11 @@
     },
     {
       "kind": "line",
-      "who": "楠木枫",
+      "who": "楠木裕司",
+      "voice": {
+        "id": "MOBD_001_PRO003F_010",
+        "file": "voice/mobd_001_pro003F_010.ogg"
+      },
       "lines": [
         "「唉，现在说也没用了吧，和树君，请让我的女儿幸福吧？」"
       ],
@@ -146,6 +158,10 @@
     {
       "kind": "line",
       "who": "古桥绫菜",
+      "voice": {
+        "id": "AYAN_009_NUKE001_003",
+        "file": "voice/ayan_009_nuke001_003.ogg"
+      },
       "lines": [
         "「嘛，我们的家庭又增添了一个成员！真开心！」"
       ],
@@ -185,6 +201,10 @@
     {
       "kind": "line",
       "who": "古桥绫菜",
+      "voice": {
+        "id": "AYAN_009_NUKE001_004",
+        "file": "voice/ayan_009_nuke001_004.ogg"
+      },
       "lines": [
         "「是侄子还是侄女呢？不管哪个，肯定都是可爱的孩子！呵呵」"
       ],
@@ -225,6 +245,10 @@
     {
       "kind": "line",
       "who": "古桥凉菜",
+      "voice": {
+        "id": "SUZU_009_NUKE001_001",
+        "file": "voice/suzu_009_nuke001_001.ogg"
+      },
       "lines": [
         "「在你毕业并开始工作之前，我会支持你的。",
         "经济上不用担心哦？呵呵」"
@@ -266,6 +290,10 @@
     {
       "kind": "line",
       "who": "古桥凉菜",
+      "voice": {
+        "id": "SUZU_009_NUKE001_002",
+        "file": "voice/suzu_009_nuke001_002.ogg"
+      },
       "lines": [
         "「既然要当爸爸了，以后要加油哦。",
         "我们也会支持你的」"

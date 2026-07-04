@@ -19,6 +19,10 @@
     {
       "kind": "line",
       "who": "楠木翼",
+      "voice": {
+        "id": "TUBA_006_TUBA006A_001",
+        "file": "voice/tuba_006_tuba006A_001.ogg"
+      },
       "lines": [
         "「嘻嘻，到目前为止的比赛结果是52比48，",
         "我领先啦！」"
@@ -61,6 +65,10 @@
     {
       "kind": "line",
       "who": "楠木翼",
+      "voice": {
+        "id": "TUBA_006_TUBA006A_002",
+        "file": "voice/tuba_006_tuba006A_002.ogg"
+      },
       "lines": [
         "「好了，从今天开始，进行为期一周的大比赛吧！」"
       ],
@@ -119,7 +127,11 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "楠木翼",
+      "voice": {
+        "id": "TUBA_006_TUBA006A_003",
+        "file": "voice/tuba_006_tuba006A_003.ogg"
+      },
       "lines": [
         "「嗯，正如你所说，我记录了生理周期。",
         "差不多要到危险日了」"
@@ -160,7 +172,11 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "楠木翼",
+      "voice": {
+        "id": "TUBA_006_TUBA006A_004",
+        "file": "voice/tuba_006_tuba006A_004.ogg"
+      },
       "lines": [
         "「所以，从今天开始，进行种配游戏吧？",
         "从现在开始的一周内怀孕了的话，我就赢了！」"
@@ -220,7 +236,11 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "楠木翼",
+      "voice": {
+        "id": "TUBA_006_TUBA006A_005",
+        "file": "voice/tuba_006_tuba006A_005.ogg"
+      },
       "lines": [
         "「当然！输的那个要向对方求婚才行哦！」"
       ],
@@ -259,7 +279,11 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "楠木翼",
+      "voice": {
+        "id": "TUBA_006_TUBA006A_006",
+        "file": "voice/tuba_006_tuba006A_006.ogg"
+      },
       "lines": [
         "「呵呵，我一定会怀孕，让卡兹向我求婚。",
         "然后，我就是新娘了！」"
@@ -321,7 +345,11 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "楠木翼",
+      "voice": {
+        "id": "TUBA_006_TUBA006A_007",
+        "file": "voice/tuba_006_tuba006A_007.ogg"
+      },
       "lines": [
         "「最近我注意到了！在社团活动中",
         "穿着这身打扮，男生们会有反应」"
@@ -365,7 +393,11 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "楠木翼",
+      "voice": {
+        "id": "TUBA_006_TUBA006A_008",
+        "file": "voice/tuba_006_tuba006A_008.ogg"
+      },
       "lines": [
         "「卡兹也是个男人，我穿着这身打扮比赛，",
         "应该会有优势吧！」"
@@ -430,7 +462,11 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "楠木翼",
+      "voice": {
+        "id": "TUBA_006_TUBA006A_009",
+        "file": "voice/tuba_006_tuba006A_009.ogg"
+      },
       "lines": [
         "「啊，不过，如果你觉得不公平，可以脱掉衣服哦。",
         "我无所谓的。」"
@@ -491,7 +527,11 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "楠木翼",
+      "voice": {
+        "id": "TUBA_006_TUBA006A_010",
+        "file": "voice/tuba_006_tuba006A_010.ogg"
+      },
       "lines": [
         "「嘻嘻，让我在你小穴里射精，造出宝宝来！」"
       ],
@@ -559,7 +599,11 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "楠木翼",
+      "voice": {
+        "id": "TUBA_006_TUBA006A_011",
+        "file": "voice/tuba_006_tuba006A_011.ogg"
+      },
       "lines": [
         "「没关系！那里已经切了一道竖线，可以插进去的！」"
       ],
@@ -620,7 +664,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "楠木翼",
       "voice": {
         "id": "TUBA_006_TUBA006B_001",
         "file": "voice/tuba_006_tuba006B_001.ogg"
@@ -661,7 +705,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "楠木翼",
       "voice": {
         "id": "TUBA_006_TUBA006B_002",
         "file": "voice/tuba_006_tuba006B_002.ogg"
@@ -698,7 +742,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "楠木翼",
       "voice": {
         "id": "TUBA_006_TUBA006B_003",
         "file": "voice/tuba_006_tuba006B_003.ogg"
@@ -733,7 +777,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "楠木翼",
       "voice": {
         "id": "TUBA_006_TUBA006B_004",
         "file": "voice/tuba_006_tuba006B_004.ogg"
@@ -774,7 +818,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "楠木翼",
       "voice": {
         "id": "TUBA_006_TUBA006B_005",
         "file": "voice/tuba_006_tuba006B_005.ogg"
@@ -810,7 +854,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "楠木翼",
       "voice": {
         "id": "TUBA_006_TUBA006B_006",
         "file": "voice/tuba_006_tuba006B_006.ogg"
@@ -846,7 +890,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "楠木翼",
       "voice": {
         "id": "TUBA_006_TUBA006B_007",
         "file": "voice/tuba_006_tuba006B_007.ogg"
@@ -880,7 +924,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "楠木翼",
       "voice": {
         "id": "TUBA_006_TUBA006B_008",
         "file": "voice/tuba_006_tuba006B_008.ogg"
@@ -917,7 +961,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "楠木翼",
       "voice": {
         "id": "TUBA_006_TUBA006B_009",
         "file": "voice/tuba_006_tuba006B_009.ogg"
@@ -957,7 +1001,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "楠木翼",
       "voice": {
         "id": "TUBA_006_TUBA006B_010",
         "file": "voice/tuba_006_tuba006B_010.ogg"
@@ -994,7 +1038,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "楠木翼",
       "voice": {
         "id": "TUBA_006_TUBA006B_011",
         "file": "voice/tuba_006_tuba006B_011.ogg"
@@ -1031,7 +1075,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "楠木翼",
       "voice": {
         "id": "TUBA_006_TUBA006B_012",
         "file": "voice/tuba_006_tuba006B_012.ogg"
@@ -1067,7 +1111,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "楠木翼",
       "voice": {
         "id": "TUBA_006_TUBA006B_013",
         "file": "voice/tuba_006_tuba006B_013.ogg"
@@ -1103,7 +1147,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "楠木翼",
       "voice": {
         "id": "TUBA_006_TUBA006B_014",
         "file": "voice/tuba_006_tuba006B_014.ogg"
@@ -1138,7 +1182,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "楠木翼",
       "voice": {
         "id": "TUBA_006_TUBA006B_015",
         "file": "voice/tuba_006_tuba006B_015.ogg"
@@ -1172,7 +1216,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "楠木翼",
       "voice": {
         "id": "TUBA_006_TUBA006B_016",
         "file": "voice/tuba_006_tuba006B_016.ogg"
@@ -1208,7 +1252,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "楠木翼",
       "voice": {
         "id": "TUBA_006_TUBA006B_017",
         "file": "voice/tuba_006_tuba006B_017.ogg"
@@ -1245,7 +1289,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "楠木翼",
       "voice": {
         "id": "TUBA_006_TUBA006B_018",
         "file": "voice/tuba_006_tuba006B_018.ogg"
@@ -1287,7 +1331,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "楠木翼",
       "voice": {
         "id": "TUBA_006_TUBA006B_019",
         "file": "voice/tuba_006_tuba006B_019.ogg"
@@ -1323,7 +1367,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "楠木翼",
       "voice": {
         "id": "TUBA_006_TUBA006B_020",
         "file": "voice/tuba_006_tuba006B_020.ogg"
@@ -1359,7 +1403,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "楠木翼",
       "voice": {
         "id": "TUBA_006_TUBA006B_021",
         "file": "voice/tuba_006_tuba006B_021.ogg"
@@ -1395,7 +1439,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "楠木翼",
       "voice": {
         "id": "TUBA_006_TUBA006B_022",
         "file": "voice/tuba_006_tuba006B_022.ogg"
@@ -1431,7 +1475,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "楠木翼",
       "voice": {
         "id": "TUBA_006_TUBA006B_023",
         "file": "voice/tuba_006_tuba006B_023.ogg"
@@ -1467,7 +1511,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "楠木翼",
       "voice": {
         "id": "TUBA_006_TUBA006B_024",
         "file": "voice/tuba_006_tuba006B_024.ogg"
@@ -1502,7 +1546,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "楠木翼",
       "voice": {
         "id": "TUBA_006_TUBA006B_025",
         "file": "voice/tuba_006_tuba006B_025.ogg"
@@ -1540,7 +1584,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "楠木翼",
       "voice": {
         "id": "TUBA_006_TUBA006B_026",
         "file": "voice/tuba_006_tuba006B_026.ogg"
@@ -1581,7 +1625,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "楠木翼",
       "voice": {
         "id": "TUBA_006_TUBA006B_027",
         "file": "voice/tuba_006_tuba006B_027.ogg"
@@ -1617,7 +1661,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "楠木翼",
       "voice": {
         "id": "TUBA_006_TUBA006B_028",
         "file": "voice/tuba_006_tuba006B_028.ogg"
@@ -1654,7 +1698,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "楠木翼",
       "voice": {
         "id": "TUBA_006_TUBA006B_029",
         "file": "voice/tuba_006_tuba006B_029.ogg"
@@ -1690,7 +1734,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "楠木翼",
       "voice": {
         "id": "TUBA_006_TUBA006B_030",
         "file": "voice/tuba_006_tuba006B_030.ogg"
@@ -1733,7 +1777,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "楠木翼",
       "voice": {
         "id": "TUBA_006_TUBA006B_031",
         "file": "voice/tuba_006_tuba006B_031.ogg"
@@ -1775,7 +1819,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "楠木翼",
       "voice": {
         "id": "TUBA_006_TUBA006B_032",
         "file": "voice/tuba_006_tuba006B_032.ogg"
@@ -1817,7 +1861,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "楠木翼",
       "voice": {
         "id": "TUBA_006_TUBA006B_033",
         "file": "voice/tuba_006_tuba006B_033.ogg"
@@ -1858,7 +1902,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "楠木翼",
       "voice": {
         "id": "TUBA_006_TUBA006B_034",
         "file": "voice/tuba_006_tuba006B_034.ogg"
@@ -1892,7 +1936,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "楠木翼",
       "voice": {
         "id": "TUBA_006_TUBA006B_035",
         "file": "voice/tuba_006_tuba006B_035.ogg"
@@ -1929,7 +1973,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "楠木翼",
       "voice": {
         "id": "TUBA_006_TUBA006B_036",
         "file": "voice/tuba_006_tuba006B_036.ogg"
@@ -1964,7 +2008,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "楠木翼",
       "voice": {
         "id": "TUBA_006_TUBA006B_037",
         "file": "voice/tuba_006_tuba006B_037.ogg"
@@ -2000,7 +2044,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "楠木翼",
       "voice": {
         "id": "TUBA_006_TUBA006B_038",
         "file": "voice/tuba_006_tuba006B_038.ogg"
@@ -2036,7 +2080,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "楠木翼",
       "voice": {
         "id": "TUBA_006_TUBA006B_039",
         "file": "voice/tuba_006_tuba006B_039.ogg"
@@ -2072,7 +2116,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "楠木翼",
       "voice": {
         "id": "TUBA_006_TUBA006B_040",
         "file": "voice/tuba_006_tuba006B_040.ogg"
@@ -2107,7 +2151,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "楠木翼",
       "voice": {
         "id": "TUBA_006_TUBA006B_041",
         "file": "voice/tuba_006_tuba006B_041.ogg"
@@ -2156,7 +2200,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "楠木翼",
       "voice": {
         "id": "TUBA_006_TUBA006B_042",
         "file": "voice/tuba_006_tuba006B_042.ogg"
@@ -2192,7 +2236,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "楠木翼",
       "voice": {
         "id": "TUBA_006_TUBA006B_043",
         "file": "voice/tuba_006_tuba006B_043.ogg"
@@ -2229,7 +2273,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "楠木翼",
       "voice": {
         "id": "TUBA_006_TUBA006B_044",
         "file": "voice/tuba_006_tuba006B_044.ogg"
@@ -2265,7 +2309,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "楠木翼",
       "voice": {
         "id": "TUBA_006_TUBA006B_045",
         "file": "voice/tuba_006_tuba006B_045.ogg"
@@ -2300,7 +2344,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "楠木翼",
       "voice": {
         "id": "TUBA_006_TUBA006B_046",
         "file": "voice/tuba_006_tuba006B_046.ogg"
@@ -2335,7 +2379,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "楠木翼",
       "voice": {
         "id": "TUBA_006_TUBA006B_047",
         "file": "voice/tuba_006_tuba006B_047.ogg"

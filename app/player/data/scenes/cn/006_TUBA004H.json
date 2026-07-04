@@ -57,6 +57,10 @@
     {
       "kind": "line",
       "who": "楠木枫",
+      "voice": {
+        "id": "KAED_007_KAED001A_001",
+        "file": "voice/kaed_007_kaed001A_001.ogg"
+      },
       "lines": [
         "「你要走了吗？还可以再玩一会儿啊」"
       ],
@@ -105,6 +109,10 @@
     {
       "kind": "line",
       "who": "楠木枫",
+      "voice": {
+        "id": "KAED_007_KAED001A_002",
+        "file": "voice/kaed_007_kaed001A_002.ogg"
+      },
       "lines": [
         "「怎么了？盯着看……我的脸上",
         "有什么东西吗？」"
@@ -146,7 +154,7 @@
     },
     {
       "kind": "line",
-      "who": "楠木枫",
+      "who": "古桥和树",
       "lines": [
         "「不，没什么！我要回去了！",
         "那再见！」"

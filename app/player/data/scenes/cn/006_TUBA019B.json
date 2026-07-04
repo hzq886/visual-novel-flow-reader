@@ -18,6 +18,10 @@
     {
       "kind": "line",
       "who": "楠木翼",
+      "voice": {
+        "id": "TUBA_006_TUBA019A_007",
+        "file": "voice/tuba_006_tuba019A_007.ogg"
+      },
       "lines": [
         "「啊……呵呵，真是个急性子！",
         "嘿嘿，我们两个人一起撒娇吧」"
@@ -64,6 +68,10 @@
     {
       "kind": "line",
       "who": "望月真琴",
+      "voice": {
+        "id": "MAKO_006_TUBA019A_004",
+        "file": "voice/mako_006_tuba019A_004.ogg"
+      },
       "lines": [
         "「咕……你，你记住啊……」"
       ],
@@ -85,7 +93,7 @@
     },
     {
       "kind": "line",
-      "who": "望月真琴",
+      "who": "楠木翼",
       "voice": {
         "id": "TUBA_006_TUBA019B_001",
         "file": "voice/tuba_006_tuba019B_001.ogg"
@@ -123,7 +131,7 @@
     },
     {
       "kind": "line",
-      "who": "望月真琴",
+      "who": "楠木翼",
       "voice": {
         "id": "TUBA_006_TUBA019B_002",
         "file": "voice/tuba_006_tuba019B_002.ogg"
@@ -196,7 +204,7 @@
     },
     {
       "kind": "line",
-      "who": "望月真琴",
+      "who": "楠木翼",
       "voice": {
         "id": "TUBA_006_TUBA019B_003",
         "file": "voice/tuba_006_tuba019B_003.ogg"
@@ -232,7 +240,7 @@
     },
     {
       "kind": "line",
-      "who": "望月真琴",
+      "who": "楠木翼",
       "voice": {
         "id": "TUBA_006_TUBA019B_004",
         "file": "voice/tuba_006_tuba019B_004.ogg"
@@ -251,7 +259,7 @@
     },
     {
       "kind": "line",
-      "who": "望月真琴",
+      "who": "古桥和树",
       "lines": [
         "「我也是哦」"
       ],
@@ -317,7 +325,7 @@
     },
     {
       "kind": "line",
-      "who": "望月真琴",
+      "who": "古桥和树",
       "lines": [
         "「要亲吻吗……」"
       ],
@@ -332,7 +340,7 @@
     },
     {
       "kind": "line",
-      "who": "望月真琴",
+      "who": "楠木翼",
       "voice": {
         "id": "TUBA_006_TUBA019B_005",
         "file": "voice/tuba_006_tuba019B_005.ogg"
@@ -367,7 +375,7 @@
     },
     {
       "kind": "line",
-      "who": "望月真琴",
+      "who": "楠木翼",
       "voice": {
         "id": "TUBA_006_TUBA019B_006",
         "file": "voice/tuba_006_tuba019B_006.ogg"
@@ -402,7 +410,7 @@
     },
     {
       "kind": "line",
-      "who": "望月真琴",
+      "who": "楠木翼",
       "voice": {
         "id": "TUBA_006_TUBA019B_007",
         "file": "voice/tuba_006_tuba019B_007.ogg"
@@ -437,7 +445,7 @@
     },
     {
       "kind": "line",
-      "who": "望月真琴",
+      "who": "楠木翼",
       "voice": {
         "id": "TUBA_006_TUBA019B_008",
         "file": "voice/tuba_006_tuba019B_008.ogg"
@@ -474,7 +482,7 @@
     },
     {
       "kind": "line",
-      "who": "望月真琴",
+      "who": "楠木翼",
       "voice": {
         "id": "TUBA_006_TUBA019B_009",
         "file": "voice/tuba_006_tuba019B_009.ogg"
@@ -511,7 +519,7 @@
     },
     {
       "kind": "line",
-      "who": "望月真琴",
+      "who": "楠木翼",
       "voice": {
         "id": "TUBA_006_TUBA019B_010",
         "file": "voice/tuba_006_tuba019B_010.ogg"
@@ -548,7 +556,7 @@
     },
     {
       "kind": "line",
-      "who": "望月真琴",
+      "who": "楠木翼",
       "voice": {
         "id": "TUBA_006_TUBA019B_011",
         "file": "voice/tuba_006_tuba019B_011.ogg"
@@ -584,7 +592,7 @@
     },
     {
       "kind": "line",
-      "who": "望月真琴",
+      "who": "楠木翼",
       "voice": {
         "id": "TUBA_006_TUBA019B_012",
         "file": "voice/tuba_006_tuba019B_012.ogg"
@@ -621,7 +629,7 @@
     },
     {
       "kind": "line",
-      "who": "望月真琴",
+      "who": "楠木翼",
       "voice": {
         "id": "TUBA_006_TUBA019B_013",
         "file": "voice/tuba_006_tuba019B_013.ogg"
@@ -657,7 +665,7 @@
     },
     {
       "kind": "line",
-      "who": "望月真琴",
+      "who": "楠木翼",
       "voice": {
         "id": "TUBA_006_TUBA019B_014",
         "file": "voice/tuba_006_tuba019B_014.ogg"
@@ -693,7 +701,7 @@
     },
     {
       "kind": "line",
-      "who": "望月真琴",
+      "who": "楠木翼",
       "voice": {
         "id": "TUBA_006_TUBA019B_015",
         "file": "voice/tuba_006_tuba019B_015.ogg"
@@ -727,7 +735,7 @@
     },
     {
       "kind": "line",
-      "who": "望月真琴",
+      "who": "楠木翼",
       "voice": {
         "id": "TUBA_006_TUBA019B_016",
         "file": "voice/tuba_006_tuba019B_016.ogg"
@@ -747,7 +755,7 @@
     },
     {
       "kind": "line",
-      "who": "望月真琴",
+      "who": "古桥和树",
       "lines": [
         "「下面那里是指哪里呢？」"
       ],
@@ -777,7 +785,7 @@
     },
     {
       "kind": "line",
-      "who": "望月真琴",
+      "who": "楠木翼",
       "voice": {
         "id": "TUBA_006_TUBA019B_017",
         "file": "voice/tuba_006_tuba019B_017.ogg"
@@ -848,7 +856,7 @@
     },
     {
       "kind": "line",
-      "who": "望月真琴",
+      "who": "楠木翼",
       "voice": {
         "id": "TUBA_006_TUBA019B_018",
         "file": "voice/tuba_006_tuba019B_018.ogg"
@@ -885,7 +893,7 @@
     },
     {
       "kind": "line",
-      "who": "望月真琴",
+      "who": "楠木翼",
       "voice": {
         "id": "TUBA_006_TUBA019B_019",
         "file": "voice/tuba_006_tuba019B_019.ogg"
@@ -921,7 +929,7 @@
     },
     {
       "kind": "line",
-      "who": "望月真琴",
+      "who": "楠木翼",
       "voice": {
         "id": "TUBA_006_TUBA019B_020",
         "file": "voice/tuba_006_tuba019B_020.ogg"
@@ -956,7 +964,7 @@
     },
     {
       "kind": "line",
-      "who": "望月真琴",
+      "who": "楠木翼",
       "voice": {
         "id": "TUBA_006_TUBA019B_021",
         "file": "voice/tuba_006_tuba019B_021.ogg"
@@ -990,7 +998,7 @@
     },
     {
       "kind": "line",
-      "who": "望月真琴",
+      "who": "楠木翼",
       "voice": {
         "id": "TUBA_006_TUBA019B_022",
         "file": "voice/tuba_006_tuba019B_022.ogg"
@@ -1025,7 +1033,7 @@
     },
     {
       "kind": "line",
-      "who": "望月真琴",
+      "who": "楠木翼",
       "voice": {
         "id": "TUBA_006_TUBA019B_023",
         "file": "voice/tuba_006_tuba019B_023.ogg"
@@ -1062,7 +1070,7 @@
     },
     {
       "kind": "line",
-      "who": "望月真琴",
+      "who": "楠木翼",
       "voice": {
         "id": "TUBA_006_TUBA019B_024",
         "file": "voice/tuba_006_tuba019B_024.ogg"
@@ -1097,7 +1105,7 @@
     },
     {
       "kind": "line",
-      "who": "望月真琴",
+      "who": "楠木翼",
       "voice": {
         "id": "TUBA_006_TUBA019B_025",
         "file": "voice/tuba_006_tuba019B_025.ogg"
@@ -1134,7 +1142,7 @@
     },
     {
       "kind": "line",
-      "who": "望月真琴",
+      "who": "楠木翼",
       "voice": {
         "id": "TUBA_006_TUBA019B_026",
         "file": "voice/tuba_006_tuba019B_026.ogg"
@@ -1171,7 +1179,7 @@
     },
     {
       "kind": "line",
-      "who": "望月真琴",
+      "who": "楠木翼",
       "voice": {
         "id": "TUBA_006_TUBA019B_027",
         "file": "voice/tuba_006_tuba019B_027.ogg"
@@ -1205,7 +1213,7 @@
     },
     {
       "kind": "line",
-      "who": "望月真琴",
+      "who": "楠木翼",
       "voice": {
         "id": "TUBA_006_TUBA019B_028",
         "file": "voice/tuba_006_tuba019B_028.ogg"
@@ -1240,7 +1248,7 @@
     },
     {
       "kind": "line",
-      "who": "望月真琴",
+      "who": "楠木翼",
       "voice": {
         "id": "TUBA_006_TUBA019B_029",
         "file": "voice/tuba_006_tuba019B_029.ogg"
@@ -1274,7 +1282,7 @@
     },
     {
       "kind": "line",
-      "who": "望月真琴",
+      "who": "楠木翼",
       "voice": {
         "id": "TUBA_006_TUBA019B_030",
         "file": "voice/tuba_006_tuba019B_030.ogg"
@@ -1316,7 +1324,7 @@
     },
     {
       "kind": "line",
-      "who": "望月真琴",
+      "who": "楠木翼",
       "voice": {
         "id": "TUBA_006_TUBA019B_031",
         "file": "voice/tuba_006_tuba019B_031.ogg"
@@ -1351,7 +1359,7 @@
     },
     {
       "kind": "line",
-      "who": "望月真琴",
+      "who": "古桥和树",
       "lines": [
         "「真琴，从我的裤子里把肉棒拿出来。",
         "好好含住，舔舔舔」"
@@ -1520,7 +1528,7 @@
     },
     {
       "kind": "line",
-      "who": "望月真琴",
+      "who": "楠木翼",
       "voice": {
         "id": "TUBA_006_TUBA019B_032",
         "file": "voice/tuba_006_tuba019B_032.ogg"
@@ -1557,7 +1565,7 @@
     },
     {
       "kind": "line",
-      "who": "望月真琴",
+      "who": "古桥和树",
       "lines": [
         "「伸出舌头……缠绕在一起，要来个淫荡的吻吗？」"
       ],
@@ -1572,7 +1580,7 @@
     },
     {
       "kind": "line",
-      "who": "望月真琴",
+      "who": "楠木翼",
       "voice": {
         "id": "TUBA_006_TUBA019B_033",
         "file": "voice/tuba_006_tuba019B_033.ogg"
@@ -1608,7 +1616,7 @@
     },
     {
       "kind": "line",
-      "who": "望月真琴",
+      "who": "楠木翼",
       "voice": {
         "id": "TUBA_006_TUBA019B_034",
         "file": "voice/tuba_006_tuba019B_034.ogg"
@@ -1714,7 +1722,7 @@
     },
     {
       "kind": "line",
-      "who": "望月真琴",
+      "who": "楠木翼",
       "voice": {
         "id": "TUBA_006_TUBA019B_035",
         "file": "voice/tuba_006_tuba019B_035.ogg"
@@ -1750,7 +1758,7 @@
     },
     {
       "kind": "line",
-      "who": "望月真琴",
+      "who": "楠木翼",
       "voice": {
         "id": "TUBA_006_TUBA019B_036",
         "file": "voice/tuba_006_tuba019B_036.ogg"
@@ -1841,7 +1849,7 @@
     },
     {
       "kind": "line",
-      "who": "望月真琴",
+      "who": "楠木翼",
       "voice": {
         "id": "TUBA_006_TUBA019B_037",
         "file": "voice/tuba_006_tuba019B_037.ogg"
@@ -1876,7 +1884,7 @@
     },
     {
       "kind": "line",
-      "who": "望月真琴",
+      "who": "楠木翼",
       "voice": {
         "id": "TUBA_006_TUBA019B_038",
         "file": "voice/tuba_006_tuba019B_038.ogg"
@@ -1916,7 +1924,7 @@
     },
     {
       "kind": "line",
-      "who": "望月真琴",
+      "who": "楠木翼",
       "voice": {
         "id": "TUBA_006_TUBA019B_039",
         "file": "voice/tuba_006_tuba019B_039.ogg"
@@ -1951,7 +1959,7 @@
     },
     {
       "kind": "line",
-      "who": "望月真琴",
+      "who": "楠木翼",
       "voice": {
         "id": "TUBA_006_TUBA019B_040",
         "file": "voice/tuba_006_tuba019B_040.ogg"
@@ -1985,7 +1993,7 @@
     },
     {
       "kind": "line",
-      "who": "望月真琴",
+      "who": "古桥和树",
       "lines": [
         "「嗯……看着真琴，用嘴唇紧紧包住，吸吮着",
         "进出运动！」"
@@ -2093,7 +2101,7 @@
     },
     {
       "kind": "line",
-      "who": "望月真琴",
+      "who": "楠木翼",
       "voice": {
         "id": "TUBA_006_TUBA019B_041",
         "file": "voice/tuba_006_tuba019B_041.ogg"
@@ -2131,7 +2139,7 @@
     },
     {
       "kind": "line",
-      "who": "望月真琴",
+      "who": "楠木翼",
       "voice": {
         "id": "TUBA_006_TUBA019B_042",
         "file": "voice/tuba_006_tuba019B_042.ogg"
@@ -2165,7 +2173,7 @@
     },
     {
       "kind": "line",
-      "who": "望月真琴",
+      "who": "楠木翼",
       "voice": {
         "id": "TUBA_006_TUBA019B_043",
         "file": "voice/tuba_006_tuba019B_043.ogg"
@@ -2199,7 +2207,7 @@
     },
     {
       "kind": "line",
-      "who": "望月真琴",
+      "who": "楠木翼",
       "voice": {
         "id": "TUBA_006_TUBA019B_044",
         "file": "voice/tuba_006_tuba019B_044.ogg"
@@ -2234,7 +2242,7 @@
     },
     {
       "kind": "line",
-      "who": "望月真琴",
+      "who": "楠木翼",
       "voice": {
         "id": "TUBA_006_TUBA019B_045",
         "file": "voice/tuba_006_tuba019B_045.ogg"
@@ -2269,7 +2277,7 @@
     },
     {
       "kind": "line",
-      "who": "望月真琴",
+      "who": "楠木翼",
       "voice": {
         "id": "TUBA_006_TUBA019B_046",
         "file": "voice/tuba_006_tuba019B_046.ogg"
@@ -2374,7 +2382,7 @@
     },
     {
       "kind": "line",
-      "who": "望月真琴",
+      "who": "楠木翼",
       "voice": {
         "id": "TUBA_006_TUBA019B_047",
         "file": "voice/tuba_006_tuba019B_047.ogg"
@@ -2444,7 +2452,7 @@
     },
     {
       "kind": "line",
-      "who": "望月真琴",
+      "who": "楠木翼",
       "voice": {
         "id": "TUBA_006_TUBA019B_048",
         "file": "voice/tuba_006_tuba019B_048.ogg"
@@ -2498,7 +2506,7 @@
     },
     {
       "kind": "line",
-      "who": "望月真琴",
+      "who": "楠木翼",
       "voice": {
         "id": "TUBA_006_TUBA019B_049",
         "file": "voice/tuba_006_tuba019B_049.ogg"
@@ -2581,7 +2589,7 @@
     },
     {
       "kind": "line",
-      "who": "望月真琴",
+      "who": "楠木翼",
       "voice": {
         "id": "TUBA_006_TUBA019B_050",
         "file": "voice/tuba_006_tuba019B_050.ogg"
@@ -2670,7 +2678,7 @@
     },
     {
       "kind": "line",
-      "who": "望月真琴",
+      "who": "楠木翼",
       "voice": {
         "id": "TUBA_006_TUBA019B_051",
         "file": "voice/tuba_006_tuba019B_051.ogg"
@@ -2706,7 +2714,7 @@
     },
     {
       "kind": "line",
-      "who": "望月真琴",
+      "who": "楠木翼",
       "voice": {
         "id": "TUBA_006_TUBA019B_052",
         "file": "voice/tuba_006_tuba019B_052.ogg"
@@ -2776,7 +2784,7 @@
     },
     {
       "kind": "line",
-      "who": "望月真琴",
+      "who": "楠木翼",
       "voice": {
         "id": "TUBA_006_TUBA019B_053",
         "file": "voice/tuba_006_tuba019B_053.ogg"
@@ -2812,7 +2820,7 @@
     },
     {
       "kind": "line",
-      "who": "望月真琴",
+      "who": "楠木翼",
       "voice": {
         "id": "TUBA_006_TUBA019B_054",
         "file": "voice/tuba_006_tuba019B_054.ogg"
@@ -2881,7 +2889,7 @@
     },
     {
       "kind": "line",
-      "who": "望月真琴",
+      "who": "楠木翼",
       "voice": {
         "id": "TUBA_006_TUBA019B_055",
         "file": "voice/tuba_006_tuba019B_055.ogg"
@@ -2915,7 +2923,7 @@
     },
     {
       "kind": "line",
-      "who": "望月真琴",
+      "who": "古桥和树",
       "lines": [
         "「嗯，是啊……在这里做爱有点不妥，我们换个地方吧。」"
       ],

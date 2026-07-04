@@ -46,6 +46,10 @@
     {
       "kind": "line",
       "who": "楠木翼",
+      "voice": {
+        "id": "TUBA_006_TUBA012A_002",
+        "file": "voice/tuba_006_tuba012A_002.ogg"
+      },
       "lines": [
         "「制服，脱掉……只剩下内衣……」"
       ],
@@ -94,6 +98,10 @@
     {
       "kind": "line",
       "who": "楠木翼",
+      "voice": {
+        "id": "TUBA_006_TUBA012A_003",
+        "file": "voice/tuba_006_tuba012A_003.ogg"
+      },
       "lines": [
         "「哈啊啊……哈啊……啊啊……呼呼……」"
       ],
@@ -135,7 +143,7 @@
     },
     {
       "kind": "line",
-      "who": "楠木翼",
+      "who": "古桥和树",
       "lines": [
         "「脱下内裤，仰卧在床上，",
         "张开双腿吧」"
@@ -157,6 +165,10 @@
     {
       "kind": "line",
       "who": "楠木翼",
+      "voice": {
+        "id": "TUBA_006_TUBA012A_004",
+        "file": "voice/tuba_006_tuba012A_004.ogg"
+      },
       "lines": [
         "「脱下内裤……躺在床上……张开双腿……」"
       ],
@@ -186,7 +198,7 @@
     },
     {
       "kind": "line",
-      "who": "楠木翼",
+      "who": "古桥和树",
       "lines": [
         "「抬起腿，向这边展示小穴。」"
       ],
@@ -198,6 +210,10 @@
     {
       "kind": "line",
       "who": "楠木翼",
+      "voice": {
+        "id": "TUBA_006_TUBA012A_005",
+        "file": "voice/tuba_006_tuba012A_005.ogg"
+      },
       "lines": [
         "「展示小穴……」"
       ],

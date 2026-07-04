@@ -23,6 +23,10 @@
     {
       "kind": "line",
       "who": "古桥绫菜",
+      "voice": {
+        "id": "AYAN_001_PRO003A_021",
+        "file": "voice/ayan_001_pro003A_021.ogg"
+      },
       "lines": [
         "「可能做得太多了吧？」"
       ],

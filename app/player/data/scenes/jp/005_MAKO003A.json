@@ -84,6 +84,10 @@
     {
       "kind": "line",
       "who": "望月　真琴",
+      "voice": {
+        "id": "MAKO_001_PRO003C_010",
+        "file": "voice/mako_001_pro003C_010.ogg"
+      },
       "lines": [
         "「放課後に……わ、分かったわ……」"
       ],

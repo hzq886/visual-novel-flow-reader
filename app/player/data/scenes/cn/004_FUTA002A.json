@@ -17,6 +17,10 @@
     {
       "kind": "line",
       "who": "古桥凉菜",
+      "voice": {
+        "id": "SUZU_001_PRO003B_011",
+        "file": "voice/suzu_001_pro003B_011.ogg"
+      },
       "lines": [
         "「我回来了。有点晚了呢。」"
       ],
@@ -56,6 +60,10 @@
     {
       "kind": "line",
       "who": "古桥绫菜",
+      "voice": {
+        "id": "AYAN_001_PRO003A_019",
+        "file": "voice/ayan_001_pro003A_019.ogg"
+      },
       "lines": [
         "「欢迎回来。辛苦了一天的工作。」"
       ],
@@ -115,7 +123,11 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "古桥凉菜",
+      "voice": {
+        "id": "SUZU_001_PRO003B_012",
+        "file": "voice/suzu_001_pro003B_012.ogg"
+      },
       "lines": [
         "「总之，我先去房间换衣服了。」"
       ],
@@ -203,7 +215,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "古桥凉菜",
       "voice": {
         "id": "SUZU_004_FUTA002A_001",
         "file": "voice/suzu_004_futa002A_001.ogg"
@@ -273,7 +285,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "古桥凉菜",
       "voice": {
         "id": "SUZU_004_FUTA002A_002",
         "file": "voice/suzu_004_futa002A_002.ogg"
@@ -339,7 +351,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "古桥凉菜",
       "voice": {
         "id": "SUZU_004_FUTA002A_003",
         "file": "voice/suzu_004_futa002A_003.ogg"
@@ -402,7 +414,11 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "古桥凉菜",
+      "voice": {
+        "id": "SUZU_003_SUZU002B_006",
+        "file": "voice/suzu_003_suzu002B_006.ogg"
+      },
       "lines": [
         "「嗯啊！？啊，哈啊……呼哈……」"
       ],

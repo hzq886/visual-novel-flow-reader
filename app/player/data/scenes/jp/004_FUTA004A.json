@@ -53,6 +53,10 @@
     {
       "kind": "line",
       "who": "古橋　涼菜",
+      "voice": {
+        "id": "SUZU_001_PRO003B_014",
+        "file": "voice/suzu_001_pro003B_014.ogg"
+      },
       "lines": [
         "「いつもながら、姉さんの料理は最高ね」"
       ],
@@ -64,6 +68,10 @@
     {
       "kind": "line",
       "who": "古橋　綾菜",
+      "voice": {
+        "id": "AYAN_001_PRO003A_022",
+        "file": "voice/ayan_001_pro003A_022.ogg"
+      },
       "lines": [
         "「ふふっ、そう言ってもらえると、嬉しいわ」"
       ],

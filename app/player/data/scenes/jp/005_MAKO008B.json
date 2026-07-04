@@ -66,6 +66,10 @@
     {
       "kind": "line",
       "who": "望月　真琴",
+      "voice": {
+        "id": "MAKO_005_MAKO008A_001",
+        "file": "voice/mako_005_mako008A_001.ogg"
+      },
       "lines": [
         "「だって、どうしようもないじゃない……産みたく",
         "ないって言っても、許さないんでしょう？」"
@@ -109,6 +113,10 @@
     {
       "kind": "line",
       "who": "望月　早紀",
+      "voice": {
+        "id": "SAKI_005_MAKO008A_001",
+        "file": "voice/saki_005_mako008A_001.ogg"
+      },
       "lines": [
         "「ふふっ、もうすぐ、親子揃って出産できるのね！",
         "すごく楽しみだわ！」"
@@ -150,6 +158,10 @@
     {
       "kind": "line",
       "who": "望月　早紀",
+      "voice": {
+        "id": "SAKI_005_MAKO008A_002",
+        "file": "voice/saki_005_mako008A_002.ogg"
+      },
       "lines": [
         "「さて、安定期に入ったし、久しぶりにセックスを",
         "してもらいましょうか」"
@@ -192,6 +204,10 @@
     {
       "kind": "line",
       "who": "望月　早紀",
+      "voice": {
+        "id": "SAKI_005_MAKO008A_003",
+        "file": "voice/saki_005_mako008A_003.ogg"
+      },
       "lines": [
         "「待ちに待ったチ×ポを、やっと入れてもらえるわ。",
         "オナニーだけじゃ、ぜんぜん物足りなくて」"
@@ -235,6 +251,10 @@
     {
       "kind": "line",
       "who": "望月　早紀",
+      "voice": {
+        "id": "SAKI_005_MAKO008A_004",
+        "file": "voice/saki_005_mako008A_004.ogg"
+      },
       "lines": [
         "「妊娠して、オマ×コの具合も変わったと思うの。",
         "きっと楽しんでもらえると思うから……」"
@@ -333,7 +353,7 @@
     },
     {
       "kind": "line",
-      "who": "望月　早紀",
+      "who": "古橋　和樹",
       "lines": [
         "「『生意気真面目なダブルポニー』」"
       ],
@@ -397,7 +417,7 @@
     },
     {
       "kind": "line",
-      "who": "望月　早紀",
+      "who": "望月　真琴",
       "voice": {
         "id": "MAKO_005_MAKO008B_001",
         "file": "voice/mako_005_mako008B_001.ogg"
@@ -648,7 +668,7 @@
     },
     {
       "kind": "line",
-      "who": "望月　早紀",
+      "who": "古橋　和樹",
       "lines": [
         "「いいよ。早紀の妊婦マ×コを、可愛がってあげる」"
       ],
@@ -755,7 +775,7 @@
     },
     {
       "kind": "line",
-      "who": "望月　早紀",
+      "who": "望月　真琴",
       "voice": {
         "id": "MAKO_005_MAKO008B_002",
         "file": "voice/mako_005_mako008B_002.ogg"
@@ -874,7 +894,7 @@
     },
     {
       "kind": "line",
-      "who": "望月　早紀",
+      "who": "望月　真琴",
       "voice": {
         "id": "MAKO_005_MAKO008B_003",
         "file": "voice/mako_005_mako008B_003.ogg"
@@ -948,7 +968,7 @@
     },
     {
       "kind": "line",
-      "who": "望月　早紀",
+      "who": "望月　真琴",
       "voice": {
         "id": "MAKO_005_MAKO008B_004",
         "file": "voice/mako_005_mako008B_004.ogg"
@@ -1044,7 +1064,7 @@
     },
     {
       "kind": "line",
-      "who": "望月　早紀",
+      "who": "望月　真琴",
       "voice": {
         "id": "MAKO_005_MAKO008B_005",
         "file": "voice/mako_005_mako008B_005.ogg"
@@ -1081,7 +1101,7 @@
     },
     {
       "kind": "line",
-      "who": "望月　早紀",
+      "who": "望月　真琴",
       "voice": {
         "id": "MAKO_005_MAKO008B_006",
         "file": "voice/mako_005_mako008B_006.ogg"
@@ -1158,7 +1178,7 @@
     },
     {
       "kind": "line",
-      "who": "望月　早紀",
+      "who": "望月　真琴",
       "voice": {
         "id": "MAKO_005_MAKO008B_007",
         "file": "voice/mako_005_mako008B_007.ogg"
@@ -1232,7 +1252,7 @@
     },
     {
       "kind": "line",
-      "who": "望月　早紀",
+      "who": "望月　真琴",
       "voice": {
         "id": "MAKO_005_MAKO008B_008",
         "file": "voice/mako_005_mako008B_008.ogg"
@@ -1268,7 +1288,7 @@
     },
     {
       "kind": "line",
-      "who": "望月　早紀",
+      "who": "望月　真琴",
       "voice": {
         "id": "MAKO_005_MAKO008B_009",
         "file": "voice/mako_005_mako008B_009.ogg"
@@ -1365,7 +1385,7 @@
     },
     {
       "kind": "line",
-      "who": "望月　早紀",
+      "who": "望月　真琴",
       "voice": {
         "id": "MAKO_005_MAKO008B_010",
         "file": "voice/mako_005_mako008B_010.ogg"
@@ -1401,7 +1421,7 @@
     },
     {
       "kind": "line",
-      "who": "望月　早紀",
+      "who": "古橋　和樹",
       "lines": [
         "「だめだよ。僕たちの赤ちゃんのことが心配だし、",
         "あまり奥には入れないから」"
@@ -1474,7 +1494,7 @@
     },
     {
       "kind": "line",
-      "who": "望月　早紀",
+      "who": "望月　真琴",
       "voice": {
         "id": "MAKO_005_MAKO008B_011",
         "file": "voice/mako_005_mako008B_011.ogg"
@@ -1511,7 +1531,7 @@
     },
     {
       "kind": "line",
-      "who": "望月　早紀",
+      "who": "望月　真琴",
       "voice": {
         "id": "MAKO_005_MAKO008B_012",
         "file": "voice/mako_005_mako008B_012.ogg"
@@ -1603,7 +1623,7 @@
     },
     {
       "kind": "line",
-      "who": "望月　早紀",
+      "who": "望月　真琴",
       "voice": {
         "id": "MAKO_005_MAKO008B_013",
         "file": "voice/mako_005_mako008B_013.ogg"
@@ -1659,7 +1679,7 @@
     },
     {
       "kind": "line",
-      "who": "望月　早紀",
+      "who": "望月　真琴",
       "voice": {
         "id": "MAKO_005_MAKO008B_014",
         "file": "voice/mako_005_mako008B_014.ogg"
@@ -1733,7 +1753,7 @@
     },
     {
       "kind": "line",
-      "who": "望月　早紀",
+      "who": "望月　真琴",
       "voice": {
         "id": "MAKO_005_MAKO008B_015",
         "file": "voice/mako_005_mako008B_015.ogg"
@@ -1790,7 +1810,7 @@
     },
     {
       "kind": "line",
-      "who": "望月　早紀",
+      "who": "望月　真琴",
       "voice": {
         "id": "MAKO_005_MAKO008B_016",
         "file": "voice/mako_005_mako008B_016.ogg"
@@ -1847,7 +1867,7 @@
     },
     {
       "kind": "line",
-      "who": "望月　早紀",
+      "who": "望月　真琴",
       "voice": {
         "id": "MAKO_005_MAKO008B_017",
         "file": "voice/mako_005_mako008B_017.ogg"
@@ -1902,7 +1922,7 @@
     },
     {
       "kind": "line",
-      "who": "望月　早紀",
+      "who": "望月　真琴",
       "voice": {
         "id": "MAKO_005_MAKO008B_018",
         "file": "voice/mako_005_mako008B_018.ogg"
@@ -1967,7 +1987,7 @@
     },
     {
       "kind": "line",
-      "who": "望月　早紀",
+      "who": "望月　真琴",
       "voice": {
         "id": "MAKO_005_MAKO008B_019",
         "file": "voice/mako_005_mako008B_019.ogg"
@@ -2023,7 +2043,7 @@
     },
     {
       "kind": "line",
-      "who": "望月　早紀",
+      "who": "望月　真琴",
       "voice": {
         "id": "MAKO_005_MAKO008B_020",
         "file": "voice/mako_005_mako008B_020.ogg"
@@ -2060,7 +2080,7 @@
     },
     {
       "kind": "line",
-      "who": "望月　早紀",
+      "who": "望月　真琴",
       "voice": {
         "id": "MAKO_005_MAKO008B_021",
         "file": "voice/mako_005_mako008B_021.ogg"
@@ -2137,7 +2157,7 @@
     },
     {
       "kind": "line",
-      "who": "望月　早紀",
+      "who": "望月　真琴",
       "voice": {
         "id": "MAKO_005_MAKO008B_022",
         "file": "voice/mako_005_mako008B_022.ogg"
@@ -2200,7 +2220,7 @@
     },
     {
       "kind": "line",
-      "who": "望月　早紀",
+      "who": "望月　真琴",
       "voice": {
         "id": "MAKO_005_MAKO008B_023",
         "file": "voice/mako_005_mako008B_023.ogg"
@@ -2272,7 +2292,7 @@
     },
     {
       "kind": "line",
-      "who": "望月　早紀",
+      "who": "望月　真琴",
       "voice": {
         "id": "MAKO_005_MAKO008B_024",
         "file": "voice/mako_005_mako008B_024.ogg"
@@ -2329,7 +2349,7 @@
     },
     {
       "kind": "line",
-      "who": "望月　早紀",
+      "who": "望月　真琴",
       "voice": {
         "id": "MAKO_005_MAKO008B_025",
         "file": "voice/mako_005_mako008B_025.ogg"
@@ -2530,7 +2550,7 @@
     },
     {
       "kind": "line",
-      "who": "望月　早紀",
+      "who": "望月　真琴",
       "voice": {
         "id": "MAKO_005_MAKO008B_026",
         "file": "voice/mako_005_mako008B_026.ogg"
@@ -2564,7 +2584,7 @@
     },
     {
       "kind": "line",
-      "who": "望月　早紀",
+      "who": "望月　真琴",
       "voice": {
         "id": "MAKO_005_MAKO008B_027",
         "file": "voice/mako_005_mako008B_027.ogg"
@@ -2600,7 +2620,7 @@
     },
     {
       "kind": "line",
-      "who": "望月　早紀",
+      "who": "望月　真琴",
       "voice": {
         "id": "MAKO_005_MAKO008B_028",
         "file": "voice/mako_005_mako008B_028.ogg"

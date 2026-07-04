@@ -28,6 +28,10 @@
     {
       "kind": "line",
       "who": "古橋　綾菜",
+      "voice": {
+        "id": "AYAN_002_AYAN011A_005",
+        "file": "voice/ayan_002_ayan011A_005.ogg"
+      },
       "lines": [
         "「あっ、和くん……いま片付けをしていて」"
       ],
@@ -87,7 +91,11 @@
     },
     {
       "kind": "line",
-      "who": "古橋　和樹",
+      "who": "古橋　綾菜",
+      "voice": {
+        "id": "AYAN_002_AYAN011A_006",
+        "file": "voice/ayan_002_ayan011A_006.ogg"
+      },
       "lines": [
         "「ま、まだ慣れないけど、だいぶ拡がったと思うわ。",
         "別に痛みも無いし、お腹が疼く感じで……」"
@@ -147,7 +155,11 @@
     },
     {
       "kind": "line",
-      "who": "古橋　和樹",
+      "who": "古橋　綾菜",
+      "voice": {
+        "id": "AYAN_002_AYAN011A_007",
+        "file": "voice/ayan_002_ayan011A_007.ogg"
+      },
       "lines": [
         "「わ、分かったわ……覚悟しておくから……」"
       ],

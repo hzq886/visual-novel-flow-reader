@@ -68,6 +68,10 @@
     {
       "kind": "line",
       "who": "古桥绫菜",
+      "voice": {
+        "id": "AYAN_009_NUKE005_001",
+        "file": "voice/ayan_009_nuke005_001.ogg"
+      },
       "lines": [
         "「哎呀，和树君。虽然店快要关门了」"
       ],
@@ -127,7 +131,11 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "古桥绫菜",
+      "voice": {
+        "id": "AYAN_009_NUKE005_002",
+        "file": "voice/ayan_009_nuke005_002.ogg"
+      },
       "lines": [
         "「拜托？有什么事情呢？」"
       ],
@@ -186,7 +194,11 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "古桥绫菜",
+      "voice": {
+        "id": "AYAN_009_NUKE005_003",
+        "file": "voice/ayan_009_nuke005_003.ogg"
+      },
       "lines": [
         "「嗯，有的哦。真琴喜欢吃呢。",
         "如果明天之前能吃掉的话，没问题的」"

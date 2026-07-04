@@ -28,6 +28,10 @@
     {
       "kind": "line",
       "who": "古桥凉菜",
+      "voice": {
+        "id": "SUZU_003_SUZU002B_006",
+        "file": "voice/suzu_003_suzu002B_006.ogg"
+      },
       "lines": [
         "「嗯啊！？啊，哈啊……呼哈……」"
       ],

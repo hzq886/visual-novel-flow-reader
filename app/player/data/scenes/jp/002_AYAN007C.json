@@ -24,6 +24,10 @@
     {
       "kind": "line",
       "who": "古橋　綾菜",
+      "voice": {
+        "id": "AYAN_001_PRO003A_021",
+        "file": "voice/ayan_001_pro003A_021.ogg"
+      },
       "lines": [
         "「ちょっと、作り過ぎちゃったかしら？」"
       ],

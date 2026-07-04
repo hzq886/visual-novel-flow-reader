@@ -56,6 +56,10 @@
     {
       "kind": "line",
       "who": "古桥凉菜",
+      "voice": {
+        "id": "SUZU_003_SUZU002A_001",
+        "file": "voice/suzu_003_suzu002A_001.ogg"
+      },
       "lines": [
         "「和树？可以啊」"
       ],

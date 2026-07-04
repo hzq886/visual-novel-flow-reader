@@ -67,6 +67,10 @@
     {
       "kind": "line",
       "who": "古橋　涼菜",
+      "voice": {
+        "id": "SUZU_003_SUZU002A_001",
+        "file": "voice/suzu_003_suzu002A_001.ogg"
+      },
       "lines": [
         "「和樹？　いいわよ」"
       ],
@@ -142,7 +146,7 @@
     },
     {
       "kind": "line",
-      "who": "古橋　涼菜",
+      "who": "古橋　和樹",
       "lines": [
         "「『ストッキングのカミナリ』」"
       ],
@@ -163,6 +167,10 @@
     {
       "kind": "line",
       "who": "古橋　涼菜",
+      "voice": {
+        "id": "SUZU_003_SUZU002B_006",
+        "file": "voice/suzu_003_suzu002B_006.ogg"
+      },
       "lines": [
         "「んあっ！？　あっ、はぁぁっ……ふはぁ……」"
       ],

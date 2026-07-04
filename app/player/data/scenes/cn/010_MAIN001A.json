@@ -63,6 +63,10 @@
     {
       "kind": "line",
       "who": "古桥绫菜",
+      "voice": {
+        "id": "AYAN_001_PRO003A_003",
+        "file": "voice/ayan_001_pro003A_003.ogg"
+      },
       "lines": [
         "「早上好。噢，看起来很困呢……没事吧？」"
       ],
@@ -102,6 +106,10 @@
     {
       "kind": "line",
       "who": "古桥凉菜",
+      "voice": {
+        "id": "SUZU_001_PRO003B_003",
+        "file": "voice/suzu_001_pro003B_003.ogg"
+      },
       "lines": [
         "「好好睡了吗？熬夜可不好哦？」"
       ],
@@ -121,7 +129,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥凉菜",
+      "who": "古桥和树",
       "lines": [
         "「没问题。我睡得很好」"
       ],
@@ -160,7 +168,11 @@
     },
     {
       "kind": "line",
-      "who": "古桥凉菜",
+      "who": "古桥绫菜",
+      "voice": {
+        "id": "AYAN_001_PRO003A_005",
+        "file": "voice/ayan_001_pro003A_005.ogg"
+      },
       "lines": [
         "「今天我试着做了炒蛋。」"
       ],

@@ -18,6 +18,10 @@
     {
       "kind": "line",
       "who": "望月　真琴",
+      "voice": {
+        "id": "MAKO_005_MAKO004B_003",
+        "file": "voice/mako_005_mako004B_003.ogg"
+      },
       "lines": [
         "「ううっ……人の部屋を、ジロジロ見ないでよっ！」"
       ],
@@ -58,7 +62,11 @@
     },
     {
       "kind": "line",
-      "who": "古橋　和樹",
+      "who": "望月　真琴",
+      "voice": {
+        "id": "MAKO_005_MAKO004B_004",
+        "file": "voice/mako_005_mako004B_004.ogg"
+      },
       "lines": [
         "「そ、そんなこと言ってないわ！　馬鹿じゃないの！",
         "部屋も私も、見られるのは不快なの！」"
@@ -99,7 +107,11 @@
     },
     {
       "kind": "line",
-      "who": "古橋　和樹",
+      "who": "望月　真琴",
+      "voice": {
+        "id": "MAKO_005_MAKO004B_005",
+        "file": "voice/mako_005_mako004B_005.ogg"
+      },
       "lines": [
         "「と、とりあえずって……うあっ！　や、やだっ、",
         "脱ぎたくないっ、やめて！　やめなさいよ！」"
@@ -191,7 +203,7 @@
     },
     {
       "kind": "line",
-      "who": "古橋　和樹",
+      "who": "望月　真琴",
       "voice": {
         "id": "MAKO_005_MAKO004C_001",
         "file": "voice/mako_005_mako004C_001.ogg"
@@ -239,7 +251,7 @@
     },
     {
       "kind": "line",
-      "who": "古橋　和樹",
+      "who": "望月　真琴",
       "voice": {
         "id": "MAKO_005_MAKO004C_002",
         "file": "voice/mako_005_mako004C_002.ogg"
@@ -304,7 +316,7 @@
     },
     {
       "kind": "line",
-      "who": "古橋　和樹",
+      "who": "望月　真琴",
       "voice": {
         "id": "MAKO_005_MAKO004C_003",
         "file": "voice/mako_005_mako004C_003.ogg"
@@ -369,7 +381,7 @@
     },
     {
       "kind": "line",
-      "who": "古橋　和樹",
+      "who": "望月　真琴",
       "voice": {
         "id": "MAKO_005_MAKO004C_004",
         "file": "voice/mako_005_mako004C_004.ogg"
@@ -416,7 +428,7 @@
     },
     {
       "kind": "line",
-      "who": "古橋　和樹",
+      "who": "望月　真琴",
       "voice": {
         "id": "MAKO_005_MAKO004C_005",
         "file": "voice/mako_005_mako004C_005.ogg"
@@ -483,7 +495,7 @@
     },
     {
       "kind": "line",
-      "who": "古橋　和樹",
+      "who": "望月　真琴",
       "voice": {
         "id": "MAKO_005_MAKO004C_006",
         "file": "voice/mako_005_mako004C_006.ogg"
@@ -568,7 +580,7 @@
     },
     {
       "kind": "line",
-      "who": "古橋　和樹",
+      "who": "望月　真琴",
       "voice": {
         "id": "MAKO_005_MAKO004C_007",
         "file": "voice/mako_005_mako004C_007.ogg"
@@ -600,7 +612,7 @@
     },
     {
       "kind": "line",
-      "who": "古橋　和樹",
+      "who": "望月　真琴",
       "voice": {
         "id": "MAKO_005_MAKO004C_008",
         "file": "voice/mako_005_mako004C_008.ogg"
@@ -629,7 +641,7 @@
     },
     {
       "kind": "line",
-      "who": "古橋　和樹",
+      "who": "望月　真琴",
       "voice": {
         "id": "MAKO_005_MAKO004C_009",
         "file": "voice/mako_005_mako004C_009.ogg"
@@ -659,7 +671,7 @@
     },
     {
       "kind": "line",
-      "who": "古橋　和樹",
+      "who": "望月　真琴",
       "voice": {
         "id": "MAKO_005_MAKO004C_010",
         "file": "voice/mako_005_mako004C_010.ogg"
@@ -685,7 +697,7 @@
     },
     {
       "kind": "line",
-      "who": "古橋　和樹",
+      "who": "望月　真琴",
       "voice": {
         "id": "MAKO_005_MAKO004C_011",
         "file": "voice/mako_005_mako004C_011.ogg"
@@ -723,7 +735,7 @@
     },
     {
       "kind": "line",
-      "who": "古橋　和樹",
+      "who": "望月　真琴",
       "voice": {
         "id": "MAKO_005_MAKO004C_012",
         "file": "voice/mako_005_mako004C_012.ogg"
@@ -762,7 +774,7 @@
     },
     {
       "kind": "line",
-      "who": "古橋　和樹",
+      "who": "望月　真琴",
       "voice": {
         "id": "MAKO_005_MAKO004C_013",
         "file": "voice/mako_005_mako004C_013.ogg"
@@ -789,7 +801,7 @@
     },
     {
       "kind": "line",
-      "who": "古橋　和樹",
+      "who": "望月　真琴",
       "voice": {
         "id": "MAKO_005_MAKO004C_014",
         "file": "voice/mako_005_mako004C_014.ogg"
@@ -825,7 +837,7 @@
     },
     {
       "kind": "line",
-      "who": "古橋　和樹",
+      "who": "望月　真琴",
       "voice": {
         "id": "MAKO_005_MAKO004C_015",
         "file": "voice/mako_005_mako004C_015.ogg"
@@ -862,7 +874,7 @@
     },
     {
       "kind": "line",
-      "who": "古橋　和樹",
+      "who": "望月　真琴",
       "voice": {
         "id": "MAKO_005_MAKO004C_016",
         "file": "voice/mako_005_mako004C_016.ogg"
@@ -898,7 +910,7 @@
     },
     {
       "kind": "line",
-      "who": "古橋　和樹",
+      "who": "望月　真琴",
       "voice": {
         "id": "MAKO_005_MAKO004C_017",
         "file": "voice/mako_005_mako004C_017.ogg"
@@ -951,7 +963,7 @@
     },
     {
       "kind": "line",
-      "who": "古橋　和樹",
+      "who": "望月　真琴",
       "voice": {
         "id": "MAKO_005_MAKO004C_018",
         "file": "voice/mako_005_mako004C_018.ogg"
@@ -986,7 +998,7 @@
     },
     {
       "kind": "line",
-      "who": "古橋　和樹",
+      "who": "望月　真琴",
       "voice": {
         "id": "MAKO_005_MAKO004C_019",
         "file": "voice/mako_005_mako004C_019.ogg"
@@ -1021,7 +1033,7 @@
     },
     {
       "kind": "line",
-      "who": "古橋　和樹",
+      "who": "望月　真琴",
       "voice": {
         "id": "MAKO_005_MAKO004C_020",
         "file": "voice/mako_005_mako004C_020.ogg"
@@ -1058,7 +1070,7 @@
     },
     {
       "kind": "line",
-      "who": "古橋　和樹",
+      "who": "望月　真琴",
       "voice": {
         "id": "MAKO_005_MAKO004C_021",
         "file": "voice/mako_005_mako004C_021.ogg"
@@ -1096,7 +1108,7 @@
     },
     {
       "kind": "line",
-      "who": "古橋　和樹",
+      "who": "望月　真琴",
       "voice": {
         "id": "MAKO_005_MAKO004C_022",
         "file": "voice/mako_005_mako004C_022.ogg"
@@ -1135,7 +1147,7 @@
     },
     {
       "kind": "line",
-      "who": "古橋　和樹",
+      "who": "望月　真琴",
       "voice": {
         "id": "MAKO_005_MAKO004C_023",
         "file": "voice/mako_005_mako004C_023.ogg"
@@ -1171,7 +1183,7 @@
     },
     {
       "kind": "line",
-      "who": "古橋　和樹",
+      "who": "望月　真琴",
       "voice": {
         "id": "MAKO_005_MAKO004C_024",
         "file": "voice/mako_005_mako004C_024.ogg"
@@ -1208,7 +1220,7 @@
     },
     {
       "kind": "line",
-      "who": "古橋　和樹",
+      "who": "望月　真琴",
       "voice": {
         "id": "MAKO_005_MAKO004C_025",
         "file": "voice/mako_005_mako004C_025.ogg"
@@ -1245,7 +1257,7 @@
     },
     {
       "kind": "line",
-      "who": "古橋　和樹",
+      "who": "望月　真琴",
       "voice": {
         "id": "MAKO_005_MAKO004C_026",
         "file": "voice/mako_005_mako004C_026.ogg"
@@ -1283,7 +1295,7 @@
     },
     {
       "kind": "line",
-      "who": "古橋　和樹",
+      "who": "望月　真琴",
       "voice": {
         "id": "MAKO_005_MAKO004C_027",
         "file": "voice/mako_005_mako004C_027.ogg"
@@ -1320,7 +1332,7 @@
     },
     {
       "kind": "line",
-      "who": "古橋　和樹",
+      "who": "望月　真琴",
       "voice": {
         "id": "MAKO_005_MAKO004C_028",
         "file": "voice/mako_005_mako004C_028.ogg"
@@ -1356,7 +1368,7 @@
     },
     {
       "kind": "line",
-      "who": "古橋　和樹",
+      "who": "望月　真琴",
       "voice": {
         "id": "MAKO_005_MAKO004C_029",
         "file": "voice/mako_005_mako004C_029.ogg"
@@ -1393,7 +1405,7 @@
     },
     {
       "kind": "line",
-      "who": "古橋　和樹",
+      "who": "望月　真琴",
       "voice": {
         "id": "MAKO_005_MAKO004C_030",
         "file": "voice/mako_005_mako004C_030.ogg"
@@ -1431,7 +1443,7 @@
     },
     {
       "kind": "line",
-      "who": "古橋　和樹",
+      "who": "望月　真琴",
       "voice": {
         "id": "MAKO_005_MAKO004C_031",
         "file": "voice/mako_005_mako004C_031.ogg"
@@ -1467,7 +1479,7 @@
     },
     {
       "kind": "line",
-      "who": "古橋　和樹",
+      "who": "望月　真琴",
       "voice": {
         "id": "MAKO_005_MAKO004C_032",
         "file": "voice/mako_005_mako004C_032.ogg"
@@ -1503,7 +1515,7 @@
     },
     {
       "kind": "line",
-      "who": "古橋　和樹",
+      "who": "望月　真琴",
       "voice": {
         "id": "MAKO_005_MAKO004C_033",
         "file": "voice/mako_005_mako004C_033.ogg"
@@ -1541,7 +1553,7 @@
     },
     {
       "kind": "line",
-      "who": "古橋　和樹",
+      "who": "望月　真琴",
       "voice": {
         "id": "MAKO_005_MAKO004C_034",
         "file": "voice/mako_005_mako004C_034.ogg"
@@ -1617,7 +1629,7 @@
     },
     {
       "kind": "line",
-      "who": "古橋　和樹",
+      "who": "望月　真琴",
       "voice": {
         "id": "MAKO_005_MAKO004C_035",
         "file": "voice/mako_005_mako004C_035.ogg"
@@ -1655,7 +1667,7 @@
     },
     {
       "kind": "line",
-      "who": "古橋　和樹",
+      "who": "望月　真琴",
       "voice": {
         "id": "MAKO_005_MAKO004C_036",
         "file": "voice/mako_005_mako004C_036.ogg"
@@ -1693,7 +1705,7 @@
     },
     {
       "kind": "line",
-      "who": "古橋　和樹",
+      "who": "望月　真琴",
       "voice": {
         "id": "MAKO_005_MAKO004C_037",
         "file": "voice/mako_005_mako004C_037.ogg"
@@ -1730,7 +1742,7 @@
     },
     {
       "kind": "line",
-      "who": "古橋　和樹",
+      "who": "望月　真琴",
       "voice": {
         "id": "MAKO_005_MAKO004C_038",
         "file": "voice/mako_005_mako004C_038.ogg"
@@ -1767,7 +1779,7 @@
     },
     {
       "kind": "line",
-      "who": "古橋　和樹",
+      "who": "望月　真琴",
       "voice": {
         "id": "MAKO_005_MAKO004C_039",
         "file": "voice/mako_005_mako004C_039.ogg"
@@ -1803,7 +1815,7 @@
     },
     {
       "kind": "line",
-      "who": "古橋　和樹",
+      "who": "望月　真琴",
       "voice": {
         "id": "MAKO_005_MAKO004C_040",
         "file": "voice/mako_005_mako004C_040.ogg"
@@ -1839,7 +1851,7 @@
     },
     {
       "kind": "line",
-      "who": "古橋　和樹",
+      "who": "望月　真琴",
       "voice": {
         "id": "MAKO_005_MAKO004C_041",
         "file": "voice/mako_005_mako004C_041.ogg"
@@ -1875,7 +1887,7 @@
     },
     {
       "kind": "line",
-      "who": "古橋　和樹",
+      "who": "望月　真琴",
       "voice": {
         "id": "MAKO_005_MAKO004C_042",
         "file": "voice/mako_005_mako004C_042.ogg"
@@ -1914,7 +1926,7 @@
     },
     {
       "kind": "line",
-      "who": "古橋　和樹",
+      "who": "望月　真琴",
       "voice": {
         "id": "MAKO_005_MAKO004C_043",
         "file": "voice/mako_005_mako004C_043.ogg"
@@ -1950,7 +1962,7 @@
     },
     {
       "kind": "line",
-      "who": "古橋　和樹",
+      "who": "望月　真琴",
       "voice": {
         "id": "MAKO_005_MAKO004C_044",
         "file": "voice/mako_005_mako004C_044.ogg"
@@ -1988,7 +2000,7 @@
     },
     {
       "kind": "line",
-      "who": "古橋　和樹",
+      "who": "望月　真琴",
       "voice": {
         "id": "MAKO_005_MAKO004C_045",
         "file": "voice/mako_005_mako004C_045.ogg"
@@ -2023,7 +2035,7 @@
     },
     {
       "kind": "line",
-      "who": "古橋　和樹",
+      "who": "望月　真琴",
       "voice": {
         "id": "MAKO_005_MAKO004C_046",
         "file": "voice/mako_005_mako004C_046.ogg"
@@ -2073,7 +2085,7 @@
     },
     {
       "kind": "line",
-      "who": "古橋　和樹",
+      "who": "望月　真琴",
       "voice": {
         "id": "MAKO_005_MAKO004C_047",
         "file": "voice/mako_005_mako004C_047.ogg"
@@ -2110,7 +2122,7 @@
     },
     {
       "kind": "line",
-      "who": "古橋　和樹",
+      "who": "望月　真琴",
       "voice": {
         "id": "MAKO_005_MAKO004C_048",
         "file": "voice/mako_005_mako004C_048.ogg"
@@ -2147,7 +2159,7 @@
     },
     {
       "kind": "line",
-      "who": "古橋　和樹",
+      "who": "望月　真琴",
       "voice": {
         "id": "MAKO_005_MAKO004C_049",
         "file": "voice/mako_005_mako004C_049.ogg"
@@ -2184,7 +2196,7 @@
     },
     {
       "kind": "line",
-      "who": "古橋　和樹",
+      "who": "望月　真琴",
       "voice": {
         "id": "MAKO_005_MAKO004C_050",
         "file": "voice/mako_005_mako004C_050.ogg"
@@ -2219,7 +2231,7 @@
     },
     {
       "kind": "line",
-      "who": "古橋　和樹",
+      "who": "望月　真琴",
       "voice": {
         "id": "MAKO_005_MAKO004C_051",
         "file": "voice/mako_005_mako004C_051.ogg"
@@ -2276,7 +2288,7 @@
     },
     {
       "kind": "line",
-      "who": "古橋　和樹",
+      "who": "望月　真琴",
       "voice": {
         "id": "MAKO_005_MAKO004C_052",
         "file": "voice/mako_005_mako004C_052.ogg"
@@ -2312,7 +2324,7 @@
     },
     {
       "kind": "line",
-      "who": "古橋　和樹",
+      "who": "望月　真琴",
       "voice": {
         "id": "MAKO_005_MAKO004C_053",
         "file": "voice/mako_005_mako004C_053.ogg"
@@ -2347,7 +2359,7 @@
     },
     {
       "kind": "line",
-      "who": "古橋　和樹",
+      "who": "望月　真琴",
       "voice": {
         "id": "MAKO_005_MAKO004C_054",
         "file": "voice/mako_005_mako004C_054.ogg"
@@ -2392,7 +2404,7 @@
     },
     {
       "kind": "line",
-      "who": "古橋　和樹",
+      "who": "望月　真琴",
       "voice": {
         "id": "MAKO_005_MAKO004C_055",
         "file": "voice/mako_005_mako004C_055.ogg"
@@ -2428,7 +2440,7 @@
     },
     {
       "kind": "line",
-      "who": "古橋　和樹",
+      "who": "望月　真琴",
       "voice": {
         "id": "MAKO_005_MAKO004C_056",
         "file": "voice/mako_005_mako004C_056.ogg"
@@ -2465,7 +2477,7 @@
     },
     {
       "kind": "line",
-      "who": "古橋　和樹",
+      "who": "望月　真琴",
       "voice": {
         "id": "MAKO_005_MAKO004C_057",
         "file": "voice/mako_005_mako004C_057.ogg"
@@ -2502,7 +2514,7 @@
     },
     {
       "kind": "line",
-      "who": "古橋　和樹",
+      "who": "望月　真琴",
       "voice": {
         "id": "MAKO_005_MAKO004C_058",
         "file": "voice/mako_005_mako004C_058.ogg"
@@ -2538,7 +2550,7 @@
     },
     {
       "kind": "line",
-      "who": "古橋　和樹",
+      "who": "望月　真琴",
       "voice": {
         "id": "MAKO_005_MAKO004C_059",
         "file": "voice/mako_005_mako004C_059.ogg"
@@ -2575,7 +2587,7 @@
     },
     {
       "kind": "line",
-      "who": "古橋　和樹",
+      "who": "望月　真琴",
       "voice": {
         "id": "MAKO_005_MAKO004C_060",
         "file": "voice/mako_005_mako004C_060.ogg"
@@ -2613,7 +2625,7 @@
     },
     {
       "kind": "line",
-      "who": "古橋　和樹",
+      "who": "望月　真琴",
       "voice": {
         "id": "MAKO_005_MAKO004C_061",
         "file": "voice/mako_005_mako004C_061.ogg"
@@ -2648,7 +2660,7 @@
     },
     {
       "kind": "line",
-      "who": "古橋　和樹",
+      "who": "望月　真琴",
       "voice": {
         "id": "MAKO_005_MAKO004C_062",
         "file": "voice/mako_005_mako004C_062.ogg"
@@ -2685,7 +2697,7 @@
     },
     {
       "kind": "line",
-      "who": "古橋　和樹",
+      "who": "望月　真琴",
       "voice": {
         "id": "MAKO_005_MAKO004C_063",
         "file": "voice/mako_005_mako004C_063.ogg"
@@ -2722,7 +2734,7 @@
     },
     {
       "kind": "line",
-      "who": "古橋　和樹",
+      "who": "望月　真琴",
       "voice": {
         "id": "MAKO_005_MAKO004C_064",
         "file": "voice/mako_005_mako004C_064.ogg"

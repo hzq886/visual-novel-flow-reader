@@ -23,6 +23,10 @@
     {
       "kind": "line",
       "who": "古桥凉菜",
+      "voice": {
+        "id": "SUZU_009_NUKE006_001",
+        "file": "voice/suzu_009_nuke006_001.ogg"
+      },
       "lines": [
         "「和树，可以进来吗？」"
       ],
@@ -89,7 +93,11 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "古桥凉菜",
+      "voice": {
+        "id": "SUZU_009_NUKE006_002",
+        "file": "voice/suzu_009_nuke006_002.ogg"
+      },
       "lines": [
         "「之后，我对性方面进行了相当多的学习。",
         "然后，我想试试你。」"
@@ -150,7 +158,11 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "古桥凉菜",
+      "voice": {
+        "id": "SUZU_009_NUKE006_003",
+        "file": "voice/suzu_009_nuke006_003.ogg"
+      },
       "lines": [
         "「呵呵，这次一定会成功！我会展现出与第一次不同的一面给你看！」"
       ],

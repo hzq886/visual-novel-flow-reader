@@ -54,6 +54,10 @@
     {
       "kind": "line",
       "who": "楠木　楓",
+      "voice": {
+        "id": "KAED_001_PRO001D_001",
+        "file": "voice/kaed_001_pro001D_001.ogg"
+      },
       "lines": [
         "「はーい、どなたですか？」"
       ],
@@ -85,7 +89,11 @@
     },
     {
       "kind": "line",
-      "who": "古橋　和樹",
+      "who": "楠木　楓",
+      "voice": {
+        "id": "KAED_001_PRO003E_005",
+        "file": "voice/kaed_001_pro003E_005.ogg"
+      },
       "lines": [
         "「ああ、和樹くんね。どうぞ上がってちょうだい」"
       ],

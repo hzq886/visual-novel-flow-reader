@@ -28,6 +28,10 @@
     {
       "kind": "line",
       "who": "古桥凉菜",
+      "voice": {
+        "id": "SUZU_003_SUZU002C_001",
+        "file": "voice/suzu_003_suzu002C_001.ogg"
+      },
       "lines": [
         "「呜啊！？呼啊……啊，啊啊啊……」"
       ],
@@ -58,7 +62,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥凉菜",
+      "who": "古桥和树",
       "lines": [
         "「听着，你……」"
       ],

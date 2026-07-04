@@ -17,6 +17,10 @@
     {
       "kind": "line",
       "who": "古桥凉菜",
+      "voice": {
+        "id": "SUZU_004_FUTA002A_004",
+        "file": "voice/suzu_004_futa002A_004.ogg"
+      },
       "lines": [
         "「对不起，我有点晚了",
         "到晚餐时间了」"
@@ -38,6 +42,10 @@
     {
       "kind": "line",
       "who": "古桥绫菜",
+      "voice": {
+        "id": "AYAN_004_FUTA002A_001",
+        "file": "voice/ayan_004_futa002A_001.ogg"
+      },
       "lines": [
         "「没关系，我刚好做好了」"
       ],
@@ -100,7 +108,11 @@
     },
     {
       "kind": "line",
-      "who": "古桥绫菜",
+      "who": "古桥凉菜",
+      "voice": {
+        "id": "SUZU_004_FUTA002A_005",
+        "file": "voice/suzu_004_futa002A_005.ogg"
+      },
       "lines": [
         "「嗯嗯咕……哈，姐姐的手艺果然",
         "很好吃啊……」"
@@ -113,6 +125,10 @@
     {
       "kind": "line",
       "who": "古桥绫菜",
+      "voice": {
+        "id": "AYAN_004_FUTA002A_002",
+        "file": "voice/ayan_004_futa002A_002.ogg"
+      },
       "lines": [
         "「多吃点哦。凉菜做了很多」"
       ],
@@ -135,7 +151,11 @@
     },
     {
       "kind": "line",
-      "who": "古桥绫菜",
+      "who": "古桥凉菜",
+      "voice": {
+        "id": "SUZU_004_FUTA002A_006",
+        "file": "voice/suzu_004_futa002A_006.ogg"
+      },
       "lines": [
         "「怎么了，你好像没心思吃饭吧？认真点吃饭啊」"
       ],
@@ -159,7 +179,11 @@
     },
     {
       "kind": "line",
-      "who": "古桥绫菜",
+      "who": "古桥凉菜",
+      "voice": {
+        "id": "SUZU_004_FUTA002A_007",
+        "file": "voice/suzu_004_futa002A_007.ogg"
+      },
       "lines": [
         "「能再来一份米饭吗？」"
       ],
@@ -191,7 +215,11 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "古桥绫菜",
+      "voice": {
+        "id": "AYAN_004_FUTA002A_003",
+        "file": "voice/ayan_004_futa002A_003.ogg"
+      },
       "lines": [
         "「多吃点蔬菜才行哦？嗯？」"
       ],
@@ -215,7 +243,11 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "古桥绫菜",
+      "voice": {
+        "id": "AYAN_004_FUTA002A_004",
+        "file": "voice/ayan_004_futa002A_004.ogg"
+      },
       "lines": [
         "「好了，我去洗碗了。你把餐具拿到水槽那边来好吗？」"
       ],
@@ -254,7 +286,11 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "古桥凉菜",
+      "voice": {
+        "id": "SUZU_004_FUTA002A_008",
+        "file": "voice/suzu_004_futa002A_008.ogg"
+      },
       "lines": [
         "「姐姐，有件事想请你帮忙」"
       ],
@@ -294,7 +330,11 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "古桥凉菜",
+      "voice": {
+        "id": "SUZU_004_FUTA002A_009",
+        "file": "voice/suzu_004_futa002A_009.ogg"
+      },
       "lines": [
         "「我想试试别人告诉我的减压方法。能帮我吗？」"
       ],
@@ -314,7 +354,11 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "古桥绫菜",
+      "voice": {
+        "id": "AYAN_004_FUTA002A_005",
+        "file": "voice/ayan_004_futa002A_005.ogg"
+      },
       "lines": [
         "「减压方法？没问题。为了凉酱，我什么都愿意帮忙」"
       ],
@@ -353,7 +397,11 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "古桥凉菜",
+      "voice": {
+        "id": "SUZU_004_FUTA002A_010",
+        "file": "voice/suzu_004_futa002A_010.ogg"
+      },
       "lines": [
         "「这个减压方法是扮演成宝宝，吸奶的方式。」"
       ],
@@ -395,7 +443,11 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "古桥绫菜",
+      "voice": {
+        "id": "AYAN_004_FUTA002A_006",
+        "file": "voice/ayan_004_futa002A_006.ogg"
+      },
       "lines": [
         "「诶！？你是说……要吸我的奶吗？」"
       ],
@@ -434,7 +486,11 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "古桥凉菜",
+      "voice": {
+        "id": "SUZU_004_FUTA002A_011",
+        "file": "voice/suzu_004_futa002A_011.ogg"
+      },
       "lines": [
         "「嗯，我想吸姐姐的奶。」"
       ],
@@ -454,7 +510,11 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "古桥绫菜",
+      "voice": {
+        "id": "AYAN_004_FUTA002A_007",
+        "file": "voice/ayan_004_futa002A_007.ogg"
+      },
       "lines": [
         "「虽然没有母乳……！？」"
       ],
@@ -474,7 +534,11 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "古桥凉菜",
+      "voice": {
+        "id": "SUZU_004_FUTA002A_012",
+        "file": "voice/suzu_004_futa002A_012.ogg"
+      },
       "lines": [
         "「当然，我知道。只要能吸一下就好了。」"
       ],
@@ -494,7 +558,11 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "古桥凉菜",
+      "voice": {
+        "id": "SUZU_004_FUTA002A_013",
+        "file": "voice/suzu_004_futa002A_013.ogg"
+      },
       "lines": [
         "「通过扮演成宝宝撒娇来发泄压力，就是这个意思」"
       ],
@@ -534,7 +602,11 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "古桥绫菜",
+      "voice": {
+        "id": "AYAN_004_FUTA002A_008",
+        "file": "voice/ayan_004_futa002A_008.ogg"
+      },
       "lines": [
         "「如果这对凉酱有帮助的话……」"
       ],
@@ -593,7 +665,11 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "古桥绫菜",
+      "voice": {
+        "id": "AYAN_004_FUTA002A_009",
+        "file": "voice/ayan_004_futa002A_009.ogg"
+      },
       "lines": [
         "「诶，和君也！？没关系啦」"
       ],
@@ -632,7 +708,11 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "古桥凉菜",
+      "voice": {
+        "id": "SUZU_004_FUTA002A_014",
+        "file": "voice/suzu_004_futa002A_014.ogg"
+      },
       "lines": [
         "「绫姐姐能扮演成妈妈的角色吗？",
         "我会扮演成宝宝的样子」"
@@ -653,7 +733,11 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "古桥绫菜",
+      "voice": {
+        "id": "AYAN_004_FUTA002A_010",
+        "file": "voice/ayan_004_futa002A_010.ogg"
+      },
       "lines": [
         "「嗯，好的，我知道了……那么，你们两个可以吸妈妈的奶喔……」"
       ],
@@ -706,7 +790,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "古桥绫菜",
       "voice": {
         "id": "AYAN_004_FUTA002B_001",
         "file": "voice/ayan_004_futa002B_001.ogg"
@@ -733,7 +817,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "古桥凉菜",
       "voice": {
         "id": "SUZU_004_FUTA002B_001",
         "file": "voice/suzu_004_futa002B_001.ogg"
@@ -761,7 +845,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "古桥凉菜",
       "voice": {
         "id": "SUZU_004_FUTA002B_002",
         "file": "voice/suzu_004_futa002B_002.ogg"
@@ -787,7 +871,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "古桥绫菜",
       "voice": {
         "id": "AYAN_004_FUTA002B_002",
         "file": "voice/ayan_004_futa002B_002.ogg"
@@ -812,7 +896,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "古桥绫菜",
       "voice": {
         "id": "AYAN_004_FUTA002B_003",
         "file": "voice/ayan_004_futa002B_003.ogg"
@@ -842,7 +926,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "古桥绫菜",
       "voice": {
         "id": "AYAN_004_FUTA002B_004",
         "file": "voice/ayan_004_futa002B_004.ogg"
@@ -858,7 +942,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "古桥凉菜",
       "voice": {
         "id": "SUZU_004_FUTA002B_003",
         "file": "voice/suzu_004_futa002B_003.ogg"
@@ -884,7 +968,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "古桥绫菜",
       "voice": {
         "id": "AYAN_004_FUTA002B_005",
         "file": "voice/ayan_004_futa002B_005.ogg"
@@ -899,7 +983,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "古桥凉菜",
       "voice": {
         "id": "SUZU_004_FUTA002B_004",
         "file": "voice/suzu_004_futa002B_004.ogg"
@@ -926,7 +1010,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "古桥凉菜",
       "voice": {
         "id": "SUZU_004_FUTA002B_005",
         "file": "voice/suzu_004_futa002B_005.ogg"
@@ -951,7 +1035,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "古桥凉菜",
       "voice": {
         "id": "SUZU_004_FUTA002B_006",
         "file": "voice/suzu_004_futa002B_006.ogg"
@@ -976,7 +1060,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "古桥凉菜",
       "voice": {
         "id": "SUZU_004_FUTA002B_007",
         "file": "voice/suzu_004_futa002B_007.ogg"
@@ -1002,7 +1086,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "古桥绫菜",
       "voice": {
         "id": "AYAN_004_FUTA002B_006",
         "file": "voice/ayan_004_futa002B_006.ogg"
@@ -1042,7 +1126,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "古桥绫菜",
       "voice": {
         "id": "AYAN_004_FUTA002B_007",
         "file": "voice/ayan_004_futa002B_007.ogg"
@@ -1070,7 +1154,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "古桥凉菜",
       "voice": {
         "id": "SUZU_004_FUTA002B_008",
         "file": "voice/suzu_004_futa002B_008.ogg"
@@ -1099,7 +1183,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "古桥绫菜",
       "voice": {
         "id": "AYAN_004_FUTA002B_008",
         "file": "voice/ayan_004_futa002B_008.ogg"
@@ -1125,7 +1209,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "古桥绫菜",
       "voice": {
         "id": "AYAN_004_FUTA002B_009",
         "file": "voice/ayan_004_futa002B_009.ogg"
@@ -1152,7 +1236,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "古桥凉菜",
       "voice": {
         "id": "SUZU_004_FUTA002B_009",
         "file": "voice/suzu_004_futa002B_009.ogg"
@@ -1180,7 +1264,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "古桥凉菜",
       "voice": {
         "id": "SUZU_004_FUTA002B_010",
         "file": "voice/suzu_004_futa002B_010.ogg"
@@ -1195,7 +1279,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "古桥绫菜",
       "voice": {
         "id": "AYAN_004_FUTA002B_010",
         "file": "voice/ayan_004_futa002B_010.ogg"
@@ -1223,7 +1307,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "古桥绫菜",
       "voice": {
         "id": "AYAN_004_FUTA002B_011",
         "file": "voice/ayan_004_futa002B_011.ogg"
@@ -1250,7 +1334,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "古桥绫菜",
       "voice": {
         "id": "AYAN_004_FUTA002B_012",
         "file": "voice/ayan_004_futa002B_012.ogg"
@@ -1285,7 +1369,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "古桥绫菜",
       "voice": {
         "id": "AYAN_004_FUTA002B_013",
         "file": "voice/ayan_004_futa002B_013.ogg"
@@ -1321,7 +1405,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "古桥凉菜",
       "voice": {
         "id": "SUZU_004_FUTA002B_011",
         "file": "voice/suzu_004_futa002B_011.ogg"
@@ -1355,7 +1439,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "古桥绫菜",
       "voice": {
         "id": "AYAN_004_FUTA002B_014",
         "file": "voice/ayan_004_futa002B_014.ogg"
@@ -1389,7 +1473,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "古桥凉菜",
       "voice": {
         "id": "SUZU_004_FUTA002B_012",
         "file": "voice/suzu_004_futa002B_012.ogg"
@@ -1423,7 +1507,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "古桥绫菜",
       "voice": {
         "id": "AYAN_004_FUTA002B_015",
         "file": "voice/ayan_004_futa002B_015.ogg"
@@ -1443,7 +1527,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "古桥凉菜",
       "voice": {
         "id": "SUZU_004_FUTA002B_013",
         "file": "voice/suzu_004_futa002B_013.ogg"
@@ -1478,7 +1562,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "古桥绫菜",
       "voice": {
         "id": "AYAN_004_FUTA002B_016",
         "file": "voice/ayan_004_futa002B_016.ogg"
@@ -1512,7 +1596,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "古桥绫菜",
       "voice": {
         "id": "AYAN_004_FUTA002B_017",
         "file": "voice/ayan_004_futa002B_017.ogg"
@@ -1548,7 +1632,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "古桥凉菜",
       "voice": {
         "id": "SUZU_004_FUTA002B_014",
         "file": "voice/suzu_004_futa002B_014.ogg"
@@ -1568,7 +1652,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "古桥绫菜",
       "voice": {
         "id": "AYAN_004_FUTA002B_018",
         "file": "voice/ayan_004_futa002B_018.ogg"
@@ -1604,7 +1688,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "古桥绫菜",
       "voice": {
         "id": "AYAN_004_FUTA002B_019",
         "file": "voice/ayan_004_futa002B_019.ogg"
@@ -1641,7 +1725,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "古桥绫菜",
       "voice": {
         "id": "AYAN_004_FUTA002B_020",
         "file": "voice/ayan_004_futa002B_020.ogg"
@@ -1678,7 +1762,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "古桥绫菜",
       "voice": {
         "id": "AYAN_004_FUTA002B_021",
         "file": "voice/ayan_004_futa002B_021.ogg"
@@ -1714,7 +1798,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "古桥凉菜",
       "voice": {
         "id": "SUZU_004_FUTA002B_015",
         "file": "voice/suzu_004_futa002B_015.ogg"
@@ -1734,7 +1818,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "古桥绫菜",
       "voice": {
         "id": "AYAN_004_FUTA002B_022",
         "file": "voice/ayan_004_futa002B_022.ogg"
@@ -1774,7 +1858,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "古桥绫菜",
       "voice": {
         "id": "AYAN_004_FUTA002B_023",
         "file": "voice/ayan_004_futa002B_023.ogg"
@@ -1810,7 +1894,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "古桥绫菜",
       "voice": {
         "id": "AYAN_004_FUTA002B_024",
         "file": "voice/ayan_004_futa002B_024.ogg"
@@ -1848,7 +1932,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "古桥绫菜",
       "voice": {
         "id": "AYAN_004_FUTA002B_025",
         "file": "voice/ayan_004_futa002B_025.ogg"
@@ -1868,7 +1952,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "古桥凉菜",
       "voice": {
         "id": "SUZU_004_FUTA002B_016",
         "file": "voice/suzu_004_futa002B_016.ogg"
@@ -1904,7 +1988,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "古桥凉菜",
       "voice": {
         "id": "SUZU_004_FUTA002B_017",
         "file": "voice/suzu_004_futa002B_017.ogg"
@@ -1939,7 +2023,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "古桥绫菜",
       "voice": {
         "id": "AYAN_004_FUTA002B_026",
         "file": "voice/ayan_004_futa002B_026.ogg"
@@ -1974,7 +2058,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "古桥绫菜",
       "voice": {
         "id": "AYAN_004_FUTA002B_027",
         "file": "voice/ayan_004_futa002B_027.ogg"
@@ -2009,7 +2093,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "古桥凉菜",
       "voice": {
         "id": "SUZU_004_FUTA002B_018",
         "file": "voice/suzu_004_futa002B_018.ogg"
@@ -2029,7 +2113,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "古桥绫菜",
       "voice": {
         "id": "AYAN_004_FUTA002B_028",
         "file": "voice/ayan_004_futa002B_028.ogg"
@@ -2064,7 +2148,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "古桥绫菜",
       "voice": {
         "id": "AYAN_004_FUTA002B_029",
         "file": "voice/ayan_004_futa002B_029.ogg"
@@ -2112,7 +2196,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "古桥绫菜",
       "voice": {
         "id": "AYAN_004_FUTA002B_030",
         "file": "voice/ayan_004_futa002B_030.ogg"
@@ -2147,7 +2231,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "古桥绫菜",
       "voice": {
         "id": "AYAN_004_FUTA002B_031",
         "file": "voice/ayan_004_futa002B_031.ogg"
@@ -2183,7 +2267,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "古桥凉菜",
       "voice": {
         "id": "SUZU_004_FUTA002B_019",
         "file": "voice/suzu_004_futa002B_019.ogg"
@@ -2218,7 +2302,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "古桥绫菜",
       "voice": {
         "id": "AYAN_004_FUTA002B_032",
         "file": "voice/ayan_004_futa002B_032.ogg"
@@ -2290,7 +2374,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "古桥凉菜",
       "voice": {
         "id": "SUZU_004_FUTA002B_020",
         "file": "voice/suzu_004_futa002B_020.ogg"
@@ -2310,7 +2394,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "古桥绫菜",
       "voice": {
         "id": "AYAN_004_FUTA002B_034",
         "file": "voice/ayan_004_futa002B_034.ogg"
@@ -2346,7 +2430,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "古桥凉菜",
       "voice": {
         "id": "SUZU_004_FUTA002B_021",
         "file": "voice/suzu_004_futa002B_021.ogg"
@@ -2366,7 +2450,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "古桥绫菜",
       "voice": {
         "id": "AYAN_004_FUTA002B_035",
         "file": "voice/ayan_004_futa002B_035.ogg"
@@ -2402,7 +2486,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "古桥绫菜",
       "voice": {
         "id": "AYAN_004_FUTA002B_036",
         "file": "voice/ayan_004_futa002B_036.ogg"
@@ -2436,7 +2520,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "古桥凉菜",
       "voice": {
         "id": "SUZU_004_FUTA002B_022",
         "file": "voice/suzu_004_futa002B_022.ogg"
@@ -2456,7 +2540,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "古桥绫菜",
       "voice": {
         "id": "AYAN_004_FUTA002B_037",
         "file": "voice/ayan_004_futa002B_037.ogg"
@@ -2491,7 +2575,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "古桥绫菜",
       "voice": {
         "id": "AYAN_004_FUTA002B_038",
         "file": "voice/ayan_004_futa002B_038.ogg"
@@ -2526,7 +2610,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "古桥绫菜",
       "voice": {
         "id": "AYAN_004_FUTA002B_039",
         "file": "voice/ayan_004_futa002B_039.ogg"
@@ -2562,7 +2646,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "古桥凉菜",
       "voice": {
         "id": "SUZU_004_FUTA002B_023",
         "file": "voice/suzu_004_futa002B_023.ogg"
@@ -2595,7 +2679,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "古桥绫菜",
       "voice": {
         "id": "AYAN_004_FUTA002B_040",
         "file": "voice/ayan_004_futa002B_040.ogg"

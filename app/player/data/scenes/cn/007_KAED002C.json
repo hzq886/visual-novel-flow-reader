@@ -23,6 +23,10 @@
     {
       "kind": "line",
       "who": "楠木枫",
+      "voice": {
+        "id": "KAED_001_PRO001B_002",
+        "file": "voice/kaed_001_pro001B_002.ogg"
+      },
       "lines": [
         "「说起来，我还没有说过名字呢。",
         "我是楠木枫……这个孩子是翼哦」"
@@ -44,6 +48,10 @@
     {
       "kind": "line",
       "who": "楠木翼",
+      "voice": {
+        "id": "TUBA_001_PRO001B_005",
+        "file": "voice/tuba_001_pro001B_005.ogg"
+      },
       "lines": [
         "「嗯！你就叫我翼吧！」"
       ],
@@ -83,7 +91,11 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "楠木枫",
+      "voice": {
+        "id": "KAED_001_PRO001B_003",
+        "file": "voice/kaed_001_pro001B_003.ogg"
+      },
       "lines": [
         "「你很有礼貌呢。和树君，请多关照！」"
       ],
@@ -103,7 +115,11 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "楠木翼",
+      "voice": {
+        "id": "TUBA_001_PRO001B_006",
+        "file": "voice/tuba_001_pro001B_006.ogg"
+      },
       "lines": [
         "「和树……嗯，我可以叫你卡兹吗？",
         "请多关照，卡兹！」"

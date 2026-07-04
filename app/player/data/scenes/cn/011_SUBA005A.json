@@ -26,6 +26,10 @@
     {
       "kind": "line",
       "who": "望月真琴",
+      "voice": {
+        "id": "MAKO_001_PRO003C_009",
+        "file": "voice/mako_001_pro003C_009.ogg"
+      },
       "lines": [
         "「稍微，老师叫我一下……」"
       ],
