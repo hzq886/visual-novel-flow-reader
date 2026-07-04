@@ -1,11 +1,12 @@
 import { describe, it, expect, vi, beforeEach } from 'vitest'
 
 // Howler は実ブラウザ音声に依存するためモック。Howl の生成/再生/停止/解放を spy で観測する。
-const { ctorSpy, playSpy, stopSpy, unloadSpy } = vi.hoisted(() => ({
+const { ctorSpy, playSpy, stopSpy, unloadSpy, fadeSpy } = vi.hoisted(() => ({
   ctorSpy: vi.fn(),
   playSpy: vi.fn(),
   stopSpy: vi.fn(),
   unloadSpy: vi.fn(),
+  fadeSpy: vi.fn(),
 }))
 vi.mock('howler', () => ({
   Howl: class {
@@ -25,6 +26,12 @@ vi.mock('howler', () => ({
     unload() {
       unloadSpy()
     }
+    fade(...args: unknown[]) {
+      fadeSpy(...args)
+    }
+    volume() {
+      return 0.4
+    }
   },
   Howler: { ctx: null }, // resume 経路はブラウザ検証（ctx=null → 即 whenReady）
 }))
@@ -39,6 +46,7 @@ beforeEach(() => {
   playSpy.mockClear()
   stopSpy.mockClear()
   unloadSpy.mockClear()
+  fadeSpy.mockClear()
 })
 
 describe('AudioManager', () => {
@@ -88,6 +96,20 @@ describe('AudioManager', () => {
     am.playBgv(V2) // 切替 → 前を停止して新規
     expect(stopSpy).toHaveBeenCalledTimes(1)
     expect(playSpy).toHaveBeenCalledTimes(2)
+  })
+
+  it('playBgm は BGM ゲイン 0.4 へフェードインする（感覚上 0.5:1:1・HU-68）', () => {
+    const am = new AudioManager()
+    am.playBgm('/assets/bgm/M01.ogg')
+    expect(ctorSpy).toHaveBeenCalledWith(
+      expect.objectContaining({ src: ['/assets/bgm/M01.ogg'], loop: true, volume: 0 }),
+    )
+    // フェード先が 1.0 ではなく BGM_VOLUME（0.4）であること（voice/se は 1.0 のまま）。
+    expect(fadeSpy).toHaveBeenCalledWith(0, 0.4, 800)
+    // 同一 URL は no-op（シーン跨ぎ継続）。
+    fadeSpy.mockClear()
+    am.playBgm('/assets/bgm/M01.ogg')
+    expect(fadeSpy).not.toHaveBeenCalled()
   })
 
   it('releaseVoices で背景ボイスを停止する（シーン離脱）', () => {
