@@ -1,5 +1,14 @@
 import { describe, it, expect } from 'vitest'
-import { assetUrl, cgUrl, containFit, coverScale, GAME_H, GAME_W, spriteUrl } from './assets'
+import {
+  assetUrl,
+  cgUrl,
+  containFit,
+  coverScale,
+  isItemCg,
+  GAME_H,
+  GAME_W,
+  spriteUrl,
+} from './assets'
 
 describe('asset URL 組み立て', () => {
   it('bg コード → /assets/cg/<code>.png', () => {
@@ -30,5 +39,22 @@ describe('レイアウト計算', () => {
   })
   it('coverScale: 小さめテクスチャは拡大して覆う', () => {
     expect(coverScale(640, 360)).toBe(2)
+  })
+})
+
+describe('isItemCg（HU-69: アイテムCGは原寸・中央表示）', () => {
+  it('ITEM_* コードはアイテムCG', () => {
+    expect(isItemCg('ITEM_03_01')).toBe(true)
+  })
+  it('URL 形式（/assets/cg/ITEM_*.png）でも判定できる', () => {
+    expect(isItemCg('/assets/cg/ITEM_03_01.png')).toBe(true)
+  })
+  it('通常背景コードは対象外', () => {
+    expect(isItemCg('BG08_11_00')).toBe(false)
+    expect(isItemCg('/assets/cg/BG08_11_00.png')).toBe(false)
+  })
+  it('CHARVIEW_ITEM など前置き付きコードは対象外', () => {
+    expect(isItemCg('CHARVIEW_ITEM')).toBe(false)
+    expect(isItemCg('/assets/cg/CHARVIEW_ITEM_ON.png')).toBe(false)
   })
 })

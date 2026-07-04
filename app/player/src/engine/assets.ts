@@ -18,6 +18,16 @@ export function cgUrl(code: string): string {
   return `${ASSET_BASE}/cg/${code}.png`
 }
 
+/**
+ * アイテムCG判定（コード/URL どちらでも可）。`ITEM_*`（400×400 原寸素材）は
+ * 背景と違い cover 拡大せず原寸・中央表示する（HU-69）。
+ * `CHARVIEW_ITEM` 等の前置きがあるコードは対象外。
+ */
+export function isItemCg(codeOrUrl: string): boolean {
+  const base = codeOrUrl.split('/').pop() ?? ''
+  return base.startsWith('ITEM_')
+}
+
 export function spriteUrl(code: string): string {
   return `${ASSET_BASE}/sprite/${code}.png`
 }
