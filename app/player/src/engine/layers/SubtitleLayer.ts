@@ -1,7 +1,9 @@
 /**
- * SubtitleLayer — 字幕。地の文（narration）は画面下部中央、セリフ（line）は左揃えで話者名
- * `【名前】`＋本文を表示する。背景スクリムは置かず、文字自身のアウトライン（stroke）＋ドロップ
- * シャドウで任意背景でも読めるようにする（HU-33）。beat 変更でフェードイン。フォントは locale 別
+ * SubtitleLayer — 字幕。地の文（narration）もセリフ（line）も画面下部中央に配置する
+ * （プロトタイプ `#sub { text-align:center }` 準拠・HU-66）。セリフはブロック内左揃え＋
+ * 鉤括弧ぶら下げのまま、ブロック全体を中央へ置き、話者名 `【名前】` はブロック左端に追従。
+ * 背景スクリムは置かず、文字自身のアウトライン（stroke）＋ドロップシャドウで任意背景でも
+ * 読めるようにする（HU-33）。beat 変更でフェードイン。フォントは locale 別
  * （show の font 引数で jp/cn を出し分け）。
  */
 import { Container, Text, type Ticker } from 'pixi.js'
@@ -12,7 +14,6 @@ import { tween } from '../tween'
 
 const FADE_MS = 360
 const BASE_Y = GAME_H - 56 // 本文ベースライン（下端）
-const LEFT_X = Math.round(GAME_W * 0.1) // セリフ左揃え時の左マージン
 const WRAP_W = GAME_W * 0.82
 // 任意背景での可読性: 黒アウトライン＋柔らかい影（スクリムの代わり）。
 const STROKE = { color: 0x000000, width: 4 }
@@ -64,8 +65,8 @@ export class SubtitleLayer extends Container {
   }
 
   // line = beat 内の行サブインデックス。地の文は原データの行ごとに 1 行ずつ中央表示し、
-  // セリフは集約した 1 発話を左揃えで全文表示する（話者名 `【名前】` を上に左揃え）。
-  // font = locale 別フォントスタック（jp/cn）。
+  // セリフは集約した 1 発話をブロック内左揃えのままブロックごと中央に置いて全文表示する
+  // （話者名 `【名前】` をブロック左端の上に表示）。font = locale 別フォントスタック（jp/cn）。
   show(beat: Beat, line = 0, font: string = FONT_JP): void {
     this.sayText.style.fontFamily = font
     this.whoText.style.fontFamily = font
@@ -84,13 +85,18 @@ export class SubtitleLayer extends Container {
               .join('\n')
           : lines.join('\n')
       this.sayText.style.fontWeight = '400'
+      // 行揃えはブロック内左揃え（ぶら下げ字下げを保持）のまま、ブロック全体を画面中央へ。
       this.sayText.style.align = 'left'
-      this.sayText.anchor.set(0, 1)
-      this.sayText.position.set(LEFT_X, BASE_Y)
+      this.sayText.anchor.set(0.5, 1)
+      this.sayText.position.set(GAME_W / 2, BASE_Y)
       if (beat.who) {
         this.whoText.text = `【${beat.who}】`
         this.whoText.visible = true
-        this.whoText.position.set(LEFT_X, this.sayText.y - this.sayText.height - 8)
+        // 話者名はセリフブロックの左端（= 中央 − 幅/2）に追従させる。
+        this.whoText.position.set(
+          Math.round(this.sayText.x - this.sayText.width / 2),
+          this.sayText.y - this.sayText.height - 8,
+        )
       } else {
         this.whoText.visible = false
       }
