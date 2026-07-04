@@ -7,7 +7,7 @@ import prettier from 'eslint-config-prettier'
 import { defineConfig, globalIgnores } from 'eslint/config'
 
 export default defineConfig([
-  globalIgnores(['dist', 'data', 'public', 'node_modules']),
+  globalIgnores(['dist', 'dist-electron', 'release', 'data', 'public', 'node_modules']),
   // ブラウザ側（React / PixiJS / pipeline 純関数）
   {
     files: ['src/**/*.{ts,tsx}'],
@@ -22,9 +22,9 @@ export default defineConfig([
       globals: globals.browser,
     },
   },
-  // Node 側（ビルドスクリプト・設定）
+  // Node 側（ビルドスクリプト・設定・Electron main/preload）
   {
-    files: ['scripts/**/*.ts', '*.config.{ts,js}'],
+    files: ['scripts/**/*.ts', 'electron/**/*.ts', '*.config.{ts,js}'],
     extends: [js.configs.recommended, tseslint.configs.recommended, prettier],
     languageOptions: {
       globals: globals.node,

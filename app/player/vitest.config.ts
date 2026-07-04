@@ -11,6 +11,6 @@ export default defineConfig({
   test: {
     // pipeline は純関数（Node 環境）。React/engine は後続スプリントで jsdom を追加。
     environment: 'node',
-    include: ['src/**/*.test.ts', 'tests/**/*.test.ts'],
+    include: ['src/**/*.test.ts', 'tests/**/*.test.ts', 'electron/**/*.test.ts'],
   },
 })

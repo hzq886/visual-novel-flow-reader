@@ -10,6 +10,8 @@ lerna-debug.log*
 node_modules
 dist
 dist-ssr
+dist-electron
+release
 *.local
 
 # 素材実体は git 外（fetch-assets が配置・manifest のみ管理）
