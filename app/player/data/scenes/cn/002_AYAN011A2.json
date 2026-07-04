@@ -28,6 +28,10 @@
     {
       "kind": "line",
       "who": "古桥绫菜",
+      "voice": {
+        "id": "AYAN_002_AYAN011A_005",
+        "file": "voice/ayan_002_ayan011A_005.ogg"
+      },
       "lines": [
         "「啊，和君……我正在整理呢」"
       ],
@@ -87,7 +91,11 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "古桥绫菜",
+      "voice": {
+        "id": "AYAN_002_AYAN011A_006",
+        "file": "voice/ayan_002_ayan011A_006.ogg"
+      },
       "lines": [
         "「嗯，虽然还不太习惯，但已经扩张了很多了。",
         "没有疼痛感，只有一种腹部隐隐作痛的感觉……」"
@@ -147,7 +155,11 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "古桥绫菜",
+      "voice": {
+        "id": "AYAN_002_AYAN011A_007",
+        "file": "voice/ayan_002_ayan011A_007.ogg"
+      },
       "lines": [
         "「好，我知道了……我会做好准备的……」"
       ],

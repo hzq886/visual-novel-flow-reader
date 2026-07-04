@@ -41,6 +41,10 @@
     {
       "kind": "line",
       "who": "楠木翼",
+      "voice": {
+        "id": "TUBA_006_TUBA014D_001",
+        "file": "voice/tuba_006_tuba014D_001.ogg"
+      },
       "lines": [
         "「嘛，真琴酱！？ 怎么了！？」"
       ],
@@ -61,6 +65,10 @@
     {
       "kind": "line",
       "who": "望月真琴",
+      "voice": {
+        "id": "MAKO_006_TUBA014D_001",
+        "file": "voice/mako_006_tuba014D_001.ogg"
+      },
       "lines": [
         "「怎么了呢……在学生会待得晚了，正打算从这里回去呢？」"
       ],
@@ -80,7 +88,11 @@
     },
     {
       "kind": "line",
-      "who": "望月真琴",
+      "who": "楠木翼",
+      "voice": {
+        "id": "TUBA_006_TUBA014D_002",
+        "file": "voice/tuba_006_tuba014D_002.ogg"
+      },
       "lines": [
         "「啊，是吗……那个，辛苦了！」"
       ],
@@ -121,6 +133,10 @@
     {
       "kind": "line",
       "who": "望月真琴",
+      "voice": {
+        "id": "MAKO_006_TUBA014D_002",
+        "file": "voice/mako_006_tuba014D_002.ogg"
+      },
       "lines": [
         "「你们两个在干什么？在做什么？」"
       ],
@@ -159,7 +175,11 @@
     },
     {
       "kind": "line",
-      "who": "望月真琴",
+      "who": "楠木翼",
+      "voice": {
+        "id": "TUBA_006_TUBA014D_003",
+        "file": "voice/tuba_006_tuba014D_003.ogg"
+      },
       "lines": [
         "「嗯……我们只是在聊天而已！」"
       ],
@@ -199,6 +219,10 @@
     {
       "kind": "line",
       "who": "望月真琴",
+      "voice": {
+        "id": "MAKO_006_TUBA014D_003",
+        "file": "voice/mako_006_tuba014D_003.ogg"
+      },
       "lines": [
         "「嗯，难道你们有什么想要隐瞒的事情吗？」"
       ],
@@ -237,7 +261,11 @@
     },
     {
       "kind": "line",
-      "who": "望月真琴",
+      "who": "楠木翼",
+      "voice": {
+        "id": "TUBA_006_TUBA014D_004",
+        "file": "voice/tuba_006_tuba014D_004.ogg"
+      },
       "lines": [
         "「还是应该好好告诉真琴酱呢？",
         "青梅竹马，亲密无间的朋友……」"
@@ -278,7 +306,11 @@
     },
     {
       "kind": "line",
-      "who": "望月真琴",
+      "who": "楠木翼",
+      "voice": {
+        "id": "TUBA_006_TUBA014D_005",
+        "file": "voice/tuba_006_tuba014D_005.ogg"
+      },
       "lines": [
         "「你知道吗，我们在交往，或者说，成为了恋人」"
       ],
@@ -299,6 +331,10 @@
     {
       "kind": "line",
       "who": "望月真琴",
+      "voice": {
+        "id": "MAKO_006_TUBA014D_004",
+        "file": "voice/mako_006_tuba014D_004.ogg"
+      },
       "lines": [
         "「诶！？是真的吗……你们两个成为了恋人……」"
       ],
@@ -339,6 +375,10 @@
     {
       "kind": "line",
       "who": "望月真琴",
+      "voice": {
+        "id": "MAKO_006_TUBA014D_005",
+        "file": "voice/mako_006_tuba014D_005.ogg"
+      },
       "lines": [
         "「祝福你们！和树，好好珍惜翼哦？」"
       ],
@@ -398,7 +438,11 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "楠木翼",
+      "voice": {
+        "id": "TUBA_006_TUBA014D_006",
+        "file": "voice/tuba_006_tuba014D_006.ogg"
+      },
       "lines": [
         "「谢谢你，真琴！听到你这么说",
         "我很开心！我们会幸福的！」"
@@ -453,7 +497,11 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "望月真琴",
+      "voice": {
+        "id": "MAKO_006_TUBA014D_006",
+        "file": "voice/mako_006_tuba014D_006.ogg"
+      },
       "lines": [
         "「也许……你们两个……」"
       ],
@@ -532,7 +580,11 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "望月真琴",
+      "voice": {
+        "id": "MAKO_006_TUBA014D_007",
+        "file": "voice/mako_006_tuba014D_007.ogg"
+      },
       "lines": [
         "「嗯……调，调情什么的……」"
       ],
@@ -572,7 +624,11 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "楠木翼",
+      "voice": {
+        "id": "TUBA_006_TUBA014D_007",
+        "file": "voice/tuba_006_tuba014D_007.ogg"
+      },
       "lines": [
         "「对不起，突然变得沉默了！虽然没有打算隐瞒，但是最近才开始的！」"
       ],
@@ -612,7 +668,11 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "楠木翼",
+      "voice": {
+        "id": "TUBA_006_TUBA014D_008",
+        "file": "voice/tuba_006_tuba014D_008.ogg"
+      },
       "lines": [
         "「我们成为了恋人……那个，和和向我告白了……然后……」"
       ],
@@ -632,7 +692,11 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "望月真琴",
+      "voice": {
+        "id": "MAKO_006_TUBA014D_008",
+        "file": "voice/mako_006_tuba014D_008.ogg"
+      },
       "lines": [
         "「是吗……成为恋人了吗……」"
       ],
@@ -672,7 +736,11 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "楠木翼",
+      "voice": {
+        "id": "TUBA_006_TUBA014D_009",
+        "file": "voice/tuba_006_tuba014D_009.ogg"
+      },
       "lines": [
         "「那个，你生气了吗？」"
       ],
@@ -692,7 +760,11 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "望月真琴",
+      "voice": {
+        "id": "MAKO_006_TUBA014D_009",
+        "file": "voice/mako_006_tuba014D_009.ogg"
+      },
       "lines": [
         "「嗯嗯，没有生气啦……太好了」"
       ],

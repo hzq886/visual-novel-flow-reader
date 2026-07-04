@@ -107,6 +107,10 @@
     {
       "kind": "line",
       "who": "古桥凉菜",
+      "voice": {
+        "id": "SUZU_009_NUKE008_001",
+        "file": "voice/suzu_009_nuke008_001.ogg"
+      },
       "lines": [
         "「哇啊啊，好可爱！这个就是我们的弟弟呢！」"
       ],
@@ -128,7 +132,11 @@
     },
     {
       "kind": "line",
-      "who": "古桥凉菜",
+      "who": "古桥绫菜",
+      "voice": {
+        "id": "AYAN_009_NUKE008_001",
+        "file": "voice/ayan_009_nuke008_001.ogg"
+      },
       "lines": [
         "「好可爱……嗯，像天使一样……」"
       ],
@@ -140,6 +148,10 @@
     {
       "kind": "line",
       "who": "古桥凉菜",
+      "voice": {
+        "id": "SUZU_009_NUKE008_002",
+        "file": "voice/suzu_009_nuke008_002.ogg"
+      },
       "lines": [
         "「呵呵呵，没错！是天使呢！」"
       ],
@@ -150,7 +162,11 @@
     },
     {
       "kind": "line",
-      "who": "古桥凉菜",
+      "who": "古桥绫菜",
+      "voice": {
+        "id": "AYAN_009_NUKE008_002",
+        "file": "voice/ayan_009_nuke008_002.ogg"
+      },
       "lines": [
         "「我们会好好疼爱你，永远永远珍惜你的」"
       ],
@@ -162,6 +178,10 @@
     {
       "kind": "line",
       "who": "古桥凉菜",
+      "voice": {
+        "id": "SUZU_009_NUKE008_003",
+        "file": "voice/suzu_009_nuke008_003.ogg"
+      },
       "lines": [
         "「嗯嗯！这个天使，我们两个绝对会保护好的！」"
       ],

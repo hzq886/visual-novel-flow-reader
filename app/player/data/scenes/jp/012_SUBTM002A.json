@@ -42,6 +42,10 @@
     {
       "kind": "line",
       "who": "古橋　綾菜",
+      "voice": {
+        "id": "AYAN_001_PRO003A_001B",
+        "file": "voice/ayan_001_pro003A_001B.ogg"
+      },
       "lines": [
         "「おはよう」"
       ],
@@ -88,6 +92,10 @@
     {
       "kind": "line",
       "who": "古橋　涼菜",
+      "voice": {
+        "id": "SUZU_001_PRO003B_001",
+        "file": "voice/suzu_001_pro003B_001.ogg"
+      },
       "lines": [
         "「おはよう。少し寝坊しちゃったわ」"
       ],
@@ -107,7 +115,7 @@
     },
     {
       "kind": "line",
-      "who": "古橋　涼菜",
+      "who": "古橋　和樹",
       "lines": [
         "「おはよう、涼姉」"
       ],

@@ -96,6 +96,10 @@
     {
       "kind": "line",
       "who": "楠木枫",
+      "voice": {
+        "id": "KAED_001_PRO003E_006",
+        "file": "voice/kaed_001_pro003E_006.ogg"
+      },
       "lines": [
         "「啊，欢迎！我一直在等你呢。」"
       ],
@@ -115,7 +119,7 @@
     },
     {
       "kind": "line",
-      "who": "楠木枫",
+      "who": "古桥和树",
       "lines": [
         "「打扰了」"
       ],
@@ -179,7 +183,11 @@
     },
     {
       "kind": "line",
-      "who": "楠木翼",
+      "who": "楠木枫",
+      "voice": {
+        "id": "KAED_001_PRO003E_007",
+        "file": "voice/kaed_001_pro003E_007.ogg"
+      },
       "lines": [
         "「呵呵，我不会打扰你，尽管慢慢来吧。」"
       ],

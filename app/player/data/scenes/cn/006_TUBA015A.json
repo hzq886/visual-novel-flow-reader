@@ -19,6 +19,10 @@
     {
       "kind": "line",
       "who": "楠木翼",
+      "voice": {
+        "id": "TUBA_006_TUBA019A_001",
+        "file": "voice/tuba_006_tuba019A_001.ogg"
+      },
       "lines": [
         "「让你久等了！抱歉，我晚了。」"
       ],
@@ -79,7 +83,11 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "楠木翼",
+      "voice": {
+        "id": "TUBA_006_TUBA019A_002",
+        "file": "voice/tuba_006_tuba019A_002.ogg"
+      },
       "lines": [
         "「那么，我们去约会吧！去哪里呢？」"
       ],
@@ -139,7 +147,11 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "楠木翼",
+      "voice": {
+        "id": "TUBA_006_TUBA019A_003",
+        "file": "voice/tuba_006_tuba019A_003.ogg"
+      },
       "lines": [
         "「嗯……如果可以，我想先吃午饭吧。",
         "我有点饿了……就去那边的店吧！」"
@@ -203,7 +215,11 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "楠木翼",
+      "voice": {
+        "id": "TUBA_006_TUBA019A_004",
+        "file": "voice/tuba_006_tuba019A_004.ogg"
+      },
       "lines": [
         "「诶——这种蓬蓬裙子，我觉得不太适合我……」"
       ],
@@ -246,7 +262,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "楠木翼",
       "voice": {
         "id": "TUBA_006_TUBA015A_001",
         "file": "voice/tuba_006_tuba015A_001.ogg"
@@ -289,7 +305,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "楠木翼",
       "voice": {
         "id": "TUBA_006_TUBA015A_002",
         "file": "voice/tuba_006_tuba015A_002.ogg"
@@ -333,7 +349,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "楠木翼",
       "voice": {
         "id": "TUBA_006_TUBA015A_003",
         "file": "voice/tuba_006_tuba015A_003.ogg"

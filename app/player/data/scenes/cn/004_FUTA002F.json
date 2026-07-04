@@ -144,7 +144,11 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "古桥绫菜",
+      "voice": {
+        "id": "AYAN_002_AYAN008A_006",
+        "file": "voice/ayan_002_ayan008A_006.ogg"
+      },
       "lines": [
         "「啊……啊啊，呼……哈啊啊……」"
       ],
@@ -207,7 +211,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥凉菜",
+      "who": "古桥和树",
       "lines": [
         "「『丝袜的闪电』」"
       ],
@@ -228,6 +232,10 @@
     {
       "kind": "line",
       "who": "古桥凉菜",
+      "voice": {
+        "id": "SUZU_003_SUZU002C_001",
+        "file": "voice/suzu_003_suzu002C_001.ogg"
+      },
       "lines": [
         "「啊！？呼……啊，啊啊啊……」"
       ],

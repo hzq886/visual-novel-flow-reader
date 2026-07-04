@@ -26,6 +26,10 @@
     {
       "kind": "line",
       "who": "楠木枫",
+      "voice": {
+        "id": "KAED_009_NUKE007_001",
+        "file": "voice/kaed_009_nuke007_001.ogg"
+      },
       "lines": [
         "「翼不在一起吗？按了门铃，我倒是觉得可能不一样」"
       ],
@@ -86,7 +90,11 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "楠木枫",
+      "voice": {
+        "id": "KAED_009_NUKE007_002",
+        "file": "voice/kaed_009_nuke007_002.ogg"
+      },
       "lines": [
         "「额……你特意来传达这个消息的意思",
         "并不是吧？」"
@@ -146,7 +154,11 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "楠木枫",
+      "voice": {
+        "id": "KAED_007_KAED004A_001",
+        "file": "voice/kaed_007_kaed004A_001.ogg"
+      },
       "lines": [
         "「请教是……究竟什么呢？」"
       ],
@@ -207,7 +219,11 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "楠木枫",
+      "voice": {
+        "id": "KAED_007_KAED004A_002",
+        "file": "voice/kaed_007_kaed004A_002.ogg"
+      },
       "lines": [
         "「最后一直到……那个，那个是指，果然，",
         "指的是性的事情吧？」"
@@ -248,7 +264,11 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "楠木枫",
+      "voice": {
+        "id": "KAED_007_KAED004A_003",
+        "file": "voice/kaed_007_kaed004A_003.ogg"
+      },
       "lines": [
         "「没错呢，要负责任地教到最后呢。",
         "刚才只有我一个人高潮了，就结束了」"
@@ -290,7 +310,11 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "楠木枫",
+      "voice": {
+        "id": "KAED_007_KAED004A_004",
+        "file": "voice/kaed_007_kaed004A_004.ogg"
+      },
       "lines": [
         "「比起这里，床上更合适呢。我们去卧室",
         "吧」"
@@ -370,7 +394,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "楠木枫",
       "voice": {
         "id": "KAED_007_KAED004B_001",
         "file": "voice/kaed_007_kaed004B_001.ogg"
@@ -420,7 +444,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "楠木枫",
       "voice": {
         "id": "KAED_007_KAED004B_002",
         "file": "voice/kaed_007_kaed004B_002.ogg"
@@ -464,7 +488,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "楠木枫",
       "voice": {
         "id": "KAED_007_KAED004B_003",
         "file": "voice/kaed_007_kaed004B_003.ogg"
@@ -510,7 +534,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "楠木枫",
       "voice": {
         "id": "KAED_007_KAED004B_004",
         "file": "voice/kaed_007_kaed004B_004.ogg"
@@ -555,7 +579,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "楠木枫",
       "voice": {
         "id": "KAED_007_KAED004B_005",
         "file": "voice/kaed_007_kaed004B_005.ogg"
@@ -615,7 +639,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "楠木枫",
       "voice": {
         "id": "KAED_007_KAED004B_006",
         "file": "voice/kaed_007_kaed004B_006.ogg"
@@ -642,7 +666,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "楠木枫",
       "voice": {
         "id": "KAED_007_KAED004B_007",
         "file": "voice/kaed_007_kaed004B_007.ogg"
@@ -668,7 +692,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "楠木枫",
       "voice": {
         "id": "KAED_007_KAED004B_008",
         "file": "voice/kaed_007_kaed004B_008.ogg"
@@ -694,7 +718,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "楠木枫",
       "voice": {
         "id": "KAED_007_KAED004B_009",
         "file": "voice/kaed_007_kaed004B_009.ogg"
@@ -720,7 +744,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "楠木枫",
       "voice": {
         "id": "KAED_007_KAED004B_010",
         "file": "voice/kaed_007_kaed004B_010.ogg"
@@ -746,7 +770,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "楠木枫",
       "voice": {
         "id": "KAED_007_KAED004B_011",
         "file": "voice/kaed_007_kaed004B_011.ogg"
@@ -774,7 +798,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "楠木枫",
       "voice": {
         "id": "KAED_007_KAED004B_012",
         "file": "voice/kaed_007_kaed004B_012.ogg"
@@ -800,7 +824,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "楠木枫",
       "voice": {
         "id": "KAED_007_KAED004B_013",
         "file": "voice/kaed_007_kaed004B_013.ogg"
@@ -837,7 +861,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "楠木枫",
       "voice": {
         "id": "KAED_007_KAED004B_014",
         "file": "voice/kaed_007_kaed004B_014.ogg"
@@ -863,7 +887,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "楠木枫",
       "voice": {
         "id": "KAED_007_KAED004B_015",
         "file": "voice/kaed_007_kaed004B_015.ogg"
@@ -897,7 +921,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "楠木枫",
       "voice": {
         "id": "KAED_007_KAED004B_016",
         "file": "voice/kaed_007_kaed004B_016.ogg"
@@ -930,7 +954,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "楠木枫",
       "voice": {
         "id": "KAED_007_KAED004B_017",
         "file": "voice/kaed_007_kaed004B_017.ogg"
@@ -964,7 +988,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "楠木枫",
       "voice": {
         "id": "KAED_007_KAED004B_018",
         "file": "voice/kaed_007_kaed004B_018.ogg"
@@ -1004,7 +1028,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "楠木枫",
       "voice": {
         "id": "KAED_007_KAED004B_019",
         "file": "voice/kaed_007_kaed004B_019.ogg"
@@ -1039,7 +1063,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "楠木枫",
       "voice": {
         "id": "KAED_007_KAED004B_020",
         "file": "voice/kaed_007_kaed004B_020.ogg"
@@ -1074,7 +1098,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "楠木枫",
       "voice": {
         "id": "KAED_007_KAED004B_021",
         "file": "voice/kaed_007_kaed004B_021.ogg"
@@ -1107,7 +1131,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "楠木枫",
       "voice": {
         "id": "KAED_007_KAED004B_022",
         "file": "voice/kaed_007_kaed004B_022.ogg"
@@ -1141,7 +1165,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "楠木枫",
       "voice": {
         "id": "KAED_007_KAED004B_023",
         "file": "voice/kaed_007_kaed004B_023.ogg"
@@ -1176,7 +1200,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "楠木枫",
       "voice": {
         "id": "KAED_007_KAED004B_024",
         "file": "voice/kaed_007_kaed004B_024.ogg"
@@ -1210,7 +1234,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "楠木枫",
       "voice": {
         "id": "KAED_007_KAED004B_025",
         "file": "voice/kaed_007_kaed004B_025.ogg"
@@ -1245,7 +1269,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "楠木枫",
       "voice": {
         "id": "KAED_007_KAED004B_026",
         "file": "voice/kaed_007_kaed004B_026.ogg"
@@ -1280,7 +1304,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "楠木枫",
       "voice": {
         "id": "KAED_007_KAED004B_027",
         "file": "voice/kaed_007_kaed004B_027.ogg"
@@ -1314,7 +1338,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "楠木枫",
       "voice": {
         "id": "KAED_007_KAED004B_028",
         "file": "voice/kaed_007_kaed004B_028.ogg"
@@ -1349,7 +1373,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "楠木枫",
       "voice": {
         "id": "KAED_007_KAED004B_029",
         "file": "voice/kaed_007_kaed004B_029.ogg"
@@ -1396,7 +1420,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "楠木枫",
       "voice": {
         "id": "KAED_007_KAED004B_030",
         "file": "voice/kaed_007_kaed004B_030.ogg"
@@ -1431,7 +1455,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "楠木枫",
       "voice": {
         "id": "KAED_007_KAED004B_031",
         "file": "voice/kaed_007_kaed004B_031.ogg"
@@ -1466,7 +1490,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "楠木枫",
       "voice": {
         "id": "KAED_007_KAED004B_032",
         "file": "voice/kaed_007_kaed004B_032.ogg"
@@ -1502,7 +1526,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "楠木枫",
       "voice": {
         "id": "KAED_007_KAED004B_033",
         "file": "voice/kaed_007_kaed004B_033.ogg"
@@ -1544,7 +1568,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "楠木枫",
       "voice": {
         "id": "KAED_007_KAED004B_034",
         "file": "voice/kaed_007_kaed004B_034.ogg"
@@ -1579,7 +1603,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "楠木枫",
       "voice": {
         "id": "KAED_007_KAED004B_035",
         "file": "voice/kaed_007_kaed004B_035.ogg"
@@ -1614,7 +1638,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "楠木枫",
       "voice": {
         "id": "KAED_007_KAED004B_036",
         "file": "voice/kaed_007_kaed004B_036.ogg"
@@ -1648,7 +1672,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "楠木枫",
       "voice": {
         "id": "KAED_007_KAED004B_037",
         "file": "voice/kaed_007_kaed004B_037.ogg"
@@ -1684,7 +1708,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "楠木枫",
       "voice": {
         "id": "KAED_007_KAED004B_038",
         "file": "voice/kaed_007_kaed004B_038.ogg"
@@ -1724,7 +1748,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "楠木枫",
       "voice": {
         "id": "KAED_007_KAED004B_039",
         "file": "voice/kaed_007_kaed004B_039.ogg"
@@ -1760,7 +1784,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "楠木枫",
       "voice": {
         "id": "KAED_007_KAED004B_040",
         "file": "voice/kaed_007_kaed004B_040.ogg"
@@ -1794,7 +1818,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "楠木枫",
       "voice": {
         "id": "KAED_007_KAED004B_041",
         "file": "voice/kaed_007_kaed004B_041.ogg"
@@ -1829,7 +1853,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "楠木枫",
       "voice": {
         "id": "KAED_007_KAED004B_042",
         "file": "voice/kaed_007_kaed004B_042.ogg"
@@ -1863,7 +1887,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "楠木枫",
       "voice": {
         "id": "KAED_007_KAED004B_043",
         "file": "voice/kaed_007_kaed004B_043.ogg"
@@ -1897,7 +1921,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "楠木枫",
       "voice": {
         "id": "KAED_007_KAED004B_044",
         "file": "voice/kaed_007_kaed004B_044.ogg"
@@ -1932,7 +1956,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "楠木枫",
       "voice": {
         "id": "KAED_007_KAED004B_045",
         "file": "voice/kaed_007_kaed004B_045.ogg"
@@ -1975,7 +1999,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "楠木枫",
       "voice": {
         "id": "KAED_007_KAED004B_046",
         "file": "voice/kaed_007_kaed004B_046.ogg"
@@ -2010,7 +2034,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "楠木枫",
       "voice": {
         "id": "KAED_007_KAED004B_047",
         "file": "voice/kaed_007_kaed004B_047.ogg"
@@ -2045,7 +2069,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "楠木枫",
       "voice": {
         "id": "KAED_007_KAED004B_048",
         "file": "voice/kaed_007_kaed004B_048.ogg"
@@ -2078,7 +2102,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "楠木枫",
       "voice": {
         "id": "KAED_007_KAED004B_049",
         "file": "voice/kaed_007_kaed004B_049.ogg"

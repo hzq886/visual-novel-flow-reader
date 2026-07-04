@@ -59,6 +59,10 @@
     {
       "kind": "line",
       "who": "古桥凉菜",
+      "voice": {
+        "id": "SUZU_001_PRO003B_002B",
+        "file": "voice/suzu_001_pro003B_002B.ogg"
+      },
       "lines": [
         "「早晨」"
       ],
@@ -120,6 +124,10 @@
     {
       "kind": "line",
       "who": "古桥绫菜",
+      "voice": {
+        "id": "AYAN_001_PRO003A_004",
+        "file": "voice/ayan_001_pro003A_004.ogg"
+      },
       "lines": [
         "「好了，早餐准备好了。」"
       ],
@@ -158,7 +166,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥绫菜",
+      "who": "古桥和树",
       "lines": [
         "「啊……一如既往地，谢谢你」"
       ],
@@ -197,7 +205,11 @@
     },
     {
       "kind": "line",
-      "who": "古桥绫菜",
+      "who": "古桥凉菜",
+      "voice": {
+        "id": "SUZU_001_PRO003B_005",
+        "file": "voice/suzu_001_pro003B_005.ogg"
+      },
       "lines": [
         "「这个，真好吃啊」"
       ],
@@ -209,6 +221,10 @@
     {
       "kind": "line",
       "who": "古桥绫菜",
+      "voice": {
+        "id": "AYAN_001_PRO003A_022",
+        "file": "voice/ayan_001_pro003A_022.ogg"
+      },
       "lines": [
         "「嘻嘻，你这么说我很开心」"
       ],
@@ -314,6 +330,10 @@
     {
       "kind": "line",
       "who": "楠木枫",
+      "voice": {
+        "id": "KAED_001_PRO003E_001",
+        "file": "voice/kaed_001_pro003E_001.ogg"
+      },
       "lines": [
         "「等一下！我忘记带手绢了」"
       ],
@@ -353,6 +373,10 @@
     {
       "kind": "line",
       "who": "楠木裕司",
+      "voice": {
+        "id": "MOBD_001_PRO003F_001",
+        "file": "voice/mobd_001_pro003F_001.ogg"
+      },
       "lines": [
         "「对不起！谢谢你」"
       ],
@@ -391,7 +415,11 @@
     },
     {
       "kind": "line",
-      "who": "楠木裕司",
+      "who": "楠木枫",
+      "voice": {
+        "id": "KAED_001_PRO003E_002",
+        "file": "voice/kaed_001_pro003E_002.ogg"
+      },
       "lines": [
         "「好的，注意安全哦」"
       ],
@@ -431,6 +459,10 @@
     {
       "kind": "line",
       "who": "楠木裕司",
+      "voice": {
+        "id": "MOBD_001_PRO003F_002",
+        "file": "voice/mobd_001_pro003F_002.ogg"
+      },
       "lines": [
         "「啊，我去了。我爱你，枫」"
       ],
@@ -450,7 +482,11 @@
     },
     {
       "kind": "line",
-      "who": "楠木裕司",
+      "who": "楠木枫",
+      "voice": {
+        "id": "KAED_001_PRO003E_003",
+        "file": "voice/kaed_001_pro003E_003.ogg"
+      },
       "lines": [
         "「呵呵，我也爱你……嗯——亲！」"
       ],
@@ -494,6 +530,10 @@
     {
       "kind": "line",
       "who": "楠木裕司",
+      "voice": {
+        "id": "MOBD_001_PRO003F_003",
+        "file": "voice/mobd_001_pro003F_003.ogg"
+      },
       "lines": [
         "「嗨，早上好。你来接翼了吗？」"
       ],
@@ -513,7 +553,7 @@
     },
     {
       "kind": "line",
-      "who": "楠木裕司",
+      "who": "古桥和树",
       "lines": [
         "「早，早上好」"
       ],
@@ -555,6 +595,10 @@
     {
       "kind": "line",
       "who": "楠木翼",
+      "voice": {
+        "id": "TUBA_001_PRO003D_001",
+        "file": "voice/tuba_001_pro003D_001.ogg"
+      },
       "lines": [
         "「早上好！今天天气真好呢！」"
       ],
@@ -574,7 +618,7 @@
     },
     {
       "kind": "line",
-      "who": "楠木翼",
+      "who": "古桥和树",
       "lines": [
         "「早，早上好！那我就走了！」"
       ],
@@ -623,7 +667,7 @@
     },
     {
       "kind": "line",
-      "who": "楠木翼",
+      "who": "古桥和树",
       "lines": [
         "「早上好！」"
       ],

@@ -49,6 +49,10 @@
     {
       "kind": "line",
       "who": "古桥凉菜",
+      "voice": {
+        "id": "SUZU_001_PRO003B_002B",
+        "file": "voice/suzu_001_pro003B_002B.ogg"
+      },
       "lines": [
         "「早上好。」"
       ],
@@ -128,6 +132,10 @@
     {
       "kind": "line",
       "who": "古桥绫菜",
+      "voice": {
+        "id": "AYAN_001_PRO003A_004",
+        "file": "voice/ayan_001_pro003A_004.ogg"
+      },
       "lines": [
         "「好了，早餐准备好了。」"
       ],
@@ -166,7 +174,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥绫菜",
+      "who": "古桥和树",
       "lines": [
         "「啊……谢谢你一直以来的照顾……」"
       ],
@@ -216,7 +224,11 @@
     },
     {
       "kind": "line",
-      "who": "古桥绫菜",
+      "who": "古桥凉菜",
+      "voice": {
+        "id": "SUZU_001_PRO003B_005",
+        "file": "voice/suzu_001_pro003B_005.ogg"
+      },
       "lines": [
         "「这个真的很好吃呢。」"
       ],
@@ -238,6 +250,10 @@
     {
       "kind": "line",
       "who": "古桥绫菜",
+      "voice": {
+        "id": "AYAN_001_PRO003A_022",
+        "file": "voice/ayan_001_pro003A_022.ogg"
+      },
       "lines": [
         "「呵呵，被你这么说，我很高兴」"
       ],
@@ -265,7 +281,11 @@
     },
     {
       "kind": "line",
-      "who": "古桥绫菜",
+      "who": "古桥凉菜",
+      "voice": {
+        "id": "SUZU_001_PRO003B_008",
+        "file": "voice/suzu_001_pro003B_008.ogg"
+      },
       "lines": [
         "「那么，我走了」"
       ],
@@ -286,6 +306,10 @@
     {
       "kind": "line",
       "who": "古桥绫菜",
+      "voice": {
+        "id": "AYAN_001_PRO003A_009",
+        "file": "voice/ayan_001_pro003A_009.ogg"
+      },
       "lines": [
         "「走好。注意安全，别出事故了」"
       ],
@@ -324,7 +348,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥绫菜",
+      "who": "古桥和树",
       "lines": [
         "「再见了」"
       ],
@@ -409,6 +433,10 @@
     {
       "kind": "line",
       "who": "楠木枫",
+      "voice": {
+        "id": "KAED_001_PRO003E_001",
+        "file": "voice/kaed_001_pro003E_001.ogg"
+      },
       "lines": [
         "「等一下！我忘记带手绢了」"
       ],
@@ -429,6 +457,10 @@
     {
       "kind": "line",
       "who": "楠木裕司",
+      "voice": {
+        "id": "MOBD_001_PRO003F_001",
+        "file": "voice/mobd_001_pro003F_001.ogg"
+      },
       "lines": [
         "「对不起对不起！谢谢你」"
       ],
@@ -467,7 +499,11 @@
     },
     {
       "kind": "line",
-      "who": "楠木裕司",
+      "who": "楠木枫",
+      "voice": {
+        "id": "KAED_001_PRO003E_002",
+        "file": "voice/kaed_001_pro003E_002.ogg"
+      },
       "lines": [
         "「好的，注意安全哦」"
       ],
@@ -508,6 +544,10 @@
     {
       "kind": "line",
       "who": "楠木裕司",
+      "voice": {
+        "id": "MOBD_001_PRO003F_002",
+        "file": "voice/mobd_001_pro003F_002.ogg"
+      },
       "lines": [
         "「啊，我走了。爱你，枫」"
       ],
@@ -527,7 +567,11 @@
     },
     {
       "kind": "line",
-      "who": "楠木裕司",
+      "who": "楠木枫",
+      "voice": {
+        "id": "KAED_001_PRO003E_003",
+        "file": "voice/kaed_001_pro003E_003.ogg"
+      },
       "lines": [
         "「嘻嘻，我也爱你……嗯—，啾！」"
       ],
@@ -569,6 +613,10 @@
     {
       "kind": "line",
       "who": "楠木裕司",
+      "voice": {
+        "id": "MOBD_001_PRO003F_003",
+        "file": "voice/mobd_001_pro003F_003.ogg"
+      },
       "lines": [
         "「嗨，早上好。你来接翼了吗？」"
       ],
@@ -588,7 +636,7 @@
     },
     {
       "kind": "line",
-      "who": "楠木裕司",
+      "who": "古桥和树",
       "lines": [
         "「早上好」"
       ],
@@ -630,6 +678,10 @@
     {
       "kind": "line",
       "who": "楠木翼",
+      "voice": {
+        "id": "TUBA_001_PRO003D_001",
+        "file": "voice/tuba_001_pro003D_001.ogg"
+      },
       "lines": [
         "「早上好！今天天气也很好呢！」"
       ],
@@ -649,7 +701,7 @@
     },
     {
       "kind": "line",
-      "who": "楠木翼",
+      "who": "古桥和树",
       "lines": [
         "「早，早上好！那我走啦！」"
       ],
@@ -712,6 +764,10 @@
     {
       "kind": "line",
       "who": "望月真琴",
+      "voice": {
+        "id": "MAKO_001_PRO003C_006",
+        "file": "voice/mako_001_pro003C_006.ogg"
+      },
       "lines": [
         "「让你久等了！抱歉，我迟到了」"
       ],
@@ -731,7 +787,11 @@
     },
     {
       "kind": "line",
-      "who": "望月真琴",
+      "who": "楠木翼",
+      "voice": {
+        "id": "TUBA_001_PRO003D_005",
+        "file": "voice/tuba_001_pro003D_005.ogg"
+      },
       "lines": [
         "「早上好，真琴酱！」"
       ],

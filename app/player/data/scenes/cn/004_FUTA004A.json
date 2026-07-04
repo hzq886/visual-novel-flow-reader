@@ -53,6 +53,10 @@
     {
       "kind": "line",
       "who": "古桥凉菜",
+      "voice": {
+        "id": "SUZU_001_PRO003B_014",
+        "file": "voice/suzu_001_pro003B_014.ogg"
+      },
       "lines": [
         "「姐姐的料理一如既往地美味啊。」"
       ],
@@ -64,6 +68,10 @@
     {
       "kind": "line",
       "who": "古桥绫菜",
+      "voice": {
+        "id": "AYAN_001_PRO003A_022",
+        "file": "voice/ayan_001_pro003A_022.ogg"
+      },
       "lines": [
         "「呵呵，能听到你这么说，我很开心。」"
       ],

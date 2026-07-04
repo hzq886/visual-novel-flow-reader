@@ -65,6 +65,10 @@
     {
       "kind": "line",
       "who": "望月早纪",
+      "voice": {
+        "id": "SAKI_005_MAKO005A_001",
+        "file": "voice/saki_005_mako005A_001.ogg"
+      },
       "lines": [
         "「哎呀，正如被说的那样，你来到了我家呢。",
         "遵守约定是理所当然的人之常情」"
@@ -105,7 +109,7 @@
     },
     {
       "kind": "line",
-      "who": "望月早纪",
+      "who": "古桥和树",
       "lines": [
         "「虽然被告知要来我家，但我到底应该做些什么呢？」"
       ],
@@ -146,6 +150,10 @@
     {
       "kind": "line",
       "who": "望月早纪",
+      "voice": {
+        "id": "SAKI_005_MAKO005A_002",
+        "file": "voice/saki_005_mako005A_002.ogg"
+      },
       "lines": [
         "「稍后再解释吧。比起那个，先把衣服脱掉，变成内衣姿态可以吗？」"
       ],
@@ -185,7 +193,7 @@
     },
     {
       "kind": "line",
-      "who": "望月早纪",
+      "who": "古桥和树",
       "lines": [
         "「要脱掉衣服变成内衣姿态吗？」"
       ],
@@ -206,6 +214,10 @@
     {
       "kind": "line",
       "who": "望月早纪",
+      "voice": {
+        "id": "SAKI_005_MAKO005A_003",
+        "file": "voice/saki_005_mako005A_003.ogg"
+      },
       "lines": [
         "「是的。在我们家，习惯是脱掉衣服变成内衣姿态度过时间。你不喜欢吗？」"
       ],
@@ -244,7 +256,7 @@
     },
     {
       "kind": "line",
-      "who": "望月早纪",
+      "who": "古桥和树",
       "lines": [
         "「不不不。入乡随俗嘛，是吧？",
         "既然是望月家的习惯，那就没办法了」"
@@ -266,6 +278,10 @@
     {
       "kind": "line",
       "who": "望月早纪",
+      "voice": {
+        "id": "SAKI_005_MAKO005A_004",
+        "file": "voice/saki_005_mako005A_004.ogg"
+      },
       "lines": [
         "「那么，大家一起脱吧。真琴，你也快点脱掉衣服！」"
       ],
@@ -305,6 +321,10 @@
     {
       "kind": "line",
       "who": "望月真琴",
+      "voice": {
+        "id": "MAKO_005_MAKO005A_003",
+        "file": "voice/mako_005_mako005A_003.ogg"
+      },
       "lines": [
         "「好，好的，妈妈！我马上脱掉衣服！」"
       ],
@@ -383,7 +403,7 @@
     },
     {
       "kind": "line",
-      "who": "望月真琴",
+      "who": "古桥和树",
       "lines": [
         "「黑色的内衣和吊袜带很性感呢。",
         "非常迷人啊。」"
@@ -425,7 +445,7 @@
     },
     {
       "kind": "line",
-      "who": "望月真琴",
+      "who": "望月早纪",
       "voice": {
         "id": "SAKI_005_MAKO005B_001",
         "file": "voice/saki_005_mako005B_001.ogg"
@@ -468,7 +488,7 @@
     },
     {
       "kind": "line",
-      "who": "望月真琴",
+      "who": "望月早纪",
       "voice": {
         "id": "SAKI_005_MAKO005B_002",
         "file": "voice/saki_005_mako005B_002.ogg"
@@ -515,7 +535,7 @@
     },
     {
       "kind": "line",
-      "who": "望月真琴",
+      "who": "古桥和树",
       "lines": [
         "「那个戒指…你还在想着已经去世的丈夫吗？」"
       ],
@@ -554,7 +574,7 @@
     },
     {
       "kind": "line",
-      "who": "望月真琴",
+      "who": "望月早纪",
       "voice": {
         "id": "SAKI_005_MAKO005B_003",
         "file": "voice/saki_005_mako005B_003.ogg"
@@ -598,7 +618,7 @@
     },
     {
       "kind": "line",
-      "who": "望月真琴",
+      "who": "望月早纪",
       "voice": {
         "id": "SAKI_005_MAKO005B_004",
         "file": "voice/saki_005_mako005B_004.ogg"
@@ -644,7 +664,7 @@
     },
     {
       "kind": "line",
-      "who": "望月真琴",
+      "who": "古桥和树",
       "lines": [
         "「一直一个人的话，处理性欲时是自己安慰吗？」"
       ],
@@ -683,7 +703,7 @@
     },
     {
       "kind": "line",
-      "who": "望月真琴",
+      "who": "望月早纪",
       "voice": {
         "id": "SAKI_005_MAKO005B_005",
         "file": "voice/saki_005_mako005B_005.ogg"
@@ -728,7 +748,7 @@
     },
     {
       "kind": "line",
-      "who": "望月真琴",
+      "who": "古桥和树",
       "lines": [
         "「你大概多久一次？」"
       ],
@@ -748,7 +768,7 @@
     },
     {
       "kind": "line",
-      "who": "望月真琴",
+      "who": "望月早纪",
       "voice": {
         "id": "SAKI_005_MAKO005B_006",
         "file": "voice/saki_005_mako005B_006.ogg"
@@ -791,7 +811,7 @@
     },
     {
       "kind": "line",
-      "who": "望月真琴",
+      "who": "古桥和树",
       "lines": [
         "「每天都做吗？是在睡觉前吗？」"
       ],
@@ -811,7 +831,7 @@
     },
     {
       "kind": "line",
-      "who": "望月真琴",
+      "who": "望月早纪",
       "voice": {
         "id": "SAKI_005_MAKO005B_007",
         "file": "voice/saki_005_mako005B_007.ogg"
@@ -878,7 +898,7 @@
     },
     {
       "kind": "line",
-      "who": "望月真琴",
+      "who": "望月早纪",
       "voice": {
         "id": "SAKI_005_MAKO005B_008",
         "file": "voice/saki_005_mako005B_008.ogg"
@@ -922,7 +942,7 @@
     },
     {
       "kind": "line",
-      "who": "望月真琴",
+      "who": "古桥和树",
       "lines": [
         "「你会使用工具之类的吗？」"
       ],
@@ -942,7 +962,7 @@
     },
     {
       "kind": "line",
-      "who": "望月真琴",
+      "who": "望月早纪",
       "voice": {
         "id": "SAKI_005_MAKO005B_009",
         "file": "voice/saki_005_mako005B_009.ogg"
@@ -985,7 +1005,7 @@
     },
     {
       "kind": "line",
-      "who": "望月真琴",
+      "who": "古桥和树",
       "lines": [
         "「我明白了」"
       ],
@@ -1025,7 +1045,7 @@
     },
     {
       "kind": "line",
-      "who": "望月真琴",
+      "who": "望月早纪",
       "voice": {
         "id": "SAKI_005_MAKO005B_010",
         "file": "voice/saki_005_mako005B_010.ogg"
@@ -1072,7 +1092,7 @@
     },
     {
       "kind": "line",
-      "who": "望月真琴",
+      "who": "望月早纪",
       "voice": {
         "id": "SAKI_005_MAKO005B_011",
         "file": "voice/saki_005_mako005B_011.ogg"
@@ -1168,7 +1188,7 @@
     },
     {
       "kind": "line",
-      "who": "望月真琴",
+      "who": "望月早纪",
       "voice": {
         "id": "SAKI_005_MAKO005B_012",
         "file": "voice/saki_005_mako005B_012.ogg"
@@ -1213,7 +1233,7 @@
     },
     {
       "kind": "line",
-      "who": "望月真琴",
+      "who": "望月早纪",
       "voice": {
         "id": "SAKI_005_MAKO005B_013",
         "file": "voice/saki_005_mako005B_013.ogg"

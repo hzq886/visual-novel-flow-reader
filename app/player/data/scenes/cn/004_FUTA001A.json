@@ -49,6 +49,10 @@
     {
       "kind": "line",
       "who": "古桥凉菜",
+      "voice": {
+        "id": "SUZU_003_SUZU002C_001",
+        "file": "voice/suzu_003_suzu002C_001.ogg"
+      },
       "lines": [
         "「呜啊！？　啊……啊，啊啊啊……」"
       ],
@@ -131,7 +135,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥绫菜",
+      "who": "古桥和树",
       "lines": [
         "「『玛利亚小姐的咖啡』」"
       ],
@@ -152,6 +156,10 @@
     {
       "kind": "line",
       "who": "古桥绫菜",
+      "voice": {
+        "id": "AYAN_002_AYAN002C_003",
+        "file": "voice/ayan_002_ayan002C_003.ogg"
+      },
       "lines": [
         "「呜啊！？　啊……啊，啊啊啊……」"
       ],

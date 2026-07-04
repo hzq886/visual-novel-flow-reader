@@ -69,6 +69,10 @@
     {
       "kind": "line",
       "who": "楠木枫",
+      "voice": {
+        "id": "KAED_008_TUBA007A_002",
+        "file": "voice/kaed_008_tuba007A_002.ogg"
+      },
       "lines": [
         "「嗯，当然可以！」"
       ],
@@ -85,6 +89,10 @@
     {
       "kind": "line",
       "who": "楠木翼",
+      "voice": {
+        "id": "TUBA_008_TUBA007A_002",
+        "file": "voice/tuba_008_tuba007A_002.ogg"
+      },
       "lines": [
         "「如果大家一起玩，肯定会很有趣的！」"
       ],
@@ -115,7 +123,7 @@
     },
     {
       "kind": "line",
-      "who": "楠木翼",
+      "who": "古桥和树",
       "lines": [
         "「翼和枫小姐的亲子对决怎么样？",
         "我来当裁判……」"
@@ -132,7 +140,11 @@
     },
     {
       "kind": "line",
-      "who": "楠木翼",
+      "who": "楠木枫",
+      "voice": {
+        "id": "KAED_008_TUBA007A_003",
+        "file": "voice/kaed_008_tuba007A_003.ogg"
+      },
       "lines": [
         "「哦，你要和翼比赛吗？玩什么游戏？」"
       ],
@@ -148,7 +160,7 @@
     },
     {
       "kind": "line",
-      "who": "楠木翼",
+      "who": "古桥和树",
       "lines": [
         "「嗯，这是一个把东西塞进小穴里，然后扭动腰部，谁射得多就赢的游戏」"
       ],
@@ -180,7 +192,11 @@
     },
     {
       "kind": "line",
-      "who": "楠木翼",
+      "who": "楠木枫",
+      "voice": {
+        "id": "KAED_008_TUBA007A_004",
+        "file": "voice/kaed_008_tuba007A_004.ogg"
+      },
       "lines": [
         "「听起来挺有趣的！我很擅长高潮！」"
       ],
@@ -197,6 +213,10 @@
     {
       "kind": "line",
       "who": "楠木翼",
+      "voice": {
+        "id": "TUBA_008_TUBA007A_003",
+        "file": "voice/tuba_008_tuba007A_003.ogg"
+      },
       "lines": [
         "「就算是妈妈做对手，我也不会输的！」"
       ],
@@ -227,7 +247,11 @@
     },
     {
       "kind": "line",
-      "who": "楠木翼",
+      "who": "楠木枫",
+      "voice": {
+        "id": "KAED_008_TUBA007A_005",
+        "file": "voice/kaed_008_tuba007A_005.ogg"
+      },
       "lines": [
         "「那么，要塞进去的东西，是指和树君的肉棒对吧？」"
       ],
@@ -243,7 +267,7 @@
     },
     {
       "kind": "line",
-      "who": "楠木翼",
+      "who": "古桥和树",
       "lines": [
         "「嗯，因为想要同时和两个人比赛……」"
       ],
@@ -274,7 +298,7 @@
     },
     {
       "kind": "line",
-      "who": "楠木翼",
+      "who": "古桥和树",
       "lines": [
         "「枫小姐可以用那个『盒子』里的假阳具吗？那个粗大的家伙」"
       ],
@@ -290,7 +314,11 @@
     },
     {
       "kind": "line",
-      "who": "楠木翼",
+      "who": "楠木枫",
+      "voice": {
+        "id": "KAED_008_TUBA007A_006",
+        "file": "voice/kaed_008_tuba007A_006.ogg"
+      },
       "lines": [
         "「啊啊，在地板上固定使用的那个假阳具对吧」"
       ],
@@ -321,7 +349,7 @@
     },
     {
       "kind": "line",
-      "who": "楠木翼",
+      "who": "古桥和树",
       "lines": [
         "「翼的话，就用我的肉棒了」"
       ],
@@ -338,6 +366,10 @@
     {
       "kind": "line",
       "who": "楠木翼",
+      "voice": {
+        "id": "TUBA_008_TUBA007A_004",
+        "file": "voice/tuba_008_tuba007A_004.ogg"
+      },
       "lines": [
         "「嗯，用那根肉棒，射个不停吧！」"
       ],
@@ -368,7 +400,11 @@
     },
     {
       "kind": "line",
-      "who": "楠木翼",
+      "who": "楠木枫",
+      "voice": {
+        "id": "KAED_008_TUBA007A_007",
+        "file": "voice/kaed_008_tuba007A_007.ogg"
+      },
       "lines": [
         "「嗯……我也觉得那根肉棒更好。",
         "嘿，翼，要不要交换一下插入的东西？」"
@@ -401,6 +437,10 @@
     {
       "kind": "line",
       "who": "楠木翼",
+      "voice": {
+        "id": "TUBA_008_TUBA007A_005",
+        "file": "voice/tuba_008_tuba007A_005.ogg"
+      },
       "lines": [
         "「不，不行啦！这可是我的东西！」"
       ],
@@ -416,7 +456,11 @@
     },
     {
       "kind": "line",
-      "who": "楠木翼",
+      "who": "楠木枫",
+      "voice": {
+        "id": "KAED_008_TUBA007A_008",
+        "file": "voice/kaed_008_tuba007A_008.ogg"
+      },
       "lines": [
         "「呵呵，开玩笑的。我才不会拿走它呢。」"
       ],
@@ -484,7 +528,7 @@
     },
     {
       "kind": "line",
-      "who": "楠木翼",
+      "who": "楠木枫",
       "voice": {
         "id": "KAED_008_TUBA007B_001",
         "file": "voice/kaed_008_tuba007B_001.ogg"
@@ -512,7 +556,11 @@
     },
     {
       "kind": "line",
-      "who": "楠木翼",
+      "who": "楠木枫",
+      "voice": {
+        "id": "KAED_008_TUBA007A_009",
+        "file": "voice/kaed_008_tuba007A_009.ogg"
+      },
       "lines": [
         "「嗯……用小穴含住，扭动腰部，",
         "尽情享受吧？」"
@@ -534,7 +582,7 @@
     },
     {
       "kind": "line",
-      "who": "楠木翼",
+      "who": "古桥和树",
       "lines": [
         "「嗯，要是要射了就告诉我哦。不要作弊」"
       ],
@@ -545,7 +593,11 @@
     },
     {
       "kind": "line",
-      "who": "楠木翼",
+      "who": "楠木枫",
+      "voice": {
+        "id": "KAED_008_TUBA007A_010",
+        "file": "voice/kaed_008_tuba007A_010.ogg"
+      },
       "lines": [
         "「这可是我熟悉的假阳具，所以我占优势。",
         "呵呵呵，抱歉啦，我要赢了哦」"
@@ -569,6 +621,10 @@
     {
       "kind": "line",
       "who": "楠木翼",
+      "voice": {
+        "id": "TUBA_008_TUBA007A_006",
+        "file": "voice/tuba_008_tuba007A_006.ogg"
+      },
       "lines": [
         "「我，我也不会输的！因为这是我喜欢的人的",
         "肉棒啊！」"
@@ -580,7 +636,7 @@
     },
     {
       "kind": "line",
-      "who": "楠木翼",
+      "who": "古桥和树",
       "lines": [
         "「那么，当我示意时，就开始吧。",
         "能再深入一点吗？」"
@@ -630,7 +686,7 @@
     },
     {
       "kind": "line",
-      "who": "楠木翼",
+      "who": "楠木枫",
       "voice": {
         "id": "KAED_008_TUBA007B_002",
         "file": "voice/kaed_008_tuba007B_002.ogg"
@@ -674,7 +730,7 @@
     },
     {
       "kind": "line",
-      "who": "楠木翼",
+      "who": "古桥和树",
       "lines": [
         "「那么，开始吧……准备好了，动！」"
       ],
@@ -721,7 +777,7 @@
     },
     {
       "kind": "line",
-      "who": "楠木翼",
+      "who": "楠木枫",
       "voice": {
         "id": "KAED_008_TUBA007B_003",
         "file": "voice/kaed_008_tuba007B_003.ogg"
@@ -789,7 +845,7 @@
     },
     {
       "kind": "line",
-      "who": "楠木翼",
+      "who": "楠木枫",
       "voice": {
         "id": "KAED_008_TUBA007B_004",
         "file": "voice/kaed_008_tuba007B_004.ogg"
@@ -823,7 +879,7 @@
     },
     {
       "kind": "line",
-      "who": "楠木翼",
+      "who": "楠木枫",
       "voice": {
         "id": "KAED_008_TUBA007B_005",
         "file": "voice/kaed_008_tuba007B_005.ogg"
@@ -929,7 +985,7 @@
     },
     {
       "kind": "line",
-      "who": "楠木翼",
+      "who": "楠木枫",
       "voice": {
         "id": "KAED_008_TUBA007B_006",
         "file": "voice/kaed_008_tuba007B_006.ogg"
@@ -1017,7 +1073,7 @@
     },
     {
       "kind": "line",
-      "who": "楠木翼",
+      "who": "古桥和树",
       "lines": [
         "「嗯，感觉真的很舒服」"
       ],
@@ -1047,7 +1103,7 @@
     },
     {
       "kind": "line",
-      "who": "楠木翼",
+      "who": "楠木枫",
       "voice": {
         "id": "KAED_008_TUBA007B_007",
         "file": "voice/kaed_008_tuba007B_007.ogg"
@@ -1184,7 +1240,7 @@
     },
     {
       "kind": "line",
-      "who": "楠木翼",
+      "who": "楠木枫",
       "voice": {
         "id": "KAED_008_TUBA007B_008",
         "file": "voice/kaed_008_tuba007B_008.ogg"
@@ -1281,7 +1337,7 @@
     },
     {
       "kind": "line",
-      "who": "楠木翼",
+      "who": "楠木枫",
       "voice": {
         "id": "KAED_008_TUBA007B_009",
         "file": "voice/kaed_008_tuba007B_009.ogg"
@@ -1315,7 +1371,7 @@
     },
     {
       "kind": "line",
-      "who": "楠木翼",
+      "who": "楠木枫",
       "voice": {
         "id": "KAED_008_TUBA007B_010",
         "file": "voice/kaed_008_tuba007B_010.ogg"
@@ -1371,7 +1427,7 @@
     },
     {
       "kind": "line",
-      "who": "楠木翼",
+      "who": "楠木枫",
       "voice": {
         "id": "KAED_008_TUBA007B_011",
         "file": "voice/kaed_008_tuba007B_011.ogg"
@@ -1442,7 +1498,7 @@
     },
     {
       "kind": "line",
-      "who": "楠木翼",
+      "who": "楠木枫",
       "voice": {
         "id": "KAED_008_TUBA007B_012",
         "file": "voice/kaed_008_tuba007B_012.ogg"
@@ -1512,7 +1568,7 @@
     },
     {
       "kind": "line",
-      "who": "楠木翼",
+      "who": "楠木枫",
       "voice": {
         "id": "KAED_008_TUBA007B_013",
         "file": "voice/kaed_008_tuba007B_013.ogg"
@@ -1582,7 +1638,7 @@
     },
     {
       "kind": "line",
-      "who": "楠木翼",
+      "who": "楠木枫",
       "voice": {
         "id": "KAED_008_TUBA007B_014",
         "file": "voice/kaed_008_tuba007B_014.ogg"
@@ -1638,7 +1694,7 @@
     },
     {
       "kind": "line",
-      "who": "楠木翼",
+      "who": "楠木枫",
       "voice": {
         "id": "KAED_008_TUBA007B_015",
         "file": "voice/kaed_008_tuba007B_015.ogg"
@@ -1792,7 +1848,7 @@
     },
     {
       "kind": "line",
-      "who": "楠木翼",
+      "who": "楠木枫",
       "voice": {
         "id": "KAED_008_TUBA007B_016",
         "file": "voice/kaed_008_tuba007B_016.ogg"
@@ -1861,7 +1917,7 @@
     },
     {
       "kind": "line",
-      "who": "楠木翼",
+      "who": "楠木枫",
       "voice": {
         "id": "KAED_008_TUBA007B_017",
         "file": "voice/kaed_008_tuba007B_017.ogg"
@@ -1896,7 +1952,7 @@
     },
     {
       "kind": "line",
-      "who": "楠木翼",
+      "who": "楠木枫",
       "voice": {
         "id": "KAED_008_TUBA007B_018",
         "file": "voice/kaed_008_tuba007B_018.ogg"
@@ -1949,7 +2005,7 @@
     },
     {
       "kind": "line",
-      "who": "楠木翼",
+      "who": "楠木枫",
       "voice": {
         "id": "KAED_008_TUBA007B_019",
         "file": "voice/kaed_008_tuba007B_019.ogg"
@@ -2016,7 +2072,7 @@
     },
     {
       "kind": "line",
-      "who": "楠木翼",
+      "who": "楠木枫",
       "voice": {
         "id": "KAED_008_TUBA007B_020",
         "file": "voice/kaed_008_tuba007B_020.ogg"
@@ -2070,7 +2126,7 @@
     },
     {
       "kind": "line",
-      "who": "楠木翼",
+      "who": "楠木枫",
       "voice": {
         "id": "KAED_008_TUBA007B_021",
         "file": "voice/kaed_008_tuba007B_021.ogg"
@@ -2265,7 +2321,7 @@
     },
     {
       "kind": "line",
-      "who": "楠木翼",
+      "who": "楠木枫",
       "voice": {
         "id": "KAED_008_TUBA007B_022",
         "file": "voice/kaed_008_tuba007B_022.ogg"
@@ -2336,7 +2392,7 @@
     },
     {
       "kind": "line",
-      "who": "楠木翼",
+      "who": "楠木枫",
       "voice": {
         "id": "KAED_008_TUBA007B_023",
         "file": "voice/kaed_008_tuba007B_023.ogg"
@@ -2392,7 +2448,7 @@
     },
     {
       "kind": "line",
-      "who": "楠木翼",
+      "who": "楠木枫",
       "voice": {
         "id": "KAED_008_TUBA007B_024",
         "file": "voice/kaed_008_tuba007B_024.ogg"
@@ -2467,7 +2523,7 @@
     },
     {
       "kind": "line",
-      "who": "楠木翼",
+      "who": "楠木枫",
       "voice": {
         "id": "KAED_008_TUBA007B_025",
         "file": "voice/kaed_008_tuba007B_025.ogg"
@@ -2520,7 +2576,7 @@
     },
     {
       "kind": "line",
-      "who": "楠木翼",
+      "who": "楠木枫",
       "voice": {
         "id": "KAED_008_TUBA007B_026",
         "file": "voice/kaed_008_tuba007B_026.ogg"

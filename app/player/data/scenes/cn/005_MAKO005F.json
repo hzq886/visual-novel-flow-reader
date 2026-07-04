@@ -67,6 +67,10 @@
     {
       "kind": "line",
       "who": "望月真琴",
+      "voice": {
+        "id": "MAKO_005_MAKO005E_003",
+        "file": "voice/mako_005_mako005E_003.ogg"
+      },
       "lines": [
         "「你在说什么啊……？那个时候……」"
       ],
@@ -99,6 +103,10 @@
     {
       "kind": "line",
       "who": "望月真琴",
+      "voice": {
+        "id": "MAKO_005_MAKO005E_004",
+        "file": "voice/mako_005_mako005E_004.ogg"
+      },
       "lines": [
         "「啊！？啊，啊……我想起来了……」"
       ],
@@ -131,6 +139,10 @@
     {
       "kind": "line",
       "who": "望月真琴",
+      "voice": {
+        "id": "MAKO_005_MAKO005E_005",
+        "file": "voice/mako_005_mako005E_005.ogg"
+      },
       "lines": [
         "「『晚安，和树君，直到明天早上』」"
       ],
@@ -146,7 +158,7 @@
     },
     {
       "kind": "line",
-      "who": "望月真琴",
+      "who": "古桥和树",
       "lines": [
         "「呜啊！？啊，啊，啊……」"
       ],
@@ -223,6 +235,10 @@
     {
       "kind": "line",
       "who": "望月真琴",
+      "voice": {
+        "id": "MAKO_005_MAKO005E_006",
+        "file": "voice/mako_005_mako005E_006.ogg"
+      },
       "lines": [
         "「那是小时候的事情，所以我忘记了。」"
       ],
@@ -262,6 +278,10 @@
     {
       "kind": "line",
       "who": "望月真琴",
+      "voice": {
+        "id": "MAKO_005_MAKO005E_007",
+        "file": "voice/mako_005_mako005E_007.ogg"
+      },
       "lines": [
         "「看起来，她好像认为那时候她没能成功给妈妈施催眠术……」"
       ],
@@ -282,6 +302,10 @@
     {
       "kind": "line",
       "who": "望月真琴",
+      "voice": {
+        "id": "MAKO_005_MAKO005E_008",
+        "file": "voice/mako_005_mako005E_008.ogg"
+      },
       "lines": [
         "「催眠术是成功的哦？」"
       ],
@@ -321,6 +345,10 @@
     {
       "kind": "line",
       "who": "望月真琴",
+      "voice": {
+        "id": "MAKO_005_MAKO005E_009",
+        "file": "voice/mako_005_mako005E_009.ogg"
+      },
       "lines": [
         "「因为施催眠术的对象不是妈妈，而是你」"
       ],
@@ -363,6 +391,10 @@
     {
       "kind": "line",
       "who": "楠木翼",
+      "voice": {
+        "id": "TUBA_001_PRO001G_009",
+        "file": "voice/tuba_001_pro001G_009.ogg"
+      },
       "lines": [
         "「这个，成功了吗？卡兹？」"
       ],
@@ -382,7 +414,11 @@
     },
     {
       "kind": "line",
-      "who": "楠木翼",
+      "who": "望月真琴",
+      "voice": {
+        "id": "MAKO_001_PRO001G_003",
+        "file": "voice/mako_001_pro001G_003.ogg"
+      },
       "lines": [
         "「太厉害了……真的，被催眠了吗？」"
       ],
@@ -403,6 +439,10 @@
     {
       "kind": "line",
       "who": "楠木翼",
+      "voice": {
+        "id": "TUBA_001_PRO001G_010",
+        "file": "voice/tuba_001_pro001G_010.ogg"
+      },
       "lines": [
         "「嗯，然后，要先确定一个关键词……」"
       ],
@@ -423,6 +463,10 @@
     {
       "kind": "line",
       "who": "楠木翼",
+      "voice": {
+        "id": "TUBA_001_PRO001G_011",
+        "file": "voice/tuba_001_pro001G_011.ogg"
+      },
       "lines": [
         "「然后一说出来，就会立刻被催眠。",
         "真琴酱，能确定一个吗？」"
@@ -443,7 +487,11 @@
     },
     {
       "kind": "line",
-      "who": "楠木翼",
+      "who": "望月真琴",
+      "voice": {
+        "id": "MAKO_001_PRO001G_004",
+        "file": "voice/mako_001_pro001G_004.ogg"
+      },
       "lines": [
         "「诶，我，我吗……？嗯……」"
       ],
@@ -464,6 +512,10 @@
     {
       "kind": "line",
       "who": "楠木翼",
+      "voice": {
+        "id": "TUBA_001_PRO001G_012",
+        "file": "voice/tuba_001_pro001G_012.ogg"
+      },
       "lines": [
         "「这样可以吗？那么……」"
       ],
@@ -484,6 +536,10 @@
     {
       "kind": "line",
       "who": "楠木翼",
+      "voice": {
+        "id": "TUBA_001_PRO001G_013",
+        "file": "voice/tuba_001_pro001G_013.ogg"
+      },
       "lines": [
         "「没关系啦，你不会觉得真琴酱的妈妈很可怕的」"
       ],
@@ -504,6 +560,10 @@
     {
       "kind": "line",
       "who": "楠木翼",
+      "voice": {
+        "id": "TUBA_001_PRO001G_014",
+        "file": "voice/tuba_001_pro001G_014.ogg"
+      },
       "lines": [
         "「我想了很多，努力了很多，希望能为真琴酱做点什么」"
       ],
@@ -523,7 +583,11 @@
     },
     {
       "kind": "line",
-      "who": "楠木翼",
+      "who": "望月真琴",
+      "voice": {
+        "id": "MAKO_001_PRO001G_005",
+        "file": "voice/mako_001_pro001G_005.ogg"
+      },
       "lines": [
         "「要求和树君……帮忙吗？」"
       ],
@@ -544,6 +608,10 @@
     {
       "kind": "line",
       "who": "楠木翼",
+      "voice": {
+        "id": "TUBA_001_PRO001G_015",
+        "file": "voice/tuba_001_pro001G_015.ogg"
+      },
       "lines": [
         "「因为之前你说要学习，还得到妈妈的同意了吧？」"
       ],
@@ -564,6 +632,10 @@
     {
       "kind": "line",
       "who": "楠木翼",
+      "voice": {
+        "id": "TUBA_001_PRO001G_016",
+        "file": "voice/tuba_001_pro001G_016.ogg"
+      },
       "lines": [
         "「所以我觉得，如果和树君努力地说服她，或许能被原谅呢」"
       ],
@@ -584,6 +656,10 @@
     {
       "kind": "line",
       "who": "楠木翼",
+      "voice": {
+        "id": "TUBA_001_PRO001G_017",
+        "file": "voice/tuba_001_pro001G_017.ogg"
+      },
       "lines": [
         "「那么，数到三就醒来哦……」"
       ],
@@ -603,7 +679,11 @@
     },
     {
       "kind": "line",
-      "who": "楠木翼",
+      "who": "望月真琴",
+      "voice": {
+        "id": "MAKO_005_MAKO005E_010",
+        "file": "voice/mako_005_mako005E_010.ogg"
+      },
       "lines": [
         "「在我们三个人中，只有和树能够用自己的话好好考虑并说服妈妈」"
       ],
@@ -623,7 +703,11 @@
     },
     {
       "kind": "line",
-      "who": "楠木翼",
+      "who": "望月真琴",
+      "voice": {
+        "id": "MAKO_005_MAKO005E_011",
+        "file": "voice/mako_005_mako005E_011.ogg"
+      },
       "lines": [
         "「但是妈妈很可怕，而且孩子对大人直言不讳是很困难的……」"
       ],
@@ -643,7 +727,11 @@
     },
     {
       "kind": "line",
-      "who": "楠木翼",
+      "who": "望月真琴",
+      "voice": {
+        "id": "MAKO_005_MAKO005E_012",
+        "file": "voice/mako_005_mako005E_012.ogg"
+      },
       "lines": [
         "「所以我通过催眠术，让自己勇敢地表达意见」"
       ],
@@ -683,7 +771,11 @@
     },
     {
       "kind": "line",
-      "who": "楠木翼",
+      "who": "望月真琴",
+      "voice": {
+        "id": "MAKO_005_MAKO005E_013",
+        "file": "voice/mako_005_mako005E_013.ogg"
+      },
       "lines": [
         "「这个『计划』成功地实施了」"
       ],
@@ -722,7 +814,11 @@
     },
     {
       "kind": "line",
-      "who": "楠木翼",
+      "who": "望月真琴",
+      "voice": {
+        "id": "MAKO_005_MAKO005E_014",
+        "file": "voice/mako_005_mako005E_014.ogg"
+      },
       "lines": [
         "「那时候的和树，真是令人依赖。简直想一下子扑过去拥抱他」"
       ],
@@ -742,7 +838,11 @@
     },
     {
       "kind": "line",
-      "who": "楠木翼",
+      "who": "望月真琴",
+      "voice": {
+        "id": "MAKO_005_MAKO005E_015",
+        "file": "voice/mako_005_mako005E_015.ogg"
+      },
       "lines": [
         "「好喜欢他……从那时起，一直一直」"
       ],
@@ -782,7 +882,11 @@
     },
     {
       "kind": "line",
-      "who": "楠木翼",
+      "who": "望月真琴",
+      "voice": {
+        "id": "MAKO_005_MAKO005E_016",
+        "file": "voice/mako_005_mako005E_016.ogg"
+      },
       "lines": [
         "「敢这么对我……这次轮到我了」"
       ],
@@ -802,7 +906,11 @@
     },
     {
       "kind": "line",
-      "who": "楠木翼",
+      "who": "望月真琴",
+      "voice": {
+        "id": "MAKO_005_MAKO005E_017",
+        "file": "voice/mako_005_mako005E_017.ogg"
+      },
       "lines": [
         "「居然连妈妈都……你可知道自己珍惜的人将要被我搞得一团糟！」"
       ],

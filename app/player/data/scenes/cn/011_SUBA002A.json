@@ -20,6 +20,10 @@
     {
       "kind": "line",
       "who": "楠木翼",
+      "voice": {
+        "id": "TUBA_001_PRO003D_008",
+        "file": "voice/tuba_001_pro003D_008.ogg"
+      },
       "lines": [
         "「怎么了？在想些什么吗？」"
       ],
@@ -98,7 +102,11 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "楠木翼",
+      "voice": {
+        "id": "TUBA_001_PRO003D_009",
+        "file": "voice/tuba_001_pro003D_009.ogg"
+      },
       "lines": [
         "「今天可能会晚点回家，因为要参加田径部的活动，",
         "你可以先回去吗？」"

@@ -19,6 +19,10 @@
     {
       "kind": "line",
       "who": "楠木　翼",
+      "voice": {
+        "id": "TUBA_006_TUBA019A_001",
+        "file": "voice/tuba_006_tuba019A_001.ogg"
+      },
       "lines": [
         "「お待たせっ！　ごめんね、遅くなっちゃって」"
       ],
@@ -79,7 +83,11 @@
     },
     {
       "kind": "line",
-      "who": "古橋　和樹",
+      "who": "楠木　翼",
+      "voice": {
+        "id": "TUBA_006_TUBA019A_002",
+        "file": "voice/tuba_006_tuba019A_002.ogg"
+      },
       "lines": [
         "「それじゃあ、デートしよっか！　どこに行く？」"
       ],
@@ -140,7 +148,11 @@
     },
     {
       "kind": "line",
-      "who": "古橋　和樹",
+      "who": "楠木　翼",
+      "voice": {
+        "id": "TUBA_006_TUBA019A_003",
+        "file": "voice/tuba_006_tuba019A_003.ogg"
+      },
       "lines": [
         "「うーん……できれば、先にお昼にしたいかな。",
         "ちょっとお腹すいてるし……そこのお店で！」"
@@ -204,7 +216,11 @@
     },
     {
       "kind": "line",
-      "who": "古橋　和樹",
+      "who": "楠木　翼",
+      "voice": {
+        "id": "TUBA_006_TUBA019A_004",
+        "file": "voice/tuba_006_tuba019A_004.ogg"
+      },
       "lines": [
         "「ええーっ、こんなフリフリのスカート、ボクに",
         "似合うとは思えないけど……」"
@@ -248,7 +264,7 @@
     },
     {
       "kind": "line",
-      "who": "古橋　和樹",
+      "who": "楠木　翼",
       "voice": {
         "id": "TUBA_006_TUBA015A_001",
         "file": "voice/tuba_006_tuba015A_001.ogg"
@@ -292,7 +308,7 @@
     },
     {
       "kind": "line",
-      "who": "古橋　和樹",
+      "who": "楠木　翼",
       "voice": {
         "id": "TUBA_006_TUBA015A_002",
         "file": "voice/tuba_006_tuba015A_002.ogg"
@@ -337,7 +353,7 @@
     },
     {
       "kind": "line",
-      "who": "古橋　和樹",
+      "who": "楠木　翼",
       "voice": {
         "id": "TUBA_006_TUBA015A_003",
         "file": "voice/tuba_006_tuba015A_003.ogg"

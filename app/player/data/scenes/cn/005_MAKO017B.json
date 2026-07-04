@@ -17,6 +17,10 @@
     {
       "kind": "line",
       "who": "望月真琴",
+      "voice": {
+        "id": "MAKO_005_MAKO017A_003",
+        "file": "voice/mako_005_mako017A_003.ogg"
+      },
       "lines": [
         "「对不起对不起，我有点晚了！」"
       ],
@@ -75,7 +79,11 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "望月真琴",
+      "voice": {
+        "id": "MAKO_005_MAKO001B_016",
+        "file": "voice/mako_005_mako001B_016.ogg"
+      },
       "lines": [
         "「哈……啊，啊……哈啊……」"
       ],
@@ -134,7 +142,11 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "望月真琴",
+      "voice": {
+        "id": "MAKO_005_MAKO017A_004",
+        "file": "voice/mako_005_mako017A_004.ogg"
+      },
       "lines": [
         "「真诚地……接吻……没有过」"
       ],
@@ -283,7 +295,11 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "望月真琴",
+      "voice": {
+        "id": "MAKO_005_MAKO017A_005",
+        "file": "voice/mako_005_mako017A_005.ogg"
+      },
       "lines": [
         "「啊，嗯……到底，你不明白什么？」"
       ],
@@ -324,7 +340,11 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "望月真琴",
+      "voice": {
+        "id": "MAKO_005_MAKO017A_006",
+        "file": "voice/mako_005_mako017A_006.ogg"
+      },
       "lines": [
         "「嗯……就这样结束了吗？为了这个",
         "你一直等着吗？」"
@@ -385,7 +405,11 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "望月真琴",
+      "voice": {
+        "id": "MAKO_005_MAKO017A_007",
+        "file": "voice/mako_005_mako017A_007.ogg"
+      },
       "lines": [
         "「那么，作为回报我也有个请求",
         "希望你能听听我的请求」"
@@ -465,7 +489,11 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "望月真琴",
+      "voice": {
+        "id": "MAKO_005_MAKO017A_008",
+        "file": "voice/mako_005_mako017A_008.ogg"
+      },
       "lines": [
         "「嘿，我一直都不喜欢青椒对吧？",
         "为了克服这个问题，你想让我帮忙吗？」"
@@ -526,7 +554,11 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "望月真琴",
+      "voice": {
+        "id": "MAKO_005_MAKO017A_009",
+        "file": "voice/mako_005_mako017A_009.ogg"
+      },
       "lines": [
         "「哎呀，不会这么做啦！只是正常地刺激一下",
         "嘴唇和舌头，调整一下味觉而已！」"
@@ -566,7 +598,11 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "望月真琴",
+      "voice": {
+        "id": "MAKO_005_MAKO017A_010",
+        "file": "voice/mako_005_mako017A_010.ogg"
+      },
       "lines": [
         "「我已经不是小孩子了，不想再有偏好了。",
         "只需要让我稍微用一下嘴巴就好了」"
@@ -628,7 +664,11 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "望月真琴",
+      "voice": {
+        "id": "MAKO_005_MAKO017A_011",
+        "file": "voice/mako_005_mako017A_011.ogg"
+      },
       "lines": [
         "「还有其他人吗？这点合作也可以吧？」"
       ],
@@ -729,7 +769,11 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "望月真琴",
+      "voice": {
+        "id": "MAKO_005_MAKO017A_012",
+        "file": "voice/mako_005_mako017A_012.ogg"
+      },
       "lines": [
         "「你在说什么啊！？只是让你用一下嘴巴而已，不是接吻！」"
       ],
@@ -750,7 +794,11 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "望月真琴",
+      "voice": {
+        "id": "MAKO_005_MAKO017A_013",
+        "file": "voice/mako_005_mako017A_013.ogg"
+      },
       "lines": [
         "「真是的……别说些蠢话了，好好配合一下行不行？」"
       ],
@@ -772,7 +820,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "望月真琴",
       "voice": {
         "id": "MAKO_005_MAKO017B_001",
         "file": "voice/mako_005_mako017B_001.ogg"
@@ -803,7 +851,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "望月真琴",
       "voice": {
         "id": "MAKO_005_MAKO017B_002",
         "file": "voice/mako_005_mako017B_002.ogg"
@@ -831,7 +879,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "望月真琴",
       "voice": {
         "id": "MAKO_005_MAKO017B_003",
         "file": "voice/mako_005_mako017B_003.ogg"
@@ -866,7 +914,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "望月真琴",
       "voice": {
         "id": "MAKO_005_MAKO017B_004",
         "file": "voice/mako_005_mako017B_004.ogg"
@@ -902,7 +950,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "望月真琴",
       "voice": {
         "id": "MAKO_005_MAKO017B_005",
         "file": "voice/mako_005_mako017B_005.ogg"
@@ -937,7 +985,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "望月真琴",
       "voice": {
         "id": "MAKO_005_MAKO017B_006",
         "file": "voice/mako_005_mako017B_006.ogg"
@@ -974,7 +1022,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "望月真琴",
       "voice": {
         "id": "MAKO_005_MAKO017B_007",
         "file": "voice/mako_005_mako017B_007.ogg"
@@ -1009,7 +1057,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "望月真琴",
       "voice": {
         "id": "MAKO_005_MAKO017B_008",
         "file": "voice/mako_005_mako017B_008.ogg"
@@ -1046,7 +1094,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "望月真琴",
       "voice": {
         "id": "MAKO_005_MAKO017B_009",
         "file": "voice/mako_005_mako017B_009.ogg"
@@ -1081,7 +1129,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "望月真琴",
       "voice": {
         "id": "MAKO_005_MAKO017B_010",
         "file": "voice/mako_005_mako017B_010.ogg"
@@ -1119,7 +1167,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "望月真琴",
       "voice": {
         "id": "MAKO_005_MAKO017B_011",
         "file": "voice/mako_005_mako017B_011.ogg"
@@ -1155,7 +1203,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "望月真琴",
       "voice": {
         "id": "MAKO_005_MAKO017B_012",
         "file": "voice/mako_005_mako017B_012.ogg"
@@ -1192,7 +1240,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "望月真琴",
       "voice": {
         "id": "MAKO_005_MAKO017B_013",
         "file": "voice/mako_005_mako017B_013.ogg"
@@ -1228,7 +1276,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "望月真琴",
       "voice": {
         "id": "MAKO_005_MAKO017B_014",
         "file": "voice/mako_005_mako017B_014.ogg"
@@ -1264,7 +1312,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "望月真琴",
       "voice": {
         "id": "MAKO_005_MAKO017B_015",
         "file": "voice/mako_005_mako017B_015.ogg"
@@ -1301,7 +1349,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "望月真琴",
       "voice": {
         "id": "MAKO_005_MAKO017B_016",
         "file": "voice/mako_005_mako017B_016.ogg"
@@ -1337,7 +1385,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "望月真琴",
       "voice": {
         "id": "MAKO_005_MAKO017B_017",
         "file": "voice/mako_005_mako017B_017.ogg"
@@ -1374,7 +1422,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "望月真琴",
       "voice": {
         "id": "MAKO_005_MAKO017B_018",
         "file": "voice/mako_005_mako017B_018.ogg"
@@ -1410,7 +1458,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "望月真琴",
       "voice": {
         "id": "MAKO_005_MAKO017B_019",
         "file": "voice/mako_005_mako017B_019.ogg"
@@ -1449,7 +1497,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "望月真琴",
       "voice": {
         "id": "MAKO_005_MAKO017B_020",
         "file": "voice/mako_005_mako017B_020.ogg"
@@ -1486,7 +1534,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "望月真琴",
       "voice": {
         "id": "MAKO_005_MAKO017B_021",
         "file": "voice/mako_005_mako017B_021.ogg"
@@ -1522,7 +1570,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "望月真琴",
       "voice": {
         "id": "MAKO_005_MAKO017B_022",
         "file": "voice/mako_005_mako017B_022.ogg"
@@ -1558,7 +1606,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "望月真琴",
       "voice": {
         "id": "MAKO_005_MAKO017B_023",
         "file": "voice/mako_005_mako017B_023.ogg"
@@ -1594,7 +1642,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "望月真琴",
       "voice": {
         "id": "MAKO_005_MAKO017B_024",
         "file": "voice/mako_005_mako017B_024.ogg"
@@ -1632,7 +1680,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "望月真琴",
       "voice": {
         "id": "MAKO_005_MAKO017B_025",
         "file": "voice/mako_005_mako017B_025.ogg"
@@ -1669,7 +1717,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "望月真琴",
       "voice": {
         "id": "MAKO_005_MAKO017B_026",
         "file": "voice/mako_005_mako017B_026.ogg"
@@ -1706,7 +1754,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "望月真琴",
       "voice": {
         "id": "MAKO_005_MAKO017B_027",
         "file": "voice/mako_005_mako017B_027.ogg"
@@ -1741,7 +1789,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "望月真琴",
       "voice": {
         "id": "MAKO_005_MAKO017B_028",
         "file": "voice/mako_005_mako017B_028.ogg"
@@ -1777,7 +1825,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "望月真琴",
       "voice": {
         "id": "MAKO_005_MAKO017B_029",
         "file": "voice/mako_005_mako017B_029.ogg"
@@ -1812,7 +1860,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "望月真琴",
       "voice": {
         "id": "MAKO_005_MAKO017B_030",
         "file": "voice/mako_005_mako017B_030.ogg"
@@ -1849,7 +1897,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "望月真琴",
       "voice": {
         "id": "MAKO_005_MAKO017B_031",
         "file": "voice/mako_005_mako017B_031.ogg"
@@ -1885,7 +1933,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "望月真琴",
       "voice": {
         "id": "MAKO_005_MAKO017B_032",
         "file": "voice/mako_005_mako017B_032.ogg"
@@ -1928,7 +1976,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "望月真琴",
       "voice": {
         "id": "MAKO_005_MAKO017B_033",
         "file": "voice/mako_005_mako017B_033.ogg"
@@ -1964,7 +2012,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "望月真琴",
       "voice": {
         "id": "MAKO_005_MAKO017B_034",
         "file": "voice/mako_005_mako017B_034.ogg"
@@ -1999,7 +2047,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "望月真琴",
       "voice": {
         "id": "MAKO_005_MAKO017B_035",
         "file": "voice/mako_005_mako017B_035.ogg"
@@ -2034,7 +2082,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "望月真琴",
       "voice": {
         "id": "MAKO_005_MAKO017B_036",
         "file": "voice/mako_005_mako017B_036.ogg"
@@ -2069,7 +2117,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "望月真琴",
       "voice": {
         "id": "MAKO_005_MAKO017B_037",
         "file": "voice/mako_005_mako017B_037.ogg"
@@ -2103,7 +2151,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "望月真琴",
       "voice": {
         "id": "MAKO_005_MAKO017B_038",
         "file": "voice/mako_005_mako017B_038.ogg"
@@ -2137,7 +2185,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "望月真琴",
       "voice": {
         "id": "MAKO_005_MAKO017B_039",
         "file": "voice/mako_005_mako017B_039.ogg"
@@ -2173,7 +2221,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "望月真琴",
       "voice": {
         "id": "MAKO_005_MAKO017B_040",
         "file": "voice/mako_005_mako017B_040.ogg"
@@ -2222,7 +2270,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "望月真琴",
       "voice": {
         "id": "MAKO_005_MAKO017B_041",
         "file": "voice/mako_005_mako017B_041.ogg"
@@ -2259,7 +2307,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥和树",
+      "who": "望月真琴",
       "voice": {
         "id": "MAKO_005_MAKO017B_042",
         "file": "voice/mako_005_mako017B_042.ogg"

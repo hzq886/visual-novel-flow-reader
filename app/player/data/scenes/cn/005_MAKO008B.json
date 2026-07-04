@@ -66,6 +66,10 @@
     {
       "kind": "line",
       "who": "望月真琴",
+      "voice": {
+        "id": "MAKO_005_MAKO008A_001",
+        "file": "voice/mako_005_mako008A_001.ogg"
+      },
       "lines": [
         "「因为，无论说不想生，你都不会原谅我对吧？」"
       ],
@@ -107,6 +111,10 @@
     {
       "kind": "line",
       "who": "望月早纪",
+      "voice": {
+        "id": "SAKI_005_MAKO008A_001",
+        "file": "voice/saki_005_mako008A_001.ogg"
+      },
       "lines": [
         "「呵呵，很快就能一起生产了！",
         "真是期待啊！」"
@@ -148,6 +156,10 @@
     {
       "kind": "line",
       "who": "望月早纪",
+      "voice": {
+        "id": "SAKI_005_MAKO008A_002",
+        "file": "voice/saki_005_mako008A_002.ogg"
+      },
       "lines": [
         "「好了，已经进入稳定期了，久违地来一次性爱吧」"
       ],
@@ -188,6 +200,10 @@
     {
       "kind": "line",
       "who": "望月早纪",
+      "voice": {
+        "id": "SAKI_005_MAKO008A_003",
+        "file": "voice/saki_005_mako008A_003.ogg"
+      },
       "lines": [
         "「终于可以让我进入你了。",
         "只靠自慰远远不够满足」"
@@ -231,6 +247,10 @@
     {
       "kind": "line",
       "who": "望月早纪",
+      "voice": {
+        "id": "SAKI_005_MAKO008A_004",
+        "file": "voice/saki_005_mako008A_004.ogg"
+      },
       "lines": [
         "「怀孕后，我觉得小穴的感觉也有所变化。",
         "我想你一定会享受的……」"
@@ -327,7 +347,7 @@
     },
     {
       "kind": "line",
-      "who": "望月早纪",
+      "who": "古桥和树",
       "lines": [
         "「『这个傲慢正经的双马尾』」"
       ],
@@ -390,7 +410,7 @@
     },
     {
       "kind": "line",
-      "who": "望月早纪",
+      "who": "望月真琴",
       "voice": {
         "id": "MAKO_005_MAKO008B_001",
         "file": "voice/mako_005_mako008B_001.ogg"
@@ -636,7 +656,7 @@
     },
     {
       "kind": "line",
-      "who": "望月早纪",
+      "who": "古桥和树",
       "lines": [
         "「没问题。我会好好疼爱早纪的孕妇小穴」"
       ],
@@ -741,7 +761,7 @@
     },
     {
       "kind": "line",
-      "who": "望月早纪",
+      "who": "望月真琴",
       "voice": {
         "id": "MAKO_005_MAKO008B_002",
         "file": "voice/mako_005_mako008B_002.ogg"
@@ -855,7 +875,7 @@
     },
     {
       "kind": "line",
-      "who": "望月早纪",
+      "who": "望月真琴",
       "voice": {
         "id": "MAKO_005_MAKO008B_003",
         "file": "voice/mako_005_mako008B_003.ogg"
@@ -925,7 +945,7 @@
     },
     {
       "kind": "line",
-      "who": "望月早纪",
+      "who": "望月真琴",
       "voice": {
         "id": "MAKO_005_MAKO008B_004",
         "file": "voice/mako_005_mako008B_004.ogg"
@@ -1018,7 +1038,7 @@
     },
     {
       "kind": "line",
-      "who": "望月早纪",
+      "who": "望月真琴",
       "voice": {
         "id": "MAKO_005_MAKO008B_005",
         "file": "voice/mako_005_mako008B_005.ogg"
@@ -1053,7 +1073,7 @@
     },
     {
       "kind": "line",
-      "who": "望月早纪",
+      "who": "望月真琴",
       "voice": {
         "id": "MAKO_005_MAKO008B_006",
         "file": "voice/mako_005_mako008B_006.ogg"
@@ -1127,7 +1147,7 @@
     },
     {
       "kind": "line",
-      "who": "望月早纪",
+      "who": "望月真琴",
       "voice": {
         "id": "MAKO_005_MAKO008B_007",
         "file": "voice/mako_005_mako008B_007.ogg"
@@ -1197,7 +1217,7 @@
     },
     {
       "kind": "line",
-      "who": "望月早纪",
+      "who": "望月真琴",
       "voice": {
         "id": "MAKO_005_MAKO008B_008",
         "file": "voice/mako_005_mako008B_008.ogg"
@@ -1232,7 +1252,7 @@
     },
     {
       "kind": "line",
-      "who": "望月早纪",
+      "who": "望月真琴",
       "voice": {
         "id": "MAKO_005_MAKO008B_009",
         "file": "voice/mako_005_mako008B_009.ogg"
@@ -1329,7 +1349,7 @@
     },
     {
       "kind": "line",
-      "who": "望月早纪",
+      "who": "望月真琴",
       "voice": {
         "id": "MAKO_005_MAKO008B_010",
         "file": "voice/mako_005_mako008B_010.ogg"
@@ -1364,7 +1384,7 @@
     },
     {
       "kind": "line",
-      "who": "望月早纪",
+      "who": "古桥和树",
       "lines": [
         "「不行呢。我们还要担心宝宝的事情，",
         "不能插得太深」"
@@ -1436,7 +1456,7 @@
     },
     {
       "kind": "line",
-      "who": "望月早纪",
+      "who": "望月真琴",
       "voice": {
         "id": "MAKO_005_MAKO008B_011",
         "file": "voice/mako_005_mako008B_011.ogg"
@@ -1472,7 +1492,7 @@
     },
     {
       "kind": "line",
-      "who": "望月早纪",
+      "who": "望月真琴",
       "voice": {
         "id": "MAKO_005_MAKO008B_012",
         "file": "voice/mako_005_mako008B_012.ogg"
@@ -1562,7 +1582,7 @@
     },
     {
       "kind": "line",
-      "who": "望月早纪",
+      "who": "望月真琴",
       "voice": {
         "id": "MAKO_005_MAKO008B_013",
         "file": "voice/mako_005_mako008B_013.ogg"
@@ -1618,7 +1638,7 @@
     },
     {
       "kind": "line",
-      "who": "望月早纪",
+      "who": "望月真琴",
       "voice": {
         "id": "MAKO_005_MAKO008B_014",
         "file": "voice/mako_005_mako008B_014.ogg"
@@ -1692,7 +1712,7 @@
     },
     {
       "kind": "line",
-      "who": "望月早纪",
+      "who": "望月真琴",
       "voice": {
         "id": "MAKO_005_MAKO008B_015",
         "file": "voice/mako_005_mako008B_015.ogg"
@@ -1748,7 +1768,7 @@
     },
     {
       "kind": "line",
-      "who": "望月早纪",
+      "who": "望月真琴",
       "voice": {
         "id": "MAKO_005_MAKO008B_016",
         "file": "voice/mako_005_mako008B_016.ogg"
@@ -1805,7 +1825,7 @@
     },
     {
       "kind": "line",
-      "who": "望月早纪",
+      "who": "望月真琴",
       "voice": {
         "id": "MAKO_005_MAKO008B_017",
         "file": "voice/mako_005_mako008B_017.ogg"
@@ -1860,7 +1880,7 @@
     },
     {
       "kind": "line",
-      "who": "望月早纪",
+      "who": "望月真琴",
       "voice": {
         "id": "MAKO_005_MAKO008B_018",
         "file": "voice/mako_005_mako008B_018.ogg"
@@ -1924,7 +1944,7 @@
     },
     {
       "kind": "line",
-      "who": "望月早纪",
+      "who": "望月真琴",
       "voice": {
         "id": "MAKO_005_MAKO008B_019",
         "file": "voice/mako_005_mako008B_019.ogg"
@@ -1979,7 +1999,7 @@
     },
     {
       "kind": "line",
-      "who": "望月早纪",
+      "who": "望月真琴",
       "voice": {
         "id": "MAKO_005_MAKO008B_020",
         "file": "voice/mako_005_mako008B_020.ogg"
@@ -2016,7 +2036,7 @@
     },
     {
       "kind": "line",
-      "who": "望月早纪",
+      "who": "望月真琴",
       "voice": {
         "id": "MAKO_005_MAKO008B_021",
         "file": "voice/mako_005_mako008B_021.ogg"
@@ -2092,7 +2112,7 @@
     },
     {
       "kind": "line",
-      "who": "望月早纪",
+      "who": "望月真琴",
       "voice": {
         "id": "MAKO_005_MAKO008B_022",
         "file": "voice/mako_005_mako008B_022.ogg"
@@ -2154,7 +2174,7 @@
     },
     {
       "kind": "line",
-      "who": "望月早纪",
+      "who": "望月真琴",
       "voice": {
         "id": "MAKO_005_MAKO008B_023",
         "file": "voice/mako_005_mako008B_023.ogg"
@@ -2225,7 +2245,7 @@
     },
     {
       "kind": "line",
-      "who": "望月早纪",
+      "who": "望月真琴",
       "voice": {
         "id": "MAKO_005_MAKO008B_024",
         "file": "voice/mako_005_mako008B_024.ogg"
@@ -2279,7 +2299,7 @@
     },
     {
       "kind": "line",
-      "who": "望月早纪",
+      "who": "望月真琴",
       "voice": {
         "id": "MAKO_005_MAKO008B_025",
         "file": "voice/mako_005_mako008B_025.ogg"
@@ -2472,7 +2492,7 @@
     },
     {
       "kind": "line",
-      "who": "望月早纪",
+      "who": "望月真琴",
       "voice": {
         "id": "MAKO_005_MAKO008B_026",
         "file": "voice/mako_005_mako008B_026.ogg"
@@ -2506,7 +2526,7 @@
     },
     {
       "kind": "line",
-      "who": "望月早纪",
+      "who": "望月真琴",
       "voice": {
         "id": "MAKO_005_MAKO008B_027",
         "file": "voice/mako_005_mako008B_027.ogg"
@@ -2541,7 +2561,7 @@
     },
     {
       "kind": "line",
-      "who": "望月早纪",
+      "who": "望月真琴",
       "voice": {
         "id": "MAKO_005_MAKO008B_028",
         "file": "voice/mako_005_mako008B_028.ogg"

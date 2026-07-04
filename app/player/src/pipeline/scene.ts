@@ -38,10 +38,6 @@ type Draft = {
   flash?: number
 }
 
-function escapeRegExp(s: string): string {
-  return s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
-}
-
 // cn ロケールのソースは別タグ語彙を使う（jp と相互排他）。`[cn]`＝本文／`[ascii]`＝id（voice/se/
 // 制御コードは jp と同一）／`[jp]`＝note（立ち絵・背景ラベルは**日本語のまま**＝jp 定義で解決可能）。
 // 正準タグ（text/id/note）へ正規化して以降の状態機械をロケール非依存に保つ（HU-29）。
@@ -59,12 +55,25 @@ const JUNK_CHARS = /[\u{e000}-\u{f8ff}\u{fffd}]/gu
 // 残骸除去後に本文として残すか。空 or 単独の半角文字（ASCII / 半角カナ）のみなら本文ではない。
 const isJunkResidue = (s: string): boolean => s === '' || /^[\x20-\x7e\uff61-\uff9f]$/.test(s)
 
+// ボイスID = <CHAR>_<route 3桁>_<scene 英数>_<連番>。原ゲームは録音を別シーンで流用するため
+// （例: 010_MAIN001A 内の [id] AYAN_001_PRO003A_003）、現在のシーンコードとの一致は要求しない
+// （HU-67。一致を要求すると流用ボイス 584 箇所・117 シーンが無音になる）。連番は数字＋英字 1 字が
+// 基本で、変則 `_SUB` が 1 件（suzu_003_suzu005A_sub.ogg）。BGV_*（背景ボイス）は 2 セグメント目が
+// 3 桁数字でないためマッチせず、後段の分岐が拾う。全ソースの [id]/[ascii] と cv 実ファイル全件に
+// 対する双方向照合で過不足なしを確認済（未収録は主人公 KAZU_* のみ＝file null で無音継続）。
+const VOICE_ID_RE = /^[A-Z]+_\d{3}_[A-Z]+\d{3}[A-Z]?\d?_(?:\d+[A-Z]?|SUB)$/
+
+// 無声・無記名の発話（ボイスIDも【名前】も無い「…」行）に付与する話者名。主人公（KAZU）は
+// ボイス未収録（cv 実ファイル 0 件）のため、無声・無記名の発話は主人公と確定できる（HU-67 で
+// 全ルートの実データ検証。直前話者の引き継ぎだと女性の有声セリフに挟まれた主人公の応答が
+// 直前の女性名に誤帰属していた）。
+const PROTAGONIST_BY_LOCALE: Record<Locale, string> = { jp: '古橋　和樹', cn: '古桥和树' }
+
 export function parseScene(text: string, opts: { code: string; locale: Locale }): Scene {
   const { code, locale } = opts
   const route = code.split('_')[0] ?? code
-  // ボイスID = <CHAR>_<sceneCode>_<serial>。se コード（0001D 等）は se、BG_BLACK/ITEM_* は背景、
+  // [id] の仕分け: ボイスIDは VOICE_ID_RE、se コード（0001D 等）は se、BG_BLACK/ITEM_* は背景、
   // OFF は立ち絵オフ、BGV_* は背景ボイスとして取り込む。その他の制御マーカー（MIX/EFFECT 等）は無視。
-  const voiceRe = new RegExp(`^[A-Z]+_${escapeRegExp(code)}_\\d+[A-Z]?$`)
 
   const beats: Beat[] = []
   let title: string | undefined
@@ -186,7 +195,7 @@ export function parseScene(text: string, opts: { code: string; locale: Locale })
       // 戻す（`【speaker】` と同じ役割）。これをしないと、原データに閉じ「」」が欠けた箇所で
       // quoteDepth が 0 に戻らず以降の行を無制限に吸収する（HU-42）。正規の複数行セリフは
       // voice-id を跨がないため正常系では既に 0＝no-op。flush は後続の dialogue/narration 分岐が担う。
-      if (voiceRe.test(val)) {
+      if (VOICE_ID_RE.test(val)) {
         pendingVoice = val
         quoteDepth = 0
       }
@@ -248,9 +257,10 @@ export function parseScene(text: string, opts: { code: string; locale: Locale })
       const prefix = pendingVoice ? pendingVoice.slice(0, pendingVoice.indexOf('_')) : null
       let who: string
       if (pendingSpeaker) who = pendingSpeaker
-      else if (prefix && voiceMap.has(prefix)) who = voiceMap.get(prefix)!
-      else if (lastWho) who = lastWho
-      else who = prefix ?? ''
+      // 有声: 接頭辞→話者の学習済み対応、無ければ従来どおり直前話者→接頭辞そのもの。
+      else if (prefix) who = voiceMap.get(prefix) ?? lastWho ?? prefix
+      // 無声・無記名 = 未収録の主人公（PROTAGONIST_BY_LOCALE のコメント参照）。
+      else who = PROTAGONIST_BY_LOCALE[locale]
       if (pendingSpeaker && prefix) voiceMap.set(prefix, pendingSpeaker)
 
       cur = { kind: 'line', who, lines: [val], ...snapshot() }

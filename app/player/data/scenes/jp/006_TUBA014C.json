@@ -41,6 +41,10 @@
     {
       "kind": "line",
       "who": "楠木　翼",
+      "voice": {
+        "id": "TUBA_006_TUBA014D_001",
+        "file": "voice/tuba_006_tuba014D_001.ogg"
+      },
       "lines": [
         "「ま、真琴ちゃん！？　どうしたのっ！？」"
       ],
@@ -61,6 +65,10 @@
     {
       "kind": "line",
       "who": "望月　真琴",
+      "voice": {
+        "id": "MAKO_006_TUBA014D_001",
+        "file": "voice/mako_006_tuba014D_001.ogg"
+      },
       "lines": [
         "「どうしたのって……生徒会で遅くなって、今から",
         "帰ろうと思ったところだけど？」"
@@ -81,7 +89,11 @@
     },
     {
       "kind": "line",
-      "who": "望月　真琴",
+      "who": "楠木　翼",
+      "voice": {
+        "id": "TUBA_006_TUBA014D_002",
+        "file": "voice/tuba_006_tuba014D_002.ogg"
+      },
       "lines": [
         "「あっ、そうなんだぁ……えーっと、お疲れ様っ！」"
       ],
@@ -123,6 +135,10 @@
     {
       "kind": "line",
       "who": "望月　真琴",
+      "voice": {
+        "id": "MAKO_006_TUBA014D_002",
+        "file": "voice/mako_006_tuba014D_002.ogg"
+      },
       "lines": [
         "「二人はどうしたの？　何をしてるの？」"
       ],
@@ -161,7 +177,11 @@
     },
     {
       "kind": "line",
-      "who": "望月　真琴",
+      "who": "楠木　翼",
+      "voice": {
+        "id": "TUBA_006_TUBA014D_003",
+        "file": "voice/tuba_006_tuba014D_003.ogg"
+      },
       "lines": [
         "「うん……ちょっとね、二人で話してたとこっ！」"
       ],
@@ -201,6 +221,10 @@
     {
       "kind": "line",
       "who": "望月　真琴",
+      "voice": {
+        "id": "MAKO_006_TUBA014D_003",
+        "file": "voice/mako_006_tuba014D_003.ogg"
+      },
       "lines": [
         "「えっと、もしかして、私に何か隠したいことでも、",
         "あったりするの？」"
@@ -240,7 +264,11 @@
     },
     {
       "kind": "line",
-      "who": "望月　真琴",
+      "who": "楠木　翼",
+      "voice": {
+        "id": "TUBA_006_TUBA014D_004",
+        "file": "voice/tuba_006_tuba014D_004.ogg"
+      },
       "lines": [
         "「真琴ちゃんには、ちゃんと言ったほうがいいよね？",
         "幼馴染で、親友なんだし……」"
@@ -281,7 +309,11 @@
     },
     {
       "kind": "line",
-      "who": "望月　真琴",
+      "who": "楠木　翼",
+      "voice": {
+        "id": "TUBA_006_TUBA014D_005",
+        "file": "voice/tuba_006_tuba014D_005.ogg"
+      },
       "lines": [
         "「あのね、ボクたち、付き合ってるっていうか、",
         "こ、恋人同士になったんだ」"
@@ -303,6 +335,10 @@
     {
       "kind": "line",
       "who": "望月　真琴",
+      "voice": {
+        "id": "MAKO_006_TUBA014D_004",
+        "file": "voice/mako_006_tuba014D_004.ogg"
+      },
       "lines": [
         "「ええっ！？　そうなんだ……二人が恋人に……」"
       ],
@@ -343,6 +379,10 @@
     {
       "kind": "line",
       "who": "望月　真琴",
+      "voice": {
+        "id": "MAKO_006_TUBA014D_005",
+        "file": "voice/mako_006_tuba014D_005.ogg"
+      },
       "lines": [
         "「二人のこと、祝福するわ！　和樹、翼のことを、",
         "大切にしてよね？」"
@@ -403,7 +443,11 @@
     },
     {
       "kind": "line",
-      "who": "古橋　和樹",
+      "who": "楠木　翼",
+      "voice": {
+        "id": "TUBA_006_TUBA014D_006",
+        "file": "voice/tuba_006_tuba014D_006.ogg"
+      },
       "lines": [
         "「ありがとう、真琴ちゃん！　そう言ってくれると",
         "嬉しいよっ！　ボクたち、幸せになるから！」"
@@ -459,7 +503,11 @@
     },
     {
       "kind": "line",
-      "who": "古橋　和樹",
+      "who": "望月　真琴",
+      "voice": {
+        "id": "MAKO_006_TUBA014D_006",
+        "file": "voice/mako_006_tuba014D_006.ogg"
+      },
       "lines": [
         "「もしかして、その……二人は……」"
       ],
@@ -539,7 +587,11 @@
     },
     {
       "kind": "line",
-      "who": "古橋　和樹",
+      "who": "望月　真琴",
+      "voice": {
+        "id": "MAKO_006_TUBA014D_007",
+        "file": "voice/mako_006_tuba014D_007.ogg"
+      },
       "lines": [
         "「うくっ……イ、イチャイチャって……」"
       ],
@@ -579,7 +631,11 @@
     },
     {
       "kind": "line",
-      "who": "古橋　和樹",
+      "who": "楠木　翼",
+      "voice": {
+        "id": "TUBA_006_TUBA014D_007",
+        "file": "voice/tuba_006_tuba014D_007.ogg"
+      },
       "lines": [
         "「あのっ、黙っていてごめんね！　隠すつもりは",
         "無かったんだけど、つい最近のことでっ！」"
@@ -620,7 +676,11 @@
     },
     {
       "kind": "line",
-      "who": "古橋　和樹",
+      "who": "楠木　翼",
+      "voice": {
+        "id": "TUBA_006_TUBA014D_008",
+        "file": "voice/tuba_006_tuba014D_008.ogg"
+      },
       "lines": [
         "「ボクたち、恋人同士になったんだ……その、カズが",
         "告白してくれて……それで……」"
@@ -641,7 +701,11 @@
     },
     {
       "kind": "line",
-      "who": "古橋　和樹",
+      "who": "望月　真琴",
+      "voice": {
+        "id": "MAKO_006_TUBA014D_008",
+        "file": "voice/mako_006_tuba014D_008.ogg"
+      },
       "lines": [
         "「そうなんだ……恋人同士に……」"
       ],
@@ -681,7 +745,11 @@
     },
     {
       "kind": "line",
-      "who": "古橋　和樹",
+      "who": "楠木　翼",
+      "voice": {
+        "id": "TUBA_006_TUBA014D_009",
+        "file": "voice/tuba_006_tuba014D_009.ogg"
+      },
       "lines": [
         "「あの、もしかして……怒ってる？」"
       ],
@@ -701,7 +769,11 @@
     },
     {
       "kind": "line",
-      "who": "古橋　和樹",
+      "who": "望月　真琴",
+      "voice": {
+        "id": "MAKO_006_TUBA014D_009",
+        "file": "voice/mako_006_tuba014D_009.ogg"
+      },
       "lines": [
         "「ううん、そんなことないよ……良かったね」"
       ],

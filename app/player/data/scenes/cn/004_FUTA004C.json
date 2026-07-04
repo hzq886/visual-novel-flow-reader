@@ -32,6 +32,10 @@
     {
       "kind": "line",
       "who": "古桥凉菜",
+      "voice": {
+        "id": "SUZU_001_PRO003B_019",
+        "file": "voice/suzu_001_pro003B_019.ogg"
+      },
       "lines": [
         "「那么，晚安了」"
       ],
@@ -52,6 +56,10 @@
     {
       "kind": "line",
       "who": "古桥绫菜",
+      "voice": {
+        "id": "AYAN_001_PRO003A_026",
+        "file": "voice/ayan_001_pro003A_026.ogg"
+      },
       "lines": [
         "「晚安。好好休息哦」"
       ],

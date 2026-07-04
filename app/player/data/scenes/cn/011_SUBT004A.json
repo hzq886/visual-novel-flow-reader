@@ -65,6 +65,10 @@
     {
       "kind": "line",
       "who": "古桥凉菜",
+      "voice": {
+        "id": "SUZU_001_PRO003B_002B",
+        "file": "voice/suzu_001_pro003B_002B.ogg"
+      },
       "lines": [
         "「早上好」"
       ],
@@ -127,6 +131,10 @@
     {
       "kind": "line",
       "who": "古桥绫菜",
+      "voice": {
+        "id": "AYAN_001_PRO003A_004",
+        "file": "voice/ayan_001_pro003A_004.ogg"
+      },
       "lines": [
         "「好了，早餐准备好了」"
       ],
@@ -165,7 +173,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥绫菜",
+      "who": "古桥和树",
       "lines": [
         "「啊……一直以来，谢谢你」"
       ],
@@ -204,7 +212,11 @@
     },
     {
       "kind": "line",
-      "who": "古桥绫菜",
+      "who": "古桥凉菜",
+      "voice": {
+        "id": "SUZU_001_PRO003B_005",
+        "file": "voice/suzu_001_pro003B_005.ogg"
+      },
       "lines": [
         "「这个真的很好吃呢」"
       ],
@@ -216,6 +228,10 @@
     {
       "kind": "line",
       "who": "古桥绫菜",
+      "voice": {
+        "id": "AYAN_001_PRO003A_022",
+        "file": "voice/ayan_001_pro003A_022.ogg"
+      },
       "lines": [
         "「嘿嘿，能听到你这么说，我很开心」"
       ],
@@ -289,6 +305,10 @@
     {
       "kind": "line",
       "who": "楠木裕司",
+      "voice": {
+        "id": "MOBD_001_PRO003F_003",
+        "file": "voice/mobd_001_pro003F_003.ogg"
+      },
       "lines": [
         "「嗨，早上好。你来接翼了吗？」"
       ],
@@ -308,7 +328,7 @@
     },
     {
       "kind": "line",
-      "who": "楠木裕司",
+      "who": "古桥和树",
       "lines": [
         "「早，早上好」"
       ],
@@ -350,6 +370,10 @@
     {
       "kind": "line",
       "who": "楠木裕司",
+      "voice": {
+        "id": "MOBD_001_PRO003F_004",
+        "file": "voice/mobd_001_pro003F_004.ogg"
+      },
       "lines": [
         "「那我就走了，拜托你了」"
       ],
@@ -389,7 +413,7 @@
     },
     {
       "kind": "line",
-      "who": "楠木裕司",
+      "who": "古桥和树",
       "lines": [
         "「好的，一路顺风……」"
       ],
@@ -437,6 +461,10 @@
     {
       "kind": "line",
       "who": "楠木枫",
+      "voice": {
+        "id": "KAED_001_PRO003E_005B",
+        "file": "voice/kaed_001_pro003E_005B.ogg"
+      },
       "lines": [
         "「啊，是和树君呢」"
       ],
@@ -475,7 +503,7 @@
     },
     {
       "kind": "line",
-      "who": "楠木枫",
+      "who": "古桥和树",
       "lines": [
         "「早上好。」"
       ],
@@ -496,6 +524,10 @@
     {
       "kind": "line",
       "who": "楠木枫",
+      "voice": {
+        "id": "KAED_001_PRO003E_004",
+        "file": "voice/kaed_001_pro003E_004.ogg"
+      },
       "lines": [
         "「看来翼还没有准备好。稍微再等一下，可以吗？」"
       ],

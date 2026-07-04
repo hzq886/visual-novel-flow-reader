@@ -80,6 +80,10 @@
     {
       "kind": "line",
       "who": "望月真琴",
+      "voice": {
+        "id": "MAKO_001_PRO003C_010",
+        "file": "voice/mako_001_pro003C_010.ogg"
+      },
       "lines": [
         "「放学后……好，我知道了……」"
       ],

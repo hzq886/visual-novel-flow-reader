@@ -35,6 +35,10 @@
     {
       "kind": "line",
       "who": "古桥凉菜",
+      "voice": {
+        "id": "SUZU_009_NUKE001_004",
+        "file": "voice/suzu_009_nuke001_004.ogg"
+      },
       "lines": [
         "「早上好。吃完早餐，快点去吧」"
       ],
@@ -55,6 +59,10 @@
     {
       "kind": "line",
       "who": "古桥绫菜",
+      "voice": {
+        "id": "AYAN_009_NUKE001_006",
+        "file": "voice/ayan_009_nuke001_006.ogg"
+      },
       "lines": [
         "「把自己的餐具洗干净再走哦」"
       ],
@@ -101,6 +109,10 @@
     {
       "kind": "line",
       "who": "古桥绫菜",
+      "voice": {
+        "id": "AYAN_009_NUKE001_007",
+        "file": "voice/ayan_009_nuke001_007.ogg"
+      },
       "lines": [
         "「啊，凉菜。今天要和郡山约会，可能要",
         "晚回来了」"
@@ -121,7 +133,11 @@
     },
     {
       "kind": "line",
-      "who": "古桥绫菜",
+      "who": "古桥凉菜",
+      "voice": {
+        "id": "SUZU_009_NUKE001_005",
+        "file": "voice/suzu_009_nuke001_005.ogg"
+      },
       "lines": [
         "「是吗？那我就在外面解决了。",
         "和树，你自己买点东西吃吧」"
@@ -165,6 +181,10 @@
     {
       "kind": "line",
       "who": "古桥绫菜",
+      "voice": {
+        "id": "AYAN_001_PRO003A_007",
+        "file": "voice/ayan_001_pro003A_007.ogg"
+      },
       "lines": [
         "「今天下午天气可能会变坏哦？",
         "别忘了带伞啊」"
@@ -185,7 +205,11 @@
     },
     {
       "kind": "line",
-      "who": "古桥绫菜",
+      "who": "古桥凉菜",
+      "voice": {
+        "id": "SUZU_001_PRO003B_007",
+        "file": "voice/suzu_001_pro003B_007.ogg"
+      },
       "lines": [
         "「嗯，知道了。谢谢」"
       ],

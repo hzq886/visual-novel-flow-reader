@@ -47,6 +47,10 @@
     {
       "kind": "line",
       "who": "古桥绫菜",
+      "voice": {
+        "id": "AYAN_001_PRO003A_001B",
+        "file": "voice/ayan_001_pro003A_001B.ogg"
+      },
       "lines": [
         "「早上好」"
       ],
@@ -94,6 +98,10 @@
     {
       "kind": "line",
       "who": "古桥凉菜",
+      "voice": {
+        "id": "SUZU_001_PRO003B_001",
+        "file": "voice/suzu_001_pro003B_001.ogg"
+      },
       "lines": [
         "「早上好。我有点睡过头了。」"
       ],
@@ -113,7 +121,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥凉菜",
+      "who": "古桥和树",
       "lines": [
         "「早上好，凉姐。」"
       ],
@@ -203,6 +211,10 @@
     {
       "kind": "line",
       "who": "楠木枫",
+      "voice": {
+        "id": "KAED_001_PRO002B3_001",
+        "file": "voice/kaed_001_pro002B3_001.ogg"
+      },
       "lines": [
         "「喂，是和树君吗？」"
       ],
@@ -222,7 +234,7 @@
     },
     {
       "kind": "line",
-      "who": "楠木枫",
+      "who": "古桥和树",
       "lines": [
         "「嗯，早上好。」"
       ],
@@ -271,6 +283,10 @@
     {
       "kind": "line",
       "who": "楠木翼",
+      "voice": {
+        "id": "TUBA_001_PRO003D_001",
+        "file": "voice/tuba_001_pro003D_001.ogg"
+      },
       "lines": [
         "「早上好！今天天气也很好呢！」"
       ],
@@ -309,7 +325,7 @@
     },
     {
       "kind": "line",
-      "who": "楠木翼",
+      "who": "古桥和树",
       "lines": [
         "「早上好……是啊，天气真好呢。」"
       ],
@@ -370,7 +386,7 @@
     },
     {
       "kind": "line",
-      "who": "楠木翼",
+      "who": "古桥和树",
       "lines": [
         "「那，那么，我们走吧。」"
       ],
@@ -434,6 +450,10 @@
     {
       "kind": "line",
       "who": "望月真琴",
+      "voice": {
+        "id": "TUBA_001_PRO003D_005",
+        "file": "voice/tuba_001_pro003D_005.ogg"
+      },
       "lines": [
         "「早上好，真琴酱！」"
       ],
@@ -472,7 +492,7 @@
     },
     {
       "kind": "line",
-      "who": "望月真琴",
+      "who": "古桥和树",
       "lines": [
         "「早上好！」"
       ],

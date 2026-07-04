@@ -42,6 +42,10 @@
     {
       "kind": "line",
       "who": "古桥绫菜",
+      "voice": {
+        "id": "AYAN_001_PRO003A_001B",
+        "file": "voice/ayan_001_pro003A_001B.ogg"
+      },
       "lines": [
         "「早上好」"
       ],
@@ -88,6 +92,10 @@
     {
       "kind": "line",
       "who": "古桥凉菜",
+      "voice": {
+        "id": "SUZU_001_PRO003B_001",
+        "file": "voice/suzu_001_pro003B_001.ogg"
+      },
       "lines": [
         "「早上好。我有点睡过头了。」"
       ],
@@ -107,7 +115,7 @@
     },
     {
       "kind": "line",
-      "who": "古桥凉菜",
+      "who": "古桥和树",
       "lines": [
         "「早上好，凉姐姐。」"
       ],

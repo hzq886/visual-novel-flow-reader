@@ -28,6 +28,10 @@
     {
       "kind": "line",
       "who": "望月真琴",
+      "voice": {
+        "id": "MAKO_005_MAKO001B_016",
+        "file": "voice/mako_005_mako001B_016.ogg"
+      },
       "lines": [
         "「啊嗯……啊，啊啊……哈啊啊……」"
       ],
