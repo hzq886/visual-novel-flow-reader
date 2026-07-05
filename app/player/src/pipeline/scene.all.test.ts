@@ -1,6 +1,11 @@
 import { describe, it, expect } from 'vitest'
 import { parseScene } from './scene'
-import { Scene } from './types'
+import { ItemsTable, Scene } from './types'
+// アイテムCG窓の仕様表（extract-items.py 生成）。ITEM_* を含むシーンのパースに必須（HU-70）。
+// 実データで parse することで、items.json の texts/nextText と txt の整合も同時に検証される。
+import itemsFile from '@data/items.json'
+
+const items = ItemsTable.parse(itemsFile.items)
 
 // 全シーン回帰（HU-25）: 縦串 1 シーンから全編へスケールした際、parseScene が
 // 002 以外の記法（複数話者・特殊 note・地の文のみ・長尺）でこけないことを担保する。
@@ -55,7 +60,7 @@ describe('parseScene — 全シーン invariant（全編化の回帰防止）', 
     let beatTotal = 0
     for (const { code, raw } of scenes) {
       try {
-        const scene = parseScene(raw, { code, locale: 'jp' })
+        const scene = parseScene(raw, { code, locale: 'jp', items })
         Scene.parse(scene) // zod スキーマ適合
         if (scene.code !== code) failures.push(`${code}: code 不一致 (${scene.code})`)
         if (scene.route.length === 0) failures.push(`${code}: route 空`)

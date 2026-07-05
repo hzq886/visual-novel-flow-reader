@@ -14,6 +14,7 @@ import { fontFor, UI_FONT } from '@/theme'
 import { sceneAssetUrls } from './sceneLoader'
 import { CgLayer } from './layers/CgLayer'
 import { SpriteLayer } from './layers/SpriteLayer'
+import { ItemLayer } from './layers/ItemLayer'
 import { FlashLayer } from './layers/FlashLayer'
 import { SubtitleLayer } from './layers/SubtitleLayer'
 import { TitleCardLayer } from './layers/TitleCardLayer'
@@ -62,11 +63,13 @@ export function Stage() {
         app.stage.addChild(root)
         const cg = new CgLayer(app.ticker)
         const sprite = new SpriteLayer(app.ticker)
+        const item = new ItemLayer(app.ticker)
         const flash = new FlashLayer(app.ticker)
         const subtitle = new SubtitleLayer(app.ticker)
         const titleCard = new TitleCardLayer(app.ticker)
-        // フラッシュは cg/sprite の上・字幕の下（閃光中もセリフを読める）。
-        root.addChild(cg, sprite, flash, subtitle, titleCard)
+        // アイテム窓は背景・立ち絵の上（HU-70）。フラッシュは cg/sprite/item の上・字幕の下
+        // （閃光中もセリフを読める）。
+        root.addChild(cg, sprite, item, flash, subtitle, titleCard)
         const audio = new AudioManager()
 
         const layout = () => {
@@ -119,6 +122,9 @@ export function Stage() {
           } else {
             sprite.hide()
           }
+          // アイテムCG窓（bg/sprite の上の独立オーバーレイ・HU-70）。
+          if (beat.item?.file) void item.show(cgUrl(beat.item.file), beat.item.x, beat.item.y)
+          else item.hide()
           renderText(scene, index, line)
           if (opts?.silent) return
           // 字幕と同期して実ボイスを再生（台詞のみ）。地の文では前のボイスを止める。
@@ -144,7 +150,12 @@ export function Stage() {
           audio.releaseVoices()
           if (leaving.length === 0) return
           setTimeout(() => {
-            const keep = new Set([...prevUrls, ...cg.inUseUrls(), ...sprite.inUseUrls()])
+            const keep = new Set([
+              ...prevUrls,
+              ...cg.inUseUrls(),
+              ...sprite.inUseUrls(),
+              ...item.inUseUrls(),
+            ])
             // 実際にロード済み（キャッシュ在中）かつ現在未使用の URL だけを解放する
             // （未ロード URL を unload すると "not found in Cache" 警告が出るため絞る）。
             const toFree = leaving.filter((u) => !keep.has(u) && Assets.cache.has(u))

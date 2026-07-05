@@ -13,6 +13,9 @@ bytecode RE（[`smain_flow_guide.md` §3.9](../../data_extract/text/_tools/smain
 
 - **se は bytecode に存在し抽出可能**。シーン脚本の `0x6c` が se 再生命令で、se コードは各シーンの
   文字列表に大文字で並ぶ。同コードは `extract_text.py` の `[id]` マーカーにも現れる（文字列表ダンプ）。
+  - **訂正（HU-70 / [ADR 0009](0009-item-cg-overlay.md)）**: シーン脚本の文字列参照は 0 始まりで、
+    se 再生命令は **`0x15`**（`0x6c` は `EFFECT:FLASHn` 実行）。「0x6c=se」は 1 始まり誤読だった。
+    本 ADR の決定（se をテキスト `[id]` マーカーから抽出）自体は不変（→ §3.12 台帳）。
 - **bgm（M01-M16 のトラック選択）は `md_scr.med` に一切エンコードされていない**（全 opcode/SMAIN/
   定義表/文字列を網羅確認済。`MUSIC:N` はタイトルメニュー専用）。恐らく実行ファイル側にハードコード。
 

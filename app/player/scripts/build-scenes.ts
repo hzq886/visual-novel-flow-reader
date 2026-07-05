@@ -20,7 +20,13 @@ import { fileURLToPath } from 'node:url'
 import { parseScene } from '../src/pipeline/scene.ts'
 import { buildVoiceIndex, resolveScene } from '../src/pipeline/resolve.ts'
 import { buildBgmIndex, buildSeIndex } from '../src/pipeline/audio.ts'
-import { BgsetTable, Manifest, SprsetTable, type Locale } from '../src/pipeline/types.ts'
+import {
+  BgsetTable,
+  ItemsTable,
+  Manifest,
+  SprsetTable,
+  type Locale,
+} from '../src/pipeline/types.ts'
 
 const HERE = dirname(fileURLToPath(import.meta.url)) // app/player/scripts
 const APP = resolve(HERE, '..') // app/player
@@ -53,6 +59,14 @@ async function loadContext() {
   const sprset = SprsetTable.parse(await readJson(spritesPath))
   const bgset = BgsetTable.parse(await readJson(bgPath))
 
+  // アイテムCG窓の座標・表示区間（HU-70 / ADR 0009）。committed 生成物なので必須。
+  const itemsPath = join(DATA_DIR, 'items.json')
+  if (!existsSync(itemsPath)) {
+    console.error('✗ items.json が未生成です。先に `npm run data:items` を実行してください。')
+    process.exit(1)
+  }
+  const items = ItemsTable.parse(((await readJson(itemsPath)) as { items: unknown }).items)
+
   const manifestPath = join(DATA_DIR, 'manifest.json')
   let voiceIndex = new Map<string, string>()
   let seIndex: Map<string, string> | undefined
@@ -67,7 +81,7 @@ async function loadContext() {
       '  ⚠ manifest.json 無し → voice は未解決・se/bgm は未付与（`npm run assets:fetch` 後に再生成）',
     )
   }
-  return { sprset, bgset, voiceIndex, seIndex, bgmIndex }
+  return { sprset, bgset, items, voiceIndex, seIndex, bgmIndex }
 }
 
 async function main() {
@@ -93,7 +107,11 @@ async function main() {
   let beatTotal = 0
   for (const file of targets.sort()) {
     const code = file.replace(/\.txt$/, '')
-    const parsed = parseScene(await readFile(join(textDir, file), 'utf8'), { code, locale })
+    const parsed = parseScene(await readFile(join(textDir, file), 'utf8'), {
+      code,
+      locale,
+      items: ctx.items,
+    })
     const resolved = resolveScene(parsed, ctx)
     // 本文 [text] を持たず [id] 参照のみの複合シーン（例 006_TUBA010BC = 010B+010C を束ねる連結子）は
     // beats=0 になる。flow は構成アトム（010B/010C）を参照し複合は辿らないため、再生対象外として出力しない。

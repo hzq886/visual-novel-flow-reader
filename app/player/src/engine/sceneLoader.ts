@@ -52,6 +52,7 @@ export function sceneAssetUrls(scene: Scene): string[] {
   const urls = new Set<string>()
   for (const beat of scene.beats) {
     if (beat.bg?.file) urls.add(cgUrl(beat.bg.file))
+    if (beat.item?.file) urls.add(cgUrl(beat.item.file)) // アイテムCG窓（HU-70）
     if (beat.sprite?.body) urls.add(spriteUrl(beat.sprite.body))
     if (beat.sprite?.face) urls.add(spriteUrl(beat.sprite.face))
   }

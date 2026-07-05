@@ -1,12 +1,15 @@
 import { describe, it, expect } from 'vitest'
 import { parseScene } from './scene'
 import { resolveBg, resolveSprite } from './defs'
-import { BgsetTable, Scene, SprsetTable } from './types'
+import { BgsetTable, ItemsTable, Scene, SprsetTable } from './types'
 import sprsetJson from '@data/sprites.json'
 import bgsetJson from '@data/backgrounds.json'
+import itemsFile from '@data/items.json'
 
 const sprset = SprsetTable.parse(sprsetJson)
 const bgset = BgsetTable.parse(bgsetJson)
+// アイテムCG窓の仕様表（HU-70）。cn 実データで parse することで nextText（cn）との整合も検証される。
+const items = ItemsTable.parse(itemsFile.items)
 
 // cn ロケール回帰（HU-29）: 中国語版ソースは別タグ語彙（[cn]=本文 / [ascii]=id / [jp]=note）を使う。
 // parseScene のタグ正規化で jp と同じ状態機械に載り、**構造メタ（kind/voice/bg/sprite ラベル）は
@@ -32,7 +35,7 @@ const hasText = (raw: string) => /\[(text|cn)\]/.test(raw)
 
 describe('parseScene — cn ロケール（別タグ語彙の正規化）', () => {
   it('単一シーン 002_AYAN001A: 構造は jp と同形・本文は中国語', () => {
-    const s = parseScene(cn.get('002_AYAN001A')!, { code: '002_AYAN001A', locale: 'cn' })
+    const s = parseScene(cn.get('002_AYAN001A')!, { code: '002_AYAN001A', locale: 'cn', items })
     expect(() => Scene.parse(s)).not.toThrow()
     expect(s.locale).toBe('cn')
     expect(s.title).toContain('绫菜') // 中国語タイトル（古桥绫菜\N去咖啡馆）
@@ -54,7 +57,7 @@ describe('parseScene — cn ロケール（別タグ語彙の正規化）', () =
       if (!hasText(raw)) continue
       content++
       try {
-        const s = parseScene(raw, { code, locale: 'cn' })
+        const s = parseScene(raw, { code, locale: 'cn', items })
         Scene.parse(s)
         if (s.beats.length === 0) failures.push(`${code}: [cn] があるのに beats 空`)
       } catch (e) {
@@ -78,7 +81,7 @@ describe('parseScene — cn ロケール（別タグ語彙の正規化）', () =
     const unresolvedSprite: string[] = []
     for (const [code, raw] of cn) {
       if (!hasText(raw)) continue
-      for (const b of parseScene(raw, { code, locale: 'cn' }).beats) {
+      for (const b of parseScene(raw, { code, locale: 'cn', items }).beats) {
         if (b.bg && resolveBg(bgset, b.bg.label).file === null)
           unresolvedBg.push(`${code}: ${b.bg.label}`)
         if (b.sprite && resolveSprite(sprset, b.sprite.label).body === null)
