@@ -5,7 +5,7 @@
  * 注: 現状の Scene には感情(gray)データが無いため setGray は機構のみ移植（既定 0）。
  */
 import { Assets, ColorMatrixFilter, Container, Sprite, type Texture, type Ticker } from 'pixi.js'
-import { coverScale, isItemCg, GAME_H, GAME_W } from '../assets'
+import { coverScale, GAME_H, GAME_W } from '../assets'
 import { tween } from '../tween'
 
 const FADE_MS = 1400
@@ -46,7 +46,7 @@ export class CgLayer extends Container {
     const tex: Texture = await Assets.load(url)
     if (this.curUrl !== url) return // 取得中に別の beat へ進んだ
 
-    this.fit(this.back, tex, url)
+    this.fit(this.back, tex)
     this.back.alpha = 0
     this.backUrl = url
     this.kbElapsed = 0
@@ -75,10 +75,10 @@ export class CgLayer extends Container {
     return [this.frontUrl, this.backUrl].filter((u): u is string => u !== null)
   }
 
-  // アイテムCG（ITEM_*・400×400）は原寸・中央表示、それ以外は cover 拡大（HU-69）。
-  private fit(sprite: Sprite, tex: Texture, url: string): void {
+  // 背景は cover 拡大（アイテムCGは本レイヤに来ない: ItemLayer が原寸窓で描く・HU-70）。
+  private fit(sprite: Sprite, tex: Texture): void {
     sprite.texture = tex
-    sprite.scale.set(isItemCg(url) ? 1 : coverScale(tex.width, tex.height))
+    sprite.scale.set(coverScale(tex.width, tex.height))
   }
 
   /** grayscale 量 0..1（0=フィルタ無し）。感情演出用の機構。 */
@@ -93,8 +93,6 @@ export class CgLayer extends Container {
 
   private kenBurns = (): void => {
     this.kbElapsed += this.ticker.deltaMS
-    // アイテムCGは原寸固定（ズームすると「原寸のまま」でなくなる）。
-    if (this.frontUrl !== null && isItemCg(this.frontUrl)) return
     // 1.0 → ~1.06 まで 18s かけて緩やかにズーム（front のみ）。
     const base = coverScale(this.front.texture.width || GAME_W, this.front.texture.height || GAME_H)
     const k = 1 + 0.06 * Math.min(1, this.kbElapsed / 18000)

@@ -36,6 +36,33 @@ export const SeRef = z.object({
 })
 export type SeRef = z.infer<typeof SeRef>
 
+// アイテムCG窓（HU-70）。原エンジンは ITEM_*（400×400）を背景ではなく**専用オーバーレイ窓**で
+// 直前の背景・立ち絵の上に重ねる（bytecode 0x3b/0x3c。→ smain_flow_guide.md §3.12 / ADR 0009）。
+// code がそのまま CG ファイルコード（_BGSET を介さない）。x/y は論理空間 1280×720 での窓左上
+// （x=440 が (1280-400)/2 と一致＝左上基準。原データは x=180/440/700/800/850・y=120 固定）。
+export const ItemRef = z.object({
+  code: z.string(), // "ITEM_05_01"
+  file: z.string().nullable(),
+  x: z.number(),
+  y: z.number(),
+})
+export type ItemRef = z.infer<typeof ItemRef>
+
+// items.json（extract-items.py 生成）: シーンコード → アイテム窓仕様。texts は窓表示中に
+// 進む本文行数（表示区間 0x3b〜0x3c の機械抽出値。cn の統合翻訳で行数が変わるため locale 別）、
+// nextText は閉じ直後の本文（locale 別・照合用）。
+export const ItemsTable = z.record(
+  z.string(),
+  z.object({
+    item: z.string(),
+    x: z.number(),
+    y: z.number(),
+    texts: z.record(z.string(), z.number().int()),
+    nextText: z.record(z.string(), z.string()),
+  }),
+)
+export type ItemsTable = z.infer<typeof ItemsTable>
+
 // BGM 参照。track は素材名（"M01"〜"M16"）。ルート（character）から curated 割当（audio.ts）。
 export const BgmRef = z.object({
   track: z.string(),
@@ -67,6 +94,7 @@ export const NarrationBeat = z.object({
   lines: z.array(z.string()),
   bg: BgRef.optional(),
   sprite: SpriteRef.optional(),
+  item: ItemRef.optional(), // アイテムCG窓（bg/sprite の上に重ねる独立オーバーレイ・HU-70）
   se: z.array(SeRef).optional(), // この beat で鳴らす効果音（ワンショット、複数可）
   bgv: VoiceRef.optional(), // 背景ボイス（ループ）。bg/sprite 同様 sticky で持続（HU-37）
   flash: z.number().int().optional(), // 画面フラッシュ強度 1-3（EFFECT:FLASHn、ワンショット）（HU-38）
@@ -80,6 +108,7 @@ export const LineBeat = z.object({
   lines: z.array(z.string()),
   bg: BgRef.optional(),
   sprite: SpriteRef.optional(),
+  item: ItemRef.optional(), // アイテムCG窓（bg/sprite の上に重ねる独立オーバーレイ・HU-70）
   se: z.array(SeRef).optional(), // この beat で鳴らす効果音（ワンショット、複数可）
   bgv: VoiceRef.optional(), // 背景ボイス（ループ）。bg/sprite 同様 sticky で持続（HU-37）
   flash: z.number().int().optional(), // 画面フラッシュ強度 1-3（EFFECT:FLASHn、ワンショット）（HU-38）

@@ -23,11 +23,12 @@
     "data:defs": "tsx scripts/build-defs.ts",
     "data:scenes": "tsx scripts/build-scenes.ts",
     "data:scenes:cn": "tsx scripts/build-scenes.ts --locale cn",
+    "data:items": "python3 scripts/extract-items.py",
     "data:flow": "python3 scripts/extract-flow.py",
     "data:flow:routemap": "tsx scripts/build-flow.ts",
     "data:flow:diff": "python3 scripts/extract-flow.py --diff",
     "data:scene-index": "tsx scripts/build-scene-index.ts",
-    "data:all": "npm run data:defs && npm run data:scenes && npm run data:scenes:cn && npm run data:flow && npm run data:scene-index",
+    "data:all": "npm run data:defs && npm run data:items && npm run data:scenes && npm run data:scenes:cn && npm run data:flow && npm run data:scene-index",
     "validate": "tsx scripts/validate.ts",
     "validate:cn": "tsx scripts/validate.ts --locale cn"
   },

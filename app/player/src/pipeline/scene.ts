@@ -18,12 +18,27 @@
  * 素材ファイルの実体解決（manifest 照合）は別工程（resolve*）。ここでは label のみ付与。
  *
  * レイヤモデル（HU-63）: 原作エンジンは「通常背景＋立ち絵」の下レイヤに、EV（一枚絵）／
- * ITEM CG／黒一色（暗転）の**被せ CG** が覆い被さる 2 層構造。被せ CG 表示中は立ち絵を
+ * 黒一色（暗転）の**被せ CG** が覆い被さる 2 層構造。被せ CG 表示中は立ち絵を
  * 描かず（下レイヤの sticky は保持）、立ち絵 note か次の `#背景` note が来た時点で被せ CG が
  * 閉じて下レイヤへ復帰する（EV 中の立ち絵 note 15 件・EV→背景後に立ち絵 note 無し 9 件の
  * 原テキスト精読で確定）。beat 出力は bg = 被せ CG ?? 通常背景、sprite = 被せ CG 中は無し。
+ *
+ * アイテムCG（HU-70）: ITEM_*（400×400）は被せ CG ではなく**独立のオーバーレイ窓**
+ * （bytecode 0x3b/0x3c。→ ADR 0009）。背景・立ち絵はそのまま表示され、窓表示中に立ち絵の
+ * 差分変更もある（＝立ち絵 note で閉じない）。表示区間は抽出テキストに現れないため
+ * items.json（extract-items.py）の「本文 texts 行で閉じる」を消費し、閉じ位置の本文を
+ * nextText と照合してズレを fail-fast させる。beat 出力は item フィールド（bg とは独立）。
  */
-import { Scene, type Beat, type BgRef, type Locale, type SeRef, type SpriteRef } from './types'
+import {
+  Scene,
+  type Beat,
+  type BgRef,
+  type ItemRef,
+  type ItemsTable,
+  type Locale,
+  type SeRef,
+  type SpriteRef,
+} from './types'
 import { SE_RE } from './audio'
 
 type Draft = {
@@ -33,6 +48,7 @@ type Draft = {
   lines: string[]
   bg?: BgRef
   sprite?: SpriteRef
+  item?: ItemRef
   se?: SeRef[]
   bgv?: { id: string; file: null }
   flash?: number
@@ -69,7 +85,10 @@ const VOICE_ID_RE = /^[A-Z]+_\d{3}_[A-Z]+\d{3}[A-Z]?\d?_(?:\d+[A-Z]?|SUB)$/
 // 直前の女性名に誤帰属していた）。
 const PROTAGONIST_BY_LOCALE: Record<Locale, string> = { jp: '古橋　和樹', cn: '古桥和树' }
 
-export function parseScene(text: string, opts: { code: string; locale: Locale }): Scene {
+export function parseScene(
+  text: string,
+  opts: { code: string; locale: Locale; items?: ItemsTable },
+): Scene {
   const { code, locale } = opts
   const route = code.split('_')[0] ?? code
   // [id] の仕分け: ボイスIDは VOICE_ID_RE、se コード（0001D 等）は se、BG_BLACK/ITEM_* は背景、
@@ -83,8 +102,10 @@ export function parseScene(text: string, opts: { code: string; locale: Locale })
   let pendingSe: SeRef[] = [] // beat 生成前に現れた se は次 beat へ持ち越す
   let pendingFlash: number | undefined // EFFECT:FLASHn は直後の beat（インパクト行）で光らせる
   let stickyBg: BgRef | undefined // 通常背景（下レイヤ）
-  let stickyOverlay: BgRef | undefined // 被せ CG（EV/ITEM/黒一色。表示中は立ち絵を隠す・HU-63）
+  let stickyOverlay: BgRef | undefined // 被せ CG（EV/黒一色。表示中は立ち絵を隠す・HU-63）
   let stickySprite: SpriteRef | undefined // 立ち絵（下レイヤ。被せ CG 中も保持し復帰時に再表示）
+  let stickyItem: ItemRef | undefined // アイテムCG窓（bg/sprite と独立のオーバーレイ・HU-70）
+  let itemTextsLeft = 0 // 窓表示中に残り何行の本文を進めるか（items.json の texts を消費）
   let stickyBgv: { id: string; file: null } | undefined
   let quoteDepth = 0
   let lastWho: string | null = null
@@ -99,17 +120,20 @@ export function parseScene(text: string, opts: { code: string; locale: Locale })
   type Snap = {
     bg?: BgRef
     sprite?: SpriteRef
+    item?: ItemRef
     se?: SeRef[]
     bgv?: { id: string; file: null }
     flash?: number
   }
   const snapshot = (): Snap => {
     // 表示状態 = 被せ CG があればそれが bg・立ち絵は隠す。無ければ通常背景＋立ち絵（HU-63）。
+    // アイテム窓は独立フィールド（bg/sprite を隠さない・HU-70）。
     const bg = stickyOverlay ?? stickyBg
     const sprite = stickyOverlay ? undefined : stickySprite
     const snap: Snap = {
       ...(bg ? { bg } : {}),
       ...(sprite ? { sprite } : {}),
+      ...(stickyItem ? { item: stickyItem } : {}),
       ...(stickyBgv ? { bgv: stickyBgv } : {}),
     }
     if (pendingSe.length) {
@@ -127,17 +151,49 @@ export function parseScene(text: string, opts: { code: string; locale: Locale })
   // 途中の背景/立ち絵切替が「次のセリフ等の flush まで遅延／消失」する（HU-34）。
   // セリフ（line）beat や引用継続中には触れない（narration のみ・発話の原子性を維持）。
   // 通常背景（#背景）。被せ CG が出ていれば閉じて下レイヤへ復帰する（HU-63）。
+  // アイテム窓も防御的に閉じる（原データでは窓表示中の背景変更は 0 件＝通常 texts 消費で閉じ済）。
   const setBg = (label: string) => {
     if (stickyOverlay === undefined && label === stickyBg?.label) return
     if (cur?.kind === 'narration') flush()
     stickyOverlay = undefined
+    stickyItem = undefined
     stickyBg = { label, file: null }
   }
-  // 被せ CG（#EV / [id] ITEM_* / 黒一色）。下レイヤ（通常背景・立ち絵）はそのまま保持する（HU-63）。
+  // 被せ CG（#EV / 黒一色）。下レイヤ（通常背景・立ち絵）はそのまま保持する（HU-63）。
   const setOverlay = (label: string) => {
     if (label === stickyOverlay?.label) return
     if (cur?.kind === 'narration') flush()
     stickyOverlay = { label, file: null }
+    stickyItem = undefined // 防御的クローズ（setBg と同様）
+  }
+  // アイテムCG窓を開く（HU-70）。座標・表示区間は items.json（extract-items.py が bytecode
+  // 0x3b/0x3c から機械抽出）。区間は「本文 texts 行」で表現され、以降の本文処理で消費する。
+  const openItem = (id: string) => {
+    const spec = opts.items?.[code]
+    const texts = spec?.texts[locale]
+    if (!spec || spec.item !== id || texts === undefined)
+      throw new Error(
+        `[id] ${id}（${code}/${locale}）が items.json に無い/不一致（npm run data:items で再生成）`,
+      )
+    if (cur?.kind === 'narration') flush()
+    stickyItem = { code: id, file: null, x: spec.x, y: spec.y }
+    itemTextsLeft = texts
+  }
+  // アイテム窓の表示区間を本文 1 行ぶん消費する。使い切ったら次の本文＝閉じ位置。
+  // 閉じ位置の本文を items.json の nextText と照合し、ズレ（txt 再生成との不整合）を fail-fast。
+  const consumeItemText = (line: string) => {
+    if (stickyItem === undefined) return
+    if (itemTextsLeft > 0) {
+      itemTextsLeft--
+      return
+    }
+    const expect = opts.items?.[code]?.nextText[locale]
+    if (expect !== undefined && line !== expect)
+      throw new Error(
+        `${code}: アイテム窓の閉じ位置が items.json と不一致（expected=${JSON.stringify(expect)} actual=${JSON.stringify(line)}）`,
+      )
+    stickyItem = undefined
+    if (cur?.kind === 'narration') flush()
   }
   // 立ち絵 note。被せ CG 表示中に来たら被せ CG を閉じ、通常背景＋立ち絵へ復帰する（HU-63）。
   const setSprite = (label: string) => {
@@ -204,10 +260,10 @@ export function parseScene(text: string, opts: { code: string; locale: Locale })
       else if (val === 'BG_BLACK') setOverlay(BLACK_BG_LABEL)
       // [id] OFF = 立ち絵オフ。無視すると直前の立ち絵が残り続ける（HU-36）。
       else if (val === 'OFF') clearSprite()
-      // [id] ITEM_xx_yy = アイテムCG（全画面クローズアップ）。_BGSET ラベルを介さず id が
-      // そのまま CG ファイルコード。被せ CG として扱う（resolveBg の直CGフォールバックで解決。
-      // HU-41/HU-63）。無視すると直前 CG が残る。
-      else if (/^ITEM_\d+_\d+$/.test(val)) setOverlay(val)
+      // [id] ITEM_xx_yy = アイテムCG窓（HU-70）。_BGSET ラベルを介さず id がそのまま CG
+      // ファイルコード（HU-41）。背景・立ち絵の上に重なる独立オーバーレイで、表示区間・座標は
+      // items.json（→ ADR 0009）。
+      else if (/^ITEM_\d+_\d+$/.test(val)) openItem(val)
       // [id] BGV_<CHAR>_<...> = 背景ボイス（喘ぎ等のループ）。sticky に保持し次 BGV まで持続（HU-37）。
       else if (/^BGV_/.test(val)) setBgv(val)
       // [id] EFFECT:FLASHn = 画面フラッシュ（n=1-3 の強度）。インパクト行（直後の beat）で光らせる
@@ -240,6 +296,10 @@ export function parseScene(text: string, opts: { code: string; locale: Locale })
       title = val // \N は描画側で改行
       continue
     }
+
+    // アイテム窓の表示区間消費（HU-70）。本文（地の文/セリフ。話者【】・タイトルは 0x01 でない
+    // ため対象外）1 行ごとに減算し、使い切った本文行の直前で窓を閉じる。
+    consumeItemText(val)
 
     const opens = (val.match(/「/g) ?? []).length
     const closes = (val.match(/」/g) ?? []).length
