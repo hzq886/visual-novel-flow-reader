@@ -22,8 +22,13 @@ import { copyFile, mkdir, readdir, readFile, stat, writeFile } from 'node:fs/pro
 import { dirname, join, resolve } from 'node:path'
 import { fileURLToPath } from 'node:url'
 import { resolveScene, sceneAssetRefs } from '../src/pipeline/resolve.ts'
-import { parseScene } from '../src/pipeline/scene.ts'
-import { BgsetTable, SprsetTable } from '../src/pipeline/types.ts'
+import { buildScene } from '../src/pipeline/scene.ts'
+import {
+  BgsetTable,
+  SceneEventsBundle,
+  SprsetTable,
+  type SceneEvent,
+} from '../src/pipeline/types.ts'
 
 type Category = 'cg' | 'sprite' | 'voice' | 'se' | 'bgm'
 
@@ -68,15 +73,17 @@ async function listFiles(dir: string): Promise<string[]> {
 }
 
 /**
- * シーンが参照する素材コードを parseScene→resolve で算出（cg=背景, sprite=立ち絵 body/face）。
+ * シーンが参照する素材コードを buildScene→resolve で算出（cg=背景/アイテム, sprite=立ち絵 body/face）。
  * 大小文字無視で照合できるよう小文字コード集合を返す。CG/立ち絵は jp/cn でバイト同一のため jp で解決。
  */
 async function sceneWantedCodes(code: string): Promise<{ cg: Set<string>; sprite: Set<string> }> {
-  const textPath = resolve(APP, '..', '..', 'data_extract', 'text', 'md_scr_text_jp', `${code}.txt`)
+  const eventsPath = join(APP, 'data', 'scene-events', 'jp.json')
   const spritesPath = join(APP, 'data', 'sprites.json')
   const bgPath = join(APP, 'data', 'backgrounds.json')
-  if (!existsSync(textPath)) {
-    console.error(`✗ シーン原文が見つかりません: ${textPath}`)
+  if (!existsSync(eventsPath)) {
+    console.error(
+      `✗ scene-events/jp.json が未生成。先に \`npm run data:scenes:events\` を実行してください。`,
+    )
     process.exit(1)
   }
   if (!existsSync(spritesPath) || !existsSync(bgPath)) {
@@ -87,11 +94,19 @@ async function sceneWantedCodes(code: string): Promise<{ cg: Set<string>; sprite
   }
   const sprset = SprsetTable.parse(JSON.parse(await readFile(spritesPath, 'utf8')))
   const bgset = BgsetTable.parse(JSON.parse(await readFile(bgPath, 'utf8')))
-  const scene = resolveScene(parseScene(await readFile(textPath, 'utf8'), { code, locale: 'jp' }), {
-    sprset,
-    bgset,
-    voiceIndex: new Map(),
-  })
+  const bundle = SceneEventsBundle.parse(JSON.parse(await readFile(eventsPath, 'utf8')))
+  const entry = bundle[code]
+  if (!entry) {
+    console.error(`✗ シーンが scene-events に見つかりません: ${code}`)
+    process.exit(1)
+  }
+  const scene = resolveScene(
+    buildScene(
+      { title: entry.title, events: entry.events as SceneEvent[] },
+      { code, locale: 'jp' },
+    ),
+    { sprset, bgset, voiceIndex: new Map() },
+  )
   const refs = sceneAssetRefs(scene)
   return {
     cg: new Set(refs.cg.map((c) => c.toLowerCase())),

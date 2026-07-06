@@ -251,8 +251,8 @@
         "「ふふっ、好きだよ、んっ、んんっ、愛してるぅ」"
       ],
       "bg": {
-        "label": "#EV073・目閉じ・微笑み・胸揉み",
-        "file": "EV073_02"
+        "label": "#EV073・微笑み・微笑み・胸揉み",
+        "file": "EV073_01"
       },
       "bgv": {
         "id": "BGV_TUBA_H001A",
@@ -266,8 +266,8 @@
         "「僕もだよ」"
       ],
       "bg": {
-        "label": "#EV073・目閉じ・微笑み・胸揉み",
-        "file": "EV073_02"
+        "label": "#EV073・微笑み・微笑み・胸揉み",
+        "file": "EV073_01"
       },
       "bgv": {
         "id": "BGV_TUBA_H001A",
@@ -281,8 +281,8 @@
         "こういうちょっとした仕草が、愛おしい。"
       ],
       "bg": {
-        "label": "#EV073・目閉じ・微笑み・胸揉み",
-        "file": "EV073_02"
+        "label": "#EV073・微笑み・微笑み・胸揉み",
+        "file": "EV073_01"
       },
       "bgv": {
         "id": "BGV_TUBA_H001A",
@@ -301,8 +301,8 @@
         "卑怯な手段を使ったに決まってるわ」"
       ],
       "bg": {
-        "label": "#EV073・目閉じ・微笑み・胸揉み",
-        "file": "EV073_02"
+        "label": "#EV073・微笑み・微笑み・胸揉み",
+        "file": "EV073_01"
       },
       "bgv": {
         "id": "BGV_TUBA_H001A",
@@ -317,8 +317,8 @@
         "僕は彼女に聞かせるように、言った。"
       ],
       "bg": {
-        "label": "#EV073・目閉じ・微笑み・胸揉み",
-        "file": "EV073_02"
+        "label": "#EV073・微笑み・微笑み・胸揉み",
+        "file": "EV073_01"
       },
       "bgv": {
         "id": "BGV_TUBA_H001A",
@@ -332,8 +332,8 @@
         "「キス、しようか……」"
       ],
       "bg": {
-        "label": "#EV073・目閉じ・微笑み・胸揉み",
-        "file": "EV073_02"
+        "label": "#EV073・微笑み・微笑み・胸揉み",
+        "file": "EV073_01"
       },
       "bgv": {
         "id": "BGV_TUBA_H001A",
@@ -352,8 +352,8 @@
         "すっごく好きなんだぁ」"
       ],
       "bg": {
-        "label": "#EV073・目閉じ・微笑み・胸揉み",
-        "file": "EV073_02"
+        "label": "#EV073・微笑み・微笑み・胸揉み",
+        "file": "EV073_01"
       },
       "bgv": {
         "id": "BGV_TUBA_H001A",
@@ -367,8 +367,8 @@
         "小さなピンク色の唇に唇を重ねた。"
       ],
       "bg": {
-        "label": "#EV073・目閉じ・微笑み・胸揉み",
-        "file": "EV073_02"
+        "label": "#EV073・微笑み・微笑み・胸揉み",
+        "file": "EV073_01"
       },
       "bgv": {
         "id": "BGV_TUBA_H001A",
@@ -755,8 +755,8 @@
         "file": "EV073_04"
       },
       "bgv": {
-        "id": "BGV_TUBA_F001A",
-        "file": "voice/BGV_tuba_f001a.ogg"
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -770,8 +770,8 @@
         "file": "EV073_04"
       },
       "bgv": {
-        "id": "BGV_TUBA_F001A",
-        "file": "voice/BGV_tuba_f001a.ogg"
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -785,8 +785,8 @@
         "file": "EV073_04"
       },
       "bgv": {
-        "id": "BGV_TUBA_F001A",
-        "file": "voice/BGV_tuba_f001a.ogg"
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -805,8 +805,8 @@
         "file": "EV073_04"
       },
       "bgv": {
-        "id": "BGV_TUBA_F001A",
-        "file": "voice/BGV_tuba_f001a.ogg"
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -819,8 +819,8 @@
         "file": "EV073_04"
       },
       "bgv": {
-        "id": "BGV_TUBA_F001A",
-        "file": "voice/BGV_tuba_f001a.ogg"
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -838,8 +838,8 @@
         "file": "EV073_04"
       },
       "bgv": {
-        "id": "BGV_TUBA_F001A",
-        "file": "voice/BGV_tuba_f001a.ogg"
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -857,8 +857,8 @@
         "file": "EV073_04"
       },
       "bgv": {
-        "id": "BGV_TUBA_F001A",
-        "file": "voice/BGV_tuba_f001a.ogg"
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -877,8 +877,8 @@
         "file": "EV073_05"
       },
       "bgv": {
-        "id": "BGV_TUBA_F001A",
-        "file": "voice/BGV_tuba_f001a.ogg"
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -894,8 +894,8 @@
         "file": "EV073_05"
       },
       "bgv": {
-        "id": "BGV_TUBA_F001A",
-        "file": "voice/BGV_tuba_f001a.ogg"
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -1346,12 +1346,12 @@
         "「んふあっ、それ、いい！　あぁ、気持ちいいっ！」"
       ],
       "bg": {
-        "label": "#EV073・うっとりキス・うっとりキス・股間触る",
-        "file": "EV073_07"
+        "label": "#EV073・目閉じ・微笑み・股間触る",
+        "file": "EV073_05"
       },
       "bgv": {
-        "id": "BGV_TUBA_F001A",
-        "file": "voice/BGV_tuba_f001a.ogg"
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -1362,12 +1362,12 @@
         "ここまで無視していた真琴に、声をかける。"
       ],
       "bg": {
-        "label": "#EV073・うっとりキス・うっとりキス・股間触る",
-        "file": "EV073_07"
+        "label": "#EV073・目閉じ・微笑み・股間触る",
+        "file": "EV073_05"
       },
       "bgv": {
-        "id": "BGV_TUBA_F001A",
-        "file": "voice/BGV_tuba_f001a.ogg"
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -1378,12 +1378,12 @@
         "しっかり咥えて、ペロペロ舐めるんだ」"
       ],
       "bg": {
-        "label": "#EV073・うっとりキス・うっとりキス・股間触る",
-        "file": "EV073_07"
+        "label": "#EV073・目閉じ・微笑み・股間触る",
+        "file": "EV073_05"
       },
       "bgv": {
-        "id": "BGV_TUBA_F001A",
-        "file": "voice/BGV_tuba_f001a.ogg"
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -1397,12 +1397,12 @@
         "「なっ……！？　く、咥えて、舐めろって……」"
       ],
       "bg": {
-        "label": "#EV073・うっとりキス・うっとりキス・股間触る",
-        "file": "EV073_07"
+        "label": "#EV073・目閉じ・微笑み・股間触る",
+        "file": "EV073_05"
       },
       "bgv": {
-        "id": "BGV_TUBA_F001A",
-        "file": "voice/BGV_tuba_f001a.ogg"
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -1414,12 +1414,12 @@
         "させるためでもあった。"
       ],
       "bg": {
-        "label": "#EV073・うっとりキス・うっとりキス・股間触る",
-        "file": "EV073_07"
+        "label": "#EV073・目閉じ・微笑み・股間触る",
+        "file": "EV073_05"
       },
       "bgv": {
-        "id": "BGV_TUBA_F001A",
-        "file": "voice/BGV_tuba_f001a.ogg"
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -1434,8 +1434,8 @@
         "あっ、やだっ、手が、また勝手にっ……！」"
       ],
       "bg": {
-        "label": "#EV073・うっとりキス・うっとりキス・股間触る",
-        "file": "EV073_07"
+        "label": "#EV073・目閉じ・微笑み・股間触る",
+        "file": "EV073_05"
       },
       "se": [
         {
@@ -1444,8 +1444,8 @@
         }
       ],
       "bgv": {
-        "id": "BGV_TUBA_F001A",
-        "file": "voice/BGV_tuba_f001a.ogg"
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -1457,12 +1457,12 @@
         "次の瞬間、真琴はチ×ポをぱくっと咥えこんだ。"
       ],
       "bg": {
-        "label": "#EV073・うっとりキス・うっとりキス・股間触る",
-        "file": "EV073_07"
+        "label": "#EV073・目閉じ・微笑み・股間触る",
+        "file": "EV073_05"
       },
       "bgv": {
-        "id": "BGV_TUBA_F001A",
-        "file": "voice/BGV_tuba_f001a.ogg"
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -1534,12 +1534,6 @@
         "label": "#EV073・目閉じ・微笑み・股間触る・嫌そう咥え",
         "file": "EV073_08"
       },
-      "se": [
-        {
-          "code": "8311B",
-          "file": "se/8311b.ogg"
-        }
-      ],
       "bgv": {
         "id": "BGV_MAKO_F001A",
         "file": "voice/BGV_mako_f001a.ogg"
@@ -1561,8 +1555,8 @@
         "file": "EV073_08"
       },
       "bgv": {
-        "id": "BGV_MAKO_F001A",
-        "file": "voice/BGV_mako_f001a.ogg"
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -1580,8 +1574,8 @@
         "file": "EV073_08"
       },
       "bgv": {
-        "id": "BGV_MAKO_F001A",
-        "file": "voice/BGV_mako_f001a.ogg"
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -1595,8 +1589,8 @@
         "file": "EV073_08"
       },
       "bgv": {
-        "id": "BGV_MAKO_F001A",
-        "file": "voice/BGV_mako_f001a.ogg"
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -1615,8 +1609,8 @@
         "file": "EV073_08"
       },
       "bgv": {
-        "id": "BGV_MAKO_F001A",
-        "file": "voice/BGV_mako_f001a.ogg"
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -1631,8 +1625,8 @@
         "file": "EV073_09"
       },
       "bgv": {
-        "id": "BGV_MAKO_F001A",
-        "file": "voice/BGV_mako_f001a.ogg"
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -1651,8 +1645,8 @@
         "file": "EV073_09"
       },
       "bgv": {
-        "id": "BGV_MAKO_F001A",
-        "file": "voice/BGV_mako_f001a.ogg"
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -1666,8 +1660,8 @@
         "file": "EV073_09"
       },
       "bgv": {
-        "id": "BGV_MAKO_F001A",
-        "file": "voice/BGV_mako_f001a.ogg"
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -1759,8 +1753,8 @@
         "file": "EV073_09"
       },
       "bgv": {
-        "id": "BGV_MAKO_F002A",
-        "file": "voice/BGV_mako_f002a.ogg"
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -1775,8 +1769,8 @@
         "file": "EV073_09"
       },
       "bgv": {
-        "id": "BGV_MAKO_F002A",
-        "file": "voice/BGV_mako_f002a.ogg"
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -1794,8 +1788,8 @@
         "file": "EV073_09"
       },
       "bgv": {
-        "id": "BGV_MAKO_F002A",
-        "file": "voice/BGV_mako_f002a.ogg"
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -1810,8 +1804,8 @@
         "file": "EV073_09"
       },
       "bgv": {
-        "id": "BGV_MAKO_F002A",
-        "file": "voice/BGV_mako_f002a.ogg"
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -1886,8 +1880,8 @@
         "file": "EV073_09"
       },
       "bgv": {
-        "id": "BGV_MAKO_F002A",
-        "file": "voice/BGV_mako_f002a.ogg"
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -1901,8 +1895,8 @@
         "file": "EV073_09"
       },
       "bgv": {
-        "id": "BGV_MAKO_F002A",
-        "file": "voice/BGV_mako_f002a.ogg"
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -1921,8 +1915,8 @@
         "file": "EV073_09"
       },
       "bgv": {
-        "id": "BGV_MAKO_F002A",
-        "file": "voice/BGV_mako_f002a.ogg"
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -1941,8 +1935,8 @@
         "file": "EV073_09"
       },
       "bgv": {
-        "id": "BGV_MAKO_F002A",
-        "file": "voice/BGV_mako_f002a.ogg"
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -1960,8 +1954,8 @@
         "file": "EV073_09"
       },
       "bgv": {
-        "id": "BGV_MAKO_F002A",
-        "file": "voice/BGV_mako_f002a.ogg"
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -1976,8 +1970,8 @@
         "file": "EV073_09"
       },
       "bgv": {
-        "id": "BGV_MAKO_F002A",
-        "file": "voice/BGV_mako_f002a.ogg"
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -1996,8 +1990,8 @@
         "file": "EV073_09"
       },
       "bgv": {
-        "id": "BGV_MAKO_F002A",
-        "file": "voice/BGV_mako_f002a.ogg"
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -2010,8 +2004,8 @@
         "file": "EV073_09"
       },
       "bgv": {
-        "id": "BGV_MAKO_F002A",
-        "file": "voice/BGV_mako_f002a.ogg"
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -2026,8 +2020,8 @@
         "file": "EV073_09"
       },
       "bgv": {
-        "id": "BGV_MAKO_F002A",
-        "file": "voice/BGV_mako_f002a.ogg"
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -2350,8 +2344,8 @@
         "file": "EV073_12"
       },
       "bgv": {
-        "id": "BGV_TUBA_F002A",
-        "file": "voice/BGV_tuba_f002a.ogg"
+        "id": "BGV_MAKO_F003A",
+        "file": "voice/BGV_mako_f003a.ogg"
       }
     },
     {
@@ -2365,8 +2359,8 @@
         "file": "EV073_12"
       },
       "bgv": {
-        "id": "BGV_TUBA_F002A",
-        "file": "voice/BGV_tuba_f002a.ogg"
+        "id": "BGV_MAKO_F003A",
+        "file": "voice/BGV_mako_f003a.ogg"
       }
     },
     {
@@ -2385,8 +2379,8 @@
         "file": "EV073_12"
       },
       "bgv": {
-        "id": "BGV_TUBA_F002A",
-        "file": "voice/BGV_tuba_f002a.ogg"
+        "id": "BGV_MAKO_F003A",
+        "file": "voice/BGV_mako_f003a.ogg"
       }
     },
     {
@@ -2402,8 +2396,8 @@
         "file": "EV073_12"
       },
       "bgv": {
-        "id": "BGV_TUBA_F002A",
-        "file": "voice/BGV_tuba_f002a.ogg"
+        "id": "BGV_MAKO_F003A",
+        "file": "voice/BGV_mako_f003a.ogg"
       }
     },
     {
@@ -2457,8 +2451,8 @@
         "file": "EV073_12"
       },
       "bgv": {
-        "id": "BGV_TUBA_F002A",
-        "file": "voice/BGV_tuba_f002a.ogg"
+        "id": "BGV_MAKO_F003A",
+        "file": "voice/BGV_mako_f003a.ogg"
       }
     },
     {
@@ -2472,8 +2466,8 @@
         "file": "EV073_12"
       },
       "bgv": {
-        "id": "BGV_TUBA_F002A",
-        "file": "voice/BGV_tuba_f002a.ogg"
+        "id": "BGV_MAKO_F003A",
+        "file": "voice/BGV_mako_f003a.ogg"
       }
     },
     {
@@ -2628,6 +2622,12 @@
         "label": "#EV073・目閉じり舌絡め・うっとり舌絡め・股間触る・没頭ひょっとこ・精液",
         "file": "EV073_13"
       },
+      "se": [
+        {
+          "code": "8201B",
+          "file": "se/8201b.ogg"
+        }
+      ],
       "bgv": {
         "id": "BGV_TUBA_F002A",
         "file": "voice/BGV_tuba_f002a.ogg"
@@ -2646,7 +2646,8 @@
       "bgv": {
         "id": "BGV_TUBA_F002A",
         "file": "voice/BGV_tuba_f002a.ogg"
-      }
+      },
+      "flash": 3
     },
     {
       "kind": "line",
@@ -2788,6 +2789,12 @@
         "label": "#EV073・目閉じり舌絡め・うっとり舌絡め・股間触る・没頭ひょっとこ・精液",
         "file": "EV073_13"
       },
+      "se": [
+        {
+          "code": "8351A",
+          "file": "se/8351a.ogg"
+        }
+      ],
       "bgv": {
         "id": "BGV_TUBA_F002A",
         "file": "voice/BGV_tuba_f002a.ogg"
@@ -2809,7 +2816,8 @@
       "bgv": {
         "id": "BGV_TUBA_F002A",
         "file": "voice/BGV_tuba_f002a.ogg"
-      }
+      },
+      "flash": 2
     },
     {
       "kind": "line",
@@ -2863,8 +2871,8 @@
         "file": "EV073_14"
       },
       "bgv": {
-        "id": "BGV_TUBA_F002A",
-        "file": "voice/BGV_tuba_f002a.ogg"
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -2877,8 +2885,8 @@
         "file": "EV073_14"
       },
       "bgv": {
-        "id": "BGV_TUBA_F002A",
-        "file": "voice/BGV_tuba_f002a.ogg"
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -2897,8 +2905,8 @@
         "file": "EV073_14"
       },
       "bgv": {
-        "id": "BGV_TUBA_F002A",
-        "file": "voice/BGV_tuba_f002a.ogg"
+        "id": "BGV_MAKO_F001A",
+        "file": "voice/BGV_mako_f001a.ogg"
       }
     },
     {
@@ -2912,8 +2920,8 @@
         "file": "EV073_14"
       },
       "bgv": {
-        "id": "BGV_TUBA_F002A",
-        "file": "voice/BGV_tuba_f002a.ogg"
+        "id": "BGV_MAKO_F001A",
+        "file": "voice/BGV_mako_f001a.ogg"
       }
     },
     {
@@ -2932,8 +2940,8 @@
         "file": "EV073_14"
       },
       "bgv": {
-        "id": "BGV_TUBA_F002A",
-        "file": "voice/BGV_tuba_f002a.ogg"
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -2946,8 +2954,8 @@
         "file": "EV073_14"
       },
       "bgv": {
-        "id": "BGV_TUBA_F002A",
-        "file": "voice/BGV_tuba_f002a.ogg"
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -2962,8 +2970,8 @@
         "file": "EV073_14"
       },
       "bgv": {
-        "id": "BGV_TUBA_F002A",
-        "file": "voice/BGV_tuba_f002a.ogg"
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -2979,8 +2987,8 @@
         "file": "BG_BLACK"
       },
       "bgv": {
-        "id": "BGV_TUBA_F002A",
-        "file": "voice/BGV_tuba_f002a.ogg"
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     }
   ],

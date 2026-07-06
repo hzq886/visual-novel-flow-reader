@@ -297,6 +297,12 @@
         "label": "#EV054・虚ろ目眉寄せ・溝引き棒挿入・裸・愛液",
         "file": "EV054_23"
       },
+      "se": [
+        {
+          "code": "8001A",
+          "file": "se/8001a.ogg"
+        }
+      ],
       "bgv": {
         "id": "BGV_TUBA_H002A",
         "file": "voice/BGV_tuba_h002a.ogg"
@@ -610,6 +616,7 @@
       "kind": "narration",
       "lines": [
         "漏らさないよう、無意識のうちに、股間に力を入れて",
+        "いるのだろう。",
         "お尻の穴と膣孔が、きゅうっと締まる。",
         "けれど、Ｇスポットを擦ってやると、すぐに緩んで",
         "開いていく。"
@@ -688,6 +695,12 @@
         "label": "#EV054・虚ろ目蕩け顔・溝引き棒挿入・裸・愛液",
         "file": "EV054_24"
       },
+      "se": [
+        {
+          "code": "8101A",
+          "file": "se/8101a.ogg"
+        }
+      ],
       "bgv": {
         "id": "BGV_TUBA_H002A",
         "file": "voice/BGV_tuba_h002a.ogg"
@@ -879,6 +892,12 @@
         "label": "#EV054・虚ろ目蕩け顔・溝引き棒挿入・裸・潮吹き",
         "file": "EV054_25"
       },
+      "se": [
+        {
+          "code": "8361B",
+          "file": "se/8361b.ogg"
+        }
+      ],
       "bgv": {
         "id": "BGV_TUBA_H002A",
         "file": "voice/BGV_tuba_h002a.ogg"
@@ -902,7 +921,8 @@
       "bgv": {
         "id": "BGV_TUBA_H002A",
         "file": "voice/BGV_tuba_h002a.ogg"
-      }
+      },
+      "flash": 2
     },
     {
       "kind": "narration",
@@ -938,6 +958,12 @@
         "label": "#EV054・虚ろ目蕩け顔・溝引き棒挿入・裸・潮吹き",
         "file": "EV054_25"
       },
+      "se": [
+        {
+          "code": "8361B",
+          "file": "se/8361b.ogg"
+        }
+      ],
       "bgv": {
         "id": "BGV_TUBA_H002A",
         "file": "voice/BGV_tuba_h002a.ogg"
@@ -958,7 +984,8 @@
       "bgv": {
         "id": "BGV_TUBA_H002A",
         "file": "voice/BGV_tuba_h002a.ogg"
-      }
+      },
+      "flash": 2
     },
     {
       "kind": "line",
@@ -972,8 +999,8 @@
         "file": "EV054_26"
       },
       "bgv": {
-        "id": "BGV_TUBA_H002A",
-        "file": "voice/BGV_tuba_h002a.ogg"
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -992,8 +1019,8 @@
         "file": "EV054_26"
       },
       "bgv": {
-        "id": "BGV_TUBA_H002A",
-        "file": "voice/BGV_tuba_h002a.ogg"
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -1010,9 +1037,15 @@
         "label": "#EV054・虚ろ目蕩け顔・溝引き棒挿入・裸・愛液2",
         "file": "EV054_26"
       },
+      "se": [
+        {
+          "code": "8001A",
+          "file": "se/8001a.ogg"
+        }
+      ],
       "bgv": {
-        "id": "BGV_TUBA_H002A",
-        "file": "voice/BGV_tuba_h002a.ogg"
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -1046,6 +1079,12 @@
         "label": "#EV054・虚ろ目蕩け顔・溝引き棒挿入・裸・愛液2・あり",
         "file": "EV054_27"
       },
+      "se": [
+        {
+          "code": "8011B",
+          "file": "se/8011b.ogg"
+        }
+      ],
       "bgv": {
         "id": "BGV_TUBA_H002A",
         "file": "voice/BGV_tuba_h002a.ogg"
@@ -1120,6 +1159,12 @@
         "label": "#EV054・虚ろ目蕩け顔・溝引き棒挿入・裸・愛液2・あり",
         "file": "EV054_27"
       },
+      "se": [
+        {
+          "code": "8101A",
+          "file": "se/8101a.ogg"
+        }
+      ],
       "bgv": {
         "id": "BGV_TUBA_H002A",
         "file": "voice/BGV_tuba_h002a.ogg"
@@ -1235,6 +1280,12 @@
         "label": "#EV054・虚ろ目蕩け顔・溝引き棒挿入・裸・愛液2・あり",
         "file": "EV054_27"
       },
+      "se": [
+        {
+          "code": "8101A",
+          "file": "se/8101a.ogg"
+        }
+      ],
       "bgv": {
         "id": "BGV_TUBA_H002A",
         "file": "voice/BGV_tuba_h002a.ogg"
@@ -1467,6 +1518,12 @@
         "label": "#EV054・のけぞり絶頂・溝引き棒挿入・裸・愛液2・あり",
         "file": "EV054_28"
       },
+      "se": [
+        {
+          "code": "8361B",
+          "file": "se/8361b.ogg"
+        }
+      ],
       "bgv": {
         "id": "BGV_TUBA_H002A",
         "file": "voice/BGV_tuba_h002a.ogg"
@@ -1490,7 +1547,8 @@
       "bgv": {
         "id": "BGV_TUBA_H002A",
         "file": "voice/BGV_tuba_h002a.ogg"
-      }
+      },
+      "flash": 2
     },
     {
       "kind": "narration",
@@ -1553,6 +1611,7 @@
         "こうして彼女の全てを思い通りにしていくことに、",
         "罪悪感がないとはいわない。",
         "でもそれ以上に、変わっていく翼の姿が愛おしくて、",
+        "興奮が止まらない。",
         "じっとしているように言ったけれど、あまりにも",
         "刺激が強すぎるのだろう。"
       ],
@@ -1733,7 +1792,8 @@
       "bgv": {
         "id": "BGV_TUBA_H002A",
         "file": "voice/BGV_tuba_h002a.ogg"
-      }
+      },
+      "flash": 2
     },
     {
       "kind": "line",
@@ -1821,6 +1881,12 @@
         "label": "#EV054・のけぞり絶頂・溝引き棒挿入・裸・潮吹き2・あり",
         "file": "EV054_29"
       },
+      "se": [
+        {
+          "code": "8351A",
+          "file": "se/8351a.ogg"
+        }
+      ],
       "bgv": {
         "id": "BGV_TUBA_H002A",
         "file": "voice/BGV_tuba_h002a.ogg"
@@ -1841,7 +1907,8 @@
       "bgv": {
         "id": "BGV_TUBA_H002A",
         "file": "voice/BGV_tuba_h002a.ogg"
-      }
+      },
+      "flash": 2
     },
     {
       "kind": "line",
@@ -1934,8 +2001,8 @@
         "file": "EV054_30"
       },
       "bgv": {
-        "id": "BGV_TUBA_H002A",
-        "file": "voice/BGV_tuba_h002a.ogg"
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -1951,8 +2018,8 @@
         "file": "EV054_30"
       },
       "bgv": {
-        "id": "BGV_TUBA_H002A",
-        "file": "voice/BGV_tuba_h002a.ogg"
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -1971,8 +2038,8 @@
         "file": "EV054_30"
       },
       "bgv": {
-        "id": "BGV_TUBA_H002A",
-        "file": "voice/BGV_tuba_h002a.ogg"
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -1987,8 +2054,8 @@
         "file": "EV054_30"
       },
       "bgv": {
-        "id": "BGV_TUBA_H002A",
-        "file": "voice/BGV_tuba_h002a.ogg"
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -2003,8 +2070,8 @@
         "file": "EV054_30"
       },
       "bgv": {
-        "id": "BGV_TUBA_H002A",
-        "file": "voice/BGV_tuba_h002a.ogg"
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -2023,8 +2090,8 @@
         "file": "EV054_30"
       },
       "bgv": {
-        "id": "BGV_TUBA_H002A",
-        "file": "voice/BGV_tuba_h002a.ogg"
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -2038,8 +2105,8 @@
         "file": "EV054_30"
       },
       "bgv": {
-        "id": "BGV_TUBA_H002A",
-        "file": "voice/BGV_tuba_h002a.ogg"
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -2055,8 +2122,8 @@
         "file": "BG_BLACK"
       },
       "bgv": {
-        "id": "BGV_TUBA_H002A",
-        "file": "voice/BGV_tuba_h002a.ogg"
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     }
   ],

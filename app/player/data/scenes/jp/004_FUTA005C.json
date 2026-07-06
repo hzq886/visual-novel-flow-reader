@@ -105,7 +105,13 @@
       "bg": {
         "label": "#EV069・目閉じ・切なげ・愛液・愛液",
         "file": "EV069_01"
-      }
+      },
+      "se": [
+        {
+          "code": "8001A",
+          "file": "se/8001a.ogg"
+        }
+      ]
     },
     {
       "kind": "line",
@@ -442,12 +448,6 @@
         "label": "#EV069・うっとり蕩け・眉寄せ感じ・愛液・愛液",
         "file": "EV069_03"
       },
-      "se": [
-        {
-          "code": "8101A",
-          "file": "se/8101a.ogg"
-        }
-      ],
       "bgv": {
         "id": "BGV_SUZU_H002A",
         "file": "voice/BGV_suzu_h002a.ogg"
@@ -585,8 +585,8 @@
         "file": "EV069_05"
       },
       "bgv": {
-        "id": "BGV_AYAN_H002A",
-        "file": "voice/BGV_ayan_h002a.ogg"
+        "id": "BGV_SUZU_H002A",
+        "file": "voice/BGV_suzu_h002a.ogg"
       }
     },
     {
@@ -603,8 +603,8 @@
         "file": "EV069_05"
       },
       "bgv": {
-        "id": "BGV_AYAN_H002A",
-        "file": "voice/BGV_ayan_h002a.ogg"
+        "id": "BGV_SUZU_H002A",
+        "file": "voice/BGV_suzu_h002a.ogg"
       }
     },
     {
@@ -623,8 +623,8 @@
         "file": "EV069_05"
       },
       "bgv": {
-        "id": "BGV_AYAN_H002A",
-        "file": "voice/BGV_ayan_h002a.ogg"
+        "id": "BGV_SUZU_H002A",
+        "file": "voice/BGV_suzu_h002a.ogg"
       }
     },
     {
@@ -640,8 +640,8 @@
         "file": "EV069_05"
       },
       "bgv": {
-        "id": "BGV_AYAN_H002A",
-        "file": "voice/BGV_ayan_h002a.ogg"
+        "id": "BGV_SUZU_H002A",
+        "file": "voice/BGV_suzu_h002a.ogg"
       }
     },
     {
@@ -660,8 +660,8 @@
         "file": "EV069_05"
       },
       "bgv": {
-        "id": "BGV_AYAN_H002A",
-        "file": "voice/BGV_ayan_h002a.ogg"
+        "id": "BGV_SUZU_H002A",
+        "file": "voice/BGV_suzu_h002a.ogg"
       }
     },
     {
@@ -679,8 +679,8 @@
         "file": "EV069_05"
       },
       "bgv": {
-        "id": "BGV_AYAN_H002A",
-        "file": "voice/BGV_ayan_h002a.ogg"
+        "id": "BGV_SUZU_H002A",
+        "file": "voice/BGV_suzu_h002a.ogg"
       }
     },
     {
@@ -699,8 +699,8 @@
         "file": "EV069_05"
       },
       "bgv": {
-        "id": "BGV_AYAN_H002A",
-        "file": "voice/BGV_ayan_h002a.ogg"
+        "id": "BGV_SUZU_H002A",
+        "file": "voice/BGV_suzu_h002a.ogg"
       }
     },
     {
@@ -715,8 +715,8 @@
         "file": "EV069_05"
       },
       "bgv": {
-        "id": "BGV_AYAN_H002A",
-        "file": "voice/BGV_ayan_h002a.ogg"
+        "id": "BGV_SUZU_H002A",
+        "file": "voice/BGV_suzu_h002a.ogg"
       }
     },
     {
@@ -735,8 +735,8 @@
         "file": "EV069_05"
       },
       "bgv": {
-        "id": "BGV_AYAN_H002A",
-        "file": "voice/BGV_ayan_h002a.ogg"
+        "id": "BGV_SUZU_H002A",
+        "file": "voice/BGV_suzu_h002a.ogg"
       }
     },
     {
@@ -755,8 +755,8 @@
         "file": "EV069_05"
       },
       "bgv": {
-        "id": "BGV_AYAN_H002A",
-        "file": "voice/BGV_ayan_h002a.ogg"
+        "id": "BGV_SUZU_H002A",
+        "file": "voice/BGV_suzu_h002a.ogg"
       }
     },
     {
@@ -774,9 +774,19 @@
         "label": "#EV069・唇噛みしめ・うっとり蕩け・愛液・愛液",
         "file": "EV069_05"
       },
+      "se": [
+        {
+          "code": "8301A",
+          "file": "se/8301a.ogg"
+        },
+        {
+          "code": "8321A",
+          "file": "se/8321a.ogg"
+        }
+      ],
       "bgv": {
-        "id": "BGV_AYAN_H002A",
-        "file": "voice/BGV_ayan_h002a.ogg"
+        "id": "BGV_SUZU_H002A",
+        "file": "voice/BGV_suzu_h002a.ogg"
       }
     },
     {
@@ -795,8 +805,8 @@
         "file": "EV069_05"
       },
       "bgv": {
-        "id": "BGV_AYAN_H002A",
-        "file": "voice/BGV_ayan_h002a.ogg"
+        "id": "BGV_SUZU_H002A",
+        "file": "voice/BGV_suzu_h002a.ogg"
       }
     },
     {
@@ -812,8 +822,8 @@
         "file": "EV069_05"
       },
       "bgv": {
-        "id": "BGV_AYAN_H002A",
-        "file": "voice/BGV_ayan_h002a.ogg"
+        "id": "BGV_SUZU_H002A",
+        "file": "voice/BGV_suzu_h002a.ogg"
       }
     },
     {
@@ -832,8 +842,8 @@
         "file": "EV069_05"
       },
       "bgv": {
-        "id": "BGV_AYAN_H002A",
-        "file": "voice/BGV_ayan_h002a.ogg"
+        "id": "BGV_SUZU_H002A",
+        "file": "voice/BGV_suzu_h002a.ogg"
       }
     },
     {
@@ -851,8 +861,8 @@
         "file": "EV069_05"
       },
       "bgv": {
-        "id": "BGV_AYAN_H002A",
-        "file": "voice/BGV_ayan_h002a.ogg"
+        "id": "BGV_SUZU_H002A",
+        "file": "voice/BGV_suzu_h002a.ogg"
       }
     },
     {
@@ -871,8 +881,8 @@
         "file": "EV069_05"
       },
       "bgv": {
-        "id": "BGV_AYAN_H002A",
-        "file": "voice/BGV_ayan_h002a.ogg"
+        "id": "BGV_SUZU_H002A",
+        "file": "voice/BGV_suzu_h002a.ogg"
       }
     },
     {
@@ -889,8 +899,8 @@
         "file": "EV069_05"
       },
       "bgv": {
-        "id": "BGV_AYAN_H002A",
-        "file": "voice/BGV_ayan_h002a.ogg"
+        "id": "BGV_SUZU_H002A",
+        "file": "voice/BGV_suzu_h002a.ogg"
       }
     },
     {
@@ -988,8 +998,8 @@
         "気持ちいいっ！」"
       ],
       "bg": {
-        "label": "#EV069・唇噛みしめ・うっとり蕩け・愛液・愛液",
-        "file": "EV069_05"
+        "label": "#EV069・唇噛みしめ・眉寄せ感じ・愛液・愛液",
+        "file": "EV069_04"
       },
       "bgv": {
         "id": "BGV_AYAN_H002A",
@@ -1009,8 +1019,8 @@
         "腰を上げるタイミングで、舌を引き抜く。"
       ],
       "bg": {
-        "label": "#EV069・唇噛みしめ・うっとり蕩け・愛液・愛液",
-        "file": "EV069_05"
+        "label": "#EV069・唇噛みしめ・眉寄せ感じ・愛液・愛液",
+        "file": "EV069_04"
       },
       "bgv": {
         "id": "BGV_AYAN_H002A",
@@ -1029,8 +1039,8 @@
         "んっ、あふうっ、んん～っ！」"
       ],
       "bg": {
-        "label": "#EV069・唇噛みしめ・うっとり蕩け・愛液・愛液",
-        "file": "EV069_05"
+        "label": "#EV069・唇噛みしめ・眉寄せ感じ・愛液・愛液",
+        "file": "EV069_04"
       },
       "bgv": {
         "id": "BGV_AYAN_H002A",
@@ -1049,8 +1059,8 @@
         "んっ、はあぁぁっ、んっ、んん～っ！」"
       ],
       "bg": {
-        "label": "#EV069・唇噛みしめ・うっとり蕩け・愛液・愛液",
-        "file": "EV069_05"
+        "label": "#EV069・唇噛みしめ・眉寄せ感じ・愛液・愛液",
+        "file": "EV069_04"
       },
       "bgv": {
         "id": "BGV_AYAN_H002A",
@@ -1065,8 +1075,8 @@
         "全身でセックスしているみたいだった。"
       ],
       "bg": {
-        "label": "#EV069・唇噛みしめ・うっとり蕩け・愛液・愛液",
-        "file": "EV069_05"
+        "label": "#EV069・唇噛みしめ・眉寄せ感じ・愛液・愛液",
+        "file": "EV069_04"
       },
       "bgv": {
         "id": "BGV_AYAN_H002A",
@@ -1085,8 +1095,8 @@
         "蕩けちゃうっ、もっとズボズボしてぇっ！」"
       ],
       "bg": {
-        "label": "#EV069・唇噛みしめ・うっとり蕩け・愛液・愛液",
-        "file": "EV069_05"
+        "label": "#EV069・唇噛みしめ・眉寄せ感じ・愛液・愛液",
+        "file": "EV069_04"
       },
       "bgv": {
         "id": "BGV_AYAN_H002A",
@@ -1105,8 +1115,8 @@
         "私もセックスしてるみたいっ！　あぁんっ！」"
       ],
       "bg": {
-        "label": "#EV069・唇噛みしめ・うっとり蕩け・愛液・愛液",
-        "file": "EV069_05"
+        "label": "#EV069・唇噛みしめ・眉寄せ感じ・愛液・愛液",
+        "file": "EV069_04"
       },
       "bgv": {
         "id": "BGV_AYAN_H002A",
@@ -1120,8 +1130,8 @@
         "次の瞬間、グッと腰が落ちた。"
       ],
       "bg": {
-        "label": "#EV069・唇噛みしめ・うっとり蕩け・愛液・愛液",
-        "file": "EV069_05"
+        "label": "#EV069・唇噛みしめ・眉寄せ感じ・愛液・愛液",
+        "file": "EV069_04"
       },
       "bgv": {
         "id": "BGV_AYAN_H002A",
@@ -1237,6 +1247,12 @@
         "label": "#EV069・唇噛みしめ・うっとり蕩け・愛液・愛液",
         "file": "EV069_05"
       },
+      "se": [
+        {
+          "code": "8321A",
+          "file": "se/8321a.ogg"
+        }
+      ],
       "bgv": {
         "id": "BGV_AYAN_H002A",
         "file": "voice/BGV_ayan_h002a.ogg"
@@ -1496,12 +1512,6 @@
         "label": "#EV069・目閉じ・うっとり蕩け・愛液・愛液",
         "file": "EV069_06"
       },
-      "se": [
-        {
-          "code": "8101C",
-          "file": "se/8101c.ogg"
-        }
-      ],
       "bgv": {
         "id": "BGV_AYAN_H002A",
         "file": "voice/BGV_ayan_h002a.ogg"
@@ -2047,6 +2057,12 @@
         "label": "#EV069・アヘ顔・アヘ顔・精液・愛液",
         "file": "EV069_09"
       },
+      "se": [
+        {
+          "code": "8201B",
+          "file": "se/8201b.ogg"
+        }
+      ],
       "bgv": {
         "id": "BGV_AYAN_H003A",
         "file": "voice/BGV_ayan_h003a.ogg"
@@ -2070,7 +2086,8 @@
       "bgv": {
         "id": "BGV_AYAN_H003A",
         "file": "voice/BGV_ayan_h003a.ogg"
-      }
+      },
+      "flash": 3
     },
     {
       "kind": "line",
@@ -2187,6 +2204,12 @@
         "label": "#EV069・アヘ顔・アヘ顔・精液・愛液2",
         "file": "EV069_10"
       },
+      "se": [
+        {
+          "code": "8351A",
+          "file": "se/8351a.ogg"
+        }
+      ],
       "bgv": {
         "id": "BGV_AYAN_H003A",
         "file": "voice/BGV_ayan_h003a.ogg"
@@ -2208,7 +2231,8 @@
       "bgv": {
         "id": "BGV_AYAN_H003A",
         "file": "voice/BGV_ayan_h003a.ogg"
-      }
+      },
+      "flash": 2
     },
     {
       "kind": "line",
@@ -2261,6 +2285,12 @@
         "label": "#EV069・アヘ顔・アヘ顔・精液・愛液2",
         "file": "EV069_10"
       },
+      "se": [
+        {
+          "code": "8351A",
+          "file": "se/8351a.ogg"
+        }
+      ],
       "bgv": {
         "id": "BGV_AYAN_H003A",
         "file": "voice/BGV_ayan_h003a.ogg"
@@ -2281,7 +2311,8 @@
       "bgv": {
         "id": "BGV_AYAN_H003A",
         "file": "voice/BGV_ayan_h003a.ogg"
-      }
+      },
+      "flash": 2
     },
     {
       "kind": "line",
@@ -2336,6 +2367,12 @@
         "label": "#EV069・アヘ顔・アヘ顔・精液・愛液2",
         "file": "EV069_10"
       },
+      "se": [
+        {
+          "code": "8351A",
+          "file": "se/8351a.ogg"
+        }
+      ],
       "bgv": {
         "id": "BGV_AYAN_H003A",
         "file": "voice/BGV_ayan_h003a.ogg"
@@ -2355,7 +2392,8 @@
       "bgv": {
         "id": "BGV_AYAN_H003A",
         "file": "voice/BGV_ayan_h003a.ogg"
-      }
+      },
+      "flash": 2
     },
     {
       "kind": "line",
@@ -2534,15 +2572,28 @@
         "涼姉は、まだ絶頂のさなかにいるようだ。",
         "呂律の回らない声を上げながら、緩々と腰を",
         "前後させている。",
-        "さすがに、いったん休憩をすることにしよう。",
+        "さすがに、いったん休憩をすることにしよう。"
+      ],
+      "bg": {
+        "label": "#EV069・アヘ顔・アヘ顔・精液・愛液2",
+        "file": "EV069_10"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H003A",
+        "file": "voice/BGV_ayan_h003a.ogg"
+      }
+    },
+    {
+      "kind": "narration",
+      "lines": [
         "まだ涼姉への種付けが残っているのだから。",
         "………。",
         "……。",
         "…。"
       ],
       "bg": {
-        "label": "#EV069・アヘ顔・アヘ顔・精液・愛液2",
-        "file": "EV069_10"
+        "label": "#背景・黒一色",
+        "file": "BG_BLACK"
       },
       "bgv": {
         "id": "BGV_AYAN_H003A",

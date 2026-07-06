@@ -2,6 +2,7 @@
   "code": "003_SUZU006B",
   "route": "003",
   "locale": "jp",
+  "title": "古橋涼菜\\Nスーツ姿でセックス",
   "beats": [
     {
       "kind": "narration",
@@ -455,12 +456,6 @@
         "label": "#EV061・困り2・挿入・微笑み・愛液",
         "file": "EV061_06"
       },
-      "se": [
-        {
-          "code": "8101A",
-          "file": "se/8101a.ogg"
-        }
-      ],
       "bgv": {
         "id": "BGV_SUZU_H001A",
         "file": "voice/BGV_suzu_h001a.ogg"
@@ -687,12 +682,6 @@
         "label": "#EV061・困り2・挿入・微笑み・愛液",
         "file": "EV061_06"
       },
-      "se": [
-        {
-          "code": "8101C",
-          "file": "se/8101c.ogg"
-        }
-      ],
       "bgv": {
         "id": "BGV_SUZU_H001A",
         "file": "voice/BGV_suzu_h001a.ogg"
@@ -987,8 +976,6 @@
         "腰をくねらせて、貪欲に快感を求めているのだ。",
         "その様子を見て、たまらない気持ちになる。",
         "そして射精感が、こみ上げてきた。",
-        "このまま射精する",
-        "射精を我慢する",
         "僕は我慢せずに、射精することにした。",
         "スパートをかけて、激しく突きまくる。"
       ],
@@ -1235,6 +1222,12 @@
         "label": "#EV061・アヘ顔・挿入・眉寄せ・射精",
         "file": "EV061_09"
       },
+      "se": [
+        {
+          "code": "8201B",
+          "file": "se/8201b.ogg"
+        }
+      ],
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
@@ -1258,7 +1251,8 @@
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
-      }
+      },
+      "flash": 3
     },
     {
       "kind": "narration",
@@ -1272,6 +1266,12 @@
         "label": "#EV061・アヘ顔・挿入・眉寄せ・射精",
         "file": "EV061_09"
       },
+      "se": [
+        {
+          "code": "8201B",
+          "file": "se/8201b.ogg"
+        }
+      ],
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
@@ -1295,7 +1295,8 @@
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
-      }
+      },
+      "flash": 3
     },
     {
       "kind": "narration",
@@ -2019,6 +2020,12 @@
         "label": "#EV061・アヘ顔・挿入・眉寄せ・精液たれ",
         "file": "EV061_12"
       },
+      "se": [
+        {
+          "code": "8351A",
+          "file": "se/8351a.ogg"
+        }
+      ],
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
@@ -2037,7 +2044,8 @@
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
-      }
+      },
+      "flash": 2
     },
     {
       "kind": "line",
@@ -2092,6 +2100,12 @@
         "label": "#EV061・アヘ顔・挿入・眉寄せ・精液たれ",
         "file": "EV061_12"
       },
+      "se": [
+        {
+          "code": "8351A",
+          "file": "se/8351a.ogg"
+        }
+      ],
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
@@ -2114,7 +2128,8 @@
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
-      }
+      },
+      "flash": 2
     },
     {
       "kind": "line",
@@ -2204,6 +2219,12 @@
         "label": "#EV061・アヘ顔・挿入・眉寄せ・精液たれ",
         "file": "EV061_12"
       },
+      "se": [
+        {
+          "code": "8351A",
+          "file": "se/8351a.ogg"
+        }
+      ],
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
@@ -2224,7 +2245,8 @@
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
-      }
+      },
+      "flash": 2
     },
     {
       "kind": "line",
@@ -2241,6 +2263,12 @@
         "label": "#EV061・アヘ顔・挿入・眉寄せ・精液たれ",
         "file": "EV061_12"
       },
+      "se": [
+        {
+          "code": "8351A",
+          "file": "se/8351a.ogg"
+        }
+      ],
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
@@ -2258,10 +2286,17 @@
         "label": "#EV061・アヘ顔・挿入・眉寄せ・精液たれ",
         "file": "EV061_12"
       },
+      "se": [
+        {
+          "code": "8201B",
+          "file": "se/8201b.ogg"
+        }
+      ],
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
-      }
+      },
+      "flash": 2
     },
     {
       "kind": "narration",
@@ -2275,7 +2310,8 @@
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
-      }
+      },
+      "flash": 3
     },
     {
       "kind": "line",
@@ -2327,6 +2363,12 @@
         "label": "#EV061・アヘ顔・挿入・眉寄せ・精液たれ2",
         "file": "EV061_13"
       },
+      "se": [
+        {
+          "code": "8351A",
+          "file": "se/8351a.ogg"
+        }
+      ],
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
@@ -2343,10 +2385,17 @@
         "label": "#EV061・アヘ顔・挿入・眉寄せ・精液たれ2",
         "file": "EV061_13"
       },
+      "se": [
+        {
+          "code": "8201B",
+          "file": "se/8201b.ogg"
+        }
+      ],
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
-      }
+      },
+      "flash": 2
     },
     {
       "kind": "line",
@@ -2363,10 +2412,17 @@
         "label": "#EV061・アヘ顔・挿入・眉寄せ・精液たれ2",
         "file": "EV061_13"
       },
+      "se": [
+        {
+          "code": "8201B",
+          "file": "se/8201b.ogg"
+        }
+      ],
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
-      }
+      },
+      "flash": 3
     },
     {
       "kind": "narration",
@@ -2382,7 +2438,8 @@
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
-      }
+      },
+      "flash": 3
     },
     {
       "kind": "line",
@@ -2399,6 +2456,12 @@
         "label": "#EV061・アヘ顔・挿入・眉寄せ・精液たれ2",
         "file": "EV061_13"
       },
+      "se": [
+        {
+          "code": "8351A",
+          "file": "se/8351a.ogg"
+        }
+      ],
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
@@ -2417,7 +2480,8 @@
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
-      }
+      },
+      "flash": 2
     },
     {
       "kind": "line",
@@ -2434,6 +2498,12 @@
         "label": "#EV061・アヘ顔・挿入・眉寄せ・精液たれ2",
         "file": "EV061_13"
       },
+      "se": [
+        {
+          "code": "8201B",
+          "file": "se/8201b.ogg"
+        }
+      ],
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
@@ -2454,7 +2524,8 @@
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
-      }
+      },
+      "flash": 3
     },
     {
       "kind": "line",
@@ -2471,6 +2542,12 @@
         "label": "#EV061・アヘ顔・挿入・眉寄せ・精液たれ2",
         "file": "EV061_13"
       },
+      "se": [
+        {
+          "code": "8351A",
+          "file": "se/8351a.ogg"
+        }
+      ],
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
@@ -2491,7 +2568,8 @@
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
-      }
+      },
+      "flash": 2
     },
     {
       "kind": "line",
@@ -2518,12 +2596,25 @@
       "lines": [
         "その感覚は、僕にもわかる。",
         "ドロドロの膣内に優しく包まれている感じが、とても",
-        "心地いい。",
-        "いつまでもこうしていたかったけれども……。"
+        "心地いい。"
       ],
       "bg": {
         "label": "#EV061・うっとり・挿入・ほっこり・精液たれ2",
         "file": "EV061_14"
+      },
+      "bgv": {
+        "id": "BGV_SUZU_H003A",
+        "file": "voice/BGV_suzu_h003a.ogg"
+      }
+    },
+    {
+      "kind": "narration",
+      "lines": [
+        "いつまでもこうしていたかったけれども……。"
+      ],
+      "bg": {
+        "label": "#背景・黒一色",
+        "file": "BG_BLACK"
       },
       "bgv": {
         "id": "BGV_SUZU_H003A",
@@ -2649,12 +2740,12 @@
         "file": "BG02_01_00"
       },
       "sprite": {
-        "label": "綾菜（中）・通常２（昼）・私服０１・にっこり１",
-        "body": "CH01B_02_01_003_01",
-        "face": "CH01B_02_01_102_01",
+        "label": "涼菜（中）・通常２（昼）・スーツ０１・怒り１",
+        "body": "CH02B_02_01_003_01",
+        "face": "CH02B_02_01_105_01",
         "offset": [
-          431,
-          78
+          238,
+          76
         ]
       },
       "bgv": {
@@ -2697,11 +2788,7 @@
         "確かに、スカートを下ろすと、ストッキングの伝線は",
         "見えなくなっていた。",
         "今日は、膣内に僕の精液を入れたまま過ごすことに",
-        "なるだろう。",
-        "さて、僕も学校に行かなくては……。",
-        "………。",
-        "……。",
-        "…。"
+        "なるだろう。"
       ],
       "bg": {
         "label": "#背景・古橋家リビング（昼）",
@@ -2715,6 +2802,23 @@
           238,
           76
         ]
+      },
+      "bgv": {
+        "id": "BGV_SUZU_H003A",
+        "file": "voice/BGV_suzu_h003a.ogg"
+      }
+    },
+    {
+      "kind": "narration",
+      "lines": [
+        "さて、僕も学校に行かなくては……。",
+        "………。",
+        "……。",
+        "…。"
+      ],
+      "bg": {
+        "label": "#背景・黒一色",
+        "file": "BG_BLACK"
       },
       "bgv": {
         "id": "BGV_SUZU_H003A",

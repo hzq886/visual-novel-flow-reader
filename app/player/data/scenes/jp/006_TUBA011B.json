@@ -273,13 +273,7 @@
       "bg": {
         "label": "#EV023・虚ろ目キス・割れ目擦る",
         "file": "EV023_01"
-      },
-      "se": [
-        {
-          "code": "8131A",
-          "file": "se/8131a.ogg"
-        }
-      ]
+      }
     },
     {
       "kind": "narration",
@@ -1320,6 +1314,7 @@
       "kind": "narration",
       "lines": [
         "口内の刺激はもちろんだが、唇の柔らかさも",
+        "いい感じだ。",
         "もごもごと舌が動かされるたび、敏感な裏側に",
         "唇が触れて離れてを繰り返す。",
         "亀頭をなめられる刺激と合わさって、口内でチ×ポが",
@@ -1648,12 +1643,6 @@
         "label": "#EV023・虚ろ目舐め転がし・割れ目擦る・中接近・愛液",
         "file": "EV023_06"
       },
-      "se": [
-        {
-          "code": "8131B",
-          "file": "se/8131b.ogg"
-        }
-      ],
       "bgv": {
         "id": "BGV_TUBA_F003A",
         "file": "voice/BGV_tuba_f003a.ogg"
@@ -2008,12 +1997,6 @@
         "label": "#EV023・虚ろ目見開き舌少し出て・割れ目擦る・前方に・愛液",
         "file": "EV023_07"
       },
-      "se": [
-        {
-          "code": "8131C",
-          "file": "se/8131c.ogg"
-        }
-      ],
       "bgv": {
         "id": "BGV_TUBA_F003A",
         "file": "voice/BGV_tuba_f003a.ogg"
@@ -2884,8 +2867,8 @@
         "file": "EV023_12"
       },
       "bgv": {
-        "id": "BGV_TUBA_F003A",
-        "file": "voice/BGV_tuba_f003a.ogg"
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -2900,8 +2883,8 @@
         "file": "EV023_12"
       },
       "bgv": {
-        "id": "BGV_TUBA_F003A",
-        "file": "voice/BGV_tuba_f003a.ogg"
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -2920,8 +2903,8 @@
         "file": "EV023_12"
       },
       "bgv": {
-        "id": "BGV_TUBA_F003A",
-        "file": "voice/BGV_tuba_f003a.ogg"
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -2936,8 +2919,8 @@
         "file": "EV023_12"
       },
       "bgv": {
-        "id": "BGV_TUBA_F003A",
-        "file": "voice/BGV_tuba_f003a.ogg"
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -2955,8 +2938,8 @@
         "file": "EV023_12"
       },
       "bgv": {
-        "id": "BGV_TUBA_F003A",
-        "file": "voice/BGV_tuba_f003a.ogg"
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -2970,8 +2953,8 @@
         "file": "EV023_12"
       },
       "bgv": {
-        "id": "BGV_TUBA_F003A",
-        "file": "voice/BGV_tuba_f003a.ogg"
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -2990,8 +2973,8 @@
         "file": "EV023_12"
       },
       "bgv": {
-        "id": "BGV_TUBA_F003A",
-        "file": "voice/BGV_tuba_f003a.ogg"
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -3007,8 +2990,8 @@
         "file": "EV023_12"
       },
       "bgv": {
-        "id": "BGV_TUBA_F003A",
-        "file": "voice/BGV_tuba_f003a.ogg"
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -3026,8 +3009,8 @@
         "file": "EV023_12"
       },
       "bgv": {
-        "id": "BGV_TUBA_F003A",
-        "file": "voice/BGV_tuba_f003a.ogg"
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -3042,8 +3025,8 @@
         "file": "EV023_12"
       },
       "bgv": {
-        "id": "BGV_TUBA_F003A",
-        "file": "voice/BGV_tuba_f003a.ogg"
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -3068,8 +3051,8 @@
         }
       ],
       "bgv": {
-        "id": "BGV_TUBA_F003A",
-        "file": "voice/BGV_tuba_f003a.ogg"
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -3084,9 +3067,10 @@
         "file": "EV023_13"
       },
       "bgv": {
-        "id": "BGV_TUBA_F003A",
-        "file": "voice/BGV_tuba_f003a.ogg"
-      }
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
+      },
+      "flash": 2
     },
     {
       "kind": "line",
@@ -3104,8 +3088,8 @@
         "file": "EV023_13"
       },
       "bgv": {
-        "id": "BGV_TUBA_F003A",
-        "file": "voice/BGV_tuba_f003a.ogg"
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -3124,8 +3108,8 @@
         "file": "EV023_13"
       },
       "bgv": {
-        "id": "BGV_TUBA_F003A",
-        "file": "voice/BGV_tuba_f003a.ogg"
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -3143,26 +3127,39 @@
         "file": "EV023_13"
       },
       "bgv": {
-        "id": "BGV_TUBA_F003A",
-        "file": "voice/BGV_tuba_f003a.ogg"
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
       "kind": "narration",
       "lines": [
-        "まだ名残惜しそうにチ×ポを舐める翼。",
-        "その姿を眺めながら、僕はゆっくりと腰を引いた。",
-        "………。",
-        "……。",
-        "…。"
+        "まだ名残惜しそうにチ×ポを舐める翼。"
       ],
       "bg": {
         "label": "#EV023・虚ろ目見開き舌出し舐め・クリ摘み・離れ気味・愛液2・精液",
         "file": "EV023_13"
       },
       "bgv": {
-        "id": "BGV_TUBA_F003A",
-        "file": "voice/BGV_tuba_f003a.ogg"
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
+      }
+    },
+    {
+      "kind": "narration",
+      "lines": [
+        "その姿を眺めながら、僕はゆっくりと腰を引いた。",
+        "………。",
+        "……。",
+        "…。"
+      ],
+      "bg": {
+        "label": "#背景・黒一色",
+        "file": "BG_BLACK"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     }
   ],

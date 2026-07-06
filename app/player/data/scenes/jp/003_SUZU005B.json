@@ -472,9 +472,9 @@
         "file": "BG03_03_00"
       },
       "sprite": {
-        "label": "涼菜（中）・通常１（昼）・エロ下着０１・呆れ１",
+        "label": "涼菜（中）・通常１（昼）・エロ下着０１・にっこり１",
         "body": "CH02B_01_01_004_01",
-        "face": "CH02B_01_01_107_01",
+        "face": "CH02B_01_01_102_01",
         "offset": [
           227,
           80
@@ -491,9 +491,9 @@
         "file": "BG03_03_00"
       },
       "sprite": {
-        "label": "涼菜（中）・通常１（昼）・エロ下着０１・呆れ１",
+        "label": "涼菜（中）・通常１（昼）・エロ下着０１・にっこり１",
         "body": "CH02B_01_01_004_01",
-        "face": "CH02B_01_01_107_01",
+        "face": "CH02B_01_01_102_01",
         "offset": [
           227,
           80
@@ -516,9 +516,9 @@
         "file": "BG03_03_00"
       },
       "sprite": {
-        "label": "涼菜（中）・通常１（昼）・エロ下着０１・呆れ１",
+        "label": "涼菜（中）・通常１（昼）・エロ下着０１・にっこり１",
         "body": "CH02B_01_01_004_01",
-        "face": "CH02B_01_01_107_01",
+        "face": "CH02B_01_01_102_01",
         "offset": [
           227,
           80
@@ -540,9 +540,9 @@
         "file": "BG03_03_00"
       },
       "sprite": {
-        "label": "涼菜（中）・通常１（昼）・エロ下着０１・呆れ１",
+        "label": "涼菜（中）・通常１（昼）・エロ下着０１・にっこり１",
         "body": "CH02B_01_01_004_01",
-        "face": "CH02B_01_01_107_01",
+        "face": "CH02B_01_01_102_01",
         "offset": [
           227,
           80
@@ -565,9 +565,9 @@
         "file": "BG03_03_00"
       },
       "sprite": {
-        "label": "涼菜（中）・通常１（昼）・エロ下着０１・呆れ１",
+        "label": "涼菜（中）・通常１（昼）・エロ下着０１・通常１",
         "body": "CH02B_01_01_004_01",
-        "face": "CH02B_01_01_107_01",
+        "face": "CH02B_01_01_101_01",
         "offset": [
           227,
           80
@@ -585,9 +585,9 @@
         "file": "BG03_03_00"
       },
       "sprite": {
-        "label": "涼菜（中）・通常１（昼）・エロ下着０１・呆れ１",
+        "label": "涼菜（中）・通常１（昼）・エロ下着０１・通常１",
         "body": "CH02B_01_01_004_01",
-        "face": "CH02B_01_01_107_01",
+        "face": "CH02B_01_01_101_01",
         "offset": [
           227,
           80
@@ -604,9 +604,9 @@
         "file": "BG03_03_00"
       },
       "sprite": {
-        "label": "涼菜（中）・通常１（昼）・エロ下着０１・呆れ１",
+        "label": "涼菜（中）・通常１（昼）・エロ下着０１・通常１",
         "body": "CH02B_01_01_004_01",
-        "face": "CH02B_01_01_107_01",
+        "face": "CH02B_01_01_101_01",
         "offset": [
           227,
           80
@@ -629,9 +629,9 @@
         "file": "BG03_03_00"
       },
       "sprite": {
-        "label": "涼菜（中）・通常１（昼）・エロ下着０１・呆れ１",
+        "label": "涼菜（中）・通常１（昼）・エロ下着０１・にっこり１",
         "body": "CH02B_01_01_004_01",
-        "face": "CH02B_01_01_107_01",
+        "face": "CH02B_01_01_102_01",
         "offset": [
           227,
           80
@@ -651,9 +651,9 @@
         "file": "BG03_03_00"
       },
       "sprite": {
-        "label": "涼菜（中）・通常１（昼）・エロ下着０１・呆れ１",
+        "label": "涼菜（中）・通常１（昼）・エロ下着０１・にっこり１",
         "body": "CH02B_01_01_004_01",
-        "face": "CH02B_01_01_107_01",
+        "face": "CH02B_01_01_102_01",
         "offset": [
           227,
           80
@@ -733,11 +733,7 @@
     {
       "kind": "narration",
       "lines": [
-        "どうやらそれも、練習のうちらしい。",
-        "涼姉はふふっと笑って、身体を擦り寄せてきた。",
-        "僕の部屋に来る前に、お風呂に入ってきたのか、",
-        "シャンプーの良い匂いがする。",
-        "身体を密着させながら、服を脱がしはじめた。"
+        "どうやらそれも、練習のうちらしい。"
       ],
       "bg": {
         "label": "#背景・和樹の部屋（夜）",
@@ -752,6 +748,34 @@
           76
         ]
       }
+    },
+    {
+      "kind": "narration",
+      "lines": [
+        "涼姉はふふっと笑って、身体を擦り寄せてきた。",
+        "僕の部屋に来る前に、お風呂に入ってきたのか、",
+        "シャンプーの良い匂いがする。",
+        "身体を密着させながら、服を脱がしはじめた。"
+      ],
+      "bg": {
+        "label": "#背景・和樹の部屋（夜）",
+        "file": "BG03_03_00"
+      },
+      "sprite": {
+        "label": "涼菜（中）・通常２（昼）・エロ下着０１・にっこり１",
+        "body": "CH02B_02_01_004_01",
+        "face": "CH02B_02_01_102_01",
+        "offset": [
+          238,
+          76
+        ]
+      },
+      "se": [
+        {
+          "code": "1201B",
+          "file": "se/1201b.ogg"
+        }
+      ]
     },
     {
       "kind": "line",
@@ -769,9 +793,9 @@
         "file": "BG03_03_00"
       },
       "sprite": {
-        "label": "涼菜（中）・通常２（昼）・エロ下着０１・驚き１",
+        "label": "涼菜（中）・通常２（昼）・エロ下着０１・にっこり１",
         "body": "CH02B_02_01_004_01",
-        "face": "CH02B_02_01_104_01",
+        "face": "CH02B_02_01_102_01",
         "offset": [
           238,
           76
@@ -793,9 +817,9 @@
         "file": "BG03_03_00"
       },
       "sprite": {
-        "label": "涼菜（中）・通常２（昼）・エロ下着０１・驚き１",
+        "label": "涼菜（中）・通常２（昼）・エロ下着０１・にっこり１",
         "body": "CH02B_02_01_004_01",
-        "face": "CH02B_02_01_104_01",
+        "face": "CH02B_02_01_102_01",
         "offset": [
           238,
           76
@@ -818,9 +842,9 @@
         "file": "BG03_03_00"
       },
       "sprite": {
-        "label": "涼菜（中）・通常２（昼）・エロ下着０１・驚き１",
+        "label": "涼菜（中）・通常２（昼）・エロ下着０１・にっこり１",
         "body": "CH02B_02_01_004_01",
-        "face": "CH02B_02_01_104_01",
+        "face": "CH02B_02_01_102_01",
         "offset": [
           238,
           76
@@ -842,9 +866,9 @@
         "file": "BG03_03_00"
       },
       "sprite": {
-        "label": "涼菜（中）・通常２（昼）・エロ下着０１・驚き１",
+        "label": "涼菜（中）・通常２（昼）・エロ下着０１・にっこり１",
         "body": "CH02B_02_01_004_01",
-        "face": "CH02B_02_01_104_01",
+        "face": "CH02B_02_01_102_01",
         "offset": [
           238,
           76
@@ -916,9 +940,9 @@
         "file": "BG03_03_00"
       },
       "sprite": {
-        "label": "涼菜（中）・通常１（昼）・エロ下着０１・うっとり１",
+        "label": "涼菜（中）・通常１（昼）・エロ下着０１・にっこり１",
         "body": "CH02B_01_01_004_01",
-        "face": "CH02B_01_01_103_01",
+        "face": "CH02B_01_01_102_01",
         "offset": [
           227,
           80
@@ -936,9 +960,9 @@
         "file": "BG03_03_00"
       },
       "sprite": {
-        "label": "涼菜（中）・通常１（昼）・エロ下着０１・うっとり１",
+        "label": "涼菜（中）・通常１（昼）・エロ下着０１・にっこり１",
         "body": "CH02B_01_01_004_01",
-        "face": "CH02B_01_01_103_01",
+        "face": "CH02B_01_01_102_01",
         "offset": [
           227,
           80
@@ -1064,9 +1088,9 @@
         "file": "BG03_03_00"
       },
       "sprite": {
-        "label": "涼菜（中）・通常１（昼）・エロ下着０１・うっとり１",
+        "label": "涼菜（中）・通常１（昼）・エロ下着０１・にっこり１",
         "body": "CH02B_01_01_004_01",
-        "face": "CH02B_01_01_103_01",
+        "face": "CH02B_01_01_102_01",
         "offset": [
           227,
           80
@@ -1089,9 +1113,9 @@
         "file": "BG03_03_00"
       },
       "sprite": {
-        "label": "涼菜（中）・通常１（昼）・エロ下着０１・うっとり１",
+        "label": "涼菜（中）・通常１（昼）・エロ下着０１・にっこり１",
         "body": "CH02B_01_01_004_01",
-        "face": "CH02B_01_01_103_01",
+        "face": "CH02B_01_01_102_01",
         "offset": [
           227,
           80
@@ -1114,9 +1138,9 @@
         "file": "BG03_03_00"
       },
       "sprite": {
-        "label": "涼菜（中）・通常１（昼）・エロ下着０１・うっとり１",
+        "label": "涼菜（中）・通常１（昼）・エロ下着０１・にっこり１",
         "body": "CH02B_01_01_004_01",
-        "face": "CH02B_01_01_103_01",
+        "face": "CH02B_01_01_102_01",
         "offset": [
           227,
           80
@@ -1138,9 +1162,9 @@
         "file": "BG03_03_00"
       },
       "sprite": {
-        "label": "涼菜（中）・通常１（昼）・エロ下着０１・うっとり１",
+        "label": "涼菜（中）・通常１（昼）・エロ下着０１・にっこり１",
         "body": "CH02B_01_01_004_01",
-        "face": "CH02B_01_01_103_01",
+        "face": "CH02B_01_01_102_01",
         "offset": [
           227,
           80
@@ -1349,12 +1373,12 @@
         "file": "BG03_03_00"
       },
       "sprite": {
-        "label": "涼菜（中）・通常２（昼）・エロ下着０１・うっとり１",
-        "body": "CH02B_02_01_004_01",
-        "face": "CH02B_02_01_103_01",
+        "label": "涼菜（中）・通常１（昼）・エロ下着０１・うっとり１",
+        "body": "CH02B_01_01_004_01",
+        "face": "CH02B_01_01_103_01",
         "offset": [
-          238,
-          76
+          227,
+          80
         ]
       }
     },
@@ -1372,12 +1396,12 @@
         "file": "BG03_03_00"
       },
       "sprite": {
-        "label": "涼菜（中）・通常２（昼）・エロ下着０１・うっとり１",
-        "body": "CH02B_02_01_004_01",
-        "face": "CH02B_02_01_103_01",
+        "label": "涼菜（中）・通常１（昼）・エロ下着０１・うっとり１",
+        "body": "CH02B_01_01_004_01",
+        "face": "CH02B_01_01_103_01",
         "offset": [
-          238,
-          76
+          227,
+          80
         ]
       }
     },
@@ -1427,7 +1451,13 @@
           227,
           80
         ]
-      }
+      },
+      "se": [
+        {
+          "code": "1201B",
+          "file": "se/1201b.ogg"
+        }
+      ]
     },
     {
       "kind": "line",
@@ -1445,9 +1475,9 @@
         "file": "BG03_03_00"
       },
       "sprite": {
-        "label": "涼菜（中）・通常１（昼）・エロ下着０１・驚き１",
+        "label": "涼菜（中）・通常１（昼）・エロ下着０１・うっとり１",
         "body": "CH02B_01_01_004_01",
-        "face": "CH02B_01_01_104_01",
+        "face": "CH02B_01_01_103_01",
         "offset": [
           227,
           80
@@ -1467,9 +1497,9 @@
         "file": "BG03_03_00"
       },
       "sprite": {
-        "label": "涼菜（中）・通常１（昼）・エロ下着０１・驚き１",
+        "label": "涼菜（中）・通常１（昼）・エロ下着０１・うっとり１",
         "body": "CH02B_01_01_004_01",
-        "face": "CH02B_01_01_104_01",
+        "face": "CH02B_01_01_103_01",
         "offset": [
           227,
           80
@@ -1487,9 +1517,9 @@
         "file": "BG03_03_00"
       },
       "sprite": {
-        "label": "涼菜（中）・通常１（昼）・エロ下着０１・驚き１",
+        "label": "涼菜（中）・通常１（昼）・エロ下着０１・うっとり１",
         "body": "CH02B_01_01_004_01",
-        "face": "CH02B_01_01_104_01",
+        "face": "CH02B_01_01_103_01",
         "offset": [
           227,
           80
@@ -1507,9 +1537,9 @@
         "file": "BG03_03_00"
       },
       "sprite": {
-        "label": "涼菜（中）・通常１（昼）・エロ下着０１・驚き１",
+        "label": "涼菜（中）・通常１（昼）・エロ下着０１・うっとり１",
         "body": "CH02B_01_01_004_01",
-        "face": "CH02B_01_01_104_01",
+        "face": "CH02B_01_01_103_01",
         "offset": [
           227,
           80
@@ -1532,9 +1562,9 @@
         "file": "BG03_03_00"
       },
       "sprite": {
-        "label": "涼菜（中）・通常１（昼）・エロ下着０１・驚き１",
+        "label": "涼菜（中）・通常１（昼）・エロ下着０１・通常１",
         "body": "CH02B_01_01_004_01",
-        "face": "CH02B_01_01_104_01",
+        "face": "CH02B_01_01_101_01",
         "offset": [
           227,
           80
@@ -1552,9 +1582,9 @@
         "file": "BG03_03_00"
       },
       "sprite": {
-        "label": "涼菜（中）・通常１（昼）・エロ下着０１・驚き１",
+        "label": "涼菜（中）・通常１（昼）・エロ下着０１・通常１",
         "body": "CH02B_01_01_004_01",
-        "face": "CH02B_01_01_104_01",
+        "face": "CH02B_01_01_101_01",
         "offset": [
           227,
           80
@@ -1574,9 +1604,9 @@
         "file": "BG03_03_00"
       },
       "sprite": {
-        "label": "涼菜（中）・通常１（昼）・エロ下着０１・驚き１",
+        "label": "涼菜（中）・通常１（昼）・エロ下着０１・通常１",
         "body": "CH02B_01_01_004_01",
-        "face": "CH02B_01_01_104_01",
+        "face": "CH02B_01_01_101_01",
         "offset": [
           227,
           80
@@ -1599,9 +1629,9 @@
         "file": "BG03_03_00"
       },
       "sprite": {
-        "label": "涼菜（中）・通常１（昼）・エロ下着０１・驚き１",
+        "label": "涼菜（中）・通常１（昼）・エロ下着０１・にっこり１",
         "body": "CH02B_01_01_004_01",
-        "face": "CH02B_01_01_104_01",
+        "face": "CH02B_01_01_102_01",
         "offset": [
           227,
           80
@@ -1620,9 +1650,9 @@
         "file": "BG03_03_00"
       },
       "sprite": {
-        "label": "涼菜（中）・通常１（昼）・エロ下着０１・驚き１",
+        "label": "涼菜（中）・通常１（昼）・エロ下着０１・にっこり１",
         "body": "CH02B_01_01_004_01",
-        "face": "CH02B_01_01_104_01",
+        "face": "CH02B_01_01_102_01",
         "offset": [
           227,
           80
@@ -2995,8 +3025,8 @@
         "file": "EV047_05"
       },
       "bgv": {
-        "id": "BGV_SUZU_H002A",
-        "file": "voice/BGV_suzu_h002a.ogg"
+        "id": "BGV_SUZU_F002A",
+        "file": "voice/BGV_suzu_f002a.ogg"
       }
     },
     {
@@ -3013,8 +3043,8 @@
         "file": "EV047_05"
       },
       "bgv": {
-        "id": "BGV_SUZU_H002A",
-        "file": "voice/BGV_suzu_h002a.ogg"
+        "id": "BGV_SUZU_F002A",
+        "file": "voice/BGV_suzu_f002a.ogg"
       }
     },
     {
@@ -3051,6 +3081,12 @@
         "label": "#EV047・切なげ・唾液・パンツずらし",
         "file": "EV047_05"
       },
+      "se": [
+        {
+          "code": "8321A",
+          "file": "se/8321a.ogg"
+        }
+      ],
       "bgv": {
         "id": "BGV_SUZU_H002A",
         "file": "voice/BGV_suzu_h002a.ogg"
@@ -3169,6 +3205,12 @@
         "label": "#EV047・うっとり舌出し2・唾液・パンツずらし",
         "file": "EV047_06"
       },
+      "se": [
+        {
+          "code": "8321A",
+          "file": "se/8321a.ogg"
+        }
+      ],
       "bgv": {
         "id": "BGV_SUZU_F003A",
         "file": "voice/BGV_suzu_f003a.ogg"
@@ -3499,6 +3541,12 @@
         "label": "#EV047・アヘ顔・唾液・パンツずらし",
         "file": "EV047_07"
       },
+      "se": [
+        {
+          "code": "8351A",
+          "file": "se/8351a.ogg"
+        }
+      ],
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
@@ -3519,7 +3567,8 @@
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
-      }
+      },
+      "flash": 2
     },
     {
       "kind": "line",
@@ -3607,12 +3656,12 @@
         "んっ、んっふ、れろっ、れろぉっ！」"
       ],
       "bg": {
-        "label": "#EV047・アヘ顔・唾液・パンツずらし",
-        "file": "EV047_07"
+        "label": "#EV047・うっとり舌出し2・唾液・パンツずらし",
+        "file": "EV047_06"
       },
       "bgv": {
-        "id": "BGV_SUZU_H003A",
-        "file": "voice/BGV_suzu_h003a.ogg"
+        "id": "BGV_SUZU_F002A",
+        "file": "voice/BGV_suzu_f002a.ogg"
       }
     },
     {
@@ -3625,12 +3674,12 @@
         "時々、プルプルッと震える。"
       ],
       "bg": {
-        "label": "#EV047・アヘ顔・唾液・パンツずらし",
-        "file": "EV047_07"
+        "label": "#EV047・うっとり舌出し2・唾液・パンツずらし",
+        "file": "EV047_06"
       },
       "bgv": {
-        "id": "BGV_SUZU_H003A",
-        "file": "voice/BGV_suzu_h003a.ogg"
+        "id": "BGV_SUZU_F002A",
+        "file": "voice/BGV_suzu_f002a.ogg"
       }
     },
     {
@@ -3645,12 +3694,12 @@
         "おっ、おおぉおっ……んぷっ、ぢゅるるっ！」"
       ],
       "bg": {
-        "label": "#EV047・アヘ顔・唾液・パンツずらし",
-        "file": "EV047_07"
+        "label": "#EV047・うっとり舌出し2・唾液・パンツずらし",
+        "file": "EV047_06"
       },
       "bgv": {
-        "id": "BGV_SUZU_H003A",
-        "file": "voice/BGV_suzu_h003a.ogg"
+        "id": "BGV_SUZU_F002A",
+        "file": "voice/BGV_suzu_f002a.ogg"
       }
     },
     {
@@ -3663,12 +3712,12 @@
         "頭が痺れるような気持ちよさだ。"
       ],
       "bg": {
-        "label": "#EV047・アヘ顔・唾液・パンツずらし",
-        "file": "EV047_07"
+        "label": "#EV047・うっとり舌出し2・唾液・パンツずらし",
+        "file": "EV047_06"
       },
       "bgv": {
-        "id": "BGV_SUZU_H003A",
-        "file": "voice/BGV_suzu_h003a.ogg"
+        "id": "BGV_SUZU_F002A",
+        "file": "voice/BGV_suzu_f002a.ogg"
       }
     },
     {
@@ -3683,12 +3732,12 @@
         "んおっおっ！　んれろちゅ、れろれろっ！」"
       ],
       "bg": {
-        "label": "#EV047・アヘ顔・唾液・パンツずらし",
-        "file": "EV047_07"
+        "label": "#EV047・うっとり舌出し2・唾液・パンツずらし",
+        "file": "EV047_06"
       },
       "bgv": {
-        "id": "BGV_SUZU_H003A",
-        "file": "voice/BGV_suzu_h003a.ogg"
+        "id": "BGV_SUZU_F002A",
+        "file": "voice/BGV_suzu_f002a.ogg"
       }
     },
     {
@@ -3704,12 +3753,12 @@
         "下半身全部が熱くなっていく。"
       ],
       "bg": {
-        "label": "#EV047・アヘ顔・唾液・パンツずらし",
-        "file": "EV047_07"
+        "label": "#EV047・うっとり舌出し2・唾液・パンツずらし",
+        "file": "EV047_06"
       },
       "bgv": {
-        "id": "BGV_SUZU_H003A",
-        "file": "voice/BGV_suzu_h003a.ogg"
+        "id": "BGV_SUZU_F002A",
+        "file": "voice/BGV_suzu_f002a.ogg"
       }
     },
     {
@@ -3719,12 +3768,12 @@
         "「んっぷぁっ、も、もう僕もイキそうかもっ」"
       ],
       "bg": {
-        "label": "#EV047・アヘ顔・唾液・パンツずらし",
-        "file": "EV047_07"
+        "label": "#EV047・うっとり舌出し2・唾液・パンツずらし",
+        "file": "EV047_06"
       },
       "bgv": {
-        "id": "BGV_SUZU_H003A",
-        "file": "voice/BGV_suzu_h003a.ogg"
+        "id": "BGV_SUZU_F002A",
+        "file": "voice/BGV_suzu_f002a.ogg"
       }
     },
     {
@@ -3739,12 +3788,12 @@
         "気持ち良くなって、射精して！」"
       ],
       "bg": {
-        "label": "#EV047・アヘ顔・唾液・パンツずらし",
-        "file": "EV047_07"
+        "label": "#EV047・うっとり舌出し2・唾液・パンツずらし",
+        "file": "EV047_06"
       },
       "bgv": {
-        "id": "BGV_SUZU_H003A",
-        "file": "voice/BGV_suzu_h003a.ogg"
+        "id": "BGV_SUZU_F002A",
+        "file": "voice/BGV_suzu_f002a.ogg"
       }
     },
     {
@@ -3757,12 +3806,12 @@
         "おしっこの穴をズボズボとほじくる。"
       ],
       "bg": {
-        "label": "#EV047・アヘ顔・唾液・パンツずらし",
-        "file": "EV047_07"
+        "label": "#EV047・うっとり舌出し2・唾液・パンツずらし",
+        "file": "EV047_06"
       },
       "bgv": {
-        "id": "BGV_SUZU_H003A",
-        "file": "voice/BGV_suzu_h003a.ogg"
+        "id": "BGV_SUZU_F002A",
+        "file": "voice/BGV_suzu_f002a.ogg"
       }
     },
     {
@@ -3777,12 +3826,12 @@
         "どぴゅどぴゅして欲しいのぉ、ぢゅるるっ！」"
       ],
       "bg": {
-        "label": "#EV047・アヘ顔・唾液・パンツずらし",
-        "file": "EV047_07"
+        "label": "#EV047・うっとり舌出し2・唾液・パンツずらし",
+        "file": "EV047_06"
       },
       "bgv": {
-        "id": "BGV_SUZU_H003A",
-        "file": "voice/BGV_suzu_h003a.ogg"
+        "id": "BGV_SUZU_F003A",
+        "file": "voice/BGV_suzu_f003a.ogg"
       }
     },
     {
@@ -3794,12 +3843,12 @@
         "突きまくった。"
       ],
       "bg": {
-        "label": "#EV047・アヘ顔・唾液・パンツずらし",
-        "file": "EV047_07"
+        "label": "#EV047・うっとり舌出し2・唾液・パンツずらし",
+        "file": "EV047_06"
       },
       "bgv": {
-        "id": "BGV_SUZU_H003A",
-        "file": "voice/BGV_suzu_h003a.ogg"
+        "id": "BGV_SUZU_F003A",
+        "file": "voice/BGV_suzu_f003a.ogg"
       }
     },
     {
@@ -3814,12 +3863,12 @@
         "ちゅぶっ！　んっぶ、ぢゅぷぷっ！」"
       ],
       "bg": {
-        "label": "#EV047・アヘ顔・唾液・パンツずらし",
-        "file": "EV047_07"
+        "label": "#EV047・うっとり舌出し2・唾液・パンツずらし",
+        "file": "EV047_06"
       },
       "bgv": {
-        "id": "BGV_SUZU_H003A",
-        "file": "voice/BGV_suzu_h003a.ogg"
+        "id": "BGV_SUZU_F003A",
+        "file": "voice/BGV_suzu_f003a.ogg"
       }
     },
     {
@@ -3830,12 +3879,12 @@
         "腰の奥のほうから熱い何かがせりあがってくる。"
       ],
       "bg": {
-        "label": "#EV047・アヘ顔・唾液・パンツずらし",
-        "file": "EV047_07"
+        "label": "#EV047・うっとり舌出し2・唾液・パンツずらし",
+        "file": "EV047_06"
       },
       "bgv": {
-        "id": "BGV_SUZU_H003A",
-        "file": "voice/BGV_suzu_h003a.ogg"
+        "id": "BGV_SUZU_F003A",
+        "file": "voice/BGV_suzu_f003a.ogg"
       }
     },
     {
@@ -3850,12 +3899,12 @@
         "おっぱいの間で、出してっ……んちゅぶぶっ！」"
       ],
       "bg": {
-        "label": "#EV047・アヘ顔・唾液・パンツずらし",
-        "file": "EV047_07"
+        "label": "#EV047・うっとり舌出し2・唾液・パンツずらし",
+        "file": "EV047_06"
       },
       "bgv": {
-        "id": "BGV_SUZU_H003A",
-        "file": "voice/BGV_suzu_h003a.ogg"
+        "id": "BGV_SUZU_F003A",
+        "file": "voice/BGV_suzu_f003a.ogg"
       }
     },
     {
@@ -3866,12 +3915,12 @@
         "深々と抉って、勢いよく引き抜く。"
       ],
       "bg": {
-        "label": "#EV047・アヘ顔・唾液・パンツずらし",
-        "file": "EV047_07"
+        "label": "#EV047・うっとり舌出し2・唾液・パンツずらし",
+        "file": "EV047_06"
       },
       "bgv": {
-        "id": "BGV_SUZU_H003A",
-        "file": "voice/BGV_suzu_h003a.ogg"
+        "id": "BGV_SUZU_F003A",
+        "file": "voice/BGV_suzu_f003a.ogg"
       }
     },
     {
@@ -3886,12 +3935,12 @@
         "ん～っ……んりゅううっ！！」"
       ],
       "bg": {
-        "label": "#EV047・アヘ顔・唾液・パンツずらし",
-        "file": "EV047_07"
+        "label": "#EV047・うっとり舌出し2・唾液・パンツずらし",
+        "file": "EV047_06"
       },
       "bgv": {
-        "id": "BGV_SUZU_H003A",
-        "file": "voice/BGV_suzu_h003a.ogg"
+        "id": "BGV_SUZU_F003A",
+        "file": "voice/BGV_suzu_f003a.ogg"
       }
     },
     {
@@ -3900,8 +3949,8 @@
         "舌が抜けるなり、すさまじい快感が突きあがった。"
       ],
       "bg": {
-        "label": "#EV047・アヘ顔・唾液・パンツずらし",
-        "file": "EV047_07"
+        "label": "#EV047・うっとり舌出し2・唾液・パンツずらし",
+        "file": "EV047_06"
       },
       "se": [
         {
@@ -3910,8 +3959,8 @@
         }
       ],
       "bgv": {
-        "id": "BGV_SUZU_H003A",
-        "file": "voice/BGV_suzu_h003a.ogg"
+        "id": "BGV_SUZU_F003A",
+        "file": "voice/BGV_suzu_f003a.ogg"
       }
     },
     {
@@ -3924,8 +3973,8 @@
         "file": "EV047_08"
       },
       "bgv": {
-        "id": "BGV_SUZU_H003A",
-        "file": "voice/BGV_suzu_h003a.ogg"
+        "id": "BGV_SUZU_F003A",
+        "file": "voice/BGV_suzu_f003a.ogg"
       },
       "flash": 3
     },
@@ -3945,8 +3994,8 @@
         "file": "EV047_08"
       },
       "bgv": {
-        "id": "BGV_SUZU_H003A",
-        "file": "voice/BGV_suzu_h003a.ogg"
+        "id": "BGV_SUZU_F003A",
+        "file": "voice/BGV_suzu_f003a.ogg"
       }
     },
     {
@@ -3960,8 +4009,8 @@
         "file": "EV047_08"
       },
       "bgv": {
-        "id": "BGV_SUZU_H003A",
-        "file": "voice/BGV_suzu_h003a.ogg"
+        "id": "BGV_SUZU_F003A",
+        "file": "voice/BGV_suzu_f003a.ogg"
       }
     },
     {
@@ -3979,9 +4028,15 @@
         "label": "#EV047・アヘ顔・射精・パンツずらし",
         "file": "EV047_08"
       },
+      "se": [
+        {
+          "code": "8201B",
+          "file": "se/8201b.ogg"
+        }
+      ],
       "bgv": {
-        "id": "BGV_SUZU_H003A",
-        "file": "voice/BGV_suzu_h003a.ogg"
+        "id": "BGV_SUZU_F003A",
+        "file": "voice/BGV_suzu_f003a.ogg"
       }
     },
     {
@@ -3996,9 +4051,10 @@
         "file": "EV047_08"
       },
       "bgv": {
-        "id": "BGV_SUZU_H003A",
-        "file": "voice/BGV_suzu_h003a.ogg"
-      }
+        "id": "BGV_SUZU_F003A",
+        "file": "voice/BGV_suzu_f003a.ogg"
+      },
+      "flash": 3
     },
     {
       "kind": "line",
@@ -4015,9 +4071,15 @@
         "label": "#EV047・アヘ顔・射精・パンツずらし",
         "file": "EV047_08"
       },
+      "se": [
+        {
+          "code": "8351A",
+          "file": "se/8351a.ogg"
+        }
+      ],
       "bgv": {
-        "id": "BGV_SUZU_H003A",
-        "file": "voice/BGV_suzu_h003a.ogg"
+        "id": "BGV_SUZU_F003A",
+        "file": "voice/BGV_suzu_f003a.ogg"
       }
     },
     {
@@ -4031,9 +4093,10 @@
         "file": "EV047_08"
       },
       "bgv": {
-        "id": "BGV_SUZU_H003A",
-        "file": "voice/BGV_suzu_h003a.ogg"
-      }
+        "id": "BGV_SUZU_F003A",
+        "file": "voice/BGV_suzu_f003a.ogg"
+      },
+      "flash": 2
     },
     {
       "kind": "line",
@@ -4051,8 +4114,8 @@
         "file": "EV047_08"
       },
       "bgv": {
-        "id": "BGV_SUZU_H003A",
-        "file": "voice/BGV_suzu_h003a.ogg"
+        "id": "BGV_SUZU_F003A",
+        "file": "voice/BGV_suzu_f003a.ogg"
       }
     },
     {
@@ -4068,9 +4131,15 @@
         "label": "#EV047・アヘ顔・射精・パンツずらし",
         "file": "EV047_08"
       },
+      "se": [
+        {
+          "code": "8201B",
+          "file": "se/8201b.ogg"
+        }
+      ],
       "bgv": {
-        "id": "BGV_SUZU_H003A",
-        "file": "voice/BGV_suzu_h003a.ogg"
+        "id": "BGV_SUZU_F003A",
+        "file": "voice/BGV_suzu_f003a.ogg"
       }
     },
     {
@@ -4089,9 +4158,10 @@
         "file": "EV047_08"
       },
       "bgv": {
-        "id": "BGV_SUZU_H003A",
-        "file": "voice/BGV_suzu_h003a.ogg"
-      }
+        "id": "BGV_SUZU_F003A",
+        "file": "voice/BGV_suzu_f003a.ogg"
+      },
+      "flash": 3
     },
     {
       "kind": "narration",
@@ -4108,8 +4178,8 @@
         "file": "EV047_08"
       },
       "bgv": {
-        "id": "BGV_SUZU_H003A",
-        "file": "voice/BGV_suzu_h003a.ogg"
+        "id": "BGV_SUZU_F003A",
+        "file": "voice/BGV_suzu_f003a.ogg"
       }
     },
     {
@@ -4127,9 +4197,15 @@
         "label": "#EV047・アヘ顔・射精・パンツずらし",
         "file": "EV047_08"
       },
+      "se": [
+        {
+          "code": "8351A",
+          "file": "se/8351a.ogg"
+        }
+      ],
       "bgv": {
-        "id": "BGV_SUZU_H003A",
-        "file": "voice/BGV_suzu_h003a.ogg"
+        "id": "BGV_SUZU_F003A",
+        "file": "voice/BGV_suzu_f003a.ogg"
       }
     },
     {
@@ -4149,9 +4225,10 @@
         "file": "EV047_08"
       },
       "bgv": {
-        "id": "BGV_SUZU_H003A",
-        "file": "voice/BGV_suzu_h003a.ogg"
-      }
+        "id": "BGV_SUZU_F003A",
+        "file": "voice/BGV_suzu_f003a.ogg"
+      },
+      "flash": 2
     },
     {
       "kind": "line",
@@ -4169,8 +4246,8 @@
         "file": "EV047_08"
       },
       "bgv": {
-        "id": "BGV_SUZU_H003A",
-        "file": "voice/BGV_suzu_h003a.ogg"
+        "id": "BGV_SUZU_F003A",
+        "file": "voice/BGV_suzu_f003a.ogg"
       }
     },
     {
@@ -4184,9 +4261,15 @@
         "label": "#EV047・アヘ顔・射精・パンツずらし",
         "file": "EV047_08"
       },
+      "se": [
+        {
+          "code": "8201B",
+          "file": "se/8201b.ogg"
+        }
+      ],
       "bgv": {
-        "id": "BGV_SUZU_H003A",
-        "file": "voice/BGV_suzu_h003a.ogg"
+        "id": "BGV_SUZU_F003A",
+        "file": "voice/BGV_suzu_f003a.ogg"
       }
     },
     {
@@ -4205,9 +4288,10 @@
         "file": "EV047_08"
       },
       "bgv": {
-        "id": "BGV_SUZU_H003A",
-        "file": "voice/BGV_suzu_h003a.ogg"
-      }
+        "id": "BGV_SUZU_F003A",
+        "file": "voice/BGV_suzu_f003a.ogg"
+      },
+      "flash": 3
     },
     {
       "kind": "narration",
@@ -4219,8 +4303,8 @@
         "file": "EV047_08"
       },
       "bgv": {
-        "id": "BGV_SUZU_H003A",
-        "file": "voice/BGV_suzu_h003a.ogg"
+        "id": "BGV_SUZU_F003A",
+        "file": "voice/BGV_suzu_f003a.ogg"
       }
     },
     {
@@ -4237,8 +4321,8 @@
         "file": "EV047_09"
       },
       "bgv": {
-        "id": "BGV_SUZU_H003A",
-        "file": "voice/BGV_suzu_h003a.ogg"
+        "id": "BGV_SUZU_F003A",
+        "file": "voice/BGV_suzu_f003a.ogg"
       }
     },
     {
@@ -4257,8 +4341,8 @@
         "file": "EV047_09"
       },
       "bgv": {
-        "id": "BGV_SUZU_H003A",
-        "file": "voice/BGV_suzu_h003a.ogg"
+        "id": "BGV_SUZU_F001A",
+        "file": "voice/BGV_suzu_f001a.ogg"
       }
     },
     {
@@ -4273,9 +4357,15 @@
         "label": "#EV047・アヘ顔・精液たれ・パンツずらし",
         "file": "EV047_09"
       },
+      "se": [
+        {
+          "code": "8201B",
+          "file": "se/8201b.ogg"
+        }
+      ],
       "bgv": {
-        "id": "BGV_SUZU_H003A",
-        "file": "voice/BGV_suzu_h003a.ogg"
+        "id": "BGV_SUZU_F001A",
+        "file": "voice/BGV_suzu_f001a.ogg"
       }
     },
     {
@@ -4294,9 +4384,10 @@
         "file": "EV047_09"
       },
       "bgv": {
-        "id": "BGV_SUZU_H003A",
-        "file": "voice/BGV_suzu_h003a.ogg"
-      }
+        "id": "BGV_SUZU_F001A",
+        "file": "voice/BGV_suzu_f001a.ogg"
+      },
+      "flash": 3
     },
     {
       "kind": "narration",
@@ -4310,8 +4401,8 @@
         "file": "EV047_09"
       },
       "bgv": {
-        "id": "BGV_SUZU_H003A",
-        "file": "voice/BGV_suzu_h003a.ogg"
+        "id": "BGV_SUZU_F001A",
+        "file": "voice/BGV_suzu_f001a.ogg"
       }
     },
     {
@@ -4330,8 +4421,8 @@
         "file": "EV047_09"
       },
       "bgv": {
-        "id": "BGV_SUZU_H003A",
-        "file": "voice/BGV_suzu_h003a.ogg"
+        "id": "BGV_SUZU_F001A",
+        "file": "voice/BGV_suzu_f001a.ogg"
       }
     },
     {
@@ -4345,8 +4436,8 @@
         "file": "EV047_09"
       },
       "bgv": {
-        "id": "BGV_SUZU_H003A",
-        "file": "voice/BGV_suzu_h003a.ogg"
+        "id": "BGV_SUZU_F001A",
+        "file": "voice/BGV_suzu_f001a.ogg"
       }
     },
     {
@@ -4365,8 +4456,8 @@
         "file": "EV047_09"
       },
       "bgv": {
-        "id": "BGV_SUZU_H003A",
-        "file": "voice/BGV_suzu_h003a.ogg"
+        "id": "BGV_SUZU_F001A",
+        "file": "voice/BGV_suzu_f001a.ogg"
       }
     },
     {
@@ -4382,8 +4473,8 @@
         "file": "EV047_09"
       },
       "bgv": {
-        "id": "BGV_SUZU_H003A",
-        "file": "voice/BGV_suzu_h003a.ogg"
+        "id": "BGV_SUZU_F001A",
+        "file": "voice/BGV_suzu_f001a.ogg"
       }
     },
     {
@@ -4402,8 +4493,8 @@
         "file": "EV047_09"
       },
       "bgv": {
-        "id": "BGV_SUZU_H003A",
-        "file": "voice/BGV_suzu_h003a.ogg"
+        "id": "BGV_SUZU_F001A",
+        "file": "voice/BGV_suzu_f001a.ogg"
       }
     },
     {
@@ -4418,8 +4509,8 @@
         "file": "EV047_09"
       },
       "bgv": {
-        "id": "BGV_SUZU_H003A",
-        "file": "voice/BGV_suzu_h003a.ogg"
+        "id": "BGV_SUZU_F001A",
+        "file": "voice/BGV_suzu_f001a.ogg"
       }
     },
     {
@@ -4438,8 +4529,8 @@
         "file": "EV047_09"
       },
       "bgv": {
-        "id": "BGV_SUZU_H003A",
-        "file": "voice/BGV_suzu_h003a.ogg"
+        "id": "BGV_SUZU_F001A",
+        "file": "voice/BGV_suzu_f001a.ogg"
       }
     },
     {
@@ -4452,8 +4543,8 @@
         "file": "EV047_09"
       },
       "bgv": {
-        "id": "BGV_SUZU_H003A",
-        "file": "voice/BGV_suzu_h003a.ogg"
+        "id": "BGV_SUZU_F001A",
+        "file": "voice/BGV_suzu_f001a.ogg"
       }
     },
     {
@@ -4472,8 +4563,8 @@
         "file": "EV047_10"
       },
       "bgv": {
-        "id": "BGV_SUZU_H003A",
-        "file": "voice/BGV_suzu_h003a.ogg"
+        "id": "BGV_SUZU_F001A",
+        "file": "voice/BGV_suzu_f001a.ogg"
       }
     },
     {
@@ -4489,8 +4580,8 @@
         "file": "EV047_10"
       },
       "bgv": {
-        "id": "BGV_SUZU_H003A",
-        "file": "voice/BGV_suzu_h003a.ogg"
+        "id": "BGV_SUZU_F001A",
+        "file": "voice/BGV_suzu_f001a.ogg"
       }
     },
     {
@@ -4504,8 +4595,8 @@
         "file": "EV047_10"
       },
       "bgv": {
-        "id": "BGV_SUZU_H003A",
-        "file": "voice/BGV_suzu_h003a.ogg"
+        "id": "BGV_SUZU_F001A",
+        "file": "voice/BGV_suzu_f001a.ogg"
       }
     },
     {
@@ -4524,8 +4615,8 @@
         "file": "EV047_10"
       },
       "bgv": {
-        "id": "BGV_SUZU_H003A",
-        "file": "voice/BGV_suzu_h003a.ogg"
+        "id": "BGV_SUZU_F001A",
+        "file": "voice/BGV_suzu_f001a.ogg"
       }
     },
     {
@@ -4535,12 +4626,12 @@
         "綺麗にする。"
       ],
       "bg": {
-        "label": "#EV047・切なげ・精液たれ・パンツずらし",
-        "file": "EV047_10"
+        "label": "#背景・黒一色",
+        "file": "BG_BLACK"
       },
       "bgv": {
-        "id": "BGV_SUZU_H003A",
-        "file": "voice/BGV_suzu_h003a.ogg"
+        "id": "BGV_SUZU_F001A",
+        "file": "voice/BGV_suzu_f001a.ogg"
       }
     }
   ],

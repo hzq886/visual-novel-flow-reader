@@ -79,26 +79,7 @@
         "僕を慰め続けた綾姉。",
         "凛とした態度で、三人で暮らしていくと言った涼姉。",
         "ずっと二人の制服姿は見てきたけれど、あのときの",
-        "印象が強かったからだろう。",
-        "そんな素晴らしい姉たちに育てられた僕は……。",
-        "その制服を着てもらって、エッチをするような",
-        "最低の男になっていた。",
-        "自分が変態だということは、分かっている。",
-        "催眠術という力を得て、欲望は肥大していき、",
-        "終着点を迎えようとしていた。",
-        "敬愛する姉たちに、学生時代の制服を着させる、",
-        "というだけではない。"
-      ],
-      "bg": {
-        "label": "#EV003・モノトーン",
-        "file": "EV003_01"
-      }
-    },
-    {
-      "kind": "line",
-      "who": "古橋　和樹",
-      "lines": [
-        "「ところで、生理のタイミングはどうかな？」"
+        "印象が強かったからだろう。"
       ],
       "bg": {
         "label": "#EV003・モノトーン",
@@ -108,11 +89,48 @@
     {
       "kind": "narration",
       "lines": [
+        "そんな素晴らしい姉たちに育てられた僕は……。"
+      ],
+      "bg": {
+        "label": "#背景・黒一色",
+        "file": "BG_BLACK"
+      }
+    },
+    {
+      "kind": "narration",
+      "lines": [
+        "その制服を着てもらって、エッチをするような",
+        "最低の男になっていた。",
+        "自分が変態だということは、分かっている。",
+        "催眠術という力を得て、欲望は肥大していき、",
+        "終着点を迎えようとしていた。",
+        "敬愛する姉たちに、学生時代の制服を着させる、",
+        "というだけではない。"
+      ],
+      "bg": {
+        "label": "#EV068・困り気味・恥ずかしい・制服",
+        "file": "EV068_01"
+      }
+    },
+    {
+      "kind": "line",
+      "who": "古橋　和樹",
+      "lines": [
+        "「ところで、生理のタイミングはどうかな？」"
+      ],
+      "bg": {
+        "label": "#EV068・困り気味・恥ずかしい・制服",
+        "file": "EV068_01"
+      }
+    },
+    {
+      "kind": "narration",
+      "lines": [
         "すでに分かっていることだけで、あえて尋ねる。"
       ],
       "bg": {
-        "label": "#EV003・モノトーン",
-        "file": "EV003_01"
+        "label": "#EV068・困り気味・恥ずかしい・制服",
+        "file": "EV068_01"
       }
     },
     {
@@ -1008,12 +1026,6 @@
         "label": "#EV068・眉寄せ感じ・目閉じ・胸はだけ・両手股間揉み",
         "file": "EV068_04"
       },
-      "se": [
-        {
-          "code": "8311B",
-          "file": "se/8311b.ogg"
-        }
-      ],
       "bgv": {
         "id": "BGV_SUZU_H001A",
         "file": "voice/BGV_suzu_h001a.ogg"
@@ -1833,6 +1845,12 @@
         "label": "#EV068・アヘ顔・アヘ顔・胸はだけ・両手クリ摘まみ・愛液染み2・愛液染み2",
         "file": "EV068_07"
       },
+      "se": [
+        {
+          "code": "8351A",
+          "file": "se/8351a.ogg"
+        }
+      ],
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
@@ -1854,7 +1872,8 @@
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
-      }
+      },
+      "flash": 2
     },
     {
       "kind": "line",
@@ -1891,6 +1910,12 @@
         "label": "#EV068・アヘ顔・アヘ顔・胸はだけ・両手クリ摘まみ・愛液染み2・愛液染み2",
         "file": "EV068_07"
       },
+      "se": [
+        {
+          "code": "8351A",
+          "file": "se/8351a.ogg"
+        }
+      ],
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
@@ -1912,7 +1937,8 @@
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
-      }
+      },
+      "flash": 2
     },
     {
       "kind": "line",
@@ -1949,6 +1975,12 @@
         "label": "#EV068・アヘ顔・アヘ顔・胸はだけ・両手クリ摘まみ・愛液染み2・愛液染み2",
         "file": "EV068_07"
       },
+      "se": [
+        {
+          "code": "8351A",
+          "file": "se/8351a.ogg"
+        }
+      ],
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
@@ -1970,7 +2002,8 @@
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
-      }
+      },
+      "flash": 2
     },
     {
       "kind": "line",
@@ -2164,8 +2197,8 @@
         "file": "EV068_09"
       },
       "bgv": {
-        "id": "BGV_SUZU_H003A",
-        "file": "voice/BGV_suzu_h003a.ogg"
+        "id": "BGV_SUZU_H002A",
+        "file": "voice/BGV_suzu_h002a.ogg"
       }
     },
     {
@@ -2182,8 +2215,8 @@
         "file": "EV068_09"
       },
       "bgv": {
-        "id": "BGV_SUZU_H003A",
-        "file": "voice/BGV_suzu_h003a.ogg"
+        "id": "BGV_SUZU_H002A",
+        "file": "voice/BGV_suzu_h002a.ogg"
       }
     },
     {
@@ -2202,8 +2235,8 @@
         "file": "EV068_09"
       },
       "bgv": {
-        "id": "BGV_SUZU_H003A",
-        "file": "voice/BGV_suzu_h003a.ogg"
+        "id": "BGV_SUZU_H002A",
+        "file": "voice/BGV_suzu_h002a.ogg"
       }
     },
     {
@@ -2222,8 +2255,8 @@
         "file": "EV068_09"
       },
       "bgv": {
-        "id": "BGV_SUZU_H003A",
-        "file": "voice/BGV_suzu_h003a.ogg"
+        "id": "BGV_SUZU_H002A",
+        "file": "voice/BGV_suzu_h002a.ogg"
       }
     },
     {
@@ -2240,8 +2273,8 @@
         "file": "EV068_09"
       },
       "bgv": {
-        "id": "BGV_SUZU_H003A",
-        "file": "voice/BGV_suzu_h003a.ogg"
+        "id": "BGV_SUZU_H002A",
+        "file": "voice/BGV_suzu_h002a.ogg"
       }
     },
     {
@@ -2260,8 +2293,8 @@
         "file": "EV068_09"
       },
       "bgv": {
-        "id": "BGV_SUZU_H003A",
-        "file": "voice/BGV_suzu_h003a.ogg"
+        "id": "BGV_SUZU_H002A",
+        "file": "voice/BGV_suzu_h002a.ogg"
       }
     },
     {
@@ -2280,8 +2313,8 @@
         "file": "EV068_09"
       },
       "bgv": {
-        "id": "BGV_SUZU_H003A",
-        "file": "voice/BGV_suzu_h003a.ogg"
+        "id": "BGV_SUZU_H002A",
+        "file": "voice/BGV_suzu_h002a.ogg"
       }
     },
     {
@@ -2295,8 +2328,8 @@
         "file": "EV068_09"
       },
       "bgv": {
-        "id": "BGV_SUZU_H003A",
-        "file": "voice/BGV_suzu_h003a.ogg"
+        "id": "BGV_SUZU_H002A",
+        "file": "voice/BGV_suzu_h002a.ogg"
       }
     },
     {
@@ -2315,8 +2348,8 @@
         "file": "EV068_09"
       },
       "bgv": {
-        "id": "BGV_SUZU_H003A",
-        "file": "voice/BGV_suzu_h003a.ogg"
+        "id": "BGV_SUZU_H002A",
+        "file": "voice/BGV_suzu_h002a.ogg"
       }
     },
     {
@@ -2330,8 +2363,8 @@
         "file": "EV068_09"
       },
       "bgv": {
-        "id": "BGV_SUZU_H003A",
-        "file": "voice/BGV_suzu_h003a.ogg"
+        "id": "BGV_SUZU_H002A",
+        "file": "voice/BGV_suzu_h002a.ogg"
       }
     },
     {
@@ -2350,8 +2383,8 @@
         "file": "EV068_09"
       },
       "bgv": {
-        "id": "BGV_SUZU_H003A",
-        "file": "voice/BGV_suzu_h003a.ogg"
+        "id": "BGV_SUZU_H002A",
+        "file": "voice/BGV_suzu_h002a.ogg"
       }
     },
     {
@@ -2370,8 +2403,8 @@
         "file": "EV068_09"
       },
       "bgv": {
-        "id": "BGV_SUZU_H003A",
-        "file": "voice/BGV_suzu_h003a.ogg"
+        "id": "BGV_SUZU_H002A",
+        "file": "voice/BGV_suzu_h002a.ogg"
       }
     },
     {
@@ -2384,8 +2417,8 @@
         "file": "EV068_09"
       },
       "bgv": {
-        "id": "BGV_SUZU_H003A",
-        "file": "voice/BGV_suzu_h003a.ogg"
+        "id": "BGV_SUZU_H002A",
+        "file": "voice/BGV_suzu_h002a.ogg"
       }
     },
     {
@@ -2399,8 +2432,8 @@
         "file": "EV068_09"
       },
       "bgv": {
-        "id": "BGV_SUZU_H003A",
-        "file": "voice/BGV_suzu_h003a.ogg"
+        "id": "BGV_SUZU_H002A",
+        "file": "voice/BGV_suzu_h002a.ogg"
       }
     },
     {
@@ -2413,8 +2446,8 @@
         "file": "EV068_09"
       },
       "bgv": {
-        "id": "BGV_SUZU_H003A",
-        "file": "voice/BGV_suzu_h003a.ogg"
+        "id": "BGV_SUZU_H002A",
+        "file": "voice/BGV_suzu_h002a.ogg"
       }
     },
     {
@@ -2432,8 +2465,8 @@
         "file": "EV068_09"
       },
       "bgv": {
-        "id": "BGV_SUZU_H003A",
-        "file": "voice/BGV_suzu_h003a.ogg"
+        "id": "BGV_SUZU_H002A",
+        "file": "voice/BGV_suzu_h002a.ogg"
       }
     },
     {
@@ -2452,8 +2485,8 @@
         "file": "EV068_09"
       },
       "bgv": {
-        "id": "BGV_SUZU_H003A",
-        "file": "voice/BGV_suzu_h003a.ogg"
+        "id": "BGV_SUZU_H002A",
+        "file": "voice/BGV_suzu_h002a.ogg"
       }
     },
     {
@@ -2468,8 +2501,8 @@
         "file": "EV068_09"
       },
       "bgv": {
-        "id": "BGV_SUZU_H003A",
-        "file": "voice/BGV_suzu_h003a.ogg"
+        "id": "BGV_SUZU_H002A",
+        "file": "voice/BGV_suzu_h002a.ogg"
       }
     },
     {
@@ -2488,8 +2521,8 @@
         "file": "EV068_10"
       },
       "bgv": {
-        "id": "BGV_SUZU_H003A",
-        "file": "voice/BGV_suzu_h003a.ogg"
+        "id": "BGV_AYAN_H003A",
+        "file": "voice/BGV_ayan_h003a.ogg"
       }
     },
     {
@@ -2508,8 +2541,8 @@
         "file": "EV068_10"
       },
       "bgv": {
-        "id": "BGV_SUZU_H003A",
-        "file": "voice/BGV_suzu_h003a.ogg"
+        "id": "BGV_AYAN_H003A",
+        "file": "voice/BGV_ayan_h003a.ogg"
       }
     },
     {
@@ -2526,8 +2559,8 @@
         "file": "EV068_10"
       },
       "bgv": {
-        "id": "BGV_SUZU_H003A",
-        "file": "voice/BGV_suzu_h003a.ogg"
+        "id": "BGV_AYAN_H003A",
+        "file": "voice/BGV_ayan_h003a.ogg"
       }
     },
     {
@@ -2546,8 +2579,8 @@
         "file": "EV068_10"
       },
       "bgv": {
-        "id": "BGV_SUZU_H003A",
-        "file": "voice/BGV_suzu_h003a.ogg"
+        "id": "BGV_AYAN_H003A",
+        "file": "voice/BGV_ayan_h003a.ogg"
       }
     },
     {
@@ -2566,8 +2599,8 @@
         "file": "EV068_10"
       },
       "bgv": {
-        "id": "BGV_SUZU_H003A",
-        "file": "voice/BGV_suzu_h003a.ogg"
+        "id": "BGV_AYAN_H003A",
+        "file": "voice/BGV_ayan_h003a.ogg"
       }
     },
     {
@@ -2584,8 +2617,8 @@
         "file": "EV068_10"
       },
       "bgv": {
-        "id": "BGV_SUZU_H003A",
-        "file": "voice/BGV_suzu_h003a.ogg"
+        "id": "BGV_AYAN_H003A",
+        "file": "voice/BGV_ayan_h003a.ogg"
       }
     },
     {
@@ -2604,8 +2637,8 @@
         "file": "EV068_10"
       },
       "bgv": {
-        "id": "BGV_SUZU_H003A",
-        "file": "voice/BGV_suzu_h003a.ogg"
+        "id": "BGV_AYAN_H003A",
+        "file": "voice/BGV_ayan_h003a.ogg"
       }
     },
     {
@@ -2624,8 +2657,8 @@
         "file": "EV068_10"
       },
       "bgv": {
-        "id": "BGV_SUZU_H003A",
-        "file": "voice/BGV_suzu_h003a.ogg"
+        "id": "BGV_AYAN_H003A",
+        "file": "voice/BGV_ayan_h003a.ogg"
       }
     },
     {
@@ -2640,8 +2673,8 @@
         "file": "EV068_10"
       },
       "bgv": {
-        "id": "BGV_SUZU_H003A",
-        "file": "voice/BGV_suzu_h003a.ogg"
+        "id": "BGV_AYAN_H003A",
+        "file": "voice/BGV_ayan_h003a.ogg"
       }
     },
     {
@@ -2656,8 +2689,8 @@
         "file": "EV068_10"
       },
       "bgv": {
-        "id": "BGV_SUZU_H003A",
-        "file": "voice/BGV_suzu_h003a.ogg"
+        "id": "BGV_AYAN_H003A",
+        "file": "voice/BGV_ayan_h003a.ogg"
       }
     },
     {
@@ -2670,8 +2703,8 @@
         "file": "EV068_10"
       },
       "bgv": {
-        "id": "BGV_SUZU_H003A",
-        "file": "voice/BGV_suzu_h003a.ogg"
+        "id": "BGV_AYAN_H003A",
+        "file": "voice/BGV_ayan_h003a.ogg"
       }
     },
     {
@@ -2689,8 +2722,8 @@
         "file": "EV068_10"
       },
       "bgv": {
-        "id": "BGV_SUZU_H003A",
-        "file": "voice/BGV_suzu_h003a.ogg"
+        "id": "BGV_AYAN_H003A",
+        "file": "voice/BGV_ayan_h003a.ogg"
       }
     },
     {
@@ -2708,8 +2741,8 @@
         "file": "EV068_10"
       },
       "bgv": {
-        "id": "BGV_SUZU_H003A",
-        "file": "voice/BGV_suzu_h003a.ogg"
+        "id": "BGV_AYAN_H003A",
+        "file": "voice/BGV_ayan_h003a.ogg"
       }
     },
     {
@@ -2724,8 +2757,8 @@
         "file": "EV068_10"
       },
       "bgv": {
-        "id": "BGV_SUZU_H003A",
-        "file": "voice/BGV_suzu_h003a.ogg"
+        "id": "BGV_AYAN_H003A",
+        "file": "voice/BGV_ayan_h003a.ogg"
       }
     },
     {
@@ -2744,8 +2777,8 @@
         "file": "EV068_10"
       },
       "bgv": {
-        "id": "BGV_SUZU_H003A",
-        "file": "voice/BGV_suzu_h003a.ogg"
+        "id": "BGV_AYAN_H003A",
+        "file": "voice/BGV_ayan_h003a.ogg"
       }
     },
     {
@@ -2764,8 +2797,8 @@
         "file": "EV068_10"
       },
       "bgv": {
-        "id": "BGV_SUZU_H003A",
-        "file": "voice/BGV_suzu_h003a.ogg"
+        "id": "BGV_AYAN_H003A",
+        "file": "voice/BGV_ayan_h003a.ogg"
       }
     },
     {
@@ -2779,8 +2812,8 @@
         "file": "EV068_10"
       },
       "bgv": {
-        "id": "BGV_SUZU_H003A",
-        "file": "voice/BGV_suzu_h003a.ogg"
+        "id": "BGV_AYAN_H003A",
+        "file": "voice/BGV_ayan_h003a.ogg"
       }
     },
     {
@@ -2799,8 +2832,8 @@
         "file": "EV068_11"
       },
       "bgv": {
-        "id": "BGV_SUZU_H003A",
-        "file": "voice/BGV_suzu_h003a.ogg"
+        "id": "BGV_AYAN_H003A",
+        "file": "voice/BGV_ayan_h003a.ogg"
       }
     },
     {
@@ -3548,8 +3581,8 @@
         "file": "EV068_14"
       },
       "bgv": {
-        "id": "BGV_SUZU_F002A",
-        "file": "voice/BGV_suzu_f002a.ogg"
+        "id": "BGV_AYAN_H002A",
+        "file": "voice/BGV_ayan_h002a.ogg"
       }
     },
     {
@@ -3564,8 +3597,8 @@
         "file": "EV068_14"
       },
       "bgv": {
-        "id": "BGV_SUZU_F002A",
-        "file": "voice/BGV_suzu_f002a.ogg"
+        "id": "BGV_AYAN_H002A",
+        "file": "voice/BGV_ayan_h002a.ogg"
       }
     },
     {
@@ -3584,8 +3617,8 @@
         "file": "EV068_14"
       },
       "bgv": {
-        "id": "BGV_SUZU_F002A",
-        "file": "voice/BGV_suzu_f002a.ogg"
+        "id": "BGV_AYAN_H002A",
+        "file": "voice/BGV_ayan_h002a.ogg"
       }
     },
     {
@@ -3601,8 +3634,8 @@
         "file": "EV068_14"
       },
       "bgv": {
-        "id": "BGV_SUZU_F002A",
-        "file": "voice/BGV_suzu_f002a.ogg"
+        "id": "BGV_AYAN_H002A",
+        "file": "voice/BGV_ayan_h002a.ogg"
       }
     },
     {
@@ -3621,8 +3654,8 @@
         "file": "EV068_14"
       },
       "bgv": {
-        "id": "BGV_SUZU_F002A",
-        "file": "voice/BGV_suzu_f002a.ogg"
+        "id": "BGV_AYAN_H002A",
+        "file": "voice/BGV_ayan_h002a.ogg"
       }
     },
     {
@@ -3640,8 +3673,8 @@
         "file": "EV068_14"
       },
       "bgv": {
-        "id": "BGV_SUZU_F002A",
-        "file": "voice/BGV_suzu_f002a.ogg"
+        "id": "BGV_AYAN_H002A",
+        "file": "voice/BGV_ayan_h002a.ogg"
       }
     },
     {
@@ -3659,8 +3692,8 @@
         "file": "EV068_14"
       },
       "bgv": {
-        "id": "BGV_SUZU_F002A",
-        "file": "voice/BGV_suzu_f002a.ogg"
+        "id": "BGV_AYAN_H002A",
+        "file": "voice/BGV_ayan_h002a.ogg"
       }
     },
     {
@@ -3677,8 +3710,8 @@
         "file": "EV068_14"
       },
       "bgv": {
-        "id": "BGV_SUZU_F002A",
-        "file": "voice/BGV_suzu_f002a.ogg"
+        "id": "BGV_AYAN_H002A",
+        "file": "voice/BGV_ayan_h002a.ogg"
       }
     },
     {
@@ -3697,8 +3730,8 @@
         "file": "EV068_14"
       },
       "bgv": {
-        "id": "BGV_SUZU_F002A",
-        "file": "voice/BGV_suzu_f002a.ogg"
+        "id": "BGV_AYAN_H002A",
+        "file": "voice/BGV_ayan_h002a.ogg"
       }
     },
     {
@@ -3714,8 +3747,8 @@
         "file": "EV068_14"
       },
       "bgv": {
-        "id": "BGV_SUZU_F002A",
-        "file": "voice/BGV_suzu_f002a.ogg"
+        "id": "BGV_AYAN_H002A",
+        "file": "voice/BGV_ayan_h002a.ogg"
       }
     },
     {
@@ -3734,8 +3767,8 @@
         "file": "EV068_14"
       },
       "bgv": {
-        "id": "BGV_SUZU_F002A",
-        "file": "voice/BGV_suzu_f002a.ogg"
+        "id": "BGV_AYAN_H002A",
+        "file": "voice/BGV_ayan_h002a.ogg"
       }
     },
     {
@@ -3753,8 +3786,8 @@
         "file": "EV068_14"
       },
       "bgv": {
-        "id": "BGV_SUZU_F002A",
-        "file": "voice/BGV_suzu_f002a.ogg"
+        "id": "BGV_AYAN_H002A",
+        "file": "voice/BGV_ayan_h002a.ogg"
       }
     },
     {
@@ -3771,8 +3804,8 @@
         "file": "EV068_14"
       },
       "bgv": {
-        "id": "BGV_SUZU_F002A",
-        "file": "voice/BGV_suzu_f002a.ogg"
+        "id": "BGV_AYAN_H002A",
+        "file": "voice/BGV_ayan_h002a.ogg"
       }
     },
     {
@@ -3791,8 +3824,8 @@
         "file": "EV068_14"
       },
       "bgv": {
-        "id": "BGV_SUZU_F002A",
-        "file": "voice/BGV_suzu_f002a.ogg"
+        "id": "BGV_AYAN_H002A",
+        "file": "voice/BGV_ayan_h002a.ogg"
       }
     },
     {
@@ -3807,8 +3840,8 @@
         "file": "EV068_14"
       },
       "bgv": {
-        "id": "BGV_SUZU_F002A",
-        "file": "voice/BGV_suzu_f002a.ogg"
+        "id": "BGV_AYAN_H002A",
+        "file": "voice/BGV_ayan_h002a.ogg"
       }
     },
     {
@@ -3826,9 +3859,15 @@
         "label": "#EV068・困り気味2・うっとり蕩け・胸はだけパンツずらし・綾菜クリ舐め・愛液・愛液",
         "file": "EV068_14"
       },
+      "se": [
+        {
+          "code": "8351A",
+          "file": "se/8351a.ogg"
+        }
+      ],
       "bgv": {
-        "id": "BGV_SUZU_F002A",
-        "file": "voice/BGV_suzu_f002a.ogg"
+        "id": "BGV_AYAN_H002A",
+        "file": "voice/BGV_ayan_h002a.ogg"
       }
     },
     {
@@ -3842,9 +3881,10 @@
         "file": "EV068_15"
       },
       "bgv": {
-        "id": "BGV_SUZU_F002A",
-        "file": "voice/BGV_suzu_f002a.ogg"
-      }
+        "id": "BGV_AYAN_H002A",
+        "file": "voice/BGV_ayan_h002a.ogg"
+      },
+      "flash": 2
     },
     {
       "kind": "line",
@@ -3862,8 +3902,8 @@
         "file": "EV068_15"
       },
       "bgv": {
-        "id": "BGV_SUZU_F002A",
-        "file": "voice/BGV_suzu_f002a.ogg"
+        "id": "BGV_AYAN_H002A",
+        "file": "voice/BGV_ayan_h002a.ogg"
       }
     },
     {
@@ -3880,8 +3920,8 @@
         "file": "EV068_15"
       },
       "bgv": {
-        "id": "BGV_SUZU_F002A",
-        "file": "voice/BGV_suzu_f002a.ogg"
+        "id": "BGV_AYAN_H002A",
+        "file": "voice/BGV_ayan_h002a.ogg"
       }
     },
     {
@@ -3899,9 +3939,15 @@
         "label": "#EV068・困り気味2・アヘ顔・胸はだけパンツずらし・綾菜クリ舐め・愛液・愛液2",
         "file": "EV068_15"
       },
+      "se": [
+        {
+          "code": "8351A",
+          "file": "se/8351a.ogg"
+        }
+      ],
       "bgv": {
-        "id": "BGV_SUZU_F002A",
-        "file": "voice/BGV_suzu_f002a.ogg"
+        "id": "BGV_AYAN_H002A",
+        "file": "voice/BGV_ayan_h002a.ogg"
       }
     },
     {
@@ -3915,9 +3961,10 @@
         "file": "EV068_15"
       },
       "bgv": {
-        "id": "BGV_SUZU_F002A",
-        "file": "voice/BGV_suzu_f002a.ogg"
-      }
+        "id": "BGV_AYAN_H002A",
+        "file": "voice/BGV_ayan_h002a.ogg"
+      },
+      "flash": 2
     },
     {
       "kind": "line",
@@ -3935,8 +3982,8 @@
         "file": "EV068_15"
       },
       "bgv": {
-        "id": "BGV_SUZU_F002A",
-        "file": "voice/BGV_suzu_f002a.ogg"
+        "id": "BGV_AYAN_H002A",
+        "file": "voice/BGV_ayan_h002a.ogg"
       }
     },
     {
@@ -3952,8 +3999,8 @@
         "file": "EV068_15"
       },
       "bgv": {
-        "id": "BGV_SUZU_F002A",
-        "file": "voice/BGV_suzu_f002a.ogg"
+        "id": "BGV_AYAN_H002A",
+        "file": "voice/BGV_ayan_h002a.ogg"
       }
     },
     {
@@ -3971,9 +4018,15 @@
         "label": "#EV068・困り気味2・アヘ顔・胸はだけパンツずらし・綾菜クリ舐め・愛液・愛液2",
         "file": "EV068_15"
       },
+      "se": [
+        {
+          "code": "8351A",
+          "file": "se/8351a.ogg"
+        }
+      ],
       "bgv": {
-        "id": "BGV_SUZU_F002A",
-        "file": "voice/BGV_suzu_f002a.ogg"
+        "id": "BGV_AYAN_H002A",
+        "file": "voice/BGV_ayan_h002a.ogg"
       }
     },
     {
@@ -3986,9 +4039,10 @@
         "file": "EV068_15"
       },
       "bgv": {
-        "id": "BGV_SUZU_F002A",
-        "file": "voice/BGV_suzu_f002a.ogg"
-      }
+        "id": "BGV_AYAN_H002A",
+        "file": "voice/BGV_ayan_h002a.ogg"
+      },
+      "flash": 2
     },
     {
       "kind": "line",
@@ -4006,8 +4060,8 @@
         "file": "EV068_15"
       },
       "bgv": {
-        "id": "BGV_SUZU_F002A",
-        "file": "voice/BGV_suzu_f002a.ogg"
+        "id": "BGV_AYAN_H002A",
+        "file": "voice/BGV_ayan_h002a.ogg"
       }
     },
     {
@@ -4026,8 +4080,8 @@
         "file": "EV068_15"
       },
       "bgv": {
-        "id": "BGV_SUZU_F002A",
-        "file": "voice/BGV_suzu_f002a.ogg"
+        "id": "BGV_AYAN_H002A",
+        "file": "voice/BGV_ayan_h002a.ogg"
       }
     },
     {
@@ -4043,8 +4097,8 @@
         "file": "EV068_15"
       },
       "bgv": {
-        "id": "BGV_SUZU_F002A",
-        "file": "voice/BGV_suzu_f002a.ogg"
+        "id": "BGV_AYAN_H002A",
+        "file": "voice/BGV_ayan_h002a.ogg"
       }
     },
     {
@@ -4063,8 +4117,8 @@
         "file": "EV068_16"
       },
       "bgv": {
-        "id": "BGV_SUZU_F002A",
-        "file": "voice/BGV_suzu_f002a.ogg"
+        "id": "BGV_AYAN_H002A",
+        "file": "voice/BGV_ayan_h002a.ogg"
       }
     },
     {
@@ -4078,8 +4132,8 @@
         "file": "EV068_16"
       },
       "bgv": {
-        "id": "BGV_SUZU_F002A",
-        "file": "voice/BGV_suzu_f002a.ogg"
+        "id": "BGV_AYAN_H002A",
+        "file": "voice/BGV_ayan_h002a.ogg"
       }
     },
     {
@@ -4098,8 +4152,8 @@
         "file": "EV068_16"
       },
       "bgv": {
-        "id": "BGV_SUZU_F002A",
-        "file": "voice/BGV_suzu_f002a.ogg"
+        "id": "BGV_AYAN_H002A",
+        "file": "voice/BGV_ayan_h002a.ogg"
       }
     },
     {
@@ -4113,8 +4167,8 @@
         "file": "EV068_16"
       },
       "bgv": {
-        "id": "BGV_SUZU_F002A",
-        "file": "voice/BGV_suzu_f002a.ogg"
+        "id": "BGV_AYAN_H002A",
+        "file": "voice/BGV_ayan_h002a.ogg"
       }
     },
     {
@@ -4129,8 +4183,8 @@
         "file": "EV068_16"
       },
       "bgv": {
-        "id": "BGV_SUZU_F002A",
-        "file": "voice/BGV_suzu_f002a.ogg"
+        "id": "BGV_AYAN_H002A",
+        "file": "voice/BGV_ayan_h002a.ogg"
       }
     },
     {
@@ -4149,8 +4203,8 @@
         "file": "EV068_17"
       },
       "bgv": {
-        "id": "BGV_SUZU_F002A",
-        "file": "voice/BGV_suzu_f002a.ogg"
+        "id": "BGV_AYAN_H002A",
+        "file": "voice/BGV_ayan_h002a.ogg"
       }
     },
     {
@@ -4165,8 +4219,8 @@
         "file": "EV068_17"
       },
       "bgv": {
-        "id": "BGV_SUZU_F002A",
-        "file": "voice/BGV_suzu_f002a.ogg"
+        "id": "BGV_AYAN_H002A",
+        "file": "voice/BGV_ayan_h002a.ogg"
       }
     },
     {
@@ -4181,8 +4235,8 @@
         "file": "EV068_17"
       },
       "bgv": {
-        "id": "BGV_SUZU_F002A",
-        "file": "voice/BGV_suzu_f002a.ogg"
+        "id": "BGV_AYAN_H002A",
+        "file": "voice/BGV_ayan_h002a.ogg"
       }
     },
     {
@@ -4201,8 +4255,8 @@
         "file": "EV068_17"
       },
       "bgv": {
-        "id": "BGV_SUZU_F002A",
-        "file": "voice/BGV_suzu_f002a.ogg"
+        "id": "BGV_AYAN_H002A",
+        "file": "voice/BGV_ayan_h002a.ogg"
       }
     },
     {
@@ -4216,8 +4270,8 @@
         "file": "EV068_17"
       },
       "bgv": {
-        "id": "BGV_SUZU_F002A",
-        "file": "voice/BGV_suzu_f002a.ogg"
+        "id": "BGV_AYAN_H002A",
+        "file": "voice/BGV_ayan_h002a.ogg"
       }
     },
     {
@@ -4236,8 +4290,8 @@
         "file": "EV068_17"
       },
       "bgv": {
-        "id": "BGV_SUZU_F002A",
-        "file": "voice/BGV_suzu_f002a.ogg"
+        "id": "BGV_AYAN_H002A",
+        "file": "voice/BGV_ayan_h002a.ogg"
       }
     },
     {
@@ -4256,8 +4310,8 @@
         "file": "EV068_18"
       },
       "bgv": {
-        "id": "BGV_SUZU_F002A",
-        "file": "voice/BGV_suzu_f002a.ogg"
+        "id": "BGV_AYAN_H002A",
+        "file": "voice/BGV_ayan_h002a.ogg"
       }
     },
     {
@@ -4275,8 +4329,8 @@
         "file": "EV068_18"
       },
       "bgv": {
-        "id": "BGV_SUZU_F002A",
-        "file": "voice/BGV_suzu_f002a.ogg"
+        "id": "BGV_AYAN_H002A",
+        "file": "voice/BGV_ayan_h002a.ogg"
       }
     },
     {
@@ -4295,8 +4349,8 @@
         "file": "EV068_18"
       },
       "bgv": {
-        "id": "BGV_SUZU_F002A",
-        "file": "voice/BGV_suzu_f002a.ogg"
+        "id": "BGV_AYAN_H002A",
+        "file": "voice/BGV_ayan_h002a.ogg"
       }
     },
     {
@@ -4311,8 +4365,8 @@
         "file": "EV068_18"
       },
       "bgv": {
-        "id": "BGV_SUZU_F002A",
-        "file": "voice/BGV_suzu_f002a.ogg"
+        "id": "BGV_AYAN_H002A",
+        "file": "voice/BGV_ayan_h002a.ogg"
       }
     },
     {
@@ -4327,12 +4381,12 @@
         "オマ×コの中に射精してもらうんだし……」"
       ],
       "bg": {
-        "label": "#EV068・困り気味2・恥ずかしい2・胸はだけパンツずらし・なし・愛液・愛液2",
-        "file": "EV068_18"
+        "label": "#背景・黒一色",
+        "file": "BG_BLACK"
       },
       "bgv": {
-        "id": "BGV_SUZU_F002A",
-        "file": "voice/BGV_suzu_f002a.ogg"
+        "id": "BGV_AYAN_H002A",
+        "file": "voice/BGV_ayan_h002a.ogg"
       }
     },
     {
@@ -4341,12 +4395,12 @@
         "渋々といった感じで頷き、涼姉は了承する。"
       ],
       "bg": {
-        "label": "#EV068・困り気味2・恥ずかしい2・胸はだけパンツずらし・なし・愛液・愛液2",
-        "file": "EV068_18"
+        "label": "#背景・黒一色",
+        "file": "BG_BLACK"
       },
       "bgv": {
-        "id": "BGV_SUZU_F002A",
-        "file": "voice/BGV_suzu_f002a.ogg"
+        "id": "BGV_AYAN_H002A",
+        "file": "voice/BGV_ayan_h002a.ogg"
       }
     }
   ],

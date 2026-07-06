@@ -26,6 +26,12 @@
       ]
     },
     {
+      "kind": "narration",
+      "lines": [
+        ""
+      ]
+    },
+    {
       "kind": "line",
       "who": "楠木翼",
       "voice": {
@@ -101,6 +107,12 @@
       },
       "lines": [
         "「今天我想会晚回来，你先回去可以吗？」"
+      ]
+    },
+    {
+      "kind": "narration",
+      "lines": [
+        ""
       ]
     },
     {

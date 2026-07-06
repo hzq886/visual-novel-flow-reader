@@ -59,9 +59,11 @@ describe('おまけ（009_NUKE）の curated 背景注入（HU-57）', () => {
     expect(cn.beats[0].bg?.file).toBe('TITLE02')
   })
 
-  it('通常シーンの bg は改変しない', async () => {
+  it('通常シーンの bg は改変しない（009_NUKE 以外に TITLE02 を注入しない）', async () => {
     const s = await loadScene('001_PRO001A', 'jp')
-    expect(s.beats[0].bg?.file).toBe('PRO_TITLE_A')
+    // bytecode 一次化（HU-74）で冒頭は黒画面の上に開幕ナレーション（旧 txt はデデュープで初回 BG_BLACK
+    // を喪失しプロローグＡ上になっていた）。タイトルは scene.title 経由で表示継続。
+    expect(s.beats[0].bg?.file).toBe('BG_BLACK')
     expect(s.beats.some((b) => b.bg?.file === 'TITLE02')).toBe(false)
   })
 })

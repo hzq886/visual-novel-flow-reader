@@ -183,7 +183,13 @@
       "bg": {
         "label": "#EV048・真面目・後ろに引き・愛液",
         "file": "EV048_01"
-      }
+      },
+      "se": [
+        {
+          "code": "8321C",
+          "file": "se/8321c.ogg"
+        }
+      ]
     },
     {
       "kind": "narration",
@@ -433,13 +439,7 @@
       "bg": {
         "label": "#EV048・真面目・後ろに引き・愛液",
         "file": "EV048_01"
-      },
-      "se": [
-        {
-          "code": "8101A",
-          "file": "se/8101a.ogg"
-        }
-      ]
+      }
     },
     {
       "kind": "line",
@@ -1945,6 +1945,12 @@
         "label": "#EV048・アヘ顔・奥まで挿入・潮吹き",
         "file": "EV048_07"
       },
+      "se": [
+        {
+          "code": "8361B",
+          "file": "se/8361b.ogg"
+        }
+      ],
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
@@ -1965,7 +1971,8 @@
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
-      }
+      },
+      "flash": 2
     },
     {
       "kind": "line",
@@ -2127,8 +2134,8 @@
         "file": "EV048_08"
       },
       "bgv": {
-        "id": "BGV_SUZU_H003A",
-        "file": "voice/BGV_suzu_h003a.ogg"
+        "id": "BGV_SUZU_H002A",
+        "file": "voice/BGV_suzu_h002a.ogg"
       }
     },
     {
@@ -2143,8 +2150,8 @@
         "file": "EV048_08"
       },
       "bgv": {
-        "id": "BGV_SUZU_H003A",
-        "file": "voice/BGV_suzu_h003a.ogg"
+        "id": "BGV_SUZU_H002A",
+        "file": "voice/BGV_suzu_h002a.ogg"
       }
     },
     {
@@ -2163,8 +2170,8 @@
         "file": "EV048_08"
       },
       "bgv": {
-        "id": "BGV_SUZU_H003A",
-        "file": "voice/BGV_suzu_h003a.ogg"
+        "id": "BGV_SUZU_H002A",
+        "file": "voice/BGV_suzu_h002a.ogg"
       }
     },
     {
@@ -2180,8 +2187,8 @@
         "file": "EV048_08"
       },
       "bgv": {
-        "id": "BGV_SUZU_H003A",
-        "file": "voice/BGV_suzu_h003a.ogg"
+        "id": "BGV_SUZU_H002A",
+        "file": "voice/BGV_suzu_h002a.ogg"
       }
     },
     {
@@ -2200,8 +2207,8 @@
         "file": "EV048_08"
       },
       "bgv": {
-        "id": "BGV_SUZU_H003A",
-        "file": "voice/BGV_suzu_h003a.ogg"
+        "id": "BGV_SUZU_H002A",
+        "file": "voice/BGV_suzu_h002a.ogg"
       }
     },
     {
@@ -2217,8 +2224,8 @@
         "file": "EV048_08"
       },
       "bgv": {
-        "id": "BGV_SUZU_H003A",
-        "file": "voice/BGV_suzu_h003a.ogg"
+        "id": "BGV_SUZU_H002A",
+        "file": "voice/BGV_suzu_h002a.ogg"
       }
     },
     {
@@ -2237,8 +2244,8 @@
         "file": "EV048_08"
       },
       "bgv": {
-        "id": "BGV_SUZU_H003A",
-        "file": "voice/BGV_suzu_h003a.ogg"
+        "id": "BGV_SUZU_H002A",
+        "file": "voice/BGV_suzu_h002a.ogg"
       }
     },
     {
@@ -2253,8 +2260,8 @@
         "file": "EV048_08"
       },
       "bgv": {
-        "id": "BGV_SUZU_H003A",
-        "file": "voice/BGV_suzu_h003a.ogg"
+        "id": "BGV_SUZU_H002A",
+        "file": "voice/BGV_suzu_h002a.ogg"
       }
     },
     {
@@ -2422,7 +2429,8 @@
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
-      }
+      },
+      "flash": 2
     },
     {
       "kind": "line",
@@ -2475,6 +2483,12 @@
         "label": "#EV048・アヘ顔・奥まで挿入・愛液2・子宮押し付け",
         "file": "EV048_10"
       },
+      "se": [
+        {
+          "code": "8351A",
+          "file": "se/8351a.ogg"
+        }
+      ],
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
@@ -2497,7 +2511,8 @@
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
-      }
+      },
+      "flash": 2
     },
     {
       "kind": "line",
@@ -2590,6 +2605,12 @@
         "label": "#EV048・アヘ顔・奥まで挿入・愛液2・子宮押し付け",
         "file": "EV048_10"
       },
+      "se": [
+        {
+          "code": "8351A",
+          "file": "se/8351a.ogg"
+        }
+      ],
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
@@ -2610,7 +2631,8 @@
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
-      }
+      },
+      "flash": 2
     },
     {
       "kind": "line",
@@ -2627,6 +2649,12 @@
         "label": "#EV048・アヘ顔・奥まで挿入・愛液2・子宮押し付け",
         "file": "EV048_10"
       },
+      "se": [
+        {
+          "code": "8351A",
+          "file": "se/8351a.ogg"
+        }
+      ],
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
@@ -2649,7 +2677,8 @@
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
-      }
+      },
+      "flash": 2
     },
     {
       "kind": "line",
@@ -2873,6 +2902,12 @@
         "label": "#EV048・アヘ顔・奥まで挿入・愛液2・射精",
         "file": "EV048_11"
       },
+      "se": [
+        {
+          "code": "8351A",
+          "file": "se/8351a.ogg"
+        }
+      ],
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
@@ -2892,7 +2927,8 @@
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
-      }
+      },
+      "flash": 2
     },
     {
       "kind": "line",
@@ -2909,6 +2945,12 @@
         "label": "#EV048・アヘ顔・奥まで挿入・愛液2・射精",
         "file": "EV048_11"
       },
+      "se": [
+        {
+          "code": "8351A",
+          "file": "se/8351a.ogg"
+        }
+      ],
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
@@ -2928,7 +2970,8 @@
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
-      }
+      },
+      "flash": 2
     },
     {
       "kind": "line",
@@ -2982,6 +3025,12 @@
         "label": "#EV048・アヘ顔・奥まで挿入・愛液2・射精",
         "file": "EV048_11"
       },
+      "se": [
+        {
+          "code": "8201B",
+          "file": "se/8201b.ogg"
+        }
+      ],
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
@@ -3002,7 +3051,8 @@
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
-      }
+      },
+      "flash": 3
     },
     {
       "kind": "line",
@@ -3036,6 +3086,12 @@
         "label": "#EV048・アヘ顔・奥まで挿入・愛液2・射精",
         "file": "EV048_11"
       },
+      "se": [
+        {
+          "code": "8201B",
+          "file": "se/8201b.ogg"
+        }
+      ],
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
@@ -3048,13 +3104,14 @@
         "「はぁ、すごかったぁ……」"
       ],
       "bg": {
-        "label": "#EV048・アヘ顔・奥まで挿入・愛液2・射精",
-        "file": "EV048_11"
+        "label": "#EV048・うっとり・奥まで挿入・愛液2",
+        "file": "EV048_09"
       },
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
-      }
+      },
+      "flash": 3
     },
     {
       "kind": "narration",
@@ -3062,8 +3119,8 @@
         "ぜいぜい言ってる僕を見下ろして、姉さんは笑った。"
       ],
       "bg": {
-        "label": "#EV048・アヘ顔・奥まで挿入・愛液2・射精",
-        "file": "EV048_11"
+        "label": "#EV048・うっとり・奥まで挿入・愛液2",
+        "file": "EV048_09"
       },
       "bgv": {
         "id": "BGV_SUZU_H003A",
@@ -3082,8 +3139,8 @@
         "何度でも射精させちゃうんだからっ！」"
       ],
       "bg": {
-        "label": "#EV048・アヘ顔・奥まで挿入・愛液2・射精",
-        "file": "EV048_11"
+        "label": "#EV048・うっとり・奥まで挿入・愛液2",
+        "file": "EV048_09"
       },
       "bgv": {
         "id": "BGV_SUZU_H003A",
@@ -3096,8 +3153,8 @@
         "そして、腰を浮かせ、出し入れを再開する。"
       ],
       "bg": {
-        "label": "#EV048・アヘ顔・奥まで挿入・愛液2・射精",
-        "file": "EV048_11"
+        "label": "#EV048・うっとり・奥まで挿入・愛液2",
+        "file": "EV048_09"
       },
       "bgv": {
         "id": "BGV_SUZU_H003A",
@@ -3116,12 +3173,12 @@
         "できるわよねっ！　んっんっ！　んふぅっ！」"
       ],
       "bg": {
-        "label": "#EV048・アヘ顔・奥まで挿入・愛液2・射精",
-        "file": "EV048_11"
+        "label": "#EV048・うっとり・奥まで挿入・愛液2",
+        "file": "EV048_09"
       },
       "bgv": {
-        "id": "BGV_SUZU_H003A",
-        "file": "voice/BGV_suzu_h003a.ogg"
+        "id": "BGV_SUZU_H002A",
+        "file": "voice/BGV_suzu_h002a.ogg"
       }
     },
     {
@@ -3134,12 +3191,12 @@
         "僕たちは、また二人で快楽に溺れていく。"
       ],
       "bg": {
-        "label": "#EV048・アヘ顔・奥まで挿入・愛液2・射精",
-        "file": "EV048_11"
+        "label": "#EV048・うっとり・奥まで挿入・愛液2",
+        "file": "EV048_09"
       },
       "bgv": {
-        "id": "BGV_SUZU_H003A",
-        "file": "voice/BGV_suzu_h003a.ogg"
+        "id": "BGV_SUZU_H002A",
+        "file": "voice/BGV_suzu_h002a.ogg"
       }
     },
     {
@@ -3154,12 +3211,12 @@
         "精液ドロドロで、気持ちいいでしょうっ！」"
       ],
       "bg": {
-        "label": "#EV048・アヘ顔・奥まで挿入・愛液2・射精",
-        "file": "EV048_11"
+        "label": "#EV048・うっとり・奥まで挿入・愛液2",
+        "file": "EV048_09"
       },
       "bgv": {
-        "id": "BGV_SUZU_H003A",
-        "file": "voice/BGV_suzu_h003a.ogg"
+        "id": "BGV_SUZU_H002A",
+        "file": "voice/BGV_suzu_h002a.ogg"
       }
     },
     {
@@ -3174,12 +3231,12 @@
         "ニュルッとした感触も……。"
       ],
       "bg": {
-        "label": "#EV048・アヘ顔・奥まで挿入・愛液2・射精",
-        "file": "EV048_11"
+        "label": "#EV048・うっとり・奥まで挿入・愛液2",
+        "file": "EV048_09"
       },
       "bgv": {
-        "id": "BGV_SUZU_H003A",
-        "file": "voice/BGV_suzu_h003a.ogg"
+        "id": "BGV_SUZU_H002A",
+        "file": "voice/BGV_suzu_h002a.ogg"
       }
     },
     {
@@ -3198,8 +3255,8 @@
         "file": "EV048_12"
       },
       "bgv": {
-        "id": "BGV_SUZU_H003A",
-        "file": "voice/BGV_suzu_h003a.ogg"
+        "id": "BGV_SUZU_H002A",
+        "file": "voice/BGV_suzu_h002a.ogg"
       }
     },
     {
@@ -3215,8 +3272,8 @@
         "file": "EV048_12"
       },
       "bgv": {
-        "id": "BGV_SUZU_H003A",
-        "file": "voice/BGV_suzu_h003a.ogg"
+        "id": "BGV_SUZU_H002A",
+        "file": "voice/BGV_suzu_h002a.ogg"
       }
     },
     {
@@ -3235,8 +3292,8 @@
         "file": "EV048_12"
       },
       "bgv": {
-        "id": "BGV_SUZU_H003A",
-        "file": "voice/BGV_suzu_h003a.ogg"
+        "id": "BGV_SUZU_H002A",
+        "file": "voice/BGV_suzu_h002a.ogg"
       }
     },
     {
@@ -3251,8 +3308,8 @@
         "file": "EV048_12"
       },
       "bgv": {
-        "id": "BGV_SUZU_H003A",
-        "file": "voice/BGV_suzu_h003a.ogg"
+        "id": "BGV_SUZU_H002A",
+        "file": "voice/BGV_suzu_h002a.ogg"
       }
     },
     {
@@ -3309,6 +3366,12 @@
         "label": "#EV048・アヘ顔・奥まで挿入・愛液2",
         "file": "EV048_12"
       },
+      "se": [
+        {
+          "code": "8351A",
+          "file": "se/8351a.ogg"
+        }
+      ],
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
@@ -3329,7 +3392,8 @@
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
-      }
+      },
+      "flash": 2
     },
     {
       "kind": "line",
@@ -3563,6 +3627,12 @@
         "label": "#EV048・アヘ顔・奥まで挿入・愛液2",
         "file": "EV048_12"
       },
+      "se": [
+        {
+          "code": "8201B",
+          "file": "se/8201b.ogg"
+        }
+      ],
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
@@ -3583,10 +3653,17 @@
         "label": "#EV048・アヘ顔・奥まで挿入・愛液2",
         "file": "EV048_12"
       },
+      "se": [
+        {
+          "code": "8351A",
+          "file": "se/8351a.ogg"
+        }
+      ],
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
-      }
+      },
+      "flash": 3
     },
     {
       "kind": "narration",
@@ -3601,7 +3678,8 @@
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
-      }
+      },
+      "flash": 2
     },
     {
       "kind": "line",
@@ -3618,6 +3696,12 @@
         "label": "#EV048・アヘ顔・奥まで挿入・愛液2",
         "file": "EV048_12"
       },
+      "se": [
+        {
+          "code": "8201B",
+          "file": "se/8201b.ogg"
+        }
+      ],
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
@@ -3636,7 +3720,8 @@
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
-      }
+      },
+      "flash": 3
     },
     {
       "kind": "line",
@@ -3668,6 +3753,12 @@
         "label": "#EV048・アヘ顔・奥まで挿入・愛液2",
         "file": "EV048_12"
       },
+      "se": [
+        {
+          "code": "8201B",
+          "file": "se/8201b.ogg"
+        }
+      ],
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
@@ -3691,7 +3782,8 @@
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
-      }
+      },
+      "flash": 3
     },
     {
       "kind": "narration",
@@ -3735,8 +3827,8 @@
         "あっ、チ×ポぉ……まだまだカタいわぁ」"
       ],
       "bg": {
-        "label": "#EV048・アヘ顔・奥まで挿入・愛液2",
-        "file": "EV048_12"
+        "label": "#EV048・うっとり・奥まで挿入・愛液2",
+        "file": "EV048_09"
       },
       "bgv": {
         "id": "BGV_SUZU_H003A",
@@ -3750,8 +3842,8 @@
         "避妊などについては、いまだに説明が無い。"
       ],
       "bg": {
-        "label": "#EV048・アヘ顔・奥まで挿入・愛液2",
-        "file": "EV048_12"
+        "label": "#EV048・うっとり・奥まで挿入・愛液2",
+        "file": "EV048_09"
       },
       "bgv": {
         "id": "BGV_SUZU_H003A",
@@ -3766,8 +3858,8 @@
         "平気なのかな？　前のときもそうだし……」"
       ],
       "bg": {
-        "label": "#EV048・アヘ顔・奥まで挿入・愛液2",
-        "file": "EV048_12"
+        "label": "#EV048・うっとり・奥まで挿入・愛液2",
+        "file": "EV048_09"
       },
       "bgv": {
         "id": "BGV_SUZU_H003A",
@@ -3780,8 +3872,8 @@
         "処女喪失のときも、避妊などはしなかった。"
       ],
       "bg": {
-        "label": "#EV048・アヘ顔・奥まで挿入・愛液2",
-        "file": "EV048_12"
+        "label": "#EV048・うっとり・奥まで挿入・愛液2",
+        "file": "EV048_09"
       },
       "bgv": {
         "id": "BGV_SUZU_H003A",
@@ -3800,8 +3892,8 @@
         "排卵日だし、ちょうどいいかも」"
       ],
       "bg": {
-        "label": "#EV048・アヘ顔・奥まで挿入・愛液2",
-        "file": "EV048_12"
+        "label": "#EV048・うっとり・奥まで挿入・愛液2",
+        "file": "EV048_09"
       },
       "bgv": {
         "id": "BGV_SUZU_H003A",
@@ -3815,8 +3907,8 @@
         "「そっか、排卵日なら……って、排卵日！？」"
       ],
       "bg": {
-        "label": "#EV048・アヘ顔・奥まで挿入・愛液2",
-        "file": "EV048_12"
+        "label": "#EV048・うっとり・奥まで挿入・愛液2",
+        "file": "EV048_09"
       },
       "bgv": {
         "id": "BGV_SUZU_H003A",
@@ -3829,8 +3921,8 @@
         "僕はビックリして声をあげる。"
       ],
       "bg": {
-        "label": "#EV048・アヘ顔・奥まで挿入・愛液2",
-        "file": "EV048_12"
+        "label": "#EV048・うっとり・奥まで挿入・愛液2",
+        "file": "EV048_09"
       },
       "bgv": {
         "id": "BGV_SUZU_H003A",
@@ -3849,8 +3941,8 @@
         "なんだから……中に出したほうがいいわっ！」"
       ],
       "bg": {
-        "label": "#EV048・アヘ顔・奥まで挿入・愛液2",
-        "file": "EV048_12"
+        "label": "#EV048・うっとり・奥まで挿入・愛液2",
+        "file": "EV048_09"
       },
       "bgv": {
         "id": "BGV_SUZU_H003A",
@@ -3863,8 +3955,8 @@
         "そう言いつつ、再び腰を振り始める。"
       ],
       "bg": {
-        "label": "#EV048・アヘ顔・奥まで挿入・愛液2",
-        "file": "EV048_12"
+        "label": "#EV048・うっとり・奥まで挿入・愛液2",
+        "file": "EV048_09"
       },
       "bgv": {
         "id": "BGV_SUZU_H003A",
@@ -3883,12 +3975,12 @@
         "くふうっ！　べ、勉強しないとっ！」"
       ],
       "bg": {
-        "label": "#EV048・アヘ顔・奥まで挿入・愛液2",
-        "file": "EV048_12"
+        "label": "#EV048・うっとり・奥まで挿入・愛液2",
+        "file": "EV048_09"
       },
       "bgv": {
-        "id": "BGV_SUZU_H003A",
-        "file": "voice/BGV_suzu_h003a.ogg"
+        "id": "BGV_SUZU_H002A",
+        "file": "voice/BGV_suzu_h002a.ogg"
       }
     },
     {
@@ -3898,12 +3990,12 @@
         "いくら完璧主義の姉さんでも、ほどがあるというか。"
       ],
       "bg": {
-        "label": "#EV048・アヘ顔・奥まで挿入・愛液2",
-        "file": "EV048_12"
+        "label": "#EV048・うっとり・奥まで挿入・愛液2",
+        "file": "EV048_09"
       },
       "bgv": {
-        "id": "BGV_SUZU_H003A",
-        "file": "voice/BGV_suzu_h003a.ogg"
+        "id": "BGV_SUZU_H002A",
+        "file": "voice/BGV_suzu_h002a.ogg"
       }
     },
     {
@@ -3913,12 +4005,12 @@
         "「さすがに、妊娠はマズイんじゃ……仕事もあるし」"
       ],
       "bg": {
-        "label": "#EV048・アヘ顔・奥まで挿入・愛液2",
-        "file": "EV048_12"
+        "label": "#EV048・うっとり・奥まで挿入・愛液2",
+        "file": "EV048_09"
       },
       "bgv": {
-        "id": "BGV_SUZU_H003A",
-        "file": "voice/BGV_suzu_h003a.ogg"
+        "id": "BGV_SUZU_H002A",
+        "file": "voice/BGV_suzu_h002a.ogg"
       }
     },
     {
@@ -3933,12 +4025,12 @@
         "やると決めたからには、最後まで教えるからっ！」"
       ],
       "bg": {
-        "label": "#EV048・アヘ顔・奥まで挿入・愛液2",
-        "file": "EV048_12"
+        "label": "#EV048・うっとり・奥まで挿入・愛液2",
+        "file": "EV048_09"
       },
       "bgv": {
-        "id": "BGV_SUZU_H003A",
-        "file": "voice/BGV_suzu_h003a.ogg"
+        "id": "BGV_SUZU_H002A",
+        "file": "voice/BGV_suzu_h002a.ogg"
       }
     },
     {
@@ -3949,12 +4041,12 @@
         "そして興奮してしまう。"
       ],
       "bg": {
-        "label": "#EV048・アヘ顔・奥まで挿入・愛液2",
-        "file": "EV048_12"
+        "label": "#EV048・うっとり・奥まで挿入・愛液2",
+        "file": "EV048_09"
       },
       "bgv": {
-        "id": "BGV_SUZU_H003A",
-        "file": "voice/BGV_suzu_h003a.ogg"
+        "id": "BGV_SUZU_H002A",
+        "file": "voice/BGV_suzu_h002a.ogg"
       }
     },
     {
@@ -3968,12 +4060,12 @@
         "「あっ、チ×ポが、またおっきくなったわっ！」"
       ],
       "bg": {
-        "label": "#EV048・アヘ顔・奥まで挿入・愛液2",
-        "file": "EV048_12"
+        "label": "#EV048・うっとり・奥まで挿入・愛液2",
+        "file": "EV048_09"
       },
       "bgv": {
-        "id": "BGV_SUZU_H003A",
-        "file": "voice/BGV_suzu_h003a.ogg"
+        "id": "BGV_SUZU_H002A",
+        "file": "voice/BGV_suzu_h002a.ogg"
       }
     },
     {
@@ -3989,12 +4081,12 @@
         "子宮口と先端が、ガチュッとぶつかる。"
       ],
       "bg": {
-        "label": "#EV048・アヘ顔・奥まで挿入・愛液2",
-        "file": "EV048_12"
+        "label": "#EV048・うっとり・奥まで挿入・愛液2",
+        "file": "EV048_09"
       },
       "bgv": {
-        "id": "BGV_SUZU_H003A",
-        "file": "voice/BGV_suzu_h003a.ogg"
+        "id": "BGV_SUZU_H002A",
+        "file": "voice/BGV_suzu_h002a.ogg"
       }
     },
     {
@@ -4009,8 +4101,8 @@
         "今日は、くっひぃっ！　私が動くって……」"
       ],
       "bg": {
-        "label": "#EV048・アヘ顔・奥まで挿入・愛液2",
-        "file": "EV048_12"
+        "label": "#EV048・うっとり・奥まで挿入・愛液2",
+        "file": "EV048_09"
       },
       "bgv": {
         "id": "BGV_SUZU_H003A",
@@ -4023,8 +4115,8 @@
         "身悶えながらも、涼姉が慌てふためく。"
       ],
       "bg": {
-        "label": "#EV048・アヘ顔・奥まで挿入・愛液2",
-        "file": "EV048_12"
+        "label": "#EV048・うっとり・奥まで挿入・愛液2",
+        "file": "EV048_09"
       },
       "bgv": {
         "id": "BGV_SUZU_H003A",
@@ -4039,8 +4131,8 @@
         "あとだからっ……」"
       ],
       "bg": {
-        "label": "#EV048・アヘ顔・奥まで挿入・愛液2",
-        "file": "EV048_12"
+        "label": "#EV048・うっとり・奥まで挿入・愛液2",
+        "file": "EV048_09"
       },
       "bgv": {
         "id": "BGV_SUZU_H003A",
@@ -4059,8 +4151,8 @@
         "ズンッってきたぁ！」"
       ],
       "bg": {
-        "label": "#EV048・アヘ顔・奥まで挿入・愛液2",
-        "file": "EV048_12"
+        "label": "#EV048・うっとり・奥まで挿入・愛液2",
+        "file": "EV048_09"
       },
       "bgv": {
         "id": "BGV_SUZU_H003A",
@@ -4076,8 +4168,8 @@
         "僕は、夢中になって、腰を振りたてる。"
       ],
       "bg": {
-        "label": "#EV048・アヘ顔・奥まで挿入・愛液2",
-        "file": "EV048_12"
+        "label": "#EV048・うっとり・奥まで挿入・愛液2",
+        "file": "EV048_09"
       },
       "bgv": {
         "id": "BGV_SUZU_H003A",
@@ -4312,6 +4404,12 @@
         "label": "#EV048・アヘ顔・奥まで挿入・愛液2",
         "file": "EV048_12"
       },
+      "se": [
+        {
+          "code": "8201B",
+          "file": "se/8201b.ogg"
+        }
+      ],
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
@@ -4335,7 +4433,8 @@
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
-      }
+      },
+      "flash": 3
     },
     {
       "kind": "narration",
@@ -4368,6 +4467,12 @@
         "label": "#EV048・アヘ顔・奥まで挿入・愛液2",
         "file": "EV048_12"
       },
+      "se": [
+        {
+          "code": "8351A",
+          "file": "se/8351a.ogg"
+        }
+      ],
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
@@ -4389,7 +4494,8 @@
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
-      }
+      },
+      "flash": 2
     },
     {
       "kind": "line",
@@ -4406,6 +4512,12 @@
         "label": "#EV048・アヘ顔・奥まで挿入・愛液2",
         "file": "EV048_12"
       },
+      "se": [
+        {
+          "code": "8201B",
+          "file": "se/8201b.ogg"
+        }
+      ],
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
@@ -4423,10 +4535,17 @@
         "label": "#EV048・アヘ顔・奥まで挿入・愛液2",
         "file": "EV048_12"
       },
+      "se": [
+        {
+          "code": "8201B",
+          "file": "se/8201b.ogg"
+        }
+      ],
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
-      }
+      },
+      "flash": 3
     },
     {
       "kind": "line",
@@ -4446,7 +4565,8 @@
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
-      }
+      },
+      "flash": 3
     },
     {
       "kind": "narration",
@@ -4523,15 +4643,28 @@
       "lines": [
         "その言葉に、想像してしまう。",
         "妊娠して、お腹を大きくした涼姉。",
-        "お腹の突きでたヌード、そして、セックス……。",
+        "お腹の突きでたヌード、そして、セックス……。"
+      ],
+      "bg": {
+        "label": "#EV048・アヘ顔・奥まで挿入・愛液2・精液溜まり",
+        "file": "EV048_13"
+      },
+      "bgv": {
+        "id": "BGV_SUZU_H003A",
+        "file": "voice/BGV_suzu_h003a.ogg"
+      }
+    },
+    {
+      "kind": "narration",
+      "lines": [
         "僕は、ぶるっと腰を震わせた。",
         "………。",
         "……。",
         "…。"
       ],
       "bg": {
-        "label": "#EV048・アヘ顔・奥まで挿入・愛液2・精液溜まり",
-        "file": "EV048_13"
+        "label": "#背景・黒一色",
+        "file": "BG_BLACK"
       },
       "bgv": {
         "id": "BGV_SUZU_H003A",

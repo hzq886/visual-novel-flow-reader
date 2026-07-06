@@ -423,11 +423,11 @@
         "file": "BG03_03_00"
       },
       "sprite": {
-        "label": "綾菜（小）・通常２（昼）・エロ下着０１・にっこり１",
-        "body": "CH01A_02_01_004_01",
-        "face": "CH01A_02_01_102_01",
+        "label": "涼菜（小）・通常２（昼）・エロ下着０１・通常１",
+        "body": "CH02A_02_01_004_01",
+        "face": "CH02A_02_01_101_01",
         "offset": [
-          345,
+          251,
           88
         ]
       }
@@ -443,11 +443,11 @@
         "file": "BG03_03_00"
       },
       "sprite": {
-        "label": "綾菜（小）・通常２（昼）・エロ下着０１・にっこり１",
-        "body": "CH01A_02_01_004_01",
-        "face": "CH01A_02_01_102_01",
+        "label": "涼菜（小）・通常２（昼）・エロ下着０１・通常１",
+        "body": "CH02A_02_01_004_01",
+        "face": "CH02A_02_01_101_01",
         "offset": [
-          345,
+          251,
           88
         ]
       }
@@ -468,11 +468,11 @@
         "file": "BG03_03_00"
       },
       "sprite": {
-        "label": "綾菜（小）・通常２（昼）・エロ下着０１・にっこり１",
-        "body": "CH01A_02_01_004_01",
-        "face": "CH01A_02_01_102_01",
+        "label": "涼菜（小）・通常２（昼）・エロ下着０１・呆れ１",
+        "body": "CH02A_02_01_004_01",
+        "face": "CH02A_02_01_107_01",
         "offset": [
-          345,
+          251,
           88
         ]
       }
@@ -487,11 +487,11 @@
         "file": "BG03_03_00"
       },
       "sprite": {
-        "label": "綾菜（小）・通常２（昼）・エロ下着０１・にっこり１",
-        "body": "CH01A_02_01_004_01",
-        "face": "CH01A_02_01_102_01",
+        "label": "涼菜（小）・通常２（昼）・エロ下着０１・呆れ１",
+        "body": "CH02A_02_01_004_01",
+        "face": "CH02A_02_01_107_01",
         "offset": [
-          345,
+          251,
           88
         ]
       }
@@ -507,11 +507,11 @@
         "file": "BG03_03_00"
       },
       "sprite": {
-        "label": "綾菜（小）・通常２（昼）・エロ下着０１・にっこり１",
-        "body": "CH01A_02_01_004_01",
-        "face": "CH01A_02_01_102_01",
+        "label": "涼菜（小）・通常２（昼）・エロ下着０１・呆れ１",
+        "body": "CH02A_02_01_004_01",
+        "face": "CH02A_02_01_107_01",
         "offset": [
-          345,
+          251,
           88
         ]
       }
@@ -620,9 +620,9 @@
         "file": "BG03_03_00"
       },
       "sprite": {
-        "label": "綾菜（中）・通常２（昼）・エロ下着０１・通常１",
+        "label": "綾菜（中）・通常２（昼）・エロ下着０１・にっこり１",
         "body": "CH01B_02_01_004_01",
-        "face": "CH01B_02_01_101_01",
+        "face": "CH01B_02_01_102_01",
         "offset": [
           431,
           78
@@ -700,12 +700,12 @@
         "file": "BG03_03_00"
       },
       "sprite": {
-        "label": "涼菜（中）・通常２（昼）・エロ下着０１・呆れ１",
-        "body": "CH02B_02_01_004_01",
-        "face": "CH02B_02_01_107_01",
+        "label": "綾菜（中）・通常２（昼）・エロ下着０１・通常１",
+        "body": "CH01B_02_01_004_01",
+        "face": "CH01B_02_01_101_01",
         "offset": [
-          238,
-          76
+          431,
+          78
         ]
       }
     },
@@ -814,12 +814,12 @@
         "file": "BG03_03_00"
       },
       "sprite": {
-        "label": "涼菜（中）・通常２（昼）・エロ下着０１・驚き１",
-        "body": "CH02B_02_01_004_01",
-        "face": "CH02B_02_01_104_01",
+        "label": "綾菜（中）・通常２（昼）・エロ下着０１・うっとり１",
+        "body": "CH01B_02_01_004_01",
+        "face": "CH01B_02_01_103_01",
         "offset": [
-          238,
-          76
+          431,
+          78
         ]
       }
     },
@@ -834,12 +834,12 @@
         "file": "BG03_03_00"
       },
       "sprite": {
-        "label": "涼菜（中）・通常２（昼）・エロ下着０１・驚き１",
-        "body": "CH02B_02_01_004_01",
-        "face": "CH02B_02_01_104_01",
+        "label": "綾菜（中）・通常２（昼）・エロ下着０１・うっとり１",
+        "body": "CH01B_02_01_004_01",
+        "face": "CH01B_02_01_103_01",
         "offset": [
-          238,
-          76
+          431,
+          78
         ]
       }
     },
@@ -915,9 +915,7 @@
     {
       "kind": "narration",
       "lines": [
-        "１０本の指が絡みつきながら、モノを撫でまわす。",
-        "そうしながら、姉さんたちは身体を押しつけてきて、",
-        "そのまま僕をベッドに倒してしまった。"
+        "１０本の指が絡みつきながら、モノを撫でまわす。"
       ],
       "bg": {
         "label": "#背景・和樹の部屋（夜）",
@@ -931,6 +929,17 @@
           238,
           76
         ]
+      }
+    },
+    {
+      "kind": "narration",
+      "lines": [
+        "そうしながら、姉さんたちは身体を押しつけてきて、",
+        "そのまま僕をベッドに倒してしまった。"
+      ],
+      "bg": {
+        "label": "#背景・黒一色",
+        "file": "BG_BLACK"
       }
     },
     {
@@ -1864,8 +1873,8 @@
         "file": "EV041_08"
       },
       "bgv": {
-        "id": "BGV_AYAN_H002A",
-        "file": "voice/BGV_ayan_h002a.ogg"
+        "id": "BGV_SUZU_H001A",
+        "file": "voice/BGV_suzu_h001a.ogg"
       }
     },
     {
@@ -1880,8 +1889,8 @@
         "file": "EV041_08"
       },
       "bgv": {
-        "id": "BGV_AYAN_H002A",
-        "file": "voice/BGV_ayan_h002a.ogg"
+        "id": "BGV_SUZU_H001A",
+        "file": "voice/BGV_suzu_h001a.ogg"
       }
     },
     {
@@ -1900,8 +1909,8 @@
         "file": "EV041_08"
       },
       "bgv": {
-        "id": "BGV_AYAN_H002A",
-        "file": "voice/BGV_ayan_h002a.ogg"
+        "id": "BGV_SUZU_H001A",
+        "file": "voice/BGV_suzu_h001a.ogg"
       }
     },
     {
@@ -1918,8 +1927,8 @@
         "file": "EV041_08"
       },
       "bgv": {
-        "id": "BGV_AYAN_H002A",
-        "file": "voice/BGV_ayan_h002a.ogg"
+        "id": "BGV_SUZU_H001A",
+        "file": "voice/BGV_suzu_h001a.ogg"
       }
     },
     {
@@ -1938,8 +1947,8 @@
         "file": "EV041_08"
       },
       "bgv": {
-        "id": "BGV_AYAN_H002A",
-        "file": "voice/BGV_ayan_h002a.ogg"
+        "id": "BGV_SUZU_H001A",
+        "file": "voice/BGV_suzu_h001a.ogg"
       }
     },
     {
@@ -1956,8 +1965,8 @@
         "file": "EV041_08"
       },
       "bgv": {
-        "id": "BGV_AYAN_H002A",
-        "file": "voice/BGV_ayan_h002a.ogg"
+        "id": "BGV_SUZU_H001A",
+        "file": "voice/BGV_suzu_h001a.ogg"
       }
     },
     {
@@ -1976,8 +1985,8 @@
         "file": "EV041_09"
       },
       "bgv": {
-        "id": "BGV_AYAN_H002A",
-        "file": "voice/BGV_ayan_h002a.ogg"
+        "id": "BGV_SUZU_H001A",
+        "file": "voice/BGV_suzu_h001a.ogg"
       }
     },
     {
@@ -1995,8 +2004,8 @@
         "file": "EV041_09"
       },
       "bgv": {
-        "id": "BGV_AYAN_H002A",
-        "file": "voice/BGV_ayan_h002a.ogg"
+        "id": "BGV_SUZU_H001A",
+        "file": "voice/BGV_suzu_h001a.ogg"
       }
     },
     {
@@ -2495,8 +2504,8 @@
         "file": "EV041_11"
       },
       "bgv": {
-        "id": "BGV_SUZU_H002A",
-        "file": "voice/BGV_suzu_h002a.ogg"
+        "id": "BGV_AYAN_H002A",
+        "file": "voice/BGV_ayan_h002a.ogg"
       }
     },
     {
@@ -2512,8 +2521,8 @@
         "file": "EV041_11"
       },
       "bgv": {
-        "id": "BGV_SUZU_H002A",
-        "file": "voice/BGV_suzu_h002a.ogg"
+        "id": "BGV_AYAN_H002A",
+        "file": "voice/BGV_ayan_h002a.ogg"
       }
     },
     {
@@ -2532,8 +2541,8 @@
         "file": "EV041_11"
       },
       "bgv": {
-        "id": "BGV_SUZU_H002A",
-        "file": "voice/BGV_suzu_h002a.ogg"
+        "id": "BGV_AYAN_H002A",
+        "file": "voice/BGV_ayan_h002a.ogg"
       }
     },
     {
@@ -2550,8 +2559,8 @@
         "file": "EV041_11"
       },
       "bgv": {
-        "id": "BGV_SUZU_H002A",
-        "file": "voice/BGV_suzu_h002a.ogg"
+        "id": "BGV_AYAN_H002A",
+        "file": "voice/BGV_ayan_h002a.ogg"
       }
     },
     {
@@ -2570,8 +2579,8 @@
         "file": "EV041_11"
       },
       "bgv": {
-        "id": "BGV_SUZU_H002A",
-        "file": "voice/BGV_suzu_h002a.ogg"
+        "id": "BGV_AYAN_H002A",
+        "file": "voice/BGV_ayan_h002a.ogg"
       }
     },
     {
@@ -2587,8 +2596,8 @@
         "file": "EV041_11"
       },
       "bgv": {
-        "id": "BGV_SUZU_H002A",
-        "file": "voice/BGV_suzu_h002a.ogg"
+        "id": "BGV_AYAN_H002A",
+        "file": "voice/BGV_ayan_h002a.ogg"
       }
     },
     {
@@ -2607,8 +2616,8 @@
         "file": "EV041_11"
       },
       "bgv": {
-        "id": "BGV_SUZU_H002A",
-        "file": "voice/BGV_suzu_h002a.ogg"
+        "id": "BGV_AYAN_H002A",
+        "file": "voice/BGV_ayan_h002a.ogg"
       }
     },
     {
@@ -2627,8 +2636,8 @@
         "file": "EV041_11"
       },
       "bgv": {
-        "id": "BGV_SUZU_H002A",
-        "file": "voice/BGV_suzu_h002a.ogg"
+        "id": "BGV_AYAN_H002A",
+        "file": "voice/BGV_ayan_h002a.ogg"
       }
     },
     {
@@ -2643,8 +2652,8 @@
         "file": "EV041_11"
       },
       "bgv": {
-        "id": "BGV_SUZU_H002A",
-        "file": "voice/BGV_suzu_h002a.ogg"
+        "id": "BGV_AYAN_H002A",
+        "file": "voice/BGV_ayan_h002a.ogg"
       }
     },
     {
@@ -2663,8 +2672,8 @@
         "file": "EV041_11"
       },
       "bgv": {
-        "id": "BGV_SUZU_H002A",
-        "file": "voice/BGV_suzu_h002a.ogg"
+        "id": "BGV_AYAN_H002A",
+        "file": "voice/BGV_ayan_h002a.ogg"
       }
     },
     {
@@ -2681,8 +2690,8 @@
         "file": "EV041_12"
       },
       "bgv": {
-        "id": "BGV_SUZU_H002A",
-        "file": "voice/BGV_suzu_h002a.ogg"
+        "id": "BGV_AYAN_H002A",
+        "file": "voice/BGV_ayan_h002a.ogg"
       }
     },
     {
@@ -2901,8 +2910,8 @@
         "その中で、下半身の快感がどんどん膨らんでいく。"
       ],
       "bg": {
-        "label": "#EV041・目閉じ・うっとり・涼菜乳首吸い・乳首よだれ2・乳首よだれ2",
-        "file": "EV041_12"
+        "label": "#EV041・うっとり・目閉じ・綾菜乳首舐め・乳首よだれ2・乳首よだれ2",
+        "file": "EV041_11"
       },
       "bgv": {
         "id": "BGV_SUZU_H002A",
@@ -2921,12 +2930,12 @@
         "ママのぱいぱい、気持ちいいの、あふっふうっ！」"
       ],
       "bg": {
-        "label": "#EV041・目閉じ・うっとり・涼菜乳首吸い・乳首よだれ2・乳首よだれ2",
-        "file": "EV041_12"
+        "label": "#EV041・うっとり・目閉じ・綾菜乳首舐め・乳首よだれ2・乳首よだれ2",
+        "file": "EV041_11"
       },
       "bgv": {
-        "id": "BGV_SUZU_H002A",
-        "file": "voice/BGV_suzu_h002a.ogg"
+        "id": "BGV_AYAN_H002A",
+        "file": "voice/BGV_ayan_h002a.ogg"
       }
     },
     {
@@ -2937,12 +2946,12 @@
         "ものすごくメスの香りがしてくる。"
       ],
       "bg": {
-        "label": "#EV041・目閉じ・うっとり・涼菜乳首吸い・乳首よだれ2・乳首よだれ2",
-        "file": "EV041_12"
+        "label": "#EV041・うっとり・目閉じ・綾菜乳首舐め・乳首よだれ2・乳首よだれ2",
+        "file": "EV041_11"
       },
       "bgv": {
-        "id": "BGV_SUZU_H002A",
-        "file": "voice/BGV_suzu_h002a.ogg"
+        "id": "BGV_AYAN_H002A",
+        "file": "voice/BGV_ayan_h002a.ogg"
       }
     },
     {
@@ -2957,12 +2966,12 @@
         "はぁん、いい子、なでなで、いい子ぉっ！」"
       ],
       "bg": {
-        "label": "#EV041・目閉じ・うっとり・涼菜乳首吸い・乳首よだれ2・乳首よだれ2",
-        "file": "EV041_12"
+        "label": "#EV041・うっとり・目閉じ・綾菜乳首舐め・乳首よだれ2・乳首よだれ2",
+        "file": "EV041_11"
       },
       "bgv": {
-        "id": "BGV_SUZU_H002A",
-        "file": "voice/BGV_suzu_h002a.ogg"
+        "id": "BGV_AYAN_H002A",
+        "file": "voice/BGV_ayan_h002a.ogg"
       }
     },
     {
@@ -2974,12 +2983,12 @@
         "腰がグッと持ちあがった。"
       ],
       "bg": {
-        "label": "#EV041・目閉じ・うっとり・涼菜乳首吸い・乳首よだれ2・乳首よだれ2",
-        "file": "EV041_12"
+        "label": "#EV041・うっとり・目閉じ・綾菜乳首舐め・乳首よだれ2・乳首よだれ2",
+        "file": "EV041_11"
       },
       "bgv": {
-        "id": "BGV_SUZU_H002A",
-        "file": "voice/BGV_suzu_h002a.ogg"
+        "id": "BGV_AYAN_H002A",
+        "file": "voice/BGV_ayan_h002a.ogg"
       }
     },
     {
@@ -2994,12 +3003,12 @@
         "クセに、シコシコされてどっぴゅんしそう？」"
       ],
       "bg": {
-        "label": "#EV041・目閉じ・うっとり・涼菜乳首吸い・乳首よだれ2・乳首よだれ2",
-        "file": "EV041_12"
+        "label": "#EV041・うっとり・目閉じ・綾菜乳首舐め・乳首よだれ2・乳首よだれ2",
+        "file": "EV041_11"
       },
       "bgv": {
-        "id": "BGV_SUZU_H002A",
-        "file": "voice/BGV_suzu_h002a.ogg"
+        "id": "BGV_AYAN_H002A",
+        "file": "voice/BGV_ayan_h002a.ogg"
       }
     },
     {
@@ -3014,12 +3023,12 @@
         "お手々で、ぴゅっぴゅしましょうねえ」"
       ],
       "bg": {
-        "label": "#EV041・目閉じ・うっとり・涼菜乳首吸い・乳首よだれ2・乳首よだれ2",
-        "file": "EV041_12"
+        "label": "#EV041・うっとり・目閉じ・綾菜乳首舐め・乳首よだれ2・乳首よだれ2",
+        "file": "EV041_11"
       },
       "bgv": {
-        "id": "BGV_SUZU_H002A",
-        "file": "voice/BGV_suzu_h002a.ogg"
+        "id": "BGV_AYAN_H002A",
+        "file": "voice/BGV_ayan_h002a.ogg"
       }
     },
     {
@@ -3029,8 +3038,8 @@
         "そして、僕は姉さんたちの手の中で射精した。"
       ],
       "bg": {
-        "label": "#EV041・目閉じ・うっとり・涼菜乳首吸い・乳首よだれ2・乳首よだれ2",
-        "file": "EV041_12"
+        "label": "#EV041・うっとり・目閉じ・綾菜乳首舐め・乳首よだれ2・乳首よだれ2",
+        "file": "EV041_11"
       },
       "se": [
         {
@@ -3039,8 +3048,8 @@
         }
       ],
       "bgv": {
-        "id": "BGV_SUZU_H002A",
-        "file": "voice/BGV_suzu_h002a.ogg"
+        "id": "BGV_AYAN_H002A",
+        "file": "voice/BGV_ayan_h002a.ogg"
       }
     },
     {
@@ -3053,8 +3062,8 @@
         "file": "EV041_13"
       },
       "bgv": {
-        "id": "BGV_SUZU_H002A",
-        "file": "voice/BGV_suzu_h002a.ogg"
+        "id": "BGV_AYAN_H002A",
+        "file": "voice/BGV_ayan_h002a.ogg"
       },
       "flash": 3
     },
@@ -3074,8 +3083,8 @@
         "file": "EV041_13"
       },
       "bgv": {
-        "id": "BGV_SUZU_H002A",
-        "file": "voice/BGV_suzu_h002a.ogg"
+        "id": "BGV_AYAN_H002A",
+        "file": "voice/BGV_ayan_h002a.ogg"
       }
     },
     {
@@ -3094,8 +3103,8 @@
         "file": "EV041_13"
       },
       "bgv": {
-        "id": "BGV_SUZU_H002A",
-        "file": "voice/BGV_suzu_h002a.ogg"
+        "id": "BGV_AYAN_H002A",
+        "file": "voice/BGV_ayan_h002a.ogg"
       }
     },
     {
@@ -3110,8 +3119,8 @@
         "file": "EV041_13"
       },
       "bgv": {
-        "id": "BGV_SUZU_H002A",
-        "file": "voice/BGV_suzu_h002a.ogg"
+        "id": "BGV_AYAN_H002A",
+        "file": "voice/BGV_ayan_h002a.ogg"
       }
     },
     {
@@ -3130,8 +3139,8 @@
         "file": "EV041_13"
       },
       "bgv": {
-        "id": "BGV_SUZU_H002A",
-        "file": "voice/BGV_suzu_h002a.ogg"
+        "id": "BGV_AYAN_H002A",
+        "file": "voice/BGV_ayan_h002a.ogg"
       }
     },
     {
@@ -3150,8 +3159,8 @@
         "file": "EV041_13"
       },
       "bgv": {
-        "id": "BGV_SUZU_H002A",
-        "file": "voice/BGV_suzu_h002a.ogg"
+        "id": "BGV_AYAN_H002A",
+        "file": "voice/BGV_ayan_h002a.ogg"
       }
     },
     {
@@ -3168,8 +3177,8 @@
         "file": "EV041_13"
       },
       "bgv": {
-        "id": "BGV_SUZU_H002A",
-        "file": "voice/BGV_suzu_h002a.ogg"
+        "id": "BGV_AYAN_H002A",
+        "file": "voice/BGV_ayan_h002a.ogg"
       }
     },
     {
@@ -3188,8 +3197,8 @@
         "file": "EV041_13"
       },
       "bgv": {
-        "id": "BGV_SUZU_H002A",
-        "file": "voice/BGV_suzu_h002a.ogg"
+        "id": "BGV_AYAN_H002A",
+        "file": "voice/BGV_ayan_h002a.ogg"
       }
     },
     {
@@ -3208,8 +3217,8 @@
         "file": "EV041_13"
       },
       "bgv": {
-        "id": "BGV_SUZU_H002A",
-        "file": "voice/BGV_suzu_h002a.ogg"
+        "id": "BGV_AYAN_H002A",
+        "file": "voice/BGV_ayan_h002a.ogg"
       }
     },
     {
@@ -3225,8 +3234,8 @@
         "file": "EV041_13"
       },
       "bgv": {
-        "id": "BGV_SUZU_H002A",
-        "file": "voice/BGV_suzu_h002a.ogg"
+        "id": "BGV_AYAN_H002A",
+        "file": "voice/BGV_ayan_h002a.ogg"
       }
     },
     {
@@ -3245,8 +3254,8 @@
         "file": "EV041_14"
       },
       "bgv": {
-        "id": "BGV_SUZU_H002A",
-        "file": "voice/BGV_suzu_h002a.ogg"
+        "id": "BGV_AYAN_H002A",
+        "file": "voice/BGV_ayan_h002a.ogg"
       }
     },
     {
@@ -3262,8 +3271,8 @@
         "file": "EV041_14"
       },
       "bgv": {
-        "id": "BGV_SUZU_H002A",
-        "file": "voice/BGV_suzu_h002a.ogg"
+        "id": "BGV_AYAN_H002A",
+        "file": "voice/BGV_ayan_h002a.ogg"
       }
     },
     {
@@ -3288,8 +3297,8 @@
         }
       ],
       "bgv": {
-        "id": "BGV_SUZU_H002A",
-        "file": "voice/BGV_suzu_h002a.ogg"
+        "id": "BGV_AYAN_H002A",
+        "file": "voice/BGV_ayan_h002a.ogg"
       }
     },
     {
@@ -3304,8 +3313,8 @@
         "file": "EV041_14"
       },
       "bgv": {
-        "id": "BGV_SUZU_H002A",
-        "file": "voice/BGV_suzu_h002a.ogg"
+        "id": "BGV_AYAN_H002A",
+        "file": "voice/BGV_ayan_h002a.ogg"
       },
       "flash": 2
     },
@@ -3325,8 +3334,8 @@
         "file": "EV041_14"
       },
       "bgv": {
-        "id": "BGV_SUZU_H002A",
-        "file": "voice/BGV_suzu_h002a.ogg"
+        "id": "BGV_AYAN_H002A",
+        "file": "voice/BGV_ayan_h002a.ogg"
       }
     },
     {
@@ -3340,8 +3349,8 @@
         "file": "EV041_14"
       },
       "bgv": {
-        "id": "BGV_SUZU_H002A",
-        "file": "voice/BGV_suzu_h002a.ogg"
+        "id": "BGV_AYAN_H002A",
+        "file": "voice/BGV_ayan_h002a.ogg"
       }
     },
     {
@@ -3360,8 +3369,8 @@
         "file": "EV041_15"
       },
       "bgv": {
-        "id": "BGV_SUZU_H002A",
-        "file": "voice/BGV_suzu_h002a.ogg"
+        "id": "BGV_AYAN_H002A",
+        "file": "voice/BGV_ayan_h002a.ogg"
       }
     },
     {
@@ -3379,8 +3388,8 @@
         "file": "EV041_15"
       },
       "bgv": {
-        "id": "BGV_SUZU_H002A",
-        "file": "voice/BGV_suzu_h002a.ogg"
+        "id": "BGV_AYAN_H002A",
+        "file": "voice/BGV_ayan_h002a.ogg"
       }
     },
     {
@@ -3397,8 +3406,8 @@
         "file": "EV041_15"
       },
       "bgv": {
-        "id": "BGV_SUZU_H002A",
-        "file": "voice/BGV_suzu_h002a.ogg"
+        "id": "BGV_AYAN_H002A",
+        "file": "voice/BGV_ayan_h002a.ogg"
       }
     },
     {
@@ -3417,8 +3426,8 @@
         "file": "EV041_16"
       },
       "bgv": {
-        "id": "BGV_SUZU_H002A",
-        "file": "voice/BGV_suzu_h002a.ogg"
+        "id": "BGV_AYAN_H002A",
+        "file": "voice/BGV_ayan_h002a.ogg"
       }
     },
     {
@@ -3435,8 +3444,8 @@
         "file": "EV041_16"
       },
       "bgv": {
-        "id": "BGV_SUZU_H002A",
-        "file": "voice/BGV_suzu_h002a.ogg"
+        "id": "BGV_AYAN_H002A",
+        "file": "voice/BGV_ayan_h002a.ogg"
       }
     },
     {
@@ -3455,8 +3464,8 @@
         "file": "EV041_16"
       },
       "bgv": {
-        "id": "BGV_SUZU_H002A",
-        "file": "voice/BGV_suzu_h002a.ogg"
+        "id": "BGV_AYAN_H002A",
+        "file": "voice/BGV_ayan_h002a.ogg"
       }
     },
     {
@@ -3472,8 +3481,8 @@
         "file": "EV041_16"
       },
       "bgv": {
-        "id": "BGV_SUZU_H002A",
-        "file": "voice/BGV_suzu_h002a.ogg"
+        "id": "BGV_AYAN_H002A",
+        "file": "voice/BGV_ayan_h002a.ogg"
       }
     },
     {
@@ -3492,8 +3501,8 @@
         "file": "EV041_16"
       },
       "bgv": {
-        "id": "BGV_SUZU_H002A",
-        "file": "voice/BGV_suzu_h002a.ogg"
+        "id": "BGV_AYAN_H002A",
+        "file": "voice/BGV_ayan_h002a.ogg"
       }
     },
     {
@@ -3508,8 +3517,8 @@
         "file": "EV041_16"
       },
       "bgv": {
-        "id": "BGV_SUZU_H002A",
-        "file": "voice/BGV_suzu_h002a.ogg"
+        "id": "BGV_AYAN_H002A",
+        "file": "voice/BGV_ayan_h002a.ogg"
       }
     },
     {
@@ -3528,8 +3537,8 @@
         "file": "EV041_16"
       },
       "bgv": {
-        "id": "BGV_SUZU_H002A",
-        "file": "voice/BGV_suzu_h002a.ogg"
+        "id": "BGV_AYAN_H002A",
+        "file": "voice/BGV_ayan_h002a.ogg"
       }
     },
     {
@@ -3545,8 +3554,8 @@
         "file": "EV041_16"
       },
       "bgv": {
-        "id": "BGV_SUZU_H002A",
-        "file": "voice/BGV_suzu_h002a.ogg"
+        "id": "BGV_AYAN_H002A",
+        "file": "voice/BGV_ayan_h002a.ogg"
       }
     },
     {
@@ -3565,8 +3574,8 @@
         "file": "EV041_16"
       },
       "bgv": {
-        "id": "BGV_SUZU_H002A",
-        "file": "voice/BGV_suzu_h002a.ogg"
+        "id": "BGV_AYAN_H002A",
+        "file": "voice/BGV_ayan_h002a.ogg"
       }
     },
     {
@@ -3585,8 +3594,8 @@
         "file": "EV041_16"
       },
       "bgv": {
-        "id": "BGV_SUZU_H002A",
-        "file": "voice/BGV_suzu_h002a.ogg"
+        "id": "BGV_AYAN_H002A",
+        "file": "voice/BGV_ayan_h002a.ogg"
       }
     },
     {
@@ -3597,12 +3606,12 @@
         "…。"
       ],
       "bg": {
-        "label": "#EV041・うっとり・妖艶な笑み・涼菜乳首舐め・乳首よだれ2・乳首よだれ2・精液たれ",
-        "file": "EV041_16"
+        "label": "#背景・黒一色",
+        "file": "BG_BLACK"
       },
       "bgv": {
-        "id": "BGV_SUZU_H002A",
-        "file": "voice/BGV_suzu_h002a.ogg"
+        "id": "BGV_AYAN_H002A",
+        "file": "voice/BGV_ayan_h002a.ogg"
       }
     }
   ],

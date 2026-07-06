@@ -150,12 +150,12 @@
         "「あら、翼と勝負をするの？　どういうゲームで？」"
       ],
       "sprite": {
-        "label": "翼（中）・通常２（昼）・裸０１・にっこり１",
-        "body": "CH03B_02_01_001_01",
-        "face": "CH03B_02_01_102_01",
+        "label": "楓（中）・通常１（昼）・裸０１・通常１",
+        "body": "CH05B_01_01_001_01",
+        "face": "CH05B_01_01_101_01",
         "offset": [
-          315,
-          83
+          234,
+          70
         ]
       }
     },
@@ -167,12 +167,12 @@
         "いっぱいイッたほうが勝ちっていうゲームです」"
       ],
       "sprite": {
-        "label": "翼（中）・通常２（昼）・裸０１・にっこり１",
-        "body": "CH03B_02_01_001_01",
-        "face": "CH03B_02_01_102_01",
+        "label": "楓（中）・通常１（昼）・裸０１・通常１",
+        "body": "CH05B_01_01_001_01",
+        "face": "CH05B_01_01_101_01",
         "offset": [
-          315,
-          83
+          234,
+          70
         ]
       }
     },
@@ -183,12 +183,12 @@
         "自分で口にしながら、どうかと思ってしまうほどだ。"
       ],
       "sprite": {
-        "label": "翼（中）・通常２（昼）・裸０１・にっこり１",
-        "body": "CH03B_02_01_001_01",
-        "face": "CH03B_02_01_102_01",
+        "label": "楓（中）・通常１（昼）・裸０１・通常１",
+        "body": "CH05B_01_01_001_01",
+        "face": "CH05B_01_01_101_01",
         "offset": [
-          315,
-          83
+          234,
+          70
         ]
       }
     },
@@ -203,12 +203,12 @@
         "「それは面白そうね！　イキまくるのは得意よ！」"
       ],
       "sprite": {
-        "label": "翼（中）・通常２（昼）・裸０１・にっこり１",
-        "body": "CH03B_02_01_001_01",
-        "face": "CH03B_02_01_102_01",
+        "label": "楓（中）・通常１（昼）・裸０１・にっこり１",
+        "body": "CH05B_01_01_001_01",
+        "face": "CH05B_01_01_102_01",
         "offset": [
-          315,
-          83
+          234,
+          70
         ]
       }
     },
@@ -223,12 +223,12 @@
         "「お母さんが相手でも、負けないからね！」"
       ],
       "sprite": {
-        "label": "翼（中）・通常２（昼）・裸０１・にっこり１",
-        "body": "CH03B_02_01_001_01",
-        "face": "CH03B_02_01_102_01",
+        "label": "楓（中）・通常１（昼）・裸０１・にっこり１",
+        "body": "CH05B_01_01_001_01",
+        "face": "CH05B_01_01_102_01",
         "offset": [
-          315,
-          83
+          234,
+          70
         ]
       }
     },
@@ -238,12 +238,12 @@
         "だが、二人とも『当然のように』受け入れてくれる。"
       ],
       "sprite": {
-        "label": "翼（中）・通常２（昼）・裸０１・にっこり１",
-        "body": "CH03B_02_01_001_01",
-        "face": "CH03B_02_01_102_01",
+        "label": "楓（中）・通常１（昼）・裸０１・にっこり１",
+        "body": "CH05B_01_01_001_01",
+        "face": "CH05B_01_01_102_01",
         "offset": [
-          315,
-          83
+          234,
+          70
         ]
       }
     },
@@ -259,12 +259,12 @@
         "チ×ポっていうことでいいのかしら？」"
       ],
       "sprite": {
-        "label": "翼（中）・通常２（昼）・裸０１・にっこり１",
-        "body": "CH03B_02_01_001_01",
-        "face": "CH03B_02_01_102_01",
+        "label": "楓（中）・通常１（昼）・裸０１・通常１",
+        "body": "CH05B_01_01_001_01",
+        "face": "CH05B_01_01_101_01",
         "offset": [
-          315,
-          83
+          234,
+          70
         ]
       }
     },
@@ -275,12 +275,12 @@
         "「そうですね、二人同時に勝負をしたいので……」"
       ],
       "sprite": {
-        "label": "翼（中）・通常２（昼）・裸０１・にっこり１",
-        "body": "CH03B_02_01_001_01",
-        "face": "CH03B_02_01_102_01",
+        "label": "楓（中）・通常１（昼）・裸０１・通常１",
+        "body": "CH05B_01_01_001_01",
+        "face": "CH05B_01_01_101_01",
         "offset": [
-          315,
-          83
+          234,
+          70
         ]
       }
     },
@@ -290,12 +290,12 @@
         "といっても、僕のモノは一本しかない。"
       ],
       "sprite": {
-        "label": "翼（中）・通常２（昼）・裸０１・にっこり１",
-        "body": "CH03B_02_01_001_01",
-        "face": "CH03B_02_01_102_01",
+        "label": "楓（中）・通常１（昼）・裸０１・通常１",
+        "body": "CH05B_01_01_001_01",
+        "face": "CH05B_01_01_101_01",
         "offset": [
-          315,
-          83
+          234,
+          70
         ]
       }
     },
@@ -307,12 +307,12 @@
         "使ってもらえますか？　あの太いやつ」"
       ],
       "sprite": {
-        "label": "翼（中）・通常２（昼）・裸０１・にっこり１",
-        "body": "CH03B_02_01_001_01",
-        "face": "CH03B_02_01_102_01",
+        "label": "楓（中）・通常１（昼）・裸０１・通常１",
+        "body": "CH05B_01_01_001_01",
+        "face": "CH05B_01_01_101_01",
         "offset": [
-          315,
-          83
+          234,
+          70
         ]
       }
     },
@@ -327,12 +327,12 @@
         "「ああ、床に張り付けて使う、ディルドーのことね」"
       ],
       "sprite": {
-        "label": "翼（中）・通常２（昼）・裸０１・にっこり１",
-        "body": "CH03B_02_01_001_01",
-        "face": "CH03B_02_01_102_01",
+        "label": "楓（中）・通常１（昼）・裸０１・通常１",
+        "body": "CH05B_01_01_001_01",
+        "face": "CH05B_01_01_101_01",
         "offset": [
-          315,
-          83
+          234,
+          70
         ]
       }
     },
@@ -342,12 +342,12 @@
         "あれなら、僕のモノと同じくらいのサイズのはずだ。"
       ],
       "sprite": {
-        "label": "翼（中）・通常２（昼）・裸０１・にっこり１",
-        "body": "CH03B_02_01_001_01",
-        "face": "CH03B_02_01_102_01",
+        "label": "楓（中）・通常１（昼）・裸０１・通常１",
+        "body": "CH05B_01_01_001_01",
+        "face": "CH05B_01_01_101_01",
         "offset": [
-          315,
-          83
+          234,
+          70
         ]
       }
     },
@@ -358,12 +358,12 @@
         "「翼のほうは、僕のチ×ポを使ってもらうから」"
       ],
       "sprite": {
-        "label": "翼（中）・通常２（昼）・裸０１・にっこり１",
-        "body": "CH03B_02_01_001_01",
-        "face": "CH03B_02_01_102_01",
+        "label": "楓（中）・通常１（昼）・裸０１・通常１",
+        "body": "CH05B_01_01_001_01",
+        "face": "CH05B_01_01_101_01",
         "offset": [
-          315,
-          83
+          234,
+          70
         ]
       }
     },
@@ -469,12 +469,12 @@
         "「うふふっ、冗談よ。とったりしないわ」"
       ],
       "sprite": {
-        "label": "翼（中）・通常２（昼）・裸０１・怒り１",
-        "body": "CH03B_02_01_001_01",
-        "face": "CH03B_02_01_105_01",
+        "label": "楓（中）・通常１（昼）・裸０１・にっこり１",
+        "body": "CH05B_01_01_001_01",
+        "face": "CH05B_01_01_102_01",
         "offset": [
-          315,
-          83
+          234,
+          70
         ]
       }
     },
@@ -485,12 +485,12 @@
         "後にする。"
       ],
       "sprite": {
-        "label": "翼（中）・通常２（昼）・裸０１・怒り１",
-        "body": "CH03B_02_01_001_01",
-        "face": "CH03B_02_01_105_01",
+        "label": "楓（中）・通常１（昼）・裸０１・にっこり１",
+        "body": "CH05B_01_01_001_01",
+        "face": "CH05B_01_01_102_01",
         "offset": [
-          315,
-          83
+          234,
+          70
         ]
       }
     },
@@ -510,6 +510,10 @@
         "file": "BG_BLACK"
       },
       "se": [
+        {
+          "code": "8001B",
+          "file": "se/8001b.ogg"
+        },
         {
           "code": "8001B",
           "file": "se/8001b.ogg"
@@ -742,13 +746,7 @@
       "bg": {
         "label": "#EV050・通常・眉寄せ我慢",
         "file": "EV050_04"
-      },
-      "se": [
-        {
-          "code": "8101A",
-          "file": "se/8101a.ogg"
-        }
-      ]
+      }
     },
     {
       "kind": "narration",
@@ -772,8 +770,8 @@
         "「んぅ、くっ……んはぁっ、ああっ……くはぁっ！」"
       ],
       "bg": {
-        "label": "#EV050・通常・眉寄せ我慢",
-        "file": "EV050_04"
+        "label": "#EV050・眉寄せ・眉寄せ我慢",
+        "file": "EV050_01"
       },
       "bgv": {
         "id": "BGV_TUBA_H001A",
@@ -791,8 +789,8 @@
         "「はぁぁっ……んっ、んんっ……あっ、んふぁっ」"
       ],
       "bg": {
-        "label": "#EV050・通常・眉寄せ我慢",
-        "file": "EV050_04"
+        "label": "#EV050・眉寄せ・眉寄せ我慢",
+        "file": "EV050_01"
       },
       "bgv": {
         "id": "BGV_TUBA_H001A",
@@ -808,8 +806,8 @@
         "しているが、馴染ませるというより味わう感じだ。"
       ],
       "bg": {
-        "label": "#EV050・通常・眉寄せ我慢",
-        "file": "EV050_04"
+        "label": "#EV050・眉寄せ・眉寄せ我慢",
+        "file": "EV050_01"
       },
       "bgv": {
         "id": "BGV_TUBA_H001A",
@@ -827,8 +825,8 @@
         "「んんっ……やっぱり、おっきいっ……くふっ」"
       ],
       "bg": {
-        "label": "#EV050・通常・眉寄せ我慢",
-        "file": "EV050_04"
+        "label": "#EV050・眉寄せ・眉寄せ我慢",
+        "file": "EV050_01"
       },
       "bgv": {
         "id": "BGV_TUBA_H001A",
@@ -841,8 +839,8 @@
         "やはり経験の浅い翼には、まだまだ余裕がない。"
       ],
       "bg": {
-        "label": "#EV050・通常・眉寄せ我慢",
-        "file": "EV050_04"
+        "label": "#EV050・眉寄せ・眉寄せ我慢",
+        "file": "EV050_01"
       },
       "bgv": {
         "id": "BGV_TUBA_H001A",
@@ -861,8 +859,8 @@
         "ああっ、たまらないのぉ……！」"
       ],
       "bg": {
-        "label": "#EV050・通常・眉寄せ我慢",
-        "file": "EV050_04"
+        "label": "#EV050・眉寄せ・眉寄せ我慢",
+        "file": "EV050_01"
       },
       "bgv": {
         "id": "BGV_KAED_H001A",
@@ -876,8 +874,8 @@
         "楽しんでいる。"
       ],
       "bg": {
-        "label": "#EV050・通常・眉寄せ我慢",
-        "file": "EV050_04"
+        "label": "#EV050・眉寄せ・眉寄せ我慢",
+        "file": "EV050_01"
       },
       "bgv": {
         "id": "BGV_KAED_H001A",
@@ -896,8 +894,8 @@
         "美味しそうに咥えちゃってるとこっ……！」"
       ],
       "bg": {
-        "label": "#EV050・通常・眉寄せ我慢",
-        "file": "EV050_04"
+        "label": "#EV050・眉寄せ・眉寄せ我慢",
+        "file": "EV050_01"
       },
       "bgv": {
         "id": "BGV_KAED_H001A",
@@ -911,8 +909,8 @@
         "そこはやっぱり経験豊富な人妻という感じだった。"
       ],
       "bg": {
-        "label": "#EV050・通常・眉寄せ我慢",
-        "file": "EV050_04"
+        "label": "#EV050・眉寄せ・眉寄せ我慢",
+        "file": "EV050_01"
       },
       "bgv": {
         "id": "BGV_KAED_H001A",
@@ -931,12 +929,12 @@
         "んくっ……んむぅ、あくぅっ……！」"
       ],
       "bg": {
-        "label": "#EV050・通常・眉寄せ我慢",
-        "file": "EV050_04"
+        "label": "#EV050・眉寄せ・眉寄せ我慢",
+        "file": "EV050_01"
       },
       "bgv": {
-        "id": "BGV_KAED_H001A",
-        "file": "voice/BGV_kaed_h001a.ogg"
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -948,12 +946,12 @@
         "狭くて締め付けの強い膣内の感触も堪らない。"
       ],
       "bg": {
-        "label": "#EV050・通常・眉寄せ我慢",
-        "file": "EV050_04"
+        "label": "#EV050・眉寄せ・眉寄せ我慢",
+        "file": "EV050_01"
       },
       "bgv": {
-        "id": "BGV_KAED_H001A",
-        "file": "voice/BGV_kaed_h001a.ogg"
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -967,12 +965,12 @@
         "「くっ……うぅぅっ……んんっ、ぐぅ……！」"
       ],
       "bg": {
-        "label": "#EV050・通常・眉寄せ我慢",
-        "file": "EV050_04"
+        "label": "#EV050・眉寄せ・眉寄せ我慢",
+        "file": "EV050_01"
       },
       "bgv": {
-        "id": "BGV_KAED_H001A",
-        "file": "voice/BGV_kaed_h001a.ogg"
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -982,12 +980,12 @@
         "負けまいと、懸命に腰を上下させ続けた。"
       ],
       "bg": {
-        "label": "#EV050・通常・眉寄せ我慢",
-        "file": "EV050_04"
+        "label": "#EV050・眉寄せ・眉寄せ我慢",
+        "file": "EV050_01"
       },
       "bgv": {
-        "id": "BGV_KAED_H001A",
-        "file": "voice/BGV_kaed_h001a.ogg"
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -1001,12 +999,12 @@
         "「無理しない方がいいんじゃないの？　んんっ！」"
       ],
       "bg": {
-        "label": "#EV050・通常・眉寄せ我慢",
-        "file": "EV050_04"
+        "label": "#EV050・眉寄せ・眉寄せ我慢",
+        "file": "EV050_01"
       },
       "bgv": {
-        "id": "BGV_KAED_H001A",
-        "file": "voice/BGV_kaed_h001a.ogg"
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -1015,12 +1013,12 @@
         "楓さんも、そんな娘のことを煽る。"
       ],
       "bg": {
-        "label": "#EV050・通常・眉寄せ我慢",
-        "file": "EV050_04"
+        "label": "#EV050・眉寄せ・眉寄せ我慢",
+        "file": "EV050_01"
       },
       "bgv": {
-        "id": "BGV_KAED_H001A",
-        "file": "voice/BGV_kaed_h001a.ogg"
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -1035,12 +1033,12 @@
         "そ、そろそろ、いい感じに……」"
       ],
       "bg": {
-        "label": "#EV050・通常・眉寄せ我慢",
-        "file": "EV050_04"
+        "label": "#EV050・眉寄せ・眉寄せ我慢",
+        "file": "EV050_01"
       },
       "bgv": {
-        "id": "BGV_KAED_H001A",
-        "file": "voice/BGV_kaed_h001a.ogg"
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -1051,12 +1049,12 @@
         "渡っていく感じだ。"
       ],
       "bg": {
-        "label": "#EV050・通常・眉寄せ我慢",
-        "file": "EV050_04"
+        "label": "#EV050・眉寄せ・眉寄せ我慢",
+        "file": "EV050_01"
       },
       "bgv": {
-        "id": "BGV_KAED_H001A",
-        "file": "voice/BGV_kaed_h001a.ogg"
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -1071,12 +1069,12 @@
         "ボクのオマ×コっ……あっくうぅっ！」"
       ],
       "bg": {
-        "label": "#EV050・通常・眉寄せ我慢",
-        "file": "EV050_04"
+        "label": "#EV050・眉寄せ・眉寄せ我慢",
+        "file": "EV050_01"
       },
       "bgv": {
-        "id": "BGV_KAED_H001A",
-        "file": "voice/BGV_kaed_h001a.ogg"
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -1086,12 +1084,12 @@
         "「うん、すごく気持ちいいよ」"
       ],
       "bg": {
-        "label": "#EV050・通常・眉寄せ我慢",
-        "file": "EV050_04"
+        "label": "#EV050・眉寄せ・眉寄せ我慢",
+        "file": "EV050_01"
       },
       "bgv": {
-        "id": "BGV_KAED_H001A",
-        "file": "voice/BGV_kaed_h001a.ogg"
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -1106,8 +1104,8 @@
         "file": "EV050_05"
       },
       "bgv": {
-        "id": "BGV_KAED_H001A",
-        "file": "voice/BGV_kaed_h001a.ogg"
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -1125,8 +1123,8 @@
         "file": "EV050_05"
       },
       "bgv": {
-        "id": "BGV_KAED_H001A",
-        "file": "voice/BGV_kaed_h001a.ogg"
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -1140,8 +1138,8 @@
         "file": "EV050_05"
       },
       "bgv": {
-        "id": "BGV_KAED_H001A",
-        "file": "voice/BGV_kaed_h001a.ogg"
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -1159,8 +1157,8 @@
         "file": "EV050_05"
       },
       "bgv": {
-        "id": "BGV_KAED_H001A",
-        "file": "voice/BGV_kaed_h001a.ogg"
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -1175,8 +1173,8 @@
         "file": "EV050_05"
       },
       "bgv": {
-        "id": "BGV_KAED_H001A",
-        "file": "voice/BGV_kaed_h001a.ogg"
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -1195,8 +1193,8 @@
         "file": "EV050_05"
       },
       "bgv": {
-        "id": "BGV_KAED_H001A",
-        "file": "voice/BGV_kaed_h001a.ogg"
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -1210,8 +1208,8 @@
         "file": "EV050_05"
       },
       "bgv": {
-        "id": "BGV_KAED_H001A",
-        "file": "voice/BGV_kaed_h001a.ogg"
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -1229,8 +1227,8 @@
         "file": "EV050_05"
       },
       "bgv": {
-        "id": "BGV_KAED_H001A",
-        "file": "voice/BGV_kaed_h001a.ogg"
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -1245,8 +1243,8 @@
         "file": "EV050_05"
       },
       "bgv": {
-        "id": "BGV_KAED_H001A",
-        "file": "voice/BGV_kaed_h001a.ogg"
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -1302,12 +1300,6 @@
         "label": "#EV050・眉寄せ・微笑み",
         "file": "EV050_05"
       },
-      "se": [
-        {
-          "code": "8101C",
-          "file": "se/8101c.ogg"
-        }
-      ],
       "bgv": {
         "id": "BGV_KAED_H001A",
         "file": "voice/BGV_kaed_h001a.ogg"
@@ -1781,8 +1773,8 @@
         "file": "EV050_07"
       },
       "bgv": {
-        "id": "BGV_KAED_H002A",
-        "file": "voice/BGV_kaed_h002a.ogg"
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -1796,8 +1788,8 @@
         "file": "EV050_07"
       },
       "bgv": {
-        "id": "BGV_KAED_H002A",
-        "file": "voice/BGV_kaed_h002a.ogg"
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -1821,8 +1813,8 @@
         }
       ],
       "bgv": {
-        "id": "BGV_KAED_H002A",
-        "file": "voice/BGV_kaed_h002a.ogg"
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -1837,9 +1829,10 @@
         "file": "EV050_08"
       },
       "bgv": {
-        "id": "BGV_KAED_H002A",
-        "file": "voice/BGV_kaed_h002a.ogg"
-      }
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
+      },
+      "flash": 2
     },
     {
       "kind": "line",
@@ -1856,8 +1849,8 @@
         "file": "EV050_08"
       },
       "bgv": {
-        "id": "BGV_KAED_H002A",
-        "file": "voice/BGV_kaed_h002a.ogg"
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -1873,8 +1866,8 @@
         "file": "EV050_08"
       },
       "bgv": {
-        "id": "BGV_KAED_H002A",
-        "file": "voice/BGV_kaed_h002a.ogg"
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -1893,8 +1886,8 @@
         "file": "EV050_08"
       },
       "bgv": {
-        "id": "BGV_KAED_H002A",
-        "file": "voice/BGV_kaed_h002a.ogg"
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -1908,8 +1901,8 @@
         "file": "EV050_08"
       },
       "bgv": {
-        "id": "BGV_KAED_H002A",
-        "file": "voice/BGV_kaed_h002a.ogg"
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -1928,8 +1921,8 @@
         "file": "EV050_08"
       },
       "bgv": {
-        "id": "BGV_KAED_H002A",
-        "file": "voice/BGV_kaed_h002a.ogg"
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -1943,8 +1936,8 @@
         "file": "EV050_08"
       },
       "bgv": {
-        "id": "BGV_KAED_H002A",
-        "file": "voice/BGV_kaed_h002a.ogg"
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -1963,8 +1956,8 @@
         "file": "EV050_08"
       },
       "bgv": {
-        "id": "BGV_KAED_H002A",
-        "file": "voice/BGV_kaed_h002a.ogg"
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -1979,8 +1972,8 @@
         "file": "EV050_08"
       },
       "bgv": {
-        "id": "BGV_KAED_H002A",
-        "file": "voice/BGV_kaed_h002a.ogg"
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -2176,6 +2169,12 @@
         "label": "#EV050・アヘ顔・うっとり蕩け・愛液2・愛液2",
         "file": "EV050_09"
       },
+      "se": [
+        {
+          "code": "8351A",
+          "file": "se/8351a.ogg"
+        }
+      ],
       "bgv": {
         "id": "BGV_KAED_H003A",
         "file": "voice/BGV_kaed_h003a.ogg"
@@ -2195,7 +2194,8 @@
       "bgv": {
         "id": "BGV_KAED_H003A",
         "file": "voice/BGV_kaed_h003a.ogg"
-      }
+      },
+      "flash": 2
     },
     {
       "kind": "line",
@@ -2284,6 +2284,12 @@
         "label": "#EV050・アヘ顔・アヘ顔・愛液2・愛液2",
         "file": "EV050_10"
       },
+      "se": [
+        {
+          "code": "8351A",
+          "file": "se/8351a.ogg"
+        }
+      ],
       "bgv": {
         "id": "BGV_TUBA_H003A",
         "file": "voice/BGV_tuba_h003a.ogg"
@@ -2311,7 +2317,8 @@
       "bgv": {
         "id": "BGV_TUBA_H003A",
         "file": "voice/BGV_tuba_h003a.ogg"
-      }
+      },
+      "flash": 2
     },
     {
       "kind": "narration",
@@ -2343,6 +2350,12 @@
         "label": "#EV050・アヘ顔・アヘ顔・愛液2・精液",
         "file": "EV050_11"
       },
+      "se": [
+        {
+          "code": "8351A",
+          "file": "se/8351a.ogg"
+        }
+      ],
       "bgv": {
         "id": "BGV_TUBA_H003A",
         "file": "voice/BGV_tuba_h003a.ogg"
@@ -2363,7 +2376,8 @@
       "bgv": {
         "id": "BGV_TUBA_H003A",
         "file": "voice/BGV_tuba_h003a.ogg"
-      }
+      },
+      "flash": 2
     },
     {
       "kind": "line",
@@ -2455,8 +2469,8 @@
         "file": "EV050_11"
       },
       "bgv": {
-        "id": "BGV_TUBA_H003A",
-        "file": "voice/BGV_tuba_h003a.ogg"
+        "id": "BGV_KAED_H003A",
+        "file": "voice/BGV_kaed_h003a.ogg"
       }
     },
     {
@@ -2475,8 +2489,8 @@
         "file": "EV050_11"
       },
       "bgv": {
-        "id": "BGV_TUBA_H003A",
-        "file": "voice/BGV_tuba_h003a.ogg"
+        "id": "BGV_KAED_H003A",
+        "file": "voice/BGV_kaed_h003a.ogg"
       }
     },
     {
@@ -2492,8 +2506,8 @@
         "file": "EV050_11"
       },
       "bgv": {
-        "id": "BGV_TUBA_H003A",
-        "file": "voice/BGV_tuba_h003a.ogg"
+        "id": "BGV_KAED_H003A",
+        "file": "voice/BGV_kaed_h003a.ogg"
       }
     },
     {
@@ -2512,8 +2526,8 @@
         "file": "EV050_11"
       },
       "bgv": {
-        "id": "BGV_TUBA_H003A",
-        "file": "voice/BGV_tuba_h003a.ogg"
+        "id": "BGV_KAED_H003A",
+        "file": "voice/BGV_kaed_h003a.ogg"
       }
     },
     {
@@ -2585,6 +2599,12 @@
         "label": "#EV050・アヘ顔・アヘ顔・愛液2・精液",
         "file": "EV050_11"
       },
+      "se": [
+        {
+          "code": "8361B",
+          "file": "se/8361b.ogg"
+        }
+      ],
       "bgv": {
         "id": "BGV_TUBA_H003A",
         "file": "voice/BGV_tuba_h003a.ogg"
@@ -2604,7 +2624,8 @@
       "bgv": {
         "id": "BGV_TUBA_H003A",
         "file": "voice/BGV_tuba_h003a.ogg"
-      }
+      },
+      "flash": 2
     },
     {
       "kind": "line",
@@ -2652,15 +2673,28 @@
         "そして二人の体はゆっくりと脱力し、弛緩したように",
         "腰の動きが止まっていった。",
         "美人で、可愛くて、とてもエロい母と娘。",
-        "この二人は、これから先も、僕のものだ。",
+        "この二人は、これから先も、僕のものだ。"
+      ],
+      "bg": {
+        "label": "#EV050・アヘ顔・アヘ顔・潮吹き・潮吹き",
+        "file": "EV050_12"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H003A",
+        "file": "voice/BGV_tuba_h003a.ogg"
+      }
+    },
+    {
+      "kind": "narration",
+      "lines": [
         "絶対に、手放したりはしない……。",
         "………。",
         "……。",
         "…。"
       ],
       "bg": {
-        "label": "#EV050・アヘ顔・アヘ顔・潮吹き・潮吹き",
-        "file": "EV050_12"
+        "label": "#背景・黒一色",
+        "file": "BG_BLACK"
       },
       "bgv": {
         "id": "BGV_TUBA_H003A",

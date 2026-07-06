@@ -181,13 +181,7 @@
       "bg": {
         "label": "#EV038・微笑み",
         "file": "EV038_02"
-      },
-      "se": [
-        {
-          "code": "8101A",
-          "file": "se/8101a.ogg"
-        }
-      ]
+      }
     },
     {
       "kind": "narration",
@@ -412,12 +406,6 @@
         "label": "#EV038・うっとり妖艶",
         "file": "EV038_03"
       },
-      "se": [
-        {
-          "code": "8101C",
-          "file": "se/8101c.ogg"
-        }
-      ],
       "bgv": {
         "id": "BGV_KAED_H001A",
         "file": "voice/BGV_kaed_h001a.ogg"
@@ -1193,6 +1181,12 @@
         "label": "#EV038・アヘ顔・精液",
         "file": "EV038_06"
       },
+      "se": [
+        {
+          "code": "8011B",
+          "file": "se/8011b.ogg"
+        }
+      ],
       "bgv": {
         "id": "BGV_KAED_H003A",
         "file": "voice/BGV_kaed_h003a.ogg"
@@ -1211,6 +1205,12 @@
         "label": "#EV038・アヘ顔・精液",
         "file": "EV038_06"
       },
+      "se": [
+        {
+          "code": "8201B",
+          "file": "se/8201b.ogg"
+        }
+      ],
       "bgv": {
         "id": "BGV_KAED_H003A",
         "file": "voice/BGV_kaed_h003a.ogg"
@@ -1234,7 +1234,8 @@
       "bgv": {
         "id": "BGV_KAED_H003A",
         "file": "voice/BGV_kaed_h003a.ogg"
-      }
+      },
+      "flash": 3
     },
     {
       "kind": "narration",
@@ -1268,6 +1269,12 @@
         "label": "#EV038・アヘ顔・精液",
         "file": "EV038_06"
       },
+      "se": [
+        {
+          "code": "8011B",
+          "file": "se/8011b.ogg"
+        }
+      ],
       "bgv": {
         "id": "BGV_KAED_H003A",
         "file": "voice/BGV_kaed_h003a.ogg"

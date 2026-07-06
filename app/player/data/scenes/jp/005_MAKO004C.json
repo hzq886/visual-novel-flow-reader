@@ -402,7 +402,13 @@
           235,
           150
         ]
-      }
+      },
+      "se": [
+        {
+          "code": "1201B",
+          "file": "se/1201b.ogg"
+        }
+      ]
     },
     {
       "kind": "narration",
@@ -417,9 +423,9 @@
         "file": "BG12_01_00"
       },
       "sprite": {
-        "label": "真琴（中）・通常１（昼）・下着０１・驚き２",
+        "label": "真琴（中）・通常１（昼）・下着０１・怒り１",
         "body": "CH04B_01_01_002_01",
-        "face": "CH04B_01_01_104_02",
+        "face": "CH04B_01_01_105_01",
         "offset": [
           235,
           150
@@ -1378,8 +1384,8 @@
         "はうっ、ダメ、よすぎるのぉっ！　あううっ！」"
       ],
       "bg": {
-        "label": "#EV028・眉寄せ舐め・舌出し舐め・尻掴み・愛液・唾液",
-        "file": "EV028_04"
+        "label": "#EV028・慌て恥ずかし・舌出し舐め・尻掴み・愛液・唾液",
+        "file": "EV028_05"
       },
       "bgv": {
         "id": "BGV_MAKO_H002A",
@@ -1395,8 +1401,8 @@
         "舌を動かすたびに、舌を押しかえす弾力を感じる。"
       ],
       "bg": {
-        "label": "#EV028・眉寄せ舐め・舌出し舐め・尻掴み・愛液・唾液",
-        "file": "EV028_04"
+        "label": "#EV028・慌て恥ずかし・舌出し舐め・尻掴み・愛液・唾液",
+        "file": "EV028_05"
       },
       "bgv": {
         "id": "BGV_MAKO_H002A",
@@ -1415,8 +1421,8 @@
         "はうう、んれろぉ、んっふ、れろれろっ！」"
       ],
       "bg": {
-        "label": "#EV028・眉寄せ舐め・舌出し舐め・尻掴み・愛液・唾液",
-        "file": "EV028_04"
+        "label": "#EV028・慌て恥ずかし・舌出し舐め・尻掴み・愛液・唾液",
+        "file": "EV028_05"
       },
       "bgv": {
         "id": "BGV_MAKO_F002A",
@@ -1643,8 +1649,8 @@
         "file": "EV028_07"
       },
       "bgv": {
-        "id": "BGV_MAKO_F002A",
-        "file": "voice/BGV_mako_f002a.ogg"
+        "id": "BGV_MAKO_H002A",
+        "file": "voice/BGV_mako_h002a.ogg"
       }
     },
     {
@@ -1661,8 +1667,8 @@
         "file": "EV028_07"
       },
       "bgv": {
-        "id": "BGV_MAKO_F002A",
-        "file": "voice/BGV_mako_f002a.ogg"
+        "id": "BGV_MAKO_H002A",
+        "file": "voice/BGV_mako_h002a.ogg"
       }
     },
     {
@@ -2182,6 +2188,7 @@
       "lines": [
         "もっと舐めて欲しがるように、腰が落ちてくる。",
         "僕は、ヌルヌルの大きなクリトリスを、激しく上下に",
+        "舐めまくった。",
         "まるで快感に耐えるように、真琴は全身を震わせ",
         "ながら、亀頭の先に吸いつく。"
       ],
@@ -2470,6 +2477,12 @@
         "label": "#EV028・アヘ顔咥え吸い・舌出し舐め・尻穴に入れ・潮吹き・精液",
         "file": "EV028_10"
       },
+      "se": [
+        {
+          "code": "8201B",
+          "file": "se/8201b.ogg"
+        }
+      ],
       "bgv": {
         "id": "BGV_MAKO_F003A",
         "file": "voice/BGV_mako_f003a.ogg"
@@ -2493,7 +2506,8 @@
       "bgv": {
         "id": "BGV_MAKO_F003A",
         "file": "voice/BGV_mako_f003a.ogg"
-      }
+      },
+      "flash": 3
     },
     {
       "kind": "narration",
@@ -2527,6 +2541,12 @@
         "label": "#EV028・アヘ顔咥え吸い・舌出し舐め・尻穴に入れ・潮吹き・精液",
         "file": "EV028_10"
       },
+      "se": [
+        {
+          "code": "8361B",
+          "file": "se/8361b.ogg"
+        }
+      ],
       "bgv": {
         "id": "BGV_MAKO_F003A",
         "file": "voice/BGV_mako_f003a.ogg"
@@ -2546,7 +2566,8 @@
       "bgv": {
         "id": "BGV_MAKO_F003A",
         "file": "voice/BGV_mako_f003a.ogg"
-      }
+      },
+      "flash": 2
     },
     {
       "kind": "line",
@@ -2564,8 +2585,8 @@
         "file": "EV028_10"
       },
       "bgv": {
-        "id": "BGV_MAKO_F003A",
-        "file": "voice/BGV_mako_f003a.ogg"
+        "id": "BGV_MAKO_F002A",
+        "file": "voice/BGV_mako_f002a.ogg"
       }
     },
     {
@@ -2581,8 +2602,8 @@
         "file": "EV028_10"
       },
       "bgv": {
-        "id": "BGV_MAKO_F003A",
-        "file": "voice/BGV_mako_f003a.ogg"
+        "id": "BGV_MAKO_F002A",
+        "file": "voice/BGV_mako_f002a.ogg"
       }
     },
     {
@@ -2601,8 +2622,8 @@
         "file": "EV028_11"
       },
       "bgv": {
-        "id": "BGV_MAKO_F003A",
-        "file": "voice/BGV_mako_f003a.ogg"
+        "id": "BGV_MAKO_F002A",
+        "file": "voice/BGV_mako_f002a.ogg"
       }
     },
     {
@@ -2619,8 +2640,8 @@
         "file": "EV028_11"
       },
       "bgv": {
-        "id": "BGV_MAKO_F003A",
-        "file": "voice/BGV_mako_f003a.ogg"
+        "id": "BGV_MAKO_F002A",
+        "file": "voice/BGV_mako_f002a.ogg"
       }
     },
     {
@@ -2639,8 +2660,8 @@
         "file": "EV028_11"
       },
       "bgv": {
-        "id": "BGV_MAKO_F003A",
-        "file": "voice/BGV_mako_f003a.ogg"
+        "id": "BGV_MAKO_F002A",
+        "file": "voice/BGV_mako_f002a.ogg"
       }
     },
     {
@@ -2654,8 +2675,8 @@
         "file": "EV028_11"
       },
       "bgv": {
-        "id": "BGV_MAKO_F003A",
-        "file": "voice/BGV_mako_f003a.ogg"
+        "id": "BGV_MAKO_F002A",
+        "file": "voice/BGV_mako_f002a.ogg"
       }
     },
     {
@@ -2674,8 +2695,8 @@
         "file": "EV028_11"
       },
       "bgv": {
-        "id": "BGV_MAKO_F003A",
-        "file": "voice/BGV_mako_f003a.ogg"
+        "id": "BGV_MAKO_F002A",
+        "file": "voice/BGV_mako_f002a.ogg"
       }
     },
     {
@@ -2691,8 +2712,8 @@
         "file": "EV028_11"
       },
       "bgv": {
-        "id": "BGV_MAKO_F003A",
-        "file": "voice/BGV_mako_f003a.ogg"
+        "id": "BGV_MAKO_F002A",
+        "file": "voice/BGV_mako_f002a.ogg"
       }
     },
     {
@@ -2711,8 +2732,8 @@
         "file": "EV028_11"
       },
       "bgv": {
-        "id": "BGV_MAKO_F003A",
-        "file": "voice/BGV_mako_f003a.ogg"
+        "id": "BGV_MAKO_F002A",
+        "file": "voice/BGV_mako_f002a.ogg"
       }
     },
     {
@@ -2728,8 +2749,8 @@
         "file": "EV028_11"
       },
       "bgv": {
-        "id": "BGV_MAKO_F003A",
-        "file": "voice/BGV_mako_f003a.ogg"
+        "id": "BGV_MAKO_F002A",
+        "file": "voice/BGV_mako_f002a.ogg"
       }
     },
     {
@@ -2748,27 +2769,40 @@
         "file": "EV028_11"
       },
       "bgv": {
-        "id": "BGV_MAKO_F003A",
-        "file": "voice/BGV_mako_f003a.ogg"
+        "id": "BGV_MAKO_F002A",
+        "file": "voice/BGV_mako_f002a.ogg"
       }
     },
     {
       "kind": "narration",
       "lines": [
         "射精中も射精直後も、亀頭は舌とクチでひたすらに",
-        "刺激されまくる。",
-        "そのおかげで、射精の余韻が長く続いた。",
-        "………。",
-        "……。",
-        "…。"
+        "刺激されまくる。"
       ],
       "bg": {
         "label": "#EV028・アヘ顔咥え吸い・舌出し舐め・尻穴に入れ・愛液2・精液",
         "file": "EV028_11"
       },
       "bgv": {
-        "id": "BGV_MAKO_F003A",
-        "file": "voice/BGV_mako_f003a.ogg"
+        "id": "BGV_MAKO_F002A",
+        "file": "voice/BGV_mako_f002a.ogg"
+      }
+    },
+    {
+      "kind": "narration",
+      "lines": [
+        "そのおかげで、射精の余韻が長く続いた。",
+        "………。",
+        "……。",
+        "…。"
+      ],
+      "bg": {
+        "label": "#背景・黒一色",
+        "file": "BG_BLACK"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_F002A",
+        "file": "voice/BGV_mako_f002a.ogg"
       }
     }
   ],

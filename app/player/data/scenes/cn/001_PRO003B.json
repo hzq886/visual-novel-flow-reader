@@ -48,6 +48,12 @@
       ]
     },
     {
+      "kind": "narration",
+      "lines": [
+        ""
+      ]
+    },
+    {
       "kind": "line",
       "who": "古桥凉菜",
       "voice": {
@@ -67,6 +73,12 @@
       },
       "lines": [
         "「对不起，我有点赶时间了，我要出门了」"
+      ]
+    },
+    {
+      "kind": "narration",
+      "lines": [
+        ""
       ]
     },
     {

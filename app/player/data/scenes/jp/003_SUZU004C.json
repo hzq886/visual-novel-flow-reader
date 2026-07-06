@@ -2,6 +2,7 @@
   "code": "003_SUZU004C",
   "route": "003",
   "locale": "jp",
+  "title": "古橋涼菜\\Nセックス授業～フェラチオ",
   "beats": [
     {
       "kind": "narration",
@@ -450,8 +451,8 @@
         "もっと強くしたほうがいいかしら？」"
       ],
       "bg": {
-        "label": "#EV021・真面目チュー",
-        "file": "EV021_02"
+        "label": "#EV021・真面目",
+        "file": "EV021_01"
       }
     },
     {
@@ -461,8 +462,8 @@
         "なんだか、姉さんが可愛らしく見えてきてしまう。"
       ],
       "bg": {
-        "label": "#EV021・真面目チュー",
-        "file": "EV021_02"
+        "label": "#EV021・真面目",
+        "file": "EV021_01"
       }
     },
     {
@@ -472,8 +473,8 @@
         "「どうかな……もうちょっと強くしてほしいかも？」"
       ],
       "bg": {
-        "label": "#EV021・真面目チュー",
-        "file": "EV021_02"
+        "label": "#EV021・真面目",
+        "file": "EV021_01"
       }
     },
     {
@@ -483,8 +484,8 @@
         "それなら、もっと強くされたら、と期待してしまう。"
       ],
       "bg": {
-        "label": "#EV021・真面目チュー",
-        "file": "EV021_02"
+        "label": "#EV021・真面目",
+        "file": "EV021_01"
       }
     },
     {
@@ -499,8 +500,8 @@
         "その前に……んっ……むれろ、れろっ……」"
       ],
       "bg": {
-        "label": "#EV021・真面目チュー",
-        "file": "EV021_02"
+        "label": "#EV021・真面目",
+        "file": "EV021_01"
       }
     },
     {
@@ -509,8 +510,8 @@
         "姉さんは自分の唇を軽く舐めた。"
       ],
       "bg": {
-        "label": "#EV021・真面目チュー",
-        "file": "EV021_02"
+        "label": "#EV021・真面目",
+        "file": "EV021_01"
       }
     },
     {
@@ -525,8 +526,8 @@
         "濡れているほうが痛くないでしょう」"
       ],
       "bg": {
-        "label": "#EV021・真面目チュー",
-        "file": "EV021_02"
+        "label": "#EV021・真面目",
+        "file": "EV021_01"
       }
     },
     {
@@ -536,8 +537,8 @@
         "むちゅっと、濡れた唇を押しつけてくる。"
       ],
       "bg": {
-        "label": "#EV021・真面目チュー",
-        "file": "EV021_02"
+        "label": "#EV021・真面目",
+        "file": "EV021_01"
       }
     },
     {
@@ -2141,6 +2142,12 @@
         "label": "#EV021・目閉じ吸いつき・精液少な",
         "file": "EV021_06"
       },
+      "se": [
+        {
+          "code": "8201B",
+          "file": "se/8201b.ogg"
+        }
+      ],
       "bgv": {
         "id": "BGV_SUZU_F003A",
         "file": "voice/BGV_suzu_f003a.ogg"
@@ -2164,7 +2171,8 @@
       "bgv": {
         "id": "BGV_SUZU_F003A",
         "file": "voice/BGV_suzu_f003a.ogg"
-      }
+      },
+      "flash": 3
     },
     {
       "kind": "narration",
@@ -2215,6 +2223,12 @@
         "label": "#EV021・目閉じ吸いつき・精液少な",
         "file": "EV021_06"
       },
+      "se": [
+        {
+          "code": "8201B",
+          "file": "se/8201b.ogg"
+        }
+      ],
       "bgv": {
         "id": "BGV_SUZU_F003A",
         "file": "voice/BGV_suzu_f003a.ogg"
@@ -2238,7 +2252,8 @@
       "bgv": {
         "id": "BGV_SUZU_F003A",
         "file": "voice/BGV_suzu_f003a.ogg"
-      }
+      },
+      "flash": 3
     },
     {
       "kind": "narration",
@@ -2449,9 +2464,7 @@
         "いままでで一番強く、激しい刺激。",
         "それが、射精直後で、一番敏感になっている身体に、",
         "襲いかかる。",
-        "頭が真っ白になるような快感のなかへ。",
-        "されるがままにする",
-        "この後のことを考える"
+        "頭が真っ白になるような快感のなかへ。"
       ],
       "bg": {
         "label": "#EV021・うっとり吸いつき・精液少な",
@@ -2728,6 +2741,12 @@
         "label": "#EV021・うっとり吸いつき・精液少な",
         "file": "EV021_07"
       },
+      "se": [
+        {
+          "code": "8201B",
+          "file": "se/8201b.ogg"
+        }
+      ],
       "bgv": {
         "id": "BGV_SUZU_F003A",
         "file": "voice/BGV_suzu_f003a.ogg"
@@ -2745,7 +2764,8 @@
       "bgv": {
         "id": "BGV_SUZU_F003A",
         "file": "voice/BGV_suzu_f003a.ogg"
-      }
+      },
+      "flash": 3
     },
     {
       "kind": "line",
@@ -2852,6 +2872,12 @@
         "label": "#EV021・うっとり吸いつき・精液",
         "file": "EV021_08"
       },
+      "se": [
+        {
+          "code": "8201B",
+          "file": "se/8201b.ogg"
+        }
+      ],
       "bgv": {
         "id": "BGV_SUZU_F003A",
         "file": "voice/BGV_suzu_f003a.ogg"
@@ -2875,7 +2901,8 @@
       "bgv": {
         "id": "BGV_SUZU_F003A",
         "file": "voice/BGV_suzu_f003a.ogg"
-      }
+      },
+      "flash": 3
     },
     {
       "kind": "narration",
@@ -2946,8 +2973,8 @@
         "file": "EV021_09"
       },
       "bgv": {
-        "id": "BGV_SUZU_F003A",
-        "file": "voice/BGV_suzu_f003a.ogg"
+        "id": "BGV_SUZU_F001A",
+        "file": "voice/BGV_suzu_f001a.ogg"
       }
     },
     {
@@ -2962,8 +2989,8 @@
         "file": "EV021_09"
       },
       "bgv": {
-        "id": "BGV_SUZU_F003A",
-        "file": "voice/BGV_suzu_f003a.ogg"
+        "id": "BGV_SUZU_F001A",
+        "file": "voice/BGV_suzu_f001a.ogg"
       }
     },
     {
@@ -2982,8 +3009,8 @@
         "file": "EV021_09"
       },
       "bgv": {
-        "id": "BGV_SUZU_F003A",
-        "file": "voice/BGV_suzu_f003a.ogg"
+        "id": "BGV_SUZU_F001A",
+        "file": "voice/BGV_suzu_f001a.ogg"
       }
     },
     {
@@ -3000,8 +3027,8 @@
         "file": "EV021_09"
       },
       "bgv": {
-        "id": "BGV_SUZU_F003A",
-        "file": "voice/BGV_suzu_f003a.ogg"
+        "id": "BGV_SUZU_F001A",
+        "file": "voice/BGV_suzu_f001a.ogg"
       }
     },
     {
@@ -3019,8 +3046,8 @@
         "file": "EV021_09"
       },
       "bgv": {
-        "id": "BGV_SUZU_F003A",
-        "file": "voice/BGV_suzu_f003a.ogg"
+        "id": "BGV_SUZU_F001A",
+        "file": "voice/BGV_suzu_f001a.ogg"
       }
     },
     {
@@ -3033,8 +3060,8 @@
         "file": "EV021_09"
       },
       "bgv": {
-        "id": "BGV_SUZU_F003A",
-        "file": "voice/BGV_suzu_f003a.ogg"
+        "id": "BGV_SUZU_F001A",
+        "file": "voice/BGV_suzu_f001a.ogg"
       }
     },
     {
@@ -3052,8 +3079,8 @@
         "file": "EV021_09"
       },
       "bgv": {
-        "id": "BGV_SUZU_F003A",
-        "file": "voice/BGV_suzu_f003a.ogg"
+        "id": "BGV_SUZU_F001A",
+        "file": "voice/BGV_suzu_f001a.ogg"
       }
     },
     {
@@ -3068,8 +3095,8 @@
         "file": "EV021_09"
       },
       "bgv": {
-        "id": "BGV_SUZU_F003A",
-        "file": "voice/BGV_suzu_f003a.ogg"
+        "id": "BGV_SUZU_F001A",
+        "file": "voice/BGV_suzu_f001a.ogg"
       }
     },
     {
@@ -3088,8 +3115,8 @@
         "file": "EV021_09"
       },
       "bgv": {
-        "id": "BGV_SUZU_F003A",
-        "file": "voice/BGV_suzu_f003a.ogg"
+        "id": "BGV_SUZU_F001A",
+        "file": "voice/BGV_suzu_f001a.ogg"
       }
     },
     {
@@ -3102,8 +3129,8 @@
         "file": "EV021_09"
       },
       "bgv": {
-        "id": "BGV_SUZU_F003A",
-        "file": "voice/BGV_suzu_f003a.ogg"
+        "id": "BGV_SUZU_F001A",
+        "file": "voice/BGV_suzu_f001a.ogg"
       }
     },
     {
@@ -3121,8 +3148,8 @@
         "file": "EV021_09"
       },
       "bgv": {
-        "id": "BGV_SUZU_F003A",
-        "file": "voice/BGV_suzu_f003a.ogg"
+        "id": "BGV_SUZU_F001A",
+        "file": "voice/BGV_suzu_f001a.ogg"
       }
     },
     {
@@ -3136,8 +3163,8 @@
         "file": "EV021_09"
       },
       "bgv": {
-        "id": "BGV_SUZU_F003A",
-        "file": "voice/BGV_suzu_f003a.ogg"
+        "id": "BGV_SUZU_F001A",
+        "file": "voice/BGV_suzu_f001a.ogg"
       }
     },
     {
@@ -3151,8 +3178,8 @@
         "file": "EV021_09"
       },
       "bgv": {
-        "id": "BGV_SUZU_F003A",
-        "file": "voice/BGV_suzu_f003a.ogg"
+        "id": "BGV_SUZU_F001A",
+        "file": "voice/BGV_suzu_f001a.ogg"
       }
     },
     {
@@ -3171,8 +3198,8 @@
         "file": "EV021_09"
       },
       "bgv": {
-        "id": "BGV_SUZU_F003A",
-        "file": "voice/BGV_suzu_f003a.ogg"
+        "id": "BGV_SUZU_F001A",
+        "file": "voice/BGV_suzu_f001a.ogg"
       }
     },
     {
@@ -3185,8 +3212,8 @@
         "file": "EV021_09"
       },
       "bgv": {
-        "id": "BGV_SUZU_F003A",
-        "file": "voice/BGV_suzu_f003a.ogg"
+        "id": "BGV_SUZU_F001A",
+        "file": "voice/BGV_suzu_f001a.ogg"
       }
     }
   ],

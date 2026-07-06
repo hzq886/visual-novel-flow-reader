@@ -72,17 +72,44 @@
     {
       "kind": "narration",
       "lines": [
-        "私はハッと我にかえった。",
+        "私はハッと我にかえった。"
+      ],
+      "bg": {
+        "label": "#EV076・驚き困惑・おろし",
+        "file": "EV076_01"
+      }
+    },
+    {
+      "kind": "narration",
+      "lines": [
         "（えっ！？　私、なにをしてるの！　な、なんで、",
         "脱いじゃってるの！？）",
         "訳がわからないまま、脚をカエルのように大きく",
         "開いて、丸出しの股間に手を伸ばす。",
-        "逆の手は、はだけた胸のほうに。",
+        "逆の手は、はだけた胸のほうに。"
+      ],
+      "bg": {
+        "label": "#EV076・驚き困惑・おろし",
+        "file": "EV076_01"
+      }
+    },
+    {
+      "kind": "narration",
+      "lines": [
         "（今は、オナニーなんてしてる場合じゃないのに！",
         "待って、こんなの、絶対におかしいわっ！）",
         "でも、私の手は止まらない。",
         "胸を揉みながら、股間に手を這わす。",
-        "いつもしているように、オナニーをしてしまう。",
+        "いつもしているように、オナニーをしてしまう。"
+      ],
+      "bg": {
+        "label": "#EV076・驚き困惑・おろし",
+        "file": "EV076_01"
+      }
+    },
+    {
+      "kind": "narration",
+      "lines": [
         "（どうしてっ！　これも、催眠術のせいなの！？",
         "そんな……あっ、オナニーしなくちゃ）",
         "驚き慌てふためく気持ちとは別に、オナニーしなきゃ",
@@ -94,13 +121,7 @@
       "bg": {
         "label": "#EV076・驚き困惑・おろし",
         "file": "EV076_01"
-      },
-      "se": [
-        {
-          "code": "8131A",
-          "file": "se/8131a.ogg"
-        }
-      ]
+      }
     },
     {
       "kind": "line",
@@ -156,7 +177,20 @@
         "自分の指や手の温かさが、心地よい。",
         "色々考えて、緊張していた身体が緩んでしまう。",
         "少し、リラックスしたからだろうか。",
-        "指や手の下から、じんわり快感が広がっていく。",
+        "指や手の下から、じんわり快感が広がっていく。"
+      ],
+      "bg": {
+        "label": "#EV076・目細め・おろし",
+        "file": "EV076_02"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H001A",
+        "file": "voice/BGV_mako_h001a.ogg"
+      }
+    },
+    {
+      "kind": "narration",
+      "lines": [
         "（ダメよ、すぐにやめなくちゃ、このまま続けたら、",
         "気持ちよくなっちゃうっ……ダメ、ダメっ！）",
         "湧きあがる快感を、否定しようとすればするほど、",
@@ -245,13 +279,39 @@
         "身体の奥のほうから、勝手に声が出てしまう。",
         "私は、もぞもぞと腰を動かした。",
         "乳房のほうも、感覚が変わってきていた。",
-        "熱くなった表面が、チリチリとくすぐったい。",
+        "熱くなった表面が、チリチリとくすぐったい。"
+      ],
+      "bg": {
+        "label": "#EV076・目細め・おろし",
+        "file": "EV076_02"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H001A",
+        "file": "voice/BGV_mako_h001a.ogg"
+      }
+    },
+    {
+      "kind": "narration",
+      "lines": [
         "（あっ……乳首がムズムズして……勃ってきちゃう。",
         "あぁ、私、何をしてるんだろう？）",
         "くすぐったさが、胸の先……乳首に集まっていく。",
         "ムズムズと、内側から押しあげられる感じに。",
         "すごく触りたくなったけれども、我慢して、",
-        "おっぱい全体を撫でまわす。",
+        "おっぱい全体を撫でまわす。"
+      ],
+      "bg": {
+        "label": "#EV076・目細め・おろし",
+        "file": "EV076_02"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H001A",
+        "file": "voice/BGV_mako_h001a.ogg"
+      }
+    },
+    {
+      "kind": "narration",
+      "lines": [
         "（こんな場合じゃない……さ、催眠術の対策を、",
         "考え……あぁん、でも、オナニーっ……）",
         "快感に流されてしまっているのだろうか。",
@@ -304,12 +364,6 @@
         "label": "#EV076・うっとり蕩け・おろし・愛液",
         "file": "EV076_03"
       },
-      "se": [
-        {
-          "code": "8311B",
-          "file": "se/8311b.ogg"
-        }
-      ],
       "bgv": {
         "id": "BGV_MAKO_H002A",
         "file": "voice/BGV_mako_h002a.ogg"
@@ -392,7 +446,20 @@
       "lines": [
         "快感に、開いた脚がビクンッとなった。",
         "ソコが、ジーンと痺れているのがわかる。",
-        "上下させていた指を、クリトリスに押しつけた。",
+        "上下させていた指を、クリトリスに押しつけた。"
+      ],
+      "bg": {
+        "label": "#EV076・うっとり蕩け・おろし・愛液",
+        "file": "EV076_03"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H002A",
+        "file": "voice/BGV_mako_h002a.ogg"
+      }
+    },
+    {
+      "kind": "narration",
+      "lines": [
         "（手の動きが、止まらないっ……だ、だめぇっ！",
         "これ以上したらやめられなくなっちゃう！）",
         "でも、愛液で濡れた指は、気持ち良すぎた。",
@@ -402,6 +469,12 @@
         "label": "#EV076・うっとり蕩け・おろし・愛液",
         "file": "EV076_03"
       },
+      "se": [
+        {
+          "code": "8321A",
+          "file": "se/8321a.ogg"
+        }
+      ],
       "bgv": {
         "id": "BGV_MAKO_H002A",
         "file": "voice/BGV_mako_h002a.ogg"
@@ -696,7 +769,20 @@
       "lines": [
         "息を切らせながら、指の腹で乳首を転がす。",
         "勝手に背中が弓なりに持ちあがって、嫌々をする",
-        "ように首が左右に振れた。",
+        "ように首が左右に振れた。"
+      ],
+      "bg": {
+        "label": "#EV076・目閉じ・おろし・愛液",
+        "file": "EV076_04"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H002A",
+        "file": "voice/BGV_mako_h002a.ogg"
+      }
+    },
+    {
+      "kind": "narration",
+      "lines": [
         "（そ、そういえば、このままじゃいけないような、",
         "あぁん、気持ちよくって頭が回らないっ……）",
         "私は、すぐに快感に飲まれて、さっきよりグリグリと",
@@ -810,12 +896,6 @@
         "label": "#EV076・うっとり蕩け・持ち上げ・愛液",
         "file": "EV076_05"
       },
-      "se": [
-        {
-          "code": "8131B",
-          "file": "se/8131b.ogg"
-        }
-      ],
       "bgv": {
         "id": "BGV_MAKO_H002A",
         "file": "voice/BGV_mako_h002a.ogg"
@@ -1003,12 +1083,6 @@
         "label": "#EV076・目閉じ・持ち上げ・愛液",
         "file": "EV076_06"
       },
-      "se": [
-        {
-          "code": "8131C",
-          "file": "se/8131c.ogg"
-        }
-      ],
       "bgv": {
         "id": "BGV_MAKO_H002A",
         "file": "voice/BGV_mako_h002a.ogg"
@@ -1219,7 +1293,8 @@
       "bgv": {
         "id": "BGV_MAKO_H003A",
         "file": "voice/BGV_mako_h003a.ogg"
-      }
+      },
+      "flash": 2
     },
     {
       "kind": "line",
@@ -1297,7 +1372,8 @@
       "bgv": {
         "id": "BGV_MAKO_H003A",
         "file": "voice/BGV_mako_h003a.ogg"
-      }
+      },
+      "flash": 2
     },
     {
       "kind": "line",
@@ -1391,6 +1467,12 @@
         "label": "#EV076・軽くアヘ・持ち上げ・潮吹き",
         "file": "EV076_08"
       },
+      "se": [
+        {
+          "code": "8351A",
+          "file": "se/8351a.ogg"
+        }
+      ],
       "bgv": {
         "id": "BGV_MAKO_H003A",
         "file": "voice/BGV_mako_h003a.ogg"
@@ -1410,7 +1492,8 @@
       "bgv": {
         "id": "BGV_MAKO_H003A",
         "file": "voice/BGV_mako_h003a.ogg"
-      }
+      },
+      "flash": 2
     },
     {
       "kind": "line",
@@ -1466,6 +1549,12 @@
         "label": "#EV076・軽くアヘ・持ち上げ・潮吹き",
         "file": "EV076_08"
       },
+      "se": [
+        {
+          "code": "8351A",
+          "file": "se/8351a.ogg"
+        }
+      ],
       "bgv": {
         "id": "BGV_MAKO_H003A",
         "file": "voice/BGV_mako_h003a.ogg"
@@ -1485,7 +1574,8 @@
       "bgv": {
         "id": "BGV_MAKO_H003A",
         "file": "voice/BGV_mako_h003a.ogg"
-      }
+      },
+      "flash": 2
     },
     {
       "kind": "line",
@@ -1502,6 +1592,12 @@
         "label": "#EV076・軽くアヘ・持ち上げ・潮吹き",
         "file": "EV076_08"
       },
+      "se": [
+        {
+          "code": "8351A",
+          "file": "se/8351a.ogg"
+        }
+      ],
       "bgv": {
         "id": "BGV_MAKO_H003A",
         "file": "voice/BGV_mako_h003a.ogg"
@@ -1522,7 +1618,8 @@
       "bgv": {
         "id": "BGV_MAKO_H003A",
         "file": "voice/BGV_mako_h003a.ogg"
-      }
+      },
+      "flash": 2
     },
     {
       "kind": "line",
@@ -1609,8 +1706,8 @@
         "file": "EV076_09"
       },
       "bgv": {
-        "id": "BGV_MAKO_H003A",
-        "file": "voice/BGV_mako_h003a.ogg"
+        "id": "BGV_MAKO_H001A",
+        "file": "voice/BGV_mako_h001a.ogg"
       }
     },
     {
@@ -1622,7 +1719,20 @@
         "シーツの股間のあたりは、お漏らしでもしたみたいに",
         "ぐしょぐしょ……。",
         "ようやく波が引いていって、私はハッとした。",
-        "ああ、そうだ、こんなことしてる場合じゃない。",
+        "ああ、そうだ、こんなことしてる場合じゃない。"
+      ],
+      "bg": {
+        "label": "#EV076・軽くアヘ・おろし・愛液2",
+        "file": "EV076_09"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H001A",
+        "file": "voice/BGV_mako_h001a.ogg"
+      }
+    },
+    {
+      "kind": "narration",
+      "lines": [
         "（私にかけられた催眠術を、なんとかしないと",
         "どうにかして……オナニーしなきゃ……）",
         "ふっとそんな気になって、私はまた腰を持ち上げて、",
@@ -1634,8 +1744,8 @@
         "file": "EV076_09"
       },
       "bgv": {
-        "id": "BGV_MAKO_H003A",
-        "file": "voice/BGV_mako_h003a.ogg"
+        "id": "BGV_MAKO_H001A",
+        "file": "voice/BGV_mako_h001a.ogg"
       }
     },
     {
@@ -1654,8 +1764,8 @@
         "file": "EV076_10"
       },
       "bgv": {
-        "id": "BGV_MAKO_H003A",
-        "file": "voice/BGV_mako_h003a.ogg"
+        "id": "BGV_MAKO_H002A",
+        "file": "voice/BGV_mako_h002a.ogg"
       }
     },
     {
@@ -1669,8 +1779,8 @@
         "file": "EV076_10"
       },
       "bgv": {
-        "id": "BGV_MAKO_H003A",
-        "file": "voice/BGV_mako_h003a.ogg"
+        "id": "BGV_MAKO_H002A",
+        "file": "voice/BGV_mako_h002a.ogg"
       }
     },
     {
@@ -1689,8 +1799,8 @@
         "file": "EV076_10"
       },
       "bgv": {
-        "id": "BGV_MAKO_H003A",
-        "file": "voice/BGV_mako_h003a.ogg"
+        "id": "BGV_MAKO_H002A",
+        "file": "voice/BGV_mako_h002a.ogg"
       }
     },
     {
@@ -1698,7 +1808,20 @@
       "lines": [
         "乳首を捻り、クリトリスをシゴくたびに、割れ目が",
         "何度も収縮して、愛液が吹きだした。",
-        "去ったばかりの絶頂の波が、すぐにやってくる。",
+        "去ったばかりの絶頂の波が、すぐにやってくる。"
+      ],
+      "bg": {
+        "label": "#EV076・軽くアヘ・持ち上げ・愛液2",
+        "file": "EV076_10"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H002A",
+        "file": "voice/BGV_mako_h002a.ogg"
+      }
+    },
+    {
+      "kind": "narration",
+      "lines": [
         "（まだよ、まだ我慢っ！　あう、くうっ！　限界まで",
         "我慢して、一気にイカないとっ……！）",
         "どうして私は、そんなことを考えているのか。",
@@ -1713,8 +1836,8 @@
         "file": "EV076_10"
       },
       "bgv": {
-        "id": "BGV_MAKO_H003A",
-        "file": "voice/BGV_mako_h003a.ogg"
+        "id": "BGV_MAKO_H002A",
+        "file": "voice/BGV_mako_h002a.ogg"
       }
     },
     {
@@ -1733,8 +1856,8 @@
         "file": "EV076_11"
       },
       "bgv": {
-        "id": "BGV_MAKO_H003A",
-        "file": "voice/BGV_mako_h003a.ogg"
+        "id": "BGV_MAKO_H002A",
+        "file": "voice/BGV_mako_h002a.ogg"
       }
     },
     {
@@ -1750,8 +1873,8 @@
         "file": "EV076_11"
       },
       "bgv": {
-        "id": "BGV_MAKO_H003A",
-        "file": "voice/BGV_mako_h003a.ogg"
+        "id": "BGV_MAKO_H002A",
+        "file": "voice/BGV_mako_h002a.ogg"
       }
     },
     {
@@ -1770,8 +1893,8 @@
         "file": "EV076_11"
       },
       "bgv": {
-        "id": "BGV_MAKO_H003A",
-        "file": "voice/BGV_mako_h003a.ogg"
+        "id": "BGV_MAKO_H002A",
+        "file": "voice/BGV_mako_h002a.ogg"
       }
     },
     {
@@ -1787,8 +1910,8 @@
         "file": "EV076_11"
       },
       "bgv": {
-        "id": "BGV_MAKO_H003A",
-        "file": "voice/BGV_mako_h003a.ogg"
+        "id": "BGV_MAKO_H002A",
+        "file": "voice/BGV_mako_h002a.ogg"
       }
     },
     {
@@ -1807,8 +1930,8 @@
         "file": "EV076_11"
       },
       "bgv": {
-        "id": "BGV_MAKO_H003A",
-        "file": "voice/BGV_mako_h003a.ogg"
+        "id": "BGV_MAKO_H002A",
+        "file": "voice/BGV_mako_h002a.ogg"
       }
     },
     {
@@ -1824,8 +1947,8 @@
         "file": "EV076_11"
       },
       "bgv": {
-        "id": "BGV_MAKO_H003A",
-        "file": "voice/BGV_mako_h003a.ogg"
+        "id": "BGV_MAKO_H002A",
+        "file": "voice/BGV_mako_h002a.ogg"
       }
     },
     {
@@ -1878,6 +2001,12 @@
         "label": "#EV076・目閉じ・持ち上げ・愛液2",
         "file": "EV076_11"
       },
+      "se": [
+        {
+          "code": "8361B",
+          "file": "se/8361b.ogg"
+        }
+      ],
       "bgv": {
         "id": "BGV_MAKO_H003A",
         "file": "voice/BGV_mako_h003a.ogg"
@@ -1896,7 +2025,8 @@
       "bgv": {
         "id": "BGV_MAKO_H003A",
         "file": "voice/BGV_mako_h003a.ogg"
-      }
+      },
+      "flash": 2
     },
     {
       "kind": "line",
@@ -1950,6 +2080,12 @@
         "label": "#EV076・軽くアヘ・持ち上げ・潮吹き2",
         "file": "EV076_12"
       },
+      "se": [
+        {
+          "code": "8351A",
+          "file": "se/8351a.ogg"
+        }
+      ],
       "bgv": {
         "id": "BGV_MAKO_H003A",
         "file": "voice/BGV_mako_h003a.ogg"
@@ -1969,7 +2105,8 @@
       "bgv": {
         "id": "BGV_MAKO_H003A",
         "file": "voice/BGV_mako_h003a.ogg"
-      }
+      },
+      "flash": 2
     },
     {
       "kind": "line",
@@ -1983,8 +2120,8 @@
         "はぁーっ、ひゅご、ひゅぎぃぃぃ……」"
       ],
       "bg": {
-        "label": "#EV076・軽くアヘ・持ち上げ・潮吹き2",
-        "file": "EV076_12"
+        "label": "#EV076・軽くアヘ・おろし・愛液2",
+        "file": "EV076_09"
       },
       "bgv": {
         "id": "BGV_MAKO_H003A",
@@ -1999,8 +2136,8 @@
         "それでも、震える手を割れ目へと伸ばす。"
       ],
       "bg": {
-        "label": "#EV076・軽くアヘ・持ち上げ・潮吹き2",
-        "file": "EV076_12"
+        "label": "#EV076・軽くアヘ・おろし・愛液2",
+        "file": "EV076_09"
       },
       "bgv": {
         "id": "BGV_MAKO_H003A",
@@ -2019,9 +2156,15 @@
         "今までで、はふっ、一番イッたかもぉ……」"
       ],
       "bg": {
-        "label": "#EV076・軽くアヘ・持ち上げ・潮吹き2",
-        "file": "EV076_12"
+        "label": "#EV076・軽くアヘ・おろし・愛液2",
+        "file": "EV076_09"
       },
+      "se": [
+        {
+          "code": "8321C",
+          "file": "se/8321c.ogg"
+        }
+      ],
       "bgv": {
         "id": "BGV_MAKO_H003A",
         "file": "voice/BGV_mako_h003a.ogg"
@@ -2037,8 +2180,8 @@
         "甘い余韻がゆっくりと全身に広がっていく。"
       ],
       "bg": {
-        "label": "#EV076・軽くアヘ・持ち上げ・潮吹き2",
-        "file": "EV076_12"
+        "label": "#EV076・軽くアヘ・おろし・愛液2",
+        "file": "EV076_09"
       },
       "bgv": {
         "id": "BGV_MAKO_H003A",
@@ -2057,8 +2200,8 @@
         "はぁん、きもちいいぃ……」"
       ],
       "bg": {
-        "label": "#EV076・軽くアヘ・持ち上げ・潮吹き2",
-        "file": "EV076_12"
+        "label": "#EV076・軽くアヘ・おろし・愛液2",
+        "file": "EV076_09"
       },
       "bgv": {
         "id": "BGV_MAKO_H003A",
@@ -2071,12 +2214,28 @@
         "とっても気持ち良くて、身体のチカラが抜けていく。",
         "身体がベッドに沈んでいくようだ。",
         "そのまま、頭も身体も疲れ果てていた私は、強烈な",
-        "睡魔に飲まれていった。",
-        "胸と股間を晒した、恥ずかしい格好のままで……。"
+        "睡魔に飲まれていった。"
       ],
       "bg": {
-        "label": "#EV076・軽くアヘ・持ち上げ・潮吹き2",
-        "file": "EV076_12"
+        "label": "#EV076・軽くアヘ・おろし・愛液2",
+        "file": "EV076_09"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H003A",
+        "file": "voice/BGV_mako_h003a.ogg"
+      }
+    },
+    {
+      "kind": "narration",
+      "lines": [
+        "胸と股間を晒した、恥ずかしい格好のままで……。",
+        "………。",
+        "……。",
+        "…。"
+      ],
+      "bg": {
+        "label": "#背景・黒一色",
+        "file": "BG_BLACK"
       },
       "bgv": {
         "id": "BGV_MAKO_H003A",

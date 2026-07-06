@@ -417,8 +417,8 @@
         "子宮にいっぱい射精してねっ！」"
       ],
       "bg": {
-        "label": "#EV078・微笑み・微笑み・目閉じ喘ぎ・翼挿入",
-        "file": "EV078_02"
+        "label": "#EV078・微笑み・微笑み・微笑み・翼挿入",
+        "file": "EV078_01"
       }
     },
     {
@@ -431,15 +431,9 @@
         "翼の腰をしっかりと掴んで、力強く腰を動かす。"
       ],
       "bg": {
-        "label": "#EV078・微笑み・微笑み・目閉じ喘ぎ・翼挿入",
-        "file": "EV078_02"
-      },
-      "se": [
-        {
-          "code": "8101C",
-          "file": "se/8101c.ogg"
-        }
-      ]
+        "label": "#EV078・微笑み・微笑み・微笑み・翼挿入",
+        "file": "EV078_01"
+      }
     },
     {
       "kind": "line",
@@ -1231,6 +1225,12 @@
         "label": "#EV078・困り笑い・切なげ・軽くアヘ・翼挿入・勃起",
         "file": "EV078_05"
       },
+      "se": [
+        {
+          "code": "8001B",
+          "file": "se/8001b.ogg"
+        }
+      ],
       "bgv": {
         "id": "BGV_TUBA_H003A",
         "file": "voice/BGV_tuba_h003a.ogg"
@@ -2039,6 +2039,12 @@
         "label": "#EV078・興奮・軽くアヘ・うっとり蕩け・楓挿入・つかみ",
         "file": "EV078_09"
       },
+      "se": [
+        {
+          "code": "8201B",
+          "file": "se/8201b.ogg"
+        }
+      ],
       "bgv": {
         "id": "BGV_KAED_H003A",
         "file": "voice/BGV_kaed_h003a.ogg"
@@ -2057,7 +2063,8 @@
       "bgv": {
         "id": "BGV_KAED_H003A",
         "file": "voice/BGV_kaed_h003a.ogg"
-      }
+      },
+      "flash": 3
     },
     {
       "kind": "line",
@@ -2215,6 +2222,16 @@
         "label": "#EV078・困り笑い・軽くアヘ・うっとり蕩け・楓挿入・萎え",
         "file": "EV078_11"
       },
+      "se": [
+        {
+          "code": "8011B",
+          "file": "se/8011b.ogg"
+        },
+        {
+          "code": "8201B",
+          "file": "se/8201b.ogg"
+        }
+      ],
       "bgv": {
         "id": "BGV_KAED_H003A",
         "file": "voice/BGV_kaed_h003a.ogg"
@@ -2232,7 +2249,8 @@
       "bgv": {
         "id": "BGV_KAED_H003A",
         "file": "voice/BGV_kaed_h003a.ogg"
-      }
+      },
+      "flash": 3
     },
     {
       "kind": "line",
@@ -2460,15 +2478,28 @@
       "kind": "narration",
       "lines": [
         "もちろん、全力で頑張るつもりだ。",
-        "毎晩、こうやって種付けセックスをしてやろう。",
+        "毎晩、こうやって種付けセックスをしてやろう。"
+      ],
+      "bg": {
+        "label": "#EV078・困り笑い・軽くアヘ・微笑み2・楓挿入・萎え・精液",
+        "file": "EV078_13"
+      },
+      "bgv": {
+        "id": "BGV_KAED_H003A",
+        "file": "voice/BGV_kaed_h003a.ogg"
+      }
+    },
+    {
+      "kind": "narration",
+      "lines": [
         "彼女たちを妊娠させるために……。",
         "………。",
         "……。",
         "…。"
       ],
       "bg": {
-        "label": "#EV078・困り笑い・軽くアヘ・微笑み2・楓挿入・萎え・精液",
-        "file": "EV078_13"
+        "label": "#背景・黒一色",
+        "file": "BG_BLACK"
       },
       "bgv": {
         "id": "BGV_KAED_H003A",

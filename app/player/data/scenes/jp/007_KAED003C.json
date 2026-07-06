@@ -1275,6 +1275,12 @@
         "label": "#EV030・うっとり蕩け・微笑み・股間愛撫",
         "file": "EV030_08"
       },
+      "se": [
+        {
+          "code": "8131C",
+          "file": "se/8131c.ogg"
+        }
+      ],
       "bgv": {
         "id": "BGV_KAED_H002A",
         "file": "voice/BGV_kaed_h002a.ogg"
@@ -1391,8 +1397,8 @@
         "精液を欲しがって下りてくるものなのっ」"
       ],
       "bg": {
-        "label": "#EV030・うっとり蕩け・微笑み・股間愛撫",
-        "file": "EV030_08"
+        "label": "#EV030・眉寄せ・微笑み・股間愛撫",
+        "file": "EV030_07"
       },
       "bgv": {
         "id": "BGV_KAED_H002A",
@@ -1407,8 +1413,8 @@
         "欲しがっているということか。"
       ],
       "bg": {
-        "label": "#EV030・うっとり蕩け・微笑み・股間愛撫",
-        "file": "EV030_08"
+        "label": "#EV030・眉寄せ・微笑み・股間愛撫",
+        "file": "EV030_07"
       },
       "bgv": {
         "id": "BGV_KAED_H002A",
@@ -1426,8 +1432,8 @@
         "「ほら、指先にキスしているみたいでしょう？」"
       ],
       "bg": {
-        "label": "#EV030・うっとり蕩け・微笑み・股間愛撫",
-        "file": "EV030_08"
+        "label": "#EV030・眉寄せ・微笑み・股間愛撫",
+        "file": "EV030_07"
       },
       "bgv": {
         "id": "BGV_KAED_H002A",
@@ -1442,8 +1448,8 @@
         "ちゅっ、ちゅっと、吸い付くような感じだ。"
       ],
       "bg": {
-        "label": "#EV030・うっとり蕩け・微笑み・股間愛撫",
-        "file": "EV030_08"
+        "label": "#EV030・眉寄せ・微笑み・股間愛撫",
+        "file": "EV030_07"
       },
       "bgv": {
         "id": "BGV_KAED_H002A",
@@ -1462,8 +1468,8 @@
         "柔らかくなっているはずよ？　うふっ……」"
       ],
       "bg": {
-        "label": "#EV030・うっとり蕩け・微笑み・股間愛撫",
-        "file": "EV030_08"
+        "label": "#EV030・眉寄せ・微笑み・股間愛撫",
+        "file": "EV030_07"
       },
       "bgv": {
         "id": "BGV_KAED_H002A",
@@ -1479,8 +1485,8 @@
         "浮べる。"
       ],
       "bg": {
-        "label": "#EV030・うっとり蕩け・微笑み・股間愛撫",
-        "file": "EV030_08"
+        "label": "#EV030・眉寄せ・微笑み・股間愛撫",
+        "file": "EV030_07"
       },
       "bgv": {
         "id": "BGV_KAED_H002A",
@@ -1499,9 +1505,15 @@
         "指を曲げて、ソコを何度も擦ってみて」"
       ],
       "bg": {
-        "label": "#EV030・うっとり蕩け・微笑み・股間愛撫",
-        "file": "EV030_08"
+        "label": "#EV030・眉寄せ・微笑み・股間愛撫",
+        "file": "EV030_07"
       },
+      "se": [
+        {
+          "code": "8131C",
+          "file": "se/8131c.ogg"
+        }
+      ],
       "bgv": {
         "id": "BGV_KAED_H002A",
         "file": "voice/BGV_kaed_h002a.ogg"
@@ -1515,8 +1527,8 @@
         "指先に少し力を入れて、引っ掻くように擦ってみる。"
       ],
       "bg": {
-        "label": "#EV030・うっとり蕩け・微笑み・股間愛撫",
-        "file": "EV030_08"
+        "label": "#EV030・眉寄せ・微笑み・股間愛撫",
+        "file": "EV030_07"
       },
       "bgv": {
         "id": "BGV_KAED_H002A",
@@ -1988,8 +2000,8 @@
         "file": "EV030_11"
       },
       "bgv": {
-        "id": "BGV_KAED_H003A",
-        "file": "voice/BGV_kaed_h003a.ogg"
+        "id": "BGV_KAED_H002A",
+        "file": "voice/BGV_kaed_h002a.ogg"
       }
     },
     {
@@ -2004,8 +2016,8 @@
         "file": "EV030_11"
       },
       "bgv": {
-        "id": "BGV_KAED_H003A",
-        "file": "voice/BGV_kaed_h003a.ogg"
+        "id": "BGV_KAED_H002A",
+        "file": "voice/BGV_kaed_h002a.ogg"
       }
     },
     {
@@ -2024,8 +2036,8 @@
         "file": "EV030_11"
       },
       "bgv": {
-        "id": "BGV_KAED_H003A",
-        "file": "voice/BGV_kaed_h003a.ogg"
+        "id": "BGV_KAED_H002A",
+        "file": "voice/BGV_kaed_h002a.ogg"
       }
     },
     {
@@ -2040,8 +2052,8 @@
         "file": "EV030_11"
       },
       "bgv": {
-        "id": "BGV_KAED_H003A",
-        "file": "voice/BGV_kaed_h003a.ogg"
+        "id": "BGV_KAED_H002A",
+        "file": "voice/BGV_kaed_h002a.ogg"
       }
     },
     {
@@ -2060,8 +2072,8 @@
         "file": "EV030_11"
       },
       "bgv": {
-        "id": "BGV_KAED_H003A",
-        "file": "voice/BGV_kaed_h003a.ogg"
+        "id": "BGV_KAED_H002A",
+        "file": "voice/BGV_kaed_h002a.ogg"
       }
     },
     {
@@ -2077,8 +2089,8 @@
         "file": "EV030_11"
       },
       "bgv": {
-        "id": "BGV_KAED_H003A",
-        "file": "voice/BGV_kaed_h003a.ogg"
+        "id": "BGV_KAED_H002A",
+        "file": "voice/BGV_kaed_h002a.ogg"
       }
     },
     {
@@ -2097,8 +2109,8 @@
         "file": "EV030_11"
       },
       "bgv": {
-        "id": "BGV_KAED_H003A",
-        "file": "voice/BGV_kaed_h003a.ogg"
+        "id": "BGV_KAED_H002A",
+        "file": "voice/BGV_kaed_h002a.ogg"
       }
     },
     {
@@ -2114,8 +2126,8 @@
         "file": "EV030_11"
       },
       "bgv": {
-        "id": "BGV_KAED_H003A",
-        "file": "voice/BGV_kaed_h003a.ogg"
+        "id": "BGV_KAED_H002A",
+        "file": "voice/BGV_kaed_h002a.ogg"
       }
     },
     {
@@ -2134,8 +2146,8 @@
         "file": "EV030_11"
       },
       "bgv": {
-        "id": "BGV_KAED_H003A",
-        "file": "voice/BGV_kaed_h003a.ogg"
+        "id": "BGV_KAED_H002A",
+        "file": "voice/BGV_kaed_h002a.ogg"
       }
     },
     {
@@ -2153,8 +2165,8 @@
         "file": "EV030_11"
       },
       "bgv": {
-        "id": "BGV_KAED_H003A",
-        "file": "voice/BGV_kaed_h003a.ogg"
+        "id": "BGV_KAED_H002A",
+        "file": "voice/BGV_kaed_h002a.ogg"
       }
     },
     {
@@ -2168,8 +2180,8 @@
         "file": "EV030_11"
       },
       "bgv": {
-        "id": "BGV_KAED_H003A",
-        "file": "voice/BGV_kaed_h003a.ogg"
+        "id": "BGV_KAED_H002A",
+        "file": "voice/BGV_kaed_h002a.ogg"
       }
     },
     {
@@ -2186,8 +2198,8 @@
         "file": "EV030_11"
       },
       "bgv": {
-        "id": "BGV_KAED_H003A",
-        "file": "voice/BGV_kaed_h003a.ogg"
+        "id": "BGV_KAED_H002A",
+        "file": "voice/BGV_kaed_h002a.ogg"
       }
     },
     {
@@ -2612,6 +2624,7 @@
       "kind": "narration",
       "lines": [
         "全身が痙攣するみたいに震えて、膣孔もぎゅうっと",
+        "僕の指を締め付けてくる。",
         "けれど僕は愛撫を止めなかった。",
         "このままもっとイカせたい。"
       ],
@@ -2622,7 +2635,8 @@
       "bgv": {
         "id": "BGV_KAED_H003A",
         "file": "voice/BGV_kaed_h003a.ogg"
-      }
+      },
+      "flash": 2
     },
     {
       "kind": "line",
@@ -2709,6 +2723,12 @@
         "label": "#EV030・のけぞり・クリ舐め・股間愛撫・愛液2",
         "file": "EV030_13"
       },
+      "se": [
+        {
+          "code": "8361B",
+          "file": "se/8361b.ogg"
+        }
+      ],
       "bgv": {
         "id": "BGV_KAED_H003A",
         "file": "voice/BGV_kaed_h003a.ogg"
@@ -2727,7 +2747,8 @@
       "bgv": {
         "id": "BGV_KAED_H003A",
         "file": "voice/BGV_kaed_h003a.ogg"
-      }
+      },
+      "flash": 2
     },
     {
       "kind": "line",
