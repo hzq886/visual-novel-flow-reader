@@ -15,23 +15,23 @@ Vite + TypeScript + React / VN描画=**PixiJS**(WebGL) / ルート図=**React Fl
 - `src/store/` — Zustand（再生位置・現在シーン・フラグ）。
 - `scripts/` — ビルドスクリプト（tsx 実行、Node）。
 - `electron/` — Electron main/preload と app:// 配信の純関数（`serve.ts`、Vitest 対象）。方式は [ADR 0008](../../docs/adr/0008-electron-packaging.md)。ビルドは esbuild（`scripts/electron-build.ts`）、パッケージは electron-builder（`electron-builder.yml`、素材2.4GBを extraResources 同梱・**ローカルのみ・CI外**）。
-- `data/` — **生成物**。`scenes/<locale>/*.json`（build-scenes 経由。jp/cn 別ディレクトリ）/ `flow.json`（extract-flow.py 経由＝SMAIN 機械抽出）/ `items.json`（extract-items.py 経由＝アイテムCG窓の座標・表示区間。HU-70/ADR 0009）/ `sprites.json`・`backgrounds.json` / `manifest.json`。いずれも手編集禁止。`flow.routemap.json`（build-flow 二次出力）は git 外。
+- `data/` — **生成物**。`scene-events/<locale>.json`（extract-scenes.py 経由＝シーン脚本 bytecode の正規化イベント列。beat 生成の一次ソース。HU-73/ADR 0010）/ `scenes/<locale>/*.json`（build-scenes が scene-events を buildScene→resolve。jp/cn 別ディレクトリ）/ `flow.json`（extract-flow.py 経由＝SMAIN 機械抽出）/ `sprites.json`・`backgrounds.json` / `manifest.json`。いずれも手編集禁止。`flow.routemap.json`（build-flow 二次出力）は git 外。
 - `public/assets/` — **git 外**。素材実体は `npm run assets:fetch` で配置。
 
 ## コマンド
 
-| コマンド                                                       | 用途                                                                   |
-| -------------------------------------------------------------- | ---------------------------------------------------------------------- |
-| `npm run dev`                                                  | Vite 開発（http://localhost:5173）                                     |
-| `npm run build` / `preview`                                    | 本番ビルド / プレビュー                                                |
-| `npm run dev:electron`                                         | Electron 開発（Vite dev ＋ Electron 同時起動）                         |
-| `npm run build:electron` / `dist:electron`                     | web＋main/preload ビルド / mac arm64 `.app` 生成（ローカルのみ・CI外） |
-| `npm run lint` / `format` / `typecheck`                        | ESLint(`--max-warnings 0`) / Prettier / `tsc -b --noEmit`              |
-| `npm run test` / `test:watch`                                  | Vitest                                                                 |
-| `npm run assets:fetch -- --scene <code>`                       | 素材を public/assets へ同期＋manifest 生成                             |
-| `npm run data:defs` / `data:scenes` / `data:flow` / `data:all` | sprites/backgrounds・scenes(jp+cn)・flow を生成                        |
-| `npm run data:scenes:cn` / `validate:cn`                       | cn シーン生成 / cn の未解決参照照合                                    |
-| `npm run validate`                                             | 未解決参照・flow とシーンの相互照合                                    |
+| コマンド                                                                              | 用途                                                                   |
+| ------------------------------------------------------------------------------------- | ---------------------------------------------------------------------- |
+| `npm run dev`                                                                         | Vite 開発（http://localhost:5173）                                     |
+| `npm run build` / `preview`                                                           | 本番ビルド / プレビュー                                                |
+| `npm run dev:electron`                                                                | Electron 開発（Vite dev ＋ Electron 同時起動）                         |
+| `npm run build:electron` / `dist:electron`                                            | web＋main/preload ビルド / mac arm64 `.app` 生成（ローカルのみ・CI外） |
+| `npm run lint` / `format` / `typecheck`                                               | ESLint(`--max-warnings 0`) / Prettier / `tsc -b --noEmit`              |
+| `npm run test` / `test:watch`                                                         | Vitest                                                                 |
+| `npm run assets:fetch -- --scene <code>`                                              | 素材を public/assets へ同期＋manifest 生成                             |
+| `npm run data:defs` / `data:scenes:events` / `data:scenes` / `data:flow` / `data:all` | sprites/backgrounds・scene-events(jp+cn)・scenes(jp+cn)・flow を生成   |
+| `npm run data:scenes:cn` / `validate:cn`                                              | cn シーン生成 / cn の未解決参照照合                                    |
+| `npm run validate`                                                                    | 未解決参照・flow とシーンの相互照合                                    |
 
 ## git 運用（GitHub Flow）
 
@@ -53,9 +53,10 @@ Vite + TypeScript + React / VN描画=**PixiJS**(WebGL) / ルート図=**React Fl
 - シーンコード: `NNN_XXX###[suffix]`（例 `002_AYAN001A`）。
 - ボイスID: `CHAR_ROUTE_SCENE_serial`（例 `AYAN_002_AYAN001A_001`）→ ファイル名は **manifest を真実の源**に照合（大小文字変換は不確実）。
 - 立ち絵/背景: `[note]` ラベル経由で `_SPRSET.txt`/`_BGSET.txt` から解決（`sprites.json`/`backgrounds.json`）。
-- 効果音(se): `[id]` の se コード（`^\d{4}[A-Za-z]$`、例 `8351A`）を `parseScene` が `Beat.se` に取り込み、manifest で実ファイルへ解決（大小文字無視）。bytecode RE で `0x15` が se 再生命令と確認（HU-28 の `0x6c` 説は 1 始まり誤読・HU-70 で訂正。[ADR 0006](../../docs/adr/0006-audio-cues.md) / [`smain_flow_guide.md` §3.9/§3.12](../../data_extract/text/_tools/smain_flow_guide.md)）。
+- beat 生成: **bytecode 一次**（HU-74/ADR 0010）。`extract-scenes.py` がシーン脚本 bytecode を正規化イベント列（`data/scene-events/<locale>.json`）へ写し、`buildScene`（src/pipeline/scene.ts）が beat を組む。txt（`md_scr_text_*`）は文字列表デデュープで再表示・反復が欠落するため beat 生成には不使用（人間可読リファレンス・validate の flow 照合用に残置）。
+- 効果音(se): se コード（`^\d{4}[A-Za-z]$`、例 `8351A`）は bytecode の `0x15`/`0x16`（se 再生命令。HU-28 の `0x6c` 説は 1 始まり誤読・HU-70 で訂正）→ `se` イベント → `Beat.se`。manifest で実ファイルへ解決（大小文字無視）。[ADR 0006](../../docs/adr/0006-audio-cues.md) / [`smain_flow_guide.md` §3.9/§3.12](../../data_extract/text/_tools/smain_flow_guide.md)。
 - BGM: **トラック選択は原データに無い**（網羅確認済）。シーンの character（ルート）→ M01-M16 を `src/pipeline/audio.ts` の `BGM_BY_CHARACTER` で**curated 割当**（編集可。`Scene.bgm`）。エンジンはシーン跨ぎ継続＋track 変化でクロスフェード。
-- 言語: **日本語(jp)主軸**＋**中国語(cn)対応済（HU-29）**。cn ソースは別タグ語彙（`[cn]`/`[ascii]`/`[jp]`）を `parseScene` が正準タグへ正規化。note は日本語ラベルのままなので bg/sprite は jp 定義で解決、voice/se/bgm は jp/cn 同一素材を共用。エンジンは store の `locale` で jp⇄cn をリアルタイム切替（ボタン / `L` キー、再生位置維持はベストエフォート）。詳細は [ADR 0007](../../docs/adr/0007-cn-locale-i18n.md)。
+- 言語: **日本語(jp)主軸**＋**中国語(cn)対応済（HU-29）**。cn の bytecode は本文・話者・タイトルのみ中国語、note ラベル（bg/sprite）は日本語のまま（Shift-JIS 格納）＝`extract-scenes.py` が種別別に復号（note は jp/cn とも cp932）。bg/sprite は jp 定義で解決、voice/se/bgm は jp/cn 同一素材を共用。エンジンは store の `locale` で jp⇄cn をリアルタイム切替（ボタン / `L` キー、再生位置維持はベストエフォート）。詳細は [ADR 0007](../../docs/adr/0007-cn-locale-i18n.md)。
 
 ## フロー復元の出典（重要）
 
