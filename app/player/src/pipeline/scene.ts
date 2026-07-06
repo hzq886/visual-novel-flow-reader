@@ -13,8 +13,9 @@
  *  se       … 効果音（ワンショット・0x15）。現 beat があればそこへ、無ければ次 beat へ持ち越す。
  *  lpse     … ループ se（0x16・VOL_LPSE）。BGV 同型の単一ループチャンネルで sticky 持続（HU-76）。
  *  bg       … 背景/EV/黒。label で下レイヤ背景（#背景）と被せ CG（#EV/黒）を分類（HU-63）。
- *  sprite   … 立ち絵スロット列（"-"=空き / null=変更なし）。per-slot sticky で多体を同時保持（HU-77。
- *             第3要素 reset=true は適用前に全スロットをクリア＝シーン転換の establishing shot）。
+ *  sprite   … 立ち絵スロット列（"-"=空き / null=変更なし）。列の長さ＝0x12 の cnt＝構図幅で、cnt を
+ *             超える既存スロットは暗黙クリア（HU-79）。null のスロットは前値を保持し多体を同時表示
+ *             （HU-77）。第3要素 reset=true は適用前に全スロットをクリア＝シーン転換の establishing shot。
  *  item     … アイテム CG 窓を開く（座標込み・独立オーバーレイ・HU-70）。itemclose で閉じる。
  *  off/bgv  … 立ち絵オフ / 背景ボイス（ループ）。
  *  flash    … 画面フラッシュ（次 beat のインパクト行で点灯）。
@@ -158,13 +159,16 @@ export function buildScene(
     stickyOverlay = { label, file: null }
     stickyItem = undefined // 防御的クローズ
   }
-  // 立ち絵スロット列を per-slot sticky へ適用する（多体同時表示・HU-77）。null=変更なし・"-"=空き・
-  // それ以外=そのスロットへ配置。reset=true（0x12 mode ~0x80）は適用前に全スロットをクリアする
-  // （シーン転換の establishing shot）。実ラベルを 1 つでも置いたら被せ CG を閉じ下レイヤへ復帰する
-  // （HU-63。全消しのみなら被せ CG は保持）。narration は「見た目」が変わるときだけ flush（HU-34）。
+  // 立ち絵スロット列を適用する（多体同時表示・HU-77）。null=変更なし・"-"=空き・それ以外=配置。
+  // slots の長さ ＝ 0x12 の cnt ＝ 構図幅（同時に並ぶ立ち絵の数）なので、cnt を超える既存スロットは
+  // 暗黙クリアする（reset 無しでも slice で切り落とす。HU-79）。cnt=1 の単体宣言が直前の上位スロットを
+  // 残し同一キャラが 2 体並ぶ回帰を防ぐ。両者を残す場面は原データが必ず cnt≥2 を使う。
+  // reset=true（0x12 mode ~0x80）は適用前に全スロットをクリアする（シーン転換の establishing shot）。
+  // 実ラベルを 1 つでも置いたら被せ CG を閉じ下レイヤへ復帰する（HU-63。全消しのみなら被せ CG は保持）。
+  // narration は「見た目」が変わるときだけ flush（HU-34）。
   const applySprite = (slots: (string | null)[], reset: boolean) => {
     const before = visSig(stickyOverlay, stickySlots)
-    const next: (SpriteRef | undefined)[] = reset ? [] : stickySlots.slice()
+    const next: (SpriteRef | undefined)[] = reset ? [] : stickySlots.slice(0, slots.length)
     let setsReal = false
     for (let i = 0; i < slots.length; i++) {
       const s = slots[i]

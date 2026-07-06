@@ -282,15 +282,15 @@ describe('buildScene — 立ち絵（多体スロット / per-slot sticky / rese
     ])
   })
 
-  it('多体スロットを同時保持・null=変更なし / "-"=当該スロットのみクリア（per-slot sticky）', () => {
+  it('cnt=構図幅の枠内で null=変更なし / "-"=当該スロットのみクリア（多体同時保持）', () => {
     const s = build([
       ['sprite', ['#綾菜・通常', '#涼菜・通常']], // slot0=綾菜, slot1=涼菜（2体並び）
       ['text', 'Ａ。'],
       ['sprite', [null, '#涼菜・驚き']], // slot0 変更なし → [綾菜, 涼菜・驚き]
       ['text', 'Ｂ。'],
-      ['sprite', ['-', null]], // slot0 のみクリア → [涼菜・驚き]（slot1 保持）
+      ['sprite', ['-', null]], // slot0 のみクリア → [涼菜・驚き]（slot1 保持・cnt=2 なので幅は維持）
       ['text', 'Ｃ。'],
-      ['sprite', ['#楓・通常']], // slot0 のみ差替（slot1 は addressed 外＝保持） → [楓, 涼菜・驚き]
+      ['sprite', ['#楓・通常', null]], // cnt=2 で slot0 差替・slot1 保持 → [楓, 涼菜・驚き]
       ['text', 'Ｄ。'],
     ])
     expect(s.beats.map((b) => spLabels(b))).toEqual([
@@ -314,17 +314,16 @@ describe('buildScene — 立ち絵（多体スロット / per-slot sticky / rese
     ])
   })
 
-  it('reset なしの少数スロットは上位スロットを保持（増分更新）', () => {
+  it('cnt を超える上位スロットは reset 無しでも暗黙クリア（HU-79 回帰）', () => {
+    // 001_PRO001C の再現: 2体並び → 片方だけ残す → cnt=1 の単体宣言。
+    // 旧実装（per-slot sticky）は slot1 を保持し同一キャラが 2 体並んでいた。
     const s = build([
-      ['sprite', ['#綾菜・通常', '#涼菜・通常']], // [綾菜, 涼菜]
+      ['sprite', ['-', '#翼・にっこり']], // cnt=2・slot1=翼のみ → [翼・にっこり]
       ['text', 'Ａ。'],
-      ['sprite', ['#楓・通常']], // reset 無し・1体指定 → slot1(涼菜) 保持 → [楓, 涼菜]
+      ['sprite', ['#翼・通常']], // cnt=1 → 構図幅1・slot1 はクリア → [翼・通常]（翼2体にならない）
       ['text', 'Ｂ。'],
     ])
-    expect(s.beats.map((b) => spLabels(b))).toEqual([
-      ['#綾菜・通常', '#涼菜・通常'],
-      ['#楓・通常', '#涼菜・通常'],
-    ])
+    expect(s.beats.map((b) => spLabels(b))).toEqual([['#翼・にっこり'], ['#翼・通常']])
   })
 
   it('off で全スロットの立ち絵を消す（bg には触れない）', () => {
