@@ -30,6 +30,8 @@ import os
 import re
 import struct
 
+from med import decrypt, linear_records, parse_container  # 共通 MED デコード（HU-72）
+
 # repo パス: app/player/scripts -> repo root
 _HERE = os.path.dirname(os.path.abspath(__file__))
 _APP_PLAYER = os.path.dirname(_HERE)
@@ -41,43 +43,14 @@ SRC_BY_LOCALE = {
 }
 ENCODING_BY_LOCALE = {"jp": "cp932", "cn": "gbk"}
 
-KEY = b"tauromin"  # MED 復号鍵（extract-flow.py と同一）
-
 OP_TEXT, OP_ITEM_SHOW, OP_ITEM_CLOSE = 0x01, 0x3B, 0x3C
 
 
-# ───────────── MDE0 コンテナ / シーン脚本パース（extract-flow.py §SceneScript と同一規則）─────────────
-def parse_container(data):
-    assert data[:4] == b"MDE0", "not MDE0: %r" % data[:4]
-    recsize, count = struct.unpack_from("<HH", data, 4)
-    ents = []
-    off = 0x10
-    for _ in range(count):
-        name = data[off:off + recsize - 12].split(b"\0")[0].decode("ascii", "replace")
-        _, size, eo = struct.unpack_from("<III", data, off + recsize - 12)
-        off += recsize
-        ents.append((name, size, eo))
-    return ents
-
-
-def decrypt(entry):
-    out = bytearray(entry)
-    for p in range(0x10, len(out)):
-        out[p] = (out[p] + KEY[p % len(KEY)]) & 0xFF
-    return bytes(out)
-
-
 def parse_scene(full):
-    """復号済みエントリ → (records, strings)。records は `u16 lineno + u8 len + data[len]` の線形読み。"""
+    """復号済みエントリ → (records, strings)。records は各命令の data[len]（args のみ）の列。"""
     _, unk1, _, c2, _ = struct.unpack_from("<IIHHI", full[:0x10], 0)
     pl = full[0x10:]
-    records, p = [], 0
-    while p + 3 <= unk1:
-        length = pl[p + 2]
-        if p + 3 + length > unk1:
-            break
-        records.append(pl[p + 3:p + 3 + length])
-        p += 3 + length
+    records = [args for (_pos, _lineno, _length, args) in linear_records(pl, unk1)]
     raw = pl[unk1 + 2 * c2:]
     strings, i = [], 0
     while i < len(raw):

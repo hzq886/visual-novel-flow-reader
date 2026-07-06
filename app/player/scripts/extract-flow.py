@@ -31,6 +31,8 @@ import re
 import struct
 from collections import Counter, defaultdict
 
+from med import KEY, decrypt, linear_records, parse_container  # 共通 MED デコード（HU-72）
+
 # repo パス: app/player/scripts -> repo root
 _HERE = os.path.dirname(os.path.abspath(__file__))
 _APP_PLAYER = os.path.dirname(_HERE)
@@ -40,8 +42,6 @@ DEFAULT_OUT = os.path.join(_APP_PLAYER, "data", "flow.json")
 TEXT_DIR = os.path.join(ROOT, "data_extract", "text", "md_scr_text_jp")
 TEXT_DIR_CN = os.path.join(ROOT, "data_extract", "text", "md_scr_text_cn")
 DEF_PATH = os.path.join(TEXT_DIR, "_DEF.txt")
-
-KEY = b"tauromin"  # MED 復号鍵（_VIEW クリブから復元済。text_unpack_guide.md §4）
 
 # シーンコード接頭辞（NNN_XXX）→ Flow キャラ enum。route_map の配色を踏襲。
 CHAR_BY_TOKEN = {
@@ -56,25 +56,7 @@ CHAR_BY_TOKEN = {
 }
 
 
-# ───────────────────────── MDE0 コンテナ / SMAIN 復号 ─────────────────────────
-def parse_container(data):
-    assert data[:4] == b"MDE0", "not MDE0: %r" % data[:4]
-    recsize, count = struct.unpack_from("<HH", data, 4)
-    ents = []
-    off = 0x10
-    for _ in range(count):
-        name = data[off:off + recsize - 12].split(b"\0")[0].decode("ascii", "replace")
-        _, size, eo = struct.unpack_from("<III", data, off + recsize - 12)
-        off += recsize
-        ents.append((name, size, eo))
-    return ents
-
-
-def decrypt(entry):
-    out = bytearray(entry)
-    for p in range(0x10, len(out)):
-        out[p] = (out[p] + KEY[p % len(KEY)]) & 0xFF
-    return bytes(out)
+# MDE0 コンテナ解析（parse_container）・payload 復号（decrypt）は med モジュールへ集約（HU-72）。
 
 
 # ───────────────────────── SMAIN payload の逆アセンブル ─────────────────────────
@@ -129,28 +111,15 @@ class Smain:
 # ───────────────────────── シーン脚本 bytecode（HU-21）─────────────────────────
 # シーン脚本も SMAIN と同じ命令形式 `u16 lineno + u8 len + データ[len]`。ただし lineno は
 # **ソース行番号で非減少**（同 lineno に複数命令あり）＝ SMAIN の「+1 厳密増加」自己同期が
-# 効かない（過去 intractable とされた理由）。len 前置で**線形に**読めば解ける。
+# 効かない（過去 intractable とされた理由）。len 前置で**線形に**読めば解ける（med.linear_records）。
 # 詳細・オペコード表は data_extract/text/_tools/smain_flow_guide.md §3.8。
-def _linear_records(payload, limit):
-    """`u16 lineno + u8 len + データ` を limit（= subheader unk1 = レコード列終端）まで線形に。"""
-    records, p = [], 0
-    while p + 3 <= limit:
-        lineno = struct.unpack_from("<H", payload, p)[0]
-        length = payload[p + 2]
-        if p + 3 + length > limit:
-            break
-        records.append((p, lineno, length, payload[p + 3:p + 3 + length]))
-        p += 3 + length
-    return records
-
-
 class SceneScript:
     """シーン脚本 1 エントリ（復号済み・16B サブヘッダ込み）の records / 文字列表。"""
 
     def __init__(self, full):
         a, unk1, c1, c2, d = struct.unpack_from("<IIHHI", full[:0x10], 0)
         pl = full[0x10:]
-        self.records = _linear_records(pl, unk1)
+        self.records = linear_records(pl, unk1)
         # 文字列表は label 表（c2 個 u16, unk1 から）の直後。1 始まり索引で参照される。
         raw = pl[unk1 + 2 * c2:]
         self.strings = []
