@@ -29,6 +29,9 @@ export class AudioManager {
   private bgvCache = new Map<string, Howl>()
   private bgv: Howl | null = null
   private bgvUrl: string | null = null
+  private lpseCache = new Map<string, Howl>()
+  private lpse: Howl | null = null
+  private lpseUrl: string | null = null
 
   /** AudioContext が suspended なら resume してから cb を実行（ユーザー操作スタック内で呼ぶ）。 */
   private withContext(cb: () => void): void {
@@ -130,6 +133,37 @@ export class AudioManager {
     this.bgvUrl = null
   }
 
+  /**
+   * ループ se（VOL_LPSE。動作音等の反復音）を再生。BGV と同じく単一ループチャンネルで、別 URL なら
+   * 前を停止して切替、同一 URL なら継続（no-op）。シーン内で次の lpse まで持続し、シーン離脱で停止する（HU-76）。
+   */
+  playLpse(url: string): void {
+    if (url === this.lpseUrl) return
+    this.lpse?.stop()
+    let howl = this.lpseCache.get(url)
+    if (!howl) {
+      howl = new Howl({ src: [url], loop: true, preload: true })
+      this.lpseCache.set(url, howl)
+    }
+    this.lpse = howl
+    this.lpseUrl = url
+    const target = howl
+    const start = () => {
+      if (this.lpse === target) target.play()
+    }
+    this.withContext(() => {
+      if (target.state() === 'loaded') start()
+      else target.once('load', start)
+    })
+  }
+
+  /** ループ se を停止（シーン離脱・終端）。 */
+  stopLpse(): void {
+    this.lpse?.stop()
+    this.lpse = null
+    this.lpseUrl = null
+  }
+
   /** 効果音をワンショット再生（多重再生可）。同一 URL は Howl をキャッシュ。 */
   playSe(url: string): void {
     let howl = this.seCache.get(url)
@@ -159,14 +193,17 @@ export class AudioManager {
   destroy(): void {
     this.stopVoice()
     this.stopBgv()
+    this.stopLpse()
     this.bgm?.stop()
     this.bgm = null
     this.bgmUrl = null
     for (const howl of this.voiceCache.values()) howl.unload()
     for (const howl of this.seCache.values()) howl.unload()
     for (const howl of this.bgvCache.values()) howl.unload()
+    for (const howl of this.lpseCache.values()) howl.unload()
     this.voiceCache.clear()
     this.seCache.clear()
     this.bgvCache.clear()
+    this.lpseCache.clear()
   }
 }

@@ -397,6 +397,42 @@ describe('buildScene — 背景ボイス bgv（sticky ループ・HU-37）', () 
   })
 })
 
+describe('buildScene — ループ se lpse（sticky ループ・0x16・HU-76）', () => {
+  it('lpse 開始以降の beat に sticky で載り、次 lpse で切替（BGV 同型）', () => {
+    const s = build([
+      ['text', '開始前。'],
+      ['lpse', '8131A'],
+      ['text', '動作開始。'],
+      ['text', '続く。'],
+      ['lpse', '8131B'],
+      ['text', '強くなる。'],
+    ])
+    // lpse 変化で narration を flush＝3 beat。lpse は開始以降 sticky で載る。
+    expect(s.beats.map((b) => b.lpse?.code ?? null)).toEqual([null, '8131A', '8131B'])
+  })
+
+  it('同一 lpse コードの重複指定では分割しない（no-op）', () => {
+    const s = build([
+      ['lpse', '8101C'],
+      ['text', 'Ａ。'],
+      ['lpse', '8101C'],
+      ['text', 'Ｂ。'],
+    ])
+    expect(s.beats).toHaveLength(1)
+    expect(s.beats[0].lpse).toEqual({ code: '8101C', file: null })
+  })
+
+  it('lpse はワンショット se（0x15）と別チャンネル＝両立する', () => {
+    const s = build([
+      ['lpse', '8131A'],
+      ['se', '0001A'],
+      ['text', 'Ａ。'],
+    ])
+    expect(s.beats[0].lpse).toEqual({ code: '8131A', file: null })
+    expect(s.beats[0].se).toEqual([{ code: '0001A', file: null }])
+  })
+})
+
 describe('buildScene — 画面フラッシュ flash（HU-38）', () => {
   it('flash は直後の beat（インパクト行）に強度を付与する', () => {
     const s = build([

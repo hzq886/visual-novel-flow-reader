@@ -844,7 +844,20 @@
       "pages": [
         [
           ""
-        ],
+        ]
+      ],
+      "bg": {
+        "label": "#EV052・眉寄せ我慢2・驚き焦り・挿入・愛液",
+        "file": "EV052_08"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_H002B",
+        "file": "voice/BGV_saki_h002b.ogg"
+      }
+    },
+    {
+      "kind": "narration",
+      "pages": [
         [
           "一边说着，一边摇摆着腰部，像是在磨熟一样，再次品味。",
           ""
@@ -860,6 +873,10 @@
       "bg": {
         "label": "#EV052・眉寄せ我慢2・驚き焦り・挿入・愛液",
         "file": "EV052_08"
+      },
+      "lpse": {
+        "code": "8131A",
+        "file": "se/8131a.ogg"
       },
       "bgv": {
         "id": "BGV_SAKI_H002B",
@@ -880,6 +897,10 @@
       "bg": {
         "label": "#EV052・眉寄せ我慢2・驚き焦り・挿入・愛液",
         "file": "EV052_08"
+      },
+      "lpse": {
+        "code": "8131A",
+        "file": "se/8131a.ogg"
       },
       "bgv": {
         "id": "BGV_SAKI_H002B",
@@ -913,6 +934,10 @@
           "file": "se/8361a.ogg"
         }
       ],
+      "lpse": {
+        "code": "8131A",
+        "file": "se/8131a.ogg"
+      },
       "bgv": {
         "id": "BGV_SAKI_H002B",
         "file": "voice/BGV_saki_h002b.ogg"
@@ -931,6 +956,10 @@
       "bg": {
         "label": "#EV052・眉寄せ我慢2・驚き焦り・挿入・愛液",
         "file": "EV052_08"
+      },
+      "lpse": {
+        "code": "8131A",
+        "file": "se/8131a.ogg"
       },
       "bgv": {
         "id": "BGV_SAKI_H002B",
@@ -976,6 +1005,10 @@
           "file": "se/8011b.ogg"
         }
       ],
+      "lpse": {
+        "code": "8131A",
+        "file": "se/8131a.ogg"
+      },
       "bgv": {
         "id": "BGV_SAKI_H002B",
         "file": "voice/BGV_saki_h002b.ogg"
@@ -994,6 +1027,10 @@
       "bg": {
         "label": "#EV052・眉寄せ我慢2・驚き焦り・挿入・愛液",
         "file": "EV052_08"
+      },
+      "lpse": {
+        "code": "8131A",
+        "file": "se/8131a.ogg"
       },
       "bgv": {
         "id": "BGV_SAKI_H002B",
@@ -1017,6 +1054,10 @@
         "label": "#EV052・眉寄せ我慢2・驚き焦り・挿入・愛液",
         "file": "EV052_08"
       },
+      "lpse": {
+        "code": "8131A",
+        "file": "se/8131a.ogg"
+      },
       "bgv": {
         "id": "BGV_SAKI_H002B",
         "file": "voice/BGV_saki_h002b.ogg"
@@ -1035,6 +1076,10 @@
       "bg": {
         "label": "#EV052・眉寄せ我慢2・驚き焦り・挿入・愛液",
         "file": "EV052_08"
+      },
+      "lpse": {
+        "code": "8131A",
+        "file": "se/8131a.ogg"
       },
       "bgv": {
         "id": "BGV_SAKI_H002B",
@@ -1067,6 +1112,10 @@
         "label": "#EV052・眉寄せ我慢2・驚き焦り・挿入・愛液",
         "file": "EV052_08"
       },
+      "lpse": {
+        "code": "8131A",
+        "file": "se/8131a.ogg"
+      },
       "bgv": {
         "id": "BGV_SAKI_H002B",
         "file": "voice/BGV_saki_h002b.ogg"
@@ -1086,6 +1135,10 @@
         "label": "#EV052・眉寄せ我慢2・驚き焦り・挿入・愛液",
         "file": "EV052_08"
       },
+      "lpse": {
+        "code": "8131A",
+        "file": "se/8131a.ogg"
+      },
       "bgv": {
         "id": "BGV_SAKI_H002B",
         "file": "voice/BGV_saki_h002b.ogg"
@@ -1101,6 +1154,10 @@
       "bg": {
         "label": "#EV052・眉寄せ我慢2・驚き焦り・挿入・愛液",
         "file": "EV052_08"
+      },
+      "lpse": {
+        "code": "8131A",
+        "file": "se/8131a.ogg"
       },
       "bgv": {
         "id": "BGV_SAKI_H002B",
@@ -1124,6 +1181,10 @@
         "label": "#EV052・うっとり・驚き焦り・挿入・愛液",
         "file": "EV052_09"
       },
+      "lpse": {
+        "code": "8101A",
+        "file": "se/8101a.ogg"
+      },
       "bgv": {
         "id": "BGV_SAKI_H002B",
         "file": "voice/BGV_saki_h002b.ogg"
@@ -1142,6 +1203,10 @@
       "bg": {
         "label": "#EV052・うっとり・驚き焦り・挿入・愛液",
         "file": "EV052_09"
+      },
+      "lpse": {
+        "code": "8101A",
+        "file": "se/8101a.ogg"
       },
       "bgv": {
         "id": "BGV_SAKI_H002B",
@@ -1176,6 +1241,10 @@
           "file": "se/8361a.ogg"
         }
       ],
+      "lpse": {
+        "code": "8101A",
+        "file": "se/8101a.ogg"
+      },
       "bgv": {
         "id": "BGV_SAKI_H002B",
         "file": "voice/BGV_saki_h002b.ogg"
@@ -1194,6 +1263,10 @@
       "bg": {
         "label": "#EV052・うっとり・驚き焦り・挿入・愛液",
         "file": "EV052_09"
+      },
+      "lpse": {
+        "code": "8101A",
+        "file": "se/8101a.ogg"
       },
       "bgv": {
         "id": "BGV_SAKI_H002B",
@@ -1220,6 +1293,10 @@
         "label": "#EV052・うっとり・驚き焦り・挿入・愛液",
         "file": "EV052_09"
       },
+      "lpse": {
+        "code": "8101A",
+        "file": "se/8101a.ogg"
+      },
       "bgv": {
         "id": "BGV_SAKI_H002B",
         "file": "voice/BGV_saki_h002b.ogg"
@@ -1240,6 +1317,10 @@
         "label": "#EV052・うっとり・驚き焦り・挿入・愛液",
         "file": "EV052_09"
       },
+      "lpse": {
+        "code": "8101A",
+        "file": "se/8101a.ogg"
+      },
       "bgv": {
         "id": "BGV_SAKI_H001B",
         "file": "voice/BGV_saki_h001b.ogg"
@@ -1259,6 +1340,10 @@
         "label": "#EV052・うっとり・驚き焦り・挿入・愛液",
         "file": "EV052_09"
       },
+      "lpse": {
+        "code": "8101A",
+        "file": "se/8101a.ogg"
+      },
       "bgv": {
         "id": "BGV_SAKI_H001B",
         "file": "voice/BGV_saki_h001b.ogg"
@@ -1277,6 +1362,10 @@
       "bg": {
         "label": "#EV052・うっとり・頬染め・挿入・愛液",
         "file": "EV052_10"
+      },
+      "lpse": {
+        "code": "8101A",
+        "file": "se/8101a.ogg"
       },
       "bgv": {
         "id": "BGV_SAKI_H001B",
@@ -1303,6 +1392,10 @@
         "label": "#EV052・うっとり・頬染め・挿入・愛液",
         "file": "EV052_10"
       },
+      "lpse": {
+        "code": "8101A",
+        "file": "se/8101a.ogg"
+      },
       "bgv": {
         "id": "BGV_SAKI_H001B",
         "file": "voice/BGV_saki_h001b.ogg"
@@ -1322,6 +1415,10 @@
       "bg": {
         "label": "#EV052・うっとり・頬染め・挿入・愛液",
         "file": "EV052_10"
+      },
+      "lpse": {
+        "code": "8101A",
+        "file": "se/8101a.ogg"
       },
       "bgv": {
         "id": "BGV_SAKI_H001B",
@@ -1345,6 +1442,10 @@
         "label": "#EV052・うっとり・頬染め・挿入・愛液",
         "file": "EV052_10"
       },
+      "lpse": {
+        "code": "8101A",
+        "file": "se/8101a.ogg"
+      },
       "bgv": {
         "id": "BGV_SAKI_H001B",
         "file": "voice/BGV_saki_h001b.ogg"
@@ -1364,6 +1465,10 @@
       "bg": {
         "label": "#EV052・うっとり・頬染め・挿入・愛液",
         "file": "EV052_10"
+      },
+      "lpse": {
+        "code": "8101A",
+        "file": "se/8101a.ogg"
       },
       "bgv": {
         "id": "BGV_SAKI_H002B",
@@ -1385,6 +1490,10 @@
         "label": "#EV052・うっとり・頬染め・挿入・愛液",
         "file": "EV052_10"
       },
+      "lpse": {
+        "code": "8101A",
+        "file": "se/8101a.ogg"
+      },
       "bgv": {
         "id": "BGV_SAKI_H002B",
         "file": "voice/BGV_saki_h002b.ogg"
@@ -1403,6 +1512,10 @@
       "bg": {
         "label": "#EV052・うっとり・頬染め・挿入・愛液",
         "file": "EV052_10"
+      },
+      "lpse": {
+        "code": "8101A",
+        "file": "se/8101a.ogg"
       },
       "bgv": {
         "id": "BGV_SAKI_H002B",
@@ -1423,6 +1536,10 @@
       "bg": {
         "label": "#EV052・うっとり・頬染め・挿入・愛液",
         "file": "EV052_10"
+      },
+      "lpse": {
+        "code": "8101A",
+        "file": "se/8101a.ogg"
       },
       "bgv": {
         "id": "BGV_SAKI_H002B",
@@ -1447,6 +1564,10 @@
         "label": "#EV052・うっとり・頬染め・挿入・愛液",
         "file": "EV052_10"
       },
+      "lpse": {
+        "code": "8101A",
+        "file": "se/8101a.ogg"
+      },
       "bgv": {
         "id": "BGV_SAKI_H002B",
         "file": "voice/BGV_saki_h002b.ogg"
@@ -1465,6 +1586,10 @@
       "bg": {
         "label": "#EV052・うっとり・頬染め・挿入・愛液",
         "file": "EV052_10"
+      },
+      "lpse": {
+        "code": "8101A",
+        "file": "se/8101a.ogg"
       },
       "bgv": {
         "id": "BGV_SAKI_H002B",
@@ -1491,6 +1616,10 @@
         "label": "#EV052・うっとり・頬染め・挿入・愛液",
         "file": "EV052_10"
       },
+      "lpse": {
+        "code": "8101A",
+        "file": "se/8101a.ogg"
+      },
       "bgv": {
         "id": "BGV_SAKI_H002B",
         "file": "voice/BGV_saki_h002b.ogg"
@@ -1511,6 +1640,10 @@
         "label": "#EV052・うっとり・頬染め・挿入・愛液",
         "file": "EV052_10"
       },
+      "lpse": {
+        "code": "8101A",
+        "file": "se/8101a.ogg"
+      },
       "bgv": {
         "id": "BGV_SAKI_H002B",
         "file": "voice/BGV_saki_h002b.ogg"
@@ -1530,6 +1663,10 @@
         "label": "#EV052・うっとり・頬染め・挿入・愛液",
         "file": "EV052_10"
       },
+      "lpse": {
+        "code": "8101A",
+        "file": "se/8101a.ogg"
+      },
       "bgv": {
         "id": "BGV_SAKI_H002B",
         "file": "voice/BGV_saki_h002b.ogg"
@@ -1544,6 +1681,10 @@
       "bg": {
         "label": "#EV052・うっとり・頬染め・挿入・愛液",
         "file": "EV052_10"
+      },
+      "lpse": {
+        "code": "8101A",
+        "file": "se/8101a.ogg"
       },
       "bgv": {
         "id": "BGV_SAKI_H002B",
@@ -1560,6 +1701,10 @@
       "bg": {
         "label": "#EV052・うっとり・頬染め・挿入・愛液",
         "file": "EV052_10"
+      },
+      "lpse": {
+        "code": "8101A",
+        "file": "se/8101a.ogg"
       },
       "bgv": {
         "id": "BGV_SAKI_H002B",
@@ -1588,6 +1733,10 @@
         "label": "#EV052・うっとり・頬染め・挿入・愛液",
         "file": "EV052_10"
       },
+      "lpse": {
+        "code": "8101A",
+        "file": "se/8101a.ogg"
+      },
       "bgv": {
         "id": "BGV_SAKI_H002B",
         "file": "voice/BGV_saki_h002b.ogg"
@@ -1607,6 +1756,10 @@
       "bg": {
         "label": "#EV052・うっとり・頬染め・挿入・愛液",
         "file": "EV052_10"
+      },
+      "lpse": {
+        "code": "8101A",
+        "file": "se/8101a.ogg"
       },
       "bgv": {
         "id": "BGV_SAKI_H002B",
@@ -1633,6 +1786,10 @@
         "label": "#EV052・うっとり・頬染め・挿入・愛液",
         "file": "EV052_10"
       },
+      "lpse": {
+        "code": "8101A",
+        "file": "se/8101a.ogg"
+      },
       "bgv": {
         "id": "BGV_SAKI_H002B",
         "file": "voice/BGV_saki_h002b.ogg"
@@ -1647,6 +1804,10 @@
       "bg": {
         "label": "#EV052・うっとり・頬染め・挿入・愛液",
         "file": "EV052_10"
+      },
+      "lpse": {
+        "code": "8101A",
+        "file": "se/8101a.ogg"
       },
       "bgv": {
         "id": "BGV_SAKI_H002B",
@@ -1667,6 +1828,10 @@
         "label": "#EV052・うっとり・頬染め・挿入・愛液",
         "file": "EV052_10"
       },
+      "lpse": {
+        "code": "8101A",
+        "file": "se/8101a.ogg"
+      },
       "bgv": {
         "id": "BGV_SAKI_H002B",
         "file": "voice/BGV_saki_h002b.ogg"
@@ -1682,6 +1847,10 @@
       "bg": {
         "label": "#EV052・うっとり・頬染め・挿入・愛液",
         "file": "EV052_10"
+      },
+      "lpse": {
+        "code": "8101A",
+        "file": "se/8101a.ogg"
       },
       "bgv": {
         "id": "BGV_SAKI_H002B",
@@ -1703,6 +1872,10 @@
         "label": "#EV052・蕩け・頬染め・挿入・愛液",
         "file": "EV052_11"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_SAKI_H002B",
         "file": "voice/BGV_saki_h002b.ogg"
@@ -1721,6 +1894,10 @@
       "bg": {
         "label": "#EV052・蕩け・頬染め・挿入・愛液",
         "file": "EV052_11"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_SAKI_H002B",
@@ -1752,6 +1929,10 @@
         "label": "#EV052・蕩け・頬染め・挿入・愛液",
         "file": "EV052_11"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_SAKI_H002B",
         "file": "voice/BGV_saki_h002b.ogg"
@@ -1770,6 +1951,10 @@
       "bg": {
         "label": "#EV052・蕩け・頬染め・挿入・愛液",
         "file": "EV052_11"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_SAKI_H002B",
@@ -1793,6 +1978,10 @@
         "label": "#EV052・蕩け・頬染め・挿入・愛液",
         "file": "EV052_11"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_SAKI_H002B",
         "file": "voice/BGV_saki_h002b.ogg"
@@ -1811,6 +2000,10 @@
       "bg": {
         "label": "#EV052・蕩け・頬染め・挿入・愛液",
         "file": "EV052_11"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_SAKI_H002B",
@@ -1839,6 +2032,10 @@
         "label": "#EV052・蕩け・頬染め・挿入・愛液",
         "file": "EV052_11"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_SAKI_H002B",
         "file": "voice/BGV_saki_h002b.ogg"
@@ -1857,6 +2054,10 @@
       "bg": {
         "label": "#EV052・蕩け・頬染め・挿入・愛液",
         "file": "EV052_11"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_SAKI_H002B",
@@ -1881,6 +2082,10 @@
         "label": "#EV052・蕩け・頬染め・挿入・愛液",
         "file": "EV052_11"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_SAKI_H002B",
         "file": "voice/BGV_saki_h002b.ogg"
@@ -1899,6 +2104,10 @@
       "bg": {
         "label": "#EV052・蕩け・頬染め・挿入・愛液",
         "file": "EV052_11"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_SAKI_H002B",
@@ -1930,6 +2139,10 @@
         "label": "#EV052・蕩け・頬染め・挿入・愛液",
         "file": "EV052_11"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_SAKI_H002B",
         "file": "voice/BGV_saki_h002b.ogg"
@@ -1948,6 +2161,10 @@
       "bg": {
         "label": "#EV052・蕩け・頬染め・挿入・愛液",
         "file": "EV052_11"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_SAKI_H002B",
@@ -1975,6 +2192,10 @@
         "label": "#EV052・蕩け・頬染め・挿入・愛液",
         "file": "EV052_11"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_SAKI_H002B",
         "file": "voice/BGV_saki_h002b.ogg"
@@ -1994,6 +2215,10 @@
       "bg": {
         "label": "#EV052・蕩け・頬染め・挿入・愛液",
         "file": "EV052_11"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_SAKI_H002B",
@@ -2020,6 +2245,10 @@
         "label": "#EV052・蕩け・頬染め・挿入・愛液",
         "file": "EV052_11"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_SAKI_H002B",
         "file": "voice/BGV_saki_h002b.ogg"
@@ -2034,6 +2263,10 @@
       "bg": {
         "label": "#EV052・蕩け・頬染め・挿入・愛液",
         "file": "EV052_11"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_SAKI_H002B",
@@ -2061,6 +2294,10 @@
           "file": "se/8011b.ogg"
         }
       ],
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_SAKI_H002B",
         "file": "voice/BGV_saki_h002b.ogg"
@@ -2080,6 +2317,10 @@
       "bg": {
         "label": "#EV052・うっとり・頬染め・挿入・愛液",
         "file": "EV052_10"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_SAKI_H002B",
@@ -2104,6 +2345,10 @@
         "label": "#EV052・うっとり・頬染め・挿入・愛液",
         "file": "EV052_10"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_SAKI_H002B",
         "file": "voice/BGV_saki_h002b.ogg"
@@ -2122,6 +2367,10 @@
       "bg": {
         "label": "#EV052・うっとり・頬染め・挿入・愛液",
         "file": "EV052_10"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_SAKI_H002B",
@@ -2152,6 +2401,10 @@
         "label": "#EV052・うっとり・頬染め・挿入・愛液",
         "file": "EV052_10"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_SAKI_H002B",
         "file": "voice/BGV_saki_h002b.ogg"
@@ -2172,6 +2425,10 @@
         "label": "#EV052・うっとり・頬染め・挿入・愛液",
         "file": "EV052_10"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_SAKI_H002B",
         "file": "voice/BGV_saki_h002b.ogg"
@@ -2191,6 +2448,10 @@
         "label": "#EV052・うっとり・頬染め・挿入・愛液",
         "file": "EV052_10"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_SAKI_H002B",
         "file": "voice/BGV_saki_h002b.ogg"
@@ -2209,6 +2470,10 @@
       "bg": {
         "label": "#EV052・蕩け・頬染め・挿入・愛液",
         "file": "EV052_11"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_SAKI_H003B",
@@ -2236,6 +2501,10 @@
         "label": "#EV052・蕩け・頬染め・挿入・愛液",
         "file": "EV052_11"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_SAKI_H003B",
         "file": "voice/BGV_saki_h003b.ogg"
@@ -2255,6 +2524,10 @@
       "bg": {
         "label": "#EV052・蕩け・頬染め・挿入・愛液",
         "file": "EV052_11"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_SAKI_H003B",
@@ -2281,6 +2554,10 @@
         "label": "#EV052・蕩け・頬染め・挿入・愛液",
         "file": "EV052_11"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_SAKI_H003B",
         "file": "voice/BGV_saki_h003b.ogg"
@@ -2299,6 +2576,10 @@
       "bg": {
         "label": "#EV052・蕩け・頬染め・挿入・愛液",
         "file": "EV052_11"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_SAKI_H003B",
@@ -2322,6 +2603,10 @@
         "label": "#EV052・蕩け・頬染め・挿入・愛液",
         "file": "EV052_11"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_SAKI_H003B",
         "file": "voice/BGV_saki_h003b.ogg"
@@ -2340,6 +2625,10 @@
       "bg": {
         "label": "#EV052・蕩け・頬染め・挿入・愛液",
         "file": "EV052_11"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_SAKI_H003B",
@@ -2360,6 +2649,10 @@
         "label": "#EV052・蕩け・頬染め・挿入・愛液",
         "file": "EV052_11"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_SAKI_H003B",
         "file": "voice/BGV_saki_h003b.ogg"
@@ -2378,6 +2671,10 @@
       "bg": {
         "label": "#EV052・蕩け・頬染め・挿入・愛液",
         "file": "EV052_11"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_SAKI_H003B",
@@ -2401,6 +2698,10 @@
         "label": "#EV052・蕩け・頬染め・挿入・愛液",
         "file": "EV052_11"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_SAKI_H003B",
         "file": "voice/BGV_saki_h003b.ogg"
@@ -2419,6 +2720,10 @@
       "bg": {
         "label": "#EV052・蕩け・頬染め・挿入・愛液",
         "file": "EV052_11"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_SAKI_H003B",
@@ -2443,6 +2748,10 @@
         "label": "#EV052・蕩け・頬染め・挿入・愛液",
         "file": "EV052_11"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_SAKI_H003B",
         "file": "voice/BGV_saki_h003b.ogg"
@@ -2461,6 +2770,10 @@
       "bg": {
         "label": "#EV052・蕩け・頬染め・挿入・愛液",
         "file": "EV052_11"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_SAKI_H003B",
@@ -2488,6 +2801,10 @@
           "file": "se/8201b.ogg"
         }
       ],
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_SAKI_H003B",
         "file": "voice/BGV_saki_h003b.ogg"
@@ -2503,6 +2820,10 @@
       "bg": {
         "label": "#EV052・蕩け・頬染め・挿入・精液",
         "file": "EV052_12"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_SAKI_H003B",
@@ -2525,6 +2846,10 @@
         "label": "#EV052・蕩け・頬染め・挿入・精液",
         "file": "EV052_12"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_SAKI_H003B",
         "file": "voice/BGV_saki_h003b.ogg"
@@ -2543,6 +2868,10 @@
       "bg": {
         "label": "#EV052・蕩け・頬染め・挿入・精液",
         "file": "EV052_12"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_SAKI_H003B",
@@ -2570,6 +2899,10 @@
           "file": "se/8351a.ogg"
         }
       ],
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_SAKI_H003B",
         "file": "voice/BGV_saki_h003b.ogg"
@@ -2589,6 +2922,10 @@
       "bg": {
         "label": "#EV052・蕩け・頬染め・挿入・精液",
         "file": "EV052_12"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_SAKI_H003B",
@@ -2611,6 +2948,10 @@
         "label": "#EV052・蕩け・頬染め・挿入・精液",
         "file": "EV052_12"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_SAKI_H003B",
         "file": "voice/BGV_saki_h003b.ogg"
@@ -2630,6 +2971,10 @@
       "bg": {
         "label": "#EV052・蕩け・頬染め・挿入・精液",
         "file": "EV052_12"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_SAKI_H003B",
@@ -2651,6 +2996,10 @@
         "label": "#EV052・蕩け・頬染め・挿入・精液",
         "file": "EV052_12"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_SAKI_H003B",
         "file": "voice/BGV_saki_h003b.ogg"
@@ -2671,6 +3020,10 @@
         "label": "#EV052・蕩け・頬染め・挿入・精液",
         "file": "EV052_12"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_SAKI_H003B",
         "file": "voice/BGV_saki_h003b.ogg"
@@ -2690,6 +3043,10 @@
       "bg": {
         "label": "#EV052・蕩け・頬染め・挿入・精液",
         "file": "EV052_12"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_SAKI_H003B",
@@ -2723,6 +3080,10 @@
           "file": "se/8201b.ogg"
         }
       ],
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_SAKI_H003B",
         "file": "voice/BGV_saki_h003b.ogg"
@@ -2742,6 +3103,10 @@
         "label": "#EV052・蕩け・頬染め・挿入・精液",
         "file": "EV052_12"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_SAKI_H003B",
         "file": "voice/BGV_saki_h003b.ogg"
@@ -2758,6 +3123,10 @@
       "bg": {
         "label": "#EV052・蕩け・頬染め・挿入・精液",
         "file": "EV052_12"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_SAKI_H003B",
@@ -2780,6 +3149,10 @@
           "file": "se/8321c.ogg"
         }
       ],
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_SAKI_H003B",
         "file": "voice/BGV_saki_h003b.ogg"
@@ -2796,6 +3169,10 @@
       "bg": {
         "label": "#EV052・蕩け・頬染め・挿入・精液",
         "file": "EV052_12"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_SAKI_H003B",
@@ -2815,6 +3192,10 @@
       "bg": {
         "label": "#EV052・蕩け・頬染め・挿入・精液",
         "file": "EV052_12"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_SAKI_H003B",
@@ -2845,6 +3226,10 @@
           "file": "se/8311b.ogg"
         }
       ],
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_SAKI_H003B",
         "file": "voice/BGV_saki_h003b.ogg"
@@ -2863,6 +3248,10 @@
       "bg": {
         "label": "#EV052・蕩け・頬染め・挿入・精液",
         "file": "EV052_12"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_SAKI_H003B",
@@ -2890,6 +3279,10 @@
         "label": "#EV052・蕩け・頬染め・挿入・精液",
         "file": "EV052_12"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_SAKI_H003B",
         "file": "voice/BGV_saki_h003b.ogg"
@@ -2909,6 +3302,10 @@
         "label": "#EV052・蕩け・頬染め・挿入・精液",
         "file": "EV052_12"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_SAKI_H003B",
         "file": "voice/BGV_saki_h003b.ogg"
@@ -2927,6 +3324,10 @@
       "bg": {
         "label": "#EV052・蕩け・頬染め・挿入・精液",
         "file": "EV052_12"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_SAKI_H003B",
@@ -2953,6 +3354,10 @@
       "bg": {
         "label": "#背景・黒一色",
         "file": "BG_BLACK"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_SAKI_H003B",

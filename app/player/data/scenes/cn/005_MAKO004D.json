@@ -486,7 +486,16 @@
         [
           "在这种状态下扭动腰部，充血而鼓胀的裂缝就会擦到顶端。",
           ""
-        ],
+        ]
+      ],
+      "bg": {
+        "label": "#EV029・怒り・未挿入",
+        "file": "EV029_01"
+      }
+    },
+    {
+      "kind": "narration",
+      "pages": [
         [
           "滑溜溜的……滑溜溜的……"
         ]
@@ -494,6 +503,10 @@
       "bg": {
         "label": "#EV029・怒り・未挿入",
         "file": "EV029_01"
+      },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
       }
     },
     {
@@ -509,6 +522,10 @@
       "bg": {
         "label": "#EV029・怒り・未挿入",
         "file": "EV029_01"
+      },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
       }
     },
     {
@@ -531,6 +548,10 @@
       "bg": {
         "label": "#EV029・怒り・未挿入",
         "file": "EV029_01"
+      },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
       }
     },
     {
@@ -542,6 +563,10 @@
       "bg": {
         "label": "#EV029・怒り・未挿入",
         "file": "EV029_01"
+      },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
       }
     },
     {
@@ -554,6 +579,10 @@
       "bg": {
         "label": "#EV029・怒り・未挿入",
         "file": "EV029_01"
+      },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
       }
     },
     {
@@ -569,6 +598,10 @@
       "bg": {
         "label": "#EV029・怒り・未挿入",
         "file": "EV029_01"
+      },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
       }
     },
     {
@@ -581,6 +614,10 @@
       "bg": {
         "label": "#EV029・怒り・未挿入",
         "file": "EV029_01"
+      },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
       }
     },
     {
@@ -592,6 +629,10 @@
       "bg": {
         "label": "#EV029・怒り・未挿入",
         "file": "EV029_01"
+      },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
       }
     },
     {
@@ -608,6 +649,10 @@
       "bg": {
         "label": "#EV029・怒り・未挿入",
         "file": "EV029_01"
+      },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
       }
     },
     {
@@ -624,6 +669,10 @@
       "bg": {
         "label": "#EV029・恐れおののき・未挿入",
         "file": "EV029_02"
+      },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
       }
     },
     {
@@ -643,6 +692,10 @@
       "bg": {
         "label": "#EV029・恐れおののき・未挿入",
         "file": "EV029_02"
+      },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
       }
     },
     {
@@ -654,6 +707,10 @@
       "bg": {
         "label": "#EV029・恐れおののき・未挿入",
         "file": "EV029_02"
+      },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
       }
     },
     {
@@ -666,6 +723,10 @@
       "bg": {
         "label": "#EV029・恐れおののき・未挿入",
         "file": "EV029_02"
+      },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
       }
     },
     {
@@ -682,6 +743,10 @@
       "bg": {
         "label": "#EV029・怒り・未挿入",
         "file": "EV029_01"
+      },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
       }
     },
     {
@@ -695,6 +760,10 @@
       "bg": {
         "label": "#EV029・怒り・未挿入",
         "file": "EV029_01"
+      },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
       }
     },
     {
@@ -710,6 +779,10 @@
       "bg": {
         "label": "#EV029・怒り・未挿入",
         "file": "EV029_01"
+      },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
       }
     },
     {
@@ -725,6 +798,10 @@
       "bg": {
         "label": "#EV029・怒り・未挿入",
         "file": "EV029_01"
+      },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
       }
     },
     {
@@ -736,6 +813,10 @@
       "bg": {
         "label": "#EV029・怒り・未挿入",
         "file": "EV029_01"
+      },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
       }
     },
     {
@@ -752,6 +833,10 @@
       "bg": {
         "label": "#EV029・怒り・未挿入",
         "file": "EV029_01"
+      },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
       }
     },
     {
@@ -770,6 +855,10 @@
       "bg": {
         "label": "#EV029・怒り・未挿入",
         "file": "EV029_01"
+      },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
       }
     },
     {
@@ -782,6 +871,10 @@
       "bg": {
         "label": "#EV029・怒り・未挿入",
         "file": "EV029_01"
+      },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
       }
     },
     {
@@ -794,6 +887,10 @@
       "bg": {
         "label": "#EV029・怒り・未挿入",
         "file": "EV029_01"
+      },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
       }
     },
     {
@@ -809,6 +906,10 @@
       "bg": {
         "label": "#EV029・怒り・未挿入",
         "file": "EV029_01"
+      },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
       }
     },
     {
@@ -821,6 +922,10 @@
       "bg": {
         "label": "#EV029・怒り・未挿入",
         "file": "EV029_01"
+      },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
       }
     },
     {
@@ -832,6 +937,10 @@
       "bg": {
         "label": "#EV029・怒り・未挿入",
         "file": "EV029_01"
+      },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
       }
     },
     {
@@ -851,6 +960,10 @@
       "bg": {
         "label": "#EV029・怒り・未挿入",
         "file": "EV029_01"
+      },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
       }
     },
     {
@@ -867,6 +980,10 @@
       "bg": {
         "label": "#EV029・苦悶2・未挿入",
         "file": "EV029_03"
+      },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
       }
     },
     {
@@ -892,6 +1009,10 @@
       "bg": {
         "label": "#EV029・苦悶2・未挿入",
         "file": "EV029_03"
+      },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
       }
     },
     {
@@ -908,6 +1029,10 @@
       "bg": {
         "label": "#EV029・苦悶2・未挿入",
         "file": "EV029_03"
+      },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
       }
     },
     {
@@ -926,6 +1051,10 @@
       "bg": {
         "label": "#EV029・苦悶2・未挿入",
         "file": "EV029_03"
+      },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
       }
     },
     {
@@ -941,6 +1070,10 @@
       "bg": {
         "label": "#EV029・苦悶2・未挿入",
         "file": "EV029_03"
+      },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
       },
       "bgv": {
         "id": "BGV_MAKO_H001A",
@@ -968,6 +1101,10 @@
         "label": "#EV029・苦悶2・未挿入",
         "file": "EV029_03"
       },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
+      },
       "bgv": {
         "id": "BGV_MAKO_H001A",
         "file": "voice/BGV_mako_h001a.ogg"
@@ -986,6 +1123,10 @@
       "bg": {
         "label": "#EV029・苦悶2・未挿入",
         "file": "EV029_03"
+      },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
       },
       "bgv": {
         "id": "BGV_MAKO_H001A",
@@ -1013,6 +1154,10 @@
         "label": "#EV029・苦悶2・未挿入",
         "file": "EV029_03"
       },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
+      },
       "bgv": {
         "id": "BGV_MAKO_H001A",
         "file": "voice/BGV_mako_h001a.ogg"
@@ -1032,6 +1177,10 @@
       "bg": {
         "label": "#EV029・苦悶2・未挿入",
         "file": "EV029_03"
+      },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
       },
       "bgv": {
         "id": "BGV_MAKO_H001A",
@@ -1065,6 +1214,10 @@
         "label": "#EV029・苦悶2・未挿入",
         "file": "EV029_03"
       },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
+      },
       "bgv": {
         "id": "BGV_MAKO_H001A",
         "file": "voice/BGV_mako_h001a.ogg"
@@ -1079,6 +1232,10 @@
       "bg": {
         "label": "#EV029・苦悶2・未挿入",
         "file": "EV029_03"
+      },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
       },
       "bgv": {
         "id": "BGV_MAKO_H001A",
@@ -1095,6 +1252,10 @@
       "bg": {
         "label": "#EV029・苦悶2・未挿入",
         "file": "EV029_03"
+      },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
       },
       "bgv": {
         "id": "BGV_MAKO_H001A",
@@ -1114,6 +1275,10 @@
       "bg": {
         "label": "#EV029・恐れおののき2・未挿入",
         "file": "EV029_04"
+      },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
       },
       "bgv": {
         "id": "BGV_MAKO_H001A",
@@ -1138,6 +1303,10 @@
         "label": "#EV029・恐れおののき2・未挿入",
         "file": "EV029_04"
       },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
+      },
       "bgv": {
         "id": "BGV_MAKO_H001A",
         "file": "voice/BGV_mako_h001a.ogg"
@@ -1156,6 +1325,10 @@
       "bg": {
         "label": "#EV029・恐れおののき2・未挿入",
         "file": "EV029_04"
+      },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
       },
       "bgv": {
         "id": "BGV_MAKO_H001A",
@@ -1179,6 +1352,10 @@
           "file": "se/8001a.ogg"
         }
       ],
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
+      },
       "bgv": {
         "id": "BGV_MAKO_H001A",
         "file": "voice/BGV_mako_h001a.ogg"
@@ -1205,6 +1382,10 @@
         "label": "#EV029・悶絶・挿入",
         "file": "EV029_05"
       },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
+      },
       "bgv": {
         "id": "BGV_MAKO_H001A",
         "file": "voice/BGV_mako_h001a.ogg"
@@ -1223,6 +1404,10 @@
       "bg": {
         "label": "#EV029・悶絶・挿入",
         "file": "EV029_05"
+      },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
       },
       "bgv": {
         "id": "BGV_MAKO_H001A",
@@ -1253,6 +1438,10 @@
         "label": "#EV029・悶絶・挿入",
         "file": "EV029_05"
       },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
+      },
       "bgv": {
         "id": "BGV_MAKO_H001A",
         "file": "voice/BGV_mako_h001a.ogg"
@@ -1279,6 +1468,10 @@
           "file": "se/8001b.ogg"
         }
       ],
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
+      },
       "bgv": {
         "id": "BGV_MAKO_H001A",
         "file": "voice/BGV_mako_h001a.ogg"
@@ -1301,6 +1494,10 @@
         "label": "#EV029・苦悶・挿入・破瓜",
         "file": "EV029_06"
       },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
+      },
       "bgv": {
         "id": "BGV_MAKO_H001A",
         "file": "voice/BGV_mako_h001a.ogg"
@@ -1320,6 +1517,10 @@
       "bg": {
         "label": "#EV029・苦悶・挿入・破瓜",
         "file": "EV029_06"
+      },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
       },
       "bgv": {
         "id": "BGV_MAKO_H001A",
@@ -1346,6 +1547,10 @@
           "file": "se/8011b.ogg"
         }
       ],
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
+      },
       "bgv": {
         "id": "BGV_MAKO_H001A",
         "file": "voice/BGV_mako_h001a.ogg"
@@ -1365,6 +1570,10 @@
       "bg": {
         "label": "#EV029・苦悶・挿入・破瓜",
         "file": "EV029_06"
+      },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
       },
       "bgv": {
         "id": "BGV_MAKO_H001A",
@@ -1392,6 +1601,10 @@
         "label": "#EV029・苦悶・挿入・破瓜",
         "file": "EV029_06"
       },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
+      },
       "bgv": {
         "id": "BGV_MAKO_H001A",
         "file": "voice/BGV_mako_h001a.ogg"
@@ -1411,6 +1624,10 @@
       "bg": {
         "label": "#EV029・苦悶・挿入・破瓜",
         "file": "EV029_06"
+      },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
       },
       "bgv": {
         "id": "BGV_MAKO_H001A",
@@ -1435,6 +1652,10 @@
         "label": "#EV029・苦悶・挿入・破瓜",
         "file": "EV029_06"
       },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
+      },
       "bgv": {
         "id": "BGV_MAKO_H001A",
         "file": "voice/BGV_mako_h001a.ogg"
@@ -1454,6 +1675,10 @@
       "bg": {
         "label": "#EV029・苦悶・挿入・破瓜",
         "file": "EV029_06"
+      },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
       },
       "bgv": {
         "id": "BGV_MAKO_H001A",
@@ -1481,6 +1706,10 @@
         "label": "#EV029・苦悶・挿入・破瓜",
         "file": "EV029_06"
       },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
+      },
       "bgv": {
         "id": "BGV_MAKO_H001A",
         "file": "voice/BGV_mako_h001a.ogg"
@@ -1499,6 +1728,10 @@
       "bg": {
         "label": "#EV029・苦悶・挿入・破瓜",
         "file": "EV029_06"
+      },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
       },
       "bgv": {
         "id": "BGV_MAKO_H001A",
@@ -1528,6 +1761,10 @@
         "label": "#EV029・苦悶・挿入・破瓜",
         "file": "EV029_06"
       },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
+      },
       "bgv": {
         "id": "BGV_MAKO_H001A",
         "file": "voice/BGV_mako_h001a.ogg"
@@ -1542,6 +1779,10 @@
       "bg": {
         "label": "#EV029・苦悶・挿入・破瓜",
         "file": "EV029_06"
+      },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
       },
       "bgv": {
         "id": "BGV_MAKO_H001A",
@@ -1562,6 +1803,10 @@
         "label": "#EV029・苦悶・挿入・破瓜",
         "file": "EV029_06"
       },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
+      },
       "bgv": {
         "id": "BGV_MAKO_H001A",
         "file": "voice/BGV_mako_h001a.ogg"
@@ -1578,6 +1823,10 @@
         "label": "#EV029・催眠・挿入・破瓜",
         "file": "EV029_07"
       },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
+      },
       "bgv": {
         "id": "BGV_MAKO_H001A",
         "file": "voice/BGV_mako_h001a.ogg"
@@ -1593,6 +1842,10 @@
       "bg": {
         "label": "#EV029・催眠・挿入・破瓜",
         "file": "EV029_07"
+      },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
       },
       "bgv": {
         "id": "BGV_MAKO_H001A",
@@ -1613,6 +1866,10 @@
       "bg": {
         "label": "#EV029・催眠・挿入・破瓜",
         "file": "EV029_07"
+      },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
       },
       "bgv": {
         "id": "BGV_MAKO_H001A",
@@ -1637,6 +1894,10 @@
         "label": "#EV029・催眠・挿入・破瓜",
         "file": "EV029_07"
       },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
+      },
       "bgv": {
         "id": "BGV_MAKO_H001A",
         "file": "voice/BGV_mako_h001a.ogg"
@@ -1659,6 +1920,10 @@
           "file": "se/9001a.ogg"
         }
       ],
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
+      },
       "bgv": {
         "id": "BGV_MAKO_H001A",
         "file": "voice/BGV_mako_h001a.ogg"
@@ -1677,6 +1942,10 @@
       "bg": {
         "label": "#EV029・恐れおののき・挿入・破瓜",
         "file": "EV029_08"
+      },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
       },
       "bgv": {
         "id": "BGV_MAKO_H001A",
@@ -1699,6 +1968,10 @@
         "label": "#EV029・恐れおののき・挿入・破瓜",
         "file": "EV029_08"
       },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
+      },
       "bgv": {
         "id": "BGV_MAKO_H001A",
         "file": "voice/BGV_mako_h001a.ogg"
@@ -1719,6 +1992,10 @@
         "label": "#EV029・恐れおののき・挿入・破瓜",
         "file": "EV029_08"
       },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
+      },
       "bgv": {
         "id": "BGV_MAKO_H001A",
         "file": "voice/BGV_mako_h001a.ogg"
@@ -1733,6 +2010,10 @@
       "bg": {
         "label": "#EV029・恐れおののき・挿入・破瓜",
         "file": "EV029_08"
+      },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
       },
       "bgv": {
         "id": "BGV_MAKO_H001A",
@@ -1754,6 +2035,10 @@
         "label": "#EV029・怒り・挿入・破瓜",
         "file": "EV029_09"
       },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
+      },
       "bgv": {
         "id": "BGV_MAKO_H001A",
         "file": "voice/BGV_mako_h001a.ogg"
@@ -1769,6 +2054,10 @@
       "bg": {
         "label": "#EV029・怒り・挿入・破瓜",
         "file": "EV029_09"
+      },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
       },
       "bgv": {
         "id": "BGV_MAKO_H001A",
@@ -1790,6 +2079,10 @@
         "label": "#EV029・怒り・挿入・破瓜",
         "file": "EV029_09"
       },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
+      },
       "bgv": {
         "id": "BGV_MAKO_H001A",
         "file": "voice/BGV_mako_h001a.ogg"
@@ -1810,6 +2103,10 @@
         "label": "#EV029・怒り・挿入・破瓜",
         "file": "EV029_09"
       },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
+      },
       "bgv": {
         "id": "BGV_MAKO_H001A",
         "file": "voice/BGV_mako_h001a.ogg"
@@ -1824,6 +2121,10 @@
       "bg": {
         "label": "#EV029・怒り・挿入・破瓜",
         "file": "EV029_09"
+      },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
       },
       "bgv": {
         "id": "BGV_MAKO_H001A",
@@ -1844,6 +2145,10 @@
         "label": "#EV029・怒り・挿入・破瓜",
         "file": "EV029_09"
       },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
+      },
       "bgv": {
         "id": "BGV_MAKO_H001A",
         "file": "voice/BGV_mako_h001a.ogg"
@@ -1858,6 +2163,10 @@
       "bg": {
         "label": "#EV029・怒り・挿入・破瓜",
         "file": "EV029_09"
+      },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
       },
       "bgv": {
         "id": "BGV_MAKO_H001A",
@@ -1874,6 +2183,10 @@
       "bg": {
         "label": "#EV029・怒り・挿入・破瓜",
         "file": "EV029_09"
+      },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
       },
       "bgv": {
         "id": "BGV_MAKO_H001A",
@@ -1894,6 +2207,10 @@
       "bg": {
         "label": "#EV029・怒り・挿入・破瓜",
         "file": "EV029_09"
+      },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
       },
       "bgv": {
         "id": "BGV_MAKO_H001A",
@@ -1917,6 +2234,10 @@
         "label": "#EV029・苦悶・挿入・破瓜",
         "file": "EV029_06"
       },
+      "lpse": {
+        "code": "8101A",
+        "file": "se/8101a.ogg"
+      },
       "bgv": {
         "id": "BGV_MAKO_H001A",
         "file": "voice/BGV_mako_h001a.ogg"
@@ -1936,6 +2257,10 @@
       "bg": {
         "label": "#EV029・苦悶・挿入・破瓜",
         "file": "EV029_06"
+      },
+      "lpse": {
+        "code": "8101A",
+        "file": "se/8101a.ogg"
       },
       "bgv": {
         "id": "BGV_MAKO_H001A",
@@ -1960,6 +2285,10 @@
         "label": "#EV029・苦悶・挿入・破瓜",
         "file": "EV029_06"
       },
+      "lpse": {
+        "code": "8101A",
+        "file": "se/8101a.ogg"
+      },
       "bgv": {
         "id": "BGV_MAKO_H001A",
         "file": "voice/BGV_mako_h001a.ogg"
@@ -1978,6 +2307,10 @@
       "bg": {
         "label": "#EV029・苦悶・挿入・破瓜",
         "file": "EV029_06"
+      },
+      "lpse": {
+        "code": "8101A",
+        "file": "se/8101a.ogg"
       },
       "bgv": {
         "id": "BGV_MAKO_H001A",
@@ -2006,6 +2339,10 @@
         "label": "#EV029・苦悶・挿入・破瓜",
         "file": "EV029_06"
       },
+      "lpse": {
+        "code": "8101A",
+        "file": "se/8101a.ogg"
+      },
       "bgv": {
         "id": "BGV_MAKO_H001A",
         "file": "voice/BGV_mako_h001a.ogg"
@@ -2024,6 +2361,10 @@
       "bg": {
         "label": "#EV029・苦悶・挿入・破瓜",
         "file": "EV029_06"
+      },
+      "lpse": {
+        "code": "8101A",
+        "file": "se/8101a.ogg"
       },
       "bgv": {
         "id": "BGV_MAKO_H001A",
@@ -2053,6 +2394,10 @@
         "label": "#EV029・苦悶・挿入・破瓜",
         "file": "EV029_06"
       },
+      "lpse": {
+        "code": "8101A",
+        "file": "se/8101a.ogg"
+      },
       "bgv": {
         "id": "BGV_MAKO_H001A",
         "file": "voice/BGV_mako_h001a.ogg"
@@ -2071,6 +2416,10 @@
       "bg": {
         "label": "#EV029・苦悶・挿入・愛液",
         "file": "EV029_10"
+      },
+      "lpse": {
+        "code": "8101A",
+        "file": "se/8101a.ogg"
       },
       "bgv": {
         "id": "BGV_MAKO_H001A",
@@ -2102,6 +2451,10 @@
         "label": "#EV029・苦悶・挿入・愛液",
         "file": "EV029_10"
       },
+      "lpse": {
+        "code": "8101A",
+        "file": "se/8101a.ogg"
+      },
       "bgv": {
         "id": "BGV_MAKO_H001A",
         "file": "voice/BGV_mako_h001a.ogg"
@@ -2121,6 +2474,10 @@
       "bg": {
         "label": "#EV029・苦悶・挿入・愛液",
         "file": "EV029_10"
+      },
+      "lpse": {
+        "code": "8101A",
+        "file": "se/8101a.ogg"
       },
       "bgv": {
         "id": "BGV_MAKO_H001A",
@@ -2148,6 +2505,10 @@
         "label": "#EV029・苦悶・挿入・愛液",
         "file": "EV029_10"
       },
+      "lpse": {
+        "code": "8101A",
+        "file": "se/8101a.ogg"
+      },
       "bgv": {
         "id": "BGV_MAKO_H001A",
         "file": "voice/BGV_mako_h001a.ogg"
@@ -2167,6 +2528,10 @@
       "bg": {
         "label": "#EV029・苦悶・挿入・愛液",
         "file": "EV029_10"
+      },
+      "lpse": {
+        "code": "8101A",
+        "file": "se/8101a.ogg"
       },
       "bgv": {
         "id": "BGV_MAKO_H001A",
@@ -2200,6 +2565,10 @@
         "label": "#EV029・苦悶・挿入・愛液",
         "file": "EV029_10"
       },
+      "lpse": {
+        "code": "8101A",
+        "file": "se/8101a.ogg"
+      },
       "bgv": {
         "id": "BGV_MAKO_H001A",
         "file": "voice/BGV_mako_h001a.ogg"
@@ -2215,6 +2584,10 @@
       "bg": {
         "label": "#EV029・苦悶・挿入・愛液",
         "file": "EV029_10"
+      },
+      "lpse": {
+        "code": "8101A",
+        "file": "se/8101a.ogg"
       },
       "bgv": {
         "id": "BGV_MAKO_H001A",
@@ -2235,6 +2608,10 @@
       "bg": {
         "label": "#EV029・苦悶・挿入・愛液",
         "file": "EV029_10"
+      },
+      "lpse": {
+        "code": "8101A",
+        "file": "se/8101a.ogg"
       },
       "bgv": {
         "id": "BGV_MAKO_H001A",
@@ -2262,6 +2639,10 @@
         "label": "#EV029・苦悶・挿入・愛液",
         "file": "EV029_10"
       },
+      "lpse": {
+        "code": "8101A",
+        "file": "se/8101a.ogg"
+      },
       "bgv": {
         "id": "BGV_MAKO_H001A",
         "file": "voice/BGV_mako_h001a.ogg"
@@ -2282,6 +2663,10 @@
         "label": "#EV029・苦悶・挿入・愛液",
         "file": "EV029_10"
       },
+      "lpse": {
+        "code": "8101A",
+        "file": "se/8101a.ogg"
+      },
       "bgv": {
         "id": "BGV_MAKO_H001A",
         "file": "voice/BGV_mako_h001a.ogg"
@@ -2297,6 +2682,10 @@
       "bg": {
         "label": "#EV029・悶絶・挿入・愛液",
         "file": "EV029_11"
+      },
+      "lpse": {
+        "code": "8131A",
+        "file": "se/8131a.ogg"
       },
       "bgv": {
         "id": "BGV_MAKO_H001A",
@@ -2317,6 +2706,10 @@
       "bg": {
         "label": "#EV029・悶絶・挿入・愛液",
         "file": "EV029_11"
+      },
+      "lpse": {
+        "code": "8131A",
+        "file": "se/8131a.ogg"
       },
       "bgv": {
         "id": "BGV_MAKO_H001A",
@@ -2342,6 +2735,10 @@
         "label": "#EV029・悶絶・挿入・愛液",
         "file": "EV029_11"
       },
+      "lpse": {
+        "code": "8131A",
+        "file": "se/8131a.ogg"
+      },
       "bgv": {
         "id": "BGV_MAKO_H001A",
         "file": "voice/BGV_mako_h001a.ogg"
@@ -2361,6 +2758,10 @@
       "bg": {
         "label": "#EV029・悶絶・挿入・愛液",
         "file": "EV029_11"
+      },
+      "lpse": {
+        "code": "8131A",
+        "file": "se/8131a.ogg"
       },
       "bgv": {
         "id": "BGV_MAKO_H001A",
@@ -2385,6 +2786,10 @@
         "label": "#EV029・悶絶・挿入・愛液",
         "file": "EV029_11"
       },
+      "lpse": {
+        "code": "8131A",
+        "file": "se/8131a.ogg"
+      },
       "bgv": {
         "id": "BGV_MAKO_H001A",
         "file": "voice/BGV_mako_h001a.ogg"
@@ -2404,6 +2809,10 @@
       "bg": {
         "label": "#EV029・悶絶・挿入・愛液",
         "file": "EV029_11"
+      },
+      "lpse": {
+        "code": "8131A",
+        "file": "se/8131a.ogg"
       },
       "bgv": {
         "id": "BGV_MAKO_H001A",
@@ -2431,6 +2840,10 @@
         "label": "#EV029・悶絶・挿入・愛液",
         "file": "EV029_11"
       },
+      "lpse": {
+        "code": "8131A",
+        "file": "se/8131a.ogg"
+      },
       "bgv": {
         "id": "BGV_MAKO_H001A",
         "file": "voice/BGV_mako_h001a.ogg"
@@ -2450,6 +2863,10 @@
       "bg": {
         "label": "#EV029・悶絶・挿入・愛液",
         "file": "EV029_11"
+      },
+      "lpse": {
+        "code": "8131A",
+        "file": "se/8131a.ogg"
       },
       "bgv": {
         "id": "BGV_MAKO_H001A",
@@ -2476,6 +2893,10 @@
         "label": "#EV029・悶絶・挿入・愛液",
         "file": "EV029_11"
       },
+      "lpse": {
+        "code": "8131A",
+        "file": "se/8131a.ogg"
+      },
       "bgv": {
         "id": "BGV_MAKO_H001A",
         "file": "voice/BGV_mako_h001a.ogg"
@@ -2495,6 +2916,10 @@
         "label": "#EV029・悶絶・挿入・愛液",
         "file": "EV029_11"
       },
+      "lpse": {
+        "code": "8131A",
+        "file": "se/8131a.ogg"
+      },
       "bgv": {
         "id": "BGV_MAKO_H001A",
         "file": "voice/BGV_mako_h001a.ogg"
@@ -2511,6 +2936,10 @@
         "label": "#EV029・悶絶・挿入・愛液",
         "file": "EV029_11"
       },
+      "lpse": {
+        "code": "8131A",
+        "file": "se/8131a.ogg"
+      },
       "bgv": {
         "id": "BGV_MAKO_H001A",
         "file": "voice/BGV_mako_h001a.ogg"
@@ -2526,6 +2955,10 @@
       "bg": {
         "label": "#EV029・悶絶・挿入・愛液",
         "file": "EV029_11"
+      },
+      "lpse": {
+        "code": "8131A",
+        "file": "se/8131a.ogg"
       },
       "bgv": {
         "id": "BGV_MAKO_H001A",
@@ -2546,6 +2979,10 @@
         "label": "#EV029・悶絶・挿入・愛液",
         "file": "EV029_11"
       },
+      "lpse": {
+        "code": "8131A",
+        "file": "se/8131a.ogg"
+      },
       "bgv": {
         "id": "BGV_MAKO_H001A",
         "file": "voice/BGV_mako_h001a.ogg"
@@ -2565,6 +3002,10 @@
       "bg": {
         "label": "#EV029・悶絶・挿入・愛液",
         "file": "EV029_11"
+      },
+      "lpse": {
+        "code": "8131A",
+        "file": "se/8131a.ogg"
       },
       "bgv": {
         "id": "BGV_MAKO_H001A",
@@ -2592,6 +3033,10 @@
         "label": "#EV029・悶絶・挿入・愛液",
         "file": "EV029_11"
       },
+      "lpse": {
+        "code": "8131B",
+        "file": "se/8131b.ogg"
+      },
       "bgv": {
         "id": "BGV_MAKO_H001A",
         "file": "voice/BGV_mako_h001a.ogg"
@@ -2611,6 +3056,10 @@
       "bg": {
         "label": "#EV029・悶絶・挿入・愛液",
         "file": "EV029_11"
+      },
+      "lpse": {
+        "code": "8131B",
+        "file": "se/8131b.ogg"
       },
       "bgv": {
         "id": "BGV_MAKO_H001A",
@@ -2639,6 +3088,10 @@
         "label": "#EV029・悶絶・挿入・愛液",
         "file": "EV029_11"
       },
+      "lpse": {
+        "code": "8131B",
+        "file": "se/8131b.ogg"
+      },
       "bgv": {
         "id": "BGV_MAKO_H001A",
         "file": "voice/BGV_mako_h001a.ogg"
@@ -2657,6 +3110,10 @@
       "bg": {
         "label": "#EV029・うっとり蕩け・挿入・愛液",
         "file": "EV029_12"
+      },
+      "lpse": {
+        "code": "8131B",
+        "file": "se/8131b.ogg"
       },
       "bgv": {
         "id": "BGV_MAKO_H002A",
@@ -2689,6 +3146,10 @@
         "label": "#EV029・うっとり蕩け・挿入・愛液",
         "file": "EV029_12"
       },
+      "lpse": {
+        "code": "8131B",
+        "file": "se/8131b.ogg"
+      },
       "bgv": {
         "id": "BGV_MAKO_H002A",
         "file": "voice/BGV_mako_h002a.ogg"
@@ -2708,6 +3169,10 @@
       "bg": {
         "label": "#EV029・うっとり蕩け・挿入・愛液",
         "file": "EV029_12"
+      },
+      "lpse": {
+        "code": "8131B",
+        "file": "se/8131b.ogg"
       },
       "bgv": {
         "id": "BGV_MAKO_H002A",
@@ -2735,6 +3200,10 @@
         "label": "#EV029・うっとり蕩け・挿入・愛液",
         "file": "EV029_12"
       },
+      "lpse": {
+        "code": "8131B",
+        "file": "se/8131b.ogg"
+      },
       "bgv": {
         "id": "BGV_MAKO_H002A",
         "file": "voice/BGV_mako_h002a.ogg"
@@ -2753,6 +3222,10 @@
       "bg": {
         "label": "#EV029・うっとり蕩け・挿入・愛液",
         "file": "EV029_12"
+      },
+      "lpse": {
+        "code": "8131B",
+        "file": "se/8131b.ogg"
       },
       "bgv": {
         "id": "BGV_MAKO_H002A",
@@ -2784,6 +3257,10 @@
         "label": "#EV029・うっとり蕩け・挿入・愛液",
         "file": "EV029_12"
       },
+      "lpse": {
+        "code": "8131B",
+        "file": "se/8131b.ogg"
+      },
       "bgv": {
         "id": "BGV_MAKO_H002A",
         "file": "voice/BGV_mako_h002a.ogg"
@@ -2803,6 +3280,10 @@
       "bg": {
         "label": "#EV029・うっとり蕩け・挿入・愛液",
         "file": "EV029_12"
+      },
+      "lpse": {
+        "code": "8131B",
+        "file": "se/8131b.ogg"
       },
       "bgv": {
         "id": "BGV_MAKO_H002A",
@@ -2828,6 +3309,10 @@
         "label": "#EV029・うっとり蕩け・挿入・愛液",
         "file": "EV029_12"
       },
+      "lpse": {
+        "code": "8131B",
+        "file": "se/8131b.ogg"
+      },
       "bgv": {
         "id": "BGV_MAKO_H002A",
         "file": "voice/BGV_mako_h002a.ogg"
@@ -2846,6 +3331,10 @@
       "bg": {
         "label": "#EV029・うっとり蕩け・挿入・愛液",
         "file": "EV029_12"
+      },
+      "lpse": {
+        "code": "8131B",
+        "file": "se/8131b.ogg"
       },
       "bgv": {
         "id": "BGV_MAKO_H002A",
@@ -2869,6 +3358,10 @@
         "label": "#EV029・うっとり蕩け・挿入・愛液",
         "file": "EV029_12"
       },
+      "lpse": {
+        "code": "8131B",
+        "file": "se/8131b.ogg"
+      },
       "bgv": {
         "id": "BGV_MAKO_H002A",
         "file": "voice/BGV_mako_h002a.ogg"
@@ -2883,6 +3376,10 @@
       "bg": {
         "label": "#EV029・うっとり蕩け・挿入・愛液",
         "file": "EV029_12"
+      },
+      "lpse": {
+        "code": "8131B",
+        "file": "se/8131b.ogg"
       },
       "bgv": {
         "id": "BGV_MAKO_H002A",
@@ -2899,6 +3396,10 @@
       "bg": {
         "label": "#EV029・うっとり蕩け・挿入・愛液",
         "file": "EV029_12"
+      },
+      "lpse": {
+        "code": "8131B",
+        "file": "se/8131b.ogg"
       },
       "bgv": {
         "id": "BGV_MAKO_H002A",
@@ -2919,6 +3420,10 @@
         "label": "#EV029・うっとり蕩け・挿入・愛液",
         "file": "EV029_12"
       },
+      "lpse": {
+        "code": "8131B",
+        "file": "se/8131b.ogg"
+      },
       "bgv": {
         "id": "BGV_MAKO_H002A",
         "file": "voice/BGV_mako_h002a.ogg"
@@ -2929,7 +3434,24 @@
       "pages": [
         [
           ""
-        ],
+        ]
+      ],
+      "bg": {
+        "label": "#EV029・うっとり蕩け・挿入・愛液",
+        "file": "EV029_12"
+      },
+      "lpse": {
+        "code": "8131B",
+        "file": "se/8131b.ogg"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H002A",
+        "file": "voice/BGV_mako_h002a.ogg"
+      }
+    },
+    {
+      "kind": "narration",
+      "pages": [
         [
           "真琴听从命令，开始大幅度地抽送。",
           ""
@@ -2941,6 +3463,10 @@
       "bg": {
         "label": "#EV029・うっとり蕩け・挿入・愛液",
         "file": "EV029_12"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_MAKO_H002A",
@@ -2961,6 +3487,10 @@
       "bg": {
         "label": "#EV029・うっとり蕩け・挿入・愛液",
         "file": "EV029_12"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_MAKO_H002A",
@@ -2985,6 +3515,10 @@
         "label": "#EV029・うっとり蕩け・挿入・愛液",
         "file": "EV029_12"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_MAKO_H002A",
         "file": "voice/BGV_mako_h002a.ogg"
@@ -3004,6 +3538,10 @@
       "bg": {
         "label": "#EV029・うっとり蕩け・挿入・愛液",
         "file": "EV029_12"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_MAKO_H002A",
@@ -3028,6 +3566,10 @@
         "label": "#EV029・うっとり蕩け・挿入・愛液",
         "file": "EV029_12"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_MAKO_H002A",
         "file": "voice/BGV_mako_h002a.ogg"
@@ -3046,6 +3588,10 @@
       "bg": {
         "label": "#EV029・うっとり蕩け・挿入・愛液",
         "file": "EV029_12"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_MAKO_H002A",
@@ -3075,6 +3621,10 @@
         "label": "#EV029・うっとり蕩け・挿入・愛液",
         "file": "EV029_12"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_MAKO_H002A",
         "file": "voice/BGV_mako_h002a.ogg"
@@ -3094,6 +3644,10 @@
       "bg": {
         "label": "#EV029・うっとり蕩け・挿入・愛液",
         "file": "EV029_12"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_MAKO_H002A",
@@ -3118,6 +3672,10 @@
         "label": "#EV029・うっとり蕩け・挿入・愛液",
         "file": "EV029_12"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_MAKO_H002A",
         "file": "voice/BGV_mako_h002a.ogg"
@@ -3136,6 +3694,10 @@
       "bg": {
         "label": "#EV029・うっとり蕩け・挿入・愛液",
         "file": "EV029_12"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_MAKO_H002A",
@@ -3163,6 +3725,10 @@
         "label": "#EV029・うっとり蕩け・挿入・愛液",
         "file": "EV029_12"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_MAKO_H002A",
         "file": "voice/BGV_mako_h002a.ogg"
@@ -3181,6 +3747,10 @@
       "bg": {
         "label": "#EV029・うっとり蕩け・挿入・愛液",
         "file": "EV029_12"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_MAKO_H002A",
@@ -3208,6 +3778,10 @@
         "label": "#EV029・うっとり蕩け・挿入・愛液",
         "file": "EV029_12"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_MAKO_H002A",
         "file": "voice/BGV_mako_h002a.ogg"
@@ -3229,6 +3803,10 @@
           "file": "se/8011b.ogg"
         }
       ],
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_MAKO_H002A",
         "file": "voice/BGV_mako_h002a.ogg"
@@ -3247,6 +3825,10 @@
       "bg": {
         "label": "#EV029・うっとり蕩け・挿入・愛液",
         "file": "EV029_12"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_MAKO_H002A",
@@ -3268,6 +3850,10 @@
         "label": "#EV029・軽くアヘ・挿入・愛液",
         "file": "EV029_13"
       },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
+      },
       "bgv": {
         "id": "BGV_MAKO_H002A",
         "file": "voice/BGV_mako_h002a.ogg"
@@ -3288,6 +3874,10 @@
         "label": "#EV029・軽くアヘ・挿入・愛液",
         "file": "EV029_13"
       },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
+      },
       "bgv": {
         "id": "BGV_MAKO_H002A",
         "file": "voice/BGV_mako_h002a.ogg"
@@ -3306,6 +3896,10 @@
       "bg": {
         "label": "#EV029・軽くアヘ・挿入・愛液",
         "file": "EV029_13"
+      },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
       },
       "bgv": {
         "id": "BGV_MAKO_H002A",
@@ -3333,6 +3927,10 @@
         "label": "#EV029・軽くアヘ・挿入・愛液",
         "file": "EV029_13"
       },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
+      },
       "bgv": {
         "id": "BGV_MAKO_H002A",
         "file": "voice/BGV_mako_h002a.ogg"
@@ -3351,6 +3949,10 @@
       "bg": {
         "label": "#EV029・軽くアヘ・挿入・愛液",
         "file": "EV029_13"
+      },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
       },
       "bgv": {
         "id": "BGV_MAKO_H002A",
@@ -3378,6 +3980,10 @@
         "label": "#EV029・軽くアヘ・挿入・愛液",
         "file": "EV029_13"
       },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
+      },
       "bgv": {
         "id": "BGV_MAKO_H002A",
         "file": "voice/BGV_mako_h002a.ogg"
@@ -3396,6 +4002,10 @@
       "bg": {
         "label": "#EV029・軽くアヘ・挿入・愛液",
         "file": "EV029_13"
+      },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
       },
       "bgv": {
         "id": "BGV_MAKO_H002A",
@@ -3427,6 +4037,10 @@
         "label": "#EV029・軽くアヘ・挿入・愛液",
         "file": "EV029_13"
       },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
+      },
       "bgv": {
         "id": "BGV_MAKO_H002A",
         "file": "voice/BGV_mako_h002a.ogg"
@@ -3446,6 +4060,10 @@
       "bg": {
         "label": "#EV029・軽くアヘ・挿入・愛液",
         "file": "EV029_13"
+      },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
       },
       "bgv": {
         "id": "BGV_MAKO_H002A",
@@ -3469,6 +4087,10 @@
         "label": "#EV029・軽くアヘ・挿入・愛液",
         "file": "EV029_13"
       },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
+      },
       "bgv": {
         "id": "BGV_MAKO_H002A",
         "file": "voice/BGV_mako_h002a.ogg"
@@ -3483,6 +4105,10 @@
       "bg": {
         "label": "#EV029・軽くアヘ・挿入・愛液",
         "file": "EV029_13"
+      },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
       },
       "bgv": {
         "id": "BGV_MAKO_H002A",
@@ -3503,6 +4129,10 @@
         "label": "#EV029・軽くアヘ・挿入・愛液",
         "file": "EV029_13"
       },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
+      },
       "bgv": {
         "id": "BGV_MAKO_H002A",
         "file": "voice/BGV_mako_h002a.ogg"
@@ -3522,6 +4152,10 @@
       "bg": {
         "label": "#EV029・軽くアヘ・挿入・愛液",
         "file": "EV029_13"
+      },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
       },
       "bgv": {
         "id": "BGV_MAKO_H002A",
@@ -3545,6 +4179,10 @@
         "label": "#EV029・軽くアヘ・挿入・愛液",
         "file": "EV029_13"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_MAKO_H002A",
         "file": "voice/BGV_mako_h002a.ogg"
@@ -3564,6 +4202,10 @@
       "bg": {
         "label": "#EV029・軽くアヘ・挿入・愛液",
         "file": "EV029_13"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_MAKO_H002A",
@@ -3585,6 +4227,10 @@
         "label": "#EV029・軽くアヘ・挿入・愛液",
         "file": "EV029_13"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_MAKO_H002A",
         "file": "voice/BGV_mako_h002a.ogg"
@@ -3604,6 +4250,10 @@
       "bg": {
         "label": "#EV029・軽くアヘ・挿入・愛液",
         "file": "EV029_13"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_MAKO_H002A",
@@ -3631,6 +4281,10 @@
         "label": "#EV029・軽くアヘ・挿入・愛液",
         "file": "EV029_13"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_MAKO_H002A",
         "file": "voice/BGV_mako_h002a.ogg"
@@ -3649,6 +4303,10 @@
       "bg": {
         "label": "#EV029・軽くアヘ・挿入・愛液",
         "file": "EV029_13"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_MAKO_H003A",
@@ -3682,6 +4340,10 @@
         "label": "#EV029・軽くアヘ・挿入・愛液",
         "file": "EV029_13"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_MAKO_H003A",
         "file": "voice/BGV_mako_h003a.ogg"
@@ -3701,6 +4363,10 @@
       "bg": {
         "label": "#EV029・軽くアヘ・挿入・愛液",
         "file": "EV029_13"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_MAKO_H003A",
@@ -3724,6 +4390,10 @@
         "label": "#EV029・軽くアヘ・挿入・愛液",
         "file": "EV029_13"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_MAKO_H003A",
         "file": "voice/BGV_mako_h003a.ogg"
@@ -3742,6 +4412,10 @@
       "bg": {
         "label": "#EV029・軽くアヘ・挿入・愛液",
         "file": "EV029_13"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_MAKO_H003A",
@@ -3766,6 +4440,10 @@
         "label": "#EV029・軽くアヘ・挿入・愛液",
         "file": "EV029_13"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_MAKO_H003A",
         "file": "voice/BGV_mako_h003a.ogg"
@@ -3785,6 +4463,10 @@
       "bg": {
         "label": "#EV029・軽くアヘ・挿入・愛液",
         "file": "EV029_13"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_MAKO_H003A",
@@ -3806,6 +4488,10 @@
         "label": "#EV029・軽くアヘ・挿入・愛液",
         "file": "EV029_13"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_MAKO_H003A",
         "file": "voice/BGV_mako_h003a.ogg"
@@ -3820,6 +4506,10 @@
       "bg": {
         "label": "#EV029・軽くアヘ・挿入・愛液",
         "file": "EV029_13"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_MAKO_H003A",
@@ -3846,6 +4536,10 @@
           "file": "se/8011b.ogg"
         }
       ],
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_MAKO_H003A",
         "file": "voice/BGV_mako_h003a.ogg"
@@ -3864,6 +4558,10 @@
       "bg": {
         "label": "#EV029・軽くアヘ・挿入・愛液",
         "file": "EV029_13"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_MAKO_H003A",
@@ -3884,6 +4582,10 @@
       "bg": {
         "label": "#EV029・軽くアヘ・挿入・愛液",
         "file": "EV029_13"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_MAKO_H003A",
@@ -3907,6 +4609,10 @@
           "file": "se/8201b.ogg"
         }
       ],
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_MAKO_H003A",
         "file": "voice/BGV_mako_h003a.ogg"
@@ -3925,6 +4631,10 @@
       "bg": {
         "label": "#EV029・軽くアヘ・挿入・精液",
         "file": "EV029_14"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_MAKO_H003A",
@@ -3947,6 +4657,10 @@
         "label": "#EV029・軽くアヘ・挿入・精液",
         "file": "EV029_14"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_MAKO_H003A",
         "file": "voice/BGV_mako_h003a.ogg"
@@ -3965,6 +4679,10 @@
       "bg": {
         "label": "#EV029・軽くアヘ・挿入・精液",
         "file": "EV029_14"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_MAKO_H003A",
@@ -3985,6 +4703,10 @@
       "bg": {
         "label": "#EV029・軽くアヘ・挿入・精液",
         "file": "EV029_14"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_MAKO_H003A",
@@ -4015,6 +4737,10 @@
           "file": "se/8201b.ogg"
         }
       ],
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_MAKO_H003A",
         "file": "voice/BGV_mako_h003a.ogg"
@@ -4034,6 +4760,10 @@
       "bg": {
         "label": "#EV029・軽くアヘ・挿入・精液",
         "file": "EV029_14"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_MAKO_H003A",
@@ -4057,6 +4787,10 @@
       "bg": {
         "label": "#EV029・軽くアヘ・挿入・精液",
         "file": "EV029_14"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_MAKO_H003A",
@@ -4084,6 +4818,10 @@
           "file": "se/8321c.ogg"
         }
       ],
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_MAKO_H003A",
         "file": "voice/BGV_mako_h003a.ogg"
@@ -4106,6 +4844,10 @@
         "label": "#EV029・軽くアヘ・挿入・精液",
         "file": "EV029_14"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_MAKO_H003A",
         "file": "voice/BGV_mako_h003a.ogg"
@@ -4125,6 +4867,10 @@
       "bg": {
         "label": "#EV029・軽くアヘ・挿入・精液",
         "file": "EV029_14"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_MAKO_H003A",
@@ -4149,6 +4895,10 @@
         "label": "#EV029・軽くアヘ・挿入・精液",
         "file": "EV029_14"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_MAKO_H003A",
         "file": "voice/BGV_mako_h003a.ogg"
@@ -4167,6 +4917,10 @@
       "bg": {
         "label": "#EV029・軽くアヘ・挿入・精液",
         "file": "EV029_14"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_MAKO_H003A",
@@ -4193,6 +4947,10 @@
         "label": "#EV029・軽くアヘ・挿入・精液",
         "file": "EV029_14"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_MAKO_H003A",
         "file": "voice/BGV_mako_h003a.ogg"
@@ -4207,6 +4965,10 @@
       "bg": {
         "label": "#EV029・軽くアヘ・挿入・精液",
         "file": "EV029_14"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_MAKO_H003A",
@@ -4223,6 +4985,10 @@
       "bg": {
         "label": "#EV029・軽くアヘ・挿入・精液",
         "file": "EV029_14"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_MAKO_H003A",
@@ -4243,6 +5009,10 @@
         "label": "#EV029・軽くアヘ・挿入・精液",
         "file": "EV029_14"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_MAKO_H003A",
         "file": "voice/BGV_mako_h003a.ogg"
@@ -4261,6 +5031,10 @@
       "bg": {
         "label": "#EV029・軽くアヘ・挿入・精液",
         "file": "EV029_14"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_MAKO_H003A",
@@ -4286,6 +5060,10 @@
       "bg": {
         "label": "#背景・黒一色",
         "file": "BG_BLACK"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_MAKO_H003A",

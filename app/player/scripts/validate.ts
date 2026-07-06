@@ -103,6 +103,18 @@ async function main() {
         if (manifestPresent && s.file === null)
           problems.push({ scene: scene.code, beat: i, kind: 'se', ref: 'file', label: s.code })
       }
+      // ループ se（lpse・HU-76）は se と同じ素材＝se カテゴリで hard fail 照合。
+      if (beat.lpse) {
+        seTotal++
+        if (manifestPresent && beat.lpse.file === null)
+          problems.push({
+            scene: scene.code,
+            beat: i,
+            kind: 'se',
+            ref: 'file',
+            label: beat.lpse.code,
+          })
+      }
     })
     if (manifestPresent && scene.bgm && scene.bgm.file === null)
       problems.push({

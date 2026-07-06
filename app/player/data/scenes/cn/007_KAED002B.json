@@ -229,7 +229,16 @@
       "pages": [
         [
           ""
-        ],
+        ]
+      ],
+      "bg": {
+        "label": "#EV038・微笑み",
+        "file": "EV038_02"
+      }
+    },
+    {
+      "kind": "narration",
+      "pages": [
         [
           "话刚说完，枫女士就开始扭动腰部。"
         ],
@@ -240,6 +249,10 @@
       "bg": {
         "label": "#EV038・微笑み",
         "file": "EV038_02"
+      },
+      "lpse": {
+        "code": "8101A",
+        "file": "se/8101a.ogg"
       }
     },
     {
@@ -255,6 +268,10 @@
       "bg": {
         "label": "#EV038・うっとり妖艶",
         "file": "EV038_03"
+      },
+      "lpse": {
+        "code": "8101A",
+        "file": "se/8101a.ogg"
       },
       "bgv": {
         "id": "BGV_KAED_H001A",
@@ -280,6 +297,10 @@
         "label": "#EV038・うっとり妖艶",
         "file": "EV038_03"
       },
+      "lpse": {
+        "code": "8101A",
+        "file": "se/8101a.ogg"
+      },
       "bgv": {
         "id": "BGV_KAED_H001A",
         "file": "voice/BGV_kaed_h001a.ogg"
@@ -299,6 +320,10 @@
       "bg": {
         "label": "#EV038・うっとり妖艶",
         "file": "EV038_03"
+      },
+      "lpse": {
+        "code": "8101A",
+        "file": "se/8101a.ogg"
       },
       "bgv": {
         "id": "BGV_KAED_H001A",
@@ -320,6 +345,10 @@
         "label": "#EV038・うっとり妖艶",
         "file": "EV038_03"
       },
+      "lpse": {
+        "code": "8101A",
+        "file": "se/8101a.ogg"
+      },
       "bgv": {
         "id": "BGV_KAED_H001A",
         "file": "voice/BGV_kaed_h001a.ogg"
@@ -338,6 +367,10 @@
       "bg": {
         "label": "#EV038・うっとり妖艶",
         "file": "EV038_03"
+      },
+      "lpse": {
+        "code": "8101A",
+        "file": "se/8101a.ogg"
       },
       "bgv": {
         "id": "BGV_KAED_H001A",
@@ -363,6 +396,10 @@
         "label": "#EV038・うっとり妖艶",
         "file": "EV038_03"
       },
+      "lpse": {
+        "code": "8101A",
+        "file": "se/8101a.ogg"
+      },
       "bgv": {
         "id": "BGV_KAED_H001A",
         "file": "voice/BGV_kaed_h001a.ogg"
@@ -381,6 +418,10 @@
       "bg": {
         "label": "#EV038・うっとり妖艶",
         "file": "EV038_03"
+      },
+      "lpse": {
+        "code": "8101A",
+        "file": "se/8101a.ogg"
       },
       "bgv": {
         "id": "BGV_KAED_H001A",
@@ -405,6 +446,10 @@
         "label": "#EV038・うっとり妖艶",
         "file": "EV038_03"
       },
+      "lpse": {
+        "code": "8101A",
+        "file": "se/8101a.ogg"
+      },
       "bgv": {
         "id": "BGV_KAED_H001A",
         "file": "voice/BGV_kaed_h001a.ogg"
@@ -424,6 +469,10 @@
       "bg": {
         "label": "#EV038・うっとり妖艶",
         "file": "EV038_03"
+      },
+      "lpse": {
+        "code": "8101A",
+        "file": "se/8101a.ogg"
       },
       "bgv": {
         "id": "BGV_KAED_H001A",
@@ -445,6 +494,10 @@
         "label": "#EV038・うっとり妖艶",
         "file": "EV038_03"
       },
+      "lpse": {
+        "code": "8101A",
+        "file": "se/8101a.ogg"
+      },
       "bgv": {
         "id": "BGV_KAED_H001A",
         "file": "voice/BGV_kaed_h001a.ogg"
@@ -465,6 +518,10 @@
         "label": "#EV038・うっとり妖艶",
         "file": "EV038_03"
       },
+      "lpse": {
+        "code": "8101A",
+        "file": "se/8101a.ogg"
+      },
       "bgv": {
         "id": "BGV_KAED_H001A",
         "file": "voice/BGV_kaed_h001a.ogg"
@@ -483,6 +540,10 @@
       "bg": {
         "label": "#EV038・うっとり妖艶",
         "file": "EV038_03"
+      },
+      "lpse": {
+        "code": "8101A",
+        "file": "se/8101a.ogg"
       },
       "bgv": {
         "id": "BGV_KAED_H001A",
@@ -504,6 +565,10 @@
         "label": "#EV038・眉寄せ喘ぎ",
         "file": "EV038_01"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_KAED_H002A",
         "file": "voice/BGV_kaed_h002a.ogg"
@@ -524,6 +589,10 @@
         "label": "#EV038・眉寄せ喘ぎ",
         "file": "EV038_01"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_KAED_H002A",
         "file": "voice/BGV_kaed_h002a.ogg"
@@ -543,6 +612,10 @@
       "bg": {
         "label": "#EV038・眉寄せ喘ぎ",
         "file": "EV038_01"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_KAED_H002A",
@@ -569,6 +642,10 @@
         "label": "#EV038・眉寄せ喘ぎ",
         "file": "EV038_01"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_KAED_H002A",
         "file": "voice/BGV_kaed_h002a.ogg"
@@ -587,6 +664,10 @@
       "bg": {
         "label": "#EV038・眉寄せ喘ぎ",
         "file": "EV038_01"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_KAED_H002A",
@@ -611,6 +692,10 @@
         "label": "#EV038・眉寄せ喘ぎ",
         "file": "EV038_01"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_KAED_H002A",
         "file": "voice/BGV_kaed_h002a.ogg"
@@ -629,6 +714,10 @@
       "bg": {
         "label": "#EV038・眉寄せ喘ぎ",
         "file": "EV038_01"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_KAED_H002A",
@@ -653,6 +742,10 @@
         "label": "#EV038・眉寄せ喘ぎ",
         "file": "EV038_01"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_KAED_H002A",
         "file": "voice/BGV_kaed_h002a.ogg"
@@ -672,6 +765,10 @@
       "bg": {
         "label": "#EV038・眉寄せ喘ぎ",
         "file": "EV038_01"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_KAED_H002A",
@@ -696,6 +793,10 @@
         "label": "#EV038・眉寄せ喘ぎ",
         "file": "EV038_01"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_KAED_H002A",
         "file": "voice/BGV_kaed_h002a.ogg"
@@ -715,6 +816,10 @@
       "bg": {
         "label": "#EV038・眉寄せ喘ぎ",
         "file": "EV038_01"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_KAED_H002A",
@@ -738,6 +843,10 @@
         "label": "#EV038・眉寄せ喘ぎ",
         "file": "EV038_01"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_KAED_H002A",
         "file": "voice/BGV_kaed_h002a.ogg"
@@ -756,6 +865,10 @@
       "bg": {
         "label": "#EV038・快感我慢",
         "file": "EV038_04"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_KAED_H002A",
@@ -779,6 +892,10 @@
         "label": "#EV038・快感我慢",
         "file": "EV038_04"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_KAED_H002A",
         "file": "voice/BGV_kaed_h002a.ogg"
@@ -798,6 +915,10 @@
       "bg": {
         "label": "#EV038・快感我慢",
         "file": "EV038_04"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_KAED_H002A",
@@ -822,6 +943,10 @@
         "label": "#EV038・快感我慢",
         "file": "EV038_04"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_KAED_H002A",
         "file": "voice/BGV_kaed_h002a.ogg"
@@ -841,6 +966,10 @@
       "bg": {
         "label": "#EV038・快感我慢",
         "file": "EV038_04"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_KAED_H002A",
@@ -864,6 +993,10 @@
         "label": "#EV038・快感我慢",
         "file": "EV038_04"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_KAED_H002A",
         "file": "voice/BGV_kaed_h002a.ogg"
@@ -883,6 +1016,10 @@
       "bg": {
         "label": "#EV038・快感我慢",
         "file": "EV038_04"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_KAED_H002A",
@@ -908,6 +1045,10 @@
         "label": "#EV038・快感我慢",
         "file": "EV038_04"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_KAED_H002A",
         "file": "voice/BGV_kaed_h002a.ogg"
@@ -926,6 +1067,10 @@
       "bg": {
         "label": "#EV038・快感我慢",
         "file": "EV038_04"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_KAED_H002A",
@@ -951,6 +1096,10 @@
         "label": "#EV038・快感我慢",
         "file": "EV038_04"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_KAED_H002A",
         "file": "voice/BGV_kaed_h002a.ogg"
@@ -970,6 +1119,10 @@
       "bg": {
         "label": "#EV038・快感我慢",
         "file": "EV038_04"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_KAED_H002A",
@@ -991,6 +1144,10 @@
         "label": "#EV038・快感我慢",
         "file": "EV038_04"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_KAED_H002A",
         "file": "voice/BGV_kaed_h002a.ogg"
@@ -1011,6 +1168,10 @@
         "label": "#EV038・快感我慢",
         "file": "EV038_04"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_KAED_H002A",
         "file": "voice/BGV_kaed_h002a.ogg"
@@ -1030,6 +1191,10 @@
         "label": "#EV038・快感我慢",
         "file": "EV038_04"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_KAED_H002A",
         "file": "voice/BGV_kaed_h002a.ogg"
@@ -1044,6 +1209,10 @@
       "bg": {
         "label": "#EV038・快感我慢",
         "file": "EV038_04"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_KAED_H002A",
@@ -1065,6 +1234,10 @@
         "label": "#EV038・快感我慢",
         "file": "EV038_04"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_KAED_H002A",
         "file": "voice/BGV_kaed_h002a.ogg"
@@ -1083,6 +1256,10 @@
       "bg": {
         "label": "#EV038・快感我慢",
         "file": "EV038_04"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_KAED_H002A",
@@ -1103,6 +1280,10 @@
         "label": "#EV038・快感我慢",
         "file": "EV038_04"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_KAED_H002A",
         "file": "voice/BGV_kaed_h002a.ogg"
@@ -1121,6 +1302,10 @@
       "bg": {
         "label": "#EV038・アヘ顔",
         "file": "EV038_05"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_KAED_H003A",
@@ -1145,6 +1330,10 @@
         "label": "#EV038・アヘ顔",
         "file": "EV038_05"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_KAED_H003A",
         "file": "voice/BGV_kaed_h003a.ogg"
@@ -1165,6 +1354,10 @@
         "label": "#EV038・アヘ顔",
         "file": "EV038_05"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_KAED_H003A",
         "file": "voice/BGV_kaed_h003a.ogg"
@@ -1184,6 +1377,10 @@
         "label": "#EV038・アヘ顔",
         "file": "EV038_05"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_KAED_H003A",
         "file": "voice/BGV_kaed_h003a.ogg"
@@ -1202,6 +1399,10 @@
       "bg": {
         "label": "#EV038・アヘ顔",
         "file": "EV038_05"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_KAED_H003A",
@@ -1226,6 +1427,10 @@
         "label": "#EV038・アヘ顔",
         "file": "EV038_05"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_KAED_H003A",
         "file": "voice/BGV_kaed_h003a.ogg"
@@ -1245,6 +1450,10 @@
       "bg": {
         "label": "#EV038・アヘ顔",
         "file": "EV038_05"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_KAED_H003A",
@@ -1274,6 +1483,10 @@
         "label": "#EV038・アヘ顔",
         "file": "EV038_05"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_KAED_H003A",
         "file": "voice/BGV_kaed_h003a.ogg"
@@ -1288,6 +1501,10 @@
       "bg": {
         "label": "#EV038・アヘ顔",
         "file": "EV038_05"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_KAED_H003A",
@@ -1308,6 +1525,10 @@
       "bg": {
         "label": "#EV038・アヘ顔",
         "file": "EV038_05"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_KAED_H003A",
@@ -1334,6 +1555,10 @@
           "file": "se/8201b.ogg"
         }
       ],
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_KAED_H003A",
         "file": "voice/BGV_kaed_h003a.ogg"
@@ -1349,6 +1574,10 @@
       "bg": {
         "label": "#EV038・アヘ顔・精液",
         "file": "EV038_06"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_KAED_H003A",
@@ -1377,6 +1606,10 @@
           "file": "se/8011b.ogg"
         }
       ],
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_KAED_H003A",
         "file": "voice/BGV_kaed_h003a.ogg"
@@ -1411,6 +1644,10 @@
           "file": "se/8201b.ogg"
         }
       ],
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_KAED_H003A",
         "file": "voice/BGV_kaed_h003a.ogg"
@@ -1430,6 +1667,10 @@
       "bg": {
         "label": "#EV038・アヘ顔・精液",
         "file": "EV038_06"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_KAED_H003A",
@@ -1454,6 +1695,10 @@
       "bg": {
         "label": "#EV038・アヘ顔・精液",
         "file": "EV038_06"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_KAED_H003A",
@@ -1481,6 +1726,10 @@
           "file": "se/8011b.ogg"
         }
       ],
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_KAED_H003A",
         "file": "voice/BGV_kaed_h003a.ogg"
@@ -1508,6 +1757,10 @@
         "label": "#EV038・アヘ顔・精液",
         "file": "EV038_06"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_KAED_H003A",
         "file": "voice/BGV_kaed_h003a.ogg"
@@ -1527,6 +1780,10 @@
       "bg": {
         "label": "#EV038・アヘ顔・精液",
         "file": "EV038_06"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_KAED_H003A",
@@ -1554,6 +1811,10 @@
         "label": "#EV038・アヘ顔・精液",
         "file": "EV038_06"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_KAED_H003A",
         "file": "voice/BGV_kaed_h003a.ogg"
@@ -1572,6 +1833,10 @@
       "bg": {
         "label": "#EV038・うっとり妖艶・精液",
         "file": "EV038_07"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_KAED_H003A",
@@ -1605,6 +1870,10 @@
           "file": "se/8331a.ogg"
         }
       ],
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_KAED_H003A",
         "file": "voice/BGV_kaed_h003a.ogg"
@@ -1624,6 +1893,10 @@
       "bg": {
         "label": "#EV038・うっとり妖艶・精液",
         "file": "EV038_07"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_KAED_H003A",
@@ -1645,6 +1918,10 @@
         "label": "#EV038・うっとり妖艶・精液",
         "file": "EV038_07"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_KAED_H003A",
         "file": "voice/BGV_kaed_h003a.ogg"
@@ -1659,6 +1936,10 @@
       "bg": {
         "label": "#EV038・うっとり妖艶・精液",
         "file": "EV038_07"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_KAED_H003A",
@@ -1679,6 +1960,10 @@
         "label": "#EV038・うっとり妖艶・精液",
         "file": "EV038_07"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_KAED_H003A",
         "file": "voice/BGV_kaed_h003a.ogg"
@@ -1694,6 +1979,10 @@
       "bg": {
         "label": "#EV038・うっとり妖艶・精液",
         "file": "EV038_07"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_KAED_H003A",
@@ -1719,6 +2008,10 @@
       "bg": {
         "label": "#背景・黒一色",
         "file": "BG_BLACK"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_KAED_H003A",

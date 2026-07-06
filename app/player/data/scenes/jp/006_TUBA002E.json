@@ -541,7 +541,20 @@
         ],
         [
           "熱くて、ぬるぬるしてて、そして柔らかい。"
-        ],
+        ]
+      ],
+      "bg": {
+        "label": "#EV011・眉寄せ・横向き指先でなぞる・愛液",
+        "file": "EV011_16"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
+      }
+    },
+    {
+      "kind": "narration",
+      "pages": [
         [
           "僕はマッサージするように、ゆっくりと手の平を",
           "左右に揺らしてみる。"
@@ -550,6 +563,10 @@
       "bg": {
         "label": "#EV011・眉寄せ・横向き指先でなぞる・愛液",
         "file": "EV011_16"
+      },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H001A",
@@ -570,6 +587,10 @@
       "bg": {
         "label": "#EV011・眉寄せ・横向き指先でなぞる・愛液",
         "file": "EV011_16"
+      },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H001A",
@@ -607,6 +628,10 @@
         "label": "#EV011・眉寄せ・横向き指先でなぞる・愛液",
         "file": "EV011_16"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H001A",
         "file": "voice/BGV_tuba_h001a.ogg"
@@ -622,6 +647,10 @@
       "bg": {
         "label": "#EV011・眉寄せ・横向き指先でなぞる・愛液",
         "file": "EV011_16"
+      },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H001A",
@@ -643,6 +672,10 @@
         "label": "#EV011・眉寄せ・横向き指先でなぞる・愛液",
         "file": "EV011_16"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H001A",
         "file": "voice/BGV_tuba_h001a.ogg"
@@ -658,6 +691,10 @@
       "bg": {
         "label": "#EV011・眉寄せ・横向き指先でなぞる・愛液",
         "file": "EV011_16"
+      },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H001A",
@@ -679,6 +716,10 @@
         "label": "#EV011・眉寄せ・横向き指先でなぞる・愛液",
         "file": "EV011_16"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H001A",
         "file": "voice/BGV_tuba_h001a.ogg"
@@ -693,6 +734,10 @@
       "bg": {
         "label": "#EV011・眉寄せ・横向き指先でなぞる・愛液",
         "file": "EV011_16"
+      },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H001A",
@@ -712,6 +757,10 @@
       "bg": {
         "label": "#EV011・眉寄せ・横向き指先でなぞる・愛液",
         "file": "EV011_16"
+      },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H001A",
@@ -733,6 +782,10 @@
         "label": "#EV011・眉寄せ・横向き指先でなぞる・愛液",
         "file": "EV011_16"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H001A",
         "file": "voice/BGV_tuba_h001a.ogg"
@@ -751,6 +804,10 @@
       "bg": {
         "label": "#EV011・眉寄せ・横向き指先でなぞる・愛液",
         "file": "EV011_16"
+      },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H001A",
@@ -772,6 +829,10 @@
         "label": "#EV011・眉寄せ・横向き指先でなぞる・愛液",
         "file": "EV011_16"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H001A",
         "file": "voice/BGV_tuba_h001a.ogg"
@@ -786,6 +847,10 @@
       "bg": {
         "label": "#EV011・眉寄せ・横向き指先でなぞる・愛液",
         "file": "EV011_16"
+      },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H001A",
@@ -802,6 +867,10 @@
       "bg": {
         "label": "#EV011・眉寄せ・横向き指先でなぞる・愛液",
         "file": "EV011_16"
+      },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H001A",
@@ -822,6 +891,10 @@
       "bg": {
         "label": "#EV011・眉寄せ・横向き指先でなぞる・愛液",
         "file": "EV011_16"
+      },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H001A",
@@ -846,6 +919,10 @@
         "label": "#EV011・眉寄せ・横向き指先でなぞる・愛液",
         "file": "EV011_16"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H001A",
         "file": "voice/BGV_tuba_h001a.ogg"
@@ -865,6 +942,10 @@
       "bg": {
         "label": "#EV011・眉寄せ・横向き指先でなぞる・愛液",
         "file": "EV011_16"
+      },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H001A",
@@ -890,6 +971,10 @@
         "label": "#EV011・眉寄せ・横向き指先でなぞる・愛液",
         "file": "EV011_16"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H001A",
         "file": "voice/BGV_tuba_h001a.ogg"
@@ -909,6 +994,10 @@
       "bg": {
         "label": "#EV011・うっとり・横向き手の平撫で・愛液",
         "file": "EV011_17"
+      },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H001A",
@@ -941,6 +1030,10 @@
         "label": "#EV011・うっとり・横向き手の平撫で・愛液",
         "file": "EV011_17"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H001A",
         "file": "voice/BGV_tuba_h001a.ogg"
@@ -960,6 +1053,10 @@
       "bg": {
         "label": "#EV011・うっとり・横向き手の平撫で・愛液",
         "file": "EV011_17"
+      },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H001A",
@@ -982,6 +1079,10 @@
         "label": "#EV011・うっとり・横向き手の平撫で・愛液",
         "file": "EV011_17"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H001A",
         "file": "voice/BGV_tuba_h001a.ogg"
@@ -996,6 +1097,10 @@
       "bg": {
         "label": "#EV011・うっとり・横向き手の平撫で・愛液",
         "file": "EV011_17"
+      },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H001A",
@@ -1013,6 +1118,10 @@
       "bg": {
         "label": "#EV011・うっとり・横向き手の平撫で・愛液",
         "file": "EV011_17"
+      },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H001A",
@@ -1033,6 +1142,10 @@
       "bg": {
         "label": "#EV011・うっとり・横向き手の平撫で・愛液",
         "file": "EV011_17"
+      },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H001A",
@@ -1057,6 +1170,10 @@
         "label": "#EV011・うっとり・横向き手の平撫で・愛液",
         "file": "EV011_17"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H001A",
         "file": "voice/BGV_tuba_h001a.ogg"
@@ -1077,6 +1194,10 @@
         "label": "#EV011・うっとり・横向き手の平撫で・愛液",
         "file": "EV011_17"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H001A",
         "file": "voice/BGV_tuba_h001a.ogg"
@@ -1094,6 +1215,10 @@
         "label": "#EV011・うっとり・横向き手の平撫で・愛液",
         "file": "EV011_17"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H001A",
         "file": "voice/BGV_tuba_h001a.ogg"
@@ -1108,6 +1233,10 @@
       "bg": {
         "label": "#EV011・うっとり・横向き手の平撫で・愛液",
         "file": "EV011_17"
+      },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H001A",
@@ -1129,6 +1258,10 @@
         "label": "#EV011・うっとり・横向き手の平撫で・愛液",
         "file": "EV011_17"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H001A",
         "file": "voice/BGV_tuba_h001a.ogg"
@@ -1149,6 +1282,10 @@
         "label": "#EV011・うっとり・横向き手の平撫で・愛液",
         "file": "EV011_17"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H001A",
         "file": "voice/BGV_tuba_h001a.ogg"
@@ -1168,6 +1305,10 @@
       "bg": {
         "label": "#EV011・うっとり・横向き手の平撫で・愛液",
         "file": "EV011_17"
+      },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H001A",
@@ -1192,6 +1333,10 @@
         "label": "#EV011・うっとり・横向き手の平撫で・愛液",
         "file": "EV011_17"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H001A",
         "file": "voice/BGV_tuba_h001a.ogg"
@@ -1206,6 +1351,10 @@
       "bg": {
         "label": "#EV011・うっとり・横向き手の平撫で・愛液",
         "file": "EV011_17"
+      },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H001A",
@@ -1227,6 +1376,10 @@
         "label": "#EV011・うっとり・横向き手の平撫で・愛液",
         "file": "EV011_17"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H001A",
         "file": "voice/BGV_tuba_h001a.ogg"
@@ -1245,6 +1398,10 @@
       "bg": {
         "label": "#EV011・うっとり・横向き手の平撫で・愛液",
         "file": "EV011_17"
+      },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H001A",
@@ -1265,6 +1422,10 @@
       "bg": {
         "label": "#EV011・うっとり・横向き手の平撫で・愛液",
         "file": "EV011_17"
+      },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H001A",
@@ -1291,6 +1452,10 @@
         "label": "#EV011・うっとり・横向き手の平撫で・愛液",
         "file": "EV011_17"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H001A",
         "file": "voice/BGV_tuba_h001a.ogg"
@@ -1305,6 +1470,10 @@
       "bg": {
         "label": "#EV011・うっとり・横向き手の平撫で・愛液",
         "file": "EV011_17"
+      },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H001A",
@@ -1321,6 +1490,10 @@
       "bg": {
         "label": "#EV011・うっとり・横向き手の平撫で・愛液",
         "file": "EV011_17"
+      },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H001A",
@@ -1341,6 +1514,10 @@
       "bg": {
         "label": "#EV011・うっとり・横向き手の平撫で・愛液",
         "file": "EV011_17"
+      },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H001A",
@@ -1371,6 +1548,10 @@
         "label": "#EV011・うっとり・横向き手の平撫で・愛液",
         "file": "EV011_17"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H001A",
         "file": "voice/BGV_tuba_h001a.ogg"
@@ -1390,6 +1571,10 @@
       "bg": {
         "label": "#EV011・蕩け顔・クリつまみ・愛液",
         "file": "EV011_18"
+      },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H002A",
@@ -1411,6 +1596,10 @@
         "label": "#EV011・蕩け顔・クリつまみ・愛液",
         "file": "EV011_18"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H002A",
         "file": "voice/BGV_tuba_h002a.ogg"
@@ -1430,6 +1619,10 @@
       "bg": {
         "label": "#EV011・蕩け顔・クリつまみ・愛液",
         "file": "EV011_18"
+      },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H002A",
@@ -1454,6 +1647,10 @@
         "label": "#EV011・蕩け顔・クリつまみ・愛液",
         "file": "EV011_18"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H002A",
         "file": "voice/BGV_tuba_h002a.ogg"
@@ -1473,6 +1670,10 @@
       "bg": {
         "label": "#EV011・蕩け顔・クリつまみ・愛液",
         "file": "EV011_18"
+      },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H002A",
@@ -1497,6 +1698,10 @@
         "label": "#EV011・蕩け顔・クリつまみ・愛液",
         "file": "EV011_18"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H002A",
         "file": "voice/BGV_tuba_h002a.ogg"
@@ -1512,6 +1717,10 @@
       "bg": {
         "label": "#EV011・蕩け顔・クリつまみ・愛液",
         "file": "EV011_18"
+      },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H002A",
@@ -1532,6 +1741,10 @@
       "bg": {
         "label": "#EV011・蕩け顔・クリつまみ・愛液",
         "file": "EV011_18"
+      },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H002A",
@@ -1560,6 +1773,10 @@
         "label": "#EV011・蕩け顔・クリつまみ・愛液",
         "file": "EV011_18"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H002A",
         "file": "voice/BGV_tuba_h002a.ogg"
@@ -1579,6 +1796,10 @@
       "bg": {
         "label": "#EV011・蕩け顔・クリつまみ・愛液",
         "file": "EV011_18"
+      },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H002A",
@@ -1601,6 +1822,10 @@
         "label": "#EV011・蕩け顔・クリつまみ・愛液",
         "file": "EV011_18"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H002A",
         "file": "voice/BGV_tuba_h002a.ogg"
@@ -1620,6 +1845,10 @@
       "bg": {
         "label": "#EV011・蕩け顔・クリつまみ・愛液",
         "file": "EV011_18"
+      },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H002A",
@@ -1648,6 +1877,10 @@
         "label": "#EV011・蕩け顔・クリつまみ・愛液",
         "file": "EV011_18"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H002A",
         "file": "voice/BGV_tuba_h002a.ogg"
@@ -1662,6 +1895,10 @@
       "bg": {
         "label": "#EV011・蕩け顔・クリつまみ・愛液",
         "file": "EV011_18"
+      },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H002A",
@@ -1682,6 +1919,10 @@
       "bg": {
         "label": "#EV011・蕩け顔・クリつまみ・愛液",
         "file": "EV011_18"
+      },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H002A",
@@ -1704,6 +1945,10 @@
         "label": "#EV011・蕩け顔・クリつまみ・愛液",
         "file": "EV011_18"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H002A",
         "file": "voice/BGV_tuba_h002a.ogg"
@@ -1723,6 +1968,10 @@
       "bg": {
         "label": "#EV011・蕩け顔・クリつまみ・愛液",
         "file": "EV011_18"
+      },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H002A",
@@ -1747,6 +1996,10 @@
         "label": "#EV011・蕩け顔・クリつまみ・愛液",
         "file": "EV011_18"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H002A",
         "file": "voice/BGV_tuba_h002a.ogg"
@@ -1766,6 +2019,10 @@
       "bg": {
         "label": "#EV011・蕩け顔・クリつまみ・愛液",
         "file": "EV011_18"
+      },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H002A",
@@ -1795,6 +2052,10 @@
         "label": "#EV011・蕩け顔・クリつまみ・愛液",
         "file": "EV011_18"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H002A",
         "file": "voice/BGV_tuba_h002a.ogg"
@@ -1814,6 +2075,10 @@
       "bg": {
         "label": "#EV011・蕩け顔・クリつまみ・愛液",
         "file": "EV011_18"
+      },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H002A",
@@ -1842,6 +2107,10 @@
         "label": "#EV011・蕩け顔・クリつまみ・愛液",
         "file": "EV011_18"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H002A",
         "file": "voice/BGV_tuba_h002a.ogg"
@@ -1861,6 +2130,10 @@
       "bg": {
         "label": "#EV011・蕩け顔・クリつまみ・愛液",
         "file": "EV011_18"
+      },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H002A",
@@ -1888,6 +2161,10 @@
         "label": "#EV011・蕩け顔・クリつまみ・愛液",
         "file": "EV011_18"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H002A",
         "file": "voice/BGV_tuba_h002a.ogg"
@@ -1908,6 +2185,10 @@
         "label": "#EV011・蕩け顔・クリつまみ・愛液",
         "file": "EV011_18"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H002A",
         "file": "voice/BGV_tuba_h002a.ogg"
@@ -1926,6 +2207,10 @@
       "bg": {
         "label": "#EV011・蕩け顔・クリつまみ・愛液",
         "file": "EV011_18"
+      },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H002A",
@@ -1947,6 +2232,10 @@
         "label": "#EV011・蕩け顔・クリつまみ・愛液",
         "file": "EV011_18"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H002A",
         "file": "voice/BGV_tuba_h002a.ogg"
@@ -1966,6 +2255,10 @@
       "bg": {
         "label": "#EV011・蕩け顔・クリつまみ・愛液",
         "file": "EV011_18"
+      },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H002A",
@@ -1987,6 +2280,10 @@
         "label": "#EV011・蕩け顔・クリつまみ・愛液",
         "file": "EV011_18"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H002A",
         "file": "voice/BGV_tuba_h002a.ogg"
@@ -2005,6 +2302,10 @@
       "bg": {
         "label": "#EV011・蕩け顔・クリつまみ・愛液",
         "file": "EV011_18"
+      },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H002A",
@@ -2026,6 +2327,10 @@
         "label": "#EV011・蕩け顔・クリつまみ・愛液",
         "file": "EV011_18"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H002A",
         "file": "voice/BGV_tuba_h002a.ogg"
@@ -2042,6 +2347,10 @@
       "bg": {
         "label": "#EV011・蕩け顔・クリつまみ・愛液",
         "file": "EV011_18"
+      },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H002A",
@@ -2068,6 +2377,10 @@
           "file": "se/8361b.ogg"
         }
       ],
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H002A",
         "file": "voice/BGV_tuba_h002a.ogg"
@@ -2087,6 +2400,10 @@
       "bg": {
         "label": "#EV011・蕩け顔・クリつまみ・潮吹き",
         "file": "EV011_19"
+      },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H002A",
@@ -2115,6 +2432,10 @@
           "file": "se/8351a.ogg"
         }
       ],
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H002A",
         "file": "voice/BGV_tuba_h002a.ogg"
@@ -2144,6 +2465,10 @@
         "label": "#EV011・蕩け顔・クリつまみ・潮吹き",
         "file": "EV011_19"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H002A",
         "file": "voice/BGV_tuba_h002a.ogg"
@@ -2164,6 +2489,10 @@
         "label": "#EV011・蕩け顔・横向き脱ぎ・愛液2",
         "file": "EV011_20"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H002A",
         "file": "voice/BGV_tuba_h002a.ogg"
@@ -2182,6 +2511,10 @@
       "bg": {
         "label": "#EV011・蕩け顔・横向き脱ぎ・愛液2",
         "file": "EV011_20"
+      },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H002A",
@@ -2203,6 +2536,10 @@
         "label": "#EV011・蕩け顔・横向き脱ぎ・愛液2",
         "file": "EV011_20"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H002A",
         "file": "voice/BGV_tuba_h002a.ogg"
@@ -2218,6 +2555,10 @@
       "bg": {
         "label": "#EV011・蕩け顔・横向き脱ぎ・愛液2",
         "file": "EV011_20"
+      },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H002A",
@@ -2244,6 +2585,10 @@
       "bg": {
         "label": "#背景・黒一色",
         "file": "BG_BLACK"
+      },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H002A",

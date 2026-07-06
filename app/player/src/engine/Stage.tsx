@@ -141,6 +141,8 @@ export function Stage() {
           for (const s of beat.se ?? []) if (s.file) audio.playSe(assetUrl(s.file))
           // 背景ボイス（ループ）。sticky で各 beat に載るので、同一 URL は no-op・変化時に切替。
           if (beat.bgv?.file) audio.playBgv(assetUrl(beat.bgv.file))
+          // ループ se（VOL_LPSE）。BGV 同様 sticky ＝同一 URL は no-op・変化時に切替（HU-76）。
+          if (beat.lpse?.file) audio.playLpse(assetUrl(beat.lpse.file))
           // 画面フラッシュ（EFFECT:FLASHn）。インパクト beat で一瞬点灯（ワンショット）。
           if (beat.flash) flash.flash(beat.flash)
         }
@@ -155,6 +157,7 @@ export function Stage() {
           const leaving = prevUrls
           prevUrls = sceneAssetUrls(s)
           audio.releaseVoices()
+          audio.stopLpse() // ループ se はシーン局所（BGV 同様シーンを跨がない・HU-76）
           if (leaving.length === 0) return
           setTimeout(() => {
             const keep = new Set([
@@ -175,6 +178,7 @@ export function Stage() {
           if (s.ended && !prev.ended) {
             audio.stopBgm() // 終端で BGM を止める
             audio.stopBgv() // 背景ボイスも止める
+            audio.stopLpse() // ループ se も止める（HU-76）
           }
           if (!s.scene) return
           if (s.scene !== prev.scene) {

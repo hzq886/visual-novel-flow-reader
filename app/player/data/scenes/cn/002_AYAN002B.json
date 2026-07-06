@@ -47,6 +47,10 @@
         "label": "#EV014・切なげ・穿いてる",
         "file": "EV014_01"
       },
+      "lpse": {
+        "code": "8131A",
+        "file": "se/8131a.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_H001A",
         "file": "voice/BGV_ayan_h001a.ogg"
@@ -69,6 +73,10 @@
         "label": "#EV014・切なげ・穿いてる",
         "file": "EV014_01"
       },
+      "lpse": {
+        "code": "8131A",
+        "file": "se/8131a.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_H001A",
         "file": "voice/BGV_ayan_h001a.ogg"
@@ -87,6 +95,10 @@
       "bg": {
         "label": "#EV014・切なげ・穿いてる",
         "file": "EV014_01"
+      },
+      "lpse": {
+        "code": "8131A",
+        "file": "se/8131a.ogg"
       },
       "bgv": {
         "id": "BGV_AYAN_H001A",
@@ -111,6 +123,10 @@
         "label": "#EV014・切なげ・穿いてる",
         "file": "EV014_01"
       },
+      "lpse": {
+        "code": "8131A",
+        "file": "se/8131a.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_H001A",
         "file": "voice/BGV_ayan_h001a.ogg"
@@ -129,6 +145,10 @@
       "bg": {
         "label": "#EV014・切なげ・穿いてる",
         "file": "EV014_01"
+      },
+      "lpse": {
+        "code": "8131A",
+        "file": "se/8131a.ogg"
       },
       "bgv": {
         "id": "BGV_AYAN_H001A",
@@ -156,6 +176,10 @@
         "label": "#EV014・切なげ・穿いてる",
         "file": "EV014_01"
       },
+      "lpse": {
+        "code": "8131A",
+        "file": "se/8131a.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_H001A",
         "file": "voice/BGV_ayan_h001a.ogg"
@@ -174,6 +198,10 @@
       "bg": {
         "label": "#EV014・切なげ・穿いてる",
         "file": "EV014_01"
+      },
+      "lpse": {
+        "code": "8131A",
+        "file": "se/8131a.ogg"
       },
       "bgv": {
         "id": "BGV_AYAN_H001A",
@@ -201,6 +229,10 @@
         "label": "#EV014・切なげ・穿いてる",
         "file": "EV014_01"
       },
+      "lpse": {
+        "code": "8131A",
+        "file": "se/8131a.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_H001A",
         "file": "voice/BGV_ayan_h001a.ogg"
@@ -219,6 +251,10 @@
       "bg": {
         "label": "#EV014・切なげ・穿いてる",
         "file": "EV014_01"
+      },
+      "lpse": {
+        "code": "8131A",
+        "file": "se/8131a.ogg"
       },
       "bgv": {
         "id": "BGV_AYAN_H001A",
@@ -246,6 +282,10 @@
         "label": "#EV014・切なげ・穿いてる",
         "file": "EV014_01"
       },
+      "lpse": {
+        "code": "8131A",
+        "file": "se/8131a.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_H001A",
         "file": "voice/BGV_ayan_h001a.ogg"
@@ -265,6 +305,10 @@
         "label": "#EV014・目閉じ・穿いてる",
         "file": "EV014_02"
       },
+      "lpse": {
+        "code": "8131A",
+        "file": "se/8131a.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_H001A",
         "file": "voice/BGV_ayan_h001a.ogg"
@@ -275,7 +319,24 @@
       "pages": [
         [
           ""
-        ],
+        ]
+      ],
+      "bg": {
+        "label": "#EV014・目閉じ・穿いてる",
+        "file": "EV014_02"
+      },
+      "lpse": {
+        "code": "8131A",
+        "file": "se/8131a.ogg"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H001A",
+        "file": "voice/BGV_ayan_h001a.ogg"
+      }
+    },
+    {
+      "kind": "narration",
+      "pages": [
         [
           "绫姐的手动作逐渐变得激烈。"
         ],
@@ -291,6 +352,10 @@
       "bg": {
         "label": "#EV014・目閉じ・穿いてる",
         "file": "EV014_02"
+      },
+      "lpse": {
+        "code": "8131B",
+        "file": "se/8131b.ogg"
       },
       "bgv": {
         "id": "BGV_AYAN_H001A",
@@ -311,6 +376,10 @@
       "bg": {
         "label": "#EV014・目閉じ・穿いてる",
         "file": "EV014_02"
+      },
+      "lpse": {
+        "code": "8131B",
+        "file": "se/8131b.ogg"
       },
       "bgv": {
         "id": "BGV_AYAN_H001A",
@@ -340,6 +409,10 @@
         "label": "#EV014・目閉じ・穿いてる",
         "file": "EV014_02"
       },
+      "lpse": {
+        "code": "8131B",
+        "file": "se/8131b.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_H001A",
         "file": "voice/BGV_ayan_h001a.ogg"
@@ -359,6 +432,10 @@
       "bg": {
         "label": "#EV014・目閉じ・穿いてる",
         "file": "EV014_02"
+      },
+      "lpse": {
+        "code": "8131B",
+        "file": "se/8131b.ogg"
       },
       "bgv": {
         "id": "BGV_AYAN_H001A",
@@ -380,6 +457,10 @@
         "label": "#EV014・目閉じ・穿いてる",
         "file": "EV014_02"
       },
+      "lpse": {
+        "code": "8131B",
+        "file": "se/8131b.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_H001A",
         "file": "voice/BGV_ayan_h001a.ogg"
@@ -400,6 +481,10 @@
         "label": "#EV014・目閉じ・穿いてる",
         "file": "EV014_02"
       },
+      "lpse": {
+        "code": "8131B",
+        "file": "se/8131b.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_H001A",
         "file": "voice/BGV_ayan_h001a.ogg"
@@ -416,6 +501,10 @@
       "bg": {
         "label": "#EV014・目閉じ・穿いてる",
         "file": "EV014_02"
+      },
+      "lpse": {
+        "code": "8131B",
+        "file": "se/8131b.ogg"
       },
       "bgv": {
         "id": "BGV_AYAN_H001A",
@@ -436,6 +525,10 @@
       "bg": {
         "label": "#EV014・目閉じ・穿いてる",
         "file": "EV014_02"
+      },
+      "lpse": {
+        "code": "8131B",
+        "file": "se/8131b.ogg"
       },
       "bgv": {
         "id": "BGV_AYAN_H001A",
@@ -468,6 +561,10 @@
         "label": "#EV014・目閉じ・穿いてる",
         "file": "EV014_02"
       },
+      "lpse": {
+        "code": "8131B",
+        "file": "se/8131b.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_H001A",
         "file": "voice/BGV_ayan_h001a.ogg"
@@ -486,6 +583,10 @@
       "bg": {
         "label": "#EV014・目閉じ・穿いてる",
         "file": "EV014_02"
+      },
+      "lpse": {
+        "code": "8131B",
+        "file": "se/8131b.ogg"
       },
       "bgv": {
         "id": "BGV_AYAN_H001A",
@@ -507,6 +608,10 @@
         "label": "#EV014・目閉じ・穿いてる",
         "file": "EV014_02"
       },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_H001A",
         "file": "voice/BGV_ayan_h001a.ogg"
@@ -526,6 +631,10 @@
       "bg": {
         "label": "#EV014・目閉じ・穿いてる・愛液染み",
         "file": "EV014_03"
+      },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
       },
       "bgv": {
         "id": "BGV_AYAN_H002A",
@@ -551,6 +660,10 @@
         "label": "#EV014・目閉じ・穿いてる・愛液染み",
         "file": "EV014_03"
       },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_H002A",
         "file": "voice/BGV_ayan_h002a.ogg"
@@ -570,6 +683,10 @@
       "bg": {
         "label": "#EV014・目閉じ・穿いてる・愛液染み",
         "file": "EV014_03"
+      },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
       },
       "bgv": {
         "id": "BGV_AYAN_H002A",
@@ -591,6 +708,10 @@
         "label": "#EV014・目閉じ・穿いてる・愛液染み",
         "file": "EV014_03"
       },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_H002A",
         "file": "voice/BGV_ayan_h002a.ogg"
@@ -610,6 +731,10 @@
       "bg": {
         "label": "#EV014・目閉じ・穿いてる・愛液染み",
         "file": "EV014_03"
+      },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
       },
       "bgv": {
         "id": "BGV_AYAN_H002A",
@@ -639,6 +764,10 @@
         "label": "#EV014・目閉じ・穿いてる・愛液染み",
         "file": "EV014_03"
       },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_H002A",
         "file": "voice/BGV_ayan_h002a.ogg"
@@ -658,6 +787,10 @@
       "bg": {
         "label": "#EV014・目閉じ・穿いてる・愛液染み",
         "file": "EV014_03"
+      },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
       },
       "bgv": {
         "id": "BGV_AYAN_H002A",
@@ -680,6 +813,10 @@
         "label": "#EV014・目閉じ・穿いてる・愛液染み",
         "file": "EV014_03"
       },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_H002A",
         "file": "voice/BGV_ayan_h002a.ogg"
@@ -698,6 +835,10 @@
       "bg": {
         "label": "#EV014・目閉じ・穿いてる・愛液染み",
         "file": "EV014_03"
+      },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
       },
       "bgv": {
         "id": "BGV_AYAN_H002A",
@@ -725,6 +866,10 @@
         "label": "#EV014・目閉じ・穿いてる・愛液染み",
         "file": "EV014_03"
       },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_H002A",
         "file": "voice/BGV_ayan_h002a.ogg"
@@ -744,6 +889,10 @@
       "bg": {
         "label": "#EV014・目閉じ・穿いてる・愛液染み",
         "file": "EV014_03"
+      },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
       },
       "bgv": {
         "id": "BGV_AYAN_H002A",
@@ -765,6 +914,10 @@
         "label": "#EV014・目閉じ・穿いてる・愛液染み",
         "file": "EV014_03"
       },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_H002A",
         "file": "voice/BGV_ayan_h002a.ogg"
@@ -783,6 +936,10 @@
       "bg": {
         "label": "#EV014・目閉じ・穿いてる・愛液染み",
         "file": "EV014_03"
+      },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
       },
       "bgv": {
         "id": "BGV_AYAN_H002A",
@@ -808,6 +965,10 @@
         "label": "#EV014・目閉じ・穿いてる・愛液染み",
         "file": "EV014_03"
       },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_H002A",
         "file": "voice/BGV_ayan_h002a.ogg"
@@ -826,6 +987,10 @@
       "bg": {
         "label": "#EV014・目閉じ・穿いてる・愛液染み",
         "file": "EV014_03"
+      },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
       },
       "bgv": {
         "id": "BGV_AYAN_H002A",
@@ -847,6 +1012,10 @@
         "label": "#EV014・目閉じ・穿いてる・愛液染み",
         "file": "EV014_03"
       },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_H002A",
         "file": "voice/BGV_ayan_h002a.ogg"
@@ -865,6 +1034,10 @@
       "bg": {
         "label": "#EV014・目閉じ・穿いてる・愛液染み",
         "file": "EV014_03"
+      },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
       },
       "bgv": {
         "id": "BGV_AYAN_H001A",
@@ -900,6 +1073,10 @@
           "file": "se/1201b.ogg"
         }
       ],
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_H001A",
         "file": "voice/BGV_ayan_h001a.ogg"
@@ -922,6 +1099,10 @@
       "bg": {
         "label": "#EV014・目閉じ・脱いでる・愛液",
         "file": "EV014_04"
+      },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
       },
       "bgv": {
         "id": "BGV_AYAN_H001A",
@@ -948,6 +1129,10 @@
           "file": "se/8321a.ogg"
         }
       ],
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_H001A",
         "file": "voice/BGV_ayan_h001a.ogg"
@@ -968,6 +1153,10 @@
         "label": "#EV014・目閉じ・脱いでる・愛液",
         "file": "EV014_04"
       },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_H001A",
         "file": "voice/BGV_ayan_h001a.ogg"
@@ -987,6 +1176,10 @@
       "bg": {
         "label": "#EV014・目閉じ・脱いでる・愛液",
         "file": "EV014_04"
+      },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
       },
       "bgv": {
         "id": "BGV_AYAN_H001A",
@@ -1010,6 +1203,10 @@
         "label": "#EV014・目閉じ・脱いでる・愛液",
         "file": "EV014_04"
       },
+      "lpse": {
+        "code": "8131B",
+        "file": "se/8131b.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_H001A",
         "file": "voice/BGV_ayan_h001a.ogg"
@@ -1029,6 +1226,10 @@
         "label": "#EV014・目閉じ・脱いでる・愛液",
         "file": "EV014_04"
       },
+      "lpse": {
+        "code": "8131B",
+        "file": "se/8131b.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_H001A",
         "file": "voice/BGV_ayan_h001a.ogg"
@@ -1044,7 +1245,24 @@
         [
           "我拼命忍住了立刻就要自慰的冲动。",
           ""
-        ],
+        ]
+      ],
+      "bg": {
+        "label": "#EV014・目閉じ・脱いでる・愛液",
+        "file": "EV014_04"
+      },
+      "lpse": {
+        "code": "8131B",
+        "file": "se/8131b.ogg"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H001A",
+        "file": "voice/BGV_ayan_h001a.ogg"
+      }
+    },
+    {
+      "kind": "narration",
+      "pages": [
         [
           "与此同时，绫姐的自慰变得更加剧烈。"
         ]
@@ -1052,6 +1270,10 @@
       "bg": {
         "label": "#EV014・目閉じ・脱いでる・愛液",
         "file": "EV014_04"
+      },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
       },
       "bgv": {
         "id": "BGV_AYAN_H001A",
@@ -1072,6 +1294,10 @@
       "bg": {
         "label": "#EV014・うっとり・脱いでる・愛液",
         "file": "EV014_05"
+      },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
       },
       "bgv": {
         "id": "BGV_AYAN_H002A",
@@ -1100,6 +1326,10 @@
         "label": "#EV014・うっとり・脱いでる・愛液",
         "file": "EV014_05"
       },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_H002A",
         "file": "voice/BGV_ayan_h002a.ogg"
@@ -1119,6 +1349,10 @@
       "bg": {
         "label": "#EV014・うっとり・脱いでる・愛液",
         "file": "EV014_05"
+      },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
       },
       "bgv": {
         "id": "BGV_AYAN_H002A",
@@ -1141,6 +1375,10 @@
         "label": "#EV014・うっとり・脱いでる・愛液",
         "file": "EV014_05"
       },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_H002A",
         "file": "voice/BGV_ayan_h002a.ogg"
@@ -1160,6 +1398,10 @@
       "bg": {
         "label": "#EV014・うっとり・脱いでる・愛液",
         "file": "EV014_05"
+      },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
       },
       "bgv": {
         "id": "BGV_AYAN_H002A",
@@ -1181,6 +1423,10 @@
         "label": "#EV014・うっとり・脱いでる・愛液",
         "file": "EV014_05"
       },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_H002A",
         "file": "voice/BGV_ayan_h002a.ogg"
@@ -1201,6 +1447,10 @@
         "label": "#EV014・うっとり・脱いでる・愛液",
         "file": "EV014_05"
       },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_H002A",
         "file": "voice/BGV_ayan_h002a.ogg"
@@ -1217,6 +1467,10 @@
       "bg": {
         "label": "#EV014・うっとり・脱いでる・愛液",
         "file": "EV014_05"
+      },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
       },
       "bgv": {
         "id": "BGV_AYAN_H002A",
@@ -1238,6 +1492,10 @@
         "label": "#EV014・うっとり・脱いでる・愛液",
         "file": "EV014_05"
       },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_H002A",
         "file": "voice/BGV_ayan_h002a.ogg"
@@ -1258,6 +1516,10 @@
       "bg": {
         "label": "#EV014・うっとり・脱いでる・愛液",
         "file": "EV014_05"
+      },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
       },
       "bgv": {
         "id": "BGV_AYAN_H002A",
@@ -1285,6 +1547,10 @@
           "file": "se/8351a.ogg"
         }
       ],
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_H002A",
         "file": "voice/BGV_ayan_h002a.ogg"
@@ -1308,6 +1574,10 @@
       "bg": {
         "label": "#EV014・軽くアヘ・脱いでる・愛液",
         "file": "EV014_06"
+      },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
       },
       "bgv": {
         "id": "BGV_AYAN_H002A",
@@ -1336,6 +1606,10 @@
           "file": "se/8351a.ogg"
         }
       ],
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_H002A",
         "file": "voice/BGV_ayan_h002a.ogg"
@@ -1359,6 +1633,10 @@
       "bg": {
         "label": "#EV014・軽くアヘ・脱いでる・愛液",
         "file": "EV014_06"
+      },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
       },
       "bgv": {
         "id": "BGV_AYAN_H002A",
@@ -1387,6 +1665,10 @@
           "file": "se/8351a.ogg"
         }
       ],
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_H002A",
         "file": "voice/BGV_ayan_h002a.ogg"
@@ -1412,6 +1694,10 @@
       "bg": {
         "label": "#EV014・軽くアヘ・脱いでる・愛液",
         "file": "EV014_06"
+      },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
       },
       "bgv": {
         "id": "BGV_AYAN_H002A",

@@ -493,7 +493,16 @@
         [
           "在某个地方看到过激烈高潮更容易怀孕的说法，就让我们来尽情地激烈吧。",
           ""
-        ],
+        ]
+      ],
+      "bg": {
+        "label": "#EV078・微笑み・微笑み・微笑み・翼挿入",
+        "file": "EV078_01"
+      }
+    },
+    {
+      "kind": "narration",
+      "pages": [
         [
           "我紧紧抓住翼的腰，有力地动着腰部。"
         ]
@@ -501,6 +510,10 @@
       "bg": {
         "label": "#EV078・微笑み・微笑み・微笑み・翼挿入",
         "file": "EV078_01"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       }
     },
     {
@@ -517,6 +530,10 @@
       "bg": {
         "label": "#EV078・微笑み・微笑み・目閉じ喘ぎ・翼挿入",
         "file": "EV078_02"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H002A",
@@ -538,6 +555,10 @@
         "label": "#EV078・微笑み・微笑み・目閉じ喘ぎ・翼挿入",
         "file": "EV078_02"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H002A",
         "file": "voice/BGV_tuba_h002a.ogg"
@@ -557,6 +578,10 @@
       "bg": {
         "label": "#EV078・微笑み・微笑み・目閉じ喘ぎ・翼挿入",
         "file": "EV078_02"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H002A",
@@ -579,6 +604,10 @@
         "label": "#EV078・微笑み・微笑み・目閉じ喘ぎ・翼挿入",
         "file": "EV078_02"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H002A",
         "file": "voice/BGV_tuba_h002a.ogg"
@@ -598,6 +627,10 @@
       "bg": {
         "label": "#EV078・微笑み・微笑み・目閉じ喘ぎ・翼挿入",
         "file": "EV078_02"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H002A",
@@ -620,6 +653,10 @@
         "label": "#EV078・微笑み・微笑み・目閉じ喘ぎ・翼挿入",
         "file": "EV078_02"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H002A",
         "file": "voice/BGV_tuba_h002a.ogg"
@@ -639,6 +676,10 @@
         "label": "#EV078・微笑み・微笑み・目閉じ喘ぎ・翼挿入",
         "file": "EV078_02"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H002A",
         "file": "voice/BGV_tuba_h002a.ogg"
@@ -657,6 +698,10 @@
       "bg": {
         "label": "#EV078・微笑み・微笑み・目閉じ喘ぎ・翼挿入",
         "file": "EV078_02"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H002A",
@@ -678,6 +723,10 @@
         "label": "#EV078・微笑み・微笑み・目閉じ喘ぎ・翼挿入",
         "file": "EV078_02"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H002A",
         "file": "voice/BGV_tuba_h002a.ogg"
@@ -696,6 +745,10 @@
       "bg": {
         "label": "#EV078・微笑み・微笑み・目閉じ喘ぎ・翼挿入",
         "file": "EV078_02"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H002A",
@@ -716,6 +769,10 @@
         "label": "#EV078・微笑み・微笑み・目閉じ喘ぎ・翼挿入",
         "file": "EV078_02"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H002A",
         "file": "voice/BGV_tuba_h002a.ogg"
@@ -735,6 +792,10 @@
         "label": "#EV078・微笑み・微笑み・目閉じ喘ぎ・翼挿入",
         "file": "EV078_02"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H002A",
         "file": "voice/BGV_tuba_h002a.ogg"
@@ -750,6 +811,10 @@
       "bg": {
         "label": "#EV078・微笑み・微笑み・目閉じ喘ぎ・翼挿入",
         "file": "EV078_02"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H002A",
@@ -769,6 +834,10 @@
       "bg": {
         "label": "#EV078・微笑み・微笑み・目閉じ喘ぎ・翼挿入",
         "file": "EV078_02"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H002A",
@@ -794,6 +863,10 @@
         "label": "#EV078・微笑み・微笑み・目閉じ喘ぎ・翼挿入",
         "file": "EV078_02"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H002A",
         "file": "voice/BGV_tuba_h002a.ogg"
@@ -813,6 +886,10 @@
         "label": "#EV078・微笑み・微笑み・うっとり蕩け・翼挿入",
         "file": "EV078_03"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H002A",
         "file": "voice/BGV_tuba_h002a.ogg"
@@ -828,6 +905,10 @@
       "bg": {
         "label": "#EV078・微笑み・微笑み・うっとり蕩け・翼挿入",
         "file": "EV078_03"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H002A",
@@ -848,6 +929,10 @@
         "label": "#EV078・微笑み・微笑み・うっとり蕩け・翼挿入",
         "file": "EV078_03"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H002A",
         "file": "voice/BGV_tuba_h002a.ogg"
@@ -863,6 +948,10 @@
       "bg": {
         "label": "#EV078・微笑み・微笑み・うっとり蕩け・翼挿入",
         "file": "EV078_03"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H002A",
@@ -884,6 +973,10 @@
         "label": "#EV078・困り笑い・切なげ・うっとり蕩け・翼挿入・勃起",
         "file": "EV078_04"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H002A",
         "file": "voice/BGV_tuba_h002a.ogg"
@@ -902,6 +995,10 @@
       "bg": {
         "label": "#EV078・困り笑い・切なげ・うっとり蕩け・翼挿入・勃起",
         "file": "EV078_04"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H002A",
@@ -923,6 +1020,10 @@
         "label": "#EV078・困り笑い・切なげ・うっとり蕩け・翼挿入・勃起",
         "file": "EV078_04"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H002A",
         "file": "voice/BGV_tuba_h002a.ogg"
@@ -941,6 +1042,10 @@
       "bg": {
         "label": "#EV078・困り笑い・切なげ・うっとり蕩け・翼挿入・勃起",
         "file": "EV078_04"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H002A",
@@ -966,6 +1071,10 @@
         "label": "#EV078・困り笑い・切なげ・うっとり蕩け・翼挿入・勃起",
         "file": "EV078_04"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H002A",
         "file": "voice/BGV_tuba_h002a.ogg"
@@ -984,6 +1093,10 @@
       "bg": {
         "label": "#EV078・困り笑い・切なげ・うっとり蕩け・翼挿入・勃起",
         "file": "EV078_04"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H002A",
@@ -1005,6 +1118,10 @@
         "label": "#EV078・困り笑い・切なげ・うっとり蕩け・翼挿入・勃起",
         "file": "EV078_04"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H002A",
         "file": "voice/BGV_tuba_h002a.ogg"
@@ -1023,6 +1140,10 @@
       "bg": {
         "label": "#EV078・困り笑い・切なげ・うっとり蕩け・翼挿入・勃起",
         "file": "EV078_04"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H002A",
@@ -1045,6 +1166,10 @@
         "label": "#EV078・困り笑い・切なげ・うっとり蕩け・翼挿入・勃起",
         "file": "EV078_04"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H002A",
         "file": "voice/BGV_tuba_h002a.ogg"
@@ -1063,6 +1188,10 @@
       "bg": {
         "label": "#EV078・困り笑い・切なげ・軽くアヘ・翼挿入・勃起",
         "file": "EV078_05"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H003A",
@@ -1088,6 +1217,10 @@
         "label": "#EV078・困り笑い・切なげ・軽くアヘ・翼挿入・勃起",
         "file": "EV078_05"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H003A",
         "file": "voice/BGV_tuba_h003a.ogg"
@@ -1106,6 +1239,10 @@
       "bg": {
         "label": "#EV078・困り笑い・切なげ・軽くアヘ・翼挿入・勃起",
         "file": "EV078_05"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H003A",
@@ -1130,6 +1267,10 @@
         "label": "#EV078・困り笑い・切なげ・軽くアヘ・翼挿入・勃起",
         "file": "EV078_05"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H003A",
         "file": "voice/BGV_tuba_h003a.ogg"
@@ -1150,6 +1291,10 @@
         "label": "#EV078・困り笑い・切なげ・軽くアヘ・翼挿入・勃起",
         "file": "EV078_05"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H003A",
         "file": "voice/BGV_tuba_h003a.ogg"
@@ -1167,6 +1312,10 @@
         "label": "#EV078・困り笑い・切なげ・軽くアヘ・翼挿入・勃起",
         "file": "EV078_05"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H003A",
         "file": "voice/BGV_tuba_h003a.ogg"
@@ -1181,6 +1330,10 @@
       "bg": {
         "label": "#EV078・困り笑い・切なげ・軽くアヘ・翼挿入・勃起",
         "file": "EV078_05"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H003A",
@@ -1200,6 +1353,10 @@
       "bg": {
         "label": "#EV078・困り笑い・切なげ・軽くアヘ・翼挿入・勃起",
         "file": "EV078_05"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H003A",
@@ -1227,6 +1384,10 @@
           "file": "se/8011b.ogg"
         }
       ],
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H003A",
         "file": "voice/BGV_tuba_h003a.ogg"
@@ -1253,6 +1414,10 @@
           "file": "se/8201b.ogg"
         }
       ],
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H003A",
         "file": "voice/BGV_tuba_h003a.ogg"
@@ -1272,6 +1437,10 @@
       "bg": {
         "label": "#EV078・困り笑い・切なげ・軽くアヘ・翼挿入・勃起",
         "file": "EV078_05"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H003A",
@@ -1294,6 +1463,10 @@
         "label": "#EV078・困り笑い・切なげ・軽くアヘ・翼挿入・勃起",
         "file": "EV078_05"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H003A",
         "file": "voice/BGV_tuba_h003a.ogg"
@@ -1314,6 +1487,10 @@
         "label": "#EV078・困り笑い・切なげ・軽くアヘ・翼挿入・勃起",
         "file": "EV078_05"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H003A",
         "file": "voice/BGV_tuba_h003a.ogg"
@@ -1333,6 +1510,10 @@
         "label": "#EV078・困り笑い・切なげ・軽くアヘ・翼挿入・勃起",
         "file": "EV078_05"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H003A",
         "file": "voice/BGV_tuba_h003a.ogg"
@@ -1347,6 +1528,10 @@
       "bg": {
         "label": "#EV078・困り笑い・切なげ・軽くアヘ・翼挿入・勃起",
         "file": "EV078_05"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H003A",
@@ -1367,6 +1552,10 @@
       "bg": {
         "label": "#EV078・困り笑い・切なげ・軽くアヘ・翼挿入・勃起",
         "file": "EV078_05"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H003A",
@@ -1398,6 +1587,10 @@
           "file": "se/8001b.ogg"
         }
       ],
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H003A",
         "file": "voice/BGV_tuba_h003a.ogg"
@@ -1416,6 +1609,10 @@
       "bg": {
         "label": "#EV078・困り笑い・目閉じ喘ぎ・軽くアヘ・楓挿入・勃起",
         "file": "EV078_06"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H003A",
@@ -1437,6 +1634,10 @@
         "label": "#EV078・困り笑い・目閉じ喘ぎ・軽くアヘ・楓挿入・勃起",
         "file": "EV078_06"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H003A",
         "file": "voice/BGV_tuba_h003a.ogg"
@@ -1456,6 +1657,10 @@
         "label": "#EV078・困り笑い・目閉じ喘ぎ・軽くアヘ・楓挿入・勃起",
         "file": "EV078_06"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H003A",
         "file": "voice/BGV_tuba_h003a.ogg"
@@ -1471,6 +1676,10 @@
       "bg": {
         "label": "#EV078・困り笑い・目閉じ喘ぎ・軽くアヘ・楓挿入・勃起",
         "file": "EV078_06"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H003A",
@@ -1490,6 +1699,10 @@
       "bg": {
         "label": "#EV078・困り笑い・目閉じ喘ぎ・軽くアヘ・楓挿入・勃起",
         "file": "EV078_06"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H003A",
@@ -1514,6 +1727,10 @@
         "label": "#EV078・困り笑い・目閉じ喘ぎ・軽くアヘ・楓挿入・勃起",
         "file": "EV078_06"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H003A",
         "file": "voice/BGV_tuba_h003a.ogg"
@@ -1532,6 +1749,10 @@
       "bg": {
         "label": "#EV078・困り笑い・目閉じ喘ぎ・軽くアヘ・楓挿入・勃起",
         "file": "EV078_06"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H003A",
@@ -1565,6 +1786,10 @@
         "label": "#EV078・困り笑い・目閉じ喘ぎ・軽くアヘ・楓挿入・勃起",
         "file": "EV078_06"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H003A",
         "file": "voice/BGV_tuba_h003a.ogg"
@@ -1584,6 +1809,10 @@
         "label": "#EV078・困り笑い・目閉じ喘ぎ・軽くアヘ・楓挿入・勃起",
         "file": "EV078_06"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H003A",
         "file": "voice/BGV_tuba_h003a.ogg"
@@ -1598,6 +1827,10 @@
       "bg": {
         "label": "#EV078・困り笑い・目閉じ喘ぎ・軽くアヘ・楓挿入・勃起",
         "file": "EV078_06"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H003A",
@@ -1619,6 +1852,10 @@
         "label": "#EV078・困り笑い・目閉じ喘ぎ・軽くアヘ・楓挿入・勃起",
         "file": "EV078_06"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H003A",
         "file": "voice/BGV_tuba_h003a.ogg"
@@ -1638,6 +1875,10 @@
       "bg": {
         "label": "#EV078・困り笑い・うっとり蕩け・軽くアヘ・楓挿入・勃起",
         "file": "EV078_07"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_KAED_H002A",
@@ -1660,6 +1901,10 @@
         "label": "#EV078・困り笑い・うっとり蕩け・軽くアヘ・楓挿入・勃起",
         "file": "EV078_07"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_KAED_H002A",
         "file": "voice/BGV_kaed_h002a.ogg"
@@ -1678,6 +1923,10 @@
       "bg": {
         "label": "#EV078・困り笑い・うっとり蕩け・軽くアヘ・楓挿入・勃起",
         "file": "EV078_07"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_KAED_H002A",
@@ -1703,6 +1952,10 @@
         "label": "#EV078・困り笑い・うっとり蕩け・軽くアヘ・楓挿入・勃起",
         "file": "EV078_07"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_KAED_H002A",
         "file": "voice/BGV_kaed_h002a.ogg"
@@ -1722,6 +1975,10 @@
         "label": "#EV078・困り笑い・うっとり蕩け・軽くアヘ・楓挿入・勃起",
         "file": "EV078_07"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_KAED_H002A",
         "file": "voice/BGV_kaed_h002a.ogg"
@@ -1737,6 +1994,10 @@
       "bg": {
         "label": "#EV078・困り笑い・うっとり蕩け・軽くアヘ・楓挿入・勃起",
         "file": "EV078_07"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_KAED_H002A",
@@ -1756,6 +2017,10 @@
       "bg": {
         "label": "#EV078・困り笑い・うっとり蕩け・軽くアヘ・楓挿入・勃起",
         "file": "EV078_07"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_KAED_H002A",
@@ -1780,6 +2045,10 @@
         "label": "#EV078・困り笑い・うっとり蕩け・軽くアヘ・楓挿入・勃起",
         "file": "EV078_07"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_KAED_H002A",
         "file": "voice/BGV_kaed_h002a.ogg"
@@ -1798,6 +2067,10 @@
       "bg": {
         "label": "#EV078・困り笑い・うっとり蕩け・軽くアヘ・楓挿入・勃起",
         "file": "EV078_07"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_KAED_H002A",
@@ -1822,6 +2095,10 @@
         "label": "#EV078・困り笑い・うっとり蕩け・軽くアヘ・楓挿入・勃起",
         "file": "EV078_07"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_KAED_H002A",
         "file": "voice/BGV_kaed_h002a.ogg"
@@ -1840,6 +2117,10 @@
       "bg": {
         "label": "#EV078・興奮・うっとり蕩け・軽くアヘ・楓挿入・つかみ",
         "file": "EV078_08"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_KAED_H002A",
@@ -1864,6 +2145,10 @@
         "label": "#EV078・興奮・うっとり蕩け・軽くアヘ・楓挿入・つかみ",
         "file": "EV078_08"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_KAED_H002A",
         "file": "voice/BGV_kaed_h002a.ogg"
@@ -1883,6 +2168,10 @@
         "label": "#EV078・興奮・うっとり蕩け・軽くアヘ・楓挿入・つかみ",
         "file": "EV078_08"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_KAED_H002A",
         "file": "voice/BGV_kaed_h002a.ogg"
@@ -1901,6 +2190,10 @@
       "bg": {
         "label": "#EV078・興奮・うっとり蕩け・軽くアヘ・楓挿入・つかみ",
         "file": "EV078_08"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_KAED_H002A",
@@ -1925,6 +2218,10 @@
         "label": "#EV078・興奮・うっとり蕩け・軽くアヘ・楓挿入・つかみ",
         "file": "EV078_08"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_KAED_H002A",
         "file": "voice/BGV_kaed_h002a.ogg"
@@ -1945,6 +2242,10 @@
         "label": "#EV078・興奮・うっとり蕩け・軽くアヘ・楓挿入・つかみ",
         "file": "EV078_08"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_KAED_H002A",
         "file": "voice/BGV_kaed_h002a.ogg"
@@ -1960,6 +2261,10 @@
       "bg": {
         "label": "#EV078・興奮・うっとり蕩け・軽くアヘ・楓挿入・つかみ",
         "file": "EV078_08"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_KAED_H002A",
@@ -1979,6 +2284,10 @@
       "bg": {
         "label": "#EV078・興奮・うっとり蕩け・軽くアヘ・楓挿入・つかみ",
         "file": "EV078_08"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_KAED_H002A",
@@ -2000,6 +2309,10 @@
         "label": "#EV078・興奮・うっとり蕩け・軽くアヘ・楓挿入・つかみ",
         "file": "EV078_08"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_KAED_H002A",
         "file": "voice/BGV_kaed_h002a.ogg"
@@ -2014,6 +2327,10 @@
       "bg": {
         "label": "#EV078・興奮・うっとり蕩け・軽くアヘ・楓挿入・つかみ",
         "file": "EV078_08"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_KAED_H002A",
@@ -2034,6 +2351,10 @@
         "label": "#EV078・興奮・うっとり蕩け・軽くアヘ・楓挿入・つかみ",
         "file": "EV078_08"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_KAED_H002A",
         "file": "voice/BGV_kaed_h002a.ogg"
@@ -2053,6 +2374,10 @@
         "label": "#EV078・興奮・うっとり蕩け・軽くアヘ・楓挿入・つかみ",
         "file": "EV078_08"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_KAED_H002A",
         "file": "voice/BGV_kaed_h002a.ogg"
@@ -2069,6 +2394,10 @@
       "bg": {
         "label": "#EV078・興奮・うっとり蕩け・軽くアヘ・楓挿入・つかみ",
         "file": "EV078_08"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_KAED_H002A",
@@ -2089,6 +2418,10 @@
         "label": "#EV078・興奮・うっとり蕩け・軽くアヘ・楓挿入・つかみ",
         "file": "EV078_08"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_KAED_H002A",
         "file": "voice/BGV_kaed_h002a.ogg"
@@ -2104,6 +2437,10 @@
       "bg": {
         "label": "#EV078・興奮・うっとり蕩け・軽くアヘ・楓挿入・つかみ",
         "file": "EV078_08"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_KAED_H002A",
@@ -2123,6 +2460,10 @@
       "bg": {
         "label": "#EV078・興奮・うっとり蕩け・軽くアヘ・楓挿入・つかみ",
         "file": "EV078_08"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_KAED_H002A",
@@ -2144,6 +2485,10 @@
         "label": "#EV078・興奮・うっとり蕩け・軽くアヘ・楓挿入・つかみ",
         "file": "EV078_08"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_KAED_H002A",
         "file": "voice/BGV_kaed_h002a.ogg"
@@ -2162,6 +2507,10 @@
       "bg": {
         "label": "#EV078・興奮・うっとり蕩け・軽くアヘ・楓挿入・つかみ",
         "file": "EV078_08"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_KAED_H002A",
@@ -2187,6 +2536,10 @@
         "label": "#EV078・興奮・うっとり蕩け・軽くアヘ・楓挿入・つかみ",
         "file": "EV078_08"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_KAED_H002A",
         "file": "voice/BGV_kaed_h002a.ogg"
@@ -2206,6 +2559,10 @@
       "bg": {
         "label": "#EV078・興奮・軽くアヘ・うっとり蕩け・楓挿入・つかみ",
         "file": "EV078_09"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_KAED_H003A",
@@ -2227,6 +2584,10 @@
         "label": "#EV078・興奮・軽くアヘ・うっとり蕩け・楓挿入・つかみ",
         "file": "EV078_09"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_KAED_H003A",
         "file": "voice/BGV_kaed_h003a.ogg"
@@ -2245,6 +2606,10 @@
       "bg": {
         "label": "#EV078・興奮・軽くアヘ・うっとり蕩け・楓挿入・つかみ",
         "file": "EV078_09"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_KAED_H003A",
@@ -2266,6 +2631,10 @@
         "label": "#EV078・興奮・軽くアヘ・うっとり蕩け・楓挿入・つかみ",
         "file": "EV078_09"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_KAED_H003A",
         "file": "voice/BGV_kaed_h003a.ogg"
@@ -2286,6 +2655,10 @@
         "label": "#EV078・興奮・軽くアヘ・うっとり蕩け・楓挿入・つかみ",
         "file": "EV078_09"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_KAED_H003A",
         "file": "voice/BGV_kaed_h003a.ogg"
@@ -2305,6 +2678,10 @@
       "bg": {
         "label": "#EV078・興奮・軽くアヘ・うっとり蕩け・楓挿入・つかみ",
         "file": "EV078_09"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_KAED_H003A",
@@ -2332,6 +2709,10 @@
           "file": "se/8201b.ogg"
         }
       ],
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_KAED_H003A",
         "file": "voice/BGV_kaed_h003a.ogg"
@@ -2350,6 +2731,10 @@
       "bg": {
         "label": "#EV078・興奮・軽くアヘ・うっとり蕩け・楓挿入・射精",
         "file": "EV078_10"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_KAED_H003A",
@@ -2372,6 +2757,10 @@
         "label": "#EV078・興奮・軽くアヘ・うっとり蕩け・楓挿入・射精",
         "file": "EV078_10"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_KAED_H003A",
         "file": "voice/BGV_kaed_h003a.ogg"
@@ -2392,6 +2781,10 @@
         "label": "#EV078・困り笑い・軽くアヘ・うっとり蕩け・楓挿入・萎え",
         "file": "EV078_11"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_KAED_H003A",
         "file": "voice/BGV_kaed_h003a.ogg"
@@ -2411,6 +2804,10 @@
         "label": "#EV078・困り笑い・軽くアヘ・うっとり蕩け・楓挿入・萎え",
         "file": "EV078_11"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_KAED_H003A",
         "file": "voice/BGV_kaed_h003a.ogg"
@@ -2429,6 +2826,10 @@
       "bg": {
         "label": "#EV078・困り笑い・軽くアヘ・うっとり蕩け・楓挿入・萎え",
         "file": "EV078_11"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_KAED_H003A",
@@ -2451,6 +2852,10 @@
         "label": "#EV078・困り笑い・軽くアヘ・うっとり蕩け・楓挿入・萎え",
         "file": "EV078_11"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_KAED_H003A",
         "file": "voice/BGV_kaed_h003a.ogg"
@@ -2471,6 +2876,10 @@
         "label": "#EV078・困り笑い・軽くアヘ・うっとり蕩け・楓挿入・萎え",
         "file": "EV078_11"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_KAED_H003A",
         "file": "voice/BGV_kaed_h003a.ogg"
@@ -2485,6 +2894,10 @@
       "bg": {
         "label": "#EV078・困り笑い・軽くアヘ・うっとり蕩け・楓挿入・萎え",
         "file": "EV078_11"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_KAED_H003A",
@@ -2505,6 +2918,10 @@
       "bg": {
         "label": "#EV078・困り笑い・軽くアヘ・うっとり蕩け・楓挿入・萎え",
         "file": "EV078_11"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_KAED_H003A",
@@ -2535,6 +2952,10 @@
           "file": "se/8201b.ogg"
         }
       ],
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_KAED_H003A",
         "file": "voice/BGV_kaed_h003a.ogg"
@@ -2550,6 +2971,10 @@
       "bg": {
         "label": "#EV078・困り笑い・軽くアヘ・うっとり蕩け・楓挿入・萎え・精液",
         "file": "EV078_12"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_KAED_H003A",
@@ -2578,6 +3003,10 @@
           "file": "se/8351a.ogg"
         }
       ],
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_KAED_H003A",
         "file": "voice/BGV_kaed_h003a.ogg"
@@ -2597,6 +3026,10 @@
       "bg": {
         "label": "#EV078・困り笑い・軽くアヘ・うっとり蕩け・楓挿入・萎え・精液",
         "file": "EV078_12"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_KAED_H003A",
@@ -2618,6 +3051,10 @@
         "label": "#EV078・困り笑い・軽くアヘ・うっとり蕩け・楓挿入・萎え・精液",
         "file": "EV078_12"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_KAED_H003A",
         "file": "voice/BGV_kaed_h003a.ogg"
@@ -2636,6 +3073,10 @@
       "bg": {
         "label": "#EV078・困り笑い・軽くアヘ・うっとり蕩け・楓挿入・萎え・精液",
         "file": "EV078_12"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_KAED_H003A",
@@ -2657,6 +3098,10 @@
         "label": "#EV078・困り笑い・軽くアヘ・微笑み2・楓挿入・萎え・精液",
         "file": "EV078_13"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_KAED_H003A",
         "file": "voice/BGV_kaed_h003a.ogg"
@@ -2676,6 +3121,10 @@
         "label": "#EV078・困り笑い・軽くアヘ・微笑み2・楓挿入・萎え・精液",
         "file": "EV078_13"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_KAED_H003A",
         "file": "voice/BGV_kaed_h003a.ogg"
@@ -2691,6 +3140,10 @@
       "bg": {
         "label": "#EV078・困り笑い・軽くアヘ・微笑み2・楓挿入・萎え・精液",
         "file": "EV078_13"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_KAED_H003A",
@@ -2712,6 +3165,10 @@
         "label": "#EV078・困り笑い・軽くアヘ・微笑み2・楓挿入・萎え・精液",
         "file": "EV078_13"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_KAED_H003A",
         "file": "voice/BGV_kaed_h003a.ogg"
@@ -2730,6 +3187,10 @@
       "bg": {
         "label": "#EV078・困り笑い・軽くアヘ・微笑み2・楓挿入・萎え・精液",
         "file": "EV078_13"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_KAED_H003A",
@@ -2750,6 +3211,10 @@
         "label": "#EV078・困り笑い・軽くアヘ・微笑み2・楓挿入・萎え・精液",
         "file": "EV078_13"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_KAED_H003A",
         "file": "voice/BGV_kaed_h003a.ogg"
@@ -2768,6 +3233,10 @@
       "bg": {
         "label": "#EV078・困り笑い・軽くアヘ・微笑み2・楓挿入・萎え・精液",
         "file": "EV078_13"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_KAED_H003A",
@@ -2788,6 +3257,10 @@
         "label": "#EV078・困り笑い・軽くアヘ・微笑み2・楓挿入・萎え・精液",
         "file": "EV078_13"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_KAED_H003A",
         "file": "voice/BGV_kaed_h003a.ogg"
@@ -2806,6 +3279,10 @@
       "bg": {
         "label": "#EV078・困り笑い・軽くアヘ・微笑み2・楓挿入・萎え・精液",
         "file": "EV078_13"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_KAED_H003A",
@@ -2831,6 +3308,10 @@
       "bg": {
         "label": "#背景・黒一色",
         "file": "BG_BLACK"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_KAED_H003A",

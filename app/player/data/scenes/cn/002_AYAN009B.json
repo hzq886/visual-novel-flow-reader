@@ -160,7 +160,16 @@
       "pages": [
         [
           ""
-        ],
+        ]
+      ],
+      "bg": {
+        "label": "#EV043・うっとり・ローション・半分くらい挿入",
+        "file": "EV043_02"
+      }
+    },
+    {
+      "kind": "narration",
+      "pages": [
         [
           "绫姐用更大的动作摇动着自己的胸部。"
         ],
@@ -176,6 +185,10 @@
       "bg": {
         "label": "#EV043・うっとり・ローション・半分くらい挿入",
         "file": "EV043_02"
+      },
+      "lpse": {
+        "code": "8511A",
+        "file": "se/8511a.ogg"
       }
     },
     {
@@ -192,6 +205,10 @@
       "bg": {
         "label": "#EV043・うっとり・ローション・半分くらい挿入",
         "file": "EV043_02"
+      },
+      "lpse": {
+        "code": "8511A",
+        "file": "se/8511a.ogg"
       }
     },
     {
@@ -209,6 +226,10 @@
       "bg": {
         "label": "#EV043・うっとり・ローション・半分くらい挿入",
         "file": "EV043_02"
+      },
+      "lpse": {
+        "code": "8511A",
+        "file": "se/8511a.ogg"
       }
     },
     {
@@ -224,6 +245,10 @@
       "bg": {
         "label": "#EV043・うっとり・ローション・半分くらい挿入",
         "file": "EV043_02"
+      },
+      "lpse": {
+        "code": "8511A",
+        "file": "se/8511a.ogg"
       }
     },
     {
@@ -244,6 +269,10 @@
       "bg": {
         "label": "#EV043・うっとり・ローション・半分くらい挿入",
         "file": "EV043_02"
+      },
+      "lpse": {
+        "code": "8511A",
+        "file": "se/8511a.ogg"
       }
     },
     {
@@ -259,6 +288,10 @@
       "bg": {
         "label": "#EV043・うっとり・ローション・半分くらい挿入",
         "file": "EV043_02"
+      },
+      "lpse": {
+        "code": "8511A",
+        "file": "se/8511a.ogg"
       }
     },
     {
@@ -283,6 +316,10 @@
       "bg": {
         "label": "#EV043・うっとり・ローション・半分くらい挿入",
         "file": "EV043_02"
+      },
+      "lpse": {
+        "code": "8511A",
+        "file": "se/8511a.ogg"
       }
     },
     {
@@ -298,6 +335,10 @@
       "bg": {
         "label": "#EV043・うっとり・ローション・半分くらい挿入",
         "file": "EV043_02"
+      },
+      "lpse": {
+        "code": "8511A",
+        "file": "se/8511a.ogg"
       }
     },
     {
@@ -310,6 +351,10 @@
       "bg": {
         "label": "#EV043・うっとり・ローション・半分くらい挿入",
         "file": "EV043_02"
+      },
+      "lpse": {
+        "code": "8511A",
+        "file": "se/8511a.ogg"
       }
     },
     {
@@ -321,6 +366,10 @@
       "bg": {
         "label": "#EV043・うっとり・ローション・半分くらい挿入",
         "file": "EV043_02"
+      },
+      "lpse": {
+        "code": "8511A",
+        "file": "se/8511a.ogg"
       }
     },
     {
@@ -333,6 +382,10 @@
       "bg": {
         "label": "#EV043・うっとり・ローション・半分くらい挿入",
         "file": "EV043_02"
+      },
+      "lpse": {
+        "code": "8511A",
+        "file": "se/8511a.ogg"
       }
     },
     {
@@ -348,6 +401,10 @@
       "bg": {
         "label": "#EV043・うっとり・ローション・半分くらい挿入",
         "file": "EV043_02"
+      },
+      "lpse": {
+        "code": "8511A",
+        "file": "se/8511a.ogg"
       }
     },
     {
@@ -363,6 +420,10 @@
       "bg": {
         "label": "#EV043・うっとり・ローション・半分くらい挿入",
         "file": "EV043_02"
+      },
+      "lpse": {
+        "code": "8511A",
+        "file": "se/8511a.ogg"
       }
     },
     {
@@ -374,6 +435,10 @@
       "bg": {
         "label": "#EV043・うっとり・ローション・半分くらい挿入",
         "file": "EV043_02"
+      },
+      "lpse": {
+        "code": "8511A",
+        "file": "se/8511a.ogg"
       }
     },
     {
@@ -386,6 +451,10 @@
       "bg": {
         "label": "#EV043・うっとり・ローション・半分くらい挿入",
         "file": "EV043_02"
+      },
+      "lpse": {
+        "code": "8511A",
+        "file": "se/8511a.ogg"
       }
     },
     {
@@ -407,7 +476,11 @@
           "code": "8001B",
           "file": "se/8001b.ogg"
         }
-      ]
+      ],
+      "lpse": {
+        "code": "8511A",
+        "file": "se/8511a.ogg"
+      }
     },
     {
       "kind": "narration",
@@ -428,6 +501,10 @@
       "bg": {
         "label": "#EV043・うっとり・ローション・奥まで挿入",
         "file": "EV043_03"
+      },
+      "lpse": {
+        "code": "8511A",
+        "file": "se/8511a.ogg"
       }
     },
     {
@@ -443,6 +520,10 @@
       "bg": {
         "label": "#EV043・うっとり・ローション・奥まで挿入",
         "file": "EV043_03"
+      },
+      "lpse": {
+        "code": "8511A",
+        "file": "se/8511a.ogg"
       }
     },
     {
@@ -460,6 +541,10 @@
       "bg": {
         "label": "#EV043・うっとり・ローション・奥まで挿入",
         "file": "EV043_03"
+      },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
       }
     },
     {
@@ -476,6 +561,10 @@
       "bg": {
         "label": "#EV043・うっとり・ローション・奥まで挿入",
         "file": "EV043_03"
+      },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
       }
     },
     {
@@ -496,6 +585,10 @@
       "bg": {
         "label": "#EV043・うっとり・ローション・奥まで挿入",
         "file": "EV043_03"
+      },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
       }
     },
     {
@@ -512,6 +605,10 @@
       "bg": {
         "label": "#EV043・うっとり・ローション・奥まで挿入",
         "file": "EV043_03"
+      },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
       },
       "bgv": {
         "id": "BGV_AYAN_H001A",
@@ -538,6 +635,10 @@
         "label": "#EV043・うっとり・ローション・奥まで挿入",
         "file": "EV043_03"
       },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_H001A",
         "file": "voice/BGV_ayan_h001a.ogg"
@@ -556,6 +657,10 @@
       "bg": {
         "label": "#EV043・うっとり・ローション・奥まで挿入",
         "file": "EV043_03"
+      },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
       },
       "bgv": {
         "id": "BGV_AYAN_H001A",
@@ -581,6 +686,10 @@
         "label": "#EV043・うっとり・ローション・奥まで挿入",
         "file": "EV043_03"
       },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_H001A",
         "file": "voice/BGV_ayan_h001a.ogg"
@@ -600,6 +709,10 @@
         "label": "#EV043・うっとり・ローション・奥まで挿入",
         "file": "EV043_03"
       },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_H001A",
         "file": "voice/BGV_ayan_h001a.ogg"
@@ -616,6 +729,10 @@
       "bg": {
         "label": "#EV043・うっとり・ローション・奥まで挿入",
         "file": "EV043_03"
+      },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
       },
       "bgv": {
         "id": "BGV_AYAN_H001A",
@@ -636,6 +753,10 @@
       "bg": {
         "label": "#EV043・うっとり・ローション・奥まで挿入",
         "file": "EV043_03"
+      },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
       },
       "bgv": {
         "id": "BGV_AYAN_H001A",
@@ -658,6 +779,10 @@
         "label": "#EV043・うっとり・ローション・奥まで挿入",
         "file": "EV043_03"
       },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_H001A",
         "file": "voice/BGV_ayan_h001a.ogg"
@@ -676,6 +801,10 @@
       "bg": {
         "label": "#EV043・うっとり・ローション・奥まで挿入",
         "file": "EV043_03"
+      },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
       },
       "bgv": {
         "id": "BGV_AYAN_H001A",
@@ -697,6 +826,10 @@
         "label": "#EV043・うっとり・ローション・奥まで挿入",
         "file": "EV043_03"
       },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_H001A",
         "file": "voice/BGV_ayan_h001a.ogg"
@@ -716,6 +849,10 @@
       "bg": {
         "label": "#EV043・うっとり・ローション・奥まで挿入",
         "file": "EV043_03"
+      },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
       },
       "bgv": {
         "id": "BGV_AYAN_H001A",
@@ -737,6 +874,10 @@
         "label": "#EV043・うっとり・ローション・奥まで挿入",
         "file": "EV043_03"
       },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_H001A",
         "file": "voice/BGV_ayan_h001a.ogg"
@@ -755,6 +896,10 @@
       "bg": {
         "label": "#EV043・うっとり・ローション・奥まで挿入",
         "file": "EV043_03"
+      },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
       },
       "bgv": {
         "id": "BGV_AYAN_H001A",
@@ -776,6 +921,10 @@
         "label": "#EV043・うっとり・ローション・奥まで挿入",
         "file": "EV043_03"
       },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_H001A",
         "file": "voice/BGV_ayan_h001a.ogg"
@@ -794,6 +943,10 @@
       "bg": {
         "label": "#EV043・うっとり・ローション・奥まで挿入",
         "file": "EV043_03"
+      },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
       },
       "bgv": {
         "id": "BGV_AYAN_H001A",
@@ -823,6 +976,10 @@
         "label": "#EV043・うっとり・ローション・奥まで挿入",
         "file": "EV043_03"
       },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_H001A",
         "file": "voice/BGV_ayan_h001a.ogg"
@@ -842,6 +999,10 @@
         "label": "#EV043・切なげ・ローション・奥まで挿入",
         "file": "EV043_04"
       },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_H001A",
         "file": "voice/BGV_ayan_h001a.ogg"
@@ -860,6 +1021,10 @@
       "bg": {
         "label": "#EV043・切なげ・ローション・奥まで挿入",
         "file": "EV043_04"
+      },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
       },
       "bgv": {
         "id": "BGV_AYAN_H001A",
@@ -881,6 +1046,10 @@
         "label": "#EV043・切なげ・ローション・奥まで挿入",
         "file": "EV043_04"
       },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_H001A",
         "file": "voice/BGV_ayan_h001a.ogg"
@@ -891,7 +1060,24 @@
       "pages": [
         [
           "被这样说了，我再也无法控制自己。"
-        ],
+        ]
+      ],
+      "bg": {
+        "label": "#EV043・切なげ・ローション・奥まで挿入",
+        "file": "EV043_04"
+      },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H001A",
+        "file": "voice/BGV_ayan_h001a.ogg"
+      }
+    },
+    {
+      "kind": "narration",
+      "pages": [
         [
           "我陷入了狂热之中，不断地摆动着腰部，真的在姐姐的胸间侵犯着。",
           ""
@@ -900,6 +1086,10 @@
       "bg": {
         "label": "#EV043・切なげ・ローション・奥まで挿入",
         "file": "EV043_04"
+      },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
       },
       "bgv": {
         "id": "BGV_AYAN_H001A",
@@ -920,6 +1110,10 @@
       "bg": {
         "label": "#EV043・切なげ・ローション・奥まで挿入",
         "file": "EV043_04"
+      },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
       },
       "bgv": {
         "id": "BGV_AYAN_H002A",
@@ -944,6 +1138,10 @@
         "label": "#EV043・切なげ・ローション・奥まで挿入",
         "file": "EV043_04"
       },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_H002A",
         "file": "voice/BGV_ayan_h002a.ogg"
@@ -963,6 +1161,10 @@
       "bg": {
         "label": "#EV043・切なげ・ローション・奥まで挿入",
         "file": "EV043_04"
+      },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
       },
       "bgv": {
         "id": "BGV_AYAN_H002A",
@@ -984,6 +1186,10 @@
         "label": "#EV043・切なげ・ローション・奥まで挿入",
         "file": "EV043_04"
       },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_H002A",
         "file": "voice/BGV_ayan_h002a.ogg"
@@ -1002,6 +1208,10 @@
       "bg": {
         "label": "#EV043・切なげ・ローション・奥まで挿入",
         "file": "EV043_04"
+      },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
       },
       "bgv": {
         "id": "BGV_AYAN_H002A",
@@ -1026,6 +1236,10 @@
         "label": "#EV043・切なげ・ローション・奥まで挿入",
         "file": "EV043_04"
       },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_H002A",
         "file": "voice/BGV_ayan_h002a.ogg"
@@ -1045,6 +1259,10 @@
       "bg": {
         "label": "#EV043・切なげ・ローション・奥まで挿入",
         "file": "EV043_04"
+      },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
       },
       "bgv": {
         "id": "BGV_AYAN_H002A",
@@ -1067,6 +1285,10 @@
         "label": "#EV043・切なげ・ローション・奥まで挿入",
         "file": "EV043_04"
       },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_H002A",
         "file": "voice/BGV_ayan_h002a.ogg"
@@ -1085,6 +1307,10 @@
       "bg": {
         "label": "#EV043・切なげ・ローション・奥まで挿入",
         "file": "EV043_04"
+      },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
       },
       "bgv": {
         "id": "BGV_AYAN_H002A",
@@ -1110,6 +1336,10 @@
         "label": "#EV043・切なげ・ローション・奥まで挿入",
         "file": "EV043_04"
       },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_H002A",
         "file": "voice/BGV_ayan_h002a.ogg"
@@ -1129,6 +1359,10 @@
       "bg": {
         "label": "#EV043・切なげ・ローション・奥まで挿入",
         "file": "EV043_04"
+      },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
       },
       "bgv": {
         "id": "BGV_AYAN_H002A",
@@ -1150,6 +1384,10 @@
         "label": "#EV043・切なげ・ローション・奥まで挿入",
         "file": "EV043_04"
       },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_H002A",
         "file": "voice/BGV_ayan_h002a.ogg"
@@ -1169,6 +1407,10 @@
       "bg": {
         "label": "#EV043・切なげ・ローション・奥まで挿入",
         "file": "EV043_04"
+      },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
       },
       "bgv": {
         "id": "BGV_AYAN_H002A",
@@ -1197,6 +1439,10 @@
         "label": "#EV043・切なげ・ローション・奥まで挿入",
         "file": "EV043_04"
       },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_H002A",
         "file": "voice/BGV_ayan_h002a.ogg"
@@ -1215,6 +1461,10 @@
       "bg": {
         "label": "#EV043・切なげ・ローション・奥まで挿入",
         "file": "EV043_04"
+      },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
       },
       "bgv": {
         "id": "BGV_AYAN_H002A",
@@ -1237,6 +1487,10 @@
         "label": "#EV043・切なげ・ローション・奥まで挿入",
         "file": "EV043_04"
       },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_H002A",
         "file": "voice/BGV_ayan_h002a.ogg"
@@ -1255,6 +1509,10 @@
       "bg": {
         "label": "#EV043・切なげ・ローション・奥まで挿入",
         "file": "EV043_04"
+      },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
       },
       "bgv": {
         "id": "BGV_AYAN_H002A",
@@ -1279,6 +1537,10 @@
         "label": "#EV043・切なげ・ローション・奥まで挿入",
         "file": "EV043_04"
       },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_H002A",
         "file": "voice/BGV_ayan_h002a.ogg"
@@ -1298,6 +1560,10 @@
       "bg": {
         "label": "#EV043・切なげ・ローション・奥まで挿入",
         "file": "EV043_04"
+      },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
       },
       "bgv": {
         "id": "BGV_AYAN_H002A",
@@ -1320,6 +1586,10 @@
         "label": "#EV043・切なげ・ローション・奥まで挿入",
         "file": "EV043_04"
       },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_H002A",
         "file": "voice/BGV_ayan_h002a.ogg"
@@ -1334,6 +1604,10 @@
       "bg": {
         "label": "#EV043・切なげ・ローション・奥まで挿入",
         "file": "EV043_04"
+      },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
       },
       "bgv": {
         "id": "BGV_AYAN_H002A",
@@ -1358,6 +1632,10 @@
         "label": "#EV043・切なげ・ローション・奥まで挿入",
         "file": "EV043_04"
       },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_H002A",
         "file": "voice/BGV_ayan_h002a.ogg"
@@ -1376,6 +1654,10 @@
       "bg": {
         "label": "#EV043・切なげ・ローション・奥まで挿入",
         "file": "EV043_04"
+      },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
       },
       "bgv": {
         "id": "BGV_AYAN_H002A",
@@ -1401,6 +1683,10 @@
         "label": "#EV043・切なげ・ローション・奥まで挿入",
         "file": "EV043_04"
       },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_H002A",
         "file": "voice/BGV_ayan_h002a.ogg"
@@ -1420,6 +1706,10 @@
       "bg": {
         "label": "#EV043・切なげ・ローション・奥まで挿入",
         "file": "EV043_04"
+      },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
       },
       "bgv": {
         "id": "BGV_AYAN_H002A",
@@ -1447,6 +1737,10 @@
           "file": "se/8201b.ogg"
         }
       ],
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_H002A",
         "file": "voice/BGV_ayan_h002a.ogg"
@@ -1463,6 +1757,10 @@
       "bg": {
         "label": "#EV043・目見開き・射精・奥まで挿入",
         "file": "EV043_05"
+      },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
       },
       "bgv": {
         "id": "BGV_AYAN_H002A",
@@ -1484,6 +1782,10 @@
         "label": "#EV043・目見開き・射精・奥まで挿入",
         "file": "EV043_05"
       },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_H002A",
         "file": "voice/BGV_ayan_h002a.ogg"
@@ -1504,6 +1806,10 @@
         "label": "#EV043・目見開き・射精・奥まで挿入",
         "file": "EV043_05"
       },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_H002A",
         "file": "voice/BGV_ayan_h002a.ogg"
@@ -1522,6 +1828,10 @@
       "bg": {
         "label": "#EV043・目見開き・射精・奥まで挿入",
         "file": "EV043_05"
+      },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
       },
       "bgv": {
         "id": "BGV_AYAN_H002A",
@@ -1543,6 +1853,10 @@
         "label": "#EV043・目見開き・射精・奥まで挿入",
         "file": "EV043_05"
       },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_H002A",
         "file": "voice/BGV_ayan_h002a.ogg"
@@ -1561,6 +1875,10 @@
       "bg": {
         "label": "#EV043・舌なめずり・精液・奥まで挿入",
         "file": "EV043_06"
+      },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
       },
       "bgv": {
         "id": "BGV_AYAN_H002A",
@@ -1585,6 +1903,10 @@
         "label": "#EV043・舌なめずり・精液・奥まで挿入",
         "file": "EV043_06"
       },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_H002A",
         "file": "voice/BGV_ayan_h002a.ogg"
@@ -1604,6 +1926,10 @@
         "label": "#EV043・舌なめずり・精液・奥まで挿入",
         "file": "EV043_06"
       },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_H002A",
         "file": "voice/BGV_ayan_h002a.ogg"
@@ -1618,6 +1944,10 @@
       "bg": {
         "label": "#EV043・舌なめずり・精液・奥まで挿入",
         "file": "EV043_06"
+      },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
       },
       "bgv": {
         "id": "BGV_AYAN_H002A",
@@ -1638,6 +1968,10 @@
         "label": "#EV043・舌なめずり・精液・奥まで挿入",
         "file": "EV043_06"
       },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_H002A",
         "file": "voice/BGV_ayan_h002a.ogg"
@@ -1657,6 +1991,10 @@
         "label": "#EV043・舌なめずり・精液・奥まで挿入",
         "file": "EV043_06"
       },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_H002A",
         "file": "voice/BGV_ayan_h002a.ogg"
@@ -1673,6 +2011,10 @@
       "bg": {
         "label": "#EV043・舌なめずり・精液・奥まで挿入",
         "file": "EV043_06"
+      },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
       },
       "bgv": {
         "id": "BGV_AYAN_H002A",
@@ -1692,6 +2034,10 @@
       "bg": {
         "label": "#EV043・舌なめずり・精液・奥まで挿入",
         "file": "EV043_06"
+      },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
       },
       "bgv": {
         "id": "BGV_AYAN_H002A",
@@ -1716,6 +2062,10 @@
       "bg": {
         "label": "#EV043・舌なめずり・精液・奥まで挿入",
         "file": "EV043_06"
+      },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
       },
       "bgv": {
         "id": "BGV_AYAN_H002A",

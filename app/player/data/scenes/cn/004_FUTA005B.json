@@ -1309,7 +1309,20 @@
         ],
         [
           "不知怎么地，我也忍不住了。"
-        ],
+        ]
+      ],
+      "bg": {
+        "label": "#EV068・眉寄せ感じ・目閉じ・胸はだけ・両手股間揉み",
+        "file": "EV068_04"
+      },
+      "bgv": {
+        "id": "BGV_SUZU_H001A",
+        "file": "voice/BGV_suzu_h001a.ogg"
+      }
+    },
+    {
+      "kind": "narration",
+      "pages": [
         [
           "捏住姐姐们的阴蒂。"
         ]
@@ -1317,6 +1330,10 @@
       "bg": {
         "label": "#EV068・眉寄せ感じ・目閉じ・胸はだけ・両手股間揉み",
         "file": "EV068_04"
+      },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H001A",
@@ -1338,6 +1355,10 @@
         "label": "#EV068・うっとり蕩け・うっとり蕩け・胸はだけ・両手クリ摘まみ・愛液染み・愛液染み",
         "file": "EV068_05"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H002A",
         "file": "voice/BGV_suzu_h002a.ogg"
@@ -1357,6 +1378,10 @@
       "bg": {
         "label": "#EV068・うっとり蕩け・うっとり蕩け・胸はだけ・両手クリ摘まみ・愛液染み・愛液染み",
         "file": "EV068_05"
+      },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H002A",
@@ -1383,6 +1408,10 @@
         "label": "#EV068・うっとり蕩け・うっとり蕩け・胸はだけ・両手クリ摘まみ・愛液染み・愛液染み",
         "file": "EV068_05"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H002A",
         "file": "voice/BGV_suzu_h002a.ogg"
@@ -1403,6 +1432,10 @@
         "label": "#EV068・うっとり蕩け・うっとり蕩け・胸はだけ・両手クリ摘まみ・愛液染み・愛液染み",
         "file": "EV068_05"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H002A",
         "file": "voice/BGV_suzu_h002a.ogg"
@@ -1418,6 +1451,10 @@
       "bg": {
         "label": "#EV068・うっとり蕩け・うっとり蕩け・胸はだけ・両手クリ摘まみ・愛液染み・愛液染み",
         "file": "EV068_05"
+      },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H002A",
@@ -1438,6 +1475,10 @@
       "bg": {
         "label": "#EV068・うっとり蕩け・うっとり蕩け・胸はだけ・両手クリ摘まみ・愛液染み・愛液染み",
         "file": "EV068_05"
+      },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H002A",
@@ -1462,6 +1503,10 @@
         "label": "#EV068・うっとり蕩け・うっとり蕩け・胸はだけ・両手クリ摘まみ・愛液染み・愛液染み",
         "file": "EV068_05"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H002A",
         "file": "voice/BGV_suzu_h002a.ogg"
@@ -1482,6 +1527,10 @@
         "label": "#EV068・うっとり蕩け・うっとり蕩け・胸はだけ・両手クリ摘まみ・愛液染み・愛液染み",
         "file": "EV068_05"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H002A",
         "file": "voice/BGV_suzu_h002a.ogg"
@@ -1501,6 +1550,10 @@
       "bg": {
         "label": "#EV068・うっとり蕩け・うっとり蕩け・胸はだけ・両手クリ摘まみ・愛液染み・愛液染み",
         "file": "EV068_05"
+      },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H002A",
@@ -1525,6 +1578,10 @@
         "label": "#EV068・うっとり蕩け・うっとり蕩け・胸はだけ・両手クリ摘まみ・愛液染み・愛液染み",
         "file": "EV068_05"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H002A",
         "file": "voice/BGV_suzu_h002a.ogg"
@@ -1545,6 +1602,10 @@
         "label": "#EV068・うっとり蕩け・うっとり蕩け・胸はだけ・両手クリ摘まみ・愛液染み・愛液染み",
         "file": "EV068_05"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H002A",
         "file": "voice/BGV_suzu_h002a.ogg"
@@ -1564,6 +1625,10 @@
         "label": "#EV068・うっとり蕩け・うっとり蕩け・胸はだけ・両手クリ摘まみ・愛液染み・愛液染み",
         "file": "EV068_05"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H002A",
         "file": "voice/BGV_suzu_h002a.ogg"
@@ -1578,6 +1643,10 @@
       "bg": {
         "label": "#EV068・うっとり蕩け・うっとり蕩け・胸はだけ・両手クリ摘まみ・愛液染み・愛液染み",
         "file": "EV068_05"
+      },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H002A",
@@ -1599,6 +1668,10 @@
         "label": "#EV068・うっとり蕩け・うっとり蕩け・胸はだけ・両手クリ摘まみ・愛液染み・愛液染み",
         "file": "EV068_05"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H002A",
         "file": "voice/BGV_suzu_h002a.ogg"
@@ -1614,6 +1687,10 @@
       "bg": {
         "label": "#EV068・うっとり蕩け・うっとり蕩け・胸はだけ・両手クリ摘まみ・愛液染み・愛液染み",
         "file": "EV068_05"
+      },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H002A",
@@ -1634,6 +1711,10 @@
       "bg": {
         "label": "#EV068・うっとり蕩け・うっとり蕩け・胸はだけ・両手クリ摘まみ・愛液染み・愛液染み",
         "file": "EV068_05"
+      },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H002A",
@@ -1658,6 +1739,10 @@
         "label": "#EV068・うっとり蕩け・うっとり蕩け・胸はだけ・両手クリ摘まみ・愛液染み・愛液染み",
         "file": "EV068_05"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H002A",
         "file": "voice/BGV_suzu_h002a.ogg"
@@ -1678,6 +1763,10 @@
         "label": "#EV068・うっとり蕩け・うっとり蕩け・胸はだけ・両手クリ摘まみ・愛液染み・愛液染み",
         "file": "EV068_05"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_H002A",
         "file": "voice/BGV_ayan_h002a.ogg"
@@ -1697,6 +1786,10 @@
       "bg": {
         "label": "#EV068・うっとり蕩け・うっとり蕩け・胸はだけ・両手クリ摘まみ・愛液染み・愛液染み",
         "file": "EV068_05"
+      },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
       },
       "bgv": {
         "id": "BGV_AYAN_H002A",
@@ -1726,6 +1819,10 @@
         "label": "#EV068・うっとり蕩け・うっとり蕩け・胸はだけ・両手クリ摘まみ・愛液染み・愛液染み",
         "file": "EV068_05"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_H002A",
         "file": "voice/BGV_ayan_h002a.ogg"
@@ -1746,6 +1843,10 @@
         "label": "#EV068・うっとり蕩け・うっとり蕩け・胸はだけ・両手クリ摘まみ・愛液染み・愛液染み",
         "file": "EV068_05"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_H002A",
         "file": "voice/BGV_ayan_h002a.ogg"
@@ -1765,6 +1866,10 @@
       "bg": {
         "label": "#EV068・うっとり蕩け・うっとり蕩け・胸はだけ・両手クリ摘まみ・愛液染み・愛液染み",
         "file": "EV068_05"
+      },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
       },
       "bgv": {
         "id": "BGV_AYAN_H002A",
@@ -1788,6 +1893,10 @@
         "label": "#EV068・うっとり蕩け・うっとり蕩け・胸はだけ・両手クリ摘まみ・愛液染み・愛液染み",
         "file": "EV068_05"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_H002A",
         "file": "voice/BGV_ayan_h002a.ogg"
@@ -1808,6 +1917,10 @@
         "label": "#EV068・うっとり蕩け・うっとり蕩け・胸はだけ・両手クリ摘まみ・愛液染み・愛液染み",
         "file": "EV068_05"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_H002A",
         "file": "voice/BGV_ayan_h002a.ogg"
@@ -1827,6 +1940,10 @@
       "bg": {
         "label": "#EV068・うっとり蕩け・うっとり蕩け・胸はだけ・両手クリ摘まみ・愛液染み・愛液染み",
         "file": "EV068_05"
+      },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
       },
       "bgv": {
         "id": "BGV_AYAN_H002A",
@@ -1853,6 +1970,10 @@
         "label": "#EV068・うっとり蕩け・うっとり蕩け・胸はだけ・両手クリ摘まみ・愛液染み・愛液染み",
         "file": "EV068_05"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_H002A",
         "file": "voice/BGV_ayan_h002a.ogg"
@@ -1873,6 +1994,10 @@
         "label": "#EV068・うっとり蕩け・うっとり蕩け・胸はだけ・両手クリ摘まみ・愛液染み・愛液染み",
         "file": "EV068_05"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_H002A",
         "file": "voice/BGV_ayan_h002a.ogg"
@@ -1892,6 +2017,10 @@
       "bg": {
         "label": "#EV068・うっとり蕩け・うっとり蕩け・胸はだけ・両手クリ摘まみ・愛液染み・愛液染み",
         "file": "EV068_05"
+      },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
       },
       "bgv": {
         "id": "BGV_AYAN_H002A",
@@ -1928,6 +2057,10 @@
         "label": "#EV068・うっとり蕩け・うっとり蕩け・胸はだけ・両手クリ摘まみ・愛液染み・愛液染み",
         "file": "EV068_05"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_H002A",
         "file": "voice/BGV_ayan_h002a.ogg"
@@ -1947,6 +2080,10 @@
         "label": "#EV068・うっとり蕩け・うっとり蕩け・胸はだけ・両手クリ摘まみ・愛液染み・愛液染み",
         "file": "EV068_05"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_H002A",
         "file": "voice/BGV_ayan_h002a.ogg"
@@ -1962,6 +2099,10 @@
       "bg": {
         "label": "#EV068・うっとり蕩け・うっとり蕩け・胸はだけ・両手クリ摘まみ・愛液染み・愛液染み",
         "file": "EV068_05"
+      },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
       },
       "bgv": {
         "id": "BGV_AYAN_H002A",
@@ -1981,6 +2122,10 @@
       "bg": {
         "label": "#EV068・うっとり蕩け・うっとり蕩け・胸はだけ・両手クリ摘まみ・愛液染み・愛液染み",
         "file": "EV068_05"
+      },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
       },
       "bgv": {
         "id": "BGV_AYAN_H002A",
@@ -2008,6 +2153,10 @@
         "label": "#EV068・うっとり蕩け・うっとり蕩け・胸はだけ・両手クリ摘まみ・愛液染み・愛液染み",
         "file": "EV068_05"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_H002A",
         "file": "voice/BGV_ayan_h002a.ogg"
@@ -2028,6 +2177,10 @@
         "label": "#EV068・アヘ顔・アヘ顔・胸はだけ・両手クリ摘まみ・愛液染み・愛液染み",
         "file": "EV068_06"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_H003A",
         "file": "voice/BGV_ayan_h003a.ogg"
@@ -2047,6 +2200,10 @@
       "bg": {
         "label": "#EV068・アヘ顔・アヘ顔・胸はだけ・両手クリ摘まみ・愛液染み・愛液染み",
         "file": "EV068_06"
+      },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
       },
       "bgv": {
         "id": "BGV_AYAN_H003A",
@@ -2077,6 +2234,10 @@
         "label": "#EV068・アヘ顔・アヘ顔・胸はだけ・両手クリ摘まみ・愛液染み・愛液染み",
         "file": "EV068_06"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_H003A",
         "file": "voice/BGV_ayan_h003a.ogg"
@@ -2097,6 +2258,10 @@
         "label": "#EV068・アヘ顔・アヘ顔・胸はだけ・両手クリ摘まみ・愛液染み・愛液染み",
         "file": "EV068_06"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_H003A",
         "file": "voice/BGV_ayan_h003a.ogg"
@@ -2116,6 +2281,10 @@
       "bg": {
         "label": "#EV068・アヘ顔・アヘ顔・胸はだけ・両手クリ摘まみ・愛液染み・愛液染み",
         "file": "EV068_06"
+      },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H003A",
@@ -2139,6 +2308,10 @@
         "label": "#EV068・アヘ顔・アヘ顔・胸はだけ・両手クリ摘まみ・愛液染み・愛液染み",
         "file": "EV068_06"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
@@ -2158,6 +2331,10 @@
       "bg": {
         "label": "#EV068・アヘ顔・アヘ顔・胸はだけ・両手クリ摘まみ・愛液染み・愛液染み",
         "file": "EV068_06"
+      },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H003A",
@@ -2185,6 +2362,10 @@
           "file": "se/8351a.ogg"
         }
       ],
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
@@ -2211,6 +2392,10 @@
         "label": "#EV068・アヘ顔・アヘ顔・胸はだけ・両手クリ摘まみ・愛液染み2・愛液染み2",
         "file": "EV068_07"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
@@ -2231,6 +2416,10 @@
       "bg": {
         "label": "#EV068・アヘ顔・アヘ顔・胸はだけ・両手クリ摘まみ・愛液染み2・愛液染み2",
         "file": "EV068_07"
+      },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H003A",
@@ -2258,6 +2447,10 @@
           "file": "se/8351a.ogg"
         }
       ],
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
@@ -2282,6 +2475,10 @@
         "label": "#EV068・アヘ顔・アヘ顔・胸はだけ・両手クリ摘まみ・愛液染み2・愛液染み2",
         "file": "EV068_07"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
@@ -2302,6 +2499,10 @@
       "bg": {
         "label": "#EV068・アヘ顔・アヘ顔・胸はだけ・両手クリ摘まみ・愛液染み2・愛液染み2",
         "file": "EV068_07"
+      },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H003A",
@@ -2329,6 +2530,10 @@
           "file": "se/8351a.ogg"
         }
       ],
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
@@ -2355,6 +2560,10 @@
         "label": "#EV068・アヘ顔・アヘ顔・胸はだけ・両手クリ摘まみ・愛液染み2・愛液染み2",
         "file": "EV068_07"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
@@ -2375,6 +2584,10 @@
       "bg": {
         "label": "#EV068・アヘ顔・アヘ顔・胸はだけ・両手クリ摘まみ・愛液染み2・愛液染み2",
         "file": "EV068_07"
+      },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H003A",
@@ -2402,6 +2615,10 @@
           "file": "se/8351a.ogg"
         }
       ],
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
@@ -2428,6 +2645,10 @@
         "label": "#EV068・アヘ顔・アヘ顔・胸はだけ・両手クリ摘まみ・愛液染み2・愛液染み2",
         "file": "EV068_07"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
@@ -2449,6 +2670,10 @@
         "label": "#EV068・微笑み・恥ずかしい・胸はだけ・両手クリ摘まみ・愛液染み2・愛液染み2",
         "file": "EV068_08"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
@@ -2464,6 +2689,10 @@
       "bg": {
         "label": "#EV068・微笑み・恥ずかしい・胸はだけ・両手クリ摘まみ・愛液染み2・愛液染み2",
         "file": "EV068_08"
+      },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H003A",
@@ -2485,6 +2714,10 @@
         "label": "#EV068・微笑み・恥ずかしい・胸はだけ・両手クリ摘まみ・愛液染み2・愛液染み2",
         "file": "EV068_08"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
@@ -2503,6 +2736,10 @@
       "bg": {
         "label": "#EV068・微笑み・恥ずかしい・胸はだけ・両手クリ摘まみ・愛液染み2・愛液染み2",
         "file": "EV068_08"
+      },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H003A",
@@ -2524,6 +2761,10 @@
         "label": "#EV068・微笑み・恥ずかしい・胸はだけ・両手クリ摘まみ・愛液染み2・愛液染み2",
         "file": "EV068_08"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
@@ -2544,6 +2785,10 @@
         "label": "#EV068・微笑み・恥ずかしい・胸はだけ・両手クリ摘まみ・愛液染み2・愛液染み2",
         "file": "EV068_08"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
@@ -2560,6 +2805,10 @@
         "label": "#EV068・微笑み・恥ずかしい・胸はだけ・両手クリ摘まみ・愛液染み2・愛液染み2",
         "file": "EV068_08"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
@@ -2575,6 +2824,10 @@
       "bg": {
         "label": "#EV068・微笑み・恥ずかしい・胸はだけ・両手クリ摘まみ・愛液染み2・愛液染み2",
         "file": "EV068_08"
+      },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H003A",
@@ -2597,6 +2850,10 @@
         "label": "#EV068・微笑み・恥ずかしい・胸はだけ・両手クリ摘まみ・愛液染み2・愛液染み2",
         "file": "EV068_08"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
@@ -2617,6 +2874,10 @@
         "label": "#EV068・眉寄せ感じ・目閉じ・胸はだけパンツずらし・指膣孔挿入・愛液・愛液",
         "file": "EV068_09"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
@@ -2636,6 +2897,10 @@
       "bg": {
         "label": "#EV068・眉寄せ感じ・目閉じ・胸はだけパンツずらし・指膣孔挿入・愛液・愛液",
         "file": "EV068_09"
+      },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H002A",
@@ -2663,6 +2928,10 @@
         "label": "#EV068・眉寄せ感じ・目閉じ・胸はだけパンツずらし・指膣孔挿入・愛液・愛液",
         "file": "EV068_09"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H002A",
         "file": "voice/BGV_suzu_h002a.ogg"
@@ -2682,6 +2951,10 @@
         "label": "#EV068・眉寄せ感じ・目閉じ・胸はだけパンツずらし・指膣孔挿入・愛液・愛液",
         "file": "EV068_09"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H002A",
         "file": "voice/BGV_suzu_h002a.ogg"
@@ -2697,6 +2970,10 @@
       "bg": {
         "label": "#EV068・眉寄せ感じ・目閉じ・胸はだけパンツずらし・指膣孔挿入・愛液・愛液",
         "file": "EV068_09"
+      },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H002A",
@@ -2717,6 +2994,10 @@
       "bg": {
         "label": "#EV068・眉寄せ感じ・目閉じ・胸はだけパンツずらし・指膣孔挿入・愛液・愛液",
         "file": "EV068_09"
+      },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H002A",
@@ -2742,6 +3023,10 @@
         "label": "#EV068・眉寄せ感じ・目閉じ・胸はだけパンツずらし・指膣孔挿入・愛液・愛液",
         "file": "EV068_09"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H002A",
         "file": "voice/BGV_suzu_h002a.ogg"
@@ -2761,6 +3046,10 @@
       "bg": {
         "label": "#EV068・眉寄せ感じ・目閉じ・胸はだけパンツずらし・指膣孔挿入・愛液・愛液",
         "file": "EV068_09"
+      },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H002A",
@@ -2782,6 +3071,10 @@
         "label": "#EV068・眉寄せ感じ・目閉じ・胸はだけパンツずらし・指膣孔挿入・愛液・愛液",
         "file": "EV068_09"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H002A",
         "file": "voice/BGV_suzu_h002a.ogg"
@@ -2800,6 +3093,10 @@
       "bg": {
         "label": "#EV068・眉寄せ感じ・目閉じ・胸はだけパンツずらし・指膣孔挿入・愛液・愛液",
         "file": "EV068_09"
+      },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H002A",
@@ -2821,6 +3118,10 @@
         "label": "#EV068・眉寄せ感じ・目閉じ・胸はだけパンツずらし・指膣孔挿入・愛液・愛液",
         "file": "EV068_09"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H002A",
         "file": "voice/BGV_suzu_h002a.ogg"
@@ -2839,6 +3140,10 @@
       "bg": {
         "label": "#EV068・眉寄せ感じ・目閉じ・胸はだけパンツずらし・指膣孔挿入・愛液・愛液",
         "file": "EV068_09"
+      },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H002A",
@@ -2860,6 +3165,10 @@
         "label": "#EV068・眉寄せ感じ・目閉じ・胸はだけパンツずらし・指膣孔挿入・愛液・愛液",
         "file": "EV068_09"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H002A",
         "file": "voice/BGV_suzu_h002a.ogg"
@@ -2878,6 +3187,10 @@
       "bg": {
         "label": "#EV068・眉寄せ感じ・目閉じ・胸はだけパンツずらし・指膣孔挿入・愛液・愛液",
         "file": "EV068_09"
+      },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H002A",
@@ -2898,6 +3211,10 @@
         "label": "#EV068・眉寄せ感じ・目閉じ・胸はだけパンツずらし・指膣孔挿入・愛液・愛液",
         "file": "EV068_09"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H002A",
         "file": "voice/BGV_suzu_h002a.ogg"
@@ -2912,6 +3229,10 @@
       "bg": {
         "label": "#EV068・眉寄せ感じ・目閉じ・胸はだけパンツずらし・指膣孔挿入・愛液・愛液",
         "file": "EV068_09"
+      },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H002A",
@@ -2928,6 +3249,10 @@
       "bg": {
         "label": "#EV068・眉寄せ感じ・目閉じ・胸はだけパンツずらし・指膣孔挿入・愛液・愛液",
         "file": "EV068_09"
+      },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H002A",
@@ -2948,6 +3273,10 @@
         "label": "#EV068・眉寄せ感じ・目閉じ・胸はだけパンツずらし・指膣孔挿入・愛液・愛液",
         "file": "EV068_09"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H002A",
         "file": "voice/BGV_suzu_h002a.ogg"
@@ -2966,6 +3295,10 @@
       "bg": {
         "label": "#EV068・眉寄せ感じ・目閉じ・胸はだけパンツずらし・指膣孔挿入・愛液・愛液",
         "file": "EV068_09"
+      },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H002A",
@@ -2992,6 +3325,10 @@
         "label": "#EV068・眉寄せ感じ・目閉じ・胸はだけパンツずらし・指膣孔挿入・愛液・愛液",
         "file": "EV068_09"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H002A",
         "file": "voice/BGV_suzu_h002a.ogg"
@@ -3012,6 +3349,10 @@
         "label": "#EV068・うっとり蕩け・うっとり蕩け・胸はだけパンツずらし・指膣孔挿入・愛液・愛液",
         "file": "EV068_10"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_H003A",
         "file": "voice/BGV_ayan_h003a.ogg"
@@ -3031,6 +3372,10 @@
       "bg": {
         "label": "#EV068・うっとり蕩け・うっとり蕩け・胸はだけパンツずらし・指膣孔挿入・愛液・愛液",
         "file": "EV068_10"
+      },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
       },
       "bgv": {
         "id": "BGV_AYAN_H003A",
@@ -3056,6 +3401,10 @@
         "label": "#EV068・うっとり蕩け・うっとり蕩け・胸はだけパンツずらし・指膣孔挿入・愛液・愛液",
         "file": "EV068_10"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_H003A",
         "file": "voice/BGV_ayan_h003a.ogg"
@@ -3076,6 +3425,10 @@
         "label": "#EV068・うっとり蕩け・うっとり蕩け・胸はだけパンツずらし・指膣孔挿入・愛液・愛液",
         "file": "EV068_10"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_H003A",
         "file": "voice/BGV_ayan_h003a.ogg"
@@ -3095,6 +3448,10 @@
       "bg": {
         "label": "#EV068・うっとり蕩け・うっとり蕩け・胸はだけパンツずらし・指膣孔挿入・愛液・愛液",
         "file": "EV068_10"
+      },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
       },
       "bgv": {
         "id": "BGV_AYAN_H003A",
@@ -3122,6 +3479,10 @@
         "label": "#EV068・うっとり蕩け・うっとり蕩け・胸はだけパンツずらし・指膣孔挿入・愛液・愛液",
         "file": "EV068_10"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_H003A",
         "file": "voice/BGV_ayan_h003a.ogg"
@@ -3141,6 +3502,10 @@
       "bg": {
         "label": "#EV068・うっとり蕩け・うっとり蕩け・胸はだけパンツずらし・指膣孔挿入・愛液・愛液",
         "file": "EV068_10"
+      },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
       },
       "bgv": {
         "id": "BGV_AYAN_H003A",
@@ -3162,6 +3527,10 @@
         "label": "#EV068・うっとり蕩け・うっとり蕩け・胸はだけパンツずらし・指膣孔挿入・愛液・愛液",
         "file": "EV068_10"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_H003A",
         "file": "voice/BGV_ayan_h003a.ogg"
@@ -3182,6 +3551,10 @@
         "label": "#EV068・うっとり蕩け・うっとり蕩け・胸はだけパンツずらし・指膣孔挿入・愛液・愛液",
         "file": "EV068_10"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_H003A",
         "file": "voice/BGV_ayan_h003a.ogg"
@@ -3198,6 +3571,10 @@
         "label": "#EV068・うっとり蕩け・うっとり蕩け・胸はだけパンツずらし・指膣孔挿入・愛液・愛液",
         "file": "EV068_10"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_H003A",
         "file": "voice/BGV_ayan_h003a.ogg"
@@ -3213,6 +3590,10 @@
       "bg": {
         "label": "#EV068・うっとり蕩け・うっとり蕩け・胸はだけパンツずらし・指膣孔挿入・愛液・愛液",
         "file": "EV068_10"
+      },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
       },
       "bgv": {
         "id": "BGV_AYAN_H003A",
@@ -3233,6 +3614,10 @@
         "label": "#EV068・うっとり蕩け・うっとり蕩け・胸はだけパンツずらし・指膣孔挿入・愛液・愛液",
         "file": "EV068_10"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_H003A",
         "file": "voice/BGV_ayan_h003a.ogg"
@@ -3251,6 +3636,10 @@
       "bg": {
         "label": "#EV068・うっとり蕩け・うっとり蕩け・胸はだけパンツずらし・指膣孔挿入・愛液・愛液",
         "file": "EV068_10"
+      },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
       },
       "bgv": {
         "id": "BGV_AYAN_H003A",
@@ -3272,6 +3661,10 @@
         "label": "#EV068・うっとり蕩け・うっとり蕩け・胸はだけパンツずらし・指膣孔挿入・愛液・愛液",
         "file": "EV068_10"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_H003A",
         "file": "voice/BGV_ayan_h003a.ogg"
@@ -3292,6 +3685,10 @@
         "label": "#EV068・うっとり蕩け・うっとり蕩け・胸はだけパンツずらし・指膣孔挿入・愛液・愛液",
         "file": "EV068_10"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_H003A",
         "file": "voice/BGV_ayan_h003a.ogg"
@@ -3310,6 +3707,10 @@
       "bg": {
         "label": "#EV068・うっとり蕩け・うっとり蕩け・胸はだけパンツずらし・指膣孔挿入・愛液・愛液",
         "file": "EV068_10"
+      },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
       },
       "bgv": {
         "id": "BGV_AYAN_H003A",
@@ -3333,6 +3734,10 @@
         "label": "#EV068・うっとり蕩け・うっとり蕩け・胸はだけパンツずらし・指膣孔挿入・愛液・愛液",
         "file": "EV068_10"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_H003A",
         "file": "voice/BGV_ayan_h003a.ogg"
@@ -3352,6 +3757,10 @@
         "label": "#EV068・キス・キス・胸はだけパンツずらし・指膣孔挿入・愛液・愛液",
         "file": "EV068_11"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_H003A",
         "file": "voice/BGV_ayan_h003a.ogg"
@@ -3367,6 +3776,10 @@
       "bg": {
         "label": "#EV068・キス・キス・胸はだけパンツずらし・指膣孔挿入・愛液・愛液",
         "file": "EV068_11"
+      },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
       },
       "bgv": {
         "id": "BGV_AYAN_H003A",
@@ -3386,6 +3799,10 @@
       "bg": {
         "label": "#EV068・キス・キス・胸はだけパンツずらし・指膣孔挿入・愛液・愛液",
         "file": "EV068_11"
+      },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_F001A",
@@ -3409,6 +3826,10 @@
         "label": "#EV068・キス・キス・胸はだけパンツずらし・指膣孔挿入・愛液・愛液",
         "file": "EV068_11"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_F001A",
         "file": "voice/BGV_suzu_f001a.ogg"
@@ -3429,6 +3850,10 @@
         "label": "#EV068・キス・キス・胸はだけパンツずらし・指膣孔挿入・愛液・愛液",
         "file": "EV068_11"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_F001A",
         "file": "voice/BGV_suzu_f001a.ogg"
@@ -3448,6 +3873,10 @@
       "bg": {
         "label": "#EV068・キス・キス・胸はだけパンツずらし・指膣孔挿入・愛液・愛液",
         "file": "EV068_11"
+      },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_F001A",
@@ -3479,6 +3908,10 @@
         "label": "#EV068・キス・キス・胸はだけパンツずらし・指膣孔挿入・愛液・愛液",
         "file": "EV068_11"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_F001A",
         "file": "voice/BGV_suzu_f001a.ogg"
@@ -3499,6 +3932,10 @@
         "label": "#EV068・キス・キス・胸はだけパンツずらし・指膣孔挿入・愛液・愛液",
         "file": "EV068_11"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_F001A",
         "file": "voice/BGV_suzu_f001a.ogg"
@@ -3518,6 +3955,10 @@
       "bg": {
         "label": "#EV068・キス・キス・胸はだけパンツずらし・指膣孔挿入・愛液・愛液",
         "file": "EV068_11"
+      },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_F001A",
@@ -3543,6 +3984,10 @@
         "label": "#EV068・キス・キス・胸はだけパンツずらし・指膣孔挿入・愛液・愛液",
         "file": "EV068_11"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_F001A",
         "file": "voice/BGV_suzu_f001a.ogg"
@@ -3563,6 +4008,10 @@
         "label": "#EV068・キス・キス・胸はだけパンツずらし・指膣孔挿入・愛液・愛液",
         "file": "EV068_11"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_F001A",
         "file": "voice/BGV_suzu_f001a.ogg"
@@ -3582,6 +4031,10 @@
       "bg": {
         "label": "#EV068・キス・キス・胸はだけパンツずらし・指膣孔挿入・愛液・愛液",
         "file": "EV068_11"
+      },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
       },
       "bgv": {
         "id": "BGV_AYAN_F002A",
@@ -3609,6 +4062,10 @@
         "label": "#EV068・舌絡め・舌絡め・胸はだけパンツずらし・指膣孔挿入・愛液・愛液",
         "file": "EV068_12"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_F002A",
         "file": "voice/BGV_ayan_f002a.ogg"
@@ -3629,6 +4086,10 @@
         "label": "#EV068・舌絡め・舌絡め・胸はだけパンツずらし・指膣孔挿入・愛液・愛液",
         "file": "EV068_12"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_F002A",
         "file": "voice/BGV_ayan_f002a.ogg"
@@ -3648,6 +4109,10 @@
       "bg": {
         "label": "#EV068・舌絡め・舌絡め・胸はだけパンツずらし・指膣孔挿入・愛液・愛液",
         "file": "EV068_12"
+      },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
       },
       "bgv": {
         "id": "BGV_AYAN_F002A",
@@ -3676,6 +4141,10 @@
         "label": "#EV068・舌絡め・舌絡め・胸はだけパンツずらし・指膣孔挿入・愛液・愛液",
         "file": "EV068_12"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_F002A",
         "file": "voice/BGV_ayan_f002a.ogg"
@@ -3696,6 +4165,10 @@
         "label": "#EV068・舌絡め・舌絡め・胸はだけパンツずらし・指膣孔挿入・愛液・愛液",
         "file": "EV068_12"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_F002A",
         "file": "voice/BGV_ayan_f002a.ogg"
@@ -3715,6 +4188,10 @@
       "bg": {
         "label": "#EV068・舌絡め・舌絡め・胸はだけパンツずらし・指膣孔挿入・愛液・愛液",
         "file": "EV068_12"
+      },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
       },
       "bgv": {
         "id": "BGV_AYAN_F002A",
@@ -3739,6 +4216,10 @@
         "label": "#EV068・舌絡め・舌絡め・胸はだけパンツずらし・指膣孔挿入・愛液・愛液",
         "file": "EV068_12"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_F002A",
         "file": "voice/BGV_ayan_f002a.ogg"
@@ -3759,6 +4240,10 @@
         "label": "#EV068・舌絡め・舌絡め・胸はだけパンツずらし・指膣孔挿入・愛液・愛液",
         "file": "EV068_12"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_F002A",
         "file": "voice/BGV_ayan_f002a.ogg"
@@ -3778,6 +4263,10 @@
       "bg": {
         "label": "#EV068・舌絡め・舌絡め・胸はだけパンツずらし・指膣孔挿入・愛液・愛液",
         "file": "EV068_12"
+      },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_F002A",
@@ -3805,6 +4294,10 @@
         "label": "#EV068・舌絡め・舌絡め・胸はだけパンツずらし・指膣孔挿入・愛液・愛液",
         "file": "EV068_12"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_F002A",
         "file": "voice/BGV_suzu_f002a.ogg"
@@ -3825,6 +4318,10 @@
         "label": "#EV068・舌絡め・舌絡め・胸はだけパンツずらし・指膣孔挿入・愛液・愛液",
         "file": "EV068_12"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_F002A",
         "file": "voice/BGV_suzu_f002a.ogg"
@@ -3844,6 +4341,10 @@
       "bg": {
         "label": "#EV068・舌絡め・舌絡め・胸はだけパンツずらし・指膣孔挿入・愛液・愛液",
         "file": "EV068_12"
+      },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_F002A",
@@ -3867,6 +4368,10 @@
         "label": "#EV068・舌絡め・舌絡め・胸はだけパンツずらし・指膣孔挿入・愛液・愛液",
         "file": "EV068_12"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_F002A",
         "file": "voice/BGV_suzu_f002a.ogg"
@@ -3887,6 +4392,10 @@
         "label": "#EV068・舌絡め・舌絡め・胸はだけパンツずらし・指膣孔挿入・愛液・愛液",
         "file": "EV068_12"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_F002A",
         "file": "voice/BGV_suzu_f002a.ogg"
@@ -3906,6 +4415,10 @@
       "bg": {
         "label": "#EV068・舌絡め・舌絡め・胸はだけパンツずらし・指膣孔挿入・愛液・愛液",
         "file": "EV068_12"
+      },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_F002A",
@@ -3929,6 +4442,10 @@
         "label": "#EV068・舌絡め・舌絡め・胸はだけパンツずらし・指膣孔挿入・愛液・愛液",
         "file": "EV068_12"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_F002A",
         "file": "voice/BGV_suzu_f002a.ogg"
@@ -3949,6 +4466,10 @@
         "label": "#EV068・舌絡め・舌絡め・胸はだけパンツずらし・指膣孔挿入・愛液・愛液",
         "file": "EV068_12"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_F002A",
         "file": "voice/BGV_suzu_f002a.ogg"
@@ -3968,6 +4489,10 @@
       "bg": {
         "label": "#EV068・舌絡め・舌絡め・胸はだけパンツずらし・指膣孔挿入・愛液・愛液",
         "file": "EV068_12"
+      },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_F002A",
@@ -3993,6 +4518,10 @@
         "label": "#EV068・舌絡め・舌絡め・胸はだけパンツずらし・指膣孔挿入・愛液・愛液",
         "file": "EV068_12"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_F002A",
         "file": "voice/BGV_suzu_f002a.ogg"
@@ -4013,6 +4542,10 @@
         "label": "#EV068・困り気味2・恥ずかしい・胸はだけパンツずらし・指膣孔挿入・愛液・愛液",
         "file": "EV068_13"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_F002A",
         "file": "voice/BGV_suzu_f002a.ogg"
@@ -4031,6 +4564,10 @@
       "bg": {
         "label": "#EV068・困り気味2・恥ずかしい・胸はだけパンツずらし・指膣孔挿入・愛液・愛液",
         "file": "EV068_13"
+      },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_F002A",
@@ -4051,6 +4588,10 @@
         "label": "#EV068・困り気味2・恥ずかしい・胸はだけパンツずらし・指膣孔挿入・愛液・愛液",
         "file": "EV068_13"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_F002A",
         "file": "voice/BGV_suzu_f002a.ogg"
@@ -4067,6 +4608,10 @@
         "label": "#EV068・困り気味2・恥ずかしい・胸はだけパンツずらし・指膣孔挿入・愛液・愛液",
         "file": "EV068_13"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_F002A",
         "file": "voice/BGV_suzu_f002a.ogg"
@@ -4082,6 +4627,10 @@
       "bg": {
         "label": "#EV068・困り気味2・恥ずかしい・胸はだけパンツずらし・指膣孔挿入・愛液・愛液",
         "file": "EV068_13"
+      },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_F002A",
@@ -4102,6 +4651,10 @@
         "label": "#EV068・困り気味2・恥ずかしい・胸はだけパンツずらし・指膣孔挿入・愛液・愛液",
         "file": "EV068_13"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_F002A",
         "file": "voice/BGV_suzu_f002a.ogg"
@@ -4120,6 +4673,10 @@
       "bg": {
         "label": "#EV068・困り気味2・恥ずかしい・胸はだけパンツずらし・指膣孔挿入・愛液・愛液",
         "file": "EV068_13"
+      },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_F002A",
@@ -4143,6 +4700,10 @@
         "label": "#EV068・困り気味2・恥ずかしい・胸はだけパンツずらし・指膣孔挿入・愛液・愛液",
         "file": "EV068_13"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_F002A",
         "file": "voice/BGV_suzu_f002a.ogg"
@@ -4161,6 +4722,10 @@
       "bg": {
         "label": "#EV068・困り気味2・うっとり蕩け・胸はだけパンツずらし・綾菜クリ舐め・愛液・愛液",
         "file": "EV068_14"
+      },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_F002A",
@@ -4187,6 +4752,10 @@
         "label": "#EV068・困り気味2・うっとり蕩け・胸はだけパンツずらし・綾菜クリ舐め・愛液・愛液",
         "file": "EV068_14"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_F002A",
         "file": "voice/BGV_suzu_f002a.ogg"
@@ -4206,6 +4775,10 @@
       "bg": {
         "label": "#EV068・困り気味2・うっとり蕩け・胸はだけパンツずらし・綾菜クリ舐め・愛液・愛液",
         "file": "EV068_14"
+      },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
       },
       "bgv": {
         "id": "BGV_AYAN_H002A",
@@ -4227,6 +4800,10 @@
         "label": "#EV068・困り気味2・うっとり蕩け・胸はだけパンツずらし・綾菜クリ舐め・愛液・愛液",
         "file": "EV068_14"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_H002A",
         "file": "voice/BGV_ayan_h002a.ogg"
@@ -4246,6 +4823,10 @@
       "bg": {
         "label": "#EV068・困り気味2・うっとり蕩け・胸はだけパンツずらし・綾菜クリ舐め・愛液・愛液",
         "file": "EV068_14"
+      },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
       },
       "bgv": {
         "id": "BGV_AYAN_H002A",
@@ -4268,6 +4849,10 @@
         "label": "#EV068・困り気味2・うっとり蕩け・胸はだけパンツずらし・綾菜クリ舐め・愛液・愛液",
         "file": "EV068_14"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_H002A",
         "file": "voice/BGV_ayan_h002a.ogg"
@@ -4286,6 +4871,10 @@
       "bg": {
         "label": "#EV068・困り気味2・うっとり蕩け・胸はだけパンツずらし・綾菜クリ舐め・愛液・愛液",
         "file": "EV068_14"
+      },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
       },
       "bgv": {
         "id": "BGV_AYAN_H002A",
@@ -4315,6 +4904,10 @@
         "label": "#EV068・困り気味2・うっとり蕩け・胸はだけパンツずらし・綾菜クリ舐め・愛液・愛液",
         "file": "EV068_14"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_H002A",
         "file": "voice/BGV_ayan_h002a.ogg"
@@ -4333,6 +4926,10 @@
       "bg": {
         "label": "#EV068・困り気味2・うっとり蕩け・胸はだけパンツずらし・綾菜クリ舐め・愛液・愛液",
         "file": "EV068_14"
+      },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
       },
       "bgv": {
         "id": "BGV_AYAN_H002A",
@@ -4358,6 +4955,10 @@
         "label": "#EV068・困り気味2・うっとり蕩け・胸はだけパンツずらし・綾菜クリ舐め・愛液・愛液",
         "file": "EV068_14"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_H002A",
         "file": "voice/BGV_ayan_h002a.ogg"
@@ -4377,6 +4978,10 @@
       "bg": {
         "label": "#EV068・困り気味2・うっとり蕩け・胸はだけパンツずらし・綾菜クリ舐め・愛液・愛液",
         "file": "EV068_14"
+      },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
       },
       "bgv": {
         "id": "BGV_AYAN_H002A",
@@ -4401,6 +5006,10 @@
         "label": "#EV068・困り気味2・うっとり蕩け・胸はだけパンツずらし・綾菜クリ舐め・愛液・愛液",
         "file": "EV068_14"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_H002A",
         "file": "voice/BGV_ayan_h002a.ogg"
@@ -4421,6 +5030,10 @@
         "label": "#EV068・困り気味2・うっとり蕩け・胸はだけパンツずらし・綾菜クリ舐め・愛液・愛液",
         "file": "EV068_14"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_H002A",
         "file": "voice/BGV_ayan_h002a.ogg"
@@ -4439,6 +5052,10 @@
       "bg": {
         "label": "#EV068・困り気味2・うっとり蕩け・胸はだけパンツずらし・綾菜クリ舐め・愛液・愛液",
         "file": "EV068_14"
+      },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
       },
       "bgv": {
         "id": "BGV_AYAN_H002A",
@@ -4464,6 +5081,10 @@
         "label": "#EV068・困り気味2・うっとり蕩け・胸はだけパンツずらし・綾菜クリ舐め・愛液・愛液",
         "file": "EV068_14"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_H002A",
         "file": "voice/BGV_ayan_h002a.ogg"
@@ -4482,6 +5103,10 @@
       "bg": {
         "label": "#EV068・困り気味2・うっとり蕩け・胸はだけパンツずらし・綾菜クリ舐め・愛液・愛液",
         "file": "EV068_14"
+      },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
       },
       "bgv": {
         "id": "BGV_AYAN_H002A",
@@ -4505,6 +5130,10 @@
       "bg": {
         "label": "#EV068・困り気味2・うっとり蕩け・胸はだけパンツずらし・綾菜クリ舐め・愛液・愛液",
         "file": "EV068_14"
+      },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
       },
       "bgv": {
         "id": "BGV_AYAN_H002A",
@@ -4532,6 +5161,10 @@
           "file": "se/8351a.ogg"
         }
       ],
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_H002A",
         "file": "voice/BGV_ayan_h002a.ogg"
@@ -4550,6 +5183,10 @@
       "bg": {
         "label": "#EV068・困り気味2・アヘ顔・胸はだけパンツずらし・綾菜クリ舐め・愛液・愛液2",
         "file": "EV068_15"
+      },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
       },
       "bgv": {
         "id": "BGV_AYAN_H002A",
@@ -4571,6 +5208,10 @@
       "bg": {
         "label": "#EV068・困り気味2・アヘ顔・胸はだけパンツずらし・綾菜クリ舐め・愛液・愛液2",
         "file": "EV068_15"
+      },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
       },
       "bgv": {
         "id": "BGV_AYAN_H002A",
@@ -4596,6 +5237,10 @@
         "label": "#EV068・困り気味2・アヘ顔・胸はだけパンツずらし・綾菜クリ舐め・愛液・愛液2",
         "file": "EV068_15"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_H002A",
         "file": "voice/BGV_ayan_h002a.ogg"
@@ -4614,6 +5259,10 @@
       "bg": {
         "label": "#EV068・困り気味2・アヘ顔・胸はだけパンツずらし・綾菜クリ舐め・愛液・愛液2",
         "file": "EV068_15"
+      },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
       },
       "bgv": {
         "id": "BGV_AYAN_H002A",
@@ -4643,6 +5292,10 @@
           "file": "se/8351a.ogg"
         }
       ],
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_H002A",
         "file": "voice/BGV_ayan_h002a.ogg"
@@ -4661,6 +5314,10 @@
       "bg": {
         "label": "#EV068・困り気味2・アヘ顔・胸はだけパンツずらし・綾菜クリ舐め・愛液・愛液2",
         "file": "EV068_15"
+      },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
       },
       "bgv": {
         "id": "BGV_AYAN_H002A",
@@ -4689,6 +5346,10 @@
         "label": "#EV068・困り気味2・アヘ顔・胸はだけパンツずらし・綾菜クリ舐め・愛液・愛液2",
         "file": "EV068_15"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_H002A",
         "file": "voice/BGV_ayan_h002a.ogg"
@@ -4707,6 +5368,10 @@
       "bg": {
         "label": "#EV068・困り気味2・アヘ顔・胸はだけパンツずらし・綾菜クリ舐め・愛液・愛液2",
         "file": "EV068_15"
+      },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
       },
       "bgv": {
         "id": "BGV_AYAN_H002A",
@@ -4733,6 +5398,10 @@
           "file": "se/8351a.ogg"
         }
       ],
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_H002A",
         "file": "voice/BGV_ayan_h002a.ogg"
@@ -4752,6 +5421,10 @@
         "label": "#EV068・困り気味2・アヘ顔・胸はだけパンツずらし・綾菜クリ舐め・愛液・愛液2",
         "file": "EV068_15"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_H002A",
         "file": "voice/BGV_ayan_h002a.ogg"
@@ -4768,6 +5441,10 @@
       "bg": {
         "label": "#EV068・困り気味2・アヘ顔・胸はだけパンツずらし・綾菜クリ舐め・愛液・愛液2",
         "file": "EV068_15"
+      },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
       },
       "bgv": {
         "id": "BGV_AYAN_H002A",
@@ -4787,6 +5464,10 @@
       "bg": {
         "label": "#EV068・困り気味2・アヘ顔・胸はだけパンツずらし・綾菜クリ舐め・愛液・愛液2",
         "file": "EV068_15"
+      },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
       },
       "bgv": {
         "id": "BGV_AYAN_H002A",
@@ -4814,6 +5495,10 @@
         "label": "#EV068・困り気味2・アヘ顔・胸はだけパンツずらし・綾菜クリ舐め・愛液・愛液2",
         "file": "EV068_15"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_H002A",
         "file": "voice/BGV_ayan_h002a.ogg"
@@ -4834,6 +5519,10 @@
         "label": "#EV068・うっとり蕩け・アヘ顔・胸はだけパンツずらし・なし・愛液・愛液2",
         "file": "EV068_16"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_H002A",
         "file": "voice/BGV_ayan_h002a.ogg"
@@ -4850,6 +5539,10 @@
       "bg": {
         "label": "#EV068・うっとり蕩け・アヘ顔・胸はだけパンツずらし・なし・愛液・愛液2",
         "file": "EV068_16"
+      },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
       },
       "bgv": {
         "id": "BGV_AYAN_H002A",
@@ -4871,6 +5564,10 @@
         "label": "#EV068・うっとり蕩け・アヘ顔・胸はだけパンツずらし・なし・愛液・愛液2",
         "file": "EV068_16"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_H002A",
         "file": "voice/BGV_ayan_h002a.ogg"
@@ -4890,6 +5587,10 @@
         "label": "#EV068・うっとり蕩け・アヘ顔・胸はだけパンツずらし・なし・愛液・愛液2",
         "file": "EV068_16"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_H002A",
         "file": "voice/BGV_ayan_h002a.ogg"
@@ -4905,6 +5606,10 @@
       "bg": {
         "label": "#EV068・うっとり蕩け・アヘ顔・胸はだけパンツずらし・なし・愛液・愛液2",
         "file": "EV068_16"
+      },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
       },
       "bgv": {
         "id": "BGV_AYAN_H002A",
@@ -4925,6 +5630,10 @@
       "bg": {
         "label": "#EV068・うっとり蕩け・恥ずかしい2・胸はだけパンツずらし・なし・愛液・愛液2",
         "file": "EV068_17"
+      },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
       },
       "bgv": {
         "id": "BGV_AYAN_H002A",
@@ -4948,6 +5657,10 @@
         "label": "#EV068・うっとり蕩け・恥ずかしい2・胸はだけパンツずらし・なし・愛液・愛液2",
         "file": "EV068_17"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_H002A",
         "file": "voice/BGV_ayan_h002a.ogg"
@@ -4963,6 +5676,10 @@
       "bg": {
         "label": "#EV068・うっとり蕩け・恥ずかしい2・胸はだけパンツずらし・なし・愛液・愛液2",
         "file": "EV068_17"
+      },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
       },
       "bgv": {
         "id": "BGV_AYAN_H002A",
@@ -4984,6 +5701,10 @@
         "label": "#EV068・うっとり蕩け・恥ずかしい2・胸はだけパンツずらし・なし・愛液・愛液2",
         "file": "EV068_17"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_H002A",
         "file": "voice/BGV_ayan_h002a.ogg"
@@ -5002,6 +5723,10 @@
       "bg": {
         "label": "#EV068・うっとり蕩け・恥ずかしい2・胸はだけパンツずらし・なし・愛液・愛液2",
         "file": "EV068_17"
+      },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
       },
       "bgv": {
         "id": "BGV_AYAN_H002A",
@@ -5022,6 +5747,10 @@
         "label": "#EV068・うっとり蕩け・恥ずかしい2・胸はだけパンツずらし・なし・愛液・愛液2",
         "file": "EV068_17"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_H002A",
         "file": "voice/BGV_ayan_h002a.ogg"
@@ -5037,6 +5766,10 @@
       "bg": {
         "label": "#EV068・うっとり蕩け・恥ずかしい2・胸はだけパンツずらし・なし・愛液・愛液2",
         "file": "EV068_17"
+      },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
       },
       "bgv": {
         "id": "BGV_AYAN_H002A",
@@ -5056,6 +5789,10 @@
       "bg": {
         "label": "#EV068・困り気味2・恥ずかしい2・胸はだけパンツずらし・なし・愛液・愛液2",
         "file": "EV068_18"
+      },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
       },
       "bgv": {
         "id": "BGV_AYAN_H002A",
@@ -5087,6 +5824,10 @@
         "label": "#EV068・困り気味2・恥ずかしい2・胸はだけパンツずらし・なし・愛液・愛液2",
         "file": "EV068_18"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_H002A",
         "file": "voice/BGV_ayan_h002a.ogg"
@@ -5105,6 +5846,10 @@
       "bg": {
         "label": "#EV068・困り気味2・恥ずかしい2・胸はだけパンツずらし・なし・愛液・愛液2",
         "file": "EV068_18"
+      },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
       },
       "bgv": {
         "id": "BGV_AYAN_H002A",
@@ -5129,6 +5874,10 @@
         "label": "#EV068・困り気味2・恥ずかしい2・胸はだけパンツずらし・なし・愛液・愛液2",
         "file": "EV068_18"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_H002A",
         "file": "voice/BGV_ayan_h002a.ogg"
@@ -5148,6 +5897,10 @@
         "label": "#背景・黒一色",
         "file": "BG_BLACK"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_H002A",
         "file": "voice/BGV_ayan_h002a.ogg"
@@ -5166,6 +5919,10 @@
       "bg": {
         "label": "#背景・黒一色",
         "file": "BG_BLACK"
+      },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
       },
       "bgv": {
         "id": "BGV_AYAN_H002A",

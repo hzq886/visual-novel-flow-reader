@@ -973,6 +973,10 @@
       "bg": {
         "label": "#EV050・通常・眉寄せ我慢",
         "file": "EV050_04"
+      },
+      "lpse": {
+        "code": "8101A",
+        "file": "se/8101a.ogg"
       }
     },
     {
@@ -988,6 +992,10 @@
       "bg": {
         "label": "#EV050・眉寄せ・眉寄せ我慢",
         "file": "EV050_01"
+      },
+      "lpse": {
+        "code": "8101A",
+        "file": "se/8101a.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H001A",
@@ -1007,6 +1015,10 @@
       "bg": {
         "label": "#EV050・眉寄せ・眉寄せ我慢",
         "file": "EV050_01"
+      },
+      "lpse": {
+        "code": "8101A",
+        "file": "se/8101a.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H001A",
@@ -1029,6 +1041,10 @@
         "label": "#EV050・眉寄せ・眉寄せ我慢",
         "file": "EV050_01"
       },
+      "lpse": {
+        "code": "8101A",
+        "file": "se/8101a.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H001A",
         "file": "voice/BGV_tuba_h001a.ogg"
@@ -1048,6 +1064,10 @@
         "label": "#EV050・眉寄せ・眉寄せ我慢",
         "file": "EV050_01"
       },
+      "lpse": {
+        "code": "8101A",
+        "file": "se/8101a.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H001A",
         "file": "voice/BGV_tuba_h001a.ogg"
@@ -1063,6 +1083,10 @@
       "bg": {
         "label": "#EV050・眉寄せ・眉寄せ我慢",
         "file": "EV050_01"
+      },
+      "lpse": {
+        "code": "8101A",
+        "file": "se/8101a.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H001A",
@@ -1084,6 +1108,10 @@
         "label": "#EV050・眉寄せ・眉寄せ我慢",
         "file": "EV050_01"
       },
+      "lpse": {
+        "code": "8101A",
+        "file": "se/8101a.ogg"
+      },
       "bgv": {
         "id": "BGV_KAED_H001A",
         "file": "voice/BGV_kaed_h001a.ogg"
@@ -1100,6 +1128,10 @@
       "bg": {
         "label": "#EV050・眉寄せ・眉寄せ我慢",
         "file": "EV050_01"
+      },
+      "lpse": {
+        "code": "8101A",
+        "file": "se/8101a.ogg"
       },
       "bgv": {
         "id": "BGV_KAED_H001A",
@@ -1121,6 +1153,10 @@
         "label": "#EV050・眉寄せ・眉寄せ我慢",
         "file": "EV050_01"
       },
+      "lpse": {
+        "code": "8101A",
+        "file": "se/8101a.ogg"
+      },
       "bgv": {
         "id": "BGV_KAED_H001A",
         "file": "voice/BGV_kaed_h001a.ogg"
@@ -1139,6 +1175,10 @@
       "bg": {
         "label": "#EV050・眉寄せ・眉寄せ我慢",
         "file": "EV050_01"
+      },
+      "lpse": {
+        "code": "8101A",
+        "file": "se/8101a.ogg"
       },
       "bgv": {
         "id": "BGV_KAED_H001A",
@@ -1159,6 +1199,10 @@
       "bg": {
         "label": "#EV050・眉寄せ・眉寄せ我慢",
         "file": "EV050_01"
+      },
+      "lpse": {
+        "code": "8101A",
+        "file": "se/8101a.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H001A",
@@ -1183,6 +1227,10 @@
         "label": "#EV050・眉寄せ・眉寄せ我慢",
         "file": "EV050_01"
       },
+      "lpse": {
+        "code": "8101A",
+        "file": "se/8101a.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H001A",
         "file": "voice/BGV_tuba_h001a.ogg"
@@ -1202,6 +1250,10 @@
         "label": "#EV050・眉寄せ・眉寄せ我慢",
         "file": "EV050_01"
       },
+      "lpse": {
+        "code": "8101A",
+        "file": "se/8101a.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H001A",
         "file": "voice/BGV_tuba_h001a.ogg"
@@ -1218,6 +1270,10 @@
       "bg": {
         "label": "#EV050・眉寄せ・眉寄せ我慢",
         "file": "EV050_01"
+      },
+      "lpse": {
+        "code": "8101A",
+        "file": "se/8101a.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H001A",
@@ -1238,6 +1294,10 @@
         "label": "#EV050・眉寄せ・眉寄せ我慢",
         "file": "EV050_01"
       },
+      "lpse": {
+        "code": "8101A",
+        "file": "se/8101a.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H001A",
         "file": "voice/BGV_tuba_h001a.ogg"
@@ -1253,6 +1313,10 @@
       "bg": {
         "label": "#EV050・眉寄せ・眉寄せ我慢",
         "file": "EV050_01"
+      },
+      "lpse": {
+        "code": "8101A",
+        "file": "se/8101a.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H001A",
@@ -1274,6 +1338,10 @@
         "label": "#EV050・眉寄せ・眉寄せ我慢",
         "file": "EV050_01"
       },
+      "lpse": {
+        "code": "8101A",
+        "file": "se/8101a.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H001A",
         "file": "voice/BGV_tuba_h001a.ogg"
@@ -1293,6 +1361,10 @@
       "bg": {
         "label": "#EV050・眉寄せ・眉寄せ我慢",
         "file": "EV050_01"
+      },
+      "lpse": {
+        "code": "8101A",
+        "file": "se/8101a.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H001A",
@@ -1314,6 +1386,10 @@
         "label": "#EV050・眉寄せ・眉寄せ我慢",
         "file": "EV050_01"
       },
+      "lpse": {
+        "code": "8101A",
+        "file": "se/8101a.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H001A",
         "file": "voice/BGV_tuba_h001a.ogg"
@@ -1328,6 +1404,10 @@
       "bg": {
         "label": "#EV050・眉寄せ・眉寄せ我慢",
         "file": "EV050_01"
+      },
+      "lpse": {
+        "code": "8101A",
+        "file": "se/8101a.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H001A",
@@ -1349,6 +1429,10 @@
         "label": "#EV050・眉寄せ・微笑み",
         "file": "EV050_05"
       },
+      "lpse": {
+        "code": "8101A",
+        "file": "se/8101a.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H001A",
         "file": "voice/BGV_tuba_h001a.ogg"
@@ -1368,6 +1452,10 @@
         "label": "#EV050・眉寄せ・微笑み",
         "file": "EV050_05"
       },
+      "lpse": {
+        "code": "8101A",
+        "file": "se/8101a.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H001A",
         "file": "voice/BGV_tuba_h001a.ogg"
@@ -1384,6 +1472,10 @@
       "bg": {
         "label": "#EV050・眉寄せ・微笑み",
         "file": "EV050_05"
+      },
+      "lpse": {
+        "code": "8101A",
+        "file": "se/8101a.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H001A",
@@ -1403,6 +1495,10 @@
       "bg": {
         "label": "#EV050・眉寄せ・微笑み",
         "file": "EV050_05"
+      },
+      "lpse": {
+        "code": "8101A",
+        "file": "se/8101a.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H001A",
@@ -1424,6 +1520,10 @@
         "label": "#EV050・眉寄せ・微笑み",
         "file": "EV050_05"
       },
+      "lpse": {
+        "code": "8101A",
+        "file": "se/8101a.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H001A",
         "file": "voice/BGV_tuba_h001a.ogg"
@@ -1444,6 +1544,10 @@
         "label": "#EV050・眉寄せ・微笑み",
         "file": "EV050_05"
       },
+      "lpse": {
+        "code": "8101A",
+        "file": "se/8101a.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H001A",
         "file": "voice/BGV_tuba_h001a.ogg"
@@ -1463,6 +1567,10 @@
         "label": "#EV050・眉寄せ・微笑み",
         "file": "EV050_05"
       },
+      "lpse": {
+        "code": "8101A",
+        "file": "se/8101a.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H001A",
         "file": "voice/BGV_tuba_h001a.ogg"
@@ -1481,6 +1589,10 @@
       "bg": {
         "label": "#EV050・眉寄せ・微笑み",
         "file": "EV050_05"
+      },
+      "lpse": {
+        "code": "8101A",
+        "file": "se/8101a.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H001A",
@@ -1502,6 +1614,10 @@
         "label": "#EV050・眉寄せ・微笑み",
         "file": "EV050_05"
       },
+      "lpse": {
+        "code": "8101A",
+        "file": "se/8101a.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H001A",
         "file": "voice/BGV_tuba_h001a.ogg"
@@ -1520,6 +1636,10 @@
       "bg": {
         "label": "#EV050・眉寄せ・微笑み",
         "file": "EV050_05"
+      },
+      "lpse": {
+        "code": "8101A",
+        "file": "se/8101a.ogg"
       },
       "bgv": {
         "id": "BGV_KAED_H001A",
@@ -1550,6 +1670,10 @@
         "label": "#EV050・眉寄せ・微笑み",
         "file": "EV050_05"
       },
+      "lpse": {
+        "code": "8101A",
+        "file": "se/8101a.ogg"
+      },
       "bgv": {
         "id": "BGV_KAED_H001A",
         "file": "voice/BGV_kaed_h001a.ogg"
@@ -1569,6 +1693,10 @@
         "label": "#EV050・眉寄せ・微笑み",
         "file": "EV050_05"
       },
+      "lpse": {
+        "code": "8101A",
+        "file": "se/8101a.ogg"
+      },
       "bgv": {
         "id": "BGV_KAED_H001A",
         "file": "voice/BGV_kaed_h001a.ogg"
@@ -1584,6 +1712,10 @@
       "bg": {
         "label": "#EV050・眉寄せ・微笑み",
         "file": "EV050_05"
+      },
+      "lpse": {
+        "code": "8101A",
+        "file": "se/8101a.ogg"
       },
       "bgv": {
         "id": "BGV_KAED_H001A",
@@ -1609,6 +1741,10 @@
         "label": "#EV050・うっとり蕩け・眉寄せ喘ぎ・愛液・愛液",
         "file": "EV050_06"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_KAED_H001A",
         "file": "voice/BGV_kaed_h001a.ogg"
@@ -1629,6 +1765,10 @@
         "label": "#EV050・うっとり蕩け・眉寄せ喘ぎ・愛液・愛液",
         "file": "EV050_06"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H002A",
         "file": "voice/BGV_tuba_h002a.ogg"
@@ -1647,6 +1787,10 @@
       "bg": {
         "label": "#EV050・うっとり蕩け・眉寄せ喘ぎ・愛液・愛液",
         "file": "EV050_06"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H002A",
@@ -1669,6 +1813,10 @@
         "label": "#EV050・うっとり蕩け・眉寄せ喘ぎ・愛液・愛液",
         "file": "EV050_06"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H002A",
         "file": "voice/BGV_tuba_h002a.ogg"
@@ -1689,6 +1837,10 @@
         "label": "#EV050・うっとり蕩け・眉寄せ喘ぎ・愛液・愛液",
         "file": "EV050_06"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H002A",
         "file": "voice/BGV_tuba_h002a.ogg"
@@ -1708,6 +1860,10 @@
       "bg": {
         "label": "#EV050・うっとり蕩け・眉寄せ喘ぎ・愛液・愛液",
         "file": "EV050_06"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H002A",
@@ -1733,6 +1889,10 @@
         "label": "#EV050・うっとり蕩け・眉寄せ喘ぎ・愛液・愛液",
         "file": "EV050_06"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H002A",
         "file": "voice/BGV_tuba_h002a.ogg"
@@ -1752,6 +1912,10 @@
       "bg": {
         "label": "#EV050・うっとり蕩け・眉寄せ喘ぎ・愛液・愛液",
         "file": "EV050_06"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H002A",
@@ -1774,6 +1938,10 @@
         "label": "#EV050・うっとり蕩け・眉寄せ喘ぎ・愛液・愛液",
         "file": "EV050_06"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H002A",
         "file": "voice/BGV_tuba_h002a.ogg"
@@ -1793,6 +1961,10 @@
       "bg": {
         "label": "#EV050・うっとり蕩け・眉寄せ喘ぎ・愛液・愛液",
         "file": "EV050_06"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H002A",
@@ -1819,6 +1991,10 @@
         "label": "#EV050・うっとり蕩け・眉寄せ喘ぎ・愛液・愛液",
         "file": "EV050_06"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H002A",
         "file": "voice/BGV_tuba_h002a.ogg"
@@ -1838,6 +2014,10 @@
       "bg": {
         "label": "#EV050・うっとり蕩け・眉寄せ喘ぎ・愛液・愛液",
         "file": "EV050_06"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_KAED_H002A",
@@ -1862,6 +2042,10 @@
         "label": "#EV050・うっとり蕩け・眉寄せ喘ぎ・愛液・愛液",
         "file": "EV050_06"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_KAED_H002A",
         "file": "voice/BGV_kaed_h002a.ogg"
@@ -1882,6 +2066,10 @@
         "label": "#EV050・うっとり蕩け・眉寄せ喘ぎ・愛液・愛液",
         "file": "EV050_06"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_KAED_H002A",
         "file": "voice/BGV_kaed_h002a.ogg"
@@ -1897,6 +2085,10 @@
       "bg": {
         "label": "#EV050・うっとり蕩け・眉寄せ喘ぎ・愛液・愛液",
         "file": "EV050_06"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_KAED_H002A",
@@ -1917,6 +2109,10 @@
       "bg": {
         "label": "#EV050・うっとり蕩け・眉寄せ喘ぎ・愛液・愛液",
         "file": "EV050_06"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_KAED_H002A",
@@ -1941,6 +2137,10 @@
         "label": "#EV050・うっとり蕩け・眉寄せ喘ぎ・愛液・愛液",
         "file": "EV050_06"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_KAED_H002A",
         "file": "voice/BGV_kaed_h002a.ogg"
@@ -1961,6 +2161,10 @@
         "label": "#EV050・うっとり蕩け・眉寄せ喘ぎ・愛液・愛液",
         "file": "EV050_06"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_KAED_H002A",
         "file": "voice/BGV_kaed_h002a.ogg"
@@ -1977,6 +2181,10 @@
       "bg": {
         "label": "#EV050・うっとり蕩け・眉寄せ喘ぎ・愛液・愛液",
         "file": "EV050_06"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_KAED_H002A",
@@ -1998,6 +2206,10 @@
         "label": "#EV050・うっとり蕩け・眉寄せ喘ぎ・愛液・愛液",
         "file": "EV050_06"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_KAED_H002A",
         "file": "voice/BGV_kaed_h002a.ogg"
@@ -2017,6 +2229,10 @@
       "bg": {
         "label": "#EV050・うっとり蕩け・眉寄せ喘ぎ・愛液・愛液",
         "file": "EV050_06"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_KAED_H002A",
@@ -2040,6 +2256,10 @@
       "bg": {
         "label": "#EV050・うっとり蕩け・眉寄せ喘ぎ・愛液・愛液",
         "file": "EV050_06"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_KAED_H002A",
@@ -2067,6 +2287,10 @@
           "file": "se/8361b.ogg"
         }
       ],
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_KAED_H002A",
         "file": "voice/BGV_kaed_h002a.ogg"
@@ -2093,6 +2317,10 @@
         "label": "#EV050・うっとり蕩け・うっとり蕩け・愛液2・愛液",
         "file": "EV050_07"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_KAED_H002A",
         "file": "voice/BGV_kaed_h002a.ogg"
@@ -2113,6 +2341,10 @@
         "label": "#EV050・うっとり蕩け・うっとり蕩け・愛液2・愛液",
         "file": "EV050_07"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H002A",
         "file": "voice/BGV_tuba_h002a.ogg"
@@ -2131,6 +2363,10 @@
       "bg": {
         "label": "#EV050・うっとり蕩け・うっとり蕩け・愛液2・愛液",
         "file": "EV050_07"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H002A",
@@ -2157,6 +2393,10 @@
           "file": "se/8351a.ogg"
         }
       ],
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H002A",
         "file": "voice/BGV_tuba_h002a.ogg"
@@ -2179,6 +2419,10 @@
         "label": "#EV050・うっとり蕩け・うっとり蕩け・愛液2・愛液2",
         "file": "EV050_08"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H002A",
         "file": "voice/BGV_tuba_h002a.ogg"
@@ -2198,6 +2442,10 @@
       "bg": {
         "label": "#EV050・うっとり蕩け・うっとり蕩け・愛液2・愛液2",
         "file": "EV050_08"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H002A",
@@ -2222,6 +2470,10 @@
         "label": "#EV050・うっとり蕩け・うっとり蕩け・愛液2・愛液2",
         "file": "EV050_08"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H002A",
         "file": "voice/BGV_tuba_h002a.ogg"
@@ -2240,6 +2492,10 @@
       "bg": {
         "label": "#EV050・うっとり蕩け・うっとり蕩け・愛液2・愛液2",
         "file": "EV050_08"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H002A",
@@ -2263,6 +2519,10 @@
         "label": "#EV050・うっとり蕩け・うっとり蕩け・愛液2・愛液2",
         "file": "EV050_08"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H002A",
         "file": "voice/BGV_tuba_h002a.ogg"
@@ -2283,6 +2543,10 @@
         "label": "#EV050・うっとり蕩け・うっとり蕩け・愛液2・愛液2",
         "file": "EV050_08"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H002A",
         "file": "voice/BGV_tuba_h002a.ogg"
@@ -2301,6 +2565,10 @@
       "bg": {
         "label": "#EV050・うっとり蕩け・うっとり蕩け・愛液2・愛液2",
         "file": "EV050_08"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H002A",
@@ -2322,6 +2590,10 @@
         "label": "#EV050・うっとり蕩け・うっとり蕩け・愛液2・愛液2",
         "file": "EV050_08"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H002A",
         "file": "voice/BGV_tuba_h002a.ogg"
@@ -2341,6 +2613,10 @@
       "bg": {
         "label": "#EV050・うっとり蕩け・うっとり蕩け・愛液2・愛液2",
         "file": "EV050_08"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H002A",
@@ -2362,6 +2638,10 @@
         "label": "#EV050・アヘ顔・うっとり蕩け・愛液2・愛液2",
         "file": "EV050_09"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_KAED_H003A",
         "file": "voice/BGV_kaed_h003a.ogg"
@@ -2378,6 +2658,10 @@
       "bg": {
         "label": "#EV050・アヘ顔・うっとり蕩け・愛液2・愛液2",
         "file": "EV050_09"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_KAED_H003A",
@@ -2397,6 +2681,10 @@
       "bg": {
         "label": "#EV050・アヘ顔・うっとり蕩け・愛液2・愛液2",
         "file": "EV050_09"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_KAED_H003A",
@@ -2418,6 +2706,10 @@
         "label": "#EV050・アヘ顔・うっとり蕩け・愛液2・愛液2",
         "file": "EV050_09"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_KAED_H003A",
         "file": "voice/BGV_kaed_h003a.ogg"
@@ -2434,6 +2726,10 @@
       "bg": {
         "label": "#EV050・アヘ顔・うっとり蕩け・愛液2・愛液2",
         "file": "EV050_09"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_KAED_H003A",
@@ -2454,6 +2750,10 @@
         "label": "#EV050・アヘ顔・うっとり蕩け・愛液2・愛液2",
         "file": "EV050_09"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_KAED_H003A",
         "file": "voice/BGV_kaed_h003a.ogg"
@@ -2470,6 +2770,10 @@
       "bg": {
         "label": "#EV050・アヘ顔・うっとり蕩け・愛液2・愛液2",
         "file": "EV050_09"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_KAED_H003A",
@@ -2489,6 +2793,10 @@
       "bg": {
         "label": "#EV050・アヘ顔・うっとり蕩け・愛液2・愛液2",
         "file": "EV050_09"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_KAED_H003A",
@@ -2510,6 +2818,10 @@
         "label": "#EV050・アヘ顔・うっとり蕩け・愛液2・愛液2",
         "file": "EV050_09"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_KAED_H003A",
         "file": "voice/BGV_kaed_h003a.ogg"
@@ -2529,6 +2841,10 @@
       "bg": {
         "label": "#EV050・アヘ顔・うっとり蕩け・愛液2・愛液2",
         "file": "EV050_09"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_KAED_H003A",
@@ -2556,6 +2872,10 @@
           "file": "se/8351a.ogg"
         }
       ],
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_KAED_H003A",
         "file": "voice/BGV_kaed_h003a.ogg"
@@ -2576,6 +2896,10 @@
         "label": "#EV050・アヘ顔・うっとり蕩け・愛液2・愛液2",
         "file": "EV050_09"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_KAED_H003A",
         "file": "voice/BGV_kaed_h003a.ogg"
@@ -2595,6 +2919,10 @@
       "bg": {
         "label": "#EV050・アヘ顔・うっとり蕩け・愛液2・愛液2",
         "file": "EV050_09"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_KAED_H003A",
@@ -2619,6 +2947,10 @@
         "label": "#EV050・アヘ顔・うっとり蕩け・愛液2・愛液2",
         "file": "EV050_09"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_KAED_H003A",
         "file": "voice/BGV_kaed_h003a.ogg"
@@ -2637,6 +2969,10 @@
       "bg": {
         "label": "#EV050・アヘ顔・アヘ顔・愛液2・愛液2",
         "file": "EV050_10"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H003A",
@@ -2660,6 +2996,10 @@
       "bg": {
         "label": "#EV050・アヘ顔・アヘ顔・愛液2・愛液2",
         "file": "EV050_10"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H003A",
@@ -2687,6 +3027,10 @@
           "file": "se/8351a.ogg"
         }
       ],
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H003A",
         "file": "voice/BGV_tuba_h003a.ogg"
@@ -2717,6 +3061,10 @@
           "file": "se/8201b.ogg"
         }
       ],
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H003A",
         "file": "voice/BGV_tuba_h003a.ogg"
@@ -2733,6 +3081,10 @@
       "bg": {
         "label": "#EV050・アヘ顔・アヘ顔・愛液2・精液",
         "file": "EV050_11"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H003A",
@@ -2753,6 +3105,10 @@
       "bg": {
         "label": "#EV050・アヘ顔・アヘ顔・愛液2・精液",
         "file": "EV050_11"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H003A",
@@ -2786,6 +3142,10 @@
           "file": "se/8351a.ogg"
         }
       ],
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H003A",
         "file": "voice/BGV_tuba_h003a.ogg"
@@ -2806,6 +3166,10 @@
         "label": "#EV050・アヘ顔・アヘ顔・愛液2・精液",
         "file": "EV050_11"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H003A",
         "file": "voice/BGV_tuba_h003a.ogg"
@@ -2823,6 +3187,10 @@
       "bg": {
         "label": "#EV050・アヘ顔・アヘ顔・愛液2・精液",
         "file": "EV050_11"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H003A",
@@ -2843,6 +3211,10 @@
       "bg": {
         "label": "#EV050・アヘ顔・アヘ顔・愛液2・精液",
         "file": "EV050_11"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H003A",
@@ -2871,6 +3243,10 @@
         "label": "#EV050・アヘ顔・アヘ顔・愛液2・精液",
         "file": "EV050_11"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H003A",
         "file": "voice/BGV_tuba_h003a.ogg"
@@ -2891,6 +3267,10 @@
         "label": "#EV050・アヘ顔・アヘ顔・愛液2・精液",
         "file": "EV050_11"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_KAED_H003A",
         "file": "voice/BGV_kaed_h003a.ogg"
@@ -2910,6 +3290,10 @@
       "bg": {
         "label": "#EV050・アヘ顔・アヘ顔・愛液2・精液",
         "file": "EV050_11"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_KAED_H003A",
@@ -2934,6 +3318,10 @@
         "label": "#EV050・アヘ顔・アヘ顔・愛液2・精液",
         "file": "EV050_11"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_KAED_H003A",
         "file": "voice/BGV_kaed_h003a.ogg"
@@ -2954,6 +3342,10 @@
         "label": "#EV050・アヘ顔・アヘ顔・愛液2・精液",
         "file": "EV050_11"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_KAED_H003A",
         "file": "voice/BGV_kaed_h003a.ogg"
@@ -2973,6 +3365,10 @@
       "bg": {
         "label": "#EV050・アヘ顔・アヘ顔・愛液2・精液",
         "file": "EV050_11"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H003A",
@@ -2996,6 +3392,10 @@
         "label": "#EV050・アヘ顔・アヘ顔・愛液2・精液",
         "file": "EV050_11"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H003A",
         "file": "voice/BGV_tuba_h003a.ogg"
@@ -3014,6 +3414,10 @@
       "bg": {
         "label": "#EV050・アヘ顔・アヘ顔・愛液2・精液",
         "file": "EV050_11"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H003A",
@@ -3040,6 +3444,10 @@
           "file": "se/8361b.ogg"
         }
       ],
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H003A",
         "file": "voice/BGV_tuba_h003a.ogg"
@@ -3059,6 +3467,10 @@
       "bg": {
         "label": "#EV050・アヘ顔・アヘ顔・潮吹き・潮吹き",
         "file": "EV050_12"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H003A",
@@ -3080,6 +3492,10 @@
         "label": "#EV050・アヘ顔・アヘ顔・潮吹き・潮吹き",
         "file": "EV050_12"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H003A",
         "file": "voice/BGV_tuba_h003a.ogg"
@@ -3098,6 +3514,10 @@
       "bg": {
         "label": "#EV050・アヘ顔・アヘ顔・潮吹き・潮吹き",
         "file": "EV050_12"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H003A",
@@ -3126,6 +3546,10 @@
         "label": "#EV050・アヘ顔・アヘ顔・潮吹き・潮吹き",
         "file": "EV050_12"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H003A",
         "file": "voice/BGV_tuba_h003a.ogg"
@@ -3150,6 +3574,10 @@
       "bg": {
         "label": "#背景・黒一色",
         "file": "BG_BLACK"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H003A",

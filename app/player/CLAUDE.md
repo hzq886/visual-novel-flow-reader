@@ -54,7 +54,7 @@ Vite + TypeScript + React / VN描画=**PixiJS**(WebGL) / ルート図=**React Fl
 - ボイスID: `CHAR_ROUTE_SCENE_serial`（例 `AYAN_002_AYAN001A_001`）→ ファイル名は **manifest を真実の源**に照合（大小文字変換は不確実）。
 - 立ち絵/背景: `[note]` ラベル経由で `_SPRSET.txt`/`_BGSET.txt` から解決（`sprites.json`/`backgrounds.json`）。
 - beat 生成: **bytecode 一次**（HU-74/ADR 0010）。`extract-scenes.py` がシーン脚本 bytecode を正規化イベント列（`data/scene-events/<locale>.json`）へ写し、`buildScene`（src/pipeline/scene.ts）が beat を組む。txt（`md_scr_text_*`）は文字列表デデュープで再表示・反復が欠落するため beat 生成には不使用（人間可読リファレンス・validate の flow 照合用に残置）。
-- 効果音(se): se コード（`^\d{4}[A-Za-z]$`、例 `8351A`）は bytecode の `0x15`/`0x16`（se 再生命令。HU-28 の `0x6c` 説は 1 始まり誤読・HU-70 で訂正）→ `se` イベント → `Beat.se`。manifest で実ファイルへ解決（大小文字無視）。[ADR 0006](../../docs/adr/0006-audio-cues.md) / [`smain_flow_guide.md` §3.9/§3.12](../../data_extract/text/_tools/smain_flow_guide.md)。
+- 効果音(se): se コード（`^\d{4}[A-Za-z]$`、例 `8351A`）は bytecode の `0x15`（ワンショット・`VOL_SE`）→ `se` イベント → `Beat.se`。`0x16`（`VOL_LPSE` ループ se・HU-76）→ `lpse` イベント → `Beat.lpse`（BGV 同型の単一ループチャンネル・sticky）。いずれも manifest で実ファイルへ解決（大小文字無視）。HU-28 の `0x6c` 説は 1 始まり誤読・HU-70 で訂正。[ADR 0006](../../docs/adr/0006-audio-cues.md) / [`smain_flow_guide.md` §3.9/§3.12](../../data_extract/text/_tools/smain_flow_guide.md)。
 - BGM: **トラック選択は原データに無い**（網羅確認済）。シーンの character（ルート）→ M01-M16 を `src/pipeline/audio.ts` の `BGM_BY_CHARACTER` で**curated 割当**（編集可。`Scene.bgm`）。エンジンはシーン跨ぎ継続＋track 変化でクロスフェード。
 - 言語: **日本語(jp)主軸**＋**中国語(cn)対応済（HU-29）**。cn の bytecode は本文・話者・タイトルのみ中国語、note ラベル（bg/sprite）は日本語のまま（Shift-JIS 格納）＝`extract-scenes.py` が種別別に復号（note は jp/cn とも cp932）。bg/sprite は jp 定義で解決、voice/se/bgm は jp/cn 同一素材を共用。エンジンは store の `locale` で jp⇄cn をリアルタイム切替（ボタン / `L` キー、再生位置維持はベストエフォート）。詳細は [ADR 0007](../../docs/adr/0007-cn-locale-i18n.md)。
 

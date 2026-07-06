@@ -712,6 +712,10 @@
       "bg": {
         "label": "#EV025・驚愕・排尿",
         "file": "EV025_04"
+      },
+      "lpse": {
+        "code": "8412A",
+        "file": "se/8412a.ogg"
       }
     },
     {
@@ -728,6 +732,10 @@
       "bg": {
         "label": "#EV025・驚愕・排尿",
         "file": "EV025_04"
+      },
+      "lpse": {
+        "code": "8412A",
+        "file": "se/8412a.ogg"
       },
       "bgv": {
         "id": "BGV_MAKO_H001A",
@@ -755,6 +763,10 @@
         "label": "#EV025・驚愕・排尿",
         "file": "EV025_04"
       },
+      "lpse": {
+        "code": "8412A",
+        "file": "se/8412a.ogg"
+      },
       "bgv": {
         "id": "BGV_MAKO_H001A",
         "file": "voice/BGV_mako_h001a.ogg"
@@ -781,6 +793,10 @@
         "label": "#EV025・驚愕・排尿",
         "file": "EV025_04"
       },
+      "lpse": {
+        "code": "8412A",
+        "file": "se/8412a.ogg"
+      },
       "bgv": {
         "id": "BGV_MAKO_H001A",
         "file": "voice/BGV_mako_h001a.ogg"
@@ -800,6 +816,10 @@
       "bg": {
         "label": "#EV025・驚愕・排尿",
         "file": "EV025_04"
+      },
+      "lpse": {
+        "code": "8412A",
+        "file": "se/8412a.ogg"
       },
       "bgv": {
         "id": "BGV_MAKO_H001A",
@@ -825,6 +845,10 @@
         "label": "#EV025・驚愕・排尿",
         "file": "EV025_04"
       },
+      "lpse": {
+        "code": "8412A",
+        "file": "se/8412a.ogg"
+      },
       "bgv": {
         "id": "BGV_MAKO_H001A",
         "file": "voice/BGV_mako_h001a.ogg"
@@ -844,6 +868,10 @@
       "bg": {
         "label": "#EV025・驚愕・排尿",
         "file": "EV025_04"
+      },
+      "lpse": {
+        "code": "8412A",
+        "file": "se/8412a.ogg"
       },
       "bgv": {
         "id": "BGV_MAKO_H001A",
@@ -866,6 +894,10 @@
       "bg": {
         "label": "#EV025・驚愕・排尿",
         "file": "EV025_04"
+      },
+      "lpse": {
+        "code": "8412A",
+        "file": "se/8412a.ogg"
       },
       "bgv": {
         "id": "BGV_MAKO_H001A",
@@ -894,6 +926,10 @@
         "label": "#EV025・驚愕・排尿",
         "file": "EV025_04"
       },
+      "lpse": {
+        "code": "8412A",
+        "file": "se/8412a.ogg"
+      },
       "bgv": {
         "id": "BGV_MAKO_H001A",
         "file": "voice/BGV_mako_h001a.ogg"
@@ -914,6 +950,10 @@
         "label": "#EV025・うっとり蕩け・排尿",
         "file": "EV025_05"
       },
+      "lpse": {
+        "code": "8412A",
+        "file": "se/8412a.ogg"
+      },
       "bgv": {
         "id": "BGV_MAKO_H001A",
         "file": "voice/BGV_mako_h001a.ogg"
@@ -932,6 +972,10 @@
       "bg": {
         "label": "#EV025・うっとり蕩け・排尿",
         "file": "EV025_05"
+      },
+      "lpse": {
+        "code": "8412A",
+        "file": "se/8412a.ogg"
       },
       "bgv": {
         "id": "BGV_MAKO_H001A",
@@ -963,6 +1007,10 @@
         "label": "#EV025・うっとり蕩け・排尿",
         "file": "EV025_05"
       },
+      "lpse": {
+        "code": "8412A",
+        "file": "se/8412a.ogg"
+      },
       "bgv": {
         "id": "BGV_MAKO_H001A",
         "file": "voice/BGV_mako_h001a.ogg"
@@ -982,6 +1030,10 @@
       "bg": {
         "label": "#EV025・うっとり蕩け・排尿",
         "file": "EV025_05"
+      },
+      "lpse": {
+        "code": "8412A",
+        "file": "se/8412a.ogg"
       },
       "bgv": {
         "id": "BGV_MAKO_H001A",
@@ -1010,6 +1062,10 @@
         "label": "#EV025・うっとり蕩け・排尿",
         "file": "EV025_05"
       },
+      "lpse": {
+        "code": "8412A",
+        "file": "se/8412a.ogg"
+      },
       "bgv": {
         "id": "BGV_MAKO_H001A",
         "file": "voice/BGV_mako_h001a.ogg"
@@ -1029,6 +1085,10 @@
       "bg": {
         "label": "#EV025・うっとり蕩け・排尿",
         "file": "EV025_05"
+      },
+      "lpse": {
+        "code": "8412A",
+        "file": "se/8412a.ogg"
       },
       "bgv": {
         "id": "BGV_MAKO_H001A",
@@ -1058,6 +1118,10 @@
           "file": "se/8411a.ogg"
         }
       ],
+      "lpse": {
+        "code": "8412A",
+        "file": "se/8412a.ogg"
+      },
       "bgv": {
         "id": "BGV_MAKO_H001A",
         "file": "voice/BGV_mako_h001a.ogg"
@@ -1076,6 +1140,10 @@
       "bg": {
         "label": "#EV025・恐れおののき・尿たれ",
         "file": "EV025_06"
+      },
+      "lpse": {
+        "code": "8412A",
+        "file": "se/8412a.ogg"
       },
       "bgv": {
         "id": "BGV_MAKO_H001A",
@@ -1096,6 +1164,10 @@
       "bg": {
         "label": "#EV025・恐れおののき・尿たれ",
         "file": "EV025_06"
+      },
+      "lpse": {
+        "code": "8412A",
+        "file": "se/8412a.ogg"
       },
       "bgv": {
         "id": "BGV_MAKO_H001A",
@@ -1119,6 +1191,10 @@
         "label": "#EV025・恐れおののき・尿たれ",
         "file": "EV025_06"
       },
+      "lpse": {
+        "code": "8412A",
+        "file": "se/8412a.ogg"
+      },
       "bgv": {
         "id": "BGV_MAKO_H001A",
         "file": "voice/BGV_mako_h001a.ogg"
@@ -1139,6 +1215,10 @@
         "label": "#EV025・恐れおののき・尿たれ",
         "file": "EV025_06"
       },
+      "lpse": {
+        "code": "8412A",
+        "file": "se/8412a.ogg"
+      },
       "bgv": {
         "id": "BGV_MAKO_H001A",
         "file": "voice/BGV_mako_h001a.ogg"
@@ -1158,6 +1238,10 @@
       "bg": {
         "label": "#EV025・恐れおののき・尿たれ",
         "file": "EV025_06"
+      },
+      "lpse": {
+        "code": "8412A",
+        "file": "se/8412a.ogg"
       },
       "bgv": {
         "id": "BGV_MAKO_H001A",
@@ -1187,6 +1271,10 @@
         "label": "#EV025・恐れおののき・尿たれ",
         "file": "EV025_06"
       },
+      "lpse": {
+        "code": "8412A",
+        "file": "se/8412a.ogg"
+      },
       "bgv": {
         "id": "BGV_MAKO_H001A",
         "file": "voice/BGV_mako_h001a.ogg"
@@ -1206,6 +1294,10 @@
       "bg": {
         "label": "#EV025・我慢・尿たれ",
         "file": "EV025_07"
+      },
+      "lpse": {
+        "code": "8412A",
+        "file": "se/8412a.ogg"
       },
       "bgv": {
         "id": "BGV_MAKO_H001A",
@@ -1228,6 +1320,10 @@
       "bg": {
         "label": "#EV025・我慢・尿たれ",
         "file": "EV025_07"
+      },
+      "lpse": {
+        "code": "8412A",
+        "file": "se/8412a.ogg"
       },
       "bgv": {
         "id": "BGV_MAKO_H001A",
@@ -1260,6 +1356,10 @@
         "label": "#EV025・我慢・尿たれ",
         "file": "EV025_07"
       },
+      "lpse": {
+        "code": "8412A",
+        "file": "se/8412a.ogg"
+      },
       "bgv": {
         "id": "BGV_MAKO_H001A",
         "file": "voice/BGV_mako_h001a.ogg"
@@ -1279,6 +1379,10 @@
       "bg": {
         "label": "#EV025・我慢・尿たれ",
         "file": "EV025_07"
+      },
+      "lpse": {
+        "code": "8412A",
+        "file": "se/8412a.ogg"
       },
       "bgv": {
         "id": "BGV_MAKO_H001A",
@@ -1302,6 +1406,10 @@
         "label": "#EV025・我慢・尿たれ",
         "file": "EV025_07"
       },
+      "lpse": {
+        "code": "8412A",
+        "file": "se/8412a.ogg"
+      },
       "bgv": {
         "id": "BGV_MAKO_H001A",
         "file": "voice/BGV_mako_h001a.ogg"
@@ -1321,6 +1429,10 @@
       "bg": {
         "label": "#EV025・我慢・尿たれ",
         "file": "EV025_07"
+      },
+      "lpse": {
+        "code": "8412A",
+        "file": "se/8412a.ogg"
       },
       "bgv": {
         "id": "BGV_MAKO_H001A",
@@ -1344,6 +1456,10 @@
         "label": "#EV025・我慢・尿たれ",
         "file": "EV025_07"
       },
+      "lpse": {
+        "code": "8412A",
+        "file": "se/8412a.ogg"
+      },
       "bgv": {
         "id": "BGV_MAKO_H001A",
         "file": "voice/BGV_mako_h001a.ogg"
@@ -1363,6 +1479,10 @@
       "bg": {
         "label": "#EV025・絶望・尿たれ",
         "file": "EV025_08"
+      },
+      "lpse": {
+        "code": "8412A",
+        "file": "se/8412a.ogg"
       },
       "bgv": {
         "id": "BGV_MAKO_H001A",
@@ -1384,6 +1504,10 @@
         "label": "#EV025・絶望・尿たれ",
         "file": "EV025_08"
       },
+      "lpse": {
+        "code": "8412A",
+        "file": "se/8412a.ogg"
+      },
       "bgv": {
         "id": "BGV_MAKO_H001A",
         "file": "voice/BGV_mako_h001a.ogg"
@@ -1402,6 +1526,10 @@
       "bg": {
         "label": "#EV025・絶望・尿たれ",
         "file": "EV025_08"
+      },
+      "lpse": {
+        "code": "8412A",
+        "file": "se/8412a.ogg"
       },
       "bgv": {
         "id": "BGV_MAKO_H001A",
@@ -1422,6 +1550,10 @@
       "bg": {
         "label": "#EV025・絶望・尿たれ",
         "file": "EV025_08"
+      },
+      "lpse": {
+        "code": "8412A",
+        "file": "se/8412a.ogg"
       },
       "bgv": {
         "id": "BGV_MAKO_H001A",
@@ -1445,6 +1577,10 @@
         "label": "#EV025・絶望・尿たれ",
         "file": "EV025_08"
       },
+      "lpse": {
+        "code": "8412A",
+        "file": "se/8412a.ogg"
+      },
       "bgv": {
         "id": "BGV_MAKO_H001A",
         "file": "voice/BGV_mako_h001a.ogg"
@@ -1465,6 +1601,10 @@
         "label": "#EV025・絶望・尿たれ",
         "file": "EV025_08"
       },
+      "lpse": {
+        "code": "8412A",
+        "file": "se/8412a.ogg"
+      },
       "bgv": {
         "id": "BGV_MAKO_H001A",
         "file": "voice/BGV_mako_h001a.ogg"
@@ -1475,7 +1615,24 @@
       "pages": [
         [
           "屈辱的な宣言と共に、一気に排便をする。"
-        ],
+        ]
+      ],
+      "bg": {
+        "label": "#EV025・絶望・尿たれ",
+        "file": "EV025_08"
+      },
+      "lpse": {
+        "code": "8412A",
+        "file": "se/8412a.ogg"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H001A",
+        "file": "voice/BGV_mako_h001a.ogg"
+      }
+    },
+    {
+      "kind": "narration",
+      "pages": [
         [
           "ぷぴっ、ぶりりっ……ぶりゅりゅりゅっ！！"
         ]
@@ -1483,6 +1640,10 @@
       "bg": {
         "label": "#EV025・絶望・尿たれ",
         "file": "EV025_08"
+      },
+      "lpse": {
+        "code": "8431A",
+        "file": "se/8431a.ogg"
       },
       "bgv": {
         "id": "BGV_MAKO_H001A",
@@ -1515,6 +1676,10 @@
         "label": "#EV025・アヘ顔・排便",
         "file": "EV025_09"
       },
+      "lpse": {
+        "code": "8431A",
+        "file": "se/8431a.ogg"
+      },
       "bgv": {
         "id": "BGV_MAKO_H001A",
         "file": "voice/BGV_mako_h001a.ogg"
@@ -1534,6 +1699,10 @@
       "bg": {
         "label": "#EV025・アヘ顔・排便",
         "file": "EV025_09"
+      },
+      "lpse": {
+        "code": "8431A",
+        "file": "se/8431a.ogg"
       },
       "bgv": {
         "id": "BGV_MAKO_H002A",
@@ -1556,6 +1725,10 @@
         "label": "#EV025・アヘ顔・排便",
         "file": "EV025_09"
       },
+      "lpse": {
+        "code": "8431A",
+        "file": "se/8431a.ogg"
+      },
       "bgv": {
         "id": "BGV_MAKO_H002A",
         "file": "voice/BGV_mako_h002a.ogg"
@@ -1575,6 +1748,10 @@
       "bg": {
         "label": "#EV025・アヘ顔・排便",
         "file": "EV025_09"
+      },
+      "lpse": {
+        "code": "8431A",
+        "file": "se/8431a.ogg"
       },
       "bgv": {
         "id": "BGV_MAKO_H002A",
@@ -1601,6 +1778,10 @@
         "label": "#EV025・アヘ顔・排便",
         "file": "EV025_09"
       },
+      "lpse": {
+        "code": "8431A",
+        "file": "se/8431a.ogg"
+      },
       "bgv": {
         "id": "BGV_MAKO_H002A",
         "file": "voice/BGV_mako_h002a.ogg"
@@ -1620,6 +1801,10 @@
       "bg": {
         "label": "#EV025・アヘ顔・排便",
         "file": "EV025_09"
+      },
+      "lpse": {
+        "code": "8431A",
+        "file": "se/8431a.ogg"
       },
       "bgv": {
         "id": "BGV_MAKO_H002A",
@@ -1651,6 +1836,10 @@
         "label": "#EV025・アヘ顔・排便",
         "file": "EV025_09"
       },
+      "lpse": {
+        "code": "8431A",
+        "file": "se/8431a.ogg"
+      },
       "bgv": {
         "id": "BGV_MAKO_H002A",
         "file": "voice/BGV_mako_h002a.ogg"
@@ -1677,6 +1866,10 @@
           "file": "se/8351a.ogg"
         }
       ],
+      "lpse": {
+        "code": "8431A",
+        "file": "se/8431a.ogg"
+      },
       "bgv": {
         "id": "BGV_MAKO_H002A",
         "file": "voice/BGV_mako_h002a.ogg"
@@ -1700,6 +1893,10 @@
         "label": "#EV025・アヘ顔・排便潮吹き",
         "file": "EV025_10"
       },
+      "lpse": {
+        "code": "8431A",
+        "file": "se/8431a.ogg"
+      },
       "bgv": {
         "id": "BGV_MAKO_H002A",
         "file": "voice/BGV_mako_h002a.ogg"
@@ -1720,6 +1917,10 @@
       "bg": {
         "label": "#EV025・アヘ顔・排便潮吹き",
         "file": "EV025_10"
+      },
+      "lpse": {
+        "code": "8431A",
+        "file": "se/8431a.ogg"
       },
       "bgv": {
         "id": "BGV_MAKO_H002A",
@@ -1749,6 +1950,10 @@
         "label": "#EV025・アヘ顔・排便潮吹き",
         "file": "EV025_10"
       },
+      "lpse": {
+        "code": "8431A",
+        "file": "se/8431a.ogg"
+      },
       "bgv": {
         "id": "BGV_MAKO_H002A",
         "file": "voice/BGV_mako_h002a.ogg"
@@ -1768,6 +1973,10 @@
       "bg": {
         "label": "#EV025・アヘ顔・排便潮吹き",
         "file": "EV025_10"
+      },
+      "lpse": {
+        "code": "8431A",
+        "file": "se/8431a.ogg"
       },
       "bgv": {
         "id": "BGV_MAKO_H002A",
@@ -1790,6 +1999,10 @@
       "bg": {
         "label": "#EV025・アヘ顔・排便潮吹き",
         "file": "EV025_10"
+      },
+      "lpse": {
+        "code": "8431A",
+        "file": "se/8431a.ogg"
       },
       "bgv": {
         "id": "BGV_MAKO_H002A",
@@ -1817,6 +2030,10 @@
           "file": "se/8361b.ogg"
         }
       ],
+      "lpse": {
+        "code": "8431A",
+        "file": "se/8431a.ogg"
+      },
       "bgv": {
         "id": "BGV_MAKO_H002A",
         "file": "voice/BGV_mako_h002a.ogg"
@@ -1846,6 +2063,10 @@
         "label": "#EV025・アヘ顔・排便潮吹き",
         "file": "EV025_10"
       },
+      "lpse": {
+        "code": "8431A",
+        "file": "se/8431a.ogg"
+      },
       "bgv": {
         "id": "BGV_MAKO_H002A",
         "file": "voice/BGV_mako_h002a.ogg"
@@ -1865,6 +2086,10 @@
       "bg": {
         "label": "#EV025・アヘ顔・排便潮吹き",
         "file": "EV025_10"
+      },
+      "lpse": {
+        "code": "8431A",
+        "file": "se/8431a.ogg"
       },
       "bgv": {
         "id": "BGV_MAKO_H002A",
@@ -1901,6 +2126,10 @@
           "file": "se/8431a.ogg"
         }
       ],
+      "lpse": {
+        "code": "8431A",
+        "file": "se/8431a.ogg"
+      },
       "bgv": {
         "id": "BGV_MAKO_H002A",
         "file": "voice/BGV_mako_h002a.ogg"
@@ -1920,6 +2149,10 @@
       "bg": {
         "label": "#EV025・アヘ顔・愛液",
         "file": "EV025_11"
+      },
+      "lpse": {
+        "code": "8431A",
+        "file": "se/8431a.ogg"
       },
       "bgv": {
         "id": "BGV_MAKO_H002A",
@@ -1942,6 +2175,10 @@
       "bg": {
         "label": "#EV025・アヘ顔・愛液",
         "file": "EV025_11"
+      },
+      "lpse": {
+        "code": "8431A",
+        "file": "se/8431a.ogg"
       },
       "bgv": {
         "id": "BGV_MAKO_H002A",
@@ -1967,6 +2204,10 @@
       "bg": {
         "label": "#背景・黒一色",
         "file": "BG_BLACK"
+      },
+      "lpse": {
+        "code": "8431A",
+        "file": "se/8431a.ogg"
       },
       "bgv": {
         "id": "BGV_MAKO_H002A",
