@@ -68,22 +68,25 @@ async function main() {
       beatTotal++
       if (beat.bg && beat.bg.file === null)
         problems.push({ scene: scene.code, beat: i, kind: 'bg', ref: 'file', label: beat.bg.label })
-      if (beat.sprite && beat.sprite.body === null)
-        problems.push({
-          scene: scene.code,
-          beat: i,
-          kind: 'sprite',
-          ref: 'body',
-          label: beat.sprite.label,
-        })
-      if (beat.sprite && beat.sprite.face === null)
-        problems.push({
-          scene: scene.code,
-          beat: i,
-          kind: 'sprite',
-          ref: 'face',
-          label: beat.sprite.label,
-        })
+      for (const sp of beat.sprites ?? []) {
+        // 多体スロット（HU-77）: 各スロットの body/face 未解決を個別に検出。
+        if (sp.body === null)
+          problems.push({
+            scene: scene.code,
+            beat: i,
+            kind: 'sprite',
+            ref: 'body',
+            label: sp.label,
+          })
+        if (sp.face === null)
+          problems.push({
+            scene: scene.code,
+            beat: i,
+            kind: 'sprite',
+            ref: 'face',
+            label: sp.label,
+          })
+      }
       if (beat.kind === 'line' && beat.voice) {
         voiceTotal++
         if (beat.voice.file === null)

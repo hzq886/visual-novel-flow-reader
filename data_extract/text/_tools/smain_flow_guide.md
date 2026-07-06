@@ -361,6 +361,10 @@ len-3 命令 `op <u16 idx>` を集計すると、各 op の参照先クラスが
 `buildScene` が beat を組む（→ [ADR 0010](../../../docs/adr/0010-bytecode-primary-scenes.md)）。対応:
 `0x01`→text / `0x0d`→speaker / `0x14`→voice / `0x15,0x16`→se / `0x10`→bg / `0x12`→sprite /
 `0x3b,0x3c`→item,itemclose / `0x6a`→off,bgv / `0x6c`→flash / `0x2c`(idx0)→scene.title・(idx≥1)→text。
+`0x12`→sprite は**多体スロットを全保持**（HU-77。`buildScene` が per-slot sticky。`Beat.sprites`＝`SpriteRef[]`）。
+`mode` bit `0x80` 無し（`0x00`）は **establishing shot**＝適用前に全スロットをクリア（`sprite` イベント第3要素
+`reset=true`）。無視すると過去シーンの残留スロットが二重表示される（`001_PRO001F`/`001_PRO002D` で確認）。
+配置は表示体数で水平均等（1=中央 / 2=左右 / 3=左中右）。忠実な x 座標の配置 opcode 群（`0x13/0x17/0x19` 等）は未 RE。
 flow/flag/timing 命令（`0x06/07/08/09/1b/1c/1d/1e/2a` ＝ §3.8 の管轄、`0x02/03/25/13/17/19/1a/21/26/3d/4f/68/6d/1f/0a`
 ＝ 数値/wait/演出パラメータ）は beat 非関与で無視。`0x00`=本文行終端（暗黙）、`0x04`=改ページ
 （現行は line 粒度へ集約＝beat 境界にしない）。**文字列は種別別に復号**（note は jp/cn とも cp932＝日本語、

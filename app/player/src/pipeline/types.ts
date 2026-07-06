@@ -78,7 +78,9 @@ export const NarrationBeat = z.object({
   kind: z.literal('narration'),
   lines: z.array(z.string()),
   bg: BgRef.optional(),
-  sprite: SpriteRef.optional(),
+  // 立ち絵スロット列（多体同時表示・HU-77）。占有スロットのみをスロット順（左→右）で保持。
+  // 空（全スロット空き）なら省略。1 体=中央 / 2 体=左右 / 3 体=左中右にエンジンが配置する。
+  sprites: z.array(SpriteRef).optional(),
   item: ItemRef.optional(), // アイテムCG窓（bg/sprite の上に重ねる独立オーバーレイ・HU-70）
   se: z.array(SeRef).optional(), // この beat で鳴らす効果音（ワンショット、複数可）
   bgv: VoiceRef.optional(), // 背景ボイス（ループ）。bg/sprite 同様 sticky で持続（HU-37）
@@ -92,7 +94,7 @@ export const LineBeat = z.object({
   voice: VoiceRef.optional(),
   lines: z.array(z.string()),
   bg: BgRef.optional(),
-  sprite: SpriteRef.optional(),
+  sprites: z.array(SpriteRef).optional(), // 立ち絵スロット列（多体同時表示・HU-77。NarrationBeat 参照）
   item: ItemRef.optional(), // アイテムCG窓（bg/sprite の上に重ねる独立オーバーレイ・HU-70）
   se: z.array(SeRef).optional(), // この beat で鳴らす効果音（ワンショット、複数可）
   bgv: VoiceRef.optional(), // 背景ボイス（ループ）。bg/sprite 同様 sticky で持続（HU-37）
@@ -107,6 +109,8 @@ export type Beat = z.infer<typeof Beat>
 // 先頭要素がタグのタプル列。シーン脚本 bytecode を忠実に写したもの（→ ADR 0010 / smain_flow_guide §3.12）。
 //  text/speaker/voice/se: 文字列 1 個。bg: 背景/EV/黒ラベル。sprite: スロット列（"-"=空き / null=変更なし）。
 //  item: [code, x, y]。itemclose/off: 引数なし。bgv: id。flash: 強度 n。
+// sprite の第3要素 reset（0x12 mode bit ~0x80 由来）= true なら適用前に全スロットをクリアする
+//  （シーン転換の establishing shot。省略時 false＝増分更新。→ smain_flow_guide §3.12 / HU-77）。
 export type SceneEvent =
   | ['text', string]
   | ['speaker', string]
@@ -114,6 +118,7 @@ export type SceneEvent =
   | ['se', string]
   | ['bg', string]
   | ['sprite', (string | null)[]]
+  | ['sprite', (string | null)[], boolean]
   | ['item', string, number, number]
   | ['itemclose']
   | ['off']

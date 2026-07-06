@@ -16,11 +16,15 @@ const build = (
     { code: opts.code ?? '999_TEST001A', locale: opts.locale ?? 'jp' },
   )
 
+// 立ち絵スロット列 → ラベル配列（占有スロットのみ・左→右）。空なら null。
+const spLabels = (b: Scene['beats'][number]): string[] | null =>
+  b.sprites?.map((sp) => sp.label) ?? null
+
 const proj = (s: Scene) =>
   s.beats.map((b) => ({
     kind: b.kind,
     bg: b.bg?.label ?? null,
-    sprite: b.sprite?.label ?? null,
+    sprites: spLabels(b),
     item: b.item?.code ?? null,
   }))
 
@@ -49,7 +53,7 @@ describe('buildScene — 002_AYAN001A (golden・実データ)', () => {
       who: b.kind === 'line' ? b.who : undefined,
       voice: b.kind === 'line' ? (b.voice?.id ?? null) : undefined,
       bg: b.bg?.label ?? null,
-      sprite: b.sprite?.label ?? null,
+      sprites: spLabels(b),
       nLines: b.lines.length,
     }))
     expect(skeleton).toEqual([
@@ -58,7 +62,7 @@ describe('buildScene — 002_AYAN001A (golden・実データ)', () => {
         who: undefined,
         voice: undefined,
         bg: '#背景・黒一色',
-        sprite: null,
+        sprites: null,
         nLines: 4,
       },
       {
@@ -66,29 +70,29 @@ describe('buildScene — 002_AYAN001A (golden・実データ)', () => {
         who: '古橋　綾菜',
         voice: 'AYAN_002_AYAN001A_001',
         bg: BG,
-        sprite: SP1,
+        sprites: [SP1],
         nLines: 1,
       },
-      { kind: 'narration', who: undefined, voice: undefined, bg: BG, sprite: SP1, nLines: 4 },
+      { kind: 'narration', who: undefined, voice: undefined, bg: BG, sprites: [SP1], nLines: 4 },
       {
         kind: 'line',
         who: '古橋　綾菜',
         voice: 'AYAN_002_AYAN001A_002',
         bg: BG,
-        sprite: SP2,
+        sprites: [SP2],
         nLines: 2,
       },
-      { kind: 'line', who: '古橋　和樹', voice: null, bg: BG, sprite: SP2, nLines: 1 },
-      { kind: 'narration', who: undefined, voice: undefined, bg: BG, sprite: SP2, nLines: 2 },
+      { kind: 'line', who: '古橋　和樹', voice: null, bg: BG, sprites: [SP2], nLines: 1 },
+      { kind: 'narration', who: undefined, voice: undefined, bg: BG, sprites: [SP2], nLines: 2 },
       {
         kind: 'line',
         who: '古橋　綾菜',
         voice: 'AYAN_002_AYAN001A_003',
         bg: BG,
-        sprite: SP3,
+        sprites: [SP3],
         nLines: 1,
       },
-      { kind: 'narration', who: undefined, voice: undefined, bg: BG, sprite: SP3, nLines: 2 },
+      { kind: 'narration', who: undefined, voice: undefined, bg: BG, sprites: [SP3], nLines: 2 },
     ])
   })
 
@@ -173,9 +177,9 @@ describe('buildScene — 被せ CG レイヤモデル（EV/黒。HU-63）', () =
       ['bg', '#EV011・横向き'],
       ['text', 'イベントCGの地の文。'],
     ])
-    expect(proj(s).map((p) => ({ bg: p.bg, sprite: p.sprite }))).toEqual([
-      { bg: '#背景・教室（夕）', sprite: '#翼・催眠１' },
-      { bg: '#EV011・横向き', sprite: null },
+    expect(proj(s).map((p) => ({ bg: p.bg, sprites: p.sprites }))).toEqual([
+      { bg: '#背景・教室（夕）', sprites: ['#翼・催眠１'] },
+      { bg: '#EV011・横向き', sprites: null },
     ])
   })
 
@@ -189,11 +193,7 @@ describe('buildScene — 被せ CG レイヤモデル（EV/黒。HU-63）', () =
       ['bg', '#背景・部屋'],
       ['text', 'Ｃ。'],
     ])
-    expect(s.beats.map((b) => b.sprite?.label ?? null)).toEqual([
-      '#綾菜・通常',
-      null,
-      '#綾菜・通常',
-    ])
+    expect(s.beats.map((b) => spLabels(b))).toEqual([['#綾菜・通常'], null, ['#綾菜・通常']])
   })
 
   it('黒一色（BG_BLACK / #背景・黒一色）は被せ扱い＝立ち絵を隠す', () => {
@@ -206,10 +206,10 @@ describe('buildScene — 被せ CG レイヤモデル（EV/黒。HU-63）', () =
       ['bg', '#背景・部屋'],
       ['text', 'Ｃ。'],
     ])
-    expect(proj(s).map((p) => ({ bg: p.bg, sprite: p.sprite }))).toEqual([
-      { bg: '#背景・部屋', sprite: '#綾菜・通常' },
-      { bg: '#背景・黒一色', sprite: null },
-      { bg: '#背景・部屋', sprite: '#綾菜・通常' },
+    expect(proj(s).map((p) => ({ bg: p.bg, sprites: p.sprites }))).toEqual([
+      { bg: '#背景・部屋', sprites: ['#綾菜・通常'] },
+      { bg: '#背景・黒一色', sprites: null },
+      { bg: '#背景・部屋', sprites: ['#綾菜・通常'] },
     ])
   })
 
@@ -229,7 +229,7 @@ describe('buildScene — 被せ CG レイヤモデル（EV/黒。HU-63）', () =
   })
 })
 
-describe('buildScene — 立ち絵（sprite スロット / off）', () => {
+describe('buildScene — 立ち絵（多体スロット / per-slot sticky / reset / off・HU-77）', () => {
   it('地の文途中の立ち絵変更で beat を分割', () => {
     const s = build([
       ['bg', '#背景・部屋'],
@@ -238,39 +238,68 @@ describe('buildScene — 立ち絵（sprite スロット / off）', () => {
       ['sprite', ['#綾菜・笑顔']],
       ['text', 'Ｂ。'],
     ])
-    expect(s.beats.map((b) => ({ sprite: b.sprite?.label ?? null, n: b.lines.length }))).toEqual([
-      { sprite: '#綾菜・通常', n: 1 },
-      { sprite: '#綾菜・笑顔', n: 1 },
+    expect(s.beats.map((b) => ({ sprites: spLabels(b), n: b.lines.length }))).toEqual([
+      { sprites: ['#綾菜・通常'], n: 1 },
+      { sprites: ['#綾菜・笑顔'], n: 1 },
     ])
   })
 
-  it('多体スロットは実ラベル（最後）を単一 sprite へ投影・"-"/null は空き/変更なし', () => {
+  it('多体スロットを同時保持・null=変更なし / "-"=当該スロットのみクリア（per-slot sticky）', () => {
     const s = build([
-      ['sprite', ['#綾菜・通常', '#涼菜・通常']], // 2体 → 最後(涼菜)を採用
+      ['sprite', ['#綾菜・通常', '#涼菜・通常']], // slot0=綾菜, slot1=涼菜（2体並び）
       ['text', 'Ａ。'],
-      ['sprite', [null, '#涼菜・驚き']], // slot0 変更なし → 涼菜・驚き
+      ['sprite', [null, '#涼菜・驚き']], // slot0 変更なし → [綾菜, 涼菜・驚き]
       ['text', 'Ｂ。'],
-      ['sprite', ['-', '-']], // 全スロット空き → クリア
+      ['sprite', ['-', null]], // slot0 のみクリア → [涼菜・驚き]（slot1 保持）
       ['text', 'Ｃ。'],
+      ['sprite', ['#楓・通常']], // slot0 のみ差替（slot1 は addressed 外＝保持） → [楓, 涼菜・驚き]
+      ['text', 'Ｄ。'],
     ])
-    expect(s.beats.map((b) => b.sprite?.label ?? null)).toEqual([
-      '#涼菜・通常',
-      '#涼菜・驚き',
-      null,
+    expect(s.beats.map((b) => spLabels(b))).toEqual([
+      ['#綾菜・通常', '#涼菜・通常'],
+      ['#綾菜・通常', '#涼菜・驚き'],
+      ['#涼菜・驚き'],
+      ['#楓・通常', '#涼菜・驚き'],
     ])
   })
 
-  it('off で立ち絵を消す（bg には触れない）', () => {
+  it('reset=true は適用前に全スロットをクリア（establishing shot・残留スロットを消す）', () => {
+    const s = build([
+      ['sprite', ['#綾菜・通常', '#涼菜・通常', '#楓・通常']], // 3体
+      ['text', 'Ａ。'],
+      ['sprite', ['#真琴・通常'], true], // reset → 残留 slot1/2 を消し slot0=真琴 のみ
+      ['text', 'Ｂ。'],
+    ])
+    expect(s.beats.map((b) => spLabels(b))).toEqual([
+      ['#綾菜・通常', '#涼菜・通常', '#楓・通常'],
+      ['#真琴・通常'],
+    ])
+  })
+
+  it('reset なしの少数スロットは上位スロットを保持（増分更新）', () => {
+    const s = build([
+      ['sprite', ['#綾菜・通常', '#涼菜・通常']], // [綾菜, 涼菜]
+      ['text', 'Ａ。'],
+      ['sprite', ['#楓・通常']], // reset 無し・1体指定 → slot1(涼菜) 保持 → [楓, 涼菜]
+      ['text', 'Ｂ。'],
+    ])
+    expect(s.beats.map((b) => spLabels(b))).toEqual([
+      ['#綾菜・通常', '#涼菜・通常'],
+      ['#楓・通常', '#涼菜・通常'],
+    ])
+  })
+
+  it('off で全スロットの立ち絵を消す（bg には触れない）', () => {
     const s = build([
       ['bg', '#背景・部屋'],
-      ['sprite', ['#綾菜・通常']],
+      ['sprite', ['#綾菜・通常', '#涼菜・通常']],
       ['text', 'Ａ。'],
       ['off'],
       ['text', 'Ｂ。'],
     ])
-    expect(s.beats.map((b) => ({ bg: b.bg?.label, sprite: b.sprite?.label ?? null }))).toEqual([
-      { bg: '#背景・部屋', sprite: '#綾菜・通常' },
-      { bg: '#背景・部屋', sprite: null },
+    expect(s.beats.map((b) => ({ bg: b.bg?.label, sprites: spLabels(b) }))).toEqual([
+      { bg: '#背景・部屋', sprites: ['#綾菜・通常', '#涼菜・通常'] },
+      { bg: '#背景・部屋', sprites: null },
     ])
   })
 })
@@ -289,10 +318,10 @@ describe('buildScene — アイテムCG窓（独立オーバーレイ・HU-70）
       ['text', '窓が閉じた後。'],
     ])
     expect(proj(s)).toEqual([
-      { kind: 'narration', bg: '#背景・部屋', sprite: '#綾菜・通常', item: null },
-      { kind: 'narration', bg: '#背景・部屋', sprite: '#綾菜・通常', item: 'ITEM_03_01' },
-      { kind: 'narration', bg: '#背景・部屋', sprite: '#綾菜・驚き', item: 'ITEM_03_01' },
-      { kind: 'narration', bg: '#背景・部屋', sprite: '#綾菜・驚き', item: null },
+      { kind: 'narration', bg: '#背景・部屋', sprites: ['#綾菜・通常'], item: null },
+      { kind: 'narration', bg: '#背景・部屋', sprites: ['#綾菜・通常'], item: 'ITEM_03_01' },
+      { kind: 'narration', bg: '#背景・部屋', sprites: ['#綾菜・驚き'], item: 'ITEM_03_01' },
+      { kind: 'narration', bg: '#背景・部屋', sprites: ['#綾菜・驚き'], item: null },
     ])
     expect(s.beats[1].item).toEqual({ code: 'ITEM_03_01', file: null, x: 700, y: 120 })
   })

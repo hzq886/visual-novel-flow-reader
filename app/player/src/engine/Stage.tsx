@@ -113,15 +113,16 @@ export function Stage() {
           const beat = scene.beats[index]
           if (beat.bg?.file) void cg.show(cgUrl(beat.bg.file))
           cg.setGray(0) // 感情(gray)データは未抽出のため 0
-          if (beat.sprite?.body) {
-            void sprite.show(
-              spriteUrl(beat.sprite.body),
-              beat.sprite.face ? spriteUrl(beat.sprite.face) : null,
-              beat.sprite.offset,
-            )
-          } else {
-            sprite.hide()
-          }
+          // 立ち絵スロット列（多体・HU-77）。body が解決済みのスロットのみ描画（空配列で hide）。
+          void sprite.show(
+            (beat.sprites ?? [])
+              .filter((sp) => sp.body)
+              .map((sp) => ({
+                bodyUrl: spriteUrl(sp.body!),
+                faceUrl: sp.face ? spriteUrl(sp.face) : null,
+                offset: sp.offset,
+              })),
+          )
           // アイテムCG窓（bg/sprite の上の独立オーバーレイ・HU-70）。
           if (beat.item?.file) void item.show(cgUrl(beat.item.file), beat.item.x, beat.item.y)
           else item.hide()

@@ -54,12 +54,12 @@ describe('resolveScene — 002_AYAN001A 全 beat 解決（受入）', () => {
   )
   const scene = resolveScene(built, { sprset, bgset, voiceIndex, seIndex, bgmIndex })
 
-  it('bg.file / sprite.body / sprite.face が全 beat で非 null', () => {
+  it('bg.file / sprite.body / sprite.face が全 beat・全スロットで非 null', () => {
     for (const beat of scene.beats) {
       if (beat.bg) expect(beat.bg.file, `bg ${beat.bg.label}`).not.toBeNull()
-      if (beat.sprite) {
-        expect(beat.sprite.body, `body ${beat.sprite.label}`).not.toBeNull()
-        expect(beat.sprite.face, `face ${beat.sprite.label}`).not.toBeNull()
+      for (const sp of beat.sprites ?? []) {
+        expect(sp.body, `body ${sp.label}`).not.toBeNull()
+        expect(sp.face, `face ${sp.label}`).not.toBeNull()
       }
     }
   })
@@ -75,9 +75,9 @@ describe('resolveScene — 002_AYAN001A 全 beat 解決（受入）', () => {
   it('具体値: 喫茶店（夕）と綾菜立ち絵・ボイスが正しく解決', () => {
     const b = scene.beats[1] // 最初の綾菜セリフ
     expect(b.bg).toEqual({ label: '#背景・喫茶店（夕）', file: 'BG20_02_00' })
-    expect(b.sprite?.body).toBe('CH01B_01_02_003_02') // 私服０２
-    expect(b.sprite?.face).toBe('CH01B_01_02_102_01') // にっこり１
-    expect(b.sprite?.offset).toEqual([426, 73])
+    expect(b.sprites?.[0]?.body).toBe('CH01B_01_02_003_02') // 私服０２
+    expect(b.sprites?.[0]?.face).toBe('CH01B_01_02_102_01') // にっこり１
+    expect(b.sprites?.[0]?.offset).toEqual([426, 73])
     if (b.kind === 'line')
       expect(b.voice).toEqual({
         id: 'AYAN_002_AYAN001A_001',
