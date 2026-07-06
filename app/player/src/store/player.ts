@@ -23,16 +23,16 @@ import sceneIndexJson from '@data/scene-index.json'
 // scene-index は文言なしエッジ分岐のラベル解決（行き先の題・HU-61）に使う。
 const nav = new FlowNav(Flow.parse(flowJson), SceneIndex.parse(sceneIndexJson))
 
-// beat 内のページ送り段数。地の文（narration）は原データの行＝原作のメッセージ送り単位ごとに
-// 1 行ずつ表示するため lines.length 段。セリフ（line）は `「」` で集約した 1 発話＝ボイス 1 本に
-// 対応するので分割せず 1 段（lines は join して全文表示）。
+// beat 内のページ送り段数。地の文（narration）は原作の改ページ（0x04）で区切られたページ単位
+// （1〜2 行）で送るため pages.length 段（HU-78。旧: 1 行ずつ lines.length 段）。セリフ（line）は
+// `「」` で集約した 1 発話＝ボイス 1 本に対応するので分割せず 1 段（lines は join して全文表示）。
 const beatSteps = (beat: Beat): number =>
-  beat.kind === 'narration' ? Math.max(1, beat.lines.length) : 1
+  beat.kind === 'narration' ? Math.max(1, beat.pages.length) : 1
 
 type PlayerState = {
   scene: Scene | null
   index: number
-  line: number // 現在 beat 内の行サブインデックス（narration の行送り）
+  line: number // 現在 beat 内のサブインデックス（narration のページ送り＝pages の index・HU-78）
   locale: Locale
   flags: ReadonlySet<string>
   pendingChoice: NavOption[] | null

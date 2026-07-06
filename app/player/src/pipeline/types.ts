@@ -76,7 +76,10 @@ export type BgsetTable = z.infer<typeof BgsetTable>
 // ---- ビート（地の文 / セリフ）----
 export const NarrationBeat = z.object({
   kind: z.literal('narration'),
-  lines: z.array(z.string()),
+  // 地の文のページ列（HU-78）。原作は改ページ op `0x04` でテキスト窓を区切る＝各ページ（1〜2 行）を
+  // まとめて表示しクリックで送る。pages[i] = 同時表示する行の配列。再生側は 1 ページ = 1 送り段
+  // （旧: 1 行 = 1 段）。セクションカード（`\N`）は独立ページ。
+  pages: z.array(z.array(z.string())),
   bg: BgRef.optional(),
   // 立ち絵スロット列（多体同時表示・HU-77）。占有スロットのみをスロット順（左→右）で保持。
   // 空（全スロット空き）なら省略。1 体=中央 / 2 体=左右 / 3 体=左中右にエンジンが配置する。
@@ -108,9 +111,11 @@ export type Beat = z.infer<typeof Beat>
 // ---- シーンイベント（scene-events/<locale>.json ＝ extract-scenes.py 生成。buildScene の入力）----
 // 先頭要素がタグのタプル列。シーン脚本 bytecode を忠実に写したもの（→ ADR 0010 / smain_flow_guide §3.12）。
 //  text/speaker/voice/se: 文字列 1 個。bg: 背景/EV/黒ラベル。sprite: スロット列（"-"=空き / null=変更なし）。
-//  item: [code, x, y]。itemclose/off: 引数なし。bgv: id。flash: 強度 n。
+//  item: [code, x, y]。itemclose/off/page: 引数なし。bgv: id。flash: 強度 n。
 // sprite の第3要素 reset（0x12 mode bit ~0x80 由来）= true なら適用前に全スロットをクリアする
 //  （シーン転換の establishing shot。省略時 false＝増分更新。→ smain_flow_guide §3.12 / HU-77）。
+// page（0x04 改ページ）= 地の文のページ境界。buildScene が narration をページ単位へ集約する（HU-78。
+//  セリフは 1 発話まるごと表示のため page を無視）。
 export type SceneEvent =
   | ['text', string]
   | ['speaker', string]
@@ -122,6 +127,7 @@ export type SceneEvent =
   | ['item', string, number, number]
   | ['itemclose']
   | ['off']
+  | ['page']
   | ['bgv', string]
   | ['flash', number]
 

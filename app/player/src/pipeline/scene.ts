@@ -17,6 +17,8 @@
  *  item     … アイテム CG 窓を開く（座標込み・独立オーバーレイ・HU-70）。itemclose で閉じる。
  *  off/bgv  … 立ち絵オフ / 背景ボイス（ループ）。
  *  flash    … 画面フラッシュ（次 beat のインパクト行で点灯）。
+ *  page     … 改ページ（0x04）。地の文をページ単位（1〜2 行）へ集約する境界（HU-78）。セリフは
+ *             1 発話まるごと表示するため無視。narration beat は複数ページを持ち、再生側は 1 ページ = 1 送り段。
  *
  * 話者は speaker イベント（0x0d）を一次ソースとする（HU-74）。無い発話のみ、ボイス ID 接頭辞→
  * 話者の学習辞書（HU-67）／未収録主人公（KAZU）フォールバックで補う。
@@ -40,7 +42,8 @@ type Draft = {
   kind: 'narration' | 'line'
   who?: string
   voice?: { id: string; file: null }
-  lines: string[]
+  lines?: string[] // セリフ（line）の発話行。narration は使わず pages を持つ
+  pages?: string[][] // 地の文（narration）のページ列（0x04 区切り・HU-78）。line は使わない
   bg?: BgRef
   sprites?: SpriteRef[]
   item?: ItemRef
@@ -83,7 +86,13 @@ export function buildScene(
   const voiceMap = new Map<string, string>() // ボイス ID 接頭辞 → 話者名（HU-67 フォールバック）
 
   const flush = () => {
-    if (cur) beats.push(cur as Beat)
+    if (cur) {
+      // narration の末尾に空ページが残る場合（page イベントの後にテキストが来ずに flush）は詰める。
+      if (cur.kind === 'narration' && cur.pages) {
+        while (cur.pages.length > 1 && cur.pages[cur.pages.length - 1].length === 0) cur.pages.pop()
+      }
+      beats.push(cur as Beat)
+    }
     cur = null
   }
   // 占有スロットをスロット順（左→右）で列挙（空き＝undefined を除外）。
@@ -212,8 +221,8 @@ export function buildScene(
     const closes = (val.match(/」/g) ?? []).length
 
     if (quoteDepth > 0) {
-      // セリフ継続行
-      cur?.lines.push(val)
+      // セリフ継続行（line beat の lines に追記）
+      cur?.lines?.push(val)
       quoteDepth = Math.max(0, quoteDepth + opens - closes)
       return
     }
@@ -239,10 +248,27 @@ export function buildScene(
       return
     }
 
-    // 地の文（\N セクションカードもここ＝描画側 isSectionCard が処理）
+    // 地の文 → 現在ページ（末尾）に行を追加。空ページが無ければ作る。
     if (cur && cur.kind !== 'narration') flush()
-    if (!cur) cur = { kind: 'narration', lines: [], ...snapshot() }
-    cur.lines.push(val)
+    if (!cur) cur = { kind: 'narration', pages: [[]], ...snapshot() }
+    const pages = cur.pages!
+    // セクションカード（`\N`）は独立ページにする（描画側 isSectionCard が題字として扱う・HU-78）。
+    const isCard = /\\[Nn]/.test(val)
+    if (isCard) {
+      if (pages[pages.length - 1].length > 0) pages.push([])
+      pages[pages.length - 1].push(val)
+      pages.push([]) // 後続の地の文は新ページから
+    } else {
+      pages[pages.length - 1].push(val)
+    }
+  }
+
+  // 改ページ（page イベント / 0x04）。地の文の現在ページを閉じ、次ページを開く。セリフ（line）は
+  // 1 発話まるごと表示するため無視。現在 narration beat が無ければ no-op（先頭の 0x04 等）。
+  const pageBreak = () => {
+    if (cur?.kind !== 'narration') return
+    const pages = cur.pages!
+    if (pages[pages.length - 1].length > 0) pages.push([])
   }
 
   for (const ev of sceneEvents.events) {
@@ -262,6 +288,7 @@ export function buildScene(
     else if (tag === 'item') openItem(ev[1], ev[2], ev[3])
     else if (tag === 'itemclose') closeItem()
     else if (tag === 'off') clearAllSprites()
+    else if (tag === 'page') pageBreak()
     else if (tag === 'bgv') setBgv(ev[1])
     else if (tag === 'flash') pendingFlash = ev[1]
   }
