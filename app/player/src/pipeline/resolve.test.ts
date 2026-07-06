@@ -3,11 +3,11 @@ import { describe, it, expect } from 'vitest'
 import bgJson from '@data/backgrounds.json'
 import manifestJson from '@data/manifest.json'
 import spritesJson from '@data/sprites.json'
-import fixture from '../../../../data_extract/text/md_scr_text_jp/002_AYAN001A.txt?raw'
+import jpEventsRaw from '@data/scene-events/jp.json'
 import { buildVoiceIndex, resolveScene, resolveVoice, sceneAssetRefs } from './resolve'
 import { buildBgmIndex, buildSeIndex } from './audio'
-import { parseScene } from './scene'
-import { BgsetTable, Manifest, SprsetTable } from './types'
+import { buildScene } from './scene'
+import { BgsetTable, Manifest, SceneEventsBundle, SprsetTable, type SceneEvent } from './types'
 
 const manifest = Manifest.parse(manifestJson)
 const voiceIndex = buildVoiceIndex(manifest)
@@ -47,13 +47,12 @@ describe('resolveVoice — manifest 照合', () => {
 describe('resolveScene — 002_AYAN001A 全 beat 解決（受入）', () => {
   const sprset = SprsetTable.parse(spritesJson)
   const bgset = BgsetTable.parse(bgJson)
-  const scene = resolveScene(parseScene(fixture, { code: '002_AYAN001A', locale: 'jp' }), {
-    sprset,
-    bgset,
-    voiceIndex,
-    seIndex,
-    bgmIndex,
-  })
+  const jp002 = SceneEventsBundle.parse(jpEventsRaw)['002_AYAN001A']
+  const built = buildScene(
+    { title: jp002.title, events: jp002.events as SceneEvent[] },
+    { code: '002_AYAN001A', locale: 'jp' },
+  )
+  const scene = resolveScene(built, { sprset, bgset, voiceIndex, seIndex, bgmIndex })
 
   it('bg.file / sprite.body / sprite.face が全 beat で非 null', () => {
     for (const beat of scene.beats) {

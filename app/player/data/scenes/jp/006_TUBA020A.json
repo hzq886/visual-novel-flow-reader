@@ -95,59 +95,7 @@
         "メイドが、料理洗濯など、すべてをしてくれるのだ。",
         "これまでずっと、古橋家の家事をしていた綾姉も、",
         "ずいぶん助かっていることだろう。",
-        "主な仕事は、妊婦の身の回りの世話だけど……。",
-        "その他にも『仕事』があった。",
-        "それも、メイドを『雇った』理由のひとつだ。"
-      ],
-      "bg": {
-        "label": "#背景・古橋家リビング（昼）",
-        "file": "BG02_01_00"
-      },
-      "sprite": {
-        "label": "涼菜（中）・通常２（昼）・スーツ０１・にっこり１",
-        "body": "CH02B_02_01_003_01",
-        "face": "CH02B_02_01_102_01",
-        "offset": [
-          238,
-          76
-        ]
-      }
-    },
-    {
-      "kind": "line",
-      "who": "楠木　翼",
-      "voice": {
-        "id": "TUBA_006_TUBA020A_001",
-        "file": "voice/tuba_006_tuba020A_001.ogg"
-      },
-      "lines": [
-        "「……それじゃあ、彼の性欲処理を、お願いね。",
-        "そのおクチで、気持ち良くしてあげて」"
-      ],
-      "bg": {
-        "label": "#背景・古橋家リビング（昼）",
-        "file": "BG02_01_00"
-      },
-      "sprite": {
-        "label": "涼菜（中）・通常２（昼）・スーツ０１・にっこり１",
-        "body": "CH02B_02_01_003_01",
-        "face": "CH02B_02_01_102_01",
-        "offset": [
-          238,
-          76
-        ]
-      }
-    },
-    {
-      "kind": "line",
-      "who": "望月　真琴",
-      "voice": {
-        "id": "MAKO_006_TUBA020A_001",
-        "file": "voice/mako_006_tuba020A_001.ogg"
-      },
-      "lines": [
-        "「はい、分かりました……旦那様の性欲処理を",
-        "させて頂きます」"
+        "主な仕事は、妊婦の身の回りの世話だけど……。"
       ],
       "bg": {
         "label": "#背景・古橋家リビング（昼）",
@@ -166,23 +114,57 @@
     {
       "kind": "narration",
       "lines": [
+        "その他にも『仕事』があった。",
+        "それも、メイドを『雇った』理由のひとつだ。"
+      ],
+      "bg": {
+        "label": "#背景・黒一色",
+        "file": "BG_BLACK"
+      }
+    },
+    {
+      "kind": "line",
+      "who": "楠木　翼",
+      "voice": {
+        "id": "TUBA_006_TUBA020A_001",
+        "file": "voice/tuba_006_tuba020A_001.ogg"
+      },
+      "lines": [
+        "「……それじゃあ、彼の性欲処理を、お願いね。",
+        "そのおクチで、気持ち良くしてあげて」"
+      ],
+      "bg": {
+        "label": "#背景・黒一色",
+        "file": "BG_BLACK"
+      }
+    },
+    {
+      "kind": "line",
+      "who": "望月　真琴",
+      "voice": {
+        "id": "MAKO_006_TUBA020A_001",
+        "file": "voice/mako_006_tuba020A_001.ogg"
+      },
+      "lines": [
+        "「はい、分かりました……旦那様の性欲処理を",
+        "させて頂きます」"
+      ],
+      "bg": {
+        "label": "#背景・黒一色",
+        "file": "BG_BLACK"
+      }
+    },
+    {
+      "kind": "narration",
+      "lines": [
         "いまの翼は、真琴のことを認識している。",
         "あのデートの時のように、無視したりはしない。",
         "けれど彼女を、望月真琴ではなく『メイド』として",
         "認識しているのだ。"
       ],
       "bg": {
-        "label": "#背景・古橋家リビング（昼）",
-        "file": "BG02_01_00"
-      },
-      "sprite": {
-        "label": "涼菜（中）・通常２（昼）・スーツ０１・にっこり１",
-        "body": "CH02B_02_01_003_01",
-        "face": "CH02B_02_01_102_01",
-        "offset": [
-          238,
-          76
-        ]
+        "label": "#背景・黒一色",
+        "file": "BG_BLACK"
       }
     },
     {
@@ -1564,6 +1546,12 @@
         "label": "#EV087・目見開き・眉寄せ・微笑み・精液",
         "file": "EV087_06"
       },
+      "se": [
+        {
+          "code": "8201B",
+          "file": "se/8201b.ogg"
+        }
+      ],
       "bgv": {
         "id": "BGV_MAKO_F003A",
         "file": "voice/BGV_mako_f003a.ogg"
@@ -1584,9 +1572,10 @@
         "file": "EV087_06"
       },
       "bgv": {
-        "id": "BGV_MAKO_F003A",
-        "file": "voice/BGV_mako_f003a.ogg"
-      }
+        "id": "BGV_MAKO_F002A",
+        "file": "voice/BGV_mako_f002a.ogg"
+      },
+      "flash": 3
     },
     {
       "kind": "narration",
@@ -1600,8 +1589,8 @@
         "file": "EV087_06"
       },
       "bgv": {
-        "id": "BGV_MAKO_F003A",
-        "file": "voice/BGV_mako_f003a.ogg"
+        "id": "BGV_MAKO_F002A",
+        "file": "voice/BGV_mako_f002a.ogg"
       }
     },
     {
@@ -1620,8 +1609,8 @@
         "file": "EV087_06"
       },
       "bgv": {
-        "id": "BGV_MAKO_F003A",
-        "file": "voice/BGV_mako_f003a.ogg"
+        "id": "BGV_MAKO_F002A",
+        "file": "voice/BGV_mako_f002a.ogg"
       }
     },
     {
@@ -1636,8 +1625,8 @@
         "file": "EV087_06"
       },
       "bgv": {
-        "id": "BGV_MAKO_F003A",
-        "file": "voice/BGV_mako_f003a.ogg"
+        "id": "BGV_MAKO_F002A",
+        "file": "voice/BGV_mako_f002a.ogg"
       }
     },
     {
@@ -1656,8 +1645,8 @@
         "file": "EV087_06"
       },
       "bgv": {
-        "id": "BGV_MAKO_F003A",
-        "file": "voice/BGV_mako_f003a.ogg"
+        "id": "BGV_MAKO_F002A",
+        "file": "voice/BGV_mako_f002a.ogg"
       }
     },
     {
@@ -1680,8 +1669,8 @@
         "file": "EV087_06"
       },
       "bgv": {
-        "id": "BGV_MAKO_F003A",
-        "file": "voice/BGV_mako_f003a.ogg"
+        "id": "BGV_MAKO_F002A",
+        "file": "voice/BGV_mako_f002a.ogg"
       }
     }
   ],

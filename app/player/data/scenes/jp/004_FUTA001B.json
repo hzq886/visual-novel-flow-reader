@@ -12,8 +12,8 @@
         "その食事の後に、僕は言った。"
       ],
       "bg": {
-        "label": "#背景・アイキャッチ・古橋家リビング（昼）",
-        "file": "BG02_91_00"
+        "label": "#背景・古橋家リビング（昼）",
+        "file": "BG02_01_00"
       }
     },
     {
@@ -24,8 +24,8 @@
         "チェックしておきたいから」"
       ],
       "bg": {
-        "label": "#背景・アイキャッチ・古橋家リビング（昼）",
-        "file": "BG02_91_00"
+        "label": "#背景・古橋家リビング（昼）",
+        "file": "BG02_01_00"
       },
       "sprite": {
         "label": "涼菜（中）・通常２（昼）・スーツ０１・通常１",
@@ -43,8 +43,8 @@
         "その異常な言葉に、姉さんたちは驚いたりしない。"
       ],
       "bg": {
-        "label": "#背景・アイキャッチ・古橋家リビング（昼）",
-        "file": "BG02_91_00"
+        "label": "#背景・古橋家リビング（昼）",
+        "file": "BG02_01_00"
       },
       "sprite": {
         "label": "涼菜（中）・通常２（昼）・スーツ０１・通常１",
@@ -68,8 +68,8 @@
         "私のショーツを見てもらわないと」"
       ],
       "bg": {
-        "label": "#背景・アイキャッチ・古橋家リビング（昼）",
-        "file": "BG02_91_00"
+        "label": "#背景・古橋家リビング（昼）",
+        "file": "BG02_01_00"
       },
       "sprite": {
         "label": "涼菜（中）・通常２（昼）・スーツ０１・通常１",
@@ -88,8 +88,8 @@
         "あらかじめ、かけておいた『暗示』のせいだ。"
       ],
       "bg": {
-        "label": "#背景・アイキャッチ・古橋家リビング（昼）",
-        "file": "BG02_91_00"
+        "label": "#背景・古橋家リビング（昼）",
+        "file": "BG02_01_00"
       },
       "sprite": {
         "label": "涼菜（中）・通常２（昼）・スーツ０１・通常１",
@@ -113,8 +113,8 @@
         "積極的にお手伝いしてくれるから、助かるわ」"
       ],
       "bg": {
-        "label": "#背景・アイキャッチ・古橋家リビング（昼）",
-        "file": "BG02_91_00"
+        "label": "#背景・古橋家リビング（昼）",
+        "file": "BG02_01_00"
       },
       "sprite": {
         "label": "綾菜（中）・通常２（昼）・私服０２・にっこり１",
@@ -133,8 +133,8 @@
         "「いや、僕の役目なんだから、当然だよ」"
       ],
       "bg": {
-        "label": "#背景・アイキャッチ・古橋家リビング（昼）",
-        "file": "BG02_91_00"
+        "label": "#背景・古橋家リビング（昼）",
+        "file": "BG02_01_00"
       },
       "sprite": {
         "label": "綾菜（中）・通常２（昼）・私服０２・にっこり１",
@@ -154,8 +154,8 @@
         "二人は思っている。"
       ],
       "bg": {
-        "label": "#背景・アイキャッチ・古橋家リビング（昼）",
-        "file": "BG02_91_00"
+        "label": "#背景・古橋家リビング（昼）",
+        "file": "BG02_01_00"
       },
       "sprite": {
         "label": "綾菜（中）・通常２（昼）・私服０２・にっこり１",
@@ -178,13 +178,13 @@
         "「そうしたら、ショーツの確認、お願いね」"
       ],
       "bg": {
-        "label": "#背景・アイキャッチ・古橋家リビング（昼）",
-        "file": "BG02_91_00"
+        "label": "#背景・古橋家リビング（昼）",
+        "file": "BG02_01_00"
       },
       "sprite": {
-        "label": "綾菜（中）・通常２（昼）・私服０２・にっこり１",
+        "label": "綾菜（中）・通常２（昼）・私服０２・通常１",
         "body": "CH01B_02_01_003_02",
-        "face": "CH01B_02_01_102_01",
+        "face": "CH01B_02_01_101_01",
         "offset": [
           431,
           78
@@ -203,8 +203,8 @@
         "無いと思うけれど」"
       ],
       "bg": {
-        "label": "#背景・アイキャッチ・古橋家リビング（昼）",
-        "file": "BG02_91_00"
+        "label": "#背景・古橋家リビング（昼）",
+        "file": "BG02_01_00"
       },
       "sprite": {
         "label": "涼菜（中）・通常１（昼）・スーツ０１・通常１",
@@ -228,8 +228,8 @@
         "そう言って、ショーツを脱ぐ、姉さんたち。"
       ],
       "bg": {
-        "label": "#背景・アイキャッチ・古橋家リビング（昼）",
-        "file": "BG02_91_00"
+        "label": "#背景・古橋家リビング（昼）",
+        "file": "BG02_01_00"
       },
       "sprite": {
         "label": "涼菜（中）・通常１（昼）・スーツ０１・通常１",
@@ -500,8 +500,8 @@
         "その前に、僕はしゃがみ込んだ。"
       ],
       "bg": {
-        "label": "#EV006・困惑・不満",
-        "file": "EV006_02"
+        "label": "#背景・黒一色",
+        "file": "BG_BLACK"
       }
     },
     {
@@ -1098,6 +1098,12 @@
         "label": "#EV059・うっとり・真面目・綾菜クリなぞり",
         "file": "EV059_03"
       },
+      "se": [
+        {
+          "code": "8311A",
+          "file": "se/8311a.ogg"
+        }
+      ],
       "bgv": {
         "id": "BGV_AYAN_H001A",
         "file": "voice/BGV_ayan_h001a.ogg"
@@ -1320,12 +1326,6 @@
         "label": "#EV059・うっとり・真面目・綾菜クリ広げ・パンツ染み",
         "file": "EV059_04"
       },
-      "se": [
-        {
-          "code": "8311B",
-          "file": "se/8311b.ogg"
-        }
-      ],
       "bgv": {
         "id": "BGV_AYAN_H001A",
         "file": "voice/BGV_ayan_h001a.ogg"
@@ -1788,6 +1788,12 @@
         "label": "#EV059・軽くアヘ・うっとり・綾菜クリ摘まみ・パンツ染み2",
         "file": "EV059_07"
       },
+      "se": [
+        {
+          "code": "8351A",
+          "file": "se/8351a.ogg"
+        }
+      ],
       "bgv": {
         "id": "BGV_AYAN_H002A",
         "file": "voice/BGV_ayan_h002a.ogg"
@@ -1808,7 +1814,8 @@
       "bgv": {
         "id": "BGV_AYAN_H002A",
         "file": "voice/BGV_ayan_h002a.ogg"
-      }
+      },
+      "flash": 2
     },
     {
       "kind": "line",
@@ -1861,6 +1868,12 @@
         "label": "#EV059・軽くアヘ・うっとり・綾菜クリ摘まみ・パンツ染み2",
         "file": "EV059_07"
       },
+      "se": [
+        {
+          "code": "8351A",
+          "file": "se/8351a.ogg"
+        }
+      ],
       "bgv": {
         "id": "BGV_AYAN_H003A",
         "file": "voice/BGV_ayan_h003a.ogg"
@@ -1881,7 +1894,8 @@
       "bgv": {
         "id": "BGV_AYAN_H003A",
         "file": "voice/BGV_ayan_h003a.ogg"
-      }
+      },
+      "flash": 2
     },
     {
       "kind": "line",
@@ -2108,7 +2122,8 @@
       "bgv": {
         "id": "BGV_AYAN_H003A",
         "file": "voice/BGV_ayan_h003a.ogg"
-      }
+      },
+      "flash": 2
     },
     {
       "kind": "line",
@@ -2125,6 +2140,12 @@
         "label": "#EV059・軽くアヘ・うっとり・綾菜クリ摘まみ・パンツ染み3",
         "file": "EV059_08"
       },
+      "se": [
+        {
+          "code": "8361B",
+          "file": "se/8361b.ogg"
+        }
+      ],
       "bgv": {
         "id": "BGV_AYAN_H003A",
         "file": "voice/BGV_ayan_h003a.ogg"
@@ -2142,16 +2163,11 @@
         "label": "#EV059・軽くアヘ・うっとり・綾菜クリ摘まみ・パンツ染み3",
         "file": "EV059_08"
       },
-      "se": [
-        {
-          "code": "8331B",
-          "file": "se/8331b.ogg"
-        }
-      ],
       "bgv": {
         "id": "BGV_AYAN_H003A",
         "file": "voice/BGV_ayan_h003a.ogg"
-      }
+      },
+      "flash": 2
     },
     {
       "kind": "narration",
@@ -2185,8 +2201,8 @@
         "file": "EV059_09"
       },
       "bgv": {
-        "id": "BGV_AYAN_H003A",
-        "file": "voice/BGV_ayan_h003a.ogg"
+        "id": "BGV_AYAN_H001A",
+        "file": "voice/BGV_ayan_h001a.ogg"
       }
     },
     {
@@ -2202,8 +2218,8 @@
         "file": "EV059_09"
       },
       "bgv": {
-        "id": "BGV_AYAN_H003A",
-        "file": "voice/BGV_ayan_h003a.ogg"
+        "id": "BGV_AYAN_H001A",
+        "file": "voice/BGV_ayan_h001a.ogg"
       }
     },
     {
@@ -2222,8 +2238,8 @@
         "file": "EV059_09"
       },
       "bgv": {
-        "id": "BGV_AYAN_H003A",
-        "file": "voice/BGV_ayan_h003a.ogg"
+        "id": "BGV_AYAN_H001A",
+        "file": "voice/BGV_ayan_h001a.ogg"
       }
     },
     {
@@ -2240,8 +2256,8 @@
         "file": "EV059_09"
       },
       "bgv": {
-        "id": "BGV_AYAN_H003A",
-        "file": "voice/BGV_ayan_h003a.ogg"
+        "id": "BGV_AYAN_H001A",
+        "file": "voice/BGV_ayan_h001a.ogg"
       }
     },
     {
@@ -2260,8 +2276,8 @@
         "file": "EV059_09"
       },
       "bgv": {
-        "id": "BGV_AYAN_H003A",
-        "file": "voice/BGV_ayan_h003a.ogg"
+        "id": "BGV_AYAN_H001A",
+        "file": "voice/BGV_ayan_h001a.ogg"
       }
     },
     {
@@ -2275,8 +2291,8 @@
         "file": "EV059_09"
       },
       "bgv": {
-        "id": "BGV_AYAN_H003A",
-        "file": "voice/BGV_ayan_h003a.ogg"
+        "id": "BGV_AYAN_H001A",
+        "file": "voice/BGV_ayan_h001a.ogg"
       }
     },
     {
@@ -2295,8 +2311,8 @@
         "file": "EV059_09"
       },
       "bgv": {
-        "id": "BGV_AYAN_H003A",
-        "file": "voice/BGV_ayan_h003a.ogg"
+        "id": "BGV_AYAN_H001A",
+        "file": "voice/BGV_ayan_h001a.ogg"
       }
     },
     {
@@ -2309,8 +2325,8 @@
         "file": "EV059_09"
       },
       "bgv": {
-        "id": "BGV_AYAN_H003A",
-        "file": "voice/BGV_ayan_h003a.ogg"
+        "id": "BGV_AYAN_H001A",
+        "file": "voice/BGV_ayan_h001a.ogg"
       }
     },
     {
@@ -2324,8 +2340,8 @@
         "file": "EV059_09"
       },
       "bgv": {
-        "id": "BGV_AYAN_H003A",
-        "file": "voice/BGV_ayan_h003a.ogg"
+        "id": "BGV_AYAN_H001A",
+        "file": "voice/BGV_ayan_h001a.ogg"
       }
     },
     {
@@ -2342,8 +2358,8 @@
         "file": "EV059_09"
       },
       "bgv": {
-        "id": "BGV_AYAN_H003A",
-        "file": "voice/BGV_ayan_h003a.ogg"
+        "id": "BGV_AYAN_H001A",
+        "file": "voice/BGV_ayan_h001a.ogg"
       }
     },
     {
@@ -2362,8 +2378,8 @@
         "file": "EV059_09"
       },
       "bgv": {
-        "id": "BGV_AYAN_H003A",
-        "file": "voice/BGV_ayan_h003a.ogg"
+        "id": "BGV_AYAN_H001A",
+        "file": "voice/BGV_ayan_h001a.ogg"
       }
     },
     {
@@ -2379,8 +2395,8 @@
         "file": "EV059_09"
       },
       "bgv": {
-        "id": "BGV_AYAN_H003A",
-        "file": "voice/BGV_ayan_h003a.ogg"
+        "id": "BGV_AYAN_H001A",
+        "file": "voice/BGV_ayan_h001a.ogg"
       }
     },
     {
@@ -2398,8 +2414,8 @@
         "file": "EV059_10"
       },
       "bgv": {
-        "id": "BGV_AYAN_H003A",
-        "file": "voice/BGV_ayan_h003a.ogg"
+        "id": "BGV_AYAN_H001A",
+        "file": "voice/BGV_ayan_h001a.ogg"
       }
     },
     {
@@ -2414,8 +2430,8 @@
         "file": "EV059_10"
       },
       "bgv": {
-        "id": "BGV_AYAN_H003A",
-        "file": "voice/BGV_ayan_h003a.ogg"
+        "id": "BGV_AYAN_H001A",
+        "file": "voice/BGV_ayan_h001a.ogg"
       }
     },
     {
@@ -2434,8 +2450,8 @@
         "file": "EV059_10"
       },
       "bgv": {
-        "id": "BGV_AYAN_H003A",
-        "file": "voice/BGV_ayan_h003a.ogg"
+        "id": "BGV_AYAN_H001A",
+        "file": "voice/BGV_ayan_h001a.ogg"
       }
     },
     {
@@ -2452,8 +2468,8 @@
         "file": "EV059_10"
       },
       "bgv": {
-        "id": "BGV_AYAN_H003A",
-        "file": "voice/BGV_ayan_h003a.ogg"
+        "id": "BGV_AYAN_H001A",
+        "file": "voice/BGV_ayan_h001a.ogg"
       }
     },
     {
@@ -2472,8 +2488,8 @@
         "file": "EV059_11"
       },
       "bgv": {
-        "id": "BGV_AYAN_H003A",
-        "file": "voice/BGV_ayan_h003a.ogg"
+        "id": "BGV_AYAN_H001A",
+        "file": "voice/BGV_ayan_h001a.ogg"
       }
     },
     {
@@ -2488,8 +2504,8 @@
         "file": "EV059_11"
       },
       "bgv": {
-        "id": "BGV_AYAN_H003A",
-        "file": "voice/BGV_ayan_h003a.ogg"
+        "id": "BGV_AYAN_H001A",
+        "file": "voice/BGV_ayan_h001a.ogg"
       }
     },
     {
@@ -2503,8 +2519,8 @@
         "file": "EV059_11"
       },
       "bgv": {
-        "id": "BGV_AYAN_H003A",
-        "file": "voice/BGV_ayan_h003a.ogg"
+        "id": "BGV_AYAN_H001A",
+        "file": "voice/BGV_ayan_h001a.ogg"
       }
     },
     {
@@ -2523,8 +2539,8 @@
         "file": "EV059_11"
       },
       "bgv": {
-        "id": "BGV_AYAN_H003A",
-        "file": "voice/BGV_ayan_h003a.ogg"
+        "id": "BGV_AYAN_H001A",
+        "file": "voice/BGV_ayan_h001a.ogg"
       }
     },
     {
@@ -2540,8 +2556,8 @@
         "file": "EV059_11"
       },
       "bgv": {
-        "id": "BGV_AYAN_H003A",
-        "file": "voice/BGV_ayan_h003a.ogg"
+        "id": "BGV_AYAN_H001A",
+        "file": "voice/BGV_ayan_h001a.ogg"
       }
     },
     {
@@ -2560,8 +2576,8 @@
         "file": "EV059_11"
       },
       "bgv": {
-        "id": "BGV_AYAN_H003A",
-        "file": "voice/BGV_ayan_h003a.ogg"
+        "id": "BGV_AYAN_H001A",
+        "file": "voice/BGV_ayan_h001a.ogg"
       }
     },
     {
@@ -2578,8 +2594,8 @@
         "file": "EV059_11"
       },
       "bgv": {
-        "id": "BGV_AYAN_H003A",
-        "file": "voice/BGV_ayan_h003a.ogg"
+        "id": "BGV_AYAN_H001A",
+        "file": "voice/BGV_ayan_h001a.ogg"
       }
     },
     {
@@ -2650,6 +2666,12 @@
         "label": "#EV059・うっとり・目閉じ・涼菜割れ目なぞり・パンツ染み3",
         "file": "EV059_12"
       },
+      "se": [
+        {
+          "code": "8311A",
+          "file": "se/8311a.ogg"
+        }
+      ],
       "bgv": {
         "id": "BGV_SUZU_H001A",
         "file": "voice/BGV_suzu_h001a.ogg"
@@ -2772,6 +2794,12 @@
         "label": "#EV059・うっとり・目閉じ・涼菜割れ目なぞり・パンツ染み3",
         "file": "EV059_12"
       },
+      "se": [
+        {
+          "code": "8311A",
+          "file": "se/8311a.ogg"
+        }
+      ],
       "bgv": {
         "id": "BGV_SUZU_H001A",
         "file": "voice/BGV_suzu_h001a.ogg"
@@ -2813,6 +2841,12 @@
         "label": "#EV059・うっとり・目閉じ・涼菜割れ目なぞり・パンツ染み3",
         "file": "EV059_12"
       },
+      "se": [
+        {
+          "code": "8311A",
+          "file": "se/8311a.ogg"
+        }
+      ],
       "bgv": {
         "id": "BGV_SUZU_H001A",
         "file": "voice/BGV_suzu_h001a.ogg"
@@ -2830,8 +2864,8 @@
         "はあぁぁ、なんだか、ヘンな感じね……」"
       ],
       "bg": {
-        "label": "#EV059・うっとり・目閉じ・涼菜割れ目なぞり・パンツ染み3",
-        "file": "EV059_12"
+        "label": "#EV059・うっとり・驚き・涼菜割れ目なぞり・パンツ染み3",
+        "file": "EV059_11"
       },
       "bgv": {
         "id": "BGV_SUZU_H001A",
@@ -2849,8 +2883,8 @@
         "愛液で、お漏らししたぐらい、濡らすつもりだけど。"
       ],
       "bg": {
-        "label": "#EV059・うっとり・目閉じ・涼菜割れ目なぞり・パンツ染み3",
-        "file": "EV059_12"
+        "label": "#EV059・うっとり・驚き・涼菜割れ目なぞり・パンツ染み3",
+        "file": "EV059_11"
       },
       "bgv": {
         "id": "BGV_SUZU_H001A",
@@ -2869,8 +2903,8 @@
         "かしら……んっ、すごく、切ないわ」"
       ],
       "bg": {
-        "label": "#EV059・うっとり・目閉じ・涼菜割れ目なぞり・パンツ染み3",
-        "file": "EV059_12"
+        "label": "#EV059・うっとり・驚き・涼菜割れ目なぞり・パンツ染み3",
+        "file": "EV059_11"
       },
       "bgv": {
         "id": "BGV_SUZU_H001A",
@@ -2887,8 +2921,8 @@
         "まるで、ストリッパーのダンスみたいだ。"
       ],
       "bg": {
-        "label": "#EV059・うっとり・目閉じ・涼菜割れ目なぞり・パンツ染み3",
-        "file": "EV059_12"
+        "label": "#EV059・うっとり・驚き・涼菜割れ目なぞり・パンツ染み3",
+        "file": "EV059_11"
       },
       "bgv": {
         "id": "BGV_SUZU_H001A",
@@ -2907,8 +2941,8 @@
         "クリトリスのほうを……」"
       ],
       "bg": {
-        "label": "#EV059・うっとり・目閉じ・涼菜割れ目なぞり・パンツ染み3",
-        "file": "EV059_12"
+        "label": "#EV059・うっとり・驚き・涼菜割れ目なぞり・パンツ染み3",
+        "file": "EV059_11"
       },
       "bgv": {
         "id": "BGV_SUZU_H001A",
@@ -2928,9 +2962,15 @@
         "擦りだす。"
       ],
       "bg": {
-        "label": "#EV059・うっとり・目閉じ・涼菜割れ目なぞり・パンツ染み3",
-        "file": "EV059_12"
+        "label": "#EV059・うっとり・驚き・涼菜割れ目なぞり・パンツ染み3",
+        "file": "EV059_11"
       },
+      "se": [
+        {
+          "code": "8311A",
+          "file": "se/8311a.ogg"
+        }
+      ],
       "bgv": {
         "id": "BGV_SUZU_H001A",
         "file": "voice/BGV_suzu_h001a.ogg"
@@ -2948,8 +2988,8 @@
         "もう勃起してるのにっ……あっあっ！」"
       ],
       "bg": {
-        "label": "#EV059・うっとり・目閉じ・涼菜割れ目なぞり・パンツ染み3",
-        "file": "EV059_12"
+        "label": "#EV059・うっとり・驚き・涼菜割れ目なぞり・パンツ染み3",
+        "file": "EV059_11"
       },
       "bgv": {
         "id": "BGV_SUZU_H001A",
@@ -2967,8 +3007,8 @@
         "膝が震えて、腰が落ちてきて、ちょっと切なそうだ。"
       ],
       "bg": {
-        "label": "#EV059・うっとり・目閉じ・涼菜割れ目なぞり・パンツ染み3",
-        "file": "EV059_12"
+        "label": "#EV059・うっとり・驚き・涼菜割れ目なぞり・パンツ染み3",
+        "file": "EV059_11"
       },
       "bgv": {
         "id": "BGV_SUZU_H001A",
@@ -2987,8 +3027,8 @@
         "だからっ、クリ……クリトリスを触ってっ！」"
       ],
       "bg": {
-        "label": "#EV059・うっとり・目閉じ・涼菜割れ目なぞり・パンツ染み3",
-        "file": "EV059_12"
+        "label": "#EV059・うっとり・驚き・涼菜割れ目なぞり・パンツ染み3",
+        "file": "EV059_11"
       },
       "bgv": {
         "id": "BGV_SUZU_H001A",
@@ -3004,9 +3044,15 @@
         "勃起したクリトリスへと指を滑らせる。"
       ],
       "bg": {
-        "label": "#EV059・うっとり・目閉じ・涼菜割れ目なぞり・パンツ染み3",
-        "file": "EV059_12"
+        "label": "#EV059・うっとり・驚き・涼菜割れ目なぞり・パンツ染み3",
+        "file": "EV059_11"
       },
+      "se": [
+        {
+          "code": "8311A",
+          "file": "se/8311a.ogg"
+        }
+      ],
       "bgv": {
         "id": "BGV_SUZU_H001A",
         "file": "voice/BGV_suzu_h001a.ogg"
@@ -3436,6 +3482,12 @@
         "label": "#EV059・うっとり・軽くアヘ・涼菜クリ摘まみ・パンツ染み3・パンツ染み",
         "file": "EV059_15"
       },
+      "se": [
+        {
+          "code": "8361B",
+          "file": "se/8361b.ogg"
+        }
+      ],
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
@@ -3455,7 +3507,8 @@
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
-      }
+      },
+      "flash": 2
     },
     {
       "kind": "line",
@@ -3632,6 +3685,12 @@
         "label": "#EV059・うっとり・驚き・涼菜クリ摘まみ・パンツ染み3・パンツ濡れ",
         "file": "EV059_17"
       },
+      "se": [
+        {
+          "code": "8361B",
+          "file": "se/8361b.ogg"
+        }
+      ],
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
@@ -3646,13 +3705,14 @@
         "涼姉には、そんなつもりはないんだろうけれども。"
       ],
       "bg": {
-        "label": "#EV059・うっとり・驚き・涼菜クリ摘まみ・パンツ染み3・パンツ濡れ",
-        "file": "EV059_17"
+        "label": "#EV059・うっとり・軽くアヘ・涼菜クリ摘まみ・パンツ染み3・パンツ濡れ",
+        "file": "EV059_16"
       },
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
-      }
+      },
+      "flash": 2
     },
     {
       "kind": "line",
@@ -3666,8 +3726,8 @@
         "んぎぃっ、ひぐっ、仕事なのにぃっ！」"
       ],
       "bg": {
-        "label": "#EV059・うっとり・驚き・涼菜クリ摘まみ・パンツ染み3・パンツ濡れ",
-        "file": "EV059_17"
+        "label": "#EV059・うっとり・軽くアヘ・涼菜クリ摘まみ・パンツ染み3・パンツ濡れ",
+        "file": "EV059_16"
       },
       "bgv": {
         "id": "BGV_SUZU_H003A",
@@ -3682,8 +3742,8 @@
         "ぎゅうっとチカラを入れる。"
       ],
       "bg": {
-        "label": "#EV059・うっとり・驚き・涼菜クリ摘まみ・パンツ染み3・パンツ濡れ",
-        "file": "EV059_17"
+        "label": "#EV059・うっとり・軽くアヘ・涼菜クリ摘まみ・パンツ染み3・パンツ濡れ",
+        "file": "EV059_16"
       },
       "bgv": {
         "id": "BGV_SUZU_H003A",
@@ -3702,8 +3762,8 @@
         "んあぁっ！　イッ、イッてるからぁぁっ！」"
       ],
       "bg": {
-        "label": "#EV059・うっとり・驚き・涼菜クリ摘まみ・パンツ染み3・パンツ濡れ",
-        "file": "EV059_17"
+        "label": "#EV059・うっとり・軽くアヘ・涼菜クリ摘まみ・パンツ染み3・パンツ濡れ",
+        "file": "EV059_16"
       },
       "bgv": {
         "id": "BGV_SUZU_H003A",
@@ -3719,8 +3779,8 @@
         "汗と、オンナの匂いが、むわっと漂う。"
       ],
       "bg": {
-        "label": "#EV059・うっとり・驚き・涼菜クリ摘まみ・パンツ染み3・パンツ濡れ",
-        "file": "EV059_17"
+        "label": "#EV059・うっとり・軽くアヘ・涼菜クリ摘まみ・パンツ染み3・パンツ濡れ",
+        "file": "EV059_16"
       },
       "bgv": {
         "id": "BGV_SUZU_H003A",
@@ -3739,8 +3799,8 @@
         "頭っ、ヘンになりゅうっ、んふう、ふぉぉっ！」"
       ],
       "bg": {
-        "label": "#EV059・うっとり・驚き・涼菜クリ摘まみ・パンツ染み3・パンツ濡れ",
-        "file": "EV059_17"
+        "label": "#EV059・うっとり・軽くアヘ・涼菜クリ摘まみ・パンツ染み3・パンツ濡れ",
+        "file": "EV059_16"
       },
       "bgv": {
         "id": "BGV_SUZU_H003A",
@@ -3757,8 +3817,8 @@
         "続けていく。"
       ],
       "bg": {
-        "label": "#EV059・うっとり・驚き・涼菜クリ摘まみ・パンツ染み3・パンツ濡れ",
-        "file": "EV059_17"
+        "label": "#EV059・うっとり・軽くアヘ・涼菜クリ摘まみ・パンツ染み3・パンツ濡れ",
+        "file": "EV059_16"
       },
       "bgv": {
         "id": "BGV_SUZU_H003A",
@@ -3777,8 +3837,8 @@
         "おぉぉぉっ！　もぉ、ひゃめてぇぇっ！」"
       ],
       "bg": {
-        "label": "#EV059・うっとり・驚き・涼菜クリ摘まみ・パンツ染み3・パンツ濡れ",
-        "file": "EV059_17"
+        "label": "#EV059・うっとり・軽くアヘ・涼菜クリ摘まみ・パンツ染み3・パンツ濡れ",
+        "file": "EV059_16"
       },
       "bgv": {
         "id": "BGV_SUZU_H003A",
@@ -3797,8 +3857,8 @@
         "ショーツがぐちょぐちょになるから」"
       ],
       "bg": {
-        "label": "#EV059・うっとり・驚き・涼菜クリ摘まみ・パンツ染み3・パンツ濡れ",
-        "file": "EV059_17"
+        "label": "#EV059・うっとり・軽くアヘ・涼菜クリ摘まみ・パンツ染み3・パンツ濡れ",
+        "file": "EV059_16"
       },
       "bgv": {
         "id": "BGV_SUZU_H003A",
@@ -3816,8 +3876,8 @@
         "全身をガクガクさせながら、涼姉は訴えた。"
       ],
       "bg": {
-        "label": "#EV059・うっとり・驚き・涼菜クリ摘まみ・パンツ染み3・パンツ濡れ",
-        "file": "EV059_17"
+        "label": "#EV059・うっとり・軽くアヘ・涼菜クリ摘まみ・パンツ染み3・パンツ濡れ",
+        "file": "EV059_16"
       },
       "bgv": {
         "id": "BGV_SUZU_H003A",
@@ -3836,8 +3896,8 @@
         "ぐちょぐちょに濡れてりゅから、止めてぇぇっ！」"
       ],
       "bg": {
-        "label": "#EV059・うっとり・驚き・涼菜クリ摘まみ・パンツ染み3・パンツ濡れ",
-        "file": "EV059_17"
+        "label": "#EV059・うっとり・軽くアヘ・涼菜クリ摘まみ・パンツ染み3・パンツ濡れ",
+        "file": "EV059_16"
       },
       "bgv": {
         "id": "BGV_SUZU_H003A",
@@ -3852,8 +3912,8 @@
         "激しくシゴきたてた。"
       ],
       "bg": {
-        "label": "#EV059・うっとり・驚き・涼菜クリ摘まみ・パンツ染み3・パンツ濡れ",
-        "file": "EV059_17"
+        "label": "#EV059・うっとり・軽くアヘ・涼菜クリ摘まみ・パンツ染み3・パンツ濡れ",
+        "file": "EV059_16"
       },
       "bgv": {
         "id": "BGV_SUZU_H003A",
@@ -3872,9 +3932,15 @@
         "もうイグのだめぇっ！　ゆるひてぇぇっ！」"
       ],
       "bg": {
-        "label": "#EV059・うっとり・驚き・涼菜クリ摘まみ・パンツ染み3・パンツ濡れ",
-        "file": "EV059_17"
+        "label": "#EV059・うっとり・軽くアヘ・涼菜クリ摘まみ・パンツ染み3・パンツ濡れ",
+        "file": "EV059_16"
       },
+      "se": [
+        {
+          "code": "8361B",
+          "file": "se/8361b.ogg"
+        }
+      ],
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
@@ -3887,13 +3953,14 @@
         "大きく開いた股間から、白い愛液が噴きだしたから。"
       ],
       "bg": {
-        "label": "#EV059・うっとり・驚き・涼菜クリ摘まみ・パンツ染み3・パンツ濡れ",
-        "file": "EV059_17"
+        "label": "#EV059・うっとり・軽くアヘ・涼菜クリ摘まみ・パンツ染み3・パンツ濡れ",
+        "file": "EV059_16"
       },
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
-      }
+      },
+      "flash": 2
     },
     {
       "kind": "line",
@@ -3907,8 +3974,8 @@
         "こんにゃの、ひぐっ、イ、イキ過ぎぃっ！」"
       ],
       "bg": {
-        "label": "#EV059・うっとり・驚き・涼菜クリ摘まみ・パンツ染み3・パンツ濡れ",
-        "file": "EV059_17"
+        "label": "#EV059・うっとり・軽くアヘ・涼菜クリ摘まみ・パンツ染み3・パンツ濡れ",
+        "file": "EV059_16"
       },
       "bgv": {
         "id": "BGV_SUZU_H003A",
@@ -3926,8 +3993,8 @@
         "割れ目に滑らせた。"
       ],
       "bg": {
-        "label": "#EV059・うっとり・驚き・涼菜クリ摘まみ・パンツ染み3・パンツ濡れ",
-        "file": "EV059_17"
+        "label": "#EV059・うっとり・軽くアヘ・涼菜クリ摘まみ・パンツ染み3・パンツ濡れ",
+        "file": "EV059_16"
       },
       "bgv": {
         "id": "BGV_SUZU_H003A",
@@ -3950,8 +4017,8 @@
         "file": "EV059_18"
       },
       "bgv": {
-        "id": "BGV_SUZU_H003A",
-        "file": "voice/BGV_suzu_h003a.ogg"
+        "id": "BGV_SUZU_H002A",
+        "file": "voice/BGV_suzu_h002a.ogg"
       }
     },
     {
@@ -3970,8 +4037,8 @@
         "file": "EV059_18"
       },
       "bgv": {
-        "id": "BGV_SUZU_H003A",
-        "file": "voice/BGV_suzu_h003a.ogg"
+        "id": "BGV_SUZU_H002A",
+        "file": "voice/BGV_suzu_h002a.ogg"
       }
     },
     {
@@ -3990,8 +4057,8 @@
         "file": "EV059_18"
       },
       "bgv": {
-        "id": "BGV_SUZU_H003A",
-        "file": "voice/BGV_suzu_h003a.ogg"
+        "id": "BGV_SUZU_H002A",
+        "file": "voice/BGV_suzu_h002a.ogg"
       }
     },
     {
@@ -4007,8 +4074,8 @@
         "file": "EV059_18"
       },
       "bgv": {
-        "id": "BGV_SUZU_H003A",
-        "file": "voice/BGV_suzu_h003a.ogg"
+        "id": "BGV_SUZU_H002A",
+        "file": "voice/BGV_suzu_h002a.ogg"
       }
     },
     {
@@ -4027,8 +4094,8 @@
         "file": "EV059_18"
       },
       "bgv": {
-        "id": "BGV_SUZU_H003A",
-        "file": "voice/BGV_suzu_h003a.ogg"
+        "id": "BGV_SUZU_H002A",
+        "file": "voice/BGV_suzu_h002a.ogg"
       }
     },
     {
@@ -4043,8 +4110,8 @@
         "file": "EV059_18"
       },
       "bgv": {
-        "id": "BGV_SUZU_H003A",
-        "file": "voice/BGV_suzu_h003a.ogg"
+        "id": "BGV_SUZU_H002A",
+        "file": "voice/BGV_suzu_h002a.ogg"
       }
     },
     {
@@ -4063,8 +4130,8 @@
         "file": "EV059_18"
       },
       "bgv": {
-        "id": "BGV_SUZU_H003A",
-        "file": "voice/BGV_suzu_h003a.ogg"
+        "id": "BGV_SUZU_H002A",
+        "file": "voice/BGV_suzu_h002a.ogg"
       }
     },
     {
@@ -4082,8 +4149,8 @@
         "file": "EV059_18"
       },
       "bgv": {
-        "id": "BGV_SUZU_H003A",
-        "file": "voice/BGV_suzu_h003a.ogg"
+        "id": "BGV_SUZU_H002A",
+        "file": "voice/BGV_suzu_h002a.ogg"
       }
     },
     {
@@ -4102,8 +4169,8 @@
         "file": "EV059_18"
       },
       "bgv": {
-        "id": "BGV_SUZU_H003A",
-        "file": "voice/BGV_suzu_h003a.ogg"
+        "id": "BGV_SUZU_H002A",
+        "file": "voice/BGV_suzu_h002a.ogg"
       }
     },
     {
@@ -4122,8 +4189,8 @@
         "file": "EV059_18"
       },
       "bgv": {
-        "id": "BGV_SUZU_H003A",
-        "file": "voice/BGV_suzu_h003a.ogg"
+        "id": "BGV_SUZU_H002A",
+        "file": "voice/BGV_suzu_h002a.ogg"
       }
     },
     {
@@ -4138,8 +4205,8 @@
         "file": "EV059_18"
       },
       "bgv": {
-        "id": "BGV_SUZU_H003A",
-        "file": "voice/BGV_suzu_h003a.ogg"
+        "id": "BGV_SUZU_H002A",
+        "file": "voice/BGV_suzu_h002a.ogg"
       }
     },
     {
@@ -4153,8 +4220,8 @@
         "file": "EV059_18"
       },
       "bgv": {
-        "id": "BGV_SUZU_H003A",
-        "file": "voice/BGV_suzu_h003a.ogg"
+        "id": "BGV_SUZU_H002A",
+        "file": "voice/BGV_suzu_h002a.ogg"
       }
     },
     {
@@ -4172,8 +4239,8 @@
         "file": "EV059_18"
       },
       "bgv": {
-        "id": "BGV_SUZU_H003A",
-        "file": "voice/BGV_suzu_h003a.ogg"
+        "id": "BGV_SUZU_H002A",
+        "file": "voice/BGV_suzu_h002a.ogg"
       }
     },
     {
@@ -4186,8 +4253,8 @@
         "file": "EV059_18"
       },
       "bgv": {
-        "id": "BGV_SUZU_H003A",
-        "file": "voice/BGV_suzu_h003a.ogg"
+        "id": "BGV_SUZU_H002A",
+        "file": "voice/BGV_suzu_h002a.ogg"
       }
     },
     {
@@ -4206,8 +4273,8 @@
         "file": "EV059_18"
       },
       "bgv": {
-        "id": "BGV_SUZU_H003A",
-        "file": "voice/BGV_suzu_h003a.ogg"
+        "id": "BGV_SUZU_H002A",
+        "file": "voice/BGV_suzu_h002a.ogg"
       }
     },
     {
@@ -4216,12 +4283,12 @@
         "そして、姉さんたちは、再びショーツを拡げた。"
       ],
       "bg": {
-        "label": "#EV059・うっとり・軽くアヘ・涼菜割れ目なぞり・パンツ染み3・パンツ濡れ",
-        "file": "EV059_18"
+        "label": "#背景・黒一色",
+        "file": "BG_BLACK"
       },
       "bgv": {
-        "id": "BGV_SUZU_H003A",
-        "file": "voice/BGV_suzu_h003a.ogg"
+        "id": "BGV_SUZU_H002A",
+        "file": "voice/BGV_suzu_h002a.ogg"
       }
     },
     {
@@ -4241,8 +4308,8 @@
         "file": "EV006_03"
       },
       "bgv": {
-        "id": "BGV_SUZU_H003A",
-        "file": "voice/BGV_suzu_h003a.ogg"
+        "id": "BGV_SUZU_H002A",
+        "file": "voice/BGV_suzu_h002a.ogg"
       }
     },
     {
@@ -4260,8 +4327,8 @@
         "file": "EV006_03"
       },
       "bgv": {
-        "id": "BGV_SUZU_H003A",
-        "file": "voice/BGV_suzu_h003a.ogg"
+        "id": "BGV_SUZU_H002A",
+        "file": "voice/BGV_suzu_h002a.ogg"
       }
     },
     {
@@ -4280,8 +4347,8 @@
         "file": "EV006_03"
       },
       "bgv": {
-        "id": "BGV_SUZU_H003A",
-        "file": "voice/BGV_suzu_h003a.ogg"
+        "id": "BGV_SUZU_H002A",
+        "file": "voice/BGV_suzu_h002a.ogg"
       }
     },
     {
@@ -4297,9 +4364,15 @@
         "label": "#EV006・にっこり・にっこり・パンツ染み・パンツ濡れ",
         "file": "EV006_03"
       },
+      "se": [
+        {
+          "code": "1201B",
+          "file": "se/1201b.ogg"
+        }
+      ],
       "bgv": {
-        "id": "BGV_SUZU_H003A",
-        "file": "voice/BGV_suzu_h003a.ogg"
+        "id": "BGV_SUZU_H002A",
+        "file": "voice/BGV_suzu_h002a.ogg"
       }
     },
     {
@@ -4314,8 +4387,8 @@
         "file": "EV006_03"
       },
       "bgv": {
-        "id": "BGV_SUZU_H003A",
-        "file": "voice/BGV_suzu_h003a.ogg"
+        "id": "BGV_SUZU_H002A",
+        "file": "voice/BGV_suzu_h002a.ogg"
       }
     },
     {
@@ -4333,8 +4406,8 @@
         "file": "EV006_03"
       },
       "bgv": {
-        "id": "BGV_SUZU_H003A",
-        "file": "voice/BGV_suzu_h003a.ogg"
+        "id": "BGV_SUZU_H002A",
+        "file": "voice/BGV_suzu_h002a.ogg"
       }
     },
     {
@@ -4353,8 +4426,8 @@
         "file": "EV006_04"
       },
       "bgv": {
-        "id": "BGV_SUZU_H003A",
-        "file": "voice/BGV_suzu_h003a.ogg"
+        "id": "BGV_SUZU_H002A",
+        "file": "voice/BGV_suzu_h002a.ogg"
       }
     },
     {
@@ -4373,8 +4446,8 @@
         "file": "EV006_04"
       },
       "bgv": {
-        "id": "BGV_SUZU_H003A",
-        "file": "voice/BGV_suzu_h003a.ogg"
+        "id": "BGV_SUZU_H002A",
+        "file": "voice/BGV_suzu_h002a.ogg"
       }
     },
     {
@@ -4388,8 +4461,8 @@
         "file": "EV006_04"
       },
       "bgv": {
-        "id": "BGV_SUZU_H003A",
-        "file": "voice/BGV_suzu_h003a.ogg"
+        "id": "BGV_SUZU_H002A",
+        "file": "voice/BGV_suzu_h002a.ogg"
       }
     },
     {
@@ -4408,8 +4481,8 @@
         "file": "EV006_04"
       },
       "bgv": {
-        "id": "BGV_SUZU_H003A",
-        "file": "voice/BGV_suzu_h003a.ogg"
+        "id": "BGV_SUZU_H002A",
+        "file": "voice/BGV_suzu_h002a.ogg"
       }
     },
     {
@@ -4428,8 +4501,8 @@
         "file": "EV006_04"
       },
       "bgv": {
-        "id": "BGV_SUZU_H003A",
-        "file": "voice/BGV_suzu_h003a.ogg"
+        "id": "BGV_SUZU_H002A",
+        "file": "voice/BGV_suzu_h002a.ogg"
       }
     },
     {
@@ -4445,8 +4518,8 @@
         "file": "EV006_04"
       },
       "bgv": {
-        "id": "BGV_SUZU_H003A",
-        "file": "voice/BGV_suzu_h003a.ogg"
+        "id": "BGV_SUZU_H002A",
+        "file": "voice/BGV_suzu_h002a.ogg"
       }
     },
     {
@@ -4460,8 +4533,8 @@
         "file": "EV006_04"
       },
       "bgv": {
-        "id": "BGV_SUZU_H003A",
-        "file": "voice/BGV_suzu_h003a.ogg"
+        "id": "BGV_SUZU_H002A",
+        "file": "voice/BGV_suzu_h002a.ogg"
       }
     },
     {
@@ -4474,8 +4547,8 @@
         "file": "EV006_04"
       },
       "bgv": {
-        "id": "BGV_SUZU_H003A",
-        "file": "voice/BGV_suzu_h003a.ogg"
+        "id": "BGV_SUZU_H002A",
+        "file": "voice/BGV_suzu_h002a.ogg"
       }
     },
     {
@@ -4494,8 +4567,8 @@
         "file": "EV006_04"
       },
       "bgv": {
-        "id": "BGV_SUZU_H003A",
-        "file": "voice/BGV_suzu_h003a.ogg"
+        "id": "BGV_SUZU_H002A",
+        "file": "voice/BGV_suzu_h002a.ogg"
       }
     },
     {
@@ -4514,8 +4587,8 @@
         "file": "EV006_04"
       },
       "bgv": {
-        "id": "BGV_SUZU_H003A",
-        "file": "voice/BGV_suzu_h003a.ogg"
+        "id": "BGV_SUZU_H002A",
+        "file": "voice/BGV_suzu_h002a.ogg"
       }
     },
     {
@@ -4535,8 +4608,8 @@
         }
       ],
       "bgv": {
-        "id": "BGV_SUZU_H003A",
-        "file": "voice/BGV_suzu_h003a.ogg"
+        "id": "BGV_SUZU_H002A",
+        "file": "voice/BGV_suzu_h002a.ogg"
       }
     },
     {
@@ -4550,8 +4623,8 @@
         "file": "EV006_05"
       },
       "bgv": {
-        "id": "BGV_SUZU_H003A",
-        "file": "voice/BGV_suzu_h003a.ogg"
+        "id": "BGV_SUZU_H002A",
+        "file": "voice/BGV_suzu_h002a.ogg"
       },
       "flash": 3
     },
@@ -4571,8 +4644,8 @@
         "file": "EV006_05"
       },
       "bgv": {
-        "id": "BGV_SUZU_H003A",
-        "file": "voice/BGV_suzu_h003a.ogg"
+        "id": "BGV_SUZU_H002A",
+        "file": "voice/BGV_suzu_h002a.ogg"
       }
     },
     {
@@ -4587,8 +4660,8 @@
         "file": "EV006_05"
       },
       "bgv": {
-        "id": "BGV_SUZU_H003A",
-        "file": "voice/BGV_suzu_h003a.ogg"
+        "id": "BGV_SUZU_H002A",
+        "file": "voice/BGV_suzu_h002a.ogg"
       }
     },
     {
@@ -4607,8 +4680,8 @@
         "file": "EV006_05"
       },
       "bgv": {
-        "id": "BGV_SUZU_H003A",
-        "file": "voice/BGV_suzu_h003a.ogg"
+        "id": "BGV_SUZU_H002A",
+        "file": "voice/BGV_suzu_h002a.ogg"
       }
     },
     {
@@ -4624,9 +4697,15 @@
         "label": "#EV006・驚き・不満・精液・パンツ濡れ",
         "file": "EV006_05"
       },
+      "se": [
+        {
+          "code": "8201B",
+          "file": "se/8201b.ogg"
+        }
+      ],
       "bgv": {
-        "id": "BGV_SUZU_H003A",
-        "file": "voice/BGV_suzu_h003a.ogg"
+        "id": "BGV_SUZU_H002A",
+        "file": "voice/BGV_suzu_h002a.ogg"
       }
     },
     {
@@ -4645,9 +4724,10 @@
         "file": "EV006_06"
       },
       "bgv": {
-        "id": "BGV_SUZU_H003A",
-        "file": "voice/BGV_suzu_h003a.ogg"
-      }
+        "id": "BGV_SUZU_H002A",
+        "file": "voice/BGV_suzu_h002a.ogg"
+      },
+      "flash": 3
     },
     {
       "kind": "narration",
@@ -4661,8 +4741,8 @@
         "file": "EV006_06"
       },
       "bgv": {
-        "id": "BGV_SUZU_H003A",
-        "file": "voice/BGV_suzu_h003a.ogg"
+        "id": "BGV_SUZU_H002A",
+        "file": "voice/BGV_suzu_h002a.ogg"
       }
     },
     {
@@ -4681,8 +4761,8 @@
         "file": "EV006_06"
       },
       "bgv": {
-        "id": "BGV_SUZU_H003A",
-        "file": "voice/BGV_suzu_h003a.ogg"
+        "id": "BGV_SUZU_H002A",
+        "file": "voice/BGV_suzu_h002a.ogg"
       }
     },
     {
@@ -4698,8 +4778,8 @@
         "file": "EV006_06"
       },
       "bgv": {
-        "id": "BGV_SUZU_H003A",
-        "file": "voice/BGV_suzu_h003a.ogg"
+        "id": "BGV_SUZU_H002A",
+        "file": "voice/BGV_suzu_h002a.ogg"
       }
     },
     {
@@ -4718,8 +4798,8 @@
         "file": "EV006_06"
       },
       "bgv": {
-        "id": "BGV_SUZU_H003A",
-        "file": "voice/BGV_suzu_h003a.ogg"
+        "id": "BGV_SUZU_H002A",
+        "file": "voice/BGV_suzu_h002a.ogg"
       }
     },
     {
@@ -4738,8 +4818,8 @@
         "file": "EV006_06"
       },
       "bgv": {
-        "id": "BGV_SUZU_H003A",
-        "file": "voice/BGV_suzu_h003a.ogg"
+        "id": "BGV_SUZU_H002A",
+        "file": "voice/BGV_suzu_h002a.ogg"
       }
     },
     {
@@ -4754,8 +4834,8 @@
         "file": "EV006_06"
       },
       "bgv": {
-        "id": "BGV_SUZU_H003A",
-        "file": "voice/BGV_suzu_h003a.ogg"
+        "id": "BGV_SUZU_H002A",
+        "file": "voice/BGV_suzu_h002a.ogg"
       }
     },
     {
@@ -4769,8 +4849,8 @@
         "file": "EV006_06"
       },
       "bgv": {
-        "id": "BGV_SUZU_H003A",
-        "file": "voice/BGV_suzu_h003a.ogg"
+        "id": "BGV_SUZU_H002A",
+        "file": "voice/BGV_suzu_h002a.ogg"
       }
     },
     {
@@ -4783,8 +4863,8 @@
         "file": "EV006_06"
       },
       "bgv": {
-        "id": "BGV_SUZU_H003A",
-        "file": "voice/BGV_suzu_h003a.ogg"
+        "id": "BGV_SUZU_H002A",
+        "file": "voice/BGV_suzu_h002a.ogg"
       }
     },
     {
@@ -4802,8 +4882,8 @@
         "file": "EV006_06"
       },
       "bgv": {
-        "id": "BGV_SUZU_H003A",
-        "file": "voice/BGV_suzu_h003a.ogg"
+        "id": "BGV_SUZU_H002A",
+        "file": "voice/BGV_suzu_h002a.ogg"
       }
     },
     {
@@ -4812,12 +4892,12 @@
         "涼姉は時計を見て、慌てた様子で言った。"
       ],
       "bg": {
-        "label": "#EV006・驚き・驚き・精液・精液",
-        "file": "EV006_06"
+        "label": "#背景・黒一色",
+        "file": "BG_BLACK"
       },
       "bgv": {
-        "id": "BGV_SUZU_H003A",
-        "file": "voice/BGV_suzu_h003a.ogg"
+        "id": "BGV_SUZU_H002A",
+        "file": "voice/BGV_suzu_h002a.ogg"
       }
     },
     {
@@ -4831,12 +4911,12 @@
         "「あっ、もうこんな時間！　会社に行かないと！」"
       ],
       "bg": {
-        "label": "#EV006・驚き・驚き・精液・精液",
-        "file": "EV006_06"
+        "label": "#背景・黒一色",
+        "file": "BG_BLACK"
       },
       "bgv": {
-        "id": "BGV_SUZU_H003A",
-        "file": "voice/BGV_suzu_h003a.ogg"
+        "id": "BGV_SUZU_H002A",
+        "file": "voice/BGV_suzu_h002a.ogg"
       }
     },
     {
@@ -4848,12 +4928,12 @@
         "ストッキングを引きあげたときも、同じように。"
       ],
       "bg": {
-        "label": "#EV006・驚き・驚き・精液・精液",
-        "file": "EV006_06"
+        "label": "#背景・古橋家リビング（昼）",
+        "file": "BG02_01_00"
       },
       "bgv": {
-        "id": "BGV_SUZU_H003A",
-        "file": "voice/BGV_suzu_h003a.ogg"
+        "id": "BGV_SUZU_H002A",
+        "file": "voice/BGV_suzu_h002a.ogg"
       }
     },
     {
@@ -4867,8 +4947,8 @@
         "「いってらっしゃい。気を付けてね」"
       ],
       "bg": {
-        "label": "#背景・アイキャッチ・古橋家リビング（昼）",
-        "file": "BG02_91_00"
+        "label": "#背景・古橋家リビング（昼）",
+        "file": "BG02_01_00"
       },
       "sprite": {
         "label": "綾菜（中）・通常１（昼）・私服０２・通常１",
@@ -4880,8 +4960,8 @@
         ]
       },
       "bgv": {
-        "id": "BGV_SUZU_H003A",
-        "file": "voice/BGV_suzu_h003a.ogg"
+        "id": "BGV_SUZU_H002A",
+        "file": "voice/BGV_suzu_h002a.ogg"
       }
     },
     {
@@ -4894,8 +4974,8 @@
         "二人ともフェロモンでいっぱい、という感じだ。"
       ],
       "bg": {
-        "label": "#背景・アイキャッチ・古橋家リビング（昼）",
-        "file": "BG02_91_00"
+        "label": "#背景・古橋家リビング（昼）",
+        "file": "BG02_01_00"
       },
       "sprite": {
         "label": "綾菜（中）・通常１（昼）・私服０２・通常１",
@@ -4907,8 +4987,8 @@
         ]
       },
       "bgv": {
-        "id": "BGV_SUZU_H003A",
-        "file": "voice/BGV_suzu_h003a.ogg"
+        "id": "BGV_SUZU_H002A",
+        "file": "voice/BGV_suzu_h002a.ogg"
       }
     },
     {
@@ -4922,21 +5002,21 @@
         "「それじゃあ、帰るときにまた電話するから……」"
       ],
       "bg": {
-        "label": "#背景・アイキャッチ・古橋家リビング（昼）",
-        "file": "BG02_91_00"
+        "label": "#背景・古橋家リビング（昼）",
+        "file": "BG02_01_00"
       },
       "sprite": {
-        "label": "綾菜（中）・通常１（昼）・私服０２・通常１",
-        "body": "CH01B_01_01_003_02",
-        "face": "CH01B_01_01_101_01",
+        "label": "涼菜（中）・通常１（昼）・スーツ０１・通常１",
+        "body": "CH02B_01_01_003_01",
+        "face": "CH02B_01_01_101_01",
         "offset": [
-          426,
-          73
+          227,
+          80
         ]
       },
       "bgv": {
-        "id": "BGV_SUZU_H003A",
-        "file": "voice/BGV_suzu_h003a.ogg"
+        "id": "BGV_SUZU_H002A",
+        "file": "voice/BGV_suzu_h002a.ogg"
       }
     },
     {
@@ -4944,7 +5024,29 @@
       "lines": [
         "カバンを持って、バタバタとリビングを出ていく。",
         "ものすごく色っぽい雰囲気だし、通勤中に痴漢に",
-        "あわないか心配だ。",
+        "あわないか心配だ。"
+      ],
+      "bg": {
+        "label": "#背景・古橋家リビング（昼）",
+        "file": "BG02_01_00"
+      },
+      "sprite": {
+        "label": "涼菜（中）・通常１（昼）・スーツ０１・通常１",
+        "body": "CH02B_01_01_003_01",
+        "face": "CH02B_01_01_101_01",
+        "offset": [
+          227,
+          80
+        ]
+      },
+      "bgv": {
+        "id": "BGV_SUZU_H002A",
+        "file": "voice/BGV_suzu_h002a.ogg"
+      }
+    },
+    {
+      "kind": "narration",
+      "lines": [
         "まぁ、涼姉は気が強いから、あっさり撃退してしまう",
         "だろうけれど。",
         "………。",
@@ -4952,21 +5054,12 @@
         "…。"
       ],
       "bg": {
-        "label": "#背景・アイキャッチ・古橋家リビング（昼）",
-        "file": "BG02_91_00"
-      },
-      "sprite": {
-        "label": "綾菜（中）・通常１（昼）・私服０２・通常１",
-        "body": "CH01B_01_01_003_02",
-        "face": "CH01B_01_01_101_01",
-        "offset": [
-          426,
-          73
-        ]
+        "label": "#背景・黒一色",
+        "file": "BG_BLACK"
       },
       "bgv": {
-        "id": "BGV_SUZU_H003A",
-        "file": "voice/BGV_suzu_h003a.ogg"
+        "id": "BGV_SUZU_H002A",
+        "file": "voice/BGV_suzu_h002a.ogg"
       }
     }
   ],

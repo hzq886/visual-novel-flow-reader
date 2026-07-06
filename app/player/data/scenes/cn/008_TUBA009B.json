@@ -18,6 +18,7 @@
       "kind": "narration",
       "lines": [
         "她一丝不挂地展示着肚子的变大，也没有遮掩。",
+        "",
         "那里，是我的孩子寄宿的地方。"
       ],
       "bg": {
@@ -113,9 +114,9 @@
         "file": "BG08_01_00"
       },
       "sprite": {
-        "label": "楓（中）・通常１（昼）・妊娠０１・呆れ１",
+        "label": "楓（中）・通常１（昼）・妊娠０１・通常１",
         "body": "CH05B_01_01_005_01",
-        "face": "CH05B_01_01_107_01",
+        "face": "CH05B_01_01_101_01",
         "offset": [
           234,
           70
@@ -126,16 +127,17 @@
       "kind": "narration",
       "lines": [
         "被说成温柔，心里稍微有些痛。",
-        "只是简单地确认一下『有没有问题』而已。"
+        "只是简单地确认一下『有没有问题』而已。",
+        ""
       ],
       "bg": {
         "label": "#背景・楠木家リビング（昼）",
         "file": "BG08_01_00"
       },
       "sprite": {
-        "label": "楓（中）・通常１（昼）・妊娠０１・呆れ１",
+        "label": "楓（中）・通常１（昼）・妊娠０１・通常１",
         "body": "CH05B_01_01_005_01",
-        "face": "CH05B_01_01_107_01",
+        "face": "CH05B_01_01_101_01",
         "offset": [
           234,
           70
@@ -157,18 +159,19 @@
         "file": "BG08_01_00"
       },
       "sprite": {
-        "label": "翼（中）・通常２（昼）・妊娠０１・通常１",
-        "body": "CH03B_02_01_005_01",
-        "face": "CH03B_02_01_101_01",
+        "label": "楓（中）・通常１（昼）・妊娠０１・通常１",
+        "body": "CH05B_01_01_005_01",
+        "face": "CH05B_01_01_101_01",
         "offset": [
-          315,
-          83
+          234,
+          70
         ]
       }
     },
     {
       "kind": "narration",
       "lines": [
+        "",
         "翼一边说着这样的话，一边出现在客厅里。",
         "肚子也已经变得很大了。"
       ],
@@ -177,12 +180,12 @@
         "file": "BG08_01_00"
       },
       "sprite": {
-        "label": "翼（中）・通常２（昼）・妊娠０１・通常１",
-        "body": "CH03B_02_01_005_01",
-        "face": "CH03B_02_01_101_01",
+        "label": "楓（中）・通常１（昼）・妊娠０１・通常１",
+        "body": "CH05B_01_01_005_01",
+        "face": "CH05B_01_01_101_01",
         "offset": [
-          315,
-          83
+          234,
+          70
         ]
       }
     },
@@ -201,12 +204,12 @@
         "file": "BG08_01_00"
       },
       "sprite": {
-        "label": "翼（中）・通常２（昼）・妊娠０１・通常１",
-        "body": "CH03B_02_01_005_01",
-        "face": "CH03B_02_01_101_01",
+        "label": "楓（中）・通常１（昼）・妊娠０１・通常１",
+        "body": "CH05B_01_01_005_01",
+        "face": "CH05B_01_01_101_01",
         "offset": [
-          315,
-          83
+          234,
+          70
         ]
       }
     },
@@ -217,19 +220,20 @@
         "并不是说没有罪恶感。",
         "但是，有哪个男人能抵挡住这种魅力呢？",
         "对于美丽的母女，能生下自己的孩子这种魅力。",
-        "只是看着她们的肚子，我的东西就会硬得不行。"
+        "只是看着她们的肚子，我的东西就会硬得不行。",
+        ""
       ],
       "bg": {
         "label": "#背景・楠木家リビング（昼）",
         "file": "BG08_01_00"
       },
       "sprite": {
-        "label": "翼（中）・通常２（昼）・妊娠０１・通常１",
-        "body": "CH03B_02_01_005_01",
-        "face": "CH03B_02_01_101_01",
+        "label": "楓（中）・通常１（昼）・妊娠０１・通常１",
+        "body": "CH05B_01_01_005_01",
+        "face": "CH05B_01_01_101_01",
         "offset": [
-          315,
-          83
+          234,
+          70
         ]
       }
     },
@@ -242,6 +246,25 @@
       },
       "lines": [
         "「啊，变大了！嘿嘿，从早上开始就充满干劲了！」"
+      ],
+      "bg": {
+        "label": "#背景・楠木家リビング（昼）",
+        "file": "BG08_01_00"
+      },
+      "sprite": {
+        "label": "楓（中）・通常１（昼）・妊娠０１・うっとり１",
+        "body": "CH05B_01_01_005_01",
+        "face": "CH05B_01_01_103_01",
+        "offset": [
+          234,
+          70
+        ]
+      }
+    },
+    {
+      "kind": "narration",
+      "lines": [
+        ""
       ],
       "bg": {
         "label": "#背景・楠木家リビング（昼）",
@@ -284,7 +307,27 @@
     {
       "kind": "narration",
       "lines": [
+        ""
+      ],
+      "bg": {
+        "label": "#背景・楠木家リビング（昼）",
+        "file": "BG08_01_00"
+      },
+      "sprite": {
+        "label": "翼（中）・通常２（昼）・妊娠０１・うっとり１",
+        "body": "CH03B_02_01_005_01",
+        "face": "CH03B_02_01_103_01",
+        "offset": [
+          315,
+          83
+        ]
+      }
+    },
+    {
+      "kind": "narration",
+      "lines": [
         "于是我被她们牵着走进了卧室……。",
+        "",
         "………。",
         "……。",
         "…。"
@@ -312,6 +355,7 @@
     {
       "kind": "narration",
       "lines": [
+        "",
         "翼一边用手撸着，一边说道。"
       ],
       "bg": {
@@ -337,6 +381,7 @@
     {
       "kind": "narration",
       "lines": [
+        "",
         "枫也握住，慢慢地撸动起来。",
         "两人的手动作微妙地不同，给人复杂的刺激。"
       ],
@@ -361,6 +406,16 @@
       }
     },
     {
+      "kind": "narration",
+      "lines": [
+        ""
+      ],
+      "bg": {
+        "label": "#EV079・微笑み・微笑み",
+        "file": "EV079_01"
+      }
+    },
+    {
       "kind": "line",
       "who": "楠木翼",
       "voice": {
@@ -378,6 +433,7 @@
     {
       "kind": "narration",
       "lines": [
+        "",
         "两人从左右伸出舌头。",
         "健康粉红色的舌头触碰到龟头。"
       ],
@@ -498,8 +554,10 @@
         "翼的舌头比母亲的舌头更有弹性，",
         "感觉有点弹性和韧性。",
         "表面也被唾液覆盖，但更强烈的是粗糙凹凸的印象。",
+        "",
         "两个质感不同的舌头。",
-        "就像手的动作一样，微妙地改变位置和时机，爬行在龟头上。"
+        "就像手的动作一样，微妙地改变位置和时机，爬行在龟头上。",
+        ""
       ],
       "bg": {
         "label": "#EV079・うっとり舐め・うっとり舐め・唾液",
@@ -555,7 +613,8 @@
       "lines": [
         "眼前的景色也很美。",
         "两人大大地张开腿，展示给我看屁股的小穴。",
-        "怀孕后两人的小穴有点张开，并且在颤动。"
+        "怀孕后两人的小穴有点张开，并且在颤动。",
+        ""
       ],
       "bg": {
         "label": "#EV079・うっとり舐め・うっとり舐め・唾液",
@@ -588,6 +647,7 @@
     {
       "kind": "narration",
       "lines": [
+        "",
         "翼说着，抬起了腿。",
         "果然，身体很柔软。",
         "枫也抬起了膝盖。"
@@ -616,18 +676,23 @@
         "file": "EV079_03"
       },
       "bgv": {
-        "id": "BGV_TUBA_F001A",
-        "file": "voice/BGV_tuba_f001a.ogg"
+        "id": "BGV_KAED_F001A",
+        "file": "voice/BGV_kaed_f001a.ogg"
       }
     },
     {
       "kind": "narration",
       "lines": [
+        "",
         "可能是第二次生产的缘故，枫的小穴看起来更加张开。",
+        "",
         "两人抬起腿，肚子显得更加突出。",
+        "",
         "大肚子，乳房也变大了一圈？",
+        "",
         "本来已经足够储存乳汁的大小了……",
         "顺便说一句，两人身上飘散着像牛奶一样的味道。",
+        "",
         "甜腻而温柔的气息，让人心情愉悦。"
       ],
       "bg": {
@@ -635,8 +700,8 @@
         "file": "EV079_03"
       },
       "bgv": {
-        "id": "BGV_TUBA_F001A",
-        "file": "voice/BGV_tuba_f001a.ogg"
+        "id": "BGV_KAED_F001A",
+        "file": "voice/BGV_kaed_f001a.ogg"
       }
     },
     {
@@ -654,8 +719,22 @@
         "file": "EV079_03"
       },
       "bgv": {
-        "id": "BGV_TUBA_F001A",
-        "file": "voice/BGV_tuba_f001a.ogg"
+        "id": "BGV_KAED_F001A",
+        "file": "voice/BGV_kaed_f001a.ogg"
+      }
+    },
+    {
+      "kind": "narration",
+      "lines": [
+        ""
+      ],
+      "bg": {
+        "label": "#EV079・切なげ舐め・切なげ舐め・唾液",
+        "file": "EV079_03"
+      },
+      "bgv": {
+        "id": "BGV_KAED_F001A",
+        "file": "voice/BGV_kaed_f001a.ogg"
       }
     },
     {
@@ -673,13 +752,14 @@
         "file": "EV079_03"
       },
       "bgv": {
-        "id": "BGV_TUBA_F001A",
-        "file": "voice/BGV_tuba_f001a.ogg"
+        "id": "BGV_KAED_F001A",
+        "file": "voice/BGV_kaed_f001a.ogg"
       }
     },
     {
       "kind": "narration",
       "lines": [
+        "",
         "枫开始舔舐下巴以下的部位。",
         "用舌尖轻轻抬起并弹动。",
         "感觉到快感，腰部开始痒痒的。"
@@ -689,8 +769,8 @@
         "file": "EV079_03"
       },
       "bgv": {
-        "id": "BGV_TUBA_F001A",
-        "file": "voice/BGV_tuba_f001a.ogg"
+        "id": "BGV_KAED_F001A",
+        "file": "voice/BGV_kaed_f001a.ogg"
       }
     },
     {
@@ -704,8 +784,8 @@
         "「嗯吧，啾啾，啾舔！啾舔！嗯呼，啾啾！啾嘟嘟！」"
       ],
       "bg": {
-        "label": "#EV079・切なげ舐め・切なげ舐め・唾液",
-        "file": "EV079_03"
+        "label": "#EV079・うっとり舐め・うっとり舐め・唾液",
+        "file": "EV079_02"
       },
       "bgv": {
         "id": "BGV_KAED_F002A",
@@ -715,12 +795,14 @@
     {
       "kind": "narration",
       "lines": [
+        "",
         "翼一边动手，一边在皮肤和物体之间舔舐。",
+        "",
         "用舌尖施加力量并尖锐地刺激，轻轻挖掘。"
       ],
       "bg": {
-        "label": "#EV079・切なげ舐め・切なげ舐め・唾液",
-        "file": "EV079_03"
+        "label": "#EV079・うっとり舐め・うっとり舐め・唾液",
+        "file": "EV079_02"
       },
       "bgv": {
         "id": "BGV_KAED_F002A",
@@ -739,8 +821,8 @@
         "嗯呼～啾舔～啾舔～」"
       ],
       "bg": {
-        "label": "#EV079・切なげ舐め・切なげ舐め・唾液",
-        "file": "EV079_03"
+        "label": "#EV079・うっとり舐め・うっとり舐め・唾液",
+        "file": "EV079_02"
       },
       "bgv": {
         "id": "BGV_TUBA_F002A",
@@ -754,12 +836,13 @@
         "被舔舐的感觉，扩大了间隙。",
         "这种舔舐方式，让我的腰部不禁动了起来。",
         "为了控制我的动作，两人用柔软的手紧紧握住了物体。",
+        "",
         "从两根舌头上滴下的唾液。",
         "它们紧贴着物体和手掌。"
       ],
       "bg": {
-        "label": "#EV079・切なげ舐め・切なげ舐め・唾液",
-        "file": "EV079_03"
+        "label": "#EV079・うっとり舐め・うっとり舐め・唾液",
+        "file": "EV079_02"
       },
       "bgv": {
         "id": "BGV_TUBA_F002A",
@@ -778,8 +861,8 @@
         "所以形成了明显的高低差……呵呵呵」"
       ],
       "bg": {
-        "label": "#EV079・切なげ舐め・切なげ舐め・唾液",
-        "file": "EV079_03"
+        "label": "#EV079・うっとり舐め・うっとり舐め・唾液",
+        "file": "EV079_02"
       },
       "bgv": {
         "id": "BGV_TUBA_F002A",
@@ -798,8 +881,8 @@
         "强壮了……呵呵，这边也要好好培养起来！」"
       ],
       "bg": {
-        "label": "#EV079・切なげ舐め・切なげ舐め・唾液",
-        "file": "EV079_03"
+        "label": "#EV079・うっとり舐め・うっとり舐め・唾液",
+        "file": "EV079_02"
       },
       "bgv": {
         "id": "BGV_TUBA_F002A",
@@ -813,8 +896,8 @@
         "用舌头抬起耳垂。"
       ],
       "bg": {
-        "label": "#EV079・切なげ舐め・切なげ舐め・唾液",
-        "file": "EV079_03"
+        "label": "#EV079・うっとり舐め・うっとり舐め・唾液",
+        "file": "EV079_02"
       },
       "bgv": {
         "id": "BGV_TUBA_F002A",
@@ -833,8 +916,8 @@
         "嗯呼～啾哭，啾哭！」"
       ],
       "bg": {
-        "label": "#EV079・切なげ舐め・切なげ舐め・唾液",
-        "file": "EV079_03"
+        "label": "#EV079・うっとり舐め・うっとり舐め・唾液",
+        "file": "EV079_02"
       },
       "bgv": {
         "id": "BGV_TUBA_F002A",
@@ -846,12 +929,13 @@
       "lines": [
         "比起枫，翼的力量更强烈。",
         "除了舌头本身的弹力不同，可能还有肌肉力量更强。",
+        "",
         "震动传遍整个龟头，包括了龟颈。",
         "另一方面，枫大幅度地舔舐着龟头。"
       ],
       "bg": {
-        "label": "#EV079・切なげ舐め・切なげ舐め・唾液",
-        "file": "EV079_03"
+        "label": "#EV079・うっとり舐め・うっとり舐め・唾液",
+        "file": "EV079_02"
       },
       "bgv": {
         "id": "BGV_TUBA_F002A",
@@ -870,12 +954,12 @@
         "真是立派呢，嗯啰哦嗯，嗯……嗯……」"
       ],
       "bg": {
-        "label": "#EV079・切なげ舐め・切なげ舐め・唾液",
-        "file": "EV079_03"
+        "label": "#EV079・うっとり舐め・うっとり舐め・唾液",
+        "file": "EV079_02"
       },
       "bgv": {
-        "id": "BGV_TUBA_F002A",
-        "file": "voice/BGV_tuba_f002a.ogg"
+        "id": "BGV_KAED_F002A",
+        "file": "voice/BGV_kaed_f002a.ogg"
       }
     },
     {
@@ -883,15 +967,16 @@
       "lines": [
         "然后，朝着龟头的尿道口。",
         "像是要把顶端的小孔舌头压扁一样，舔来舔去。",
+        "",
         "一直舔到头部，感觉像是麻痹一般的快感。"
       ],
       "bg": {
-        "label": "#EV079・切なげ舐め・切なげ舐め・唾液",
-        "file": "EV079_03"
+        "label": "#EV079・うっとり舐め・うっとり舐め・唾液",
+        "file": "EV079_02"
       },
       "bgv": {
-        "id": "BGV_TUBA_F002A",
-        "file": "voice/BGV_tuba_f002a.ogg"
+        "id": "BGV_KAED_F002A",
+        "file": "voice/BGV_kaed_f002a.ogg"
       }
     },
     {
@@ -906,12 +991,12 @@
         "呼呼呼呼，噗啊，小便的洞」"
       ],
       "bg": {
-        "label": "#EV079・切なげ舐め・切なげ舐め・唾液",
-        "file": "EV079_03"
+        "label": "#EV079・うっとり舐め・うっとり舐め・唾液",
+        "file": "EV079_02"
       },
       "bgv": {
-        "id": "BGV_TUBA_F002A",
-        "file": "voice/BGV_tuba_f002a.ogg"
+        "id": "BGV_KAED_F002A",
+        "file": "voice/BGV_kaed_f002a.ogg"
       }
     },
     {
@@ -925,8 +1010,8 @@
         "「吸来舔！舔！嗯啰哦，舔！」"
       ],
       "bg": {
-        "label": "#EV079・切なげ舐め・切なげ舐め・唾液",
-        "file": "EV079_03"
+        "label": "#EV079・うっとり舐め・うっとり舐め・唾液",
+        "file": "EV079_02"
       },
       "bgv": {
         "id": "BGV_TUBA_F002A",
@@ -941,8 +1026,8 @@
         "没有一刻不带来快感的时间。"
       ],
       "bg": {
-        "label": "#EV079・切なげ舐め・切なげ舐め・唾液",
-        "file": "EV079_03"
+        "label": "#EV079・うっとり舐め・うっとり舐め・唾液",
+        "file": "EV079_02"
       },
       "bgv": {
         "id": "BGV_TUBA_F002A",
@@ -961,8 +1046,8 @@
         "我们的口交让你感到舒服了呢！」"
       ],
       "bg": {
-        "label": "#EV079・切なげ舐め・切なげ舐め・唾液",
-        "file": "EV079_03"
+        "label": "#EV079・うっとり舐め・うっとり舐め・唾液",
+        "file": "EV079_02"
       },
       "bgv": {
         "id": "BGV_TUBA_F002A",
@@ -981,12 +1066,12 @@
         "嗯啊，噗啊，嗯吮吸，嗯含住，嗯啰啰！」"
       ],
       "bg": {
-        "label": "#EV079・切なげ舐め・切なげ舐め・唾液",
-        "file": "EV079_03"
+        "label": "#EV079・うっとり舐め・うっとり舐め・唾液",
+        "file": "EV079_02"
       },
       "bgv": {
-        "id": "BGV_TUBA_F002A",
-        "file": "voice/BGV_tuba_f002a.ogg"
+        "id": "BGV_KAED_F002A",
+        "file": "voice/BGV_kaed_f002a.ogg"
       }
     },
     {
@@ -996,12 +1081,12 @@
         "一股刺激感沿着背部蔓延。"
       ],
       "bg": {
-        "label": "#EV079・切なげ舐め・切なげ舐め・唾液",
-        "file": "EV079_03"
+        "label": "#EV079・うっとり舐め・うっとり舐め・唾液",
+        "file": "EV079_02"
       },
       "bgv": {
-        "id": "BGV_TUBA_F002A",
-        "file": "voice/BGV_tuba_f002a.ogg"
+        "id": "BGV_KAED_F002A",
+        "file": "voice/BGV_kaed_f002a.ogg"
       }
     },
     {
@@ -1015,12 +1100,12 @@
         "「看起来好好吃啊，我也想舔舔肉棒的汁液。」"
       ],
       "bg": {
-        "label": "#EV079・切なげ舐め・切なげ舐め・唾液",
-        "file": "EV079_03"
+        "label": "#EV079・うっとり舐め・うっとり舐め・唾液",
+        "file": "EV079_02"
       },
       "bgv": {
-        "id": "BGV_TUBA_F002A",
-        "file": "voice/BGV_tuba_f002a.ogg"
+        "id": "BGV_KAED_F002A",
+        "file": "voice/BGV_kaed_f002a.ogg"
       }
     },
     {
@@ -1035,12 +1120,12 @@
         "给妈妈喝吧。」"
       ],
       "bg": {
-        "label": "#EV079・切なげ舐め・切なげ舐め・唾液",
-        "file": "EV079_03"
+        "label": "#EV079・うっとり舐め・うっとり舐め・唾液",
+        "file": "EV079_02"
       },
       "bgv": {
-        "id": "BGV_TUBA_F002A",
-        "file": "voice/BGV_tuba_f002a.ogg"
+        "id": "BGV_KAED_F002A",
+        "file": "voice/BGV_kaed_f002a.ogg"
       }
     },
     {
@@ -1049,12 +1134,12 @@
         "枫小姐一边说着，一边像挖洞一样动着舌头。"
       ],
       "bg": {
-        "label": "#EV079・切なげ舐め・切なげ舐め・唾液",
-        "file": "EV079_03"
+        "label": "#EV079・うっとり舐め・うっとり舐め・唾液",
+        "file": "EV079_02"
       },
       "bgv": {
-        "id": "BGV_TUBA_F002A",
-        "file": "voice/BGV_tuba_f002a.ogg"
+        "id": "BGV_KAED_F002A",
+        "file": "voice/BGV_kaed_f002a.ogg"
       }
     },
     {
@@ -1069,12 +1154,12 @@
         "的味道……嗯吸吮！」"
       ],
       "bg": {
-        "label": "#EV079・切なげ舐め・切なげ舐め・唾液",
-        "file": "EV079_03"
+        "label": "#EV079・うっとり舐め・うっとり舐め・唾液",
+        "file": "EV079_02"
       },
       "bgv": {
-        "id": "BGV_TUBA_F002A",
-        "file": "voice/BGV_tuba_f002a.ogg"
+        "id": "BGV_KAED_F002A",
+        "file": "voice/BGV_kaed_f002a.ogg"
       }
     },
     {
@@ -1085,12 +1170,12 @@
         "龟头下面。"
       ],
       "bg": {
-        "label": "#EV079・切なげ舐め・切なげ舐め・唾液",
-        "file": "EV079_03"
+        "label": "#EV079・うっとり舐め・うっとり舐め・唾液",
+        "file": "EV079_02"
       },
       "bgv": {
-        "id": "BGV_TUBA_F002A",
-        "file": "voice/BGV_tuba_f002a.ogg"
+        "id": "BGV_KAED_F002A",
+        "file": "voice/BGV_kaed_f002a.ogg"
       }
     },
     {
@@ -1105,12 +1190,12 @@
         "小穴疼痛起来了！」"
       ],
       "bg": {
-        "label": "#EV079・切なげ舐め・切なげ舐め・唾液",
-        "file": "EV079_03"
+        "label": "#EV079・うっとり舐め・うっとり舐め・唾液",
+        "file": "EV079_02"
       },
       "bgv": {
-        "id": "BGV_TUBA_F002A",
-        "file": "voice/BGV_tuba_f002a.ogg"
+        "id": "BGV_KAED_F002A",
+        "file": "voice/BGV_kaed_f002a.ogg"
       }
     },
     {
@@ -1125,12 +1210,12 @@
         "啾咕啾咕，嗯噗，嗯噗！」"
       ],
       "bg": {
-        "label": "#EV079・切なげ舐め・切なげ舐め・唾液",
-        "file": "EV079_03"
+        "label": "#EV079・うっとり舐め・うっとり舐め・唾液",
+        "file": "EV079_02"
       },
       "bgv": {
-        "id": "BGV_TUBA_F002A",
-        "file": "voice/BGV_tuba_f002a.ogg"
+        "id": "BGV_KAED_F002A",
+        "file": "voice/BGV_kaed_f002a.ogg"
       }
     },
     {
@@ -1143,12 +1228,12 @@
         "而且女性的气味也开始混合在一起。"
       ],
       "bg": {
-        "label": "#EV079・切なげ舐め・切なげ舐め・唾液",
-        "file": "EV079_03"
+        "label": "#EV079・うっとり舐め・うっとり舐め・唾液",
+        "file": "EV079_02"
       },
       "bgv": {
-        "id": "BGV_TUBA_F002A",
-        "file": "voice/BGV_tuba_f002a.ogg"
+        "id": "BGV_KAED_F002A",
+        "file": "voice/BGV_kaed_f002a.ogg"
       }
     },
     {
@@ -1163,12 +1248,12 @@
         "哈啊啊……嗯啊吮吸」"
       ],
       "bg": {
-        "label": "#EV079・切なげ舐め・切なげ舐め・唾液",
-        "file": "EV079_03"
+        "label": "#EV079・うっとり舐め・うっとり舐め・唾液",
+        "file": "EV079_02"
       },
       "bgv": {
-        "id": "BGV_TUBA_F002A",
-        "file": "voice/BGV_tuba_f002a.ogg"
+        "id": "BGV_KAED_F002A",
+        "file": "voice/BGV_kaed_f002a.ogg"
       }
     },
     {
@@ -1183,8 +1268,8 @@
         "file": "EV079_04"
       },
       "bgv": {
-        "id": "BGV_TUBA_F002A",
-        "file": "voice/BGV_tuba_f002a.ogg"
+        "id": "BGV_KAED_F002A",
+        "file": "voice/BGV_kaed_f002a.ogg"
       }
     },
     {
@@ -1202,8 +1287,22 @@
         "file": "EV079_04"
       },
       "bgv": {
-        "id": "BGV_TUBA_F002A",
-        "file": "voice/BGV_tuba_f002a.ogg"
+        "id": "BGV_KAED_F002A",
+        "file": "voice/BGV_kaed_f002a.ogg"
+      }
+    },
+    {
+      "kind": "narration",
+      "lines": [
+        ""
+      ],
+      "bg": {
+        "label": "#EV079・咥え嬉しそう・うっとり・唾液",
+        "file": "EV079_04"
+      },
+      "bgv": {
+        "id": "BGV_KAED_F002A",
+        "file": "voice/BGV_kaed_f002a.ogg"
       }
     },
     {
@@ -1221,24 +1320,27 @@
         "file": "EV079_04"
       },
       "bgv": {
-        "id": "BGV_TUBA_F002A",
-        "file": "voice/BGV_tuba_f002a.ogg"
+        "id": "BGV_KAED_F002A",
+        "file": "voice/BGV_kaed_f002a.ogg"
       }
     },
     {
       "kind": "narration",
       "lines": [
+        "",
         "是说按年龄顺序吗？",
         "枫用紧闭的嘴唇来回摩擦着湿润的内颊。",
-        "湿润的口腔黏膜擦拭着龟头，只有顶端在膨胀，感觉真舒服。"
+        "",
+        "湿润的口腔黏膜擦拭着龟头，只有顶端在膨胀，感觉真舒服。",
+        ""
       ],
       "bg": {
         "label": "#EV079・咥え嬉しそう・うっとり・唾液",
         "file": "EV079_04"
       },
       "bgv": {
-        "id": "BGV_TUBA_F002A",
-        "file": "voice/BGV_tuba_f002a.ogg"
+        "id": "BGV_KAED_F002A",
+        "file": "voice/BGV_kaed_f002a.ogg"
       }
     },
     {
@@ -1256,15 +1358,17 @@
         "file": "EV079_04"
       },
       "bgv": {
-        "id": "BGV_TUBA_F002A",
-        "file": "voice/BGV_tuba_f002a.ogg"
+        "id": "BGV_KAED_F002A",
+        "file": "voice/BGV_kaed_f002a.ogg"
       }
     },
     {
       "kind": "narration",
       "lines": [
+        "",
         "从紧闭的嘴唇边缘溢出了口水。",
         "这样湿润了嘴唇后，摇晃着头，开始套弄那东西。",
+        "",
         "舌头在龟头周围游移。"
       ],
       "bg": {
@@ -1272,8 +1376,8 @@
         "file": "EV079_04"
       },
       "bgv": {
-        "id": "BGV_TUBA_F002A",
-        "file": "voice/BGV_tuba_f002a.ogg"
+        "id": "BGV_KAED_F002A",
+        "file": "voice/BGV_kaed_f002a.ogg"
       }
     },
     {
@@ -1291,24 +1395,26 @@
         "file": "EV079_04"
       },
       "bgv": {
-        "id": "BGV_TUBA_F002A",
-        "file": "voice/BGV_tuba_f002a.ogg"
+        "id": "BGV_KAED_F002A",
+        "file": "voice/BGV_kaed_f002a.ogg"
       }
     },
     {
       "kind": "narration",
       "lines": [
         "无论是用嘴巴，唇还是舌头，都是贪婪地想要品尝肉棒。",
+        "",
         "那东西变得炙热，感觉有一种进入内部的感觉。",
-        "看着母亲淫荡的口交，翼不耐烦地摇动着屁股。"
+        "看着母亲淫荡的口交，翼不耐烦地摇动着屁股。",
+        ""
       ],
       "bg": {
         "label": "#EV079・咥え嬉しそう・うっとり・唾液",
         "file": "EV079_04"
       },
       "bgv": {
-        "id": "BGV_TUBA_F002A",
-        "file": "voice/BGV_tuba_f002a.ogg"
+        "id": "BGV_KAED_F002A",
+        "file": "voice/BGV_kaed_f002a.ogg"
       }
     },
     {
@@ -1326,13 +1432,14 @@
         "file": "EV079_04"
       },
       "bgv": {
-        "id": "BGV_TUBA_F002A",
-        "file": "voice/BGV_tuba_f002a.ogg"
+        "id": "BGV_KAED_F002A",
+        "file": "voice/BGV_kaed_f002a.ogg"
       }
     },
     {
       "kind": "narration",
       "lines": [
+        "",
         "她用手更加猛烈地动作，代替了嘴巴的吮吸。",
         "像是用柔软的手掌紧紧按压着。",
         "母亲的嘴巴和女儿的手，仿佛在争夺着那东西。"
@@ -1342,8 +1449,8 @@
         "file": "EV079_04"
       },
       "bgv": {
-        "id": "BGV_TUBA_F002A",
-        "file": "voice/BGV_tuba_f002a.ogg"
+        "id": "BGV_KAED_F002A",
+        "file": "voice/BGV_kaed_f002a.ogg"
       }
     },
     {
@@ -1361,8 +1468,8 @@
         "file": "EV079_04"
       },
       "bgv": {
-        "id": "BGV_TUBA_F002A",
-        "file": "voice/BGV_tuba_f002a.ogg"
+        "id": "BGV_KAED_F002A",
+        "file": "voice/BGV_kaed_f002a.ogg"
       }
     },
     {
@@ -1378,8 +1485,8 @@
         "file": "EV079_04"
       },
       "bgv": {
-        "id": "BGV_TUBA_F002A",
-        "file": "voice/BGV_tuba_f002a.ogg"
+        "id": "BGV_KAED_F002A",
+        "file": "voice/BGV_kaed_f002a.ogg"
       }
     },
     {
@@ -1407,6 +1514,7 @@
       "lines": [
         "吸吮着，一边啜食着唾液，舌头贴近龟头脊线。",
         "用尖锐的舌头压迫着像是神经团块一样的地方。",
+        "",
         "每一次都从腰部到大脑带来强烈的快感。"
       ],
       "bg": {
@@ -1440,7 +1548,8 @@
     {
       "kind": "narration",
       "lines": [
-        "看到我小声呻吟，翼的手也用力了。"
+        "看到我小声呻吟，翼的手也用力了。",
+        ""
       ],
       "bg": {
         "label": "#EV079・咥え嬉しそう・うっとり・唾液",
@@ -1473,7 +1582,9 @@
     {
       "kind": "narration",
       "lines": [
+        "",
         "枫的舌头不停地擦拭着龟头脊线，与此同时，翼的手指压迫着茎身上凸起的血管。",
+        "",
         "刺激太强烈了，让我头晕目眩。",
         "复杂的刺激让下腹部越来越热。"
       ],
@@ -1529,6 +1640,20 @@
       },
       "lines": [
         "「这次轮到我了！嗯嗯嗯，啊呀，哈姆呜！嗯咕，嗯噗，嗯噗噗！」"
+      ],
+      "bg": {
+        "label": "#EV079・咥え嬉しそう・うっとり・唾液",
+        "file": "EV079_04"
+      },
+      "bgv": {
+        "id": "BGV_KAED_F003A",
+        "file": "voice/BGV_kaed_f003a.ogg"
+      }
+    },
+    {
+      "kind": "narration",
+      "lines": [
+        ""
       ],
       "bg": {
         "label": "#EV079・咥え嬉しそう・うっとり・唾液",
@@ -1762,6 +1887,7 @@
       "lines": [
         "刚才是不是因为没能喝到液体？",
         "每次舌头插进去，都能感觉到液体渗出来。",
+        "",
         "然后，翼更加热情地动着舌头。"
       ],
       "bg": {
@@ -2007,6 +2133,20 @@
       }
     },
     {
+      "kind": "narration",
+      "lines": [
+        ""
+      ],
+      "bg": {
+        "label": "#EV079・切なげ・咥え嬉しそう・唾液",
+        "file": "EV079_06"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_F003A",
+        "file": "voice/BGV_tuba_f003a.ogg"
+      }
+    },
+    {
       "kind": "line",
       "who": "楠木翼",
       "voice": {
@@ -2142,6 +2282,7 @@
     {
       "kind": "narration",
       "lines": [
+        "",
         "翼紧紧闭上双唇，迎接着喷射而出的精液",
         "在口中接收。",
         "然后，发出声音吸入，咽下去。"
@@ -2223,6 +2364,12 @@
         "label": "#EV079・切なげ・咥え嬉しそう・精液",
         "file": "EV079_07"
       },
+      "se": [
+        {
+          "code": "8201B",
+          "file": "se/8201b.ogg"
+        }
+      ],
       "bgv": {
         "id": "BGV_TUBA_F003A",
         "file": "voice/BGV_tuba_f003a.ogg"
@@ -2246,7 +2393,8 @@
       "bgv": {
         "id": "BGV_TUBA_F003A",
         "file": "voice/BGV_tuba_f003a.ogg"
-      }
+      },
+      "flash": 3
     },
     {
       "kind": "narration",
@@ -2288,7 +2436,8 @@
       "kind": "narration",
       "lines": [
         "枫女士看向翼的肚子。",
-        "然后，一边用手指顶住肉棒的背面筋肉，一边对着翼的肚子上的孩子……自己的孙子笑了笑。"
+        "然后，一边用手指顶住肉棒的背面筋肉，一边对着翼的肚子上的孩子……自己的孙子笑了笑。",
+        ""
       ],
       "bg": {
         "label": "#EV079・切なげ・咥え嬉しそう・精液",
@@ -2474,8 +2623,8 @@
         "file": "EV079_10"
       },
       "bgv": {
-        "id": "BGV_TUBA_F003A",
-        "file": "voice/BGV_tuba_f003a.ogg"
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -2491,8 +2640,8 @@
         "file": "EV079_10"
       },
       "bgv": {
-        "id": "BGV_TUBA_F003A",
-        "file": "voice/BGV_tuba_f003a.ogg"
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -2511,14 +2660,15 @@
         "file": "EV079_10"
       },
       "bgv": {
-        "id": "BGV_TUBA_F003A",
-        "file": "voice/BGV_tuba_f003a.ogg"
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
       "kind": "narration",
       "lines": [
         "舌头轻轻地进出，让我想起射精的快感。",
+        "",
         "枫女士用舌头擦拭着龟头下面积聚的精液。"
       ],
       "bg": {
@@ -2526,8 +2676,8 @@
         "file": "EV079_10"
       },
       "bgv": {
-        "id": "BGV_TUBA_F003A",
-        "file": "voice/BGV_tuba_f003a.ogg"
+        "id": "BGV_TUBA_F001A",
+        "file": "voice/BGV_tuba_f001a.ogg"
       }
     },
     {
@@ -2546,8 +2696,8 @@
         "file": "EV079_10"
       },
       "bgv": {
-        "id": "BGV_TUBA_F003A",
-        "file": "voice/BGV_tuba_f003a.ogg"
+        "id": "BGV_KAED_F001A",
+        "file": "voice/BGV_kaed_f001a.ogg"
       }
     },
     {
@@ -2562,8 +2712,8 @@
         "file": "EV079_10"
       },
       "bgv": {
-        "id": "BGV_TUBA_F003A",
-        "file": "voice/BGV_tuba_f003a.ogg"
+        "id": "BGV_KAED_F001A",
+        "file": "voice/BGV_kaed_f001a.ogg"
       }
     },
     {
@@ -2581,8 +2731,8 @@
         "file": "EV079_10"
       },
       "bgv": {
-        "id": "BGV_TUBA_F003A",
-        "file": "voice/BGV_tuba_f003a.ogg"
+        "id": "BGV_KAED_F001A",
+        "file": "voice/BGV_kaed_f001a.ogg"
       }
     },
     {
@@ -2601,8 +2751,8 @@
         "file": "EV079_10"
       },
       "bgv": {
-        "id": "BGV_TUBA_F003A",
-        "file": "voice/BGV_tuba_f003a.ogg"
+        "id": "BGV_KAED_F001A",
+        "file": "voice/BGV_kaed_f001a.ogg"
       }
     },
     {
@@ -2617,8 +2767,8 @@
         "file": "EV079_10"
       },
       "bgv": {
-        "id": "BGV_TUBA_F003A",
-        "file": "voice/BGV_tuba_f003a.ogg"
+        "id": "BGV_KAED_F001A",
+        "file": "voice/BGV_kaed_f001a.ogg"
       }
     },
     {
@@ -2637,8 +2787,8 @@
         "file": "EV079_11"
       },
       "bgv": {
-        "id": "BGV_TUBA_F003A",
-        "file": "voice/BGV_tuba_f003a.ogg"
+        "id": "BGV_KAED_F001A",
+        "file": "voice/BGV_kaed_f001a.ogg"
       }
     },
     {
@@ -2648,15 +2798,17 @@
         "直到变成现在这个样子，我才明白那些人比",
         "任何人都更加『贪婪』。",
         "比如，害怕失去金钱的人会更加渴望得到它。",
-        "所以，我对她们的『贪婪』也是无可奈何的事情。"
+        "",
+        "所以，我对她们的『贪婪』也是无可奈何的事情。",
+        ""
       ],
       "bg": {
         "label": "#EV079・切なげ・切なげ・唾液",
         "file": "EV079_11"
       },
       "bgv": {
-        "id": "BGV_TUBA_F003A",
-        "file": "voice/BGV_tuba_f003a.ogg"
+        "id": "BGV_KAED_F001A",
+        "file": "voice/BGV_kaed_f001a.ogg"
       }
     },
     {
@@ -2675,8 +2827,8 @@
         "file": "EV079_11"
       },
       "bgv": {
-        "id": "BGV_TUBA_F003A",
-        "file": "voice/BGV_tuba_f003a.ogg"
+        "id": "BGV_KAED_F001A",
+        "file": "voice/BGV_kaed_f001a.ogg"
       }
     },
     {
@@ -2695,8 +2847,8 @@
         "file": "EV079_11"
       },
       "bgv": {
-        "id": "BGV_TUBA_F003A",
-        "file": "voice/BGV_tuba_f003a.ogg"
+        "id": "BGV_KAED_F001A",
+        "file": "voice/BGV_kaed_f001a.ogg"
       }
     },
     {
@@ -2710,8 +2862,8 @@
         "file": "EV079_11"
       },
       "bgv": {
-        "id": "BGV_TUBA_F003A",
-        "file": "voice/BGV_tuba_f003a.ogg"
+        "id": "BGV_KAED_F001A",
+        "file": "voice/BGV_kaed_f001a.ogg"
       }
     }
   ],

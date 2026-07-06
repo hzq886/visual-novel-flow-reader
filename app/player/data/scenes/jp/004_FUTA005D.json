@@ -519,12 +519,6 @@
         "label": "#EV070・目閉じ喘ぎ・愛おしげ・愛液・挿入",
         "file": "EV070_02"
       },
-      "se": [
-        {
-          "code": "8101A",
-          "file": "se/8101a.ogg"
-        }
-      ],
       "bgv": {
         "id": "BGV_SUZU_H002A",
         "file": "voice/BGV_suzu_h002a.ogg"
@@ -1730,12 +1724,6 @@
         "label": "#EV070・アヘ顔胸吸い・うっとり蕩け・愛液・挿入",
         "file": "EV070_06"
       },
-      "se": [
-        {
-          "code": "8101C",
-          "file": "se/8101c.ogg"
-        }
-      ],
       "bgv": {
         "id": "BGV_SUZU_F003A",
         "file": "voice/BGV_suzu_f003a.ogg"
@@ -1757,8 +1745,8 @@
         "file": "EV070_06"
       },
       "bgv": {
-        "id": "BGV_SUZU_F003A",
-        "file": "voice/BGV_suzu_f003a.ogg"
+        "id": "BGV_SUZU_H003A",
+        "file": "voice/BGV_suzu_h003a.ogg"
       }
     },
     {
@@ -1773,8 +1761,8 @@
         "file": "EV070_06"
       },
       "bgv": {
-        "id": "BGV_SUZU_F003A",
-        "file": "voice/BGV_suzu_f003a.ogg"
+        "id": "BGV_SUZU_H003A",
+        "file": "voice/BGV_suzu_h003a.ogg"
       }
     },
     {
@@ -1793,8 +1781,8 @@
         "file": "EV070_06"
       },
       "bgv": {
-        "id": "BGV_SUZU_F003A",
-        "file": "voice/BGV_suzu_f003a.ogg"
+        "id": "BGV_SUZU_H003A",
+        "file": "voice/BGV_suzu_h003a.ogg"
       }
     },
     {
@@ -1813,8 +1801,8 @@
         "file": "EV070_06"
       },
       "bgv": {
-        "id": "BGV_SUZU_F003A",
-        "file": "voice/BGV_suzu_f003a.ogg"
+        "id": "BGV_SUZU_H003A",
+        "file": "voice/BGV_suzu_h003a.ogg"
       }
     },
     {
@@ -1829,8 +1817,8 @@
         "file": "EV070_06"
       },
       "bgv": {
-        "id": "BGV_SUZU_F003A",
-        "file": "voice/BGV_suzu_f003a.ogg"
+        "id": "BGV_SUZU_H003A",
+        "file": "voice/BGV_suzu_h003a.ogg"
       }
     },
     {
@@ -1849,8 +1837,8 @@
         "file": "EV070_06"
       },
       "bgv": {
-        "id": "BGV_SUZU_F003A",
-        "file": "voice/BGV_suzu_f003a.ogg"
+        "id": "BGV_SUZU_H003A",
+        "file": "voice/BGV_suzu_h003a.ogg"
       }
     },
     {
@@ -1869,8 +1857,8 @@
         "file": "EV070_06"
       },
       "bgv": {
-        "id": "BGV_SUZU_F003A",
-        "file": "voice/BGV_suzu_f003a.ogg"
+        "id": "BGV_SUZU_H003A",
+        "file": "voice/BGV_suzu_h003a.ogg"
       }
     },
     {
@@ -1891,8 +1879,8 @@
         }
       ],
       "bgv": {
-        "id": "BGV_SUZU_F003A",
-        "file": "voice/BGV_suzu_f003a.ogg"
+        "id": "BGV_SUZU_H003A",
+        "file": "voice/BGV_suzu_h003a.ogg"
       }
     },
     {
@@ -1905,8 +1893,8 @@
         "file": "EV070_07"
       },
       "bgv": {
-        "id": "BGV_SUZU_F003A",
-        "file": "voice/BGV_suzu_f003a.ogg"
+        "id": "BGV_SUZU_H003A",
+        "file": "voice/BGV_suzu_h003a.ogg"
       },
       "flash": 3
     },
@@ -1926,8 +1914,8 @@
         "file": "EV070_07"
       },
       "bgv": {
-        "id": "BGV_SUZU_F003A",
-        "file": "voice/BGV_suzu_f003a.ogg"
+        "id": "BGV_SUZU_H003A",
+        "file": "voice/BGV_suzu_h003a.ogg"
       }
     },
     {
@@ -1942,8 +1930,8 @@
         "file": "EV070_07"
       },
       "bgv": {
-        "id": "BGV_SUZU_F003A",
-        "file": "voice/BGV_suzu_f003a.ogg"
+        "id": "BGV_SUZU_H003A",
+        "file": "voice/BGV_suzu_h003a.ogg"
       }
     },
     {
@@ -1961,9 +1949,15 @@
         "label": "#EV070・アヘ顔胸吸い・うっとり蕩け・精液・挿入",
         "file": "EV070_07"
       },
+      "se": [
+        {
+          "code": "8351A",
+          "file": "se/8351a.ogg"
+        }
+      ],
       "bgv": {
-        "id": "BGV_SUZU_F003A",
-        "file": "voice/BGV_suzu_f003a.ogg"
+        "id": "BGV_SUZU_H003A",
+        "file": "voice/BGV_suzu_h003a.ogg"
       }
     },
     {
@@ -1977,9 +1971,10 @@
         "file": "EV070_07"
       },
       "bgv": {
-        "id": "BGV_SUZU_F003A",
-        "file": "voice/BGV_suzu_f003a.ogg"
-      }
+        "id": "BGV_SUZU_H003A",
+        "file": "voice/BGV_suzu_h003a.ogg"
+      },
+      "flash": 2
     },
     {
       "kind": "line",
@@ -1997,8 +1992,8 @@
         "file": "EV070_07"
       },
       "bgv": {
-        "id": "BGV_SUZU_F003A",
-        "file": "voice/BGV_suzu_f003a.ogg"
+        "id": "BGV_SUZU_H003A",
+        "file": "voice/BGV_suzu_h003a.ogg"
       }
     },
     {
@@ -2013,8 +2008,8 @@
         "file": "EV070_07"
       },
       "bgv": {
-        "id": "BGV_SUZU_F003A",
-        "file": "voice/BGV_suzu_f003a.ogg"
+        "id": "BGV_SUZU_H003A",
+        "file": "voice/BGV_suzu_h003a.ogg"
       }
     },
     {
@@ -2033,8 +2028,8 @@
         "file": "EV070_07"
       },
       "bgv": {
-        "id": "BGV_SUZU_F003A",
-        "file": "voice/BGV_suzu_f003a.ogg"
+        "id": "BGV_SUZU_H003A",
+        "file": "voice/BGV_suzu_h003a.ogg"
       }
     },
     {
@@ -2051,8 +2046,8 @@
         "file": "EV070_07"
       },
       "bgv": {
-        "id": "BGV_SUZU_F003A",
-        "file": "voice/BGV_suzu_f003a.ogg"
+        "id": "BGV_SUZU_H003A",
+        "file": "voice/BGV_suzu_h003a.ogg"
       }
     },
     {
@@ -2070,9 +2065,15 @@
         "label": "#EV070・アヘ顔胸吸い・うっとり蕩け・精液・挿入",
         "file": "EV070_07"
       },
+      "se": [
+        {
+          "code": "8201B",
+          "file": "se/8201b.ogg"
+        }
+      ],
       "bgv": {
-        "id": "BGV_SUZU_F003A",
-        "file": "voice/BGV_suzu_f003a.ogg"
+        "id": "BGV_SUZU_H003A",
+        "file": "voice/BGV_suzu_h003a.ogg"
       }
     },
     {
@@ -2086,9 +2087,10 @@
         "file": "EV070_07"
       },
       "bgv": {
-        "id": "BGV_SUZU_F003A",
-        "file": "voice/BGV_suzu_f003a.ogg"
-      }
+        "id": "BGV_SUZU_H003A",
+        "file": "voice/BGV_suzu_h003a.ogg"
+      },
+      "flash": 3
     },
     {
       "kind": "line",
@@ -2106,8 +2108,8 @@
         "file": "EV070_07"
       },
       "bgv": {
-        "id": "BGV_SUZU_F003A",
-        "file": "voice/BGV_suzu_f003a.ogg"
+        "id": "BGV_SUZU_H003A",
+        "file": "voice/BGV_suzu_h003a.ogg"
       }
     },
     {
@@ -2124,8 +2126,8 @@
         "file": "EV070_07"
       },
       "bgv": {
-        "id": "BGV_SUZU_F003A",
-        "file": "voice/BGV_suzu_f003a.ogg"
+        "id": "BGV_SUZU_H003A",
+        "file": "voice/BGV_suzu_h003a.ogg"
       }
     },
     {
@@ -2144,8 +2146,8 @@
         "file": "EV070_07"
       },
       "bgv": {
-        "id": "BGV_SUZU_F003A",
-        "file": "voice/BGV_suzu_f003a.ogg"
+        "id": "BGV_SUZU_H003A",
+        "file": "voice/BGV_suzu_h003a.ogg"
       }
     },
     {
@@ -2160,9 +2162,15 @@
         "label": "#EV070・アヘ顔胸吸い・うっとり蕩け・精液・挿入",
         "file": "EV070_07"
       },
+      "se": [
+        {
+          "code": "8201B",
+          "file": "se/8201b.ogg"
+        }
+      ],
       "bgv": {
-        "id": "BGV_SUZU_F003A",
-        "file": "voice/BGV_suzu_f003a.ogg"
+        "id": "BGV_SUZU_H003A",
+        "file": "voice/BGV_suzu_h003a.ogg"
       }
     },
     {
@@ -2181,9 +2189,10 @@
         "file": "EV070_07"
       },
       "bgv": {
-        "id": "BGV_SUZU_F003A",
-        "file": "voice/BGV_suzu_f003a.ogg"
-      }
+        "id": "BGV_SUZU_H003A",
+        "file": "voice/BGV_suzu_h003a.ogg"
+      },
+      "flash": 3
     },
     {
       "kind": "narration",
@@ -2197,8 +2206,8 @@
         "file": "EV070_07"
       },
       "bgv": {
-        "id": "BGV_SUZU_F003A",
-        "file": "voice/BGV_suzu_f003a.ogg"
+        "id": "BGV_SUZU_H003A",
+        "file": "voice/BGV_suzu_h003a.ogg"
       }
     },
     {
@@ -2217,8 +2226,8 @@
         "file": "EV070_07"
       },
       "bgv": {
-        "id": "BGV_SUZU_F003A",
-        "file": "voice/BGV_suzu_f003a.ogg"
+        "id": "BGV_SUZU_H003A",
+        "file": "voice/BGV_suzu_h003a.ogg"
       }
     },
     {
@@ -2236,9 +2245,15 @@
         "label": "#EV070・アヘ顔胸吸い・うっとり蕩け・精液・挿入",
         "file": "EV070_07"
       },
+      "se": [
+        {
+          "code": "8351A",
+          "file": "se/8351a.ogg"
+        }
+      ],
       "bgv": {
-        "id": "BGV_SUZU_F003A",
-        "file": "voice/BGV_suzu_f003a.ogg"
+        "id": "BGV_SUZU_H003A",
+        "file": "voice/BGV_suzu_h003a.ogg"
       }
     },
     {
@@ -2257,9 +2272,10 @@
         "file": "EV070_07"
       },
       "bgv": {
-        "id": "BGV_SUZU_F003A",
-        "file": "voice/BGV_suzu_f003a.ogg"
-      }
+        "id": "BGV_SUZU_H003A",
+        "file": "voice/BGV_suzu_h003a.ogg"
+      },
+      "flash": 2
     },
     {
       "kind": "line",
@@ -2277,8 +2293,8 @@
         "file": "EV070_07"
       },
       "bgv": {
-        "id": "BGV_SUZU_F003A",
-        "file": "voice/BGV_suzu_f003a.ogg"
+        "id": "BGV_SUZU_H003A",
+        "file": "voice/BGV_suzu_h003a.ogg"
       }
     },
     {
@@ -2297,8 +2313,8 @@
         "file": "EV070_07"
       },
       "bgv": {
-        "id": "BGV_SUZU_F003A",
-        "file": "voice/BGV_suzu_f003a.ogg"
+        "id": "BGV_SUZU_H003A",
+        "file": "voice/BGV_suzu_h003a.ogg"
       }
     },
     {
@@ -2512,15 +2528,28 @@
         "その言葉に、思わず想像してしまう。",
         "ママになって、おっぱいを母乳で膨らませた、",
         "姉さんたちの姿を。",
-        "そして、甘ったるい母乳を味わう自分の姿を。",
+        "そして、甘ったるい母乳を味わう自分の姿を。"
+      ],
+      "bg": {
+        "label": "#EV070・うっとり胸吸い・微笑み・精液・挿入",
+        "file": "EV070_08"
+      },
+      "bgv": {
+        "id": "BGV_SUZU_F002A",
+        "file": "voice/BGV_suzu_f002a.ogg"
+      }
+    },
+    {
+      "kind": "narration",
+      "lines": [
         "いまから、そのときが待ち遠しい。",
         "………。",
         "……。",
         "…。"
       ],
       "bg": {
-        "label": "#EV070・うっとり胸吸い・微笑み・精液・挿入",
-        "file": "EV070_08"
+        "label": "#背景・黒一色",
+        "file": "BG_BLACK"
       },
       "bgv": {
         "id": "BGV_SUZU_F002A",

@@ -253,6 +253,7 @@
     {
       "kind": "narration",
       "lines": [
+        "",
         "我耸了耸肩示意。"
       ],
       "bg": {
@@ -273,6 +274,7 @@
       "kind": "narration",
       "lines": [
         "她脸上露出一副咬碎苦虫的表情，但还是顺从命令，开始脱衣服。",
+        "",
         "……于是，大家都变成了刚出生时的样子。",
         "房间里弥漫着两个女孩子的气味。"
       ],
@@ -317,6 +319,7 @@
     {
       "kind": "narration",
       "lines": [
+        "",
         "翼用充满期待的眼神盯着我。",
         "对于也赤裸着身体的真琴，我没有多看一眼。",
         "对于一直被忽视的她，我下达了『命令』。"
@@ -383,6 +386,7 @@
     {
       "kind": "narration",
       "lines": [
+        "",
         "就算你说不要，也得听从命令。",
         "然后，我继续给真琴下达指示。"
       ],
@@ -463,6 +467,7 @@
     {
       "kind": "narration",
       "lines": [
+        "",
         "这样说是为了让她明白。",
         "只有翼才是我要做爱的对象。",
         "真琴只是个帮手而已。",
@@ -487,6 +492,25 @@
       "who": "古桥和树",
       "lines": [
         "「翼，要吸我的奶吗？同时也玩弄一下小穴吧」"
+      ],
+      "bg": {
+        "label": "#背景・ラブホテル（昼）",
+        "file": "BG22_01_00"
+      },
+      "sprite": {
+        "label": "真琴（中）・通常１（昼）・裸０１・怒り１",
+        "body": "CH04B_01_01_001_01",
+        "face": "CH04B_01_01_105_01",
+        "offset": [
+          235,
+          150
+        ]
+      }
+    },
+    {
+      "kind": "narration",
+      "lines": [
+        ""
       ],
       "bg": {
         "label": "#背景・ラブホテル（昼）",
@@ -531,7 +555,8 @@
       "kind": "narration",
       "lines": [
         "我走近翼，站着开始爱抚她。",
-        "然后，确认真琴蹲在背后，翘起屁股。"
+        "然后，确认真琴蹲在背后，翘起屁股。",
+        ""
       ],
       "bg": {
         "label": "#背景・黒一色",
@@ -559,6 +584,7 @@
       "lines": [
         "真琴痛苦地呻吟着，伸出舌头。",
         "一股湿滑的东西，在紧闭的肛门上抚摸着，快感沿着脊椎传来。",
+        "",
         "很快，那湿润的块状物就进入了屁股里。"
       ],
       "bg": {
@@ -756,6 +782,7 @@
       "lines": [
         "一边吸着变硬的乳头，贴上舌头。",
         "翼喘着显得很舒服，抓住我的头，试图把它压在自己的胸前。",
+        "",
         "那个动作非常淫荡而美妙。"
       ],
       "bg": {
@@ -782,14 +809,15 @@
         "file": "EV074_02"
       },
       "bgv": {
-        "id": "BGV_TUBA_H002A",
-        "file": "voice/BGV_tuba_h002a.ogg"
+        "id": "BGV_MAKO_F002A",
+        "file": "voice/BGV_mako_f002a.ogg"
       }
     },
     {
       "kind": "narration",
       "lines": [
         "真琴一边舔着肛门，一边狠狠地抓弄起勃起的东西。",
+        "",
         "那种往下拉的感觉真好。",
         "不知不觉间，手指很紧贴着龟头用力握住。",
         "那用力程度很棒，使得下体变得炽热。",
@@ -800,8 +828,8 @@
         "file": "EV074_02"
       },
       "bgv": {
-        "id": "BGV_TUBA_H002A",
-        "file": "voice/BGV_tuba_h002a.ogg"
+        "id": "BGV_MAKO_F002A",
+        "file": "voice/BGV_mako_f002a.ogg"
       }
     },
     {
@@ -819,14 +847,16 @@
         "file": "EV074_03"
       },
       "bgv": {
-        "id": "BGV_TUBA_H002A",
-        "file": "voice/BGV_tuba_h002a.ogg"
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
       "kind": "narration",
       "lines": [
+        "",
         "可能是在卡拉OK包厢高潮了，翼的阴唇湿润多汁。",
+        "",
         "我用手指上下擦拭着松弛的阴唇。",
         "很快，翼的身体开始扭动起来。"
       ],
@@ -834,15 +864,9 @@
         "label": "#EV074・苦悶・うっとり蕩け・愛液",
         "file": "EV074_03"
       },
-      "se": [
-        {
-          "code": "8311B",
-          "file": "se/8311b.ogg"
-        }
-      ],
       "bgv": {
-        "id": "BGV_TUBA_H002A",
-        "file": "voice/BGV_tuba_h002a.ogg"
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -869,7 +893,9 @@
       "kind": "narration",
       "lines": [
         "跟着那用力抚摸的手的动作，我也不由自主地动了起来。",
+        "",
         "翼在我感到舒服的时候，妖艳地扭动着身体。",
+        "",
         "彷佛我们正在互相传达着动作和感觉。"
       ],
       "bg": {
@@ -903,10 +929,12 @@
     {
       "kind": "narration",
       "lines": [
+        "",
         "那时候，涌出了大量的爱液。",
         "它以湿漉漉，半干的状态粘附在一起。",
         "一边擦拭着它，一边动着手指。",
-        "湿润的粘膜滑溜溜的，爱液从深处不断溢出来。"
+        "湿润的粘膜滑溜溜的，爱液从深处不断溢出来。",
+        ""
       ],
       "bg": {
         "label": "#EV074・苦悶・うっとり蕩け・愛液",
@@ -933,8 +961,8 @@
         "file": "EV074_03"
       },
       "bgv": {
-        "id": "BGV_TUBA_H002A",
-        "file": "voice/BGV_tuba_h002a.ogg"
+        "id": "BGV_MAKO_F002A",
+        "file": "voice/BGV_mako_f002a.ogg"
       }
     },
     {
@@ -949,8 +977,8 @@
         "file": "EV074_03"
       },
       "bgv": {
-        "id": "BGV_TUBA_H002A",
-        "file": "voice/BGV_tuba_h002a.ogg"
+        "id": "BGV_MAKO_F002A",
+        "file": "voice/BGV_mako_f002a.ogg"
       }
     },
     {
@@ -975,8 +1003,11 @@
     {
       "kind": "narration",
       "lines": [
+        "",
         "每次手指动起来，它都妖娆地扭动着，试图将我的手指吸入内部。",
-        "手指或者更粗的东西，小穴好像渴望着。"
+        "",
+        "手指或者更粗的东西，小穴好像渴望着。",
+        ""
       ],
       "bg": {
         "label": "#EV074・苦悶・うっとり蕩け・愛液",
@@ -1009,8 +1040,10 @@
     {
       "kind": "narration",
       "lines": [
+        "",
         "翼喘着气，扭动着腰部。",
-        "然后，她自己用手触摸到了阴蒂处，轻轻地撑开。"
+        "然后，她自己用手触摸到了阴蒂处，轻轻地撑开。",
+        ""
       ],
       "bg": {
         "label": "#EV074・苦悶・うっとり蕩け・愛液",
@@ -1043,6 +1076,7 @@
     {
       "kind": "narration",
       "lines": [
+        "",
         "将沾满爱液的手指滑向上方。",
         "鼓胀起来的阴蒂。",
         "从下方抚摸到上方。"
@@ -1068,8 +1102,8 @@
         "直接被弄弄就好了呢，哈呜呜！」"
       ],
       "bg": {
-        "label": "#EV074・苦悶・うっとり蕩け・愛液",
-        "file": "EV074_03"
+        "label": "#EV074・苦悶・目閉じ喘ぎ・愛液",
+        "file": "EV074_02"
       },
       "bgv": {
         "id": "BGV_TUBA_H002A",
@@ -1081,11 +1115,12 @@
       "lines": [
         "翼扭动身体，感觉很舒服。",
         "阴蒂完全勃起，露出包皮外面。",
+        "",
         "手指只是触碰到里面，翼就颤抖着腰部。"
       ],
       "bg": {
-        "label": "#EV074・苦悶・うっとり蕩け・愛液",
-        "file": "EV074_03"
+        "label": "#EV074・苦悶・目閉じ喘ぎ・愛液",
+        "file": "EV074_02"
       },
       "bgv": {
         "id": "BGV_TUBA_H002A",
@@ -1104,8 +1139,8 @@
         "啊，再多摸一点，再转圈圈呀！」"
       ],
       "bg": {
-        "label": "#EV074・苦悶・うっとり蕩け・愛液",
-        "file": "EV074_03"
+        "label": "#EV074・苦悶・目閉じ喘ぎ・愛液",
+        "file": "EV074_02"
       },
       "bgv": {
         "id": "BGV_TUBA_H002A",
@@ -1116,12 +1151,13 @@
       "kind": "narration",
       "lines": [
         "涂满爱液，直到变得湿滑，然后用指腹揭开包皮。",
+        "",
         "然后开始抚摸着裸露的阴蒂。",
         "就在真琴套弄肉棒的时候。"
       ],
       "bg": {
-        "label": "#EV074・苦悶・うっとり蕩け・愛液",
-        "file": "EV074_03"
+        "label": "#EV074・苦悶・目閉じ喘ぎ・愛液",
+        "file": "EV074_02"
       },
       "bgv": {
         "id": "BGV_TUBA_H002A",
@@ -1139,8 +1175,8 @@
         "「嗯咕嘟，咕嘟咕嘟！舔舔」"
       ],
       "bg": {
-        "label": "#EV074・苦悶・うっとり蕩け・愛液",
-        "file": "EV074_03"
+        "label": "#EV074・苦悶・目閉じ喘ぎ・愛液",
+        "file": "EV074_02"
       },
       "bgv": {
         "id": "BGV_TUBA_H002A",
@@ -1158,8 +1194,8 @@
         "「啊呀呀，啊啊！好麻痹！嗯，那样的动作，太棒了！」"
       ],
       "bg": {
-        "label": "#EV074・苦悶・うっとり蕩け・愛液",
-        "file": "EV074_03"
+        "label": "#EV074・苦悶・目閉じ喘ぎ・愛液",
+        "file": "EV074_02"
       },
       "bgv": {
         "id": "BGV_TUBA_H002A",
@@ -1169,13 +1205,14 @@
     {
       "kind": "narration",
       "lines": [
+        "",
         "就在我感到快感的时候，翼也开始扭动。",
         "感觉有点像在做爱。",
         "这一切都要归功于黑子真琴。"
       ],
       "bg": {
-        "label": "#EV074・苦悶・うっとり蕩け・愛液",
-        "file": "EV074_03"
+        "label": "#EV074・苦悶・目閉じ喘ぎ・愛液",
+        "file": "EV074_02"
       },
       "bgv": {
         "id": "BGV_TUBA_H002A",
@@ -1194,8 +1231,8 @@
         "呜呜，哈啊，再多一点，再多一点！」"
       ],
       "bg": {
-        "label": "#EV074・苦悶・うっとり蕩け・愛液",
-        "file": "EV074_03"
+        "label": "#EV074・苦悶・目閉じ喘ぎ・愛液",
+        "file": "EV074_02"
       },
       "bgv": {
         "id": "BGV_TUBA_H002A",
@@ -1206,12 +1243,13 @@
       "kind": "narration",
       "lines": [
         "从直接弄弄阴蒂开始，翼的喘息声一直变大。",
+        "",
         "在宽敞的酒店房间里，回响着。",
         "她抱住我的头，热情地说道。"
       ],
       "bg": {
-        "label": "#EV074・苦悶・うっとり蕩け・愛液",
-        "file": "EV074_03"
+        "label": "#EV074・苦悶・目閉じ喘ぎ・愛液",
+        "file": "EV074_02"
       },
       "bgv": {
         "id": "BGV_TUBA_H002A",
@@ -1229,8 +1267,8 @@
         "「喜欢，啊啊，喜欢喜欢，好喜欢！」"
       ],
       "bg": {
-        "label": "#EV074・苦悶・うっとり蕩け・愛液",
-        "file": "EV074_03"
+        "label": "#EV074・苦悶・目閉じ喘ぎ・愛液",
+        "file": "EV074_02"
       },
       "bgv": {
         "id": "BGV_TUBA_H002A",
@@ -1244,8 +1282,8 @@
         "突然，真琴的舌头开始猛烈地动起来。"
       ],
       "bg": {
-        "label": "#EV074・苦悶・うっとり蕩け・愛液",
-        "file": "EV074_03"
+        "label": "#EV074・苦悶・目閉じ喘ぎ・愛液",
+        "file": "EV074_02"
       },
       "bgv": {
         "id": "BGV_TUBA_H002A",
@@ -1268,8 +1306,8 @@
         "file": "EV074_04"
       },
       "bgv": {
-        "id": "BGV_TUBA_H002A",
-        "file": "voice/BGV_tuba_h002a.ogg"
+        "id": "BGV_MAKO_F002A",
+        "file": "voice/BGV_mako_f002a.ogg"
       }
     },
     {
@@ -1285,8 +1323,8 @@
         "file": "EV074_04"
       },
       "bgv": {
-        "id": "BGV_TUBA_H002A",
-        "file": "voice/BGV_tuba_h002a.ogg"
+        "id": "BGV_MAKO_F002A",
+        "file": "voice/BGV_mako_f002a.ogg"
       }
     },
     {
@@ -1304,8 +1342,8 @@
         "file": "EV074_04"
       },
       "bgv": {
-        "id": "BGV_TUBA_H002A",
-        "file": "voice/BGV_tuba_h002a.ogg"
+        "id": "BGV_MAKO_F002A",
+        "file": "voice/BGV_mako_f002a.ogg"
       }
     },
     {
@@ -1319,8 +1357,8 @@
         "file": "EV074_04"
       },
       "bgv": {
-        "id": "BGV_TUBA_H002A",
-        "file": "voice/BGV_tuba_h002a.ogg"
+        "id": "BGV_MAKO_F002A",
+        "file": "voice/BGV_mako_f002a.ogg"
       }
     },
     {
@@ -1347,7 +1385,8 @@
       "kind": "narration",
       "lines": [
         "翼一边开心地说着，一边梳理我的头发。",
-        "真琴一边用力拉着东西，一边开始把舌头插进来拔出去。"
+        "真琴一边用力拉着东西，一边开始把舌头插进来拔出去。",
+        ""
       ],
       "bg": {
         "label": "#EV074・うっとり蕩け・目閉じ喘ぎ・愛液",
@@ -1383,6 +1422,7 @@
       "lines": [
         "到底是什么意思呢？",
         "虽然说了要舔，但并没有命令你要怎么舔。",
+        "",
         "刚才还一副勉强的样子在舔着。",
         "而且手的动作也变得更加激烈。",
         "不仅仅是上下运动，还加入了扭动。",
@@ -1414,15 +1454,17 @@
         "file": "EV074_04"
       },
       "bgv": {
-        "id": "BGV_MAKO_F003A",
-        "file": "voice/BGV_mako_f003a.ogg"
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
       "kind": "narration",
       "lines": [
         "可能是拼命忍耐的缘故，对翼的爱抚也变得更加激烈。",
+        "",
         "一边强力吸吮着乳头，一边捏住阴蒂。",
+        "",
         "然后，用夹住的阴蒂来回擦动。"
       ],
       "bg": {
@@ -1430,8 +1472,8 @@
         "file": "EV074_04"
       },
       "bgv": {
-        "id": "BGV_MAKO_F003A",
-        "file": "voice/BGV_mako_f003a.ogg"
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -1450,8 +1492,8 @@
         "file": "EV074_04"
       },
       "bgv": {
-        "id": "BGV_MAKO_F003A",
-        "file": "voice/BGV_mako_f003a.ogg"
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -1467,8 +1509,8 @@
         "file": "EV074_04"
       },
       "bgv": {
-        "id": "BGV_MAKO_F003A",
-        "file": "voice/BGV_mako_f003a.ogg"
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -1496,6 +1538,7 @@
         "舌头在刺激着肛门。",
         "从内部向外部，舌头上下跳动。",
         "肛门的边缘被不断擦拭，让人产生排泄的错觉。",
+        "",
         "而且，还有粗糙的鼻息吹过。"
       ],
       "bg": {
@@ -1531,7 +1574,8 @@
       "kind": "narration",
       "lines": [
         "舌头的强烈快感和鼻息的刺痒感。",
-        "就在力量即将耗尽之际，龟头受到剧烈的刺激。"
+        "就在力量即将耗尽之际，龟头受到剧烈的刺激。",
+        ""
       ],
       "bg": {
         "label": "#EV074・うっとり蕩け・目閉じ喘ぎ・愛液",
@@ -1567,10 +1611,12 @@
         "真琴突然说出这样的话。",
         "然后，我终于明白了。",
         "刚才我说过，为了和翼发生性关系，必须要好好勃起。",
+        "",
         "所以她正在尽力让我射精，让我软下来。",
         "至少可以算作是一点抵抗吧？",
         "那样的话，就让你随心所欲地做吧。",
-        "为了忍受下半身的快感，我吮吸着乳头。"
+        "为了忍受下半身的快感，我吮吸着乳头。",
+        ""
       ],
       "bg": {
         "label": "#EV074・うっとり蕩け・目閉じ喘ぎ・愛液",
@@ -1597,8 +1643,8 @@
         "file": "EV074_05"
       },
       "bgv": {
-        "id": "BGV_MAKO_F003A",
-        "file": "voice/BGV_mako_f003a.ogg"
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -1606,6 +1652,7 @@
       "lines": [
         "我吮吸着勃起的乳头。",
         "翼在快感中扭动身体，像是寻求支撑一样，按住我的头。",
+        "",
         "脸埋在乳房中间，感觉非常舒服。",
         "吮吸乳头，将脸埋在胸部中……。",
         "仿佛回到了童年般的奇妙安心感。",
@@ -1616,8 +1663,8 @@
         "file": "EV074_05"
       },
       "bgv": {
-        "id": "BGV_MAKO_F003A",
-        "file": "voice/BGV_mako_f003a.ogg"
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -1636,8 +1683,8 @@
         "file": "EV074_05"
       },
       "bgv": {
-        "id": "BGV_MAKO_F003A",
-        "file": "voice/BGV_mako_f003a.ogg"
+        "id": "BGV_MAKO_F002A",
+        "file": "voice/BGV_mako_f002a.ogg"
       }
     },
     {
@@ -1653,8 +1700,8 @@
         "file": "EV074_05"
       },
       "bgv": {
-        "id": "BGV_MAKO_F003A",
-        "file": "voice/BGV_mako_f003a.ogg"
+        "id": "BGV_MAKO_F002A",
+        "file": "voice/BGV_mako_f002a.ogg"
       }
     },
     {
@@ -1672,23 +1719,24 @@
         "file": "EV074_05"
       },
       "bgv": {
-        "id": "BGV_MAKO_F003A",
-        "file": "voice/BGV_mako_f003a.ogg"
+        "id": "BGV_MAKO_F002A",
+        "file": "voice/BGV_mako_f002a.ogg"
       }
     },
     {
       "kind": "narration",
       "lines": [
         "感觉像是被挠痒痒的，让腰部不由自主地动起来。",
-        "摘住翼的阴蒂的手指也随着夹紧的方向移动。"
+        "摘住翼的阴蒂的手指也随着夹紧的方向移动。",
+        ""
       ],
       "bg": {
         "label": "#EV074・うっとり蕩け・うっとり蕩け・愛液",
         "file": "EV074_05"
       },
       "bgv": {
-        "id": "BGV_MAKO_F003A",
-        "file": "voice/BGV_mako_f003a.ogg"
+        "id": "BGV_MAKO_F002A",
+        "file": "voice/BGV_mako_f002a.ogg"
       }
     },
     {
@@ -1707,8 +1755,8 @@
         "file": "EV074_05"
       },
       "bgv": {
-        "id": "BGV_MAKO_F003A",
-        "file": "voice/BGV_mako_f003a.ogg"
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -1718,6 +1766,7 @@
         "我的兴奋只是不断增加。",
         "身体变得越来越热。",
         "真琴伸出舌头，像是要抓住我抽搐的腰部一样，深深地插入其中。",
+        "",
         "然后，在深处来回扭动。"
       ],
       "bg": {
@@ -1725,8 +1774,8 @@
         "file": "EV074_05"
       },
       "bgv": {
-        "id": "BGV_MAKO_F003A",
-        "file": "voice/BGV_mako_f003a.ogg"
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -1745,8 +1794,8 @@
         "file": "EV074_06"
       },
       "bgv": {
-        "id": "BGV_MAKO_F003A",
-        "file": "voice/BGV_mako_f003a.ogg"
+        "id": "BGV_MAKO_F002A",
+        "file": "voice/BGV_mako_f002a.ogg"
       }
     },
     {
@@ -1762,8 +1811,8 @@
         "file": "EV074_06"
       },
       "bgv": {
-        "id": "BGV_MAKO_F003A",
-        "file": "voice/BGV_mako_f003a.ogg"
+        "id": "BGV_MAKO_F002A",
+        "file": "voice/BGV_mako_f002a.ogg"
       }
     },
     {
@@ -1782,8 +1831,8 @@
         "file": "EV074_06"
       },
       "bgv": {
-        "id": "BGV_MAKO_F003A",
-        "file": "voice/BGV_mako_f003a.ogg"
+        "id": "BGV_MAKO_F002A",
+        "file": "voice/BGV_mako_f002a.ogg"
       }
     },
     {
@@ -1801,8 +1850,8 @@
         "file": "EV074_06"
       },
       "bgv": {
-        "id": "BGV_MAKO_F003A",
-        "file": "voice/BGV_mako_f003a.ogg"
+        "id": "BGV_MAKO_F002A",
+        "file": "voice/BGV_mako_f002a.ogg"
       }
     },
     {
@@ -1812,6 +1861,7 @@
         "从肉棒的根部到顶端，全部都很舒服。",
         "不仅如此……。",
         "从肛门到肉棒的顶端，快感像一条线连接在一起。",
+        "",
         "我的手指也在摩擦着翼的阴蒂。"
       ],
       "bg": {
@@ -1819,8 +1869,8 @@
         "file": "EV074_06"
       },
       "bgv": {
-        "id": "BGV_MAKO_F003A",
-        "file": "voice/BGV_mako_f003a.ogg"
+        "id": "BGV_MAKO_F002A",
+        "file": "voice/BGV_mako_f002a.ogg"
       }
     },
     {
@@ -1839,14 +1889,15 @@
         "file": "EV074_07"
       },
       "bgv": {
-        "id": "BGV_MAKO_F003A",
-        "file": "voice/BGV_mako_f003a.ogg"
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
       "kind": "narration",
       "lines": [
         "阴道收紧，温暖的爱液一次又一次地洒在手上。",
+        "",
         "我也能感觉到从我的东西里流出了预先的液体。"
       ],
       "bg": {
@@ -1854,8 +1905,8 @@
         "file": "EV074_07"
       },
       "bgv": {
-        "id": "BGV_MAKO_F003A",
-        "file": "voice/BGV_mako_f003a.ogg"
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -1874,8 +1925,8 @@
         "file": "EV074_07"
       },
       "bgv": {
-        "id": "BGV_MAKO_F003A",
-        "file": "voice/BGV_mako_f003a.ogg"
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -1884,15 +1935,16 @@
         "我也感到了射精的感觉涌上心头。",
         "下意识地收紧了肛门。",
         "也许是察觉到射精即将来临了。",
-        "真琴用力扩张了紧致的肛门，更加猛烈地舔了起来。"
+        "真琴用力扩张了紧致的肛门，更加猛烈地舔了起来。",
+        ""
       ],
       "bg": {
         "label": "#EV074・軽くアヘ・目閉じ喘ぎ2・愛液",
         "file": "EV074_07"
       },
       "bgv": {
-        "id": "BGV_MAKO_F003A",
-        "file": "voice/BGV_mako_f003a.ogg"
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -1911,8 +1963,8 @@
         "file": "EV074_07"
       },
       "bgv": {
-        "id": "BGV_MAKO_F003A",
-        "file": "voice/BGV_mako_f003a.ogg"
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -1926,8 +1978,8 @@
         "file": "EV074_07"
       },
       "bgv": {
-        "id": "BGV_MAKO_F003A",
-        "file": "voice/BGV_mako_f003a.ogg"
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -1946,8 +1998,8 @@
         "file": "EV074_07"
       },
       "bgv": {
-        "id": "BGV_MAKO_F003A",
-        "file": "voice/BGV_mako_f003a.ogg"
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -1967,8 +2019,8 @@
         }
       ],
       "bgv": {
-        "id": "BGV_MAKO_F003A",
-        "file": "voice/BGV_mako_f003a.ogg"
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -1981,8 +2033,8 @@
         "file": "EV074_08"
       },
       "bgv": {
-        "id": "BGV_MAKO_F003A",
-        "file": "voice/BGV_mako_f003a.ogg"
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       },
       "flash": 3
     },
@@ -2008,8 +2060,8 @@
         }
       ],
       "bgv": {
-        "id": "BGV_MAKO_F003A",
-        "file": "voice/BGV_mako_f003a.ogg"
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -2023,8 +2075,8 @@
         "file": "EV074_08"
       },
       "bgv": {
-        "id": "BGV_MAKO_F003A",
-        "file": "voice/BGV_mako_f003a.ogg"
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       },
       "flash": 2
     },
@@ -2044,8 +2096,8 @@
         "file": "EV074_08"
       },
       "bgv": {
-        "id": "BGV_MAKO_F003A",
-        "file": "voice/BGV_mako_f003a.ogg"
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -2060,8 +2112,8 @@
         "file": "EV074_08"
       },
       "bgv": {
-        "id": "BGV_MAKO_F003A",
-        "file": "voice/BGV_mako_f003a.ogg"
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -2079,14 +2131,15 @@
         "file": "EV074_08"
       },
       "bgv": {
-        "id": "BGV_MAKO_F003A",
-        "file": "voice/BGV_mako_f003a.ogg"
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
       "kind": "narration",
       "lines": [
         "仿佛精液从屁股里被挤出来一样，感觉太棒了。",
+        "",
         "下半身仿佛要融化了一样。"
       ],
       "bg": {
@@ -2094,8 +2147,8 @@
         "file": "EV074_08"
       },
       "bgv": {
-        "id": "BGV_MAKO_F003A",
-        "file": "voice/BGV_mako_f003a.ogg"
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -2113,13 +2166,14 @@
         "file": "EV074_09"
       },
       "bgv": {
-        "id": "BGV_MAKO_F003A",
-        "file": "voice/BGV_mako_f003a.ogg"
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
       "kind": "narration",
       "lines": [
+        "",
         "她是打算得意洋洋吗？",
         "我从她的胸口抬起头，对她说道。"
       ],
@@ -2128,8 +2182,8 @@
         "file": "EV074_09"
       },
       "bgv": {
-        "id": "BGV_MAKO_F003A",
-        "file": "voice/BGV_mako_f003a.ogg"
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -2144,8 +2198,8 @@
         "file": "EV074_09"
       },
       "bgv": {
-        "id": "BGV_MAKO_F003A",
-        "file": "voice/BGV_mako_f003a.ogg"
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -2160,8 +2214,8 @@
         "file": "EV074_09"
       },
       "bgv": {
-        "id": "BGV_MAKO_F003A",
-        "file": "voice/BGV_mako_f003a.ogg"
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -2180,8 +2234,8 @@
         "file": "EV074_10"
       },
       "bgv": {
-        "id": "BGV_MAKO_F003A",
-        "file": "voice/BGV_mako_f003a.ogg"
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -2196,8 +2250,8 @@
         "file": "EV074_10"
       },
       "bgv": {
-        "id": "BGV_MAKO_F003A",
-        "file": "voice/BGV_mako_f003a.ogg"
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -2211,8 +2265,8 @@
         "file": "EV074_10"
       },
       "bgv": {
-        "id": "BGV_MAKO_F003A",
-        "file": "voice/BGV_mako_f003a.ogg"
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -2237,6 +2291,7 @@
     {
       "kind": "narration",
       "lines": [
+        "",
         "屁眼被口水浸湿得有些发软的感觉。",
         "所以，或许稍微容易动起来了。",
         "舌头在屁眼里来回扭动着。"
@@ -2272,7 +2327,8 @@
     {
       "kind": "narration",
       "lines": [
-        "当享受射精的余韵时，对屁眼的刺激相当美妙。"
+        "当享受射精的余韵时，对屁眼的刺激相当美妙。",
+        ""
       ],
       "bg": {
         "label": "#EV074・苦悶2・目閉じ喘ぎ2・愛液2・精液たれ",
@@ -2298,8 +2354,8 @@
         "file": "EV074_11"
       },
       "bgv": {
-        "id": "BGV_MAKO_F003A",
-        "file": "voice/BGV_mako_f003a.ogg"
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -2307,6 +2363,7 @@
       "lines": [
         "翼也陶醉在极致的快感中。",
         "可能是同时达到了高潮，她似乎没有察觉到我射精了。",
+        "",
         "然后，她用湿润的眼神对我低声说道。"
       ],
       "bg": {
@@ -2314,8 +2371,8 @@
         "file": "EV074_11"
       },
       "bgv": {
-        "id": "BGV_MAKO_F003A",
-        "file": "voice/BGV_mako_f003a.ogg"
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -2334,8 +2391,8 @@
         "file": "EV074_11"
       },
       "bgv": {
-        "id": "BGV_MAKO_F003A",
-        "file": "voice/BGV_mako_f003a.ogg"
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -2349,8 +2406,8 @@
         "file": "EV074_11"
       },
       "bgv": {
-        "id": "BGV_MAKO_F003A",
-        "file": "voice/BGV_mako_f003a.ogg"
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     }
   ],

@@ -47,12 +47,6 @@
         "label": "#EV054・虚ろ目眉寄せ・クリ摘まみ・制服・愛液2",
         "file": "EV054_06"
       },
-      "se": [
-        {
-          "code": "8311B",
-          "file": "se/8311b.ogg"
-        }
-      ],
       "bgv": {
         "id": "BGV_TUBA_H002A",
         "file": "voice/BGV_tuba_h002a.ogg"
@@ -233,6 +227,12 @@
         "label": "#EV054・虚ろ目眉寄せ・クリ摘まみ・制服・愛液2",
         "file": "EV054_06"
       },
+      "se": [
+        {
+          "code": "8321A",
+          "file": "se/8321a.ogg"
+        }
+      ],
       "bgv": {
         "id": "BGV_TUBA_H002A",
         "file": "voice/BGV_tuba_h002a.ogg"
@@ -688,8 +688,8 @@
         "file": "EV054_09"
       },
       "bgv": {
-        "id": "BGV_TUBA_H001A",
-        "file": "voice/BGV_tuba_h001a.ogg"
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -705,8 +705,8 @@
         "file": "EV054_09"
       },
       "bgv": {
-        "id": "BGV_TUBA_H001A",
-        "file": "voice/BGV_tuba_h001a.ogg"
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -724,9 +724,15 @@
         "label": "#EV054・虚ろ目蕩け顔・指を尻穴挿入・制服・愛液2",
         "file": "EV054_09"
       },
+      "se": [
+        {
+          "code": "8001A",
+          "file": "se/8001a.ogg"
+        }
+      ],
       "bgv": {
-        "id": "BGV_TUBA_H001A",
-        "file": "voice/BGV_tuba_h001a.ogg"
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -741,8 +747,8 @@
         "file": "EV054_09"
       },
       "bgv": {
-        "id": "BGV_TUBA_H001A",
-        "file": "voice/BGV_tuba_h001a.ogg"
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -760,8 +766,8 @@
         "file": "EV054_09"
       },
       "bgv": {
-        "id": "BGV_TUBA_H001A",
-        "file": "voice/BGV_tuba_h001a.ogg"
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -776,8 +782,8 @@
         "file": "EV054_09"
       },
       "bgv": {
-        "id": "BGV_TUBA_H001A",
-        "file": "voice/BGV_tuba_h001a.ogg"
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -796,8 +802,8 @@
         "file": "EV054_09"
       },
       "bgv": {
-        "id": "BGV_TUBA_H001A",
-        "file": "voice/BGV_tuba_h001a.ogg"
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -812,8 +818,8 @@
         "file": "EV054_09"
       },
       "bgv": {
-        "id": "BGV_TUBA_H001A",
-        "file": "voice/BGV_tuba_h001a.ogg"
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -832,8 +838,8 @@
         "file": "EV054_09"
       },
       "bgv": {
-        "id": "BGV_TUBA_H001A",
-        "file": "voice/BGV_tuba_h001a.ogg"
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -851,8 +857,8 @@
         "file": "EV054_09"
       },
       "bgv": {
-        "id": "BGV_TUBA_H001A",
-        "file": "voice/BGV_tuba_h001a.ogg"
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -871,8 +877,8 @@
         "file": "EV054_09"
       },
       "bgv": {
-        "id": "BGV_TUBA_H001A",
-        "file": "voice/BGV_tuba_h001a.ogg"
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -893,8 +899,8 @@
         }
       ],
       "bgv": {
-        "id": "BGV_TUBA_H001A",
-        "file": "voice/BGV_tuba_h001a.ogg"
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -913,8 +919,8 @@
         "file": "EV054_09"
       },
       "bgv": {
-        "id": "BGV_TUBA_H001A",
-        "file": "voice/BGV_tuba_h001a.ogg"
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -930,8 +936,8 @@
         "file": "EV054_09"
       },
       "bgv": {
-        "id": "BGV_TUBA_H001A",
-        "file": "voice/BGV_tuba_h001a.ogg"
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -950,8 +956,8 @@
         "file": "EV054_09"
       },
       "bgv": {
-        "id": "BGV_TUBA_H001A",
-        "file": "voice/BGV_tuba_h001a.ogg"
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -967,8 +973,8 @@
         "file": "EV054_09"
       },
       "bgv": {
-        "id": "BGV_TUBA_H001A",
-        "file": "voice/BGV_tuba_h001a.ogg"
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -987,8 +993,8 @@
         "file": "EV054_09"
       },
       "bgv": {
-        "id": "BGV_TUBA_H001A",
-        "file": "voice/BGV_tuba_h001a.ogg"
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -1003,15 +1009,9 @@
         "label": "#EV054・虚ろ目蕩け顔・指を尻穴挿入・制服・愛液2",
         "file": "EV054_09"
       },
-      "se": [
-        {
-          "code": "8131B",
-          "file": "se/8131b.ogg"
-        }
-      ],
       "bgv": {
-        "id": "BGV_TUBA_H001A",
-        "file": "voice/BGV_tuba_h001a.ogg"
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -1030,8 +1030,8 @@
         "file": "EV054_09"
       },
       "bgv": {
-        "id": "BGV_TUBA_H001A",
-        "file": "voice/BGV_tuba_h001a.ogg"
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -1046,8 +1046,8 @@
         "file": "EV054_09"
       },
       "bgv": {
-        "id": "BGV_TUBA_H001A",
-        "file": "voice/BGV_tuba_h001a.ogg"
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -1066,8 +1066,8 @@
         "file": "EV054_09"
       },
       "bgv": {
-        "id": "BGV_TUBA_H001A",
-        "file": "voice/BGV_tuba_h001a.ogg"
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -1083,8 +1083,8 @@
         "file": "EV054_09"
       },
       "bgv": {
-        "id": "BGV_TUBA_H001A",
-        "file": "voice/BGV_tuba_h001a.ogg"
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -1103,8 +1103,8 @@
         "file": "EV054_09"
       },
       "bgv": {
-        "id": "BGV_TUBA_H001A",
-        "file": "voice/BGV_tuba_h001a.ogg"
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -1119,8 +1119,8 @@
         "file": "EV054_09"
       },
       "bgv": {
-        "id": "BGV_TUBA_H001A",
-        "file": "voice/BGV_tuba_h001a.ogg"
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -1139,8 +1139,8 @@
         "file": "EV054_09"
       },
       "bgv": {
-        "id": "BGV_TUBA_H001A",
-        "file": "voice/BGV_tuba_h001a.ogg"
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -1155,8 +1155,8 @@
         "file": "EV054_09"
       },
       "bgv": {
-        "id": "BGV_TUBA_H001A",
-        "file": "voice/BGV_tuba_h001a.ogg"
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -1175,8 +1175,8 @@
         "file": "EV054_09"
       },
       "bgv": {
-        "id": "BGV_TUBA_H001A",
-        "file": "voice/BGV_tuba_h001a.ogg"
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -1191,8 +1191,8 @@
         "file": "EV054_09"
       },
       "bgv": {
-        "id": "BGV_TUBA_H001A",
-        "file": "voice/BGV_tuba_h001a.ogg"
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -1211,8 +1211,8 @@
         "file": "EV054_09"
       },
       "bgv": {
-        "id": "BGV_TUBA_H001A",
-        "file": "voice/BGV_tuba_h001a.ogg"
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -1227,8 +1227,8 @@
         "file": "EV054_09"
       },
       "bgv": {
-        "id": "BGV_TUBA_H001A",
-        "file": "voice/BGV_tuba_h001a.ogg"
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -1253,8 +1253,8 @@
         }
       ],
       "bgv": {
-        "id": "BGV_TUBA_H001A",
-        "file": "voice/BGV_tuba_h001a.ogg"
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -1271,8 +1271,8 @@
         "file": "EV054_10"
       },
       "bgv": {
-        "id": "BGV_TUBA_H001A",
-        "file": "voice/BGV_tuba_h001a.ogg"
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       },
       "flash": 2
     },
@@ -1292,8 +1292,8 @@
         "file": "EV054_10"
       },
       "bgv": {
-        "id": "BGV_TUBA_H001A",
-        "file": "voice/BGV_tuba_h001a.ogg"
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -1311,8 +1311,8 @@
         "file": "EV054_10"
       },
       "bgv": {
-        "id": "BGV_TUBA_H001A",
-        "file": "voice/BGV_tuba_h001a.ogg"
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -1331,8 +1331,8 @@
         "file": "EV054_10"
       },
       "bgv": {
-        "id": "BGV_TUBA_H001A",
-        "file": "voice/BGV_tuba_h001a.ogg"
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -1346,8 +1346,8 @@
         "file": "EV054_10"
       },
       "bgv": {
-        "id": "BGV_TUBA_H001A",
-        "file": "voice/BGV_tuba_h001a.ogg"
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -1366,8 +1366,8 @@
         "file": "EV054_10"
       },
       "bgv": {
-        "id": "BGV_TUBA_H001A",
-        "file": "voice/BGV_tuba_h001a.ogg"
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -1383,8 +1383,8 @@
         "file": "EV054_10"
       },
       "bgv": {
-        "id": "BGV_TUBA_H001A",
-        "file": "voice/BGV_tuba_h001a.ogg"
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -1402,9 +1402,15 @@
         "label": "#EV054・虚ろ目蕩け顔・指を尻穴挿入・制服・潮吹き2",
         "file": "EV054_10"
       },
+      "se": [
+        {
+          "code": "8351A",
+          "file": "se/8351a.ogg"
+        }
+      ],
       "bgv": {
-        "id": "BGV_TUBA_H001A",
-        "file": "voice/BGV_tuba_h001a.ogg"
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -1421,9 +1427,10 @@
         "file": "EV054_10"
       },
       "bgv": {
-        "id": "BGV_TUBA_H001A",
-        "file": "voice/BGV_tuba_h001a.ogg"
-      }
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
+      },
+      "flash": 2
     },
     {
       "kind": "line",
@@ -1440,8 +1447,8 @@
         "file": "EV054_10"
       },
       "bgv": {
-        "id": "BGV_TUBA_H001A",
-        "file": "voice/BGV_tuba_h001a.ogg"
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -1456,8 +1463,8 @@
         "file": "EV054_10"
       },
       "bgv": {
-        "id": "BGV_TUBA_H001A",
-        "file": "voice/BGV_tuba_h001a.ogg"
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -1476,8 +1483,8 @@
         "file": "EV054_10"
       },
       "bgv": {
-        "id": "BGV_TUBA_H001A",
-        "file": "voice/BGV_tuba_h001a.ogg"
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -1491,8 +1498,8 @@
         "file": "EV054_10"
       },
       "bgv": {
-        "id": "BGV_TUBA_H001A",
-        "file": "voice/BGV_tuba_h001a.ogg"
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -1511,8 +1518,8 @@
         "file": "EV054_10"
       },
       "bgv": {
-        "id": "BGV_TUBA_H001A",
-        "file": "voice/BGV_tuba_h001a.ogg"
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -1527,8 +1534,8 @@
         "file": "EV054_10"
       },
       "bgv": {
-        "id": "BGV_TUBA_H001A",
-        "file": "voice/BGV_tuba_h001a.ogg"
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -1547,8 +1554,8 @@
         "file": "EV054_10"
       },
       "bgv": {
-        "id": "BGV_TUBA_H001A",
-        "file": "voice/BGV_tuba_h001a.ogg"
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -1563,8 +1570,8 @@
         "file": "EV054_10"
       },
       "bgv": {
-        "id": "BGV_TUBA_H001A",
-        "file": "voice/BGV_tuba_h001a.ogg"
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -1583,8 +1590,8 @@
         "file": "EV054_10"
       },
       "bgv": {
-        "id": "BGV_TUBA_H001A",
-        "file": "voice/BGV_tuba_h001a.ogg"
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -1600,8 +1607,8 @@
         "file": "EV054_10"
       },
       "bgv": {
-        "id": "BGV_TUBA_H001A",
-        "file": "voice/BGV_tuba_h001a.ogg"
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -1619,9 +1626,15 @@
         "label": "#EV054・虚ろ目蕩け顔・指を尻穴挿入・制服・潮吹き2",
         "file": "EV054_10"
       },
+      "se": [
+        {
+          "code": "8351A",
+          "file": "se/8351a.ogg"
+        }
+      ],
       "bgv": {
-        "id": "BGV_TUBA_H001A",
-        "file": "voice/BGV_tuba_h001a.ogg"
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -1637,9 +1650,10 @@
         "file": "EV054_10"
       },
       "bgv": {
-        "id": "BGV_TUBA_H001A",
-        "file": "voice/BGV_tuba_h001a.ogg"
-      }
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
+      },
+      "flash": 2
     },
     {
       "kind": "line",
@@ -1662,8 +1676,8 @@
         }
       ],
       "bgv": {
-        "id": "BGV_TUBA_H001A",
-        "file": "voice/BGV_tuba_h001a.ogg"
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -1679,16 +1693,11 @@
         "label": "#EV054・のけぞり絶頂・指を尻穴挿入・制服・潮吹き2",
         "file": "EV054_11"
       },
-      "se": [
-        {
-          "code": "8131C",
-          "file": "se/8131c.ogg"
-        }
-      ],
       "bgv": {
-        "id": "BGV_TUBA_H001A",
-        "file": "voice/BGV_tuba_h001a.ogg"
-      }
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
+      },
+      "flash": 2
     },
     {
       "kind": "line",
@@ -1706,8 +1715,8 @@
         "file": "EV054_11"
       },
       "bgv": {
-        "id": "BGV_TUBA_H001A",
-        "file": "voice/BGV_tuba_h001a.ogg"
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -1722,8 +1731,8 @@
         "file": "EV054_11"
       },
       "bgv": {
-        "id": "BGV_TUBA_H001A",
-        "file": "voice/BGV_tuba_h001a.ogg"
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -1741,9 +1750,15 @@
         "label": "#EV054・のけぞり絶頂・指を尻穴挿入・制服・潮吹き2",
         "file": "EV054_11"
       },
+      "se": [
+        {
+          "code": "8351A",
+          "file": "se/8351a.ogg"
+        }
+      ],
       "bgv": {
-        "id": "BGV_TUBA_H001A",
-        "file": "voice/BGV_tuba_h001a.ogg"
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
       }
     },
     {
@@ -1761,9 +1776,10 @@
         "file": "EV054_11"
       },
       "bgv": {
-        "id": "BGV_TUBA_H001A",
-        "file": "voice/BGV_tuba_h001a.ogg"
-      }
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
+      },
+      "flash": 2
     },
     {
       "kind": "line",

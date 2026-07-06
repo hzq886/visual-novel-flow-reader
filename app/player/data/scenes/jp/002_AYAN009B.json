@@ -376,13 +376,7 @@
       "bg": {
         "label": "#EV043・うっとり・ローション・奥まで挿入",
         "file": "EV043_03"
-      },
-      "se": [
-        {
-          "code": "8331B",
-          "file": "se/8331b.ogg"
-        }
-      ]
+      }
     },
     {
       "kind": "narration",
@@ -784,12 +778,6 @@
         "label": "#EV043・切なげ・ローション・奥まで挿入",
         "file": "EV043_04"
       },
-      "se": [
-        {
-          "code": "8131C",
-          "file": "se/8131c.ogg"
-        }
-      ],
       "bgv": {
         "id": "BGV_AYAN_H001A",
         "file": "voice/BGV_ayan_h001a.ogg"

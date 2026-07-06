@@ -354,12 +354,12 @@
         "ファーストキス……はあぁっ」"
       ],
       "bg": {
-        "label": "#EV055・目閉じキス・アップ",
-        "file": "EV055_03"
+        "label": "#EV055・切なげ見つめ・引き",
+        "file": "EV055_01"
       },
       "bgv": {
-        "id": "BGV_TUBA_F001A",
-        "file": "voice/BGV_tuba_f001a.ogg"
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -374,12 +374,12 @@
         "ファーストキス。"
       ],
       "bg": {
-        "label": "#EV055・目閉じキス・アップ",
-        "file": "EV055_03"
+        "label": "#EV055・切なげ見つめ・引き",
+        "file": "EV055_01"
       },
       "bgv": {
-        "id": "BGV_TUBA_F001A",
-        "file": "voice/BGV_tuba_f001a.ogg"
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -394,12 +394,12 @@
         "しあわせ……こんな幸せな気持ち、初めて……」"
       ],
       "bg": {
-        "label": "#EV055・目閉じキス・アップ",
-        "file": "EV055_03"
+        "label": "#EV055・切なげ見つめ・引き",
+        "file": "EV055_01"
       },
       "bgv": {
-        "id": "BGV_TUBA_F001A",
-        "file": "voice/BGV_tuba_f001a.ogg"
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -411,12 +411,12 @@
         "胸を込み上げる気持ちに、身体が勝手に動く。"
       ],
       "bg": {
-        "label": "#EV055・目閉じキス・アップ",
-        "file": "EV055_03"
+        "label": "#EV055・切なげ見つめ・引き",
+        "file": "EV055_01"
       },
       "bgv": {
-        "id": "BGV_TUBA_F001A",
-        "file": "voice/BGV_tuba_f001a.ogg"
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -426,12 +426,12 @@
         "「翼、もう一回しようか？」"
       ],
       "bg": {
-        "label": "#EV055・目閉じキス・アップ",
-        "file": "EV055_03"
+        "label": "#EV055・切なげ見つめ・引き",
+        "file": "EV055_01"
       },
       "bgv": {
-        "id": "BGV_TUBA_F001A",
-        "file": "voice/BGV_tuba_f001a.ogg"
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -446,12 +446,12 @@
         "恋人同士のキス、いっぱい……んんっ！」"
       ],
       "bg": {
-        "label": "#EV055・目閉じキス・アップ",
-        "file": "EV055_03"
+        "label": "#EV055・切なげ見つめ・引き",
+        "file": "EV055_01"
       },
       "bgv": {
-        "id": "BGV_TUBA_F001A",
-        "file": "voice/BGV_tuba_f001a.ogg"
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -462,12 +462,12 @@
         "受け入れていく。"
       ],
       "bg": {
-        "label": "#EV055・目閉じキス・アップ",
-        "file": "EV055_03"
+        "label": "#EV055・切なげ見つめ・引き",
+        "file": "EV055_01"
       },
       "bgv": {
-        "id": "BGV_TUBA_F001A",
-        "file": "voice/BGV_tuba_f001a.ogg"
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -591,12 +591,12 @@
         "「んふっ、んんっ……はぁ……」"
       ],
       "bg": {
-        "label": "#EV055・目閉じキス・アップ",
-        "file": "EV055_03"
+        "label": "#EV055・うっとり・引き",
+        "file": "EV055_02"
       },
       "bgv": {
-        "id": "BGV_TUBA_F001A",
-        "file": "voice/BGV_tuba_f001a.ogg"
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -605,12 +605,12 @@
         "そうしてまた、口を離した翼が感想を言う。"
       ],
       "bg": {
-        "label": "#EV055・目閉じキス・アップ",
-        "file": "EV055_03"
+        "label": "#EV055・うっとり・引き",
+        "file": "EV055_02"
       },
       "bgv": {
-        "id": "BGV_TUBA_F001A",
-        "file": "voice/BGV_tuba_f001a.ogg"
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -625,12 +625,12 @@
         "でも、とっても気持ちいいものなんだね」"
       ],
       "bg": {
-        "label": "#EV055・目閉じキス・アップ",
-        "file": "EV055_03"
+        "label": "#EV055・うっとり・引き",
+        "file": "EV055_02"
       },
       "bgv": {
-        "id": "BGV_TUBA_F001A",
-        "file": "voice/BGV_tuba_f001a.ogg"
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -640,12 +640,12 @@
         "だけど、こんなキスまだまだ序の口。"
       ],
       "bg": {
-        "label": "#EV055・目閉じキス・アップ",
-        "file": "EV055_03"
+        "label": "#EV055・うっとり・引き",
+        "file": "EV055_02"
       },
       "bgv": {
-        "id": "BGV_TUBA_F001A",
-        "file": "voice/BGV_tuba_f001a.ogg"
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -655,12 +655,12 @@
         "「今度は大人のキス、してみようよ」"
       ],
       "bg": {
-        "label": "#EV055・目閉じキス・アップ",
-        "file": "EV055_03"
+        "label": "#EV055・うっとり・引き",
+        "file": "EV055_02"
       },
       "bgv": {
-        "id": "BGV_TUBA_F001A",
-        "file": "voice/BGV_tuba_f001a.ogg"
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -675,12 +675,12 @@
         "映画とかでは、観たことあるけれど……」"
       ],
       "bg": {
-        "label": "#EV055・目閉じキス・アップ",
-        "file": "EV055_03"
+        "label": "#EV055・うっとり・引き",
+        "file": "EV055_02"
       },
       "bgv": {
-        "id": "BGV_TUBA_F001A",
-        "file": "voice/BGV_tuba_f001a.ogg"
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -690,12 +690,12 @@
         "だけど、身悶え喘ぐ姿が見たくて、あえて言葉にする。"
       ],
       "bg": {
-        "label": "#EV055・目閉じキス・アップ",
-        "file": "EV055_03"
+        "label": "#EV055・うっとり・引き",
+        "file": "EV055_02"
       },
       "bgv": {
-        "id": "BGV_TUBA_F001A",
-        "file": "voice/BGV_tuba_f001a.ogg"
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -706,12 +706,12 @@
         "してみたいんだ」"
       ],
       "bg": {
-        "label": "#EV055・目閉じキス・アップ",
-        "file": "EV055_03"
+        "label": "#EV055・うっとり・引き",
+        "file": "EV055_02"
       },
       "bgv": {
-        "id": "BGV_TUBA_F001A",
-        "file": "voice/BGV_tuba_f001a.ogg"
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -726,12 +726,12 @@
         "だからっ、んんっ……エッチなキス、するぅ！」"
       ],
       "bg": {
-        "label": "#EV055・目閉じキス・アップ",
-        "file": "EV055_03"
+        "label": "#EV055・うっとり・引き",
+        "file": "EV055_02"
       },
       "bgv": {
-        "id": "BGV_TUBA_F001A",
-        "file": "voice/BGV_tuba_f001a.ogg"
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -742,12 +742,12 @@
         "僕の舌先を差し込んだ。"
       ],
       "bg": {
-        "label": "#EV055・目閉じキス・アップ",
-        "file": "EV055_03"
+        "label": "#EV055・うっとり・引き",
+        "file": "EV055_02"
       },
       "bgv": {
-        "id": "BGV_TUBA_F001A",
-        "file": "voice/BGV_tuba_f001a.ogg"
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {

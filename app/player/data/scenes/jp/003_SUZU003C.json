@@ -87,7 +87,13 @@
       "bg": {
         "label": "#EV008・真面目顔3・股間触り・愛液濡れ",
         "file": "EV008_05"
-      }
+      },
+      "se": [
+        {
+          "code": "8311A",
+          "file": "se/8311a.ogg"
+        }
+      ]
     },
     {
       "kind": "line",
@@ -141,6 +147,12 @@
         "label": "#EV008・真面目顔3・股間触り・愛液濡れ",
         "file": "EV008_05"
       },
+      "se": [
+        {
+          "code": "8311A",
+          "file": "se/8311a.ogg"
+        }
+      ],
       "bgv": {
         "id": "BGV_SUZU_H001B",
         "file": "voice/BGV_suzu_h001b.ogg"
@@ -800,6 +812,12 @@
         "label": "#EV008・うっとり蕩け・股間触り・愛液濡れ",
         "file": "EV008_06"
       },
+      "se": [
+        {
+          "code": "8311A",
+          "file": "se/8311a.ogg"
+        }
+      ],
       "bgv": {
         "id": "BGV_SUZU_H002B",
         "file": "voice/BGV_suzu_h002b.ogg"
@@ -929,8 +947,8 @@
         "あ、すごいっ！　痺れちゃうぅうっ！」"
       ],
       "bg": {
-        "label": "#EV008・目閉じ・股間触り・愛液濡れ",
-        "file": "EV008_07"
+        "label": "#EV008・うっとり蕩け・股間触り・愛液濡れ",
+        "file": "EV008_06"
       },
       "bgv": {
         "id": "BGV_SUZU_H002B",
@@ -945,8 +963,8 @@
         "弾力も強くて、指を押しかえすみたいだ。"
       ],
       "bg": {
-        "label": "#EV008・目閉じ・股間触り・愛液濡れ",
-        "file": "EV008_07"
+        "label": "#EV008・うっとり蕩け・股間触り・愛液濡れ",
+        "file": "EV008_06"
       },
       "bgv": {
         "id": "BGV_SUZU_H002B",
@@ -965,8 +983,8 @@
         "すごい、クリトリス洗われるのすっごいっ！」"
       ],
       "bg": {
-        "label": "#EV008・目閉じ・股間触り・愛液濡れ",
-        "file": "EV008_07"
+        "label": "#EV008・うっとり蕩け・股間触り・愛液濡れ",
+        "file": "EV008_06"
       },
       "bgv": {
         "id": "BGV_SUZU_H002B",
@@ -983,8 +1001,8 @@
         "どうにもならないみたいだ。"
       ],
       "bg": {
-        "label": "#EV008・目閉じ・股間触り・愛液濡れ",
-        "file": "EV008_07"
+        "label": "#EV008・うっとり蕩け・股間触り・愛液濡れ",
+        "file": "EV008_06"
       },
       "bgv": {
         "id": "BGV_SUZU_H002B",
@@ -1003,8 +1021,8 @@
         "好きぃ！　はぁんっ、あっあっあっ！」"
       ],
       "bg": {
-        "label": "#EV008・目閉じ・股間触り・愛液濡れ",
-        "file": "EV008_07"
+        "label": "#EV008・うっとり蕩け・股間触り・愛液濡れ",
+        "file": "EV008_06"
       },
       "bgv": {
         "id": "BGV_SUZU_H002B",
@@ -1022,8 +1040,8 @@
         "おしっこの穴を撫でてみる。"
       ],
       "bg": {
-        "label": "#EV008・目閉じ・股間触り・愛液濡れ",
-        "file": "EV008_07"
+        "label": "#EV008・うっとり蕩け・股間触り・愛液濡れ",
+        "file": "EV008_06"
       },
       "bgv": {
         "id": "BGV_SUZU_H002B",
@@ -1427,6 +1445,12 @@
         "label": "#EV008・軽くアヘ・股間触り・おしっこ",
         "file": "EV008_08"
       },
+      "se": [
+        {
+          "code": "8361B",
+          "file": "se/8361b.ogg"
+        }
+      ],
       "bgv": {
         "id": "BGV_SUZU_H002B",
         "file": "voice/BGV_suzu_h002b.ogg"
@@ -1448,7 +1472,8 @@
       "bgv": {
         "id": "BGV_SUZU_H002B",
         "file": "voice/BGV_suzu_h002b.ogg"
-      }
+      },
+      "flash": 2
     },
     {
       "kind": "line",
@@ -1501,6 +1526,12 @@
         "label": "#EV008・軽くアヘ・股間触り・おしっこ",
         "file": "EV008_08"
       },
+      "se": [
+        {
+          "code": "8361B",
+          "file": "se/8361b.ogg"
+        }
+      ],
       "bgv": {
         "id": "BGV_SUZU_H002B",
         "file": "voice/BGV_suzu_h002b.ogg"
@@ -1518,7 +1549,8 @@
       "bgv": {
         "id": "BGV_SUZU_H002B",
         "file": "voice/BGV_suzu_h002b.ogg"
-      }
+      },
+      "flash": 2
     },
     {
       "kind": "line",
@@ -1696,7 +1728,8 @@
       "bgv": {
         "id": "BGV_SUZU_H002B",
         "file": "voice/BGV_suzu_h002b.ogg"
-      }
+      },
+      "flash": 2
     },
     {
       "kind": "line",
@@ -2141,6 +2174,12 @@
         "label": "#EV008・軽くアヘ・股間触り・おしっこ濡れ",
         "file": "EV008_10"
       },
+      "se": [
+        {
+          "code": "8351A",
+          "file": "se/8351a.ogg"
+        }
+      ],
       "bgv": {
         "id": "BGV_SUZU_H003B",
         "file": "voice/BGV_suzu_h003b.ogg"
@@ -2160,7 +2199,8 @@
       "bgv": {
         "id": "BGV_SUZU_H003B",
         "file": "voice/BGV_suzu_h003b.ogg"
-      }
+      },
+      "flash": 2
     },
     {
       "kind": "line",
@@ -2214,6 +2254,12 @@
         "label": "#EV008・軽くアヘ・股間触り・潮吹き",
         "file": "EV008_11"
       },
+      "se": [
+        {
+          "code": "8351A",
+          "file": "se/8351a.ogg"
+        }
+      ],
       "bgv": {
         "id": "BGV_SUZU_H003B",
         "file": "voice/BGV_suzu_h003b.ogg"
@@ -2237,7 +2283,8 @@
       "bgv": {
         "id": "BGV_SUZU_H003B",
         "file": "voice/BGV_suzu_h003b.ogg"
-      }
+      },
+      "flash": 2
     },
     {
       "kind": "line",
@@ -2254,6 +2301,12 @@
         "label": "#EV008・軽くアヘ・股間触り・潮吹き",
         "file": "EV008_11"
       },
+      "se": [
+        {
+          "code": "8351A",
+          "file": "se/8351a.ogg"
+        }
+      ],
       "bgv": {
         "id": "BGV_SUZU_H003B",
         "file": "voice/BGV_suzu_h003b.ogg"
@@ -2274,7 +2327,8 @@
       "bgv": {
         "id": "BGV_SUZU_H003B",
         "file": "voice/BGV_suzu_h003b.ogg"
-      }
+      },
+      "flash": 2
     },
     {
       "kind": "line",

@@ -90,9 +90,11 @@
     {
       "kind": "narration",
       "lines": [
+        "",
         "确实，肚子已经变得相当大了。",
         "既然到了这个地步，要去掉它就很困难了。",
-        "对着低头垂肩的女儿，母亲却看起来很高兴。"
+        "对着低头垂肩的女儿，母亲却看起来很高兴。",
+        ""
       ],
       "bg": {
         "label": "#背景・望月家リビング（昼）",
@@ -180,8 +182,10 @@
     {
       "kind": "narration",
       "lines": [
+        "",
         "为了考虑母体的情况，一直避免了性爱。",
-        "直到今天，她们通过口交等方式满足了我的性欲需求。"
+        "直到今天，她们通过口交等方式满足了我的性欲需求。",
+        ""
       ],
       "bg": {
         "label": "#背景・望月家リビング（昼）",
@@ -315,19 +319,21 @@
         "file": "BG12_01_00"
       },
       "sprite": {
-        "label": "早紀（中）・通常１（昼）・妊娠１１・にっこり２",
-        "body": "CH06B_01_01_004_11",
-        "face": "CH06B_01_01_102_02",
+        "label": "真琴（中）・通常１（昼）・妊娠１１・悲しみ１",
+        "body": "CH04B_01_01_005_11",
+        "face": "CH04B_01_01_106_01",
         "offset": [
-          265,
-          60
+          235,
+          150
         ]
       }
     },
     {
       "kind": "narration",
       "lines": [
+        "",
         "虽然说是示范，但其实只是我想先做而已。",
+        "",
         "其实我也没有异议。",
         "只是，在那之前……。"
       ],
@@ -336,12 +342,12 @@
         "file": "BG12_01_00"
       },
       "sprite": {
-        "label": "早紀（中）・通常１（昼）・妊娠１１・にっこり２",
-        "body": "CH06B_01_01_004_11",
-        "face": "CH06B_01_01_102_02",
+        "label": "真琴（中）・通常１（昼）・妊娠１１・悲しみ１",
+        "body": "CH04B_01_01_005_11",
+        "face": "CH04B_01_01_106_01",
         "offset": [
-          265,
-          60
+          235,
+          150
         ]
       }
     },
@@ -356,31 +362,32 @@
         "file": "BG12_01_00"
       },
       "sprite": {
-        "label": "早紀（中）・通常１（昼）・妊娠１１・にっこり２",
-        "body": "CH06B_01_01_004_11",
-        "face": "CH06B_01_01_102_02",
+        "label": "真琴（中）・通常１（昼）・妊娠１１・悲しみ１",
+        "body": "CH04B_01_01_005_11",
+        "face": "CH04B_01_01_106_01",
         "offset": [
-          265,
-          60
+          235,
+          150
         ]
       }
     },
     {
       "kind": "narration",
       "lines": [
-        "当我说出引导关键词时，两人的心同时陷入了深处。"
+        "当我说出引导关键词时，两人的心同时陷入了深处。",
+        ""
       ],
       "bg": {
         "label": "#背景・真琴の部屋（昼）",
         "file": "BG12_01_00"
       },
       "sprite": {
-        "label": "早紀（中）・通常１（昼）・妊娠１１・にっこり２",
-        "body": "CH06B_01_01_004_11",
-        "face": "CH06B_01_01_102_02",
+        "label": "真琴（中）・通常１（昼）・妊娠１１・悲しみ１",
+        "body": "CH04B_01_01_005_11",
+        "face": "CH04B_01_01_106_01",
         "offset": [
-          265,
-          60
+          235,
+          150
         ]
       }
     },
@@ -399,12 +406,12 @@
         "file": "BG12_01_00"
       },
       "sprite": {
-        "label": "早紀（中）・通常１（昼）・妊娠１１・にっこり２",
-        "body": "CH06B_01_01_004_11",
-        "face": "CH06B_01_01_102_02",
+        "label": "真琴（中）・通常１（昼）・妊娠１１・悲しみ１",
+        "body": "CH04B_01_01_005_11",
+        "face": "CH04B_01_01_106_01",
         "offset": [
-          265,
-          60
+          235,
+          150
         ]
       }
     },
@@ -423,12 +430,12 @@
         "file": "BG12_01_00"
       },
       "sprite": {
-        "label": "早紀（中）・通常１（昼）・妊娠１１・にっこり２",
-        "body": "CH06B_01_01_004_11",
-        "face": "CH06B_01_01_102_02",
+        "label": "真琴（中）・通常１（昼）・妊娠１１・悲しみ１",
+        "body": "CH04B_01_01_005_11",
+        "face": "CH04B_01_01_106_01",
         "offset": [
-          265,
-          60
+          235,
+          150
         ]
       }
     },
@@ -442,12 +449,12 @@
         "file": "BG12_01_00"
       },
       "sprite": {
-        "label": "早紀（中）・通常１（昼）・妊娠１１・にっこり２",
-        "body": "CH06B_01_01_004_11",
-        "face": "CH06B_01_01_102_02",
+        "label": "真琴（中）・通常１（昼）・妊娠１１・悲しみ１",
+        "body": "CH04B_01_01_005_11",
+        "face": "CH04B_01_01_106_01",
         "offset": [
-          265,
-          60
+          235,
+          150
         ]
       }
     },
@@ -512,12 +519,12 @@
         "file": "BG12_01_00"
       },
       "sprite": {
-        "label": "早紀（中）・通常１（昼）・妊娠０１・通常１",
-        "body": "CH06B_01_01_004_01",
-        "face": "CH06B_01_01_101_01",
+        "label": "真琴（中）・通常１（昼）・妊娠１１・悲しみ１",
+        "body": "CH04B_01_01_005_11",
+        "face": "CH04B_01_01_106_01",
         "offset": [
-          265,
-          60
+          235,
+          150
         ]
       }
     },
@@ -536,12 +543,31 @@
         "file": "BG12_01_00"
       },
       "sprite": {
-        "label": "早紀（中）・通常１（昼）・妊娠０１・通常１",
-        "body": "CH06B_01_01_004_01",
-        "face": "CH06B_01_01_101_01",
+        "label": "真琴（中）・通常１（昼）・妊娠１１・悲しみ１",
+        "body": "CH04B_01_01_005_11",
+        "face": "CH04B_01_01_106_01",
         "offset": [
-          265,
-          60
+          235,
+          150
+        ]
+      }
+    },
+    {
+      "kind": "narration",
+      "lines": [
+        ""
+      ],
+      "bg": {
+        "label": "#背景・真琴の部屋（昼）",
+        "file": "BG12_01_00"
+      },
+      "sprite": {
+        "label": "真琴（中）・通常１（昼）・妊娠１１・悲しみ１",
+        "body": "CH04B_01_01_005_11",
+        "face": "CH04B_01_01_106_01",
+        "offset": [
+          235,
+          150
         ]
       }
     },
@@ -549,22 +575,31 @@
       "kind": "narration",
       "lines": [
         "听到母亲的话，我皱起了眉头。",
-        "但每次都不得不顺从她的话。",
-        "怀着大肚子的真琴躺在床上。",
-        "早纪女士张开双腿，正对着女儿的脸部。"
+        "但每次都不得不顺从她的话。"
       ],
       "bg": {
         "label": "#背景・真琴の部屋（昼）",
         "file": "BG12_01_00"
       },
       "sprite": {
-        "label": "早紀（中）・通常１（昼）・妊娠０１・通常１",
-        "body": "CH06B_01_01_004_01",
-        "face": "CH06B_01_01_101_01",
+        "label": "真琴（中）・通常１（昼）・妊娠１１・怒り１",
+        "body": "CH04B_01_01_005_11",
+        "face": "CH04B_01_01_105_01",
         "offset": [
-          265,
-          60
+          235,
+          150
         ]
+      }
+    },
+    {
+      "kind": "narration",
+      "lines": [
+        "怀着大肚子的真琴躺在床上。",
+        "早纪女士张开双腿，正对着女儿的脸部。"
+      ],
+      "bg": {
+        "label": "#背景・黒一色",
+        "file": "BG_BLACK"
       },
       "se": [
         {
@@ -601,8 +636,11 @@
     {
       "kind": "narration",
       "lines": [
+        "",
         "在自己头顶，眼前有母亲的阴道，会是一种怎样的感觉呢？",
+        "",
         "如果你认真观察，刚才施加的『暗示』也会充分发挥效果。",
+        "",
         "早纪女士扭动着屁股，开始撒娇。",
         "仿佛这是理所当然的。"
       ],
@@ -655,6 +693,16 @@
       }
     },
     {
+      "kind": "narration",
+      "lines": [
+        ""
+      ],
+      "bg": {
+        "label": "#EV053・苦悶・真面目・浅く入れ",
+        "file": "EV053_01"
+      }
+    },
+    {
       "kind": "line",
       "who": "古桥和树",
       "lines": [
@@ -668,7 +716,8 @@
     {
       "kind": "narration",
       "lines": [
-        "从怀孕以来，我一直叫她的名字。"
+        "从怀孕以来，我一直叫她的名字。",
+        ""
       ],
       "bg": {
         "label": "#EV053・苦悶・真面目・浅く入れ",
@@ -696,6 +745,7 @@
       "lines": [
         "而且我让她接受这样的称呼。",
         "实际上，我已经成为了早纪女士的『主人』，所以没关系。",
+        "",
         "同时也是为了让真琴感到痛苦。",
         "我向前挺起腰部，慢慢地插入。"
       ],
@@ -781,8 +831,10 @@
     {
       "kind": "narration",
       "lines": [
+        "",
         "这就是对真琴使用的『暗示』。",
         "当她看到母亲的小穴里插入肉棒时，她也会回忆起插入的记忆。",
+        "",
         "她会想起以前的性爱感觉。",
         "看到深入进去，就会感受到深入进去的感觉。",
         "看到出入动作，就会感受到出入的感觉。"
@@ -807,15 +859,9 @@
         "label": "#EV053・驚き・喘ぎ・深く入れ・愛液",
         "file": "EV053_03"
       },
-      "se": [
-        {
-          "code": "8101A",
-          "file": "se/8101a.ogg"
-        }
-      ],
       "bgv": {
-        "id": "BGV_MAKO_H002A",
-        "file": "voice/BGV_mako_h002a.ogg"
+        "id": "BGV_SAKI_H002A",
+        "file": "voice/BGV_saki_h002a.ogg"
       }
     },
     {
@@ -833,25 +879,27 @@
         "file": "EV053_03"
       },
       "bgv": {
-        "id": "BGV_MAKO_H002A",
-        "file": "voice/BGV_mako_h002a.ogg"
+        "id": "BGV_SAKI_H002A",
+        "file": "voice/BGV_saki_h002a.ogg"
       }
     },
     {
       "kind": "narration",
       "lines": [
+        "",
         "她一定是非常期待着。",
         "阴道内部湿润而松软。",
         "肉厚柔软的阴道紧紧地包裹着肉棒。",
-        "首先，慢慢地让它融入那肉感，好好品味。"
+        "首先，慢慢地让它融入那肉感，好好品味。",
+        ""
       ],
       "bg": {
         "label": "#EV053・驚き・喘ぎ・深く入れ・愛液",
         "file": "EV053_03"
       },
       "bgv": {
-        "id": "BGV_MAKO_H002A",
-        "file": "voice/BGV_mako_h002a.ogg"
+        "id": "BGV_SAKI_H002A",
+        "file": "voice/BGV_saki_h002a.ogg"
       }
     },
     {
@@ -869,8 +917,22 @@
         "file": "EV053_03"
       },
       "bgv": {
-        "id": "BGV_MAKO_H002A",
-        "file": "voice/BGV_mako_h002a.ogg"
+        "id": "BGV_SAKI_H002A",
+        "file": "voice/BGV_saki_h002a.ogg"
+      }
+    },
+    {
+      "kind": "narration",
+      "lines": [
+        ""
+      ],
+      "bg": {
+        "label": "#EV053・驚き・喘ぎ・深く入れ・愛液",
+        "file": "EV053_03"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_H002A",
+        "file": "voice/BGV_saki_h002a.ogg"
       }
     },
     {
@@ -888,23 +950,25 @@
         "file": "EV053_03"
       },
       "bgv": {
-        "id": "BGV_MAKO_H002A",
-        "file": "voice/BGV_mako_h002a.ogg"
+        "id": "BGV_SAKI_H002A",
+        "file": "voice/BGV_saki_h002a.ogg"
       }
     },
     {
       "kind": "narration",
       "lines": [
+        "",
         "我自己也很久没尝到小穴的滋味了。",
-        "不同于口和手的绝妙感觉，下半身仿佛要溶化了。"
+        "不同于口和手的绝妙感觉，下半身仿佛要溶化了。",
+        ""
       ],
       "bg": {
         "label": "#EV053・驚き・喘ぎ・深く入れ・愛液",
         "file": "EV053_03"
       },
       "bgv": {
-        "id": "BGV_MAKO_H002A",
-        "file": "voice/BGV_mako_h002a.ogg"
+        "id": "BGV_SAKI_H002A",
+        "file": "voice/BGV_saki_h002a.ogg"
       }
     },
     {
@@ -922,14 +986,16 @@
         "file": "EV053_03"
       },
       "bgv": {
-        "id": "BGV_MAKO_H002A",
-        "file": "voice/BGV_mako_h002a.ogg"
+        "id": "BGV_SAKI_H002A",
+        "file": "voice/BGV_saki_h002a.ogg"
       }
     },
     {
       "kind": "narration",
       "lines": [
+        "",
         "正如她所说，怀孕后阴道的状态似乎有所改变。",
+        "",
         "比以前更柔软，更湿润。",
         "紧致度有稍微松弛了吗？",
         "但是，紧紧地缠绕着的感觉还是一样的。"
@@ -939,8 +1005,8 @@
         "file": "EV053_03"
       },
       "bgv": {
-        "id": "BGV_MAKO_H002A",
-        "file": "voice/BGV_mako_h002a.ogg"
+        "id": "BGV_SAKI_H002A",
+        "file": "voice/BGV_saki_h002a.ogg"
       }
     },
     {
@@ -965,11 +1031,13 @@
     {
       "kind": "narration",
       "lines": [
+        "",
         "看着行为，真琴一个人在痛苦中。",
         "她的阴道也发生了同样的变化。",
         "与早纪小姐的区别是弹性感吧。",
         "怀了我的孩子，身体发生了变化。",
-        "对于这种变化，我渐渐有了将她们两个变成自己的实感。"
+        "对于这种变化，我渐渐有了将她们两个变成自己的实感。",
+        ""
       ],
       "bg": {
         "label": "#EV053・驚き・喘ぎ・深く入れ・愛液",
@@ -1005,6 +1073,7 @@
       "lines": [
         "早纪喜欢的G点。",
         "可能是因为经常擦拭，所以比起一开始更加明显。",
+        "",
         "把龟头擦在鼓起来的地方。"
       ],
       "bg": {
@@ -1051,15 +1120,17 @@
         "file": "EV053_04"
       },
       "bgv": {
-        "id": "BGV_SAKI_H001A",
-        "file": "voice/BGV_saki_h001a.ogg"
+        "id": "BGV_MAKO_H002A",
+        "file": "voice/BGV_mako_h002a.ogg"
       }
     },
     {
       "kind": "narration",
       "lines": [
+        "",
         "G点的粗糙刺激着龟头。",
         "只有龟头感受到强烈的刺激，身体颤抖了一下。",
+        "",
         "在炽热的阴道中，物体进一步膨胀。"
       ],
       "bg": {
@@ -1067,8 +1138,8 @@
         "file": "EV053_04"
       },
       "bgv": {
-        "id": "BGV_SAKI_H001A",
-        "file": "voice/BGV_saki_h001a.ogg"
+        "id": "BGV_MAKO_H002A",
+        "file": "voice/BGV_mako_h002a.ogg"
       }
     },
     {
@@ -1086,8 +1157,22 @@
         "file": "EV053_04"
       },
       "bgv": {
-        "id": "BGV_SAKI_H001A",
-        "file": "voice/BGV_saki_h001a.ogg"
+        "id": "BGV_MAKO_H002A",
+        "file": "voice/BGV_mako_h002a.ogg"
+      }
+    },
+    {
+      "kind": "narration",
+      "lines": [
+        ""
+      ],
+      "bg": {
+        "label": "#EV053・喘ぎ・真面目2・浅く入れ・愛液",
+        "file": "EV053_04"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H002A",
+        "file": "voice/BGV_mako_h002a.ogg"
       }
     },
     {
@@ -1106,8 +1191,8 @@
         "file": "EV053_04"
       },
       "bgv": {
-        "id": "BGV_SAKI_H001A",
-        "file": "voice/BGV_saki_h001a.ogg"
+        "id": "BGV_MAKO_H002A",
+        "file": "voice/BGV_mako_h002a.ogg"
       }
     },
     {
@@ -1115,15 +1200,16 @@
       "lines": [
         "两人同时为快感而喘息。",
         "就像同时侵犯母女一样。",
-        "稍微改变角度，用顶端刺激G点，试着抓挠一下。"
+        "稍微改变角度，用顶端刺激G点，试着抓挠一下。",
+        ""
       ],
       "bg": {
         "label": "#EV053・喘ぎ・真面目2・浅く入れ・愛液",
         "file": "EV053_04"
       },
       "bgv": {
-        "id": "BGV_SAKI_H001A",
-        "file": "voice/BGV_saki_h001a.ogg"
+        "id": "BGV_MAKO_H002A",
+        "file": "voice/BGV_mako_h002a.ogg"
       }
     },
     {
@@ -1141,8 +1227,22 @@
         "file": "EV053_04"
       },
       "bgv": {
-        "id": "BGV_SAKI_H001A",
-        "file": "voice/BGV_saki_h001a.ogg"
+        "id": "BGV_SAKI_H002A",
+        "file": "voice/BGV_saki_h002a.ogg"
+      }
+    },
+    {
+      "kind": "narration",
+      "lines": [
+        ""
+      ],
+      "bg": {
+        "label": "#EV053・喘ぎ・真面目2・浅く入れ・愛液",
+        "file": "EV053_04"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_H002A",
+        "file": "voice/BGV_saki_h002a.ogg"
       }
     },
     {
@@ -1160,16 +1260,20 @@
         "file": "EV053_04"
       },
       "bgv": {
-        "id": "BGV_SAKI_H001A",
-        "file": "voice/BGV_saki_h001a.ogg"
+        "id": "BGV_SAKI_H002A",
+        "file": "voice/BGV_saki_h002a.ogg"
       }
     },
     {
       "kind": "narration",
       "lines": [
+        "",
         "就像用手指摇晃龟头的阶梯一样，传来一种说不出的甜蜜快感。",
+        "",
         "两人的身体也因为G点的刺激而颤抖着。",
+        "",
         "上下晃动的早纪小姐紧致的屁股和真琴紧绷的胸部。",
+        "",
         "真是太奢侈的景象了。"
       ],
       "bg": {
@@ -1177,8 +1281,8 @@
         "file": "EV053_04"
       },
       "bgv": {
-        "id": "BGV_SAKI_H001A",
-        "file": "voice/BGV_saki_h001a.ogg"
+        "id": "BGV_SAKI_H002A",
+        "file": "voice/BGV_saki_h002a.ogg"
       }
     },
     {
@@ -1197,8 +1301,8 @@
         "file": "EV053_04"
       },
       "bgv": {
-        "id": "BGV_SAKI_H001A",
-        "file": "voice/BGV_saki_h001a.ogg"
+        "id": "BGV_SAKI_H002A",
+        "file": "voice/BGV_saki_h002a.ogg"
       }
     },
     {
@@ -1211,8 +1315,8 @@
         "file": "EV053_04"
       },
       "bgv": {
-        "id": "BGV_SAKI_H001A",
-        "file": "voice/BGV_saki_h001a.ogg"
+        "id": "BGV_SAKI_H002A",
+        "file": "voice/BGV_saki_h002a.ogg"
       }
     },
     {
@@ -1231,23 +1335,30 @@
         "file": "EV053_04"
       },
       "bgv": {
-        "id": "BGV_SAKI_H001A",
-        "file": "voice/BGV_saki_h001a.ogg"
+        "id": "BGV_SAKI_H002A",
+        "file": "voice/BGV_saki_h002a.ogg"
       }
     },
     {
       "kind": "narration",
       "lines": [
         "随着她的动作，真琴也在懊恼地喘息着。",
-        "然后，在尝试了一段时间浅入之后，慢慢地往深处推进。"
+        "然后，在尝试了一段时间浅入之后，慢慢地往深处推进。",
+        ""
       ],
       "bg": {
         "label": "#EV053・喘ぎ・真面目2・浅く入れ・愛液",
         "file": "EV053_04"
       },
+      "se": [
+        {
+          "code": "8001A",
+          "file": "se/8001a.ogg"
+        }
+      ],
       "bgv": {
-        "id": "BGV_SAKI_H001A",
-        "file": "voice/BGV_saki_h001a.ogg"
+        "id": "BGV_SAKI_H002A",
+        "file": "voice/BGV_saki_h002a.ogg"
       }
     },
     {
@@ -1266,8 +1377,8 @@
         "file": "EV053_04"
       },
       "bgv": {
-        "id": "BGV_SAKI_H001A",
-        "file": "voice/BGV_saki_h001a.ogg"
+        "id": "BGV_SAKI_H002A",
+        "file": "voice/BGV_saki_h002a.ogg"
       }
     },
     {
@@ -1286,8 +1397,8 @@
         "file": "EV053_04"
       },
       "bgv": {
-        "id": "BGV_SAKI_H001A",
-        "file": "voice/BGV_saki_h001a.ogg"
+        "id": "BGV_SAKI_H002A",
+        "file": "voice/BGV_saki_h002a.ogg"
       }
     },
     {
@@ -1309,8 +1420,8 @@
         }
       ],
       "bgv": {
-        "id": "BGV_SAKI_H001A",
-        "file": "voice/BGV_saki_h001a.ogg"
+        "id": "BGV_SAKI_H002A",
+        "file": "voice/BGV_saki_h002a.ogg"
       }
     },
     {
@@ -1371,6 +1482,7 @@
       "kind": "narration",
       "lines": [
         "真琴虽然没有明确要求，但看起来想要更深入。",
+        "",
         "两人更加贪婪地摇动着腰部。"
       ],
       "bg": {
@@ -1431,8 +1543,8 @@
         "「好像被逗弄一样，啊啊，这种事情我忍不住了！主人！」"
       ],
       "bg": {
-        "label": "#EV053・喘ぎ・喘ぎ・深く入れ・愛液",
-        "file": "EV053_05"
+        "label": "#EV053・喘ぎ・真面目2・浅く入れ・愛液",
+        "file": "EV053_04"
       },
       "bgv": {
         "id": "BGV_SAKI_H001A",
@@ -1442,12 +1554,13 @@
     {
       "kind": "narration",
       "lines": [
+        "",
         "早纪小姐一边呻吟着，一边扭动着她的白色臀部。",
         "也许是因为痛苦，她的肛门也在颤抖着。"
       ],
       "bg": {
-        "label": "#EV053・喘ぎ・喘ぎ・深く入れ・愛液",
-        "file": "EV053_05"
+        "label": "#EV053・喘ぎ・真面目2・浅く入れ・愛液",
+        "file": "EV053_04"
       },
       "bgv": {
         "id": "BGV_SAKI_H001A",
@@ -1466,8 +1579,8 @@
         "咕……嘶呜，要发疯了……！」"
       ],
       "bg": {
-        "label": "#EV053・喘ぎ・喘ぎ・深く入れ・愛液",
-        "file": "EV053_05"
+        "label": "#EV053・喘ぎ・真面目2・浅く入れ・愛液",
+        "file": "EV053_04"
       },
       "bgv": {
         "id": "BGV_MAKO_H001A",
@@ -1479,11 +1592,12 @@
       "lines": [
         "真琴小姐也在床上扭动不已。",
         "她的长发散落在床上，非常诱人。",
-        "我一边欣赏着两个焦躁的人的淫态，一边享受着缓慢的腰部运动。"
+        "我一边欣赏着两个焦躁的人的淫态，一边享受着缓慢的腰部运动。",
+        ""
       ],
       "bg": {
-        "label": "#EV053・喘ぎ・喘ぎ・深く入れ・愛液",
-        "file": "EV053_05"
+        "label": "#EV053・喘ぎ・真面目2・浅く入れ・愛液",
+        "file": "EV053_04"
       },
       "bgv": {
         "id": "BGV_MAKO_H001A",
@@ -1501,8 +1615,22 @@
         "「啊，不要，不要……那里……太热了，啊啊啊，就这样……呼呜……」"
       ],
       "bg": {
-        "label": "#EV053・喘ぎ・喘ぎ・深く入れ・愛液",
-        "file": "EV053_05"
+        "label": "#EV053・喘ぎ・真面目2・浅く入れ・愛液",
+        "file": "EV053_04"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H001A",
+        "file": "voice/BGV_mako_h001a.ogg"
+      }
+    },
+    {
+      "kind": "narration",
+      "lines": [
+        ""
+      ],
+      "bg": {
+        "label": "#EV053・喘ぎ・真面目2・浅く入れ・愛液",
+        "file": "EV053_04"
       },
       "bgv": {
         "id": "BGV_MAKO_H001A",
@@ -1521,8 +1649,8 @@
         "哈啊，肉棒好喜欢被小穴插入！」"
       ],
       "bg": {
-        "label": "#EV053・喘ぎ・喘ぎ・深く入れ・愛液",
-        "file": "EV053_05"
+        "label": "#EV053・喘ぎ・真面目2・浅く入れ・愛液",
+        "file": "EV053_04"
       },
       "bgv": {
         "id": "BGV_MAKO_H001A",
@@ -1533,12 +1661,13 @@
       "kind": "narration",
       "lines": [
         "虽然没有强烈的刺激，但缓慢的性爱也是一种享受。",
+        "",
         "感觉慢慢地升温。",
         "快感在腰部积蓄，不断增加。"
       ],
       "bg": {
-        "label": "#EV053・喘ぎ・喘ぎ・深く入れ・愛液",
-        "file": "EV053_05"
+        "label": "#EV053・喘ぎ・真面目2・浅く入れ・愛液",
+        "file": "EV053_04"
       },
       "bgv": {
         "id": "BGV_MAKO_H001A",
@@ -1561,8 +1690,8 @@
         "file": "EV053_05"
       },
       "bgv": {
-        "id": "BGV_MAKO_H001A",
-        "file": "voice/BGV_mako_h001a.ogg"
+        "id": "BGV_SAKI_H002A",
+        "file": "voice/BGV_saki_h002a.ogg"
       }
     },
     {
@@ -1576,8 +1705,8 @@
         "file": "EV053_05"
       },
       "bgv": {
-        "id": "BGV_MAKO_H001A",
-        "file": "voice/BGV_mako_h001a.ogg"
+        "id": "BGV_SAKI_H002A",
+        "file": "voice/BGV_saki_h002a.ogg"
       }
     },
     {
@@ -1596,8 +1725,8 @@
         "file": "EV053_05"
       },
       "bgv": {
-        "id": "BGV_MAKO_H001A",
-        "file": "voice/BGV_mako_h001a.ogg"
+        "id": "BGV_MAKO_H002A",
+        "file": "voice/BGV_mako_h002a.ogg"
       }
     },
     {
@@ -1612,8 +1741,8 @@
         "file": "EV053_05"
       },
       "bgv": {
-        "id": "BGV_MAKO_H001A",
-        "file": "voice/BGV_mako_h001a.ogg"
+        "id": "BGV_MAKO_H002A",
+        "file": "voice/BGV_mako_h002a.ogg"
       }
     },
     {
@@ -1632,8 +1761,8 @@
         "file": "EV053_06"
       },
       "bgv": {
-        "id": "BGV_MAKO_H001A",
-        "file": "voice/BGV_mako_h001a.ogg"
+        "id": "BGV_SAKI_H002A",
+        "file": "voice/BGV_saki_h002a.ogg"
       }
     },
     {
@@ -1652,8 +1781,8 @@
         "file": "EV053_06"
       },
       "bgv": {
-        "id": "BGV_MAKO_H001A",
-        "file": "voice/BGV_mako_h001a.ogg"
+        "id": "BGV_SAKI_H002A",
+        "file": "voice/BGV_saki_h002a.ogg"
       }
     },
     {
@@ -1670,8 +1799,8 @@
         "file": "EV053_06"
       },
       "bgv": {
-        "id": "BGV_MAKO_H001A",
-        "file": "voice/BGV_mako_h001a.ogg"
+        "id": "BGV_SAKI_H002A",
+        "file": "voice/BGV_saki_h002a.ogg"
       }
     },
     {
@@ -1690,8 +1819,8 @@
         "file": "EV053_06"
       },
       "bgv": {
-        "id": "BGV_MAKO_H001A",
-        "file": "voice/BGV_mako_h001a.ogg"
+        "id": "BGV_SAKI_H002A",
+        "file": "voice/BGV_saki_h002a.ogg"
       }
     },
     {
@@ -1706,8 +1835,8 @@
         "file": "EV053_06"
       },
       "bgv": {
-        "id": "BGV_MAKO_H001A",
-        "file": "voice/BGV_mako_h001a.ogg"
+        "id": "BGV_SAKI_H002A",
+        "file": "voice/BGV_saki_h002a.ogg"
       }
     },
     {
@@ -1726,14 +1855,15 @@
         "file": "EV053_06"
       },
       "bgv": {
-        "id": "BGV_MAKO_H001A",
-        "file": "voice/BGV_mako_h001a.ogg"
+        "id": "BGV_MAKO_H002A",
+        "file": "voice/BGV_mako_h002a.ogg"
       }
     },
     {
       "kind": "narration",
       "lines": [
         "每次碰到深处，都像亲吻龟头一样带来甜蜜的刺激。",
+        "",
         "而后整个阴道就像在吸入一样运动。",
         "收缩并向内拉扯着深处。"
       ],
@@ -1742,8 +1872,8 @@
         "file": "EV053_06"
       },
       "bgv": {
-        "id": "BGV_MAKO_H001A",
-        "file": "voice/BGV_mako_h001a.ogg"
+        "id": "BGV_MAKO_H002A",
+        "file": "voice/BGV_mako_h002a.ogg"
       }
     },
     {
@@ -1762,8 +1892,8 @@
         "file": "EV053_07"
       },
       "bgv": {
-        "id": "BGV_MAKO_H001A",
-        "file": "voice/BGV_mako_h001a.ogg"
+        "id": "BGV_SAKI_H002A",
+        "file": "voice/BGV_saki_h002a.ogg"
       }
     },
     {
@@ -1782,8 +1912,8 @@
         "file": "EV053_07"
       },
       "bgv": {
-        "id": "BGV_MAKO_H001A",
-        "file": "voice/BGV_mako_h001a.ogg"
+        "id": "BGV_SAKI_H002A",
+        "file": "voice/BGV_saki_h002a.ogg"
       }
     },
     {
@@ -1799,8 +1929,8 @@
         "file": "EV053_07"
       },
       "bgv": {
-        "id": "BGV_MAKO_H001A",
-        "file": "voice/BGV_mako_h001a.ogg"
+        "id": "BGV_SAKI_H002A",
+        "file": "voice/BGV_saki_h002a.ogg"
       }
     },
     {
@@ -1819,8 +1949,8 @@
         "file": "EV053_07"
       },
       "bgv": {
-        "id": "BGV_MAKO_H001A",
-        "file": "voice/BGV_mako_h001a.ogg"
+        "id": "BGV_SAKI_H002A",
+        "file": "voice/BGV_saki_h002a.ogg"
       }
     },
     {
@@ -1839,8 +1969,8 @@
         "file": "EV053_07"
       },
       "bgv": {
-        "id": "BGV_MAKO_H001A",
-        "file": "voice/BGV_mako_h001a.ogg"
+        "id": "BGV_SAKI_H002A",
+        "file": "voice/BGV_saki_h002a.ogg"
       }
     },
     {
@@ -1854,8 +1984,8 @@
         "file": "EV053_07"
       },
       "bgv": {
-        "id": "BGV_MAKO_H001A",
-        "file": "voice/BGV_mako_h001a.ogg"
+        "id": "BGV_SAKI_H002A",
+        "file": "voice/BGV_saki_h002a.ogg"
       }
     },
     {
@@ -1870,8 +2000,8 @@
         "要射了……啊啊，这个好深……！」"
       ],
       "bg": {
-        "label": "#EV053・アヘ蕩け・アヘ顔・浅く入れ・愛液",
-        "file": "EV053_07"
+        "label": "#EV053・アヘ蕩け・アヘ顔・深く入れ・愛液",
+        "file": "EV053_06"
       },
       "bgv": {
         "id": "BGV_SAKI_H003A",
@@ -1890,8 +2020,8 @@
         "啊啊……啊——这是什么！」"
       ],
       "bg": {
-        "label": "#EV053・アヘ蕩け・アヘ顔・浅く入れ・愛液",
-        "file": "EV053_07"
+        "label": "#EV053・アヘ蕩け・アヘ顔・深く入れ・愛液",
+        "file": "EV053_06"
       },
       "se": [
         {
@@ -1909,6 +2039,7 @@
       "lines": [
         "整个硬物被轻柔地握住。",
         "之前那种缓慢而单调的快感上加入了强烈的突出点。",
+        "",
         "下半身仿佛要融化在那种快感中。",
         "那种断断续续的紧缩感没有停止。"
       ],
@@ -1957,6 +2088,12 @@
         "label": "#EV053・アヘ蕩け・アヘ顔・深く入れ・愛液2",
         "file": "EV053_08"
       },
+      "se": [
+        {
+          "code": "8351A",
+          "file": "se/8351a.ogg"
+        }
+      ],
       "bgv": {
         "id": "BGV_SAKI_H003A",
         "file": "voice/BGV_saki_h003a.ogg"
@@ -1966,6 +2103,7 @@
       "kind": "narration",
       "lines": [
         "像按摩肉棒一样，阴道收缩着。",
+        "",
         "也就是说，每次运动都在高潮中。"
       ],
       "bg": {
@@ -1975,7 +2113,8 @@
       "bgv": {
         "id": "BGV_SAKI_H003A",
         "file": "voice/BGV_saki_h003a.ogg"
-      }
+      },
+      "flash": 2
     },
     {
       "kind": "line",
@@ -2050,14 +2189,15 @@
         "file": "EV053_09"
       },
       "bgv": {
-        "id": "BGV_SAKI_H003A",
-        "file": "voice/BGV_saki_h003a.ogg"
+        "id": "BGV_SAKI_H002A",
+        "file": "voice/BGV_saki_h002a.ogg"
       }
     },
     {
       "kind": "narration",
       "lines": [
         "察觉到自己的身体也变得异常炙热。",
+        "",
         "虽然没有大幅度的动作，但背上已经湿透了",
         "汗水。",
         "这就是多么舒服的感觉。"
@@ -2067,8 +2207,8 @@
         "file": "EV053_09"
       },
       "bgv": {
-        "id": "BGV_SAKI_H003A",
-        "file": "voice/BGV_saki_h003a.ogg"
+        "id": "BGV_SAKI_H002A",
+        "file": "voice/BGV_saki_h002a.ogg"
       }
     },
     {
@@ -2087,8 +2227,8 @@
         "file": "EV053_09"
       },
       "bgv": {
-        "id": "BGV_SAKI_H003A",
-        "file": "voice/BGV_saki_h003a.ogg"
+        "id": "BGV_SAKI_H002A",
+        "file": "voice/BGV_saki_h002a.ogg"
       }
     },
     {
@@ -2106,8 +2246,8 @@
         "file": "EV053_09"
       },
       "bgv": {
-        "id": "BGV_SAKI_H003A",
-        "file": "voice/BGV_saki_h003a.ogg"
+        "id": "BGV_SAKI_H002A",
+        "file": "voice/BGV_saki_h002a.ogg"
       }
     },
     {
@@ -2126,8 +2266,8 @@
         "file": "EV053_09"
       },
       "bgv": {
-        "id": "BGV_SAKI_H003A",
-        "file": "voice/BGV_saki_h003a.ogg"
+        "id": "BGV_SAKI_H002A",
+        "file": "voice/BGV_saki_h002a.ogg"
       }
     },
     {
@@ -2135,7 +2275,8 @@
       "lines": [
         "射精感在下腹部逐渐升高。",
         "根部变得更加切肤。",
-        "顺着滑溜溜的阴道往里挺进，轻轻触碰到龟头深处。"
+        "顺着滑溜溜的阴道往里挺进，轻轻触碰到龟头深处。",
+        ""
       ],
       "bg": {
         "label": "#EV053・アヘ蕩け・アヘ顔・浅く入れ・愛液2",
@@ -2148,8 +2289,8 @@
         }
       ],
       "bgv": {
-        "id": "BGV_SAKI_H003A",
-        "file": "voice/BGV_saki_h003a.ogg"
+        "id": "BGV_SAKI_H002A",
+        "file": "voice/BGV_saki_h002a.ogg"
       }
     },
     {
@@ -2168,8 +2309,8 @@
         "file": "EV053_10"
       },
       "bgv": {
-        "id": "BGV_SAKI_H003A",
-        "file": "voice/BGV_saki_h003a.ogg"
+        "id": "BGV_SAKI_H002A",
+        "file": "voice/BGV_saki_h002a.ogg"
       }
     },
     {
@@ -2188,8 +2329,8 @@
         "file": "EV053_10"
       },
       "bgv": {
-        "id": "BGV_SAKI_H003A",
-        "file": "voice/BGV_saki_h003a.ogg"
+        "id": "BGV_SAKI_H002A",
+        "file": "voice/BGV_saki_h002a.ogg"
       }
     },
     {
@@ -2203,8 +2344,8 @@
         "file": "EV053_10"
       },
       "bgv": {
-        "id": "BGV_SAKI_H003A",
-        "file": "voice/BGV_saki_h003a.ogg"
+        "id": "BGV_SAKI_H002A",
+        "file": "voice/BGV_saki_h002a.ogg"
       }
     },
     {
@@ -2223,8 +2364,8 @@
         "file": "EV053_10"
       },
       "bgv": {
-        "id": "BGV_SAKI_H003A",
-        "file": "voice/BGV_saki_h003a.ogg"
+        "id": "BGV_SAKI_H002A",
+        "file": "voice/BGV_saki_h002a.ogg"
       }
     },
     {
@@ -2232,15 +2373,16 @@
       "lines": [
         "深处吸吮着……",
         "只有龟头的尖端受到刺激。",
-        "一种麻痹般的快感从顶端流向根部。"
+        "一种麻痹般的快感从顶端流向根部。",
+        ""
       ],
       "bg": {
         "label": "#EV053・アヘ蕩け・イキ過ぎ・深く入れ・愛液2",
         "file": "EV053_10"
       },
       "bgv": {
-        "id": "BGV_SAKI_H003A",
-        "file": "voice/BGV_saki_h003a.ogg"
+        "id": "BGV_SAKI_H002A",
+        "file": "voice/BGV_saki_h002a.ogg"
       }
     },
     {
@@ -2258,14 +2400,16 @@
         "file": "EV053_10"
       },
       "bgv": {
-        "id": "BGV_SAKI_H003A",
-        "file": "voice/BGV_saki_h003a.ogg"
+        "id": "BGV_SAKI_H002A",
+        "file": "voice/BGV_saki_h002a.ogg"
       }
     },
     {
       "kind": "narration",
       "lines": [
+        "",
         "松软的阴道肉紧紧缠绕着整根肉棒，剧烈地蠕动。",
+        "",
         "明明没有进出，却像在抚摸一样。",
         "从腰的深处，一股热流慢慢升起。"
       ],
@@ -2274,8 +2418,8 @@
         "file": "EV053_10"
       },
       "bgv": {
-        "id": "BGV_SAKI_H003A",
-        "file": "voice/BGV_saki_h003a.ogg"
+        "id": "BGV_SAKI_H002A",
+        "file": "voice/BGV_saki_h002a.ogg"
       }
     },
     {
@@ -2293,8 +2437,22 @@
         "file": "EV053_10"
       },
       "bgv": {
-        "id": "BGV_SAKI_H003A",
-        "file": "voice/BGV_saki_h003a.ogg"
+        "id": "BGV_SAKI_H002A",
+        "file": "voice/BGV_saki_h002a.ogg"
+      }
+    },
+    {
+      "kind": "narration",
+      "lines": [
+        ""
+      ],
+      "bg": {
+        "label": "#EV053・アヘ蕩け・イキ過ぎ・深く入れ・愛液2",
+        "file": "EV053_10"
+      },
+      "bgv": {
+        "id": "BGV_SAKI_H002A",
+        "file": "voice/BGV_saki_h002a.ogg"
       }
     },
     {
@@ -2312,13 +2470,14 @@
         "file": "EV053_10"
       },
       "bgv": {
-        "id": "BGV_SAKI_H003A",
-        "file": "voice/BGV_saki_h003a.ogg"
+        "id": "BGV_SAKI_H002A",
+        "file": "voice/BGV_saki_h002a.ogg"
       }
     },
     {
       "kind": "narration",
       "lines": [
+        "",
         "伴随着深深的叹息，我射精了。"
       ],
       "bg": {
@@ -2332,8 +2491,8 @@
         }
       ],
       "bgv": {
-        "id": "BGV_SAKI_H003A",
-        "file": "voice/BGV_saki_h003a.ogg"
+        "id": "BGV_SAKI_H002A",
+        "file": "voice/BGV_saki_h002a.ogg"
       }
     },
     {
@@ -2347,8 +2506,8 @@
         "file": "EV053_11"
       },
       "bgv": {
-        "id": "BGV_SAKI_H003A",
-        "file": "voice/BGV_saki_h003a.ogg"
+        "id": "BGV_SAKI_H002A",
+        "file": "voice/BGV_saki_h002a.ogg"
       },
       "flash": 3
     },
@@ -2367,23 +2526,31 @@
         "file": "EV053_11"
       },
       "bgv": {
-        "id": "BGV_SAKI_H003A",
-        "file": "voice/BGV_saki_h003a.ogg"
+        "id": "BGV_SAKI_H002A",
+        "file": "voice/BGV_saki_h002a.ogg"
       }
     },
     {
       "kind": "narration",
       "lines": [
+        "",
         "早纪似乎也达到了高潮。",
-        "她张开双腿，颤抖着享受着流入的精液。"
+        "她张开双腿，颤抖着享受着流入的精液。",
+        ""
       ],
       "bg": {
         "label": "#EV053・アヘ蕩け・アヘ顔・深く入れ・射精",
         "file": "EV053_11"
       },
+      "se": [
+        {
+          "code": "8351A",
+          "file": "se/8351a.ogg"
+        }
+      ],
       "bgv": {
-        "id": "BGV_SAKI_H003A",
-        "file": "voice/BGV_saki_h003a.ogg"
+        "id": "BGV_SAKI_H002A",
+        "file": "voice/BGV_saki_h002a.ogg"
       }
     },
     {
@@ -2401,24 +2568,33 @@
         "file": "EV053_11"
       },
       "bgv": {
-        "id": "BGV_SAKI_H003A",
-        "file": "voice/BGV_saki_h003a.ogg"
-      }
+        "id": "BGV_SAKI_H002A",
+        "file": "voice/BGV_saki_h002a.ogg"
+      },
+      "flash": 2
     },
     {
       "kind": "narration",
       "lines": [
+        "",
         "射精中叠加的新刺激。",
         "平静的射精不停止。",
-        "温暖的东西从腰的深处穿过肉棒的中心，流入早纪身体里。"
+        "温暖的东西从腰的深处穿过肉棒的中心，流入早纪身体里。",
+        ""
       ],
       "bg": {
         "label": "#EV053・アヘ蕩け・アヘ顔・深く入れ・射精",
         "file": "EV053_11"
       },
+      "se": [
+        {
+          "code": "8201B",
+          "file": "se/8201b.ogg"
+        }
+      ],
       "bgv": {
-        "id": "BGV_SAKI_H003A",
-        "file": "voice/BGV_saki_h003a.ogg"
+        "id": "BGV_SAKI_H002A",
+        "file": "voice/BGV_saki_h002a.ogg"
       }
     },
     {
@@ -2436,13 +2612,15 @@
         "file": "EV053_11"
       },
       "bgv": {
-        "id": "BGV_SAKI_H003A",
-        "file": "voice/BGV_saki_h003a.ogg"
-      }
+        "id": "BGV_SAKI_H002A",
+        "file": "voice/BGV_saki_h002a.ogg"
+      },
+      "flash": 3
     },
     {
       "kind": "narration",
       "lines": [
+        "",
         "无论射多少次，快感都不会减少。",
         "温暖，平静和舒适的疲劳感。",
         "这种舒适感让我想要睡着。"
@@ -2452,8 +2630,8 @@
         "file": "EV053_11"
       },
       "bgv": {
-        "id": "BGV_SAKI_H003A",
-        "file": "voice/BGV_saki_h003a.ogg"
+        "id": "BGV_SAKI_H002A",
+        "file": "voice/BGV_saki_h002a.ogg"
       }
     },
     {
@@ -2471,14 +2649,16 @@
         "file": "EV053_12"
       },
       "bgv": {
-        "id": "BGV_SAKI_H003A",
-        "file": "voice/BGV_saki_h003a.ogg"
+        "id": "BGV_SAKI_H002A",
+        "file": "voice/BGV_saki_h002a.ogg"
       }
     },
     {
       "kind": "narration",
       "lines": [
+        "",
         "因为射得浅，精液从阴道口溢出来了。",
+        "",
         "这样下去的话会滴到真琴脸上。"
       ],
       "bg": {
@@ -2486,8 +2666,8 @@
         "file": "EV053_12"
       },
       "bgv": {
-        "id": "BGV_SAKI_H003A",
-        "file": "voice/BGV_saki_h003a.ogg"
+        "id": "BGV_SAKI_H002A",
+        "file": "voice/BGV_saki_h002a.ogg"
       }
     },
     {
@@ -2505,8 +2685,8 @@
         "file": "EV053_12"
       },
       "bgv": {
-        "id": "BGV_SAKI_H003A",
-        "file": "voice/BGV_saki_h003a.ogg"
+        "id": "BGV_SAKI_H002A",
+        "file": "voice/BGV_saki_h002a.ogg"
       }
     },
     {
@@ -2520,8 +2700,8 @@
         "file": "EV053_12"
       },
       "bgv": {
-        "id": "BGV_SAKI_H003A",
-        "file": "voice/BGV_saki_h003a.ogg"
+        "id": "BGV_SAKI_H002A",
+        "file": "voice/BGV_saki_h002a.ogg"
       }
     },
     {
@@ -2539,13 +2719,14 @@
         "file": "EV053_12"
       },
       "bgv": {
-        "id": "BGV_SAKI_H003A",
-        "file": "voice/BGV_saki_h003a.ogg"
+        "id": "BGV_SAKI_H002A",
+        "file": "voice/BGV_saki_h002a.ogg"
       }
     },
     {
       "kind": "narration",
       "lines": [
+        "",
         "令人惊讶的是，她说出了求欢的话语。",
         "这是作为女人的本能吗？",
         "然后，她的身体再次颤抖着。"
@@ -2555,8 +2736,8 @@
         "file": "EV053_12"
       },
       "bgv": {
-        "id": "BGV_SAKI_H003A",
-        "file": "voice/BGV_saki_h003a.ogg"
+        "id": "BGV_SAKI_H002A",
+        "file": "voice/BGV_saki_h002a.ogg"
       }
     },
     {
@@ -2575,18 +2756,20 @@
         "file": "EV053_12"
       },
       "bgv": {
-        "id": "BGV_SAKI_H003A",
-        "file": "voice/BGV_saki_h003a.ogg"
+        "id": "BGV_SAKI_H002A",
+        "file": "voice/BGV_saki_h002a.ogg"
       }
     },
     {
       "kind": "narration",
       "lines": [
         "在高潮的同时，她继续凝视着母亲小穴中溢出的精液。",
+        "",
         "即使怀孕后，真琴还是能让我享受。",
         "永远不会厌倦的玩具。",
         "不，可以说是我最喜欢的玩具。",
         "虽然这不是她的本意，但在某种意义上，她俘虏了我。",
+        "",
         "从现在开始，我将一直好好疼爱她。",
         "和母亲早纪一起……。"
       ],
@@ -2595,8 +2778,8 @@
         "file": "EV053_12"
       },
       "bgv": {
-        "id": "BGV_SAKI_H003A",
-        "file": "voice/BGV_saki_h003a.ogg"
+        "id": "BGV_SAKI_H002A",
+        "file": "voice/BGV_saki_h002a.ogg"
       }
     }
   ],

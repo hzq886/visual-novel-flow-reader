@@ -227,9 +227,9 @@ describe('言語切替 — setLocale（jp⇄cn）', () => {
   })
 
   it('cn の方が beats が少ないシーンでは index を末尾へクランプする', async () => {
-    // 002_AYAN007B は cn 訳が jp より僅かに短い（jp=149 / cn=147）。jp の末尾に居る状態で cn へ
+    // 006_TUBA001B は cn 訳が jp より僅かに短い（jp=51 / cn=50）。jp の末尾に居る状態で cn へ
     // 切替えると、cn に存在しない index は cn 末尾へクランプされる。件数はハードコードせず動的に検証。
-    const jp = await loadScene('002_AYAN007B', 'jp')
+    const jp = await loadScene('006_TUBA001B', 'jp')
     usePlayer.getState().load(jp)
     const jpLast = jp.beats.length - 1
     usePlayer.getState().goto(jpLast)

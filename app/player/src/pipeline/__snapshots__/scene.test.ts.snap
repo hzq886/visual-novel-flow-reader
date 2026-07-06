@@ -1,6 +1,6 @@
 // Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`parseScene — 002_AYAN001A (golden) > 完全スナップショット 1`] = `
+exports[`buildScene — 002_AYAN001A (golden・実データ) > 完全スナップショット 1`] = `
 {
   "beats": [
     {

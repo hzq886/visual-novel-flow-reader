@@ -162,6 +162,7 @@
       "kind": "narration",
       "lines": [
         "僕は大きく頷くと、わざと音をたてて、乳首を",
+        "吸いあげる。",
         "前にこうやって、悦んでいただけたから。",
         "今回も、お嬢様は身体を震わせて声をあげられた。"
       ],
@@ -467,12 +468,6 @@
         "label": "#EV081・偉そう",
         "file": "EV081_02"
       },
-      "se": [
-        {
-          "code": "8101A",
-          "file": "se/8101a.ogg"
-        }
-      ],
       "bgv": {
         "id": "BGV_MAKO_H001A",
         "file": "voice/BGV_mako_h001a.ogg"
@@ -490,8 +485,8 @@
         "動い、てるっ、カタいの……あっあっ！」"
       ],
       "bg": {
-        "label": "#EV081・偉そう",
-        "file": "EV081_02"
+        "label": "#EV081・眉寄せ",
+        "file": "EV081_01"
       },
       "bgv": {
         "id": "BGV_MAKO_H002A",
@@ -507,8 +502,8 @@
         "僕のモノにピッタリという感じだ。"
       ],
       "bg": {
-        "label": "#EV081・偉そう",
-        "file": "EV081_02"
+        "label": "#EV081・眉寄せ",
+        "file": "EV081_01"
       },
       "bgv": {
         "id": "BGV_MAKO_H002A",
@@ -527,8 +522,8 @@
         "あふうっ、ふぁっ、あっ……あぁぁっ！」"
       ],
       "bg": {
-        "label": "#EV081・偉そう",
-        "file": "EV081_02"
+        "label": "#EV081・眉寄せ",
+        "file": "EV081_01"
       },
       "bgv": {
         "id": "BGV_MAKO_H002A",
@@ -545,8 +540,8 @@
         "抜き差しに夢中になってしまう。"
       ],
       "bg": {
-        "label": "#EV081・偉そう",
-        "file": "EV081_02"
+        "label": "#EV081・眉寄せ",
+        "file": "EV081_01"
       },
       "bgv": {
         "id": "BGV_MAKO_H002A",
@@ -565,8 +560,8 @@
         "オマ×コを、んぁっ、かき混ぜるのよっ！」"
       ],
       "bg": {
-        "label": "#EV081・偉そう",
-        "file": "EV081_02"
+        "label": "#EV081・眉寄せ",
+        "file": "EV081_01"
       },
       "bgv": {
         "id": "BGV_MAKO_H002A",
@@ -581,15 +576,9 @@
         "結合部から透明の蜜が溢れだして、股間を濡らした。"
       ],
       "bg": {
-        "label": "#EV081・偉そう",
-        "file": "EV081_02"
+        "label": "#EV081・眉寄せ",
+        "file": "EV081_01"
       },
-      "se": [
-        {
-          "code": "8131B",
-          "file": "se/8131b.ogg"
-        }
-      ],
       "bgv": {
         "id": "BGV_MAKO_H002A",
         "file": "voice/BGV_mako_h002a.ogg"
@@ -607,8 +596,8 @@
         "もっとゆっくり、ぐる～っと……あぁんっ！」"
       ],
       "bg": {
-        "label": "#EV081・偉そう",
-        "file": "EV081_02"
+        "label": "#EV081・眉寄せ",
+        "file": "EV081_01"
       },
       "bgv": {
         "id": "BGV_MAKO_H002A",
@@ -623,8 +612,8 @@
         "狭い膣内が、どんどん熱くなっていく。"
       ],
       "bg": {
-        "label": "#EV081・偉そう",
-        "file": "EV081_02"
+        "label": "#EV081・眉寄せ",
+        "file": "EV081_01"
       },
       "bgv": {
         "id": "BGV_MAKO_H002A",
@@ -643,8 +632,8 @@
         "くふうっ、ううっ！　いいっ、んっはぁっ！」"
       ],
       "bg": {
-        "label": "#EV081・偉そう",
-        "file": "EV081_02"
+        "label": "#EV081・眉寄せ",
+        "file": "EV081_01"
       },
       "bgv": {
         "id": "BGV_MAKO_H002A",
@@ -667,8 +656,8 @@
         "ますます熱心に舐めまくった。"
       ],
       "bg": {
-        "label": "#EV081・偉そう",
-        "file": "EV081_02"
+        "label": "#EV081・眉寄せ",
+        "file": "EV081_01"
       },
       "bgv": {
         "id": "BGV_MAKO_H002A",
@@ -744,12 +733,6 @@
         "label": "#EV081・うっとり蕩け・愛液",
         "file": "EV081_03"
       },
-      "se": [
-        {
-          "code": "8131A",
-          "file": "se/8131a.ogg"
-        }
-      ],
       "bgv": {
         "id": "BGV_MAKO_H002A",
         "file": "voice/BGV_mako_h002a.ogg"
@@ -1061,12 +1044,6 @@
         "label": "#EV081・うっとり蕩け・愛液",
         "file": "EV081_03"
       },
-      "se": [
-        {
-          "code": "8101C",
-          "file": "se/8101c.ogg"
-        }
-      ],
       "bgv": {
         "id": "BGV_MAKO_H002A",
         "file": "voice/BGV_mako_h002a.ogg"
@@ -1426,6 +1403,12 @@
         "label": "#EV081・目閉じ絶頂・精液",
         "file": "EV081_05"
       },
+      "se": [
+        {
+          "code": "8201B",
+          "file": "se/8201b.ogg"
+        }
+      ],
       "bgv": {
         "id": "BGV_MAKO_H002A",
         "file": "voice/BGV_mako_h002a.ogg"
@@ -1449,7 +1432,8 @@
       "bgv": {
         "id": "BGV_MAKO_H002A",
         "file": "voice/BGV_mako_h002a.ogg"
-      }
+      },
+      "flash": 3
     },
     {
       "kind": "narration",

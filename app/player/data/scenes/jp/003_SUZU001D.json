@@ -205,12 +205,6 @@
       "lines": [
         "「うん、それでいいと思う……僕も、いつも通りに",
         "オナニーをするから」"
-      ],
-      "se": [
-        {
-          "code": "8131A",
-          "file": "se/8131a.ogg"
-        }
       ]
     },
     {
@@ -860,12 +854,6 @@
         "label": "#EV019・眉寄せ感じる・クリつまみ・興奮・モノシゴき",
         "file": "EV019_04"
       },
-      "se": [
-        {
-          "code": "8131B",
-          "file": "se/8131b.ogg"
-        }
-      ],
       "bgv": {
         "id": "BGV_SUZU_H001A",
         "file": "voice/BGV_suzu_h001a.ogg"
@@ -1048,12 +1036,6 @@
         "label": "#EV019・目細め切なげ・クリつまみ・興奮・モノシゴき・愛液",
         "file": "EV019_05"
       },
-      "se": [
-        {
-          "code": "8131C",
-          "file": "se/8131c.ogg"
-        }
-      ],
       "bgv": {
         "id": "BGV_SUZU_H001A",
         "file": "voice/BGV_suzu_h001a.ogg"
@@ -1910,6 +1892,12 @@
         "label": "#EV019・うっとり蕩け・クリつまみ・興奮・モノシゴき・愛液",
         "file": "EV019_07"
       },
+      "se": [
+        {
+          "code": "8351A",
+          "file": "se/8351a.ogg"
+        }
+      ],
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
@@ -1935,7 +1923,8 @@
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
-      }
+      },
+      "flash": 2
     },
     {
       "kind": "narration",
@@ -2003,6 +1992,12 @@
         "label": "#EV019・うっとり蕩け・クリつまみ・興奮・モノシゴき・愛液2・射精",
         "file": "EV019_08"
       },
+      "se": [
+        {
+          "code": "8351A",
+          "file": "se/8351a.ogg"
+        }
+      ],
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
@@ -2023,7 +2018,8 @@
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
-      }
+      },
+      "flash": 2
     },
     {
       "kind": "line",
@@ -2057,6 +2053,12 @@
         "label": "#EV019・うっとり蕩け・クリつまみ・興奮・モノシゴき・愛液2・射精",
         "file": "EV019_08"
       },
+      "se": [
+        {
+          "code": "8201B",
+          "file": "se/8201b.ogg"
+        }
+      ],
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
@@ -2080,7 +2082,8 @@
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
-      }
+      },
+      "flash": 2
     },
     {
       "kind": "narration",

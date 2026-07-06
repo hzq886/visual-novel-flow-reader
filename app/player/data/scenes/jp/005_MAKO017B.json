@@ -421,9 +421,9 @@
         "file": "BG16_02_00"
       },
       "sprite": {
-        "label": "真琴（中）・通常２（夕）・制服０１・驚き１",
+        "label": "真琴（中）・通常２（夕）・制服０１・通常１",
         "body": "CH04B_02_02_004_01",
-        "face": "CH04B_02_02_104_01",
+        "face": "CH04B_02_02_101_01",
         "offset": [
           238,
           135
@@ -442,9 +442,9 @@
         "file": "BG16_02_00"
       },
       "sprite": {
-        "label": "真琴（中）・通常２（夕）・制服０１・驚き１",
+        "label": "真琴（中）・通常２（夕）・制服０１・通常１",
         "body": "CH04B_02_02_004_01",
-        "face": "CH04B_02_02_104_01",
+        "face": "CH04B_02_02_101_01",
         "offset": [
           238,
           135
@@ -462,9 +462,9 @@
         "file": "BG16_02_00"
       },
       "sprite": {
-        "label": "真琴（中）・通常２（夕）・制服０１・驚き１",
+        "label": "真琴（中）・通常２（夕）・制服０１・通常１",
         "body": "CH04B_02_02_004_01",
-        "face": "CH04B_02_02_104_01",
+        "face": "CH04B_02_02_101_01",
         "offset": [
           238,
           135
@@ -481,9 +481,9 @@
         "file": "BG16_02_00"
       },
       "sprite": {
-        "label": "真琴（中）・通常２（夕）・制服０１・驚き１",
+        "label": "真琴（中）・通常２（夕）・制服０１・通常１",
         "body": "CH04B_02_02_004_01",
-        "face": "CH04B_02_02_104_01",
+        "face": "CH04B_02_02_101_01",
         "offset": [
           238,
           135
@@ -1045,8 +1045,8 @@
         "出してよ……舌の刺激で味を変えるんだから！」"
       ],
       "bg": {
-        "label": "#EV027・目閉じ没頭・押し付けキス・密着・通常",
-        "file": "EV027_03"
+        "label": "#EV027・通常・ムッ・少し離れ・通常",
+        "file": "EV027_01"
       },
       "bgv": {
         "id": "BGV_MAKO_F001A",
@@ -1061,8 +1061,8 @@
         "真琴はすぐに同じように舌を出してきた。"
       ],
       "bg": {
-        "label": "#EV027・目閉じ没頭・押し付けキス・密着・通常",
-        "file": "EV027_03"
+        "label": "#EV027・通常・ムッ・少し離れ・通常",
+        "file": "EV027_01"
       },
       "bgv": {
         "id": "BGV_MAKO_F001A",
@@ -2174,12 +2174,12 @@
         "だいぶ刺激されたと思うわ」"
       ],
       "bg": {
-        "label": "#EV027・軽くアヘ・激しく吸いつき・密着・目閉じ",
-        "file": "EV027_09"
+        "label": "#EV027・うっとり蕩け・激しく吸いつき・密着・目閉じ",
+        "file": "EV027_08"
       },
       "bgv": {
-        "id": "BGV_MAKO_F002A",
-        "file": "voice/BGV_mako_f002a.ogg"
+        "id": "BGV_MAKO_F001A",
+        "file": "voice/BGV_mako_f001a.ogg"
       }
     },
     {
@@ -2190,12 +2190,12 @@
         "動かしてくる。"
       ],
       "bg": {
-        "label": "#EV027・軽くアヘ・激しく吸いつき・密着・目閉じ",
-        "file": "EV027_09"
+        "label": "#EV027・うっとり蕩け・激しく吸いつき・密着・目閉じ",
+        "file": "EV027_08"
       },
       "bgv": {
-        "id": "BGV_MAKO_F002A",
-        "file": "voice/BGV_mako_f002a.ogg"
+        "id": "BGV_MAKO_F001A",
+        "file": "voice/BGV_mako_f001a.ogg"
       }
     },
     {
@@ -2210,12 +2210,12 @@
         "ちゅれろぉ、んろぉ、れろぉぉっ……」"
       ],
       "bg": {
-        "label": "#EV027・軽くアヘ・激しく吸いつき・密着・目閉じ",
-        "file": "EV027_09"
+        "label": "#EV027・うっとり蕩け・激しく吸いつき・密着・目閉じ",
+        "file": "EV027_08"
       },
       "bgv": {
-        "id": "BGV_MAKO_F002A",
-        "file": "voice/BGV_mako_f002a.ogg"
+        "id": "BGV_MAKO_F001A",
+        "file": "voice/BGV_mako_f001a.ogg"
       }
     },
     {
@@ -2225,12 +2225,12 @@
         "そのドロドロの唾液を、舌で擦りつけ合う。"
       ],
       "bg": {
-        "label": "#EV027・軽くアヘ・激しく吸いつき・密着・目閉じ",
-        "file": "EV027_09"
+        "label": "#EV027・うっとり蕩け・激しく吸いつき・密着・目閉じ",
+        "file": "EV027_08"
       },
       "bgv": {
-        "id": "BGV_MAKO_F002A",
-        "file": "voice/BGV_mako_f002a.ogg"
+        "id": "BGV_MAKO_F001A",
+        "file": "voice/BGV_mako_f001a.ogg"
       }
     },
     {
@@ -2245,12 +2245,12 @@
         "生まれ変わったみたいに、敏感になってるぅ」"
       ],
       "bg": {
-        "label": "#EV027・軽くアヘ・激しく吸いつき・密着・目閉じ",
-        "file": "EV027_09"
+        "label": "#EV027・うっとり蕩け・激しく吸いつき・密着・目閉じ",
+        "file": "EV027_08"
       },
       "bgv": {
-        "id": "BGV_MAKO_F002A",
-        "file": "voice/BGV_mako_f002a.ogg"
+        "id": "BGV_MAKO_F001A",
+        "file": "voice/BGV_mako_f001a.ogg"
       }
     },
     {
@@ -2263,12 +2263,12 @@
         "射精の余韻がどんどん増していく。"
       ],
       "bg": {
-        "label": "#EV027・軽くアヘ・激しく吸いつき・密着・目閉じ",
-        "file": "EV027_09"
+        "label": "#EV027・うっとり蕩け・激しく吸いつき・密着・目閉じ",
+        "file": "EV027_08"
       },
       "bgv": {
-        "id": "BGV_MAKO_F002A",
-        "file": "voice/BGV_mako_f002a.ogg"
+        "id": "BGV_MAKO_F001A",
+        "file": "voice/BGV_mako_f001a.ogg"
       }
     },
     {
@@ -2283,12 +2283,12 @@
         "舐めていたい……んちゅうっ！」"
       ],
       "bg": {
-        "label": "#EV027・軽くアヘ・激しく吸いつき・密着・目閉じ",
-        "file": "EV027_09"
+        "label": "#EV027・うっとり蕩け・激しく吸いつき・密着・目閉じ",
+        "file": "EV027_08"
       },
       "bgv": {
-        "id": "BGV_MAKO_F002A",
-        "file": "voice/BGV_mako_f002a.ogg"
+        "id": "BGV_MAKO_F001A",
+        "file": "voice/BGV_mako_f001a.ogg"
       }
     },
     {
@@ -2298,12 +2298,12 @@
         "そして、僕たちはしばらく舌を絡ませていた。"
       ],
       "bg": {
-        "label": "#EV027・軽くアヘ・激しく吸いつき・密着・目閉じ",
-        "file": "EV027_09"
+        "label": "#EV027・うっとり蕩け・激しく吸いつき・密着・目閉じ",
+        "file": "EV027_08"
       },
       "bgv": {
-        "id": "BGV_MAKO_F002A",
-        "file": "voice/BGV_mako_f002a.ogg"
+        "id": "BGV_MAKO_F001A",
+        "file": "voice/BGV_mako_f001a.ogg"
       }
     },
     {
@@ -2317,8 +2317,8 @@
         "file": "EV027_10"
       },
       "bgv": {
-        "id": "BGV_MAKO_F002A",
-        "file": "voice/BGV_mako_f002a.ogg"
+        "id": "BGV_MAKO_F001A",
+        "file": "voice/BGV_mako_f001a.ogg"
       }
     },
     {
@@ -2337,8 +2337,8 @@
         "file": "EV027_10"
       },
       "bgv": {
-        "id": "BGV_MAKO_F002A",
-        "file": "voice/BGV_mako_f002a.ogg"
+        "id": "BGV_MAKO_F001A",
+        "file": "voice/BGV_mako_f001a.ogg"
       }
     },
     {
@@ -2355,8 +2355,8 @@
         "file": "EV027_10"
       },
       "bgv": {
-        "id": "BGV_MAKO_F002A",
-        "file": "voice/BGV_mako_f002a.ogg"
+        "id": "BGV_MAKO_F001A",
+        "file": "voice/BGV_mako_f001a.ogg"
       }
     },
     {
@@ -2375,22 +2375,25 @@
         "file": "EV027_10"
       },
       "bgv": {
-        "id": "BGV_MAKO_F002A",
-        "file": "voice/BGV_mako_f002a.ogg"
+        "id": "BGV_MAKO_F001A",
+        "file": "voice/BGV_mako_f001a.ogg"
       }
     },
     {
       "kind": "narration",
       "lines": [
-        "お礼を言いたいのは、こちらのほうだ……。"
+        "お礼を言いたいのは、こちらのほうだ……。",
+        "………。",
+        "……。",
+        "…。"
       ],
       "bg": {
-        "label": "#EV027・うっとり蕩け・舌先触れ2・少し離れ・通常",
-        "file": "EV027_10"
+        "label": "#背景・黒一色",
+        "file": "BG_BLACK"
       },
       "bgv": {
-        "id": "BGV_MAKO_F002A",
-        "file": "voice/BGV_mako_f002a.ogg"
+        "id": "BGV_MAKO_F001A",
+        "file": "voice/BGV_mako_f001a.ogg"
       }
     }
   ],

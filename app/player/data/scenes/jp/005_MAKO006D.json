@@ -486,6 +486,12 @@
         "label": "#EV052・ちょっと驚き・驚き焦り・挿入・愛液",
         "file": "EV052_07"
       },
+      "se": [
+        {
+          "code": "8011B",
+          "file": "se/8011b.ogg"
+        }
+      ],
       "bgv": {
         "id": "BGV_SAKI_H001B",
         "file": "voice/BGV_saki_h001b.ogg"
@@ -671,12 +677,6 @@
         "label": "#EV052・眉寄せ我慢2・驚き焦り・挿入・愛液",
         "file": "EV052_08"
       },
-      "se": [
-        {
-          "code": "8131A",
-          "file": "se/8131a.ogg"
-        }
-      ],
       "bgv": {
         "id": "BGV_SAKI_H002B",
         "file": "voice/BGV_saki_h002b.ogg"
@@ -780,6 +780,12 @@
         "label": "#EV052・眉寄せ我慢2・驚き焦り・挿入・愛液",
         "file": "EV052_08"
       },
+      "se": [
+        {
+          "code": "8011B",
+          "file": "se/8011b.ogg"
+        }
+      ],
       "bgv": {
         "id": "BGV_SAKI_H002B",
         "file": "voice/BGV_saki_h002b.ogg"
@@ -875,12 +881,6 @@
         "label": "#EV052・眉寄せ我慢2・驚き焦り・挿入・愛液",
         "file": "EV052_08"
       },
-      "se": [
-        {
-          "code": "8101A",
-          "file": "se/8101a.ogg"
-        }
-      ],
       "bgv": {
         "id": "BGV_SAKI_H002B",
         "file": "voice/BGV_saki_h002b.ogg"
@@ -917,6 +917,12 @@
         "label": "#EV052・うっとり・驚き焦り・挿入・愛液",
         "file": "EV052_09"
       },
+      "se": [
+        {
+          "code": "8361A",
+          "file": "se/8361a.ogg"
+        }
+      ],
       "bgv": {
         "id": "BGV_SAKI_H002B",
         "file": "voice/BGV_saki_h002b.ogg"
@@ -992,8 +998,8 @@
         "file": "EV052_09"
       },
       "bgv": {
-        "id": "BGV_SAKI_H002B",
-        "file": "voice/BGV_saki_h002b.ogg"
+        "id": "BGV_SAKI_H001B",
+        "file": "voice/BGV_saki_h001b.ogg"
       }
     },
     {
@@ -1007,8 +1013,8 @@
         "file": "EV052_09"
       },
       "bgv": {
-        "id": "BGV_SAKI_H002B",
-        "file": "voice/BGV_saki_h002b.ogg"
+        "id": "BGV_SAKI_H001B",
+        "file": "voice/BGV_saki_h001b.ogg"
       }
     },
     {
@@ -1027,8 +1033,8 @@
         "file": "EV052_10"
       },
       "bgv": {
-        "id": "BGV_SAKI_H002B",
-        "file": "voice/BGV_saki_h002b.ogg"
+        "id": "BGV_SAKI_H001B",
+        "file": "voice/BGV_saki_h001b.ogg"
       }
     },
     {
@@ -1043,8 +1049,8 @@
         "file": "EV052_10"
       },
       "bgv": {
-        "id": "BGV_SAKI_H002B",
-        "file": "voice/BGV_saki_h002b.ogg"
+        "id": "BGV_SAKI_H001B",
+        "file": "voice/BGV_saki_h001b.ogg"
       }
     },
     {
@@ -1063,8 +1069,8 @@
         "file": "EV052_10"
       },
       "bgv": {
-        "id": "BGV_SAKI_H002B",
-        "file": "voice/BGV_saki_h002b.ogg"
+        "id": "BGV_SAKI_H001B",
+        "file": "voice/BGV_saki_h001b.ogg"
       }
     },
     {
@@ -1079,8 +1085,8 @@
         "file": "EV052_10"
       },
       "bgv": {
-        "id": "BGV_SAKI_H002B",
-        "file": "voice/BGV_saki_h002b.ogg"
+        "id": "BGV_SAKI_H001B",
+        "file": "voice/BGV_saki_h001b.ogg"
       }
     },
     {
@@ -1236,7 +1242,8 @@
       "lines": [
         "内腿やお腹がぴくっぴくっと震える。",
         "動きのたびに、派手に愛液が飛び散った。",
-        "僕のほうも、敏感な亀頭が強めに擦られて、すごく"
+        "僕のほうも、敏感な亀頭が強めに擦られて、すごく",
+        "気持ちがいい。"
       ],
       "bg": {
         "label": "#EV052・うっとり・頬染め・挿入・愛液",
@@ -1351,12 +1358,6 @@
         "label": "#EV052・うっとり・頬染め・挿入・愛液",
         "file": "EV052_10"
       },
-      "se": [
-        {
-          "code": "8101C",
-          "file": "se/8101c.ogg"
-        }
-      ],
       "bgv": {
         "id": "BGV_SAKI_H002B",
         "file": "voice/BGV_saki_h002b.ogg"
@@ -1667,6 +1668,12 @@
         "label": "#EV052・蕩け・頬染め・挿入・愛液",
         "file": "EV052_11"
       },
+      "se": [
+        {
+          "code": "8011B",
+          "file": "se/8011b.ogg"
+        }
+      ],
       "bgv": {
         "id": "BGV_SAKI_H002B",
         "file": "voice/BGV_saki_h002b.ogg"
@@ -1684,8 +1691,8 @@
         "はぁぁんっ！　子宮に、いっぱい出してぇ！」"
       ],
       "bg": {
-        "label": "#EV052・蕩け・頬染め・挿入・愛液",
-        "file": "EV052_11"
+        "label": "#EV052・うっとり・頬染め・挿入・愛液",
+        "file": "EV052_10"
       },
       "bgv": {
         "id": "BGV_SAKI_H002B",
@@ -1701,8 +1708,8 @@
         "ぐぐっと突き出てしまう。"
       ],
       "bg": {
-        "label": "#EV052・蕩け・頬染め・挿入・愛液",
-        "file": "EV052_11"
+        "label": "#EV052・うっとり・頬染め・挿入・愛液",
+        "file": "EV052_10"
       },
       "bgv": {
         "id": "BGV_SAKI_H002B",
@@ -1721,8 +1728,8 @@
         "欲しがって、子宮下がってきてるのっ！」"
       ],
       "bg": {
-        "label": "#EV052・蕩け・頬染め・挿入・愛液",
-        "file": "EV052_11"
+        "label": "#EV052・うっとり・頬染め・挿入・愛液",
+        "file": "EV052_10"
       },
       "bgv": {
         "id": "BGV_SAKI_H002B",
@@ -1739,8 +1746,8 @@
         "先っぽが覆われるような感触に、ゾクゾクする。"
       ],
       "bg": {
-        "label": "#EV052・蕩け・頬染め・挿入・愛液",
-        "file": "EV052_11"
+        "label": "#EV052・うっとり・頬染め・挿入・愛液",
+        "file": "EV052_10"
       },
       "bgv": {
         "id": "BGV_SAKI_H002B",
@@ -1759,8 +1766,8 @@
         "もうダメ、身体が妊娠したがってるぅっ！」"
       ],
       "bg": {
-        "label": "#EV052・蕩け・頬染め・挿入・愛液",
-        "file": "EV052_11"
+        "label": "#EV052・うっとり・頬染め・挿入・愛液",
+        "file": "EV052_10"
       },
       "bgv": {
         "id": "BGV_SAKI_H002B",
@@ -1774,8 +1781,8 @@
         "引き締まったお尻をぶつけてくるようにして。"
       ],
       "bg": {
-        "label": "#EV052・蕩け・頬染め・挿入・愛液",
-        "file": "EV052_11"
+        "label": "#EV052・うっとり・頬染め・挿入・愛液",
+        "file": "EV052_10"
       },
       "bgv": {
         "id": "BGV_SAKI_H002B",
@@ -2237,6 +2244,12 @@
         "label": "#EV052・蕩け・頬染め・挿入・精液",
         "file": "EV052_12"
       },
+      "se": [
+        {
+          "code": "8201B",
+          "file": "se/8201b.ogg"
+        }
+      ],
       "bgv": {
         "id": "BGV_SAKI_H003B",
         "file": "voice/BGV_saki_h003b.ogg"
@@ -2260,7 +2273,8 @@
       "bgv": {
         "id": "BGV_SAKI_H003B",
         "file": "voice/BGV_saki_h003b.ogg"
-      }
+      },
+      "flash": 3
     },
     {
       "kind": "line",
@@ -2365,6 +2379,7 @@
       "lines": [
         "精液でヌルヌルになった子宮口が吸いついてくる。",
         "射精後の亀頭を舐められているようで、すごく",
+        "気持ちがいい。",
         "彼女は蕩けきった顔で、ため息を吐いた。"
       ],
       "bg": {

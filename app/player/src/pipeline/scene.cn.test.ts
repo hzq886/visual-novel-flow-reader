@@ -1,87 +1,80 @@
 import { describe, it, expect } from 'vitest'
-import { parseScene } from './scene'
+import { buildScene } from './scene'
 import { resolveBg, resolveSprite } from './defs'
-import { BgsetTable, ItemsTable, Scene, SprsetTable } from './types'
+import { BgsetTable, Scene, SceneEventsBundle, SprsetTable, type SceneEvent } from './types'
 import sprsetJson from '@data/sprites.json'
 import bgsetJson from '@data/backgrounds.json'
-import itemsFile from '@data/items.json'
+import cnEventsRaw from '@data/scene-events/cn.json'
+import jpEventsRaw from '@data/scene-events/jp.json'
 
 const sprset = SprsetTable.parse(sprsetJson)
 const bgset = BgsetTable.parse(bgsetJson)
-// アイテムCG窓の仕様表（HU-70）。cn 実データで parse することで nextText（cn）との整合も検証される。
-const items = ItemsTable.parse(itemsFile.items)
+const cn = SceneEventsBundle.parse(cnEventsRaw)
+const jp = SceneEventsBundle.parse(jpEventsRaw)
 
-// cn ロケール回帰（HU-29）: 中国語版ソースは別タグ語彙（[cn]=本文 / [ascii]=id / [jp]=note）を使う。
-// parseScene のタグ正規化で jp と同じ状態機械に載り、**構造メタ（kind/voice/bg/sprite ラベル）は
-// jp と一致**（cn の note は日本語ラベルのまま＝jp 定義で解決可能）、**本文（who/lines）だけが翻訳**に
-// なることを担保する。これが崩れると cn の bg/sprite/voice 解決が破綻する。
-const cnRaws = import.meta.glob('../../../../data_extract/text/md_scr_text_cn/*.txt', {
-  query: '?raw',
-  import: 'default',
-  eager: true,
-}) as Record<string, string>
+// cn ロケール回帰（HU-29 / HU-74）: cn は bytecode で本文・話者・タイトルのみ中国語、bg/sprite の
+// note ラベルは日本語のまま（Shift-JIS 格納）。build 結果の構造メタ（bg/sprite ラベル）は jp と一致し、
+// 本文だけ翻訳になることを担保する。これが崩れると cn の bg/sprite/voice 解決が破綻する。
+const buildCn = (code: string) =>
+  buildScene(
+    { title: cn[code].title, events: cn[code].events as SceneEvent[] },
+    { code, locale: 'cn' },
+  )
+const hasText = (code: string) => cn[code].events.some((e) => e[0] === 'text')
 
-const codeOf = (path: string) =>
-  path
-    .split('/')
-    .pop()!
-    .replace(/\.txt$/, '')
-const cn = new Map(
-  Object.entries(cnRaws)
-    .map(([p, raw]) => [codeOf(p), raw] as const)
-    .filter(([code]) => /^[0-9]/.test(code)),
-)
-const hasText = (raw: string) => /\[(text|cn)\]/.test(raw)
-
-describe('parseScene — cn ロケール（別タグ語彙の正規化）', () => {
+describe('buildScene — cn ロケール（bytecode 一次・言語別復号）', () => {
   it('単一シーン 002_AYAN001A: 構造は jp と同形・本文は中国語', () => {
-    const s = parseScene(cn.get('002_AYAN001A')!, { code: '002_AYAN001A', locale: 'cn', items })
+    const s = buildCn('002_AYAN001A')
     expect(() => Scene.parse(s)).not.toThrow()
     expect(s.locale).toBe('cn')
-    expect(s.title).toContain('绫菜') // 中国語タイトル（古桥绫菜\N去咖啡馆）
-    // note は日本語のまま → 背景/立ち絵ラベルが jp と一致する（冒頭 beat は [id] BG_BLACK＝
-    // #背景・黒一色 になるため、喫茶店の bg を持つ beat を明示的に探す）。
-    const cafeBg = s.beats.find((b) => b.bg?.label === '#背景・喫茶店（夕）')
-    expect(cafeBg).toBeDefined()
-    // 台詞 beat の voice ID は jp と同一（音声は共用）。
+    expect(s.title).toContain('绫菜') // 中国語タイトル
+    // bg/sprite ラベルは日本語のまま（jp 定義で解決）。
+    expect(s.beats.find((b) => b.bg?.label === '#背景・喫茶店（夕）')).toBeDefined()
+    // 台詞 beat の voice ID は jp と同一（音声共用）。
     const line = s.beats.find((b) => b.kind === 'line' && b.voice)
     expect(line && line.kind === 'line' ? line.voice?.id : null).toBe('AYAN_002_AYAN001A_001')
     // 話者名・本文は中国語。
     expect(line && line.kind === 'line' ? line.who : '').toContain('绫菜')
   })
 
-  it('全 cn コンテンツシーンが parse でき、スキーマ適合・beats>0', () => {
+  it('全 cn 内容シーンが build でき、スキーマ適合・beats>0', () => {
     const failures: string[] = []
     let content = 0
-    for (const [code, raw] of cn) {
-      if (!hasText(raw)) continue
+    for (const code of Object.keys(cn).sort()) {
+      if (!hasText(code)) continue
       content++
       try {
-        const s = parseScene(raw, { code, locale: 'cn', items })
+        const s = buildCn(code)
         Scene.parse(s)
-        if (s.beats.length === 0) failures.push(`${code}: [cn] があるのに beats 空`)
+        if (s.beats.length === 0) failures.push(`${code}: text ありなのに beats 空`)
       } catch (e) {
         failures.push(`${code}: ${(e as Error).message}`)
       }
     }
     expect(failures).toEqual([])
-    // cn コンテンツシーン数（コーパス変化時に更新）。jp=288 に対し cn=287（002_AYAN004AB は cn 本文なし）。
-    expect(content).toBe(287)
+    expect(content).toBe(286) // cn 内容シーン数（jp と一致）
   })
 
-  // cn の note（[jp] タグ）は日本語ラベルのまま＝jp 定義（backgrounds/sprites.json）で解決される。
-  // 個々の beat 位置は翻訳の行マージで jp とずれ得る（位置維持はベストエフォート）が、cn が産む
-  // bg/sprite ラベルは **必ず jp 定義テーブルで解決**できなければならない。これが cn 解決の本質的
-  // 健全性条件（崩れると cn だけ bg/sprite が未解決になる）。CI は validate を走らせないため、この
-  // 単体テストが cn 解決可能性の回帰ガードになる。
-  // （voice はロケール非依存＝jp/cn 共用 manifest で解決。解決率は validate:cn で担保。cn は jp と
-  //  beat 分割が異なるため voice 割当 beat の集合は一致しない＝ここでは検査しない。）
+  it('cn の bg/sprite 構造は jp と一致（text/speaker 以外のイベントが言語非依存）', () => {
+    // bytecode 抽出時に jp/cn 構造一致は検証済（extract-scenes）。build 後の bg/sprite ラベル列でも確認。
+    const mism: string[] = []
+    for (const code of Object.keys(cn).sort()) {
+      if (!(code in jp)) continue
+      const labels = (b: SceneEvent[]) =>
+        b.filter((e) => e[0] === 'bg' || e[0] === 'sprite').map((e) => JSON.stringify(e))
+      const j = labels(jp[code].events as SceneEvent[])
+      const c = labels(cn[code].events as SceneEvent[])
+      if (JSON.stringify(j) !== JSON.stringify(c)) mism.push(code)
+    }
+    expect(mism).toEqual([])
+  })
+
   it('cn の全 bg/sprite ラベルが jp 定義テーブルで解決する', () => {
     const unresolvedBg: string[] = []
     const unresolvedSprite: string[] = []
-    for (const [code, raw] of cn) {
-      if (!hasText(raw)) continue
-      for (const b of parseScene(raw, { code, locale: 'cn', items }).beats) {
+    for (const code of Object.keys(cn).sort()) {
+      if (!hasText(code)) continue
+      for (const b of buildCn(code).beats) {
         if (b.bg && resolveBg(bgset, b.bg.label).file === null)
           unresolvedBg.push(`${code}: ${b.bg.label}`)
         if (b.sprite && resolveSprite(sprset, b.sprite.label).body === null)

@@ -9,6 +9,7 @@
       "lines": [
         "……我们来到了翼的房间。",
         "如果我们是普通的恋人，来到她的房间后会营造氛围。",
+        "",
         "但是，没有必要做那些事情。"
       ],
       "bg": {
@@ -22,6 +23,7 @@
         "她的脸变得通红，好像中暑了一样。",
         "然后，她用迷醉的眼神凝视着我。",
         "受到了施加的『暗示』，她完全处于发情状态。",
+        "",
         "刚认识时，甚至还误以为她是个男孩子。",
         "但现在的翼，完全是个女人。"
       ],
@@ -66,6 +68,7 @@
       "lines": [
         "她鼻子发酸，发出妖媚的声音。",
         "当然，我知道那并不是真正的『恋心』。",
+        "",
         "但我并不在意。",
         "只要你能成为我的俘虏，作为一个女孩子就好了。"
       ],
@@ -83,6 +86,20 @@
       "who": "古桥和树",
       "lines": [
         "「嘿，翼……既然我们已经成为恋人了，可以亲吻吗？」"
+      ],
+      "bg": {
+        "label": "#EV055・切なげ見つめ・引き",
+        "file": "EV055_01"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
+      }
+    },
+    {
+      "kind": "narration",
+      "lines": [
+        ""
       ],
       "bg": {
         "label": "#EV055・切なげ見つめ・引き",
@@ -289,6 +306,7 @@
       "lines": [
         "她的嘴唇依旧是最柔软的。",
         "就像棉花糖一样松软，心里不禁感到甜蜜。",
+        "",
         "不知何时，她闭上了眼睛。",
         "这应该是翼心中期待的亲吻表情吧。"
       ],
@@ -325,6 +343,7 @@
       "lines": [
         "就这样重复几次，接触后再分开。",
         "为了确认触感，翼微微动了动唇。",
+        "",
         "她的举止如此可爱，让我不由得心跳加速。"
       ],
       "bg": {
@@ -348,12 +367,12 @@
         "初吻……啊呀」"
       ],
       "bg": {
-        "label": "#EV055・目閉じキス・アップ",
-        "file": "EV055_03"
+        "label": "#EV055・切なげ見つめ・引き",
+        "file": "EV055_01"
       },
       "bgv": {
-        "id": "BGV_TUBA_F001A",
-        "file": "voice/BGV_tuba_f001a.ogg"
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -368,12 +387,12 @@
         "初吻。"
       ],
       "bg": {
-        "label": "#EV055・目閉じキス・アップ",
-        "file": "EV055_03"
+        "label": "#EV055・切なげ見つめ・引き",
+        "file": "EV055_01"
       },
       "bgv": {
-        "id": "BGV_TUBA_F001A",
-        "file": "voice/BGV_tuba_f001a.ogg"
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -388,12 +407,12 @@
         "幸福……这种幸福的感觉，第一次……」"
       ],
       "bg": {
-        "label": "#EV055・目閉じキス・アップ",
-        "file": "EV055_03"
+        "label": "#EV055・切なげ見つめ・引き",
+        "file": "EV055_01"
       },
       "bgv": {
-        "id": "BGV_TUBA_F001A",
-        "file": "voice/BGV_tuba_f001a.ogg"
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -405,12 +424,12 @@
         "胸中涌动着澎湃的情感，身体不由自主地动了起来。"
       ],
       "bg": {
-        "label": "#EV055・目閉じキス・アップ",
-        "file": "EV055_03"
+        "label": "#EV055・切なげ見つめ・引き",
+        "file": "EV055_01"
       },
       "bgv": {
-        "id": "BGV_TUBA_F001A",
-        "file": "voice/BGV_tuba_f001a.ogg"
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -420,12 +439,12 @@
         "「翼，再来一次吗？」"
       ],
       "bg": {
-        "label": "#EV055・目閉じキス・アップ",
-        "file": "EV055_03"
+        "label": "#EV055・切なげ見つめ・引き",
+        "file": "EV055_01"
       },
       "bgv": {
-        "id": "BGV_TUBA_F001A",
-        "file": "voice/BGV_tuba_f001a.ogg"
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -440,27 +459,28 @@
         "恋人之间的接吻，多多……嗯嗯！」"
       ],
       "bg": {
-        "label": "#EV055・目閉じキス・アップ",
-        "file": "EV055_03"
+        "label": "#EV055・切なげ見つめ・引き",
+        "file": "EV055_01"
       },
       "bgv": {
-        "id": "BGV_TUBA_F001A",
-        "file": "voice/BGV_tuba_f001a.ogg"
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
       "kind": "narration",
       "lines": [
         "于是我们再次不知何时贴上了嘴唇。",
-        "翼再次闭上眼睛，放松身体接受着吻。"
+        "翼再次闭上眼睛，放松身体接受着吻。",
+        ""
       ],
       "bg": {
-        "label": "#EV055・目閉じキス・アップ",
-        "file": "EV055_03"
+        "label": "#EV055・切なげ見つめ・引き",
+        "file": "EV055_01"
       },
       "bgv": {
-        "id": "BGV_TUBA_F001A",
-        "file": "voice/BGV_tuba_f001a.ogg"
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -487,7 +507,8 @@
       "lines": [
         "比刚才稍微激烈一点。",
         "唇不断接触，分离，反复循环。",
-        "将唇紧密贴合，这次轻轻地左右晃动头部。"
+        "将唇紧密贴合，这次轻轻地左右晃动头部。",
+        ""
       ],
       "bg": {
         "label": "#EV055・目閉じキス・アップ",
@@ -522,6 +543,7 @@
       "kind": "narration",
       "lines": [
         "像擦拭唇间一样，享受着那柔软的触感。",
+        "",
         "那触感实在是太舒服了。",
         "翼也从那边微微颤动着唇。"
       ],
@@ -558,6 +580,7 @@
       "kind": "narration",
       "lines": [
         "果然，在接吻时还不习惯用鼻子呼吸吧。",
+        "",
         "稍微有些不适，翼的鼻息变得粗重。",
         "微微吹拂在脸上的呼吸声，让我感到一阵阵颤抖。"
       ],
@@ -581,12 +604,12 @@
         "「呼啊，嗯嗯……哈啊……」"
       ],
       "bg": {
-        "label": "#EV055・目閉じキス・アップ",
-        "file": "EV055_03"
+        "label": "#EV055・うっとり・引き",
+        "file": "EV055_02"
       },
       "bgv": {
-        "id": "BGV_TUBA_F001A",
-        "file": "voice/BGV_tuba_f001a.ogg"
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -595,12 +618,12 @@
         "然后，翼分开嘴唇，发表了感想。"
       ],
       "bg": {
-        "label": "#EV055・目閉じキス・アップ",
-        "file": "EV055_03"
+        "label": "#EV055・うっとり・引き",
+        "file": "EV055_02"
       },
       "bgv": {
-        "id": "BGV_TUBA_F001A",
-        "file": "voice/BGV_tuba_f001a.ogg"
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -615,12 +638,12 @@
         "但是，这真的是一种非常舒服的感觉呢」"
       ],
       "bg": {
-        "label": "#EV055・目閉じキス・アップ",
-        "file": "EV055_03"
+        "label": "#EV055・うっとり・引き",
+        "file": "EV055_02"
       },
       "bgv": {
-        "id": "BGV_TUBA_F001A",
-        "file": "voice/BGV_tuba_f001a.ogg"
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -630,12 +653,12 @@
         "不过，这种亲吻只是个开始。"
       ],
       "bg": {
-        "label": "#EV055・目閉じキス・アップ",
-        "file": "EV055_03"
+        "label": "#EV055・うっとり・引き",
+        "file": "EV055_02"
       },
       "bgv": {
-        "id": "BGV_TUBA_F001A",
-        "file": "voice/BGV_tuba_f001a.ogg"
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -645,12 +668,12 @@
         "「下次试试成人之吻吧，让我们来尝试一下」"
       ],
       "bg": {
-        "label": "#EV055・目閉じキス・アップ",
-        "file": "EV055_03"
+        "label": "#EV055・うっとり・引き",
+        "file": "EV055_02"
       },
       "bgv": {
-        "id": "BGV_TUBA_F001A",
-        "file": "voice/BGV_tuba_f001a.ogg"
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -665,12 +688,12 @@
         "虽然在电影里看过，但还没有亲身体验过……」"
       ],
       "bg": {
-        "label": "#EV055・目閉じキス・アップ",
-        "file": "EV055_03"
+        "label": "#EV055・うっとり・引き",
+        "file": "EV055_02"
       },
       "bgv": {
-        "id": "BGV_TUBA_F001A",
-        "file": "voice/BGV_tuba_f001a.ogg"
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -680,12 +703,12 @@
         "但我故意说出来，想看到她扭动呻吟的样子。"
       ],
       "bg": {
-        "label": "#EV055・目閉じキス・アップ",
-        "file": "EV055_03"
+        "label": "#EV055・うっとり・引き",
+        "file": "EV055_02"
       },
       "bgv": {
-        "id": "BGV_TUBA_F001A",
-        "file": "voice/BGV_tuba_f001a.ogg"
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -695,12 +718,26 @@
         "「嗯，我想和心爱的翼深深地，性感地亲吻一次」"
       ],
       "bg": {
-        "label": "#EV055・目閉じキス・アップ",
-        "file": "EV055_03"
+        "label": "#EV055・うっとり・引き",
+        "file": "EV055_02"
       },
       "bgv": {
-        "id": "BGV_TUBA_F001A",
-        "file": "voice/BGV_tuba_f001a.ogg"
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
+      }
+    },
+    {
+      "kind": "narration",
+      "lines": [
+        ""
+      ],
+      "bg": {
+        "label": "#EV055・うっとり・引き",
+        "file": "EV055_02"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -715,27 +752,28 @@
         "所以，嗯嗯……让我们来个性感的亲吻！」"
       ],
       "bg": {
-        "label": "#EV055・目閉じキス・アップ",
-        "file": "EV055_03"
+        "label": "#EV055・うっとり・引き",
+        "file": "EV055_02"
       },
       "bgv": {
-        "id": "BGV_TUBA_F001A",
-        "file": "voice/BGV_tuba_f001a.ogg"
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
       "kind": "narration",
       "lines": [
         "听到她答应了，我重新扶住了翼的肩膀。",
-        "然后，我把舌尖伸进她微微张开的嘴里。"
+        "然后，我把舌尖伸进她微微张开的嘴里。",
+        ""
       ],
       "bg": {
-        "label": "#EV055・目閉じキス・アップ",
-        "file": "EV055_03"
+        "label": "#EV055・うっとり・引き",
+        "file": "EV055_02"
       },
       "bgv": {
-        "id": "BGV_TUBA_F001A",
-        "file": "voice/BGV_tuba_f001a.ogg"
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
       }
     },
     {
@@ -761,7 +799,9 @@
       "kind": "narration",
       "lines": [
         "紧紧贴合着唇，我慢慢舔着翼的口腔。",
+        "",
         "用舌尖轻轻划过，翼的身体不断颤抖着。",
+        "",
         "真是可爱的反应啊。"
       ],
       "bg": {
@@ -833,7 +873,8 @@
         "翼的唾液黏稠而甜美。",
         "只是稍微品尝一下，头脑就仿佛要溶化了。",
         "她的口腔温度适宜，感觉非常舒适。",
-        "包裹着的柔软感也让人欲罢不能。"
+        "包裹着的柔软感也让人欲罢不能。",
+        ""
       ],
       "bg": {
         "label": "#EV055・驚き唇半開き・アップ",
@@ -867,8 +908,10 @@
       "kind": "narration",
       "lines": [
         "包括许多'暗示'在内，她也开始在吻中感受到了。",
+        "",
         "翼的呼吸声变得更加粗重。",
-        "在亲吻声中不时掺杂着喘息声，我也越来越兴奋。"
+        "在亲吻声中不时掺杂着喘息声，我也越来越兴奋。",
+        ""
       ],
       "bg": {
         "label": "#EV055・驚き唇半開き・アップ",
@@ -1280,6 +1323,7 @@
     {
       "kind": "narration",
       "lines": [
+        "",
         "夹杂在亲吻间的喘息声也相当诱人。",
         "火热的身体扭动不已。"
       ],

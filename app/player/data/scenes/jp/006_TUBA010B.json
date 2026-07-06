@@ -889,6 +889,12 @@
         "label": "#EV054・虚ろ目眉寄せ・股間舐め・制服・愛液",
         "file": "EV054_03"
       },
+      "se": [
+        {
+          "code": "8321A",
+          "file": "se/8321a.ogg"
+        }
+      ],
       "bgv": {
         "id": "BGV_TUBA_H001A",
         "file": "voice/BGV_tuba_h001a.ogg"
@@ -1545,6 +1551,12 @@
         "label": "#EV054・虚ろ目蕩け顔・股間舐め・制服・愛液",
         "file": "EV054_04"
       },
+      "se": [
+        {
+          "code": "8321C",
+          "file": "se/8321c.ogg"
+        }
+      ],
       "bgv": {
         "id": "BGV_TUBA_H002A",
         "file": "voice/BGV_tuba_h002a.ogg"
@@ -1771,7 +1783,8 @@
       "bgv": {
         "id": "BGV_TUBA_H002A",
         "file": "voice/BGV_tuba_h002a.ogg"
-      }
+      },
+      "flash": 2
     },
     {
       "kind": "line",
@@ -1788,6 +1801,12 @@
         "label": "#EV054・虚ろ目蕩け顔・股間舐め・制服・潮吹き",
         "file": "EV054_05"
       },
+      "se": [
+        {
+          "code": "8351A",
+          "file": "se/8351a.ogg"
+        }
+      ],
       "bgv": {
         "id": "BGV_TUBA_H002A",
         "file": "voice/BGV_tuba_h002a.ogg"
@@ -1806,7 +1825,8 @@
       "bgv": {
         "id": "BGV_TUBA_H002A",
         "file": "voice/BGV_tuba_h002a.ogg"
-      }
+      },
+      "flash": 2
     },
     {
       "kind": "line",

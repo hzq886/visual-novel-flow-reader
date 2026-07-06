@@ -48,21 +48,6 @@ export const ItemRef = z.object({
 })
 export type ItemRef = z.infer<typeof ItemRef>
 
-// items.json（extract-items.py 生成）: シーンコード → アイテム窓仕様。texts は窓表示中に
-// 進む本文行数（表示区間 0x3b〜0x3c の機械抽出値。cn の統合翻訳で行数が変わるため locale 別）、
-// nextText は閉じ直後の本文（locale 別・照合用）。
-export const ItemsTable = z.record(
-  z.string(),
-  z.object({
-    item: z.string(),
-    x: z.number(),
-    y: z.number(),
-    texts: z.record(z.string(), z.number().int()),
-    nextText: z.record(z.string(), z.string()),
-  }),
-)
-export type ItemsTable = z.infer<typeof ItemsTable>
-
 // BGM 参照。track は素材名（"M01"〜"M16"）。ルート（character）から curated 割当（audio.ts）。
 export const BgmRef = z.object({
   track: z.string(),
@@ -117,6 +102,31 @@ export type LineBeat = z.infer<typeof LineBeat>
 
 export const Beat = z.discriminatedUnion('kind', [NarrationBeat, LineBeat])
 export type Beat = z.infer<typeof Beat>
+
+// ---- シーンイベント（scene-events/<locale>.json ＝ extract-scenes.py 生成。buildScene の入力）----
+// 先頭要素がタグのタプル列。シーン脚本 bytecode を忠実に写したもの（→ ADR 0010 / smain_flow_guide §3.12）。
+//  text/speaker/voice/se: 文字列 1 個。bg: 背景/EV/黒ラベル。sprite: スロット列（"-"=空き / null=変更なし）。
+//  item: [code, x, y]。itemclose/off: 引数なし。bgv: id。flash: 強度 n。
+export type SceneEvent =
+  | ['text', string]
+  | ['speaker', string]
+  | ['voice', string]
+  | ['se', string]
+  | ['bg', string]
+  | ['sprite', (string | null)[]]
+  | ['item', string, number, number]
+  | ['itemclose']
+  | ['off']
+  | ['bgv', string]
+  | ['flash', number]
+
+// scene-events バンドル: シーンコード → {title?, events}。events は上記タグ付きタプル列（zod は
+// タグ検証まで＝ペイロード型は buildScene の dispatch が担保。生成物のため厳密検証は不要）。
+export const SceneEventsBundle = z.record(
+  z.string(),
+  z.object({ title: z.string().optional(), events: z.array(z.array(z.unknown())) }),
+)
+export type SceneEventsBundle = z.infer<typeof SceneEventsBundle>
 
 // ---- シーン ----
 export const Locale = z.enum(['jp', 'cn'])

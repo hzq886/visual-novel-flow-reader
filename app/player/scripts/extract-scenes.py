@@ -67,10 +67,12 @@ def decode_string(b, enc):
     タイトルのみロケール言語（jp=cp932 / cn=gbk）で復号する。
     """
     if all(0x20 <= x < 0x7F or x in (9, 10, 13) for x in b):
-        return b.decode("ascii", "replace")
+        return b.decode("ascii", "replace").strip()
     if b[:1] in (b"#", b";") or re.match(rb"^[A-Z][A-Z0-9_]{1,15}:", b):
-        return b.decode("cp932", "replace")
-    return b.decode(enc, "replace")
+        return b.decode("cp932", "replace").strip()
+    # 本文・話者・タイトル。行頭の全角インデント（U+3000）等も strip（extract_text.py と同一＝
+    # 現行 parseScene 出力との parity。インデント保持は別途）。
+    return b.decode(enc, "replace").strip()
 
 
 def parse_scene(full):

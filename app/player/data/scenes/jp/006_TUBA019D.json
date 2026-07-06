@@ -563,8 +563,8 @@
         "file": "EV075_02"
       },
       "bgv": {
-        "id": "BGV_TUBA_H002A",
-        "file": "voice/BGV_tuba_h002a.ogg"
+        "id": "BGV_MAKO_F001A",
+        "file": "voice/BGV_mako_f001a.ogg"
       }
     },
     {
@@ -578,8 +578,8 @@
         "file": "EV075_02"
       },
       "bgv": {
-        "id": "BGV_TUBA_H002A",
-        "file": "voice/BGV_tuba_h002a.ogg"
+        "id": "BGV_MAKO_F001A",
+        "file": "voice/BGV_mako_f001a.ogg"
       }
     },
     {
@@ -614,12 +614,6 @@
         "label": "#EV075・目閉じ喘ぎ・嫌がり・浅く挿入・愛液",
         "file": "EV075_02"
       },
-      "se": [
-        {
-          "code": "8101A",
-          "file": "se/8101a.ogg"
-        }
-      ],
       "bgv": {
         "id": "BGV_TUBA_H002A",
         "file": "voice/BGV_tuba_h002a.ogg"
@@ -656,8 +650,8 @@
         "file": "EV075_03"
       },
       "bgv": {
-        "id": "BGV_TUBA_H002A",
-        "file": "voice/BGV_tuba_h002a.ogg"
+        "id": "BGV_MAKO_F001A",
+        "file": "voice/BGV_mako_f001a.ogg"
       }
     },
     {
@@ -674,8 +668,8 @@
         "file": "EV075_03"
       },
       "bgv": {
-        "id": "BGV_TUBA_H002A",
-        "file": "voice/BGV_tuba_h002a.ogg"
+        "id": "BGV_MAKO_F001A",
+        "file": "voice/BGV_mako_f001a.ogg"
       }
     },
     {
@@ -765,8 +759,8 @@
         "file": "EV075_04"
       },
       "bgv": {
-        "id": "BGV_TUBA_H002A",
-        "file": "voice/BGV_tuba_h002a.ogg"
+        "id": "BGV_MAKO_F001A",
+        "file": "voice/BGV_mako_f001a.ogg"
       }
     },
     {
@@ -781,8 +775,8 @@
         "file": "EV075_04"
       },
       "bgv": {
-        "id": "BGV_TUBA_H002A",
-        "file": "voice/BGV_tuba_h002a.ogg"
+        "id": "BGV_MAKO_F001A",
+        "file": "voice/BGV_mako_f001a.ogg"
       }
     },
     {
@@ -1219,6 +1213,12 @@
         "label": "#EV075・軽くアヘ・泣きそう・深く挿入・精液",
         "file": "EV075_06"
       },
+      "se": [
+        {
+          "code": "8351A",
+          "file": "se/8351a.ogg"
+        }
+      ],
       "bgv": {
         "id": "BGV_TUBA_H002A",
         "file": "voice/BGV_tuba_h002a.ogg"
@@ -1237,7 +1237,8 @@
       "bgv": {
         "id": "BGV_TUBA_H002A",
         "file": "voice/BGV_tuba_h002a.ogg"
-      }
+      },
+      "flash": 2
     },
     {
       "kind": "line",
@@ -1255,8 +1256,8 @@
         "file": "EV075_06"
       },
       "bgv": {
-        "id": "BGV_TUBA_H002A",
-        "file": "voice/BGV_tuba_h002a.ogg"
+        "id": "BGV_MAKO_F001A",
+        "file": "voice/BGV_mako_f001a.ogg"
       }
     },
     {
@@ -1310,6 +1311,12 @@
         "label": "#EV075・軽くアヘ・泣きそう・深く挿入・精液",
         "file": "EV075_06"
       },
+      "se": [
+        {
+          "code": "8351A",
+          "file": "se/8351a.ogg"
+        }
+      ],
       "bgv": {
         "id": "BGV_TUBA_H003A",
         "file": "voice/BGV_tuba_h003a.ogg"
@@ -1329,7 +1336,8 @@
       "bgv": {
         "id": "BGV_TUBA_H003A",
         "file": "voice/BGV_tuba_h003a.ogg"
-      }
+      },
+      "flash": 2
     },
     {
       "kind": "line",
@@ -1382,15 +1390,28 @@
     {
       "kind": "narration",
       "lines": [
-        "激しい愛の行為に溺れる、恋人二人。",
+        "激しい愛の行為に溺れる、恋人二人。"
+      ],
+      "bg": {
+        "label": "#EV075・軽くアヘ・泣きそう・深く挿入・精液",
+        "file": "EV075_06"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H003A",
+        "file": "voice/BGV_tuba_h003a.ogg"
+      }
+    },
+    {
+      "kind": "narration",
+      "lines": [
         "そして真琴だけが、蚊帳の外だった……。",
         "………。",
         "……。",
         "…。"
       ],
       "bg": {
-        "label": "#EV075・軽くアヘ・泣きそう・深く挿入・精液",
-        "file": "EV075_06"
+        "label": "#背景・黒一色",
+        "file": "BG_BLACK"
       },
       "bgv": {
         "id": "BGV_TUBA_H003A",

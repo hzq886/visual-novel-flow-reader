@@ -213,9 +213,24 @@
       }
     },
     {
+      "kind": "line",
+      "who": "望月　真琴",
+      "voice": {
+        "id": "MAKO_005_MAKO007B_003",
+        "file": "voice/mako_005_mako007B_003.ogg"
+      },
+      "lines": [
+        "「チ×ポで、おもいっきりオマ×コずぼずぼして、",
+        "どぴゅどぴゅ、たっ、種付けして下さい……」"
+      ],
+      "bg": {
+        "label": "#EV060・睨みつけ・真面目・未挿入・足抑え",
+        "file": "EV060_01"
+      }
+    },
+    {
       "kind": "narration",
       "lines": [
-        "どぴゅどぴゅ、たっ、種付けして下さい……」",
         "なんて素晴らしい、おねだりの言葉だろう。",
         "言葉にしながらも、真琴は嫌悪でいっぱいのようだ。",
         "亀頭を押しつけた股間が、緊張している。",
@@ -937,8 +952,8 @@
         "file": "EV060_05"
       },
       "bgv": {
-        "id": "BGV_MAKO_H002A",
-        "file": "voice/BGV_mako_h002a.ogg"
+        "id": "BGV_SAKI_F001A",
+        "file": "voice/BGV_saki_f001a.ogg"
       }
     },
     {
@@ -959,8 +974,8 @@
         }
       ],
       "bgv": {
-        "id": "BGV_MAKO_H002A",
-        "file": "voice/BGV_mako_h002a.ogg"
+        "id": "BGV_SAKI_F001A",
+        "file": "voice/BGV_saki_f001a.ogg"
       }
     },
     {
@@ -979,8 +994,8 @@
         "file": "EV060_05"
       },
       "bgv": {
-        "id": "BGV_MAKO_H002A",
-        "file": "voice/BGV_mako_h002a.ogg"
+        "id": "BGV_SAKI_F001A",
+        "file": "voice/BGV_saki_f001a.ogg"
       }
     },
     {
@@ -1068,12 +1083,6 @@
         "label": "#EV060・泣きそう・目細め舌出し・挿入・足抑え・愛液",
         "file": "EV060_05"
       },
-      "se": [
-        {
-          "code": "8101A",
-          "file": "se/8101a.ogg"
-        }
-      ],
       "bgv": {
         "id": "BGV_MAKO_H002A",
         "file": "voice/BGV_mako_h002a.ogg"
@@ -1881,8 +1890,8 @@
         "file": "EV060_08"
       },
       "bgv": {
-        "id": "BGV_MAKO_H002A",
-        "file": "voice/BGV_mako_h002a.ogg"
+        "id": "BGV_SAKI_F001A",
+        "file": "voice/BGV_saki_f001a.ogg"
       }
     },
     {
@@ -1898,8 +1907,8 @@
         "file": "EV060_08"
       },
       "bgv": {
-        "id": "BGV_MAKO_H002A",
-        "file": "voice/BGV_mako_h002a.ogg"
+        "id": "BGV_SAKI_F001A",
+        "file": "voice/BGV_saki_f001a.ogg"
       }
     },
     {
@@ -1918,8 +1927,8 @@
         "file": "EV060_08"
       },
       "bgv": {
-        "id": "BGV_MAKO_H002A",
-        "file": "voice/BGV_mako_h002a.ogg"
+        "id": "BGV_SAKI_F001A",
+        "file": "voice/BGV_saki_f001a.ogg"
       }
     },
     {
@@ -1936,15 +1945,9 @@
         "label": "#EV060・うっとり蕩け・目細め舌出し・挿入・クリ摘み・愛液",
         "file": "EV060_08"
       },
-      "se": [
-        {
-          "code": "8101C",
-          "file": "se/8101c.ogg"
-        }
-      ],
       "bgv": {
-        "id": "BGV_MAKO_H002A",
-        "file": "voice/BGV_mako_h002a.ogg"
+        "id": "BGV_SAKI_F001A",
+        "file": "voice/BGV_saki_f001a.ogg"
       }
     },
     {
@@ -2776,6 +2779,12 @@
         "label": "#EV060・アヘ顔・うっとり・挿入・クリ摘み・精液",
         "file": "EV060_12"
       },
+      "se": [
+        {
+          "code": "8351A",
+          "file": "se/8351a.ogg"
+        }
+      ],
       "bgv": {
         "id": "BGV_MAKO_H003A",
         "file": "voice/BGV_mako_h003a.ogg"
@@ -2797,7 +2806,8 @@
       "bgv": {
         "id": "BGV_MAKO_H003A",
         "file": "voice/BGV_mako_h003a.ogg"
-      }
+      },
+      "flash": 2
     },
     {
       "kind": "line",
@@ -2904,6 +2914,12 @@
         "label": "#EV060・アヘ顔・うっとり・挿入・クリ摘み・精液",
         "file": "EV060_12"
       },
+      "se": [
+        {
+          "code": "8201B",
+          "file": "se/8201b.ogg"
+        }
+      ],
       "bgv": {
         "id": "BGV_MAKO_H003A",
         "file": "voice/BGV_mako_h003a.ogg"
@@ -2927,7 +2943,8 @@
       "bgv": {
         "id": "BGV_MAKO_H003A",
         "file": "voice/BGV_mako_h003a.ogg"
-      }
+      },
+      "flash": 3
     },
     {
       "kind": "narration",
@@ -3088,6 +3105,12 @@
         "label": "#EV060・アヘ顔・真面目2・挿入・クリ摘み・精液",
         "file": "EV060_13"
       },
+      "se": [
+        {
+          "code": "8201B",
+          "file": "se/8201b.ogg"
+        }
+      ],
       "bgv": {
         "id": "BGV_MAKO_H003A",
         "file": "voice/BGV_mako_h003a.ogg"
@@ -3110,7 +3133,8 @@
       "bgv": {
         "id": "BGV_MAKO_H003A",
         "file": "voice/BGV_mako_h003a.ogg"
-      }
+      },
+      "flash": 3
     },
     {
       "kind": "line",
@@ -3124,8 +3148,8 @@
         "精液も、ぜんぶ出してもらいましょうね」"
       ],
       "bg": {
-        "label": "#EV060・アヘ顔・真面目2・挿入・クリ摘み・精液",
-        "file": "EV060_13"
+        "label": "#EV060・アヘ顔・うっとり・挿入・クリ摘み・精液",
+        "file": "EV060_12"
       },
       "bgv": {
         "id": "BGV_MAKO_H003A",
@@ -3139,8 +3163,8 @@
         "ぎゅっとひねりあげた。"
       ],
       "bg": {
-        "label": "#EV060・アヘ顔・真面目2・挿入・クリ摘み・精液",
-        "file": "EV060_13"
+        "label": "#EV060・アヘ顔・うっとり・挿入・クリ摘み・精液",
+        "file": "EV060_12"
       },
       "bgv": {
         "id": "BGV_MAKO_H003A",
@@ -3158,8 +3182,8 @@
         "「んっあっ！　あううっ……んぁっ、あ……！」"
       ],
       "bg": {
-        "label": "#EV060・アヘ顔・真面目2・挿入・クリ摘み・精液",
-        "file": "EV060_13"
+        "label": "#EV060・アヘ顔・うっとり・挿入・クリ摘み・精液",
+        "file": "EV060_12"
       },
       "bgv": {
         "id": "BGV_MAKO_H003A",
@@ -3176,8 +3200,8 @@
         "精液がびゅっびゅっと噴きだした。"
       ],
       "bg": {
-        "label": "#EV060・アヘ顔・真面目2・挿入・クリ摘み・精液",
-        "file": "EV060_13"
+        "label": "#EV060・アヘ顔・うっとり・挿入・クリ摘み・精液",
+        "file": "EV060_12"
       },
       "bgv": {
         "id": "BGV_MAKO_H003A",
@@ -3196,8 +3220,8 @@
         "使ったら、ふたつ並べて飾っておきましょうね」"
       ],
       "bg": {
-        "label": "#EV060・アヘ顔・真面目2・挿入・クリ摘み・精液",
-        "file": "EV060_13"
+        "label": "#EV060・アヘ顔・うっとり・挿入・クリ摘み・精液",
+        "file": "EV060_12"
       },
       "bgv": {
         "id": "BGV_MAKO_H003A",
@@ -3215,8 +3239,8 @@
         "「ひっ……ひぁぁぁ……あぁぁ……やぁぁ……」"
       ],
       "bg": {
-        "label": "#EV060・アヘ顔・真面目2・挿入・クリ摘み・精液",
-        "file": "EV060_13"
+        "label": "#EV060・アヘ顔・うっとり・挿入・クリ摘み・精液",
+        "file": "EV060_12"
       },
       "bgv": {
         "id": "BGV_MAKO_H003A",
@@ -3228,15 +3252,28 @@
       "lines": [
         "そうして、母と娘に対する種付けが終わった。",
         "二人が妊娠するときが、本当に楽しみだ。",
-        "今回のセックスで孕まなくても、またすればいい。",
+        "今回のセックスで孕まなくても、またすればいい。"
+      ],
+      "bg": {
+        "label": "#EV060・アヘ顔・うっとり・挿入・クリ摘み・精液",
+        "file": "EV060_12"
+      },
+      "bgv": {
+        "id": "BGV_MAKO_H003A",
+        "file": "voice/BGV_mako_h003a.ogg"
+      }
+    },
+    {
+      "kind": "narration",
+      "lines": [
         "誰もそれを止めることは出来ないのだから……。",
         "………。",
         "……。",
         "…。"
       ],
       "bg": {
-        "label": "#EV060・アヘ顔・真面目2・挿入・クリ摘み・精液",
-        "file": "EV060_13"
+        "label": "#背景・黒一色",
+        "file": "BG_BLACK"
       },
       "bgv": {
         "id": "BGV_MAKO_H003A",
