@@ -72,8 +72,10 @@
     },
     {
       "kind": "narration",
-      "lines": [
-        ""
+      "pages": [
+        [
+          ""
+        ]
       ]
     }
   ],

@@ -19,9 +19,10 @@ import { FlashLayer } from './layers/FlashLayer'
 import { SubtitleLayer } from './layers/SubtitleLayer'
 import { TitleCardLayer } from './layers/TitleCardLayer'
 
-// 場面転換カード判定: narration 行に `\N`（大見出し\N小見出し）を含むか。
+// 場面転換カード判定: narration の現ページに `\N`（大見出し\N小見出し）行を含むか。
+// セクションカードは buildScene が独立ページにしている（HU-78）。
 const isSectionCard = (beat: Beat, line: number): boolean =>
-  beat.kind === 'narration' && /\\[Nn]/.test(beat.lines[line] ?? '')
+  beat.kind === 'narration' && (beat.pages[line] ?? []).some((l) => /\\[Nn]/.test(l))
 
 // 離脱シーンのテクスチャ解放はクロスフェード（Cg 1.4s）完了後に行う。
 const ASSET_RELEASE_DELAY_MS = 1800
@@ -88,7 +89,12 @@ export function Stage() {
           const beat = scene.beats[index]
           const font = fontFor(scene.locale) // jp/cn で字幕・題字の書体を出し分け
           if (isSectionCard(beat, line)) {
-            titleCard.show(beat.lines[line], 'section', font)
+            // 独立ページ内の `\N` 行を題字として表示（HU-78）。
+            const cardLine =
+              beat.kind === 'narration'
+                ? (beat.pages[line] ?? []).find((l) => /\\[Nn]/.test(l))
+                : undefined
+            titleCard.show(cardLine ?? '', 'section', font)
             subtitle.hide()
           } else {
             // 冒頭の最初のページで scene.title を上部にオーバーレイ。ただし beat0 の背景が
@@ -241,8 +247,8 @@ export function Stage() {
   // 複数行 narration では beat 内の行進捗も併記（クリックで送れていることが分かるように）。
   // 形式は `001_PRO001A<全角SP>1/53（3/6）`（HU-58。全角SPは \u3000 エスケープで表記＝irregular-whitespace 回避）。
   const curBeat = scene?.beats[index]
-  const beatLines = curBeat?.kind === 'narration' ? curBeat.lines.length : 1
-  const lineLabel = beatLines > 1 ? `（${line + 1}/${beatLines}）` : ''
+  const beatPages = curBeat?.kind === 'narration' ? curBeat.pages.length : 1
+  const lineLabel = beatPages > 1 ? `（${line + 1}/${beatPages}）` : ''
 
   // 原ゲーム解像度 1280×720（16:9）に描画領域を固定し、ウィンドウ内で最大の 16:9 ボックスを
   // 中央寄せする（余白は背景の黒）。canvas を常にゲーム論理空間と同アスペクトに保つことで、

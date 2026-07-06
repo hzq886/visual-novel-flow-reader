@@ -8,7 +8,7 @@ describe('Scene schema', () => {
       route: '002',
       locale: 'jp',
       beats: [
-        { kind: 'narration', lines: ['……帰宅する途中、僕は。'] },
+        { kind: 'narration', pages: [['……帰宅する途中、僕は。']] },
         {
           kind: 'line',
           who: '古橋 綾菜',

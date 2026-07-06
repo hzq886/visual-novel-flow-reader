@@ -288,7 +288,7 @@ function BookmarkModal({ onJump }: { onJump?: () => void }) {
         </div>
         <div style={{ color: '#9aa6b6', fontSize: 12.5 }}>
           保存位置: {mark.index + 1}
-          {mark.line > 0 ? `（行 ${mark.line + 1}）` : ''} ・{' '}
+          {mark.line > 0 ? `（頁 ${mark.line + 1}）` : ''} ・{' '}
           {new Date(mark.savedAt).toLocaleString()}
         </div>
         <div style={{ display: 'flex', gap: 10, justifyContent: 'flex-end' }}>

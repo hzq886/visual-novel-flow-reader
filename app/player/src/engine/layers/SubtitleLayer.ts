@@ -64,9 +64,9 @@ export class SubtitleLayer extends Container {
     this.alpha = 0
   }
 
-  // line = beat 内の行サブインデックス。地の文は原データの行ごとに 1 行ずつ中央表示し、
-  // セリフは集約した 1 発話をブロック内左揃えのままブロックごと中央に置いて全文表示する
-  // （話者名 `【名前】` をブロック左端の上に表示）。font = locale 別フォントスタック（jp/cn）。
+  // line = beat 内のサブインデックス。地の文は原作の改ページで区切られたページ（1〜2 行）を
+  // まとめて中央表示し（HU-78）、セリフは集約した 1 発話をブロック内左揃えのままブロックごと中央に
+  // 置いて全文表示する（話者名 `【名前】` をブロック左端の上に表示）。font = locale 別フォント（jp/cn）。
   show(beat: Beat, line = 0, font: string = FONT_JP): void {
     this.sayText.style.fontFamily = font
     this.whoText.style.fontFamily = font
@@ -101,7 +101,9 @@ export class SubtitleLayer extends Container {
         this.whoText.visible = false
       }
     } else {
-      this.sayText.text = beat.lines[line] ?? beat.lines[beat.lines.length - 1] ?? ''
+      // 地の文はページ（1〜2 行）をまとめて中央表示（HU-78）。改行で複数行を積む。
+      const page = beat.pages[line] ?? beat.pages[beat.pages.length - 1] ?? []
+      this.sayText.text = page.join('\n')
       this.sayText.style.fontWeight = '400'
       this.sayText.style.align = 'center'
       this.sayText.anchor.set(0.5, 1)

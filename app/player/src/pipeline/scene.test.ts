@@ -48,13 +48,14 @@ describe('buildScene — 002_AYAN001A (golden・実データ)', () => {
     const SP1 = '#綾菜（中）・通常１（夕）・私服０２・にっこり１'
     const SP2 = '#綾菜（中）・通常１（夕）・私服０２・通常１'
     const SP3 = '#綾菜（中）・通常１（夕）・私服０２・にっこり２'
+    // size = 送り段数（narration はページ数・HU-78 / line は発話行数）。
     const skeleton = scene.beats.map((b) => ({
       kind: b.kind,
       who: b.kind === 'line' ? b.who : undefined,
       voice: b.kind === 'line' ? (b.voice?.id ?? null) : undefined,
       bg: b.bg?.label ?? null,
       sprites: spLabels(b),
-      nLines: b.lines.length,
+      size: b.kind === 'narration' ? b.pages.length : b.lines.length,
     }))
     expect(skeleton).toEqual([
       {
@@ -63,7 +64,7 @@ describe('buildScene — 002_AYAN001A (golden・実データ)', () => {
         voice: undefined,
         bg: '#背景・黒一色',
         sprites: null,
-        nLines: 4,
+        size: 2, // 4 行 → 2 ページ（2+2）
       },
       {
         kind: 'line',
@@ -71,28 +72,28 @@ describe('buildScene — 002_AYAN001A (golden・実データ)', () => {
         voice: 'AYAN_002_AYAN001A_001',
         bg: BG,
         sprites: [SP1],
-        nLines: 1,
+        size: 1,
       },
-      { kind: 'narration', who: undefined, voice: undefined, bg: BG, sprites: [SP1], nLines: 4 },
+      { kind: 'narration', who: undefined, voice: undefined, bg: BG, sprites: [SP1], size: 2 },
       {
         kind: 'line',
         who: '古橋　綾菜',
         voice: 'AYAN_002_AYAN001A_002',
         bg: BG,
         sprites: [SP2],
-        nLines: 2,
+        size: 2,
       },
-      { kind: 'line', who: '古橋　和樹', voice: null, bg: BG, sprites: [SP2], nLines: 1 },
-      { kind: 'narration', who: undefined, voice: undefined, bg: BG, sprites: [SP2], nLines: 2 },
+      { kind: 'line', who: '古橋　和樹', voice: null, bg: BG, sprites: [SP2], size: 1 },
+      { kind: 'narration', who: undefined, voice: undefined, bg: BG, sprites: [SP2], size: 1 },
       {
         kind: 'line',
         who: '古橋　綾菜',
         voice: 'AYAN_002_AYAN001A_003',
         bg: BG,
         sprites: [SP3],
-        nLines: 1,
+        size: 1,
       },
-      { kind: 'narration', who: undefined, voice: undefined, bg: BG, sprites: [SP3], nLines: 2 },
+      { kind: 'narration', who: undefined, voice: undefined, bg: BG, sprites: [SP3], size: 2 },
     ])
   })
 
@@ -106,15 +107,47 @@ describe('buildScene — 002_AYAN001A (golden・実データ)', () => {
 })
 
 describe('buildScene — 本文の集約（narration / セリフ）', () => {
-  it('連続する text はひとつの narration beat に集約される', () => {
+  it('連続する text は 1 narration beat・page 無しなら 1 ページに集約', () => {
     const s = build([
       ['bg', '#背景・部屋'],
       ['text', '地の文Ａ。'],
       ['text', '地の文Ｂ。'],
     ])
     expect(s.beats).toHaveLength(1)
-    expect(s.beats[0].kind).toBe('narration')
-    expect(s.beats[0].lines).toEqual(['地の文Ａ。', '地の文Ｂ。'])
+    const b = s.beats[0]
+    expect(b.kind).toBe('narration')
+    if (b.kind !== 'narration') return
+    expect(b.pages).toEqual([['地の文Ａ。', '地の文Ｂ。']])
+  })
+
+  it('page（0x04）で narration を複数ページへ分割する（1 beat のまま・HU-78）', () => {
+    const s = build([
+      ['bg', '#背景・部屋'],
+      ['text', 'Ａ１。'],
+      ['text', 'Ａ２。'],
+      ['page'],
+      ['text', 'Ｂ１。'],
+      ['page'], // 末尾の空ページは詰められる
+    ])
+    expect(s.beats).toHaveLength(1)
+    const b = s.beats[0]
+    expect(b.kind).toBe('narration')
+    if (b.kind !== 'narration') return
+    expect(b.pages).toEqual([['Ａ１。', 'Ａ２。'], ['Ｂ１。']])
+  })
+
+  it('page はセリフ（line）beat を分割しない（1 発話まるごと表示）', () => {
+    const s = build([
+      ['speaker', '古橋　綾菜'],
+      ['text', '「なにか'],
+      ['page'], // セリフ途中の改ページは無視
+      ['text', '飲み物でも淹れる？」'],
+    ])
+    expect(s.beats).toHaveLength(1)
+    const b = s.beats[0]
+    expect(b.kind).toBe('line')
+    if (b.kind !== 'line') return
+    expect(b.lines).toEqual(['「なにか', '飲み物でも淹れる？」'])
   })
 
   it('「」が複数行に跨るセリフを 1 line beat に集約する', () => {
@@ -238,7 +271,12 @@ describe('buildScene — 立ち絵（多体スロット / per-slot sticky / rese
       ['sprite', ['#綾菜・笑顔']],
       ['text', 'Ｂ。'],
     ])
-    expect(s.beats.map((b) => ({ sprites: spLabels(b), n: b.lines.length }))).toEqual([
+    expect(
+      s.beats.map((b) => ({
+        sprites: spLabels(b),
+        n: b.kind === 'narration' ? b.pages.length : b.lines.length,
+      })),
+    ).toEqual([
       { sprites: ['#綾菜・通常'], n: 1 },
       { sprites: ['#綾菜・笑顔'], n: 1 },
     ])
@@ -338,7 +376,9 @@ describe('buildScene — 背景ボイス bgv（sticky ループ・HU-37）', () 
       ['bgv', 'BGV_AYAN_H002A'],
       ['text', '強くなる。'],
     ])
-    expect(s.beats.map((b) => ({ bgv: b.bgv?.id ?? null, n: b.lines.length }))).toEqual([
+    const nLines = (b: Scene['beats'][number]) =>
+      b.kind === 'narration' ? b.pages.flat().length : b.lines.length
+    expect(s.beats.map((b) => ({ bgv: b.bgv?.id ?? null, n: nLines(b) }))).toEqual([
       { bgv: null, n: 1 },
       { bgv: 'BGV_AYAN_H001A', n: 2 },
       { bgv: 'BGV_AYAN_H002A', n: 1 },
@@ -398,14 +438,14 @@ describe('buildScene — タイトル / セクションカード', () => {
     expect(s.title).toBe('幼少回想\\N三人')
   })
 
-  it('中盤の \\N text はセクションカード＝narration 行として流す（描画側が判定）', () => {
+  it('中盤の \\N text はセクションカード＝独立ページの narration として流す（描画側が判定・HU-78）', () => {
     const s = build([
       ['text', '前夜の地の文。'],
       ['text', '朝の風景\\N年頃の男子の性欲'], // 0x2c 由来のセクションカード
       ['text', '朝の地の文。'],
     ])
-    // \N 行も narration に含まれる（Stage の isSectionCard が描画時に判定）
-    const allLines = s.beats.flatMap((b) => b.lines)
-    expect(allLines).toContain('朝の風景\\N年頃の男子の性欲')
+    // \N 行は独立ページとして存在する（Stage の isSectionCard が描画時に題字化）
+    const pages = s.beats.flatMap((b) => (b.kind === 'narration' ? b.pages : []))
+    expect(pages).toContainEqual(['朝の風景\\N年頃の男子の性欲'])
   })
 })
