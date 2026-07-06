@@ -12,7 +12,8 @@
  *  voice    … ボイス ID。次のセリフ beat へ。
  *  se       … 効果音（ワンショット）。現 beat があればそこへ、無ければ次 beat へ持ち越す。
  *  bg       … 背景/EV/黒。label で下レイヤ背景（#背景）と被せ CG（#EV/黒）を分類（HU-63）。
- *  sprite   … 立ち絵スロット列（"-"=空き / null=変更なし）。単一 sprite へ投影（多体はスコープ外）。
+ *  sprite   … 立ち絵スロット列（"-"=空き / null=変更なし）。per-slot sticky で多体を同時保持（HU-77。
+ *             第3要素 reset=true は適用前に全スロットをクリア＝シーン転換の establishing shot）。
  *  item     … アイテム CG 窓を開く（座標込み・独立オーバーレイ・HU-70）。itemclose で閉じる。
  *  off/bgv  … 立ち絵オフ / 背景ボイス（ループ）。
  *  flash    … 画面フラッシュ（次 beat のインパクト行で点灯）。
@@ -22,7 +23,7 @@
  *
  * レイヤモデル（HU-63）: 通常背景＋立ち絵の下レイヤに、EV／黒一色の被せ CG が覆い被さる。被せ CG 中は
  * 立ち絵を描かず、#背景 note か立ち絵変更で下レイヤへ復帰。アイテム CG（HU-70）は独立オーバーレイで
- * 下レイヤを隠さない。beat 出力は bg = 被せ CG ?? 通常背景、sprite = 被せ CG 中は無し、item は独立。
+ * 下レイヤを隠さない。beat 出力は bg = 被せ CG ?? 通常背景、sprites = 被せ CG 中は空、item は独立。
  */
 import {
   Scene,
@@ -41,7 +42,7 @@ type Draft = {
   voice?: { id: string; file: null }
   lines: string[]
   bg?: BgRef
-  sprite?: SpriteRef
+  sprites?: SpriteRef[]
   item?: ItemRef
   se?: SeRef[]
   bgv?: { id: string; file: null }
@@ -72,7 +73,9 @@ export function buildScene(
   let pendingFlash: number | undefined // flash は直後の beat（インパクト行）で光らせる
   let stickyBg: BgRef | undefined // 通常背景（下レイヤ）
   let stickyOverlay: BgRef | undefined // 被せ CG（EV/黒一色。表示中は立ち絵を隠す・HU-63）
-  let stickySprite: SpriteRef | undefined // 立ち絵（下レイヤ。被せ CG 中も保持し復帰時に再表示）
+  // 立ち絵スロット（下レイヤ。被せ CG 中も保持し復帰時に再表示）。index=スロット番号、空きは
+  // undefined。0x12 は左右複数スロットを同時表示する（多体・HU-77。単一投影を廃し per-slot sticky）。
+  let stickySlots: (SpriteRef | undefined)[] = []
   let stickyItem: ItemRef | undefined // アイテム CG 窓（bg/sprite と独立のオーバーレイ・HU-70）
   let stickyBgv: { id: string; file: null } | undefined
   let quoteDepth = 0
@@ -83,10 +86,21 @@ export function buildScene(
     if (cur) beats.push(cur as Beat)
     cur = null
   }
-  // beat 生成時のスナップショット: bg/sprite/item/bgv の sticky 値＋持ち越し中の se/flash を取り込む。
+  // 占有スロットをスロット順（左→右）で列挙（空き＝undefined を除外）。
+  const occupiedSlots = (slots = stickySlots): SpriteRef[] =>
+    slots.filter((s): s is SpriteRef => s !== undefined)
+  // 「見た目」の署名。被せ CG 中は立ち絵を隠し bg=被せ CG（→ OV:）、非表示中は立ち絵構成（→ SP:）。
+  // narration の分割は、この署名が変化する立ち絵/被せ CG 操作でのみ行う（発話の原子性は別途維持）。
+  const visSig = (overlay: BgRef | undefined, slots: (SpriteRef | undefined)[]): string =>
+    overlay
+      ? `OV:${overlay.label}`
+      : `SP:${occupiedSlots(slots)
+          .map((s) => s.label)
+          .join('|')}`
+  // beat 生成時のスナップショット: bg/sprites/item/bgv の sticky 値＋持ち越し中の se/flash を取り込む。
   type Snap = {
     bg?: BgRef
-    sprite?: SpriteRef
+    sprites?: SpriteRef[]
     item?: ItemRef
     se?: SeRef[]
     bgv?: { id: string; file: null }
@@ -94,12 +108,12 @@ export function buildScene(
   }
   const snapshot = (): Snap => {
     // 表示状態 = 被せ CG があればそれが bg・立ち絵は隠す。無ければ通常背景＋立ち絵（HU-63）。
-    // アイテム窓は独立フィールド（bg/sprite を隠さない・HU-70）。
+    // 立ち絵は占有スロットをスロット順（左→右）で列挙。アイテム窓は独立フィールド（HU-70）。
     const bg = stickyOverlay ?? stickyBg
-    const sprite = stickyOverlay ? undefined : stickySprite
+    const sprites = stickyOverlay ? [] : occupiedSlots()
     const snap: Snap = {
       ...(bg ? { bg } : {}),
-      ...(sprite ? { sprite } : {}),
+      ...(sprites.length ? { sprites } : {}),
       ...(stickyItem ? { item: stickyItem } : {}),
       ...(stickyBgv ? { bgv: stickyBgv } : {}),
     }
@@ -131,19 +145,39 @@ export function buildScene(
     stickyOverlay = { label, file: null }
     stickyItem = undefined // 防御的クローズ
   }
-  // 立ち絵。被せ CG 表示中に来たら被せ CG を閉じ、通常背景＋立ち絵へ復帰する（HU-63）。
-  const setSprite = (label: string) => {
-    if (stickyOverlay === undefined && label === stickySprite?.label) return
-    if (cur?.kind === 'narration') flush()
-    stickyOverlay = undefined
-    stickySprite = { label, body: null, face: null }
+  // 立ち絵スロット列を per-slot sticky へ適用する（多体同時表示・HU-77）。null=変更なし・"-"=空き・
+  // それ以外=そのスロットへ配置。reset=true（0x12 mode ~0x80）は適用前に全スロットをクリアする
+  // （シーン転換の establishing shot）。実ラベルを 1 つでも置いたら被せ CG を閉じ下レイヤへ復帰する
+  // （HU-63。全消しのみなら被せ CG は保持）。narration は「見た目」が変わるときだけ flush（HU-34）。
+  const applySprite = (slots: (string | null)[], reset: boolean) => {
+    const before = visSig(stickyOverlay, stickySlots)
+    const next: (SpriteRef | undefined)[] = reset ? [] : stickySlots.slice()
+    let setsReal = false
+    for (let i = 0; i < slots.length; i++) {
+      const s = slots[i]
+      if (s === null) continue // 変更なし
+      if (s === '-') {
+        next[i] = undefined // 空き＝そのスロットをクリア
+        continue
+      }
+      next[i] = { label: s, body: null, face: null }
+      setsReal = true
+    }
+    while (next.length && next[next.length - 1] === undefined) next.pop() // 末尾の空きを詰める
+    const nextOverlay = setsReal ? undefined : stickyOverlay
+    if (cur?.kind === 'narration' && visSig(nextOverlay, next) !== before) flush()
+    stickyOverlay = nextOverlay
+    stickySlots = next
   }
-  // 立ち絵オフ（off イベント / 空スロット）。sticky を消すと以降の beat は sprite 無し＝エンジンが
-  // 自動で立ち絵を隠す。bg には触れない（HU-36）。被せ CG 中は見た目不変のため flush しない。
-  const clearSprite = () => {
-    if (stickySprite === undefined) return
-    if (cur?.kind === 'narration' && stickyOverlay === undefined) flush()
-    stickySprite = undefined
+  // 立ち絵オフ（off イベント）。全スロットを消すと以降の beat は sprite 無し＝エンジンが立ち絵を隠す。
+  // bg・被せ CG には触れない（HU-36）。被せ CG 中は見た目不変のため flush しない。
+  const clearAllSprites = () => {
+    if (
+      cur?.kind === 'narration' &&
+      visSig(stickyOverlay, []) !== visSig(stickyOverlay, stickySlots)
+    )
+      flush()
+    stickySlots = []
   }
   // 効果音（se イベント・ワンショット）。現 beat があればそこへ、無ければ次 beat へ持ち越す。
   const addSe = (sceneCode: string) => {
@@ -173,20 +207,6 @@ export function buildScene(
     else if (/^#EV/.test(label)) setOverlay(label)
     else setBg(label) // #背景 ほか背景ラベル
   }
-  // 立ち絵スロット列を単一 sticky sprite へ投影する（多体同時表示はスコープ外＝現行単一 sprite 維持）。
-  // null=変更なし・"-"=空き。実ラベル（最後のもの）を採用、実ラベル無しで空き指定があれば消す。
-  const applySprite = (slots: (string | null)[]) => {
-    let real: string | null = null
-    let hasClear = false
-    for (const s of slots) {
-      if (s === null) continue
-      if (s === '-') hasClear = true
-      else real = s
-    }
-    if (real !== null) setSprite(real)
-    else if (hasClear) clearSprite()
-  }
-
   const pushText = (val: string) => {
     const opens = (val.match(/「/g) ?? []).length
     const closes = (val.match(/」/g) ?? []).length
@@ -238,10 +258,10 @@ export function buildScene(
       quoteDepth = 0
     } else if (tag === 'se') addSe(ev[1])
     else if (tag === 'bg') applyBg(ev[1])
-    else if (tag === 'sprite') applySprite(ev[1])
+    else if (tag === 'sprite') applySprite(ev[1], ev[2] === true)
     else if (tag === 'item') openItem(ev[1], ev[2], ev[3])
     else if (tag === 'itemclose') closeItem()
-    else if (tag === 'off') clearSprite()
+    else if (tag === 'off') clearAllSprites()
     else if (tag === 'bgv') setBgv(ev[1])
     else if (tag === 'flash') pendingFlash = ev[1]
   }

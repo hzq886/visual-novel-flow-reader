@@ -77,8 +77,10 @@ describe('buildScene — cn ロケール（bytecode 一次・言語別復号）'
       for (const b of buildCn(code).beats) {
         if (b.bg && resolveBg(bgset, b.bg.label).file === null)
           unresolvedBg.push(`${code}: ${b.bg.label}`)
-        if (b.sprite && resolveSprite(sprset, b.sprite.label).body === null)
-          unresolvedSprite.push(`${code}: ${b.sprite.label}`)
+        for (const sp of b.sprites ?? []) {
+          if (resolveSprite(sprset, sp.label).body === null)
+            unresolvedSprite.push(`${code}: ${sp.label}`)
+        }
       }
     }
     expect(unresolvedBg).toEqual([])

@@ -50,8 +50,10 @@ export function sceneAssetRefs(scene: Scene): { cg: string[]; sprite: string[]; 
   for (const beat of scene.beats) {
     if (beat.bg?.file) cg.add(beat.bg.file)
     if (beat.item?.file) cg.add(beat.item.file) // アイテムCG窓（HU-70）も cg 素材
-    if (beat.sprite?.body) sprite.add(beat.sprite.body)
-    if (beat.sprite?.face) sprite.add(beat.sprite.face)
+    for (const sp of beat.sprites ?? []) {
+      if (sp.body) sprite.add(sp.body)
+      if (sp.face) sprite.add(sp.face)
+    }
     if (beat.kind === 'line' && beat.voice?.id) voice.add(beat.voice.id)
     if (beat.bgv?.id) voice.add(beat.bgv.id) // 背景ボイスも voice 素材として収集（HU-37）
   }
@@ -71,7 +73,10 @@ export function resolveScene(scene: Scene, ctx: ResolveContext): Scene {
     ...bgm,
     beats: scene.beats.map((beat) => {
       const bg = beat.bg ? resolveBg(ctx.bgset, beat.bg.label) : undefined
-      const sprite = beat.sprite ? resolveSprite(ctx.sprset, beat.sprite.label) : undefined
+      // 立ち絵スロット列（多体・HU-77）: 各スロットを個別に解決（label→body/face・顔オフセット）。
+      const sprites = beat.sprites
+        ? { sprites: beat.sprites.map((sp) => resolveSprite(ctx.sprset, sp.label)) }
+        : {}
       // アイテムCG窓: code がそのまま CG ファイルコード（_BGSET を介さない直CG。HU-41/HU-70）。
       const item = beat.item ? { item: { ...beat.item, file: beat.item.code } } : {}
       // 背景ボイス（BGV）は voice と同じく manifest 索引で解決（id→実ファイル）。
@@ -80,7 +85,7 @@ export function resolveScene(scene: Scene, ctx: ResolveContext): Scene {
         return {
           ...beat,
           ...(bg ? { bg } : {}),
-          ...(sprite ? { sprite } : {}),
+          ...sprites,
           ...item,
           ...(beat.voice ? { voice: resolveVoice(ctx.voiceIndex, beat.voice.id) } : {}),
           ...resolveSeList(beat.se),
@@ -90,7 +95,7 @@ export function resolveScene(scene: Scene, ctx: ResolveContext): Scene {
       return {
         ...beat,
         ...(bg ? { bg } : {}),
-        ...(sprite ? { sprite } : {}),
+        ...sprites,
         ...item,
         ...resolveSeList(beat.se),
         ...bgv,

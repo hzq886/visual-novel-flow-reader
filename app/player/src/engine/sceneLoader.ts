@@ -53,8 +53,11 @@ export function sceneAssetUrls(scene: Scene): string[] {
   for (const beat of scene.beats) {
     if (beat.bg?.file) urls.add(cgUrl(beat.bg.file))
     if (beat.item?.file) urls.add(cgUrl(beat.item.file)) // アイテムCG窓（HU-70）
-    if (beat.sprite?.body) urls.add(spriteUrl(beat.sprite.body))
-    if (beat.sprite?.face) urls.add(spriteUrl(beat.sprite.face))
+    for (const sp of beat.sprites ?? []) {
+      // 多体スロット（HU-77）。解決済みの body/face をすべて収集。
+      if (sp.body) urls.add(spriteUrl(sp.body))
+      if (sp.face) urls.add(spriteUrl(sp.face))
+    }
   }
   return [...urls]
 }
