@@ -585,6 +585,10 @@
       "bg": {
         "label": "#EV036・目閉じ悶絶・見つめ・前のめり・破瓜",
         "file": "EV036_07"
+      },
+      "lpse": {
+        "code": "8101A",
+        "file": "se/8101a.ogg"
       }
     },
     {
@@ -614,6 +618,10 @@
       "bg": {
         "label": "#EV036・目閉じ悶絶・見つめ・前のめり・破瓜",
         "file": "EV036_07"
+      },
+      "lpse": {
+        "code": "8101A",
+        "file": "se/8101a.ogg"
       }
     },
     {
@@ -629,6 +637,10 @@
       "bg": {
         "label": "#EV036・目閉じ悶絶・見つめ・前のめり・破瓜",
         "file": "EV036_07"
+      },
+      "lpse": {
+        "code": "8101A",
+        "file": "se/8101a.ogg"
       }
     },
     {
@@ -650,6 +662,10 @@
       "bg": {
         "label": "#EV036・目閉じ悶絶・見つめ・前のめり・破瓜",
         "file": "EV036_07"
+      },
+      "lpse": {
+        "code": "8101A",
+        "file": "se/8101a.ogg"
       }
     },
     {
@@ -666,6 +682,10 @@
       "bg": {
         "label": "#EV036・目閉じ悶絶・見つめ・前のめり・破瓜",
         "file": "EV036_07"
+      },
+      "lpse": {
+        "code": "8101A",
+        "file": "se/8101a.ogg"
       }
     },
     {
@@ -674,7 +694,20 @@
         [
           "十分にゆっくりなつもりだったけど、やっぱり",
           "まだきついみたいだ。"
-        ],
+        ]
+      ],
+      "bg": {
+        "label": "#EV036・目閉じ悶絶・見つめ・前のめり・破瓜",
+        "file": "EV036_07"
+      },
+      "lpse": {
+        "code": "8101A",
+        "file": "se/8101a.ogg"
+      }
+    },
+    {
+      "kind": "narration",
+      "pages": [
         [
           "翼に合わせるように、少しにストロークを遅らせた。"
         ]
@@ -682,6 +715,10 @@
       "bg": {
         "label": "#EV036・目閉じ悶絶・見つめ・前のめり・破瓜",
         "file": "EV036_07"
+      },
+      "lpse": {
+        "code": "8131A",
+        "file": "se/8131a.ogg"
       }
     },
     {
@@ -698,6 +735,10 @@
       "bg": {
         "label": "#EV036・眉しかめ・見つめ・前のめり・破瓜",
         "file": "EV036_09"
+      },
+      "lpse": {
+        "code": "8131A",
+        "file": "se/8131a.ogg"
       }
     },
     {
@@ -718,6 +759,10 @@
       "bg": {
         "label": "#EV036・眉しかめ・見つめ・前のめり・破瓜",
         "file": "EV036_09"
+      },
+      "lpse": {
+        "code": "8131A",
+        "file": "se/8131a.ogg"
       }
     },
     {
@@ -733,6 +778,10 @@
       "bg": {
         "label": "#EV036・眉しかめ・見つめ・前のめり・破瓜",
         "file": "EV036_09"
+      },
+      "lpse": {
+        "code": "8131A",
+        "file": "se/8131a.ogg"
       }
     },
     {
@@ -753,6 +802,10 @@
       "bg": {
         "label": "#EV036・眉しかめ・見つめ・前のめり・破瓜",
         "file": "EV036_09"
+      },
+      "lpse": {
+        "code": "8131A",
+        "file": "se/8131a.ogg"
       }
     },
     {
@@ -769,6 +822,10 @@
       "bg": {
         "label": "#EV036・眉しかめ・見つめ・前のめり・破瓜",
         "file": "EV036_09"
+      },
+      "lpse": {
+        "code": "8131A",
+        "file": "se/8131a.ogg"
       }
     },
     {
@@ -789,6 +846,10 @@
       "bg": {
         "label": "#EV036・眉しかめ・見つめ・前のめり・破瓜",
         "file": "EV036_09"
+      },
+      "lpse": {
+        "code": "8131A",
+        "file": "se/8131a.ogg"
       }
     },
     {
@@ -804,6 +865,10 @@
       "bg": {
         "label": "#EV036・眉しかめ・見つめ・前のめり・破瓜",
         "file": "EV036_09"
+      },
+      "lpse": {
+        "code": "8131A",
+        "file": "se/8131a.ogg"
       }
     },
     {
@@ -822,6 +887,10 @@
       "bg": {
         "label": "#EV036・眉しかめ・見つめ・前のめり・破瓜",
         "file": "EV036_09"
+      },
+      "lpse": {
+        "code": "8131A",
+        "file": "se/8131a.ogg"
       }
     },
     {
@@ -838,6 +907,10 @@
       "bg": {
         "label": "#EV036・眉しかめ・見つめ・前のめり・破瓜",
         "file": "EV036_09"
+      },
+      "lpse": {
+        "code": "8131A",
+        "file": "se/8131a.ogg"
       }
     },
     {
@@ -858,6 +931,10 @@
       "bg": {
         "label": "#EV036・眉しかめ・見つめ・前のめり・破瓜",
         "file": "EV036_09"
+      },
+      "lpse": {
+        "code": "8131A",
+        "file": "se/8131a.ogg"
       }
     },
     {
@@ -870,6 +947,10 @@
       "bg": {
         "label": "#EV036・眉しかめ・見つめ・前のめり・破瓜",
         "file": "EV036_09"
+      },
+      "lpse": {
+        "code": "8131A",
+        "file": "se/8131a.ogg"
       }
     },
     {
@@ -886,6 +967,10 @@
       "bg": {
         "label": "#EV036・眉しかめ・見つめ・前のめり・破瓜",
         "file": "EV036_09"
+      },
+      "lpse": {
+        "code": "8131A",
+        "file": "se/8131a.ogg"
       }
     },
     {
@@ -898,6 +983,10 @@
       "bg": {
         "label": "#EV036・眉しかめ・見つめ・前のめり・破瓜",
         "file": "EV036_09"
+      },
+      "lpse": {
+        "code": "8131A",
+        "file": "se/8131a.ogg"
       }
     },
     {
@@ -914,6 +1003,10 @@
       "bg": {
         "label": "#EV036・涙目嬉しそう・見つめ・前のめり・破瓜",
         "file": "EV036_08"
+      },
+      "lpse": {
+        "code": "8131A",
+        "file": "se/8131a.ogg"
       }
     },
     {
@@ -933,6 +1026,10 @@
       "bg": {
         "label": "#EV036・涙目嬉しそう・見つめ・前のめり・破瓜",
         "file": "EV036_08"
+      },
+      "lpse": {
+        "code": "8131A",
+        "file": "se/8131a.ogg"
       }
     },
     {
@@ -949,6 +1046,10 @@
       "bg": {
         "label": "#EV036・涙目嬉しそう・見つめ・前のめり・破瓜",
         "file": "EV036_08"
+      },
+      "lpse": {
+        "code": "8131A",
+        "file": "se/8131a.ogg"
       }
     },
     {
@@ -967,6 +1068,10 @@
       "bg": {
         "label": "#EV036・涙目嬉しそう・見つめ・前のめり・破瓜",
         "file": "EV036_08"
+      },
+      "lpse": {
+        "code": "8131A",
+        "file": "se/8131a.ogg"
       }
     },
     {
@@ -983,6 +1088,10 @@
       "bg": {
         "label": "#EV036・涙目嬉しそう・見つめ・前のめり・破瓜",
         "file": "EV036_08"
+      },
+      "lpse": {
+        "code": "8131A",
+        "file": "se/8131a.ogg"
       }
     },
     {
@@ -999,6 +1108,10 @@
       "bg": {
         "label": "#EV036・涙目嬉しそう・見つめ・前のめり・破瓜",
         "file": "EV036_08"
+      },
+      "lpse": {
+        "code": "8131A",
+        "file": "se/8131a.ogg"
       }
     },
     {
@@ -1015,6 +1128,10 @@
       "bg": {
         "label": "#EV036・涙目嬉しそう・見つめ・前のめり・破瓜",
         "file": "EV036_08"
+      },
+      "lpse": {
+        "code": "8131A",
+        "file": "se/8131a.ogg"
       }
     },
     {
@@ -1031,6 +1148,10 @@
       "bg": {
         "label": "#EV036・涙目嬉しそう・見つめ・前のめり・破瓜",
         "file": "EV036_08"
+      },
+      "lpse": {
+        "code": "8131A",
+        "file": "se/8131a.ogg"
       }
     },
     {
@@ -1047,6 +1168,10 @@
       "bg": {
         "label": "#EV036・涙目嬉しそう・見つめ・前のめり・破瓜",
         "file": "EV036_08"
+      },
+      "lpse": {
+        "code": "8131A",
+        "file": "se/8131a.ogg"
       }
     },
     {
@@ -1066,6 +1191,10 @@
       "bg": {
         "label": "#EV036・涙目嬉しそう・見つめ・前のめり・破瓜",
         "file": "EV036_08"
+      },
+      "lpse": {
+        "code": "8131A",
+        "file": "se/8131a.ogg"
       }
     },
     {
@@ -1082,6 +1211,10 @@
       "bg": {
         "label": "#EV036・涙目嬉しそう・見つめ・前のめり・破瓜",
         "file": "EV036_08"
+      },
+      "lpse": {
+        "code": "8131A",
+        "file": "se/8131a.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H001A",
@@ -1106,6 +1239,10 @@
         "label": "#EV036・涙目嬉しそう・見つめ・前のめり・破瓜",
         "file": "EV036_08"
       },
+      "lpse": {
+        "code": "8131A",
+        "file": "se/8131a.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H001A",
         "file": "voice/BGV_tuba_h001a.ogg"
@@ -1125,6 +1262,10 @@
       "bg": {
         "label": "#EV036・涙目嬉しそう・見つめ・前のめり・破瓜",
         "file": "EV036_08"
+      },
+      "lpse": {
+        "code": "8131A",
+        "file": "se/8131a.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H001A",
@@ -1151,6 +1292,10 @@
         "label": "#EV036・涙目嬉しそう・見つめ・前のめり・破瓜",
         "file": "EV036_08"
       },
+      "lpse": {
+        "code": "8131A",
+        "file": "se/8131a.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H001A",
         "file": "voice/BGV_tuba_h001a.ogg"
@@ -1169,6 +1314,10 @@
       "bg": {
         "label": "#EV036・うっとり・見つめ・前のめり・破瓜",
         "file": "EV036_10"
+      },
+      "lpse": {
+        "code": "8131B",
+        "file": "se/8131b.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H001A",
@@ -1194,6 +1343,10 @@
         "label": "#EV036・うっとり・見つめ・前のめり・破瓜",
         "file": "EV036_10"
       },
+      "lpse": {
+        "code": "8131B",
+        "file": "se/8131b.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H001A",
         "file": "voice/BGV_tuba_h001a.ogg"
@@ -1213,6 +1366,10 @@
       "bg": {
         "label": "#EV036・うっとり・見つめ・前のめり・破瓜",
         "file": "EV036_10"
+      },
+      "lpse": {
+        "code": "8131B",
+        "file": "se/8131b.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H001A",
@@ -1238,6 +1395,10 @@
         "label": "#EV036・うっとり・見つめ・前のめり・破瓜",
         "file": "EV036_10"
       },
+      "lpse": {
+        "code": "8131B",
+        "file": "se/8131b.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H001A",
         "file": "voice/BGV_tuba_h001a.ogg"
@@ -1257,6 +1418,10 @@
       "bg": {
         "label": "#EV036・うっとり・見つめ・前のめり・破瓜",
         "file": "EV036_10"
+      },
+      "lpse": {
+        "code": "8131B",
+        "file": "se/8131b.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H001A",
@@ -1285,6 +1450,10 @@
         "label": "#EV036・うっとり・見つめ・前のめり・破瓜",
         "file": "EV036_10"
       },
+      "lpse": {
+        "code": "8131B",
+        "file": "se/8131b.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H001A",
         "file": "voice/BGV_tuba_h001a.ogg"
@@ -1304,6 +1473,10 @@
       "bg": {
         "label": "#EV036・うっとり・見つめ・前のめり・破瓜",
         "file": "EV036_10"
+      },
+      "lpse": {
+        "code": "8131B",
+        "file": "se/8131b.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H002A",
@@ -1325,6 +1498,10 @@
         "label": "#EV036・うっとり・見つめ・前のめり・破瓜",
         "file": "EV036_10"
       },
+      "lpse": {
+        "code": "8131B",
+        "file": "se/8131b.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H002A",
         "file": "voice/BGV_tuba_h002a.ogg"
@@ -1344,6 +1521,10 @@
       "bg": {
         "label": "#EV036・うっとり・見つめ・前のめり・破瓜",
         "file": "EV036_10"
+      },
+      "lpse": {
+        "code": "8131B",
+        "file": "se/8131b.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H002A",
@@ -1374,6 +1555,10 @@
         "label": "#EV036・うっとり・見つめ・前のめり・破瓜",
         "file": "EV036_10"
       },
+      "lpse": {
+        "code": "8131B",
+        "file": "se/8131b.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H002A",
         "file": "voice/BGV_tuba_h002a.ogg"
@@ -1388,6 +1573,10 @@
       "bg": {
         "label": "#EV036・うっとり・見つめ・前のめり・破瓜",
         "file": "EV036_10"
+      },
+      "lpse": {
+        "code": "8131B",
+        "file": "se/8131b.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H002A",
@@ -1408,6 +1597,10 @@
       "bg": {
         "label": "#EV036・うっとり・見つめ・前のめり・破瓜",
         "file": "EV036_10"
+      },
+      "lpse": {
+        "code": "8131B",
+        "file": "se/8131b.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H001A",
@@ -1435,6 +1628,10 @@
         "label": "#EV036・うっとり・見つめ・前のめり・破瓜",
         "file": "EV036_10"
       },
+      "lpse": {
+        "code": "8131B",
+        "file": "se/8131b.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H001A",
         "file": "voice/BGV_tuba_h001a.ogg"
@@ -1453,6 +1650,10 @@
       "bg": {
         "label": "#EV036・眉しかめ・見つめ・前のめり・破瓜",
         "file": "EV036_09"
+      },
+      "lpse": {
+        "code": "8131A",
+        "file": "se/8131a.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H001A",
@@ -1476,6 +1677,10 @@
         "label": "#EV036・眉しかめ・見つめ・前のめり・破瓜",
         "file": "EV036_09"
       },
+      "lpse": {
+        "code": "8131A",
+        "file": "se/8131a.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H001A",
         "file": "voice/BGV_tuba_h001a.ogg"
@@ -1495,6 +1700,10 @@
       "bg": {
         "label": "#EV036・眉しかめ・見つめ・前のめり・破瓜",
         "file": "EV036_09"
+      },
+      "lpse": {
+        "code": "8131A",
+        "file": "se/8131a.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H001A",
@@ -1523,6 +1732,10 @@
         "label": "#EV036・眉しかめ・見つめ・前のめり・破瓜",
         "file": "EV036_09"
       },
+      "lpse": {
+        "code": "8131A",
+        "file": "se/8131a.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H001A",
         "file": "voice/BGV_tuba_h001a.ogg"
@@ -1543,6 +1756,10 @@
         "label": "#EV036・眉しかめ・見つめ・前のめり・破瓜",
         "file": "EV036_09"
       },
+      "lpse": {
+        "code": "8131A",
+        "file": "se/8131a.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H001A",
         "file": "voice/BGV_tuba_h001a.ogg"
@@ -1558,6 +1775,10 @@
       "bg": {
         "label": "#EV036・眉しかめ・見つめ・前のめり・破瓜",
         "file": "EV036_09"
+      },
+      "lpse": {
+        "code": "8131A",
+        "file": "se/8131a.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H001A",
@@ -1578,6 +1799,10 @@
       "bg": {
         "label": "#EV036・眉しかめ・見つめ・前のめり・破瓜",
         "file": "EV036_09"
+      },
+      "lpse": {
+        "code": "8131A",
+        "file": "se/8131a.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H001A",
@@ -1601,6 +1826,10 @@
         "label": "#EV036・眉しかめ・見つめ・前のめり・破瓜",
         "file": "EV036_09"
       },
+      "lpse": {
+        "code": "8131A",
+        "file": "se/8131a.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H001A",
         "file": "voice/BGV_tuba_h001a.ogg"
@@ -1620,6 +1849,10 @@
       "bg": {
         "label": "#EV036・うっとり２・見つめ・前のめり・破瓜",
         "file": "EV036_11"
+      },
+      "lpse": {
+        "code": "8131A",
+        "file": "se/8131a.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H002A",
@@ -1645,6 +1878,10 @@
         "label": "#EV036・うっとり２・見つめ・前のめり・破瓜",
         "file": "EV036_11"
       },
+      "lpse": {
+        "code": "8131A",
+        "file": "se/8131a.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H002A",
         "file": "voice/BGV_tuba_h002a.ogg"
@@ -1663,6 +1900,10 @@
       "bg": {
         "label": "#EV036・うっとり２・見つめ・前のめり・破瓜",
         "file": "EV036_11"
+      },
+      "lpse": {
+        "code": "8131A",
+        "file": "se/8131a.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H002A",
@@ -1691,6 +1932,10 @@
         "label": "#EV036・うっとり２・見つめ・前のめり・破瓜",
         "file": "EV036_11"
       },
+      "lpse": {
+        "code": "8131A",
+        "file": "se/8131a.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H002A",
         "file": "voice/BGV_tuba_h002a.ogg"
@@ -1710,6 +1955,10 @@
       "bg": {
         "label": "#EV036・うっとり２・見つめ・前のめり・破瓜",
         "file": "EV036_11"
+      },
+      "lpse": {
+        "code": "8131A",
+        "file": "se/8131a.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H002A",
@@ -1733,6 +1982,10 @@
         "label": "#EV036・うっとり２・見つめ・前のめり・破瓜",
         "file": "EV036_11"
       },
+      "lpse": {
+        "code": "8131A",
+        "file": "se/8131a.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H002A",
         "file": "voice/BGV_tuba_h002a.ogg"
@@ -1751,6 +2004,10 @@
       "bg": {
         "label": "#EV036・うっとり２・見つめ・前のめり・破瓜",
         "file": "EV036_11"
+      },
+      "lpse": {
+        "code": "8131A",
+        "file": "se/8131a.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H002A",
@@ -1780,6 +2037,10 @@
         "label": "#EV036・うっとり２・見つめ・前のめり・破瓜",
         "file": "EV036_11"
       },
+      "lpse": {
+        "code": "8131A",
+        "file": "se/8131a.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H002A",
         "file": "voice/BGV_tuba_h002a.ogg"
@@ -1800,6 +2061,10 @@
         "label": "#EV036・眉しかめ・見つめ・前のめり・破瓜",
         "file": "EV036_09"
       },
+      "lpse": {
+        "code": "8131A",
+        "file": "se/8131a.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H002A",
         "file": "voice/BGV_tuba_h002a.ogg"
@@ -1816,6 +2081,10 @@
         "label": "#EV036・眉しかめ・見つめ・前のめり・破瓜",
         "file": "EV036_09"
       },
+      "lpse": {
+        "code": "8131A",
+        "file": "se/8131a.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H002A",
         "file": "voice/BGV_tuba_h002a.ogg"
@@ -1830,6 +2099,10 @@
       "bg": {
         "label": "#EV036・眉しかめ・見つめ・前のめり・破瓜",
         "file": "EV036_09"
+      },
+      "lpse": {
+        "code": "8131A",
+        "file": "se/8131a.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H002A",
@@ -1851,6 +2124,10 @@
         "label": "#EV036・眉しかめ・見つめ・前のめり・破瓜",
         "file": "EV036_09"
       },
+      "lpse": {
+        "code": "8131A",
+        "file": "se/8131a.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H002A",
         "file": "voice/BGV_tuba_h002a.ogg"
@@ -1866,6 +2143,10 @@
       "bg": {
         "label": "#EV036・眉しかめ・見つめ・前のめり・破瓜",
         "file": "EV036_09"
+      },
+      "lpse": {
+        "code": "8131A",
+        "file": "se/8131a.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H002A",
@@ -1887,6 +2168,10 @@
         "label": "#EV036・眉しかめ・見つめ・前のめり・破瓜",
         "file": "EV036_09"
       },
+      "lpse": {
+        "code": "8131A",
+        "file": "se/8131a.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H002A",
         "file": "voice/BGV_tuba_h002a.ogg"
@@ -1902,6 +2187,10 @@
       "bg": {
         "label": "#EV036・眉しかめ・見つめ・前のめり・破瓜",
         "file": "EV036_09"
+      },
+      "lpse": {
+        "code": "8131A",
+        "file": "se/8131a.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H002A",
@@ -1923,6 +2212,10 @@
         "label": "#EV036・眉しかめ・見つめ・前のめり・破瓜",
         "file": "EV036_09"
       },
+      "lpse": {
+        "code": "8131A",
+        "file": "se/8131a.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H002A",
         "file": "voice/BGV_tuba_h002a.ogg"
@@ -1943,6 +2236,10 @@
         "label": "#EV036・眉しかめ・見つめ・前のめり・破瓜",
         "file": "EV036_09"
       },
+      "lpse": {
+        "code": "8131A",
+        "file": "se/8131a.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H002A",
         "file": "voice/BGV_tuba_h002a.ogg"
@@ -1962,6 +2259,10 @@
         "label": "#EV036・眉しかめ・見つめ・前のめり・破瓜",
         "file": "EV036_09"
       },
+      "lpse": {
+        "code": "8131A",
+        "file": "se/8131a.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H002A",
         "file": "voice/BGV_tuba_h002a.ogg"
@@ -1980,6 +2281,10 @@
       "bg": {
         "label": "#EV036・うっとり２・見つめ・前のめり・破瓜・挿入",
         "file": "EV036_12"
+      },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H002A",
@@ -2001,6 +2306,10 @@
         "label": "#EV036・うっとり２・見つめ・前のめり・破瓜・挿入",
         "file": "EV036_12"
       },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H002A",
         "file": "voice/BGV_tuba_h002a.ogg"
@@ -2020,6 +2329,10 @@
       "bg": {
         "label": "#EV036・うっとり２・見つめ・前のめり・破瓜・挿入",
         "file": "EV036_12"
+      },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H002A",
@@ -2041,6 +2354,10 @@
         "label": "#EV036・うっとり２・見つめ・前のめり・破瓜・挿入",
         "file": "EV036_12"
       },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H002A",
         "file": "voice/BGV_tuba_h002a.ogg"
@@ -2055,6 +2372,10 @@
       "bg": {
         "label": "#EV036・うっとり２・見つめ・前のめり・破瓜・挿入",
         "file": "EV036_12"
+      },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H002A",
@@ -2075,6 +2396,10 @@
       "bg": {
         "label": "#EV036・うっとり２・見つめ・前のめり・破瓜・挿入",
         "file": "EV036_12"
+      },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H002A",
@@ -2099,6 +2424,10 @@
         "label": "#EV036・うっとり２・見つめ・前のめり・破瓜・挿入",
         "file": "EV036_12"
       },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H002A",
         "file": "voice/BGV_tuba_h002a.ogg"
@@ -2118,6 +2447,10 @@
       "bg": {
         "label": "#EV036・うっとり２・見つめ・前のめり・破瓜・挿入",
         "file": "EV036_12"
+      },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H002A",
@@ -2142,6 +2475,10 @@
         "label": "#EV036・うっとり２・見つめ・前のめり・破瓜・挿入",
         "file": "EV036_12"
       },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H002A",
         "file": "voice/BGV_tuba_h002a.ogg"
@@ -2161,6 +2498,10 @@
       "bg": {
         "label": "#EV036・うっとり２・見つめ・前のめり・破瓜・挿入",
         "file": "EV036_12"
+      },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H002A",
@@ -2186,6 +2527,10 @@
         "label": "#EV036・うっとり２・見つめ・前のめり・破瓜・挿入",
         "file": "EV036_12"
       },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H002A",
         "file": "voice/BGV_tuba_h002a.ogg"
@@ -2205,6 +2550,10 @@
       "bg": {
         "label": "#EV036・うっとり２・見つめ・前のめり・破瓜・挿入",
         "file": "EV036_12"
+      },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H002A",
@@ -2233,6 +2582,10 @@
         "label": "#EV036・うっとり２・見つめ・前のめり・破瓜・挿入",
         "file": "EV036_12"
       },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H002A",
         "file": "voice/BGV_tuba_h002a.ogg"
@@ -2252,6 +2605,10 @@
       "bg": {
         "label": "#EV036・うっとり２・見つめ・前のめり・破瓜・挿入",
         "file": "EV036_12"
+      },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H002A",
@@ -2276,6 +2633,10 @@
         "label": "#EV036・うっとり２・見つめ・前のめり・破瓜・挿入",
         "file": "EV036_12"
       },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H002A",
         "file": "voice/BGV_tuba_h002a.ogg"
@@ -2295,6 +2656,10 @@
       "bg": {
         "label": "#EV036・うっとり２・見つめ・前のめり・破瓜・挿入",
         "file": "EV036_12"
+      },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H002A",
@@ -2326,6 +2691,10 @@
         "label": "#EV036・うっとり２・見つめ・前のめり・破瓜・挿入",
         "file": "EV036_12"
       },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H002A",
         "file": "voice/BGV_tuba_h002a.ogg"
@@ -2340,6 +2709,10 @@
       "bg": {
         "label": "#EV036・うっとり２・見つめ・前のめり・破瓜・挿入",
         "file": "EV036_12"
+      },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H002A",
@@ -2361,6 +2734,10 @@
         "label": "#EV036・うっとり２・見つめ・前のめり・破瓜・挿入",
         "file": "EV036_12"
       },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H002A",
         "file": "voice/BGV_tuba_h002a.ogg"
@@ -2381,6 +2758,10 @@
         "label": "#EV036・うっとり２・見つめ・前のめり・破瓜・挿入",
         "file": "EV036_12"
       },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H002A",
         "file": "voice/BGV_tuba_h002a.ogg"
@@ -2395,6 +2776,10 @@
       "bg": {
         "label": "#EV036・うっとり２・見つめ・前のめり・破瓜・挿入",
         "file": "EV036_12"
+      },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H002A",
@@ -2415,6 +2800,10 @@
       "bg": {
         "label": "#EV036・うっとり２・見つめ・前のめり・破瓜・挿入",
         "file": "EV036_12"
+      },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H002A",
@@ -2439,6 +2828,10 @@
         "label": "#EV036・うっとり２・見つめ・前のめり・破瓜・挿入",
         "file": "EV036_12"
       },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H002A",
         "file": "voice/BGV_tuba_h002a.ogg"
@@ -2453,6 +2846,10 @@
       "bg": {
         "label": "#EV036・うっとり２・見つめ・前のめり・破瓜・挿入",
         "file": "EV036_12"
+      },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H002A",
@@ -2473,6 +2870,10 @@
       "bg": {
         "label": "#EV036・うっとり２・見つめ・前のめり・破瓜・挿入",
         "file": "EV036_12"
+      },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H002A",
@@ -2497,6 +2898,10 @@
         "label": "#EV036・うっとり２・見つめ・前のめり・破瓜・挿入",
         "file": "EV036_12"
       },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H002A",
         "file": "voice/BGV_tuba_h002a.ogg"
@@ -2516,6 +2921,10 @@
       "bg": {
         "label": "#EV036・軽くアヘ・切なげ・前のめり・破瓜・挿入",
         "file": "EV036_13"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H003A",
@@ -2540,6 +2949,10 @@
         "label": "#EV036・軽くアヘ・切なげ・前のめり・破瓜・挿入",
         "file": "EV036_13"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H003A",
         "file": "voice/BGV_tuba_h003a.ogg"
@@ -2559,6 +2972,10 @@
       "bg": {
         "label": "#EV036・軽くアヘ・切なげ・前のめり・破瓜・挿入",
         "file": "EV036_13"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H003A",
@@ -2583,6 +3000,10 @@
         "label": "#EV036・軽くアヘ・切なげ・前のめり・破瓜・挿入",
         "file": "EV036_13"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H003A",
         "file": "voice/BGV_tuba_h003a.ogg"
@@ -2602,6 +3023,10 @@
       "bg": {
         "label": "#EV036・軽くアヘ・切なげ・前のめり・破瓜・挿入",
         "file": "EV036_13"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H003A",
@@ -2623,6 +3048,10 @@
         "label": "#EV036・軽くアヘ・切なげ・前のめり・破瓜・挿入",
         "file": "EV036_13"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H003A",
         "file": "voice/BGV_tuba_h003a.ogg"
@@ -2642,6 +3071,10 @@
       "bg": {
         "label": "#EV036・軽くアヘ・切なげ・前のめり・破瓜・挿入",
         "file": "EV036_13"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H003A",
@@ -2666,6 +3099,10 @@
         "label": "#EV036・軽くアヘ・切なげ・前のめり・破瓜・挿入",
         "file": "EV036_13"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H003A",
         "file": "voice/BGV_tuba_h003a.ogg"
@@ -2685,6 +3122,10 @@
       "bg": {
         "label": "#EV036・軽くアヘ・切なげ・前のめり・破瓜・挿入",
         "file": "EV036_13"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H003A",
@@ -2710,6 +3151,10 @@
         "label": "#EV036・軽くアヘ・切なげ・前のめり・破瓜・挿入",
         "file": "EV036_13"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H003A",
         "file": "voice/BGV_tuba_h003a.ogg"
@@ -2729,6 +3174,10 @@
       "bg": {
         "label": "#EV036・軽くアヘ・切なげ・前のめり・破瓜・挿入",
         "file": "EV036_13"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H003A",
@@ -2756,6 +3205,10 @@
         "label": "#EV036・軽くアヘ・切なげ・前のめり・破瓜・挿入",
         "file": "EV036_13"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H003A",
         "file": "voice/BGV_tuba_h003a.ogg"
@@ -2775,6 +3228,10 @@
       "bg": {
         "label": "#EV036・軽くアヘ・切なげ・前のめり・破瓜・挿入",
         "file": "EV036_13"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H003A",
@@ -2799,6 +3256,10 @@
         "label": "#EV036・軽くアヘ・切なげ・前のめり・破瓜・挿入",
         "file": "EV036_13"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H003A",
         "file": "voice/BGV_tuba_h003a.ogg"
@@ -2813,6 +3274,10 @@
       "bg": {
         "label": "#EV036・軽くアヘ・切なげ・前のめり・破瓜・挿入",
         "file": "EV036_13"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H003A",
@@ -2833,6 +3298,10 @@
       "bg": {
         "label": "#EV036・軽くアヘ・切なげ・前のめり・破瓜・挿入",
         "file": "EV036_13"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H003A",
@@ -2862,6 +3331,10 @@
           "file": "se/8201b.ogg"
         }
       ],
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H003A",
         "file": "voice/BGV_tuba_h003a.ogg"
@@ -2877,6 +3350,10 @@
       "bg": {
         "label": "#EV036・軽くアヘ・目閉じ・前のめり・破瓜・射精",
         "file": "EV036_14"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H003A",
@@ -2905,6 +3382,10 @@
           "file": "se/8011b.ogg"
         }
       ],
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H003A",
         "file": "voice/BGV_tuba_h003a.ogg"
@@ -2933,6 +3414,10 @@
           "file": "se/8201b.ogg"
         }
       ],
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H003A",
         "file": "voice/BGV_tuba_h003a.ogg"
@@ -2959,6 +3444,10 @@
           "file": "se/8351a.ogg"
         }
       ],
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H003A",
         "file": "voice/BGV_tuba_h003a.ogg"
@@ -2981,6 +3470,10 @@
         "label": "#EV036・軽くアヘ・目閉じ・前のめり・破瓜・射精",
         "file": "EV036_14"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H003A",
         "file": "voice/BGV_tuba_h003a.ogg"
@@ -2997,6 +3490,10 @@
       "bg": {
         "label": "#EV036・軽くアヘ・切なげ・前のめり・破瓜・射精続",
         "file": "EV036_15"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H003A",
@@ -3024,6 +3521,10 @@
           "file": "se/8351a.ogg"
         }
       ],
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H003A",
         "file": "voice/BGV_tuba_h003a.ogg"
@@ -3048,6 +3549,10 @@
         "label": "#EV036・軽くアヘ・切なげ・前のめり・破瓜・射精続",
         "file": "EV036_15"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H003A",
         "file": "voice/BGV_tuba_h003a.ogg"
@@ -3069,6 +3574,10 @@
         "label": "#EV036・軽くアヘ・切なげ・前のめり・破瓜・射精続",
         "file": "EV036_15"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H003A",
         "file": "voice/BGV_tuba_h003a.ogg"
@@ -3080,7 +3589,24 @@
         [
           "どうやら彼女は、子宮が精液で満たされるのを、",
           "幸せと感じているようだった。"
-        ],
+        ]
+      ],
+      "bg": {
+        "label": "#EV036・軽くアヘ・切なげ・前のめり・破瓜・射精続",
+        "file": "EV036_15"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H003A",
+        "file": "voice/BGV_tuba_h003a.ogg"
+      }
+    },
+    {
+      "kind": "narration",
+      "pages": [
         [
           "最奥に出しまくりながら、僕は奥をグリグリと",
           "突いてあげる。"
@@ -3089,6 +3615,10 @@
       "bg": {
         "label": "#EV036・軽くアヘ・切なげ・前のめり・破瓜・射精続",
         "file": "EV036_15"
+      },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H003A",
@@ -3116,6 +3646,10 @@
           "file": "se/8351a.ogg"
         }
       ],
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H003A",
         "file": "voice/BGV_tuba_h003a.ogg"
@@ -3135,6 +3669,10 @@
       "bg": {
         "label": "#EV036・軽くアヘ・切なげ・前のめり・破瓜・射精続",
         "file": "EV036_15"
+      },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H003A",
@@ -3156,6 +3694,10 @@
       "bg": {
         "label": "#EV036・軽くアヘ・切なげ・前のめり・破瓜・射精続",
         "file": "EV036_15"
+      },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H003A",
@@ -3190,6 +3732,10 @@
           "file": "se/8201b.ogg"
         }
       ],
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H003A",
         "file": "voice/BGV_tuba_h003a.ogg"
@@ -3209,6 +3755,10 @@
       "bg": {
         "label": "#EV036・軽くアヘ・切なげ・前のめり・破瓜・射精続",
         "file": "EV036_15"
+      },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H003A",
@@ -3239,6 +3789,10 @@
           "file": "se/8011b.ogg"
         }
       ],
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H003A",
         "file": "voice/BGV_tuba_h003a.ogg"
@@ -3258,6 +3812,10 @@
       "bg": {
         "label": "#EV036・軽くアヘ・切なげ・前のめり・破瓜・精液たまり",
         "file": "EV036_16"
+      },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H003A",
@@ -3280,6 +3838,10 @@
         "label": "#EV036・軽くアヘ・切なげ・前のめり・破瓜・精液たまり",
         "file": "EV036_16"
       },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H003A",
         "file": "voice/BGV_tuba_h003a.ogg"
@@ -3300,6 +3862,10 @@
         "label": "#EV036・軽くアヘ・切なげ・前のめり・破瓜・精液たまり",
         "file": "EV036_16"
       },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H003A",
         "file": "voice/BGV_tuba_h003a.ogg"
@@ -3319,6 +3885,10 @@
         "label": "#EV036・軽くアヘ・切なげ・前のめり・破瓜・精液たまり",
         "file": "EV036_16"
       },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H003A",
         "file": "voice/BGV_tuba_h003a.ogg"
@@ -3337,6 +3907,10 @@
       "bg": {
         "label": "#EV036・軽くアヘ・切なげ・前のめり・破瓜・精液たまり",
         "file": "EV036_16"
+      },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H003A",
@@ -3379,6 +3953,10 @@
           "file": "se/8321a.ogg"
         }
       ],
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H003A",
         "file": "voice/BGV_tuba_h003a.ogg"
@@ -3399,6 +3977,10 @@
         "label": "#EV036・うっとり・見つめ・前のめり・破瓜・精液たまり",
         "file": "EV036_17"
       },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H003A",
         "file": "voice/BGV_tuba_h003a.ogg"
@@ -3418,6 +4000,10 @@
         "label": "#EV036・うっとり・見つめ・前のめり・破瓜・精液たまり",
         "file": "EV036_17"
       },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H003A",
         "file": "voice/BGV_tuba_h003a.ogg"
@@ -3432,6 +4018,10 @@
       "bg": {
         "label": "#EV036・うっとり・見つめ・前のめり・破瓜・精液たまり",
         "file": "EV036_17"
+      },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H003A",
@@ -3453,6 +4043,10 @@
         "label": "#EV036・うっとり・見つめ・前のめり・破瓜・精液たまり",
         "file": "EV036_17"
       },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H003A",
         "file": "voice/BGV_tuba_h003a.ogg"
@@ -3470,6 +4064,10 @@
         "label": "#EV036・うっとり・見つめ・前のめり・破瓜・精液たまり",
         "file": "EV036_17"
       },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H003A",
         "file": "voice/BGV_tuba_h003a.ogg"
@@ -3484,6 +4082,10 @@
       "bg": {
         "label": "#EV036・うっとり・見つめ・前のめり・破瓜・精液たまり",
         "file": "EV036_17"
+      },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H003A",
@@ -3505,6 +4107,10 @@
         "label": "#EV036・うっとり・見つめ・前のめり・破瓜・精液たまり",
         "file": "EV036_17"
       },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H003A",
         "file": "voice/BGV_tuba_h003a.ogg"
@@ -3520,6 +4126,10 @@
       "bg": {
         "label": "#EV036・うっとり・見つめ・前のめり・破瓜・精液たまり",
         "file": "EV036_17"
+      },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H003A",
@@ -3541,6 +4151,10 @@
         "label": "#EV036・うっとり・見つめ・前のめり・破瓜・精液たまり",
         "file": "EV036_17"
       },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H003A",
         "file": "voice/BGV_tuba_h003a.ogg"
@@ -3556,6 +4170,10 @@
       "bg": {
         "label": "#EV036・うっとり・見つめ・前のめり・破瓜・精液たまり",
         "file": "EV036_17"
+      },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H003A",
@@ -3577,6 +4195,10 @@
         "label": "#EV036・うっとり・見つめ・前のめり・破瓜・精液たまり",
         "file": "EV036_17"
       },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H003A",
         "file": "voice/BGV_tuba_h003a.ogg"
@@ -3596,6 +4218,10 @@
       "bg": {
         "label": "#EV036・うっとり・見つめ・前のめり・破瓜・精液たまり",
         "file": "EV036_17"
+      },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H003A",
@@ -3617,6 +4243,10 @@
         "label": "#EV036・うっとり・見つめ・前のめり・破瓜・精液たまり",
         "file": "EV036_17"
       },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H003A",
         "file": "voice/BGV_tuba_h003a.ogg"
@@ -3632,6 +4262,10 @@
       "bg": {
         "label": "#EV036・うっとり・見つめ・前のめり・破瓜・精液たまり",
         "file": "EV036_17"
+      },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H003A",
@@ -3652,6 +4286,10 @@
         "label": "#EV036・うっとり・見つめ・前のめり・破瓜・精液たまり",
         "file": "EV036_17"
       },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H003A",
         "file": "voice/BGV_tuba_h003a.ogg"
@@ -3671,6 +4309,10 @@
       "bg": {
         "label": "#EV036・うっとり・見つめ・前のめり・破瓜・精液たまり",
         "file": "EV036_17"
+      },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H003A",
@@ -3693,6 +4335,10 @@
       "bg": {
         "label": "#背景・黒一色",
         "file": "BG_BLACK"
+      },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H003A",

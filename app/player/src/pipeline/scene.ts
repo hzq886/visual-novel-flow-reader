@@ -10,7 +10,8 @@
  *  text     … 本文 1 行。「」のバランスで複数行を 1 セリフ beat に集約、無ければ地の文（narration）。
  *  speaker  … 話者名（0x0d。主人公含む全発話に明示）。次のセリフ beat に適用（使い切り）。
  *  voice    … ボイス ID。次のセリフ beat へ。
- *  se       … 効果音（ワンショット）。現 beat があればそこへ、無ければ次 beat へ持ち越す。
+ *  se       … 効果音（ワンショット・0x15）。現 beat があればそこへ、無ければ次 beat へ持ち越す。
+ *  lpse     … ループ se（0x16・VOL_LPSE）。BGV 同型の単一ループチャンネルで sticky 持続（HU-76）。
  *  bg       … 背景/EV/黒。label で下レイヤ背景（#背景）と被せ CG（#EV/黒）を分類（HU-63）。
  *  sprite   … 立ち絵スロット列（"-"=空き / null=変更なし）。per-slot sticky で多体を同時保持（HU-77。
  *             第3要素 reset=true は適用前に全スロットをクリア＝シーン転換の establishing shot）。
@@ -81,6 +82,7 @@ export function buildScene(
   let stickySlots: (SpriteRef | undefined)[] = []
   let stickyItem: ItemRef | undefined // アイテム CG 窓（bg/sprite と独立のオーバーレイ・HU-70）
   let stickyBgv: { id: string; file: null } | undefined
+  let stickyLpse: SeRef | undefined // ループ se（VOL_LPSE。単一ループチャンネルで sticky・HU-76）
   let quoteDepth = 0
   let lastWho: string | null = null
   const voiceMap = new Map<string, string>() // ボイス ID 接頭辞 → 話者名（HU-67 フォールバック）
@@ -106,12 +108,13 @@ export function buildScene(
       : `SP:${occupiedSlots(slots)
           .map((s) => s.label)
           .join('|')}`
-  // beat 生成時のスナップショット: bg/sprites/item/bgv の sticky 値＋持ち越し中の se/flash を取り込む。
+  // beat 生成時のスナップショット: bg/sprites/item/bgv/lpse の sticky 値＋持ち越し中の se/flash を取り込む。
   type Snap = {
     bg?: BgRef
     sprites?: SpriteRef[]
     item?: ItemRef
     se?: SeRef[]
+    lpse?: SeRef
     bgv?: { id: string; file: null }
     flash?: number
   }
@@ -124,6 +127,7 @@ export function buildScene(
       ...(bg ? { bg } : {}),
       ...(sprites.length ? { sprites } : {}),
       ...(stickyItem ? { item: stickyItem } : {}),
+      ...(stickyLpse ? { lpse: stickyLpse } : {}),
       ...(stickyBgv ? { bgv: stickyBgv } : {}),
     }
     if (pendingSe.length) {
@@ -198,6 +202,13 @@ export function buildScene(
     if (id === stickyBgv?.id) return
     if (cur?.kind === 'narration') flush()
     stickyBgv = { id, file: null }
+  }
+  // ループ se（lpse イベント・0x16）。BGV 同型の単一ループチャンネルで、次の lpse まで／シーン離脱まで
+  // 持続する（停止マーカーは原データに無い・HU-76）。変化時に narration を flush して正しい行から鳴らす。
+  const setLpse = (code: string) => {
+    if (code === stickyLpse?.code) return
+    if (cur?.kind === 'narration') flush()
+    stickyLpse = { code, file: null }
   }
   // アイテム CG 窓（HU-70）。座標は item イベント（bytecode 0x3b）由来。itemclose（0x3c）で閉じる。
   const openItem = (code: string, x: number, y: number) => {
@@ -283,6 +294,7 @@ export function buildScene(
       pendingVoice = ev[1]
       quoteDepth = 0
     } else if (tag === 'se') addSe(ev[1])
+    else if (tag === 'lpse') setLpse(ev[1])
     else if (tag === 'bg') applyBg(ev[1])
     else if (tag === 'sprite') applySprite(ev[1], ev[2] === true)
     else if (tag === 'item') openItem(ev[1], ev[2], ev[3])

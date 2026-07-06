@@ -241,7 +241,20 @@
       "pages": [
         [
           "思わず顔を寄せ過ぎてしまっていたようだ。"
-        ],
+        ]
+      ],
+      "bg": {
+        "label": "#EV034・恥ずかしそう・右手割れ目開き・愛液",
+        "file": "EV034_03"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
+      }
+    },
+    {
+      "kind": "narration",
+      "pages": [
         [
           "僕は少しだけ身体をひくと、本格的にアソコを",
           "弄り始めた。"
@@ -250,6 +263,10 @@
       "bg": {
         "label": "#EV034・恥ずかしそう・右手割れ目開き・愛液",
         "file": "EV034_03"
+      },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H001A",
@@ -269,6 +286,10 @@
       "bg": {
         "label": "#EV034・恥ずかしそう2・両手割れ目なぞり・愛液",
         "file": "EV034_04"
+      },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H001A",
@@ -293,6 +314,10 @@
         "label": "#EV034・恥ずかしそう2・両手割れ目なぞり・愛液",
         "file": "EV034_04"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H001A",
         "file": "voice/BGV_tuba_h001a.ogg"
@@ -312,6 +337,10 @@
       "bg": {
         "label": "#EV034・恥ずかしそう2・両手割れ目なぞり・愛液",
         "file": "EV034_04"
+      },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H001A",
@@ -337,6 +366,10 @@
         "label": "#EV034・恥ずかしそう2・両手割れ目なぞり・愛液",
         "file": "EV034_04"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H001A",
         "file": "voice/BGV_tuba_h001a.ogg"
@@ -352,6 +385,10 @@
       "bg": {
         "label": "#EV034・恥ずかしそう2・両手割れ目なぞり・愛液",
         "file": "EV034_04"
+      },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H001A",
@@ -372,6 +409,10 @@
       "bg": {
         "label": "#EV034・恥ずかしそう2・両手割れ目なぞり・愛液",
         "file": "EV034_04"
+      },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H001A",
@@ -396,6 +437,10 @@
         "label": "#EV034・恥ずかしそう2・両手割れ目なぞり・愛液",
         "file": "EV034_04"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H001A",
         "file": "voice/BGV_tuba_h001a.ogg"
@@ -415,6 +460,10 @@
       "bg": {
         "label": "#EV034・恥ずかしそう2・両手割れ目なぞり・愛液",
         "file": "EV034_04"
+      },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H001A",
@@ -439,6 +488,10 @@
         "label": "#EV034・恥ずかしそう2・両手割れ目なぞり・愛液",
         "file": "EV034_04"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H001A",
         "file": "voice/BGV_tuba_h001a.ogg"
@@ -458,6 +511,10 @@
       "bg": {
         "label": "#EV034・恥ずかしそう2・両手割れ目なぞり・愛液",
         "file": "EV034_04"
+      },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H001A",
@@ -483,6 +540,10 @@
         "label": "#EV034・恥ずかしそう2・両手割れ目なぞり・愛液",
         "file": "EV034_04"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H001A",
         "file": "voice/BGV_tuba_h001a.ogg"
@@ -503,6 +564,10 @@
         "label": "#EV034・恥ずかしそう2・両手割れ目なぞり・愛液",
         "file": "EV034_04"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H001A",
         "file": "voice/BGV_tuba_h001a.ogg"
@@ -519,6 +584,10 @@
         "label": "#EV034・恥ずかしそう2・両手割れ目なぞり・愛液",
         "file": "EV034_04"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H001A",
         "file": "voice/BGV_tuba_h001a.ogg"
@@ -533,6 +602,10 @@
       "bg": {
         "label": "#EV034・恥ずかしそう2・両手割れ目なぞり・愛液",
         "file": "EV034_04"
+      },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H001A",
@@ -553,6 +626,10 @@
       "bg": {
         "label": "#EV034・恥ずかしそう2・両手割れ目なぞり・愛液",
         "file": "EV034_04"
+      },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H001A",
@@ -583,6 +660,10 @@
           "file": "se/8321c.ogg"
         }
       ],
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H001A",
         "file": "voice/BGV_tuba_h001a.ogg"
@@ -602,6 +683,10 @@
       "bg": {
         "label": "#EV034・驚き・クリ触り・愛液",
         "file": "EV034_05"
+      },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H002A",
@@ -630,6 +715,10 @@
         "label": "#EV034・驚き・クリ触り・愛液",
         "file": "EV034_05"
       },
+      "lpse": {
+        "code": "8131B",
+        "file": "se/8131b.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H002A",
         "file": "voice/BGV_tuba_h002a.ogg"
@@ -648,6 +737,10 @@
       "bg": {
         "label": "#EV034・驚き・クリ触り・愛液",
         "file": "EV034_05"
+      },
+      "lpse": {
+        "code": "8131B",
+        "file": "se/8131b.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H002A",
@@ -668,6 +761,10 @@
         "label": "#EV034・驚き・クリ触り・愛液",
         "file": "EV034_05"
       },
+      "lpse": {
+        "code": "8131B",
+        "file": "se/8131b.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H002A",
         "file": "voice/BGV_tuba_h002a.ogg"
@@ -682,6 +779,10 @@
       "bg": {
         "label": "#EV034・驚き・クリ触り・愛液",
         "file": "EV034_05"
+      },
+      "lpse": {
+        "code": "8131B",
+        "file": "se/8131b.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H002A",
@@ -702,6 +803,10 @@
       "bg": {
         "label": "#EV034・驚き・クリ触り・愛液",
         "file": "EV034_05"
+      },
+      "lpse": {
+        "code": "8131B",
+        "file": "se/8131b.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H002A",
@@ -730,6 +835,10 @@
         "label": "#EV034・驚き・クリ触り・愛液",
         "file": "EV034_05"
       },
+      "lpse": {
+        "code": "8131B",
+        "file": "se/8131b.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H002A",
         "file": "voice/BGV_tuba_h002a.ogg"
@@ -744,6 +853,10 @@
       "bg": {
         "label": "#EV034・驚き・クリ触り・愛液",
         "file": "EV034_05"
+      },
+      "lpse": {
+        "code": "8131B",
+        "file": "se/8131b.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H002A",
@@ -765,6 +878,10 @@
         "label": "#EV034・驚き・クリ触り・愛液",
         "file": "EV034_05"
       },
+      "lpse": {
+        "code": "8131B",
+        "file": "se/8131b.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H002A",
         "file": "voice/BGV_tuba_h002a.ogg"
@@ -781,6 +898,10 @@
         "label": "#EV034・驚き・クリ触り・愛液",
         "file": "EV034_05"
       },
+      "lpse": {
+        "code": "8131B",
+        "file": "se/8131b.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H002A",
         "file": "voice/BGV_tuba_h002a.ogg"
@@ -795,6 +916,10 @@
       "bg": {
         "label": "#EV034・驚き・クリ触り・愛液",
         "file": "EV034_05"
+      },
+      "lpse": {
+        "code": "8131B",
+        "file": "se/8131b.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H002A",
@@ -821,6 +946,10 @@
           "file": "se/8321c.ogg"
         }
       ],
+      "lpse": {
+        "code": "8131B",
+        "file": "se/8131b.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H002A",
         "file": "voice/BGV_tuba_h002a.ogg"
@@ -837,6 +966,10 @@
       "bg": {
         "label": "#EV034・我慢・クリ触り・愛液",
         "file": "EV034_06"
+      },
+      "lpse": {
+        "code": "8131B",
+        "file": "se/8131b.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H002A",
@@ -857,6 +990,10 @@
       "bg": {
         "label": "#EV034・我慢・クリ触り・愛液",
         "file": "EV034_06"
+      },
+      "lpse": {
+        "code": "8131B",
+        "file": "se/8131b.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H002A",
@@ -884,6 +1021,10 @@
         "label": "#EV034・我慢・クリ触り・愛液",
         "file": "EV034_06"
       },
+      "lpse": {
+        "code": "8131B",
+        "file": "se/8131b.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H002A",
         "file": "voice/BGV_tuba_h002a.ogg"
@@ -903,6 +1044,10 @@
       "bg": {
         "label": "#EV034・我慢・クリ触り・愛液",
         "file": "EV034_06"
+      },
+      "lpse": {
+        "code": "8131B",
+        "file": "se/8131b.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H002A",
@@ -928,6 +1073,10 @@
         "label": "#EV034・我慢・クリ触り・愛液",
         "file": "EV034_06"
       },
+      "lpse": {
+        "code": "8131B",
+        "file": "se/8131b.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H002A",
         "file": "voice/BGV_tuba_h002a.ogg"
@@ -947,6 +1096,10 @@
       "bg": {
         "label": "#EV034・我慢・クリ触り・愛液",
         "file": "EV034_06"
+      },
+      "lpse": {
+        "code": "8131B",
+        "file": "se/8131b.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H002A",
@@ -969,6 +1122,10 @@
           "file": "se/8311a.ogg"
         }
       ],
+      "lpse": {
+        "code": "8131B",
+        "file": "se/8131b.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H002A",
         "file": "voice/BGV_tuba_h002a.ogg"
@@ -984,6 +1141,10 @@
       "bg": {
         "label": "#EV034・我慢・クリ触り・愛液",
         "file": "EV034_06"
+      },
+      "lpse": {
+        "code": "8131B",
+        "file": "se/8131b.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H002A",
@@ -1004,6 +1165,10 @@
         "label": "#EV034・我慢・クリ触り・愛液",
         "file": "EV034_06"
       },
+      "lpse": {
+        "code": "8131B",
+        "file": "se/8131b.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H002A",
         "file": "voice/BGV_tuba_h002a.ogg"
@@ -1023,6 +1188,10 @@
       "bg": {
         "label": "#EV034・我慢・クリ触り・愛液",
         "file": "EV034_06"
+      },
+      "lpse": {
+        "code": "8131B",
+        "file": "se/8131b.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H002A",
@@ -1050,6 +1219,10 @@
           "file": "se/8321c.ogg"
         }
       ],
+      "lpse": {
+        "code": "8131B",
+        "file": "se/8131b.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H002A",
         "file": "voice/BGV_tuba_h002a.ogg"
@@ -1060,7 +1233,24 @@
       "pages": [
         [
           "そしてまた、根元からクリトリスを摘まみ直す。"
-        ],
+        ]
+      ],
+      "bg": {
+        "label": "#EV034・我慢・クリ触り・愛液",
+        "file": "EV034_06"
+      },
+      "lpse": {
+        "code": "8131B",
+        "file": "se/8131b.ogg"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
+      }
+    },
+    {
+      "kind": "narration",
+      "pages": [
         [
           "今度はクリクリとネジをひねる様な動きで、愛液を",
           "潤滑油にねっとりと弄っていく。"
@@ -1069,6 +1259,10 @@
       "bg": {
         "label": "#EV034・我慢・クリ触り・愛液",
         "file": "EV034_06"
+      },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H002A",
@@ -1089,6 +1283,10 @@
       "bg": {
         "label": "#EV034・我慢・クリ触り・愛液",
         "file": "EV034_06"
+      },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H002A",
@@ -1124,6 +1322,10 @@
         "label": "#EV034・我慢・クリ触り・愛液",
         "file": "EV034_06"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H002A",
         "file": "voice/BGV_tuba_h002a.ogg"
@@ -1144,6 +1346,10 @@
         "label": "#EV034・我慢・クリ触り・愛液",
         "file": "EV034_06"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H002A",
         "file": "voice/BGV_tuba_h002a.ogg"
@@ -1159,6 +1365,10 @@
       "bg": {
         "label": "#EV034・我慢・クリ触り・愛液",
         "file": "EV034_06"
+      },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H002A",
@@ -1179,6 +1389,10 @@
         "label": "#EV034・恥ずかしそう・デフォ・愛液",
         "file": "EV034_07"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H002A",
         "file": "voice/BGV_tuba_h002a.ogg"
@@ -1194,6 +1408,10 @@
       "bg": {
         "label": "#EV034・恥ずかしそう・デフォ・愛液",
         "file": "EV034_07"
+      },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H002A",
@@ -1213,6 +1431,10 @@
       "bg": {
         "label": "#EV034・恥ずかしそう・デフォ・愛液",
         "file": "EV034_07"
+      },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H002A",
@@ -1237,6 +1459,10 @@
         "label": "#EV034・恥ずかしそう・デフォ・愛液",
         "file": "EV034_07"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H002A",
         "file": "voice/BGV_tuba_h002a.ogg"
@@ -1251,6 +1477,10 @@
       "bg": {
         "label": "#EV034・恥ずかしそう・デフォ・愛液",
         "file": "EV034_07"
+      },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H002A",
@@ -1274,6 +1504,10 @@
           "file": "se/8001a.ogg"
         }
       ],
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H002A",
         "file": "voice/BGV_tuba_h002a.ogg"
@@ -1293,6 +1527,10 @@
         "label": "#EV034・我慢2・尻穴指先入れ・愛液",
         "file": "EV034_08"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H002A",
         "file": "voice/BGV_tuba_h002a.ogg"
@@ -1307,6 +1545,10 @@
       "bg": {
         "label": "#EV034・我慢2・尻穴指先入れ・愛液",
         "file": "EV034_08"
+      },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H002A",
@@ -1334,6 +1576,10 @@
           "file": "se/8321a.ogg"
         }
       ],
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H002A",
         "file": "voice/BGV_tuba_h002a.ogg"
@@ -1353,6 +1599,10 @@
       "bg": {
         "label": "#EV034・我慢2・尻穴指先入れ・愛液",
         "file": "EV034_08"
+      },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H002A",
@@ -1379,6 +1629,10 @@
           "file": "se/8001a.ogg"
         }
       ],
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H002A",
         "file": "voice/BGV_tuba_h002a.ogg"
@@ -1398,6 +1652,10 @@
       "bg": {
         "label": "#EV034・我慢2・尻穴指先入れ・愛液",
         "file": "EV034_08"
+      },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H002A",
@@ -1429,6 +1687,10 @@
           "file": "se/8001a.ogg"
         }
       ],
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H002A",
         "file": "voice/BGV_tuba_h002a.ogg"
@@ -1449,6 +1711,10 @@
         "label": "#EV034・我慢2・尻穴指先入れ・愛液",
         "file": "EV034_08"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H002A",
         "file": "voice/BGV_tuba_h002a.ogg"
@@ -1463,7 +1729,24 @@
         ],
         [
           "だけど、動かせないほどのキツさじゃない。"
-        ],
+        ]
+      ],
+      "bg": {
+        "label": "#EV034・我慢2・尻穴指先入れ・愛液",
+        "file": "EV034_08"
+      },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
+      }
+    },
+    {
+      "kind": "narration",
+      "pages": [
         [
           "僕はそのままズボズボと指を出し入れしていく。"
         ]
@@ -1471,6 +1754,10 @@
       "bg": {
         "label": "#EV034・我慢2・尻穴指先入れ・愛液",
         "file": "EV034_08"
+      },
+      "lpse": {
+        "code": "8131A",
+        "file": "se/8131a.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H002A",
@@ -1492,6 +1779,10 @@
         "label": "#EV034・我慢2・尻穴指先入れ・愛液",
         "file": "EV034_08"
       },
+      "lpse": {
+        "code": "8131A",
+        "file": "se/8131a.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H002A",
         "file": "voice/BGV_tuba_h002a.ogg"
@@ -1512,6 +1803,10 @@
         "label": "#EV034・我慢2・尻穴指先入れ・愛液",
         "file": "EV034_08"
       },
+      "lpse": {
+        "code": "8131A",
+        "file": "se/8131a.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H002A",
         "file": "voice/BGV_tuba_h002a.ogg"
@@ -1526,6 +1821,10 @@
       "bg": {
         "label": "#EV034・我慢2・尻穴指先入れ・愛液",
         "file": "EV034_08"
+      },
+      "lpse": {
+        "code": "8131A",
+        "file": "se/8131a.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H002A",
@@ -1547,6 +1846,10 @@
         "label": "#EV034・我慢2・尻穴指先入れ・愛液",
         "file": "EV034_08"
       },
+      "lpse": {
+        "code": "8131A",
+        "file": "se/8131a.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H002A",
         "file": "voice/BGV_tuba_h002a.ogg"
@@ -1567,6 +1870,10 @@
         "label": "#EV034・我慢2・尻穴指先入れ・愛液",
         "file": "EV034_08"
       },
+      "lpse": {
+        "code": "8131A",
+        "file": "se/8131a.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H002A",
         "file": "voice/BGV_tuba_h002a.ogg"
@@ -1586,6 +1893,10 @@
       "bg": {
         "label": "#EV034・我慢2・尻穴指先入れ・愛液",
         "file": "EV034_08"
+      },
+      "lpse": {
+        "code": "8131A",
+        "file": "se/8131a.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H002A",
@@ -1613,6 +1924,10 @@
         "label": "#EV034・我慢2・尻穴指先入れ・愛液",
         "file": "EV034_08"
       },
+      "lpse": {
+        "code": "8131A",
+        "file": "se/8131a.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H002A",
         "file": "voice/BGV_tuba_h002a.ogg"
@@ -1632,6 +1947,10 @@
       "bg": {
         "label": "#EV034・我慢2・尻穴指先入れ・愛液",
         "file": "EV034_08"
+      },
+      "lpse": {
+        "code": "8131A",
+        "file": "se/8131a.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H002A",
@@ -1664,6 +1983,10 @@
           "file": "se/8021a.ogg"
         }
       ],
+      "lpse": {
+        "code": "8131A",
+        "file": "se/8131a.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H002A",
         "file": "voice/BGV_tuba_h002a.ogg"
@@ -1682,6 +2005,10 @@
       "bg": {
         "label": "#EV034・なし・デフォ・愛液",
         "file": "EV034_01"
+      },
+      "lpse": {
+        "code": "8131A",
+        "file": "se/8131a.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H002A",
@@ -1708,6 +2035,10 @@
         "label": "#EV034・なし・デフォ・愛液",
         "file": "EV034_01"
       },
+      "lpse": {
+        "code": "8131A",
+        "file": "se/8131a.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H002A",
         "file": "voice/BGV_tuba_h002a.ogg"
@@ -1727,6 +2058,10 @@
         "label": "#EV034・恥ずかしそう3・クリ舐め・愛液",
         "file": "EV034_09"
       },
+      "lpse": {
+        "code": "8131A",
+        "file": "se/8131a.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H002A",
         "file": "voice/BGV_tuba_h002a.ogg"
@@ -1742,6 +2077,10 @@
       "bg": {
         "label": "#EV034・恥ずかしそう3・クリ舐め・愛液",
         "file": "EV034_09"
+      },
+      "lpse": {
+        "code": "8131A",
+        "file": "se/8131a.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H002A",
@@ -1763,6 +2102,10 @@
         "label": "#EV034・恥ずかしそう3・クリ舐め・愛液",
         "file": "EV034_09"
       },
+      "lpse": {
+        "code": "8131A",
+        "file": "se/8131a.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H002A",
         "file": "voice/BGV_tuba_h002a.ogg"
@@ -1777,6 +2120,10 @@
       "bg": {
         "label": "#EV034・恥ずかしそう3・クリ舐め・愛液",
         "file": "EV034_09"
+      },
+      "lpse": {
+        "code": "8131A",
+        "file": "se/8131a.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H002A",
@@ -1798,6 +2145,10 @@
         "label": "#EV034・恥ずかしそう3・クリ舐め・愛液",
         "file": "EV034_09"
       },
+      "lpse": {
+        "code": "8131A",
+        "file": "se/8131a.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H002A",
         "file": "voice/BGV_tuba_h002a.ogg"
@@ -1816,6 +2167,10 @@
       "bg": {
         "label": "#EV034・恥ずかしそう3・クリ舐め・愛液",
         "file": "EV034_09"
+      },
+      "lpse": {
+        "code": "8131A",
+        "file": "se/8131a.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H002A",
@@ -1847,6 +2202,10 @@
         "label": "#EV034・恥ずかしそう3・クリ舐め・愛液",
         "file": "EV034_09"
       },
+      "lpse": {
+        "code": "8131A",
+        "file": "se/8131a.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H002A",
         "file": "voice/BGV_tuba_h002a.ogg"
@@ -1866,6 +2225,10 @@
       "bg": {
         "label": "#EV034・恥ずかしそう3・クリ舐め・愛液",
         "file": "EV034_09"
+      },
+      "lpse": {
+        "code": "8131A",
+        "file": "se/8131a.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H002A",
@@ -1890,6 +2253,10 @@
         "label": "#EV034・恥ずかしそう3・クリ舐め・愛液",
         "file": "EV034_09"
       },
+      "lpse": {
+        "code": "8131A",
+        "file": "se/8131a.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H002A",
         "file": "voice/BGV_tuba_h002a.ogg"
@@ -1909,6 +2276,10 @@
       "bg": {
         "label": "#EV034・恥ずかしそう3・クリ舐め・愛液",
         "file": "EV034_09"
+      },
+      "lpse": {
+        "code": "8131A",
+        "file": "se/8131a.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H002A",
@@ -1934,6 +2305,10 @@
         "label": "#EV034・恥ずかしそう3・クリ舐め・愛液",
         "file": "EV034_09"
       },
+      "lpse": {
+        "code": "8131A",
+        "file": "se/8131a.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H002A",
         "file": "voice/BGV_tuba_h002a.ogg"
@@ -1953,6 +2328,10 @@
         "label": "#EV034・我慢・クリ舐め・愛液",
         "file": "EV034_10"
       },
+      "lpse": {
+        "code": "8131A",
+        "file": "se/8131a.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H002A",
         "file": "voice/BGV_tuba_h002a.ogg"
@@ -1968,6 +2347,10 @@
       "bg": {
         "label": "#EV034・我慢・クリ舐め・愛液",
         "file": "EV034_10"
+      },
+      "lpse": {
+        "code": "8131A",
+        "file": "se/8131a.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H002A",
@@ -1988,6 +2371,10 @@
         "label": "#EV034・我慢・クリ舐め・愛液",
         "file": "EV034_10"
       },
+      "lpse": {
+        "code": "8131A",
+        "file": "se/8131a.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H002A",
         "file": "voice/BGV_tuba_h002a.ogg"
@@ -2007,6 +2394,10 @@
       "bg": {
         "label": "#EV034・我慢・クリ舐め・愛液",
         "file": "EV034_10"
+      },
+      "lpse": {
+        "code": "8131A",
+        "file": "se/8131a.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H002A",
@@ -2041,6 +2432,10 @@
         "label": "#EV034・我慢・クリ舐め・愛液",
         "file": "EV034_10"
       },
+      "lpse": {
+        "code": "8131A",
+        "file": "se/8131a.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H002A",
         "file": "voice/BGV_tuba_h002a.ogg"
@@ -2059,6 +2454,10 @@
       "bg": {
         "label": "#EV034・我慢・クリ舐め・愛液",
         "file": "EV034_10"
+      },
+      "lpse": {
+        "code": "8131A",
+        "file": "se/8131a.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H002A",
@@ -2086,6 +2485,10 @@
         "label": "#EV034・我慢・クリ舐め・愛液",
         "file": "EV034_10"
       },
+      "lpse": {
+        "code": "8131A",
+        "file": "se/8131a.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H002A",
         "file": "voice/BGV_tuba_h002a.ogg"
@@ -2104,6 +2507,10 @@
       "bg": {
         "label": "#EV034・我慢・クリ舐め・愛液",
         "file": "EV034_10"
+      },
+      "lpse": {
+        "code": "8131A",
+        "file": "se/8131a.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H002A",
@@ -2129,6 +2536,10 @@
         "label": "#EV034・我慢・クリ舐め・愛液",
         "file": "EV034_10"
       },
+      "lpse": {
+        "code": "8131A",
+        "file": "se/8131a.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H002A",
         "file": "voice/BGV_tuba_h002a.ogg"
@@ -2148,6 +2559,10 @@
       "bg": {
         "label": "#EV034・我慢・クリ舐め・愛液",
         "file": "EV034_10"
+      },
+      "lpse": {
+        "code": "8131A",
+        "file": "se/8131a.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H002A",
@@ -2178,6 +2593,10 @@
         "label": "#EV034・我慢・クリ舐め・愛液",
         "file": "EV034_10"
       },
+      "lpse": {
+        "code": "8131A",
+        "file": "se/8131a.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H002A",
         "file": "voice/BGV_tuba_h002a.ogg"
@@ -2197,6 +2616,10 @@
       "bg": {
         "label": "#EV034・我慢・クリ舐め・愛液",
         "file": "EV034_10"
+      },
+      "lpse": {
+        "code": "8131A",
+        "file": "se/8131a.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H002A",
@@ -2227,6 +2650,10 @@
         "label": "#EV034・我慢・クリ舐め・愛液",
         "file": "EV034_10"
       },
+      "lpse": {
+        "code": "8131A",
+        "file": "se/8131a.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H002A",
         "file": "voice/BGV_tuba_h002a.ogg"
@@ -2246,6 +2673,10 @@
       "bg": {
         "label": "#EV034・我慢・クリ舐め・愛液",
         "file": "EV034_10"
+      },
+      "lpse": {
+        "code": "8131A",
+        "file": "se/8131a.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H002A",
@@ -2278,6 +2709,10 @@
         "label": "#EV034・我慢・クリ舐め・愛液",
         "file": "EV034_10"
       },
+      "lpse": {
+        "code": "8131A",
+        "file": "se/8131a.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H002A",
         "file": "voice/BGV_tuba_h002a.ogg"
@@ -2297,6 +2732,10 @@
       "bg": {
         "label": "#EV034・我慢・クリ舐め・愛液",
         "file": "EV034_10"
+      },
+      "lpse": {
+        "code": "8131A",
+        "file": "se/8131a.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H002A",
@@ -2324,6 +2763,10 @@
         "label": "#EV034・我慢・クリ舐め・愛液",
         "file": "EV034_10"
       },
+      "lpse": {
+        "code": "8131A",
+        "file": "se/8131a.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H002A",
         "file": "voice/BGV_tuba_h002a.ogg"
@@ -2350,6 +2793,10 @@
           "file": "se/8361b.ogg"
         }
       ],
+      "lpse": {
+        "code": "8131A",
+        "file": "se/8131a.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H002A",
         "file": "voice/BGV_tuba_h002a.ogg"
@@ -2376,6 +2823,10 @@
         "label": "#EV034・我慢2・クリ舐め・絶頂",
         "file": "EV034_11"
       },
+      "lpse": {
+        "code": "8131A",
+        "file": "se/8131a.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H002A",
         "file": "voice/BGV_tuba_h002a.ogg"
@@ -2397,6 +2848,10 @@
         "label": "#EV034・我慢2・クリ舐め・絶頂",
         "file": "EV034_11"
       },
+      "lpse": {
+        "code": "8131A",
+        "file": "se/8131a.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H002A",
         "file": "voice/BGV_tuba_h002a.ogg"
@@ -2416,6 +2871,10 @@
       "bg": {
         "label": "#EV034・我慢2・クリ舐め・絶頂",
         "file": "EV034_11"
+      },
+      "lpse": {
+        "code": "8131A",
+        "file": "se/8131a.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H002A",
@@ -2442,6 +2901,10 @@
           "file": "se/8351a.ogg"
         }
       ],
+      "lpse": {
+        "code": "8131A",
+        "file": "se/8131a.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H002A",
         "file": "voice/BGV_tuba_h002a.ogg"
@@ -2464,6 +2927,10 @@
       "bg": {
         "label": "#EV034・我慢2・クリ舐め・絶頂",
         "file": "EV034_11"
+      },
+      "lpse": {
+        "code": "8131A",
+        "file": "se/8131a.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H002A",
@@ -2492,6 +2959,10 @@
           "file": "se/8351a.ogg"
         }
       ],
+      "lpse": {
+        "code": "8131A",
+        "file": "se/8131a.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H002A",
         "file": "voice/BGV_tuba_h002a.ogg"
@@ -2510,6 +2981,10 @@
       "bg": {
         "label": "#EV034・我慢2・クリ舐め・絶頂",
         "file": "EV034_11"
+      },
+      "lpse": {
+        "code": "8131A",
+        "file": "se/8131a.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H002A",
@@ -2532,6 +3007,10 @@
         "label": "#EV034・我慢2・クリ舐め・絶頂",
         "file": "EV034_11"
       },
+      "lpse": {
+        "code": "8131A",
+        "file": "se/8131a.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H002A",
         "file": "voice/BGV_tuba_h002a.ogg"
@@ -2550,6 +3029,10 @@
       "bg": {
         "label": "#EV034・我慢2・クリ舐め・絶頂",
         "file": "EV034_11"
+      },
+      "lpse": {
+        "code": "8131A",
+        "file": "se/8131a.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H002A",
@@ -2570,6 +3053,10 @@
       "bg": {
         "label": "#EV034・うっとり・デフォ・愛液2",
         "file": "EV034_12"
+      },
+      "lpse": {
+        "code": "8131A",
+        "file": "se/8131a.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H002A",
@@ -2600,6 +3087,10 @@
         "label": "#EV034・うっとり・デフォ・愛液2",
         "file": "EV034_12"
       },
+      "lpse": {
+        "code": "8131A",
+        "file": "se/8131a.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H002A",
         "file": "voice/BGV_tuba_h002a.ogg"
@@ -2618,6 +3109,10 @@
       "bg": {
         "label": "#EV034・うっとり・デフォ・愛液2",
         "file": "EV034_12"
+      },
+      "lpse": {
+        "code": "8131A",
+        "file": "se/8131a.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H002A",
@@ -2651,6 +3146,10 @@
           "file": "se/8001b.ogg"
         }
       ],
+      "lpse": {
+        "code": "8131A",
+        "file": "se/8131a.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H002A",
         "file": "voice/BGV_tuba_h002a.ogg"
@@ -2671,6 +3170,10 @@
         "label": "#EV034・軽くアヘ・尻穴指先入れ・愛液2",
         "file": "EV034_13"
       },
+      "lpse": {
+        "code": "8131A",
+        "file": "se/8131a.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H002A",
         "file": "voice/BGV_tuba_h002a.ogg"
@@ -2684,7 +3187,24 @@
         ],
         [
           "反応も悪くないし、ココを弄るなら大丈夫そうだ。"
-        ],
+        ]
+      ],
+      "bg": {
+        "label": "#EV034・軽くアヘ・尻穴指先入れ・愛液2",
+        "file": "EV034_13"
+      },
+      "lpse": {
+        "code": "8131A",
+        "file": "se/8131a.ogg"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H002A",
+        "file": "voice/BGV_tuba_h002a.ogg"
+      }
+    },
+    {
+      "kind": "narration",
+      "pages": [
         [
           "僕はゆっくり指を出し入れしていく。"
         ]
@@ -2692,6 +3212,10 @@
       "bg": {
         "label": "#EV034・軽くアヘ・尻穴指先入れ・愛液2",
         "file": "EV034_13"
+      },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H002A",
@@ -2713,6 +3237,10 @@
         "label": "#EV034・軽くアヘ・尻穴指先入れ・愛液2",
         "file": "EV034_13"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H002A",
         "file": "voice/BGV_tuba_h002a.ogg"
@@ -2733,6 +3261,10 @@
         "label": "#EV034・軽くアヘ・尻穴指先入れ・愛液2",
         "file": "EV034_13"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H002A",
         "file": "voice/BGV_tuba_h002a.ogg"
@@ -2752,6 +3284,10 @@
       "bg": {
         "label": "#EV034・軽くアヘ・尻穴指先入れ・愛液2",
         "file": "EV034_13"
+      },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H002A",
@@ -2783,6 +3319,10 @@
         "label": "#EV034・軽くアヘ・尻穴指先入れ・愛液2",
         "file": "EV034_13"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H002A",
         "file": "voice/BGV_tuba_h002a.ogg"
@@ -2802,6 +3342,10 @@
       "bg": {
         "label": "#EV034・軽くアヘ・尻穴指先入れ・愛液2",
         "file": "EV034_13"
+      },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H002A",
@@ -2842,6 +3386,10 @@
           "file": "se/8021a.ogg"
         }
       ],
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H002A",
         "file": "voice/BGV_tuba_h002a.ogg"
@@ -2860,6 +3408,10 @@
       "bg": {
         "label": "#EV034・うっとり・デフォ・愛液2",
         "file": "EV034_12"
+      },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H001A",
@@ -2881,6 +3433,10 @@
         "label": "#EV034・うっとり・デフォ・愛液2",
         "file": "EV034_12"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H001A",
         "file": "voice/BGV_tuba_h001a.ogg"
@@ -2900,6 +3456,10 @@
       "bg": {
         "label": "#EV034・うっとり・デフォ・愛液2",
         "file": "EV034_12"
+      },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H001A",
@@ -2921,6 +3481,10 @@
         "label": "#EV034・うっとり・デフォ・愛液2",
         "file": "EV034_12"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H001A",
         "file": "voice/BGV_tuba_h001a.ogg"
@@ -2941,6 +3505,10 @@
         "label": "#EV034・うっとり・デフォ・愛液2",
         "file": "EV034_12"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H001A",
         "file": "voice/BGV_tuba_h001a.ogg"
@@ -2960,6 +3528,10 @@
         "label": "#EV034・うっとり・デフォ・愛液2",
         "file": "EV034_12"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H001A",
         "file": "voice/BGV_tuba_h001a.ogg"
@@ -2975,6 +3547,10 @@
       "bg": {
         "label": "#背景・黒一色",
         "file": "BG_BLACK"
+      },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H001A",

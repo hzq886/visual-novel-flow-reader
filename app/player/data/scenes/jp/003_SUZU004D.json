@@ -469,6 +469,10 @@
         "label": "#EV022・目閉じ・先端あてがい・愛液",
         "file": "EV022_03"
       },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H001A",
         "file": "voice/BGV_suzu_h001a.ogg"
@@ -488,6 +492,10 @@
       "bg": {
         "label": "#EV022・目閉じ・先端あてがい・愛液",
         "file": "EV022_03"
+      },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H001A",
@@ -512,6 +520,10 @@
         "label": "#EV022・目閉じ・先端あてがい・愛液",
         "file": "EV022_03"
       },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H001A",
         "file": "voice/BGV_suzu_h001a.ogg"
@@ -531,6 +543,10 @@
       "bg": {
         "label": "#EV022・目閉じ・先端あてがい・愛液",
         "file": "EV022_03"
+      },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H001A",
@@ -557,6 +573,10 @@
         "label": "#EV022・目閉じ・先端あてがい・愛液",
         "file": "EV022_03"
       },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H001A",
         "file": "voice/BGV_suzu_h001a.ogg"
@@ -576,6 +596,10 @@
       "bg": {
         "label": "#EV022・目閉じ・先端あてがい・愛液",
         "file": "EV022_03"
+      },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H001A",
@@ -604,6 +628,10 @@
         "label": "#EV022・目閉じ・先端あてがい・愛液",
         "file": "EV022_03"
       },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H001A",
         "file": "voice/BGV_suzu_h001a.ogg"
@@ -623,6 +651,10 @@
       "bg": {
         "label": "#EV022・目閉じ・先端あてがい・愛液",
         "file": "EV022_03"
+      },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H001A",
@@ -647,6 +679,10 @@
         "label": "#EV022・目閉じ・先端あてがい・愛液",
         "file": "EV022_03"
       },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H001A",
         "file": "voice/BGV_suzu_h001a.ogg"
@@ -666,6 +702,10 @@
       "bg": {
         "label": "#EV022・目閉じ・先端あてがい・愛液",
         "file": "EV022_03"
+      },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H001A",
@@ -698,6 +738,10 @@
         "label": "#EV022・目閉じ・先端あてがい・愛液",
         "file": "EV022_03"
       },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H001A",
         "file": "voice/BGV_suzu_h001a.ogg"
@@ -717,6 +761,10 @@
       "bg": {
         "label": "#EV022・目閉じ・先端あてがい・愛液",
         "file": "EV022_03"
+      },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H001A",
@@ -751,6 +799,10 @@
         "label": "#EV022・目閉じ・先端あてがい・愛液",
         "file": "EV022_03"
       },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H001A",
         "file": "voice/BGV_suzu_h001a.ogg"
@@ -771,6 +823,10 @@
         "label": "#EV022・不安げ・先端あてがい・愛液",
         "file": "EV022_02"
       },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H001A",
         "file": "voice/BGV_suzu_h001a.ogg"
@@ -786,6 +842,10 @@
       "bg": {
         "label": "#EV022・不安げ・先端あてがい・愛液",
         "file": "EV022_02"
+      },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H001A",
@@ -803,6 +863,10 @@
         "label": "#EV022・不安げ・先端あてがい・愛液",
         "file": "EV022_02"
       },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H001A",
         "file": "voice/BGV_suzu_h001a.ogg"
@@ -819,6 +883,10 @@
       "bg": {
         "label": "#EV022・不安げ・先端あてがい・愛液",
         "file": "EV022_02"
+      },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H001A",
@@ -839,6 +907,10 @@
       "bg": {
         "label": "#EV022・不安げ・先端あてがい・愛液",
         "file": "EV022_02"
+      },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H001A",
@@ -864,6 +936,10 @@
         "label": "#EV022・不安げ・先端あてがい・愛液",
         "file": "EV022_02"
       },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H001A",
         "file": "voice/BGV_suzu_h001a.ogg"
@@ -884,6 +960,10 @@
         "label": "#EV022・反発・先端あてがい・愛液",
         "file": "EV022_04"
       },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H001A",
         "file": "voice/BGV_suzu_h001a.ogg"
@@ -898,6 +978,10 @@
       "bg": {
         "label": "#EV022・反発・先端あてがい・愛液",
         "file": "EV022_04"
+      },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H001A",
@@ -926,6 +1010,10 @@
       "bg": {
         "label": "#EV022・反発・先端あてがい・愛液",
         "file": "EV022_04"
+      },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H001A",
@@ -958,6 +1046,10 @@
           "file": "se/8001a.ogg"
         }
       ],
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H001A",
         "file": "voice/BGV_suzu_h001a.ogg"
@@ -977,6 +1069,10 @@
       "bg": {
         "label": "#EV022・苦悶・先端あてがい・愛液",
         "file": "EV022_05"
+      },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H001A",
@@ -1000,6 +1096,10 @@
         "label": "#EV022・苦悶・先端あてがい・愛液",
         "file": "EV022_05"
       },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H001A",
         "file": "voice/BGV_suzu_h001a.ogg"
@@ -1019,6 +1119,10 @@
       "bg": {
         "label": "#EV022・苦悶・先端あてがい・愛液",
         "file": "EV022_05"
+      },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H001A",
@@ -1041,6 +1145,10 @@
         "label": "#EV022・苦悶・先端あてがい・愛液",
         "file": "EV022_05"
       },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H001A",
         "file": "voice/BGV_suzu_h001a.ogg"
@@ -1061,6 +1169,10 @@
         "label": "#EV022・苦悶・先端あてがい・愛液",
         "file": "EV022_05"
       },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H001A",
         "file": "voice/BGV_suzu_h001a.ogg"
@@ -1079,6 +1191,10 @@
       "bg": {
         "label": "#EV022・苦悶・先端あてがい・愛液",
         "file": "EV022_05"
+      },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H001A",
@@ -1099,6 +1215,10 @@
       "bg": {
         "label": "#EV022・苦悶・先端あてがい・愛液",
         "file": "EV022_05"
+      },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H001A",
@@ -1121,6 +1241,10 @@
       "bg": {
         "label": "#EV022・苦悶・先端あてがい・愛液",
         "file": "EV022_05"
+      },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H001A",
@@ -1148,6 +1272,10 @@
           "file": "se/8001b.ogg"
         }
       ],
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H001A",
         "file": "voice/BGV_suzu_h001a.ogg"
@@ -1174,6 +1302,10 @@
         "label": "#EV022・悶絶・挿入・破瓜",
         "file": "EV022_06"
       },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H001A",
         "file": "voice/BGV_suzu_h001a.ogg"
@@ -1192,6 +1324,10 @@
       "bg": {
         "label": "#EV022・悶絶・挿入・破瓜",
         "file": "EV022_06"
+      },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H001A",
@@ -1212,6 +1348,10 @@
         "label": "#EV022・悶絶・挿入・破瓜",
         "file": "EV022_06"
       },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H001A",
         "file": "voice/BGV_suzu_h001a.ogg"
@@ -1231,6 +1371,10 @@
       "bg": {
         "label": "#EV022・悶絶・挿入・破瓜",
         "file": "EV022_06"
+      },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H001A",
@@ -1261,6 +1405,10 @@
           "file": "se/8001a.ogg"
         }
       ],
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H001A",
         "file": "voice/BGV_suzu_h001a.ogg"
@@ -1280,6 +1428,10 @@
       "bg": {
         "label": "#EV022・悶絶・挿入・破瓜",
         "file": "EV022_06"
+      },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H001A",
@@ -1303,6 +1455,10 @@
         "label": "#EV022・悶絶・挿入・破瓜",
         "file": "EV022_06"
       },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H001A",
         "file": "voice/BGV_suzu_h001a.ogg"
@@ -1322,6 +1478,10 @@
       "bg": {
         "label": "#EV022・悶絶・挿入・破瓜",
         "file": "EV022_06"
+      },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H001A",
@@ -1351,6 +1511,10 @@
           "file": "se/8001a.ogg"
         }
       ],
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H001A",
         "file": "voice/BGV_suzu_h001a.ogg"
@@ -1370,6 +1534,10 @@
       "bg": {
         "label": "#EV022・悶絶・挿入・破瓜",
         "file": "EV022_06"
+      },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H001A",
@@ -1394,6 +1562,10 @@
         "label": "#EV022・悶絶・挿入・破瓜",
         "file": "EV022_06"
       },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H001A",
         "file": "voice/BGV_suzu_h001a.ogg"
@@ -1413,6 +1585,10 @@
       "bg": {
         "label": "#EV022・悶絶・挿入・破瓜",
         "file": "EV022_06"
+      },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H001A",
@@ -1436,6 +1612,10 @@
       "bg": {
         "label": "#EV022・悶絶・挿入・破瓜",
         "file": "EV022_06"
+      },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H001A",
@@ -1463,6 +1643,10 @@
           "file": "se/8001b.ogg"
         }
       ],
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H001A",
         "file": "voice/BGV_suzu_h001a.ogg"
@@ -1486,6 +1670,10 @@
         "label": "#EV022・悶絶・挿入・破瓜",
         "file": "EV022_06"
       },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H001A",
         "file": "voice/BGV_suzu_h001a.ogg"
@@ -1506,6 +1694,10 @@
         "label": "#EV022・悶絶・挿入・破瓜",
         "file": "EV022_06"
       },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H001A",
         "file": "voice/BGV_suzu_h001a.ogg"
@@ -1524,6 +1716,10 @@
       "bg": {
         "label": "#EV022・悶絶・挿入・破瓜",
         "file": "EV022_06"
+      },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H001A",
@@ -1544,6 +1740,10 @@
       "bg": {
         "label": "#EV022・悶絶・挿入・破瓜",
         "file": "EV022_06"
+      },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H001A",
@@ -1568,6 +1768,10 @@
         "label": "#EV022・悶絶・挿入・破瓜",
         "file": "EV022_06"
       },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H001A",
         "file": "voice/BGV_suzu_h001a.ogg"
@@ -1587,6 +1791,10 @@
       "bg": {
         "label": "#EV022・悶絶・挿入・破瓜",
         "file": "EV022_06"
+      },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H001A",
@@ -1608,6 +1816,10 @@
         "label": "#EV022・悶絶・挿入・破瓜",
         "file": "EV022_06"
       },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H001A",
         "file": "voice/BGV_suzu_h001a.ogg"
@@ -1622,6 +1834,10 @@
       "bg": {
         "label": "#EV022・悶絶・挿入・破瓜",
         "file": "EV022_06"
+      },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H001A",
@@ -1642,6 +1858,10 @@
       "bg": {
         "label": "#EV022・苦悶2・挿入・破瓜",
         "file": "EV022_07"
+      },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H001A",
@@ -1686,6 +1906,10 @@
         "label": "#EV022・苦悶2・挿入・破瓜",
         "file": "EV022_07"
       },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H001A",
         "file": "voice/BGV_suzu_h001a.ogg"
@@ -1700,6 +1924,10 @@
       "bg": {
         "label": "#EV022・苦悶2・挿入・破瓜",
         "file": "EV022_07"
+      },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H001A",
@@ -1721,6 +1949,10 @@
         "label": "#EV022・苦悶2・挿入・破瓜",
         "file": "EV022_07"
       },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H001A",
         "file": "voice/BGV_suzu_h001a.ogg"
@@ -1740,6 +1972,10 @@
         "label": "#EV022・苦悶2・挿入・破瓜",
         "file": "EV022_07"
       },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H001A",
         "file": "voice/BGV_suzu_h001a.ogg"
@@ -1758,6 +1994,10 @@
       "bg": {
         "label": "#EV022・苦悶2・挿入・破瓜",
         "file": "EV022_07"
+      },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H001A",
@@ -1784,6 +2024,10 @@
         "label": "#EV022・苦悶2・挿入・破瓜",
         "file": "EV022_07"
       },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H001A",
         "file": "voice/BGV_suzu_h001a.ogg"
@@ -1803,6 +2047,10 @@
       "bg": {
         "label": "#EV022・苦悶2・挿入・破瓜",
         "file": "EV022_07"
+      },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H001A",
@@ -1838,6 +2086,10 @@
         "label": "#EV022・苦悶2・挿入・破瓜",
         "file": "EV022_07"
       },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H001A",
         "file": "voice/BGV_suzu_h001a.ogg"
@@ -1852,6 +2104,10 @@
       "bg": {
         "label": "#EV022・苦悶2・挿入・破瓜",
         "file": "EV022_07"
+      },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H001A",
@@ -1869,6 +2125,10 @@
       "bg": {
         "label": "#EV022・苦悶2・挿入・破瓜",
         "file": "EV022_07"
+      },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H001A",
@@ -1889,6 +2149,10 @@
       "bg": {
         "label": "#EV022・苦悶2・挿入・破瓜",
         "file": "EV022_07"
+      },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H001A",
@@ -1914,6 +2178,10 @@
         "label": "#EV022・苦悶2・挿入・破瓜",
         "file": "EV022_07"
       },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H001A",
         "file": "voice/BGV_suzu_h001a.ogg"
@@ -1933,6 +2201,10 @@
       "bg": {
         "label": "#EV022・苦悶2・挿入・破瓜",
         "file": "EV022_07"
+      },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H001A",
@@ -1959,6 +2231,10 @@
         "label": "#EV022・苦悶2・挿入・破瓜",
         "file": "EV022_07"
       },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H001A",
         "file": "voice/BGV_suzu_h001a.ogg"
@@ -1978,6 +2254,10 @@
       "bg": {
         "label": "#EV022・苦悶2・挿入・破瓜",
         "file": "EV022_07"
+      },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H001A",
@@ -2003,6 +2283,10 @@
         "label": "#EV022・苦悶2・挿入・破瓜",
         "file": "EV022_07"
       },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H001A",
         "file": "voice/BGV_suzu_h001a.ogg"
@@ -2023,6 +2307,10 @@
         "label": "#EV022・苦悶2・挿入・破瓜",
         "file": "EV022_07"
       },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H001A",
         "file": "voice/BGV_suzu_h001a.ogg"
@@ -2041,6 +2329,10 @@
       "bg": {
         "label": "#EV022・苦悶2・挿入・破瓜",
         "file": "EV022_07"
+      },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H001A",
@@ -2061,6 +2353,10 @@
       "bg": {
         "label": "#EV022・苦悶2・挿入・破瓜",
         "file": "EV022_07"
+      },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H001A",
@@ -2085,6 +2381,10 @@
         "label": "#EV022・苦悶2・挿入・破瓜",
         "file": "EV022_07"
       },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H001A",
         "file": "voice/BGV_suzu_h001a.ogg"
@@ -2105,6 +2405,10 @@
         "label": "#EV022・苦悶2・挿入・破瓜",
         "file": "EV022_07"
       },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H001A",
         "file": "voice/BGV_suzu_h001a.ogg"
@@ -2121,6 +2425,10 @@
         "label": "#EV022・苦悶2・挿入・破瓜",
         "file": "EV022_07"
       },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H001A",
         "file": "voice/BGV_suzu_h001a.ogg"
@@ -2136,6 +2444,10 @@
       "bg": {
         "label": "#EV022・苦悶2・挿入・破瓜",
         "file": "EV022_07"
+      },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H001A",
@@ -2157,6 +2469,10 @@
         "label": "#EV022・苦悶2・挿入・破瓜",
         "file": "EV022_07"
       },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H001A",
         "file": "voice/BGV_suzu_h001a.ogg"
@@ -2172,6 +2488,10 @@
       "bg": {
         "label": "#EV022・苦悶2・挿入・破瓜",
         "file": "EV022_07"
+      },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H001A",
@@ -2193,6 +2513,10 @@
         "label": "#EV022・苦悶2・挿入・破瓜",
         "file": "EV022_07"
       },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H001A",
         "file": "voice/BGV_suzu_h001a.ogg"
@@ -2211,6 +2535,10 @@
       "bg": {
         "label": "#EV022・苦悶2・挿入・破瓜",
         "file": "EV022_07"
+      },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H001A",
@@ -2231,6 +2559,10 @@
       "bg": {
         "label": "#EV022・苦悶2・挿入・破瓜",
         "file": "EV022_07"
+      },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H001A",
@@ -2261,6 +2593,10 @@
           "file": "se/8011a.ogg"
         }
       ],
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H001A",
         "file": "voice/BGV_suzu_h001a.ogg"
@@ -2281,6 +2617,10 @@
         "label": "#EV022・苦悶2・挿入・破瓜",
         "file": "EV022_07"
       },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H001A",
         "file": "voice/BGV_suzu_h001a.ogg"
@@ -2296,6 +2636,10 @@
       "bg": {
         "label": "#EV022・苦悶2・挿入・破瓜",
         "file": "EV022_07"
+      },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H001A",
@@ -2316,6 +2660,10 @@
       "bg": {
         "label": "#EV022・苦悶2・挿入・破瓜",
         "file": "EV022_07"
+      },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H001A",
@@ -2340,6 +2688,10 @@
         "label": "#EV022・苦悶2・挿入・破瓜",
         "file": "EV022_07"
       },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H001A",
         "file": "voice/BGV_suzu_h001a.ogg"
@@ -2354,6 +2706,10 @@
       "bg": {
         "label": "#EV022・苦悶2・挿入・破瓜",
         "file": "EV022_07"
+      },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H001A",
@@ -2375,6 +2731,10 @@
         "label": "#EV022・苦悶2・挿入・破瓜",
         "file": "EV022_07"
       },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H001A",
         "file": "voice/BGV_suzu_h001a.ogg"
@@ -2393,6 +2753,10 @@
       "bg": {
         "label": "#EV022・苦悶2・挿入・破瓜",
         "file": "EV022_07"
+      },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H001A",
@@ -2413,6 +2777,10 @@
       "bg": {
         "label": "#EV022・苦悶2・挿入・破瓜",
         "file": "EV022_07"
+      },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H001A",
@@ -2442,6 +2810,10 @@
           "file": "se/8011a.ogg"
         }
       ],
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H001A",
         "file": "voice/BGV_suzu_h001a.ogg"
@@ -2461,6 +2833,10 @@
       "bg": {
         "label": "#EV022・目閉じ・挿入・破瓜",
         "file": "EV022_08"
+      },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H001A",
@@ -2485,6 +2861,10 @@
         "label": "#EV022・目閉じ・挿入・破瓜",
         "file": "EV022_08"
       },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H001A",
         "file": "voice/BGV_suzu_h001a.ogg"
@@ -2504,6 +2884,10 @@
       "bg": {
         "label": "#EV022・目閉じ・挿入・破瓜",
         "file": "EV022_08"
+      },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H001A",
@@ -2530,6 +2914,10 @@
         "label": "#EV022・目閉じ・挿入・破瓜",
         "file": "EV022_08"
       },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H001A",
         "file": "voice/BGV_suzu_h001a.ogg"
@@ -2549,6 +2937,10 @@
       "bg": {
         "label": "#EV022・目閉じ・挿入・破瓜",
         "file": "EV022_08"
+      },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H001A",
@@ -2570,6 +2962,10 @@
         "label": "#EV022・目閉じ・挿入・破瓜",
         "file": "EV022_08"
       },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H001A",
         "file": "voice/BGV_suzu_h001a.ogg"
@@ -2589,6 +2985,10 @@
       "bg": {
         "label": "#EV022・目閉じ・挿入・破瓜",
         "file": "EV022_08"
+      },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H001A",
@@ -2616,6 +3016,10 @@
         "label": "#EV022・目閉じ・挿入・破瓜",
         "file": "EV022_08"
       },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H001A",
         "file": "voice/BGV_suzu_h001a.ogg"
@@ -2635,6 +3039,10 @@
       "bg": {
         "label": "#EV022・目閉じ・挿入・破瓜",
         "file": "EV022_08"
+      },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H001A",
@@ -2660,6 +3068,10 @@
         "label": "#EV022・目閉じ・挿入・破瓜",
         "file": "EV022_08"
       },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H001A",
         "file": "voice/BGV_suzu_h001a.ogg"
@@ -2679,6 +3091,10 @@
       "bg": {
         "label": "#EV022・目閉じ・挿入・破瓜",
         "file": "EV022_08"
+      },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H001A",
@@ -2720,6 +3136,10 @@
           "file": "se/8021a.ogg"
         }
       ],
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H001A",
         "file": "voice/BGV_suzu_h001a.ogg"
@@ -2746,6 +3166,10 @@
           "file": "se/8021a.ogg"
         }
       ],
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H001A",
         "file": "voice/BGV_suzu_h001a.ogg"
@@ -2779,6 +3203,10 @@
           "file": "se/8011b.ogg"
         }
       ],
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H001A",
         "file": "voice/BGV_suzu_h001a.ogg"
@@ -2798,6 +3226,10 @@
       "bg": {
         "label": "#EV022・目閉じ・挿入・破瓜",
         "file": "EV022_08"
+      },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H001A",
@@ -2820,6 +3252,10 @@
       "bg": {
         "label": "#EV022・目閉じ・挿入・破瓜",
         "file": "EV022_08"
+      },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H001A",
@@ -2847,6 +3283,10 @@
           "file": "se/8011a.ogg"
         }
       ],
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H001A",
         "file": "voice/BGV_suzu_h001a.ogg"
@@ -2873,6 +3313,10 @@
         "label": "#EV022・目閉じ・挿入・破瓜",
         "file": "EV022_08"
       },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H001A",
         "file": "voice/BGV_suzu_h001a.ogg"
@@ -2892,6 +3336,10 @@
       "bg": {
         "label": "#EV022・目閉じ・挿入・破瓜",
         "file": "EV022_08"
+      },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H001A",
@@ -2915,6 +3363,10 @@
         "label": "#EV022・目閉じ・挿入・破瓜",
         "file": "EV022_08"
       },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H001A",
         "file": "voice/BGV_suzu_h001a.ogg"
@@ -2929,6 +3381,10 @@
       "bg": {
         "label": "#EV022・目閉じ・挿入・破瓜",
         "file": "EV022_08"
+      },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H001A",
@@ -2950,6 +3406,10 @@
         "label": "#EV022・目閉じ・挿入・破瓜",
         "file": "EV022_08"
       },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H001A",
         "file": "voice/BGV_suzu_h001a.ogg"
@@ -2963,7 +3423,24 @@
         ],
         [
           "僕は、腰を大きく振りだした。"
-        ],
+        ]
+      ],
+      "bg": {
+        "label": "#EV022・目閉じ・挿入・破瓜",
+        "file": "EV022_08"
+      },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
+      },
+      "bgv": {
+        "id": "BGV_SUZU_H001A",
+        "file": "voice/BGV_suzu_h001a.ogg"
+      }
+    },
+    {
+      "kind": "narration",
+      "pages": [
         [
           "グチュッグチュッと、濡れた膣肉が擦れる音を",
           "鳴らしながら。"
@@ -2972,6 +3449,10 @@
       "bg": {
         "label": "#EV022・目閉じ・挿入・破瓜",
         "file": "EV022_08"
+      },
+      "lpse": {
+        "code": "8101A",
+        "file": "se/8101a.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H001A",
@@ -2992,6 +3473,10 @@
       "bg": {
         "label": "#EV022・哀願2・挿入・破瓜",
         "file": "EV022_09"
+      },
+      "lpse": {
+        "code": "8101A",
+        "file": "se/8101a.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H002A",
@@ -3017,6 +3502,10 @@
         "label": "#EV022・哀願2・挿入・破瓜",
         "file": "EV022_09"
       },
+      "lpse": {
+        "code": "8101A",
+        "file": "se/8101a.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H002A",
         "file": "voice/BGV_suzu_h002a.ogg"
@@ -3036,6 +3525,10 @@
       "bg": {
         "label": "#EV022・哀願2・挿入・破瓜",
         "file": "EV022_09"
+      },
+      "lpse": {
+        "code": "8101A",
+        "file": "se/8101a.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H002A",
@@ -3063,6 +3556,10 @@
         "label": "#EV022・哀願2・挿入・破瓜",
         "file": "EV022_09"
       },
+      "lpse": {
+        "code": "8101A",
+        "file": "se/8101a.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H002A",
         "file": "voice/BGV_suzu_h002a.ogg"
@@ -3082,6 +3579,10 @@
       "bg": {
         "label": "#EV022・哀願2・挿入・破瓜",
         "file": "EV022_09"
+      },
+      "lpse": {
+        "code": "8101A",
+        "file": "se/8101a.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H002A",
@@ -3110,6 +3611,10 @@
         "label": "#EV022・哀願2・挿入・破瓜",
         "file": "EV022_09"
       },
+      "lpse": {
+        "code": "8101A",
+        "file": "se/8101a.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H002A",
         "file": "voice/BGV_suzu_h002a.ogg"
@@ -3129,6 +3634,10 @@
       "bg": {
         "label": "#EV022・哀願2・挿入・破瓜",
         "file": "EV022_09"
+      },
+      "lpse": {
+        "code": "8101A",
+        "file": "se/8101a.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H002A",
@@ -3157,6 +3666,10 @@
         "label": "#EV022・哀願2・挿入・破瓜",
         "file": "EV022_09"
       },
+      "lpse": {
+        "code": "8101A",
+        "file": "se/8101a.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H002A",
         "file": "voice/BGV_suzu_h002a.ogg"
@@ -3177,6 +3690,10 @@
         "label": "#EV022・哀願2・挿入・破瓜",
         "file": "EV022_09"
       },
+      "lpse": {
+        "code": "8101A",
+        "file": "se/8101a.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H002A",
         "file": "voice/BGV_suzu_h002a.ogg"
@@ -3195,6 +3712,10 @@
       "bg": {
         "label": "#EV022・哀願2・挿入・破瓜",
         "file": "EV022_09"
+      },
+      "lpse": {
+        "code": "8101A",
+        "file": "se/8101a.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H002A",
@@ -3216,6 +3737,10 @@
         "label": "#EV022・哀願2・挿入・破瓜",
         "file": "EV022_09"
       },
+      "lpse": {
+        "code": "8101A",
+        "file": "se/8101a.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H002A",
         "file": "voice/BGV_suzu_h002a.ogg"
@@ -3234,6 +3759,10 @@
       "bg": {
         "label": "#EV022・哀願2・挿入・破瓜",
         "file": "EV022_09"
+      },
+      "lpse": {
+        "code": "8101A",
+        "file": "se/8101a.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H002A",
@@ -3255,6 +3784,10 @@
         "label": "#EV022・哀願2・挿入・破瓜",
         "file": "EV022_09"
       },
+      "lpse": {
+        "code": "8101A",
+        "file": "se/8101a.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H002A",
         "file": "voice/BGV_suzu_h002a.ogg"
@@ -3270,6 +3803,10 @@
       "bg": {
         "label": "#EV022・哀願2・挿入・破瓜",
         "file": "EV022_09"
+      },
+      "lpse": {
+        "code": "8101A",
+        "file": "se/8101a.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H002A",
@@ -3291,6 +3828,10 @@
         "label": "#EV022・哀願2・挿入・破瓜",
         "file": "EV022_09"
       },
+      "lpse": {
+        "code": "8101A",
+        "file": "se/8101a.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H002A",
         "file": "voice/BGV_suzu_h002a.ogg"
@@ -3310,6 +3851,10 @@
         "label": "#EV022・哀願2・挿入・破瓜",
         "file": "EV022_09"
       },
+      "lpse": {
+        "code": "8101A",
+        "file": "se/8101a.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H002A",
         "file": "voice/BGV_suzu_h002a.ogg"
@@ -3324,6 +3869,10 @@
       "bg": {
         "label": "#EV022・哀願2・挿入・破瓜",
         "file": "EV022_09"
+      },
+      "lpse": {
+        "code": "8101A",
+        "file": "se/8101a.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H002A",
@@ -3345,6 +3894,10 @@
         "label": "#EV022・哀願2・挿入・破瓜",
         "file": "EV022_09"
       },
+      "lpse": {
+        "code": "8101A",
+        "file": "se/8101a.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H002A",
         "file": "voice/BGV_suzu_h002a.ogg"
@@ -3360,6 +3913,10 @@
       "bg": {
         "label": "#EV022・哀願2・挿入・破瓜",
         "file": "EV022_09"
+      },
+      "lpse": {
+        "code": "8101A",
+        "file": "se/8101a.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H002A",
@@ -3380,6 +3937,10 @@
       "bg": {
         "label": "#EV022・哀願2・挿入・破瓜",
         "file": "EV022_09"
+      },
+      "lpse": {
+        "code": "8101A",
+        "file": "se/8101a.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H002A",
@@ -3404,6 +3965,10 @@
         "label": "#EV022・哀願2・挿入・破瓜",
         "file": "EV022_09"
       },
+      "lpse": {
+        "code": "8101A",
+        "file": "se/8101a.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H002A",
         "file": "voice/BGV_suzu_h002a.ogg"
@@ -3423,6 +3988,10 @@
       "bg": {
         "label": "#EV022・哀願2・挿入・破瓜",
         "file": "EV022_09"
+      },
+      "lpse": {
+        "code": "8101A",
+        "file": "se/8101a.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H002A",
@@ -3454,6 +4023,10 @@
         "label": "#EV022・哀願2・挿入・破瓜",
         "file": "EV022_09"
       },
+      "lpse": {
+        "code": "8101A",
+        "file": "se/8101a.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H002A",
         "file": "voice/BGV_suzu_h002a.ogg"
@@ -3474,6 +4047,10 @@
         "label": "#EV022・哀願2・挿入・破瓜",
         "file": "EV022_09"
       },
+      "lpse": {
+        "code": "8101A",
+        "file": "se/8101a.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H002A",
         "file": "voice/BGV_suzu_h002a.ogg"
@@ -3484,7 +4061,24 @@
       "pages": [
         [
           "浅い部分を擦りながら、大きく出し入れする。"
-        ],
+        ]
+      ],
+      "bg": {
+        "label": "#EV022・哀願2・挿入・破瓜",
+        "file": "EV022_09"
+      },
+      "lpse": {
+        "code": "8101A",
+        "file": "se/8101a.ogg"
+      },
+      "bgv": {
+        "id": "BGV_SUZU_H002A",
+        "file": "voice/BGV_suzu_h002a.ogg"
+      }
+    },
+    {
+      "kind": "narration",
+      "pages": [
         [
           "ジュッポジュッポと鳴る音に、頭が痺れそうだ。"
         ],
@@ -3503,6 +4097,10 @@
       "bg": {
         "label": "#EV022・哀願2・挿入・破瓜",
         "file": "EV022_09"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H002A",
@@ -3523,6 +4121,10 @@
       "bg": {
         "label": "#EV022・哀願2・挿入・破瓜",
         "file": "EV022_09"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H002A",
@@ -3551,6 +4153,10 @@
         "label": "#EV022・哀願2・挿入・破瓜",
         "file": "EV022_09"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H002A",
         "file": "voice/BGV_suzu_h002a.ogg"
@@ -3570,6 +4176,10 @@
       "bg": {
         "label": "#EV022・哀願2・挿入・破瓜",
         "file": "EV022_09"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H002A",
@@ -3593,6 +4203,10 @@
         "label": "#EV022・哀願2・挿入・破瓜",
         "file": "EV022_09"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H002A",
         "file": "voice/BGV_suzu_h002a.ogg"
@@ -3612,6 +4226,10 @@
       "bg": {
         "label": "#EV022・哀願2・挿入・破瓜",
         "file": "EV022_09"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H002A",
@@ -3648,6 +4266,10 @@
         "label": "#EV022・哀願2・挿入・破瓜",
         "file": "EV022_09"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H002A",
         "file": "voice/BGV_suzu_h002a.ogg"
@@ -3662,6 +4284,10 @@
       "bg": {
         "label": "#EV022・哀願2・挿入・破瓜",
         "file": "EV022_09"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H002A",
@@ -3682,6 +4308,10 @@
         "label": "#EV022・哀願2・挿入・破瓜",
         "file": "EV022_09"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H002A",
         "file": "voice/BGV_suzu_h002a.ogg"
@@ -3698,6 +4328,10 @@
         "label": "#EV022・哀願2・挿入・破瓜",
         "file": "EV022_09"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H002A",
         "file": "voice/BGV_suzu_h002a.ogg"
@@ -3713,6 +4347,10 @@
       "bg": {
         "label": "#EV022・哀願2・挿入・破瓜",
         "file": "EV022_09"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H002A",
@@ -3734,6 +4372,10 @@
         "label": "#EV022・不安げ2・挿入・破瓜",
         "file": "EV022_10"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H002A",
         "file": "voice/BGV_suzu_h002a.ogg"
@@ -3754,6 +4396,10 @@
         "label": "#EV022・不安げ2・挿入・破瓜",
         "file": "EV022_10"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H002A",
         "file": "voice/BGV_suzu_h002a.ogg"
@@ -3773,6 +4419,10 @@
         "label": "#EV022・不安げ2・挿入・破瓜",
         "file": "EV022_10"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H002A",
         "file": "voice/BGV_suzu_h002a.ogg"
@@ -3789,6 +4439,10 @@
         "label": "#EV022・不安げ2・挿入・破瓜",
         "file": "EV022_10"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H002A",
         "file": "voice/BGV_suzu_h002a.ogg"
@@ -3804,6 +4458,10 @@
       "bg": {
         "label": "#EV022・不安げ2・挿入・破瓜",
         "file": "EV022_10"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H002A",
@@ -3825,6 +4483,10 @@
         "label": "#EV022・不安げ2・挿入・破瓜",
         "file": "EV022_10"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H002A",
         "file": "voice/BGV_suzu_h002a.ogg"
@@ -3840,6 +4502,10 @@
       "bg": {
         "label": "#EV022・不安げ2・挿入・破瓜",
         "file": "EV022_10"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H002A",
@@ -3861,6 +4527,10 @@
         "label": "#EV022・不安げ2・挿入・破瓜",
         "file": "EV022_10"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H002A",
         "file": "voice/BGV_suzu_h002a.ogg"
@@ -3879,6 +4549,10 @@
       "bg": {
         "label": "#EV022・不安げ2・挿入・破瓜",
         "file": "EV022_10"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H002A",
@@ -3899,6 +4573,10 @@
       "bg": {
         "label": "#EV022・不安げ2・挿入・破瓜",
         "file": "EV022_10"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H002A",
@@ -3926,6 +4604,10 @@
         "label": "#EV022・不安げ2・挿入・破瓜",
         "file": "EV022_10"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H002A",
         "file": "voice/BGV_suzu_h002a.ogg"
@@ -3945,6 +4627,10 @@
       "bg": {
         "label": "#EV022・不安げ2・挿入・破瓜",
         "file": "EV022_10"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H003A",
@@ -3971,6 +4657,10 @@
         "label": "#EV022・不安げ2・挿入・破瓜",
         "file": "EV022_10"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
@@ -3990,6 +4680,10 @@
       "bg": {
         "label": "#EV022・不安げ2・挿入・破瓜",
         "file": "EV022_10"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H003A",
@@ -4013,6 +4707,10 @@
         "label": "#EV022・不安げ2・挿入・破瓜",
         "file": "EV022_10"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
@@ -4032,6 +4730,10 @@
       "bg": {
         "label": "#EV022・不安げ2・挿入・破瓜",
         "file": "EV022_10"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H003A",
@@ -4053,6 +4755,10 @@
         "label": "#EV022・不安げ2・挿入・破瓜",
         "file": "EV022_10"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
@@ -4072,6 +4778,10 @@
       "bg": {
         "label": "#EV022・不安げ2・挿入・破瓜",
         "file": "EV022_10"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H003A",
@@ -4095,6 +4805,10 @@
         "label": "#EV022・不安げ2・挿入・破瓜",
         "file": "EV022_10"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
@@ -4114,6 +4828,10 @@
       "bg": {
         "label": "#EV022・不安げ2・挿入・破瓜",
         "file": "EV022_10"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H003A",
@@ -4138,6 +4856,10 @@
         "label": "#EV022・不安げ2・挿入・破瓜",
         "file": "EV022_10"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
@@ -4157,6 +4879,10 @@
       "bg": {
         "label": "#EV022・哀願・挿入・破瓜",
         "file": "EV022_11"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H003A",
@@ -4181,6 +4907,10 @@
         "label": "#EV022・哀願・挿入・破瓜",
         "file": "EV022_11"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
@@ -4200,6 +4930,10 @@
       "bg": {
         "label": "#EV022・哀願・挿入・破瓜",
         "file": "EV022_11"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H003A",
@@ -4221,6 +4955,10 @@
         "label": "#EV022・哀願・挿入・破瓜",
         "file": "EV022_11"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
@@ -4240,6 +4978,10 @@
       "bg": {
         "label": "#EV022・哀願・挿入・破瓜",
         "file": "EV022_11"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H003A",
@@ -4267,6 +5009,10 @@
         "label": "#EV022・哀願・挿入・破瓜",
         "file": "EV022_11"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
@@ -4286,6 +5032,10 @@
       "bg": {
         "label": "#EV022・哀願・挿入・破瓜",
         "file": "EV022_11"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H003A",
@@ -4309,6 +5059,10 @@
         "label": "#EV022・哀願・挿入・破瓜",
         "file": "EV022_11"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
@@ -4328,6 +5082,10 @@
       "bg": {
         "label": "#EV022・哀願・挿入・破瓜",
         "file": "EV022_11"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H003A",
@@ -4352,6 +5110,10 @@
         "label": "#EV022・哀願・挿入・破瓜",
         "file": "EV022_11"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
@@ -4372,6 +5134,10 @@
         "label": "#EV022・哀願・挿入・破瓜",
         "file": "EV022_11"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
@@ -4391,6 +5157,10 @@
         "label": "#EV022・哀願・挿入・破瓜",
         "file": "EV022_11"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
@@ -4405,6 +5175,10 @@
       "bg": {
         "label": "#EV022・哀願・挿入・破瓜",
         "file": "EV022_11"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H003A",
@@ -4425,6 +5199,10 @@
       "bg": {
         "label": "#EV022・哀願・挿入・破瓜",
         "file": "EV022_11"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H003A",
@@ -4451,6 +5229,10 @@
         "label": "#EV022・哀願・挿入・破瓜",
         "file": "EV022_11"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
@@ -4470,6 +5252,10 @@
       "bg": {
         "label": "#EV022・哀願・挿入・破瓜",
         "file": "EV022_11"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H003A",
@@ -4494,6 +5280,10 @@
         "label": "#EV022・哀願・挿入・破瓜",
         "file": "EV022_11"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
@@ -4513,6 +5303,10 @@
       "bg": {
         "label": "#EV022・哀願・挿入・破瓜",
         "file": "EV022_11"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H003A",
@@ -4534,6 +5328,10 @@
         "label": "#EV022・哀願・挿入・破瓜",
         "file": "EV022_11"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
@@ -4553,6 +5351,10 @@
       "bg": {
         "label": "#EV022・哀願・挿入・破瓜",
         "file": "EV022_11"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H003A",
@@ -4579,6 +5381,10 @@
           "file": "se/8201b.ogg"
         }
       ],
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
@@ -4594,6 +5400,10 @@
       "bg": {
         "label": "#EV022・哀願・挿入・精液",
         "file": "EV022_12"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H003A",
@@ -4615,6 +5425,10 @@
       "bg": {
         "label": "#EV022・哀願・挿入・精液",
         "file": "EV022_12"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H003A",
@@ -4638,6 +5452,10 @@
         "label": "#EV022・哀願・挿入・精液",
         "file": "EV022_12"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
@@ -4657,6 +5475,10 @@
       "bg": {
         "label": "#EV022・哀願・挿入・精液",
         "file": "EV022_12"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H003A",
@@ -4679,6 +5501,10 @@
         "label": "#EV022・哀願・挿入・精液",
         "file": "EV022_12"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
@@ -4698,6 +5524,10 @@
       "bg": {
         "label": "#EV022・哀願・挿入・精液",
         "file": "EV022_12"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H003A",
@@ -4722,6 +5552,10 @@
         "label": "#EV022・哀願・挿入・精液",
         "file": "EV022_12"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
@@ -4741,6 +5575,10 @@
       "bg": {
         "label": "#EV022・哀願・挿入・精液",
         "file": "EV022_12"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H003A",
@@ -4771,6 +5609,10 @@
           "file": "se/8201b.ogg"
         }
       ],
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
@@ -4790,6 +5632,10 @@
       "bg": {
         "label": "#EV022・哀願・挿入・精液",
         "file": "EV022_12"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H003A",
@@ -4821,6 +5667,10 @@
           "file": "se/8201b.ogg"
         }
       ],
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
@@ -4840,6 +5690,10 @@
       "bg": {
         "label": "#EV022・哀願・挿入・精液",
         "file": "EV022_12"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H003A",
@@ -4866,6 +5720,10 @@
         "label": "#EV022・哀願・挿入・精液",
         "file": "EV022_12"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
@@ -4885,6 +5743,10 @@
       "bg": {
         "label": "#EV022・哀願・挿入・精液",
         "file": "EV022_12"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H003A",
@@ -4919,6 +5781,10 @@
         "label": "#背景・黒一色",
         "file": "BG_BLACK"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
@@ -4933,6 +5799,10 @@
       "bg": {
         "label": "#背景・黒一色",
         "file": "BG_BLACK"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H003A",
@@ -4949,6 +5819,10 @@
       "bg": {
         "label": "#背景・黒一色",
         "file": "BG_BLACK"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H003A",
@@ -4969,6 +5843,10 @@
         "label": "#EV022・不安げ2・挿入・破瓜",
         "file": "EV022_10"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
@@ -4987,6 +5865,10 @@
       "bg": {
         "label": "#EV022・不安げ2・挿入・破瓜",
         "file": "EV022_10"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H003A",
@@ -5007,6 +5889,10 @@
       "bg": {
         "label": "#EV022・不安げ2・挿入・破瓜",
         "file": "EV022_10"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H003A",
@@ -5031,6 +5917,10 @@
         "label": "#EV022・不安げ2・挿入・破瓜",
         "file": "EV022_10"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
@@ -5050,6 +5940,10 @@
       "bg": {
         "label": "#EV022・うっとり・挿入・破瓜",
         "file": "EV022_13"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H003A",
@@ -5074,6 +5968,10 @@
         "label": "#EV022・うっとり・挿入・破瓜",
         "file": "EV022_13"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
@@ -5094,6 +5992,10 @@
         "label": "#EV022・うっとり・挿入・破瓜",
         "file": "EV022_13"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H002A",
         "file": "voice/BGV_suzu_h002a.ogg"
@@ -5108,6 +6010,10 @@
       "bg": {
         "label": "#EV022・うっとり・挿入・破瓜",
         "file": "EV022_13"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H002A",
@@ -5138,6 +6044,10 @@
         "label": "#EV022・うっとり・挿入・破瓜",
         "file": "EV022_13"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H002A",
         "file": "voice/BGV_suzu_h002a.ogg"
@@ -5158,6 +6068,10 @@
         "label": "#EV022・うっとり・挿入・破瓜",
         "file": "EV022_13"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H002A",
         "file": "voice/BGV_suzu_h002a.ogg"
@@ -5172,6 +6086,10 @@
       "bg": {
         "label": "#EV022・うっとり・挿入・破瓜",
         "file": "EV022_13"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H002A",
@@ -5195,6 +6113,10 @@
         "label": "#EV022・うっとり・挿入・破瓜",
         "file": "EV022_13"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H002A",
         "file": "voice/BGV_suzu_h002a.ogg"
@@ -5214,6 +6136,10 @@
       "bg": {
         "label": "#EV022・うっとり・挿入・破瓜",
         "file": "EV022_13"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H002A",
@@ -5238,6 +6164,10 @@
         "label": "#EV022・うっとり・挿入・破瓜",
         "file": "EV022_13"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H002A",
         "file": "voice/BGV_suzu_h002a.ogg"
@@ -5257,6 +6187,10 @@
       "bg": {
         "label": "#EV022・うっとり・挿入・破瓜",
         "file": "EV022_13"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H003A",
@@ -5282,6 +6216,10 @@
         "label": "#EV022・うっとり・挿入・破瓜",
         "file": "EV022_13"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
@@ -5301,6 +6239,10 @@
       "bg": {
         "label": "#EV022・うっとり・挿入・破瓜",
         "file": "EV022_13"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H003A",
@@ -5327,6 +6269,10 @@
         "label": "#EV022・うっとり・挿入・破瓜",
         "file": "EV022_13"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
@@ -5346,6 +6292,10 @@
       "bg": {
         "label": "#EV022・うっとり・挿入・破瓜",
         "file": "EV022_13"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H003A",
@@ -5370,6 +6320,10 @@
         "label": "#EV022・うっとり・挿入・破瓜",
         "file": "EV022_13"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
@@ -5390,6 +6344,10 @@
         "label": "#EV022・うっとり・挿入・破瓜",
         "file": "EV022_13"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
@@ -5408,6 +6366,10 @@
       "bg": {
         "label": "#EV022・うっとり・挿入・破瓜",
         "file": "EV022_13"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H003A",
@@ -5429,6 +6391,10 @@
         "label": "#EV022・うっとり・挿入・破瓜",
         "file": "EV022_13"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
@@ -5445,6 +6411,10 @@
         "label": "#EV022・うっとり・挿入・破瓜",
         "file": "EV022_13"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
@@ -5460,6 +6430,10 @@
       "bg": {
         "label": "#EV022・うっとり・挿入・破瓜",
         "file": "EV022_13"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H003A",
@@ -5479,6 +6453,10 @@
       "bg": {
         "label": "#EV022・うっとり・挿入・破瓜",
         "file": "EV022_13"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H003A",
@@ -5505,6 +6483,10 @@
         "label": "#EV022・うっとり・挿入・破瓜",
         "file": "EV022_13"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
@@ -5524,6 +6506,10 @@
       "bg": {
         "label": "#EV022・うっとり・挿入・破瓜",
         "file": "EV022_13"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H003A",
@@ -5545,6 +6531,10 @@
         "label": "#EV022・うっとり・挿入・破瓜",
         "file": "EV022_13"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
@@ -5564,6 +6554,10 @@
       "bg": {
         "label": "#EV022・うっとり・挿入・破瓜",
         "file": "EV022_13"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H003A",
@@ -5588,6 +6582,10 @@
         "label": "#EV022・うっとり・挿入・破瓜",
         "file": "EV022_13"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
@@ -5607,6 +6605,10 @@
       "bg": {
         "label": "#EV022・うっとり・挿入・破瓜",
         "file": "EV022_13"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H003A",
@@ -5633,6 +6635,10 @@
         "label": "#EV022・うっとり・挿入・破瓜",
         "file": "EV022_13"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
@@ -5652,6 +6658,10 @@
       "bg": {
         "label": "#EV022・うっとり・挿入・破瓜",
         "file": "EV022_13"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H003A",
@@ -5676,6 +6686,10 @@
         "label": "#EV022・うっとり・挿入・破瓜",
         "file": "EV022_13"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
@@ -5695,6 +6709,10 @@
       "bg": {
         "label": "#EV022・うっとり・挿入・破瓜",
         "file": "EV022_13"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H003A",
@@ -5716,6 +6734,10 @@
         "label": "#EV022・うっとり・挿入・破瓜",
         "file": "EV022_13"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
@@ -5735,6 +6757,10 @@
       "bg": {
         "label": "#EV022・うっとり・挿入・破瓜",
         "file": "EV022_13"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H003A",
@@ -5758,6 +6784,10 @@
         "label": "#EV022・うっとり・挿入・破瓜",
         "file": "EV022_13"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
@@ -5777,6 +6807,10 @@
       "bg": {
         "label": "#EV022・うっとり・挿入・破瓜",
         "file": "EV022_13"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H003A",
@@ -5804,6 +6838,10 @@
         "label": "#EV022・うっとり・挿入・破瓜",
         "file": "EV022_13"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
@@ -5824,6 +6862,10 @@
         "label": "#EV022・うっとり・挿入・破瓜",
         "file": "EV022_13"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
@@ -5843,6 +6885,10 @@
         "label": "#EV022・うっとり・挿入・破瓜",
         "file": "EV022_13"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
@@ -5857,6 +6903,10 @@
       "bg": {
         "label": "#EV022・うっとり・挿入・破瓜",
         "file": "EV022_13"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H003A",
@@ -5873,6 +6923,10 @@
       "bg": {
         "label": "#EV022・うっとり・挿入・破瓜",
         "file": "EV022_13"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H003A",
@@ -5893,6 +6947,10 @@
       "bg": {
         "label": "#EV022・うっとり・挿入・破瓜",
         "file": "EV022_13"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H003A",
@@ -5919,6 +6977,10 @@
           "file": "se/8201b.ogg"
         }
       ],
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
@@ -5934,6 +6996,10 @@
       "bg": {
         "label": "#EV022・うっとり・挿入・精液",
         "file": "EV022_14"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H003A",
@@ -5962,6 +7028,10 @@
           "file": "se/8201b.ogg"
         }
       ],
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
@@ -5980,6 +7050,10 @@
       "bg": {
         "label": "#EV022・うっとり・挿入・精液",
         "file": "EV022_14"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H003A",
@@ -6001,6 +7075,10 @@
       "bg": {
         "label": "#EV022・うっとり・挿入・精液",
         "file": "EV022_14"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H003A",
@@ -6024,6 +7102,10 @@
         "label": "#EV022・うっとり・挿入・精液",
         "file": "EV022_14"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
@@ -6043,6 +7125,10 @@
       "bg": {
         "label": "#EV022・うっとり・挿入・精液",
         "file": "EV022_14"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H003A",
@@ -6072,6 +7158,10 @@
           "file": "se/8201b.ogg"
         }
       ],
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
@@ -6098,6 +7188,10 @@
           "file": "se/8201b.ogg"
         }
       ],
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
@@ -6117,6 +7211,10 @@
       "bg": {
         "label": "#EV022・うっとり・挿入・精液",
         "file": "EV022_14"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H003A",
@@ -6139,6 +7237,10 @@
         "label": "#EV022・うっとり・挿入・精液",
         "file": "EV022_14"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
@@ -6159,6 +7261,10 @@
       "bg": {
         "label": "#EV022・うっとり・挿入・精液",
         "file": "EV022_14"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H003A",
@@ -6186,6 +7292,10 @@
           "file": "se/8201b.ogg"
         }
       ],
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
@@ -6209,6 +7319,10 @@
       "bg": {
         "label": "#EV022・うっとり・挿入・精液",
         "file": "EV022_14"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H003A",
@@ -6237,6 +7351,10 @@
           "file": "se/8201b.ogg"
         }
       ],
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
@@ -6266,6 +7384,10 @@
         "label": "#EV022・うっとり・挿入・精液",
         "file": "EV022_14"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
@@ -6286,6 +7408,10 @@
       "bg": {
         "label": "#EV022・うっとり・挿入・精液",
         "file": "EV022_14"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H003A",
@@ -6309,6 +7435,10 @@
         "label": "#EV022・うっとり・挿入・精液",
         "file": "EV022_14"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
@@ -6327,6 +7457,10 @@
       "bg": {
         "label": "#EV022・うっとり・挿入・精液",
         "file": "EV022_14"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H003A",
@@ -6353,6 +7487,10 @@
         "label": "#EV022・うっとり・挿入・精液",
         "file": "EV022_14"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
@@ -6371,6 +7509,10 @@
       "bg": {
         "label": "#EV022・うっとり・挿入・精液",
         "file": "EV022_14"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H003A",
@@ -6393,6 +7535,10 @@
       "bg": {
         "label": "#背景・黒一色",
         "file": "BG_BLACK"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H003A",

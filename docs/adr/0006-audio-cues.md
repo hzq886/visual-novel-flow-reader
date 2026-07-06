@@ -71,6 +71,25 @@ bytecode RE（[`smain_flow_guide.md` §3.9](../../data_extract/text/_tools/smain
   同URL no-op）。`Stage` は各 beat で `beat.bgv.file` を `playBgv`、シーン離脱（`releaseVoices`）と
   終端で `stopBgv`。BGV はシーンを跨がない（bgm のみ跨ぐ）。
 
+### ループ se（VOL_LPSE）— HU-76 で追加
+
+- シーン脚本の `0x16`（`16 <u16 idx> 00`・length 4・207 件）= **ループ se**（`_SYSTEM` の `VOL_LPSE:3`
+  チャンネル。§3.9）。`0x15`（length 3・ワンショット・`VOL_SE:3`）とは別命令・別チャンネル。se コードは
+  81xx 系（動作音等）に集中し 63 シーンに出現。同一コードが `0x15`（ワンショット）でも使われる＝**再生モード
+  の違い**（ファイル自体はループ専用ではなく、LPSE チャンネルでループ再生される）。
+  - **注記（HU-76 で発見）**: HU-73/74 の se ハンドラは `length == 3` 条件だったため、length 4 の `0x16` は
+    **一度も emit されていなかった**（暗黙ドロップ。txt もデデュープで拾わずパリティが偶然成立）。本 ADR で
+    `0x16`→`lpse` として正式に取り込み、欠落を解消。
+- **semantics（RE 結果）**: BGV と同型の**単一ループチャンネル**。新しい lpse が現在のループを置換し、
+  **停止マーカーは原データに存在しない**（`8131A→B→C` と強度が上がる。start/stop バイト区別も無く末尾は
+  常に `0x00`）。よってシーン局所で、次の lpse まで／シーン離脱まで持続する。
+- **データ**: `bg`/`sprite`/`bgv` と同じ **sticky** モデル。`buildScene` が `stickyLpse` を beat に
+  snapshot し、変化時に narration を flush（HU-34）。解決は se と同じ `resolveSe`（コード→manifest 実ファイル。
+  16 コード全て実在）。スキーマは `Beat.lpse?: SeRef`（se 素材のため型は SeRef 共用）。
+- **エンジン**: `AudioManager` に `playLpse`/`stopLpse`（`loop:true`・単一チャンネル・別 URL で切替・同 URL no-op）。
+  `Stage` は各 beat で `beat.lpse.file` を `playLpse`、シーン離脱・終端で `stopLpse`。BGM のみシーンを跨ぐ
+  （lpse は BGV 同様シーン局所）。
+
 ## 帰結
 
 - 主要ルートで bgm がシーンを跨いで継続し、ルート転換でクロスフェードする。se は該当 beat で鳴る。

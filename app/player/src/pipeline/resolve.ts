@@ -60,13 +60,16 @@ export function sceneAssetRefs(scene: Scene): { cg: string[]; sprite: string[]; 
   return { cg: [...cg], sprite: [...sprite], voice: [...voice] }
 }
 
-/** Scene の全 beat の bg/sprite/voice/se と、シーンの bgm を解決した新しい Scene を返す。 */
+/** Scene の全 beat の bg/sprite/voice/se/lpse と、シーンの bgm を解決した新しい Scene を返す。 */
 export function resolveScene(scene: Scene, ctx: ResolveContext): Scene {
   // se: seIndex があれば各コードを実ファイルへ解決、無ければ parseScene の値（file=null）のまま。
   const resolveSeList = (se: SeRef[] | undefined): { se?: SeRef[] } => {
     if (!se) return {}
     return { se: ctx.seIndex ? se.map((s) => resolveSe(ctx.seIndex!, s.code)) : se }
   }
+  // ループ se（lpse・HU-76）は se と同じ素材＝同じ索引で実ファイルへ解決（BGV が voice を共用するのと同様）。
+  const resolveLpse = (lpse: SeRef | undefined): { lpse?: SeRef } =>
+    lpse ? { lpse: ctx.seIndex ? resolveSe(ctx.seIndex, lpse.code) : lpse } : {}
   const bgm = ctx.bgmIndex ? { bgm: resolveBgm(ctx.bgmIndex, bgmTrackForScene(scene.code)) } : {}
   return {
     ...scene,
@@ -89,6 +92,7 @@ export function resolveScene(scene: Scene, ctx: ResolveContext): Scene {
           ...item,
           ...(beat.voice ? { voice: resolveVoice(ctx.voiceIndex, beat.voice.id) } : {}),
           ...resolveSeList(beat.se),
+          ...resolveLpse(beat.lpse),
           ...bgv,
         }
       }
@@ -98,6 +102,7 @@ export function resolveScene(scene: Scene, ctx: ResolveContext): Scene {
         ...sprites,
         ...item,
         ...resolveSeList(beat.se),
+        ...resolveLpse(beat.lpse),
         ...bgv,
       }
     }),

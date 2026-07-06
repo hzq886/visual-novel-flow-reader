@@ -1367,7 +1367,20 @@
       "pages": [
         [
           ""
-        ],
+        ]
+      ],
+      "bg": {
+        "label": "#EV009・舌出し・目閉じ・うっとり・尻穴いじり・指先撫で",
+        "file": "EV009_05"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_F001B",
+        "file": "voice/BGV_ayan_f001b.ogg"
+      }
+    },
+    {
+      "kind": "narration",
+      "pages": [
         [
           "有节奏地，紧紧握住。"
         ],
@@ -1382,6 +1395,10 @@
       "bg": {
         "label": "#EV009・舌出し・目閉じ・うっとり・尻穴いじり・指先撫で",
         "file": "EV009_05"
+      },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
       },
       "bgv": {
         "id": "BGV_AYAN_F001B",
@@ -1402,6 +1419,10 @@
       "bg": {
         "label": "#EV009・舌出し・目閉じ・うっとり・尻穴いじり・指先撫で",
         "file": "EV009_05"
+      },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
       },
       "bgv": {
         "id": "BGV_AYAN_F001B",
@@ -1429,6 +1450,10 @@
         "label": "#EV009・舌出し・目閉じ・うっとり・尻穴いじり・指先撫で",
         "file": "EV009_05"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_F001B",
         "file": "voice/BGV_ayan_f001b.ogg"
@@ -1448,6 +1473,10 @@
       "bg": {
         "label": "#EV009・舌出し・目閉じ・うっとり・尻穴いじり・指先撫で",
         "file": "EV009_05"
+      },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
       },
       "bgv": {
         "id": "BGV_AYAN_F001B",
@@ -1478,6 +1507,10 @@
         "label": "#EV009・舌出し・目閉じ・うっとり・尻穴いじり・指先撫で",
         "file": "EV009_05"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_F001B",
         "file": "voice/BGV_ayan_f001b.ogg"
@@ -1498,6 +1531,10 @@
         "label": "#EV009・舌出し・目閉じ・うっとり・尻穴いじり・指先撫で",
         "file": "EV009_05"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_F001B",
         "file": "voice/BGV_ayan_f001b.ogg"
@@ -1516,6 +1553,10 @@
       "bg": {
         "label": "#EV009・舌出し・目閉じ・うっとり・尻穴いじり・指先撫で",
         "file": "EV009_05"
+      },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
       },
       "bgv": {
         "id": "BGV_AYAN_F001B",
@@ -1549,6 +1590,10 @@
         "label": "#EV009・舌出し・目閉じ・うっとり・尻穴いじり・指先撫で",
         "file": "EV009_05"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_F001B",
         "file": "voice/BGV_ayan_f001b.ogg"
@@ -1568,6 +1613,10 @@
         "label": "#EV009・舌出し・目閉じ・うっとり・尻穴いじり・指先撫で",
         "file": "EV009_05"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_F001B",
         "file": "voice/BGV_ayan_f001b.ogg"
@@ -1583,6 +1632,10 @@
       "bg": {
         "label": "#EV009・舌出し・目閉じ・うっとり・尻穴いじり・指先撫で",
         "file": "EV009_05"
+      },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
       },
       "bgv": {
         "id": "BGV_AYAN_F001B",
@@ -1602,6 +1655,10 @@
       "bg": {
         "label": "#EV009・舌出し・目閉じ・うっとり・尻穴いじり・指先撫で",
         "file": "EV009_05"
+      },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
       },
       "bgv": {
         "id": "BGV_AYAN_F001B",
@@ -1625,6 +1682,10 @@
           "file": "se/8201b.ogg"
         }
       ],
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_F001B",
         "file": "voice/BGV_ayan_f001b.ogg"
@@ -1650,6 +1711,10 @@
         "label": "#EV009・あらあら・目閉じ・うっとり・尻穴いじり・なし・射精",
         "file": "EV009_06"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_F001B",
         "file": "voice/BGV_ayan_f001b.ogg"
@@ -1671,6 +1736,10 @@
         "label": "#EV009・あらあら・目閉じ・うっとり・尻穴いじり・なし・射精",
         "file": "EV009_06"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_F001B",
         "file": "voice/BGV_ayan_f001b.ogg"
@@ -1690,6 +1759,10 @@
       "bg": {
         "label": "#EV009・あらあら・目閉じ・うっとり・尻穴いじり・なし・射精",
         "file": "EV009_06"
+      },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
       },
       "bgv": {
         "id": "BGV_AYAN_F001B",
@@ -1713,6 +1786,10 @@
         "label": "#EV009・あらあら・目閉じ・うっとり・尻穴いじり・なし・射精",
         "file": "EV009_06"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_F001B",
         "file": "voice/BGV_ayan_f001b.ogg"
@@ -1733,6 +1810,10 @@
         "label": "#EV009・あらあら・目閉じ・うっとり・尻穴いじり・なし・射精",
         "file": "EV009_06"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_F001B",
         "file": "voice/BGV_ayan_f001b.ogg"
@@ -1752,6 +1833,10 @@
       "bg": {
         "label": "#EV009・あらあら・目閉じ・うっとり・尻穴いじり・なし・射精",
         "file": "EV009_06"
+      },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
       },
       "bgv": {
         "id": "BGV_AYAN_F001B",
@@ -1775,6 +1860,10 @@
         "label": "#EV009・あらあら・目閉じ・うっとり・尻穴いじり・なし・射精",
         "file": "EV009_06"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_F001B",
         "file": "voice/BGV_ayan_f001b.ogg"
@@ -1794,6 +1883,10 @@
         "label": "#EV009・あらあら・うっとり・うっとり・尻穴いじり・なし・精液たれ",
         "file": "EV009_07"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_F001B",
         "file": "voice/BGV_ayan_f001b.ogg"
@@ -1809,6 +1902,10 @@
       "bg": {
         "label": "#EV009・あらあら・うっとり・うっとり・尻穴いじり・なし・精液たれ",
         "file": "EV009_07"
+      },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
       },
       "bgv": {
         "id": "BGV_AYAN_F001B",
@@ -1828,6 +1925,10 @@
       "bg": {
         "label": "#EV009・あらあら・うっとり・うっとり・尻穴いじり・なし・精液たれ",
         "file": "EV009_07"
+      },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
       },
       "bgv": {
         "id": "BGV_AYAN_F001B",
@@ -1855,6 +1956,10 @@
         "label": "#EV009・あらあら・うっとり・うっとり・尻穴いじり・なし・精液たれ",
         "file": "EV009_07"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_F001B",
         "file": "voice/BGV_ayan_f001b.ogg"
@@ -1875,6 +1980,10 @@
         "label": "#EV009・あらあら・うっとり・うっとり・尻穴いじり・なし・精液たれ",
         "file": "EV009_07"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_F001B",
         "file": "voice/BGV_ayan_f001b.ogg"
@@ -1894,6 +2003,10 @@
       "bg": {
         "label": "#EV009・あらあら・うっとり・うっとり・尻穴いじり・なし・精液たれ",
         "file": "EV009_07"
+      },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
       },
       "bgv": {
         "id": "BGV_AYAN_F001B",
@@ -1918,6 +2031,10 @@
         "label": "#EV009・あらあら・うっとり・うっとり・尻穴いじり・なし・精液たれ",
         "file": "EV009_07"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_F001B",
         "file": "voice/BGV_ayan_f001b.ogg"
@@ -1936,6 +2053,10 @@
       "bg": {
         "label": "#EV009・あらあら・うっとり・うっとり・尻穴いじり・なし・精液たれ",
         "file": "EV009_07"
+      },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
       },
       "bgv": {
         "id": "BGV_AYAN_F001B",
@@ -1959,6 +2080,10 @@
         "label": "#EV009・あらあら・うっとり・うっとり・尻穴いじり・なし・精液たれ",
         "file": "EV009_07"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_F001B",
         "file": "voice/BGV_ayan_f001b.ogg"
@@ -1977,6 +2102,10 @@
       "bg": {
         "label": "#EV009・あらあら・うっとり・うっとり・尻穴いじり・なし・精液たれ",
         "file": "EV009_07"
+      },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
       },
       "bgv": {
         "id": "BGV_AYAN_F001B",
@@ -2007,6 +2136,10 @@
         "label": "#EV009・あらあら・うっとり・うっとり・尻穴いじり・なし・精液たれ",
         "file": "EV009_07"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_F001B",
         "file": "voice/BGV_ayan_f001b.ogg"
@@ -2026,6 +2159,10 @@
         "label": "#EV009・あらあら・うっとり・うっとり・尻穴いじり・なし・精液たれ",
         "file": "EV009_07"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_F001B",
         "file": "voice/BGV_ayan_f001b.ogg"
@@ -2041,6 +2178,10 @@
       "bg": {
         "label": "#EV009・あらあら・うっとり・うっとり・尻穴いじり・なし・精液たれ",
         "file": "EV009_07"
+      },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
       },
       "bgv": {
         "id": "BGV_AYAN_F001B",
@@ -2068,6 +2209,10 @@
         "label": "#EV009・微笑み・目閉じ・驚き・尻穴いじり・指入れ・精液たれ",
         "file": "EV009_08"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_F001B",
         "file": "voice/BGV_ayan_f001b.ogg"
@@ -2086,6 +2231,10 @@
       "bg": {
         "label": "#EV009・微笑み・目閉じ・驚き・尻穴いじり・指入れ・精液たれ",
         "file": "EV009_08"
+      },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
       },
       "bgv": {
         "id": "BGV_AYAN_F001B",
@@ -2107,6 +2256,10 @@
         "label": "#EV009・微笑み・目閉じ・驚き・尻穴いじり・指入れ・精液たれ",
         "file": "EV009_08"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_F001B",
         "file": "voice/BGV_ayan_f001b.ogg"
@@ -2127,6 +2280,10 @@
         "label": "#EV009・微笑み・目閉じ・驚き・尻穴いじり・指入れ・精液たれ",
         "file": "EV009_08"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_F001B",
         "file": "voice/BGV_ayan_f001b.ogg"
@@ -2146,6 +2303,10 @@
         "label": "#EV009・微笑み・目閉じ・驚き・尻穴いじり・指入れ・精液たれ",
         "file": "EV009_08"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_F001B",
         "file": "voice/BGV_ayan_f001b.ogg"
@@ -2161,6 +2322,10 @@
       "bg": {
         "label": "#EV009・微笑み・目閉じ・驚き・尻穴いじり・指入れ・精液たれ",
         "file": "EV009_08"
+      },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
       },
       "bgv": {
         "id": "BGV_AYAN_F001B",
@@ -2180,6 +2345,10 @@
       "bg": {
         "label": "#EV009・微笑み・目閉じ・驚き・尻穴いじり・指入れ・精液たれ",
         "file": "EV009_08"
+      },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
       },
       "bgv": {
         "id": "BGV_AYAN_F001B",
@@ -2210,6 +2379,10 @@
         "label": "#EV009・微笑み・目閉じ・驚き・尻穴いじり・指入れ・精液たれ",
         "file": "EV009_08"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_F001B",
         "file": "voice/BGV_ayan_f001b.ogg"
@@ -2228,6 +2401,10 @@
       "bg": {
         "label": "#EV009・微笑み・目閉じ・うっとり・尻穴いじり・指入れ・精液たれ",
         "file": "EV009_09"
+      },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
       },
       "bgv": {
         "id": "BGV_AYAN_F001B",
@@ -2254,6 +2431,10 @@
         "label": "#EV009・微笑み・目閉じ・うっとり・尻穴いじり・指入れ・精液たれ",
         "file": "EV009_09"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_F001B",
         "file": "voice/BGV_ayan_f001b.ogg"
@@ -2272,6 +2453,10 @@
       "bg": {
         "label": "#EV009・微笑み・目閉じ・うっとり・尻穴いじり・指入れ・精液たれ",
         "file": "EV009_09"
+      },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
       },
       "bgv": {
         "id": "BGV_AYAN_F001B",
@@ -2305,6 +2490,10 @@
         "label": "#EV009・微笑み・目閉じ・うっとり・尻穴いじり・指入れ・精液たれ",
         "file": "EV009_09"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_F001B",
         "file": "voice/BGV_ayan_f001b.ogg"
@@ -2325,6 +2514,10 @@
         "label": "#EV009・微笑み・目閉じ・うっとり・尻穴いじり・指入れ・精液たれ",
         "file": "EV009_09"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_F001B",
         "file": "voice/BGV_ayan_f001b.ogg"
@@ -2344,6 +2537,10 @@
       "bg": {
         "label": "#EV009・微笑み・目閉じ・うっとり・尻穴いじり・指入れ・精液たれ",
         "file": "EV009_09"
+      },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
       },
       "bgv": {
         "id": "BGV_AYAN_F001B",
@@ -2367,6 +2564,10 @@
         "label": "#EV009・微笑み・目閉じ・うっとり・尻穴いじり・指入れ・精液たれ",
         "file": "EV009_09"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_F001B",
         "file": "voice/BGV_ayan_f001b.ogg"
@@ -2386,6 +2587,10 @@
       "bg": {
         "label": "#EV009・微笑み・目閉じ・うっとり・尻穴いじり・指入れ・精液たれ",
         "file": "EV009_09"
+      },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
       },
       "bgv": {
         "id": "BGV_AYAN_F001B",
@@ -2409,6 +2614,10 @@
         "label": "#EV009・微笑み・目閉じ・うっとり・尻穴いじり・指入れ・精液たれ",
         "file": "EV009_09"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_F001B",
         "file": "voice/BGV_ayan_f001b.ogg"
@@ -2428,6 +2637,10 @@
       "bg": {
         "label": "#EV009・微笑み・目閉じ・うっとり・尻穴いじり・指入れ・精液たれ",
         "file": "EV009_09"
+      },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
       },
       "bgv": {
         "id": "BGV_AYAN_F001B",
@@ -2456,6 +2669,10 @@
         "label": "#EV009・微笑み・目閉じ・うっとり・尻穴いじり・指入れ・精液たれ",
         "file": "EV009_09"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_F001B",
         "file": "voice/BGV_ayan_f001b.ogg"
@@ -2475,6 +2692,10 @@
       "bg": {
         "label": "#EV009・微笑み・目閉じ・うっとり・尻穴いじり・指入れ・精液たれ",
         "file": "EV009_09"
+      },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
       },
       "bgv": {
         "id": "BGV_AYAN_F001B",
@@ -2498,6 +2719,10 @@
         "label": "#EV009・微笑み・目閉じ・うっとり・尻穴いじり・指入れ・精液たれ",
         "file": "EV009_09"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_F001B",
         "file": "voice/BGV_ayan_f001b.ogg"
@@ -2517,6 +2742,10 @@
       "bg": {
         "label": "#EV009・微笑み・目閉じ・うっとり・尻穴いじり・指入れ・精液たれ",
         "file": "EV009_09"
+      },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
       },
       "bgv": {
         "id": "BGV_AYAN_F001B",
@@ -2540,6 +2769,10 @@
         "label": "#EV009・微笑み・目閉じ・うっとり・尻穴いじり・指入れ・精液たれ",
         "file": "EV009_09"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_F001B",
         "file": "voice/BGV_ayan_f001b.ogg"
@@ -2560,6 +2793,10 @@
         "label": "#EV009・微笑み・目閉じ・驚き・尻穴いじり・指入れ・精液たれ",
         "file": "EV009_08"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_F001B",
         "file": "voice/BGV_ayan_f001b.ogg"
@@ -2579,6 +2816,10 @@
       "bg": {
         "label": "#EV009・微笑み・目閉じ・驚き・尻穴いじり・指入れ・精液たれ",
         "file": "EV009_08"
+      },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
       },
       "bgv": {
         "id": "BGV_AYAN_F001B",
@@ -2604,6 +2845,10 @@
         "label": "#EV009・微笑み・目閉じ・驚き・尻穴いじり・指入れ・精液たれ",
         "file": "EV009_08"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_F001B",
         "file": "voice/BGV_ayan_f001b.ogg"
@@ -2623,6 +2868,10 @@
       "bg": {
         "label": "#EV009・微笑み・目閉じ・驚き・尻穴いじり・指入れ・精液たれ",
         "file": "EV009_08"
+      },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
       },
       "bgv": {
         "id": "BGV_AYAN_F001B",
@@ -2649,6 +2898,10 @@
         "label": "#EV009・微笑み・目閉じ・驚き・尻穴いじり・指入れ・精液たれ",
         "file": "EV009_08"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_F001B",
         "file": "voice/BGV_ayan_f001b.ogg"
@@ -2668,6 +2921,10 @@
       "bg": {
         "label": "#EV009・微笑み・目閉じ・驚き・尻穴いじり・指入れ・精液たれ",
         "file": "EV009_08"
+      },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
       },
       "bgv": {
         "id": "BGV_AYAN_F001B",
@@ -2689,6 +2946,10 @@
         "label": "#EV009・微笑み・目閉じ・うっとり・尻穴いじり・指入れ・精液たれ",
         "file": "EV009_09"
       },
+      "lpse": {
+        "code": "8141A",
+        "file": "se/8141a.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_F001B",
         "file": "voice/BGV_ayan_f001b.ogg"
@@ -2708,6 +2969,10 @@
         "label": "#EV009・微笑み・目閉じ・うっとり・尻穴いじり・指入れ・精液たれ",
         "file": "EV009_09"
       },
+      "lpse": {
+        "code": "8141A",
+        "file": "se/8141a.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_F001B",
         "file": "voice/BGV_ayan_f001b.ogg"
@@ -2723,6 +2988,10 @@
       "bg": {
         "label": "#EV009・微笑み・目閉じ・うっとり・尻穴いじり・指入れ・精液たれ",
         "file": "EV009_09"
+      },
+      "lpse": {
+        "code": "8141A",
+        "file": "se/8141a.ogg"
       },
       "bgv": {
         "id": "BGV_AYAN_F001B",
@@ -2743,6 +3012,10 @@
       "bg": {
         "label": "#EV009・微笑み・目閉じ・うっとり・尻穴いじり・指入れ・精液たれ",
         "file": "EV009_09"
+      },
+      "lpse": {
+        "code": "8141A",
+        "file": "se/8141a.ogg"
       },
       "bgv": {
         "id": "BGV_AYAN_F001B",
@@ -2766,6 +3039,10 @@
         "label": "#EV009・微笑み・目閉じ・うっとり・尻穴いじり・指入れ・精液たれ",
         "file": "EV009_09"
       },
+      "lpse": {
+        "code": "8141A",
+        "file": "se/8141a.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_F001B",
         "file": "voice/BGV_ayan_f001b.ogg"
@@ -2786,6 +3063,10 @@
         "label": "#EV009・微笑み・目閉じ・うっとり・尻穴いじり・指入れ・精液たれ",
         "file": "EV009_09"
       },
+      "lpse": {
+        "code": "8141A",
+        "file": "se/8141a.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_F001B",
         "file": "voice/BGV_ayan_f001b.ogg"
@@ -2805,6 +3086,10 @@
       "bg": {
         "label": "#EV009・微笑み・目閉じ・うっとり・尻穴いじり・指入れ・精液たれ",
         "file": "EV009_09"
+      },
+      "lpse": {
+        "code": "8141A",
+        "file": "se/8141a.ogg"
       },
       "bgv": {
         "id": "BGV_AYAN_F001B",
@@ -2837,6 +3122,10 @@
         "label": "#EV009・微笑み・目閉じ・うっとり・尻穴いじり・指入れ・精液たれ",
         "file": "EV009_09"
       },
+      "lpse": {
+        "code": "8141A",
+        "file": "se/8141a.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_F001B",
         "file": "voice/BGV_ayan_f001b.ogg"
@@ -2857,6 +3146,10 @@
         "label": "#EV009・微笑み・目閉じ・うっとり・尻穴いじり・指入れ・精液たれ",
         "file": "EV009_09"
       },
+      "lpse": {
+        "code": "8141A",
+        "file": "se/8141a.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_F001B",
         "file": "voice/BGV_ayan_f001b.ogg"
@@ -2876,6 +3169,10 @@
         "label": "#EV009・舌出し・目閉じ・うっとり・尻穴いじり・指入れ・精液たれ",
         "file": "EV009_10"
       },
+      "lpse": {
+        "code": "8141A",
+        "file": "se/8141a.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_F001B",
         "file": "voice/BGV_ayan_f001b.ogg"
@@ -2894,6 +3191,10 @@
       "bg": {
         "label": "#EV009・舌出し・目閉じ・うっとり・尻穴いじり・指入れ・精液たれ",
         "file": "EV009_10"
+      },
+      "lpse": {
+        "code": "8141A",
+        "file": "se/8141a.ogg"
       },
       "bgv": {
         "id": "BGV_AYAN_F002B",
@@ -2918,6 +3219,10 @@
         "label": "#EV009・舌出し・目閉じ・うっとり・尻穴いじり・指入れ・精液たれ",
         "file": "EV009_10"
       },
+      "lpse": {
+        "code": "8141A",
+        "file": "se/8141a.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_F002B",
         "file": "voice/BGV_ayan_f002b.ogg"
@@ -2937,6 +3242,10 @@
       "bg": {
         "label": "#EV009・舌出し・目閉じ・うっとり・尻穴いじり・指入れ・精液たれ",
         "file": "EV009_10"
+      },
+      "lpse": {
+        "code": "8141A",
+        "file": "se/8141a.ogg"
       },
       "bgv": {
         "id": "BGV_AYAN_F002B",
@@ -2961,6 +3270,10 @@
         "label": "#EV009・舌出し・目閉じ・うっとり・尻穴いじり・指入れ・精液たれ",
         "file": "EV009_10"
       },
+      "lpse": {
+        "code": "8141A",
+        "file": "se/8141a.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_F002B",
         "file": "voice/BGV_ayan_f002b.ogg"
@@ -2981,6 +3294,10 @@
         "label": "#EV009・舌出し・目閉じ・うっとり・尻穴いじり・指入れ・精液たれ",
         "file": "EV009_10"
       },
+      "lpse": {
+        "code": "8141A",
+        "file": "se/8141a.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_F002B",
         "file": "voice/BGV_ayan_f002b.ogg"
@@ -2999,6 +3316,10 @@
       "bg": {
         "label": "#EV009・舌出し・目閉じ・うっとり・尻穴いじり・指入れ・精液たれ",
         "file": "EV009_10"
+      },
+      "lpse": {
+        "code": "8141A",
+        "file": "se/8141a.ogg"
       },
       "bgv": {
         "id": "BGV_AYAN_F002B",
@@ -3028,6 +3349,10 @@
         "label": "#EV009・舌出し・目閉じ・うっとり・尻穴いじり・指入れ・精液たれ",
         "file": "EV009_10"
       },
+      "lpse": {
+        "code": "8141A",
+        "file": "se/8141a.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_F002B",
         "file": "voice/BGV_ayan_f002b.ogg"
@@ -3047,6 +3372,10 @@
         "label": "#EV009・舌出し・目閉じ・うっとり・尻穴いじり・指入れ・精液たれ",
         "file": "EV009_10"
       },
+      "lpse": {
+        "code": "8141A",
+        "file": "se/8141a.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_F002B",
         "file": "voice/BGV_ayan_f002b.ogg"
@@ -3062,6 +3391,10 @@
       "bg": {
         "label": "#EV009・舌出し・目閉じ・うっとり・尻穴いじり・指入れ・精液たれ",
         "file": "EV009_10"
+      },
+      "lpse": {
+        "code": "8141A",
+        "file": "se/8141a.ogg"
       },
       "bgv": {
         "id": "BGV_AYAN_F002B",
@@ -3081,6 +3414,10 @@
       "bg": {
         "label": "#EV009・舌出し・目閉じ・うっとり・尻穴いじり・指入れ・精液たれ",
         "file": "EV009_10"
+      },
+      "lpse": {
+        "code": "8141A",
+        "file": "se/8141a.ogg"
       },
       "bgv": {
         "id": "BGV_AYAN_F002B",
@@ -3111,6 +3448,10 @@
         "label": "#EV009・舌出し・目閉じ・うっとり・尻穴いじり・指入れ・精液たれ",
         "file": "EV009_10"
       },
+      "lpse": {
+        "code": "8141A",
+        "file": "se/8141a.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_F002B",
         "file": "voice/BGV_ayan_f002b.ogg"
@@ -3131,6 +3472,10 @@
         "label": "#EV009・舌出し・目閉じ・うっとり・尻穴いじり・指入れ・精液たれ",
         "file": "EV009_10"
       },
+      "lpse": {
+        "code": "8141A",
+        "file": "se/8141a.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_F002B",
         "file": "voice/BGV_ayan_f002b.ogg"
@@ -3147,6 +3492,10 @@
       "bg": {
         "label": "#EV009・舌出し・目閉じ・うっとり・尻穴いじり・指入れ・精液たれ",
         "file": "EV009_10"
+      },
+      "lpse": {
+        "code": "8141A",
+        "file": "se/8141a.ogg"
       },
       "bgv": {
         "id": "BGV_AYAN_F002B",
@@ -3167,6 +3516,10 @@
       "bg": {
         "label": "#EV009・舌出し・目閉じ・うっとり・尻穴いじり・指入れ・精液たれ",
         "file": "EV009_10"
+      },
+      "lpse": {
+        "code": "8141A",
+        "file": "se/8141a.ogg"
       },
       "bgv": {
         "id": "BGV_AYAN_F002B",
@@ -3193,6 +3546,10 @@
           "file": "se/8201b.ogg"
         }
       ],
+      "lpse": {
+        "code": "8141A",
+        "file": "se/8141a.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_F002B",
         "file": "voice/BGV_ayan_f002b.ogg"
@@ -3208,6 +3565,10 @@
       "bg": {
         "label": "#EV009・あらあら・目閉じ・驚き・尻穴いじり・指入れ・射精2",
         "file": "EV009_11"
+      },
+      "lpse": {
+        "code": "8141A",
+        "file": "se/8141a.ogg"
       },
       "bgv": {
         "id": "BGV_AYAN_F002B",
@@ -3229,6 +3590,10 @@
         "label": "#EV009・あらあら・目閉じ・驚き・尻穴いじり・指入れ・射精2",
         "file": "EV009_11"
       },
+      "lpse": {
+        "code": "8141A",
+        "file": "se/8141a.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_F002B",
         "file": "voice/BGV_ayan_f002b.ogg"
@@ -3244,6 +3609,10 @@
       "bg": {
         "label": "#EV009・あらあら・目閉じ・驚き・尻穴いじり・指入れ・射精2",
         "file": "EV009_11"
+      },
+      "lpse": {
+        "code": "8141A",
+        "file": "se/8141a.ogg"
       },
       "bgv": {
         "id": "BGV_AYAN_F002B",
@@ -3263,6 +3632,10 @@
       "bg": {
         "label": "#EV009・あらあら・目閉じ・驚き・尻穴いじり・指入れ・射精2",
         "file": "EV009_11"
+      },
+      "lpse": {
+        "code": "8141A",
+        "file": "se/8141a.ogg"
       },
       "bgv": {
         "id": "BGV_AYAN_F002B",
@@ -3287,6 +3660,10 @@
         "label": "#EV009・あらあら・目閉じ・驚き・尻穴いじり・指入れ・射精2",
         "file": "EV009_11"
       },
+      "lpse": {
+        "code": "8141A",
+        "file": "se/8141a.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_F002B",
         "file": "voice/BGV_ayan_f002b.ogg"
@@ -3306,6 +3683,10 @@
       "bg": {
         "label": "#EV009・あらあら・目閉じ・驚き・尻穴いじり・指入れ・射精2",
         "file": "EV009_11"
+      },
+      "lpse": {
+        "code": "8141A",
+        "file": "se/8141a.ogg"
       },
       "bgv": {
         "id": "BGV_AYAN_F002B",
@@ -3330,6 +3711,10 @@
         "label": "#EV009・あらあら・目閉じ・驚き・尻穴いじり・指入れ・射精2",
         "file": "EV009_11"
       },
+      "lpse": {
+        "code": "8141A",
+        "file": "se/8141a.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_F002B",
         "file": "voice/BGV_ayan_f002b.ogg"
@@ -3349,6 +3734,10 @@
       "bg": {
         "label": "#EV009・あらあら・目閉じ・驚き・尻穴いじり・指入れ・射精2",
         "file": "EV009_11"
+      },
+      "lpse": {
+        "code": "8141A",
+        "file": "se/8141a.ogg"
       },
       "bgv": {
         "id": "BGV_AYAN_F002B",
@@ -3384,6 +3773,10 @@
           "file": "se/8201b.ogg"
         }
       ],
+      "lpse": {
+        "code": "8141A",
+        "file": "se/8141a.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_F002B",
         "file": "voice/BGV_ayan_f002b.ogg"
@@ -3403,6 +3796,10 @@
       "bg": {
         "label": "#EV009・あらあら・目閉じ・驚き・尻穴いじり・指入れ・射精2",
         "file": "EV009_11"
+      },
+      "lpse": {
+        "code": "8141A",
+        "file": "se/8141a.ogg"
       },
       "bgv": {
         "id": "BGV_AYAN_F002B",
@@ -3425,6 +3822,10 @@
         "label": "#EV009・あらあら・目閉じ・驚き・尻穴いじり・指入れ・射精2",
         "file": "EV009_11"
       },
+      "lpse": {
+        "code": "8141A",
+        "file": "se/8141a.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_F002B",
         "file": "voice/BGV_ayan_f002b.ogg"
@@ -3444,6 +3845,10 @@
         "label": "#EV009・あらあら・目閉じ・驚き・尻穴いじり・指入れ・射精2",
         "file": "EV009_11"
       },
+      "lpse": {
+        "code": "8141A",
+        "file": "se/8141a.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_F002B",
         "file": "voice/BGV_ayan_f002b.ogg"
@@ -3459,6 +3864,10 @@
       "bg": {
         "label": "#EV009・あらあら・目閉じ・驚き・尻穴いじり・指入れ・射精2",
         "file": "EV009_11"
+      },
+      "lpse": {
+        "code": "8141A",
+        "file": "se/8141a.ogg"
       },
       "bgv": {
         "id": "BGV_AYAN_F002B",
@@ -3478,6 +3887,10 @@
       "bg": {
         "label": "#EV009・あらあら・目閉じ・驚き・尻穴いじり・指入れ・射精2",
         "file": "EV009_11"
+      },
+      "lpse": {
+        "code": "8141A",
+        "file": "se/8141a.ogg"
       },
       "bgv": {
         "id": "BGV_AYAN_F002B",
@@ -3503,6 +3916,10 @@
         "label": "#EV009・あらあら・目閉じ・驚き・尻穴いじり・指入れ・射精2",
         "file": "EV009_11"
       },
+      "lpse": {
+        "code": "8141A",
+        "file": "se/8141a.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_F002B",
         "file": "voice/BGV_ayan_f002b.ogg"
@@ -3522,6 +3939,10 @@
         "label": "#EV009・あらあら・目閉じ・驚き・尻穴いじり・指入れ・射精2",
         "file": "EV009_11"
       },
+      "lpse": {
+        "code": "8141A",
+        "file": "se/8141a.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_F002B",
         "file": "voice/BGV_ayan_f002b.ogg"
@@ -3537,6 +3958,10 @@
       "bg": {
         "label": "#EV009・あらあら・目閉じ・驚き・尻穴いじり・指入れ・射精2",
         "file": "EV009_11"
+      },
+      "lpse": {
+        "code": "8141A",
+        "file": "se/8141a.ogg"
       },
       "bgv": {
         "id": "BGV_AYAN_F002B",
@@ -3556,6 +3981,10 @@
       "bg": {
         "label": "#EV009・あらあら・目閉じ・驚き・尻穴いじり・指入れ・射精2",
         "file": "EV009_11"
+      },
+      "lpse": {
+        "code": "8141A",
+        "file": "se/8141a.ogg"
       },
       "bgv": {
         "id": "BGV_AYAN_F002B",
@@ -3582,6 +4011,10 @@
         "label": "#EV009・あらあら・目閉じ・驚き・尻穴いじり・指入れ・射精2",
         "file": "EV009_11"
       },
+      "lpse": {
+        "code": "8141A",
+        "file": "se/8141a.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_F002B",
         "file": "voice/BGV_ayan_f002b.ogg"
@@ -3602,6 +4035,10 @@
         "label": "#EV009・あらあら・目閉じ・驚き・尻穴いじり・指入れ・射精2",
         "file": "EV009_11"
       },
+      "lpse": {
+        "code": "8141A",
+        "file": "se/8141a.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_F002B",
         "file": "voice/BGV_ayan_f002b.ogg"
@@ -3621,6 +4058,10 @@
       "bg": {
         "label": "#EV009・あらあら・目閉じ・驚き・尻穴いじり・指入れ・射精2",
         "file": "EV009_11"
+      },
+      "lpse": {
+        "code": "8141A",
+        "file": "se/8141a.ogg"
       },
       "bgv": {
         "id": "BGV_AYAN_F002B",
@@ -3656,6 +4097,10 @@
           "file": "se/8201b.ogg"
         }
       ],
+      "lpse": {
+        "code": "8141A",
+        "file": "se/8141a.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_F002B",
         "file": "voice/BGV_ayan_f002b.ogg"
@@ -3675,6 +4120,10 @@
         "label": "#EV009・微笑み・目閉じ・うっとり・尻穴いじり・指入れ・射精2",
         "file": "EV009_12"
       },
+      "lpse": {
+        "code": "8141A",
+        "file": "se/8141a.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_F002B",
         "file": "voice/BGV_ayan_f002b.ogg"
@@ -3691,6 +4140,10 @@
       "bg": {
         "label": "#EV009・微笑み・目閉じ・うっとり・尻穴いじり・指入れ・射精2",
         "file": "EV009_12"
+      },
+      "lpse": {
+        "code": "8141A",
+        "file": "se/8141a.ogg"
       },
       "bgv": {
         "id": "BGV_AYAN_F002B",
@@ -3711,6 +4164,10 @@
       "bg": {
         "label": "#EV009・微笑み・目閉じ・うっとり・尻穴いじり・指入れ・射精2",
         "file": "EV009_12"
+      },
+      "lpse": {
+        "code": "8141A",
+        "file": "se/8141a.ogg"
       },
       "bgv": {
         "id": "BGV_AYAN_F002B",
@@ -3738,6 +4195,10 @@
         "label": "#EV009・微笑み・目閉じ・うっとり・尻穴いじり・指入れ・射精2",
         "file": "EV009_12"
       },
+      "lpse": {
+        "code": "8141A",
+        "file": "se/8141a.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_F002B",
         "file": "voice/BGV_ayan_f002b.ogg"
@@ -3758,6 +4219,10 @@
         "label": "#EV009・微笑み・目閉じ・うっとり・尻穴いじり・指入れ・射精2",
         "file": "EV009_12"
       },
+      "lpse": {
+        "code": "8141A",
+        "file": "se/8141a.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_F002B",
         "file": "voice/BGV_ayan_f002b.ogg"
@@ -3776,6 +4241,10 @@
       "bg": {
         "label": "#EV009・微笑み・目閉じ・うっとり・尻穴いじり・指入れ・射精2",
         "file": "EV009_12"
+      },
+      "lpse": {
+        "code": "8141A",
+        "file": "se/8141a.ogg"
       },
       "bgv": {
         "id": "BGV_AYAN_F002B",
@@ -3806,6 +4275,10 @@
           "file": "se/8201b.ogg"
         }
       ],
+      "lpse": {
+        "code": "8141A",
+        "file": "se/8141a.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_F002B",
         "file": "voice/BGV_ayan_f002b.ogg"
@@ -3825,6 +4298,10 @@
       "bg": {
         "label": "#EV009・微笑み・目閉じ・うっとり・尻穴いじり・指入れ・射精2",
         "file": "EV009_12"
+      },
+      "lpse": {
+        "code": "8141A",
+        "file": "se/8141a.ogg"
       },
       "bgv": {
         "id": "BGV_AYAN_F002B",
@@ -3847,6 +4324,10 @@
         "label": "#EV009・微笑み・目閉じ・うっとり・尻穴いじり・指入れ・射精2",
         "file": "EV009_12"
       },
+      "lpse": {
+        "code": "8141A",
+        "file": "se/8141a.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_F002B",
         "file": "voice/BGV_ayan_f002b.ogg"
@@ -3866,6 +4347,10 @@
       "bg": {
         "label": "#EV009・微笑み・目閉じ・うっとり・尻穴いじり・指入れ・射精2",
         "file": "EV009_12"
+      },
+      "lpse": {
+        "code": "8141A",
+        "file": "se/8141a.ogg"
       },
       "bgv": {
         "id": "BGV_AYAN_F002B",
@@ -3888,6 +4373,10 @@
       "bg": {
         "label": "#背景・黒一色",
         "file": "BG_BLACK"
+      },
+      "lpse": {
+        "code": "8141A",
+        "file": "se/8141a.ogg"
       },
       "bgv": {
         "id": "BGV_AYAN_F002B",

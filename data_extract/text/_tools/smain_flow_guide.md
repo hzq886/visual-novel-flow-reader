@@ -337,7 +337,7 @@ len-3 命令 `op <u16 idx>` を集計すると、各 op の参照先クラスが
 | `0x0d` | `0d <u16 idx>` | 話者名設定（`【…】`） | 9222（speaker 100%） |
 | `0x14` | `14 <u16 idx>` | ボイス再生 | 7511（voice ID 100%） |
 | `0x15` | `15 <u16 idx>` | **se 再生**（§3.9 の訂正） | 897（se コード 100%） |
-| `0x16` | `16 <u16 idx> 00 00` | se 変種（loop se 疑い・当面 se 扱い） | 207（se コード 100%） |
+| `0x16` | `16 <u16 idx> 00`（length 4） | **ループ se**（`VOL_LPSE`・単一ループch・sticky。HU-76 で確定） | 207（se コード 100%） |
 | `0x6a` | `6a <u16 idx>` | 立ち絵オフ `OFF` / 背景ボイス `BGV_*` | 1515（OFF 836＋BGV 679） |
 | `0x6c` | `6c <u16 idx>` | エフェクト実行（`EFFECT:FLASHn`） | 393（EFFECT 100%） |
 | `0x10` | `10 <byte1> <u16 idx>` | **背景レイヤ表示**（`#背景`/`#EV`/`BG_BLACK` すべて） | 2478（bg/EV/黒 100%） |
@@ -359,7 +359,7 @@ len-3 命令 `op <u16 idx>` を集計すると、各 op の参照先クラスが
 
 `extract-scenes.py` が上記 op を正規化イベント列（`data/scene-events/<locale>.json`）へ写し、TS の
 `buildScene` が beat を組む（→ [ADR 0010](../../../docs/adr/0010-bytecode-primary-scenes.md)）。対応:
-`0x01`→text / `0x0d`→speaker / `0x14`→voice / `0x15,0x16`→se / `0x10`→bg / `0x12`→sprite /
+`0x01`→text / `0x0d`→speaker / `0x14`→voice / `0x15`→se（ワンショット）/ `0x16`→lpse（ループ se・VOL_LPSE・HU-76）/ `0x10`→bg / `0x12`→sprite /
 `0x3b,0x3c`→item,itemclose / `0x6a`→off,bgv / `0x6c`→flash / `0x2c`(idx0)→scene.title・(idx≥1)→text。
 `0x12`→sprite は**多体スロットを全保持**（HU-77。`buildScene` が per-slot sticky。`Beat.sprites`＝`SpriteRef[]`）。
 `mode` bit `0x80` 無し（`0x00`）は **establishing shot**＝適用前に全スロットをクリア（`sprite` イベント第3要素

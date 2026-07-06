@@ -577,6 +577,10 @@
         "label": "#EV061・困り2・挿入・微笑み・愛液",
         "file": "EV061_06"
       },
+      "lpse": {
+        "code": "8101A",
+        "file": "se/8101a.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H001A",
         "file": "voice/BGV_suzu_h001a.ogg"
@@ -596,6 +600,10 @@
       "bg": {
         "label": "#EV061・困り2・挿入・微笑み・愛液",
         "file": "EV061_06"
+      },
+      "lpse": {
+        "code": "8101A",
+        "file": "se/8101a.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H001A",
@@ -617,6 +625,10 @@
         "label": "#EV061・困り2・挿入・微笑み・愛液",
         "file": "EV061_06"
       },
+      "lpse": {
+        "code": "8101A",
+        "file": "se/8101a.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H001A",
         "file": "voice/BGV_suzu_h001a.ogg"
@@ -637,6 +649,10 @@
         "label": "#EV061・困り2・挿入・微笑み・愛液",
         "file": "EV061_06"
       },
+      "lpse": {
+        "code": "8101A",
+        "file": "se/8101a.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H001A",
         "file": "voice/BGV_suzu_h001a.ogg"
@@ -656,6 +672,10 @@
       "bg": {
         "label": "#EV061・困り2・挿入・微笑み・愛液",
         "file": "EV061_06"
+      },
+      "lpse": {
+        "code": "8101A",
+        "file": "se/8101a.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H001A",
@@ -688,6 +708,10 @@
         "label": "#EV061・困り2・挿入・微笑み・愛液",
         "file": "EV061_06"
       },
+      "lpse": {
+        "code": "8101A",
+        "file": "se/8101a.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H001A",
         "file": "voice/BGV_suzu_h001a.ogg"
@@ -707,6 +731,10 @@
       "bg": {
         "label": "#EV061・困り2・挿入・微笑み・愛液",
         "file": "EV061_06"
+      },
+      "lpse": {
+        "code": "8101A",
+        "file": "se/8101a.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H001A",
@@ -734,6 +762,10 @@
         "label": "#EV061・困り2・挿入・微笑み・愛液",
         "file": "EV061_06"
       },
+      "lpse": {
+        "code": "8101A",
+        "file": "se/8101a.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H001A",
         "file": "voice/BGV_suzu_h001a.ogg"
@@ -753,6 +785,10 @@
       "bg": {
         "label": "#EV061・困り2・挿入・微笑み・愛液",
         "file": "EV061_06"
+      },
+      "lpse": {
+        "code": "8101A",
+        "file": "se/8101a.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H001A",
@@ -785,6 +821,10 @@
         "label": "#EV061・困り2・挿入・微笑み・愛液",
         "file": "EV061_06"
       },
+      "lpse": {
+        "code": "8101A",
+        "file": "se/8101a.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H001A",
         "file": "voice/BGV_suzu_h001a.ogg"
@@ -805,6 +845,10 @@
         "label": "#EV061・困り2・挿入・微笑み・愛液",
         "file": "EV061_06"
       },
+      "lpse": {
+        "code": "8101A",
+        "file": "se/8101a.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H001A",
         "file": "voice/BGV_suzu_h001a.ogg"
@@ -821,7 +865,24 @@
         ],
         [
           "僕のほうも、そろそろ、本気で動きたかった。"
-        ],
+        ]
+      ],
+      "bg": {
+        "label": "#EV061・困り2・挿入・微笑み・愛液",
+        "file": "EV061_06"
+      },
+      "lpse": {
+        "code": "8101A",
+        "file": "se/8101a.ogg"
+      },
+      "bgv": {
+        "id": "BGV_SUZU_H001A",
+        "file": "voice/BGV_suzu_h001a.ogg"
+      }
+    },
+    {
+      "kind": "narration",
+      "pages": [
         [
           "細い腰をガッチリと掴んで、ガンガン突き始めた。"
         ]
@@ -829,6 +890,10 @@
       "bg": {
         "label": "#EV061・困り2・挿入・微笑み・愛液",
         "file": "EV061_06"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H001A",
@@ -849,6 +914,10 @@
       "bg": {
         "label": "#EV061・うっとり・挿入・眉寄せ・愛液",
         "file": "EV061_07"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H002A",
@@ -872,6 +941,10 @@
         "label": "#EV061・うっとり・挿入・眉寄せ・愛液",
         "file": "EV061_07"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H002A",
         "file": "voice/BGV_suzu_h002a.ogg"
@@ -891,6 +964,10 @@
       "bg": {
         "label": "#EV061・うっとり・挿入・眉寄せ・愛液",
         "file": "EV061_07"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H002A",
@@ -915,6 +992,10 @@
         "label": "#EV061・うっとり・挿入・眉寄せ・愛液",
         "file": "EV061_07"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H002A",
         "file": "voice/BGV_suzu_h002a.ogg"
@@ -934,6 +1015,10 @@
       "bg": {
         "label": "#EV061・うっとり・挿入・眉寄せ・愛液",
         "file": "EV061_07"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H002A",
@@ -962,6 +1047,10 @@
         "label": "#EV061・うっとり・挿入・眉寄せ・愛液",
         "file": "EV061_07"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H002A",
         "file": "voice/BGV_suzu_h002a.ogg"
@@ -981,6 +1070,10 @@
       "bg": {
         "label": "#EV061・うっとり・挿入・眉寄せ・愛液",
         "file": "EV061_07"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H002A",
@@ -1005,6 +1098,10 @@
         "label": "#EV061・うっとり・挿入・眉寄せ・愛液",
         "file": "EV061_07"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H002A",
         "file": "voice/BGV_suzu_h002a.ogg"
@@ -1024,6 +1121,10 @@
       "bg": {
         "label": "#EV061・うっとり・挿入・眉寄せ・愛液",
         "file": "EV061_07"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H002A",
@@ -1051,6 +1152,10 @@
         "label": "#EV061・うっとり・挿入・眉寄せ・愛液",
         "file": "EV061_07"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H002A",
         "file": "voice/BGV_suzu_h002a.ogg"
@@ -1070,6 +1175,10 @@
       "bg": {
         "label": "#EV061・うっとり・挿入・眉寄せ・愛液",
         "file": "EV061_07"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H002A",
@@ -1093,6 +1202,10 @@
         "label": "#EV061・うっとり・挿入・眉寄せ・愛液",
         "file": "EV061_07"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H002A",
         "file": "voice/BGV_suzu_h002a.ogg"
@@ -1112,6 +1225,10 @@
       "bg": {
         "label": "#EV061・うっとり・挿入・眉寄せ・愛液",
         "file": "EV061_07"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H002A",
@@ -1136,6 +1253,10 @@
         "label": "#EV061・うっとり・挿入・眉寄せ・愛液",
         "file": "EV061_07"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H002A",
         "file": "voice/BGV_suzu_h002a.ogg"
@@ -1155,6 +1276,10 @@
       "bg": {
         "label": "#EV061・うっとり・挿入・眉寄せ・愛液",
         "file": "EV061_07"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H002A",
@@ -1191,6 +1316,10 @@
         "label": "#EV061・うっとり・挿入・眉寄せ・愛液",
         "file": "EV061_07"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H002A",
         "file": "voice/BGV_suzu_h002a.ogg"
@@ -1210,6 +1339,10 @@
       "bg": {
         "label": "#EV061・アヘ顔・挿入・眉寄せ・愛液",
         "file": "EV061_08"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H003A",
@@ -1234,6 +1367,10 @@
         "label": "#EV061・アヘ顔・挿入・眉寄せ・愛液",
         "file": "EV061_08"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
@@ -1253,6 +1390,10 @@
       "bg": {
         "label": "#EV061・アヘ顔・挿入・眉寄せ・愛液",
         "file": "EV061_08"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H003A",
@@ -1278,6 +1419,10 @@
         "label": "#EV061・アヘ顔・挿入・眉寄せ・愛液",
         "file": "EV061_08"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
@@ -1297,6 +1442,10 @@
       "bg": {
         "label": "#EV061・アヘ顔・挿入・眉寄せ・愛液",
         "file": "EV061_08"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H003A",
@@ -1319,6 +1468,10 @@
         "label": "#EV061・アヘ顔・挿入・眉寄せ・愛液",
         "file": "EV061_08"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
@@ -1338,6 +1491,10 @@
       "bg": {
         "label": "#EV061・アヘ顔・挿入・眉寄せ・愛液",
         "file": "EV061_08"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H003A",
@@ -1362,6 +1519,10 @@
           "file": "se/8201b.ogg"
         }
       ],
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
@@ -1377,6 +1538,10 @@
       "bg": {
         "label": "#EV061・アヘ顔・挿入・眉寄せ・射精",
         "file": "EV061_09"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H003A",
@@ -1399,6 +1564,10 @@
         "label": "#EV061・アヘ顔・挿入・眉寄せ・射精",
         "file": "EV061_09"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
@@ -1417,6 +1586,10 @@
       "bg": {
         "label": "#EV061・アヘ顔・挿入・眉寄せ・射精",
         "file": "EV061_09"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H003A",
@@ -1437,6 +1610,10 @@
       "bg": {
         "label": "#EV061・アヘ顔・挿入・眉寄せ・射精",
         "file": "EV061_09"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H003A",
@@ -1466,6 +1643,10 @@
           "file": "se/8201b.ogg"
         }
       ],
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
@@ -1485,6 +1666,10 @@
       "bg": {
         "label": "#EV061・アヘ顔・挿入・眉寄せ・射精",
         "file": "EV061_09"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H003A",
@@ -1518,6 +1703,10 @@
           "file": "se/8201b.ogg"
         }
       ],
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
@@ -1537,6 +1726,10 @@
       "bg": {
         "label": "#EV061・アヘ顔・挿入・眉寄せ・射精",
         "file": "EV061_09"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H003A",
@@ -1561,6 +1754,10 @@
         "label": "#EV061・アヘ顔・挿入・眉寄せ・射精",
         "file": "EV061_09"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
@@ -1575,6 +1772,10 @@
       "bg": {
         "label": "#EV061・アヘ顔・挿入・眉寄せ・射精",
         "file": "EV061_09"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H003A",
@@ -1592,6 +1793,10 @@
       "bg": {
         "label": "#EV061・アヘ顔・挿入・眉寄せ・射精",
         "file": "EV061_09"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H003A",
@@ -1612,6 +1817,10 @@
         "label": "#EV061・困り2・挿入・ほっこり・精液たれ",
         "file": "EV061_10"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
@@ -1626,6 +1835,10 @@
       "bg": {
         "label": "#EV061・困り2・挿入・ほっこり・精液たれ",
         "file": "EV061_10"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H003A",
@@ -1645,6 +1858,10 @@
       "bg": {
         "label": "#EV061・困り2・挿入・ほっこり・精液たれ",
         "file": "EV061_10"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H003A",
@@ -1666,6 +1883,10 @@
         "label": "#EV061・困り2・挿入・ほっこり・精液たれ",
         "file": "EV061_10"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
@@ -1680,6 +1901,10 @@
       "bg": {
         "label": "#EV061・困り2・挿入・ほっこり・精液たれ",
         "file": "EV061_10"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H003A",
@@ -1696,6 +1921,10 @@
       "bg": {
         "label": "#EV061・困り2・挿入・ほっこり・精液たれ",
         "file": "EV061_10"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H003A",
@@ -1717,6 +1946,10 @@
         "label": "#EV061・困り2・挿入・ほっこり・精液たれ",
         "file": "EV061_10"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
@@ -1737,6 +1970,10 @@
         "label": "#EV061・困り2・挿入・ほっこり・精液たれ",
         "file": "EV061_10"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
@@ -1753,6 +1990,10 @@
         "label": "#EV061・困り2・挿入・ほっこり・精液たれ",
         "file": "EV061_10"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
@@ -1768,6 +2009,10 @@
       "bg": {
         "label": "#EV061・困り2・挿入・ほっこり・精液たれ",
         "file": "EV061_10"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H003A",
@@ -1788,6 +2033,10 @@
       "bg": {
         "label": "#EV061・困り2・挿入・ほっこり・精液たれ",
         "file": "EV061_10"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H003A",
@@ -1822,6 +2071,10 @@
         "label": "#EV061・困り2・挿入・ほっこり・精液たれ",
         "file": "EV061_10"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
@@ -1841,6 +2094,10 @@
       "bg": {
         "label": "#EV061・困り2・挿入・ほっこり・精液たれ",
         "file": "EV061_10"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H003A",
@@ -1870,6 +2127,10 @@
         "label": "#EV061・困り2・挿入・ほっこり・精液たれ",
         "file": "EV061_10"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
@@ -1889,6 +2150,10 @@
       "bg": {
         "label": "#EV061・困り2・挿入・ほっこり・精液たれ",
         "file": "EV061_10"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H003A",
@@ -1916,6 +2181,10 @@
         "label": "#EV061・困り2・挿入・ほっこり・精液たれ",
         "file": "EV061_10"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
@@ -1935,6 +2204,10 @@
       "bg": {
         "label": "#EV061・うっとり・挿入・眉寄せ・精液たれ",
         "file": "EV061_11"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H003A",
@@ -1965,6 +2238,10 @@
         "label": "#EV061・うっとり・挿入・眉寄せ・精液たれ",
         "file": "EV061_11"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
@@ -1984,6 +2261,10 @@
       "bg": {
         "label": "#EV061・うっとり・挿入・眉寄せ・精液たれ",
         "file": "EV061_11"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H003A",
@@ -2007,6 +2288,10 @@
         "label": "#EV061・うっとり・挿入・眉寄せ・精液たれ",
         "file": "EV061_11"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
@@ -2026,6 +2311,10 @@
       "bg": {
         "label": "#EV061・うっとり・挿入・眉寄せ・精液たれ",
         "file": "EV061_11"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H003A",
@@ -2049,6 +2338,10 @@
         "label": "#EV061・うっとり・挿入・眉寄せ・精液たれ",
         "file": "EV061_11"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
@@ -2068,6 +2361,10 @@
       "bg": {
         "label": "#EV061・うっとり・挿入・眉寄せ・精液たれ",
         "file": "EV061_11"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H003A",
@@ -2097,6 +2394,10 @@
         "label": "#EV061・うっとり・挿入・眉寄せ・精液たれ",
         "file": "EV061_11"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
@@ -2116,6 +2417,10 @@
       "bg": {
         "label": "#EV061・うっとり・挿入・眉寄せ・精液たれ",
         "file": "EV061_11"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H003A",
@@ -2140,6 +2445,10 @@
         "label": "#EV061・うっとり・挿入・眉寄せ・精液たれ",
         "file": "EV061_11"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
@@ -2159,6 +2468,10 @@
       "bg": {
         "label": "#EV061・うっとり・挿入・眉寄せ・精液たれ",
         "file": "EV061_11"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H003A",
@@ -2183,6 +2496,10 @@
         "label": "#EV061・うっとり・挿入・眉寄せ・精液たれ",
         "file": "EV061_11"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
@@ -2202,6 +2519,10 @@
       "bg": {
         "label": "#EV061・うっとり・挿入・眉寄せ・精液たれ",
         "file": "EV061_11"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H003A",
@@ -2226,6 +2547,10 @@
         "label": "#EV061・うっとり・挿入・眉寄せ・精液たれ",
         "file": "EV061_11"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
@@ -2245,6 +2570,10 @@
       "bg": {
         "label": "#EV061・うっとり・挿入・眉寄せ・精液たれ",
         "file": "EV061_11"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H003A",
@@ -2268,6 +2597,10 @@
         "label": "#EV061・うっとり・挿入・眉寄せ・精液たれ",
         "file": "EV061_11"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
@@ -2288,6 +2621,10 @@
         "label": "#EV061・うっとり・挿入・眉寄せ・精液たれ",
         "file": "EV061_11"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
@@ -2306,6 +2643,10 @@
       "bg": {
         "label": "#EV061・うっとり・挿入・眉寄せ・精液たれ",
         "file": "EV061_11"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H003A",
@@ -2333,6 +2674,10 @@
           "file": "se/8351a.ogg"
         }
       ],
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
@@ -2363,6 +2708,10 @@
         "label": "#EV061・アヘ顔・挿入・眉寄せ・精液たれ",
         "file": "EV061_12"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
@@ -2390,6 +2739,10 @@
           "file": "se/8351a.ogg"
         }
       ],
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
@@ -2408,6 +2761,10 @@
       "bg": {
         "label": "#EV061・アヘ顔・挿入・眉寄せ・精液たれ",
         "file": "EV061_12"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H003A",
@@ -2429,6 +2786,10 @@
       "bg": {
         "label": "#EV061・アヘ顔・挿入・眉寄せ・精液たれ",
         "file": "EV061_12"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H003A",
@@ -2456,6 +2817,10 @@
         "label": "#EV061・アヘ顔・挿入・眉寄せ・精液たれ",
         "file": "EV061_12"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
@@ -2482,6 +2847,10 @@
           "file": "se/8351a.ogg"
         }
       ],
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
@@ -2509,6 +2878,10 @@
         "label": "#EV061・アヘ顔・挿入・眉寄せ・精液たれ",
         "file": "EV061_12"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
@@ -2529,6 +2902,10 @@
       "bg": {
         "label": "#EV061・アヘ顔・挿入・眉寄せ・精液たれ",
         "file": "EV061_12"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H003A",
@@ -2553,6 +2930,10 @@
         "label": "#EV061・アヘ顔・挿入・眉寄せ・精液たれ",
         "file": "EV061_12"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
@@ -2573,6 +2954,10 @@
         "label": "#EV061・アヘ顔・挿入・眉寄せ・精液たれ",
         "file": "EV061_12"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
@@ -2592,6 +2977,10 @@
       "bg": {
         "label": "#EV061・アヘ顔・挿入・眉寄せ・精液たれ",
         "file": "EV061_12"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H003A",
@@ -2619,6 +3008,10 @@
           "file": "se/8351a.ogg"
         }
       ],
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
@@ -2641,6 +3034,10 @@
       "bg": {
         "label": "#EV061・アヘ顔・挿入・眉寄せ・精液たれ",
         "file": "EV061_12"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H003A",
@@ -2669,6 +3066,10 @@
           "file": "se/8351a.ogg"
         }
       ],
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
@@ -2696,6 +3097,10 @@
           "file": "se/8201b.ogg"
         }
       ],
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
@@ -2712,6 +3117,10 @@
       "bg": {
         "label": "#EV061・アヘ顔・挿入・眉寄せ・精液たれ2",
         "file": "EV061_13"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H003A",
@@ -2734,6 +3143,10 @@
         "label": "#EV061・アヘ顔・挿入・眉寄せ・精液たれ2",
         "file": "EV061_13"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
@@ -2752,6 +3165,10 @@
       "bg": {
         "label": "#EV061・アヘ顔・挿入・眉寄せ・精液たれ2",
         "file": "EV061_13"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H003A",
@@ -2779,6 +3196,10 @@
           "file": "se/8351a.ogg"
         }
       ],
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
@@ -2807,6 +3228,10 @@
           "file": "se/8201b.ogg"
         }
       ],
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
@@ -2834,6 +3259,10 @@
           "file": "se/8201b.ogg"
         }
       ],
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
@@ -2856,6 +3285,10 @@
       "bg": {
         "label": "#EV061・アヘ顔・挿入・眉寄せ・精液たれ2",
         "file": "EV061_13"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H003A",
@@ -2884,6 +3317,10 @@
           "file": "se/8351a.ogg"
         }
       ],
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
@@ -2902,6 +3339,10 @@
       "bg": {
         "label": "#EV061・アヘ顔・挿入・眉寄せ・精液たれ2",
         "file": "EV061_13"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H003A",
@@ -2930,6 +3371,10 @@
           "file": "se/8201b.ogg"
         }
       ],
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
@@ -2952,6 +3397,10 @@
       "bg": {
         "label": "#EV061・アヘ顔・挿入・眉寄せ・精液たれ2",
         "file": "EV061_13"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H003A",
@@ -2980,6 +3429,10 @@
           "file": "se/8351a.ogg"
         }
       ],
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
@@ -3003,6 +3456,10 @@
         "label": "#EV061・アヘ顔・挿入・眉寄せ・精液たれ2",
         "file": "EV061_13"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
@@ -3024,6 +3481,10 @@
         "label": "#EV061・うっとり・挿入・ほっこり・精液たれ2",
         "file": "EV061_14"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
@@ -3044,6 +3505,10 @@
         "label": "#EV061・うっとり・挿入・ほっこり・精液たれ2",
         "file": "EV061_14"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
@@ -3059,6 +3524,10 @@
       "bg": {
         "label": "#背景・黒一色",
         "file": "BG_BLACK"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H003A",
@@ -3099,6 +3568,10 @@
           ]
         }
       ],
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
@@ -3135,6 +3608,10 @@
           ]
         }
       ],
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
@@ -3174,6 +3651,10 @@
           ]
         }
       ],
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
@@ -3211,6 +3692,10 @@
           ]
         }
       ],
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
@@ -3251,6 +3736,10 @@
           ]
         }
       ],
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
@@ -3290,6 +3779,10 @@
           ]
         }
       ],
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
@@ -3334,6 +3827,10 @@
           ]
         }
       ],
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
@@ -3358,6 +3855,10 @@
       "bg": {
         "label": "#背景・黒一色",
         "file": "BG_BLACK"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H003A",

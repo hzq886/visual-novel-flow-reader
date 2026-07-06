@@ -577,7 +577,16 @@
       "pages": [
         [
           "綾姉は腰を振って、抽送を求めて来る。"
-        ],
+        ]
+      ],
+      "bg": {
+        "label": "#EV082・目閉じ喘ぎ・あり",
+        "file": "EV082_03"
+      }
+    },
+    {
+      "kind": "narration",
+      "pages": [
         [
           "僕はそれに頷き返し、まずは小刻みに出し入れさせて",
           "浅いところを擦っていった。"
@@ -586,6 +595,10 @@
       "bg": {
         "label": "#EV082・目閉じ喘ぎ・あり",
         "file": "EV082_03"
+      },
+      "lpse": {
+        "code": "8101A",
+        "file": "se/8101a.ogg"
       }
     },
     {
@@ -601,6 +614,10 @@
       "bg": {
         "label": "#EV082・うっとり蕩け・あり・挿入途中",
         "file": "EV082_04"
+      },
+      "lpse": {
+        "code": "8101A",
+        "file": "se/8101a.ogg"
       },
       "bgv": {
         "id": "BGV_AYAN_H002A",
@@ -622,6 +639,10 @@
         "label": "#EV082・うっとり蕩け・あり・挿入途中",
         "file": "EV082_04"
       },
+      "lpse": {
+        "code": "8101A",
+        "file": "se/8101a.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_H002A",
         "file": "voice/BGV_ayan_h002a.ogg"
@@ -641,6 +662,10 @@
       "bg": {
         "label": "#EV082・うっとり蕩け・あり・挿入途中",
         "file": "EV082_04"
+      },
+      "lpse": {
+        "code": "8101A",
+        "file": "se/8101a.ogg"
       },
       "bgv": {
         "id": "BGV_AYAN_H002A",
@@ -666,6 +691,10 @@
         "label": "#EV082・うっとり蕩け・あり・挿入途中",
         "file": "EV082_04"
       },
+      "lpse": {
+        "code": "8101A",
+        "file": "se/8101a.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_H002A",
         "file": "voice/BGV_ayan_h002a.ogg"
@@ -685,6 +714,10 @@
       "bg": {
         "label": "#EV082・うっとり蕩け・あり・挿入途中",
         "file": "EV082_04"
+      },
+      "lpse": {
+        "code": "8101A",
+        "file": "se/8101a.ogg"
       },
       "bgv": {
         "id": "BGV_AYAN_H002A",
@@ -707,6 +740,10 @@
         "label": "#EV082・うっとり蕩け・あり・挿入途中",
         "file": "EV082_04"
       },
+      "lpse": {
+        "code": "8101A",
+        "file": "se/8101a.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_H002A",
         "file": "voice/BGV_ayan_h002a.ogg"
@@ -726,6 +763,10 @@
       "bg": {
         "label": "#EV082・うっとり蕩け・あり・挿入途中",
         "file": "EV082_04"
+      },
+      "lpse": {
+        "code": "8101A",
+        "file": "se/8101a.ogg"
       },
       "bgv": {
         "id": "BGV_AYAN_H002A",
@@ -751,6 +792,10 @@
         "label": "#EV082・うっとり蕩け・あり・挿入途中",
         "file": "EV082_04"
       },
+      "lpse": {
+        "code": "8101A",
+        "file": "se/8101a.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_H002A",
         "file": "voice/BGV_ayan_h002a.ogg"
@@ -770,6 +815,10 @@
       "bg": {
         "label": "#EV082・うっとり蕩け・あり・挿入途中",
         "file": "EV082_04"
+      },
+      "lpse": {
+        "code": "8101A",
+        "file": "se/8101a.ogg"
       },
       "bgv": {
         "id": "BGV_AYAN_H002A",
@@ -791,6 +840,10 @@
         "label": "#EV082・うっとり蕩け・あり・挿入途中",
         "file": "EV082_04"
       },
+      "lpse": {
+        "code": "8101A",
+        "file": "se/8101a.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_H002A",
         "file": "voice/BGV_ayan_h002a.ogg"
@@ -811,6 +864,10 @@
         "label": "#EV082・うっとり蕩け・あり・挿入途中",
         "file": "EV082_04"
       },
+      "lpse": {
+        "code": "8101A",
+        "file": "se/8101a.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_H002A",
         "file": "voice/BGV_ayan_h002a.ogg"
@@ -825,7 +882,24 @@
         [
           "膣内の締め付けてくる感触からも、絶頂が近いことが",
           "僕にも分かった。"
-        ],
+        ]
+      ],
+      "bg": {
+        "label": "#EV082・うっとり蕩け・あり・挿入途中",
+        "file": "EV082_04"
+      },
+      "lpse": {
+        "code": "8101A",
+        "file": "se/8101a.ogg"
+      },
+      "bgv": {
+        "id": "BGV_AYAN_H002A",
+        "file": "voice/BGV_ayan_h002a.ogg"
+      }
+    },
+    {
+      "kind": "narration",
+      "pages": [
         [
           "そのまま絶頂へと追い込むように、力強く小刻みに",
           "腰を動かし続ける。"
@@ -838,6 +912,10 @@
       "bg": {
         "label": "#EV082・うっとり蕩け・あり・挿入途中",
         "file": "EV082_04"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_AYAN_H002A",
@@ -865,6 +943,10 @@
           "file": "se/8361b.ogg"
         }
       ],
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_H002A",
         "file": "voice/BGV_ayan_h002a.ogg"
@@ -891,6 +973,10 @@
         "label": "#EV082・目閉じ喘ぎ・あり・挿入途中・潮吹き",
         "file": "EV082_05"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_H002A",
         "file": "voice/BGV_ayan_h002a.ogg"
@@ -910,6 +996,10 @@
       "bg": {
         "label": "#EV082・目閉じ喘ぎ・あり・挿入途中・潮吹き",
         "file": "EV082_05"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_AYAN_H002A",
@@ -938,6 +1028,10 @@
           "file": "se/8001b.ogg"
         }
       ],
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_H002A",
         "file": "voice/BGV_ayan_h002a.ogg"
@@ -956,6 +1050,10 @@
       "bg": {
         "label": "#EV082・軽くアヘ・あり・奥まで挿入・愛液",
         "file": "EV082_06"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_AYAN_H003A",
@@ -977,6 +1075,10 @@
         "label": "#EV082・軽くアヘ・あり・奥まで挿入・愛液",
         "file": "EV082_06"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_H003A",
         "file": "voice/BGV_ayan_h003a.ogg"
@@ -996,6 +1098,10 @@
       "bg": {
         "label": "#EV082・軽くアヘ・あり・奥まで挿入・愛液",
         "file": "EV082_06"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_AYAN_H003A",
@@ -1017,6 +1123,10 @@
         "label": "#EV082・軽くアヘ・あり・奥まで挿入・愛液",
         "file": "EV082_06"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_H003A",
         "file": "voice/BGV_ayan_h003a.ogg"
@@ -1031,6 +1141,10 @@
       "bg": {
         "label": "#EV082・軽くアヘ・あり・奥まで挿入・愛液",
         "file": "EV082_06"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_AYAN_H003A",
@@ -1048,6 +1162,10 @@
       "bg": {
         "label": "#EV082・軽くアヘ・あり・奥まで挿入・愛液",
         "file": "EV082_06"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_AYAN_H003A",
@@ -1068,6 +1186,10 @@
       "bg": {
         "label": "#EV082・軽くアヘ・あり・奥まで挿入・愛液",
         "file": "EV082_06"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_AYAN_H003A",
@@ -1090,6 +1212,10 @@
         "label": "#EV082・軽くアヘ・あり・奥まで挿入・愛液",
         "file": "EV082_06"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_H003A",
         "file": "voice/BGV_ayan_h003a.ogg"
@@ -1110,6 +1236,10 @@
         "label": "#EV082・軽くアヘ・あり・奥まで挿入・愛液",
         "file": "EV082_06"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_H003A",
         "file": "voice/BGV_ayan_h003a.ogg"
@@ -1129,6 +1259,10 @@
         "label": "#EV082・軽くアヘ・あり・奥まで挿入・愛液",
         "file": "EV082_06"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_H003A",
         "file": "voice/BGV_ayan_h003a.ogg"
@@ -1143,6 +1277,10 @@
       "bg": {
         "label": "#EV082・軽くアヘ・あり・奥まで挿入・愛液",
         "file": "EV082_06"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_AYAN_H003A",
@@ -1163,6 +1301,10 @@
       "bg": {
         "label": "#EV082・軽くアヘ・あり・奥まで挿入・愛液",
         "file": "EV082_06"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_AYAN_H003A",
@@ -1188,6 +1330,10 @@
         "label": "#EV082・軽くアヘ・あり・奥まで挿入・愛液",
         "file": "EV082_06"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_H003A",
         "file": "voice/BGV_ayan_h003a.ogg"
@@ -1207,6 +1353,10 @@
       "bg": {
         "label": "#EV082・軽くアヘ・あり・奥まで挿入・愛液",
         "file": "EV082_06"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_AYAN_H003A",
@@ -1231,6 +1381,10 @@
         "label": "#EV082・軽くアヘ・あり・奥まで挿入・愛液",
         "file": "EV082_06"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_H003A",
         "file": "voice/BGV_ayan_h003a.ogg"
@@ -1249,6 +1403,10 @@
       "bg": {
         "label": "#EV082・軽くアヘ・あり・奥まで挿入・愛液",
         "file": "EV082_06"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_AYAN_H003A",
@@ -1273,6 +1431,10 @@
         "label": "#EV082・軽くアヘ・あり・奥まで挿入・愛液",
         "file": "EV082_06"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_H003A",
         "file": "voice/BGV_ayan_h003a.ogg"
@@ -1292,6 +1454,10 @@
       "bg": {
         "label": "#EV082・軽くアヘ・あり・奥まで挿入・愛液",
         "file": "EV082_06"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_AYAN_H003A",
@@ -1317,6 +1483,10 @@
         "label": "#EV082・軽くアヘ・あり・奥まで挿入・愛液",
         "file": "EV082_06"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_H003A",
         "file": "voice/BGV_ayan_h003a.ogg"
@@ -1336,6 +1506,10 @@
       "bg": {
         "label": "#EV082・軽くアヘ・あり・奥まで挿入・愛液",
         "file": "EV082_06"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_AYAN_H003A",
@@ -1357,6 +1531,10 @@
         "label": "#EV082・軽くアヘ・あり・奥まで挿入・愛液",
         "file": "EV082_06"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_H003A",
         "file": "voice/BGV_ayan_h003a.ogg"
@@ -1375,6 +1553,10 @@
       "bg": {
         "label": "#EV082・軽くアヘ・あり・奥まで挿入・愛液",
         "file": "EV082_06"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_AYAN_H003A",
@@ -1399,6 +1581,10 @@
         "label": "#EV082・軽くアヘ・あり・奥まで挿入・愛液",
         "file": "EV082_06"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_H003A",
         "file": "voice/BGV_ayan_h003a.ogg"
@@ -1419,6 +1605,10 @@
         "label": "#EV082・軽くアヘ・あり・奥まで挿入・愛液",
         "file": "EV082_06"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_H003A",
         "file": "voice/BGV_ayan_h003a.ogg"
@@ -1437,6 +1627,10 @@
       "bg": {
         "label": "#EV082・軽くアヘ・あり・奥まで挿入・愛液",
         "file": "EV082_06"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_AYAN_H003A",
@@ -1457,6 +1651,10 @@
       "bg": {
         "label": "#EV082・軽くアヘ・あり・奥まで挿入・愛液",
         "file": "EV082_06"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_AYAN_H003A",
@@ -1479,6 +1677,10 @@
         "label": "#EV082・軽くアヘ・あり・奥まで挿入・愛液",
         "file": "EV082_06"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_H003A",
         "file": "voice/BGV_ayan_h003a.ogg"
@@ -1499,6 +1701,10 @@
         "label": "#EV082・軽くアヘ・あり・奥まで挿入・愛液",
         "file": "EV082_06"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_H003A",
         "file": "voice/BGV_ayan_h003a.ogg"
@@ -1518,6 +1724,10 @@
         "label": "#EV082・軽くアヘ・あり・奥まで挿入・愛液",
         "file": "EV082_06"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_H003A",
         "file": "voice/BGV_ayan_h003a.ogg"
@@ -1532,6 +1742,10 @@
       "bg": {
         "label": "#EV082・軽くアヘ・あり・奥まで挿入・愛液",
         "file": "EV082_06"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_AYAN_H003A",
@@ -1553,6 +1767,10 @@
         "label": "#EV082・軽くアヘ・あり・奥まで挿入・愛液",
         "file": "EV082_06"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_H003A",
         "file": "voice/BGV_ayan_h003a.ogg"
@@ -1572,6 +1790,10 @@
       "bg": {
         "label": "#EV082・うっとり蕩け2・あり・奥まで挿入・愛液",
         "file": "EV082_07"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_AYAN_H003A",
@@ -1594,6 +1816,10 @@
         "label": "#EV082・うっとり蕩け2・あり・奥まで挿入・愛液",
         "file": "EV082_07"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_H003A",
         "file": "voice/BGV_ayan_h003a.ogg"
@@ -1613,6 +1839,10 @@
       "bg": {
         "label": "#EV082・うっとり蕩け2・あり・奥まで挿入・愛液",
         "file": "EV082_07"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_AYAN_H003A",
@@ -1634,6 +1864,10 @@
         "label": "#EV082・うっとり蕩け2・あり・奥まで挿入・愛液",
         "file": "EV082_07"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_H003A",
         "file": "voice/BGV_ayan_h003a.ogg"
@@ -1648,6 +1882,10 @@
       "bg": {
         "label": "#EV082・うっとり蕩け2・あり・奥まで挿入・愛液",
         "file": "EV082_07"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_AYAN_H003A",
@@ -1669,6 +1907,10 @@
         "label": "#EV082・うっとり蕩け2・あり・奥まで挿入・愛液",
         "file": "EV082_07"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_H003A",
         "file": "voice/BGV_ayan_h003a.ogg"
@@ -1687,6 +1929,10 @@
       "bg": {
         "label": "#EV082・うっとり蕩け2・あり・奥まで挿入・愛液",
         "file": "EV082_07"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_AYAN_H003A",
@@ -1708,6 +1954,10 @@
         "label": "#EV082・うっとり蕩け2・あり・奥まで挿入・愛液",
         "file": "EV082_07"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_H003A",
         "file": "voice/BGV_ayan_h003a.ogg"
@@ -1722,6 +1972,10 @@
       "bg": {
         "label": "#EV082・うっとり蕩け2・あり・奥まで挿入・愛液",
         "file": "EV082_07"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_AYAN_H003A",
@@ -1742,6 +1996,10 @@
       "bg": {
         "label": "#EV082・うっとり蕩け2・あり・奥まで挿入・愛液",
         "file": "EV082_07"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_AYAN_H003A",
@@ -1769,6 +2027,10 @@
           "file": "se/8201b.ogg"
         }
       ],
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_H003A",
         "file": "voice/BGV_ayan_h003a.ogg"
@@ -1784,6 +2046,10 @@
       "bg": {
         "label": "#EV082・軽くアヘ・あり・射精・愛液",
         "file": "EV082_08"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_AYAN_H003A",
@@ -1812,6 +2078,10 @@
           "file": "se/8351a.ogg"
         }
       ],
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_H003A",
         "file": "voice/BGV_ayan_h003a.ogg"
@@ -1831,6 +2101,10 @@
       "bg": {
         "label": "#EV082・軽くアヘ・あり・射精・愛液",
         "file": "EV082_08"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_AYAN_H003A",
@@ -1859,6 +2133,10 @@
           "file": "se/8351a.ogg"
         }
       ],
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_H003A",
         "file": "voice/BGV_ayan_h003a.ogg"
@@ -1887,6 +2165,10 @@
           "file": "se/8201b.ogg"
         }
       ],
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_H003A",
         "file": "voice/BGV_ayan_h003a.ogg"
@@ -1914,6 +2196,10 @@
           "file": "se/8351a.ogg"
         }
       ],
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_H003A",
         "file": "voice/BGV_ayan_h003a.ogg"
@@ -1936,6 +2222,10 @@
         "label": "#EV082・軽くアヘ・あり・射精・愛液",
         "file": "EV082_08"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_H003A",
         "file": "voice/BGV_ayan_h003a.ogg"
@@ -1955,6 +2245,10 @@
       "bg": {
         "label": "#EV082・うっとり蕩け・あり・なし・愛液",
         "file": "EV082_09"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_AYAN_H003A",
@@ -1976,6 +2270,10 @@
         "label": "#EV082・うっとり蕩け・あり・なし・愛液",
         "file": "EV082_09"
       },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
+      },
       "bgv": {
         "id": "BGV_AYAN_H003A",
         "file": "voice/BGV_ayan_h003a.ogg"
@@ -1990,6 +2288,10 @@
       "bg": {
         "label": "#EV082・うっとり蕩け・あり・なし・愛液",
         "file": "EV082_09"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_AYAN_H003A",
@@ -2009,6 +2311,10 @@
       "bg": {
         "label": "#EV082・うっとり蕩け・あり・なし・愛液",
         "file": "EV082_09"
+      },
+      "lpse": {
+        "code": "8101C",
+        "file": "se/8101c.ogg"
       },
       "bgv": {
         "id": "BGV_AYAN_H003A",

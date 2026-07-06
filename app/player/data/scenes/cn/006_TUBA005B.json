@@ -472,7 +472,20 @@
         ],
         [
           "只要这么湿润，应该没问题了。"
-        ],
+        ]
+      ],
+      "bg": {
+        "label": "#EV036・眉しかめ・通常・宛がい・愛液",
+        "file": "EV036_01"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
+      }
+    },
+    {
+      "kind": "narration",
+      "pages": [
         [
           "我就这样开始动起腰来。"
         ]
@@ -480,6 +493,10 @@
       "bg": {
         "label": "#EV036・眉しかめ・通常・宛がい・愛液",
         "file": "EV036_01"
+      },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H001A",
@@ -499,6 +516,10 @@
       "bg": {
         "label": "#EV036・眉しかめ・通常・宛がい・愛液",
         "file": "EV036_01"
+      },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H001A",
@@ -525,6 +546,10 @@
         "label": "#EV036・眉しかめ・通常・宛がい・愛液",
         "file": "EV036_01"
       },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H001A",
         "file": "voice/BGV_tuba_h001a.ogg"
@@ -543,6 +568,10 @@
       "bg": {
         "label": "#EV036・眉しかめ・通常・宛がい・愛液",
         "file": "EV036_01"
+      },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H001A",
@@ -567,6 +596,10 @@
         "label": "#EV036・眉しかめ・通常・宛がい・愛液",
         "file": "EV036_01"
       },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H001A",
         "file": "voice/BGV_tuba_h001a.ogg"
@@ -585,6 +618,10 @@
       "bg": {
         "label": "#EV036・眉しかめ・通常・宛がい・愛液",
         "file": "EV036_01"
+      },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H001A",
@@ -612,6 +649,10 @@
         "label": "#EV036・眉しかめ・通常・宛がい・愛液",
         "file": "EV036_01"
       },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H001A",
         "file": "voice/BGV_tuba_h001a.ogg"
@@ -630,6 +671,10 @@
       "bg": {
         "label": "#EV036・眉しかめ・通常・宛がい・愛液",
         "file": "EV036_01"
+      },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H001A",
@@ -660,6 +705,10 @@
         "label": "#EV036・眉しかめ・通常・宛がい・愛液",
         "file": "EV036_01"
       },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H001A",
         "file": "voice/BGV_tuba_h001a.ogg"
@@ -678,6 +727,10 @@
       "bg": {
         "label": "#EV036・眉しかめ・通常・宛がい・愛液",
         "file": "EV036_01"
+      },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H001A",
@@ -701,6 +754,10 @@
         "label": "#EV036・眉しかめ・通常・宛がい・愛液",
         "file": "EV036_01"
       },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H001A",
         "file": "voice/BGV_tuba_h001a.ogg"
@@ -719,6 +776,10 @@
       "bg": {
         "label": "#EV036・通常・通常・宛がい・愛液",
         "file": "EV036_02"
+      },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H001A",
@@ -746,6 +807,10 @@
         "label": "#EV036・通常・通常・宛がい・愛液",
         "file": "EV036_02"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H001A",
         "file": "voice/BGV_tuba_h001a.ogg"
@@ -764,6 +829,10 @@
       "bg": {
         "label": "#EV036・通常・通常・宛がい・愛液",
         "file": "EV036_02"
+      },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H001A",
@@ -785,6 +854,10 @@
         "label": "#EV036・通常・通常・宛がい・愛液",
         "file": "EV036_02"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H001A",
         "file": "voice/BGV_tuba_h001a.ogg"
@@ -803,6 +876,10 @@
       "bg": {
         "label": "#EV036・目閉じ悶絶2・通常・宛がい・愛液",
         "file": "EV036_03"
+      },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H001A",
@@ -827,6 +904,10 @@
         "label": "#EV036・目閉じ悶絶2・通常・宛がい・愛液",
         "file": "EV036_03"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H001A",
         "file": "voice/BGV_tuba_h001a.ogg"
@@ -845,6 +926,10 @@
       "bg": {
         "label": "#EV036・目閉じ悶絶2・通常・宛がい・愛液",
         "file": "EV036_03"
+      },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H001A",
@@ -870,6 +955,10 @@
         "label": "#EV036・目閉じ悶絶2・通常・宛がい・愛液",
         "file": "EV036_03"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H001A",
         "file": "voice/BGV_tuba_h001a.ogg"
@@ -890,6 +979,10 @@
         "label": "#EV036・目閉じ悶絶2・通常・宛がい・愛液",
         "file": "EV036_03"
       },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H001A",
         "file": "voice/BGV_tuba_h001a.ogg"
@@ -908,7 +1001,24 @@
         ],
         [
           "我决定稍微改变动作。"
-        ],
+        ]
+      ],
+      "bg": {
+        "label": "#EV036・目閉じ悶絶2・通常・宛がい・愛液",
+        "file": "EV036_03"
+      },
+      "lpse": {
+        "code": "8311B",
+        "file": "se/8311b.ogg"
+      },
+      "bgv": {
+        "id": "BGV_TUBA_H001A",
+        "file": "voice/BGV_tuba_h001a.ogg"
+      }
+    },
+    {
+      "kind": "narration",
+      "pages": [
         [
           "我决定让阴唇分开来擦拭。"
         ],
@@ -922,6 +1032,10 @@
       "bg": {
         "label": "#EV036・目閉じ悶絶2・通常・宛がい・愛液",
         "file": "EV036_03"
+      },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H001A",
@@ -942,6 +1056,10 @@
         "label": "#EV036・目閉じ悶絶2・通常・宛がい・愛液",
         "file": "EV036_03"
       },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H001A",
         "file": "voice/BGV_tuba_h001a.ogg"
@@ -960,6 +1078,10 @@
       "bg": {
         "label": "#EV036・目閉じ悶絶2・通常・宛がい・愛液",
         "file": "EV036_03"
+      },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H001A",
@@ -981,6 +1103,10 @@
         "label": "#EV036・目閉じ悶絶2・通常・宛がい・愛液",
         "file": "EV036_03"
       },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H001A",
         "file": "voice/BGV_tuba_h001a.ogg"
@@ -1000,6 +1126,10 @@
         "label": "#EV036・目閉じ悶絶2・通常・宛がい・愛液",
         "file": "EV036_03"
       },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H001A",
         "file": "voice/BGV_tuba_h001a.ogg"
@@ -1014,6 +1144,10 @@
       "bg": {
         "label": "#EV036・目閉じ悶絶2・通常・宛がい・愛液",
         "file": "EV036_03"
+      },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H001A",
@@ -1030,6 +1164,10 @@
       "bg": {
         "label": "#EV036・目閉じ悶絶2・通常・宛がい・愛液",
         "file": "EV036_03"
+      },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H001A",
@@ -1049,6 +1187,10 @@
       "bg": {
         "label": "#EV036・目閉じ悶絶2・通常・宛がい・愛液",
         "file": "EV036_03"
+      },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H001A",
@@ -1076,6 +1218,10 @@
         "label": "#EV036・目閉じ悶絶2・通常・宛がい・愛液",
         "file": "EV036_03"
       },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H001A",
         "file": "voice/BGV_tuba_h001a.ogg"
@@ -1094,6 +1240,10 @@
       "bg": {
         "label": "#EV036・眉しかめ・通常・宛がい・愛液",
         "file": "EV036_01"
+      },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H001A",
@@ -1121,6 +1271,10 @@
         "label": "#EV036・眉しかめ・通常・宛がい・愛液",
         "file": "EV036_01"
       },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H001A",
         "file": "voice/BGV_tuba_h001a.ogg"
@@ -1140,6 +1294,10 @@
       "bg": {
         "label": "#EV036・眉しかめ・通常・宛がい・愛液",
         "file": "EV036_01"
+      },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H001A",
@@ -1167,6 +1325,10 @@
         "label": "#EV036・眉しかめ・通常・宛がい・愛液",
         "file": "EV036_01"
       },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H001A",
         "file": "voice/BGV_tuba_h001a.ogg"
@@ -1186,6 +1348,10 @@
       "bg": {
         "label": "#EV036・眉しかめ・通常・宛がい・愛液",
         "file": "EV036_01"
+      },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H001A",
@@ -1210,6 +1376,10 @@
         "label": "#EV036・眉しかめ・通常・宛がい・愛液",
         "file": "EV036_01"
       },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H001A",
         "file": "voice/BGV_tuba_h001a.ogg"
@@ -1228,6 +1398,10 @@
       "bg": {
         "label": "#EV036・眉しかめ・通常・宛がい・愛液",
         "file": "EV036_01"
+      },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H001A",
@@ -1248,6 +1422,10 @@
         "label": "#EV036・眉しかめ・通常・宛がい・愛液",
         "file": "EV036_01"
       },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H001A",
         "file": "voice/BGV_tuba_h001a.ogg"
@@ -1267,6 +1445,10 @@
       "bg": {
         "label": "#EV036・眉しかめ・通常・宛がい・愛液",
         "file": "EV036_01"
+      },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H001A",
@@ -1291,6 +1473,10 @@
         "label": "#EV036・眉しかめ・通常・宛がい・愛液",
         "file": "EV036_01"
       },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H001A",
         "file": "voice/BGV_tuba_h001a.ogg"
@@ -1310,6 +1496,10 @@
       "bg": {
         "label": "#EV036・目閉じ悶絶2・通常・宛がい・愛液",
         "file": "EV036_03"
+      },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H001A",
@@ -1331,6 +1521,10 @@
         "label": "#EV036・目閉じ悶絶2・通常・宛がい・愛液",
         "file": "EV036_03"
       },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H001A",
         "file": "voice/BGV_tuba_h001a.ogg"
@@ -1349,6 +1543,10 @@
       "bg": {
         "label": "#EV036・目閉じ悶絶2・通常・宛がい・愛液",
         "file": "EV036_03"
+      },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H001A",
@@ -1383,6 +1581,10 @@
         "label": "#EV036・目閉じ悶絶2・通常・宛がい・愛液",
         "file": "EV036_03"
       },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H001A",
         "file": "voice/BGV_tuba_h001a.ogg"
@@ -1397,6 +1599,10 @@
       "bg": {
         "label": "#EV036・目閉じ悶絶2・通常・宛がい・愛液",
         "file": "EV036_03"
+      },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H001A",
@@ -1418,6 +1624,10 @@
         "label": "#EV036・眉しかめ・見つめ・宛がい・愛液",
         "file": "EV036_04"
       },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H001A",
         "file": "voice/BGV_tuba_h001a.ogg"
@@ -1434,6 +1644,10 @@
         "label": "#EV036・眉しかめ・見つめ・宛がい・愛液",
         "file": "EV036_04"
       },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H001A",
         "file": "voice/BGV_tuba_h001a.ogg"
@@ -1448,6 +1662,10 @@
       "bg": {
         "label": "#EV036・眉しかめ・見つめ・宛がい・愛液",
         "file": "EV036_04"
+      },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H001A",
@@ -1468,6 +1686,10 @@
         "label": "#EV036・眉しかめ・見つめ・宛がい・愛液",
         "file": "EV036_04"
       },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H001A",
         "file": "voice/BGV_tuba_h001a.ogg"
@@ -1487,6 +1709,10 @@
       "bg": {
         "label": "#EV036・うっとり・見つめ・宛がい・愛液",
         "file": "EV036_05"
+      },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H001A",
@@ -1514,6 +1740,10 @@
         "label": "#EV036・うっとり・見つめ・宛がい・愛液",
         "file": "EV036_05"
       },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H001A",
         "file": "voice/BGV_tuba_h001a.ogg"
@@ -1534,6 +1764,10 @@
         "label": "#EV036・うっとり・見つめ・宛がい・愛液",
         "file": "EV036_05"
       },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
+      },
       "bgv": {
         "id": "BGV_TUBA_H001A",
         "file": "voice/BGV_tuba_h001a.ogg"
@@ -1548,6 +1782,10 @@
       "bg": {
         "label": "#EV036・うっとり・見つめ・宛がい・愛液",
         "file": "EV036_05"
+      },
+      "lpse": {
+        "code": "8331B",
+        "file": "se/8331b.ogg"
       },
       "bgv": {
         "id": "BGV_TUBA_H001A",

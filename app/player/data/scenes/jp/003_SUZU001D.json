@@ -255,6 +255,10 @@
       "bg": {
         "label": "#EV019・少し微笑み・クリつまみ・真面目顔・モノシゴき",
         "file": "EV019_03"
+      },
+      "lpse": {
+        "code": "8131A",
+        "file": "se/8131a.ogg"
       }
     },
     {
@@ -270,6 +274,10 @@
       "bg": {
         "label": "#EV019・少し微笑み・クリつまみ・真面目顔・モノシゴき",
         "file": "EV019_03"
+      },
+      "lpse": {
+        "code": "8131A",
+        "file": "se/8131a.ogg"
       }
     },
     {
@@ -286,6 +294,10 @@
       "bg": {
         "label": "#EV019・少し微笑み・クリつまみ・真面目顔・モノシゴき",
         "file": "EV019_03"
+      },
+      "lpse": {
+        "code": "8131A",
+        "file": "se/8131a.ogg"
       }
     },
     {
@@ -297,6 +309,10 @@
       "bg": {
         "label": "#EV019・少し微笑み・クリつまみ・真面目顔・モノシゴき",
         "file": "EV019_03"
+      },
+      "lpse": {
+        "code": "8131A",
+        "file": "se/8131a.ogg"
       }
     },
     {
@@ -309,6 +325,10 @@
       "bg": {
         "label": "#EV019・少し微笑み・クリつまみ・真面目顔・モノシゴき",
         "file": "EV019_03"
+      },
+      "lpse": {
+        "code": "8131A",
+        "file": "se/8131a.ogg"
       }
     },
     {
@@ -325,6 +345,10 @@
       "bg": {
         "label": "#EV019・少し微笑み・クリつまみ・真面目顔・モノシゴき",
         "file": "EV019_03"
+      },
+      "lpse": {
+        "code": "8131A",
+        "file": "se/8131a.ogg"
       }
     },
     {
@@ -338,6 +362,10 @@
       "bg": {
         "label": "#EV019・少し微笑み・クリつまみ・真面目顔・モノシゴき",
         "file": "EV019_03"
+      },
+      "lpse": {
+        "code": "8131A",
+        "file": "se/8131a.ogg"
       }
     },
     {
@@ -354,6 +382,10 @@
       "bg": {
         "label": "#EV019・少し微笑み・クリつまみ・真面目顔・モノシゴき",
         "file": "EV019_03"
+      },
+      "lpse": {
+        "code": "8131A",
+        "file": "se/8131a.ogg"
       }
     },
     {
@@ -369,6 +401,10 @@
       "bg": {
         "label": "#EV019・少し微笑み・クリつまみ・真面目顔・モノシゴき",
         "file": "EV019_03"
+      },
+      "lpse": {
+        "code": "8131A",
+        "file": "se/8131a.ogg"
       }
     },
     {
@@ -385,6 +421,10 @@
       "bg": {
         "label": "#EV019・少し微笑み・クリつまみ・真面目顔・モノシゴき",
         "file": "EV019_03"
+      },
+      "lpse": {
+        "code": "8131A",
+        "file": "se/8131a.ogg"
       }
     },
     {
@@ -396,6 +436,10 @@
       "bg": {
         "label": "#EV019・少し微笑み・クリつまみ・真面目顔・モノシゴき",
         "file": "EV019_03"
+      },
+      "lpse": {
+        "code": "8131A",
+        "file": "se/8131a.ogg"
       }
     },
     {
@@ -416,6 +460,10 @@
       "bg": {
         "label": "#EV019・少し微笑み・クリつまみ・真面目顔・モノシゴき",
         "file": "EV019_03"
+      },
+      "lpse": {
+        "code": "8131A",
+        "file": "se/8131a.ogg"
       }
     },
     {
@@ -432,6 +480,10 @@
       "bg": {
         "label": "#EV019・少し微笑み・クリつまみ・真面目顔・モノシゴき",
         "file": "EV019_03"
+      },
+      "lpse": {
+        "code": "8131A",
+        "file": "se/8131a.ogg"
       }
     },
     {
@@ -452,6 +504,10 @@
       "bg": {
         "label": "#EV019・少し微笑み・クリつまみ・真面目顔・モノシゴき",
         "file": "EV019_03"
+      },
+      "lpse": {
+        "code": "8131A",
+        "file": "se/8131a.ogg"
       }
     },
     {
@@ -467,6 +523,10 @@
       "bg": {
         "label": "#EV019・少し微笑み・クリつまみ・真面目顔・モノシゴき",
         "file": "EV019_03"
+      },
+      "lpse": {
+        "code": "8131A",
+        "file": "se/8131a.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H001A",
@@ -502,6 +562,10 @@
         "label": "#EV019・少し微笑み・クリつまみ・真面目顔・モノシゴき",
         "file": "EV019_03"
       },
+      "lpse": {
+        "code": "8131A",
+        "file": "se/8131a.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H001A",
         "file": "voice/BGV_suzu_h001a.ogg"
@@ -516,6 +580,10 @@
       "bg": {
         "label": "#EV019・少し微笑み・クリつまみ・真面目顔・モノシゴき",
         "file": "EV019_03"
+      },
+      "lpse": {
+        "code": "8131A",
+        "file": "se/8131a.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H001A",
@@ -532,6 +600,10 @@
       "bg": {
         "label": "#EV019・少し微笑み・クリつまみ・真面目顔・モノシゴき",
         "file": "EV019_03"
+      },
+      "lpse": {
+        "code": "8131A",
+        "file": "se/8131a.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H001A",
@@ -553,6 +625,10 @@
         "label": "#EV019・少し微笑み・クリつまみ・真面目顔・モノシゴき",
         "file": "EV019_03"
       },
+      "lpse": {
+        "code": "8131A",
+        "file": "se/8131a.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H001A",
         "file": "voice/BGV_suzu_h001a.ogg"
@@ -571,6 +647,10 @@
       "bg": {
         "label": "#EV019・少し微笑み・クリつまみ・真面目顔・モノシゴき",
         "file": "EV019_03"
+      },
+      "lpse": {
+        "code": "8131A",
+        "file": "se/8131a.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H001A",
@@ -591,6 +671,10 @@
       "bg": {
         "label": "#EV019・少し微笑み・クリつまみ・真面目顔・モノシゴき",
         "file": "EV019_03"
+      },
+      "lpse": {
+        "code": "8131A",
+        "file": "se/8131a.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H001A",
@@ -618,6 +702,10 @@
         "label": "#EV019・少し微笑み・クリつまみ・真面目顔・モノシゴき",
         "file": "EV019_03"
       },
+      "lpse": {
+        "code": "8131A",
+        "file": "se/8131a.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H001A",
         "file": "voice/BGV_suzu_h001a.ogg"
@@ -637,6 +725,10 @@
       "bg": {
         "label": "#EV019・少し微笑み・クリつまみ・真面目顔・モノシゴき",
         "file": "EV019_03"
+      },
+      "lpse": {
+        "code": "8131A",
+        "file": "se/8131a.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H001A",
@@ -671,6 +763,10 @@
         "label": "#EV019・少し微笑み・クリつまみ・真面目顔・モノシゴき",
         "file": "EV019_03"
       },
+      "lpse": {
+        "code": "8131A",
+        "file": "se/8131a.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H001A",
         "file": "voice/BGV_suzu_h001a.ogg"
@@ -691,6 +787,10 @@
         "label": "#EV019・眉寄せ感じる・クリつまみ・興奮・モノシゴき",
         "file": "EV019_04"
       },
+      "lpse": {
+        "code": "8131A",
+        "file": "se/8131a.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H001A",
         "file": "voice/BGV_suzu_h001a.ogg"
@@ -707,6 +807,10 @@
       "bg": {
         "label": "#EV019・眉寄せ感じる・クリつまみ・興奮・モノシゴき",
         "file": "EV019_04"
+      },
+      "lpse": {
+        "code": "8131A",
+        "file": "se/8131a.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H001A",
@@ -728,6 +832,10 @@
         "label": "#EV019・眉寄せ感じる・クリつまみ・興奮・モノシゴき",
         "file": "EV019_04"
       },
+      "lpse": {
+        "code": "8131A",
+        "file": "se/8131a.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H001A",
         "file": "voice/BGV_suzu_h001a.ogg"
@@ -748,6 +856,10 @@
         "label": "#EV019・眉寄せ感じる・クリつまみ・興奮・モノシゴき",
         "file": "EV019_04"
       },
+      "lpse": {
+        "code": "8131A",
+        "file": "se/8131a.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H001A",
         "file": "voice/BGV_suzu_h001a.ogg"
@@ -762,6 +874,10 @@
       "bg": {
         "label": "#EV019・眉寄せ感じる・クリつまみ・興奮・モノシゴき",
         "file": "EV019_04"
+      },
+      "lpse": {
+        "code": "8131A",
+        "file": "se/8131a.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H001A",
@@ -783,6 +899,10 @@
         "label": "#EV019・眉寄せ感じる・クリつまみ・興奮・モノシゴき",
         "file": "EV019_04"
       },
+      "lpse": {
+        "code": "8131A",
+        "file": "se/8131a.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H001A",
         "file": "voice/BGV_suzu_h001a.ogg"
@@ -802,6 +922,10 @@
       "bg": {
         "label": "#EV019・眉寄せ感じる・クリつまみ・興奮・モノシゴき",
         "file": "EV019_04"
+      },
+      "lpse": {
+        "code": "8131A",
+        "file": "se/8131a.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H001A",
@@ -827,6 +951,10 @@
         "label": "#EV019・眉寄せ感じる・クリつまみ・興奮・モノシゴき",
         "file": "EV019_04"
       },
+      "lpse": {
+        "code": "8131A",
+        "file": "se/8131a.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H001A",
         "file": "voice/BGV_suzu_h001a.ogg"
@@ -847,6 +975,10 @@
         "label": "#EV019・眉寄せ感じる・クリつまみ・興奮・モノシゴき",
         "file": "EV019_04"
       },
+      "lpse": {
+        "code": "8131A",
+        "file": "se/8131a.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H001A",
         "file": "voice/BGV_suzu_h001a.ogg"
@@ -861,6 +993,10 @@
       "bg": {
         "label": "#EV019・眉寄せ感じる・クリつまみ・興奮・モノシゴき",
         "file": "EV019_04"
+      },
+      "lpse": {
+        "code": "8131A",
+        "file": "se/8131a.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H001A",
@@ -885,6 +1021,10 @@
         "label": "#EV019・眉寄せ感じる・クリつまみ・興奮・モノシゴき",
         "file": "EV019_04"
       },
+      "lpse": {
+        "code": "8131A",
+        "file": "se/8131a.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H001A",
         "file": "voice/BGV_suzu_h001a.ogg"
@@ -905,6 +1045,10 @@
         "label": "#EV019・眉寄せ感じる・クリつまみ・興奮・モノシゴき",
         "file": "EV019_04"
       },
+      "lpse": {
+        "code": "8131A",
+        "file": "se/8131a.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H001A",
         "file": "voice/BGV_suzu_h001a.ogg"
@@ -923,6 +1067,10 @@
       "bg": {
         "label": "#EV019・眉寄せ感じる・クリつまみ・興奮・モノシゴき",
         "file": "EV019_04"
+      },
+      "lpse": {
+        "code": "8131A",
+        "file": "se/8131a.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H001A",
@@ -943,6 +1091,10 @@
       "bg": {
         "label": "#EV019・眉寄せ感じる・クリつまみ・興奮・モノシゴき",
         "file": "EV019_04"
+      },
+      "lpse": {
+        "code": "8131A",
+        "file": "se/8131a.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H001A",
@@ -966,6 +1118,10 @@
         "label": "#EV019・眉寄せ感じる・クリつまみ・興奮・モノシゴき",
         "file": "EV019_04"
       },
+      "lpse": {
+        "code": "8131A",
+        "file": "se/8131a.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H001A",
         "file": "voice/BGV_suzu_h001a.ogg"
@@ -985,6 +1141,10 @@
       "bg": {
         "label": "#EV019・眉寄せ感じる・クリつまみ・興奮・モノシゴき",
         "file": "EV019_04"
+      },
+      "lpse": {
+        "code": "8131A",
+        "file": "se/8131a.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H001A",
@@ -1014,6 +1174,10 @@
         "label": "#EV019・眉寄せ感じる・クリつまみ・興奮・モノシゴき",
         "file": "EV019_04"
       },
+      "lpse": {
+        "code": "8131B",
+        "file": "se/8131b.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H001A",
         "file": "voice/BGV_suzu_h001a.ogg"
@@ -1034,6 +1198,10 @@
         "label": "#EV019・眉寄せ感じる・クリつまみ・興奮・モノシゴき",
         "file": "EV019_04"
       },
+      "lpse": {
+        "code": "8131B",
+        "file": "se/8131b.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H001A",
         "file": "voice/BGV_suzu_h001a.ogg"
@@ -1048,6 +1216,10 @@
       "bg": {
         "label": "#EV019・眉寄せ感じる・クリつまみ・興奮・モノシゴき",
         "file": "EV019_04"
+      },
+      "lpse": {
+        "code": "8131B",
+        "file": "se/8131b.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H001A",
@@ -1073,6 +1245,10 @@
         "label": "#EV019・眉寄せ感じる・クリつまみ・興奮・モノシゴき",
         "file": "EV019_04"
       },
+      "lpse": {
+        "code": "8131B",
+        "file": "se/8131b.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H001A",
         "file": "voice/BGV_suzu_h001a.ogg"
@@ -1092,6 +1268,10 @@
       "bg": {
         "label": "#EV019・眉寄せ感じる・クリつまみ・興奮・モノシゴき",
         "file": "EV019_04"
+      },
+      "lpse": {
+        "code": "8131B",
+        "file": "se/8131b.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H001A",
@@ -1116,6 +1296,10 @@
         "label": "#EV019・眉寄せ感じる・クリつまみ・興奮・モノシゴき",
         "file": "EV019_04"
       },
+      "lpse": {
+        "code": "8131B",
+        "file": "se/8131b.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H001A",
         "file": "voice/BGV_suzu_h001a.ogg"
@@ -1135,6 +1319,10 @@
       "bg": {
         "label": "#EV019・目細め切なげ・クリつまみ・興奮・モノシゴき・愛液",
         "file": "EV019_05"
+      },
+      "lpse": {
+        "code": "8131B",
+        "file": "se/8131b.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H001A",
@@ -1156,6 +1344,10 @@
         "label": "#EV019・目細め切なげ・クリつまみ・興奮・モノシゴき・愛液",
         "file": "EV019_05"
       },
+      "lpse": {
+        "code": "8131B",
+        "file": "se/8131b.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H001A",
         "file": "voice/BGV_suzu_h001a.ogg"
@@ -1176,6 +1368,10 @@
         "label": "#EV019・目細め切なげ・クリつまみ・興奮・モノシゴき・愛液",
         "file": "EV019_05"
       },
+      "lpse": {
+        "code": "8131B",
+        "file": "se/8131b.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H001A",
         "file": "voice/BGV_suzu_h001a.ogg"
@@ -1186,7 +1382,24 @@
       "pages": [
         [
           "真っ赤で、ぬらぬらと光る、大きなクリトリス。"
-        ],
+        ]
+      ],
+      "bg": {
+        "label": "#EV019・目細め切なげ・クリつまみ・興奮・モノシゴき・愛液",
+        "file": "EV019_05"
+      },
+      "lpse": {
+        "code": "8131B",
+        "file": "se/8131b.ogg"
+      },
+      "bgv": {
+        "id": "BGV_SUZU_H001A",
+        "file": "voice/BGV_suzu_h001a.ogg"
+      }
+    },
+    {
+      "kind": "narration",
+      "pages": [
         [
           "姉さんは、それを直接摘まんで、シゴきはじめる。"
         ],
@@ -1197,6 +1410,10 @@
       "bg": {
         "label": "#EV019・目細め切なげ・クリつまみ・興奮・モノシゴき・愛液",
         "file": "EV019_05"
+      },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H001A",
@@ -1217,6 +1434,10 @@
       "bg": {
         "label": "#EV019・目細め切なげ・クリつまみ・興奮・モノシゴき・愛液",
         "file": "EV019_05"
+      },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H002A",
@@ -1242,6 +1463,10 @@
         "label": "#EV019・目細め切なげ・クリつまみ・興奮・モノシゴき・愛液",
         "file": "EV019_05"
       },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H002A",
         "file": "voice/BGV_suzu_h002a.ogg"
@@ -1261,6 +1486,10 @@
       "bg": {
         "label": "#EV019・目細め切なげ・クリつまみ・興奮・モノシゴき・愛液",
         "file": "EV019_05"
+      },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H002A",
@@ -1297,6 +1526,10 @@
         "label": "#EV019・目細め切なげ・クリつまみ・興奮・モノシゴき・愛液",
         "file": "EV019_05"
       },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H002A",
         "file": "voice/BGV_suzu_h002a.ogg"
@@ -1316,6 +1549,10 @@
       "bg": {
         "label": "#EV019・目細め切なげ・クリつまみ・興奮・モノシゴき・愛液",
         "file": "EV019_05"
+      },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H002A",
@@ -1341,6 +1578,10 @@
         "label": "#EV019・目細め切なげ・クリつまみ・興奮・モノシゴき・愛液",
         "file": "EV019_05"
       },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H002A",
         "file": "voice/BGV_suzu_h002a.ogg"
@@ -1360,6 +1601,10 @@
       "bg": {
         "label": "#EV019・目細め切なげ・クリつまみ・興奮・モノシゴき・愛液",
         "file": "EV019_05"
+      },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H002A",
@@ -1384,6 +1629,10 @@
         "label": "#EV019・目細め切なげ・クリつまみ・興奮・モノシゴき・愛液",
         "file": "EV019_05"
       },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H002A",
         "file": "voice/BGV_suzu_h002a.ogg"
@@ -1403,6 +1652,10 @@
       "bg": {
         "label": "#EV019・目細め切なげ・クリつまみ・興奮・モノシゴき・愛液",
         "file": "EV019_05"
+      },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H002A",
@@ -1426,6 +1679,10 @@
         "label": "#EV019・目細め切なげ・クリつまみ・興奮・モノシゴき・愛液",
         "file": "EV019_05"
       },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H002A",
         "file": "voice/BGV_suzu_h002a.ogg"
@@ -1445,6 +1702,10 @@
       "bg": {
         "label": "#EV019・目細め切なげ・クリつまみ・興奮・モノシゴき・愛液",
         "file": "EV019_05"
+      },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H002A",
@@ -1466,6 +1727,10 @@
         "label": "#EV019・目細め切なげ・クリつまみ・興奮・モノシゴき・愛液",
         "file": "EV019_05"
       },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H002A",
         "file": "voice/BGV_suzu_h002a.ogg"
@@ -1485,6 +1750,10 @@
       "bg": {
         "label": "#EV019・目細め切なげ・クリつまみ・興奮・モノシゴき・愛液",
         "file": "EV019_05"
+      },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H002A",
@@ -1511,6 +1780,10 @@
         "label": "#EV019・目細め切なげ・クリつまみ・興奮・モノシゴき・愛液",
         "file": "EV019_05"
       },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H002A",
         "file": "voice/BGV_suzu_h002a.ogg"
@@ -1530,6 +1803,10 @@
       "bg": {
         "label": "#EV019・うっとり蕩け・クリつまみ・興奮・モノシゴき・愛液",
         "file": "EV019_07"
+      },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H002A",
@@ -1553,6 +1830,10 @@
         "label": "#EV019・うっとり蕩け・クリつまみ・興奮・モノシゴき・愛液",
         "file": "EV019_07"
       },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H002A",
         "file": "voice/BGV_suzu_h002a.ogg"
@@ -1572,6 +1853,10 @@
       "bg": {
         "label": "#EV019・うっとり蕩け・クリつまみ・興奮・モノシゴき・愛液",
         "file": "EV019_07"
+      },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H002A",
@@ -1596,6 +1881,10 @@
         "label": "#EV019・うっとり蕩け・クリつまみ・興奮・モノシゴき・愛液",
         "file": "EV019_07"
       },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H002A",
         "file": "voice/BGV_suzu_h002a.ogg"
@@ -1610,6 +1899,10 @@
       "bg": {
         "label": "#EV019・うっとり蕩け・クリつまみ・興奮・モノシゴき・愛液",
         "file": "EV019_07"
+      },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H002A",
@@ -1630,6 +1923,10 @@
       "bg": {
         "label": "#EV019・うっとり蕩け・クリつまみ・興奮・モノシゴき・愛液",
         "file": "EV019_07"
+      },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H002A",
@@ -1655,6 +1952,10 @@
         "label": "#EV019・うっとり蕩け・クリつまみ・興奮・モノシゴき・愛液",
         "file": "EV019_07"
       },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H002A",
         "file": "voice/BGV_suzu_h002a.ogg"
@@ -1674,6 +1975,10 @@
       "bg": {
         "label": "#EV019・うっとり蕩け・クリつまみ・興奮・モノシゴき・愛液",
         "file": "EV019_07"
+      },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H002A",
@@ -1700,6 +2005,10 @@
         "label": "#EV019・うっとり蕩け・クリつまみ・興奮・モノシゴき・愛液",
         "file": "EV019_07"
       },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H002A",
         "file": "voice/BGV_suzu_h002a.ogg"
@@ -1714,6 +2023,10 @@
       "bg": {
         "label": "#EV019・うっとり蕩け・クリつまみ・興奮・モノシゴき・愛液",
         "file": "EV019_07"
+      },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H002A",
@@ -1734,6 +2047,10 @@
       "bg": {
         "label": "#EV019・うっとり蕩け・クリつまみ・興奮・モノシゴき・愛液",
         "file": "EV019_07"
+      },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H002A",
@@ -1762,6 +2079,10 @@
         "label": "#EV019・うっとり蕩け・クリつまみ・興奮・モノシゴき・愛液",
         "file": "EV019_07"
       },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H002A",
         "file": "voice/BGV_suzu_h002a.ogg"
@@ -1781,6 +2102,10 @@
       "bg": {
         "label": "#EV019・うっとり蕩け・クリつまみ・興奮・モノシゴき・愛液",
         "file": "EV019_07"
+      },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H003A",
@@ -1802,6 +2127,10 @@
         "label": "#EV019・うっとり蕩け・クリつまみ・興奮・モノシゴき・愛液",
         "file": "EV019_07"
       },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
@@ -1821,6 +2150,10 @@
       "bg": {
         "label": "#EV019・うっとり蕩け・クリつまみ・興奮・モノシゴき・愛液",
         "file": "EV019_07"
+      },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H003A",
@@ -1842,6 +2175,10 @@
       "bg": {
         "label": "#EV019・うっとり蕩け・クリつまみ・興奮・モノシゴき・愛液",
         "file": "EV019_07"
+      },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H003A",
@@ -1869,6 +2206,10 @@
           "file": "se/8351a.ogg"
         }
       ],
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
@@ -1887,6 +2228,10 @@
       "bg": {
         "label": "#EV019・うっとり蕩け・クリつまみ・興奮・モノシゴき・愛液",
         "file": "EV019_07"
+      },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H003A",
@@ -1909,6 +2254,10 @@
         "label": "#EV019・うっとり蕩け・クリつまみ・興奮・モノシゴき・愛液",
         "file": "EV019_07"
       },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
@@ -1928,6 +2277,10 @@
         "label": "#EV019・うっとり蕩け・クリつまみ・興奮・モノシゴき・愛液",
         "file": "EV019_07"
       },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
@@ -1942,6 +2295,10 @@
       "bg": {
         "label": "#EV019・うっとり蕩け・クリつまみ・興奮・モノシゴき・愛液",
         "file": "EV019_07"
+      },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H003A",
@@ -1962,6 +2319,10 @@
       "bg": {
         "label": "#EV019・うっとり蕩け・クリつまみ・興奮・モノシゴき・愛液",
         "file": "EV019_07"
+      },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H003A",
@@ -1993,6 +2354,10 @@
         "label": "#EV019・うっとり蕩け・クリつまみ・興奮・モノシゴき・愛液",
         "file": "EV019_07"
       },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
@@ -2012,6 +2377,10 @@
       "bg": {
         "label": "#EV019・うっとり蕩け・クリつまみ・興奮・モノシゴき・愛液",
         "file": "EV019_07"
+      },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H003A",
@@ -2038,6 +2407,10 @@
         "label": "#EV019・うっとり蕩け・クリつまみ・興奮・モノシゴき・愛液",
         "file": "EV019_07"
       },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
@@ -2058,6 +2431,10 @@
         "label": "#EV019・うっとり蕩け・クリつまみ・興奮・モノシゴき・愛液",
         "file": "EV019_07"
       },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
@@ -2076,6 +2453,10 @@
       "bg": {
         "label": "#EV019・うっとり蕩け・クリつまみ・興奮・モノシゴき・愛液",
         "file": "EV019_07"
+      },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H003A",
@@ -2096,6 +2477,10 @@
       "bg": {
         "label": "#EV019・うっとり蕩け・クリつまみ・興奮・モノシゴき・愛液",
         "file": "EV019_07"
+      },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H003A",
@@ -2126,6 +2511,10 @@
         "label": "#EV019・うっとり蕩け・クリつまみ・興奮・モノシゴき・愛液",
         "file": "EV019_07"
       },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
@@ -2145,6 +2534,10 @@
       "bg": {
         "label": "#EV019・うっとり蕩け・クリつまみ・興奮・モノシゴき・愛液",
         "file": "EV019_07"
+      },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H003A",
@@ -2167,6 +2560,10 @@
       "bg": {
         "label": "#EV019・うっとり蕩け・クリつまみ・興奮・モノシゴき・愛液",
         "file": "EV019_07"
+      },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H003A",
@@ -2194,6 +2591,10 @@
           "file": "se/8351a.ogg"
         }
       ],
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
@@ -2222,6 +2623,10 @@
           "file": "se/8201b.ogg"
         }
       ],
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
@@ -2238,6 +2643,10 @@
       "bg": {
         "label": "#EV019・うっとり蕩け・クリつまみ・興奮・モノシゴき・愛液2・射精",
         "file": "EV019_08"
+      },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H003A",
@@ -2260,6 +2669,10 @@
         "label": "#EV019・うっとり蕩け・クリつまみ・興奮・モノシゴき・愛液2・射精",
         "file": "EV019_08"
       },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
@@ -2281,6 +2694,10 @@
       "bg": {
         "label": "#EV019・うっとり蕩け・クリつまみ・興奮・モノシゴき・愛液2・射精",
         "file": "EV019_08"
+      },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H003A",
@@ -2308,6 +2725,10 @@
           "file": "se/8351a.ogg"
         }
       ],
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
@@ -2331,6 +2752,10 @@
         "label": "#EV019・うっとり蕩け・クリつまみ・興奮・モノシゴき・愛液2・射精",
         "file": "EV019_08"
       },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
@@ -2351,6 +2776,10 @@
       "bg": {
         "label": "#EV019・うっとり蕩け・クリつまみ・興奮・モノシゴき・愛液2・射精",
         "file": "EV019_08"
+      },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H003A",
@@ -2381,6 +2810,10 @@
           "file": "se/8201b.ogg"
         }
       ],
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
@@ -2400,6 +2833,10 @@
       "bg": {
         "label": "#EV019・うっとり蕩け・クリつまみ・興奮・モノシゴき・愛液2・射精",
         "file": "EV019_08"
+      },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H003A",
@@ -2422,6 +2859,10 @@
         "label": "#EV019・うっとり蕩け・クリつまみ・興奮・モノシゴき・愛液2・射精",
         "file": "EV019_08"
       },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
@@ -2442,6 +2883,10 @@
         "label": "#EV019・うっとり蕩け・クリつまみ・興奮・モノシゴき・愛液2・射精",
         "file": "EV019_08"
       },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
+      },
       "bgv": {
         "id": "BGV_SUZU_H003A",
         "file": "voice/BGV_suzu_h003a.ogg"
@@ -2460,6 +2905,10 @@
       "bg": {
         "label": "#EV019・うっとり蕩け・クリつまみ・興奮・モノシゴき・愛液2・射精",
         "file": "EV019_08"
+      },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H003A",
@@ -2485,6 +2934,10 @@
       "bg": {
         "label": "#背景・黒一色",
         "file": "BG_BLACK"
+      },
+      "lpse": {
+        "code": "8131C",
+        "file": "se/8131c.ogg"
       },
       "bgv": {
         "id": "BGV_SUZU_H003A",
