@@ -216,7 +216,7 @@ describe('buildScene — 被せ CG レイヤモデル（EV/黒。HU-63）', () =
     ])
   })
 
-  it('EV → #背景 復帰で下レイヤの立ち絵 sticky が再表示される', () => {
+  it('EV → #背景 復帰は舞台リセット＝立ち絵もクリアされる（HU-80）', () => {
     const s = build([
       ['bg', '#背景・部屋'],
       ['sprite', ['#綾菜・通常']],
@@ -226,7 +226,24 @@ describe('buildScene — 被せ CG レイヤモデル（EV/黒。HU-63）', () =
       ['bg', '#背景・部屋'],
       ['text', 'Ｃ。'],
     ])
-    expect(s.beats.map((b) => spLabels(b))).toEqual([['#綾菜・通常'], null, ['#綾菜・通常']])
+    expect(s.beats.map((b) => spLabels(b))).toEqual([['#綾菜・通常'], null, null])
+  })
+
+  it('被せ CG を立ち絵変更（0x12 増分）で閉じる復帰は保持スロットを基準にする（クリアしない）', () => {
+    const s = build([
+      ['bg', '#背景・部屋'],
+      ['sprite', ['#綾菜・通常', '#涼菜・通常']],
+      ['text', 'Ａ。'],
+      ['bg', '#EV002・回想'],
+      ['text', 'Ｂ。'],
+      ['sprite', [null, '#涼菜・驚き']], // 0x10 を経ない復帰: slot1 のみ変更・slot0 は保持
+      ['text', 'Ｃ。'],
+    ])
+    expect(s.beats.map((b) => spLabels(b))).toEqual([
+      ['#綾菜・通常', '#涼菜・通常'],
+      null,
+      ['#綾菜・通常', '#涼菜・驚き'],
+    ])
   })
 
   it('黒一色（BG_BLACK / #背景・黒一色）は被せ扱い＝立ち絵を隠す', () => {
@@ -242,8 +259,36 @@ describe('buildScene — 被せ CG レイヤモデル（EV/黒。HU-63）', () =
     expect(proj(s).map((p) => ({ bg: p.bg, sprites: p.sprites }))).toEqual([
       { bg: '#背景・部屋', sprites: ['#綾菜・通常'] },
       { bg: '#背景・黒一色', sprites: null },
-      { bg: '#背景・部屋', sprites: ['#綾菜・通常'] },
+      { bg: '#背景・部屋', sprites: null }, // 暗転→復帰も舞台リセット（HU-80）
     ])
+  })
+
+  it('暗転→別背景の場面転換で旧立ち絵が残留しない（HU-80 回帰・001_PRO002E 下校モノローグ）', () => {
+    const s = build([
+      ['bg', '#背景・教室（昼）'],
+      ['sprite', ['#翼・困り１']],
+      ['text', 'Ａ。'],
+      ['bg', 'BG_BLACK'],
+      ['text', '暗転。'],
+      ['bg', '#背景・通学路（昼）'],
+      ['text', '歩きながら、ずっと考えていた。'],
+    ])
+    expect(s.beats.map((b) => ({ bg: b.bg?.label, sprites: spLabels(b) }))).toEqual([
+      { bg: '#背景・教室（昼）', sprites: ['#翼・困り１'] },
+      { bg: '#背景・黒一色', sprites: null },
+      { bg: '#背景・通学路（昼）', sprites: null },
+    ])
+  })
+
+  it('同一ラベル背景の再表示（時間経過フェード）でも立ち絵をクリアする（HU-80・006_TUBA002F）', () => {
+    const s = build([
+      ['bg', '#背景・教室（夕）'],
+      ['sprite', ['#翼・催眠１']],
+      ['text', 'Ａ。'],
+      ['bg', '#背景・教室（夕）'], // 同一ラベルの再表示＝時間経過演出
+      ['text', 'Ｂ。'],
+    ])
+    expect(s.beats.map((b) => spLabels(b))).toEqual([['#翼・催眠１'], null])
   })
 
   it('BG_BLACK の再出現がそれぞれ beat になる（txt デデュープで失われていた再暗転・HU-71）', () => {
