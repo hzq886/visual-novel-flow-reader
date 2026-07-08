@@ -1,0 +1,681 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ソースガイド</title>
+<style>
+  :root {
+    --paper: #F9F8F3;
+    --card: #FFFFFF;
+    --ink: #26221A;
+    --muted: #6E6858;
+    --faint: #8F897B;
+    --line: #E5E1D4;
+    --line-soft: #EEEBE0;
+    --accent: #97781E;
+    --accent-soft: #F3EDDB;
+    --code-bg: #F0EEE4;
+
+    --c-pipeline: #2C7A73;
+    --c-engine: #6B4FA3;
+    --c-audio: #A84E7E;
+    --c-store: #A83A3A;
+    --c-flow: #2F6BB0;
+    --c-scripts: #4E7A2C;
+    --c-electron: #5A6B7E;
+    --c-data: #7A6E52;
+
+    --serif: "Hiragino Mincho ProN", "Yu Mincho", "Noto Serif JP", "BIZ UDMincho", serif;
+    --sans: "Hiragino Kaku Gothic ProN", "Hiragino Sans", "Yu Gothic Medium", "Yu Gothic", "Noto Sans JP", sans-serif;
+    --mono: ui-monospace, "SF Mono", Menlo, Consolas, "Noto Sans Mono", monospace;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --paper: #141310;
+      --card: #1C1A16;
+      --ink: #E9E4D6;
+      --muted: #A29B8B;
+      --faint: #7E786A;
+      --line: #2E2B24;
+      --line-soft: #262420;
+      --accent: #D9B95C;
+      --accent-soft: #2A2517;
+      --code-bg: #232119;
+
+      --c-pipeline: #5FB8AF;
+      --c-engine: #A78FDD;
+      --c-audio: #D98AB4;
+      --c-store: #D97A7A;
+      --c-flow: #7AA9E0;
+      --c-scripts: #93BF66;
+      --c-electron: #93A6BC;
+      --c-data: #B3A67E;
+    }
+  }
+  :root[data-theme="dark"] {
+    --paper: #141310; --card: #1C1A16; --ink: #E9E4D6; --muted: #A29B8B; --faint: #7E786A;
+    --line: #2E2B24; --line-soft: #262420; --accent: #D9B95C; --accent-soft: #2A2517; --code-bg: #232119;
+    --c-pipeline: #5FB8AF; --c-engine: #A78FDD; --c-audio: #D98AB4; --c-store: #D97A7A;
+    --c-flow: #7AA9E0; --c-scripts: #93BF66; --c-electron: #93A6BC; --c-data: #B3A67E;
+  }
+  :root[data-theme="light"] {
+    --paper: #F9F8F3; --card: #FFFFFF; --ink: #26221A; --muted: #6E6858; --faint: #8F897B;
+    --line: #E5E1D4; --line-soft: #EEEBE0; --accent: #97781E; --accent-soft: #F3EDDB; --code-bg: #F0EEE4;
+    --c-pipeline: #2C7A73; --c-engine: #6B4FA3; --c-audio: #A84E7E; --c-store: #A83A3A;
+    --c-flow: #2F6BB0; --c-scripts: #4E7A2C; --c-electron: #5A6B7E; --c-data: #7A6E52;
+  }
+
+  html { background: var(--paper); }
+  body {
+    background: var(--paper);
+    color: var(--ink);
+    font-family: var(--sans);
+    font-size: 15.5px;
+    line-height: 1.85;
+    -webkit-font-smoothing: antialiased;
+  }
+  * { box-sizing: border-box; }
+
+  .frame { max-width: 1120px; margin: 0 auto; padding: 0 clamp(18px, 4vw, 48px); }
+
+  /* ---------- header ---------- */
+  header.hero {
+    border-bottom: 1px solid var(--line);
+    padding: clamp(40px, 7vw, 84px) 0 clamp(28px, 4vw, 44px);
+  }
+  .hero-eyebrow {
+    font-family: var(--mono); font-size: 12px; letter-spacing: .14em;
+    color: var(--accent); text-transform: uppercase; margin: 0 0 14px;
+  }
+  h1 {
+    font-family: var(--serif); font-weight: 600;
+    font-size: clamp(28px, 4.6vw, 44px); line-height: 1.3;
+    margin: 0 0 10px; text-wrap: balance;
+  }
+  .hero-sub { color: var(--muted); max-width: 46em; margin: 0 0 22px; }
+  .stack { display: flex; flex-wrap: wrap; gap: 8px; padding: 0; margin: 0; list-style: none; }
+  .stack li {
+    font-family: var(--mono); font-size: 12px; color: var(--muted);
+    border: 1px solid var(--line); border-radius: 3px; padding: 3px 9px; background: var(--card);
+  }
+  .stack li b { color: var(--ink); font-weight: 600; }
+
+  /* ---------- layout ---------- */
+  .wrap { display: grid; grid-template-columns: 216px minmax(0, 1fr); gap: clamp(28px, 4vw, 60px); padding-top: 36px; }
+  @media (max-width: 900px) { .wrap { grid-template-columns: minmax(0, 1fr); } nav.toc { position: static; border: 1px solid var(--line); border-radius: 6px; padding: 16px 18px; background: var(--card); } }
+
+  nav.toc { position: sticky; top: 28px; align-self: start; font-size: 13px; }
+  nav.toc .toc-title { font-family: var(--mono); font-size: 11px; letter-spacing: .12em; color: var(--faint); text-transform: uppercase; margin: 0 0 10px; }
+  nav.toc ol { list-style: none; margin: 0; padding: 0; }
+  nav.toc li { margin: 0; }
+  nav.toc a {
+    display: block; color: var(--muted); text-decoration: none;
+    padding: 4px 0 4px 12px; border-left: 2px solid var(--line-soft); line-height: 1.5;
+  }
+  nav.toc a:hover, nav.toc a:focus-visible { color: var(--ink); border-left-color: var(--accent); }
+  nav.toc a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+  nav.toc .toc-mod { font-family: var(--mono); font-size: 12px; }
+
+  main { min-width: 0; padding-bottom: 96px; }
+  main > section { padding: clamp(30px, 4.5vw, 52px) 0; border-bottom: 1px solid var(--line-soft); }
+  main > section:last-of-type { border-bottom: none; }
+
+  .sec-eyebrow {
+    display: flex; align-items: center; gap: 8px;
+    font-family: var(--mono); font-size: 12.5px; letter-spacing: .04em; margin: 0 0 10px;
+  }
+  .sec-eyebrow .dot { width: 9px; height: 9px; border-radius: 2px; flex: none; }
+  h2 {
+    font-family: var(--serif); font-weight: 600;
+    font-size: clamp(21px, 2.8vw, 27px); line-height: 1.4; margin: 0 0 6px; text-wrap: balance;
+  }
+  .lede { color: var(--muted); margin: 0 0 20px; max-width: 46em; }
+  h3 { font-family: var(--serif); font-weight: 600; font-size: 17.5px; margin: 30px 0 8px; }
+  p { margin: 0 0 14px; max-width: 46em; }
+  ul, ol { margin: 0 0 14px; padding-left: 1.4em; max-width: 44em; }
+  li { margin-bottom: 5px; }
+  strong { font-weight: 600; }
+  a { color: var(--accent); }
+
+  code {
+    font-family: var(--mono); font-size: .86em;
+    background: var(--code-bg); border-radius: 3px; padding: 1px 5px;
+  }
+  pre {
+    font-family: var(--mono); font-size: 12.5px; line-height: 1.75;
+    background: var(--card); border: 1px solid var(--line); border-radius: 6px;
+    padding: 16px 18px; overflow-x: auto; margin: 0 0 16px;
+  }
+  pre code { background: none; padding: 0; font-size: inherit; }
+  .comment { color: var(--faint); }
+
+  /* ---------- tables ---------- */
+  .tablewrap { overflow-x: auto; margin: 0 0 18px; border: 1px solid var(--line); border-radius: 6px; background: var(--card); }
+  table { border-collapse: collapse; width: 100%; font-size: 13.5px; line-height: 1.6; }
+  th, td { text-align: left; padding: 8px 14px; border-top: 1px solid var(--line-soft); vertical-align: top; }
+  thead th {
+    border-top: none; font-family: var(--mono); font-size: 11px; letter-spacing: .1em;
+    text-transform: uppercase; color: var(--faint); font-weight: 500; padding-top: 10px; padding-bottom: 6px;
+  }
+  td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; font-family: var(--mono); font-size: 12.5px; color: var(--muted); white-space: nowrap; }
+  td code { white-space: nowrap; }
+  tbody tr:hover { background: color-mix(in srgb, var(--accent) 4%, transparent); }
+
+  /* ---------- module tint helpers ---------- */
+  .m-pipeline { color: var(--c-pipeline); } .bg-pipeline { background: var(--c-pipeline); }
+  .m-engine { color: var(--c-engine); } .bg-engine { background: var(--c-engine); }
+  .m-audio { color: var(--c-audio); } .bg-audio { background: var(--c-audio); }
+  .m-store { color: var(--c-store); } .bg-store { background: var(--c-store); }
+  .m-flow { color: var(--c-flow); } .bg-flow { background: var(--c-flow); }
+  .m-scripts { color: var(--c-scripts); } .bg-scripts { background: var(--c-scripts); }
+  .m-electron { color: var(--c-electron); } .bg-electron { background: var(--c-electron); }
+  .m-data { color: var(--c-data); } .bg-data { background: var(--c-data); }
+  .m-accent { color: var(--accent); } .bg-accent { background: var(--accent); }
+
+  /* ---------- directory map ---------- */
+  .dirmap { font-family: var(--mono); font-size: 13px; line-height: 2.05; background: var(--card); border: 1px solid var(--line); border-radius: 6px; padding: 18px 20px; overflow-x: auto; margin-bottom: 16px; }
+  .dirmap .row { display: flex; gap: 14px; white-space: nowrap; }
+  .dirmap .path { min-width: 15em; }
+  .dirmap .tree { color: var(--faint); }
+  .dirmap .note { color: var(--muted); font-family: var(--sans); font-size: 13px; }
+  .dirmap .tag { display: inline-block; width: 8px; height: 8px; border-radius: 2px; margin-right: 7px; vertical-align: baseline; }
+
+  /* ---------- data-flow diagram ---------- */
+  .df { display: flex; flex-direction: column; gap: 0; margin: 4px 0 18px; }
+  .df-stage {
+    background: var(--card); border: 1px solid var(--line); border-radius: 6px; padding: 14px 18px 12px;
+  }
+  .df-label { font-family: var(--mono); font-size: 11px; letter-spacing: .12em; text-transform: uppercase; color: var(--faint); margin: 0 0 8px; }
+  .df-items { display: flex; flex-wrap: wrap; gap: 8px; }
+  .df-item {
+    border: 1px solid var(--line); border-radius: 4px; padding: 7px 11px; background: var(--paper);
+    font-size: 13px; line-height: 1.55; min-width: 0;
+  }
+  .df-item .fname { font-family: var(--mono); font-size: 12px; display: block; }
+  .df-item .fdesc { color: var(--muted); font-size: 12px; display: block; }
+  .df-arrow { text-align: center; color: var(--faint); font-family: var(--mono); font-size: 12px; padding: 6px 0; }
+  .df-arrow b { color: var(--muted); font-weight: 500; }
+
+  /* ---------- layer stack ---------- */
+  .zstack { display: flex; flex-direction: column; gap: 6px; max-width: 460px; margin: 6px 0 18px; counter-reset: z 7; }
+  .zstack .zrow {
+    display: grid; grid-template-columns: 2.2em minmax(0,1fr) auto; gap: 12px; align-items: baseline;
+    border: 1px solid var(--line); border-radius: 5px; padding: 8px 14px; background: var(--card);
+  }
+  .zstack .zrow::before { counter-increment: z -1; content: counter(z); font-family: var(--mono); font-size: 11px; color: var(--faint); }
+  .zstack .zname { font-family: var(--mono); font-size: 13px; }
+  .zstack .zdesc { color: var(--muted); font-size: 12.5px; text-align: right; }
+
+  /* ---------- runtime triangle ---------- */
+  .runtime { display: grid; grid-template-columns: 1fr auto 1fr; gap: 10px; align-items: stretch; margin: 6px 0 18px; max-width: 720px; }
+  .rt-box { border: 1px solid var(--line); border-radius: 6px; background: var(--card); padding: 12px 16px; }
+  .rt-box .rt-name { font-family: var(--mono); font-size: 13px; display: block; margin-bottom: 2px; }
+  .rt-box .rt-desc { color: var(--muted); font-size: 12.5px; display: block; }
+  .rt-mid { display: flex; flex-direction: column; justify-content: center; align-items: center; font-family: var(--mono); font-size: 12px; color: var(--faint); padding: 0 4px; }
+  @media (max-width: 640px) { .runtime { grid-template-columns: 1fr; } .rt-mid { padding: 2px 0; } }
+
+  /* ---------- sequence ---------- */
+  ol.seq { list-style: none; padding: 0; counter-reset: step; max-width: 46em; }
+  ol.seq > li {
+    counter-increment: step; position: relative; padding: 0 0 18px 44px; margin: 0;
+  }
+  ol.seq > li::before {
+    content: counter(step, decimal-leading-zero);
+    position: absolute; left: 0; top: 2px;
+    font-family: var(--mono); font-size: 12px; color: var(--accent);
+    border: 1px solid var(--line); border-radius: 4px; background: var(--card);
+    padding: 2px 6px;
+  }
+  ol.seq > li::after {
+    content: ""; position: absolute; left: 15px; top: 30px; bottom: 4px; width: 1px; background: var(--line);
+  }
+  ol.seq > li:last-child::after { display: none; }
+  ol.seq .seq-t { font-weight: 600; }
+
+  /* ---------- keyboard ---------- */
+  kbd {
+    font-family: var(--mono); font-size: 12px; background: var(--card);
+    border: 1px solid var(--line); border-bottom-width: 2px; border-radius: 4px; padding: 1px 7px;
+  }
+
+  /* ---------- callout ---------- */
+  .callout {
+    border: 1px solid var(--line); border-radius: 6px; background: var(--accent-soft);
+    padding: 12px 16px; margin: 0 0 16px; max-width: 46em; font-size: 14px;
+  }
+  .callout .c-label { font-family: var(--mono); font-size: 11px; letter-spacing: .12em; text-transform: uppercase; color: var(--accent); display: block; margin-bottom: 2px; }
+
+  .fileref { font-family: var(--mono); font-size: .84em; color: var(--muted); white-space: nowrap; }
+
+  @media (prefers-reduced-motion: reduce) { * { transition: none !important; animation: none !important; } }
+</style>
+</head>
+<body>
+
+<div class="frame">
+  <header class="hero">
+    <p class="hero-eyebrow">app/player onboarding</p>
+    <h1>Webプレイヤー<br>ソースコードの歩き方</h1>
+    <p class="hero-sub">新規実装メンバー向けに、<code>app/player</code> の各部分の責務とデータの流れをまとめたガイドです。アプリは「VN 再生」と「ルート分岐図」の2機能で、どちらも機械生成データ（<code>data/*.json</code>）を土台に動きます。</p>
+    <ul class="stack">
+      <li><b>Vite</b> + <b>TypeScript</b> + <b>React</b></li>
+      <li>VN 描画 <b>PixiJS</b> (WebGL)</li>
+      <li>ルート図 <b>React Flow</b> + dagre</li>
+      <li>音声 <b>Howler.js</b></li>
+      <li>状態 <b>Zustand</b></li>
+      <li>スキーマ <b>zod</b></li>
+    </ul>
+  </header>
+
+  <div class="wrap">
+    <nav class="toc" aria-label="目次">
+      <p class="toc-title">目次</p>
+      <ol>
+        <li><a href="#overview">全体像</a></li>
+        <li><a href="#dataflow">データ生成の流れ</a></li>
+        <li><a href="#dirmap">ディレクトリマップ</a></li>
+        <li><a href="#pipeline" class="toc-mod">src/pipeline/</a></li>
+        <li><a href="#engine" class="toc-mod">src/engine/</a></li>
+        <li><a href="#audio" class="toc-mod">src/audio/</a></li>
+        <li><a href="#store" class="toc-mod">src/store/</a></li>
+        <li><a href="#flow" class="toc-mod">src/flow/</a></li>
+        <li><a href="#shell" class="toc-mod">App / main / theme</a></li>
+        <li><a href="#scripts" class="toc-mod">scripts/</a></li>
+        <li><a href="#electron" class="toc-mod">electron/</a></li>
+        <li><a href="#data" class="toc-mod">data/</a></li>
+        <li><a href="#sequence">クリック→描画の順序</a></li>
+        <li><a href="#reading">読む順序のすすめ</a></li>
+        <li><a href="#gotchas">規約と落とし穴</a></li>
+        <li><a href="#commands">コマンド早見表</a></li>
+      </ol>
+    </nav>
+
+    <main>
+      <!-- ================================================== -->
+      <section id="overview">
+        <p class="sec-eyebrow"><span class="dot bg-accent"></span>まずここだけ</p>
+        <h2>全体像 — ストアが真実、画面は購読者</h2>
+        <p class="lede">最初に押さえるのは1文です: <strong>Zustand ストア <code>usePlayer</code> が再生状態の単一の真実の源で、物語画面（Stage）とルート図（FlowMap)はどちらも同じストアを購読して追従する</strong>。</p>
+
+        <div class="runtime">
+          <div class="rt-box">
+            <span class="rt-name m-engine">Stage (PixiJS)</span>
+            <span class="rt-desc">物語の描画と音声。ストアを subscribe し、変化の種類（行送り / beat 送り / シーン遷移）に応じて必要な描画だけ実行</span>
+          </div>
+          <div class="rt-mid"><span>⇄ 購読 / 操作</span></div>
+          <div class="rt-box">
+            <span class="rt-name m-store">usePlayer (Zustand)</span>
+            <span class="rt-desc">現在シーン・beat 位置・locale・フラグ・選択肢。シーン跨ぎの遷移は FlowNav（flow.json）に委譲</span>
+          </div>
+        </div>
+        <div class="runtime">
+          <div class="rt-box">
+            <span class="rt-name m-flow">FlowMap (React Flow)</span>
+            <span class="rt-desc">全ルートの分岐図。再生中ノードをハイライトし、ノードクリックで物語をそのシーンへスキップ</span>
+          </div>
+          <div class="rt-mid"><span>⇄ 同じストアを購読</span></div>
+          <div class="rt-box">
+            <span class="rt-name m-data">data/*.json（生成物）</span>
+            <span class="rt-desc">シーン・フロー・素材台帳。すべて原データからの機械生成で手編集禁止</span>
+          </div>
+        </div>
+
+        <p>アプリの規模感: <code>src/</code> 全体で約 4,300 行（pipeline 900 / engine+audio 1,300 / flow+store+土台 2,100）、<code>scripts/</code> が TS 約 1,600 行 + Python 約 1,400 行、<code>electron/</code> が約 250 行。シーンは jp/cn 各 286 ファイル、フローは 83 ノード / 113 エッジです。</p>
+        <p>もう一つの柱は<strong>データの出自</strong>です。分岐・脚本はすべて原データ（<code>md_scr.med</code> の bytecode）から機械抽出されており、アプリのコードは「生成された JSON をどう再生・描画するか」に専念しています。次節のデータフローを先に頭に入れると、どのコードがどの JSON を読むのかで迷わなくなります。</p>
+      </section>
+
+      <!-- ================================================== -->
+      <section id="dataflow">
+        <p class="sec-eyebrow"><span class="dot bg-data"></span>ビルド時 → 実行時</p>
+        <h2>データ生成の流れ</h2>
+        <p class="lede">一次抽出は Python（bytecode 逆アセンブル）、TypeScript は合成・解決・索引化の層。アプリが実行時に読むのは最下段の生成物だけです。</p>
+
+        <div class="df">
+          <div class="df-stage">
+            <p class="df-label">原データ・定義（git 外 / git 管理テキスト）</p>
+            <div class="df-items">
+              <div class="df-item"><span class="fname">original_game/*/md_scr.med</span><span class="fdesc">暗号化コンテナ（git 外）。SMAIN とシーン脚本 bytecode</span></div>
+              <div class="df-item"><span class="fname">data_extract/text/…/_SPRSET.txt ・ _BGSET.txt</span><span class="fdesc">立ち絵・背景の定義テキスト（git 管理）</span></div>
+              <div class="df-item"><span class="fname">素材（CG / 音声）</span><span class="fdesc">git 外。2.4GB</span></div>
+            </div>
+          </div>
+          <div class="df-arrow">↓ <b>Python 一次抽出</b>（<span class="m-scripts">extract-flow.py 1,072 行 / extract-scenes.py 272 行 / med.py 共通デコード</span>）・<b>TS 定義パース</b></div>
+          <div class="df-stage">
+            <p class="df-label">中間生成物 — data/</p>
+            <div class="df-items">
+              <div class="df-item"><span class="fname">flow.json</span><span class="fdesc">SMAIN 逆アセンブル＝全分岐の完全 CFG</span></div>
+              <div class="df-item"><span class="fname">scene-events/{jp,cn}.json</span><span class="fdesc">脚本 bytecode を写した正規化イベント列（beat の一次ソース）</span></div>
+              <div class="df-item"><span class="fname">sprites.json / backgrounds.json</span><span class="fdesc">build-defs.ts が定義テキストをパース</span></div>
+              <div class="df-item"><span class="fname">manifest.json</span><span class="fdesc">fetch-assets.ts が生成。素材 11,088 件の台帳＝実ファイル名の真実の源</span></div>
+            </div>
+          </div>
+          <div class="df-arrow">↓ <b>TS 合成</b>（<span class="m-scripts">build-scenes.ts</span> が <span class="m-pipeline">buildScene → resolveScene</span> を実行）</div>
+          <div class="df-stage">
+            <p class="df-label">アプリが読む生成物</p>
+            <div class="df-items">
+              <div class="df-item"><span class="fname">scenes/&lt;locale&gt;/&lt;code&gt;.json</span><span class="fdesc">1 シーン=1 ファイル。beat 列＋解決済み素材参照</span></div>
+              <div class="df-item"><span class="fname">flow.json + scene-index.json</span><span class="fdesc">シーン遷移（FlowNav）とルート図の構造</span></div>
+              <div class="df-item"><span class="fname">public/assets/**</span><span class="fdesc">素材実体（git 外、assets:fetch で配置）</span></div>
+            </div>
+          </div>
+          <div class="df-arrow">↓ <b>実行時</b></div>
+          <div class="df-stage">
+            <p class="df-label">ランタイム</p>
+            <div class="df-items">
+              <div class="df-item"><span class="fname m-engine">sceneLoader → Stage（PixiJS 再生）</span><span class="fdesc">Vite glob でシーン単位の遅延 import + zod 検証</span></div>
+              <div class="df-item"><span class="fname m-store">store/player + FlowNav（シーン跨ぎ遷移）</span><span class="fdesc">flow.json を辿って次シーン・選択肢・終端を決定</span></div>
+              <div class="df-item"><span class="fname m-flow">flow/scenegraph → FlowMap（ルート図）</span><span class="fdesc">同じ flow.json を 1 シーン=1 ノードに展開して描画</span></div>
+            </div>
+          </div>
+        </div>
+
+        <p>原データが未配置の環境では Python 抽出は自動スキップされ、コミット済みの生成物がそのまま使われます。つまり<strong>リポジトリを clone して <code>npm run assets:fetch</code> → <code>npm run dev</code> だけで動きます</strong>（データを再生成しない限り Python は不要）。</p>
+      </section>
+
+      <!-- ================================================== -->
+      <section id="dirmap">
+        <p class="sec-eyebrow"><span class="dot bg-accent"></span>地図</p>
+        <h2>ディレクトリマップ</h2>
+        <p class="lede">色はこのガイド全体で共通のモジュール識別色です。以降の章と対応します。</p>
+        <div class="dirmap">
+          <div class="row"><span class="path">app/player/</span><span class="note"></span></div>
+          <div class="row"><span class="path"><span class="tree">├─</span> src/pipeline/</span><span class="note"><span class="tag bg-pipeline"></span>原データ→構造化の純関数。types.ts がデータ契約（zod）</span></div>
+          <div class="row"><span class="path"><span class="tree">├─</span> src/engine/</span><span class="note"><span class="tag bg-engine"></span>PixiJS レンダラ。Stage + 6 レイヤ + sceneLoader</span></div>
+          <div class="row"><span class="path"><span class="tree">├─</span> src/audio/</span><span class="note"><span class="tag bg-audio"></span>Howler ラッパ。voice/se/bgm/bgv/lpse の 5 チャンネル</span></div>
+          <div class="row"><span class="path"><span class="tree">├─</span> src/store/</span><span class="note"><span class="tag bg-store"></span>Zustand。再生位置・フラグ・ブックマーク</span></div>
+          <div class="row"><span class="path"><span class="tree">├─</span> src/flow/</span><span class="note"><span class="tag bg-flow"></span>React Flow ルート図。scenegraph 変換 + dagre レイアウト</span></div>
+          <div class="row"><span class="path"><span class="tree">├─</span> src/App.tsx ほか</span><span class="note"><span class="tag bg-accent"></span>16:9 レターボックス・ビュー切替・ショートカット</span></div>
+          <div class="row"><span class="path"><span class="tree">├─</span> scripts/</span><span class="note"><span class="tag bg-scripts"></span>データ生成 CLI（tsx / python3）。src/pipeline の薄いラッパ</span></div>
+          <div class="row"><span class="path"><span class="tree">├─</span> electron/</span><span class="note"><span class="tag bg-electron"></span>main / preload / app:// 配信 / ブックマーク永続化</span></div>
+          <div class="row"><span class="path"><span class="tree">├─</span> data/</span><span class="note"><span class="tag bg-data"></span>生成物 JSON。すべて手編集禁止</span></div>
+          <div class="row"><span class="path"><span class="tree">└─</span> public/assets/</span><span class="note">素材実体（git 外、assets:fetch で同期）</span></div>
+        </div>
+        <p>テストは各ソースの隣に <code>*.test.ts</code> として併存します（Vitest 対象は <code>src/pipeline</code>・<code>src/flow</code>・<code>src/store</code>・<code>electron</code> などの純関数層）。<strong>テストが最も具体的な仕様書</strong>なので、挙動に迷ったらまず対応するテストを開いてください。</p>
+      </section>
+
+      <!-- ================================================== -->
+      <section id="pipeline">
+        <p class="sec-eyebrow m-pipeline"><span class="dot bg-pipeline"></span>src/pipeline/ — 902 行</p>
+        <h2>pipeline — イベント列から Scene を組む純関数</h2>
+        <p class="lede">Python が写した「正規化イベント列」を、再生可能な <code>Scene</code>（beat 列）へ変換する層。Node/ブラウザ両用の純関数で、ビルド時に scripts から呼ばれます。ここのデータ契約が全レイヤの語彙です。</p>
+
+        <div class="tablewrap"><table>
+          <thead><tr><th>ファイル</th><th class="num">行数</th><th>責務</th></tr></thead>
+          <tbody>
+            <tr><td><code>types.ts</code></td><td class="num">243</td><td>データ契約の中心。素材参照・Beat・SceneEvent・Scene・Flow・Manifest の zod スキーマ＋型</td></tr>
+            <tr><td><code>scene.ts</code></td><td class="num">316</td><td><code>buildScene</code> — イベント列を状態機械でパースし beat 列を組む、パイプラインの心臓部</td></tr>
+            <tr><td><code>resolve.ts</code></td><td class="num">110</td><td><code>resolveScene</code> — label/id を manifest・解決テーブルで実ファイルパスへ解決</td></tr>
+            <tr><td><code>defs.ts</code></td><td class="num">136</td><td><code>_SPRSET.txt</code>/<code>_BGSET.txt</code> のパースと <code>[note]</code> ラベル→立ち絵/背景コード解決</td></tr>
+            <tr><td><code>audio.ts</code></td><td class="num">97</td><td>se コード判定・BGM の curated 割当（<code>BGM_BY_CHARACTER</code>）・manifest 索引</td></tr>
+          </tbody>
+        </table></div>
+
+        <h3>types.ts — Beat の形を暗記する</h3>
+        <p><code>Beat</code> は <code>kind</code> で判別する discriminated union です。narration（地の文）は <code>pages</code>（改ページ op 区切りのページ列＝1 ページが 1 送り段）、line（セリフ）は <code>who</code> + <code>lines</code> + <code>voice</code> を持ちます。背景・立ち絵などの見た目は両者共通です。</p>
+        <pre><code>NarrationBeat { kind:'narration', pages: string[][] , …共通 }
+LineBeat      { kind:'line', who, voice?, lines: string[], …共通 }
+共通: bg? / sprites?[] / item? / se?[] / lpse? / bgv? / flash?
+<span class="comment">// 素材参照はすべて file: string | null — null は「未解決」を表し validate が検出する</span></code></pre>
+        <p>入力側の <code>SceneEvent</code> は <code>['text', …]</code> <code>['bg', …]</code> <code>['sprite', …]</code> のようなタグ付きタプルで、bytecode の opcode をほぼ 1:1 で写したものです。</p>
+
+        <h3>scene.ts — buildScene の状態機械</h3>
+        <p><code>buildScene</code> <span class="fileref">(scene.ts:65)</span> は 2 種類の状態を持って走査します:</p>
+        <ul>
+          <li><strong>sticky</strong>（次に上書きされるまで持続）: 背景・被せ CG・立ち絵スロット・アイテム窓・BGV・ループ se。beat 確定のたびに <code>snapshot()</code> で焼き込むので、「背景や BGV がずっと続く」が実現される</li>
+          <li><strong>pending</strong>（使い切り）: 話者・ボイス・se・フラッシュ。次の beat に一度だけ載る</li>
+        </ul>
+        <p>設計上の要点は 2 つ。①「見た目署名（visSig）」が変化したときだけ地の文 beat を区切る＝立ち絵の内部操作で文章が分断されない。②話者決定は <code>pendingSpeaker</code> 最優先 → ボイス ID 接頭辞の学習辞書 → 直前話者 → 主人公、の順のフォールバック。冒頭の JSDoc（1〜31 行）にこの全体設計がまとまっているので、本体より先に読んでください。</p>
+
+        <h3>resolve.ts / defs.ts / audio.ts — 解決の三兄弟</h3>
+        <ul>
+          <li><strong>voice の大小文字の罠</strong>: ボイス ID <code>AYAN_002_AYAN001A_001</code> の実ファイルは <code>ayan_002_ayan001A_001.ogg</code>（末尾の変種文字だけ大文字）。単純な小文字化では一致しないため、<strong>manifest を真実の源</strong>に小文字化キーで照合します <span class="fileref">(resolve.ts:19)</span></li>
+          <li><strong>立ち絵/背景</strong>は <code>[note]</code> ラベルを <code>sprites.json</code>/<code>backgrounds.json</code> と最長一致 prefix で照合し body+face コードへ解決 <span class="fileref">(defs.ts)</span></li>
+          <li><strong>BGM は原データに存在しない</strong>（トラック選択は実行ファイル側と推定）。そのためルート（character）→ M01–M16 の <code>BGM_BY_CHARACTER</code> による curated 割当で、対応表は編集可能です <span class="fileref">(audio.ts:52)</span></li>
+        </ul>
+      </section>
+
+      <!-- ================================================== -->
+      <section id="engine">
+        <p class="sec-eyebrow m-engine"><span class="dot bg-engine"></span>src/engine/ — 1,078 行</p>
+        <h2>engine — PixiJS で beat を舞台に載せる</h2>
+        <p class="lede">論理解像度 1280×720 の舞台に 6 枚のレイヤを重ね、ストアの変化に応じて描画命令を出す命令的レンダラ。UI（進捗 HUD・選択肢）だけ React DOM で描きます。</p>
+
+        <div class="tablewrap"><table>
+          <thead><tr><th>ファイル</th><th class="num">行数</th><th>責務</th></tr></thead>
+          <tbody>
+            <tr><td><code>Stage.tsx</code></td><td class="num">346</td><td>Pixi Application 初期化・レイヤ合成・ストア購読・入力・テクスチャ解放。エンジンの司令塔</td></tr>
+            <tr><td><code>sceneLoader.ts</code></td><td class="num">63</td><td><code>import.meta.glob</code> でシーン JSON を遅延 import + zod 検証。cn 欠落時は jp フォールバック</td></tr>
+            <tr><td><code>layers/</code> 6 ファイル</td><td class="num">601</td><td>各描画レイヤ（下表）</td></tr>
+            <tr><td><code>tween.ts</code></td><td class="num">29</td><td>Ticker 駆動の最小トゥイーン。返り値はキャンセル関数</td></tr>
+            <tr><td><code>assets.ts</code></td><td class="num">39</td><td><code>GAME_W/GAME_H</code>（1280×720）・URL 組み立て・contain/cover フィット計算</td></tr>
+          </tbody>
+        </table></div>
+
+        <h3>レイヤの重ね順（上=手前）</h3>
+        <div class="zstack">
+          <div class="zrow"><span class="zname">TitleCardLayer</span><span class="zdesc">題字（冒頭/場面転換）・420ms フェード</span></div>
+          <div class="zrow"><span class="zname">SubtitleLayer</span><span class="zdesc">字幕。黒アウトライン+影・360ms</span></div>
+          <div class="zrow"><span class="zname">FlashLayer</span><span class="zdesc">閃光（強度1–3）。字幕の下＝閃光中も読める</span></div>
+          <div class="zrow"><span class="zname">ItemLayer</span><span class="zdesc">アイテム CG 窓（原寸オーバーレイ）・150ms</span></div>
+          <div class="zrow"><span class="zname">SpriteLayer</span><span class="zdesc">立ち絵 body+face 合成・多体均等配置・400ms</span></div>
+          <div class="zrow"><span class="zname">CgLayer</span><span class="zdesc">背景。A/B 2枚クロスフェード 1.4s + Ken Burns</span></div>
+        </div>
+
+        <h3>Stage の購読 — 変化の粒度で副作用を絞る</h3>
+        <p><code>usePlayer.subscribe</code> <span class="fileref">(Stage.tsx:177)</span> が新旧 state を diff し、必要な処理だけ呼び分けます。これがエンジン理解の最重要ポイントです:</p>
+        <ul>
+          <li><code>line</code> だけ変化（行送り）→ <code>renderText</code> のみ。背景・立ち絵・音声は据え置き</li>
+          <li><code>index</code> 変化（beat 送り）→ <code>renderBeat</code>（全描画＋音声発火）</li>
+          <li><code>scene</code> 変化 → シーン遷移なら <code>onSceneChange</code>（BGM 切替・旧テクスチャ/ボイスの遅延解放）＋ <code>renderBeat</code>。<strong>locale だけの変化（言語切替）なら <code>silent</code> 付きで字幕だけ描き直し</strong>、音声もテクスチャも乱さない</li>
+        </ul>
+        <p>全レイヤに共通するパターンは「<strong>同一入力なら no-op・変化時のみフェード・ロード中に陳腐化したらキャンセル</strong>」。<code>tween()</code> が返すキャンセル関数を各レイヤが保持し、連打で beat が進んでも破綻しません。</p>
+      </section>
+
+      <!-- ================================================== -->
+      <section id="audio">
+        <p class="sec-eyebrow m-audio"><span class="dot bg-audio"></span>src/audio/ — 209 行</p>
+        <h2>audio — 5 チャンネルの寿命を管理する</h2>
+        <p class="lede"><code>AudioManager</code> は Howler の薄いラッパですが、チャンネルごとに寿命が違うのが肝です。</p>
+        <div class="tablewrap"><table>
+          <thead><tr><th>チャンネル</th><th>性質</th><th>寿命</th><th>切替</th></tr></thead>
+          <tbody>
+            <tr><td><code>voice</code></td><td>台詞。前を止めて 1 本再生</td><td>beat 同期</td><td>即切替（URL キャッシュ）</td></tr>
+            <tr><td><code>se</code></td><td>ワンショット・多重再生可</td><td>単発</td><td>—</td></tr>
+            <tr><td><code>bgm</code></td><td>ループ・音量 0.4（curated）</td><td><strong>シーン跨ぎ継続</strong></td><td>track 変化時のみ 800ms クロスフェード</td></tr>
+            <tr><td><code>bgv</code></td><td>背景ボイス・単一ループ・sticky</td><td>シーン局所</td><td>即切替</td></tr>
+            <tr><td><code>lpse</code></td><td>ループ se（HU-76、bgv と同型）</td><td>シーン局所</td><td>即切替</td></tr>
+          </tbody>
+        </table></div>
+        <p>Howler 運用の要点は 2 つ。①キーボード操作でも音を出せるよう、再生前に必ず suspended な AudioContext を <code>resume()</code> する（<code>withContext</code>）。②生成直後の <code>play()</code> は無音になり得るため、<code>state()==='loaded'</code> を確認し未ロードなら <code>once('load')</code> で待ってから再生。シーン離脱時は <code>releaseVoices()</code> で voice キャッシュを unload し、メモリを抱えません。</p>
+      </section>
+
+      <!-- ================================================== -->
+      <section id="store">
+        <p class="sec-eyebrow m-store"><span class="dot bg-store"></span>src/store/ — 337 行</p>
+        <h2>store — 再生位置とブックマーク</h2>
+        <p class="lede">アプリの中枢。<code>player.ts</code>（208 行）が再生状態、<code>bookmarks.ts</code>（129 行）がセーブデータを持ちます。</p>
+        <pre><code><span class="comment">// PlayerState（player.ts:32）の形</span>
+scene: Scene | null      <span class="comment">// 現在シーン（beat 配列を含む）</span>
+index: number            <span class="comment">// 現在の beat</span>
+line:  number            <span class="comment">// beat 内サブ位置（narration のページ送り）</span>
+locale: 'jp' | 'cn'
+flags: ReadonlySet&lt;string&gt;      <span class="comment">// ルート分岐フラグ（シーン跨ぎ保持）</span>
+pendingChoice: NavOption[] | null  <span class="comment">// 選択肢提示中</span>
+ended: boolean</code></pre>
+        <p><code>advance()</code> <span class="fileref">(player.ts:106)</span> の判定は 4 段: ①選択肢提示中は無視 → ② beat 内に次ページがあれば <code>line+1</code> → ③シーン内に次 beat があれば <code>index+1</code> → ④シーン末尾なら <code>FlowNav.advance()</code> に委譲し、結果が <code>scene</code>（次シーンをロード）/ <code>choice</code>（選択肢提示）/ <code>end</code>（終端）のいずれかになります。</p>
+        <p><code>FlowNav</code> <span class="fileref">(src/flow/nav.ts)</span> は flow.json を辿る純ロジックで、単一出エッジは自動進行、複数エッジは選択肢化、空ノード（start/hub）は透過的に解決します。<code>setLocale()</code> は現在シーンを別言語で読み直し、再生位置を維持します（ベストエフォート）。</p>
+        <p><code>bookmarks.ts</code> は 1 シーンにつき 1 件を上書き保存。Electron では preload が公開する <code>saimin4Desktop.bookmarks</code> 経由でファイル（<code>userData/bookmarks.json</code>）へ、Web では localStorage へフォールバックします。起動時は最新ブックマークへ自動復帰します（<code>start()</code>）。</p>
+      </section>
+
+      <!-- ================================================== -->
+      <section id="flow">
+        <p class="sec-eyebrow m-flow"><span class="dot bg-flow"></span>src/flow/ — 1,546 行</p>
+        <h2>flow — CFG をルート図に描く</h2>
+        <p class="lede">flow.json（arc 単位の制御フローグラフ）を「1 シーン = 1 ノード」の図へ 3 段変換して React Flow で描きます。構造は locale 不変なのでモジュール読み込み時に 1 回だけ計算します。</p>
+
+        <div class="tablewrap"><table>
+          <thead><tr><th>ファイル</th><th class="num">行数</th><th>責務</th></tr></thead>
+          <tbody>
+            <tr><td><code>scenegraph.ts</code></td><td class="num">350</td><td><strong>変換の中核</strong>。arc をシーン単位に展開、hub（合流点）を畳んで実シーンへ張り替え、NORMAL_END を流入元別に分割、タイトル群コンテナ化、おまけノード生成</td></tr>
+            <tr><td><code>layout.ts</code></td><td class="num">134</td><td>dagre による座標計算（上→下、約 290 ノード）。グループは compound、おまけ枠は本編の右隣へ分離配置</td></tr>
+            <tr><td><code>FlowMap.tsx</code></td><td class="num">506</td><td>React Flow 画面本体。初期ビュー・ライブハイライト・ズームバー・ミニマップ・凡例・ブックマークモーダル</td></tr>
+            <tr><td><code>nav.ts</code></td><td class="num">162</td><td><code>FlowNav</code> — 再生側の「次はどこか」。store が使用（図と再生が同じ flow.json を共有）</td></tr>
+            <tr><td><code>SceneNode.tsx</code> / <code>GroupNode.tsx</code> / <code>Legend.tsx</code></td><td class="num">271</td><td>カスタムノード（カテゴリ色バー＋概要＋しおり）・タイトル群の枠・凡例</td></tr>
+            <tr><td><code>category.ts</code></td><td class="num">101</td><td>表示カテゴリ 8 分類と配色の単一の真実の源（シーンコード接頭辞で分類）</td></tr>
+            <tr><td><code>flow.ts</code> / <code>nodeSize.ts</code></td><td class="num">22</td><td>補助クエリとノード寸法定数</td></tr>
+          </tbody>
+        </table></div>
+
+        <h3>プレイヤーとの連動</h3>
+        <ul>
+          <li><strong>図 → 物語</strong>: シーンノードをクリック → <code>gotoScene(code)</code> でスキップし、物語ビューへ切替 <span class="fileref">(FlowMap.tsx:445)</span></li>
+          <li><strong>物語 → 図</strong>: 再生で <code>scene.code</code> が変わると該当ノードがカテゴリ色でグローし、図に戻ると再生中ノードが中央に据えられる</li>
+          <li>ノード右のしおりアイコンをダブルクリックでモーダル（保存位置へジャンプ / 削除）</li>
+        </ul>
+      </section>
+
+      <!-- ================================================== -->
+      <section id="shell">
+        <p class="sec-eyebrow"><span class="dot bg-accent"></span>src/App.tsx ほか — 215 行</p>
+        <h2>アプリ土台 — 16:9 の額縁と 2 ビュー</h2>
+        <p class="lede"><code>App.tsx</code>（112 行）は全ウィンドウを黒レターボックスにし、その中央に 16:9 ボックス（原ゲームの論理解像度 1280×720）を敷きます。<strong>Stage は常時マウント</strong>して再生位置を保ち、FlowMap は <code>view==='map'</code> のときだけ上にオーバーレイ。起動時はルート図から始まります。</p>
+        <div class="tablewrap"><table>
+          <thead><tr><th>キー</th><th>動作</th><th>担当</th></tr></thead>
+          <tbody>
+            <tr><td><kbd>クリック</kbd> / <kbd>Space</kbd> / <kbd>Enter</kbd> / <kbd>→</kbd></td><td>次へ（advance）</td><td>Stage.tsx</td></tr>
+            <tr><td><kbd>←</kbd></td><td>前へ（prev）</td><td>Stage.tsx</td></tr>
+            <tr><td><kbd>Tab</kbd></td><td>物語 ⇄ ルート図 切替</td><td>App.tsx</td></tr>
+            <tr><td><kbd>`</kbd></td><td>言語 jp ⇄ cn 切替（再生位置維持）</td><td>App.tsx</td></tr>
+            <tr><td><kbd>1</kbd></td><td>現在位置をブックマーク保存（トースト表示）</td><td>App.tsx</td></tr>
+          </tbody>
+        </table></div>
+        <p><code>theme.ts</code> は jp/cn 別フォントスタックとアクセント色 <code>GOLD</code> の共有定数、<code>main.tsx</code> はマウントと同梱フォントの先読みです。</p>
+      </section>
+
+      <!-- ================================================== -->
+      <section id="scripts">
+        <p class="sec-eyebrow m-scripts"><span class="dot bg-scripts"></span>scripts/ — TS 1,638 行 + Python 1,400 行</p>
+        <h2>scripts — データを再生成する CLI 群</h2>
+        <p class="lede">ロジックの本体は <code>src/pipeline/</code> にあり、scripts はその薄い CLI ラッパ＋Python 一次抽出です。原データ（git 外）が無い環境では Python 系は自動スキップされます。</p>
+        <div class="tablewrap"><table>
+          <thead><tr><th>スクリプト</th><th class="num">行数</th><th>入力 → 出力</th><th>npm</th></tr></thead>
+          <tbody>
+            <tr><td><code>extract-flow.py</code></td><td class="num">1,072</td><td>md_scr.med の SMAIN → <code>flow.json</code>（完全 CFG。select 分岐・hub 継続先・挿入テストまで解決）</td><td><code>data:flow</code></td></tr>
+            <tr><td><code>extract-scenes.py</code></td><td class="num">272</td><td>シーン脚本 bytecode → <code>scene-events/{jp,cn}.json</code>（正規化イベント列）</td><td><code>data:scenes:events</code></td></tr>
+            <tr><td><code>med.py</code></td><td class="num">56</td><td>両者共通の MDE0 コンテナ復号プリミティブ</td><td>—</td></tr>
+            <tr><td><code>build-defs.ts</code></td><td class="num">57</td><td>_SPRSET/_BGSET.txt → <code>sprites.json</code> / <code>backgrounds.json</code></td><td><code>data:defs</code></td></tr>
+            <tr><td><code>build-scenes.ts</code></td><td class="num">138</td><td>scene-events + defs + manifest → <code>scenes/&lt;locale&gt;/*.json</code>（buildScene→resolveScene）</td><td><code>data:scenes</code></td></tr>
+            <tr><td><code>build-scene-index.ts</code></td><td class="num">63</td><td>scenes の title のみ → <code>scene-index.json</code>（図の見出し用軽量索引）</td><td><code>data:scene-index</code></td></tr>
+            <tr><td><code>fetch-assets.ts</code></td><td class="num">241</td><td>素材ソース → <code>public/assets/**</code> + <code>manifest.json</code></td><td><code>assets:fetch</code></td></tr>
+            <tr><td><code>validate.ts</code></td><td class="num">206</td><td>未解決参照（bg/sprite/se/bgm は失敗、voice は集計）＋ flow↔原テキスト相互照合</td><td><code>validate</code></td></tr>
+            <tr><td><code>build-flow.ts</code> + <code>route-map.data.ts</code></td><td class="num">876</td><td><strong>二次（照合用に降格）</strong>。プロトタイプの N/E → <code>flow.routemap.json</code>（git 外・flow.json は上書きしない）</td><td><code>data:flow:routemap</code></td></tr>
+            <tr><td><code>electron-build.ts</code> / <code>electron-dev.ts</code></td><td class="num">57</td><td>esbuild で main/preload をバンドル / Vite+Electron 同時起動</td><td><code>build:electron</code> / <code>dev:electron</code></td></tr>
+          </tbody>
+        </table></div>
+      </section>
+
+      <!-- ================================================== -->
+      <section id="electron">
+        <p class="sec-eyebrow m-electron"><span class="dot bg-electron"></span>electron/ — 247 行</p>
+        <h2>electron — app:// 配信とデスクトップ統合</h2>
+        <div class="tablewrap"><table>
+          <thead><tr><th>ファイル</th><th class="num">行数</th><th>責務</th></tr></thead>
+          <tbody>
+            <tr><td><code>main.ts</code></td><td class="num">135</td><td>メインプロセス。<code>app://</code> を特権スキーム登録し dist と素材を同一オリジン配信。1280×720・16:9 固定、<code>contextIsolation</code>/<code>sandbox</code> 有効、ブックマーク IPC 配線</td></tr>
+            <tr><td><code>serve.ts</code></td><td class="num">55</td><td><code>app://</code> URL → ローカルパス解決の<strong>純関数</strong>（Vitest 対象）。<code>..</code> エスケープ拒否、PixiJS の URL 誤解決の復元</td></tr>
+            <tr><td><code>preload.ts</code></td><td class="num">15</td><td><code>saimin4Desktop</code>（platform + bookmarks read/write）をレンダラへ公開</td></tr>
+            <tr><td><code>bookmarks.ts</code></td><td class="num">42</td><td><code>userData/bookmarks.json</code> の読み書き（tmp→rename の原子的置換。Vitest 対象）</td></tr>
+          </tbody>
+        </table></div>
+        <p>パッケージングは electron-builder（mac arm64、素材 2.4GB を extraResources 同梱・<strong>ローカルのみ・CI 外</strong>）。方式の背景は ADR 0008 を参照してください。</p>
+      </section>
+
+      <!-- ================================================== -->
+      <section id="data">
+        <p class="sec-eyebrow m-data"><span class="dot bg-data"></span>data/ — すべて生成物</p>
+        <h2>data — 手編集禁止の生成物たち</h2>
+        <div class="tablewrap"><table>
+          <thead><tr><th>ファイル</th><th>生成元</th><th>中身</th></tr></thead>
+          <tbody>
+            <tr><td><code>scene-events/{jp,cn}.json</code></td><td>extract-scenes.py</td><td>シーンコード → <code>{title, events}</code>。beat 生成の一次ソース（jp は 319 コード、各 4〜5MB）</td></tr>
+            <tr><td><code>scenes/{jp,cn}/*.json</code></td><td>build-scenes.ts</td><td>1 シーン = 1 ファイル × 286。<code>{code, route, locale, title, bgm, beats}</code></td></tr>
+            <tr><td><code>flow.json</code></td><td>extract-flow.py</td><td>83 ノード / 113 エッジの完全 CFG。node kind は start/arc/branch/end/omake</td></tr>
+            <tr><td><code>scene-index.json</code></td><td>build-scene-index.ts</td><td>シーンコード → jp/cn title（図の見出し用）</td></tr>
+            <tr><td><code>sprites.json</code> / <code>backgrounds.json</code></td><td>build-defs.ts</td><td>note ラベル → 立ち絵（body/face 差分＋顔オフセット）/ 背景コード</td></tr>
+            <tr><td><code>manifest.json</code></td><td>fetch-assets.ts</td><td>素材 11,088 件の <code>{category, file, size, sha256}</code>。実ファイル名照合の真実の源</td></tr>
+          </tbody>
+        </table></div>
+        <div class="callout"><span class="c-label">Rule</span>ここにあるものは直さない。直したくなったら「生成元スクリプト」か「その入力」を直して再生成します（<code>npm run data:all</code>）。手で直しても次の再生成で消えます。</div>
+      </section>
+
+      <!-- ================================================== -->
+      <section id="sequence">
+        <p class="sec-eyebrow"><span class="dot bg-accent"></span>1 クリックの解剖</p>
+        <h2>クリックから次の表示まで</h2>
+        <p class="lede">「進める」操作 1 回で何がどの順に起きるか。この 1 本を追えると、ストア・エンジン・音声の役割分担が体で分かります。</p>
+        <ol class="seq">
+          <li><span class="seq-t m-engine">入力</span> — クリック / <kbd>Space</kbd> / <kbd>Enter</kbd> / <kbd>→</kbd> を Stage が受け、<code>usePlayer.getState().advance()</code> を呼ぶ <span class="fileref">(Stage.tsx:216)</span></li>
+          <li><span class="seq-t m-store">判定</span> — <code>advance()</code> が 4 段判定: 選択肢中は無視 / beat 内の次ページ（<code>line+1</code>）/ 次 beat（<code>index+1</code>）/ シーン末尾なら <code>FlowNav.advance()</code> → 次シーンロード or 選択肢提示 or 終端 <span class="fileref">(player.ts:106)</span></li>
+          <li><span class="seq-t m-engine">購読が diff</span> — Stage の subscribe が変化の種類を見て、行送りなら <code>renderText</code> のみ、beat 送りなら <code>renderBeat</code>、シーン遷移なら <code>onSceneChange</code>（BGM 切替・旧素材の遅延解放）＋ <code>renderBeat</code> <span class="fileref">(Stage.tsx:177)</span></li>
+          <li><span class="seq-t m-engine">renderBeat の実行順</span> — 背景クロスフェード → 立ち絵 → アイテム窓 → 字幕/題字 → <span class="m-audio">voice → se → bgv → lpse</span> → flash。言語切替時は <code>silent</code> で音声・テクスチャに触れない <span class="fileref">(Stage.tsx:113)</span></li>
+          <li><span class="seq-t m-store">選択肢の場合</span> — <code>pendingChoice</code> がセットされると React の <code>ChoiceOverlay</code> がボタンを描画し、クリックで <code>choose(target)</code> → 分岐先シーンをロードして 3 に戻る</li>
+        </ol>
+      </section>
+
+      <!-- ================================================== -->
+      <section id="reading">
+        <p class="sec-eyebrow"><span class="dot bg-accent"></span>onboarding path</p>
+        <h2>読む順序のすすめ</h2>
+        <p class="lede">データフローの中核から周辺へ。1〜5 で「動く仕組み」、6〜8 で「作る仕組み」が掴めます。</p>
+        <ol>
+          <li><code>app/player/CLAUDE.md</code> — 規約・用語（HU 番号・bytecode・locale）・コマンドの全体像。ここを飛ばすと以降が読みづらい</li>
+          <li><code class="m-pipeline">src/pipeline/types.ts</code> — データ契約。Beat と SceneEvent の形を先に頭に入れる</li>
+          <li><code class="m-pipeline">src/pipeline/scene.ts</code> — まず冒頭 JSDoc、次に <code>buildScene</code> 本体。最も複雑なので時間を割く価値がある</li>
+          <li><code class="m-store">src/store/player.ts</code> — <code>advance()</code> と FlowNav 委譲。アプリの「進行」の定義</li>
+          <li><code class="m-engine">src/engine/Stage.tsx</code> — subscribe の diff 分岐と <code>renderBeat</code>。ここまでで再生系は一巡</li>
+          <li><code class="m-flow">src/flow/scenegraph.ts</code> → <code>FlowMap.tsx</code> — ルート図の変換と UI</li>
+          <li><code class="m-pipeline">resolve.ts / defs.ts / audio.ts</code> と <code class="m-scripts">scripts/</code> — データを再生成・拡張するときに</li>
+          <li>各 <code>*.test.ts</code> — 実際の入出力例が最も具体的な仕様書（特に <code>scene.test.ts</code> 486 行）</li>
+        </ol>
+        <p>実データを 1 つ開いて眺めるのも近道です: <code>data/scenes/jp/001_PRO001A.json</code> を見ながら types.ts を読むと契約が一気に具体化します。</p>
+      </section>
+
+      <!-- ================================================== -->
+      <section id="gotchas">
+        <p class="sec-eyebrow"><span class="dot bg-accent"></span>やってはいけない・ハマりどころ</p>
+        <h2>規約と落とし穴</h2>
+        <ul>
+          <li><strong><code>data/*.json</code> は手編集禁止</strong> — flow.json・scenes・sprites などすべて生成物。再生成で上書きされます</li>
+          <li><strong><code>../prototype/</code> を改変しない</strong> — 演出パラメータ・仕様の参照源（picturebook_v3.html / route_map.html）</li>
+          <li><strong>CG・音声・<code>original_game/</code> をコミットしない</strong> — リポジトリは public。素材は git 外で manifest のみ管理（Git LFS も不使用）</li>
+          <li><strong>ボイス ID の大小文字は推測しない</strong> — 変換規則が不規則なので manifest 照合が唯一の正解</li>
+          <li><strong>beat 生成は bytecode 一次</strong> — 人間可読の txt（<code>md_scr_text_*</code>）は文字列デデュープで再表示が欠落するため beat には使わない（参照・validate 用に残置）</li>
+          <li><strong>git は GitHub Flow</strong> — main は保護ブランチ（PR + CI 必須）。ブランチは <code>hzq886/hu-&lt;N&gt;-&lt;slug&gt;</code>（Linear issue 単位）。PR 前にローカルで typecheck / lint / format:check / test を緑に</li>
+          <li><strong>スキーマ・解決規則・素材取得方式・フロー復元方式を変えるときは ADR を書く</strong>（<code>docs/adr/</code>）</li>
+        </ul>
+      </section>
+
+      <!-- ================================================== -->
+      <section id="commands">
+        <p class="sec-eyebrow"><span class="dot bg-accent"></span>cheat sheet</p>
+        <h2>コマンド早見表</h2>
+        <div class="tablewrap"><table>
+          <thead><tr><th>コマンド</th><th>用途</th></tr></thead>
+          <tbody>
+            <tr><td><code>npm run dev</code></td><td>Vite 開発サーバ（localhost:5173）</td></tr>
+            <tr><td><code>npm run dev:electron</code></td><td>Vite + Electron 同時起動</td></tr>
+            <tr><td><code>npm run typecheck / lint / format / test</code></td><td>CI と同一のチェック（PR 前に全部緑に）</td></tr>
+            <tr><td><code>npm run data:all</code></td><td>データ一括再生成（defs → scene-events → scenes jp/cn → flow → scene-index）</td></tr>
+            <tr><td><code>npm run validate</code> / <code>validate:cn</code></td><td>未解決参照・flow 相互照合（データを触ったら必須級）</td></tr>
+            <tr><td><code>npm run assets:fetch -- --scene &lt;code&gt;</code></td><td>素材を public/assets へ同期＋manifest 生成</td></tr>
+            <tr><td><code>npm run build:electron / dist:electron</code></td><td>Electron ビルド / mac arm64 .app 生成（ローカルのみ・CI 外）</td></tr>
+          </tbody>
+        </table></div>
+        <p>詳細な規約・データ仕様は <code>app/player/CLAUDE.md</code> と <code>docs/adr/</code>、進行管理は Linear（Team <code>Hu</code>）を参照してください。</p>
+      </section>
+    </main>
+  </div>
+</div>
+</body>
+</html>
