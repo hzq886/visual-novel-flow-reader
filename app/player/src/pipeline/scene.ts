@@ -28,6 +28,8 @@
  * レイヤモデル（HU-63）: 通常背景＋立ち絵の下レイヤに、EV／黒一色の被せ CG が覆い被さる。被せ CG 中は
  * 立ち絵を描かず、#背景 note か立ち絵変更で下レイヤへ復帰。アイテム CG（HU-70）は独立オーバーレイで
  * 下レイヤを隠さない。beat 出力は bg = 被せ CG ?? 通常背景、sprites = 被せ CG 中は空、item は独立。
+ * #背景 の表示（0x10）は舞台リセット＝立ち絵レイヤもクリアする（HU-80。原エンジン準拠）。立ち絵
+ * 変更（0x12）での被せ CG 復帰のみ保持スロットを増分更新の基準に使う。
  */
 import {
   Scene,
@@ -78,8 +80,9 @@ export function buildScene(
   let pendingFlash: number | undefined // flash は直後の beat（インパクト行）で光らせる
   let stickyBg: BgRef | undefined // 通常背景（下レイヤ）
   let stickyOverlay: BgRef | undefined // 被せ CG（EV/黒一色。表示中は立ち絵を隠す・HU-63）
-  // 立ち絵スロット（下レイヤ。被せ CG 中も保持し復帰時に再表示）。index=スロット番号、空きは
-  // undefined。0x12 は左右複数スロットを同時表示する（多体・HU-77。単一投影を廃し per-slot sticky）。
+  // 立ち絵スロット（下レイヤ。被せ CG 中も保持し、立ち絵変更での復帰時に増分更新の基準にする。
+  // #背景 復帰は舞台リセット＝クリア・HU-80）。index=スロット番号、空きは undefined。0x12 は左右
+  // 複数スロットを同時表示する（多体・HU-77。単一投影を廃し per-slot sticky）。
   let stickySlots: (SpriteRef | undefined)[] = []
   let stickyItem: ItemRef | undefined // アイテム CG 窓（bg/sprite と独立のオーバーレイ・HU-70）
   let stickyBgv: { id: string; file: null } | undefined
@@ -145,12 +148,18 @@ export function buildScene(
   // 表示状態が実際に変化する場合のみ、開いているナレーション beat を flush して新しい状態を次 beat
   // からスナップショットさせる（HU-34。セリフ beat・引用継続中には触れない＝発話の原子性を維持）。
   // 通常背景（#背景）。被せ CG が出ていれば閉じて下レイヤへ復帰する（HU-63）。
+  // 下レイヤ背景の表示は舞台リセット＝立ち絵レイヤもクリアする（HU-80。原エンジン準拠）。原データは
+  // bg 転換後にキャラを見せる場合、必ず 0x12 を本文前に再発行し（カット転換 42/42 件）、その再宣言が
+  // 旧スロットの持ち越しに依存する例は 0 件。同一ラベルの再表示（時間経過のフェード演出。
+  // 006_TUBA002F L93 は直後に転換前と同一ラベルの立ち絵を再宣言＝クリアされる証拠）でも消えるため、
+  // no-op の早期 return は「同一ラベル・被せ CG 無し・立ち絵無し」に限る。
   const setBg = (label: string) => {
-    if (stickyOverlay === undefined && label === stickyBg?.label) return
+    if (stickyOverlay === undefined && label === stickyBg?.label && !occupiedSlots().length) return
     if (cur?.kind === 'narration') flush()
     stickyOverlay = undefined
     stickyItem = undefined // 防御的クローズ（原データでは 0x3c で閉じ済＝通常 no-op）
     stickyBg = { label, file: null }
+    stickySlots = []
   }
   // 被せ CG（#EV / 黒一色）。下レイヤ（通常背景・立ち絵）はそのまま保持する（HU-63）。
   const setOverlay = (label: string) => {
